@@ -20,7 +20,7 @@ Tất cả tài liệu công khai được lưu trữ trong thư mục `docs/`:
 
 ## ⚡ Cơ Chế Đồng Bộ Tự Động (Automation)
 
-Khi repository chính của game (`mquand/Stardust`) có commit mới vào `docs/**`:
+Khi repository chính của game (`mquand/rowan-of-oakhaven`) có commit mới vào `docs/**`:
 1. GitHub Actions bên repo game chạy kiểm tra chất lượng tài liệu (`npm run docs:check`).
 2. Gửi tín hiệu `repository_dispatch` (event: `docs-updated`) sang repo này (`mquand/rowan-of-oakhaven-wiki`).
 3. GitHub Actions bên repo wiki tự động kéo tài liệu mới, chạy `node scripts/filter-data.mjs` để lọc bỏ trường bí mật và commit cập nhật tự động.

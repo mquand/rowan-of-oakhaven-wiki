@@ -1,4 +1,4 @@
-name: Sync Docs from Stardust Game Repo
+name: Sync Docs from Rowan of Oakhaven Game Repo
 
 on:
   repository_dispatch:
@@ -15,7 +15,7 @@ jobs:
       - name: Checkout Game Repo (Public docs & data only)
         uses: actions/checkout@v4
         with:
-          repository: mquand/Stardust
+          repository: mquand/rowan-of-oakhaven
           token: ${{ secrets.GAME_REPO_TOKEN }}
           path: game-repo
 
@@ -33,5 +33,5 @@ jobs:
           git config user.name "Fluvio Bot"
           git config user.email "bot@fluviogames.com"
           git add docs/
-          git diff --quiet && git diff --staged --quiet || git commit -m "Auto-sync docs from Stardust [skip ci]"
+          git diff --quiet && git diff --staged --quiet || git commit -m "Auto-sync docs from Rowan of Oakhaven [skip ci]"
           git push
