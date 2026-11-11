@@ -1,7 +1,7 @@
 {
-  "name": "stardust-wiki",
+  "name": "rowan-of-oakhaven-wiki",
   "version": "1.0.0",
-  "description": "Public documentation and game wiki for Stardust by Fluvio Games",
+  "description": "Public documentation and game wiki for Rowan of Oakhaven by Fluvio Games",
   "private": true,
   "type": "module",
   "scripts": {
