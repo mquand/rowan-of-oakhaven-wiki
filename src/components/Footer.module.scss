@@ -1,0 +1,78 @@
+@use '../styles/variables' as *;
+
+.footer {
+  border-top: 1px solid $color-night-border;
+  background: $color-night-dark;
+  padding: 3rem 1.5rem 2rem;
+  margin-top: 4rem;
+  color: $color-text-muted;
+  font-size: 0.9rem;
+}
+
+.container {
+  max-width: $max-width;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.topRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.about {
+  max-width: 420px;
+
+  h3 {
+    color: $color-amber-glow;
+    font-size: 1.1rem;
+    margin-bottom: 0.6rem;
+  }
+
+  p {
+    line-height: 1.5;
+    color: $color-text-dim;
+  }
+}
+
+.links {
+  display: flex;
+  gap: 3rem;
+
+  h4 {
+    color: $color-text-main;
+    font-size: 0.9rem;
+    margin-bottom: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+
+  ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+
+    a {
+      color: $color-text-muted;
+      &:hover {
+        color: $color-amber-glow;
+      }
+    }
+  }
+}
+
+.bottomRow {
+  border-top: 1px solid rgba($color-night-border, 0.6);
+  padding-top: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.82rem;
+  color: $color-text-dim;
+}

@@ -1,0 +1,48 @@
+@use '../styles/variables' as *;
+
+.sidebar {
+  width: $sidebar-width;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.section {
+  background: $color-night-card;
+  border: 1px solid $color-night-border;
+  border-radius: $radius-md;
+  padding: 1.2rem;
+
+  h3 {
+    font-size: 0.82rem;
+    color: $color-text-dim;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin-bottom: 0.8rem;
+    font-weight: 700;
+  }
+
+  ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+
+    a {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      padding: 6px 10px;
+      border-radius: $radius-sm;
+      font-size: 0.9rem;
+      color: $color-text-muted;
+      transition: all 0.2s ease;
+
+      &:hover, &.active {
+        color: $color-amber-glow;
+        background: $color-night-elevated;
+      }
+    }
+  }
+}

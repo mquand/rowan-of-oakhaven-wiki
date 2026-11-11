@@ -5,6 +5,17 @@
   "private": true,
   "type": "module",
   "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
     "filter:data": "node scripts/filter-data.mjs"
+  },
+  "dependencies": {
+    "gray-matter": "^4.0.3",
+    "marked": "^18.2.0",
+    "next": "^16.4.6",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "sass": "^1.108.2"
   }
 }
