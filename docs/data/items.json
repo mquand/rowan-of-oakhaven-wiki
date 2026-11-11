@@ -1,0 +1,151 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "version": "1.0.0",
+  "updated": "2026-11-12",
+  "items": [
+    {
+      "id": "seed_sen_tea",
+      "name": "Hạt Búp Trà Sen",
+      "description": "Hạt giống hoa sen tuyết, nguyên liệu nền chính cho các loại trà thảo mộc.",
+      "category": "seed",
+      "tags": [
+        "farming",
+        "seed",
+        "spring",
+        "summer"
+      ],
+      "sprite": "res://assets/items/seeds/seed_sen_tea.png"
+    },
+    {
+      "id": "seed_lumiberry",
+      "name": "Hạt Dâu Tuyết Dạ Quang",
+      "description": "Hạt quả dâu phát quang dịu nhẹ trong đêm, vị chua ngọt thanh khiết.",
+      "category": "seed",
+      "tags": [
+        "farming",
+        "seed",
+        "summer",
+        "autumn"
+      ],
+      "sprite": "res://assets/items/seeds/seed_lumiberry.png"
+    },
+    {
+      "id": "seed_silver_wheat",
+      "name": "Hạt Lúa Mì Bạc",
+      "description": "Bông lúa mì óng ả ánh bạc. Đem xay tại cối xay gió để thu bột mì tươi.",
+      "category": "seed",
+      "tags": [
+        "farming",
+        "seed",
+        "spring",
+        "summer",
+        "autumn"
+      ],
+      "sprite": "res://assets/items/seeds/seed_silver_wheat.png"
+    },
+    {
+      "id": "seed_star_lavender",
+      "name": "Hạt Oải Hương Sao",
+      "description": "Hoa oải hương tỏa hương thơm ngát dưới ánh sao, có công dụng an thần.",
+      "category": "seed",
+      "tags": [
+        "farming",
+        "seed",
+        "spring",
+        "autumn"
+      ],
+      "sprite": "res://assets/items/seeds/seed_star_lavender.png"
+    },
+    {
+      "id": "seed_sun_daisy",
+      "name": "Hạt Hoa Cúc Mặt Trời",
+      "description": "Loài hoa cúc vàng rực rỡ hấp thụ ánh nắng sớm, dùng pha trà hồi phục thể lực.",
+      "category": "seed",
+      "tags": [
+        "farming",
+        "seed",
+        "spring",
+        "summer"
+      ],
+      "sprite": "res://assets/items/seeds/seed_sun_daisy.png"
+    },
+    {
+      "id": "seed_sweet_pumpkin",
+      "name": "Hạt Bí Ngô Mật Ong",
+      "description": "Bí ngô vỏ vàng ruộm ngọt lịm đặc trưng của mùa thu, nguyên liệu nướng bánh lễ hội.",
+      "category": "seed",
+      "tags": [
+        "farming",
+        "seed",
+        "autumn"
+      ],
+      "sprite": "res://assets/items/seeds/seed_sweet_pumpkin.png"
+    },
+    {
+      "id": "item_flour",
+      "name": "Bột Mì Tươi",
+      "description": "Bột mì xay mịn từ lúa mì bạc, dùng nhào bột nướng bánh.",
+      "category": "ingredient",
+      "tags": [
+        "bakery",
+        "ingredient"
+      ],
+      "sprite": "res://assets/items/crafted/item_flour.png"
+    },
+    {
+      "id": "ore_coal",
+      "name": "Than Đá",
+      "description": "Khoáng sản khai thác từ mỏ tầng 1-25, dùng làm chất đốt lò nướng bánh.",
+      "category": "mineral",
+      "tags": [
+        "mining",
+        "fuel"
+      ],
+      "sprite": "res://assets/items/minerals/ore_coal.png"
+    },
+    {
+      "id": "ore_copper",
+      "name": "Quặng Đồng",
+      "description": "Quặng kim loại dẻo khai thác ở mỏ tầng 26-50, dùng rèn công cụ cấp 2.",
+      "category": "mineral",
+      "tags": [
+        "mining",
+        "metal"
+      ],
+      "sprite": "res://assets/items/minerals/ore_copper.png"
+    },
+    {
+      "id": "ore_iron",
+      "name": "Quặng Sắt",
+      "description": "Quặng kim loại cứng khai thác ở mỏ tầng 51-75, dùng rèn công cụ cấp 3.",
+      "category": "mineral",
+      "tags": [
+        "mining",
+        "metal"
+      ],
+      "sprite": "res://assets/items/minerals/ore_iron.png"
+    },
+    {
+      "id": "ore_gold",
+      "name": "Quặng Vàng",
+      "description": "Quặng kim loại quý khai thác ở mỏ tầng 76-100, dùng rèn công cụ cấp 4.",
+      "category": "mineral",
+      "tags": [
+        "mining",
+        "metal"
+      ],
+      "sprite": "res://assets/items/minerals/ore_gold.png"
+    },
+    {
+      "id": "gem_amethyst",
+      "name": "Thạch Anh Tím",
+      "description": "Tinh thể phát quang ánh tím ma thuật, dùng làm bánh tart pha lê và trang trí.",
+      "category": "gem",
+      "tags": [
+        "mining",
+        "crystal"
+      ],
+      "sprite": "res://assets/items/minerals/gem_amethyst.png"
+    }
+  ]
+}

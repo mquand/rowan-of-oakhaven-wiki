@@ -1,0 +1,10 @@
+{
+  "name": "stardust-wiki",
+  "version": "1.0.0",
+  "description": "Public documentation and game wiki for Stardust by Fluvio Games",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "filter:data": "node scripts/filter-data.mjs"
+  }
+}

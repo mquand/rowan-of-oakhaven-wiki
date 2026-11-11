@@ -1,0 +1,104 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "version": "1.0.0",
+  "updated": "2026-11-12",
+  "characters": [
+    {
+      "id": "npc_rowan",
+      "name": "Rowan",
+      "role": "Chủ Tiệm Trà Bụi Sao",
+      "location": "Tiệm Bụi Sao (Oakhaven)",
+      "species": "Human (Phù Thủy)",
+      "description": "Nữ phù thủy trẻ vừa rời Viện Phép Thuật, kế thừa tiệm trà bánh và quyển sổ rách bí truyền của bà ngoại Amalia.",
+      "portrait_path": "res://assets/ui/portraits/rowan/portrait_rowan_default.png",
+      "favorite_items": [
+        "tra_sen_an_than",
+        "bread_brioche"
+      ],
+      "quote": "Phép thuật vĩ đại nhất đôi khi chỉ là một tách trà ấm và nụ cười sẻ chia."
+    },
+    {
+      "id": "pet_pip",
+      "name": "Pip",
+      "role": "Cú Lùn Đưa Thư & Thu Nhặt Hạt Giống",
+      "location": "Tiệm Bụi Sao / Rừng Thầm Thì",
+      "species": "Lùn Cú Ma Thuật",
+      "description": "Chú cú tròn xoe, thông minh, mang hạt mầm kỳ lạ từ rừng sâu về hòm thư mỗi sớm.",
+      "portrait_path": "res://assets/characters/pets/pip/pip_idle_south_0_32x32.png",
+      "favorite_items": [
+        "seed_sen_tea",
+        "mat_ong"
+      ],
+      "quote": "Hú... cú... *nghiêng đầu chớp mắt*"
+    },
+    {
+      "id": "pet_mallow",
+      "name": "Mallow",
+      "role": "Mèo Giữ Tiệm",
+      "location": "Tiệm Bụi Sao (Quầy Bar / Lò Sưởi)",
+      "species": "Mèo Tam Thể",
+      "description": "Chú mèo tam thể tròn xoe đến tiệm trú mưa rồi ở lại luôn, thích ngủ nướng bên đèn dầu.",
+      "portrait_path": "res://assets/characters/pets/mallow/mallow_idle_south_0_32x32.png",
+      "favorite_items": [
+        "item_butter",
+        "dau_rung"
+      ],
+      "quote": "Meo... *gừ gừ thư thái*"
+    },
+    {
+      "id": "npc_lumi",
+      "name": "Lumi",
+      "role": "Tinh Linh Rừng Thầm Thì",
+      "location": "Rừng Thầm Thì / Ghé Tiệm Buổi Tối",
+      "species": "Kemomimi-Elf (Cáo Tuyết & Tinh Linh)",
+      "description": "Tinh Linh dạng Kemomimi-Elf độc bản — 2 tai cáo tuyết trắng xù trên đỉnh đầu + 2 tai nhọn tinh linh, tóc xanh ngọc bích twin-tails, khăn len đỏ.",
+      "portrait_path": "res://assets/ui/portraits/lumi/portrait_lumi_default.png",
+      "favorite_items": [
+        "tra_sen_an_than"
+      ],
+      "quote": "Tiếng gió rít ngoài rừng đêm nay làm tai tôi ù đi... có thứ gì thanh mát làm lòng tôi dịu lại không?"
+    },
+    {
+      "id": "npc_boris",
+      "name": "Boris Barnaby",
+      "role": "Bác Thợ Rèn Thị Trấn",
+      "location": "Lò Rèn Oakhaven",
+      "species": "Dwarf (Người Lùn)",
+      "description": "Thợ rèn người lùn rắn rỏi với bộ râu hung đỏ tết bím đôi, áo gile da sạm tro than mỏ.",
+      "portrait_path": "res://assets/ui/portraits/boris/portrait_boris_default.png",
+      "favorite_items": [
+        "pastry_cinnamon_roll",
+        "tra_sen_an_than"
+      ],
+      "quote": "Cả ngày quai búa mỏi rã rời, lò rèn ấm nhưng lòng lão thì lạnh ngắt... Cho lão thứ gì vừa ngọt vừa thơm nức mùi gỗ quế nào."
+    },
+    {
+      "id": "npc_maeve",
+      "name": "Maeve",
+      "role": "Bà Lão Làm Vườn",
+      "location": "Nông Trại Oakhaven",
+      "species": "Human",
+      "description": "Bà lão làm vườn hiền hậu với mái tóc bạc búi thấp và khăn trùm đầu thêu hoa mùa xuân, bà nuôi của Kael.",
+      "portrait_path": "res://assets/ui/portraits/maeve/portrait_maeve_default.png",
+      "favorite_items": [
+        "pastry_scone_berry",
+        "seed_sun_daisy"
+      ],
+      "quote": "Mấy luống bí ngô hôm nay sâu ăn dữ quá, đứng nhổ cỏ từ trưa tới giờ lưng tôi sắp gãy rồi cô bé ơi..."
+    },
+    {
+      "id": "npc_kael",
+      "name": "Kael",
+      "role": "Cậu Bé Bán Diêm",
+      "location": "Bờ Sông / Góc Chợ Oakhaven",
+      "species": "Human",
+      "description": "Cậu bé mồ côi với chiếc mũ len chóp, áo khoác vá chỉ màu và đôi mắt to sáng long lanh, cháu nuôi của Maeve.",
+      "portrait_path": "res://assets/ui/portraits/kael/portrait_kael_default.png",
+      "favorite_items": [
+        "cake_fairy_birthday",
+        "dau_rung"
+      ],
+      "quote": "Bà Maeve dạo này hay đau nhức chân... Cháu muốn đổi hộp diêm lấy một tách trà gừng cho bà, cháu còn thiếu mấy đồng ạ?"
+    }
+  ]
+}
