@@ -1,5 +1,5 @@
 ---
-title: "Game Overview — Stardust (Tiệm Bụi Sao)"
+title: "Game Overview — Rowan of Oakhaven"
 status: draft
 audience: public
 updated: 2026-11-12
@@ -7,7 +7,7 @@ tags: [overview, pitch, core-loop, features]
 spoiler: false
 ---
 
-# 🍵 Stardust (Tiệm Bụi Sao) — Game Overview
+# 🍵 Rowan of Oakhaven — Game Overview
 
 > **Thể loại:** Cozy Dark Pixel RPG · ASMR Tea Brewing & Bakery · Herb Farming · Crystal Mining · Narrative Healing  
 > **Nền tảng:** PC (Steam, 16:9 Landscape) & Mobile  

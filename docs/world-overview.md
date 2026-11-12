@@ -9,14 +9,14 @@ spoiler: false
 
 # 🌍 World Overview — Thế Giới Năm Vương Quốc
 
-> **Game:** Stardust (Tiệm Bụi Sao)  
+> **Game:** Rowan of Oakhaven  
 > **Thể loại:** Cozy Dark Pixel RPG — ASMR Tea & Bakery · Farming · Mining · Narrative Healing
 
 ---
 
 ## Tổng Quan Thế Giới
 
-Thế giới của Stardust trải dài qua **5 Vương Quốc** (Realms), mỗi vương quốc mang một nền văn hóa, địa hình và cư dân độc đáo. Oakhaven — ngôi làng nhỏ của Rowan — nằm ở trung tâm, là điểm giao thoa của mọi hành trình.
+Thế giới của Rowan of Oakhaven trải dài qua **5 Vương Quốc** (Realms), mỗi vương quốc mang một nền văn hóa, địa hình và cư dân độc đáo. Oakhaven — ngôi làng nhỏ của Rowan — nằm ở trung tâm, là điểm giao thoa của mọi hành trình.
 
 ---
 

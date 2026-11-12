@@ -9,7 +9,7 @@ spoiler: false
 
 # 🎨 Art Direction & Visual Identity
 
-> **Game:** Stardust (Tiệm Bụi Sao)  
+> **Game:** Rowan of Oakhaven  
 > **Phong cách chủ đạo:** **Dark Cozy Pixel Art** — thế giới đêm lạnh (navy/tím) kết hợp nguồn sáng ấm vàng mật ong và hiệu ứng ánh sáng 2D của Godot 4.  
 > **Mục tiêu cảm xúc:** Ấm áp, thư thái, ngon mắt (Appetizing) và chữa lành tâm hồn.
 
