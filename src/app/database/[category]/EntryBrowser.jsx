@@ -47,7 +47,7 @@ const CONFIG = {
   monsters: {
     icon: 'sparkle',
     badge: e => REALM_LABELS[e.realm] || e.realm,
-    search: e => [e.name, e.name_en, e.description, e.weakness, e.soothe_reward, ...(e.tags || [])],
+    search: e => [e.name, e.name_en, e.description, e.weakness, e.loot, ...(e.tags || [])],
     facet: {
       field: 'realm',
       labels: REALM_LABELS,
@@ -55,7 +55,7 @@ const CONFIG = {
     },
     details: e => [
       { label: 'Điểm yếu', value: e.weakness },
-      { label: 'Phần thưởng xoa dịu', value: e.soothe_reward },
+      { label: 'Loot khi hạ', value: e.loot },
     ],
   },
   crops: {

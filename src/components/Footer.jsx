@@ -11,7 +11,7 @@ export default function Footer() {
             <h3 className={styles.brand}><Icon name="leaf" size={18} /> Rowan of Oakhaven</h3>
             <p>
               Tựa game Cozy Dark Pixel RPG kết hợp nghệ thuật pha trà ASMR, nướng bánh ma thuật,
-              trồng trọt và xoa dịu quái vật trong thế giới Năm Vương Quốc.
+              trồng trọt và chiến đấu thanh tẩy quái vật trong thế giới Năm Vương Quốc.
             </p>
           </div>
 
@@ -20,9 +20,10 @@ export default function Footer() {
               <h4>Explore</h4>
               <ul>
                 <li><Link href="/wiki/game-overview">Giới Thiệu Game</Link></li>
+                <li><Link href="/wiki/getting-started">Hướng Dẫn Khởi Đầu</Link></li>
                 <li><Link href="/wiki/world-overview">Bản Đồ 5 Vực</Link></li>
-                <li><Link href="/wiki/art-direction">Phong Cách Mỹ Thuật</Link></li>
                 <li><Link href="/wiki/character-roster">Dàn Nhân Vật</Link></li>
+                <li><Link href="/wiki/festivals-events">Lễ Hội & Sự Kiện</Link></li>
               </ul>
             </div>
 

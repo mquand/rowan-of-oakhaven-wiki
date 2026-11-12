@@ -7,8 +7,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
-    "filter:data": "node scripts/filter-data.mjs"
+    "start": "next start"
   },
   "dependencies": {
     "gray-matter": "^4.0.3",

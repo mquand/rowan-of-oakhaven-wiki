@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "updated": "2026-11-12",
   "monsters": [
     {
@@ -9,8 +9,8 @@
       "name_en": "Furnace Cog-Automaton",
       "realm": "khaz-drakor",
       "description": "Tạo tác cơ khí cổ xưa bị bỏ rơi, bụng là lò than rực đỏ phun khói ngạt và tiếng bánh răng kèn kẹt.",
-      "weakness": "Quá nhiệt, bốc hỏa — hạ nhiệt bằng Trà Bạc Hà",
-      "soothe_reward": "Bánh Răng Vàng Ròng",
+      "weakness": "Yếu băng/đập giáp — phá lò than bằng Kiếm Pha Lê hoặc Gậy Quấy Trà",
+      "loot": "Bánh Răng Vàng Ròng",
       "tags": [
         "mechanical",
         "fire",
@@ -22,9 +22,9 @@
       "name": "Ốc Sên Quặng Dung Nham",
       "name_en": "Magma Magnesnail",
       "realm": "khaz-drakor",
-      "description": "Ốc sên vỏ nam chảy nóng chảy hút sắt vụn, bò chậm rãi qua các mạch quặng sâu.",
-      "weakness": "Nam châm nóng chảy — cho ăn vụn bánh mì cháy",
-      "soothe_reward": "Thỏi Đồng & Kim Cương Đỏ",
+      "description": "Ốc sên vỏ nam châm nóng chảy hút sắt vụn, bò chậm rãi qua các mạch quặng sâu.",
+      "weakness": "Yếu đập — Liềm Ma Thuật hoặc Gậy Quấy Trà phá vỏ nam châm",
+      "loot": "Thỏi Đồng & Kim Cương Đỏ",
       "tags": [
         "beast",
         "lava",
@@ -37,8 +37,8 @@
       "name_en": "Steam-Mole Driller",
       "realm": "khaz-drakor",
       "description": "Chuột chũi cơ khí đội mũ bảo hộ gắn mũi khoan đồng thau, lặn sâu dưới lòng đất hất tung đá hoa cương.",
-      "weakness": "Đang đào — dùng Đèn Lồng Bão Đom Đóm xua hướng",
-      "soothe_reward": "Linh kiện cơ khí cổ",
+      "weakness": "Yếu sáng — Đèn Lồng Bão Đom Đóm choáng và đẩy lùi",
+      "loot": "Linh kiện cơ khí cổ",
       "tags": [
         "mechanical",
         "underground",
@@ -51,8 +51,8 @@
       "name_en": "Gloom-Root Strangler",
       "realm": "sylva-fae",
       "description": "Rễ cổ thụ đen ngòm quấn chân người lạc đường, hoa trên chóp bắn phấn hoa làm mờ màn hình.",
-      "weakness": "U uất, lạnh lẽo — tưới Trà Hoa Cúc",
-      "soothe_reward": "Khóm thảo mộc quý",
+      "weakness": "Yếu lửa — đốt rễ bằng đòn lửa/sáng",
+      "loot": "Khóm thảo mộc quý",
       "tags": [
         "plant",
         "dark",
@@ -65,8 +65,8 @@
       "name_en": "Nectar Phantasm Moth",
       "realm": "sylva-fae",
       "description": "Bướm đêm cánh thêu hoa văn mị hoặc, sà xuống cướp mật hoa và búp trà tươi trong túi Rowan.",
-      "weakness": "Tham ăn — dụ bằng mật ong hoặc hoa tươi",
-      "soothe_reward": "Cánh bướm phát quang",
+      "weakness": "Yếu tầm xa — Đèn Lồng Bão Đom Đóm bắn sáng xẹp cánh",
+      "loot": "Cánh bướm phát quang",
       "tags": [
         "insect",
         "flying",
@@ -79,8 +79,8 @@
       "name_en": "Bramble Puck",
       "realm": "sylva-fae",
       "description": "Yêu tinh rêu nhỏ đội nón nấm, chuyên ném bùn làm bẩn áo và giật mũ phù thủy của Rowan.",
-      "weakness": "Tinh nghịch, tăng động — cần Trà Sen an thần",
-      "soothe_reward": "Bùn sao phát sáng",
+      "weakness": "Yếu đập AoE — Liềm Ma Thuật quét đàn nhỏ",
+      "loot": "Bùn sao phát sáng",
       "tags": [
         "spirit",
         "mischief",
@@ -93,8 +93,8 @@
       "name_en": "Astral Hollow Knight",
       "realm": "solaria",
       "description": "Bộ giáp cẩm thạch rỗng ruột đi tuần theo tiếng chuông đồng hồ, vung gươm chém ra sóng pha lê.",
-      "weakness": "Vô hồn, máy móc — cần đồ uống giữ tỉnh táo",
-      "soothe_reward": "Mảnh giáp cẩm thạch",
+      "weakness": "Yếu đập giáp — Gậy Quấy Trà slam phá giáp cẩm thạch",
+      "loot": "Mảnh giáp cẩm thạch",
       "tags": [
         "undead",
         "armor",
@@ -107,8 +107,8 @@
       "name_en": "Grimoire Mimic",
       "realm": "solaria",
       "description": "Cuốn sách phép thuật có răng nẹp đồng, vỗ bìa bay lượn và bắn cổ ngữ gây choáng.",
-      "weakness": "Sợ trang trí — dỗ bằng bìa sách hoặc băng ghế",
-      "soothe_reward": "Trang sách ma thuật",
+      "weakness": "Yếu melee nhanh — Kiếm Pha Lê Sao combo 3 nhịp",
+      "loot": "Trang sách ma thuật",
       "tags": [
         "construct",
         "flying",
@@ -121,8 +121,8 @@
       "name_en": "Mirror-Glass Raven",
       "realm": "solaria",
       "description": "Quạ khổng lồ có cánh bằng mảnh gương vỡ, phản chiếu ánh sao làm lóa mắt kẻ địch.",
-      "weakness": "Phản quang — che mắt bằng vật chắn hoặc ánh sáng dịu",
-      "soothe_reward": "Mảnh gương sao",
+      "weakness": "Yếu sáng/đập — Đèn Lồng Bão Đom Đóm phá cánh gương",
+      "loot": "Mảnh gương sao",
       "tags": [
         "beast",
         "flying",
@@ -135,8 +135,8 @@
       "name_en": "Solar Gryphon",
       "realm": "aethelgard",
       "description": "Nửa sư tử nửa đại bàng dệt từ mây trắng và hào quang, hộ vệ Cây Trường Sinh giữa thiên đường.",
-      "weakness": "Kiêu hãnh, cao quý — cần lễ vật xứng tầm",
-      "soothe_reward": "Lông mây ánh sáng",
+      "weakness": "Yếu đòn nặng — cần vũ khí cấp cao và né hào quang",
+      "loot": "Lông mây ánh sáng",
       "tags": [
         "mythic",
         "guardian",
@@ -149,8 +149,8 @@
       "name_en": "Aurora Stag",
       "realm": "aethelgard",
       "description": "Hươu linh thiêng có cặp sừng là dải cực quang nhảy múa trên bầu trời sao.",
-      "weakness": "Thích ấm áp, yên tĩnh — tặng Trà Tinh Tú",
-      "soothe_reward": "Trở thành Thú Cưỡi Thiên Đàng lướt trên mây",
+      "weakness": "Yếu đòn cực quang — cần vũ khí Tinh Tú cấp cao",
+      "loot": "Lông Cực Quang (mở khóa thú cưỡi thiên đường)",
       "tags": [
         "mythic",
         "spirit",
@@ -163,8 +163,8 @@
       "name_en": "Poltergeist Kettle",
       "realm": "oakhaven",
       "description": "Ấm trà cổ bị bỏ hoang bay lơ lửng trong mỏ, phun hơi nước sôi cay nồng.",
-      "weakness": "U uất, lẻ loi — cho ăn trà khô thơm",
-      "soothe_reward": "Trở thành ấm trà ấm áp cho tiệm",
+      "weakness": "Yếu sáng/đập — Đèn Lồng + Kiếm Pha Lê Sao",
+      "loot": "Mảnh ấm trà cổ",
       "tags": [
         "spirit",
         "haunted",
@@ -177,8 +177,8 @@
       "name_en": "Dark Crystal Scarab",
       "realm": "oakhaven",
       "description": "Bọ cánh cứng mai là cụm thạch anh đen lạo xạo bám trên vách đá hang mỏ.",
-      "weakness": "Cứng đầu — cần đập hoặc xoa dịu bằng bánh ngọt",
-      "soothe_reward": "Thạch anh đen",
+      "weakness": "Yếu đập — Gậy Quấy Trà đập vỡ mai thạch anh",
+      "loot": "Thạch anh đen",
       "tags": [
         "beetle",
         "crystal",

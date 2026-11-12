@@ -214,7 +214,7 @@ img {
   }
 
   // Màu theo category vật phẩm — kiểu tag trong inventory game
-  // Theo bảng màu Dark Cozy tại docs/art-direction.md mục 2
+  // Theo bảng màu Dark Cozy của game (5 nhóm màu)
   &.seed {
     color: $color-cat-seed;
     border-color: rgba($color-cat-seed, 0.3);

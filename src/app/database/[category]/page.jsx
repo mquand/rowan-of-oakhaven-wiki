@@ -14,7 +14,7 @@ const CATEGORIES = {
   monsters: {
     loader: getMonsters,
     title: 'Sổ quái vật',
-    subtitle: 'Sinh vật bị Bụi Sao Hắc Hóa trên khắp Năm Vương quốc — xoa dịu bằng vị giác và trà bánh',
+    subtitle: 'Sinh vật bị Bụi Sao Hắc Hóa trên khắp Năm Vương quốc — đánh bại để thanh tẩy đới mỏ',
     icon: 'sparkle',
   },
   crops: {

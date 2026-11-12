@@ -1,29 +1,55 @@
 # 🍵 Rowan of Oakhaven Wiki (by Fluvio Games)
 
-Chào mừng đến với kho lưu trữ tài liệu Wiki chính thức của tựa game **Rowan of Oakhaven**, được phát triển bởi **Fluvio Games**.
+Bách khoa toàn thư chính thức dành cho người chơi của tựa game **Rowan of Oakhaven** (Tiệm Bụi Sao), do **Fluvio Games** phát triển.
 
-> ⚠️ **Lưu ý:** Repository này là **OUTPUT TỰ ĐỘNG ĐƯỢC SINH RA** từ repository chính của game. Mọi chỉnh sửa thủ công trực tiếp trên repo này sẽ bị ghi đè khi pipeline đồng bộ kích hoạt.
-
----
-
-## 📖 Cấu Trúc Nội Dung Wiki
-
-Tất cả tài liệu công khai được lưu trữ trong thư mục `docs/`:
-
-- [`docs/world-overview.md`](docs/world-overview.md) — Bản đồ & 5 Đại Vực trong thế giới Rowan of Oakhaven.
-- [`docs/game-overview.md`](docs/game-overview.md) — Tổng quan lối chơi, vòng lặp ngày & 12 tính năng đặc trưng.
-- [`docs/art-direction.md`](docs/art-direction.md) — Phong cách Dark Cozy Pixel Art & bảng màu chuẩn.
-- [`docs/character-roster.md`](docs/character-roster.md) — Dàn nhân vật Rowan, bạn đồng hành và cư dân Oakhaven.
-- `docs/data/` — Dữ liệu JSON công khai (vật phẩm, công thức, nhân vật) đã được lọc bỏ các trường nhạy cảm nội bộ.
+> Repo này **độc lập** và là **nguồn sự thật duy nhất** cho nội dung wiki công khai.
+> Bạn chỉnh sửa trực tiếp tại đây — **không còn đồng bộ tự động** từ repo game nữa.
+> Phong cách tham chiếu: wiki người chơi kiểu *Stardew Valley* / *Terraria* (kiến thức curated, không sinh tự động từ dữ liệu game).
 
 ---
 
-## ⚡ Cơ Chế Đồng Bộ Tự Động (Automation)
+## 📖 Cấu Trúc Nội Dung
 
-Khi repository chính của game (`mquand/rowan-of-oakhaven`) có commit mới vào `docs/**`:
-1. GitHub Actions bên repo game chạy kiểm tra chất lượng tài liệu (`npm run docs:check`).
-2. Gửi tín hiệu `repository_dispatch` (event: `docs-updated`) sang repo này (`mquand/rowan-of-oakhaven-wiki`).
-3. GitHub Actions bên repo wiki tự động kéo tài liệu mới, chạy `node scripts/filter-data.mjs` để lọc bỏ trường bí mật và commit cập nhật tự động.
+Nội dung người chơi nằm trong `docs/`:
+
+**Trang tường thuật** (render tại `/wiki/<slug>`):
+
+- [`docs/game-overview.md`](docs/game-overview.md) — Tổng quan: logline, cốt truyện, vòng lặp ngày, 12 tính năng.
+- [`docs/gameplay-guide.md`](docs/gameplay-guide.md) — Cách chơi: chu kỳ ngày, thể lực, mùa, công cụ.
+- [`docs/character-roster.md`](docs/character-roster.md) — Dàn nhân vật, bạn đồng hành, cư dân Oakhaven.
+- [`docs/world-overview.md`](docs/world-overview.md) — Bản đồ & 5 Đại Vực.
+- [`docs/getting-started.md`](docs/getting-started.md) — Hướng dẫn khởi đầu cho người chơi mới.
+- [`docs/festivals-events.md`](docs/festivals-events.md) — Lễ hội & sự kiện theo lịch năm.
+- [`docs/calendar-seasons.md`](docs/calendar-seasons.md) — Lịch, bốn mùa & thời tiết.
+- [`docs/dungeon-combat.md`](docs/dungeon-combat.md) — Hầm ngục & chiến đấu.
+- [`docs/lore-story.md`](docs/lore-story.md) — Cốt truyện & lore (spoiler).
+
+**Dữ liệu duyệt được** (render tại `/database/*`, nguồn `docs/data/*.json`):
+
+- Vật phẩm / hạt giống / khoáng sản / tinh thể / đồ rơi từ quái (`items.json`)
+- Cây trồng (`crops.json`), công thức trà & bánh (`recipes.json`), vũ khí (`weapons.json`)
+- Nhân vật (`characters.json`), quái vật (`monsters.json`), địa điểm (`locations.json`), kỹ năng (`perks.json`)
+
+> 🔒 **Nội dung cốt truyện / nhạy cảm:** dùng frontmatter `spoiler: true` để ẩn khỏi trang chủ — đúng cách wiki Stardew/Terraria đánh dấu spoil.
+
+---
+
+## 🛠️ Chạy & Build
+
+```bash
+npm install
+npm run dev      # phát triển trên localhost
+npm run build    # build production
+npm run start    # chạy bản build
+```
+
+**Triển khai (deploy):** Wiki là app **Next.js**, deploy độc lập trên nền tảng gắn với repo này (vd Vercel / GitHub Pages) — KHÔNG phụ thuộc repo game.
+
+---
+
+## 🎨 Quy Chuẩn Thiết Kế
+
+Toàn bộ UI wiki tuân theo phong cách **Dark Cozy Pixel Art** của game — xem [`AGENTS.md`](AGENTS.md) và `.agents/skills/` trước khi sửa giao diện.
 
 ---
 © 2026 **Fluvio Games**. All rights reserved.
