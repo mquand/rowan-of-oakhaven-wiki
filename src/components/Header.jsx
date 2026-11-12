@@ -39,12 +39,12 @@ export default function Header() {
   return (
     <>
       <header className={styles.header}>
-        <div className={styles.navPill}>
+        <div className={styles.navContainer}>
           <Link href="/" className={styles.brand} onClick={() => setOpen(false)}>
             <span className={styles.brandMark}><Icon name="tea-bag" size={20} /></span>
             <span className={styles.brandText}>
-              <span className={styles.brandName}>Rowan of Oakhaven</span>
-              <span className={styles.brandSub}>Fluvio Games Wiki</span>
+              <span className={styles.brandName}>ROWAN OF OAKHAVEN</span>
+              <span className={styles.brandSub}>Bách Khoa Toàn Thư</span>
             </span>
           </Link>
 

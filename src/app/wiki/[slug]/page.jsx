@@ -5,13 +5,6 @@ import Sidebar from '../../../components/Sidebar';
 import Icon from '../../../components/Icon';
 import { getAllDocs, getDocBySlug } from '../../../lib/docs';
 
-// Pixel font chỉ dùng cho nhãn ASCII (tránh glyph tiếng Việt bị fallback)
-const SMART_PUNCTUATION = /[\u2013\u2014\u2018\u2019\u201C\u201D\u2026]/g;
-
-function canUsePixelFont(text) {
-  return /^[\x20-\x7E]*$/.test(text.replace(SMART_PUNCTUATION, '-'));
-}
-
 function formatDate(value) {
   const match = /^(\d{4})-(\d{2})-(\d{2})/.exec(value || '');
   if (!match) return value || '—';
@@ -54,24 +47,24 @@ export default async function DocPage({ params }) {
         <nav className={styles.breadcrumb} aria-label="Breadcrumb">
           <Link href="/">Trang chủ</Link>
           <span aria-hidden="true">/</span>
-          <Link href="/wiki">Tài liệu</Link>
+          <Link href="/wiki">Tàng Thư Các</Link>
           <span aria-hidden="true">/</span>
           <span className={styles.breadcrumbCurrent}>{doc.title}</span>
         </nav>
 
         <header className={styles.docHeader}>
-          <span className={styles.kicker}>
-            <Icon name="book-open" size={14} />
-            Wiki Document
-          </span>
-          <h1 className={canUsePixelFont(doc.title) ? styles.pixelTitle : undefined}>
-            {doc.title}
-          </h1>
+          <div className={styles.kicker}>
+            <Icon name="scroll" size={14} />
+            <span>TÀI LIỆU CỐT LÕI · OAKHAVEN CODEX</span>
+          </div>
+          <h1 className={styles.docMainTitle}>{doc.title}</h1>
           <div className={styles.docMeta}>
             <span className={styles.date}>
-              <Icon name="clock" size={14} /> Cập nhật {updated}
+              <Icon name="clock" size={14} /> Lưu trữ ngày {updated}
             </span>
-            <span className={styles.status}>{doc.status}</span>
+            <span className={styles.statusBadge}>
+              <Icon name="sparkle" size={12} /> {doc.status === 'draft' ? 'Bản thảo Oakhaven' : doc.status}
+            </span>
           </div>
         </header>
 
@@ -81,63 +74,75 @@ export default async function DocPage({ params }) {
             dangerouslySetInnerHTML={{ __html: content }}
           />
 
-          <aside className={styles.infobox} aria-label="Thông tin trang">
-            <h2 className={styles.infoboxTitle}>Info</h2>
-            <table>
+          <aside className={`${styles.infobox} pixel-frame`} aria-label="Thông tin cuộn thư">
+            <div className={styles.infoboxHeader}>
+              <Icon name="scroll" size={16} />
+              <h2 className={styles.infoboxTitle}>Sổ Tay Lưu Trữ</h2>
+            </div>
+            <table className={styles.infoboxTable}>
               <tbody>
                 <tr>
-                  <th>Đối tượng</th>
-                  <td>{doc.audience}</td>
+                  <th>Phạm vi</th>
+                  <td>{doc.audience === 'public' ? 'Công khai 5 Vương Quốc' : doc.audience}</td>
                 </tr>
                 <tr>
-                  <th>Cập nhật</th>
+                  <th>Niên đại</th>
                   <td>{updated}</td>
                 </tr>
                 <tr>
                   <th>Trạng thái</th>
-                  <td>{doc.status}</td>
+                  <td>
+                    <span className="badge amber">
+                      {doc.status === 'draft' ? 'Bản thảo' : doc.status}
+                    </span>
+                  </td>
                 </tr>
-                {doc.tags.length > 0 && (
+                {doc.tags && doc.tags.length > 0 && (
                   <tr>
-                    <th>Thẻ</th>
+                    <th>Thần chú</th>
                     <td>
-                      <span className={styles.tagList}>
+                      <div className={styles.tagList}>
                         {doc.tags.map(t => (
                           <span key={t} className="badge forest">
                             #{t}
                           </span>
                         ))}
-                      </span>
+                      </div>
                     </td>
                   </tr>
                 )}
                 {doc.spoiler && (
                   <tr>
-                    <th>Cảnh báo</th>
+                    <th>Lưu ý</th>
                     <td>
-                      <span className="badge crystal">Spoiler</span>
+                      <span className="badge crystal">Tiết lộ cốt truyện</span>
                     </td>
                   </tr>
                 )}
               </tbody>
             </table>
+
+            <div className={styles.codexFootnote}>
+              <Icon name="acorn" size={12} />
+              <span>Tiệm Bụi Sao · Rìa Rừng Thầm Thì</span>
+            </div>
           </aside>
         </div>
 
         {(prevDoc || nextDoc) && (
-          <nav className={styles.docNav} aria-label="Điều hướng bài viết">
+          <nav className={styles.docNav} aria-label="Điều hướng cuộn thư">
             {prevDoc ? (
-              <Link href={`/wiki/${prevDoc.slug}`} className={styles.docNavPrev}>
+              <Link href={`/wiki/${prevDoc.slug}`} className={`${styles.docNavPrev} pixel-frame`}>
                 <span className={styles.docNavLabel}>
-                  <Icon name="arrow-left" size={12} /> Bài trước
+                  <Icon name="arrow-left" size={12} /> Cuộn thư trước
                 </span>
                 <span className={styles.docNavTitle}>{prevDoc.title}</span>
               </Link>
             ) : <span />}
             {nextDoc && (
-              <Link href={`/wiki/${nextDoc.slug}`} className={styles.docNavNext}>
+              <Link href={`/wiki/${nextDoc.slug}`} className={`${styles.docNavNext} pixel-frame`}>
                 <span className={styles.docNavLabel}>
-                  Bài tiếp <Icon name="arrow-right" size={12} />
+                  Cuộn thư tiếp <Icon name="arrow-right" size={12} />
                 </span>
                 <span className={styles.docNavTitle}>{nextDoc.title}</span>
               </Link>

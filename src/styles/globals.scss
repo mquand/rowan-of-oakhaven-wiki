@@ -172,20 +172,45 @@ img {
   }
 }
 
-/* Khung góc pixel kiểu RPG dialog — 4 dấu ngoặc ở 4 góc */
+/* Khung góc pixel kiểu RPG dialog — góc pixel 3D 16-bit thật sự, không bo tròn giả cầy */
 .pixel-frame {
+  position: relative;
+  background-color: $color-night-card;
+  border: 2px solid $color-night-border;
+  border-radius: 0 !important;
+  box-shadow:
+    inset 0 1px 0 rgba($color-amber-glow, 0.18),
+    inset 0 -1px 0 rgba(0, 0, 0, 0.7),
+    0 4px 0 #080911,
+    0 8px 24px rgba(0, 0, 0, 0.5);
   background-image:
-    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='14' height='14'%3E%3Cpath d='M1 13V4Q1 1 4 1h9' fill='none' stroke='%23ffcf40' stroke-width='2' stroke-opacity='0.55'/%3E%3C/svg%3E"),
-    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='14' height='14'%3E%3Cpath d='M13 13V4Q13 1 10 1H1' fill='none' stroke='%23ffcf40' stroke-width='2' stroke-opacity='0.55'/%3E%3C/svg%3E"),
-    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='14' height='14'%3E%3Cpath d='M1 1v9Q1 13 4 13h9' fill='none' stroke='%23ffcf40' stroke-width='2' stroke-opacity='0.55'/%3E%3C/svg%3E"),
-    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='14' height='14'%3E%3Cpath d='M13 1v9Q13 13 10 13H1' fill='none' stroke='%23ffcf40' stroke-width='2' stroke-opacity='0.55'/%3E%3C/svg%3E");
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16'%3E%3Cpath fill='%23ffe680' d='M0 0h16v3H3v13H0z'/%3E%3Cpath fill='%23ffcf40' d='M3 3h5v3H6v5H3z'/%3E%3Cpath fill='%23c9561c' d='M8 3h2v3H8zm-2 3h2v2H6zm-3 2h3v2H3z'/%3E%3C/svg%3E"),
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16'%3E%3Cpath fill='%23ffe680' d='M0 0h16v16h-3V3H0z'/%3E%3Cpath fill='%23ffcf40' d='M8 3h5v8h-3V6H8z'/%3E%3Cpath fill='%23c9561c' d='M6 3h2v3H6zm2 3h2v2H8zm2 2h3v2h-3z'/%3E%3C/svg%3E"),
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16'%3E%3Cpath fill='%23c9561c' d='M0 0h3v13h13v3H0z'/%3E%3Cpath fill='%23ffcf40' d='M3 5h3v5h5v3H3z'/%3E%3Cpath fill='%23ffe680' d='M3 5h3v2H3zm3 2h2v2H6zm2 2h3v2H8z'/%3E%3C/svg%3E"),
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16'%3E%3Cpath fill='%23c9561c' d='M13 0h3v16H0v-3h13z'/%3E%3Cpath fill='%23ffcf40' d='M10 5h3v8H5v-3h5z'/%3E%3Cpath fill='%23ffe680' d='M10 5h3v2h-3zm-2 2h2v2H8zm-3 2h3v2H5z'/%3E%3C/svg%3E");
   background-repeat: no-repeat;
   background-position:
-    left 6px top 6px,
-    right 6px top 6px,
-    left 6px bottom 6px,
-    right 6px bottom 6px;
+    left 3px top 3px,
+    right 3px top 3px,
+    left 3px bottom 3px,
+    right 3px bottom 3px;
   background-size: 14px 14px;
+}
+
+/* Ô vật phẩm / inventory slot kiểu game */
+.pixel-slot {
+  width: 44px;
+  height: 44px;
+  background: #0d0e19;
+  border: 2px solid $color-night-border;
+  box-shadow:
+    inset 0 2px 4px rgba(0, 0, 0, 0.7),
+    0 2px 0 rgba($color-amber-base, 0.2);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: $color-amber-glow;
+  flex-shrink: 0;
 }
 
 /* Badge tags */
@@ -301,15 +326,33 @@ img {
   }
 
   blockquote {
-    border-left: 3px solid $color-amber-warm;
-    padding: 8px 16px;
-    background: rgba($color-night-card, 0.6);
-    border-radius: 0 $radius-md $radius-md 0;
-    margin-bottom: 24px;
+    position: relative;
+    border: 1px solid rgba($color-amber-warm, 0.35);
+    border-left: 4px solid $color-amber-base;
+    padding: 16px 20px 16px 24px;
+    background: rgba($color-amber-base, 0.04);
+    box-shadow: inset 0 0 16px rgba(0, 0, 0, 0.4);
+    margin: 24px 0;
     color: $color-bakery-cream;
+    font-style: italic;
+    line-height: 1.6;
+
+    &::before {
+      content: '❖';
+      position: absolute;
+      top: -9px;
+      left: 16px;
+      font-size: 11px;
+      color: $color-amber-glow;
+      background: $color-night-dark;
+      padding: 0 4px;
+      line-height: 1;
+    }
 
     p {
       margin-bottom: 0;
+      color: inherit;
+      font-size: 15px;
     }
   }
 
@@ -318,13 +361,12 @@ img {
     border-collapse: collapse;
     margin: 24px 0;
     background: $color-night-card;
-    border-radius: $radius-md;
-    overflow: hidden;
     border: 1px solid $color-night-border;
     font-size: 14px;
+    box-shadow: 0 2px 0 rgba(0, 0, 0, 0.5);
 
     th, td {
-      padding: 10px 14px;
+      padding: 12px 16px;
       text-align: left;
       border-bottom: 1px solid rgba($color-night-border, 0.7);
     }
@@ -332,8 +374,11 @@ img {
     th {
       background: $color-night-elevated;
       color: $color-amber-glow;
-      font-weight: 600;
-      font-size: 14px;
+      font-weight: 700;
+      font-size: 13px;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      border-bottom: 2px solid $color-night-border;
     }
 
     tr:last-child td {
@@ -341,7 +386,7 @@ img {
     }
 
     tr:hover td {
-      background: rgba($color-night-elevated, 0.4);
+      background: rgba($color-night-elevated, 0.35);
     }
   }
 

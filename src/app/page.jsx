@@ -6,6 +6,54 @@ import TaglineReveal from '../components/TaglineReveal';
 import { getAllDocs } from '../lib/docs';
 import { getDatabaseStats } from '../lib/gameData';
 
+const DOC_META = {
+  'calendar-seasons': {
+    icon: 'clock',
+    category: 'LỊCH TRÌNH',
+    desc: 'Chu kỳ 28 ngày mỗi mùa, thời tiết sương mù, mưa rào và lịch gieo trồng thảo mộc theo mùa.',
+  },
+  'character-roster': {
+    icon: 'users',
+    category: 'CƯ DÂN',
+    desc: 'Hồ sơ Rowan, chú cú Pip, thợ rèn Boris, thợ làm vườn Maeve, Lumi và cư dân Năm Vương Quốc.',
+  },
+  'dungeon-combat': {
+    icon: 'sword',
+    category: 'CHIẾN ĐẤU',
+    desc: 'Khám phá đới mỏ sâu, vũ khí ma thuật, đòn chém 3 nhịp và cách thanh tẩy Bụi Sao Hắc Hóa.',
+  },
+  'festivals-events': {
+    icon: 'cake',
+    category: 'LỄ HỘI',
+    desc: 'Các lễ hội truyền thống theo mùa: Hội thả đèn, Chợ hoa xuân, Đêm bánh nướng và Trăng rằm.',
+  },
+  'game-overview': {
+    icon: 'book-open',
+    category: 'TỔNG QUAN',
+    desc: 'Logline, cốt truyện mở đầu, chu kỳ ngày 15 phút thời gian thực và 12 tính năng đặc trưng.',
+  },
+  'gameplay-guide': {
+    icon: 'farm',
+    category: 'LỐI CHƠI',
+    desc: 'Nhịp sống một ngày: bình minh, làm vườn, thám hiểm mỏ, pha trà buổi tối và thư giãn đêm muộn.',
+  },
+  'getting-started': {
+    icon: 'sparkle',
+    category: 'KHỞI ĐẦU',
+    desc: 'Hướng dẫn 7 ngày đầu đời: dọn vườn hoang, làm quen dân làng, chọn ấm trà đầu tiên và quản lý sức lực.',
+  },
+  'lore-story': {
+    icon: 'diamond',
+    category: 'TRUYỀN THUYẾT',
+    desc: 'Nguồn gốc sâu xa của Bụi Sao, bí mật về người Bà Amalia và sứ mệnh chữa lành vùng đất.',
+  },
+  'world-overview': {
+    icon: 'map-pin',
+    category: 'THẾ GIỚI',
+    desc: 'Bản đồ Năm Vương Quốc: Oakhaven, Vực Lò Rèn Boris, Rừng Tinh Linh, Đảo Cực Quang và Hoàng Triều.',
+  },
+};
+
 const ALL_DATABASES = [
   {
     icon: 'package',
@@ -79,10 +127,10 @@ export default function HomePage() {
 
   return (
     <div>
-      {/* Hero — cassette tape style */}
+      {/* Hero — Tiệm Bụi Sao Rìa Rừng Thầm Thì */}
       <section className={styles.hero}>
         <div className={styles.heroContent}>
-          <p className={styles.kicker}>Fluvio Games · Official Wiki</p>
+          <p className={styles.kicker}>Tiệm Bụi Sao · Fluvio Games Official Wiki</p>
           <h1 className={styles.heroTitle}>
             <span className={styles.pixel}>Rowan of Oakhaven</span>
           </h1>
@@ -92,10 +140,10 @@ export default function HomePage() {
           />
           <div className={styles.heroActions}>
             <Link href="/wiki" className={styles.primaryBtn}>
-              Thư viện tài liệu
+              <Icon name="book-open" size={16} /> Thư viện tài liệu
             </Link>
             <Link href="/database" className={styles.secondaryBtn}>
-              Cơ sở dữ liệu ({stats.total})
+              <Icon name="package" size={16} /> Cơ sở dữ liệu ({stats.total})
             </Link>
           </div>
           <div className={styles.heroStats}>
@@ -132,51 +180,69 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Core docs — wiki link list */}
+      {/* Tàng Thư Các Oakhaven — Lưới Thẻ Cuộn Thư Thay Cho Danh Sách Nhàm Chán */}
       <Reveal>
         <section className={styles.section}>
           <div className={styles.sectionHeader}>
-            <p className={styles.sectionKicker}>Core Docs</p>
-            <h2>Tài liệu cốt lõi</h2>
-            <p>Hướng dẫn, thế giới và nhân vật của Rowan of Oakhaven.</p>
+            <p className={styles.sectionKicker}>Oakhaven Archives</p>
+            <h2>Tàng Thư Các Oakhaven</h2>
+            <p>Hệ thống cuộn thư hướng dẫn, bí mật thế giới và câu chuyện cư dân Oakhaven.</p>
           </div>
 
-          <div className={styles.linkList}>
-            {docs.map(doc => (
-              <article key={doc.slug} className={styles.linkItem}>
-                <Link href={`/wiki/${doc.slug}`} className={styles.linkRow}>
-                  <span className={styles.linkIcon}><Icon name="scroll" size={16} /></span>
-                  <span className={styles.linkTitle}>{doc.title}</span>
-                  <span className={styles.linkDesc}>{doc.audience}</span>
-                  <span className={styles.linkArrow} aria-hidden="true">
-                    <Icon name="caret-right" size={14} />
-                  </span>
-                </Link>
-              </article>
-            ))}
+          <div className={styles.codexGrid}>
+            {docs.map(doc => {
+              const meta = DOC_META[doc.slug] || {
+                icon: 'scroll',
+                category: 'TÀI LIỆU',
+                desc: doc.audience,
+              };
+              return (
+                <article key={doc.slug} className={`${styles.codexCard} pixel-frame`}>
+                  <div className={styles.codexTop}>
+                    <div className={styles.codexSlot}>
+                      <Icon name={meta.icon} size={20} />
+                    </div>
+                    <span className={styles.codexCategory}>{meta.category}</span>
+                  </div>
+                  <h3 className={styles.codexTitle}>{doc.title}</h3>
+                  <p className={styles.codexDesc}>{meta.desc}</p>
+                  <div className={styles.codexFooter}>
+                    <Link href={`/wiki/${doc.slug}`} className={styles.codexArrow}>
+                      Mở đọc cuộn thư <Icon name="arrow-right" size={13} />
+                    </Link>
+                    {doc.spoiler && (
+                      <span className="badge crystal">Spoiler</span>
+                    )}
+                  </div>
+                </article>
+              );
+            })}
           </div>
         </section>
       </Reveal>
 
-      {/* Game database — all 8 entry points */}
+      {/* Sổ Tay Thám Hiểm Của Bà Ngoại Amalia — Toàn Bộ 8 Danh Mục */}
       <Reveal delay={150}>
         <section className={styles.section}>
           <div className={styles.sectionHeader}>
-            <p className={styles.sectionKicker}>Database</p>
-            <h2>Cơ sở dữ liệu trò chơi</h2>
-            <p>Dữ liệu vật phẩm, công thức, quái vật và cư dân cập nhật từ sổ tay của Bà Ngoại Amalia.</p>
+            <p className={styles.sectionKicker}>Grandmother&apos;s Compendium</p>
+            <h2>Sổ Tay Thám Hiểm Của Bà Ngoại</h2>
+            <p>Kho dữ liệu thực tế về vật phẩm, công thức, quái vật và cư dân Năm Vương Quốc.</p>
           </div>
 
           <div className={styles.dbEntries}>
             {ALL_DATABASES.map(d => (
               <article key={d.key} className={`${styles.dbEntry} pixel-frame`}>
-                <div className={styles.dbIcon}>
-                  <Icon name={d.icon} size={20} />
+                <div className={styles.dbTop}>
+                  <div className={styles.dbIcon}>
+                    <Icon name={d.icon} size={22} />
+                  </div>
+                  <span className={styles.dbBadge}>
+                    {stats[d.key]} mục
+                  </span>
                 </div>
                 <div className={styles.dbBody}>
-                  <h3>
-                    {d.title} <span className={styles.dbCount}>({stats[d.key]})</span>
-                  </h3>
+                  <h3>{d.title}</h3>
                   <p>{d.desc}</p>
                 </div>
                 <Link href={d.href} className={styles.dbLink}>

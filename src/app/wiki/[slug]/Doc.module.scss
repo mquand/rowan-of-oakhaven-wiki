@@ -5,7 +5,7 @@
   margin: 0 auto;
   padding: $sp-8 $sp-6 $sp-12;
   display: flex;
-  gap: $sp-10;
+  gap: $sp-8;
   align-items: flex-start;
 }
 
@@ -13,10 +13,7 @@
   flex-grow: 1;
   min-width: 0;
   background-color: $color-night-card;
-  border: 1px solid $color-night-border;
-  border-radius: $radius-lg;
-  padding: $sp-10;
-  box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4);
+  padding: $sp-8 $sp-10;
 }
 
 .breadcrumb {
@@ -24,7 +21,7 @@
   flex-wrap: wrap;
   gap: $sp-2;
   align-items: center;
-  font-size: 12px;
+  font-size: 13px;
   color: $color-text-dim;
   margin-bottom: $sp-6;
 
@@ -38,8 +35,9 @@
   }
 
   .breadcrumbCurrent {
-    color: $color-text-muted;
-    max-width: 280px;
+    color: $color-amber-warm;
+    font-weight: 600;
+    max-width: 320px;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
@@ -49,24 +47,18 @@
 .docHeader {
   margin-bottom: $sp-8;
   padding-bottom: $sp-6;
-  border-bottom: 1px solid $color-night-border;
+  border-bottom: 2px solid $color-night-border;
+  position: relative;
 
-  h1 {
-    font-size: 36px;
-    font-weight: 700;
-    color: $color-text-main;
-    line-height: 1.25;
-    margin-bottom: $sp-4;
-    text-wrap: balance;
-  }
-
-  // Tiêu đề ASCII có thể dùng pixel font an toàn (không lỗi dấu tiếng Việt)
-  h1.pixelTitle {
-    font-family: $font-pixel;
-    font-weight: 700;
-    font-size: 40px;
-    line-height: 1.15;
-    letter-spacing: 0.02em;
+  &::after {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 80px;
+    height: 2px;
+    background: $color-amber-base;
+    box-shadow: 0 0 8px rgba($color-amber-glow, 0.4);
   }
 }
 
@@ -75,51 +67,61 @@
   align-items: center;
   gap: $sp-2;
   font-family: $font-pixel;
-  font-size: 13px;
-  letter-spacing: 0.14em;
+  font-size: 12px;
+  letter-spacing: 0.16em;
   text-transform: uppercase;
   color: $color-amber-warm;
   margin-bottom: $sp-3;
+
+  svg {
+    color: $color-amber-glow;
+  }
 }
 
-.status {
-  font-family: $font-pixel;
-  font-size: 12px;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
-  color: $color-cat-seed;
-  border: 1px solid rgba($color-cat-seed, 0.35);
-  border-radius: $radius-sm;
-  padding: 1px 6px;
+.docMainTitle {
+  font-family: $font-sans;
+  font-size: 32px;
+  font-weight: 800;
+  color: $color-text-main;
+  line-height: 1.28;
+  margin: 0 0 $sp-4;
+  text-wrap: balance;
+  letter-spacing: -0.01em;
 }
 
 .docMeta {
   display: flex;
   flex-wrap: wrap;
-  gap: $sp-3;
+  gap: $sp-4;
   align-items: center;
-  font-size: 14px;
-  color: $color-text-dim;
+  font-size: 13px;
+  color: $color-text-muted;
 
   .date {
-    display: flex;
+    display: inline-flex;
     align-items: center;
-    gap: $sp-1;
+    gap: 6px;
   }
 }
 
-.tags {
-  display: flex;
-  gap: $sp-2;
-  flex-wrap: wrap;
-  margin-left: auto;
+.statusBadge {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  font-family: $font-pixel;
+  font-size: 11px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: $color-amber-warm;
+  background: rgba($color-amber-base, 0.1);
+  border: 1px solid rgba($color-amber-base, 0.35);
+  padding: 2px 8px;
 }
 
-/* Nội dung + infobox kiểu Wikipedia: cột phụ bên phải */
+/* Nội dung + Codex Plaque cột phụ bên phải */
 .docLayout {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) 230px;
+  grid-template-columns: minmax(0, 1fr) 250px;
   gap: $sp-8;
   align-items: start;
 }
@@ -128,39 +130,63 @@
   min-width: 0;
 }
 
+/* Codex Plaque (Bảng Khắc Tàng Thư Oakhaven) */
 .infobox {
   position: sticky;
   top: 88px;
-  background: $color-night-elevated;
-  border: 1px solid $color-night-border;
-  border-radius: $radius-md;
-  padding: $sp-4 $sp-5 $sp-5;
+  background: $color-night-dark;
+  padding: $sp-5;
   font-size: 13px;
+}
 
-  table {
-    width: 100%;
-    border-collapse: collapse;
-    font-size: 13px;
+.infoboxHeader {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding-bottom: $sp-3;
+  margin-bottom: $sp-3;
+  border-bottom: 1px solid rgba($color-amber-warm, 0.4);
+  color: $color-amber-glow;
+
+  svg {
+    color: $color-amber-warm;
+    flex-shrink: 0;
   }
+}
+
+.infoboxTitle {
+  font-family: $font-pixel;
+  font-size: 13px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: $color-amber-glow;
+  margin: 0;
+}
+
+.infoboxTable {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 12px;
 
   th {
     text-align: left;
-    padding: $sp-2 0;
-    color: $color-amber-glow;
+    padding: 8px 0;
+    color: $color-text-dim;
     font-weight: 700;
+    font-family: $font-pixel;
     text-transform: uppercase;
     letter-spacing: 0.08em;
     font-size: 11px;
     vertical-align: top;
-    width: 76px;
-    border-bottom: 1px solid rgba($color-night-border, 0.5);
+    width: 74px;
+    border-bottom: 1px dashed rgba($color-night-border, 0.7);
   }
 
   td {
-    padding: $sp-2 0 $sp-2 $sp-3;
+    padding: 8px 0 8px 10px;
     color: $color-text-main;
-    border-bottom: 1px solid rgba($color-night-border, 0.4);
-    vertical-align: top;
+    border-bottom: 1px dashed rgba($color-night-border, 0.7);
+    vertical-align: middle;
     word-break: break-word;
   }
 
@@ -168,53 +194,60 @@
   tr:last-child th {
     border-bottom: none;
   }
-
-  .badge {
-    font-size: 11px;
-    padding: 1px 6px;
-  }
-}
-
-.infoboxTitle {
-  font-family: $font-pixel;
-  font-size: 14px;
-  letter-spacing: 0.14em;
-  text-transform: uppercase;
-  color: $color-bakery-crust;
-  padding-bottom: $sp-2;
-  margin-bottom: $sp-2;
-  border-bottom: 1px solid rgba($color-night-border, 0.7);
 }
 
 .tagList {
   display: flex;
   flex-wrap: wrap;
-  gap: $sp-1;
+  gap: 4px;
 }
 
+.codexFootnote {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-top: $sp-4;
+  padding-top: $sp-3;
+  border-top: 1px solid rgba($color-night-border, 0.8);
+  font-size: 11px;
+  color: $color-text-dim;
+  font-style: italic;
+
+  svg {
+    color: $color-amber-warm;
+  }
+}
+
+/* Điều hướng cuộn thư */
 .docNav {
   display: flex;
   justify-content: space-between;
   gap: $sp-4;
   margin-top: $sp-10;
   padding-top: $sp-6;
-  border-top: 1px solid $color-night-border;
+  border-top: 2px solid $color-night-border;
 
   a {
     display: flex;
     flex-direction: column;
-    gap: $sp-1;
+    gap: 4px;
     max-width: 48%;
-    padding: $sp-4;
-    border: 1px solid $color-night-border;
-    border-radius: $radius-md;
+    padding: $sp-4 $sp-5;
+    background: $color-night-dark;
+    text-decoration: none;
     transition:
-      border-color $dur-fast $ease-out,
-      background-color $dur-fast $ease-out;
+      transform $dur-base $ease-out,
+      border-color $dur-base $ease-out,
+      background-color $dur-base $ease-out;
 
     &:hover {
+      transform: translateY(-2px);
       border-color: $color-amber-base;
-      background-color: rgba($color-night-elevated, 0.5);
+      background: $color-night-elevated;
+
+      .docNavTitle {
+        color: $color-amber-glow;
+      }
     }
   }
 
@@ -224,14 +257,21 @@
   }
 
   .docNavLabel {
-    font-size: 12px;
-    color: $color-text-dim;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    font-family: $font-pixel;
+    font-size: 11px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: $color-amber-warm;
   }
 
   .docNavTitle {
     font-size: 14px;
     font-weight: 700;
     color: $color-text-main;
+    transition: color $dur-fast $ease-out;
   }
 }
 
@@ -243,6 +283,7 @@
   .infobox {
     position: static;
     order: -1;
+    margin-bottom: $sp-6;
   }
 }
 
@@ -256,15 +297,7 @@
     padding: $sp-6;
   }
 
-  .docHeader h1 {
-    font-size: 30px;
-  }
-
-  .docHeader h1.pixelTitle {
-    font-size: 32px;
-  }
-
-  .tags {
-    margin-left: 0;
+  .docMainTitle {
+    font-size: 26px;
   }
 }

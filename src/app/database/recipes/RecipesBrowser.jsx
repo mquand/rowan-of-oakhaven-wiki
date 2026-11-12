@@ -6,7 +6,7 @@ import Icon from '../../../components/Icon';
 import styles from '../Database.module.scss';
 
 const STATIONS = [
-  { id: 'all', label: 'Tất cả' },
+  { id: 'all', label: 'Tất cả công thức' },
   { id: 'tea_station', label: 'Trạm Trà ASMR' },
   { id: 'bakery_oven', label: 'Lò Nướng Bánh' },
 ];
@@ -14,6 +14,7 @@ const STATIONS = [
 export default function RecipesBrowser({ recipes }) {
   const [query, setQuery] = useState('');
   const [station, setStation] = useState('all');
+  const [viewMode, setViewMode] = useState('cookery'); // 'cookery' | 'table'
 
   const filtered = useMemo(() => {
     const q = query.trim().toLowerCase();
@@ -34,16 +35,37 @@ export default function RecipesBrowser({ recipes }) {
   return (
     <>
       <div className={styles.toolbar}>
-        <div className={styles.searchWrap}>
-          <Icon name="magnifying-glass" size={18} className={styles.searchIcon} />
-          <input
-            type="search"
-            className={styles.searchInput}
-            placeholder="Tìm công thức, nguyên liệu, hiệu ứng..."
-            value={query}
-            onChange={e => setQuery(e.target.value)}
-            aria-label="Tìm công thức"
-          />
+        <div className={styles.viewControls}>
+          <div className={styles.searchWrap}>
+            <Icon name="magnifying-glass" size={18} className={styles.searchIcon} />
+            <input
+              type="search"
+              className={styles.searchInput}
+              placeholder="Tìm công thức, nguyên liệu, hiệu ứng..."
+              value={query}
+              onChange={e => setQuery(e.target.value)}
+              aria-label="Tìm công thức"
+            />
+          </div>
+
+          <div className={styles.viewSwitch} role="group" aria-label="Chế độ hiển thị">
+            <button
+              type="button"
+              className={`${styles.viewSwitchBtn} ${viewMode === 'cookery' ? styles.viewSwitchActive : ''}`}
+              onClick={() => setViewMode('cookery')}
+              aria-pressed={viewMode === 'cookery'}
+            >
+              <Icon name="cake" size={16} /> Sổ Bếp Bà Ngoại
+            </button>
+            <button
+              type="button"
+              className={`${styles.viewSwitchBtn} ${viewMode === 'table' ? styles.viewSwitchActive : ''}`}
+              onClick={() => setViewMode('table')}
+              aria-pressed={viewMode === 'table'}
+            >
+              <Icon name="book-open" size={16} /> Bảng Sổ Kế
+            </button>
+          </div>
         </div>
 
         <div className={styles.chips} role="group" aria-label="Lọc theo trạm pha chế">
@@ -75,7 +97,62 @@ export default function RecipesBrowser({ recipes }) {
             Xóa tìm kiếm
           </button>
         </div>
+      ) : viewMode === 'cookery' ? (
+        /* ==================== SỔ BẾP BÀ NGOẠI CARDS ==================== */
+        <div className={styles.recipeGrid}>
+          {filtered.map(recipe => {
+            const isTea = recipe.station === 'tea_station';
+            const stationLabel = isTea ? 'Trạm Trà ASMR' : 'Lò Nướng Bánh Thần Kỳ';
+            const iconName = isTea ? 'tea-bag' : 'cake';
+
+            return (
+              <article key={recipe.id} id={recipe.id} className={`${styles.recipeCard} pixel-frame`}>
+                <div className={styles.recipeTop}>
+                  <div className={styles.avatarSlot}>
+                    <Icon name={iconName} size={28} />
+                  </div>
+                  <div className={styles.recipeNameGroup}>
+                    <h2 className={styles.recipeName}>{recipe.name}</h2>
+                    <div className={styles.recipeStationMeta}>
+                      <span className={styles.stationName}>{stationLabel}</span>
+                      <span>·</span>
+                      <span className={styles.duration}>
+                        <Icon name="clock" size={12} /> {recipe.duration_seconds}s
+                      </span>
+                    </div>
+                  </div>
+                </div>
+
+                {recipe.effect_description && (
+                  <div className={styles.recipeEffect}>
+                    <Icon name="sparkle" size={14} />
+                    <span>{recipe.effect_description}</span>
+                  </div>
+                )}
+
+                <p className={styles.recipeDesc}>{recipe.description}</p>
+
+                <div className={styles.recipeIngredientsBox}>
+                  <div className={styles.ingLabel}>NGUYÊN LIỆU CẦN THIẾT</div>
+                  <div className={styles.ingList}>
+                    {recipe.ingredients.map(ing => (
+                      <Link
+                        key={ing.id}
+                        href={`/database/items/${ing.id}`}
+                        className={styles.ingredientLink}
+                      >
+                        <span>{ing.name}</span>
+                        <span className={styles.ingredientQty}>x{ing.quantity}</span>
+                      </Link>
+                    ))}
+                  </div>
+                </div>
+              </article>
+            );
+          })}
+        </div>
       ) : (
+        /* ==================== BẢNG SỔ KẾ ==================== */
         <div className={`${styles.tableWrapper} pixel-frame`}>
           <table className={styles.wikiTable}>
             <thead>

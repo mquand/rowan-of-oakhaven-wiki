@@ -1,19 +1,47 @@
 'use client';
 
 import { useMemo, useState } from 'react';
+import Link from 'next/link';
 import Icon from '../../../components/Icon';
 import styles from '../Database.module.scss';
+import { lookupGift } from '../../../lib/itemLookup';
 
 const GROUPS = [
-  { id: 'all', label: 'Tất cả' },
+  { id: 'all', label: 'Tất cả cư dân' },
   { id: 'shop', label: 'Tiệm Bụi Sao' },
-  { id: 'oakhaven', label: 'Cư Dân Oakhaven' },
-  { id: 'realms', label: '5 Vương Quốc & Khách' },
+  { id: 'oakhaven', label: 'Thị Trấn Oakhaven' },
+  { id: 'realms', label: '5 Vương Quốc & Lữ Khách' },
 ];
+
+const CHARACTER_ICONS = {
+  npc_rowan: 'sparkle',
+  npc_amalia: 'scroll',
+  pet_pip: 'leaf',
+  pet_mallow: 'cake',
+  npc_maeve: 'plant',
+  npc_boris: 'sword',
+  npc_sylvie: 'plant',
+  npc_elora: 'book-open',
+  npc_bram: 'acorn',
+  npc_finn: 'sparkle',
+  npc_garrick: 'mountains',
+  npc_kael: 'sword',
+  npc_lyra: 'sparkle',
+  npc_thorne: 'shield',
+  npc_orion: 'sparkle',
+  npc_morrigan: 'tea-bag',
+  npc_freya: 'sword',
+  npc_jasper: 'package',
+  npc_selene: 'sparkle',
+  npc_zephyr: 'leaf',
+  npc_brutus: 'acorn',
+  npc_vanya: 'diamond',
+};
 
 export default function CharactersBrowser({ characters }) {
   const [query, setQuery] = useState('');
   const [group, setGroup] = useState('all');
+  const [viewMode, setViewMode] = useState('roster'); // 'roster' | 'table'
 
   const filtered = useMemo(() => {
     const q = query.trim().toLowerCase();
@@ -48,16 +76,37 @@ export default function CharactersBrowser({ characters }) {
   return (
     <>
       <div className={styles.toolbar}>
-        <div className={styles.searchWrap}>
-          <Icon name="magnifying-glass" size={18} className={styles.searchIcon} />
-          <input
-            type="search"
-            className={styles.searchInput}
-            placeholder="Tìm cư dân, loài, vị trí, quà yêu thích..."
-            value={query}
-            onChange={e => setQuery(e.target.value)}
-            aria-label="Tìm cư dân"
-          />
+        <div className={styles.viewControls}>
+          <div className={styles.searchWrap}>
+            <Icon name="magnifying-glass" size={18} className={styles.searchIcon} />
+            <input
+              type="search"
+              className={styles.searchInput}
+              placeholder="Tìm cư dân, loài, vị trí, quà yêu thích..."
+              value={query}
+              onChange={e => setQuery(e.target.value)}
+              aria-label="Tìm cư dân"
+            />
+          </div>
+
+          <div className={styles.viewSwitch} role="group" aria-label="Chế độ hiển thị">
+            <button
+              type="button"
+              className={`${styles.viewSwitchBtn} ${viewMode === 'roster' ? styles.viewSwitchActive : ''}`}
+              onClick={() => setViewMode('roster')}
+              aria-pressed={viewMode === 'roster'}
+            >
+              <Icon name="users" size={16} /> Dạng Thẻ Roster
+            </button>
+            <button
+              type="button"
+              className={`${styles.viewSwitchBtn} ${viewMode === 'table' ? styles.viewSwitchActive : ''}`}
+              onClick={() => setViewMode('table')}
+              aria-pressed={viewMode === 'table'}
+            >
+              <Icon name="book-open" size={16} /> Dạng Sổ Kế
+            </button>
+          </div>
         </div>
 
         <div className={styles.chips} role="group" aria-label="Lọc theo nhóm cư dân">
@@ -89,63 +138,129 @@ export default function CharactersBrowser({ characters }) {
             Xóa tìm kiếm
           </button>
         </div>
+      ) : viewMode === 'roster' ? (
+        /* ==================== ROSTER CARDS VIEW (DEFAULT) ==================== */
+        <div className={styles.characterGrid}>
+          {filtered.map(char => {
+            const iconName = CHARACTER_ICONS[char.id] || 'users';
+            const favoriteItems = (char.favorite_items || []).map(lookupGift);
+
+            return (
+              <article key={char.id} className={`${styles.characterCard} pixel-frame`}>
+                <div className={styles.cardTop}>
+                  <div className={styles.avatarSlot}>
+                    <Icon name={iconName} size={30} />
+                  </div>
+                  <div className={styles.cardIdentity}>
+                    <h2 className={styles.charName}>{char.name}</h2>
+                    <div className={styles.charRole}>{char.role}</div>
+                    <div className={styles.charMetaRow}>
+                      <span className="badge forest">{char.species}</span>
+                      <span className={styles.locationTag}>
+                        <Icon name="map-pin" size={12} /> {char.location}
+                      </span>
+                    </div>
+                  </div>
+                </div>
+
+                {char.quote && (
+                  <div className={styles.quoteBubble}>
+                    {char.quote}
+                  </div>
+                )}
+
+                <p className={styles.charBio}>{char.description}</p>
+
+                <div className={styles.giftsSection}>
+                  <div className={styles.giftsLabel}>
+                    <Icon name="heart" size={13} />
+                    <span>Món Quà Ưa Thích</span>
+                  </div>
+                  <div className={styles.giftsList}>
+                    {favoriteItems.length > 0 ? (
+                      favoriteItems.map((gift, idx) => (
+                        <Link
+                          key={`${char.id}-gift-${idx}`}
+                          href={gift.href}
+                          className={styles.giftBadgeLink}
+                        >
+                          <Icon name={gift.icon} size={13} />
+                          <span>{gift.name}</span>
+                        </Link>
+                      ))
+                    ) : (
+                      <span style={{ fontSize: '12px', color: '#8d92aa' }}>Đang tìm hiểu...</span>
+                    )}
+                  </div>
+                </div>
+              </article>
+            );
+          })}
+        </div>
       ) : (
+        /* ==================== SỔ KẾ TABLE VIEW ==================== */
         <div className={`${styles.tableWrapper} pixel-frame`}>
           <table className={styles.wikiTable}>
             <thead>
               <tr>
-                <th className={styles.iconCell}>Icon</th>
-                <th>Tên</th>
+                <th className={styles.iconCell}>Huy hiệu</th>
+                <th>Cư dân</th>
                 <th className={styles.metaCell}>Vai trò</th>
                 <th className={styles.metaCell}>Loài</th>
                 <th className={styles.metaCell}>Vị trí</th>
                 <th className={styles.descCell}>Tiểu sử & Lời thoại</th>
-                <th className={styles.metaCell}>Món yêu thích</th>
+                <th>Món quà ưa thích</th>
               </tr>
             </thead>
             <tbody>
-              {filtered.map(char => (
-                <tr key={char.id}>
-                  <td className={styles.iconCell}>
-                    <div className={styles.iconWrap}>
-                      <Icon name="users" size={20} />
-                    </div>
-                  </td>
-                  <td className={styles.nameCell}>
-                    <strong>{char.name}</strong>
-                  </td>
-                  <td className={styles.metaCell}>{char.role}</td>
-                  <td className={styles.metaCell}>
-                    <span className="badge forest">{char.species}</span>
-                  </td>
-                  <td className={styles.metaCell}>
-                    <span className={styles.speciesLoc}>
-                      <Icon name="map-pin" size={12} /> {char.location}
-                    </span>
-                  </td>
-                  <td className={styles.descCell}>
-                    <p>{char.description}</p>
-                    {char.quote && (
-                      <em style={{ display: 'block', marginTop: '6px', color: '#ffcf40', fontSize: '12px' }}>
-                        &ldquo;{char.quote}&rdquo;
-                      </em>
-                    )}
-                  </td>
-                  <td className={styles.metaCell}>
-                    {char.favorite_items && char.favorite_items.length > 0 ? (
+              {filtered.map(char => {
+                const iconName = CHARACTER_ICONS[char.id] || 'users';
+                const favoriteItems = (char.favorite_items || []).map(lookupGift);
+
+                return (
+                  <tr key={char.id}>
+                    <td className={styles.iconCell}>
+                      <div className={styles.iconWrap}>
+                        <Icon name={iconName} size={20} />
+                      </div>
+                    </td>
+                    <td className={styles.nameCell}>
+                      <strong>{char.name}</strong>
+                    </td>
+                    <td className={styles.metaCell}>{char.role}</td>
+                    <td className={styles.metaCell}>
+                      <span className="badge forest">{char.species}</span>
+                    </td>
+                    <td className={styles.metaCell}>
+                      <span className={styles.locationTag}>
+                        <Icon name="map-pin" size={12} /> {char.location}
+                      </span>
+                    </td>
+                    <td className={styles.descCell}>
+                      <p>{char.description}</p>
+                      {char.quote && (
+                        <em style={{ display: 'block', marginTop: '6px', color: '#ffcf40', fontSize: '12px' }}>
+                          &ldquo;{char.quote}&rdquo;
+                        </em>
+                      )}
+                    </td>
+                    <td>
                       <div className={styles.ingredientChips}>
-                        {char.favorite_items.map(item => (
-                          <span key={item} className="badge">
-                            {item}
-                          </span>
+                        {favoriteItems.map((gift, idx) => (
+                          <Link
+                            key={`${char.id}-tbl-gift-${idx}`}
+                            href={gift.href}
+                            className={styles.giftBadgeLink}
+                          >
+                            <Icon name={gift.icon} size={12} />
+                            <span>{gift.name}</span>
+                          </Link>
                         ))}
                       </div>
-                    ) : (
-                      'Đang cập nhật'
-                    )}
-                  </td>
-                </tr>
-              ))}
+                    </td>
+                  </tr>
+                );
+              })}
             </tbody>
           </table>
         </div>
