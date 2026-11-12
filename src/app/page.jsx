@@ -130,7 +130,7 @@ export default function HomePage() {
       {/* Hero Portal — Tinh gọn, ấm cúng và đi thẳng vào mục đích tra cứu */}
       <section className={styles.hero}>
         <div className={styles.heroContent}>
-          <p className={styles.kicker}>Tiệm Bụi Sao · Bách Khoa Toàn Thư Oakhaven</p>
+          <p className={styles.kicker}>OAKHAVEN CODEX · OFFICIAL GAME WIKI</p>
           <h1 className={styles.heroTitle}>
             <span className={styles.pixel}>Rowan of Oakhaven</span>
           </h1>

@@ -8,11 +8,10 @@ import styles from './HeroSearchBar.module.scss';
 
 const QUICK_LINKS = [
   { label: 'Trà Sen An Thần', href: '/database/recipes' },
-  { label: 'Hạt Trà Sen', href: '/database/items/seed_sen_tea' },
   { label: 'Bánh Mì Brioche', href: '/database/recipes' },
-  { label: 'Thợ Rèn Boris', href: '/database/characters' },
-  { label: 'Lịch 4 Mùa & Vụ Mùa', href: '/wiki/calendar-seasons' },
-  { label: 'Quái Vật Hắc Hóa', href: '/database/monsters' },
+  { label: 'Cư Dân Oakhaven', href: '/database/characters' },
+  { label: 'Lịch 4 Mùa', href: '/wiki/calendar-seasons' },
+  { label: 'Sổ Quái Vật', href: '/database/monsters' },
 ];
 
 export default function HeroSearchBar() {
@@ -28,9 +27,9 @@ export default function HeroSearchBar() {
           aria-label="Mở tìm kiếm nhanh bách khoa toàn thư"
         >
           <div className={styles.searchLeft}>
-            <Icon name="magnifying-glass" size={20} className={styles.searchIcon} />
+            <Icon name="magnifying-glass" size={18} className={styles.searchIcon} />
             <span className={styles.searchPlaceholder}>
-              Tìm kiếm vật phẩm, công thức trà bánh, cư dân, quái vật...
+              Tìm kiếm vật phẩm, công thức trà bánh, cư dân, bí kíp...
             </span>
           </div>
           <kbd className={styles.searchKbd}>Ctrl K</kbd>

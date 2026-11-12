@@ -29,6 +29,7 @@
   gap: $sp-3;
   color: $color-text-main;
   flex-shrink: 0;
+  text-decoration: none;
 
   &:hover {
     .brandName {
@@ -48,6 +49,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-shrink: 0;
   }
 
   .brandText {
@@ -65,12 +67,13 @@
     transition: color $dur-fast $ease-out;
   }
 
+  // Chữ tiếng Việt "Bách Khoa Toàn Thư" dùng font sans để không bị vỡ glyph
   .brandSub {
-    font-family: $font-pixel;
-    font-size: 10px;
+    font-family: $font-sans;
+    font-size: 11px;
+    font-weight: 600;
     color: $color-text-dim;
-    letter-spacing: 0.12em;
-    text-transform: uppercase;
+    letter-spacing: 0.04em;
   }
 }
 
@@ -79,6 +82,8 @@
   align-items: center;
   gap: $sp-2;
   list-style: none;
+  margin: 0;
+  padding: 0;
 
   a {
     display: block;
@@ -86,6 +91,7 @@
     font-weight: 700;
     color: $color-text-muted;
     padding: 6px $sp-4;
+    text-decoration: none;
     border: 1px solid transparent;
     transition:
       color $dur-fast $ease-out,
@@ -121,6 +127,7 @@
     color: $color-text-main;
     background: #17162b;
     border: 1px solid $color-night-border;
+    text-decoration: none;
     box-shadow: 0 2px 0 #000;
     transition:
       border-color $dur-fast $ease-out,
@@ -143,9 +150,10 @@
     color: $color-text-dim;
     background: #0d0e19;
     border: 1px solid $color-night-border;
-    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.6);
-    padding: 5px $sp-3;
+    border-radius: 0;
+    padding: 6px 10px;
     cursor: pointer;
+    box-shadow: 0 2px 0 #000;
     transition:
       border-color $dur-fast $ease-out,
       color $dur-fast $ease-out;
@@ -199,56 +207,11 @@
   }
 }
 
-.mobileMenu {
-  position: absolute;
-  top: 100%;
-  left: 0;
-  right: 0;
-  background: #111322;
-  border-bottom: 2px solid $color-amber-warm;
-  padding: $sp-4 $sp-6;
-  opacity: 0;
-  visibility: hidden;
-  transform: translateY(-8px);
-  transition:
-    opacity $dur-base $ease-out,
-    transform $dur-base $ease-out,
-    visibility $dur-base;
-  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.7);
-
-  &.mobileMenuOpen {
-    opacity: 1;
-    visibility: visible;
-    transform: translateY(0);
-  }
-
-  ul {
-    list-style: none;
-    display: flex;
-    flex-direction: column;
-    gap: $sp-2;
-  }
-
-  a {
-    display: block;
-    padding: $sp-3 $sp-4;
-    font-size: 15px;
-    font-weight: 700;
-    color: $color-text-muted;
-    border: 1px solid transparent;
-
-    &:hover {
-      color: $color-amber-glow;
-      background: rgba($color-night-elevated, 0.6);
-      border-color: $color-amber-base;
-    }
-
-    &.mobileActive {
-      color: $color-amber-glow;
-      background: rgba($color-amber-base, 0.15);
-      border-color: $color-amber-base;
-    }
-  }
+/* ===================================================
+   MOBILE DRAWER (TUYỆT ĐỐI ẨN TRÊN DESKTOP > 960PX)
+   =================================================== */
+.mobileDrawer {
+  display: none;
 }
 
 @media (max-width: 960px) {
@@ -258,6 +221,89 @@
 
   .menuBtn {
     display: flex;
+  }
+
+  .mobileDrawer {
+    display: block;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: #111322;
+    border-bottom: 2px solid $color-amber-warm;
+    padding: $sp-4 $sp-6;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-8px);
+    transition:
+      opacity $dur-base $ease-out,
+      transform $dur-base $ease-out,
+      visibility $dur-base;
+    box-shadow: 0 12px 32px rgba(0, 0, 0, 0.7);
+
+    &.mobileDrawerOpen {
+      opacity: 1;
+      visibility: visible;
+      transform: translateY(0);
+    }
+  }
+
+  .mobileLinks {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: $sp-2;
+    margin: 0;
+    padding: 0;
+
+    a {
+      display: block;
+      padding: $sp-3 $sp-4;
+      font-size: 15px;
+      font-weight: 700;
+      color: $color-text-muted;
+      text-decoration: none;
+      border: 1px solid transparent;
+
+      &:hover {
+        color: $color-amber-glow;
+        background: rgba($color-night-elevated, 0.6);
+        border-color: $color-amber-base;
+      }
+    }
+  }
+
+  .mobileDivider {
+    height: 1px;
+    background: rgba($color-night-border, 0.8);
+    margin: $sp-2 0;
+  }
+
+  .mobileSearchBtn {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: $sp-2;
+    padding: $sp-3 $sp-4;
+    background: $color-night-card;
+    border: 1px solid $color-night-border;
+    color: $color-amber-glow;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    text-align: left;
+  }
+
+  .mobileGithubLink {
+    display: block;
+    padding: $sp-3 $sp-4;
+    font-size: 14px;
+    color: $color-text-dim;
+    text-decoration: none;
+
+    &:hover {
+      color: $color-text-main;
+    }
   }
 }
 
