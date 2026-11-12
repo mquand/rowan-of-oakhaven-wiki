@@ -1,183 +1,309 @@
 @use '../styles/variables' as *;
 
+/* ---------- Hero ---------- */
 .hero {
   position: relative;
-  padding: 5rem 1.5rem 4rem;
+  min-height: 88vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: $sp-12 $sp-6 $sp-10;
   text-align: center;
-  background: radial-gradient(circle at 50% 20%, rgba($color-night-elevated, 0.8) 0%, $color-night-dark 70%);
-  border-bottom: 1px solid $color-night-border;
   overflow: hidden;
+}
 
-  &::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 600px;
-    height: 300px;
-    background: radial-gradient(circle, rgba($color-amber-warm, 0.15) 0%, transparent 70%);
-    filter: blur(40px);
-    pointer-events: none;
-  }
+// Vầng sáng đèn lồng — khối màu đặc + blur, không gradient
+.heroGlow {
+  position: absolute;
+  top: -120px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 560px;
+  height: 560px;
+  border-radius: 50%;
+  background: $color-amber-warm;
+  opacity: 0.1;
+  filter: blur(90px);
+  pointer-events: none;
 }
 
 .heroContent {
-  max-width: 800px;
-  margin: 0 auto;
   position: relative;
   z-index: 1;
+  max-width: 760px;
+}
 
-  .preTitle {
-    display: inline-block;
-    color: $color-amber-glow;
-    font-size: 0.85rem;
+.kicker {
+  font-family: $font-pixel;
+  font-size: 14px;
+  color: $color-amber-warm;
+  letter-spacing: 0.08em;
+  margin-bottom: $sp-5;
+  text-transform: uppercase;
+}
+
+.heroTitle {
+  margin-bottom: $sp-6;
+
+  .pixel {
+    font-family: $font-pixel;
     font-weight: 700;
+    font-size: 60px;
+    line-height: 1.1;
+    letter-spacing: 0.01em;
+    color: $color-amber-glow;
+    text-shadow: 0 0 24px rgba($color-amber-base, 0.35);
+    text-wrap: balance;
     text-transform: uppercase;
-    letter-spacing: 0.1em;
-    margin-bottom: 0.8rem;
-    padding: 4px 12px;
-    background: rgba($color-amber-warm, 0.15);
-    border: 1px solid rgba($color-amber-base, 0.3);
-    border-radius: 20px;
   }
+}
 
-  h1 {
-    font-size: 3rem;
-    font-weight: 800;
-    color: $color-text-main;
-    line-height: 1.15;
-    margin-bottom: 1rem;
-    text-shadow: 0 0 25px rgba($color-amber-glow, 0.2);
+// Dải kim cương pixel trang trí cuối hero
+.heroOrnament {
+  width: min(360px, 80%);
+  height: 12px;
+  margin: $sp-8 auto 0;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='12'%3E%3Cg fill='%23ffcf40' fill-opacity='0.65'%3E%3Crect x='10' y='4' width='4' height='4'/%3E%3Crect x='11' y='3' width='2' height='2'/%3E%3Crect x='11' y='7' width='2' height='2'/%3E%3Crect x='9' y='5' width='2' height='2'/%3E%3Crect x='13' y='5' width='2' height='2'/%3E%3C/g%3E%3C/svg%3E");
+  background-repeat: repeat-x;
+  background-position: center;
+  background-size: 24px 12px;
+}
 
-    span {
-      background: linear-gradient(135deg, $color-amber-glow, $color-amber-warm);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-    }
-  }
-
-  .tagline {
-    font-size: 1.15rem;
-    color: $color-text-muted;
-    line-height: 1.6;
-    margin-bottom: 2rem;
-  }
+.tagline {
+  max-width: 680px;
+  margin: 0 auto $sp-8;
+  font-size: 18px;
+  font-weight: 500;
+  color: $color-text-muted;
+  line-height: 1.6;
+  text-wrap: pretty;
 }
 
 .heroActions {
   display: flex;
   justify-content: center;
-  gap: 1rem;
+  gap: $sp-4;
   flex-wrap: wrap;
+  margin-bottom: $sp-10;
 
   .primaryBtn {
-    background: linear-gradient(135deg, $color-amber-warm, $color-amber-deep);
-    color: #fff;
-    padding: 12px 24px;
+    display: inline-block;
+    background: $color-amber-base;
+    color: $color-night-dark;
+    font-weight: 700;
+    font-size: 16px;
+    padding: $sp-3 $sp-6;
     border-radius: $radius-md;
-    font-weight: 600;
-    font-size: 1rem;
-    box-shadow: 0 4px 15px rgba($color-amber-warm, 0.3);
-    transition: all 0.2s ease;
+    border: none;
+    box-shadow: 0 4px 0 $color-amber-deep;
+    transition:
+      transform $dur-base $ease-out,
+      box-shadow $dur-base $ease-out,
+      background-color $dur-fast $ease-out;
 
     &:hover {
+      background: $color-amber-glow;
       transform: translateY(-2px);
-      box-shadow: 0 6px 20px rgba($color-amber-warm, 0.5);
-      color: #fff;
+      box-shadow: 0 6px 0 $color-amber-deep;
+      color: $color-night-dark;
+    }
+
+    &:active {
+      transform: translateY(2px);
+      box-shadow: 0 2px 0 $color-amber-deep;
     }
   }
 
   .secondaryBtn {
-    background: $color-night-card;
+    display: inline-block;
+    background: transparent;
     color: $color-text-main;
-    border: 1px solid $color-night-border;
-    padding: 12px 24px;
-    border-radius: $radius-md;
     font-weight: 600;
-    font-size: 1rem;
-    transition: all 0.2s ease;
+    font-size: 16px;
+    padding: $sp-3 $sp-6;
+    border-radius: $radius-md;
+    border: 1px solid $color-night-border;
+    transition:
+      border-color $dur-fast $ease-out,
+      background-color $dur-fast $ease-out,
+      color $dur-fast $ease-out;
 
     &:hover {
       border-color: $color-amber-base;
-      background: $color-night-elevated;
+      background: rgba($color-night-elevated, 0.6);
       color: $color-amber-glow;
     }
   }
 }
 
+.stats {
+  display: flex;
+  justify-content: center;
+  gap: $sp-10;
+  flex-wrap: wrap;
+
+  div {
+    display: flex;
+    flex-direction: column;
+  }
+
+  dt {
+    font-family: $font-pixel;
+    font-size: 30px;
+    color: $color-amber-glow;
+    line-height: 1.2;
+  }
+
+  dd {
+    font-size: 12px;
+    color: $color-text-dim;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+  }
+}
+
+/* ---------- Tagline moment ---------- */
+.taglineSection {
+  padding: $sp-12 $sp-6;
+}
+
+/* ---------- Sections ---------- */
 .section {
   max-width: $max-width;
-  margin: 4rem auto;
-  padding: 0 1.5rem;
+  margin: 0 auto $sp-12;
+  padding: 0 $sp-6;
 }
 
 .sectionHeader {
   text-align: center;
-  margin-bottom: 2.5rem;
+  margin-bottom: $sp-10;
+  max-width: 680px;
+  margin-left: auto;
+  margin-right: auto;
 
   h2 {
-    font-size: 1.8rem;
-    color: $color-amber-glow;
-    margin-bottom: 0.5rem;
+    font-size: 36px;
+    font-weight: 700;
+    color: $color-text-main;
+    margin-bottom: $sp-3;
+    text-wrap: balance;
   }
 
   p {
-    color: $color-text-dim;
-    font-size: 1rem;
+    color: $color-text-muted;
+    font-size: 16px;
+    text-wrap: pretty;
   }
 }
 
 .grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-  gap: 1.5rem;
+  gap: $sp-6;
+
+  > div {
+    height: 100%;
+  }
 }
 
+/* ---------- Cards kiểu item slot ---------- */
 .card {
-  background: $color-night-card;
+  height: 100%;
+  background-color: $color-night-card;
   border: 1px solid $color-night-border;
-  border-radius: $radius-lg;
-  padding: 1.8rem;
-  transition: all 0.25s ease;
+  border-radius: $radius-md;
+  padding: $sp-6;
   display: flex;
   flex-direction: column;
+  box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4);
+  transition:
+    transform $dur-base $ease-out,
+    border-color $dur-fast $ease-out,
+    box-shadow $dur-base $ease-out;
 
   &:hover {
+    transform: translateY(-2px);
     border-color: $color-amber-base;
-    transform: translateY(-4px);
-    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
+    box-shadow: 0 6px 0 rgba(0, 0, 0, 0.4);
   }
 
   .cardIcon {
-    font-size: 2rem;
-    margin-bottom: 1rem;
+    width: 48px;
+    height: 48px;
+    background: $color-night-dark;
+    border: 1px solid $color-night-border;
+    border-radius: $radius-sm;
+    color: $color-amber-glow;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: $sp-5;
   }
 
   h3 {
-    font-size: 1.2rem;
+    font-size: 18px;
+    font-weight: 700;
     color: $color-text-main;
-    margin-bottom: 0.5rem;
+    margin-bottom: $sp-2;
+  }
+
+  .count {
+    color: $color-amber-glow;
+    font-weight: 600;
   }
 
   p {
     color: $color-text-muted;
-    font-size: 0.92rem;
-    line-height: 1.5;
+    font-size: 14px;
+    line-height: 1.6;
     flex-grow: 1;
-    margin-bottom: 1.2rem;
+    margin-bottom: $sp-5;
+    text-wrap: pretty;
   }
 
   .cardLink {
     color: $color-amber-base;
     font-weight: 600;
-    font-size: 0.88rem;
-    display: flex;
+    font-size: 14px;
+    display: inline-flex;
     align-items: center;
-    gap: 4px;
+    gap: $sp-1;
+    width: fit-content;
+    transition: color $dur-fast $ease-out;
 
     &:hover {
       color: $color-amber-glow;
     }
+  }
+}
+
+@media (max-width: 768px) {
+  .hero {
+    min-height: auto;
+    padding: $sp-10 $sp-5 $sp-8;
+  }
+
+  .heroTitle .pixel {
+    font-size: 36px;
+  }
+
+  .kicker {
+    font-size: 12px;
+  }
+
+  .tagline {
+    font-size: 16px;
+  }
+
+  .sectionHeader h2 {
+    font-size: 30px;
+  }
+
+  .stats {
+    gap: $sp-6;
+  }
+
+  .stats dt {
+    font-size: 24px;
   }
 }

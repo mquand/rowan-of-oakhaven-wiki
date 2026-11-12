@@ -6,24 +6,50 @@
   padding: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 html, body {
   background-color: $color-night-dark;
   color: $color-text-main;
   font-family: $font-sans;
+  font-size: 16px;
   line-height: 1.6;
   min-height: 100vh;
   -webkit-font-smoothing: antialiased;
 }
 
+// Bầu trời đêm pixel — sao lấp lánh làm texture phẳng, không gradient
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120'%3E%3Crect x='14' y='18' width='2' height='2' fill='%23ffe680' fill-opacity='0.5'/%3E%3Crect x='58' y='9' width='2' height='2' fill='%236ee2ff' fill-opacity='0.4'/%3E%3Crect x='96' y='30' width='2' height='2' fill='%23f5f2e9' fill-opacity='0.3'/%3E%3Crect x='34' y='52' width='2' height='2' fill='%23ffe680' fill-opacity='0.3'/%3E%3Crect x='82' y='66' width='2' height='2' fill='%23b874ff' fill-opacity='0.35'/%3E%3Crect x='10' y='92' width='2' height='2' fill='%23f5f2e9' fill-opacity='0.25'/%3E%3Crect x='64' y='104' width='2' height='2' fill='%236ee2ff' fill-opacity='0.3'/%3E%3Crect x='104' y='110' width='2' height='2' fill='%23ffe680' fill-opacity='0.4'/%3E%3C/svg%3E");
+  background-size: 120px 120px;
+}
+
+::selection {
+  background: rgba($color-amber-base, 0.35);
+  color: $color-text-main;
+}
+
 a {
   color: $color-amber-base;
   text-decoration: none;
-  transition: color 0.2s ease, text-shadow 0.2s ease;
+  transition: color $dur-fast $ease-out;
 
   &:hover {
     color: $color-amber-glow;
-    text-shadow: 0 0 8px rgba(255, 230, 128, 0.4);
   }
+}
+
+:focus-visible {
+  outline: 2px solid $color-amber-base;
+  outline-offset: 2px;
+  border-radius: $radius-sm;
 }
 
 img {
@@ -32,10 +58,29 @@ img {
   display: block;
 }
 
+.skip-link {
+  position: absolute;
+  left: $sp-5;
+  top: -48px;
+  z-index: 200;
+  background: $color-amber-base;
+  color: $color-night-dark;
+  font-weight: 700;
+  font-size: 14px;
+  padding: $sp-3 $sp-5;
+  border-radius: $radius-md;
+  transition: top $dur-fast $ease-out;
+
+  &:focus {
+    top: $sp-5;
+    color: $color-night-dark;
+  }
+}
+
 /* Scrollbar */
 ::-webkit-scrollbar {
-  width: 8px;
-  height: 8px;
+  width: 10px;
+  height: 10px;
 }
 
 ::-webkit-scrollbar-track {
@@ -44,11 +89,59 @@ img {
 
 ::-webkit-scrollbar-thumb {
   background: $color-night-border;
-  border-radius: 4px;
+  border-radius: $radius-full;
+  border: 2px solid $color-night-dark;
 
   &:hover {
     background: $color-amber-warm;
   }
+}
+
+/* Scroll reveal — IntersectionObserver thêm .is-visible */
+.reveal {
+  opacity: 0;
+  transform: translateY(24px);
+  transition:
+    opacity $dur-reveal $ease-out,
+    transform $dur-reveal $ease-out;
+
+  &.is-visible {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  .reveal {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/* Khung góc pixel kiểu RPG dialog — 4 dấu ngoặc ở 4 góc */
+.pixel-frame {
+  background-image:
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='14' height='14'%3E%3Cpath d='M1 13V4Q1 1 4 1h9' fill='none' stroke='%23ffcf40' stroke-width='2' stroke-opacity='0.55'/%3E%3C/svg%3E"),
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='14' height='14'%3E%3Cpath d='M13 13V4Q13 1 10 1H1' fill='none' stroke='%23ffcf40' stroke-width='2' stroke-opacity='0.55'/%3E%3C/svg%3E"),
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='14' height='14'%3E%3Cpath d='M1 1v9Q1 13 4 13h9' fill='none' stroke='%23ffcf40' stroke-width='2' stroke-opacity='0.55'/%3E%3C/svg%3E"),
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='14' height='14'%3E%3Cpath d='M13 1v9Q13 13 10 13H1' fill='none' stroke='%23ffcf40' stroke-width='2' stroke-opacity='0.55'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position:
+    left 6px top 6px,
+    right 6px top 6px,
+    left 6px bottom 6px,
+    right 6px bottom 6px;
+  background-size: 14px 14px;
 }
 
 /* Badge tags */
@@ -56,7 +149,7 @@ img {
   display: inline-flex;
   align-items: center;
   padding: 2px 8px;
-  font-size: 0.75rem;
+  font-size: 12px;
   font-weight: 600;
   border-radius: $radius-sm;
   background: $color-night-card;
@@ -72,57 +165,85 @@ img {
     color: #8be49b;
     border-color: rgba(#8be49b, 0.3);
   }
+
+  // Màu theo category vật phẩm — kiểu tag trong inventory game
+  &.seed {
+    color: #8be49b;
+    border-color: rgba(#8be49b, 0.3);
+  }
+
+  &.ingredient {
+    color: $color-bakery-cream;
+    border-color: rgba($color-bakery-cream, 0.3);
+  }
+
+  &.mineral {
+    color: $color-amber-warm;
+    border-color: rgba($color-amber-warm, 0.35);
+  }
+
+  &.gem {
+    color: $color-crystal-cyan;
+    border-color: rgba($color-crystal-cyan, 0.3);
+  }
 }
 
 /* Code block & Markdown styles */
 .markdown-content {
   h1, h2, h3, h4 {
-    color: $color-amber-glow;
-    margin-top: 1.8rem;
-    margin-bottom: 0.8rem;
+    color: $color-text-main;
+    margin-top: 32px;
+    margin-bottom: 12px;
     font-weight: 700;
     line-height: 1.3;
+    text-wrap: balance;
   }
 
   h1 {
-    font-size: 2rem;
-    border-bottom: 2px solid $color-night-border;
-    padding-bottom: 0.5rem;
+    font-size: 30px;
+    color: $color-amber-glow;
+    border-bottom: 1px solid $color-night-border;
+    padding-bottom: 12px;
     margin-top: 0;
   }
 
   h2 {
-    font-size: 1.4rem;
+    font-size: 24px;
     border-bottom: 1px solid rgba($color-night-border, 0.6);
-    padding-bottom: 0.3rem;
+    padding-bottom: 8px;
   }
 
   h3 {
-    font-size: 1.15rem;
+    font-size: 20px;
+  }
+
+  h4 {
+    font-size: 18px;
   }
 
   p {
-    margin-bottom: 1rem;
+    margin-bottom: 16px;
     color: $color-text-main;
+    text-wrap: pretty;
+    max-width: 68ch;
   }
 
   ul, ol {
-    margin-left: 1.5rem;
-    margin-bottom: 1rem;
+    margin-left: 24px;
+    margin-bottom: 16px;
 
     li {
-      margin-bottom: 0.3rem;
+      margin-bottom: 4px;
     }
   }
 
   blockquote {
     border-left: 3px solid $color-amber-warm;
-    padding: 0.6rem 1rem;
+    padding: 8px 16px;
     background: rgba($color-night-card, 0.6);
-    border-radius: 0 $radius-sm $radius-sm 0;
-    margin-bottom: 1.2rem;
+    border-radius: 0 $radius-md $radius-md 0;
+    margin-bottom: 24px;
     color: $color-bakery-cream;
-    font-style: italic;
 
     p {
       margin-bottom: 0;
@@ -132,11 +253,12 @@ img {
   table {
     width: 100%;
     border-collapse: collapse;
-    margin: 1.2rem 0;
+    margin: 24px 0;
     background: $color-night-card;
     border-radius: $radius-md;
     overflow: hidden;
     border: 1px solid $color-night-border;
+    font-size: 14px;
 
     th, td {
       padding: 10px 14px;
@@ -148,7 +270,7 @@ img {
       background: $color-night-elevated;
       color: $color-amber-glow;
       font-weight: 600;
-      font-size: 0.9rem;
+      font-size: 14px;
     }
 
     tr:last-child td {
@@ -162,13 +284,13 @@ img {
 
   pre {
     background: #090a10;
-    padding: 1rem;
+    padding: 16px;
     border-radius: $radius-md;
     border: 1px solid $color-night-border;
     overflow-x: auto;
-    margin: 1.2rem 0;
+    margin: 24px 0;
     font-family: $font-pixel;
-    font-size: 0.88rem;
+    font-size: 14px;
     color: $color-starlight;
   }
 

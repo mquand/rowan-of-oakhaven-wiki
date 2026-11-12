@@ -1,19 +1,11 @@
 import styles from '../Database.module.scss';
 import { getItems } from '../../../lib/gameData';
+import Icon from '../../../components/Icon';
+import ItemsBrowser from './ItemsBrowser';
 
 export const metadata = {
   title: 'Danh Mục Vật Phẩm — Rowan of Oakhaven Wiki',
 };
-
-function getCategoryIcon(cat) {
-  switch (cat) {
-    case 'seed': return '🌱';
-    case 'ingredient': return '🌾';
-    case 'mineral': return '⛏️';
-    case 'gem': return '💎';
-    default: return '📦';
-  }
-}
 
 export default function ItemsPage() {
   const items = getItems();
@@ -21,27 +13,11 @@ export default function ItemsPage() {
   return (
     <div className={styles.container}>
       <div className={styles.header}>
-        <h1>📦 Danh Mục Vật Phẩm & Tài Nguyên</h1>
-        <p>Hạt giống thảo mộc, quặng khoáng sản và nguyên liệu thu hoạch trên khắp 5 Vương Quốc</p>
+        <h1 className={styles.title}><Icon name="package" size={28} /> Danh mục vật phẩm và tài nguyên</h1>
+        <p>Hạt giống thảo mộc, quặng khoáng sản và nguyên liệu thu hoạch trên khắp 5 Vương quốc</p>
       </div>
 
-      <div className={styles.grid}>
-        {items.map(item => (
-          <div key={item.id} className={styles.itemCard}>
-            <div className={styles.cardTop}>
-              <div className={styles.iconWrap}>{getCategoryIcon(item.category)}</div>
-              <span className="badge">{item.category}</span>
-            </div>
-            <h3>{item.name}</h3>
-            <p className={styles.desc}>{item.description}</p>
-            <div className={styles.tags}>
-              {item.tags?.map(t => (
-                <span key={t} className="badge forest">#{t}</span>
-              ))}
-            </div>
-          </div>
-        ))}
-      </div>
+      <ItemsBrowser items={items} />
     </div>
   );
 }

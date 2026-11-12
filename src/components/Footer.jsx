@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Icon from './Icon';
 import styles from './Footer.module.scss';
 
 export default function Footer() {
@@ -7,7 +8,7 @@ export default function Footer() {
       <div className={styles.container}>
         <div className={styles.topRow}>
           <div className={styles.about}>
-            <h3>🍃 Rowan of Oakhaven</h3>
+            <h3 className={styles.brand}><Icon name="leaf" size={18} /> Rowan of Oakhaven</h3>
             <p>
               Tựa game Cozy Dark Pixel RPG kết hợp nghệ thuật pha trà ASMR, nướng bánh ma thuật,
               trồng trọt và xoa dịu quái vật trong thế giới Năm Vương Quốc.

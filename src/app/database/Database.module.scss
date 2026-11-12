@@ -2,216 +2,388 @@
 
 .container {
   max-width: $max-width;
-  margin: 2.5rem auto;
-  padding: 0 1.5rem;
+  margin: 0 auto;
+  padding: $sp-10 $sp-6 $sp-12;
 }
 
 .header {
-  margin-bottom: 2.5rem;
+  margin-bottom: $sp-10;
+  max-width: 680px;
+  padding-bottom: $sp-6;
+
+  &::after {
+    content: '';
+    display: block;
+    width: 120px;
+    height: 8px;
+    margin-top: $sp-5;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='8'%3E%3Cg fill='%23ffcf40' fill-opacity='0.6'%3E%3Crect x='6' y='2' width='4' height='4'/%3E%3Crect x='7' y='1' width='2' height='2'/%3E%3Crect x='7' y='5' width='2' height='2'/%3E%3Crect x='5' y='3' width='2' height='2'/%3E%3Crect x='9' y='3' width='2' height='2'/%3E%3C/g%3E%3C/svg%3E");
+    background-repeat: repeat-x;
+    background-size: 16px 8px;
+  }
 
   h1 {
-    font-size: 2.2rem;
-    color: $color-amber-glow;
-    margin-bottom: 0.5rem;
+    font-size: 36px;
+    font-weight: 700;
+    color: $color-text-main;
+    margin-bottom: $sp-3;
+    text-wrap: balance;
   }
 
   p {
     color: $color-text-muted;
-    font-size: 1rem;
+    font-size: 16px;
+    text-wrap: pretty;
   }
 }
 
 .grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-  gap: 1.5rem;
+  gap: $sp-6;
+}
+
+.toolbar {
+  display: flex;
+  flex-direction: column;
+  gap: $sp-4;
+  margin-bottom: $sp-8;
+}
+
+.searchWrap {
+  position: relative;
+  max-width: 480px;
+}
+
+.searchIcon {
+  position: absolute;
+  left: $sp-4;
+  top: 50%;
+  transform: translateY(-50%);
+  color: $color-text-dim;
+  pointer-events: none;
+}
+
+.searchInput {
+  width: 100%;
+  background-color: $color-night-card;
+  border: 1px solid $color-night-border;
+  border-radius: $radius-md;
+  color: $color-text-main;
+  font-family: $font-sans;
+  font-size: 16px;
+  padding: $sp-3 $sp-4 $sp-3 44px;
+  transition:
+    border-color $dur-fast $ease-out,
+    box-shadow $dur-fast $ease-out;
+
+  &::placeholder {
+    color: $color-text-dim;
+  }
+
+  &:focus {
+    outline: none;
+    border-color: $color-amber-base;
+    box-shadow: 0 0 0 3px rgba($color-amber-base, 0.15);
+  }
+}
+
+.chips {
+  display: flex;
+  gap: $sp-2;
+  flex-wrap: wrap;
+}
+
+.chip {
+  font-family: $font-sans;
+  font-size: 14px;
+  font-weight: 600;
+  color: $color-text-muted;
+  background-color: transparent;
+  border: 1px solid $color-night-border;
+  border-radius: $radius-full;
+  padding: $sp-2 $sp-4;
+  cursor: pointer;
+  transition:
+    color $dur-fast $ease-out,
+    border-color $dur-fast $ease-out,
+    background-color $dur-fast $ease-out;
+
+  &:hover {
+    color: $color-text-main;
+    border-color: $color-amber-base;
+  }
+
+  &.chipActive {
+    color: $color-night-dark;
+    background-color: $color-amber-base;
+    border-color: $color-amber-base;
+    font-weight: 700;
+  }
+}
+
+.empty {
+  text-align: center;
+  padding: $sp-12 $sp-6;
+  border: 1px dashed $color-night-border;
+  border-radius: $radius-md;
+  color: $color-text-muted;
+
+  p {
+    margin-bottom: $sp-5;
+    font-size: 16px;
+  }
+}
+
+.resetBtn {
+  font-family: $font-sans;
+  font-size: 14px;
+  font-weight: 700;
+  color: $color-night-dark;
+  background-color: $color-amber-base;
+  border: none;
+  border-radius: $radius-md;
+  padding: $sp-2 $sp-5;
+  cursor: pointer;
+  box-shadow: 0 3px 0 $color-amber-deep;
+  transition:
+    transform $dur-base $ease-out,
+    box-shadow $dur-base $ease-out;
+
+  &:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 4px 0 $color-amber-deep;
+  }
+
+  &:active {
+    transform: translateY(2px);
+    box-shadow: 0 1px 0 $color-amber-deep;
+  }
+}
+
+.itemCard,
+.recipeCard,
+.characterCard {
+  background-color: $color-night-card;
+  border: 1px solid $color-night-border;
+  border-radius: $radius-md;
+  padding: $sp-6;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4);
+  transition:
+    transform $dur-base $ease-out,
+    border-color $dur-fast $ease-out,
+    box-shadow $dur-base $ease-out;
+
+  &:hover {
+    transform: translateY(-2px);
+    border-color: $color-amber-base;
+    box-shadow: 0 6px 0 rgba(0, 0, 0, 0.4);
+  }
 }
 
 .itemCard {
-  background: $color-night-card;
-  border: 1px solid $color-night-border;
-  border-radius: $radius-md;
-  padding: 1.4rem;
-  display: flex;
-  flex-direction: column;
-  transition: all 0.2s ease;
-
-  &:hover {
-    border-color: $color-amber-base;
-    transform: translateY(-2px);
-    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.4);
-  }
-
   .cardTop {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    margin-bottom: 0.8rem;
+    margin-bottom: $sp-4;
   }
 
   .iconWrap {
-    width: 44px;
-    height: 44px;
+    width: 48px;
+    height: 48px;
     background: $color-night-dark;
     border: 1px solid $color-night-border;
     border-radius: $radius-sm;
+    color: $color-amber-glow;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 1.4rem;
   }
 
   h3 {
-    font-size: 1.15rem;
+    font-size: 18px;
+    font-weight: 700;
     color: $color-text-main;
-    margin-bottom: 0.4rem;
+    margin-bottom: $sp-2;
   }
 
   .desc {
     color: $color-text-muted;
-    font-size: 0.88rem;
-    line-height: 1.5;
-    margin-bottom: 1rem;
+    font-size: 14px;
+    line-height: 1.6;
+    margin-bottom: $sp-5;
     flex-grow: 1;
+    text-wrap: pretty;
   }
 
   .tags {
     display: flex;
-    gap: 0.3rem;
+    gap: $sp-1;
     flex-wrap: wrap;
     margin-top: auto;
   }
 }
 
 .recipeCard {
-  background: $color-night-card;
-  border: 1px solid $color-night-border;
-  border-radius: $radius-md;
-  padding: 1.5rem;
-  display: flex;
-  flex-direction: column;
-  transition: all 0.2s ease;
-
-  &:hover {
-    border-color: $color-amber-base;
-    transform: translateY(-2px);
-    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.4);
-  }
-
   .recipeStation {
-    font-size: 0.75rem;
-    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    gap: $sp-1;
+    font-size: 12px;
     font-weight: 700;
-    letter-spacing: 0.05em;
     color: $color-amber-warm;
-    margin-bottom: 0.4rem;
+    margin-bottom: $sp-2;
   }
 
   h3 {
-    font-size: 1.2rem;
+    font-size: 20px;
+    font-weight: 700;
     color: $color-amber-glow;
-    margin-bottom: 0.5rem;
+    margin-bottom: $sp-3;
+  }
+
+  .desc {
+    color: $color-text-muted;
+    font-size: 14px;
+    line-height: 1.6;
+    margin-bottom: $sp-4;
+    flex-grow: 1;
+    text-wrap: pretty;
   }
 
   .effect {
-    font-size: 0.86rem;
+    display: flex;
+    align-items: flex-start;
+    gap: $sp-2;
+    font-size: 14px;
     color: $color-crystal-cyan;
     background: rgba($color-crystal-cyan, 0.08);
     border: 1px solid rgba($color-crystal-cyan, 0.2);
     border-radius: $radius-sm;
-    padding: 6px 10px;
-    margin-bottom: 1rem;
+    padding: $sp-2 $sp-3;
+    margin-bottom: $sp-4;
+
+    svg {
+      flex-shrink: 0;
+      margin-top: 3px;
+    }
   }
 
   .ingredientsHeader {
-    font-size: 0.8rem;
-    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 700;
     color: $color-text-dim;
-    font-weight: 600;
-    margin-bottom: 0.4rem;
+    margin-bottom: $sp-2;
   }
 
   .ingredientsList {
     list-style: none;
     display: flex;
     flex-direction: column;
-    gap: 0.3rem;
-    font-size: 0.88rem;
+    gap: $sp-1;
+    font-size: 14px;
     color: $color-text-main;
-    margin-bottom: 1rem;
+    margin-bottom: $sp-4;
 
     li {
       display: flex;
       justify-content: space-between;
+      gap: $sp-3;
       border-bottom: 1px dashed rgba($color-night-border, 0.6);
-      padding-bottom: 2px;
+      padding-bottom: $sp-1;
     }
+  }
+
+  .duration {
+    display: flex;
+    align-items: center;
+    gap: $sp-1;
+    margin-top: auto;
+    font-size: 12px;
+    color: $color-text-dim;
+    font-variant-numeric: tabular-nums;
   }
 }
 
 .characterCard {
-  background: $color-night-card;
-  border: 1px solid $color-night-border;
-  border-radius: $radius-lg;
-  padding: 1.8rem;
-  display: flex;
-  flex-direction: column;
-  transition: all 0.2s ease;
-
-  &:hover {
-    border-color: $color-amber-base;
-    transform: translateY(-3px);
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
-  }
-
   .charRole {
-    font-size: 0.78rem;
-    text-transform: uppercase;
-    color: $color-amber-warm;
+    font-size: 12px;
     font-weight: 700;
-    letter-spacing: 0.05em;
+    color: $color-amber-warm;
+    margin-bottom: $sp-2;
   }
 
   h3 {
-    font-size: 1.35rem;
+    font-size: 20px;
+    font-weight: 700;
     color: $color-text-main;
-    margin: 0.2rem 0 0.4rem;
+    margin-bottom: $sp-1;
   }
 
   .species {
-    font-size: 0.85rem;
+    display: flex;
+    align-items: center;
+    gap: $sp-3;
+    flex-wrap: wrap;
+    font-size: 14px;
     color: $color-text-dim;
-    margin-bottom: 0.8rem;
+    margin-bottom: $sp-4;
+  }
+
+  .speciesLoc {
+    display: inline-flex;
+    align-items: center;
+    gap: $sp-1;
   }
 
   .quote {
-    font-style: italic;
     color: $color-bakery-cream;
-    font-size: 0.9rem;
-    line-height: 1.5;
+    font-size: 14px;
+    line-height: 1.6;
     background: rgba($color-night-elevated, 0.6);
     border-left: 3px solid $color-amber-base;
-    padding: 8px 12px;
+    padding: $sp-2 $sp-3;
     border-radius: 0 $radius-sm $radius-sm 0;
-    margin-bottom: 1rem;
+    margin-bottom: $sp-4;
   }
 
   .desc {
     color: $color-text-muted;
-    font-size: 0.88rem;
-    line-height: 1.5;
-    margin-bottom: 1rem;
+    font-size: 14px;
+    line-height: 1.6;
+    margin-bottom: $sp-4;
     flex-grow: 1;
+    text-wrap: pretty;
   }
 
   .charMeta {
     border-top: 1px solid rgba($color-night-border, 0.8);
-    padding-top: 0.8rem;
-    font-size: 0.85rem;
+    padding-top: $sp-3;
+    font-size: 14px;
     color: $color-text-dim;
 
     strong {
       color: $color-amber-glow;
     }
+  }
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  gap: $sp-3;
+
+  svg {
+    color: $color-amber-glow;
+    flex-shrink: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .header h1 {
+    font-size: 30px;
   }
 }

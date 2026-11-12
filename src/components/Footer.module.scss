@@ -2,11 +2,11 @@
 
 .footer {
   border-top: 1px solid $color-night-border;
-  background: $color-night-dark;
-  padding: 3rem 1.5rem 2rem;
-  margin-top: 4rem;
+  background: $color-night-base;
+  padding: $sp-10 $sp-6 $sp-8;
+  margin-top: $sp-12;
   color: $color-text-muted;
-  font-size: 0.9rem;
+  font-size: 14px;
 }
 
 .container {
@@ -14,7 +14,7 @@
   margin: 0 auto;
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  gap: $sp-8;
 }
 
 .topRow {
@@ -22,44 +22,53 @@
   justify-content: space-between;
   align-items: flex-start;
   flex-wrap: wrap;
-  gap: 2rem;
+  gap: $sp-8;
 }
 
 .about {
   max-width: 420px;
 
   h3 {
+    font-family: $font-pixel;
+    font-size: 18px;
     color: $color-amber-glow;
-    font-size: 1.1rem;
-    margin-bottom: 0.6rem;
+    margin-bottom: $sp-3;
+    display: flex;
+    align-items: center;
+    gap: $sp-2;
   }
 
   p {
-    line-height: 1.5;
+    line-height: 1.6;
     color: $color-text-dim;
+    text-wrap: pretty;
   }
 }
 
 .links {
   display: flex;
-  gap: 3rem;
+  gap: $sp-12;
 
   h4 {
     color: $color-text-main;
-    font-size: 0.9rem;
-    margin-bottom: 0.8rem;
+    font-size: 12px;
+    font-weight: 700;
+    margin-bottom: $sp-4;
     text-transform: uppercase;
-    letter-spacing: 0.05em;
+    letter-spacing: 0.08em;
   }
 
   ul {
     list-style: none;
     display: flex;
     flex-direction: column;
-    gap: 0.5rem;
+    gap: $sp-2;
 
     a {
       color: $color-text-muted;
+      font-size: 14px;
+      transition: color $dur-fast $ease-out;
+
       &:hover {
         color: $color-amber-glow;
       }
@@ -69,10 +78,23 @@
 
 .bottomRow {
   border-top: 1px solid rgba($color-night-border, 0.6);
-  padding-top: 1.5rem;
+  padding-top: $sp-6;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  font-size: 0.82rem;
+  flex-wrap: wrap;
+  gap: $sp-3;
+  font-size: 12px;
   color: $color-text-dim;
+}
+
+@media (max-width: 640px) {
+  .links {
+    gap: $sp-8;
+  }
+
+  .bottomRow {
+    flex-direction: column;
+    align-items: flex-start;
+  }
 }

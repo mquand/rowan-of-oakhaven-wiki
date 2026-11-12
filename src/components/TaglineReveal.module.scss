@@ -1,0 +1,42 @@
+@use '../styles/variables' as *;
+
+.tagline {
+  max-width: 880px;
+  margin: 0 auto;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 1.3;
+  text-align: center;
+  color: $color-text-main;
+  text-wrap: balance;
+
+  .word {
+    display: inline-block;
+    opacity: 0.3;
+    transform: translateY(8px);
+    transition:
+      opacity 500ms $ease-out,
+      transform 500ms $ease-out,
+      color $dur-fast $ease-out;
+    transition-delay: calc(var(--i, 0) * 45ms);
+  }
+
+  &.active .word {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .tagline {
+    font-size: 24px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .word {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+}

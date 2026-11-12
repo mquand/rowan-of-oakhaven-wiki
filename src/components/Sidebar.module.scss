@@ -5,44 +5,74 @@
   flex-shrink: 0;
   display: flex;
   flex-direction: column;
-  gap: 1.5rem;
+  gap: $sp-6;
+  position: sticky;
+  top: 88px;
 }
 
 .section {
   background: $color-night-card;
   border: 1px solid $color-night-border;
   border-radius: $radius-md;
-  padding: 1.2rem;
+  padding: $sp-5;
 
   h3 {
-    font-size: 0.82rem;
+    font-size: 12px;
+    font-weight: 700;
     color: $color-text-dim;
     text-transform: uppercase;
-    letter-spacing: 0.05em;
-    margin-bottom: 0.8rem;
-    font-weight: 700;
+    letter-spacing: 0.08em;
+    margin-bottom: $sp-4;
   }
 
   ul {
     list-style: none;
     display: flex;
     flex-direction: column;
-    gap: 0.4rem;
+    gap: $sp-1;
 
     a {
       display: flex;
       align-items: center;
-      gap: 8px;
-      padding: 6px 10px;
+      gap: $sp-2;
+      padding: $sp-2 $sp-3;
       border-radius: $radius-sm;
-      font-size: 0.9rem;
+      font-size: 14px;
+      font-weight: 500;
       color: $color-text-muted;
-      transition: all 0.2s ease;
+      transition:
+        color $dur-fast $ease-out,
+        background-color $dur-fast $ease-out;
 
-      &:hover, &.active {
-        color: $color-amber-glow;
-        background: $color-night-elevated;
+      svg {
+        flex-shrink: 0;
+        opacity: 0.8;
       }
+
+      &:hover {
+        color: $color-text-main;
+        background: rgba($color-night-elevated, 0.6);
+      }
+
+      &.active {
+        color: $color-amber-glow;
+        background: rgba($color-amber-base, 0.1);
+      }
+    }
+  }
+}
+
+@media (max-width: 900px) {
+  .sidebar {
+    width: 100%;
+    position: static;
+    flex-direction: row;
+    overflow-x: auto;
+    gap: $sp-4;
+    padding-bottom: $sp-2;
+
+    .section {
+      min-width: 260px;
     }
   }
 }

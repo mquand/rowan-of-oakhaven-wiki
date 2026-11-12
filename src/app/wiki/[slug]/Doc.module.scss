@@ -2,43 +2,145 @@
 
 .container {
   max-width: $max-width;
-  margin: 2rem auto;
-  padding: 0 1.5rem;
+  margin: 0 auto;
+  padding: $sp-8 $sp-6 $sp-12;
   display: flex;
-  gap: 2.5rem;
+  gap: $sp-10;
   align-items: flex-start;
 }
 
 .contentWrapper {
   flex-grow: 1;
   min-width: 0;
-  background: $color-night-card;
+  background-color: $color-night-card;
   border: 1px solid $color-night-border;
   border-radius: $radius-lg;
-  padding: 2.5rem;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+  padding: $sp-10;
+  box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4);
+}
+
+.breadcrumb {
+  display: flex;
+  flex-wrap: wrap;
+  gap: $sp-2;
+  align-items: center;
+  font-size: 12px;
+  color: $color-text-dim;
+  margin-bottom: $sp-6;
+
+  a {
+    color: $color-text-muted;
+    transition: color $dur-fast $ease-out;
+
+    &:hover {
+      color: $color-amber-glow;
+    }
+  }
+
+  .breadcrumbCurrent {
+    color: $color-text-muted;
+    max-width: 280px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+}
+
+.docHeader {
+  margin-bottom: $sp-8;
+  padding-bottom: $sp-6;
+  border-bottom: 1px solid $color-night-border;
+
+  h1 {
+    font-size: 36px;
+    font-weight: 700;
+    color: $color-text-main;
+    line-height: 1.25;
+    margin-bottom: $sp-4;
+    text-wrap: balance;
+  }
 }
 
 .docMeta {
   display: flex;
   flex-wrap: wrap;
-  gap: 0.8rem;
+  gap: $sp-3;
   align-items: center;
-  margin-bottom: 1.5rem;
-  padding-bottom: 1rem;
-  border-bottom: 1px solid rgba($color-night-border, 0.7);
-  font-size: 0.85rem;
+  font-size: 14px;
   color: $color-text-dim;
 
   .date {
     display: flex;
     align-items: center;
-    gap: 4px;
+    gap: $sp-1;
   }
 }
 
 .tags {
   display: flex;
-  gap: 0.4rem;
+  gap: $sp-2;
   flex-wrap: wrap;
+  margin-left: auto;
+}
+
+.docNav {
+  display: flex;
+  justify-content: space-between;
+  gap: $sp-4;
+  margin-top: $sp-10;
+  padding-top: $sp-6;
+  border-top: 1px solid $color-night-border;
+
+  a {
+    display: flex;
+    flex-direction: column;
+    gap: $sp-1;
+    max-width: 48%;
+    padding: $sp-4;
+    border: 1px solid $color-night-border;
+    border-radius: $radius-md;
+    transition:
+      border-color $dur-fast $ease-out,
+      background-color $dur-fast $ease-out;
+
+    &:hover {
+      border-color: $color-amber-base;
+      background-color: rgba($color-night-elevated, 0.5);
+    }
+  }
+
+  .docNavNext {
+    text-align: right;
+    margin-left: auto;
+  }
+
+  .docNavLabel {
+    font-size: 12px;
+    color: $color-text-dim;
+  }
+
+  .docNavTitle {
+    font-size: 14px;
+    font-weight: 700;
+    color: $color-text-main;
+  }
+}
+
+@media (max-width: 900px) {
+  .container {
+    flex-direction: column;
+    gap: $sp-6;
+  }
+
+  .contentWrapper {
+    padding: $sp-6;
+  }
+
+  .docHeader h1 {
+    font-size: 30px;
+  }
+
+  .tags {
+    margin-left: 0;
+  }
 }

@@ -2,71 +2,91 @@
 
 .header {
   position: sticky;
-  top: 0;
+  top: $sp-3;
   z-index: 100;
-  background: rgba($color-night-dark, 0.85);
-  backdrop-filter: blur(12px);
-  border-bottom: 1px solid $color-night-border;
-  padding: 0 1.5rem;
-  height: 64px;
+  padding: 0 $sp-5;
 }
 
-.navContainer {
+.navPill {
   max-width: $max-width;
   margin: 0 auto;
-  height: 100%;
+  height: 56px;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  gap: $sp-5;
+  padding: 0 $sp-4 0 $sp-5;
+  background: rgba($color-night-base, 0.82);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid $color-night-border;
+  border-radius: $radius-full;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.35);
 }
 
 .brand {
   display: flex;
   align-items: center;
-  gap: 0.8rem;
-  font-weight: 700;
+  gap: $sp-3;
   color: $color-text-main;
-  font-size: 1.15rem;
+  flex-shrink: 0;
 
-  .brandLogo {
-    width: 32px;
-    height: 32px;
-    background: linear-gradient(135deg, $color-amber-warm, $color-wood-dark);
-    border-radius: $radius-sm;
+  .brandMark {
+    width: 36px;
+    height: 36px;
+    background: $color-amber-warm;
+    color: $color-night-dark;
+    border-radius: $radius-md;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 1.1rem;
-    box-shadow: 0 0 12px rgba($color-amber-warm, 0.4);
+    box-shadow: 0 2px 0 $color-amber-deep;
   }
 
-  .studioTag {
-    font-size: 0.72rem;
+  .brandText {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.15;
+  }
+
+  .brandName {
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: -0.01em;
+  }
+
+  .brandSub {
+    font-size: 12px;
     color: $color-text-dim;
     font-weight: 500;
-    text-transform: uppercase;
-    letter-spacing: 0.05em;
-    display: block;
   }
 }
 
 .navLinks {
   display: flex;
   align-items: center;
-  gap: 1.5rem;
+  gap: $sp-1;
   list-style: none;
 
   a {
-    font-size: 0.95rem;
-    font-weight: 500;
+    display: block;
+    font-size: 14px;
+    font-weight: 600;
     color: $color-text-muted;
-    transition: all 0.2s ease;
-    padding: 6px 10px;
-    border-radius: $radius-sm;
+    padding: $sp-2 $sp-3;
+    border-radius: $radius-full;
+    transition:
+      color $dur-fast $ease-out,
+      background-color $dur-fast $ease-out;
 
     &:hover {
+      color: $color-text-main;
+      background: rgba($color-night-elevated, 0.7);
+    }
+
+    &.active {
       color: $color-amber-glow;
-      background: rgba($color-night-card, 0.6);
+      background: rgba($color-amber-base, 0.12);
     }
   }
 }
@@ -74,24 +94,142 @@
 .actions {
   display: flex;
   align-items: center;
-  gap: 0.8rem;
+  gap: $sp-3;
+  flex-shrink: 0;
 
   .githubBtn {
-    display: flex;
-    align-items: center;
-    gap: 6px;
-    font-size: 0.82rem;
-    padding: 6px 12px;
-    background: $color-night-card;
-    border: 1px solid $color-night-border;
-    border-radius: $radius-sm;
+    font-size: 14px;
+    font-weight: 600;
+    padding: $sp-2 $sp-4;
     color: $color-text-main;
-    transition: all 0.2s ease;
+    border: 1px solid $color-night-border;
+    border-radius: $radius-full;
+    transition:
+      border-color $dur-fast $ease-out,
+      background-color $dur-fast $ease-out,
+      color $dur-fast $ease-out;
 
     &:hover {
       border-color: $color-amber-base;
-      background: $color-night-elevated;
+      background: rgba($color-amber-base, 0.08);
       color: $color-amber-glow;
     }
+  }
+}
+
+.menuBtn {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5px;
+  width: 40px;
+  height: 40px;
+  padding: $sp-2;
+  background: transparent;
+  border: 1px solid $color-night-border;
+  border-radius: $radius-md;
+  cursor: pointer;
+
+  span {
+    display: block;
+    height: 2px;
+    width: 100%;
+    background: $color-text-main;
+    transition:
+      transform $dur-base $ease-out,
+      opacity $dur-fast $ease-out;
+  }
+
+  &.menuBtnOpen {
+    span:first-child {
+      transform: translateY(3.5px) rotate(45deg);
+    }
+
+    span:last-child {
+      transform: translateY(-3.5px) rotate(-45deg);
+    }
+  }
+}
+
+.mobileMenu {
+  position: absolute;
+  top: calc(100% + $sp-2);
+  left: $sp-5;
+  right: $sp-5;
+  background: rgba($color-night-base, 0.96);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid $color-night-border;
+  border-radius: $radius-xl;
+  padding: $sp-5;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-8px);
+  transition:
+    opacity $dur-fast $ease-out,
+    transform $dur-base $ease-out,
+    visibility $dur-fast;
+
+  ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: $sp-1;
+  }
+
+  a {
+    display: block;
+    font-size: 16px;
+    font-weight: 600;
+    color: $color-text-muted;
+    padding: $sp-3 $sp-4;
+    border-radius: $radius-md;
+    opacity: 0;
+    transform: translateY(12px);
+    transition:
+      opacity $dur-fast $ease-out,
+      transform $dur-base $ease-out,
+      color $dur-fast $ease-out,
+      background-color $dur-fast $ease-out;
+
+    &:hover {
+      color: $color-text-main;
+      background: rgba($color-night-elevated, 0.7);
+    }
+
+    &.mobileActive {
+      color: $color-amber-glow;
+    }
+  }
+
+  &.mobileMenuOpen {
+    opacity: 1;
+    visibility: visible;
+    transform: none;
+
+    a {
+      opacity: 1;
+      transform: none;
+    }
+  }
+}
+
+@media (max-width: 900px) {
+  .navLinks {
+    display: none;
+  }
+
+  .githubBtn {
+    display: none;
+  }
+
+  .menuBtn {
+    display: flex;
+  }
+}
+
+@media (max-width: 480px) {
+  .brandSub {
+    display: none;
   }
 }

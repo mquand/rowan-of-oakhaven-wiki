@@ -1,11 +1,12 @@
 // Dark Cozy Palette for Rowan of Oakhaven (by Fluvio Games)
+// Nền đêm lạnh — surface chính của wiki bám theo bảng màu game
 $color-night-dark: #0f111d;
 $color-night-base: #151829;
-$color-night-card: #1e1b38;
-$color-night-elevated: #2b2046;
-$color-night-border: #3a2d5c;
+$color-night-card: #1c1f38;
+$color-night-elevated: #272b4d;
+$color-night-border: #383e63;
 
-// Warm lights & Accent
+// Warm lights & Accent (Ánh sáng sưởi — chỉ dùng làm accent, không gradient nền)
 $color-amber-glow: #ffe680;
 $color-amber-base: #ffcf40;
 $color-amber-warm: #f38428;
@@ -30,13 +31,37 @@ $color-starlight: #fff4b8;
 // Text
 $color-text-main: #f5f2e9;
 $color-text-muted: #a6a0ba;
-$color-text-dim: #71698a;
+$color-text-dim: #8b86a3;
 
 // Layout
-$font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-$font-pixel: 'Courier New', monospace;
+$font-sans: var(--font-sans), -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+$font-pixel: var(--font-pixel), 'Courier New', monospace;
 $max-width: 1200px;
 $sidebar-width: 280px;
-$radius-sm: 6px;
-$radius-md: 10px;
+
+// Radius — Tailwind scale
+$radius-sm: 4px;
+$radius-md: 8px;
 $radius-lg: 16px;
+$radius-xl: 24px;
+$radius-full: 9999px;
+
+// Spacing scale — chỉ các giá trị này
+$sp-1: 2px;
+$sp-2: 4px;
+$sp-3: 8px;
+$sp-4: 12px;
+$sp-5: 16px;
+$sp-6: 24px;
+$sp-7: 32px;
+$sp-8: 40px;
+$sp-9: 48px;
+$sp-10: 64px;
+$sp-11: 80px;
+$sp-12: 96px;
+
+// Motion — base curve, không dùng ease/linear mặc định
+$ease-out: cubic-bezier(0.22, 1, 0.36, 1);
+$dur-fast: 300ms;
+$dur-base: 500ms;
+$dur-reveal: 700ms;
