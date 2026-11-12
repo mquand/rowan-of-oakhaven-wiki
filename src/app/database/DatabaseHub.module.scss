@@ -59,38 +59,6 @@
   }
 }
 
-.statsBar {
-  display: flex;
-  flex-wrap: wrap;
-  gap: $sp-6;
-  padding: $sp-5 $sp-6;
-  background: $color-night-card;
-  border: 1px solid $color-night-border;
-  border-radius: $radius-md;
-  margin-bottom: $sp-8;
-
-  .statItem {
-    display: flex;
-    flex-direction: column;
-    gap: 2px;
-    min-width: 80px;
-
-    dt {
-      font-family: $font-pixel;
-      font-size: 24px;
-      color: $color-amber-glow;
-      line-height: 1.2;
-    }
-
-    dd {
-      font-size: 12px;
-      color: $color-text-dim;
-      text-transform: uppercase;
-      letter-spacing: 0.05em;
-    }
-  }
-}
-
 .filterChips {
   display: flex;
   gap: $sp-2;

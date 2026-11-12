@@ -3,212 +3,220 @@ import styles from './Home.module.scss';
 import Icon from '../components/Icon';
 import Reveal from '../components/Reveal';
 import HeroSearchBar from '../components/HeroSearchBar';
-import { getAllDocs } from '../lib/docs';
-import { getDatabaseStats } from '../lib/gameData';
 
-const DOC_META = {
-  'calendar-seasons': {
-    icon: 'clock',
-    category: 'LỊCH TRÌNH',
-    desc: 'Chu kỳ 28 ngày mỗi mùa, thời tiết sương mù, mưa rào và lịch gieo trồng thảo mộc theo mùa.',
+const GAME_PILLARS = [
+  {
+    icon: 'tea-bag',
+    badge: 'ASMR TEA BREWING',
+    title: 'Nghệ Thuật Pha Trà ASMR',
+    desc: 'Lắng nghe tiếng ấm nước reo dịu êm, ngắm nhìn cánh sen tuyết nở hoa và dòng mật ong hoa rừng rót chậm. Mỗi ấm trà là một liệu pháp xoa dịu tâm can lữ khách và hồi phục thể lực.',
+    link: '/database/recipes',
+    linkText: 'Xem sổ công thức trà',
   },
-  'character-roster': {
-    icon: 'users',
-    category: 'CƯ DÂN',
-    desc: 'Hồ sơ Rowan, chú cú Pip, thợ rèn Boris, thợ làm vườn Maeve, Lumi và cư dân Năm Vương Quốc.',
-  },
-  'dungeon-combat': {
-    icon: 'sword',
-    category: 'CHIẾN ĐẤU',
-    desc: 'Khám phá đới mỏ sâu, vũ khí ma thuật, đòn chém 3 nhịp và cách thanh tẩy Bụi Sao Hắc Hóa.',
-  },
-  'festivals-events': {
+  {
     icon: 'cake',
-    category: 'LỄ HỘI',
-    desc: 'Các lễ hội truyền thống theo mùa: Hội thả đèn, Chợ hoa xuân, Đêm bánh nướng và Trăng rằm.',
+    badge: 'MAGIC BAKERY',
+    title: 'Tiệm Bánh Nướng Ma Thuật',
+    desc: 'Tiếp quản lò nướng đá cổ kính của người bà Amalia. Xay bột lúa mì bạc, nướng những mẻ bánh brioche hoa cúc và bánh pie bí ngô mật mang lại bùa hộ mệnh kỳ diệu cho chuyến hành trình.',
+    link: '/database/recipes',
+    linkText: 'Khám phá các mẻ bánh',
   },
-  'game-overview': {
-    icon: 'book-open',
-    category: 'TỔNG QUAN',
-    desc: 'Logline, cốt truyện mở đầu, chu kỳ ngày 15 phút thời gian thực và 12 tính năng đặc trưng.',
-  },
-  'gameplay-guide': {
+  {
     icon: 'farm',
-    category: 'LỐI CHƠI',
-    desc: 'Nhịp sống một ngày: bình minh, làm vườn, thám hiểm mỏ, pha trà buổi tối và thư giãn đêm muộn.',
+    badge: 'SEASONAL FARMING',
+    title: 'Nông Trại Thảo Mộc 4 Mùa',
+    desc: 'Làm chủ chu kỳ 28 ngày mỗi mùa. Thích ứng với sương mù buổi sớm, mưa rào mùa hạ và đêm trăng rằm thanh tịnh để chăm sóc những luống dâu tuyết dạ quang quý hiếm.',
+    link: '/wiki/calendar-seasons',
+    linkText: 'Xem chu kỳ 4 mùa & mùa màng',
   },
-  'getting-started': {
-    icon: 'sparkle',
-    category: 'KHỞI ĐẦU',
-    desc: 'Hướng dẫn 7 ngày đầu đời: dọn vườn hoang, làm quen dân làng, chọn ấm trà đầu tiên và quản lý sức lực.',
+  {
+    icon: 'sword',
+    badge: 'DUNGEON EXPEDITION',
+    title: 'Thám Hiểm & Thanh Tẩy Đới Mỏ',
+    desc: 'Cầm trên tay kiếm pha lê ma thuật và lồng đèn đom đóm, tiến sâu vào các tầng mỏ sâu thẳm. Vượt qua thử thách, thanh tẩy sinh vật nhiễm Bụi Sao Hắc Hóa và thu thập khoáng thạch cổ.',
+    link: '/wiki/dungeon-combat',
+    linkText: 'Tìm hiểu cơ chế thám hiểm',
   },
-  'lore-story': {
-    icon: 'diamond',
-    category: 'TRUYỀN THUYẾT',
-    desc: 'Nguồn gốc sâu xa của Bụi Sao, bí mật về người Bà Amalia và sứ mệnh chữa lành vùng đất.',
-  },
-  'world-overview': {
-    icon: 'map-pin',
-    category: 'THẾ GIỚI',
-    desc: 'Bản đồ Năm Vương Quốc: Oakhaven, Vực Lò Rèn Boris, Rừng Tinh Linh, Đảo Cực Quang và Hoàng Triều.',
-  },
-};
+];
 
-const ALL_DATABASES = [
+const COMPANIONS = [
+  {
+    id: 'rowan',
+    icon: 'sparkle',
+    name: 'Rowan',
+    role: 'Chủ Tiệm Trà Bụi Sao',
+    species: 'Human (Phù Thủy Trẻ)',
+    quote: 'Tiệm Bụi Sao luôn sáng đèn, nước đã sôi và trà luôn ấm chờ bạn ghé thăm.',
+  },
+  {
+    id: 'pip',
+    icon: 'leaf',
+    name: 'Pip',
+    role: 'Sứ Giả Đưa Thư Đêm',
+    species: 'Cú Đưa Thư Rừng Thầm Thì',
+    quote: 'Goo-hoo! Lá thư từ phương xa và túi hạt giống hoa tuyết đêm nay đã về rồi!',
+  },
+  {
+    id: 'mallow',
+    icon: 'cake',
+    name: 'Mallow',
+    role: 'Thợ Bánh Mì Đáng Yêu',
+    species: 'Mèo Thần Phụ Bếp',
+    quote: 'Meow~ Bánh mì brioche hoa cúc vừa ra lò, giòn vỏ xốp ruột thơm phức!',
+  },
+  {
+    id: 'boris',
+    icon: 'sword',
+    name: 'Boris',
+    role: 'Thợ Rèn Thị Trấn',
+    species: 'Dwarf Oakhaven',
+    quote: 'Đe búa của ta sẵn sàng rèn nên thanh kiếm pha lê sắc bén nhất cho chuyến đi của cậu.',
+  },
+];
+
+const QUICK_CODEX = [
+  {
+    icon: 'book-open',
+    title: 'Cẩm Nang Hướng Dẫn',
+    desc: 'Nhập môn 7 ngày đầu, nhịp sống đời thường và lễ hội truyền thống Năm Vương Quốc.',
+    href: '/wiki',
+    linkText: 'Mở thư viện tài liệu',
+  },
   {
     icon: 'package',
-    title: 'Kho Vật Phẩm',
-    key: 'items',
-    desc: 'Hạt giống, thảo mộc, khoáng sản, tinh thể và nguyên liệu pha chế.',
+    title: 'Kho Vật Phẩm & Thảo Mộc',
+    desc: 'Tra cứu hạt giống, nông sản, khoáng thạch quý và nguyên liệu pha chế cổ xưa.',
     href: '/database/items',
-    link: 'Tra cứu vật phẩm',
+    linkText: 'Tra cứu vật phẩm',
   },
   {
     icon: 'cake',
-    title: 'Sổ Công Thức',
-    key: 'recipes',
-    desc: 'Các món trà thanh nhiệt và mẻ bánh nướng chữa lành tâm hồn.',
+    title: 'Sổ Công Thức Trà & Bánh',
+    desc: 'Danh mục các món trà ASMR chữa lành và công thức nướng bánh ma thuật.',
     href: '/database/recipes',
-    link: 'Tra cứu công thức',
-  },
-  {
-    icon: 'users',
-    title: 'Hồ Sơ Cư Dân',
-    key: 'characters',
-    desc: 'Gặp gỡ Rowan, Pip, Mallow, Lumi, Boris và cư dân Năm Vương Quốc.',
-    href: '/database/characters',
-    link: 'Xem hồ sơ cư dân',
-  },
-  {
-    icon: 'farm',
-    title: 'Sổ Cây Trồng',
-    key: 'crops',
-    desc: 'Thảo mộc theo mùa, chu kỳ sinh trưởng và sản phẩm thu hoạch.',
-    href: '/database/crops',
-    link: 'Xem lịch mùa màng',
-  },
-  {
-    icon: 'sparkle',
-    title: 'Sổ Quái Vật',
-    key: 'monsters',
-    desc: 'Sinh vật Bụi Sao Hắc Hóa tại các đới mỏ sâu và điểm yếu cần khai thác.',
-    href: '/database/monsters',
-    link: 'Xem sổ quái vật',
-  },
-  {
-    icon: 'sword',
-    title: 'Vũ Khí Ma Thuật',
-    key: 'weapons',
-    desc: 'Kiếm pha lê, liềm ma thuật, đèn lồng bão rèn tại Lò Boris.',
-    href: '/database/weapons',
-    link: 'Xem vũ khí & pháp khí',
-  },
-  {
-    icon: 'book-open',
-    title: 'Kỹ Năng Tiện Ích',
-    key: 'perks',
-    desc: 'Bí kíp bị động của Bà Ngoại phục hồi qua từng hành trình.',
-    href: '/database/perks',
-    link: 'Xem kỹ năng bị động',
+    linkText: 'Tra cứu công thức',
   },
   {
     icon: 'map-pin',
-    title: 'Bản Đồ 5 Vực',
-    key: 'locations',
-    desc: 'Hành trình mở rộng qua Năm Vương Quốc và thị trấn khởi đầu.',
+    title: 'Bản Đồ Năm Vương Quốc',
+    desc: 'Khám phá Thị trấn Oakhaven, Xứ Lò Rèn, Rừng Tinh Linh và Địa Đàng Cực Quang.',
     href: '/database/locations',
-    link: 'Khám phá địa danh',
+    linkText: 'Khám phá địa danh',
   },
 ];
 
 export default function HomePage() {
-  const docs = getAllDocs();
-  const stats = getDatabaseStats();
-
   return (
-    <div>
-      {/* Hero Portal — Tinh gọn, ấm cúng và đi thẳng vào mục đích tra cứu */}
+    <div className={styles.homeWrapper}>
+      {/* 1. HERO SHOWCASE */}
       <section className={styles.hero}>
         <div className={styles.heroContent}>
-          <p className={styles.kicker}>OAKHAVEN CODEX · OFFICIAL GAME WIKI</p>
+          <div className={styles.kicker}>
+            <span>TIỆM BỤI SAO · RÌA RỪNG THẦM THÌ</span>
+          </div>
+
           <h1 className={styles.heroTitle}>
             <span className={styles.pixel}>Rowan of Oakhaven</span>
           </h1>
+
           <p className={styles.tagline}>
-            Cẩm nang tra cứu công thức pha trà thảo mộc, mẻ bánh nướng ma thuật, bí kíp sinh hoạt đời thường và hồ sơ cư dân Năm Vương Quốc.
+            Tựa game Cozy Dark Pixel RPG kết hợp nghệ thuật pha trà ASMR, nướng bánh ma thuật,
+            chăm sóc khu vườn thảo mộc và thám hiểm Năm Vương Quốc kỳ ảo.
           </p>
 
-          <HeroSearchBar />
+          <div className={styles.heroSearchWrap}>
+            <HeroSearchBar />
+          </div>
         </div>
       </section>
 
-      {/* Tàng Thư Các Oakhaven — Lưới Cuộn Thư Hướng Dẫn Cốt Lõi */}
+      {/* 2. GAMEPLAY PILLARS — TRẢI NGHIỆM ĐẶC SẮC */}
       <Reveal>
         <section className={styles.section}>
           <div className={styles.sectionHeader}>
-            <p className={styles.sectionKicker}>Oakhaven Archives</p>
-            <h2>Tàng Thư Các Oakhaven</h2>
-            <p>Hệ thống cuộn thư hướng dẫn, bí mật thế giới và câu chuyện cư dân Oakhaven.</p>
+            <p className={styles.sectionKicker}>GAMEPLAY EXPERIENCE</p>
+            <h2>Trải Nghiệm Lối Chơi Đặc Sắc</h2>
+            <p>Hòa mình vào nhịp sống chậm rãi, ấm áp và chữa lành tâm hồn.</p>
           </div>
 
-          <div className={styles.codexGrid}>
-            {docs.map(doc => {
-              const meta = DOC_META[doc.slug] || {
-                icon: 'scroll',
-                category: 'TÀI LIỆU',
-                desc: doc.audience,
-              };
-              return (
-                <article key={doc.slug} className={`${styles.codexCard} pixel-frame`}>
-                  <div className={styles.codexTop}>
-                    <div className={styles.codexSlot}>
-                      <Icon name={meta.icon} size={20} />
-                    </div>
-                    <span className={styles.codexCategory}>{meta.category}</span>
+          <div className={styles.pillarsGrid}>
+            {GAME_PILLARS.map(p => (
+              <article key={p.title} className={`${styles.pillarCard} pixel-frame`}>
+                <div className={styles.pillarTop}>
+                  <div className={styles.pillarIcon}>
+                    <Icon name={p.icon} size={24} />
                   </div>
-                  <h3 className={styles.codexTitle}>{doc.title}</h3>
-                  <p className={styles.codexDesc}>{meta.desc}</p>
-                  <div className={styles.codexFooter}>
-                    <Link href={`/wiki/${doc.slug}`} className={styles.codexArrow}>
-                      Mở đọc cuộn thư <Icon name="arrow-right" size={13} />
-                    </Link>
-                    {doc.spoiler && (
-                      <span className="badge crystal">Spoiler</span>
-                    )}
-                  </div>
-                </article>
-              );
-            })}
+                  <span className={styles.pillarBadge}>{p.badge}</span>
+                </div>
+                <h3 className={styles.pillarTitle}>{p.title}</h3>
+                <p className={styles.pillarDesc}>{p.desc}</p>
+                <Link href={p.link} className={styles.pillarLink}>
+                  {p.linkText} <Icon name="arrow-right" size={13} />
+                </Link>
+              </article>
+            ))}
           </div>
         </section>
       </Reveal>
 
-      {/* Sổ Tay Thám Hiểm Của Bà Ngoại Amalia — Bách Khoa Tra Cứu */}
+      {/* 3. MEET THE COMPANIONS — NHỮNG NGƯỜI BẠN ĐỒNG HÀNH */}
+      <Reveal delay={100}>
+        <section className={styles.section}>
+          <div className={styles.sectionHeader}>
+            <p className={styles.sectionKicker}>THE COMPANIONS</p>
+            <h2>Những Người Bạn Rừng Thầm Thì</h2>
+            <p>Gặp gỡ những người bạn ấm áp luôn đồng hành cùng Rowan tại Oakhaven.</p>
+          </div>
+
+          <div className={styles.companionsGrid}>
+            {COMPANIONS.map(char => (
+              <article key={char.id} className={`${styles.companionCard} pixel-frame`}>
+                <div className={styles.compTop}>
+                  <div className={styles.compAvatar}>
+                    <Icon name={char.icon} size={28} />
+                  </div>
+                  <div className={styles.compInfo}>
+                    <h3 className={styles.compName}>{char.name}</h3>
+                    <div className={styles.compRole}>{char.role}</div>
+                    <span className="badge forest" style={{ fontSize: '11px' }}>{char.species}</span>
+                  </div>
+                </div>
+                <div className={styles.compQuote}>
+                  &ldquo;{char.quote}&rdquo;
+                </div>
+              </article>
+            ))}
+          </div>
+
+          <div className={styles.sectionActionCenter}>
+            <Link href="/database/characters" className={styles.actionBtn}>
+              <Icon name="users" size={16} /> Gặp gỡ toàn bộ 22 cư dân Năm Vương Quốc
+            </Link>
+          </div>
+        </section>
+      </Reveal>
+
+      {/* 4. CODEX & DATABASE GATEWAY — CỔNG BÁCH KHOA TOÀN THƯ */}
       <Reveal delay={150}>
         <section className={styles.section}>
           <div className={styles.sectionHeader}>
-            <p className={styles.sectionKicker}>Grandmother&apos;s Compendium</p>
-            <h2>Sổ Tay Thám Hiểm Của Bà Ngoại</h2>
-            <p>Kho dữ liệu thực tế về vật phẩm, công thức, quái vật và cư dân Năm Vương Quốc.</p>
+            <p className={styles.sectionKicker}>ENCYCLOPEDIA PORTAL</p>
+            <h2>Cổng Bách Khoa Toàn Thư</h2>
+            <p>Tra cứu nhanh cẩm nang hướng dẫn, công thức và dữ liệu trò chơi.</p>
           </div>
 
-          <div className={styles.dbEntries}>
-            {ALL_DATABASES.map(d => (
-              <article key={d.key} className={`${styles.dbEntry} pixel-frame`}>
-                <div className={styles.dbTop}>
-                  <div className={styles.dbIcon}>
-                    <Icon name={d.icon} size={22} />
-                  </div>
-                  <span className={styles.dbBadge}>
-                    {stats[d.key]} mục
-                  </span>
+          <div className={styles.codexPortalGrid}>
+            {QUICK_CODEX.map(item => (
+              <article key={item.title} className={`${styles.portalCard} pixel-frame`}>
+                <div className={styles.portalIconBox}>
+                  <Icon name={item.icon} size={22} />
                 </div>
-                <div className={styles.dbBody}>
-                  <h3>{d.title}</h3>
-                  <p>{d.desc}</p>
+                <div className={styles.portalBody}>
+                  <h3 className={styles.portalTitle}>{item.title}</h3>
+                  <p className={styles.portalDesc}>{item.desc}</p>
                 </div>
-                <Link href={d.href} className={styles.dbLink}>
-                  {d.link} <Icon name="arrow-right" size={13} />
+                <Link href={item.href} className={styles.portalLink}>
+                  {item.linkText} <Icon name="arrow-right" size={13} />
                 </Link>
               </article>
             ))}

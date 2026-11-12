@@ -21,48 +21,13 @@ export default function DatabaseHubPage() {
       </nav>
 
       <header className={styles.header}>
-        <p className={styles.kicker}>Encyclopedic Database</p>
+        <p className={styles.kicker}>OAKHAVEN COMPENDIUM</p>
         <h1>Cơ Sở Dữ Liệu Trò Chơi</h1>
         <p>
-          Kho tri thức toàn thư của Rowan of Oakhaven — từ hạt giống thảo mộc, sổ công thức pha trà ASMR,
-          hồ sơ cư dân, sinh vật hắc hóa cho đến bản đồ Năm Vương Quốc.
+          Bách khoa toàn thư tra cứu chi tiết về thảo mộc bốn mùa, sổ công thức pha trà ASMR,
+          hồ sơ cư dân, sinh vật hắc hóa và bản đồ Năm Vương Quốc.
         </p>
       </header>
-
-      <div className={styles.statsBar}>
-        <div className={styles.statItem}>
-          <dt>{counts.total}</dt>
-          <dd>Tổng mục dữ liệu</dd>
-        </div>
-        <div className={styles.statItem}>
-          <dt>{counts.items}</dt>
-          <dd>Vật phẩm</dd>
-        </div>
-        <div className={styles.statItem}>
-          <dt>{counts.recipes}</dt>
-          <dd>Công thức</dd>
-        </div>
-        <div className={styles.statItem}>
-          <dt>{counts.characters}</dt>
-          <dd>Cư dân</dd>
-        </div>
-        <div className={styles.statItem}>
-          <dt>{counts.crops}</dt>
-          <dd>Cây trồng</dd>
-        </div>
-        <div className={styles.statItem}>
-          <dt>{counts.monsters}</dt>
-          <dd>Quái vật</dd>
-        </div>
-        <div className={styles.statItem}>
-          <dt>{counts.weapons}</dt>
-          <dd>Vũ khí</dd>
-        </div>
-        <div className={styles.statItem}>
-          <dt>{counts.locations}</dt>
-          <dd>Vương quốc</dd>
-        </div>
-      </div>
 
       <DatabaseHubClient counts={counts} />
     </div>

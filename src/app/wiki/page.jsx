@@ -14,8 +14,8 @@ const DOC_GROUPS = [
     title: 'Khởi Đầu & Giới Thiệu',
     slugs: ['game-overview', 'getting-started'],
     descriptions: {
-      'game-overview': 'Tổng quan tựa game: logline, cốt truyện mở đầu, chu kỳ ngày 15 phút và 12 tính năng đặc trưng.',
-      'getting-started': 'Hướng dẫn 7 ngày đầu đời: dọn vườn, gặp gỡ dân làng, chọn trà đầu tiên và quản lý năng lượng.',
+      'game-overview': 'Tổng quan tựa game: logline, cốt truyện mở đầu, chu kỳ ngày 15 phút và các tính năng đặc trưng.',
+      'getting-started': 'Cẩm nang 7 ngày đầu đời: dọn vườn, gặp gỡ dân làng, chọn ấm trà đầu tiên và quản lý năng lượng.',
     },
     icon: 'book-open',
   },
@@ -24,9 +24,9 @@ const DOC_GROUPS = [
     title: 'Lối Chơi & Sinh Hoạt Đời Thường',
     slugs: ['gameplay-guide', 'calendar-seasons', 'festivals-events'],
     descriptions: {
-      'gameplay-guide': 'Chi tiết nhịp sống một ngày: bình minh, làm vườn, thám hiểm mỏ, pha trà buổi tối và thư giãn đêm muộn.',
+      'gameplay-guide': 'Chi tiết nhịp sống một ngày: làm vườn, thám hiểm mỏ, pha trà buổi tối và thư giãn đêm muộn.',
       'calendar-seasons': 'Chu kỳ 4 mùa trong năm (Xuân, Hạ, Thu, Đông), thời tiết đặc biệt và lịch gieo trồng thảo mộc.',
-      'festivals-events': 'Các lễ hội truyền thống theo mùa: Hội thả đèn, Chợ hoa xuân, Lễ hội nướng bánh và Đêm trăng rằm.',
+      'festivals-events': 'Các lễ hội truyền thống theo mùa: Hội thả đèn, Chợ hoa xuân, Đêm bánh nướng và Trăng rằm.',
     },
     icon: 'farm',
   },
@@ -65,11 +65,10 @@ export default function WikiHubPage() {
       </nav>
 
       <header className={styles.header}>
-        <p className={styles.kicker}>Core Documentation</p>
-        <h1>Thư Viện Hướng Dẫn & Thế Giới</h1>
+        <p className={styles.kicker}>OAKHAVEN ARCHIVES</p>
+        <h1>Tàng Thư Các Cốt Lõi</h1>
         <p>
-          Hệ thống tài liệu chính thức dành cho người chơi Rowan of Oakhaven — giúp bạn làm chủ nghệ thuật pha trà ASMR,
-          chăm sóc khu vườn thảo mộc và khám phá bí mật Năm Vương Quốc.
+          Hệ thống cẩm nang hướng dẫn và ghi chép thế giới dành cho người chơi Rowan of Oakhaven — giúp bạn làm chủ nghệ thuật pha trà ASMR, chăm sóc khu vườn thảo mộc và khám phá Năm Vương Quốc.
         </p>
       </header>
 
@@ -83,44 +82,34 @@ export default function WikiHubPage() {
               <div className={styles.sectionHead}>
                 <Icon name={group.icon} size={20} />
                 <h2>{group.title}</h2>
-                <span className={styles.sectionCount}>({groupDocs.length} bài)</span>
               </div>
 
               <div className={styles.docGrid}>
-                {groupDocs.map(doc => (
-                  <article key={doc.slug} className={`${styles.docCard} pixel-frame`}>
-                    <div className={styles.cardTop}>
-                      <div className={styles.iconBox}>
-                        <Icon name="scroll" size={18} />
+                {groupDocs.map(doc => {
+                  // Làm sạch tiêu đề: bỏ các tag thô như (Spoil)
+                  const cleanTitle = doc.title.replace(/\s*\(Spoil\)/i, '');
+
+                  return (
+                    <article key={doc.slug} className={`${styles.docCard} pixel-frame`}>
+                      <div className={styles.cardTop}>
+                        <div className={styles.iconBox}>
+                          <Icon name="scroll" size={18} />
+                        </div>
                       </div>
-                      {doc.spoiler && (
-                        <span className="badge crystal">Spoiler</span>
-                      )}
-                    </div>
 
-                    <h3 className={styles.docTitle}>{doc.title}</h3>
-                    <p className={styles.docSummary}>
-                      {group.descriptions[doc.slug] || doc.audience}
-                    </p>
+                      <h3 className={styles.docTitle}>{cleanTitle}</h3>
+                      <p className={styles.docSummary}>
+                        {group.descriptions[doc.slug] || doc.audience}
+                      </p>
 
-                    <div className={styles.tags}>
-                      {doc.tags?.slice(0, 4).map(t => (
-                        <span key={t} className="badge forest">
-                          #{t}
-                        </span>
-                      ))}
-                    </div>
-
-                    <div className={styles.cardFooter}>
-                      <Link href={`/wiki/${doc.slug}`} className={styles.docLink}>
-                        Đọc bài viết <Icon name="arrow-right" size={13} />
-                      </Link>
-                      <span className={styles.updated}>
-                        <Icon name="clock" size={12} /> {doc.updated}
-                      </span>
-                    </div>
-                  </article>
-                ))}
+                      <div className={styles.cardFooter}>
+                        <Link href={`/wiki/${doc.slug}`} className={styles.docLink}>
+                          Khám phá cuộn thư <Icon name="arrow-right" size={13} />
+                        </Link>
+                      </div>
+                    </article>
+                  );
+                })}
               </div>
             </section>
           );

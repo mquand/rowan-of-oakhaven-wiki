@@ -1,9 +1,8 @@
 @use '../styles/variables' as *;
 
 .footer {
-  border-top: 2px solid $color-wood-base;
-  // Trong suốt một phần để lớp sao pixel nền trang xuyên qua
-  background: rgba($color-forest-dark, 0.35);
+  border-top: 1px solid rgba($color-amber-base, 0.2);
+  background: #090a10;
   padding: $sp-10 $sp-6 $sp-8;
   margin-top: $sp-12;
   color: $color-text-muted;
@@ -39,7 +38,7 @@
     gap: $sp-2;
 
     svg {
-      color: $color-cat-seed;
+      color: $color-amber-warm;
     }
   }
 
@@ -55,13 +54,13 @@
   gap: $sp-12;
 
   h4 {
-    font-family: $font-pixel;
+    font-family: $font-sans;
     color: $color-amber-glow;
-    font-size: 14px;
+    font-size: 13px;
     font-weight: 700;
     margin-bottom: $sp-4;
     text-transform: uppercase;
-    letter-spacing: 0.12em;
+    letter-spacing: 0.08em;
   }
 
   ul {
@@ -69,10 +68,13 @@
     display: flex;
     flex-direction: column;
     gap: $sp-2;
+    margin: 0;
+    padding: 0;
 
     a {
       color: $color-text-muted;
       font-size: 14px;
+      text-decoration: none;
       transition: color $dur-fast $ease-out;
 
       &:hover {
@@ -97,10 +99,6 @@
 @media (max-width: 640px) {
   .links {
     gap: $sp-8;
-  }
-
-  .bottomRow {
-    flex-direction: column;
-    align-items: flex-start;
+    flex-wrap: wrap;
   }
 }
