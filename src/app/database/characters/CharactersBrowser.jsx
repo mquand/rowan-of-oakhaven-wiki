@@ -48,32 +48,42 @@ export default function CharactersBrowser({ characters }) {
           </button>
         </div>
       ) : (
-        <div className={styles.grid}>
-          {filtered.map(char => (
-            <article key={char.id} className={`${styles.characterCard} pixel-frame`}>
-              <div className={styles.charRole}>{char.role}</div>
-              <h3>{char.name}</h3>
-              <div className={styles.species}>
-                {char.species}
-                <span className={styles.speciesLoc}>
-                  <Icon name="map-pin" size={14} /> {char.location}
-                </span>
-              </div>
-
-              {char.quote && (
-                <div className={styles.quote}>
-                  "{char.quote}"
-                </div>
-              )}
-
-              <p className={styles.desc}>{char.description}</p>
-
-              <div className={styles.charMeta}>
-                <span>Món yêu thích: <strong>{char.favorite_items?.join(', ') || 'Đang cập nhật'}</strong></span>
-              </div>
-            </article>
-          ))}
-        </div>
+        <table className={styles.wikiTable}>
+          <thead>
+            <tr>
+              <th className={styles.iconCell}>Icon</th>
+              <th>Tên</th>
+              <th className={styles.metaCell}>Vai trò</th>
+              <th className={styles.metaCell}>Loài</th>
+              <th className={styles.metaCell}>Vị trí</th>
+              <th className={styles.descCell}>Mô tả</th>
+              <th className={styles.metaCell}>Món yêu thích</th>
+            </tr>
+          </thead>
+          <tbody>
+            {filtered.map(char => (
+              <tr key={char.id}>
+                <td className={styles.iconCell}>
+                  <div className={styles.iconWrap}>
+                    <Icon name="users" size={20} />
+                  </div>
+                </td>
+                <td className={styles.nameCell}>{char.name}</td>
+                <td className={styles.metaCell}>{char.role}</td>
+                <td className={styles.metaCell}>
+                  {char.species}
+                  <span className={styles.speciesLoc}>
+                    <Icon name="map-pin" size={12} /> {char.location}
+                  </span>
+                </td>
+                <td className={styles.descCell}>{char.description}</td>
+                <td className={styles.metaCell}>
+                  {char.favorite_items?.join(', ') || 'Đang cập nhật'}
+                </td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
       )}
     </>
   );

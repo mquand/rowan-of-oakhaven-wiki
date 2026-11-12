@@ -1,50 +1,8 @@
 import Link from 'next/link';
 import styles from './Home.module.scss';
 import Icon from '../components/Icon';
-import Reveal from '../components/Reveal';
-import TaglineReveal from '../components/TaglineReveal';
 import { getAllDocs } from '../lib/docs';
-import {
-  getItems,
-  getRecipes,
-  getCharacters,
-  getCrops,
-  getMonsters,
-  getWeapons,
-  getPerks,
-  getLocations,
-} from '../lib/gameData';
-
-const PILLARS = [
-  {
-    icon: 'tea-bag',
-    title: 'Pha trà ASMR xúc giác',
-    desc: 'Tiếng đá lách cách, nước sôi róc rách, xoáy nước đổi màu huyền ảo cùng hương hoa sen ngậm sương.',
-    href: '/database/recipes',
-    link: 'Xem thực đơn trà',
-  },
-  {
-    icon: 'cake',
-    title: 'Lò bánh trăng sao',
-    desc: 'Nhào bột dẻo quánh, dập khuôn trăng sao, nướng bánh trong lò đá than hồng canh giờ vàng ruộm.',
-    href: '/database/recipes',
-    link: 'Xem công thức bánh',
-  },
-  {
-    icon: 'farm',
-    title: 'Nông trại và hang mỏ',
-    desc: 'Gieo trồng thảo mộc, hái dâu tuyết dạ quang và cầm đèn đom đóm soi bóng hang mỏ tinh thể.',
-    href: '/database/items',
-    link: 'Khám phá tài nguyên',
-  },
-  {
-    icon: 'heart',
-    title: 'Xoa dịu quái vật',
-    desc: 'Không gươm đao tàn bạo. Giải giáp và thuần hóa quái vật bằng những chiếc bánh thơm lừng trúng điểm yếu vị giác.',
-    href: '/wiki/game-overview',
-    link: 'Tìm hiểu cơ chế',
-  },
-];
+import { getItems, getRecipes, getCharacters } from '../lib/gameData';
 
 const DATABASES = [
   {
@@ -56,7 +14,7 @@ const DATABASES = [
     link: 'Mở kho vật phẩm',
   },
   {
-    icon: 'book-open',
+    icon: 'cake',
     title: 'Công thức',
     key: 'recipes',
     desc: 'Các món trà thanh nhiệt và mẻ bánh nướng chữa lành tâm hồn.',
@@ -71,46 +29,6 @@ const DATABASES = [
     href: '/database/characters',
     link: 'Gặp gỡ cư dân',
   },
-  {
-    icon: 'farm',
-    title: 'Cây trồng',
-    key: 'crops',
-    desc: 'Sáu loại thảo mộc theo mùa với chu kỳ sinh trưởng và tái sinh riêng.',
-    href: '/database/crops',
-    link: 'Mở sổ cây trồng',
-  },
-  {
-    icon: 'sparkle',
-    title: 'Quái vật',
-    key: 'monsters',
-    desc: 'Sinh vật nhiễm Bụi Sao Hắc Hóa — xoa dịu bằng vị giác thay vì gươm đao.',
-    href: '/database/monsters',
-    link: 'Mở sổ quái vật',
-  },
-  {
-    icon: 'sword',
-    title: 'Vũ khí',
-    key: 'weapons',
-    desc: 'Kiếm pha lê, liềm ma thuật, đèn lồng bão và gậy quấy trà khổng lồ.',
-    href: '/database/weapons',
-    link: 'Xem vũ khí',
-  },
-  {
-    icon: 'book-open',
-    title: 'Kỹ năng',
-    key: 'perks',
-    desc: 'Bí kíp sống của Bà Ngoại phục hồi từ những trang sách cổ trong tiệm.',
-    href: '/database/perks',
-    link: 'Mở bí kíp',
-  },
-  {
-    icon: 'map-pin',
-    title: 'Vương quốc',
-    key: 'locations',
-    desc: 'Hành trình mở rộng từ Oakhaven đến Kinh Đô Ánh Sáng và Cõi Địa Đàng.',
-    href: '/database/locations',
-    link: 'Xem bản đồ',
-  },
 ];
 
 export default function HomePage() {
@@ -118,102 +36,94 @@ export default function HomePage() {
   const items = getItems();
   const recipes = getRecipes();
   const characters = getCharacters();
-  const counts = {
-    items: items.length,
-    recipes: recipes.length,
-    characters: characters.length,
-    crops: getCrops().length,
-    monsters: getMonsters().length,
-    weapons: getWeapons().length,
-    perks: getPerks().length,
-    locations: getLocations().length,
-  };
+  const counts = { items: items.length, recipes: recipes.length, characters: characters.length };
 
   return (
     <div>
-      {/* Hero */}
+      {/* Hero — cassette tape style, not a landing-page billboard */}
       <section className={styles.hero}>
-        <div className={styles.heroGlow} aria-hidden="true" />
         <div className={styles.heroContent}>
-          <p className={styles.kicker}>Fluvio Games presents</p>
+          <p className={styles.kicker}>Fluvio Games · Official Wiki</p>
           <h1 className={styles.heroTitle}>
             <span className={styles.pixel}>Rowan of Oakhaven</span>
           </h1>
           <p className={styles.tagline}>
-            Một tách trà ấm sau chuỗi ngày mệt mỏi. Cozy dark pixel RPG kết hợp nghệ thuật pha trà
-            ASMR, nướng bánh ma thuật, làm vườn và xoa dịu quái vật.
+            Cozy dark pixel RPG — ASMR tea brewing, magic bakery, herb farming & crystal mining.
           </p>
           <div className={styles.heroActions}>
             <Link href="/wiki/game-overview" className={styles.primaryBtn}>
-              Khám phá cốt truyện
+              Đọc tổng quan game
             </Link>
             <Link href="/database/recipes" className={styles.secondaryBtn}>
-              Sổ pha trà và bánh
+              Xem sổ công thức
             </Link>
           </div>
-          <dl className={styles.stats}>
-            <div><dt>{counts.items}</dt><dd>vật phẩm</dd></div>
-            <div><dt>{counts.recipes}</dt><dd>công thức</dd></div>
-            <div><dt>{counts.characters}</dt><dd>cư dân</dd></div>
-            <div><dt>{docs.length}</dt><dd>tài liệu</dd></div>
-          </dl>
+          <div className={styles.heroStats}>
+            <div className={styles.statItem}>
+              <dt>{counts.items}</dt>
+              <dd>vật phẩm</dd>
+            </div>
+            <div className={styles.statItem}>
+              <dt>{counts.recipes}</dt>
+              <dd>công thức</dd>
+            </div>
+            <div className={styles.statItem}>
+              <dt>{counts.characters}</dt>
+              <dd>cư dân</dd>
+            </div>
+            <div className={styles.statItem}>
+              <dt>{docs.length}</dt>
+              <dd>tài liệu</dd>
+            </div>
+          </div>
           <div className={styles.heroOrnament} aria-hidden="true" />
         </div>
       </section>
 
-      {/* Tagline moment */}
-      <section className={styles.taglineSection}>
-        <Reveal>
-          <TaglineReveal
-            text="Giữa những đêm dài và cơn mưa ngoài ô cửa sổ, tiệm trà nhỏ này luôn giữ một chiếc ghế ấm cho bạn."
-          />
-        </Reveal>
-      </section>
-
-      {/* Trụ cột trải nghiệm */}
+      {/* Core docs — wiki link list, not marketing cards */}
       <section className={styles.section}>
-        <Reveal className={styles.sectionHeader}>
-          <h2>Bốn điều làm nên Rowan of Oakhaven</h2>
-          <p>Ấm áp, thư thái và chữa lành, từng ngày một tách trà một.</p>
-        </Reveal>
+        <div className={styles.sectionHeader}>
+          <h2>Tài liệu cốt lõi</h2>
+          <p>Hướng dẫn, thế giới và nhân vật của Rowan of Oakhaven.</p>
+        </div>
 
-        <div className={styles.grid}>
-          {PILLARS.map((p, i) => (
-            <Reveal key={p.title} delay={i * 60}>
-              <article className={`${styles.card} pixel-frame`}>
-                <div className={styles.cardIcon}><Icon name={p.icon} size={24} /></div>
-                <h3>{p.title}</h3>
-                <p>{p.desc}</p>
-                <Link href={p.href} className={styles.cardLink}>
-                  {p.link} <span aria-hidden="true">→</span>
-                </Link>
-              </article>
-            </Reveal>
+        <div className={styles.linkList}>
+          {docs.map(doc => (
+            <article key={doc.slug} className={styles.linkItem}>
+              <Link href={`/wiki/${doc.slug}`} className={styles.linkRow}>
+                <span className={styles.linkIcon}><Icon name="scroll" size={16} /></span>
+                <span className={styles.linkTitle}>{doc.title}</span>
+                <span className={styles.linkDesc}>{doc.audience}</span>
+                <span className={styles.linkArrow} aria-hidden="true">›</span>
+              </Link>
+            </article>
           ))}
         </div>
       </section>
 
-      {/* Cơ sở dữ liệu */}
+      {/* Game database — compact entry points */}
       <section className={styles.section}>
-        <Reveal className={styles.sectionHeader}>
+        <div className={styles.sectionHeader}>
           <h2>Cơ sở dữ liệu trò chơi</h2>
-          <p>Dữ liệu được cập nhật tự động từ hệ thống tài liệu chuẩn</p>
-        </Reveal>
+          <p>Dữ liệu vật phẩm, công thức và cư dân được cập nhật từ sổ thử nghiệm của Bà Ngoại Amalia.</p>
+        </div>
 
-        <div className={styles.grid}>
-          {DATABASES.map((d, i) => (
-            <Reveal key={d.title} delay={i * 60}>
-              <article className={`${styles.card} pixel-frame`}>
-                <div className={styles.cardIcon}><Icon name={d.icon} size={24} /></div>
+        <div className={styles.dbEntries}>
+          {DATABASES.map(d => (
+            <article key={d.key} className={styles.dbEntry}>
+              <div className={styles.dbIcon}>
+                <Icon name={d.icon} size={20} />
+              </div>
+              <div className={styles.dbBody}>
                 <h3>
-                  {d.title} <span className={styles.count}>({counts[d.key]})</span>
+                  {d.title} <span className={styles.dbCount}>({counts[d.key]})</span>
                 </h3>
                 <p>{d.desc}</p>
-                <Link href={d.href} className={styles.cardLink}>
-                  {d.link} <span aria-hidden="true">→</span>
-                </Link>
-              </article>
-            </Reveal>
+              </div>
+              <Link href={d.href} className={styles.dbLink}>
+                {d.link} <span aria-hidden="true">→</span>
+              </Link>
+            </article>
           ))}
         </div>
       </section>

@@ -48,16 +48,42 @@ export default async function DocPage({ params }) {
         <header className={styles.docHeader}>
           <h1>{doc.title}</h1>
           <div className={styles.docMeta}>
-            <span className="badge">Audience: {doc.audience}</span>
-            {doc.spoiler && <span className="badge crystal">Spoiler</span>}
             <span className={styles.date}><Icon name="clock" size={14} /> Cập nhật: {doc.updated}</span>
-            <div className={styles.tags}>
-              {doc.tags.map(t => (
-                <span key={t} className="badge forest">#{t}</span>
-              ))}
-            </div>
           </div>
         </header>
+
+        <table className={styles.infobox}>
+          <tbody>
+            <tr>
+              <th>Đối tượng</th>
+              <td>{doc.audience}</td>
+            </tr>
+            <tr>
+              <th>Cập nhật</th>
+              <td>{doc.updated}</td>
+            </tr>
+            {doc.tags.length > 0 && (
+              <tr>
+                <th>Thẻ</th>
+                <td>
+                  {doc.tags.map(t => (
+                    <span key={t} className="badge forest">
+                      #{t}
+                    </span>
+                  ))}
+                </td>
+              </tr>
+            )}
+            {doc.spoiler && (
+              <tr>
+                <th>Cảnh báo</th>
+                <td>
+                  <span className="badge crystal">Spoiler</span>
+                </td>
+              </tr>
+            )}
+          </tbody>
+        </table>
 
         <div
           className="markdown-content"

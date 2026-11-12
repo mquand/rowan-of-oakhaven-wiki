@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#0f111d"/>
+  <text x="600" y="300" font-family="Courier New, monospace" font-size="56" fill="#ffe680" text-anchor="middle" font-weight="bold">Rowan of Oakhaven</text>
+  <text x="600" y="360" font-family="Courier New, monospace" font-size="24" fill="#f5f2e9" text-anchor="middle">Cozy Dark Pixel RPG Wiki</text>
+  <circle cx="600" cy="200" r="40" fill="#ffcf40" opacity="0.6"/>
+  <circle cx="400" cy="150" r="16" fill="#6ee2ff" opacity="0.5"/>
+  <circle cx="800" cy="250" r="16" fill="#b874ff" opacity="0.5"/>
+</svg>

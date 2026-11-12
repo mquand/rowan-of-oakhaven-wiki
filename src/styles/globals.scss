@@ -31,6 +31,16 @@ body::before {
   background-size: 120px 120px;
 }
 
+// Lớp grain mịn lên toàn bộ bề mặt — không gradient, không làm mờ
+body::after {
+  content: '';
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100' height='100' filter='url(%23noise)' opacity='0.04'/%3E%3C/svg%3E");
+}
+
 ::selection {
   background: rgba($color-amber-base, 0.35);
   color: $color-text-main;
@@ -43,6 +53,40 @@ a {
 
   &:hover {
     color: $color-amber-glow;
+  }
+}
+
+/* Nút bấm kiểu game — nền đặc + box-shadow cứng đáy */
+.gameBtn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: $color-amber-base;
+  color: $color-night-dark;
+  font-weight: 700;
+  border: none;
+  border-radius: $radius-sm;
+  box-shadow: 0 4px 0 $color-amber-deep;
+  cursor: pointer;
+  transition:
+    transform $dur-base $ease-out,
+    box-shadow $dur-base $ease-out,
+    background-color $dur-fast $ease-out;
+
+  &:hover {
+    background: $color-amber-glow;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 0 $color-amber-deep;
+  }
+
+  &:active {
+    transform: translateY(2px);
+    box-shadow: 0 2px 0 $color-amber-deep;
+  }
+
+  &:focus-visible {
+    outline: 2px solid $color-amber-base;
+    outline-offset: 2px;
   }
 }
 
@@ -162,34 +206,45 @@ img {
   }
 
   &.forest {
-    color: #8be49b;
-    border-color: rgba(#8be49b, 0.3);
+    color: $color-cat-seed;
+    border-color: rgba($color-cat-seed, 0.3);
   }
 
   // Màu theo category vật phẩm — kiểu tag trong inventory game
+  // Theo bảng màu Dark Cozy tại docs/art-direction.md mục 2
   &.seed {
-    color: #8be49b;
-    border-color: rgba(#8be49b, 0.3);
+    color: $color-cat-seed;
+    border-color: rgba($color-cat-seed, 0.3);
   }
 
   &.ingredient {
-    color: $color-bakery-cream;
-    border-color: rgba($color-bakery-cream, 0.3);
+    color: $color-cat-ingredient;
+    border-color: rgba($color-cat-ingredient, 0.3);
   }
 
   &.mineral {
-    color: $color-amber-warm;
-    border-color: rgba($color-amber-warm, 0.35);
+    color: $color-cat-mineral;
+    border-color: rgba($color-cat-mineral, 0.35);
   }
 
   &.gem {
-    color: $color-crystal-cyan;
-    border-color: rgba($color-crystal-cyan, 0.3);
+    color: $color-cat-gem;
+    border-color: rgba($color-cat-gem, 0.3);
   }
 
   &.monster_drop {
-    color: #c792ea;
-    border-color: rgba(#c792ea, 0.3);
+    color: $color-cat-monster;
+    border-color: rgba($color-cat-monster, 0.3);
+  }
+
+  &.wood {
+    color: $color-cat-wood;
+    border-color: rgba($color-cat-wood, 0.3);
+  }
+
+  &.magic {
+    color: $color-cat-magic;
+    border-color: rgba($color-cat-magic, 0.3);
   }
 }
 

@@ -1,0 +1,27 @@
+@use '../../styles/variables' as *;
+
+.container {
+  max-width: 680px;
+  margin: 0 auto;
+  padding: $sp-12 $sp-6;
+  background: $color-night-card;
+  border: 1px solid $color-night-border;
+  border-radius: $radius-lg;
+  box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4);
+}
+
+.container h1 {
+  font-family: $font-pixel;
+  font-size: 30px;
+  color: $color-amber-glow;
+  margin-bottom: $sp-6;
+  text-wrap: balance;
+}
+
+.container p {
+  color: $color-text-main;
+  font-size: 15px;
+  line-height: 1.7;
+  margin-bottom: $sp-6;
+  text-wrap: pretty;
+}

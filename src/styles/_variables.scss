@@ -1,29 +1,47 @@
 // Dark Cozy Palette for Rowan of Oakhaven (by Fluvio Games)
-// Nền đêm lạnh — surface chính của wiki bám theo bảng màu game
-$color-night-dark: #0f111d;
-$color-night-base: #151829;
-$color-night-card: #1c1f38;
-$color-night-elevated: #272b4d;
-$color-night-border: #383e63;
+// Nguồn chuẩn: docs/art-direction.md mục 2 — 5 nhóm màu
 
-// Warm lights & Accent (Ánh sáng sưởi — chỉ dùng làm accent, không gradient nền)
-$color-amber-glow: #ffe680;
-$color-amber-base: #ffcf40;
-$color-amber-warm: #f38428;
-$color-amber-deep: #c9561c;
+// ---------------------------------------------------------------------------
+// 1. Nền Đêm Lạnh — bầu trời, bóng rừng sâu, tường ngoài tiệm
+// ---------------------------------------------------------------------------
+$color-night-deep: #151829;   // nền sâu nhất
+$color-night-mid: #1e1b38;    // nền phụ
+$color-night-shadow: #2b2046; // vùng tối
+$color-night-haze: #3a2d5c;   // sương tím
+$color-night-dark: #0f111d;   // nền trang
+$color-night-base: #151829;   // surface chính
+$color-night-card: #1c1f38;   // thẻ / panel
+$color-night-elevated: #272b4d; // surface nổi
+$color-night-border: #383e63; // viền
 
-// Wood & Bakery
+// ---------------------------------------------------------------------------
+// 2. Thiên Nhiên Trầm — thảo mộc, cỏ rêu, đất cày, vách núi
+// ---------------------------------------------------------------------------
+$color-forest-dark: #243d32;
+$color-forest-moss: #3b4e34;
+$color-forest-leaf: #3b4e34;
+$color-forest-earth: #453023;
+$color-forest-rock: #3e4759;
+
+// ---------------------------------------------------------------------------
+// 3. Gỗ & Bánh Ấm — bàn bếp, lò nướng, sàn nhà, vỏ bánh
+// ---------------------------------------------------------------------------
 $color-wood-dark: #422013;
 $color-wood-base: #8b4f2c;
 $color-bakery-crust: #c4844e;
 $color-bakery-cream: #f0d39e;
 
-// Nature & Forest
-$color-forest-dark: #1b3024;
-$color-forest-moss: #243d32;
-$color-forest-leaf: #3b4e34;
+// ---------------------------------------------------------------------------
+// 4. Ánh Sáng Sưởi — đèn lồng, nến, than hồng (nguồn sáng tương phản)
+// ---------------------------------------------------------------------------
+$color-amber-glow: #ffe680;
+$color-amber-base: #ffcf40;
+$color-amber-warm: #f38428;
+$color-amber-deep: #c9561c;
 
-// Magic & Crystal
+// ---------------------------------------------------------------------------
+// 5. Phép Thuật Sao — tinh thể, bụi sao, phép thuật thảo mộc
+// ---------------------------------------------------------------------------
 $color-crystal-cyan: #6ee2ff;
 $color-crystal-purple: #b874ff;
 $color-starlight: #fff4b8;
@@ -32,6 +50,24 @@ $color-starlight: #fff4b8;
 $color-text-main: #f5f2e9;
 $color-text-muted: #a6a0ba;
 $color-text-dim: #8b86a3;
+
+// ---------------------------------------------------------------------------
+// Accent theo danh mục vật phẩm — lấy từ 5 nhóm palette trên
+// ---------------------------------------------------------------------------
+$color-cat-seed: #8be49b;             // Thiên Nhiên Trầm (tint sáng)
+$color-cat-ingredient: $color-bakery-cream; // Gỗ & Bánh Ấm
+$color-cat-mineral: $color-amber-warm;      // Ánh Sáng Sưởi
+$color-cat-gem: $color-crystal-cyan;        // Phép Thuật Sao
+$color-cat-monster: $color-crystal-purple;  // Phép Thuật Sao
+$color-cat-wood: $color-bakery-crust;       // Gỗ & Bánh Ấm
+$color-cat-magic: $color-starlight;         // Phép Thuật Sao
+
+// Accent theo vùng đất (5 Vương Quốc)
+$color-realm-oakhaven: $color-forest-moss;  // xanh rêu
+$color-realm-dwarf: $color-amber-deep;      // lò rèn
+$color-realm-elven: $color-crystal-cyan;    // lân tinh
+$color-realm-imperial: $color-crystal-purple; // phép thuật
+$color-realm-aethelgard: $color-starlight;  // địa đàng
 
 // Layout
 $font-sans: var(--font-sans), -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;

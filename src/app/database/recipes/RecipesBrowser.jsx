@@ -46,38 +46,47 @@ export default function RecipesBrowser({ recipes }) {
           </button>
         </div>
       ) : (
-        <div className={styles.grid}>
-          {filtered.map(recipe => (
-            <article key={recipe.id} className={`${styles.recipeCard} pixel-frame`}>
-              <div className={styles.recipeStation}>
-                <Icon name={recipe.station === 'tea_station' ? 'tea-bag' : 'cake'} size={14} />
-                {recipe.station === 'tea_station' ? 'Trạm trà ASMR' : 'Lò nướng bánh'}
-              </div>
-              <h3>{recipe.name}</h3>
-              <p className={styles.desc}>{recipe.description}</p>
-
-              <div className={styles.effect}>
-                <Icon name="sparkle" size={14} />
-                <span>{recipe.effect_description}</span>
-              </div>
-
-              <div className={styles.ingredientsHeader}>Nguyên liệu cần có:</div>
-              <ul className={styles.ingredientsList}>
-                {recipe.ingredients.map(ing => (
-                  <li key={ing.id}>
-                    <span>{ing.name}</span>
-                    <strong>x{ing.quantity}</strong>
-                  </li>
-                ))}
-              </ul>
-
-              <div className={styles.duration}>
-                <Icon name="timer" size={14} />
-                <span>Thời gian hoàn thành: {recipe.duration_seconds}s</span>
-              </div>
-            </article>
-          ))}
-        </div>
+        <table className={styles.wikiTable}>
+          <thead>
+            <tr>
+              <th className={styles.iconCell}>Icon</th>
+              <th>Công thức</th>
+              <th className={styles.stationCell}>Trạm</th>
+              <th className={styles.descCell}>Mô tả</th>
+              <th className={styles.effectCell}>Hiệu ứng</th>
+              <th className={styles.qtyCell}>Nguyên liệu</th>
+              <th className={styles.durationCell}>Thời gian</th>
+            </tr>
+          </thead>
+          <tbody>
+            {filtered.map(recipe => (
+              <tr key={recipe.id} id={recipe.id}>
+                <td className={styles.iconCell}>
+                  <div className={styles.iconWrap}>
+                    <Icon
+                      name={recipe.station === 'tea_station' ? 'tea-bag' : 'cake'}
+                      size={20}
+                    />
+                  </div>
+                </td>
+                <td className={styles.nameCell}>{recipe.name}</td>
+                <td className={styles.stationCell}>
+                  {recipe.station === 'tea_station' ? 'Trạm trà ASMR' : 'Lò nướng bánh'}
+                </td>
+                <td className={styles.descCell}>{recipe.description}</td>
+                <td className={styles.effectCell}>{recipe.effect_description}</td>
+                <td className={styles.qtyCell}>
+                  {recipe.ingredients
+                    .map(ing => `${ing.name} x${ing.quantity}`)
+                    .join(', ')}
+                </td>
+                <td className={styles.durationCell}>
+                  {recipe.duration_seconds}s
+                </td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
       )}
     </>
   );

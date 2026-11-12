@@ -23,7 +23,7 @@
   }
 
   h1 {
-    font-size: 36px;
+    font-size: 30px;
     font-weight: 700;
     color: $color-text-main;
     margin-bottom: $sp-3;
@@ -35,12 +35,6 @@
     font-size: 16px;
     text-wrap: pretty;
   }
-}
-
-.grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-  gap: $sp-6;
 }
 
 .toolbar {
@@ -161,242 +155,125 @@
   }
 }
 
-.itemCard,
-.recipeCard,
-.characterCard {
-  background-color: $color-night-card;
+/* ---------- Wiki table style ---------- */
+.wikiTable {
+  width: 100%;
+  border-collapse: collapse;
+  background: $color-night-card;
   border: 1px solid $color-night-border;
   border-radius: $radius-md;
-  padding: $sp-6;
-  display: flex;
-  flex-direction: column;
-  box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4);
-  transition:
-    transform $dur-base $ease-out,
-    border-color $dur-fast $ease-out,
-    box-shadow $dur-base $ease-out;
-
-  &:hover {
-    transform: translateY(-2px);
-    border-color: $color-amber-base;
-    box-shadow: 0 6px 0 rgba(0, 0, 0, 0.4);
-  }
+  overflow: hidden;
+  font-size: 14px;
 }
 
-.itemCard {
-  .cardTop {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    margin-bottom: $sp-4;
-  }
-
-  .iconWrap {
-    width: 48px;
-    height: 48px;
-    background: $color-night-dark;
-    border: 1px solid $color-night-border;
-    border-radius: $radius-sm;
-    color: $color-amber-glow;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-
-  h3 {
-    font-size: 18px;
-    font-weight: 700;
-    color: $color-text-main;
-    margin-bottom: $sp-2;
-  }
-
-  .desc {
-    color: $color-text-muted;
-    font-size: 14px;
-    line-height: 1.6;
-    margin-bottom: $sp-5;
-    flex-grow: 1;
-    text-wrap: pretty;
-  }
-
-  .tags {
-    display: flex;
-    gap: $sp-1;
-    flex-wrap: wrap;
-    margin-top: auto;
-  }
-
-  .entrySub {
-    font-size: 13px;
-    color: $color-text-dim;
-    margin: -$sp-1 0 $sp-3;
-  }
-
-  .details {
-    display: flex;
-    flex-direction: column;
-    gap: $sp-1;
-    font-size: 13px;
-    color: $color-text-muted;
-    margin-bottom: $sp-4;
-    border-top: 1px dashed rgba($color-night-border, 0.6);
-    padding-top: $sp-3;
-  }
-
-  .detailRow {
-    display: flex;
-    gap: $sp-2;
-    line-height: 1.5;
-  }
-
-  .detailLabel {
-    color: $color-text-dim;
-    flex-shrink: 0;
-  }
+.wikiTable th {
+  background: $color-night-elevated;
+  color: $color-amber-glow;
+  font-weight: 700;
+  text-align: left;
+  padding: $sp-4 $sp-6;
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  border-bottom: 1px solid $color-night-border;
 }
 
-.recipeCard {
-  .recipeStation {
-    display: flex;
-    align-items: center;
-    gap: $sp-1;
-    font-size: 12px;
-    font-weight: 700;
-    color: $color-amber-warm;
-    margin-bottom: $sp-2;
-  }
-
-  h3 {
-    font-size: 20px;
-    font-weight: 700;
-    color: $color-amber-glow;
-    margin-bottom: $sp-3;
-  }
-
-  .desc {
-    color: $color-text-muted;
-    font-size: 14px;
-    line-height: 1.6;
-    margin-bottom: $sp-4;
-    flex-grow: 1;
-    text-wrap: pretty;
-  }
-
-  .effect {
-    display: flex;
-    align-items: flex-start;
-    gap: $sp-2;
-    font-size: 14px;
-    color: $color-crystal-cyan;
-    background: rgba($color-crystal-cyan, 0.08);
-    border: 1px solid rgba($color-crystal-cyan, 0.2);
-    border-radius: $radius-sm;
-    padding: $sp-2 $sp-3;
-    margin-bottom: $sp-4;
-
-    svg {
-      flex-shrink: 0;
-      margin-top: 3px;
-    }
-  }
-
-  .ingredientsHeader {
-    font-size: 12px;
-    font-weight: 700;
-    color: $color-text-dim;
-    margin-bottom: $sp-2;
-  }
-
-  .ingredientsList {
-    list-style: none;
-    display: flex;
-    flex-direction: column;
-    gap: $sp-1;
-    font-size: 14px;
-    color: $color-text-main;
-    margin-bottom: $sp-4;
-
-    li {
-      display: flex;
-      justify-content: space-between;
-      gap: $sp-3;
-      border-bottom: 1px dashed rgba($color-night-border, 0.6);
-      padding-bottom: $sp-1;
-    }
-  }
-
-  .duration {
-    display: flex;
-    align-items: center;
-    gap: $sp-1;
-    margin-top: auto;
-    font-size: 12px;
-    color: $color-text-dim;
-    font-variant-numeric: tabular-nums;
-  }
+.wikiTable td {
+  padding: $sp-4 $sp-6;
+  border-bottom: 1px solid rgba($color-night-border, 0.6);
+  color: $color-text-main;
+  vertical-align: top;
 }
 
-.characterCard {
-  .charRole {
-    font-size: 12px;
-    font-weight: 700;
-    color: $color-amber-warm;
-    margin-bottom: $sp-2;
-  }
+.wikiTable tr:last-child td {
+  border-bottom: none;
+}
 
-  h3 {
-    font-size: 20px;
-    font-weight: 700;
-    color: $color-text-main;
-    margin-bottom: $sp-1;
-  }
+.wikiTable tr:hover td {
+  background: rgba($color-night-elevated, 0.3);
+}
 
-  .species {
-    display: flex;
-    align-items: center;
-    gap: $sp-3;
-    flex-wrap: wrap;
-    font-size: 14px;
-    color: $color-text-dim;
-    margin-bottom: $sp-4;
-  }
+.iconCell {
+  width: 48px;
+  text-align: center;
+}
 
-  .speciesLoc {
-    display: inline-flex;
-    align-items: center;
-    gap: $sp-1;
-  }
+.iconWrap {
+  width: 36px;
+  height: 36px;
+  background: $color-night-dark;
+  border: 1px solid $color-night-border;
+  border-radius: $radius-sm;
+  color: $color-amber-glow;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
 
-  .quote {
-    color: $color-bakery-cream;
-    font-size: 14px;
-    line-height: 1.6;
-    background: rgba($color-night-elevated, 0.6);
-    border-left: 3px solid $color-amber-base;
-    padding: $sp-2 $sp-3;
-    border-radius: 0 $radius-sm $radius-sm 0;
-    margin-bottom: $sp-4;
-  }
+.nameCell {
+  font-weight: 700;
+  color: $color-text-main;
+  font-size: 15px;
 
-  .desc {
-    color: $color-text-muted;
-    font-size: 14px;
-    line-height: 1.6;
-    margin-bottom: $sp-4;
-    flex-grow: 1;
-    text-wrap: pretty;
-  }
+  a {
+    color: inherit;
+    transition: color $dur-fast $ease-out;
 
-  .charMeta {
-    border-top: 1px solid rgba($color-night-border, 0.8);
-    padding-top: $sp-3;
-    font-size: 14px;
-    color: $color-text-dim;
-
-    strong {
+    &:hover {
       color: $color-amber-glow;
+      text-decoration: underline;
+      text-underline-offset: 3px;
     }
   }
+}
+
+.descCell {
+  color: $color-text-muted;
+  font-size: 13px;
+  line-height: 1.5;
+  max-width: 340px;
+}
+
+.tagsCell {
+  text-align: center;
+}
+
+.badgeCell {
+  text-align: center;
+}
+
+.stationCell {
+  text-align: center;
+  font-size: 12px;
+  font-weight: 700;
+  color: $color-amber-warm;
+}
+
+.effectCell {
+  color: $color-crystal-cyan;
+  font-size: 13px;
+}
+
+.qtyCell {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+  color: $color-amber-glow;
+  font-weight: 600;
+}
+
+.durationCell {
+  text-align: center;
+  font-size: 12px;
+  color: $color-text-dim;
+}
+
+.metaCell {
+  font-size: 13px;
+  color: $color-text-muted;
+}
+
+.metaCell strong {
+  color: $color-amber-glow;
 }
 
 .title {
@@ -412,6 +289,27 @@
 
 @media (max-width: 768px) {
   .header h1 {
-    font-size: 30px;
+    font-size: 26px;
+  }
+
+  .wikiTable {
+    font-size: 13px;
+  }
+
+  .wikiTable th,
+  .wikiTable td {
+    padding: $sp-3 $sp-4;
+  }
+
+  .descCell {
+    max-width: none;
+  }
+}
+
+@media (max-width: 480px) {
+  .wikiTable {
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
   }
 }

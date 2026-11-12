@@ -16,6 +16,16 @@ export function getItems() {
   }
 }
 
+export function getItemById(id) {
+  return getItems().find(item => item.id === id) || null;
+}
+
+export function getRecipesUsingItem(itemId) {
+  return getRecipes().filter(recipe =>
+    (recipe.ingredients || []).some(ing => ing.id === itemId)
+  );
+}
+
 export function getRecipes() {
   const filePath = path.join(DATA_DIR, 'recipes.json');
   if (!fs.existsSync(filePath)) return [];

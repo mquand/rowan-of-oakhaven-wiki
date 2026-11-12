@@ -1,8 +1,8 @@
 @use '../styles/variables' as *;
 
 .footer {
-  border-top: 1px solid $color-night-border;
-  background: $color-night-base;
+  border-top: 2px solid $color-wood-base;
+  background: $color-forest-dark;
   padding: $sp-10 $sp-6 $sp-8;
   margin-top: $sp-12;
   color: $color-text-muted;
@@ -36,6 +36,10 @@
     display: flex;
     align-items: center;
     gap: $sp-2;
+
+    svg {
+      color: $color-cat-seed;
+    }
   }
 
   p {
@@ -50,7 +54,7 @@
   gap: $sp-12;
 
   h4 {
-    color: $color-text-main;
+    color: $color-bakery-crust;
     font-size: 12px;
     font-weight: 700;
     margin-bottom: $sp-4;
@@ -77,7 +81,7 @@
 }
 
 .bottomRow {
-  border-top: 1px solid rgba($color-night-border, 0.6);
+  border-top: 1px solid rgba($color-forest-moss, 0.8);
   padding-top: $sp-6;
   display: flex;
   justify-content: space-between;

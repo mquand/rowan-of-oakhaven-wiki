@@ -19,7 +19,7 @@
   h3 {
     font-size: 12px;
     font-weight: 700;
-    color: $color-text-dim;
+    color: $color-bakery-crust;
     text-transform: uppercase;
     letter-spacing: 0.08em;
     margin-bottom: $sp-4;
@@ -51,7 +51,7 @@
 
       &:hover {
         color: $color-text-main;
-        background: rgba($color-night-elevated, 0.6);
+        background: rgba($color-forest-moss, 0.35);
       }
 
       &.active {

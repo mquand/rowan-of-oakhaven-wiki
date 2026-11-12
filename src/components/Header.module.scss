@@ -10,18 +10,16 @@
 .navPill {
   max-width: $max-width;
   margin: 0 auto;
-  height: 56px;
+  height: 48px;
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: $sp-5;
   padding: 0 $sp-4 0 $sp-5;
-  background: rgba($color-night-base, 0.82);
-  backdrop-filter: blur(16px);
-  -webkit-backdrop-filter: blur(16px);
-  border: 1px solid $color-night-border;
-  border-radius: $radius-full;
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.35);
+  background: $color-night-base;
+  border: 2px solid $color-night-border;
+  border-radius: $radius-md;
+  box-shadow: 0 4px 0 rgba(0, 0, 0, 0.4);
 }
 
 .brand {
@@ -32,11 +30,11 @@
   flex-shrink: 0;
 
   .brandMark {
-    width: 36px;
-    height: 36px;
+    width: 32px;
+    height: 32px;
     background: $color-amber-warm;
     color: $color-night-dark;
-    border-radius: $radius-md;
+    border-radius: $radius-sm;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -73,20 +71,20 @@
     font-size: 14px;
     font-weight: 600;
     color: $color-text-muted;
-    padding: $sp-2 $sp-3;
-    border-radius: $radius-full;
+    padding: $sp-2 $sp-4;
+    border-radius: $radius-sm;
     transition:
       color $dur-fast $ease-out,
       background-color $dur-fast $ease-out;
 
     &:hover {
       color: $color-text-main;
-      background: rgba($color-night-elevated, 0.7);
+      background: rgba($color-night-elevated, 0.5);
     }
 
     &.active {
       color: $color-amber-glow;
-      background: rgba($color-amber-base, 0.12);
+      background: rgba($color-amber-base, 0.1);
     }
   }
 }
@@ -103,7 +101,7 @@
     padding: $sp-2 $sp-4;
     color: $color-text-main;
     border: 1px solid $color-night-border;
-    border-radius: $radius-full;
+    border-radius: $radius-sm;
     transition:
       border-color $dur-fast $ease-out,
       background-color $dur-fast $ease-out,
@@ -127,7 +125,7 @@
   padding: $sp-2;
   background: transparent;
   border: 1px solid $color-night-border;
-  border-radius: $radius-md;
+  border-radius: $radius-sm;
   cursor: pointer;
 
   span {
@@ -153,18 +151,16 @@
 
 .mobileMenu {
   position: absolute;
-  top: calc(100% + $sp-2);
+  top: calc(100% + $sp-3);
   left: $sp-5;
   right: $sp-5;
-  background: rgba($color-night-base, 0.96);
-  backdrop-filter: blur(20px);
-  -webkit-backdrop-filter: blur(20px);
-  border: 1px solid $color-night-border;
-  border-radius: $radius-xl;
-  padding: $sp-5;
+  background: $color-night-base;
+  border: 2px solid $color-night-border;
+  border-radius: $radius-md;
+  padding: $sp-4;
   opacity: 0;
   visibility: hidden;
-  transform: translateY(-8px);
+  transform: translateY(-6px);
   transition:
     opacity $dur-fast $ease-out,
     transform $dur-base $ease-out,
@@ -183,7 +179,7 @@
     font-weight: 600;
     color: $color-text-muted;
     padding: $sp-3 $sp-4;
-    border-radius: $radius-md;
+    border-radius: $radius-sm;
     opacity: 0;
     transform: translateY(12px);
     transition:
@@ -194,7 +190,7 @@
 
     &:hover {
       color: $color-text-main;
-      background: rgba($color-night-elevated, 0.7);
+      background: rgba($color-night-elevated, 0.5);
     }
 
     &.mobileActive {

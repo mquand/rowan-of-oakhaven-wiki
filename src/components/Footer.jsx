@@ -34,6 +34,14 @@ export default function Footer() {
                 <li><Link href="/database/characters">Hồ Sơ Cư Dân</Link></li>
               </ul>
             </div>
+
+            <div>
+              <h4>Pháp Lý</h4>
+              <ul>
+                <li><Link href="/privacy">Chính Sách Bảo Mật</Link></li>
+                <li><Link href="/terms">Điều Khoản Sử Dụng</Link></li>
+              </ul>
+            </div>
           </div>
         </div>
 

@@ -1,0 +1,279 @@
+@use '../../../../styles/variables' as *;
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: $sp-10 $sp-6 $sp-12;
+}
+
+.breadcrumb {
+  display: flex;
+  flex-wrap: wrap;
+  gap: $sp-2;
+  align-items: center;
+  font-size: 12px;
+  color: $color-text-dim;
+  margin-bottom: $sp-6;
+
+  a {
+    color: $color-text-muted;
+
+    &:hover {
+      color: $color-amber-glow;
+    }
+  }
+
+  .current {
+    color: $color-text-muted;
+    max-width: 280px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+}
+
+.header {
+  margin-bottom: $sp-8;
+
+  .kicker {
+    display: inline-flex;
+    align-items: center;
+    gap: $sp-2;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: $color-bakery-crust;
+    margin-bottom: $sp-3;
+  }
+
+  h1 {
+    font-size: 36px;
+    font-weight: 700;
+    color: $color-text-main;
+    line-height: 1.2;
+    text-wrap: balance;
+  }
+}
+
+.layout {
+  display: grid;
+  grid-template-columns: 240px 1fr;
+  gap: $sp-8;
+  align-items: start;
+}
+
+/* Ô sprite kiểu inventory game */
+.spritePanel {
+  position: sticky;
+  top: 88px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: $sp-4;
+  background: $color-night-card;
+  border: 2px solid $color-night-border;
+  border-radius: $radius-md;
+  padding: $sp-6;
+  box-shadow: 0 4px 0 rgba(0, 0, 0, 0.4);
+}
+
+.spriteBox {
+  width: 168px;
+  height: 168px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: $color-night-deep;
+  border: 1px solid $color-night-border;
+  border-radius: $radius-sm;
+
+  // Accent theo danh mục — tô màu icon
+  &.seed { color: $color-cat-seed; }
+  &.ingredient { color: $color-cat-ingredient; }
+  &.mineral { color: $color-cat-mineral; }
+  &.gem { color: $color-cat-gem; }
+  &.monster_drop { color: $color-cat-monster; }
+}
+
+.spriteCaption {
+  font-size: 11px;
+  color: $color-text-dim;
+  text-align: center;
+  word-break: break-all;
+  font-family: $font-pixel;
+  line-height: 1.5;
+}
+
+/* Nội dung chính */
+.body {
+  min-width: 0;
+}
+
+.description {
+  font-size: 16px;
+  line-height: 1.7;
+  color: $color-text-main;
+  text-wrap: pretty;
+  border-left: 3px solid $color-amber-warm;
+  background: rgba($color-night-card, 0.6);
+  border-radius: 0 $radius-md $radius-md 0;
+  padding: $sp-4 $sp-5;
+  margin-bottom: $sp-8;
+}
+
+.infoTable {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: $sp-8;
+  background: $color-night-card;
+  border: 1px solid $color-night-border;
+  border-radius: $radius-md;
+  overflow: hidden;
+  font-size: 14px;
+
+  th,
+  td {
+    padding: $sp-3 $sp-5;
+    text-align: left;
+    border-bottom: 1px solid rgba($color-night-border, 0.6);
+    vertical-align: top;
+  }
+
+  th {
+    width: 160px;
+    color: $color-bakery-crust;
+    font-weight: 700;
+    background: $color-night-elevated;
+  }
+
+  td {
+    color: $color-text-main;
+  }
+
+  tr:last-child th,
+  tr:last-child td {
+    border-bottom: none;
+  }
+}
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: $sp-2;
+}
+
+.code {
+  font-family: $font-pixel;
+  font-size: 12px;
+  color: $color-starlight;
+  background: rgba($color-night-border, 0.5);
+  padding: 1px 6px;
+  border-radius: $radius-sm;
+}
+
+.section {
+  margin-bottom: $sp-8;
+
+  h2 {
+    font-size: 20px;
+    font-weight: 700;
+    color: $color-text-main;
+    margin-bottom: $sp-4;
+    display: flex;
+    align-items: center;
+    gap: $sp-2;
+
+    svg {
+      color: $color-amber-glow;
+    }
+  }
+}
+
+.recipeList {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: $sp-2;
+
+  li {
+    display: flex;
+    align-items: center;
+    gap: $sp-3;
+    background: $color-night-card;
+    border: 1px solid $color-night-border;
+    border-radius: $radius-md;
+    padding: $sp-3 $sp-4;
+    font-size: 14px;
+
+    a {
+      color: $color-text-main;
+      font-weight: 600;
+
+      &:hover {
+        color: $color-amber-glow;
+      }
+    }
+  }
+
+  .station {
+    margin-left: auto;
+    font-size: 12px;
+    color: $color-amber-warm;
+    font-weight: 700;
+    flex-shrink: 0;
+  }
+}
+
+.emptyNote {
+  color: $color-text-dim;
+  font-size: 14px;
+  padding: $sp-4 $sp-5;
+  border: 1px dashed $color-night-border;
+  border-radius: $radius-md;
+}
+
+.backRow {
+  margin-top: $sp-10;
+  padding-top: $sp-6;
+  border-top: 1px solid $color-night-border;
+}
+
+.backLink {
+  display: inline-flex;
+  align-items: center;
+  gap: $sp-2;
+  font-weight: 600;
+  font-size: 14px;
+  color: $color-amber-base;
+
+  &:hover {
+    color: $color-amber-glow;
+  }
+}
+
+@media (max-width: 768px) {
+  .layout {
+    grid-template-columns: 1fr;
+  }
+
+  .spritePanel {
+    position: static;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+
+  .spriteBox {
+    width: 112px;
+    height: 112px;
+    flex-shrink: 0;
+  }
+
+  .header h1 {
+    font-size: 28px;
+  }
+
+  .infoTable th {
+    width: 120px;
+  }
+}
