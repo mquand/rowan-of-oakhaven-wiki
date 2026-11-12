@@ -23,7 +23,12 @@ export default function Sidebar({ docs = [] }) {
   return (
     <aside className={styles.sidebar}>
       <div className={styles.section}>
-        <h3>Tài liệu cốt lõi</h3>
+        <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: '8px' }}>
+          <h3>Tài liệu cốt lõi</h3>
+          <Link href="/wiki" style={{ fontSize: '11px', color: '#ffcf40', textDecoration: 'none' }}>
+            Xem tất cả
+          </Link>
+        </div>
         <ul>
           {docs.map(doc => {
             const href = `/wiki/${doc.slug}`;
@@ -40,7 +45,12 @@ export default function Sidebar({ docs = [] }) {
       </div>
 
       <div className={styles.section}>
-        <h3>Dữ liệu khám phá</h3>
+        <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: '8px' }}>
+          <h3>Dữ liệu khám phá</h3>
+          <Link href="/database" style={{ fontSize: '11px', color: '#ffcf40', textDecoration: 'none' }}>
+            Tổng quan
+          </Link>
+        </div>
         <ul>
           {DB_LINKS.map(link => (
             <li key={link.href}>

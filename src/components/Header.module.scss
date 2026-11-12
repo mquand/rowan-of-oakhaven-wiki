@@ -113,6 +113,49 @@
       color: $color-amber-glow;
     }
   }
+
+  .searchBtn {
+    display: flex;
+    align-items: center;
+    gap: $sp-2;
+    font-size: 13px;
+    font-weight: 500;
+    color: $color-text-dim;
+    background: $color-night-dark;
+    border: 1px solid $color-night-border;
+    border-radius: $radius-sm;
+    padding: 5px $sp-3;
+    cursor: pointer;
+    transition:
+      border-color $dur-fast $ease-out,
+      color $dur-fast $ease-out;
+
+    &:hover {
+      border-color: $color-amber-base;
+      color: $color-text-main;
+    }
+
+    .searchKbd {
+      font-family: $font-pixel;
+      font-size: 11px;
+      background: $color-night-card;
+      border: 1px solid $color-night-border;
+      border-radius: 3px;
+      padding: 1px 5px;
+      color: $color-amber-glow;
+    }
+  }
+}
+
+@media (max-width: 640px) {
+  .actions .searchBtn .searchBtnText,
+  .actions .searchBtn .searchKbd {
+    display: none;
+  }
+
+  .actions .searchBtn {
+    padding: $sp-2;
+  }
 }
 
 .menuBtn {

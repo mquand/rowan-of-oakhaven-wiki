@@ -6,15 +6,16 @@ export const metadata = {
 
 export default function TermsPage() {
   return (
-    <div className={styles.container}>
-      <h1>Điều Khoản Sử Dụng</h1>
+    <div className={`${styles.container} pixel-frame`}>
+      <p className={styles.kicker}>Legal / Terms</p>
+      <h1 className={styles.title}>Điều Khoản Sử Dụng</h1>
       <p>
-        Nội dung trên wiki Rowan of Oakhaven được cung cấp miễn phí để tham khảo về trò chơi
-        Rowan of Oakhaven của Fluvio Games.
+        Bách khoa toàn thư Rowan of Oakhaven được duy trì nhằm mục đích cung cấp thông tin, hướng dẫn
+        và tư liệu tham khảo công khai cho người chơi tựa game Rowan of Oakhaven do Fluvio Games phát triển.
       </p>
       <p>
-        Tất cả tài nguyên trò chơi (hình ảnh, âm thanh, thiết kế nhân vật) thuộc về Fluvio Games.
-        Wiki này không 주장했다 quyền sở hữu đối với bất kỳ tài nguyên nào của trò chơi.
+        Mọi hình ảnh, tư liệu truyền thuyết, tên nhân vật và nội dung bản quyền thuộc về Fluvio Games.
+        Mã nguồn hiển thị của wiki được phát hành mở dưới giấy phép của dự án.
       </p>
     </div>
   );

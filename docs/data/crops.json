@@ -84,7 +84,7 @@
       ],
       "growth_days": 3,
       "regrow_days": 0,
-      "harvest_item_id": null,
+      "harvest_item_id": "item_sun_daisy",
       "tags": [
         "flower",
         "tea",
@@ -100,7 +100,7 @@
       ],
       "growth_days": 8,
       "regrow_days": 0,
-      "harvest_item_id": null,
+      "harvest_item_id": "item_sweet_pumpkin",
       "tags": [
         "vegetable",
         "bakery",

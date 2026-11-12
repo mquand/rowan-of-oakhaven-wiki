@@ -1,10 +1,31 @@
 @use '../styles/variables' as *;
 
 .container {
-  max-width: 640px;
+  max-width: 680px;
   margin: 0 auto;
   padding: $sp-12 $sp-6;
+}
+
+.box {
+  background: $color-night-card;
+  border: 1px solid $color-night-border;
+  border-radius: $radius-lg;
+  padding: $sp-10 $sp-8;
   text-align: center;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
+}
+
+.iconBox {
+  width: 64px;
+  height: 64px;
+  background: $color-night-dark;
+  border: 1px solid $color-night-border;
+  border-radius: $radius-md;
+  color: $color-amber-glow;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: $sp-4;
 }
 
 .code {

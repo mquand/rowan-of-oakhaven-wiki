@@ -234,6 +234,116 @@
   border-radius: $radius-md;
 }
 
+.sourceList {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: $sp-3;
+}
+
+.sourceItem {
+  background: $color-night-card;
+  border: 1px solid $color-night-border;
+  border-radius: $radius-md;
+  padding: $sp-4 $sp-5;
+  display: flex;
+  align-items: flex-start;
+  gap: $sp-4;
+
+  .sourceIcon {
+    width: 36px;
+    height: 36px;
+    background: $color-night-dark;
+    border: 1px solid $color-night-border;
+    border-radius: $radius-sm;
+    color: $color-amber-glow;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+  }
+
+  .sourceBody {
+    flex: 1;
+    min-width: 0;
+
+    .sourceTitleRow {
+      display: flex;
+      align-items: center;
+      gap: $sp-2;
+      margin-bottom: 2px;
+    }
+
+    .sourceTitle {
+      font-weight: 700;
+      font-size: 14px;
+      color: $color-text-main;
+
+      a {
+        color: inherit;
+        &:hover {
+          color: $color-amber-glow;
+          text-decoration: underline;
+        }
+      }
+    }
+
+    .sourceDesc {
+      font-size: 13px;
+      color: $color-text-muted;
+      margin: 0;
+      line-height: 1.5;
+    }
+  }
+}
+
+.relatedGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: $sp-3;
+}
+
+.relatedCard {
+  background: $color-night-card;
+  border: 1px solid $color-night-border;
+  border-radius: $radius-md;
+  padding: $sp-3 $sp-4;
+  display: flex;
+  align-items: center;
+  gap: $sp-3;
+  color: $color-text-main;
+  transition:
+    border-color $dur-fast $ease-out,
+    transform $dur-base $ease-out;
+
+  &:hover {
+    border-color: $color-amber-base;
+    transform: translateY(-2px);
+    color: $color-amber-glow;
+  }
+
+  .relatedIcon {
+    width: 32px;
+    height: 32px;
+    background: $color-night-dark;
+    border: 1px solid $color-night-border;
+    border-radius: $radius-sm;
+    color: $color-amber-glow;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+  }
+
+  .relatedName {
+    font-weight: 600;
+    font-size: 13px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}
+
 .backRow {
   margin-top: $sp-10;
   padding-top: $sp-6;

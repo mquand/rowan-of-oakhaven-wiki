@@ -1,0 +1,274 @@
+@use '../styles/variables' as *;
+
+.overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 1000;
+  background: rgba($color-night-dark, 0.82);
+  backdrop-filter: blur(6px);
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding: $sp-10 $sp-4 $sp-6;
+  animation: fadeIn 200ms $ease-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.modal {
+  width: 100%;
+  max-width: 680px;
+  background: $color-night-card;
+  border: 1px solid $color-night-border;
+  border-radius: $radius-lg;
+  box-shadow: 0 20px 48px rgba(0, 0, 0, 0.65);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  max-height: 85vh;
+  animation: slideDown 250ms $ease-out;
+}
+
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-16px) scale(0.98);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+.searchHeader {
+  display: flex;
+  align-items: center;
+  gap: $sp-4;
+  padding: $sp-4 $sp-5;
+  border-bottom: 1px solid $color-night-border;
+  background: $color-night-elevated;
+}
+
+.searchIcon {
+  color: $color-amber-base;
+  flex-shrink: 0;
+}
+
+.searchInput {
+  flex: 1;
+  background: transparent;
+  border: none;
+  color: $color-text-main;
+  font-family: $font-sans;
+  font-size: 16px;
+  outline: none;
+
+  &::placeholder {
+    color: $color-text-dim;
+  }
+}
+
+.closeBtn {
+  background: transparent;
+  border: none;
+  color: $color-text-dim;
+  cursor: pointer;
+  padding: $sp-1;
+  border-radius: $radius-sm;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: color $dur-fast $ease-out;
+
+  &:hover {
+    color: $color-amber-glow;
+  }
+}
+
+.filterRow {
+  display: flex;
+  gap: $sp-2;
+  padding: $sp-3 $sp-5;
+  border-bottom: 1px solid rgba($color-night-border, 0.6);
+  overflow-x: auto;
+  white-space: nowrap;
+  background: rgba($color-night-dark, 0.4);
+}
+
+.filterChip {
+  font-family: $font-sans;
+  font-size: 12px;
+  font-weight: 600;
+  color: $color-text-muted;
+  background: transparent;
+  border: 1px solid $color-night-border;
+  border-radius: $radius-full;
+  padding: 2px $sp-3;
+  cursor: pointer;
+  transition:
+    color $dur-fast $ease-out,
+    border-color $dur-fast $ease-out,
+    background-color $dur-fast $ease-out;
+
+  &:hover {
+    color: $color-text-main;
+    border-color: $color-amber-base;
+  }
+
+  &.activeChip {
+    background: $color-amber-base;
+    color: $color-night-dark;
+    border-color: $color-amber-base;
+    font-weight: 700;
+  }
+}
+
+.resultList {
+  flex: 1;
+  overflow-y: auto;
+  max-height: 420px;
+  padding: $sp-2 $sp-3;
+}
+
+.statusBox {
+  padding: $sp-8 $sp-5;
+  text-align: center;
+  color: $color-text-muted;
+  font-size: 14px;
+
+  p {
+    margin-bottom: $sp-2;
+    color: $color-text-main;
+    font-weight: 600;
+  }
+
+  .hintText {
+    font-size: 13px;
+    color: $color-text-dim;
+  }
+}
+
+.resultItem {
+  display: flex;
+  align-items: center;
+  gap: $sp-4;
+  padding: $sp-3 $sp-4;
+  border-radius: $radius-md;
+  cursor: pointer;
+  transition:
+    background-color $dur-fast $ease-out,
+    border-color $dur-fast $ease-out;
+  border: 1px solid transparent;
+  margin-bottom: $sp-1;
+
+  &:hover,
+  &.selected {
+    background: rgba($color-night-elevated, 0.8);
+    border-color: rgba($color-amber-base, 0.35);
+
+    .itemTitle {
+      color: $color-amber-glow;
+    }
+
+    .itemArrow {
+      color: $color-amber-base;
+      transform: translateX(2px);
+    }
+  }
+}
+
+.itemIcon {
+  width: 34px;
+  height: 34px;
+  background: $color-night-dark;
+  border: 1px solid $color-night-border;
+  border-radius: $radius-sm;
+  color: $color-amber-glow;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.itemInfo {
+  flex: 1;
+  min-width: 0;
+}
+
+.titleRow {
+  display: flex;
+  align-items: center;
+  gap: $sp-3;
+  margin-bottom: 2px;
+}
+
+.itemTitle {
+  font-weight: 700;
+  font-size: 14px;
+  color: $color-text-main;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  transition: color $dur-fast $ease-out;
+}
+
+.typeBadge {
+  font-size: 11px;
+  padding: 1px 6px;
+}
+
+.itemDesc {
+  font-size: 12px;
+  color: $color-text-muted;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin: 0;
+  line-height: 1.4;
+}
+
+.itemArrow {
+  color: $color-text-dim;
+  flex-shrink: 0;
+  transition: transform $dur-fast $ease-out, color $dur-fast $ease-out;
+}
+
+.modalFooter {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: $sp-3 $sp-5;
+  border-top: 1px solid $color-night-border;
+  background: $color-night-dark;
+  font-size: 12px;
+  color: $color-text-dim;
+}
+
+.shortcutHints {
+  display: flex;
+  gap: $sp-4;
+  flex-wrap: wrap;
+
+  kbd {
+    background: $color-night-card;
+    border: 1px solid $color-night-border;
+    border-radius: $radius-sm;
+    padding: 1px 5px;
+    font-family: $font-pixel;
+    font-size: 11px;
+    color: $color-amber-glow;
+    margin-right: 3px;
+  }
+}
+
+.itemCount {
+  font-family: $font-pixel;
+  color: $color-text-dim;
+}

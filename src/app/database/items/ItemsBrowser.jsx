@@ -87,44 +87,46 @@ export default function ItemsBrowser({ items }) {
           </button>
         </div>
       ) : (
-        <table className={styles.wikiTable}>
-          <thead>
-            <tr>
-              <th className={styles.iconCell}>Icon</th>
-              <th>Tên vật phẩm</th>
-              <th className={styles.descCell}>Mô tả</th>
-              <th className={styles.tagsCell}>Thể loại</th>
-              <th className={styles.badgeCell}>Tags</th>
-            </tr>
-          </thead>
-          <tbody>
-            {filtered.map(item => (
-              <tr key={item.id}>
-                <td className={styles.iconCell}>
-                  <div className={styles.iconWrap}>
-                    <Icon name={ICONS[item.category] || 'package'} size={20} />
-                  </div>
-                </td>
-                <td className={styles.nameCell}>
-                  <Link href={`/database/items/${item.id}`}>{item.name}</Link>
-                </td>
-                <td className={styles.descCell}>{item.description}</td>
-                <td className={styles.stationCell}>
-                  <span className={`badge ${item.category}`}>
-                    {CATEGORY_LABELS[item.category] || item.category}
-                  </span>
-                </td>
-                <td className={styles.tagsCell}>
-                  {item.tags?.map(t => (
-                    <span key={t} className="badge forest">
-                      #{t}
-                    </span>
-                  ))}
-                </td>
+        <div className={`${styles.tableWrapper} pixel-frame`}>
+          <table className={styles.wikiTable}>
+            <thead>
+              <tr>
+                <th className={styles.iconCell}>Icon</th>
+                <th>Tên vật phẩm</th>
+                <th className={styles.descCell}>Mô tả</th>
+                <th className={styles.tagsCell}>Thể loại</th>
+                <th className={styles.badgeCell}>Tags</th>
               </tr>
-            ))}
-          </tbody>
-        </table>
+            </thead>
+            <tbody>
+              {filtered.map(item => (
+                <tr key={item.id}>
+                  <td className={styles.iconCell}>
+                    <div className={styles.iconWrap}>
+                      <Icon name={ICONS[item.category] || 'package'} size={20} />
+                    </div>
+                  </td>
+                  <td className={styles.nameCell}>
+                    <Link href={`/database/items/${item.id}`}>{item.name}</Link>
+                  </td>
+                  <td className={styles.descCell}>{item.description}</td>
+                  <td className={styles.stationCell}>
+                    <span className={`badge ${item.category}`}>
+                      {CATEGORY_LABELS[item.category] || item.category}
+                    </span>
+                  </td>
+                  <td className={styles.tagsCell}>
+                    {item.tags?.map(t => (
+                      <span key={t} className="badge forest">
+                        #{t}
+                      </span>
+                    ))}
+                  </td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
       )}
     </>
   );

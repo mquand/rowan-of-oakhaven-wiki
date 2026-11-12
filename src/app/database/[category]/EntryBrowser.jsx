@@ -1,6 +1,7 @@
 'use client';
 
 import { useMemo, useState } from 'react';
+import Link from 'next/link';
 import Icon from '../../../components/Icon';
 import styles from '../Database.module.scss';
 
@@ -41,6 +42,8 @@ const ITEM_NAMES = {
   dau_rung: 'Dâu Rừng',
   item_flour: 'Bột Mì Tươi',
   oai_huong: 'Oải Hương',
+  item_sun_daisy: 'Cánh Cúc Mặt Trời',
+  item_sweet_pumpkin: 'Bí Ngô Mật Ong',
 };
 
 const CONFIG = {
@@ -71,7 +74,11 @@ const CONFIG = {
     details: e => [
       { label: 'Sinh trưởng', value: `${e.growth_days} ngày` },
       { label: 'Tái sinh', value: e.regrow_days > 0 ? `mỗi ${e.regrow_days} ngày` : 'một lần' },
-      { label: 'Thu hoạch', value: e.harvest_item_id ? ITEM_NAMES[e.harvest_item_id] || e.harvest_item_id : null },
+      {
+        label: 'Thu hoạch',
+        value: e.harvest_item_id ? ITEM_NAMES[e.harvest_item_id] || e.harvest_item_id : null,
+        itemId: e.harvest_item_id,
+      },
       { label: 'Ghi chú', value: e.harvest_note || null },
     ],
   },
@@ -200,7 +207,13 @@ export default function EntryBrowser({ category, entries }) {
                 {config.details(entry).filter(d => d.value).map(d => (
                   <div key={d.label} className={styles.detailRow}>
                     <span className={styles.detailLabel}>{d.label}:</span>
-                    <span>{d.value}</span>
+                    {d.itemId ? (
+                      <Link href={`/database/items/${d.itemId}`} style={{ color: '#ffcf40', textDecoration: 'underline' }}>
+                        {d.value}
+                      </Link>
+                    ) : (
+                      <span>{d.value}</span>
+                    )}
                   </div>
                 ))}
               </div>

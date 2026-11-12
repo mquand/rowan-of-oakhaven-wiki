@@ -113,7 +113,7 @@
 .heroStats {
   display: flex;
   justify-content: center;
-  gap: $sp-10;
+  gap: $sp-5 $sp-8;
   flex-wrap: wrap;
   border-top: 1px solid $color-night-border;
   padding-top: $sp-8;
@@ -245,7 +245,7 @@
 /* ---------- Database entries (compact wiki entries) ---------- */
 .dbEntries {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
   gap: $sp-5;
 
   .dbEntry {

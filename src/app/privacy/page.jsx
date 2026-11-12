@@ -6,8 +6,9 @@ export const metadata = {
 
 export default function PrivacyPage() {
   return (
-    <div className={styles.container}>
-      <h1>Chính Sách Bảo Mật</h1>
+    <div className={`${styles.container} pixel-frame`}>
+      <p className={styles.kicker}>Legal / Privacy</p>
+      <h1 className={styles.title}>Chính Sách Bảo Mật</h1>
       <p>
         Wiki Rowan of Oakhaven không thu thập dữ liệu cá nhân nào từ người truy cập. Trang web
         này chỉ đọc file tài liệu cục bộ trong repo và hiển thị chúng trên trình duyệt của bạn.

@@ -54,7 +54,7 @@ export default async function DocPage({ params }) {
         <nav className={styles.breadcrumb} aria-label="Breadcrumb">
           <Link href="/">Trang chủ</Link>
           <span aria-hidden="true">/</span>
-          <span>Tài liệu</span>
+          <Link href="/wiki">Tài liệu</Link>
           <span aria-hidden="true">/</span>
           <span className={styles.breadcrumbCurrent}>{doc.title}</span>
         </nav>
@@ -128,13 +128,17 @@ export default async function DocPage({ params }) {
           <nav className={styles.docNav} aria-label="Điều hướng bài viết">
             {prevDoc ? (
               <Link href={`/wiki/${prevDoc.slug}`} className={styles.docNavPrev}>
-                <span className={styles.docNavLabel}>← Bài trước</span>
+                <span className={styles.docNavLabel}>
+                  <Icon name="arrow-left" size={12} /> Bài trước
+                </span>
                 <span className={styles.docNavTitle}>{prevDoc.title}</span>
               </Link>
             ) : <span />}
             {nextDoc && (
               <Link href={`/wiki/${nextDoc.slug}`} className={styles.docNavNext}>
-                <span className={styles.docNavLabel}>Bài tiếp →</span>
+                <span className={styles.docNavLabel}>
+                  Bài tiếp <Icon name="arrow-right" size={12} />
+                </span>
                 <span className={styles.docNavTitle}>{nextDoc.title}</span>
               </Link>
             )}

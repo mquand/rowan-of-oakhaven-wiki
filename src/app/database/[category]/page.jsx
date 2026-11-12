@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import styles from '../Database.module.scss';
 import Icon from '../../../components/Icon';
@@ -63,6 +64,14 @@ export default async function CategoryPage({ params }) {
 
   return (
     <div className={styles.container}>
+      <nav className={styles.breadcrumb} aria-label="Breadcrumb">
+        <Link href="/">Trang chủ</Link>
+        <span aria-hidden="true">/</span>
+        <Link href="/database">Cơ sở dữ liệu</Link>
+        <span aria-hidden="true">/</span>
+        <span className={styles.current}>{config.title}</span>
+      </nav>
+
       <div className={styles.header}>
         <p className={styles.kicker}>Database / {category}</p>
         <h1 className={styles.title}><Icon name={config.icon} size={28} /> {config.title}</h1>

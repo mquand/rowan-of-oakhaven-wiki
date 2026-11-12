@@ -328,6 +328,66 @@
         "rare"
       ],
       "sprite": "res://assets/items/collectibles/drop_incense_mist.png"
+    },
+    {
+      "id": "item_cinnamon",
+      "name": "Vỏ Quế Rừng",
+      "description": "Vỏ cây quế thu hoạch từ Rìa Rừng Thầm Thì, thơm nồng ấm áp dùng làm bánh quế cuộn.",
+      "category": "ingredient",
+      "tags": [
+        "ingredient",
+        "bakery",
+        "spice"
+      ],
+      "sprite": "res://assets/items/materials/item_cinnamon.png"
+    },
+    {
+      "id": "item_sugar",
+      "name": "Đường Mía Thô",
+      "description": "Hạt đường mía thô màu hổ phách, tạo vị ngọt thanh mộc mạc cho bánh nướng.",
+      "category": "ingredient",
+      "tags": [
+        "ingredient",
+        "bakery",
+        "sweet"
+      ],
+      "sprite": "res://assets/items/materials/item_sugar.png"
+    },
+    {
+      "id": "item_lantern_firefly",
+      "name": "Tinh Chất Đom Đóm",
+      "description": "Bụi sáng cô đặc từ đom đóm thung lũng, làm nguyên liệu cho bánh sinh nhật tinh linh.",
+      "category": "ingredient",
+      "tags": [
+        "ingredient",
+        "magic",
+        "light"
+      ],
+      "sprite": "res://assets/items/materials/item_lantern_firefly.png"
+    },
+    {
+      "id": "item_sun_daisy",
+      "name": "Cánh Cúc Mặt Trời",
+      "description": "Cánh hoa cúc rực rỡ hấp thụ ánh nắng ban trưa, thu hoạch từ Cúc Mặt Trời để hãm trà và trang trí bánh.",
+      "category": "ingredient",
+      "tags": [
+        "ingredient",
+        "flower",
+        "tea"
+      ],
+      "sprite": "res://assets/items/materials/item_sun_daisy.png"
+    },
+    {
+      "id": "item_sweet_pumpkin",
+      "name": "Bí Ngô Mật Ong",
+      "description": "Quả bí ngô vàng ươm vị ngọt bùi đậm đà, thu hoạch vào mùa thu dùng nướng bánh và súp ấm.",
+      "category": "ingredient",
+      "tags": [
+        "ingredient",
+        "vegetable",
+        "bakery"
+      ],
+      "sprite": "res://assets/items/materials/item_sweet_pumpkin.png"
     }
   ]
 }

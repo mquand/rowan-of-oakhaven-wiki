@@ -19,20 +19,24 @@ export default function Footer() {
             <div>
               <h4>Explore</h4>
               <ul>
+                <li><Link href="/wiki">Thư Viện Tài Liệu</Link></li>
                 <li><Link href="/wiki/game-overview">Giới Thiệu Game</Link></li>
                 <li><Link href="/wiki/getting-started">Hướng Dẫn Khởi Đầu</Link></li>
                 <li><Link href="/wiki/world-overview">Bản Đồ 5 Vực</Link></li>
                 <li><Link href="/wiki/character-roster">Dàn Nhân Vật</Link></li>
-                <li><Link href="/wiki/festivals-events">Lễ Hội & Sự Kiện</Link></li>
+                <li><Link href="/wiki/dungeon-combat">Hầm Ngục & Chiến Đấu</Link></li>
               </ul>
             </div>
 
             <div>
               <h4>Database</h4>
               <ul>
-                <li><Link href="/database/items">Danh Mục Vật Phẩm</Link></li>
+                <li><Link href="/database">Tổng Quan Database</Link></li>
+                <li><Link href="/database/items">Kho Vật Phẩm</Link></li>
                 <li><Link href="/database/recipes">Sổ Công Thức</Link></li>
                 <li><Link href="/database/characters">Hồ Sơ Cư Dân</Link></li>
+                <li><Link href="/database/crops">Sổ Cây Trồng</Link></li>
+                <li><Link href="/database/monsters">Sổ Quái Vật</Link></li>
               </ul>
             </div>
 
