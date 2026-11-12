@@ -1,0 +1,142 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "version": "1.0.0",
+  "updated": "2026-11-12",
+  "locations": [
+    {
+      "id": "oakhaven",
+      "name": "Thị Trấn Oakhaven (Thung Lũng Bụi Sao)",
+      "name_en": "Oakhaven / The Stardust Valley",
+      "location_type": "starting_town",
+      "description": "Thị trấn nhỏ nơi Rowan tiếp quản tiệm trà của bà ngoại Amalia — căn nhà gỗ rêu phong bên ngã ba Rừng Thầm Thì, nông trại thảo mộc ven sông sao, cối xay gió sau tiệm, lò rèn Boris và vỉa mỏ pha lê Cây Thần.",
+      "unlock_condition": "Mở đầu game",
+      "notable_npcs": [
+        "npc_rowan",
+        "npc_lumi",
+        "npc_boris",
+        "npc_maeve",
+        "npc_kael",
+        "npc_bram",
+        "npc_penny",
+        "npc_orion",
+        "npc_clara",
+        "npc_garrick",
+        "npc_finn",
+        "npc_marlo",
+        "npc_aurelia"
+      ],
+      "features": [
+        "Tiệm Bụi Sao",
+        "Nông trại",
+        "Cối xay gió",
+        "Lò rèn",
+        "Mỏ 100 tầng",
+        "Tháp thiên văn",
+        "Thư viện",
+        "Trạm xá"
+      ],
+      "tags": [
+        "town",
+        "starting",
+        "home"
+      ]
+    },
+    {
+      "id": "solaria",
+      "name": "Kinh Đô Ánh Sáng & Vương Cung",
+      "name_en": "Solaria — The Royal Capital",
+      "location_type": "realm",
+      "description": "Thành phố lát đá cẩm thạch trắng nguy nga, đài phun nước phát quang, tháp chuông ngân vang và quảng trường Vương Cung hoa lệ. Rowan mở chi nhánh tiệm trà thứ 2 tại góc phố hoàng gia.",
+      "unlock_condition": "Đạt Danh Tiếng Cấp 5 & mở khóa tuyến xe ngựa sao",
+      "notable_npcs": [
+        "npc_valen"
+      ],
+      "features": [
+        "Chi nhánh tiệm trà hoàng gia",
+        "Đại Hội Trà Đạo",
+        "Kỵ sĩ trưởng Valerius",
+        "Công chúa Althea",
+        "Ký giả Iris"
+      ],
+      "tags": [
+        "royal",
+        "city",
+        "palace"
+      ]
+    },
+    {
+      "id": "sylva_fae",
+      "name": "Đại Rừng Yêu Tinh",
+      "name_en": "Sylva-Fae — The Ancient Elven Canopy",
+      "location_type": "realm",
+      "description": "Quê hương nguồn cội của Lumi — những ngôi nhà hình quả sồi trên tán cây đại thụ ngàn năm, cầu treo dệt bằng tơ nhện ánh trăng, suối nước mắt sao phát quang trong đêm.",
+      "unlock_condition": "Mở sau khi gắn kết cư dân Oakhaven",
+      "notable_npcs": [
+        "npc_lumi",
+        "npc_sylvan",
+        "npc_elora"
+      ],
+      "features": [
+        "Tộc Yêu Tinh Rừng",
+        "Tiên Hoa Đêm",
+        "Tộc Người Bướm Đêm",
+        "Tiệm trà trên ngọn cây",
+        "Mật hoa sương đêm",
+        "Phấn hoa sao băng"
+      ],
+      "tags": [
+        "forest",
+        "elves",
+        "magic"
+      ]
+    },
+    {
+      "id": "khaz_drakor",
+      "name": "Đại Đô Thị Ngầm Người Lùn",
+      "name_en": "Khaz-Drakor — The Dwarven Megalopolis",
+      "location_type": "realm",
+      "description": "Quê hương tổ tiên của Boris và Bram — đại đô thị sâu hàng nghìn mét dưới lòng núi hoa cương. Sông dung nham đỏ rực, guồng máy hơi nước khổng lồ, đường ray xe goòng pha lê.",
+      "unlock_condition": "Mở sau khi gắn kết cư dân Oakhaven",
+      "notable_npcs": [
+        "npc_boris",
+        "npc_bram"
+      ],
+      "features": [
+        "Lò nướng nhiệt địa tâm",
+        "Máy xay cơ khí tự động",
+        "Người máy đồng thau cổ đại",
+        "Khoáng thạch cổ",
+        "Trà Khoáng Thạch Đậm Đặc"
+      ],
+      "tags": [
+        "underground",
+        "dwarves",
+        "forge"
+      ]
+    },
+    {
+      "id": "aethelgard",
+      "name": "Cõi Địa Đàng Bụi Sao",
+      "name_en": "Aethelgard — The Floating Elysium",
+      "location_type": "realm",
+      "description": "Quần thể đảo bay lơ lửng giữa biển mây ngập ánh sao dạ quang, nơi bắt nguồn dòng sông ánh sáng và truyền thuyết Khởi Nguyên Bụi Sao. Nơi an nghỉ của linh hồn Bà Ngoại.",
+      "unlock_condition": "Mở ở đỉnh cao cốt truyện",
+      "notable_npcs": [
+        "npc_amalia"
+      ],
+      "features": [
+        "Cây Tinh Tú Thần Linh",
+        "Cây Trường Sinh",
+        "Hộ vệ Ánh Sáng Cánh Mây",
+        "Hươu Cực Quang Tinh Tú",
+        "Trà Tinh Tú"
+      ],
+      "tags": [
+        "elysium",
+        "floating",
+        "finale",
+        "spiritual"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "version": "1.0.0",
+  "updated": "2026-11-12",
+  "perks": [
+    {
+      "id": "star_dash",
+      "name": "Lướt Bụi Sao",
+      "branch": "exploration",
+      "description": "Bấm Space để lướt nhanh có vệt sáng — né đòn quái và di chuyển nhanh trong mỏ.",
+      "unlock_hint": "Gom Loot quái + Khoáng sản mỏ + Thảo mộc để phục chế trang sách trong sổ của Bà Ngoại",
+      "tags": [
+        "movement",
+        "dodge",
+        "mining"
+      ]
+    },
+    {
+      "id": "ore_sense",
+      "name": "Mắt Tinh Thể",
+      "branch": "exploration",
+      "description": "Khi cầm cuốc, các vách đá chứa quặng quý tự phát sáng lung linh xuyên qua đá.",
+      "unlock_hint": "Gom Loot quái + Khoáng sản mỏ + Thảo mộc để phục chế trang sách trong sổ của Bà Ngoại",
+      "tags": [
+        "mining",
+        "detection"
+      ]
+    },
+    {
+      "id": "wide_sweep",
+      "name": "Nhát Chém Bán Nguyệt",
+      "branch": "exploration",
+      "description": "Tăng 50% độ rộng của vệt kiếm/liềm khi tấn công.",
+      "unlock_hint": "Gom Loot quái + Khoáng sản mỏ + Thảo mộc để phục chế trang sách trong sổ của Bà Ngoại",
+      "tags": [
+        "combat",
+        "melee"
+      ]
+    },
+    {
+      "id": "sprinkler_golem",
+      "name": "Bình Xịt Nước Tự Động",
+      "branch": "farming",
+      "description": "Chế tạo từ Mai Cua Đá + Quặng Đồng — tự động tưới nước vùng 3x3 mỗi sáng lúc 06:00.",
+      "unlock_hint": "Chế tạo tại xưởng từ nguyên liệu khai thác",
+      "tags": [
+        "farming",
+        "automation",
+        "crafting"
+      ]
+    },
+    {
+      "id": "auto_fermenter",
+      "name": "Hũ Muối Lên Men Tự Động",
+      "branch": "farming",
+      "description": "Chế tạo từ Thạch Slime + Gỗ Rừng — tự động ngâm ủ mứt trái cây và siro mật ong.",
+      "unlock_hint": "Chế tạo tại xưởng từ nguyên liệu khai thác",
+      "tags": [
+        "farming",
+        "automation",
+        "crafting"
+      ]
+    },
+    {
+      "id": "empathy_sense",
+      "name": "Đọc Vị Khách Hàng",
+      "branch": "tea",
+      "description": "Hiện biểu tượng cảm xúc nhỏ trên đầu khách khi họ bước vào quán — biết trước họ muốn gì.",
+      "unlock_hint": "Gom Loot quái + Khoáng sản mỏ + Thảo mộc để phục chế trang sách trong sổ của Bà Ngoại",
+      "tags": [
+        "social",
+        "customers",
+        "utility"
+      ]
+    },
+    {
+      "id": "golden_hands",
+      "name": "Đôi Tay Vàng Nhào Bột",
+      "branch": "tea",
+      "description": "Tăng 30% tốc độ nhào bột; 20% tỉ lệ bánh tự động đạt phẩm chất 3 Sao Tuyệt Phẩm.",
+      "unlock_hint": "Gom Loot quái + Khoáng sản mỏ + Thảo mộc để phục chế trang sách trong sổ của Bà Ngoại",
+      "tags": [
+        "bakery",
+        "quality",
+        "speed"
+      ]
+    },
+    {
+      "id": "parallel_brewing",
+      "name": "Pha Trà Song Song",
+      "branch": "tea",
+      "description": "Cho phép đặt 2 ấm trà lên bếp cùng một lúc, tăng gấp đôi năng suất phục vụ.",
+      "unlock_hint": "Gom Loot quái + Khoáng sản mỏ + Thảo mộc để phục chế trang sách trong sổ của Bà Ngoại",
+      "tags": [
+        "tea",
+        "speed",
+        "capacity"
+      ]
+    }
+  ]
+}

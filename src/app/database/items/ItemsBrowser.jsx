@@ -9,6 +9,7 @@ const CATEGORY_LABELS = {
   ingredient: 'Nguyên liệu',
   mineral: 'Khoáng sản',
   gem: 'Tinh thể',
+  monster_drop: 'Chiến lợi phẩm',
 };
 
 const CATEGORIES = [
@@ -17,6 +18,7 @@ const CATEGORIES = [
   { id: 'ingredient', label: 'Nguyên liệu' },
   { id: 'mineral', label: 'Khoáng sản' },
   { id: 'gem', label: 'Tinh thể' },
+  { id: 'monster_drop', label: 'Chiến lợi phẩm' },
 ];
 
 const ICONS = {
@@ -24,6 +26,7 @@ const ICONS = {
   ingredient: 'grains',
   mineral: 'mountains',
   gem: 'diamond',
+  monster_drop: 'sparkle',
 };
 
 export default function ItemsBrowser({ items }) {

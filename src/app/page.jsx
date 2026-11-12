@@ -4,7 +4,16 @@ import Icon from '../components/Icon';
 import Reveal from '../components/Reveal';
 import TaglineReveal from '../components/TaglineReveal';
 import { getAllDocs } from '../lib/docs';
-import { getItems, getRecipes, getCharacters } from '../lib/gameData';
+import {
+  getItems,
+  getRecipes,
+  getCharacters,
+  getCrops,
+  getMonsters,
+  getWeapons,
+  getPerks,
+  getLocations,
+} from '../lib/gameData';
 
 const PILLARS = [
   {
@@ -62,6 +71,46 @@ const DATABASES = [
     href: '/database/characters',
     link: 'Gặp gỡ cư dân',
   },
+  {
+    icon: 'farm',
+    title: 'Cây trồng',
+    key: 'crops',
+    desc: 'Sáu loại thảo mộc theo mùa với chu kỳ sinh trưởng và tái sinh riêng.',
+    href: '/database/crops',
+    link: 'Mở sổ cây trồng',
+  },
+  {
+    icon: 'sparkle',
+    title: 'Quái vật',
+    key: 'monsters',
+    desc: 'Sinh vật nhiễm Bụi Sao Hắc Hóa — xoa dịu bằng vị giác thay vì gươm đao.',
+    href: '/database/monsters',
+    link: 'Mở sổ quái vật',
+  },
+  {
+    icon: 'sword',
+    title: 'Vũ khí',
+    key: 'weapons',
+    desc: 'Kiếm pha lê, liềm ma thuật, đèn lồng bão và gậy quấy trà khổng lồ.',
+    href: '/database/weapons',
+    link: 'Xem vũ khí',
+  },
+  {
+    icon: 'book-open',
+    title: 'Kỹ năng',
+    key: 'perks',
+    desc: 'Bí kíp sống của Bà Ngoại phục hồi từ những trang sách cổ trong tiệm.',
+    href: '/database/perks',
+    link: 'Mở bí kíp',
+  },
+  {
+    icon: 'map-pin',
+    title: 'Vương quốc',
+    key: 'locations',
+    desc: 'Hành trình mở rộng từ Oakhaven đến Kinh Đô Ánh Sáng và Cõi Địa Đàng.',
+    href: '/database/locations',
+    link: 'Xem bản đồ',
+  },
 ];
 
 export default function HomePage() {
@@ -69,7 +118,16 @@ export default function HomePage() {
   const items = getItems();
   const recipes = getRecipes();
   const characters = getCharacters();
-  const counts = { items: items.length, recipes: recipes.length, characters: characters.length };
+  const counts = {
+    items: items.length,
+    recipes: recipes.length,
+    characters: characters.length,
+    crops: getCrops().length,
+    monsters: getMonsters().length,
+    weapons: getWeapons().length,
+    perks: getPerks().length,
+    locations: getLocations().length,
+  };
 
   return (
     <div>

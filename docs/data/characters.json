@@ -99,6 +99,156 @@
         "dau_rung"
       ],
       "quote": "Bà Maeve dạo này hay đau nhức chân... Cháu muốn đổi hộp diêm lấy một tách trà gừng cho bà, cháu còn thiếu mấy đồng ạ?"
+    },
+    {
+      "id": "npc_amalia",
+      "name": "Bà Ngoại Amalia",
+      "role": "Cố Nghệ Nhân Trà Bánh / Linh Hồn Dẫn Lối",
+      "location": "Tiệm Bụi Sao (trong ký ức & trang sổ tay)",
+      "species": "Human (Linh Hồn)",
+      "description": "Bà ngoại của Rowan, cố nghệ nhân trà bánh đã khuất. Hình bóng bà hiện về qua những trang sổ tay ghi chú tỉ mỉ và lời khuyên dịu dàng trong ký ức của Rowan.",
+      "favorite_items": [],
+      "quote": ""
+    },
+    {
+      "id": "npc_bram",
+      "name": "Bram",
+      "role": "Thợ Mỏ Pha Lê",
+      "location": "Mỏ Pha Lê Oakhaven",
+      "species": "Dwarf (Người Lùn)",
+      "description": "Thợ mỏ kỳ cựu dưới các tầng sâu của mỏ, em trai của thợ rèn Boris. Tính cách cộc cằn, thích tranh cãi với anh trai nhưng trong lòng rất quan tâm gia đình.",
+      "favorite_items": [],
+      "quote": "Ông anh Boris của tôi lại càu nhàu về quặng sắt non... Pha cho tôi tách trà nào thật đắng chát để tôi nuốt trôi cục tức này cái!"
+    },
+    {
+      "id": "npc_penny",
+      "name": "Penny",
+      "role": "Cô Bé Bán Bánh Dạo",
+      "location": "Chợ Oakhaven",
+      "species": "Human",
+      "description": "Cô bé bán bánh dạo nhanh nhẹn, cháu gái của thợ rèn Boris và thợ mỏ Bram. Hoạt bát, sáng tạo, luôn ấp ủ những ý tưởng làm bánh độc lạ.",
+      "favorite_items": [],
+      "quote": "Chú Boris vừa gõ lại khuôn bánh hình ngôi sao cho em nè! Cho em thử một ly trà dâu chua ngọt để lấy cảm hứng sáng tạo mẻ bánh mới đi!"
+    },
+    {
+      "id": "npc_orion",
+      "name": "Giáo Sư Orion",
+      "role": "Nhà Chiêm Tinh Mất Ngủ",
+      "location": "Đài Quan Sát Trên Đồi / Tháp Thiên Văn",
+      "species": "Human",
+      "description": "Nhà thiên văn học làm việc tại đài quan sát trên đồi cao, cha của Clara. Đãng trí, mải mê nghiên cứu các chòm sao đến mức quên ăn mất ngủ.",
+      "favorite_items": [],
+      "quote": "Chòm sao Thiên Nga vừa dịch chuyển 3 độ... Mắt ta mờ đi rồi, cho ta thứ gì giúp não bộ ngưng tính toán trong 2 tiếng được không?"
+    },
+    {
+      "id": "npc_clara",
+      "name": "Clara",
+      "role": "Cô Thủ Thư Thị Trấn",
+      "location": "Thư Viện Oakhaven",
+      "species": "Human",
+      "description": "Người trông coi thư viện Oakhaven, con gái giáo sư Orion. Ngăn nắp, chu đáo, luôn phải nhắc nhở cha mình chăm sóc bản thân.",
+      "favorite_items": [],
+      "quote": "Cha tôi lại trốn trên tháp thiên văn 2 ngày không chịu ăn... Bạn pha cho tôi một bình trà cúc lớn để tôi mang lên bắt ông ấy uống nhé!"
+    },
+    {
+      "id": "npc_garrick",
+      "name": "Thuyền Trưởng Garrick",
+      "role": "Cựu Thủy Thủ Biển Mây",
+      "location": "Bến Thuyền Mây / Cập Bến Hồ Sao",
+      "species": "Human",
+      "description": "Lão thuyền trưởng già đã gác mái chèo, ông nội của chú bé Finn. Thích kể chuyện phiêu lưu ngoài biển mây xa xôi cho khách nghe.",
+      "favorite_items": [],
+      "quote": "Gió từ thung lũng mang mùi biển khơi ngày xưa... Cho lão già này một tách trà đậm vị quế, nghe lão kể về hòn đảo lơ lửng ngoài mây nào."
+    },
+    {
+      "id": "npc_finn",
+      "name": "Finn",
+      "role": "Cậu Bé Câu Sao",
+      "location": "Bờ Suối / Hồ Sương Mù",
+      "species": "Human",
+      "description": "Cậu bé câu cá bên bờ suối và hồ sương mù, cháu nội của Thuyền Trưởng Garrick. Tò mò, thích khám phá các loài cá phát sáng kỳ lạ.",
+      "favorite_items": [],
+      "quote": "Hôm nay em câu được con cá phát sáng bảy màu to đùng! Ông Garrick bảo mang sang biếu tiệm trà để đổi một ly bạc hà mát lạnh!"
+    },
+    {
+      "id": "npc_elora",
+      "name": "Elora",
+      "role": "Thợ May Áo Choàng Dạ Hội",
+      "location": "Rừng Yêu Tinh (ghé tiệm buổi tối)",
+      "species": "Elf",
+      "description": "Thợ may áo choàng dạ hội thanh lịch, bạn tri kỷ của nhà thảo mộc Sylvan. Đôi tay kim châm hay mỏi nhức vì dệt váy cho khách.",
+      "favorite_items": [],
+      "quote": "Ngón tay tôi kim châm buốt nhức vì dệt áo choàng dạ hội... Có loại trà nào hương nhài thoang thoảng làm dịu đôi bàn tay này không?"
+    },
+    {
+      "id": "npc_sylvan",
+      "name": "Sylvan",
+      "role": "Nhà Thảo Mộc Kính Một Mắt",
+      "location": "Rừng Yêu Tinh",
+      "species": "Human",
+      "description": "Nhà nghiên cứu thảo mộc đeo kính một mắt đến từ Rừng Yêu Tinh, bạn tri kỷ của thợ may Elora. Mang theo những rễ cây ngàn năm làm quà trao đổi.",
+      "favorite_items": [],
+      "quote": "Rừng sâu đêm nay sương độc giăng dày... Ta mang cho cô ít rễ cây ngàn năm, đổi lấy tách trà trầm ấm bụng được chứ?"
+    },
+    {
+      "id": "npc_marlo",
+      "name": "Marlo",
+      "role": "Hiệp Sĩ Cảnh Vệ Ca Đêm",
+      "location": "Thị Trấn Oakhaven (Ca Trực Đêm)",
+      "species": "Human",
+      "description": "Hiệp sĩ cảnh vệ trung thành bảo vệ giấc ngủ của thị trấn trong những ca trực đêm dài dằng dặc giữa gió tuyết.",
+      "favorite_items": [],
+      "quote": "Gió tuyết lùa qua khe áo giáp buốt giá... Một ca trực đêm dài dằng dặc, chỉ có tách trà cay nồng của tiệm mới giữ tôi không ngủ gục."
+    },
+    {
+      "id": "npc_aurelia",
+      "name": "Aurelia",
+      "role": "Dược Sĩ Trạm Xá",
+      "location": "Trạm Xá Oakhaven",
+      "species": "Human",
+      "description": "Dược sĩ dịu dàng điều hành trạm xá chữa lành cho cư dân. Tin rằng trà bánh ấm của tiệm chữa lành được cả tâm can con người.",
+      "favorite_items": [],
+      "quote": "Thuốc thang chỉ chữa được vết thương ngoài da... Người dân thị trấn cần những tách trà bốc khói của cô bé để chữa lành tâm can họ hơn."
+    },
+    {
+      "id": "npc_valen",
+      "name": "Valen",
+      "role": "Quý Tộc Ma Cà Rồng Ăn Chay",
+      "location": "Lâu Đài Pháp Thuật",
+      "species": "Vampire (Ma Cà Rồng)",
+      "description": "Quý tộc ma cà rồng ăn chay, sợ mùi tỏi nhưng mê những ly trà ngọt lịm. Thường ghé tiệm vào ban đêm để tránh ánh mặt trời.",
+      "favorite_items": [],
+      "quote": "Mùi tỏi nướng bánh mì của tiệm bay sang tận lâu đài làm ta chóng mặt... Làm ơn cho ta một ly trà đỏ thẫm ngọt lịm để trấn tĩnh quý tộc!"
+    },
+    {
+      "id": "npc_kassandra",
+      "name": "Kassandra",
+      "role": "Phù Thủy Sao Băng Lưu Vong",
+      "location": "Lữ Hành Giữa Các Tầng Trời",
+      "species": "Human (Phù Thủy)",
+      "description": "Phù thủy sao băng lưu vong phiêu bạt khắp các tầng trời, ngựa chổi thường cạn ma lực giữa lưng chừng mây.",
+      "favorite_items": [],
+      "quote": "Chổi bay của ta sắp cạn ma lực giữa lưng chừng mây... Ngươi có loại trà nào hái từ sương đêm ngọn cây cổ thụ để ta nạp lại phép thuật không?"
+    },
+    {
+      "id": "npc_chrono",
+      "name": "Chrono",
+      "role": "Người Máy Đồng Hồ Cổ Đại",
+      "location": "Đô Thị Người Lùn Ngầm",
+      "species": "Android (Người Máy)",
+      "description": "Người máy đồng hồ cổ đại còn sót lại từ một nền văn minh đã mất, nói chuyện theo nhịp tích tắc và cần chất bôi trơn bánh răng định kỳ.",
+      "favorite_items": [],
+      "quote": "Tích tắc... Bánh răng ngực trái đang phát ra tiếng kẹt kẹt... Cần bổ sung 200ml chất lỏng bôi trơn ấm nóng hương hoa cúc... Tích tắc..."
+    },
+    {
+      "id": "npc_lapis",
+      "name": "Lapis",
+      "role": "Nàng Tiên Cá Bong Bóng Bay",
+      "location": "Biển Sương Mù",
+      "species": "Mermaid (Tiên Cá)",
+      "description": "Nàng tiên cá bong bóng bay lần đầu đặt chân lên trần gian, thích thú với những chiếc bánh nướng giòn rụm tan trong miệng.",
+      "favorite_items": [],
+      "quote": "Dưới đáy biển cái gì cũng ướt sũng... Lần đầu tiên em được nếm chiếc bánh nướng giòn rụm tan trong miệng thế này, diệu kỳ quá đi!"
     }
   ]
 }

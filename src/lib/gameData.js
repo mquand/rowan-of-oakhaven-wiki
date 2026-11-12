@@ -41,3 +41,22 @@ export function getCharacters() {
     return [];
   }
 }
+
+function getCollection(fileName, key) {
+  const filePath = path.join(DATA_DIR, fileName);
+  if (!fs.existsSync(filePath)) return [];
+  try {
+    const raw = fs.readFileSync(filePath, 'utf8');
+    const json = JSON.parse(raw);
+    return json[key] || [];
+  } catch (err) {
+    console.error(`Failed to load ${fileName}:`, err);
+    return [];
+  }
+}
+
+export const getCrops = () => getCollection('crops.json', 'crops');
+export const getMonsters = () => getCollection('monsters.json', 'monsters');
+export const getWeapons = () => getCollection('weapons.json', 'weapons');
+export const getPerks = () => getCollection('perks.json', 'perks');
+export const getLocations = () => getCollection('locations.json', 'locations');

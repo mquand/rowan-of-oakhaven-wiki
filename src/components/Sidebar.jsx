@@ -10,6 +10,11 @@ const DB_LINKS = [
   { href: '/database/items', label: 'Danh mục vật phẩm', icon: 'package' },
   { href: '/database/recipes', label: 'Sổ công thức trà & bánh', icon: 'cake' },
   { href: '/database/characters', label: 'Cư dân & nhân vật', icon: 'users' },
+  { href: '/database/crops', label: 'Sổ cây trồng', icon: 'farm' },
+  { href: '/database/monsters', label: 'Sổ quái vật', icon: 'sparkle' },
+  { href: '/database/weapons', label: 'Vũ khí phép thuật', icon: 'sword' },
+  { href: '/database/perks', label: 'Kỹ năng tiện ích', icon: 'book-open' },
+  { href: '/database/locations', label: 'Bản đồ & vương quốc', icon: 'map-pin' },
 ];
 
 export default function Sidebar({ docs = [] }) {

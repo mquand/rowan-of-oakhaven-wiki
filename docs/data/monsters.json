@@ -1,0 +1,189 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "version": "1.0.0",
+  "updated": "2026-11-12",
+  "monsters": [
+    {
+      "id": "furnace_cog_automaton",
+      "name": "Người Máy Lò Hơi",
+      "name_en": "Furnace Cog-Automaton",
+      "realm": "khaz-drakor",
+      "description": "Tạo tác cơ khí cổ xưa bị bỏ rơi, bụng là lò than rực đỏ phun khói ngạt và tiếng bánh răng kèn kẹt.",
+      "weakness": "Quá nhiệt, bốc hỏa — hạ nhiệt bằng Trà Bạc Hà",
+      "soothe_reward": "Bánh Răng Vàng Ròng",
+      "tags": [
+        "mechanical",
+        "fire",
+        "dwarven"
+      ]
+    },
+    {
+      "id": "magma_magnesnail",
+      "name": "Ốc Sên Quặng Dung Nham",
+      "name_en": "Magma Magnesnail",
+      "realm": "khaz-drakor",
+      "description": "Ốc sên vỏ nam chảy nóng chảy hút sắt vụn, bò chậm rãi qua các mạch quặng sâu.",
+      "weakness": "Nam châm nóng chảy — cho ăn vụn bánh mì cháy",
+      "soothe_reward": "Thỏi Đồng & Kim Cương Đỏ",
+      "tags": [
+        "beast",
+        "lava",
+        "dwarven"
+      ]
+    },
+    {
+      "id": "steam_mole_driller",
+      "name": "Chuột Chũi Thợ Khoan Cơ Khí",
+      "name_en": "Steam-Mole Driller",
+      "realm": "khaz-drakor",
+      "description": "Chuột chũi cơ khí đội mũ bảo hộ gắn mũi khoan đồng thau, lặn sâu dưới lòng đất hất tung đá hoa cương.",
+      "weakness": "Đang đào — dùng Đèn Lồng Bão Đom Đóm xua hướng",
+      "soothe_reward": "Linh kiện cơ khí cổ",
+      "tags": [
+        "mechanical",
+        "underground",
+        "dwarven"
+      ]
+    },
+    {
+      "id": "gloom_root_strangler",
+      "name": "Rễ Cây U Uất",
+      "name_en": "Gloom-Root Strangler",
+      "realm": "sylva-fae",
+      "description": "Rễ cổ thụ đen ngòm quấn chân người lạc đường, hoa trên chóp bắn phấn hoa làm mờ màn hình.",
+      "weakness": "U uất, lạnh lẽo — tưới Trà Hoa Cúc",
+      "soothe_reward": "Khóm thảo mộc quý",
+      "tags": [
+        "plant",
+        "dark",
+        "elven"
+      ]
+    },
+    {
+      "id": "nectar_phantasm_moth",
+      "name": "Bướm Đêm Nghiện Mật",
+      "name_en": "Nectar Phantasm Moth",
+      "realm": "sylva-fae",
+      "description": "Bướm đêm cánh thêu hoa văn mị hoặc, sà xuống cướp mật hoa và búp trà tươi trong túi Rowan.",
+      "weakness": "Tham ăn — dụ bằng mật ong hoặc hoa tươi",
+      "soothe_reward": "Cánh bướm phát quang",
+      "tags": [
+        "insect",
+        "flying",
+        "elven"
+      ]
+    },
+    {
+      "id": "bramble_puck",
+      "name": "Mộc Tinh Tinh Nghịch",
+      "name_en": "Bramble Puck",
+      "realm": "sylva-fae",
+      "description": "Yêu tinh rêu nhỏ đội nón nấm, chuyên ném bùn làm bẩn áo và giật mũ phù thủy của Rowan.",
+      "weakness": "Tinh nghịch, tăng động — cần Trà Sen an thần",
+      "soothe_reward": "Bùn sao phát sáng",
+      "tags": [
+        "spirit",
+        "mischief",
+        "elven"
+      ]
+    },
+    {
+      "id": "astral_hollow_knight",
+      "name": "Bộ Giáp Kỵ Sĩ Vô Hồn",
+      "name_en": "Astral Hollow Knight",
+      "realm": "solaria",
+      "description": "Bộ giáp cẩm thạch rỗng ruột đi tuần theo tiếng chuông đồng hồ, vung gươm chém ra sóng pha lê.",
+      "weakness": "Vô hồn, máy móc — cần đồ uống giữ tỉnh táo",
+      "soothe_reward": "Mảnh giáp cẩm thạch",
+      "tags": [
+        "undead",
+        "armor",
+        "royal"
+      ]
+    },
+    {
+      "id": "grimoire_mimic",
+      "name": "Cổ Thư Phản Phệ",
+      "name_en": "Grimoire Mimic",
+      "realm": "solaria",
+      "description": "Cuốn sách phép thuật có răng nẹp đồng, vỗ bìa bay lượn và bắn cổ ngữ gây choáng.",
+      "weakness": "Sợ trang trí — dỗ bằng bìa sách hoặc băng ghế",
+      "soothe_reward": "Trang sách ma thuật",
+      "tags": [
+        "construct",
+        "flying",
+        "royal"
+      ]
+    },
+    {
+      "id": "mirror_glass_raven",
+      "name": "Quạ Gương Thiên Văn",
+      "name_en": "Mirror-Glass Raven",
+      "realm": "solaria",
+      "description": "Quạ khổng lồ có cánh bằng mảnh gương vỡ, phản chiếu ánh sao làm lóa mắt kẻ địch.",
+      "weakness": "Phản quang — che mắt bằng vật chắn hoặc ánh sáng dịu",
+      "soothe_reward": "Mảnh gương sao",
+      "tags": [
+        "beast",
+        "flying",
+        "royal"
+      ]
+    },
+    {
+      "id": "solar_gryphon",
+      "name": "Sư Tử Cánh Mây Ánh Sáng",
+      "name_en": "Solar Gryphon",
+      "realm": "aethelgard",
+      "description": "Nửa sư tử nửa đại bàng dệt từ mây trắng và hào quang, hộ vệ Cây Trường Sinh giữa thiên đường.",
+      "weakness": "Kiêu hãnh, cao quý — cần lễ vật xứng tầm",
+      "soothe_reward": "Lông mây ánh sáng",
+      "tags": [
+        "mythic",
+        "guardian",
+        "elysium"
+      ]
+    },
+    {
+      "id": "aurora_stag",
+      "name": "Hươu Cực Quang Tinh Tú",
+      "name_en": "Aurora Stag",
+      "realm": "aethelgard",
+      "description": "Hươu linh thiêng có cặp sừng là dải cực quang nhảy múa trên bầu trời sao.",
+      "weakness": "Thích ấm áp, yên tĩnh — tặng Trà Tinh Tú",
+      "soothe_reward": "Trở thành Thú Cưỡi Thiên Đàng lướt trên mây",
+      "tags": [
+        "mythic",
+        "spirit",
+        "elysium"
+      ]
+    },
+    {
+      "id": "poltergeist_kettle",
+      "name": "Ấm Trà Quỷ Ám",
+      "name_en": "Poltergeist Kettle",
+      "realm": "oakhaven",
+      "description": "Ấm trà cổ bị bỏ hoang bay lơ lửng trong mỏ, phun hơi nước sôi cay nồng.",
+      "weakness": "U uất, lẻ loi — cho ăn trà khô thơm",
+      "soothe_reward": "Trở thành ấm trà ấm áp cho tiệm",
+      "tags": [
+        "spirit",
+        "haunted",
+        "local"
+      ]
+    },
+    {
+      "id": "dark_crystal_scarab",
+      "name": "Bọ Tinh Thể Ám Tối",
+      "name_en": "Dark Crystal Scarab",
+      "realm": "oakhaven",
+      "description": "Bọ cánh cứng mai là cụm thạch anh đen lạo xạo bám trên vách đá hang mỏ.",
+      "weakness": "Cứng đầu — cần đập hoặc xoa dịu bằng bánh ngọt",
+      "soothe_reward": "Thạch anh đen",
+      "tags": [
+        "beetle",
+        "crystal",
+        "local"
+      ]
+    }
+  ]
+}

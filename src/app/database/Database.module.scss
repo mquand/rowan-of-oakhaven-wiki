@@ -225,6 +225,34 @@
     flex-wrap: wrap;
     margin-top: auto;
   }
+
+  .entrySub {
+    font-size: 13px;
+    color: $color-text-dim;
+    margin: -$sp-1 0 $sp-3;
+  }
+
+  .details {
+    display: flex;
+    flex-direction: column;
+    gap: $sp-1;
+    font-size: 13px;
+    color: $color-text-muted;
+    margin-bottom: $sp-4;
+    border-top: 1px dashed rgba($color-night-border, 0.6);
+    padding-top: $sp-3;
+  }
+
+  .detailRow {
+    display: flex;
+    gap: $sp-2;
+    line-height: 1.5;
+  }
+
+  .detailLabel {
+    color: $color-text-dim;
+    flex-shrink: 0;
+  }
 }
 
 .recipeCard {

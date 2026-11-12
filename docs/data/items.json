@@ -146,6 +146,188 @@
         "crystal"
       ],
       "sprite": "res://assets/items/minerals/gem_amethyst.png"
+    },
+    {
+      "id": "la_tra_sen",
+      "name": "Lá Trà Sen",
+      "description": "Nguyên liệu nền (Base) của mọi món trà — lá trà sen xanh ngọc hái đọt non.",
+      "category": "ingredient",
+      "tags": [
+        "tea",
+        "ingredient",
+        "base"
+      ],
+      "sprite": "res://assets/items/crops/la_tra_sen.png"
+    },
+    {
+      "id": "dau_rung",
+      "name": "Dâu Rừng",
+      "description": "Dâu rừng mọng đỏ hồng, vị chua ngọt thanh khiết — nguyên liệu vị (Flavor) cho trà.",
+      "category": "ingredient",
+      "tags": [
+        "tea",
+        "ingredient",
+        "flavor",
+        "forage"
+      ],
+      "sprite": "res://assets/items/crops/dau_rung.png"
+    },
+    {
+      "id": "da_tinh_the",
+      "name": "Đá Tinh Thể",
+      "description": "Đá pha lê lạnh lẽo tỏa khí mát — nguyên liệu phép (Crystal) tạo hiệu ứng băng tuyết.",
+      "category": "ingredient",
+      "tags": [
+        "tea",
+        "ingredient",
+        "crystal",
+        "mining"
+      ],
+      "sprite": "res://assets/items/minerals/da_tinh_the.png"
+    },
+    {
+      "id": "mat_ong",
+      "name": "Mật Ong",
+      "description": "Mật ong vàng hổ phách ngọt dịu — nguyên liệu vị (Flavor) làm dịu vị đắng của trà.",
+      "category": "ingredient",
+      "tags": [
+        "tea",
+        "ingredient",
+        "flavor",
+        "forage"
+      ],
+      "sprite": "res://assets/items/crafted/mat_ong.png"
+    },
+    {
+      "id": "oai_huong",
+      "name": "Oải Hương",
+      "description": "Thảo mộc tím nhạt tỏa hương ngát dưới ánh sao — có công dụng an thần, ướp hương trà.",
+      "category": "ingredient",
+      "tags": [
+        "tea",
+        "ingredient",
+        "herb"
+      ],
+      "sprite": "res://assets/items/crops/oai_huong.png"
+    },
+    {
+      "id": "bot_sao",
+      "name": "Bột Sao",
+      "description": "Bột kim tinh cầu lấp lánh — nguyên liệu phép (Crystal) thêm hiệu ứng huyền ảo cho trà.",
+      "category": "ingredient",
+      "tags": [
+        "tea",
+        "ingredient",
+        "crystal",
+        "magic"
+      ],
+      "sprite": "res://assets/items/crafted/bot_sao.png"
+    },
+    {
+      "id": "item_stone",
+      "name": "Đá Cuội",
+      "description": "Đá cuội thường nhặt được trong mỏ tầng 1-25, nguyên liệu xây dựng và chế tạo cơ bản.",
+      "category": "mineral",
+      "tags": [
+        "mining",
+        "stone",
+        "building"
+      ],
+      "sprite": "res://assets/items/minerals/item_stone.png"
+    },
+    {
+      "id": "item_butter",
+      "name": "Bơ Tươi",
+      "description": "Bơ làm từ sữa bò núi, nguyên liệu làm bánh mì hoa cúc và bánh ngọt.",
+      "category": "ingredient",
+      "tags": [
+        "bakery",
+        "dairy",
+        "ingredient"
+      ],
+      "sprite": "res://assets/items/crafted/item_butter.png"
+    },
+    {
+      "id": "gem_sapphire",
+      "name": "Lam Ngọc Băng",
+      "description": "Tinh thể xanh băng khai thác ở mỏ tầng 51-75, lạnh buốt như hơi thở mùa đông.",
+      "category": "gem",
+      "tags": [
+        "mining",
+        "crystal"
+      ],
+      "sprite": "res://assets/items/minerals/gem_sapphire.png"
+    },
+    {
+      "id": "gem_ruby",
+      "name": "Hồng Ngọc Lửa",
+      "description": "Tinh thể đỏ rực khai thác ở mỏ tầng 76-100, ẩn chứa lửa ngầm của lòng núi.",
+      "category": "gem",
+      "tags": [
+        "mining",
+        "crystal"
+      ],
+      "sprite": "res://assets/items/minerals/gem_ruby.png"
+    },
+    {
+      "id": "drop_prism_jelly",
+      "name": "Thạch Tinh Thể Đổi Màu",
+      "description": "Thạch giòn dai đổi màu lấp lánh — rơi từ Slime Thạch Ngọt, làm topping trà sữa sao.",
+      "category": "monster_drop",
+      "tags": [
+        "monster_drop",
+        "cooking",
+        "dessert"
+      ],
+      "sprite": "res://assets/items/collectibles/drop_prism_jelly.png"
+    },
+    {
+      "id": "drop_moon_berry",
+      "name": "Quả Mọng Ánh Trăng",
+      "description": "Quả mọng tím biếc phát sáng dịu — rơi từ Dơi Quả Đêm, nấu mứt kẹp bánh sừng bò.",
+      "category": "monster_drop",
+      "tags": [
+        "monster_drop",
+        "cooking",
+        "fruit"
+      ],
+      "sprite": "res://assets/items/collectibles/drop_moon_berry.png"
+    },
+    {
+      "id": "drop_crystal_sea_salt",
+      "name": "Muối Biển Tinh Thể",
+      "description": "Muối biển kết tinh lấp lánh — rơi từ Cua Đá Pha Lê, gia vị cho bánh mì nướng của thợ mỏ.",
+      "category": "monster_drop",
+      "tags": [
+        "monster_drop",
+        "cooking",
+        "seasoning"
+      ],
+      "sprite": "res://assets/items/collectibles/drop_crystal_sea_salt.png"
+    },
+    {
+      "id": "drop_golden_pollen",
+      "name": "Phấn Hoa Ánh Kim",
+      "description": "Phấn hoa vàng ánh kim — rơi từ Bướm Đêm Rừng Sâu, rắc lên bánh kem cho bừng sáng.",
+      "category": "monster_drop",
+      "tags": [
+        "monster_drop",
+        "cooking",
+        "decoration"
+      ],
+      "sprite": "res://assets/items/collectibles/drop_golden_pollen.png"
+    },
+    {
+      "id": "drop_incense_mist",
+      "name": "Giọt Khói Trầm Hương",
+      "description": "Giọt khói trầm hương cô đặc — rơi từ Bóng Ma Sương Mù, ngâm ủ trà xông khói cổ truyền.",
+      "category": "monster_drop",
+      "tags": [
+        "monster_drop",
+        "tea",
+        "rare"
+      ],
+      "sprite": "res://assets/items/collectibles/drop_incense_mist.png"
     }
   ]
 }

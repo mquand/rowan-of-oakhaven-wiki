@@ -1,0 +1,111 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "version": "1.0.0",
+  "updated": "2026-11-12",
+  "crops": [
+    {
+      "id": "crop_sen_tea",
+      "name": "Búp Trà Sen",
+      "description": "Hoa sen tuyết thanh mát — nguyên liệu nền chính cho các loại trà thảo mộc an thần.",
+      "seasons": [
+        "spring",
+        "summer"
+      ],
+      "growth_days": 4,
+      "regrow_days": 2,
+      "harvest_item_id": "la_tra_sen",
+      "tags": [
+        "tea",
+        "base",
+        "regrow"
+      ]
+    },
+    {
+      "id": "crop_lumiberry",
+      "name": "Dâu Tuyết Dạ Quang",
+      "description": "Quả dâu phát quang dịu nhẹ trong đêm, vị chua ngọt — làm mứt scone và trà dâu.",
+      "seasons": [
+        "summer",
+        "autumn"
+      ],
+      "growth_days": 5,
+      "regrow_days": 3,
+      "harvest_item_id": "dau_rung",
+      "tags": [
+        "fruit",
+        "tea",
+        "regrow"
+      ]
+    },
+    {
+      "id": "crop_silver_wheat",
+      "name": "Lúa Mì Bạc",
+      "description": "Bông lúa mì óng ả ánh bạc — đem xay tại cối xay gió để thu bột mì tươi.",
+      "seasons": [
+        "spring",
+        "summer",
+        "autumn"
+      ],
+      "growth_days": 4,
+      "regrow_days": 0,
+      "harvest_item_id": "item_flour",
+      "harvest_note": "1 bông lúa mì → cối xay 5 giây → 2 bao Bột Mì Tươi",
+      "tags": [
+        "grain",
+        "bakery",
+        "mill"
+      ]
+    },
+    {
+      "id": "crop_star_lavender",
+      "name": "Oải Hương Sao",
+      "description": "Hoa oải hương tỏa hương thơm ngát dưới ánh sao — an thần, ướp bánh quy.",
+      "seasons": [
+        "spring",
+        "autumn"
+      ],
+      "growth_days": 6,
+      "regrow_days": 3,
+      "harvest_item_id": "oai_huong",
+      "tags": [
+        "herb",
+        "tea",
+        "calming",
+        "regrow"
+      ]
+    },
+    {
+      "id": "crop_sun_daisy",
+      "name": "Hoa Cúc Mặt Trời",
+      "description": "Hoa cúc vàng rực hấp thụ ánh nắng sớm — pha trà hồi phục thể lực.",
+      "seasons": [
+        "spring",
+        "summer"
+      ],
+      "growth_days": 3,
+      "regrow_days": 0,
+      "harvest_item_id": null,
+      "tags": [
+        "flower",
+        "tea",
+        "energy"
+      ]
+    },
+    {
+      "id": "crop_sweet_pumpkin",
+      "name": "Bí Ngô Mật Ong",
+      "description": "Bí ngô vỏ vàng ruộm ngọt lịm đặc trưng mùa thu — nguyên liệu nướng bánh lễ hội.",
+      "seasons": [
+        "autumn"
+      ],
+      "growth_days": 8,
+      "regrow_days": 0,
+      "harvest_item_id": null,
+      "tags": [
+        "vegetable",
+        "bakery",
+        "festival"
+      ]
+    }
+  ]
+}

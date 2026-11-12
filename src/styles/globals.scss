@@ -186,6 +186,11 @@ img {
     color: $color-crystal-cyan;
     border-color: rgba($color-crystal-cyan, 0.3);
   }
+
+  &.monster_drop {
+    color: #c792ea;
+    border-color: rgba(#c792ea, 0.3);
+  }
 }
 
 /* Code block & Markdown styles */
