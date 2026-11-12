@@ -2,7 +2,8 @@
 
 .footer {
   border-top: 2px solid $color-wood-base;
-  background: $color-forest-dark;
+  // Trong suốt một phần để lớp sao pixel nền trang xuyên qua
+  background: rgba($color-forest-dark, 0.35);
   padding: $sp-10 $sp-6 $sp-8;
   margin-top: $sp-12;
   color: $color-text-muted;
@@ -54,12 +55,13 @@
   gap: $sp-12;
 
   h4 {
-    color: $color-bakery-crust;
-    font-size: 12px;
+    font-family: $font-pixel;
+    color: $color-amber-glow;
+    font-size: 14px;
     font-weight: 700;
     margin-bottom: $sp-4;
     text-transform: uppercase;
-    letter-spacing: 0.08em;
+    letter-spacing: 0.12em;
   }
 
   ul {
@@ -81,7 +83,7 @@
 }
 
 .bottomRow {
-  border-top: 1px solid rgba($color-forest-moss, 0.8);
+  border-top: 1px solid rgba($color-night-border, 0.8);
   padding-top: $sp-6;
   display: flex;
   justify-content: space-between;

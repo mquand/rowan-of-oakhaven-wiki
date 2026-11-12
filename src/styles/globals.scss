@@ -206,6 +206,9 @@ img {
   }
 
   &.forest {
+    // Tag kỹ thuật luôn là ASCII (farming, tea, spring...) nên dùng pixel font an toàn
+    font-family: $font-pixel;
+    letter-spacing: 0.04em;
     color: $color-cat-seed;
     border-color: rgba($color-cat-seed, 0.3);
   }

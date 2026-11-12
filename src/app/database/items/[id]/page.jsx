@@ -62,7 +62,7 @@ export default async function ItemDetailPage({ params }) {
       <header className={styles.header}>
         <span className={styles.kicker}>
           <Icon name={categoryIcon} size={14} />
-          {categoryLabel}
+          Item / {item.category}
         </span>
         <h1>{item.name}</h1>
       </header>

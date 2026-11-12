@@ -13,6 +13,7 @@ export default function ItemsPage() {
   return (
     <div className={styles.container}>
       <div className={styles.header}>
+        <p className={styles.kicker}>Database / Items</p>
         <h1 className={styles.title}><Icon name="package" size={28} /> Danh mục vật phẩm và tài nguyên</h1>
         <p>Hạt giống thảo mộc, quặng khoáng sản và nguyên liệu thu hoạch trên khắp 5 Vương quốc</p>
       </div>

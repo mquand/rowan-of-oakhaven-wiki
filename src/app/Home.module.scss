@@ -163,6 +163,15 @@
   margin-left: auto;
   margin-right: auto;
 
+  .sectionKicker {
+    font-family: $font-pixel;
+    font-size: 13px;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: $color-amber-warm;
+    margin-bottom: $sp-2;
+  }
+
   h2 {
     font-size: 30px;
     font-weight: 700;

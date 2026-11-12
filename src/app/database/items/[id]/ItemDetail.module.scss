@@ -39,11 +39,12 @@
     display: inline-flex;
     align-items: center;
     gap: $sp-2;
-    font-size: 12px;
+    font-family: $font-pixel;
+    font-size: 13px;
     font-weight: 700;
     text-transform: uppercase;
-    letter-spacing: 0.08em;
-    color: $color-bakery-crust;
+    letter-spacing: 0.14em;
+    color: $color-amber-warm;
     margin-bottom: $sp-3;
   }
 

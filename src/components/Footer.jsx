@@ -17,7 +17,7 @@ export default function Footer() {
 
           <div className={styles.links}>
             <div>
-              <h4>Khám Phá</h4>
+              <h4>Explore</h4>
               <ul>
                 <li><Link href="/wiki/game-overview">Giới Thiệu Game</Link></li>
                 <li><Link href="/wiki/world-overview">Bản Đồ 5 Vực</Link></li>
@@ -27,7 +27,7 @@ export default function Footer() {
             </div>
 
             <div>
-              <h4>Cơ Sở Dữ Liệu</h4>
+              <h4>Database</h4>
               <ul>
                 <li><Link href="/database/items">Danh Mục Vật Phẩm</Link></li>
                 <li><Link href="/database/recipes">Sổ Công Thức</Link></li>
@@ -36,7 +36,7 @@ export default function Footer() {
             </div>
 
             <div>
-              <h4>Pháp Lý</h4>
+              <h4>Legal</h4>
               <ul>
                 <li><Link href="/privacy">Chính Sách Bảo Mật</Link></li>
                 <li><Link href="/terms">Điều Khoản Sử Dụng</Link></li>

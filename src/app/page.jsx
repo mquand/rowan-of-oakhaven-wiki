@@ -83,6 +83,7 @@ export default function HomePage() {
       {/* Core docs — wiki link list, not marketing cards */}
       <section className={styles.section}>
         <div className={styles.sectionHeader}>
+          <p className={styles.sectionKicker}>Core Docs</p>
           <h2>Tài liệu cốt lõi</h2>
           <p>Hướng dẫn, thế giới và nhân vật của Rowan of Oakhaven.</p>
         </div>
@@ -104,6 +105,7 @@ export default function HomePage() {
       {/* Game database — compact entry points */}
       <section className={styles.section}>
         <div className={styles.sectionHeader}>
+          <p className={styles.sectionKicker}>Database</p>
           <h2>Cơ sở dữ liệu trò chơi</h2>
           <p>Dữ liệu vật phẩm, công thức và cư dân được cập nhật từ sổ thử nghiệm của Bà Ngoại Amalia.</p>
         </div>

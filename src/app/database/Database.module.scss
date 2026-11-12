@@ -6,6 +6,15 @@
   padding: $sp-10 $sp-6 $sp-12;
 }
 
+.kicker {
+  font-family: $font-pixel;
+  font-size: 13px;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: $color-amber-warm;
+  margin-bottom: $sp-2;
+}
+
 .header {
   margin-bottom: $sp-10;
   max-width: 680px;
@@ -256,6 +265,7 @@
 
 .qtyCell {
   text-align: right;
+  font-family: $font-pixel;
   font-variant-numeric: tabular-nums;
   color: $color-amber-glow;
   font-weight: 600;
@@ -263,7 +273,8 @@
 
 .durationCell {
   text-align: center;
-  font-size: 12px;
+  font-family: $font-pixel;
+  font-size: 13px;
   color: $color-text-dim;
 }
 

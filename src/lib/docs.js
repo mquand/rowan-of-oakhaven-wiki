@@ -5,6 +5,13 @@ import { marked } from 'marked';
 
 const DOCS_DIR = path.join(process.cwd(), 'docs');
 
+// YAML có thể trả về Date; chuẩn hóa thành chuỗi ISO ngắn (YYYY-MM-DD)
+function normalizeDate(value) {
+  if (!value) return '2026-11-12';
+  if (value instanceof Date) return value.toISOString().slice(0, 10);
+  return String(value);
+}
+
 export function getAllDocs() {
   if (!fs.existsSync(DOCS_DIR)) return [];
 
@@ -20,7 +27,7 @@ export function getAllDocs() {
       title: data.title || slug,
       status: data.status || 'draft',
       audience: data.audience || 'public',
-      updated: data.updated ? String(data.updated) : '2026-11-12',
+      updated: normalizeDate(data.updated),
       tags: data.tags || [],
       spoiler: Boolean(data.spoiler),
     };
@@ -49,7 +56,7 @@ export async function getDocBySlug(slug) {
     title: data.title || slug,
     status: data.status || 'draft',
     audience: data.audience || 'public',
-    updated: data.updated ? String(data.updated) : '2026-11-12',
+    updated: normalizeDate(data.updated),
     tags: data.tags || [],
     spoiler: Boolean(data.spoiler),
     content: htmlContent,

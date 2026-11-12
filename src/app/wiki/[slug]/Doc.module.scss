@@ -59,6 +59,39 @@
     margin-bottom: $sp-4;
     text-wrap: balance;
   }
+
+  // Tiêu đề ASCII có thể dùng pixel font an toàn (không lỗi dấu tiếng Việt)
+  h1.pixelTitle {
+    font-family: $font-pixel;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 1.15;
+    letter-spacing: 0.02em;
+  }
+}
+
+.kicker {
+  display: inline-flex;
+  align-items: center;
+  gap: $sp-2;
+  font-family: $font-pixel;
+  font-size: 13px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: $color-amber-warm;
+  margin-bottom: $sp-3;
+}
+
+.status {
+  font-family: $font-pixel;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: $color-cat-seed;
+  border: 1px solid rgba($color-cat-seed, 0.35);
+  border-radius: $radius-sm;
+  padding: 1px 6px;
 }
 
 .docMeta {
@@ -83,12 +116,25 @@
   margin-left: auto;
 }
 
+/* Nội dung + infobox kiểu Wikipedia: cột phụ bên phải */
+.docLayout {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 230px;
+  gap: $sp-8;
+  align-items: start;
+}
+
+.docBody {
+  min-width: 0;
+}
+
 .infobox {
+  position: sticky;
+  top: 88px;
   background: $color-night-elevated;
   border: 1px solid $color-night-border;
   border-radius: $radius-md;
-  padding: $sp-6;
-  margin-bottom: $sp-8;
+  padding: $sp-4 $sp-5 $sp-5;
   font-size: 13px;
 
   table {
@@ -99,23 +145,27 @@
 
   th {
     text-align: left;
-    padding: $sp-2 $sp-4;
+    padding: $sp-2 0;
     color: $color-amber-glow;
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 0.08em;
     font-size: 11px;
+    vertical-align: top;
+    width: 76px;
     border-bottom: 1px solid rgba($color-night-border, 0.5);
   }
 
   td {
-    padding: $sp-2 $sp-4;
+    padding: $sp-2 0 $sp-2 $sp-3;
     color: $color-text-main;
     border-bottom: 1px solid rgba($color-night-border, 0.4);
     vertical-align: top;
+    word-break: break-word;
   }
 
-  tr:last-child td {
+  tr:last-child td,
+  tr:last-child th {
     border-bottom: none;
   }
 
@@ -123,6 +173,23 @@
     font-size: 11px;
     padding: 1px 6px;
   }
+}
+
+.infoboxTitle {
+  font-family: $font-pixel;
+  font-size: 14px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: $color-bakery-crust;
+  padding-bottom: $sp-2;
+  margin-bottom: $sp-2;
+  border-bottom: 1px solid rgba($color-night-border, 0.7);
+}
+
+.tagList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: $sp-1;
 }
 
 .docNav {
@@ -168,6 +235,17 @@
   }
 }
 
+@media (max-width: 1120px) {
+  .docLayout {
+    grid-template-columns: 1fr;
+  }
+
+  .infobox {
+    position: static;
+    order: -1;
+  }
+}
+
 @media (max-width: 900px) {
   .container {
     flex-direction: column;
@@ -180,6 +258,10 @@
 
   .docHeader h1 {
     font-size: 30px;
+  }
+
+  .docHeader h1.pixelTitle {
+    font-size: 32px;
   }
 
   .tags {

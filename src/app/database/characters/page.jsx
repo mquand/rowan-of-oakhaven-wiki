@@ -13,6 +13,7 @@ export default function CharactersPage() {
   return (
     <div className={styles.container}>
       <div className={styles.header}>
+        <p className={styles.kicker}>Database / Residents</p>
         <h1 className={styles.title}><Icon name="users" size={28} /> Hồ sơ cư dân Oakhaven và bạn đồng hành</h1>
         <p>Những vị khách ghé tiệm tâm sự, chia sẻ nỗi niềm và cùng thưởng thức trà bánh</p>
       </div>

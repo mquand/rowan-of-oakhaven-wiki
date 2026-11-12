@@ -64,6 +64,7 @@ export default async function CategoryPage({ params }) {
   return (
     <div className={styles.container}>
       <div className={styles.header}>
+        <p className={styles.kicker}>Database / {category}</p>
         <h1 className={styles.title}><Icon name={config.icon} size={28} /> {config.title}</h1>
         <p>{config.subtitle}</p>
       </div>
