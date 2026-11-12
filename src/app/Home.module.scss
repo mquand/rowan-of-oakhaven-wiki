@@ -3,11 +3,10 @@
 /* ---------- Hero ---------- */
 .hero {
   position: relative;
-  min-height: 70vh;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: $sp-12 $sp-6 $sp-10;
+  padding: $sp-12 $sp-6 $sp-8;
   text-align: center;
   overflow: hidden;
 }
@@ -15,25 +14,25 @@
 .heroContent {
   position: relative;
   z-index: 1;
-  max-width: 720px;
+  max-width: 680px;
 }
 
 .kicker {
   font-family: $font-pixel;
-  font-size: 14px;
+  font-size: 12px;
   color: $color-amber-warm;
-  letter-spacing: 0.1em;
-  margin-bottom: $sp-5;
+  letter-spacing: 0.14em;
+  margin-bottom: $sp-4;
   text-transform: uppercase;
 }
 
 .heroTitle {
-  margin-bottom: $sp-6;
+  margin-bottom: $sp-4;
 
   .pixel {
     font-family: $font-pixel;
     font-weight: 700;
-    font-size: 56px;
+    font-size: 46px;
     line-height: 1.15;
     letter-spacing: 0.02em;
     color: $color-amber-glow;
@@ -44,109 +43,13 @@
 }
 
 .tagline {
-  max-width: 640px;
-  margin: 0 auto $sp-8;
-  font-size: 16px;
+  max-width: 580px;
+  margin: 0 auto $sp-6;
+  font-size: 15px;
   font-weight: 500;
   color: $color-text-muted;
   line-height: 1.6;
   text-wrap: pretty;
-}
-
-.heroActions {
-  display: flex;
-  justify-content: center;
-  gap: $sp-4;
-  flex-wrap: wrap;
-  margin-bottom: $sp-10;
-
-  .primaryBtn {
-    display: inline-block;
-    background: $color-amber-base;
-    color: $color-night-dark;
-    font-weight: 700;
-    font-size: 16px;
-    padding: $sp-3 $sp-6;
-    border-radius: $radius-md;
-    border: none;
-    box-shadow: 0 4px 0 $color-amber-deep;
-    transition:
-      transform $dur-base $ease-out,
-      box-shadow $dur-base $ease-out,
-      background-color $dur-fast $ease-out;
-
-    &:hover {
-      background: $color-amber-glow;
-      transform: translateY(-2px);
-      box-shadow: 0 6px 0 $color-amber-deep;
-      color: $color-night-dark;
-    }
-
-    &:active {
-      transform: translateY(2px);
-      box-shadow: 0 2px 0 $color-amber-deep;
-    }
-  }
-
-  .secondaryBtn {
-    display: inline-block;
-    background: transparent;
-    color: $color-text-main;
-    font-weight: 600;
-    font-size: 16px;
-    padding: $sp-3 $sp-6;
-    border-radius: $radius-md;
-    border: 1px solid $color-night-border;
-    transition:
-      border-color $dur-fast $ease-out,
-      background-color $dur-fast $ease-out,
-      color $dur-fast $ease-out;
-
-    &:hover {
-      border-color: $color-amber-base;
-      background: rgba($color-night-elevated, 0.6);
-      color: $color-amber-glow;
-    }
-  }
-}
-
-.heroStats {
-  display: flex;
-  justify-content: center;
-  gap: $sp-5 $sp-8;
-  flex-wrap: wrap;
-  border-top: 1px solid $color-night-border;
-  padding-top: $sp-8;
-
-  .statItem {
-    display: flex;
-    flex-direction: column;
-    gap: $sp-1;
-
-    dt {
-      font-family: $font-pixel;
-      font-size: 28px;
-      color: $color-amber-glow;
-      line-height: 1.2;
-    }
-
-    dd {
-      font-size: 12px;
-      color: $color-text-dim;
-      text-transform: uppercase;
-      letter-spacing: 0.08em;
-    }
-  }
-}
-
-.heroOrnament {
-  width: min(360px, 80%);
-  height: 10px;
-  margin: $sp-8 auto 0;
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='10'%3E%3Cg fill='%23ffcf40' fill-opacity='0.65'%3E%3Crect x='10' y='3' width='4' height='4'/%3E%3Crect x='11' y='2' width='2' height='2'/%3E%3Crect x='11' y='6' width='2' height='2'/%3E%3Crect x='9' y='4' width='2' height='2'/%3E%3Crect x='13' y='4' width='2' height='2'/%3E%3C/g%3E%3C/svg%3E");
-  background-repeat: repeat-x;
-  background-position: center;
-  background-size: 24px 10px;
 }
 
 /* ---------- Sections ---------- */

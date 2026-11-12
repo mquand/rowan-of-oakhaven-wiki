@@ -9,11 +9,8 @@ import styles from './Header.module.scss';
 
 const NAV_LINKS = [
   { href: '/', label: 'Trang chủ' },
-  { href: '/wiki', label: 'Tài liệu' },
+  { href: '/wiki', label: 'Tài liệu hướng dẫn' },
   { href: '/database', label: 'Cơ sở dữ liệu' },
-  { href: '/database/items', label: 'Vật phẩm' },
-  { href: '/database/recipes', label: 'Trà & bánh' },
-  { href: '/database/characters', label: 'Cư dân' },
 ];
 
 export default function Header() {
@@ -73,7 +70,7 @@ export default function Header() {
               aria-label="Tìm kiếm bách khoa (Ctrl+K)"
             >
               <Icon name="magnifying-glass" size={15} />
-              <span className={styles.searchBtnText}>Tìm kiếm</span>
+              <span className={styles.searchBtnText}>Tìm kiếm bách khoa</span>
               <kbd className={styles.searchKbd}>Ctrl K</kbd>
             </button>
 
@@ -98,29 +95,51 @@ export default function Header() {
           </div>
         </div>
 
-        <div className={`${styles.mobileMenu} ${open ? styles.mobileMenuOpen : ''}`}>
-          <nav aria-label="Menu di động">
-            <ul>
-              {NAV_LINKS.map((link, i) => (
-                <li
-                  key={link.href}
-                  style={{ transitionDelay: open ? `${60 + i * 60}ms` : '0ms' }}
+        {/* Mobile drawer */}
+        <div
+          className={`${styles.mobileDrawer} ${open ? styles.mobileDrawerOpen : ''}`}
+          aria-hidden={!open}
+        >
+          <ul className={styles.mobileLinks}>
+            {NAV_LINKS.map(link => (
+              <li key={link.href}>
+                <Link
+                  href={link.href}
+                  className={isActive(link.href) ? styles.active : ''}
+                  onClick={() => setOpen(false)}
                 >
-                  <Link
-                    href={link.href}
-                    className={isActive(link.href) ? styles.mobileActive : ''}
-                    aria-current={isActive(link.href) ? 'page' : undefined}
-                    onClick={() => setOpen(false)}
-                  >
-                    {link.label}
-                  </Link>
-                </li>
-              ))}
-            </ul>
-          </nav>
+                  {link.label}
+                </Link>
+              </li>
+            ))}
+            <li className={styles.mobileDivider} />
+            <li>
+              <button
+                type="button"
+                className={styles.mobileSearchBtn}
+                onClick={() => {
+                  setOpen(false);
+                  setSearchOpen(true);
+                }}
+              >
+                <Icon name="magnifying-glass" size={16} /> Tìm kiếm bách khoa (Ctrl+K)
+              </button>
+            </li>
+            <li>
+              <a
+                href="https://github.com/mquand/rowan-of-oakhaven-wiki"
+                target="_blank"
+                rel="noopener noreferrer"
+                className={styles.mobileGithubLink}
+              >
+                GitHub Repository
+              </a>
+            </li>
+          </ul>
         </div>
       </header>
 
+      {/* Modal tìm kiếm Ctrl+K */}
       <SearchModal isOpen={searchOpen} onClose={() => setSearchOpen(false)} />
     </>
   );
