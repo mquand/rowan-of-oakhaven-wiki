@@ -20,3 +20,14 @@ Mọi thay đổi UI của wiki này PHẢI theo phong cách **Dark Cozy Pixel A
 - **Tokens:** spacing chỉ dùng thang `$sp-*`, radius `$radius-*`, motion curve `$ease-out` — định nghĩa trong `src/styles/_variables.scss`. Font size theo type scale (12/14/16/18/20/24/30/36/48/60px).
 - **Texture:** sao pixel và ornament kim cương làm bằng SVG data-uri hoặc CSS, không ảnh nặng.
 - **Tài liệu tham chiếu:** design skills bắt buộc đọc trước khi sửa UI nằm trong `.agents/skills/` (`redesign-existing-projects`, `landing-page-design`).
+
+## Quy chuẩn đọc, sửa file & kiểm tra code — BẮT BUỘC (mandatory)
+
+Mọi AI khi làm việc trong repository này PHẢI đọc và tuân thủ nghiêm ngặt tài liệu [AI_GUIDELINES.md](./AI_GUIDELINES.md) để tránh **sửa thiếu**, **xót file** và **bỏ qua kiểm chứng**:
+
+- **Không dùng placeholder:** CẤM TUYỆT ĐỐI viết `// ... rest of code`, `/* giữ nguyên */`, `// TODO`. Viết code hoàn chỉnh 100%.
+- **Đọc kỹ trước khi sửa:** Luôn dùng `read_file` đọc toàn bộ file trước khi gọi `edit_file` hoặc `write_file`. Cấm đoán mò cấu trúc file.
+- **Quy tắc song ngữ (Bilingual):** Mọi thay đổi dữ liệu hoặc UI PHẢI đồng bộ CẢ HAI ngôn ngữ `vi` và `en` (`docs/data/vi/` + `docs/data/en/`, `docs/vi/` + `docs/en/`, `dictionaries/vi.js` + `dictionaries/en.js`).
+- **Rà soát điểm phụ thuộc:** Dùng `grep` tìm tất cả consumer/call-sites trước khi sửa. Sửa component phải kiểm tra cả `.module.scss` đi kèm.
+- **Phân biệt Server vs Client:** File có `'use client'` CẤM import `fs`, `path`, hoặc module Node.js.
+- **Kiểm chứng bắt buộc:** Trước khi báo cáo hoàn thành, BẮT BUỘC phải chạy `npm run build` (phải đạt 0 error, 0 warning) và kiểm tra `git status` xác nhận cây thư mục sạch sẽ.

@@ -1,0 +1,688 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "version": "1.0.0",
+  "updated": "2026-11-12",
+  "items": [
+    {
+      "id": "seed_sen_tea",
+      "name": "Lotus Tea Seeds",
+      "description": "Snow-lotus seeds, the foundational botanical crop for calming herbal tea blends.",
+      "category": "seed",
+      "tags": [
+        "farming",
+        "seed",
+        "spring",
+        "summer"
+      ],
+      "rarity": "common",
+      "buy_price": 20,
+      "sell_price": 10,
+      "energy": null,
+      "buff": null,
+      "crop_id": "crop_sen_tea"
+    },
+    {
+      "id": "seed_lumiberry",
+      "name": "Lumiberry Seeds",
+      "description": "Seeds of wild forest berries that softly glow in the dark, with a sweet and refreshing tartness.",
+      "category": "seed",
+      "tags": [
+        "farming",
+        "seed",
+        "summer",
+        "autumn"
+      ],
+      "rarity": "common",
+      "buy_price": 25,
+      "sell_price": 12,
+      "energy": null,
+      "buff": null,
+      "crop_id": "crop_lumiberry"
+    },
+    {
+      "id": "seed_silver_wheat",
+      "name": "Silver Wheat Seeds",
+      "description": "Glistening silver grain stalks. Grind at the town windmill to produce fresh baking flour.",
+      "category": "seed",
+      "tags": [
+        "farming",
+        "seed",
+        "spring",
+        "summer",
+        "autumn"
+      ],
+      "rarity": "common",
+      "buy_price": 15,
+      "sell_price": 8,
+      "energy": null,
+      "buff": null,
+      "crop_id": "crop_silver_wheat"
+    },
+    {
+      "id": "seed_star_lavender",
+      "name": "Starlight Lavender Seeds",
+      "description": "Lavender flowers that release a soothing fragrance under starry skies; renowned for restful properties.",
+      "category": "seed",
+      "tags": [
+        "farming",
+        "seed",
+        "spring",
+        "autumn"
+      ],
+      "rarity": "uncommon",
+      "buy_price": 30,
+      "sell_price": 15,
+      "energy": null,
+      "buff": null,
+      "crop_id": "crop_star_lavender"
+    },
+    {
+      "id": "seed_sun_daisy",
+      "name": "Sun Daisy Seeds",
+      "description": "Brilliant golden daisy seeds that absorb morning sunlight, brewed into stamina restorative tea.",
+      "category": "seed",
+      "tags": [
+        "farming",
+        "seed",
+        "spring",
+        "summer"
+      ],
+      "rarity": "common",
+      "buy_price": 18,
+      "sell_price": 9,
+      "energy": null,
+      "buff": null,
+      "crop_id": "crop_sun_daisy"
+    },
+    {
+      "id": "seed_sweet_pumpkin",
+      "name": "Honey Pumpkin Seeds",
+      "description": "Golden autumn squash rich with natural sweetness, perfect for celebratory harvest pies.",
+      "category": "seed",
+      "tags": [
+        "farming",
+        "seed",
+        "autumn"
+      ],
+      "rarity": "uncommon",
+      "buy_price": 35,
+      "sell_price": 18,
+      "energy": null,
+      "buff": null,
+      "crop_id": "crop_sweet_pumpkin"
+    },
+    {
+      "id": "item_flour",
+      "name": "Fresh Flour",
+      "description": "Finely milled flour ground from silver wheat, used for kneading dough and baking pastries.",
+      "category": "ingredient",
+      "tags": [
+        "bakery",
+        "ingredient"
+      ],
+      "rarity": "common",
+      "buy_price": 25,
+      "sell_price": 15,
+      "energy": null,
+      "buff": null
+    },
+    {
+      "id": "ore_coal",
+      "name": "Coal",
+      "description": "Mineral mined from shaft floors 1-25, utilized as fuel for the brick bakery oven.",
+      "category": "mineral",
+      "tags": [
+        "mining",
+        "fuel"
+      ],
+      "rarity": "common",
+      "buy_price": 20,
+      "sell_price": 12,
+      "energy": null,
+      "buff": null
+    },
+    {
+      "id": "ore_copper",
+      "name": "Copper Ore",
+      "description": "Ductile metal ore extracted from mine floors 26-50, used to forge Tier II tools.",
+      "category": "mineral",
+      "tags": [
+        "mining",
+        "metal"
+      ],
+      "rarity": "common",
+      "buy_price": 30,
+      "sell_price": 18,
+      "energy": null,
+      "buff": null
+    },
+    {
+      "id": "ore_iron",
+      "name": "Iron Ore",
+      "description": "Sturdy metallic ore mined from floors 51-75, used for crafting resilient Tier III equipment.",
+      "category": "mineral",
+      "tags": [
+        "mining",
+        "metal"
+      ],
+      "rarity": "uncommon",
+      "buy_price": 50,
+      "sell_price": 32,
+      "energy": null,
+      "buff": null
+    },
+    {
+      "id": "ore_gold",
+      "name": "Gold Ore",
+      "description": "Precious lustrous ore gathered from deep floors 76-100, used for Tier IV masterwork tools.",
+      "category": "mineral",
+      "tags": [
+        "mining",
+        "metal"
+      ],
+      "rarity": "rare",
+      "buy_price": 100,
+      "sell_price": 65,
+      "energy": null,
+      "buff": null
+    },
+    {
+      "id": "gem_amethyst",
+      "name": "Amethyst Crystal",
+      "description": "Luminescent violet crystal infused with subtle magic, used for crystal tarts and charms.",
+      "category": "gem",
+      "tags": [
+        "mining",
+        "crystal"
+      ],
+      "rarity": "uncommon",
+      "buy_price": 80,
+      "sell_price": 50,
+      "energy": null,
+      "buff": null
+    },
+    {
+      "id": "la_tra_sen",
+      "name": "Lotus Tea Leaves",
+      "description": "The foundational base of nearly every herbal tea blend — tender jade snow-lotus buds.",
+      "category": "ingredient",
+      "tags": [
+        "tea",
+        "ingredient",
+        "base"
+      ],
+      "rarity": "common",
+      "buy_price": null,
+      "sell_price": 35,
+      "energy": 15,
+      "buff": "Mild soothing relief"
+    },
+    {
+      "id": "dau_rung",
+      "name": "Wild Berries",
+      "description": "Plump crimson-pink forest berries with a sweet-tart tang — primary flavor infusion for iced teas.",
+      "category": "ingredient",
+      "tags": [
+        "tea",
+        "ingredient",
+        "flavor",
+        "forage"
+      ],
+      "rarity": "common",
+      "buy_price": null,
+      "sell_price": 40,
+      "energy": 20,
+      "buff": "Refreshing body chill"
+    },
+    {
+      "id": "da_tinh_the",
+      "name": "Crystal Shards",
+      "description": "Chilly crystalline shards emitting cold vapor — arcane ingredient creating frosty tea effects.",
+      "category": "ingredient",
+      "tags": [
+        "tea",
+        "ingredient",
+        "crystal",
+        "mining"
+      ],
+      "rarity": "common",
+      "buy_price": 40,
+      "sell_price": 25,
+      "energy": null,
+      "buff": null
+    },
+    {
+      "id": "mat_ong",
+      "name": "Wild Honey",
+      "description": "Golden amber wildflower honey — delicate sweetener balancing out bitter botanical herbs.",
+      "category": "ingredient",
+      "tags": [
+        "tea",
+        "ingredient",
+        "flavor",
+        "forage"
+      ],
+      "rarity": "common",
+      "buy_price": 45,
+      "sell_price": 30,
+      "energy": 25,
+      "buff": "Warm sweetness, fast revitalization"
+    },
+    {
+      "id": "oai_huong",
+      "name": "Starlight Lavender",
+      "description": "Pale purple blossoms that exhale a tranquil scent under starlight — ideal for deep relaxation.",
+      "category": "ingredient",
+      "tags": [
+        "tea",
+        "ingredient",
+        "herb"
+      ],
+      "rarity": "uncommon",
+      "buy_price": null,
+      "sell_price": 55,
+      "energy": 20,
+      "buff": "Deep tranquility"
+    },
+    {
+      "id": "bot_sao",
+      "name": "Stardust Powder",
+      "description": "Glittering celestial powder — rare magical catalyst adding otherworldly blessings to brews.",
+      "category": "ingredient",
+      "tags": [
+        "tea",
+        "ingredient",
+        "crystal",
+        "magic"
+      ],
+      "rarity": "rare",
+      "buy_price": 120,
+      "sell_price": 75,
+      "energy": null,
+      "buff": "Shimmering magical dust"
+    },
+    {
+      "id": "item_stone",
+      "name": "Stone Pebbles",
+      "description": "Common gray stones collected from mine levels 1-25, essential for building and rudimentary crafting.",
+      "category": "mineral",
+      "tags": [
+        "mining",
+        "stone",
+        "building"
+      ],
+      "rarity": "common",
+      "buy_price": 5,
+      "sell_price": 2,
+      "energy": null,
+      "buff": null
+    },
+    {
+      "id": "item_butter",
+      "name": "Fresh Butter",
+      "description": "Creamy churned highland butter, indispensable for soft chamomile brioche and buttery shortbread.",
+      "category": "ingredient",
+      "tags": [
+        "bakery",
+        "dairy",
+        "ingredient"
+      ],
+      "rarity": "common",
+      "buy_price": 35,
+      "sell_price": 20,
+      "energy": 15,
+      "buff": null
+    },
+    {
+      "id": "gem_sapphire",
+      "name": "Frost Sapphire",
+      "description": "Deep azure crystal mined from levels 51-75, icy to the touch like an alpine blizzard.",
+      "category": "gem",
+      "tags": [
+        "mining",
+        "crystal"
+      ],
+      "rarity": "rare",
+      "buy_price": 150,
+      "sell_price": 95,
+      "energy": null,
+      "buff": null
+    },
+    {
+      "id": "gem_ruby",
+      "name": "Fire Ruby",
+      "description": "Blazing scarlet gem excavated from depths 76-100, harboring the eternal geothermal fire of the mountain.",
+      "category": "gem",
+      "tags": [
+        "mining",
+        "crystal"
+      ],
+      "rarity": "rare",
+      "buy_price": 180,
+      "sell_price": 110,
+      "energy": null,
+      "buff": null
+    },
+    {
+      "id": "drop_prism_jelly",
+      "name": "Prismatic Crystal Jelly",
+      "description": "Iridescent chewy jelly dropped by Sweet Slimes, prized as bobas for starlight milk tea.",
+      "category": "monster_drop",
+      "tags": [
+        "monster_drop",
+        "cooking",
+        "dessert"
+      ],
+      "rarity": "uncommon",
+      "buy_price": null,
+      "sell_price": 45,
+      "energy": null,
+      "buff": "Prismatic color-shifting glow"
+    },
+    {
+      "id": "drop_moon_berry",
+      "name": "Moonlight Berries",
+      "description": "Violet nightshade berries that emanate a serene lunar light — dropped by Night-Winged Bats.",
+      "category": "monster_drop",
+      "tags": [
+        "monster_drop",
+        "cooking",
+        "fruit"
+      ],
+      "rarity": "rare",
+      "buy_price": null,
+      "sell_price": 90,
+      "energy": 45,
+      "buff": "Lunar radiance"
+    },
+    {
+      "id": "drop_crystal_sea_salt",
+      "name": "Crystal Sea Salt",
+      "description": "Brilliant oceanic mineral salt dropped by Crystal Crabs, adding crisp savory notes to artisan bread.",
+      "category": "monster_drop",
+      "tags": [
+        "monster_drop",
+        "cooking",
+        "seasoning"
+      ],
+      "rarity": "uncommon",
+      "buy_price": null,
+      "sell_price": 50,
+      "energy": null,
+      "buff": "Pristine sea salt savor"
+    },
+    {
+      "id": "drop_golden_pollen",
+      "name": "Golden Luminous Pollen",
+      "description": "Gilded pollen grains dropped by Deepwood Moths, dusted over celebratory cakes for a luminous sparkle.",
+      "category": "monster_drop",
+      "tags": [
+        "monster_drop",
+        "cooking",
+        "decoration"
+      ],
+      "rarity": "uncommon",
+      "buy_price": null,
+      "sell_price": 55,
+      "energy": null,
+      "buff": "Golden sparkle finish"
+    },
+    {
+      "id": "drop_incense_mist",
+      "name": "Incense Mist Droplets",
+      "description": "Condensed droplets of pure aromatic smoke dropped by Forest Phantoms, infused into smoked teas.",
+      "category": "monster_drop",
+      "tags": [
+        "monster_drop",
+        "tea",
+        "rare"
+      ],
+      "rarity": "uncommon",
+      "buy_price": null,
+      "sell_price": 60,
+      "energy": null,
+      "buff": "Meditative incense aura"
+    },
+    {
+      "id": "item_cinnamon",
+      "name": "Wild Cinnamon",
+      "description": "Fragrant bark foraged from the borders of Whisperwood, warming and spicy for cinnamon rolls.",
+      "category": "ingredient",
+      "tags": [
+        "ingredient",
+        "bakery",
+        "spice"
+      ],
+      "rarity": "common",
+      "buy_price": 30,
+      "sell_price": 18,
+      "energy": null,
+      "buff": "Deep warming aroma"
+    },
+    {
+      "id": "item_sugar",
+      "name": "Raw Cane Sugar",
+      "description": "Amber-colored raw sugar crystals providing unrefined sweetness to baked goods and tea syrups.",
+      "category": "ingredient",
+      "tags": [
+        "ingredient",
+        "bakery",
+        "sweet"
+      ],
+      "rarity": "common",
+      "buy_price": 20,
+      "sell_price": 12,
+      "energy": 10,
+      "buff": null
+    },
+    {
+      "id": "item_lantern_firefly",
+      "name": "Firefly Essence",
+      "description": "Condensed starlight dust gathered from valley fireflies, used in enchanting Faerie Birthday Cakes.",
+      "category": "ingredient",
+      "tags": [
+        "ingredient",
+        "magic",
+        "light"
+      ],
+      "rarity": "rare",
+      "buy_price": 90,
+      "sell_price": 55,
+      "energy": null,
+      "buff": "Radiates gentle fae light"
+    },
+    {
+      "id": "item_sun_daisy",
+      "name": "Sun Daisy Petals",
+      "description": "Vibrant golden petals harvested from Sun Daisies to brew revitalizing midday teas.",
+      "category": "ingredient",
+      "tags": [
+        "ingredient",
+        "flower",
+        "tea"
+      ],
+      "rarity": "common",
+      "buy_price": null,
+      "sell_price": 38,
+      "energy": 18,
+      "buff": "Sun-warmed vitality"
+    },
+    {
+      "id": "item_sweet_pumpkin",
+      "name": "Honey Pumpkin",
+      "description": "Rich, sweet-fleshed autumn pumpkin harvested for seasonal spiced pies and savory soups.",
+      "category": "ingredient",
+      "tags": [
+        "ingredient",
+        "vegetable",
+        "bakery"
+      ],
+      "rarity": "uncommon",
+      "buy_price": null,
+      "sell_price": 85,
+      "energy": 35,
+      "buff": "Wholesome hearth nourishment"
+    },
+    {
+      "id": "item_tea_sen_an_than",
+      "name": "Calming Lotus Tea",
+      "description": "Crisp dew-kissed lotus tea sweetened with raw honey — signature blend of Starlight Tea Shop, calming the spirit and dissolving worries.",
+      "category": "tea",
+      "rarity": "uncommon",
+      "buy_price": null,
+      "sell_price": 65,
+      "energy": 35,
+      "buff": "Dissolves troubles, restores 35 Stamina",
+      "recipe_id": "tra_sen_an_than",
+      "tags": [
+        "tea",
+        "calming",
+        "craftable"
+      ]
+    },
+    {
+      "id": "item_tea_dau_bang_tuyet",
+      "name": "Glacial Berry Iced Tea",
+      "description": "Juicy tart-sweet wild berries shaken over chilled cavern crystals — grants brisk clarity and swifter movement.",
+      "category": "tea",
+      "rarity": "uncommon",
+      "buy_price": null,
+      "sell_price": 75,
+      "energy": 40,
+      "buff": "+15% Movement Speed for 3 minutes",
+      "recipe_id": "tra_dau_bang_tuyet",
+      "tags": [
+        "tea",
+        "speed",
+        "craftable"
+      ]
+    },
+    {
+      "id": "item_tea_oai_huong_ngan_sao",
+      "name": "Thousand Stars Lavender Tea",
+      "description": "Purple starlight lavender blossoms infused with shimmering cosmic dust. Inhaling its vapor induces sound, restorative slumber.",
+      "category": "tea",
+      "rarity": "rare",
+      "buy_price": null,
+      "sell_price": 110,
+      "energy": 100,
+      "buff": "Restores 100% Stamina when sleeping, -20% night stamina drain",
+      "recipe_id": "tra_oai_huong_ngan_sao",
+      "tags": [
+        "tea",
+        "stardust",
+        "sleep",
+        "craftable"
+      ]
+    },
+    {
+      "id": "item_tea_anh_duong",
+      "name": "Solar Dawn Infusion",
+      "description": "Luminous amber tea that captured the first rays of morning sun, fueling explorers embarking upon deep cavern expeditions.",
+      "category": "tea",
+      "rarity": "rare",
+      "buy_price": null,
+      "sell_price": 125,
+      "energy": 50,
+      "buff": "+25% Pickaxe mining speed for 3 minutes, radiates body light",
+      "recipe_id": "tra_anh_duong",
+      "tags": [
+        "tea",
+        "mining",
+        "buff",
+        "craftable"
+      ]
+    },
+    {
+      "id": "item_bread_brioche",
+      "name": "Honey Chamomile Brioche",
+      "description": "Golden-brown loaf with a pillowy, butter-rich crumb and pure wildflower honey sweetness — the everyday comfort breakfast of Oakhaven.",
+      "category": "bakery",
+      "rarity": "uncommon",
+      "buy_price": null,
+      "sell_price": 85,
+      "energy": 60,
+      "buff": "Instantly restores 60 Stamina",
+      "recipe_id": "bread_brioche",
+      "tags": [
+        "bakery",
+        "bread",
+        "healing",
+        "craftable"
+      ]
+    },
+    {
+      "id": "item_pastry_scone_berry",
+      "name": "Bioluminescent Berry Scone",
+      "description": "Flaky golden scone rich in farm butter, studded with glistening lumiberry bits that sparkle in the evening dusk.",
+      "category": "bakery",
+      "rarity": "uncommon",
+      "buy_price": null,
+      "sell_price": 95,
+      "energy": 55,
+      "buff": "Restores 55 Stamina, emits soft ambient glow in the dark",
+      "recipe_id": "pastry_scone_berry",
+      "tags": [
+        "bakery",
+        "pastry",
+        "luminescent",
+        "craftable"
+      ]
+    },
+    {
+      "id": "item_pastry_cinnamon_roll",
+      "name": "Forest Spirit Cinnamon Roll",
+      "description": "Oven-fresh pastry spiral swirled with wild brown cinnamon butter — seals in body heat against icy winter gales.",
+      "category": "bakery",
+      "rarity": "rare",
+      "buy_price": null,
+      "sell_price": 120,
+      "energy": 70,
+      "buff": "100% Winter frost resistance, +10% work stamina efficiency for 5 minutes",
+      "recipe_id": "pastry_cinnamon_roll",
+      "tags": [
+        "bakery",
+        "pastry",
+        "warmth",
+        "craftable"
+      ]
+    },
+    {
+      "id": "item_pastry_crystal_tart",
+      "name": "Starlight Crystal Tart",
+      "description": "Grand royal dessert baked with premium flour and shimmering amethyst crystal jelly, dusted with sweet sparkling stardust.",
+      "category": "bakery",
+      "rarity": "rare",
+      "buy_price": null,
+      "sell_price": 160,
+      "energy": 80,
+      "buff": "+25% Magic damage, increases rare ore prospecting luck for 4 minutes",
+      "recipe_id": "pastry_crystal_tart",
+      "tags": [
+        "bakery",
+        "magic",
+        "luck",
+        "craftable"
+      ]
+    },
+    {
+      "id": "item_cake_fairy_birthday",
+      "name": "Faerie Birthday Cake",
+      "description": "Enchanted celebration cake baked with sweet snowberries and warm firefly sparks — candles chime with celebratory melodies when lit.",
+      "category": "bakery",
+      "rarity": "mythic",
+      "buy_price": null,
+      "sell_price": 250,
+      "energy": 120,
+      "buff": "Instantly grants +1 Friendship Heart when given as a birthday gift to any villager",
+      "recipe_id": "cake_fairy_birthday",
+      "tags": [
+        "bakery",
+        "gift",
+        "birthday",
+        "celebration",
+        "craftable"
+      ]
+    }
+  ]
+}

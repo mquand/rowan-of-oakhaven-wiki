@@ -5,18 +5,26 @@ import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import Icon from './Icon';
 import SearchModal from './SearchModal';
+import LanguageSwitcher from './LanguageSwitcher';
+import { LOCALES, DEFAULT_LOCALE } from '../lib/i18n/config';
+import { getDictionary } from '../lib/i18n/getDictionary';
 import styles from './Header.module.scss';
 
-const NAV_LINKS = [
-  { href: '/', label: 'Trang chủ' },
-  { href: '/wiki', label: 'Tài liệu hướng dẫn' },
-  { href: '/database', label: 'Cơ sở dữ liệu' },
-];
-
-export default function Header() {
+export default function Header({ lang }) {
   const pathname = usePathname();
   const [open, setOpen] = useState(false);
   const [searchOpen, setSearchOpen] = useState(false);
+
+  // Extract current language from URL if possible
+  const segments = pathname ? pathname.split('/').filter(Boolean) : [];
+  const currentLang = LOCALES.includes(segments[0]) ? segments[0] : (lang || DEFAULT_LOCALE);
+  const dict = getDictionary(currentLang);
+
+  const navLinks = [
+    { href: `/${currentLang}`, label: dict.nav.home },
+    { href: `/${currentLang}/wiki`, label: dict.nav.wiki },
+    { href: `/${currentLang}/database`, label: dict.nav.database },
+  ];
 
   // Lắng nghe phím tắt Ctrl+K / Cmd+K
   useEffect(() => {
@@ -30,24 +38,28 @@ export default function Header() {
     return () => window.removeEventListener('keydown', handleKeyDown);
   }, []);
 
-  const isActive = href =>
-    href === '/' ? pathname === '/' : pathname.startsWith(href);
+  const isActive = href => {
+    if (href === `/${currentLang}`) {
+      return pathname === `/${currentLang}` || pathname === `/${currentLang}/`;
+    }
+    return pathname.startsWith(href);
+  };
 
   return (
     <>
       <header className={styles.header}>
         <div className={styles.navContainer}>
-          <Link href="/" className={styles.brand} onClick={() => setOpen(false)}>
+          <Link href={`/${currentLang}`} className={styles.brand} onClick={() => setOpen(false)}>
             <span className={styles.brandMark}><Icon name="tea-bag" size={20} /></span>
             <span className={styles.brandText}>
-              <span className={styles.brandName}>ROWAN OF OAKHAVEN</span>
-              <span className={styles.brandSub}>Bách Khoa Toàn Thư</span>
+              <span className={styles.brandName}>{dict.nav.brandName}</span>
+              <span className={styles.brandSub}>{dict.nav.brandSub}</span>
             </span>
           </Link>
 
-          <nav aria-label="Điều hướng chính">
+          <nav aria-label={dict.nav.mainNavAria}>
             <ul className={styles.navLinks}>
-              {NAV_LINKS.map(link => (
+              {navLinks.map(link => (
                 <li key={link.href}>
                   <Link
                     href={link.href}
@@ -67,12 +79,14 @@ export default function Header() {
               type="button"
               className={styles.searchBtn}
               onClick={() => setSearchOpen(true)}
-              aria-label="Tìm kiếm bách khoa (Ctrl+K)"
+              aria-label={dict.nav.searchAria}
             >
               <Icon name="magnifying-glass" size={15} />
-              <span className={styles.searchBtnText}>Tìm kiếm bách khoa</span>
-              <kbd className={styles.searchKbd}>Ctrl K</kbd>
+              <span className={styles.searchBtnText}>{dict.nav.searchBtn}</span>
+              <kbd className={styles.searchKbd}>{dict.nav.searchKbd}</kbd>
             </button>
+
+            <LanguageSwitcher currentLang={currentLang} />
 
             <a
               href="https://github.com/mquand/rowan-of-oakhaven-wiki"
@@ -80,13 +94,13 @@ export default function Header() {
               rel="noopener noreferrer"
               className={styles.githubBtn}
             >
-              GitHub
+              {dict.nav.github}
             </a>
 
             <button
               type="button"
               className={`${styles.menuBtn} ${open ? styles.menuBtnOpen : ''}`}
-              aria-label={open ? 'Đóng menu' : 'Mở menu'}
+              aria-label={open ? dict.nav.closeMenu : dict.nav.openMenu}
               aria-expanded={open}
               onClick={() => setOpen(v => !v)}
             >
@@ -101,7 +115,7 @@ export default function Header() {
           aria-hidden={!open}
         >
           <ul className={styles.mobileLinks}>
-            {NAV_LINKS.map(link => (
+            {navLinks.map(link => (
               <li key={link.href}>
                 <Link
                   href={link.href}
@@ -122,8 +136,11 @@ export default function Header() {
                   setSearchOpen(true);
                 }}
               >
-                <Icon name="magnifying-glass" size={16} /> Tìm kiếm bách khoa (Ctrl+K)
+                <Icon name="magnifying-glass" size={16} /> {dict.nav.searchBtn} ({dict.nav.searchKbd})
               </button>
+            </li>
+            <li style={{ padding: '8px 16px' }}>
+              <LanguageSwitcher currentLang={currentLang} />
             </li>
             <li>
               <a
@@ -140,7 +157,7 @@ export default function Header() {
       </header>
 
       {/* Modal tìm kiếm Ctrl+K */}
-      <SearchModal isOpen={searchOpen} onClose={() => setSearchOpen(false)} />
+      <SearchModal isOpen={searchOpen} onClose={() => setSearchOpen(false)} lang={currentLang} />
     </>
   );
 }

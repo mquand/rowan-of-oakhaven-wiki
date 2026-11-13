@@ -1,8 +1,12 @@
 import Link from 'next/link';
 import Icon from './Icon';
+import { DEFAULT_LOCALE } from '../lib/i18n/config';
+import { getDictionary } from '../lib/i18n/getDictionary';
 import styles from './Footer.module.scss';
 
-export default function Footer() {
+export default function Footer({ lang = DEFAULT_LOCALE }) {
+  const dict = getDictionary(lang);
+
   return (
     <footer className={styles.footer}>
       <div className={styles.container}>
@@ -13,40 +17,40 @@ export default function Footer() {
 
           <div className={styles.links}>
             <div>
-              <h4>Khám Phá Thế Giới</h4>
+              <h4>{dict.footer.exploreWorld}</h4>
               <ul>
-                <li><Link href="/wiki/getting-started">Hướng Dẫn Khởi Đầu</Link></li>
-                <li><Link href="/wiki/gameplay-guide">Lối Chơi & Mùa Vụ</Link></li>
-                <li><Link href="/wiki/calendar-seasons">Lịch & Bốn Mùa</Link></li>
-                <li><Link href="/wiki/character-roster">Dàn Nhân Vật</Link></li>
-                <li><Link href="/wiki/dungeon-combat">Thám Hiểm & Chiến Đấu</Link></li>
+                <li><Link href={`/${lang}/wiki/getting-started`}>{dict.footer.links.gettingStarted}</Link></li>
+                <li><Link href={`/${lang}/wiki/gameplay-guide`}>{dict.footer.links.gameplayGuide}</Link></li>
+                <li><Link href={`/${lang}/wiki/calendar-seasons`}>{dict.footer.links.calendarSeasons}</Link></li>
+                <li><Link href={`/${lang}/wiki/character-roster`}>{dict.footer.links.characterRoster}</Link></li>
+                <li><Link href={`/${lang}/wiki/dungeon-combat`}>{dict.footer.links.dungeonCombat}</Link></li>
               </ul>
             </div>
 
             <div>
-              <h4>Cơ Sở Dữ Liệu</h4>
+              <h4>{dict.footer.gameDatabase}</h4>
               <ul>
-                <li><Link href="/database/items">Kho Vật Phẩm</Link></li>
-                <li><Link href="/database/recipes">Sổ Công Thức Trà Bánh</Link></li>
-                <li><Link href="/database/characters">Hồ Sơ Cư Dân</Link></li>
-                <li><Link href="/database/crops">Sổ Cây Trồng</Link></li>
-                <li><Link href="/database/monsters">Sổ Quái Vật</Link></li>
+                <li><Link href={`/${lang}/database/items`}>{dict.footer.links.items}</Link></li>
+                <li><Link href={`/${lang}/database/recipes`}>{dict.footer.links.recipes}</Link></li>
+                <li><Link href={`/${lang}/database/characters`}>{dict.footer.links.characters}</Link></li>
+                <li><Link href={`/${lang}/database/crops`}>{dict.footer.links.crops}</Link></li>
+                <li><Link href={`/${lang}/database/monsters`}>{dict.footer.links.monsters}</Link></li>
               </ul>
             </div>
 
             <div>
-              <h4>Thông Tin</h4>
+              <h4>{dict.footer.information}</h4>
               <ul>
-                <li><Link href="/privacy">Chính Sách Bảo Mật</Link></li>
-                <li><Link href="/terms">Điều Khoản Sử Dụng</Link></li>
+                <li><Link href={`/${lang}/privacy`}>{dict.footer.links.privacy}</Link></li>
+                <li><Link href={`/${lang}/terms`}>{dict.footer.links.terms}</Link></li>
               </ul>
             </div>
           </div>
         </div>
 
         <div className={styles.bottomRow}>
-          <span>© 2026 <strong>Rowan of Oakhaven</strong> · Fluvio Games. All rights reserved.</span>
-          <span>Tiệm Bụi Sao rìa Rừng Thầm Thì · Oakhaven</span>
+          <span>{dict.footer.copyright}</span>
+          <span>{dict.footer.brandTag}</span>
         </div>
       </div>
     </footer>

@@ -3,21 +3,24 @@
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import Icon from './Icon';
+import { DEFAULT_LOCALE } from '../lib/i18n/config';
+import { getDictionary } from '../lib/i18n/getDictionary';
 import styles from './Sidebar.module.scss';
 
-const DB_LINKS = [
-  { href: '/database/items', label: 'Kho vật phẩm', icon: 'package' },
-  { href: '/database/recipes', label: 'Sổ công thức trà bánh', icon: 'cake' },
-  { href: '/database/characters', label: 'Cư dân & đồng hành', icon: 'users' },
-  { href: '/database/crops', label: 'Sổ cây trồng', icon: 'farm' },
-  { href: '/database/monsters', label: 'Sổ quái vật Rừng Đêm', icon: 'sparkle' },
-  { href: '/database/weapons', label: 'Vũ khí phép thuật', icon: 'sword' },
-  { href: '/database/perks', label: 'Kỹ năng & thiên phú', icon: 'book-open' },
-  { href: '/database/locations', label: 'Bản đồ 5 Vương Quốc', icon: 'map-pin' },
-];
-
-export default function Sidebar({ docs = [] }) {
+export default function Sidebar({ docs = [], lang = DEFAULT_LOCALE }) {
   const pathname = usePathname();
+  const dict = getDictionary(lang);
+
+  const dbLinks = [
+    { href: `/${lang}/database/items`, label: dict.database.categories.items.title, icon: 'package' },
+    { href: `/${lang}/database/recipes`, label: dict.database.categories.recipes.title, icon: 'cake' },
+    { href: `/${lang}/database/characters`, label: dict.database.categories.characters.title, icon: 'users' },
+    { href: `/${lang}/database/crops`, label: dict.database.categories.crops.title, icon: 'farm' },
+    { href: `/${lang}/database/monsters`, label: dict.database.categories.monsters.title, icon: 'sparkle' },
+    { href: `/${lang}/database/weapons`, label: dict.database.categories.weapons.title, icon: 'sword' },
+    { href: `/${lang}/database/perks`, label: dict.database.categories.perks.title, icon: 'book-open' },
+    { href: `/${lang}/database/locations`, label: dict.database.categories.locations.title, icon: 'map-pin' },
+  ];
 
   return (
     <aside className={styles.sidebar}>
@@ -26,15 +29,15 @@ export default function Sidebar({ docs = [] }) {
         <div className={styles.sectionHeader}>
           <div className={styles.sectionTitle}>
             <Icon name="scroll" size={14} />
-            <span>Tài liệu</span>
+            <span>{dict.wiki.breadcrumb}</span>
           </div>
-          <Link href="/wiki" className={styles.sectionLink}>
-            Tất cả
+          <Link href={`/${lang}/wiki`} className={styles.sectionLink}>
+            {dict.database.browser.filterAll}
           </Link>
         </div>
         <ul className={styles.linkList}>
           {docs.map(doc => {
-            const href = `/wiki/${doc.slug}`;
+            const href = `/${lang}/wiki/${doc.slug}`;
             const isActive = pathname === href;
             return (
               <li key={doc.slug}>
@@ -53,14 +56,14 @@ export default function Sidebar({ docs = [] }) {
         <div className={styles.sectionHeader}>
           <div className={styles.sectionTitle}>
             <Icon name="book-open" size={14} />
-            <span>Sổ Tay Thám Hiểm</span>
+            <span>{dict.database.categories.items.short}</span>
           </div>
-          <Link href="/database" className={styles.sectionLink}>
+          <Link href={`/${lang}/database`} className={styles.sectionLink}>
             Hub
           </Link>
         </div>
         <ul className={styles.linkList}>
-          {DB_LINKS.map(link => {
+          {dbLinks.map(link => {
             const isActive = pathname === link.href;
             return (
               <li key={link.href}>

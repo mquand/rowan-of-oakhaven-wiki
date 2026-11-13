@@ -1,0 +1,290 @@
+@use '../../styles/variables' as *;
+
+.homeWrapper {
+  overflow-x: hidden;
+}
+
+/* ---------- 1. Hero Showcase ---------- */
+.hero {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: $sp-12 $sp-6 $sp-10;
+  text-align: center;
+  overflow: hidden;
+}
+
+.heroContent {
+  position: relative;
+  z-index: 1;
+  max-width: 720px;
+  width: 100%;
+}
+
+.kicker {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: $sp-4;
+
+  span {
+    font-family: $font-sans;
+    font-size: 11px;
+    font-weight: 700;
+    color: $color-amber-warm;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    background: rgba($color-amber-base, 0.08);
+    border: 1px solid rgba($color-amber-base, 0.25);
+    padding: 4px 12px;
+  }
+}
+
+.heroTitle {
+  margin-bottom: $sp-4;
+
+  .pixel {
+    font-family: $font-pixel;
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 1.15;
+    letter-spacing: 0.02em;
+    color: $color-amber-glow;
+    text-shadow: 0 0 24px rgba($color-amber-base, 0.35);
+    text-wrap: balance;
+    text-transform: uppercase;
+  }
+}
+
+.heroSearchWrap {
+  margin-top: $sp-2;
+}
+
+/* ---------- Shared Section Styles ---------- */
+.section {
+  max-width: $max-width;
+  margin: 0 auto $sp-12;
+  padding: 0 $sp-6;
+}
+
+.sectionHeader {
+  text-align: center;
+  margin-bottom: $sp-10;
+  max-width: 680px;
+  margin-left: auto;
+  margin-right: auto;
+
+  .sectionKicker {
+    font-family: $font-pixel;
+    font-size: 12px;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: $color-amber-warm;
+    margin-bottom: $sp-2;
+  }
+
+  h2 {
+    font-size: 28px;
+    font-weight: 700;
+    color: $color-text-main;
+    margin-bottom: $sp-2;
+    text-wrap: balance;
+  }
+
+  p {
+    color: $color-text-muted;
+    font-size: 15px;
+    text-wrap: pretty;
+  }
+}
+
+/* ---------- 2. Companions Grid ---------- */
+.companionsGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: $sp-6;
+  margin-bottom: $sp-8;
+}
+
+.companionCard {
+  background-color: rgba($color-night-card, 0.8);
+  padding: $sp-5;
+  display: flex;
+  flex-direction: column;
+  gap: $sp-4;
+  transition:
+    transform $dur-base $ease-out,
+    border-color $dur-fast $ease-out;
+
+  &:hover {
+    transform: translateY(-2px);
+    border-color: $color-amber-base;
+  }
+}
+
+.compTop {
+  display: flex;
+  gap: $sp-4;
+  align-items: center;
+}
+
+.compAvatar {
+  width: 52px;
+  height: 52px;
+  flex-shrink: 0;
+  background: $color-night-dark;
+  border: 2px solid $color-amber-warm;
+  box-shadow:
+    inset 2px 2px 0 0 rgba(255, 230, 128, 0.4),
+    inset -2px -2px 0 0 rgba(0, 0, 0, 0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: $color-amber-glow;
+}
+
+.compInfo {
+  flex: 1;
+  min-width: 0;
+
+  .compName {
+    font-size: 17px;
+    font-weight: 700;
+    color: $color-amber-glow;
+    margin: 0 0 2px;
+  }
+
+  .compRole {
+    font-size: 12px;
+    color: $color-text-main;
+    font-weight: 600;
+    margin-bottom: 4px;
+  }
+}
+
+.compQuote {
+  background: rgba($color-night-dark, 0.7);
+  border-left: 3px solid $color-amber-base;
+  padding: 8px 12px;
+  font-size: 13px;
+  font-style: italic;
+  color: $color-bakery-cream;
+  line-height: 1.45;
+}
+
+.sectionActionCenter {
+  text-align: center;
+}
+
+.actionBtn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-family: $font-sans;
+  font-size: 14px;
+  font-weight: 700;
+  color: $color-amber-glow;
+  background: rgba($color-night-card, 0.9);
+  border: 1px solid rgba($color-amber-base, 0.4);
+  padding: 10px 22px;
+  text-decoration: none;
+  box-shadow: 0 2px 0 rgba(0, 0, 0, 0.5);
+  transition:
+    transform $dur-base $ease-out,
+    border-color $dur-fast $ease-out,
+    background-color $dur-fast $ease-out;
+
+  &:hover {
+    transform: translateY(-2px);
+    border-color: $color-amber-base;
+    background: rgba($color-amber-base, 0.12);
+  }
+}
+
+/* ---------- 4. Codex & Database Portal ---------- */
+.codexPortalGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: $sp-6;
+}
+
+.portalCard {
+  background-color: rgba($color-night-card, 0.8);
+  padding: $sp-5;
+  display: flex;
+  flex-direction: column;
+  transition:
+    transform $dur-base $ease-out,
+    border-color $dur-fast $ease-out;
+
+  &:hover {
+    transform: translateY(-2px);
+    border-color: $color-amber-base;
+
+    .portalTitle {
+      color: $color-amber-glow;
+    }
+
+    .portalLink {
+      color: $color-amber-glow;
+      transform: translateX(4px);
+    }
+  }
+}
+
+.portalIconBox {
+  width: 44px;
+  height: 44px;
+  background: $color-night-dark;
+  border: 1px solid $color-night-border;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: $color-amber-glow;
+  margin-bottom: $sp-4;
+}
+
+.portalBody {
+  flex: 1;
+  margin-bottom: $sp-4;
+}
+
+.portalTitle {
+  font-size: 17px;
+  font-weight: 700;
+  color: $color-text-main;
+  margin-bottom: $sp-2;
+  transition: color $dur-fast $ease-out;
+}
+
+.portalDesc {
+  color: $color-text-muted;
+  font-size: 13px;
+  line-height: 1.55;
+  margin: 0;
+}
+
+.portalLink {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 13px;
+  font-weight: 700;
+  color: $color-amber-base;
+  text-decoration: none;
+  transition:
+    color $dur-fast $ease-out,
+    transform $dur-fast $ease-out;
+}
+
+@media (max-width: 768px) {
+  .heroTitle .pixel {
+    font-size: 38px;
+  }
+
+  .companionsGrid,
+  .codexPortalGrid {
+    grid-template-columns: 1fr;
+  }
+}

@@ -1,0 +1,336 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "version": "1.0.0",
+  "updated": "2026-11-12",
+  "characters": [
+    {
+      "id": "npc_rowan",
+      "name": "Rowan",
+      "role": "Keeper of the Starlight Tea Shop",
+      "location": "Starlight Tea Shop (Oakhaven)",
+      "species": "Human (Witch)",
+      "description": "A young witch fresh from the Royal Arcane Academy, inheriting her late grandmother Amalia's cozy tea shop and her tattered grimoire.",
+      "favorite_items": [
+        "tra_sen_an_than",
+        "bread_brioche"
+      ],
+      "quote": "The greatest magic sometimes is just a warm cup of herbal tea and a shared smile.",
+      "birthday": "Spring 1",
+      "schedule": "All day: Managing the Starlight Tea Shop & herb gardens"
+    },
+    {
+      "id": "pet_pip",
+      "name": "Pip",
+      "role": "Night Mail Messenger & Seed Collector",
+      "location": "Starlight Tea Shop / Whisperwood",
+      "species": "Pygmy Magic Owl",
+      "description": "A plump, intelligent little owl who brings mysterious botanical seeds back to your mailbox every morning.",
+      "favorite_items": [
+        "seed_sen_tea",
+        "mat_ong"
+      ],
+      "quote": "Hoo... coo... *tilts head and blinks*",
+      "birthday": "Autumn 12",
+      "schedule": "Dawn: Delivers seeds to mailbox; Afternoon: Perches on porch"
+    },
+    {
+      "id": "pet_mallow",
+      "name": "Mallow",
+      "role": "Hearth Familiar & Shop Guardian",
+      "location": "Starlight Tea Shop (Counter / Fireplace)",
+      "species": "Calico Familiar",
+      "description": "A round calico cat who sheltered in the shop during a thunderstorm and never left; loves slumbering near warm lanterns.",
+      "favorite_items": [
+        "item_butter",
+        "dau_rung"
+      ],
+      "quote": "Meow... *contented purrs*",
+      "birthday": "Summer 4",
+      "schedule": "All day: Lounging warmly by the brick oven or timber counter"
+    },
+    {
+      "id": "npc_lumi",
+      "name": "Lumi",
+      "role": "Whisperwood Glade Spirit",
+      "location": "Whisperwood Glade / Evening Visitor",
+      "species": "Kemomimi-Elf (Snow Fox & Glade Fae)",
+      "description": "Unique Kemomimi-Elf spirit featuring fluffy white fox ears atop jade twin-tails, pointed elven ears, and a soft crimson knitted scarf.",
+      "favorite_items": [
+        "tra_sen_an_than"
+      ],
+      "quote": "The howling forest winds tonight make my ears ring... could I have something cool and gentle to soothe my heart?",
+      "birthday": "Spring 7",
+      "schedule": "Afternoon: Strolls through Whisperwood; Evening: Quiet corner at tea shop"
+    },
+    {
+      "id": "npc_boris",
+      "name": "Boris Barnaby",
+      "role": "Town Blacksmith",
+      "location": "Oakhaven Forge",
+      "species": "Dwarf",
+      "description": "Stout, hardy dwarven smith with twin-braided russet beard and an ash-stained leather apron from years at the anvil.",
+      "favorite_items": [
+        "pastry_cinnamon_roll",
+        "tra_sen_an_than"
+      ],
+      "quote": "Hammering steel all day leaves me bone-weary. The furnace is hot, but my heart feels cold... got anything sweet and fragrant with wild cinnamon?",
+      "birthday": "Winter 18",
+      "schedule": "07:00 - 18:00: At the forge anvil; 19:00: Cinnamon rolls at the tea shop"
+    },
+    {
+      "id": "npc_maeve",
+      "name": "Maeve",
+      "role": "Elder Herb Cultivator",
+      "location": "Oakhaven Valley Farm",
+      "species": "Human",
+      "description": "Gentle elder herbalist with silver hair pinned in a low bun and a spring-embroidered kerchief; foster grandmother to Kael.",
+      "favorite_items": [
+        "pastry_scone_berry",
+        "seed_sun_daisy"
+      ],
+      "quote": "The caterpillars were harsh on my pumpkins today. Weeding since midday has my old back aching, little witch...",
+      "birthday": "Spring 9",
+      "schedule": "06:00 - 17:00: Selling seeds in Town Square; Evening: Strolling riverside"
+    },
+    {
+      "id": "npc_kael",
+      "name": "Kael",
+      "role": "Apprentice Match Vendor",
+      "location": "Riverside / Market Corner",
+      "species": "Human",
+      "description": "An orphaned boy with a pointed wool cap, patchworked winter coat, and bright curious eyes; Maeve's beloved ward.",
+      "favorite_items": [
+        "cake_fairy_birthday",
+        "dau_rung"
+      ],
+      "quote": "Grandma Maeve's knees have been aching in the damp air... Can I trade my matchboxes for some ginger tea for her?",
+      "birthday": "Summer 22",
+      "schedule": "Morning: Practice yard; Evening: Sipping cold berry tea"
+    },
+    {
+      "id": "npc_amalia",
+      "name": "Grandmother Amalia",
+      "role": "Master Tea Artisan / Guiding Spirit",
+      "location": "Starlight Tea Shop (Grimoire & Memories)",
+      "species": "Human (Guiding Spirit)",
+      "description": "Rowan's late grandmother, legendary tea crafter whose warmth lives on through annotated grimoire margins and fond memory.",
+      "favorite_items": [
+        "la_tra_sen",
+        "item_flour"
+      ],
+      "quote": "True magic isn't found afar; it lives in the care you pour into each tea leaf and warm morsel you bake for another.",
+      "birthday": "Winter 28",
+      "schedule": "Present in grimoire margins, cherished memories, and dreams"
+    },
+    {
+      "id": "npc_bram",
+      "name": "Bram",
+      "role": "Crystal Mine Forager",
+      "location": "Oakhaven Crystal Mines",
+      "species": "Dwarf",
+      "description": "Veteran miner prospecting the deepest mine levels; Boris's younger brother. Gruff and argumentative, but fiercely devoted to family.",
+      "favorite_items": [
+        "ore_iron",
+        "ore_coal"
+      ],
+      "quote": "My brother Boris is lecturing me about brittle iron ore again... Brew me something deeply bitter so I can swallow my temper!",
+      "birthday": "Winter 15",
+      "schedule": "08:00 - 17:00: Mine shafts entrance; Evening: Arguing at Boris's forge"
+    },
+    {
+      "id": "npc_penny",
+      "name": "Penny",
+      "role": "Wandering Pastry Hawker",
+      "location": "Oakhaven Market",
+      "species": "Human",
+      "description": "Energetic, nimble pastry seller; niece of Boris and Bram. Quick-witted, cheerful, and always inventing eccentric new baked goods.",
+      "favorite_items": [
+        "pastry_scone_berry",
+        "item_sugar"
+      ],
+      "quote": "Uncle Boris just tapped out a star-shaped cookie cutter for me! Let me try that tart berry tea to inspire my next batch!",
+      "birthday": "Autumn 11",
+      "schedule": "08:00 - 16:00: Postal run; 18:00: Dropping letters off at the tea shop"
+    },
+    {
+      "id": "npc_orion",
+      "name": "Professor Orion",
+      "role": "Sleepless Royal Astrologer",
+      "location": "Hilltop Observatory Tower",
+      "species": "Human",
+      "description": "Astronomer stationed atop the hill observatory; Clara's father. Absentminded and so captivated by constellations that he forgets meals.",
+      "favorite_items": [
+        "bot_sao",
+        "gem_amethyst"
+      ],
+      "quote": "The Cygnus constellation just shifted three degrees... My eyes are blurring, do you have a brew that lets my thoughts rest for two hours?",
+      "birthday": "Autumn 25",
+      "schedule": "Night: Stargazing at Observatory; Morning: Napping in library"
+    },
+    {
+      "id": "npc_clara",
+      "name": "Clara",
+      "role": "Town Archivist & Librarian",
+      "location": "Oakhaven Town Library",
+      "species": "Human",
+      "description": "Meticulous curator of Oakhaven's archives; Orion's daughter. Organized, caring, and constantly reminding her father to take care of himself.",
+      "favorite_items": [
+        "tra_oai_huong_ngan_sao",
+        "la_tra_sen"
+      ],
+      "quote": "Father stayed up in the observatory tower for two days without food again... Could you brew a big pot of chamomile tea so I can make him drink it?",
+      "birthday": "Spring 16",
+      "schedule": "08:00 - 17:00: Library and dispensary; Evening: Calming lavender tea"
+    },
+    {
+      "id": "npc_garrick",
+      "name": "Captain Garrick",
+      "role": "Veteran Cloud-Sea Mariner",
+      "location": "Cloud-Sea Docks / Star Lake Harbor",
+      "species": "Human",
+      "description": "Weathered sea captain who has hung up his oars; Finn's grandfather. Delights in recounting tales of uncharted celestial islands.",
+      "favorite_items": [
+        "drop_crystal_sea_salt",
+        "tra_anh_duong"
+      ],
+      "quote": "The valley wind smells of the great outer seas of my youth... Give an old sailor a robust spiced cup and listen to my stories of the floating isles.",
+      "birthday": "Summer 2",
+      "schedule": "Sunday Morning: Anchoring his nautilus vessel by the pier market"
+    },
+    {
+      "id": "npc_finn",
+      "name": "Finn",
+      "role": "Star-Angler Boy",
+      "location": "Riverside / Mist Lake Shallows",
+      "species": "Human",
+      "description": "Spirited boy who fishes along mountain streams and misty lakes; Garrick's grandson. Fascinated by luminous aquatic fauna.",
+      "favorite_items": [
+        "drop_prism_jelly",
+        "dau_rung"
+      ],
+      "quote": "I hooked a huge rainbow-glowing trout today! Grandpa Garrick said I could bring it by the tea shop for a frosty peppermint refresher!",
+      "birthday": "Summer 19",
+      "schedule": "06:00 - 18:00: Angling by the starlight brook; Evening: Warming by hearth"
+    },
+    {
+      "id": "npc_elora",
+      "name": "Elora",
+      "role": "Gala Robe Seamstress",
+      "location": "Sylva-Fae Glade (Evening Visitor)",
+      "species": "Elf",
+      "description": "Graceful seamstress tailoring moonlight velvet robes; Sylvan's kindred spirit. Her fingers ache from days of meticulous silver needlework.",
+      "favorite_items": [
+        "drop_golden_pollen",
+        "oai_huong"
+      ],
+      "quote": "My fingertips sting from stitching gala robes with silver needles all day... Is there a jasmine blend that eases weary hands?",
+      "birthday": "Spring 5",
+      "schedule": "All day: Tending Sylva-Fae canopy silk greenhouse"
+    },
+    {
+      "id": "npc_sylvan",
+      "name": "Sylvan",
+      "role": "Monocle Master Herbalist",
+      "location": "Sylva-Fae Glade",
+      "species": "Human",
+      "description": "Monocled botanical researcher from the elven woods; Elora's confidant. Frequently trades ancient roots for grounding, hearty teas.",
+      "favorite_items": [
+        "seed_star_lavender",
+        "la_tra_sen"
+      ],
+      "quote": "Poisonous mist hangs dense over the woods tonight... I brought you millennium roots, would you trade a warming earthy brew for them?",
+      "birthday": "Spring 24",
+      "schedule": "Afternoon & Evening: Patrolling Sylva-Fae ancient boughs"
+    },
+    {
+      "id": "npc_marlo",
+      "name": "Marlo",
+      "role": "Nightwatch Sentinel",
+      "location": "Oakhaven Town (Night Shifts)",
+      "species": "Human",
+      "description": "Steadfast town guard keeping watch through long, freezing snowy nights while Oakhaven slumbers peacefully.",
+      "favorite_items": [
+        "bread_brioche",
+        "ore_iron"
+      ],
+      "quote": "Wind howls right through the gaps in my armor... On long night patrols, only your spicy tea keeps my eyes from snapping shut.",
+      "birthday": "Autumn 13",
+      "schedule": "07:00 - 17:00: Operating Oakhaven windmill grinding flour"
+    },
+    {
+      "id": "npc_aurelia",
+      "name": "Aurelia",
+      "role": "Remedy Apothecary",
+      "location": "Oakhaven Clinic",
+      "species": "Human",
+      "description": "Caring town healer running the dispensary clinic. Believes wholesome teas heal spirits far deeper than bitter salves alone.",
+      "favorite_items": [
+        "oai_huong",
+        "mat_ong"
+      ],
+      "quote": "Potions only close surface wounds... Townspeople need your warm herbal teas to soothe their deeper quiet sorrows.",
+      "birthday": "Summer 21",
+      "schedule": "Morning: Honeybee apiary; Afternoon: Delivering fresh honey to shop"
+    },
+    {
+      "id": "npc_valen",
+      "name": "Valen",
+      "role": "Vegetarian Vampire Noble",
+      "location": "Sorcerer's Citadel",
+      "species": "Vampire",
+      "description": "A refined vegetarian vampire aristocrat; terrified of garlic but utterly enchanted by ruby-red sweet berry infusions. Visits only after dusk.",
+      "favorite_items": [
+        "tra_dau_bang_tuyet",
+        "dau_rung"
+      ],
+      "quote": "The aroma of garlic bread from your shop drifted all the way to my parapet and made me faint... Please, a goblet of crimson sweet tea to restore my poise!",
+      "birthday": "Winter 10",
+      "schedule": "Patrolling the marble plaza of Solaria Capital of Light"
+    },
+    {
+      "id": "npc_kassandra",
+      "name": "Kassandra",
+      "role": "Exiled Meteor Sorceress",
+      "location": "Sky Realm Vagabond",
+      "species": "Human (Sorceress)",
+      "description": "Nomadic comet sorceress drifting through cloud currents; her enchanted broomstick frequently runs low on mana mid-flight.",
+      "favorite_items": [
+        "bot_sao",
+        "gem_sapphire"
+      ],
+      "quote": "My broomstick is running low on arcane ether mid-cloud... Do you have a tea infused with canopy night dew to replenish my spells?",
+      "birthday": "Autumn 8",
+      "schedule": "Managing merchant expeditions in Solaria Capital"
+    },
+    {
+      "id": "npc_chrono",
+      "name": "Chrono",
+      "role": "Ancient Clockwork Automaton",
+      "location": "Underground Dwarven Megalopolis",
+      "species": "Android (Automaton)",
+      "description": "Clockwork relic remaining from a lost civilization; speaks with a rhythmic tick-tock cadence and needs periodic chamomile oil lubrication.",
+      "favorite_items": [
+        "ore_gold",
+        "da_tinh_the"
+      ],
+      "quote": "Tick-tock... Left chest gear mechanism grinding... Requesting 200ml warm floral lubricant with chamomile essence... Tick-tock...",
+      "birthday": "Winter 27",
+      "schedule": "Tending the perpetual clockwork waterwheels in Khaz-Drakor"
+    },
+    {
+      "id": "npc_lapis",
+      "name": "Lapis",
+      "role": "Air-Bubble Mermaid",
+      "location": "Mist Sea",
+      "species": "Mermaid",
+      "description": "A buoyant mermaid journeying onto dry land for the first time, delightfully captivated by warm pastries that dissolve on the tongue.",
+      "favorite_items": [
+        "drop_crystal_sea_salt",
+        "gem_sapphire"
+      ],
+      "quote": "Down in the deep ocean, everything is perpetually soggy... Tasting hot, crispy pastries that melt away like sweet foam is sheer wonder!",
+      "birthday": "Summer 17",
+      "schedule": "Prospecting deep crystal caverns in the Khaz-Drakor mines"
+    }
+  ]
+}

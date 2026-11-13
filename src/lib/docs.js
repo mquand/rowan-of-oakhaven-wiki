@@ -2,8 +2,17 @@ import fs from 'node:fs';
 import path from 'node:path';
 import matter from 'gray-matter';
 import { marked } from 'marked';
+import { DEFAULT_LOCALE } from './i18n/config';
 
-const DOCS_DIR = path.join(process.cwd(), 'docs');
+const BASE_DOCS_DIR = path.join(process.cwd(), 'docs');
+
+function getDocsDir(lang = DEFAULT_LOCALE) {
+  const langDir = path.join(BASE_DOCS_DIR, lang);
+  if (fs.existsSync(langDir)) return langDir;
+  const viDir = path.join(BASE_DOCS_DIR, 'vi');
+  if (fs.existsSync(viDir)) return viDir;
+  return BASE_DOCS_DIR;
+}
 
 // YAML có thể trả về Date; chuẩn hóa thành chuỗi ISO ngắn (YYYY-MM-DD)
 function normalizeDate(value) {
@@ -12,15 +21,15 @@ function normalizeDate(value) {
   return String(value);
 }
 
-export function getAllDocs() {
-  if (!fs.existsSync(DOCS_DIR)) return [];
+export function getAllDocs(lang = DEFAULT_LOCALE) {
+  const dir = getDocsDir(lang);
+  if (!fs.existsSync(dir)) return [];
 
-  const files = fs.readdirSync(DOCS_DIR)
-    .filter(file => file.endsWith('.md'));
+  const files = fs.readdirSync(dir).filter(file => file.endsWith('.md'));
   const docs = files.map(file => {
     const slug = file.replace(/\.md$/, '');
-    const fullPath = path.join(DOCS_DIR, file);
-    const fileContents = fs.readFileSync(fullPath, 'utf8');
+    const fullPath = path.join(/*turbopackIgnore: true*/ dir, file);
+    const fileContents = fs.readFileSync(/*turbopackIgnore: true*/ fullPath, 'utf8');
     const { data } = matter(fileContents);
 
     return {
@@ -37,8 +46,14 @@ export function getAllDocs() {
   return docs;
 }
 
-export async function getDocBySlug(slug) {
-  const fullPath = path.join(DOCS_DIR, `${slug}.md`);
+export async function getDocBySlug(slug, lang = DEFAULT_LOCALE) {
+  let fullPath = path.join(BASE_DOCS_DIR, lang, `${slug}.md`);
+  if (!fs.existsSync(fullPath)) {
+    fullPath = path.join(BASE_DOCS_DIR, 'vi', `${slug}.md`);
+  }
+  if (!fs.existsSync(fullPath)) {
+    fullPath = path.join(BASE_DOCS_DIR, `${slug}.md`);
+  }
   if (!fs.existsSync(fullPath)) return null;
 
   const fileContents = fs.readFileSync(fullPath, 'utf8');

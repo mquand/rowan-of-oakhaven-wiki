@@ -1,0 +1,81 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "version": "1.0.0",
+  "updated": "2026-11-12",
+  "weapons": [
+    {
+      "id": "starlight_blade",
+      "name": "Kiếm Pha Lê Sao",
+      "name_en": "Starlight Blade",
+      "weapon_type": "melee",
+      "description": "Thanh kiếm pha lê phát sáng — đòn đánh nhanh 3 nhịp, chém ra vệt bụi sao lấp lánh. Nhát chém thứ 3 làm vỡ vụn các tảng đá nhỏ xung quanh.",
+      "upgrade_path": "Nâng cấp tại Lò rèn Boris: Đồng → Sắt → Tinh Thể Sao",
+      "tags": [
+        "sword",
+        "magic",
+        "melee"
+      ],
+      "base_atk": 18,
+      "attack_speed": "Nhanh (3 nhịp/s)",
+      "reach": "Cận chiến (1.2 ô)",
+      "special_effect": "Nhát chém thứ 3 tạo sóng bụi sao làm vỡ đá nhỏ",
+      "materials_needed": "5 Quặng Đồng + 2 Than Đá tại Lò rèn Boris"
+    },
+    {
+      "id": "mystic_scythe",
+      "name": "Liềm Ma Thuật",
+      "name_en": "Mystic Scythe",
+      "weapon_type": "melee",
+      "description": "Chiếc liềm ma thuật có tầm quét hình bán nguyệt rộng — vừa đối phó đàn quái đông, vừa thu hoạch cả vạt thảo mộc và lúa mì chỉ trong 1 nhát vung.",
+      "upgrade_path": "Nâng cấp tại Lò rèn Boris",
+      "tags": [
+        "scythe",
+        "magic",
+        "aoe",
+        "harvest"
+      ],
+      "base_atk": 22,
+      "attack_speed": "Trung bình (1.5 nhịp/s)",
+      "reach": "Bán nguyệt rộng (2.5 ô)",
+      "special_effect": "Quét sạch đàn quái nhỏ & thu hoạch cây trồng diện rộng",
+      "materials_needed": "8 Quặng Đồng + 1 Đá Tinh Thể tại Lò rèn Boris"
+    },
+    {
+      "id": "spirit_lantern",
+      "name": "Đèn Lồng Bão Đom Đóm",
+      "name_en": "Spirit Lantern",
+      "weapon_type": "ranged",
+      "description": "Vũ khí ma thuật tầm xa bắn chùm đốm sáng xanh ngọc đẩy lùi quái — kiêm xua tan sương mù và soi sáng hang mỏ sâu.",
+      "upgrade_path": "Nâng cấp tại Lò rèn Boris",
+      "tags": [
+        "lantern",
+        "magic",
+        "ranged",
+        "light"
+      ],
+      "base_atk": 14,
+      "attack_speed": "Nhanh (2 tia sáng/s)",
+      "reach": "Tầm xa (6 ô thẳng)",
+      "special_effect": "Bắn đốm sáng đẩy lùi quái, soi sáng mỏ sâu và phá sương",
+      "materials_needed": "5 Quặng Sắt + 1 Tinh Chất Đom Đóm tại Lò rèn Boris"
+    },
+    {
+      "id": "whisk_hammer",
+      "name": "Gậy Quấy Trà Khổng Lồ",
+      "name_en": "Whisk Hammer",
+      "weapon_type": "heavy",
+      "description": "Vũ khí hạng nặng đập đất gây chấn động — phá vỡ giáp quái vật đá và quặng khoáng sản cùng lúc.",
+      "upgrade_path": "Nâng cấp tại Lò rèn Boris",
+      "tags": [
+        "hammer",
+        "heavy",
+        "aoe"
+      ],
+      "base_atk": 36,
+      "attack_speed": "Chậm (0.8 nhịp/s)",
+      "reach": "Chấn động diện rộng (2.0 ô)",
+      "special_effect": "Đập đất slam phá tan giáp quái vật đá và khối quặng",
+      "materials_needed": "10 Quặng Sắt + 2 Đá Tinh Thể tại Lò rèn Boris"
+    }
+  ]
+}

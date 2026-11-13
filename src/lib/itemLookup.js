@@ -1,56 +1,58 @@
-import itemsJson from '../../docs/data/items.json';
-import recipesJson from '../../docs/data/recipes.json';
+import itemsVi from '../../docs/data/vi/items.json';
+import itemsEn from '../../docs/data/en/items.json';
+import recipesVi from '../../docs/data/vi/recipes.json';
+import recipesEn from '../../docs/data/en/recipes.json';
+import { CATEGORY_ICONS } from './constants';
+import { DEFAULT_LOCALE } from './i18n/config';
 
-const items = itemsJson.items || [];
-const recipes = recipesJson.recipes || [];
-
-const CATEGORY_ICONS = {
-  seed: 'plant',
-  ingredient: 'grains',
-  mineral: 'mountains',
-  gem: 'diamond',
-  monster_drop: 'sparkle',
-  tea: 'tea-bag',
-  bakery: 'cake',
+const DATA = {
+  vi: {
+    items: itemsVi.items || [],
+    recipes: recipesVi.recipes || [],
+  },
+  en: {
+    items: itemsEn.items || [],
+    recipes: recipesEn.recipes || [],
+  },
 };
 
-const lookupMap = new Map();
-
-for (const it of items) {
-  lookupMap.set(it.id, {
-    id: it.id,
-    name: it.name,
-    type: 'item',
-    category: it.category,
-    icon: CATEGORY_ICONS[it.category] || 'package',
-    href: `/database/items/${it.id}`,
-    rarity: it.rarity || 'common',
-    sell_price: it.sell_price,
-  });
-}
-
-for (const r of recipes) {
-  const isTea = r.station === 'tea_station';
-  lookupMap.set(r.id, {
-    id: r.id,
-    name: r.name,
-    type: 'recipe',
-    category: isTea ? 'tea' : 'bakery',
-    icon: isTea ? 'tea-bag' : 'cake',
-    href: `/database/recipes#${r.id}`,
-    resultItemId: r.result_item_id,
-  });
-}
-
-export function lookupGift(id) {
+export function lookupGift(id, lang = DEFAULT_LOCALE) {
   if (!id) return null;
-  if (lookupMap.has(id)) return lookupMap.get(id);
+
+  const bundle = DATA[lang] || DATA[DEFAULT_LOCALE];
+  const foundItem = bundle.items.find(it => it.id === id);
+  if (foundItem) {
+    return {
+      id: foundItem.id,
+      name: foundItem.name,
+      type: 'item',
+      category: foundItem.category,
+      icon: CATEGORY_ICONS[foundItem.category] || 'package',
+      href: `/${lang}/database/items/${foundItem.id}`,
+      rarity: foundItem.rarity || 'common',
+      sell_price: foundItem.sell_price,
+    };
+  }
+
+  const foundRecipe = bundle.recipes.find(r => r.id === id);
+  if (foundRecipe) {
+    const isTea = foundRecipe.station === 'tea_station';
+    return {
+      id: foundRecipe.id,
+      name: foundRecipe.name,
+      type: 'recipe',
+      category: isTea ? 'tea' : 'bakery',
+      icon: isTea ? 'tea-bag' : 'cake',
+      href: `/${lang}/database/recipes#${foundRecipe.id}`,
+      resultItemId: foundRecipe.result_item_id,
+    };
+  }
 
   return {
     id,
     name: id.replace(/^(item_|seed_|recipe_)/, '').replace(/_/g, ' '),
     type: 'item',
     icon: 'package',
-    href: `/database/items`,
+    href: `/${lang}/database/items`,
   };
 }

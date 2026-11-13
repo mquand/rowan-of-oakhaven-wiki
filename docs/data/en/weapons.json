@@ -1,0 +1,81 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "version": "1.0.0",
+  "updated": "2026-11-12",
+  "weapons": [
+    {
+      "id": "starlight_blade",
+      "name": "Starlight Blade",
+      "name_en": "Starlight Blade",
+      "weapon_type": "melee",
+      "description": "Luminescent crystal blade with a fluid 3-hit rhythm, leaving a trail of shimmering stardust. The third strike shatters minor surrounding rocks.",
+      "upgrade_path": "Upgrades at Boris's Forge: Copper → Iron → Starlight Crystal",
+      "tags": [
+        "sword",
+        "magic",
+        "melee"
+      ],
+      "base_atk": 18,
+      "attack_speed": "Fast (3 strikes/s)",
+      "reach": "Melee (1.2 tiles)",
+      "special_effect": "3rd strike releases a stardust shockwave that shatters small rocks",
+      "materials_needed": "5 Copper Ore + 2 Coal at Boris's Forge"
+    },
+    {
+      "id": "mystic_scythe",
+      "name": "Mystic Scythe",
+      "name_en": "Mystic Scythe",
+      "weapon_type": "melee",
+      "description": "Enchanted scythe with a wide semi-circular sweep — dual-purposed for controlling swarms of pests and reaping patches of wheat and herbs in one swing.",
+      "upgrade_path": "Upgrades at Boris's Forge",
+      "tags": [
+        "scythe",
+        "magic",
+        "aoe",
+        "harvest"
+      ],
+      "base_atk": 22,
+      "attack_speed": "Medium (1.5 strikes/s)",
+      "reach": "Wide semi-circle (2.5 tiles)",
+      "special_effect": "Sweeps small swarms & reaps wide farming plots",
+      "materials_needed": "8 Copper Ore + 1 Crystal Gem at Boris's Forge"
+    },
+    {
+      "id": "spirit_lantern",
+      "name": "Firefly Storm Lantern",
+      "name_en": "Spirit Lantern",
+      "weapon_type": "ranged",
+      "description": "Ranged magical focus that fires volleys of jade sparks, repelling hostile creatures while dispelling miasma and illuminating dark tunnels.",
+      "upgrade_path": "Upgrades at Boris's Forge",
+      "tags": [
+        "lantern",
+        "magic",
+        "ranged",
+        "light"
+      ],
+      "base_atk": 14,
+      "attack_speed": "Fast (2 bursts/s)",
+      "reach": "Ranged (6 straight tiles)",
+      "special_effect": "Knocks back monsters, illuminates deep shafts, and parts thick mist",
+      "materials_needed": "5 Iron Ore + 1 Firefly Essence at Boris's Forge"
+    },
+    {
+      "id": "whisk_hammer",
+      "name": "Colossal Tea Whisk Hammer",
+      "name_en": "Whisk Hammer",
+      "weapon_type": "heavy",
+      "description": "Heavy blunt warhammer that slams the ground to unleash shockwaves — pulverizing armored stone golems and mineral deposits simultaneously.",
+      "upgrade_path": "Upgrades at Boris's Forge",
+      "tags": [
+        "hammer",
+        "heavy",
+        "aoe"
+      ],
+      "base_atk": 36,
+      "attack_speed": "Slow (0.8 strikes/s)",
+      "reach": "Area Shockwave (2.0 tiles)",
+      "special_effect": "Slam shatters monster armor and mineral nodes",
+      "materials_needed": "10 Iron Ore + 2 Crystal Gems at Boris's Forge"
+    }
+  ]
+}

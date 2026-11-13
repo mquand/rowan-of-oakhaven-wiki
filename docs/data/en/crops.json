@@ -1,0 +1,135 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "version": "1.0.0",
+  "updated": "2026-11-12",
+  "crops": [
+    {
+      "id": "crop_sen_tea",
+      "name": "Lotus Tea Buds",
+      "description": "Crisp snow-lotus blossoms — the primary foundation herb for calming herbal tea blends.",
+      "seasons": [
+        "spring",
+        "summer"
+      ],
+      "growth_days": 4,
+      "regrow_days": 2,
+      "harvest_item_id": "la_tra_sen",
+      "tags": [
+        "tea",
+        "base",
+        "regrow"
+      ],
+      "seed_item_id": "seed_sen_tea",
+      "seed_price": 20,
+      "sell_price": 35,
+      "profit_per_day": "7.5 Gold/day"
+    },
+    {
+      "id": "crop_lumiberry",
+      "name": "Lumiberry",
+      "description": "Gently bioluminescent wild berries with a sweet-tart burst — ideal for scone preserves and berry teas.",
+      "seasons": [
+        "summer",
+        "autumn"
+      ],
+      "growth_days": 5,
+      "regrow_days": 3,
+      "harvest_item_id": "dau_rung",
+      "tags": [
+        "fruit",
+        "tea",
+        "regrow"
+      ],
+      "seed_item_id": "seed_lumiberry",
+      "seed_price": 25,
+      "sell_price": 40,
+      "profit_per_day": "8.0 Gold/day"
+    },
+    {
+      "id": "crop_silver_wheat",
+      "name": "Silver Wheat",
+      "description": "Glistening silver grain stalks — milled at the windmill into fine, aromatic baking flour.",
+      "seasons": [
+        "spring",
+        "summer",
+        "autumn"
+      ],
+      "growth_days": 4,
+      "regrow_days": 0,
+      "harvest_item_id": "item_flour",
+      "harvest_note": "1 wheat bundle → windmill for 5s → 2 bags of Fresh Flour",
+      "tags": [
+        "grain",
+        "bakery",
+        "mill"
+      ],
+      "seed_item_id": "seed_silver_wheat",
+      "seed_price": 15,
+      "sell_price": 30,
+      "profit_per_day": "3.75 Gold/day"
+    },
+    {
+      "id": "crop_star_lavender",
+      "name": "Starlight Lavender",
+      "description": "Lavender flowers that exhale a tranquil fragrance under clear starlight — soothes spirits and scents shortbread.",
+      "seasons": [
+        "spring",
+        "autumn"
+      ],
+      "growth_days": 6,
+      "regrow_days": 3,
+      "harvest_item_id": "oai_huong",
+      "tags": [
+        "herb",
+        "tea",
+        "calming",
+        "regrow"
+      ],
+      "seed_item_id": "seed_star_lavender",
+      "seed_price": 30,
+      "sell_price": 55,
+      "profit_per_day": "9.1 Gold/day"
+    },
+    {
+      "id": "crop_sun_daisy",
+      "name": "Sun Daisy",
+      "description": "Bright golden daisies that absorb the morning sunshine — brewed into invigorating stamina-recovery teas.",
+      "seasons": [
+        "spring",
+        "summer"
+      ],
+      "growth_days": 3,
+      "regrow_days": 0,
+      "harvest_item_id": "item_sun_daisy",
+      "tags": [
+        "flower",
+        "tea",
+        "energy"
+      ],
+      "seed_item_id": "seed_sun_daisy",
+      "seed_price": 18,
+      "sell_price": 38,
+      "profit_per_day": "6.6 Gold/day"
+    },
+    {
+      "id": "crop_sweet_pumpkin",
+      "name": "Honey Pumpkin",
+      "description": "Golden-orange autumn squash brimming with natural sweetness — the centerpiece for seasonal harvest pies.",
+      "seasons": [
+        "autumn"
+      ],
+      "growth_days": 8,
+      "regrow_days": 0,
+      "harvest_item_id": "item_sweet_pumpkin",
+      "tags": [
+        "vegetable",
+        "bakery",
+        "festival"
+      ],
+      "seed_item_id": "seed_sweet_pumpkin",
+      "seed_price": 35,
+      "sell_price": 85,
+      "profit_per_day": "6.25 Gold/day"
+    }
+  ]
+}

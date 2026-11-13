@@ -1,0 +1,109 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "version": "1.0.0",
+  "updated": "2026-11-12",
+  "perks": [
+    {
+      "id": "star_dash",
+      "name": "Stardust Dash",
+      "branch": "exploration",
+      "description": "Press Space to perform a rapid dash leaving a trail of stardust — dodging monster attacks and traversing mines swiftly.",
+      "unlock_hint": "Restore Chapter I of Grandma's Grimoire (Requires 3 Stardust Powder + 5 Crystal Gems)",
+      "tags": [
+        "movement",
+        "dodge",
+        "mining"
+      ],
+      "tier": "Tier I"
+    },
+    {
+      "id": "ore_sense",
+      "name": "Crystal Sight",
+      "branch": "exploration",
+      "description": "While wielding a pickaxe, subterranean walls containing precious ores shimmer brightly through the rock face.",
+      "unlock_hint": "Conquer Floor 25 of the Mines & gift Boris the Blacksmith 1 Amethyst Crystal",
+      "tags": [
+        "mining",
+        "detection"
+      ],
+      "tier": "Tier II"
+    },
+    {
+      "id": "wide_sweep",
+      "name": "Crescent Slash",
+      "branch": "exploration",
+      "description": "Increases sword and scythe attack arc width by 50%.",
+      "unlock_hint": "Forge your first Copper-tier weapon at Boris's Forge",
+      "tags": [
+        "combat",
+        "melee"
+      ],
+      "tier": "Tier I"
+    },
+    {
+      "id": "sprinkler_golem",
+      "name": "Automated Sprinkler",
+      "branch": "farming",
+      "description": "Crafted from Stone Crab Shell + Copper Ore — automatically irrigates a 3x3 plot every morning at 06:00.",
+      "unlock_hint": "Craft at Carpenter Workbench (Requires 5 Copper Ore + 1 Crystal Gem)",
+      "tags": [
+        "farming",
+        "automation",
+        "crafting"
+      ],
+      "tier": "Tier II"
+    },
+    {
+      "id": "auto_fermenter",
+      "name": "Auto-Preserve Jar",
+      "branch": "farming",
+      "description": "Crafted from Slime Jelly + Forest Hardwood — automatically ferments fruit jams and honey syrups.",
+      "unlock_hint": "Harvest your first Lumiberry crop & reach Farming Level 2",
+      "tags": [
+        "farming",
+        "automation",
+        "crafting"
+      ],
+      "tier": "Tier II"
+    },
+    {
+      "id": "empathy_sense",
+      "name": "Customer Empathy",
+      "branch": "tea",
+      "description": "Displays subtle emotion icons above visitors' heads when they step in — intuiting what tea or pastry they crave.",
+      "unlock_hint": "Reach Shop Fame Level 2 & serve 20 cups of Calming Lotus Tea",
+      "tags": [
+        "social",
+        "customers",
+        "utility"
+      ],
+      "tier": "Tier I"
+    },
+    {
+      "id": "golden_hands",
+      "name": "Golden Kneader",
+      "branch": "tea",
+      "description": "Increases dough kneading speed by 30%; grants a 20% chance for baked goods to achieve 3-Star Masterpiece quality.",
+      "unlock_hint": "Bake 15 Perfect-tier Brioche Breads",
+      "tags": [
+        "bakery",
+        "quality",
+        "speed"
+      ],
+      "tier": "Tier II"
+    },
+    {
+      "id": "parallel_brewing",
+      "name": "Dual Kettle Mastery",
+      "branch": "tea",
+      "description": "Allows placing two teapots simultaneously onto the stove, doubling tea brewing capacity.",
+      "unlock_hint": "Upgrade to Dual Stove Countertop at Boris's Forge (10 Iron Ore + 500 Gold)",
+      "tags": [
+        "tea",
+        "speed",
+        "capacity"
+      ],
+      "tier": "Tier III"
+    }
+  ]
+}

@@ -1,0 +1,384 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "version": "1.1.0",
+  "updated": "2026-11-12",
+  "monsters": [
+    {
+      "id": "furnace_cog_automaton",
+      "name": "Furnace Cog-Automaton",
+      "name_en": "Furnace Cog-Automaton",
+      "realm": "khaz-drakor",
+      "description": "Ancient derelict clockwork automaton with a glowing coal furnace in its belly, spewing suffocating steam and clanking gears.",
+      "weakness": "Weak to frost/blunt — crack the coal furnace with Starlight Blade or Whisk Hammer",
+      "loot": "Pure Gold Cogs",
+      "tags": [
+        "mechanical",
+        "fire",
+        "dwarven"
+      ],
+      "hp": 120,
+      "atk": 18,
+      "danger_level": 3,
+      "loot_items": [
+        {
+          "id": "ore_copper",
+          "name": "Copper Ore",
+          "chance": "70%"
+        },
+        {
+          "id": "ore_coal",
+          "name": "Coal",
+          "chance": "50%"
+        }
+      ]
+    },
+    {
+      "id": "magma_magnesnail",
+      "name": "Magma Magnesnail",
+      "name_en": "Magma Magnesnail",
+      "realm": "khaz-drakor",
+      "description": "Molten magnetic snail with a shell attracting scrap metal, crawling steadily through subterranean magma veins.",
+      "weakness": "Weak to impact — Mystic Scythe or Whisk Hammer shatters magnetic carapace",
+      "loot": "Copper Ingots & Fire Rubies",
+      "tags": [
+        "beast",
+        "lava",
+        "dwarven"
+      ],
+      "hp": 160,
+      "atk": 14,
+      "danger_level": 3,
+      "loot_items": [
+        {
+          "id": "ore_copper",
+          "name": "Copper Ore",
+          "chance": "65%"
+        },
+        {
+          "id": "gem_ruby",
+          "name": "Fire Ruby",
+          "chance": "25%"
+        }
+      ]
+    },
+    {
+      "id": "steam_mole_driller",
+      "name": "Steam-Mole Driller",
+      "name_en": "Steam-Mole Driller",
+      "realm": "khaz-drakor",
+      "description": "Mechanized mole wearing a brass hardhat drill, burrowing beneath granite bedrock to throw boulders upward.",
+      "weakness": "Weak to light — Spirit Lantern blinds and repels it",
+      "loot": "Ancient Mechanical Cogs",
+      "tags": [
+        "mechanical",
+        "underground",
+        "dwarven"
+      ],
+      "hp": 90,
+      "atk": 22,
+      "danger_level": 2,
+      "loot_items": [
+        {
+          "id": "item_stone",
+          "name": "Stone Pebbles",
+          "chance": "80%"
+        },
+        {
+          "id": "ore_iron",
+          "name": "Iron Ore",
+          "chance": "45%"
+        }
+      ]
+    },
+    {
+      "id": "gloom_root_strangler",
+      "name": "Gloom-Root Strangler",
+      "name_en": "Gloom-Root Strangler",
+      "realm": "sylva-fae",
+      "description": "Corrupted ancient roots entrapping wayward wanderers; its crown blossom bursts with disorienting spore pollen.",
+      "weakness": "Weak to fire/light — incinerate tangles with bright fire strikes",
+      "loot": "Rare Botanical Herbs",
+      "tags": [
+        "plant",
+        "dark",
+        "elven"
+      ],
+      "hp": 85,
+      "atk": 16,
+      "danger_level": 2,
+      "loot_items": [
+        {
+          "id": "drop_incense_mist",
+          "name": "Incense Mist Droplets",
+          "chance": "65%"
+        },
+        {
+          "id": "la_tra_sen",
+          "name": "Lotus Tea Leaves",
+          "chance": "30%"
+        }
+      ]
+    },
+    {
+      "id": "nectar_phantasm_moth",
+      "name": "Nectar Phantasm Moth",
+      "name_en": "Nectar Phantasm Moth",
+      "realm": "sylva-fae",
+      "description": "Enchanting silk moth with embroidered wings, fluttering downward to snatch sweet honey and fresh tea leaves from pouches.",
+      "weakness": "Weak to ranged light — Spirit Lantern bursts clip its wings",
+      "loot": "Bioluminescent Moth Wings",
+      "tags": [
+        "insect",
+        "flying",
+        "elven"
+      ],
+      "hp": 60,
+      "atk": 12,
+      "danger_level": 1,
+      "loot_items": [
+        {
+          "id": "drop_golden_pollen",
+          "name": "Golden Luminous Pollen",
+          "chance": "75%"
+        },
+        {
+          "id": "mat_ong",
+          "name": "Honey",
+          "chance": "40%"
+        }
+      ]
+    },
+    {
+      "id": "bramble_puck",
+      "name": "Bramble Puck",
+      "name_en": "Bramble Puck",
+      "realm": "sylva-fae",
+      "description": "Mischievous moss sprite sporting a mushroom cap, hurling mud pellets and tugging at witch hats.",
+      "weakness": "Weak to area sweeps — Mystic Scythe clears swarms effortlessly",
+      "loot": "Twinkling Starmud",
+      "tags": [
+        "spirit",
+        "mischief",
+        "elven"
+      ],
+      "hp": 70,
+      "atk": 15,
+      "danger_level": 2,
+      "loot_items": [
+        {
+          "id": "drop_prism_jelly",
+          "name": "Prismatic Crystal Jelly",
+          "chance": "55%"
+        },
+        {
+          "id": "dau_rung",
+          "name": "Wild Berries",
+          "chance": "35%"
+        }
+      ]
+    },
+    {
+      "id": "astral_hollow_knight",
+      "name": "Astral Hollow Knight",
+      "name_en": "Astral Hollow Knight",
+      "realm": "solaria",
+      "description": "Empty animated white marble armor patrolling to clocktower chimes, swinging a broadsword that casts crystal shockwaves.",
+      "weakness": "Weak to armor-breaking slams — Whisk Hammer shatters marble plate",
+      "loot": "Marble Armor Shards",
+      "tags": [
+        "undead",
+        "armor",
+        "royal"
+      ],
+      "hp": 240,
+      "atk": 32,
+      "danger_level": 4,
+      "loot_items": [
+        {
+          "id": "ore_gold",
+          "name": "Gold Ore",
+          "chance": "50%"
+        },
+        {
+          "id": "da_tinh_the",
+          "name": "Crystal Shards",
+          "chance": "40%"
+        }
+      ]
+    },
+    {
+      "id": "grimoire_mimic",
+      "name": "Grimoire Mimic",
+      "name_en": "Grimoire Mimic",
+      "realm": "solaria",
+      "description": "Brass-bound spell grimoire with fanged pages, fluttering furiously and chanting stunning ancient runes.",
+      "weakness": "Weak to fast melee — Starlight Blade 3-hit rhythm combo",
+      "loot": "Arcane Spell Pages",
+      "tags": [
+        "construct",
+        "flying",
+        "royal"
+      ],
+      "hp": 110,
+      "atk": 25,
+      "danger_level": 3,
+      "loot_items": [
+        {
+          "id": "bot_sao",
+          "name": "Stardust Powder",
+          "chance": "60%"
+        },
+        {
+          "id": "gem_amethyst",
+          "name": "Amethyst Gem",
+          "chance": "30%"
+        }
+      ]
+    },
+    {
+      "id": "mirror_glass_raven",
+      "name": "Mirror-Glass Raven",
+      "name_en": "Mirror-Glass Raven",
+      "realm": "solaria",
+      "description": "Giant corvid whose feathers are slivers of fractured mirrors, reflecting celestial starlight to blind intruders.",
+      "weakness": "Weak to light/impact — Spirit Lantern cracks mirror wings",
+      "loot": "Starlight Mirror Shards",
+      "tags": [
+        "beast",
+        "flying",
+        "royal"
+      ],
+      "hp": 105,
+      "atk": 24,
+      "danger_level": 3,
+      "loot_items": [
+        {
+          "id": "drop_crystal_sea_salt",
+          "name": "Crystal Sea Salt",
+          "chance": "60%"
+        },
+        {
+          "id": "da_tinh_the",
+          "name": "Crystal Shards",
+          "chance": "45%"
+        }
+      ]
+    },
+    {
+      "id": "solar_gryphon",
+      "name": "Solar Gryphon",
+      "name_en": "Solar Gryphon",
+      "realm": "aethelgard",
+      "description": "Majestic chimera of white clouds and radiant sunlight, guardian of the Tree of Longevity in the celestial clouds.",
+      "weakness": "Weak to heavy strikes — requires high-tier enchanted gear & agile dodging",
+      "loot": "Solar Cloud Plumes",
+      "tags": [
+        "mythic",
+        "guardian",
+        "elysium"
+      ],
+      "hp": 380,
+      "atk": 45,
+      "danger_level": 5,
+      "loot_items": [
+        {
+          "id": "gem_ruby",
+          "name": "Fire Ruby",
+          "chance": "60%"
+        },
+        {
+          "id": "bot_sao",
+          "name": "Stardust Powder",
+          "chance": "80%"
+        }
+      ]
+    },
+    {
+      "id": "aurora_stag",
+      "name": "Aurora Stag",
+      "name_en": "Aurora Stag",
+      "realm": "aethelgard",
+      "description": "Sacred celestial stag whose majestic antlers are living ribbons of aurora dancing across the night sky.",
+      "weakness": "Weak to celestial starlight — requires high-grade Starlight weaponry",
+      "loot": "Aurora Plume (unlocks celestial mount)",
+      "tags": [
+        "mythic",
+        "spirit",
+        "elysium"
+      ],
+      "hp": 420,
+      "atk": 40,
+      "danger_level": 5,
+      "loot_items": [
+        {
+          "id": "drop_moon_berry",
+          "name": "Moonlight Berries",
+          "chance": "85%"
+        },
+        {
+          "id": "gem_sapphire",
+          "name": "Frost Sapphire",
+          "chance": "50%"
+        }
+      ]
+    },
+    {
+      "id": "poltergeist_kettle",
+      "name": "Poltergeist Kettle",
+      "name_en": "Poltergeist Kettle",
+      "realm": "oakhaven",
+      "description": "Haunted antique copper kettle hovering through old mine shafts, whistling loudly and venting scalded herbal steam.",
+      "weakness": "Weak to light/impact — Spirit Lantern + Starlight Blade",
+      "loot": "Ancient Teapot Shards",
+      "tags": [
+        "spirit",
+        "haunted",
+        "local"
+      ],
+      "hp": 75,
+      "atk": 15,
+      "danger_level": 1,
+      "loot_items": [
+        {
+          "id": "da_tinh_the",
+          "name": "Crystal Shards",
+          "chance": "70%"
+        },
+        {
+          "id": "la_tra_sen",
+          "name": "Lotus Tea Leaves",
+          "chance": "40%"
+        }
+      ]
+    },
+    {
+      "id": "dark_crystal_scarab",
+      "name": "Dark Crystal Scarab",
+      "name_en": "Dark Crystal Scarab",
+      "realm": "oakhaven",
+      "description": "Subterranean beetle whose carapace is a jagged cluster of dark smoky quartz, clinging to cave walls.",
+      "weakness": "Weak to blunt force — Whisk Hammer pulverizes its crystal shell",
+      "loot": "Smoky Quartz Shards",
+      "tags": [
+        "beetle",
+        "crystal",
+        "local"
+      ],
+      "hp": 95,
+      "atk": 18,
+      "danger_level": 2,
+      "loot_items": [
+        {
+          "id": "gem_amethyst",
+          "name": "Amethyst Gem",
+          "chance": "45%"
+        },
+        {
+          "id": "ore_coal",
+          "name": "Coal",
+          "chance": "60%"
+        }
+      ]
+    }
+  ]
+}

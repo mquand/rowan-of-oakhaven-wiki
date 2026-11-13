@@ -1,106 +1,74 @@
 import fs from 'node:fs';
 import path from 'node:path';
+import { DEFAULT_LOCALE } from './i18n/config';
+import { getRealmLabel, getSeasonLabel } from './constants';
 
-const DATA_DIR = path.join(process.cwd(), 'docs/data');
+const BASE_DATA_DIR = path.join(process.cwd(), 'docs/data');
 
-const REALM_NAMES = {
-  oakhaven: 'Thị trấn Oakhaven',
-  solaria: 'Kinh Đô Ánh Sáng Solaria',
-  'sylva-fae': 'Đại Rừng Yêu Tinh Sylva-Fae',
-  'khaz-drakor': 'Đại Đô Thị Ngầm Khaz-Drakor',
-  aethelgard: 'Địa Đàng Cực Quang Aethelgard',
-};
-
-const SEASON_NAMES = {
-  spring: 'Xuân',
-  summer: 'Hạ',
-  autumn: 'Thu',
-  winter: 'Đông',
-};
-
-export function getItems() {
-  const filePath = path.join(DATA_DIR, 'items.json');
-  if (!fs.existsSync(filePath)) return [];
-  try {
-    const raw = fs.readFileSync(filePath, 'utf8');
-    const json = JSON.parse(raw);
-    return json.items || [];
-  } catch (err) {
-    console.error('Failed to load items.json:', err);
-    return [];
-  }
+function resolveDataFilePath(fileName, lang = DEFAULT_LOCALE) {
+  const langPath = path.join(BASE_DATA_DIR, lang, fileName);
+  if (fs.existsSync(langPath)) return langPath;
+  const viPath = path.join(BASE_DATA_DIR, 'vi', fileName);
+  if (fs.existsSync(viPath)) return viPath;
+  return path.join(BASE_DATA_DIR, fileName);
 }
 
-export function getItemById(id) {
-  return getItems().find(item => item.id === id) || null;
-}
-
-export function getRecipes() {
-  const filePath = path.join(DATA_DIR, 'recipes.json');
-  if (!fs.existsSync(filePath)) return [];
-  try {
-    const raw = fs.readFileSync(filePath, 'utf8');
-    const json = JSON.parse(raw);
-    return json.recipes || [];
-  } catch (err) {
-    console.error('Failed to load recipes.json:', err);
-    return [];
-  }
-}
-
-export function getRecipeById(id) {
-  return getRecipes().find(r => r.id === id) || null;
-}
-
-export function getRecipeByResultItem(itemId) {
-  return getRecipes().find(r => r.result_item_id === itemId) || null;
-}
-
-export function getRecipesUsingItem(itemId) {
-  return getRecipes().filter(recipe =>
-    (recipe.ingredients || []).some(ing => ing.id === itemId)
-  );
-}
-
-export function getCharacters() {
-  const filePath = path.join(DATA_DIR, 'characters.json');
-  if (!fs.existsSync(filePath)) return [];
-  try {
-    const raw = fs.readFileSync(filePath, 'utf8');
-    const json = JSON.parse(raw);
-    return json.characters || [];
-  } catch (err) {
-    console.error('Failed to load characters.json:', err);
-    return [];
-  }
-}
-
-export function getCharacterById(id) {
-  return getCharacters().find(c => c.id === id) || null;
-}
-
-function getCollection(fileName, key) {
-  const filePath = path.join(DATA_DIR, fileName);
+function getCollection(fileName, key, lang = DEFAULT_LOCALE) {
+  const filePath = resolveDataFilePath(fileName, lang);
   if (!fs.existsSync(filePath)) return [];
   try {
     const raw = fs.readFileSync(filePath, 'utf8');
     const json = JSON.parse(raw);
     return json[key] || [];
   } catch (err) {
-    console.error(`Failed to load ${fileName}:`, err);
+    console.error(`Failed to load ${fileName} for lang "${lang}":`, err);
     return [];
   }
 }
 
-export const getCrops = () => getCollection('crops.json', 'crops');
-export const getMonsters = () => getCollection('monsters.json', 'monsters');
-export const getWeapons = () => getCollection('weapons.json', 'weapons');
-export const getPerks = () => getCollection('perks.json', 'perks');
-export const getLocations = () => getCollection('locations.json', 'locations');
+export function getItems(lang = DEFAULT_LOCALE) {
+  return getCollection('items.json', 'items', lang);
+}
 
-export function getCharactersWhoLoveItem(itemId) {
-  const characters = getCharacters();
-  const item = getItemById(itemId);
+export function getItemById(id, lang = DEFAULT_LOCALE) {
+  return getItems(lang).find(item => item.id === id) || null;
+}
+
+export function getRecipes(lang = DEFAULT_LOCALE) {
+  return getCollection('recipes.json', 'recipes', lang);
+}
+
+export function getRecipeById(id, lang = DEFAULT_LOCALE) {
+  return getRecipes(lang).find(r => r.id === id) || null;
+}
+
+export function getRecipeByResultItem(itemId, lang = DEFAULT_LOCALE) {
+  return getRecipes(lang).find(r => r.result_item_id === itemId) || null;
+}
+
+export function getRecipesUsingItem(itemId, lang = DEFAULT_LOCALE) {
+  return getRecipes(lang).filter(recipe =>
+    (recipe.ingredients || []).some(ing => ing.id === itemId)
+  );
+}
+
+export function getCharacters(lang = DEFAULT_LOCALE) {
+  return getCollection('characters.json', 'characters', lang);
+}
+
+export function getCharacterById(id, lang = DEFAULT_LOCALE) {
+  return getCharacters(lang).find(c => c.id === id) || null;
+}
+
+export const getCrops = (lang = DEFAULT_LOCALE) => getCollection('crops.json', 'crops', lang);
+export const getMonsters = (lang = DEFAULT_LOCALE) => getCollection('monsters.json', 'monsters', lang);
+export const getWeapons = (lang = DEFAULT_LOCALE) => getCollection('weapons.json', 'weapons', lang);
+export const getPerks = (lang = DEFAULT_LOCALE) => getCollection('perks.json', 'perks', lang);
+export const getLocations = (lang = DEFAULT_LOCALE) => getCollection('locations.json', 'locations', lang);
+
+export function getCharactersWhoLoveItem(itemId, lang = DEFAULT_LOCALE) {
+  const characters = getCharacters(lang);
+  const item = getItemById(itemId, lang);
   return characters.filter(c =>
     (c.favorite_items || []).some(favId => {
       if (favId === itemId) return true;
@@ -110,14 +78,15 @@ export function getCharactersWhoLoveItem(itemId) {
   );
 }
 
-export function getItemSources(itemId) {
-  const item = getItemById(itemId);
+export function getItemSources(itemId, lang = DEFAULT_LOCALE) {
+  const item = getItemById(itemId, lang);
   if (!item) return [];
 
+  const isEn = lang === 'en';
   const sources = [];
 
   // 1. Chế biến từ công thức (Trạm Pha Trà / Lò Nướng Bánh)
-  const craftingRecipe = getRecipeByResultItem(itemId);
+  const craftingRecipe = getRecipeByResultItem(itemId, lang);
   if (craftingRecipe) {
     const ingText = (craftingRecipe.ingredients || [])
       .map(i => `${i.name} x${i.quantity}`)
@@ -125,27 +94,35 @@ export function getItemSources(itemId) {
     const isTea = craftingRecipe.station === 'tea_station';
     sources.push({
       type: 'crafting',
-      title: `Chế biến tại ${isTea ? 'Trạm Pha Trà' : 'Lò Nướng Bánh Thần Kỳ'}`,
-      description: `Nguyên liệu: ${ingText} · Thời gian: ${craftingRecipe.duration_seconds}s`,
-      href: `/database/recipes#${craftingRecipe.id}`,
-      badge: isTea ? 'Trạm Pha Trà' : 'Lò Nướng Bánh',
+      title: isEn
+        ? `Crafted at ${isTea ? 'Tea Crafting Station' : 'Magic Bakery Oven'}`
+        : `Chế biến tại ${isTea ? 'Trạm Pha Trà' : 'Lò Nướng Bánh Thần Kỳ'}`,
+      description: isEn
+        ? `Ingredients: ${ingText} · Duration: ${craftingRecipe.duration_seconds}s`
+        : `Nguyên liệu: ${ingText} · Thời gian: ${craftingRecipe.duration_seconds}s`,
+      href: `/${lang}/database/recipes#${craftingRecipe.id}`,
+      badge: isTea
+        ? (isEn ? 'Tea Station' : 'Trạm Pha Trà')
+        : (isEn ? 'Bakery Oven' : 'Lò Nướng Bánh'),
       icon: isTea ? 'tea-bag' : 'cake',
     });
   }
 
   // 2. Thu hoạch từ cây trồng (crops)
-  const crops = getCrops();
+  const crops = getCrops(lang);
   const matchingCrop = crops.find(c => c.harvest_item_id === itemId);
   if (matchingCrop) {
     const seasonsText = (matchingCrop.seasons || [])
-      .map(s => SEASON_NAMES[s] || s)
+      .map(s => getSeasonLabel(s, lang))
       .join(', ');
     sources.push({
       type: 'crop',
-      title: `Thu hoạch từ ${matchingCrop.name}`,
-      description: `Mùa vụ: ${seasonsText} · Sinh trưởng ${matchingCrop.growth_days} ngày${matchingCrop.regrow_days > 0 ? ` (tái sinh mỗi ${matchingCrop.regrow_days} ngày)` : ''}`,
-      href: `/database/crops`,
-      badge: 'Nông Trại Bốn Mùa',
+      title: isEn ? `Harvested from ${matchingCrop.name}` : `Thu hoạch từ ${matchingCrop.name}`,
+      description: isEn
+        ? `Seasons: ${seasonsText} · Growth: ${matchingCrop.growth_days} days${matchingCrop.regrow_days > 0 ? ` (regrows every ${matchingCrop.regrow_days} days)` : ''}`
+        : `Mùa vụ: ${seasonsText} · Sinh trưởng ${matchingCrop.growth_days} ngày${matchingCrop.regrow_days > 0 ? ` (tái sinh mỗi ${matchingCrop.regrow_days} ngày)` : ''}`,
+      href: `/${lang}/database/crops`,
+      badge: isEn ? 'Four Seasons Farm' : 'Nông Trại Bốn Mùa',
       icon: 'farm',
     });
   }
@@ -154,28 +131,38 @@ export function getItemSources(itemId) {
   if (item.category === 'seed') {
     sources.push({
       type: 'shop',
-      title: 'Cửa hàng hạt giống Maeve & Cú Pip mang về',
-      description: 'Mua tại quầy hạt giống Maeve ở Quảng trường Oakhaven hoặc nhận từ chú cú Pip sau chuyến bay đêm.',
-      badge: 'Thương nhân / Hòm thư',
+      title: isEn
+        ? "Maeve's Seed Stand & Pip's Night Foraging"
+        : 'Cửa hàng hạt giống Maeve & Cú Pip mang về',
+      description: isEn
+        ? "Purchase at Maeve's stall in Oakhaven Square or receive from Pip after night flights."
+        : 'Mua tại quầy hạt giống Maeve ở Quảng trường Oakhaven hoặc nhận từ chú cú Pip sau chuyến bay đêm.',
+      badge: isEn ? 'Merchant / Mailbox' : 'Thương nhân / Hòm thư',
       icon: 'package',
     });
   }
 
   // 4. Rơi từ quái vật (monsters)
-  const monsters = getMonsters();
+  const monsters = getMonsters(lang);
   const matchingMonsters = monsters.filter(m =>
     (m.loot_items && m.loot_items.some(l => l.id === itemId)) ||
     (m.loot && m.loot.toLowerCase().includes(item.name.toLowerCase()))
   );
   for (const m of matchingMonsters) {
     const lootMatch = (m.loot_items || []).find(l => l.id === itemId);
-    const chanceText = lootMatch?.chance ? ` (Tỉ lệ rơi: ${lootMatch.chance})` : '';
+    const chanceText = lootMatch?.chance
+      ? (isEn ? ` (Drop rate: ${lootMatch.chance})` : ` (Tỉ lệ rơi: ${lootMatch.chance})`)
+      : '';
     sources.push({
       type: 'monster',
-      title: `Rơi khi hạ ${m.name}${chanceText}`,
-      description: `Khu vực: ${REALM_NAMES[m.realm] || m.realm} · Điểm yếu: ${m.weakness || 'Không rõ'}`,
-      href: `/database/monsters`,
-      badge: 'Chiến đấu',
+      title: isEn
+        ? `Dropped upon defeating ${m.name}${chanceText}`
+        : `Rơi khi hạ ${m.name}${chanceText}`,
+      description: isEn
+        ? `Realm: ${getRealmLabel(m.realm, lang)} · Weakness: ${m.weakness || 'Unknown'}`
+        : `Khu vực: ${getRealmLabel(m.realm, lang)} · Điểm yếu: ${m.weakness || 'Không rõ'}`,
+      href: `/${lang}/database/monsters`,
+      badge: isEn ? 'Combat' : 'Chiến đấu',
       icon: 'sparkle',
     });
   }
@@ -184,9 +171,13 @@ export function getItemSources(itemId) {
   if (item.category === 'mineral' || item.category === 'gem') {
     sources.push({
       type: 'mining',
-      title: 'Khai thác hang mỏ Rừng Thầm Thì (Mỏ 100 Tầng)',
-      description: 'Dùng cuốc đập đá khoáng sản và vỉa tinh thể ở các tầng hầm mỏ sâu.',
-      badge: 'Khai khoáng',
+      title: isEn
+        ? 'Mined in Whisperwood Caverns (100-Floor Mine)'
+        : 'Khai thác hang mỏ Rừng Thầm Thì (Mỏ 100 Tầng)',
+      description: isEn
+        ? 'Mine ore veins and crystal clusters using a pickaxe in subterranean depths.'
+        : 'Dùng cuốc đập đá khoáng sản và vỉa tinh thể ở các tầng hầm mỏ sâu.',
+      badge: isEn ? 'Mining' : 'Khai khoáng',
       icon: 'mountains',
     });
   }
@@ -194,24 +185,24 @@ export function getItemSources(itemId) {
   return sources;
 }
 
-export function getRelatedItems(itemId, limit = 4) {
-  const current = getItemById(itemId);
+export function getRelatedItems(itemId, limit = 4, lang = DEFAULT_LOCALE) {
+  const current = getItemById(itemId, lang);
   if (!current) return [];
 
-  return getItems()
+  return getItems(lang)
     .filter(it => it.id !== itemId && it.category === current.category)
     .slice(0, limit);
 }
 
-export function getDatabaseStats() {
-  const items = getItems();
-  const recipes = getRecipes();
-  const characters = getCharacters();
-  const crops = getCrops();
-  const monsters = getMonsters();
-  const weapons = getWeapons();
-  const perks = getPerks();
-  const locations = getLocations();
+export function getDatabaseStats(lang = DEFAULT_LOCALE) {
+  const items = getItems(lang);
+  const recipes = getRecipes(lang);
+  const characters = getCharacters(lang);
+  const crops = getCrops(lang);
+  const monsters = getMonsters(lang);
+  const weapons = getWeapons(lang);
+  const perks = getPerks(lang);
+  const locations = getLocations(lang);
 
   return {
     items: items.length,

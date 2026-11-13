@@ -1,0 +1,252 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "version": "1.0.0",
+  "updated": "2026-11-12",
+  "locations": [
+    {
+      "id": "oakhaven",
+      "name": "Oakhaven Town (The Stardust Valley)",
+      "name_en": "Oakhaven / The Stardust Valley",
+      "location_type": "starting_town",
+      "description": "The cozy hamlet where Rowan inherits Grandmother Amalia's tea shop — a moss-shingled timber home by the Whisperwood crossroads, riverside herbal plots, a vintage windmill, Boris's forge, and the 100-floor crystal mines.",
+      "unlock_condition": "Available from game prologue",
+      "notable_npcs": [
+        "npc_rowan",
+        "npc_lumi",
+        "npc_boris",
+        "npc_maeve",
+        "npc_kael",
+        "npc_bram",
+        "npc_penny",
+        "npc_orion",
+        "npc_clara",
+        "npc_garrick",
+        "npc_finn",
+        "npc_marlo",
+        "npc_aurelia"
+      ],
+      "features": [
+        "Starlight Tea Shop",
+        "Herbal Farm",
+        "Windmill",
+        "Blacksmith Forge",
+        "100-Floor Mine",
+        "Observatory Tower",
+        "Town Library",
+        "Apothecary Clinic"
+      ],
+      "tags": [
+        "town",
+        "starting",
+        "home"
+      ],
+      "npcs": [
+        {
+          "id": "npc_rowan",
+          "name": "Rowan",
+          "role": "Keeper of the Starlight Tea Shop"
+        },
+        {
+          "id": "npc_lumi",
+          "name": "Lumi",
+          "role": "Whisperwood Glade Spirit"
+        },
+        {
+          "id": "npc_boris",
+          "name": "Boris Barnaby",
+          "role": "Town Blacksmith"
+        },
+        {
+          "id": "npc_maeve",
+          "name": "Maeve",
+          "role": "Elder Herb Cultivator"
+        },
+        {
+          "id": "npc_kael",
+          "name": "Kael",
+          "role": "Apprentice Match Vendor"
+        },
+        {
+          "id": "npc_bram",
+          "name": "Bram",
+          "role": "Crystal Mine Forager"
+        },
+        {
+          "id": "npc_penny",
+          "name": "Penny",
+          "role": "Wandering Pastry Hawker"
+        },
+        {
+          "id": "npc_orion",
+          "name": "Professor Orion",
+          "role": "Sleepless Royal Astrologer"
+        },
+        {
+          "id": "npc_clara",
+          "name": "Clara",
+          "role": "Town Archivist & Librarian"
+        },
+        {
+          "id": "npc_garrick",
+          "name": "Captain Garrick",
+          "role": "Veteran Cloud-Sea Mariner"
+        },
+        {
+          "id": "npc_finn",
+          "name": "Finn",
+          "role": "Star-Angler Boy"
+        },
+        {
+          "id": "npc_marlo",
+          "name": "Marlo",
+          "role": "Nightwatch Sentinel"
+        },
+        {
+          "id": "npc_aurelia",
+          "name": "Aurelia",
+          "role": "Remedy Apothecary"
+        }
+      ]
+    },
+    {
+      "id": "solaria",
+      "name": "Solaria — Capital of Light & Royal Palace",
+      "name_en": "Solaria — The Royal Capital",
+      "location_type": "realm",
+      "description": "Grand city of glistening white marble, luminous celestial fountains, chiming cathedral spires, and magnificent palace promenades. Rowan establishes a prestigious second tea branch here.",
+      "unlock_condition": "Reach Shop Fame Level 5 & unlock the Stardust Carriage line",
+      "notable_npcs": [
+        "npc_valen"
+      ],
+      "features": [
+        "Royal Tea Salon Branch",
+        "Grand Tea Guild Tournaments",
+        "High Knight Commander Valerius",
+        "Princess Althea",
+        "Chronicler Iris"
+      ],
+      "tags": [
+        "royal",
+        "city",
+        "palace"
+      ],
+      "npcs": [
+        {
+          "id": "npc_valen",
+          "name": "Valen",
+          "role": "Vegetarian Vampire Noble"
+        }
+      ]
+    },
+    {
+      "id": "sylva_fae",
+      "name": "Sylva-Fae — The Ancient Elven Canopy",
+      "name_en": "Sylva-Fae — The Ancient Elven Canopy",
+      "location_type": "realm",
+      "description": "The ancestral homeland of Lumi — acorn canopy cottages nested in thousand-year ancient oaks, rope bridges woven from moonlit spider silk, and luminous teardrop streams glowing in the dusk.",
+      "unlock_condition": "Unlocked after forging deep bonds with Oakhaven locals",
+      "notable_npcs": [
+        "npc_lumi",
+        "npc_sylvan",
+        "npc_elora"
+      ],
+      "features": [
+        "Elven Forest Clan",
+        "Night Blossom Fae",
+        "Moth-Folk Weavers",
+        "Canopy Treetop Tea Bar",
+        "Night-Dew Flower Nectar",
+        "Meteor Stardust Pollen"
+      ],
+      "tags": [
+        "forest",
+        "elves",
+        "magic"
+      ],
+      "npcs": [
+        {
+          "id": "npc_lumi",
+          "name": "Lumi",
+          "role": "Whisperwood Glade Spirit"
+        },
+        {
+          "id": "npc_sylvan",
+          "name": "Sylvan",
+          "role": "Monocle Master Herbalist"
+        },
+        {
+          "id": "npc_elora",
+          "name": "Elora",
+          "role": "Gala Robe Seamstress"
+        }
+      ]
+    },
+    {
+      "id": "khaz_drakor",
+      "name": "Khaz-Drakor — The Dwarven Megalopolis",
+      "name_en": "Khaz-Drakor — The Dwarven Megalopolis",
+      "location_type": "realm",
+      "description": "Ancestral deep realm of Boris and Bram — a sprawling underground metropolis carved thousands of meters into granite roots. Glowing rivers of molten lava, massive brass steam gears, and crystal mining rails.",
+      "unlock_condition": "Unlocked through town community milestones",
+      "notable_npcs": [
+        "npc_boris",
+        "npc_bram"
+      ],
+      "features": [
+        "Geothermal Bake Oven",
+        "Steam-Powered Automated Mills",
+        "Ancient Brass Automaton Golems",
+        "Primordial Ore Veins",
+        "Concentrated Mineral Tea Brews"
+      ],
+      "tags": [
+        "underground",
+        "dwarves",
+        "forge"
+      ],
+      "npcs": [
+        {
+          "id": "npc_boris",
+          "name": "Boris Barnaby",
+          "role": "Town Blacksmith"
+        },
+        {
+          "id": "npc_bram",
+          "name": "Bram",
+          "role": "Crystal Mine Forager"
+        }
+      ]
+    },
+    {
+      "id": "aethelgard",
+      "name": "Aethelgard — The Floating Elysium",
+      "name_en": "Aethelgard — The Floating Elysium",
+      "location_type": "realm",
+      "description": "Floating celestial isles suspended above an iridescent sea of clouds, illuminated by dancing auroras. The cosmic birthplace of Stardust and the resting sanctuary of Grandmother Amalia's guiding spirit.",
+      "unlock_condition": "Unlocked at the story's emotional climax",
+      "notable_npcs": [
+        "npc_amalia"
+      ],
+      "features": [
+        "Tree of Celestial Constellations",
+        "Tree of Longevity",
+        "Cloud-Winged Light Guardian",
+        "Aurora Starlight Stag",
+        "Celestial Nectar Tea"
+      ],
+      "tags": [
+        "elysium",
+        "floating",
+        "finale",
+        "spiritual"
+      ],
+      "npcs": [
+        {
+          "id": "npc_amalia",
+          "name": "Grandmother Amalia",
+          "role": "Master Tea Artisan / Guiding Spirit"
+        }
+      ]
+    }
+  ]
+}

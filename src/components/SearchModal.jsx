@@ -3,20 +3,11 @@
 import { useState, useEffect, useRef, useMemo } from 'react';
 import { useRouter } from 'next/navigation';
 import Icon from './Icon';
+import { DEFAULT_LOCALE } from '../lib/i18n/config';
+import { getDictionary } from '../lib/i18n/getDictionary';
 import styles from './SearchModal.module.scss';
 
-const FILTERS = [
-  { id: 'all', label: 'Tất cả' },
-  { id: 'doc', label: 'Tài liệu' },
-  { id: 'item', label: 'Vật phẩm' },
-  { id: 'recipe', label: 'Công thức' },
-  { id: 'character', label: 'Cư dân' },
-  { id: 'crop', label: 'Cây trồng' },
-  { id: 'monster', label: 'Quái vật' },
-  { id: 'weapon', label: 'Vũ khí' },
-];
-
-export default function SearchModal({ isOpen, onClose }) {
+export default function SearchModal({ isOpen, onClose, lang = DEFAULT_LOCALE }) {
   const router = useRouter();
   const inputRef = useRef(null);
   const listRef = useRef(null);
@@ -24,18 +15,33 @@ export default function SearchModal({ isOpen, onClose }) {
   const [filter, setFilter] = useState('all');
   const [selectedIndex, setSelectedIndex] = useState(0);
   const [items, setItems] = useState([]);
+  const [loadedLang, setLoadedLang] = useState(null);
   const [loading, setLoading] = useState(false);
 
-  // Tải dữ liệu tìm kiếm
+  const dict = getDictionary(lang);
+
+  const filters = [
+    { id: 'all', label: dict.database.browser.filterAll },
+    { id: 'doc', label: dict.search.docLabel },
+    { id: 'item', label: dict.search.itemLabel },
+    { id: 'recipe', label: dict.search.recipeLabel },
+    { id: 'character', label: dict.search.characterLabel },
+    { id: 'crop', label: dict.search.cropLabel },
+    { id: 'monster', label: dict.search.monsterLabel },
+    { id: 'weapon', label: dict.search.weaponLabel },
+  ];
+
+  // Tải dữ liệu tìm kiếm theo lang
   useEffect(() => {
     let active = true;
-    if (isOpen && items.length === 0) {
+    if (isOpen && (items.length === 0 || loadedLang !== lang)) {
       setLoading(true);
-      fetch('/api/search')
+      fetch(`/api/search?lang=${lang}`)
         .then(res => res.json())
         .then(data => {
           if (active) {
             setItems(data);
+            setLoadedLang(lang);
             setLoading(false);
           }
         })
@@ -47,7 +53,7 @@ export default function SearchModal({ isOpen, onClose }) {
     return () => {
       active = false;
     };
-  }, [isOpen, items.length]);
+  }, [isOpen, items.length, loadedLang, lang]);
 
   // Focus input khi mở
   useEffect(() => {
@@ -113,7 +119,7 @@ export default function SearchModal({ isOpen, onClose }) {
   if (!isOpen) return null;
 
   return (
-    <div className={styles.overlay} onClick={onClose} role="dialog" aria-modal="true" aria-label="Tìm kiếm bách khoa">
+    <div className={styles.overlay} onClick={onClose} role="dialog" aria-modal="true" aria-label={dict.search.modalTitle}>
       <div className={`${styles.modal} pixel-frame`} onClick={e => e.stopPropagation()}>
         <div className={styles.searchHeader}>
           <Icon name="magnifying-glass" size={20} className={styles.searchIcon} />
@@ -121,17 +127,17 @@ export default function SearchModal({ isOpen, onClose }) {
             ref={inputRef}
             type="search"
             className={styles.searchInput}
-            placeholder="Tìm tài liệu, vật phẩm, công thức, cư dân, quái vật..."
+            placeholder={dict.search.inputPlaceholder}
             value={query}
             onChange={e => setQuery(e.target.value)}
           />
-          <button type="button" className={styles.closeBtn} onClick={onClose} aria-label="Đóng tìm kiếm">
+          <button type="button" className={styles.closeBtn} onClick={onClose} aria-label={dict.search.escToClose}>
             <Icon name="x" size={18} />
           </button>
         </div>
 
         <div className={styles.filterRow}>
-          {FILTERS.map(f => (
+          {filters.map(f => (
             <button
               key={f.id}
               type="button"
@@ -145,11 +151,11 @@ export default function SearchModal({ isOpen, onClose }) {
 
         <div className={styles.resultList} ref={listRef}>
           {loading ? (
-            <div className={styles.statusBox}>Đang tải dữ liệu bách khoa...</div>
+            <div className={styles.statusBox}>{dict.search.searching}</div>
           ) : filtered.length === 0 ? (
             <div className={styles.statusBox}>
-              <p>Không tìm thấy mục nào khớp với &ldquo;{query}&rdquo;.</p>
-              <span className={styles.hintText}>Thử tìm kiếm từ khóa khác hoặc xóa bộ lọc.</span>
+              <p>{dict.search.noResults} &ldquo;{query}&rdquo;.</p>
+              <span className={styles.hintText}>{dict.database.browser.noResults}</span>
             </div>
           ) : (
             filtered.map((item, idx) => {
@@ -187,12 +193,12 @@ export default function SearchModal({ isOpen, onClose }) {
 
         <div className={styles.modalFooter}>
           <div className={styles.shortcutHints}>
-            <span><kbd>↑</kbd><kbd>↓</kbd> để di chuyển</span>
-            <span><kbd>↵</kbd> để chọn</span>
-            <span><kbd>Esc</kbd> để đóng</span>
+            <span><kbd>↑</kbd><kbd>↓</kbd> {dict.search.navHint}</span>
+            <span><kbd>↵</kbd> {dict.search.selectHint}</span>
+            <span><kbd>Esc</kbd> {dict.search.escToClose}</span>
           </div>
           <span className={styles.itemCount}>
-            {filtered.length} kết quả
+            {filtered.length} {dict.database.browser.entries}
           </span>
         </div>
       </div>

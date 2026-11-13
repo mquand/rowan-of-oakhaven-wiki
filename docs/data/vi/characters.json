@@ -1,0 +1,336 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "version": "1.0.0",
+  "updated": "2026-11-12",
+  "characters": [
+    {
+      "id": "npc_rowan",
+      "name": "Rowan",
+      "role": "Chủ Tiệm Trà Bụi Sao",
+      "location": "Tiệm Bụi Sao (Oakhaven)",
+      "species": "Human (Phù Thủy)",
+      "description": "Nữ phù thủy trẻ vừa rời Viện Phép Thuật, kế thừa tiệm trà bánh và quyển sổ rách bí truyền của bà ngoại Amalia.",
+      "favorite_items": [
+        "tra_sen_an_than",
+        "bread_brioche"
+      ],
+      "quote": "Phép thuật vĩ đại nhất đôi khi chỉ là một tách trà ấm và nụ cười sẻ chia.",
+      "birthday": "Ngày 1 Mùa Xuân",
+      "schedule": "Cả ngày: Quản lý Tiệm Bụi Sao & Vườn sau tiệm"
+    },
+    {
+      "id": "pet_pip",
+      "name": "Pip",
+      "role": "Cú Lùn Đưa Thư & Thu Nhặt Hạt Giống",
+      "location": "Tiệm Bụi Sao / Rừng Thầm Thì",
+      "species": "Lùn Cú Ma Thuật",
+      "description": "Chú cú tròn xoe, thông minh, mang hạt mầm kỳ lạ từ rừng sâu về hòm thư mỗi sớm.",
+      "favorite_items": [
+        "seed_sen_tea",
+        "mat_ong"
+      ],
+      "quote": "Hú... cú... *nghiêng đầu chớp mắt*",
+      "birthday": "Ngày 12 Mùa Thu",
+      "schedule": "Sáng sớm: Mang hạt giống về hòm thư; Chiều: Đậu hiên tiệm"
+    },
+    {
+      "id": "pet_mallow",
+      "name": "Mallow",
+      "role": "Mèo Giữ Tiệm",
+      "location": "Tiệm Bụi Sao (Quầy Bar / Lò Sưởi)",
+      "species": "Mèo Tam Thể",
+      "description": "Chú mèo tam thể tròn xoe đến tiệm trú mưa rồi ở lại luôn, thích ngủ nướng bên đèn dầu.",
+      "favorite_items": [
+        "item_butter",
+        "dau_rung"
+      ],
+      "quote": "Meo... *gừ gừ thư thái*",
+      "birthday": "Ngày 4 Mùa Hạ",
+      "schedule": "Cả ngày: Nằm sưởi ấm bên lò nướng bánh hoặc quầy bar"
+    },
+    {
+      "id": "npc_lumi",
+      "name": "Lumi",
+      "role": "Tinh Linh Rừng Thầm Thì",
+      "location": "Rừng Thầm Thì / Ghé Tiệm Buổi Tối",
+      "species": "Kemomimi-Elf (Cáo Tuyết & Tinh Linh)",
+      "description": "Tinh Linh dạng Kemomimi-Elf độc bản — 2 tai cáo tuyết trắng xù trên đỉnh đầu + 2 tai nhọn tinh linh, tóc xanh ngọc bích twin-tails, khăn len đỏ.",
+      "favorite_items": [
+        "tra_sen_an_than"
+      ],
+      "quote": "Tiếng gió rít ngoài rừng đêm nay làm tai tôi ù đi... có thứ gì thanh mát làm lòng tôi dịu lại không?",
+      "birthday": "Ngày 7 Mùa Xuân",
+      "schedule": "Chiều: Đi dạo Rừng Thầm Thì; Tối: Ngồi góc yên tĩnh tiệm trà"
+    },
+    {
+      "id": "npc_boris",
+      "name": "Boris Barnaby",
+      "role": "Bác Thợ Rèn Thị Trấn",
+      "location": "Lò Rèn Oakhaven",
+      "species": "Dwarf (Người Lùn)",
+      "description": "Thợ rèn người lùn rắn rỏi với bộ râu hung đỏ tết bím đôi, áo gile da sạm tro than mỏ.",
+      "favorite_items": [
+        "pastry_cinnamon_roll",
+        "tra_sen_an_than"
+      ],
+      "quote": "Cả ngày quai búa mỏi rã rời, lò rèn ấm nhưng lòng lão thì lạnh ngắt... Cho lão thứ gì vừa ngọt vừa thơm nức mùi gỗ quế nào.",
+      "birthday": "Ngày 18 Mùa Đông",
+      "schedule": "07:00 - 18:00: Đập búa tại Lò Rèn; 19:00: Ghé tiệm ăn bánh cuộn quế"
+    },
+    {
+      "id": "npc_maeve",
+      "name": "Maeve",
+      "role": "Bà Lão Làm Vườn",
+      "location": "Nông Trại Oakhaven",
+      "species": "Human",
+      "description": "Bà lão làm vườn hiền hậu với mái tóc bạc búi thấp và khăn trùm đầu thêu hoa mùa xuân, bà nuôi của Kael.",
+      "favorite_items": [
+        "pastry_scone_berry",
+        "seed_sun_daisy"
+      ],
+      "quote": "Mấy luống bí ngô hôm nay sâu ăn dữ quá, đứng nhổ cỏ từ trưa tới giờ lưng tôi sắp gãy rồi cô bé ơi...",
+      "birthday": "Ngày 9 Mùa Xuân",
+      "schedule": "06:00 - 17:00: Bán hạt giống tại Quảng trường; Tối: Dạo bờ sông"
+    },
+    {
+      "id": "npc_kael",
+      "name": "Kael",
+      "role": "Cậu Bé Bán Diêm",
+      "location": "Bờ Sông / Góc Chợ Oakhaven",
+      "species": "Human",
+      "description": "Cậu bé mồ côi với chiếc mũ len chóp, áo khoác vá chỉ màu và đôi mắt to sáng long lanh, cháu nuôi của Maeve.",
+      "favorite_items": [
+        "cake_fairy_birthday",
+        "dau_rung"
+      ],
+      "quote": "Bà Maeve dạo này hay đau nhức chân... Cháu muốn đổi hộp diêm lấy một tách trà gừng cho bà, cháu còn thiếu mấy đồng ạ?",
+      "birthday": "Ngày 22 Mùa Hạ",
+      "schedule": "Sáng: Tập kiếm tại sân tập; Tối: Ngồi uống trà dâu mát lạnh"
+    },
+    {
+      "id": "npc_amalia",
+      "name": "Bà Ngoại Amalia",
+      "role": "Cố Nghệ Nhân Trà Bánh / Linh Hồn Dẫn Lối",
+      "location": "Tiệm Bụi Sao (trong ký ức & trang sổ tay)",
+      "species": "Human (Linh Hồn)",
+      "description": "Bà ngoại của Rowan, cố nghệ nhân trà bánh đã khuất. Hình bóng bà hiện về qua những trang sổ tay ghi chú tỉ mỉ và lời khuyên dịu dàng trong ký ức của Rowan.",
+      "favorite_items": [
+        "la_tra_sen",
+        "item_flour"
+      ],
+      "quote": "Phép thuật đích thực không ở đâu xa, nó nằm trong sự nâng niu từng búp trà và từng mẩu bánh con nướng cho người khác.",
+      "birthday": "Ngày 28 Mùa Đông",
+      "schedule": "Hiện diện trong ký ức, trang sổ rách và giấc mơ của Rowan"
+    },
+    {
+      "id": "npc_bram",
+      "name": "Bram",
+      "role": "Thợ Mỏ Pha Lê",
+      "location": "Mỏ Pha Lê Oakhaven",
+      "species": "Dwarf (Người Lùn)",
+      "description": "Thợ mỏ kỳ cựu dưới các tầng sâu của mỏ, em trai của thợ rèn Boris. Tính cách cộc cằn, thích tranh cãi với anh trai nhưng trong lòng rất quan tâm gia đình.",
+      "favorite_items": [
+        "ore_iron",
+        "ore_coal"
+      ],
+      "quote": "Ông anh Boris của tôi lại càu nhàu về quặng sắt non... Pha cho tôi tách trà nào thật đắng chát để tôi nuốt trôi cục tức này cái!",
+      "birthday": "Ngày 15 Mùa Đông",
+      "schedule": "08:00 - 17:00: Cửa vào hang mỏ; Tối: Lò rèn cùng anh trai Boris"
+    },
+    {
+      "id": "npc_penny",
+      "name": "Penny",
+      "role": "Cô Bé Bán Bánh Dạo",
+      "location": "Chợ Oakhaven",
+      "species": "Human",
+      "description": "Cô bé bán bánh dạo nhanh nhẹn, cháu gái của thợ rèn Boris và thợ mỏ Bram. Hoạt bát, sáng tạo, luôn ấp ủ những ý tưởng làm bánh độc lạ.",
+      "favorite_items": [
+        "pastry_scone_berry",
+        "item_sugar"
+      ],
+      "quote": "Chú Boris vừa gõ lại khuôn bánh hình ngôi sao cho em nè! Cho em thử một ly trà dâu chua ngọt để lấy cảm hứng sáng tạo mẻ bánh mới đi!",
+      "birthday": "Ngày 11 Mùa Thu",
+      "schedule": "08:00 - 16:00: Bưu điện Oakhaven; 18:00: Ghé tiệm trà giao thư"
+    },
+    {
+      "id": "npc_orion",
+      "name": "Giáo Sư Orion",
+      "role": "Nhà Chiêm Tinh Mất Ngủ",
+      "location": "Đài Quan Sát Trên Đồi / Tháp Thiên Văn",
+      "species": "Human",
+      "description": "Nhà thiên văn học làm việc tại đài quan sát trên đồi cao, cha của Clara. Đãng trí, mải mê nghiên cứu các chòm sao đến mức quên ăn mất ngủ.",
+      "favorite_items": [
+        "bot_sao",
+        "gem_amethyst"
+      ],
+      "quote": "Chòm sao Thiên Nga vừa dịch chuyển 3 độ... Mắt ta mờ đi rồi, cho ta thứ gì giúp não bộ ngưng tính toán trong 2 tiếng được không?",
+      "birthday": "Ngày 25 Mùa Thu",
+      "schedule": "Đêm: Tháp Thiên Văn quan sát sao băng; Sáng: Ngủ bù tại thư viện"
+    },
+    {
+      "id": "npc_clara",
+      "name": "Clara",
+      "role": "Cô Thủ Thư Thị Trấn",
+      "location": "Thư Viện Oakhaven",
+      "species": "Human",
+      "description": "Người trông coi thư viện Oakhaven, con gái giáo sư Orion. Ngăn nắp, chu đáo, luôn phải nhắc nhở cha mình chăm sóc bản thân.",
+      "favorite_items": [
+        "tra_oai_huong_ngan_sao",
+        "la_tra_sen"
+      ],
+      "quote": "Cha tôi lại trốn trên tháp thiên văn 2 ngày không chịu ăn... Bạn pha cho tôi một bình trà cúc lớn để tôi mang lên bắt ông ấy uống nhé!",
+      "birthday": "Ngày 16 Mùa Xuân",
+      "schedule": "08:00 - 17:00: Trạm xá thảo dược; Tối: Uống trà oải hương an thần"
+    },
+    {
+      "id": "npc_garrick",
+      "name": "Thuyền Trưởng Garrick",
+      "role": "Cựu Thủy Thủ Biển Mây",
+      "location": "Bến Thuyền Mây / Cập Bến Hồ Sao",
+      "species": "Human",
+      "description": "Lão thuyền trưởng già đã gác mái chèo, ông nội của chú bé Finn. Thích kể chuyện phiêu lưu ngoài biển mây xa xôi cho khách nghe.",
+      "favorite_items": [
+        "drop_crystal_sea_salt",
+        "tra_anh_duong"
+      ],
+      "quote": "Gió từ thung lũng mang mùi biển khơi ngày xưa... Cho lão già này một tách trà đậm vị quế, nghe lão kể về hòn đảo lơ lửng ngoài mây nào.",
+      "birthday": "Ngày 2 Mùa Hạ",
+      "schedule": "Sáng Chủ Nhật: Cập bến thuyền vỏ ốc tại cầu cảng Chợ Phiên"
+    },
+    {
+      "id": "npc_finn",
+      "name": "Finn",
+      "role": "Cậu Bé Câu Sao",
+      "location": "Bờ Suối / Hồ Sương Mù",
+      "species": "Human",
+      "description": "Cậu bé câu cá bên bờ suối và hồ sương mù, cháu nội của Thuyền Trưởng Garrick. Tò mò, thích khám phá các loài cá phát sáng kỳ lạ.",
+      "favorite_items": [
+        "drop_prism_jelly",
+        "dau_rung"
+      ],
+      "quote": "Hôm nay em câu được con cá phát sáng bảy màu to đùng! Ông Garrick bảo mang sang biếu tiệm trà để đổi một ly bạc hà mát lạnh!",
+      "birthday": "Ngày 19 Mùa Hạ",
+      "schedule": "06:00 - 18:00: Câu cá bên bờ sông sao; Tối: Ghé tiệm sưởi ấm"
+    },
+    {
+      "id": "npc_elora",
+      "name": "Elora",
+      "role": "Thợ May Áo Choàng Dạ Hội",
+      "location": "Rừng Yêu Tinh (ghé tiệm buổi tối)",
+      "species": "Elf",
+      "description": "Thợ may áo choàng dạ hội thanh lịch, bạn tri kỷ của nhà thảo mộc Sylvan. Đôi tay kim châm hay mỏi nhức vì dệt váy cho khách.",
+      "favorite_items": [
+        "drop_golden_pollen",
+        "oai_huong"
+      ],
+      "quote": "Ngón tay tôi kim châm buốt nhức vì dệt áo choàng dạ hội... Có loại trà nào hương nhài thoang thoảng làm dịu đôi bàn tay này không?",
+      "birthday": "Ngày 5 Mùa Xuân",
+      "schedule": "Cả ngày: Trông nom nhà kính cổ tích Rừng Yêu Tinh Sylva-Fae"
+    },
+    {
+      "id": "npc_sylvan",
+      "name": "Sylvan",
+      "role": "Nhà Thảo Mộc Kính Một Mắt",
+      "location": "Rừng Yêu Tinh",
+      "species": "Human",
+      "description": "Nhà nghiên cứu thảo mộc đeo kính một mắt đến từ Rừng Yêu Tinh, bạn tri kỷ của thợ may Elora. Mang theo những rễ cây ngàn năm làm quà trao đổi.",
+      "favorite_items": [
+        "seed_star_lavender",
+        "la_tra_sen"
+      ],
+      "quote": "Rừng sâu đêm nay sương độc giăng dày... Ta mang cho cô ít rễ cây ngàn năm, đổi lấy tách trà trầm ấm bụng được chứ?",
+      "birthday": "Ngày 24 Mùa Xuân",
+      "schedule": "Chiều & Tối: Tuần tra tán cây cổ thụ Sylva-Fae"
+    },
+    {
+      "id": "npc_marlo",
+      "name": "Marlo",
+      "role": "Hiệp Sĩ Cảnh Vệ Ca Đêm",
+      "location": "Thị Trấn Oakhaven (Ca Trực Đêm)",
+      "species": "Human",
+      "description": "Hiệp sĩ cảnh vệ trung thành bảo vệ giấc ngủ của thị trấn trong những ca trực đêm dài dằng dặc giữa gió tuyết.",
+      "favorite_items": [
+        "bread_brioche",
+        "ore_iron"
+      ],
+      "quote": "Gió tuyết lùa qua khe áo giáp buốt giá... Một ca trực đêm dài dằng dặc, chỉ có tách trà cay nồng của tiệm mới giữ tôi không ngủ gục.",
+      "birthday": "Ngày 13 Mùa Thu",
+      "schedule": "07:00 - 17:00: Vận hành cối xay gió Oakhaven xay bột mì"
+    },
+    {
+      "id": "npc_aurelia",
+      "name": "Aurelia",
+      "role": "Dược Sĩ Trạm Xá",
+      "location": "Trạm Xá Oakhaven",
+      "species": "Human",
+      "description": "Dược sư Oakhaven điều hành trạm xá chăm sóc cư dân. Tin rằng trà thảo mộc ấm của tiệm có thể phục hồi sinh lực và xoa dịu tâm can con người.",
+      "favorite_items": [
+        "oai_huong",
+        "mat_ong"
+      ],
+      "quote": "Thuốc thang chỉ chữa được vết thương ngoài da... Người dân thị trấn cần những tách trà ấm của cô bé để xoa dịu nỗi muộn phiền hơn.",
+      "birthday": "Ngày 21 Mùa Hạ",
+      "schedule": "Sáng: Vườn ong mật Oakhaven; Chiều: Giao mật ong tươi cho tiệm"
+    },
+    {
+      "id": "npc_valen",
+      "name": "Valen",
+      "role": "Quý Tộc Ma Cà Rồng Ăn Chay",
+      "location": "Lâu Đài Pháp Thuật",
+      "species": "Vampire (Ma Cà Rồng)",
+      "description": "Quý tộc ma cà rồng ăn chay, sợ mùi tỏi nhưng mê những ly trà ngọt lịm. Thường ghé tiệm vào ban đêm để tránh ánh mặt trời.",
+      "favorite_items": [
+        "tra_dau_bang_tuyet",
+        "dau_rung"
+      ],
+      "quote": "Mùi tỏi nướng bánh mì của tiệm bay sang tận lâu đài làm ta chóng mặt... Làm ơn cho ta một ly trà đỏ thẫm ngọt lịm để trấn tĩnh quý tộc!",
+      "birthday": "Ngày 10 Mùa Đông",
+      "schedule": "Tuần tra quảng trường cẩm thạch Kinh Đô Ánh Sáng Solaria"
+    },
+    {
+      "id": "npc_kassandra",
+      "name": "Kassandra",
+      "role": "Phù Thủy Sao Băng Lưu Vong",
+      "location": "Lữ Hành Giữa Các Tầng Trời",
+      "species": "Human (Phù Thủy)",
+      "description": "Phù thủy sao băng lưu vong phiêu bạt khắp các tầng trời, ngựa chổi thường cạn ma lực giữa lưng chừng mây.",
+      "favorite_items": [
+        "bot_sao",
+        "gem_sapphire"
+      ],
+      "quote": "Chổi bay của ta sắp cạn ma lực giữa lưng chừng mây... Ngươi có loại trà nào hái từ sương đêm ngọn cây cổ thụ để ta nạp lại phép thuật không?",
+      "birthday": "Ngày 8 Mùa Thu",
+      "schedule": "Điều hành thương hội trù phú tại Kinh Đô Solaria"
+    },
+    {
+      "id": "npc_chrono",
+      "name": "Chrono",
+      "role": "Người Máy Đồng Hồ Cổ Đại",
+      "location": "Đô Thị Người Lùn Ngầm",
+      "species": "Android (Người Máy)",
+      "description": "Người máy đồng hồ cổ đại còn sót lại từ một nền văn minh đã mất, nói chuyện theo nhịp tích tắc và cần chất bôi trơn bánh răng định kỳ.",
+      "favorite_items": [
+        "ore_gold",
+        "da_tinh_the"
+      ],
+      "quote": "Tích tắc... Bánh răng ngực trái đang phát ra tiếng kẹt kẹt... Cần bổ sung 200ml chất lỏng bôi trơn ấm nóng hương hoa cúc... Tích tắc...",
+      "birthday": "Ngày 27 Mùa Đông",
+      "schedule": "Bên guồng máy đồng hồ vĩnh cửu tại Đô Thị Ngầm Khaz-Drakor"
+    },
+    {
+      "id": "npc_lapis",
+      "name": "Lapis",
+      "role": "Nàng Tiên Cá Bong Bóng Bay",
+      "location": "Biển Sương Mù",
+      "species": "Mermaid (Tiên Cá)",
+      "description": "Nàng tiên cá bong bóng bay lần đầu đặt chân lên trần gian, thích thú với những chiếc bánh nướng giòn rụm tan trong miệng.",
+      "favorite_items": [
+        "drop_crystal_sea_salt",
+        "gem_sapphire"
+      ],
+      "quote": "Dưới đáy biển cái gì cũng ướt sũng... Lần đầu tiên em được nếm chiếc bánh nướng giòn rụm tan trong miệng thế này, diệu kỳ quá đi!",
+      "birthday": "Ngày 17 Mùa Hạ",
+      "schedule": "Khai thác tinh thể sâu trong lòng mỏ Khaz-Drakor"
+    }
+  ]
+}

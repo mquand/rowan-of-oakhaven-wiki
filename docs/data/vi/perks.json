@@ -1,0 +1,109 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "version": "1.0.0",
+  "updated": "2026-11-12",
+  "perks": [
+    {
+      "id": "star_dash",
+      "name": "Lướt Bụi Sao",
+      "branch": "exploration",
+      "description": "Bấm Space để lướt nhanh có vệt sáng — né đòn quái và di chuyển nhanh trong mỏ.",
+      "unlock_hint": "Phục chế Chương I Sổ Bà Ngoại (Cần 3 Bột Sao + 5 Đá Tinh Thể)",
+      "tags": [
+        "movement",
+        "dodge",
+        "mining"
+      ],
+      "tier": "Bậc I"
+    },
+    {
+      "id": "ore_sense",
+      "name": "Mắt Tinh Thể",
+      "branch": "exploration",
+      "description": "Khi cầm cuốc, các vách đá chứa quặng quý tự phát sáng lung linh xuyên qua đá.",
+      "unlock_hint": "Chinh phục Tầng 25 Hang Mỏ & tặng Thợ rèn Boris 1 Thạch Anh Tím",
+      "tags": [
+        "mining",
+        "detection"
+      ],
+      "tier": "Bậc II"
+    },
+    {
+      "id": "wide_sweep",
+      "name": "Nhát Chém Bán Nguyệt",
+      "branch": "exploration",
+      "description": "Tăng 50% độ rộng của vệt kiếm/liềm khi tấn công.",
+      "unlock_hint": "Rèn vũ khí cấp Đồng đầu tiên tại Lò rèn Boris",
+      "tags": [
+        "combat",
+        "melee"
+      ],
+      "tier": "Bậc I"
+    },
+    {
+      "id": "sprinkler_golem",
+      "name": "Bình Xịt Nước Tự Động",
+      "branch": "farming",
+      "description": "Chế tạo từ Mai Cua Đá + Quặng Đồng — tự động tưới nước vùng 3x3 mỗi sáng lúc 06:00.",
+      "unlock_hint": "Chế tạo tại Bàn Thợ Mộc (Cần 5 Quặng Đồng + 1 Đá Tinh Thể)",
+      "tags": [
+        "farming",
+        "automation",
+        "crafting"
+      ],
+      "tier": "Bậc II"
+    },
+    {
+      "id": "auto_fermenter",
+      "name": "Hũ Muối Lên Men Tự Động",
+      "branch": "farming",
+      "description": "Chế tạo từ Thạch Slime + Gỗ Rừng — tự động ngâm ủ mứt trái cây và siro mật ong.",
+      "unlock_hint": "Thu hoạch vụ Dâu Tuyết đầu tiên & đạt Cấp 2 Nghề Nông",
+      "tags": [
+        "farming",
+        "automation",
+        "crafting"
+      ],
+      "tier": "Bậc II"
+    },
+    {
+      "id": "empathy_sense",
+      "name": "Đọc Vị Khách Hàng",
+      "branch": "tea",
+      "description": "Hiện biểu tượng cảm xúc nhỏ trên đầu khách khi họ bước vào quán — biết trước họ muốn gì.",
+      "unlock_hint": "Đạt Danh Tiếng Quán Cấp 2 & phục vụ 20 tách Trà Sen An Thần",
+      "tags": [
+        "social",
+        "customers",
+        "utility"
+      ],
+      "tier": "Bậc I"
+    },
+    {
+      "id": "golden_hands",
+      "name": "Đôi Tay Vàng Nhào Bột",
+      "branch": "tea",
+      "description": "Tăng 30% tốc độ nhào bột; 20% tỉ lệ bánh tự động đạt phẩm chất 3 Sao Tuyệt Phẩm.",
+      "unlock_hint": "Nướng thành công 15 ổ Bánh Mì Brioche đạt chuẩn Hoàn Hảo",
+      "tags": [
+        "bakery",
+        "quality",
+        "speed"
+      ],
+      "tier": "Bậc II"
+    },
+    {
+      "id": "parallel_brewing",
+      "name": "Pha Trà Song Song",
+      "branch": "tea",
+      "description": "Cho phép đặt 2 ấm trà lên bếp cùng một lúc, tăng gấp đôi năng suất phục vụ.",
+      "unlock_hint": "Nâng cấp Quầy Bếp Đôi tại Lò rèn Boris (10 Quặng Sắt + 500 Vàng)",
+      "tags": [
+        "tea",
+        "speed",
+        "capacity"
+      ],
+      "tier": "Bậc III"
+    }
+  ]
+}

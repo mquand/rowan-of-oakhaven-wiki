@@ -1,0 +1,221 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "version": "1.0.0",
+  "updated": "2026-11-12",
+  "recipes": [
+    {
+      "id": "tra_sen_an_than",
+      "name": "Calming Lotus Tea",
+      "description": "Crisp floral base sweetened with wild honey, gently soothing troubled minds and releasing fatigue.",
+      "station": "tea_station",
+      "ingredients": [
+        {
+          "id": "la_tra_sen",
+          "name": "Lotus Tea Leaves",
+          "quantity": 1
+        },
+        {
+          "id": "mat_ong",
+          "name": "Honey",
+          "quantity": 1
+        }
+      ],
+      "result_item_id": "item_tea_sen_an_than",
+      "duration_seconds": 2,
+      "effect_description": "Soothes worries, restores 35 Stamina"
+    },
+    {
+      "id": "tra_dau_bang_tuyet",
+      "name": "Glacial Berry Iced Tea",
+      "description": "Succulent sweet-tart forest berries blended with cooling frost crystals for an exhilarating refresher.",
+      "station": "tea_station",
+      "ingredients": [
+        {
+          "id": "dau_rung",
+          "name": "Wild Berries",
+          "quantity": 1
+        },
+        {
+          "id": "da_tinh_the",
+          "name": "Crystal Shard",
+          "quantity": 1
+        }
+      ],
+      "result_item_id": "item_tea_dau_bang_tuyet",
+      "duration_seconds": 2,
+      "effect_description": "Invigorating chill, increases walking speed by 15% for 3 minutes"
+    },
+    {
+      "id": "tra_oai_huong_ngan_sao",
+      "name": "Thousand Stars Lavender Tea",
+      "description": "Delicate lavender blossoms infused with shimmering stardust powder, guiding the soul into serene stillness.",
+      "station": "tea_station",
+      "ingredients": [
+        {
+          "id": "oai_huong",
+          "name": "Starlight Lavender",
+          "quantity": 1
+        },
+        {
+          "id": "bot_sao",
+          "name": "Stardust Powder",
+          "quantity": 1
+        }
+      ],
+      "result_item_id": "item_tea_oai_huong_ngan_sao",
+      "duration_seconds": 2.5,
+      "effect_description": "Exhales faint stardust, induces sound sleep and recovers 100% Stamina"
+    },
+    {
+      "id": "tra_anh_duong",
+      "name": "Solar Dawn Infusion",
+      "description": "Golden-amber tea shimmering like early sunlight, pouring fiery vitality into miners before deep descents.",
+      "station": "tea_station",
+      "ingredients": [
+        {
+          "id": "la_tra_sen",
+          "name": "Lotus Tea Leaves",
+          "quantity": 1
+        },
+        {
+          "id": "bot_sao",
+          "name": "Stardust Powder",
+          "quantity": 1
+        },
+        {
+          "id": "mat_ong",
+          "name": "Honey",
+          "quantity": 1
+        }
+      ],
+      "result_item_id": "item_tea_anh_duong",
+      "duration_seconds": 3,
+      "effect_description": "Increases mining pickaxe speed by 25% for 3 real minutes, restores 50 Stamina"
+    },
+    {
+      "id": "bread_brioche",
+      "name": "Honey Chamomile Brioche",
+      "description": "Fluffy, tender loaf rich with creamy butter and sweet forest wildflower honey notes.",
+      "station": "bakery_oven",
+      "ingredients": [
+        {
+          "id": "item_flour",
+          "name": "Flour",
+          "quantity": 2
+        },
+        {
+          "id": "mat_ong",
+          "name": "Honey",
+          "quantity": 1
+        },
+        {
+          "id": "item_butter",
+          "name": "Butter",
+          "quantity": 1
+        }
+      ],
+      "result_item_id": "item_bread_brioche",
+      "duration_seconds": 10,
+      "effect_description": "Restores 60 Stamina"
+    },
+    {
+      "id": "pastry_scone_berry",
+      "name": "Bioluminescent Berry Scone",
+      "description": "Golden-baked crumbly scone studded with glowing, sweet-tart snowberries.",
+      "station": "bakery_oven",
+      "ingredients": [
+        {
+          "id": "item_flour",
+          "name": "Flour",
+          "quantity": 2
+        },
+        {
+          "id": "seed_lumiberry",
+          "name": "Lumiberry",
+          "quantity": 2
+        }
+      ],
+      "result_item_id": "item_pastry_scone_berry",
+      "duration_seconds": 9,
+      "effect_description": "Restores vitality and uplifts daily mood"
+    },
+    {
+      "id": "pastry_cinnamon_roll",
+      "name": "Forest Spirit Cinnamon Roll",
+      "description": "Spiced pastry swirl filled with warming forest cinnamon sugar — the all-time favorite of blacksmith Boris.",
+      "station": "bakery_oven",
+      "ingredients": [
+        {
+          "id": "item_flour",
+          "name": "Flour",
+          "quantity": 2
+        },
+        {
+          "id": "item_cinnamon",
+          "name": "Wild Cinnamon",
+          "quantity": 1
+        },
+        {
+          "id": "item_sugar",
+          "name": "Sugar",
+          "quantity": 1
+        }
+      ],
+      "result_item_id": "item_pastry_cinnamon_roll",
+      "duration_seconds": 11,
+      "effect_description": "Infuses the body with deep hearth warmth, repelling cold chills"
+    },
+    {
+      "id": "pastry_crystal_tart",
+      "name": "Starlight Crystal Tart",
+      "description": "Exquisite artisanal tart with shimmering violet amethyst jelly, resembling a starry midnight sky.",
+      "station": "bakery_oven",
+      "ingredients": [
+        {
+          "id": "item_flour",
+          "name": "Flour",
+          "quantity": 1
+        },
+        {
+          "id": "gem_amethyst",
+          "name": "Amethyst Gem",
+          "quantity": 1
+        },
+        {
+          "id": "bot_sao",
+          "name": "Stardust Powder",
+          "quantity": 1
+        }
+      ],
+      "result_item_id": "item_pastry_crystal_tart",
+      "duration_seconds": 12,
+      "effect_description": "Radiates a mystical aura, increasing rare ore drop chances in mines"
+    },
+    {
+      "id": "cake_fairy_birthday",
+      "name": "Faerie Birthday Cake",
+      "description": "Celebratory jubilee confection adorned with twinkling firefly lights and fresh frost berries.",
+      "station": "bakery_oven",
+      "ingredients": [
+        {
+          "id": "item_flour",
+          "name": "Flour",
+          "quantity": 3
+        },
+        {
+          "id": "seed_lumiberry",
+          "name": "Lumiberry",
+          "quantity": 2
+        },
+        {
+          "id": "item_lantern_firefly",
+          "name": "Firefly Lantern",
+          "quantity": 1
+        }
+      ],
+      "result_item_id": "item_cake_fairy_birthday",
+      "duration_seconds": 13,
+      "effect_description": "Brings boundless joy and unlocks special cherished dialogue when gifted on birthdays"
+    }
+  ]
+}

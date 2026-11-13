@@ -1,0 +1,106 @@
+@use '../../styles/variables' as *;
+
+.container {
+  max-width: 680px;
+  margin: 0 auto;
+  padding: $sp-12 $sp-6;
+}
+
+.box {
+  background-color: rgba($color-night-card, 0.85);
+  border: 1px solid $color-night-border;
+  border-radius: $radius-lg;
+  padding: $sp-10 $sp-8;
+  text-align: center;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
+}
+
+.iconBox {
+  width: 64px;
+  height: 64px;
+  background: $color-night-dark;
+  border: 1px solid $color-night-border;
+  border-radius: $radius-md;
+  color: $color-amber-glow;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: $sp-4;
+}
+
+.code {
+  font-family: $font-pixel;
+  font-size: 96px;
+  font-weight: 700;
+  color: $color-amber-glow;
+  line-height: 1;
+  margin-bottom: $sp-6;
+  text-shadow: 0 0 24px rgba($color-amber-base, 0.3);
+}
+
+.title {
+  font-size: 30px;
+  font-weight: 700;
+  color: $color-text-main;
+  margin-bottom: $sp-4;
+  text-wrap: balance;
+}
+
+.desc {
+  color: $color-text-muted;
+  font-size: 16px;
+  margin-bottom: $sp-8;
+  text-wrap: pretty;
+}
+
+.actions {
+  display: flex;
+  justify-content: center;
+  gap: $sp-4;
+  flex-wrap: wrap;
+}
+
+.primaryBtn {
+  display: inline-block;
+  background: $color-amber-base;
+  color: $color-night-dark;
+  font-weight: 700;
+  font-size: 16px;
+  padding: $sp-3 $sp-6;
+  border-radius: $radius-md;
+  box-shadow: 0 4px 0 $color-amber-deep;
+  transition:
+    transform $dur-base $ease-out,
+    box-shadow $dur-base $ease-out;
+
+  &:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 0 $color-amber-deep;
+    color: $color-night-dark;
+  }
+
+  &:active {
+    transform: translateY(2px);
+    box-shadow: 0 2px 0 $color-amber-deep;
+  }
+}
+
+.secondaryBtn {
+  display: inline-block;
+  color: $color-text-main;
+  font-weight: 600;
+  font-size: 16px;
+  padding: $sp-3 $sp-6;
+  border-radius: $radius-md;
+  border: 1px solid $color-night-border;
+  transition:
+    border-color $dur-fast $ease-out,
+    background-color $dur-fast $ease-out,
+    color $dur-fast $ease-out;
+
+  &:hover {
+    border-color: $color-amber-base;
+    background: rgba($color-night-elevated, 0.6);
+    color: $color-amber-glow;
+  }
+}

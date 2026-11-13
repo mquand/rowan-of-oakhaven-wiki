@@ -1,0 +1,384 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "version": "1.1.0",
+  "updated": "2026-11-12",
+  "monsters": [
+    {
+      "id": "furnace_cog_automaton",
+      "name": "Người Máy Lò Hơi",
+      "name_en": "Furnace Cog-Automaton",
+      "realm": "khaz-drakor",
+      "description": "Tạo tác cơ khí cổ xưa bị bỏ rơi, bụng là lò than rực đỏ phun khói ngạt và tiếng bánh răng kèn kẹt.",
+      "weakness": "Yếu băng/đập giáp — phá lò than bằng Kiếm Pha Lê hoặc Gậy Quấy Trà",
+      "loot": "Bánh Răng Vàng Ròng",
+      "tags": [
+        "mechanical",
+        "fire",
+        "dwarven"
+      ],
+      "hp": 120,
+      "atk": 18,
+      "danger_level": 3,
+      "loot_items": [
+        {
+          "id": "ore_copper",
+          "name": "Quặng Đồng",
+          "chance": "70%"
+        },
+        {
+          "id": "ore_coal",
+          "name": "Than Đá",
+          "chance": "50%"
+        }
+      ]
+    },
+    {
+      "id": "magma_magnesnail",
+      "name": "Ốc Sên Quặng Dung Nham",
+      "name_en": "Magma Magnesnail",
+      "realm": "khaz-drakor",
+      "description": "Ốc sên vỏ nam châm nóng chảy hút sắt vụn, bò chậm rãi qua các mạch quặng sâu.",
+      "weakness": "Yếu đập — Liềm Ma Thuật hoặc Gậy Quấy Trà phá vỏ nam châm",
+      "loot": "Thỏi Đồng & Kim Cương Đỏ",
+      "tags": [
+        "beast",
+        "lava",
+        "dwarven"
+      ],
+      "hp": 160,
+      "atk": 14,
+      "danger_level": 3,
+      "loot_items": [
+        {
+          "id": "ore_copper",
+          "name": "Quặng Đồng",
+          "chance": "65%"
+        },
+        {
+          "id": "gem_ruby",
+          "name": "Hồng Ngọc Lửa",
+          "chance": "25%"
+        }
+      ]
+    },
+    {
+      "id": "steam_mole_driller",
+      "name": "Chuột Chũi Thợ Khoan Cơ Khí",
+      "name_en": "Steam-Mole Driller",
+      "realm": "khaz-drakor",
+      "description": "Chuột chũi cơ khí đội mũ bảo hộ gắn mũi khoan đồng thau, lặn sâu dưới lòng đất hất tung đá hoa cương.",
+      "weakness": "Yếu sáng — Đèn Lồng Bão Đom Đóm choáng và đẩy lùi",
+      "loot": "Linh kiện cơ khí cổ",
+      "tags": [
+        "mechanical",
+        "underground",
+        "dwarven"
+      ],
+      "hp": 90,
+      "atk": 22,
+      "danger_level": 2,
+      "loot_items": [
+        {
+          "id": "item_stone",
+          "name": "Đá Cuội",
+          "chance": "80%"
+        },
+        {
+          "id": "ore_iron",
+          "name": "Quặng Sắt",
+          "chance": "45%"
+        }
+      ]
+    },
+    {
+      "id": "gloom_root_strangler",
+      "name": "Rễ Cây U Uất",
+      "name_en": "Gloom-Root Strangler",
+      "realm": "sylva-fae",
+      "description": "Rễ cổ thụ đen ngòm quấn chân người lạc đường, hoa trên chóp bắn phấn hoa làm mờ màn hình.",
+      "weakness": "Yếu lửa — đốt rễ bằng đòn lửa/sáng",
+      "loot": "Khóm thảo mộc quý",
+      "tags": [
+        "plant",
+        "dark",
+        "elven"
+      ],
+      "hp": 85,
+      "atk": 16,
+      "danger_level": 2,
+      "loot_items": [
+        {
+          "id": "drop_incense_mist",
+          "name": "Giọt Khói Trầm Hương",
+          "chance": "65%"
+        },
+        {
+          "id": "la_tra_sen",
+          "name": "Lá Trà Sen",
+          "chance": "30%"
+        }
+      ]
+    },
+    {
+      "id": "nectar_phantasm_moth",
+      "name": "Bướm Đêm Nghiện Mật",
+      "name_en": "Nectar Phantasm Moth",
+      "realm": "sylva-fae",
+      "description": "Bướm đêm cánh thêu hoa văn mị hoặc, sà xuống cướp mật hoa và búp trà tươi trong túi Rowan.",
+      "weakness": "Yếu tầm xa — Đèn Lồng Bão Đom Đóm bắn sáng xẹp cánh",
+      "loot": "Cánh bướm phát quang",
+      "tags": [
+        "insect",
+        "flying",
+        "elven"
+      ],
+      "hp": 60,
+      "atk": 12,
+      "danger_level": 1,
+      "loot_items": [
+        {
+          "id": "drop_golden_pollen",
+          "name": "Phấn Hoa Ánh Kim",
+          "chance": "75%"
+        },
+        {
+          "id": "mat_ong",
+          "name": "Mật Ong",
+          "chance": "40%"
+        }
+      ]
+    },
+    {
+      "id": "bramble_puck",
+      "name": "Mộc Tinh Tinh Nghịch",
+      "name_en": "Bramble Puck",
+      "realm": "sylva-fae",
+      "description": "Yêu tinh rêu nhỏ đội nón nấm, chuyên ném bùn làm bẩn áo và giật mũ phù thủy của Rowan.",
+      "weakness": "Yếu đập AoE — Liềm Ma Thuật quét đàn nhỏ",
+      "loot": "Bùn sao phát sáng",
+      "tags": [
+        "spirit",
+        "mischief",
+        "elven"
+      ],
+      "hp": 70,
+      "atk": 15,
+      "danger_level": 2,
+      "loot_items": [
+        {
+          "id": "drop_prism_jelly",
+          "name": "Thạch Tinh Thể Đổi Màu",
+          "chance": "55%"
+        },
+        {
+          "id": "dau_rung",
+          "name": "Dâu Rừng",
+          "chance": "35%"
+        }
+      ]
+    },
+    {
+      "id": "astral_hollow_knight",
+      "name": "Bộ Giáp Kỵ Sĩ Vô Hồn",
+      "name_en": "Astral Hollow Knight",
+      "realm": "solaria",
+      "description": "Bộ giáp cẩm thạch rỗng ruột đi tuần theo tiếng chuông đồng hồ, vung gươm chém ra sóng pha lê.",
+      "weakness": "Yếu đập giáp — Gậy Quấy Trà slam phá giáp cẩm thạch",
+      "loot": "Mảnh giáp cẩm thạch",
+      "tags": [
+        "undead",
+        "armor",
+        "royal"
+      ],
+      "hp": 240,
+      "atk": 32,
+      "danger_level": 4,
+      "loot_items": [
+        {
+          "id": "ore_gold",
+          "name": "Quặng Vàng",
+          "chance": "50%"
+        },
+        {
+          "id": "da_tinh_the",
+          "name": "Đá Tinh Thể",
+          "chance": "40%"
+        }
+      ]
+    },
+    {
+      "id": "grimoire_mimic",
+      "name": "Cổ Thư Phản Phệ",
+      "name_en": "Grimoire Mimic",
+      "realm": "solaria",
+      "description": "Cuốn sách phép thuật có răng nẹp đồng, vỗ bìa bay lượn và bắn cổ ngữ gây choáng.",
+      "weakness": "Yếu melee nhanh — Kiếm Pha Lê Sao combo 3 nhịp",
+      "loot": "Trang sách ma thuật",
+      "tags": [
+        "construct",
+        "flying",
+        "royal"
+      ],
+      "hp": 110,
+      "atk": 25,
+      "danger_level": 3,
+      "loot_items": [
+        {
+          "id": "bot_sao",
+          "name": "Bột Sao",
+          "chance": "60%"
+        },
+        {
+          "id": "gem_amethyst",
+          "name": "Thạch Anh Tím",
+          "chance": "30%"
+        }
+      ]
+    },
+    {
+      "id": "mirror_glass_raven",
+      "name": "Quạ Gương Thiên Văn",
+      "name_en": "Mirror-Glass Raven",
+      "realm": "solaria",
+      "description": "Quạ khổng lồ có cánh bằng mảnh gương vỡ, phản chiếu ánh sao làm lóa mắt kẻ địch.",
+      "weakness": "Yếu sáng/đập — Đèn Lồng Bão Đom Đóm phá cánh gương",
+      "loot": "Mảnh gương sao",
+      "tags": [
+        "beast",
+        "flying",
+        "royal"
+      ],
+      "hp": 105,
+      "atk": 24,
+      "danger_level": 3,
+      "loot_items": [
+        {
+          "id": "drop_crystal_sea_salt",
+          "name": "Muối Biển Tinh Thể",
+          "chance": "60%"
+        },
+        {
+          "id": "da_tinh_the",
+          "name": "Đá Tinh Thể",
+          "chance": "45%"
+        }
+      ]
+    },
+    {
+      "id": "solar_gryphon",
+      "name": "Sư Tử Cánh Mây Ánh Sáng",
+      "name_en": "Solar Gryphon",
+      "realm": "aethelgard",
+      "description": "Nửa sư tử nửa đại bàng dệt từ mây trắng và hào quang, hộ vệ Cây Trường Sinh giữa thiên đường.",
+      "weakness": "Yếu đòn nặng — cần vũ khí cấp cao và né hào quang",
+      "loot": "Lông mây ánh sáng",
+      "tags": [
+        "mythic",
+        "guardian",
+        "elysium"
+      ],
+      "hp": 380,
+      "atk": 45,
+      "danger_level": 5,
+      "loot_items": [
+        {
+          "id": "gem_ruby",
+          "name": "Hồng Ngọc Lửa",
+          "chance": "60%"
+        },
+        {
+          "id": "bot_sao",
+          "name": "Bột Sao",
+          "chance": "80%"
+        }
+      ]
+    },
+    {
+      "id": "aurora_stag",
+      "name": "Hươu Cực Quang Tinh Tú",
+      "name_en": "Aurora Stag",
+      "realm": "aethelgard",
+      "description": "Hươu linh thiêng có cặp sừng là dải cực quang nhảy múa trên bầu trời sao.",
+      "weakness": "Yếu đòn cực quang — cần vũ khí Tinh Tú cấp cao",
+      "loot": "Lông Cực Quang (mở khóa thú cưỡi thiên đường)",
+      "tags": [
+        "mythic",
+        "spirit",
+        "elysium"
+      ],
+      "hp": 420,
+      "atk": 40,
+      "danger_level": 5,
+      "loot_items": [
+        {
+          "id": "drop_moon_berry",
+          "name": "Quả Mọng Ánh Trăng",
+          "chance": "85%"
+        },
+        {
+          "id": "gem_sapphire",
+          "name": "Lam Ngọc Băng",
+          "chance": "50%"
+        }
+      ]
+    },
+    {
+      "id": "poltergeist_kettle",
+      "name": "Ấm Trà Quỷ Ám",
+      "name_en": "Poltergeist Kettle",
+      "realm": "oakhaven",
+      "description": "Ấm trà cổ bị bỏ hoang bay lơ lửng trong mỏ, phun hơi nước sôi cay nồng.",
+      "weakness": "Yếu sáng/đập — Đèn Lồng + Kiếm Pha Lê Sao",
+      "loot": "Mảnh ấm trà cổ",
+      "tags": [
+        "spirit",
+        "haunted",
+        "local"
+      ],
+      "hp": 75,
+      "atk": 15,
+      "danger_level": 1,
+      "loot_items": [
+        {
+          "id": "da_tinh_the",
+          "name": "Đá Tinh Thể",
+          "chance": "70%"
+        },
+        {
+          "id": "la_tra_sen",
+          "name": "Lá Trà Sen",
+          "chance": "40%"
+        }
+      ]
+    },
+    {
+      "id": "dark_crystal_scarab",
+      "name": "Bọ Tinh Thể Ám Tối",
+      "name_en": "Dark Crystal Scarab",
+      "realm": "oakhaven",
+      "description": "Bọ cánh cứng mai là cụm thạch anh đen lạo xạo bám trên vách đá hang mỏ.",
+      "weakness": "Yếu đập — Gậy Quấy Trà đập vỡ mai thạch anh",
+      "loot": "Thạch anh đen",
+      "tags": [
+        "beetle",
+        "crystal",
+        "local"
+      ],
+      "hp": 95,
+      "atk": 18,
+      "danger_level": 2,
+      "loot_items": [
+        {
+          "id": "gem_amethyst",
+          "name": "Thạch Anh Tím",
+          "chance": "45%"
+        },
+        {
+          "id": "ore_coal",
+          "name": "Than Đá",
+          "chance": "60%"
+        }
+      ]
+    }
+  ]
+}

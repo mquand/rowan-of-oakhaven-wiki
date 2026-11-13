@@ -1,0 +1,221 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "version": "1.0.0",
+  "updated": "2026-11-12",
+  "recipes": [
+    {
+      "id": "tra_sen_an_than",
+      "name": "Trà Sen An Thần",
+      "description": "Trà nền thanh mát kết hợp mật ong ngọt dịu, xoa dịu tâm can và giải tỏa lo âu.",
+      "station": "tea_station",
+      "ingredients": [
+        {
+          "id": "la_tra_sen",
+          "name": "Lá Trà Sen",
+          "quantity": 1
+        },
+        {
+          "id": "mat_ong",
+          "name": "Mật Ong",
+          "quantity": 1
+        }
+      ],
+      "result_item_id": "item_tea_sen_an_than",
+      "duration_seconds": 2,
+      "effect_description": "Xoa dịu muộn phiền, hồi phục 35 Thể Lực"
+    },
+    {
+      "id": "tra_dau_bang_tuyet",
+      "name": "Trà Dâu Băng Tuyết",
+      "description": "Vị chua ngọt mọng nước từ dâu rừng hòa quyện cùng đá tinh thể mát lạnh sảng khoái.",
+      "station": "tea_station",
+      "ingredients": [
+        {
+          "id": "dau_rung",
+          "name": "Dâu Rừng",
+          "quantity": 1
+        },
+        {
+          "id": "da_tinh_the",
+          "name": "Đá Tinh Thể",
+          "quantity": 1
+        }
+      ],
+      "result_item_id": "item_tea_dau_bang_tuyet",
+      "duration_seconds": 2,
+      "effect_description": "Mát lạnh sảng khoái, tăng 15% tốc độ đi bộ trong 3 phút"
+    },
+    {
+      "id": "tra_oai_huong_ngan_sao",
+      "name": "Trà Oải Hương Ngàn Sao",
+      "description": "Hương hoa oải hương dịu nhẹ ướp cùng bột sao lấp lánh giúp tâm trí thanh tịnh hoàn toàn.",
+      "station": "tea_station",
+      "ingredients": [
+        {
+          "id": "oai_huong",
+          "name": "Oải Hương",
+          "quantity": 1
+        },
+        {
+          "id": "bot_sao",
+          "name": "Bột Sao",
+          "quantity": 1
+        }
+      ],
+      "result_item_id": "item_tea_oai_huong_ngan_sao",
+      "duration_seconds": 2.5,
+      "effect_description": "Thở ra bụi sao, ngủ ngon hồi phục 100% Thể Lực"
+    },
+    {
+      "id": "tra_anh_duong",
+      "name": "Trà Ánh Dương",
+      "description": "Tách trà vàng óng ánh như giọt nắng sớm mai, truyền sinh lực dồi dào cho người thợ mỏ.",
+      "station": "tea_station",
+      "ingredients": [
+        {
+          "id": "la_tra_sen",
+          "name": "Lá Trà Sen",
+          "quantity": 1
+        },
+        {
+          "id": "bot_sao",
+          "name": "Bột Sao",
+          "quantity": 1
+        },
+        {
+          "id": "mat_ong",
+          "name": "Mật Ong",
+          "quantity": 1
+        }
+      ],
+      "result_item_id": "item_tea_anh_duong",
+      "duration_seconds": 3,
+      "effect_description": "Tăng 25% tốc độ đập đá mỏ trong 3 phút thực, hồi phục 50 Thể Lực"
+    },
+    {
+      "id": "bread_brioche",
+      "name": "Bánh Mì Hoa Cúc Mật Ong",
+      "description": "Bánh mì thớ tơi mềm ngậy mùi bơ và ngọt ngào hương mật ong hoa rừng.",
+      "station": "bakery_oven",
+      "ingredients": [
+        {
+          "id": "item_flour",
+          "name": "Bột Mì",
+          "quantity": 2
+        },
+        {
+          "id": "mat_ong",
+          "name": "Mật Ong",
+          "quantity": 1
+        },
+        {
+          "id": "item_butter",
+          "name": "Bơ",
+          "quantity": 1
+        }
+      ],
+      "result_item_id": "item_bread_brioche",
+      "duration_seconds": 10,
+      "effect_description": "Hồi phục 60 Thể Lực"
+    },
+    {
+      "id": "pastry_scone_berry",
+      "name": "Scone Dâu Rừng Dạ Quang",
+      "description": "Bánh scone xốp giòn nướng vàng rộm với những hạt dâu tuyết phát sáng chua ngọt.",
+      "station": "bakery_oven",
+      "ingredients": [
+        {
+          "id": "item_flour",
+          "name": "Bột Mì",
+          "quantity": 2
+        },
+        {
+          "id": "seed_lumiberry",
+          "name": "Dâu Tuyết",
+          "quantity": 2
+        }
+      ],
+      "result_item_id": "item_pastry_scone_berry",
+      "duration_seconds": 9,
+      "effect_description": "Hồi phục sinh lực và tinh thần phấn chấn"
+    },
+    {
+      "id": "pastry_cinnamon_roll",
+      "name": "Bánh Quế Cuộn Thần Rừng",
+      "description": "Bánh cuộn thơm nức hương quế ấm áp, món yêu thích của thợ rèn Boris.",
+      "station": "bakery_oven",
+      "ingredients": [
+        {
+          "id": "item_flour",
+          "name": "Bột Mì",
+          "quantity": 2
+        },
+        {
+          "id": "item_cinnamon",
+          "name": "Bột Quế Rừng",
+          "quantity": 1
+        },
+        {
+          "id": "item_sugar",
+          "name": "Đường",
+          "quantity": 1
+        }
+      ],
+      "result_item_id": "item_pastry_cinnamon_roll",
+      "duration_seconds": 11,
+      "effect_description": "Hơi ấm ngập tràn cơ thể, xua tan giá rét"
+    },
+    {
+      "id": "pastry_crystal_tart",
+      "name": "Bánh Tart Pha Lê Sao",
+      "description": "Chiếc bánh tart tinh xảo với lớp nhân thạch anh tím lấp lánh như bầu trời đêm đầy sao.",
+      "station": "bakery_oven",
+      "ingredients": [
+        {
+          "id": "item_flour",
+          "name": "Bột Mì",
+          "quantity": 1
+        },
+        {
+          "id": "gem_amethyst",
+          "name": "Thạch Anh Tím",
+          "quantity": 1
+        },
+        {
+          "id": "bot_sao",
+          "name": "Bột Sao",
+          "quantity": 1
+        }
+      ],
+      "result_item_id": "item_pastry_crystal_tart",
+      "duration_seconds": 12,
+      "effect_description": "Phát ra hào quang huyền bí, tăng may mắn khi khai thác mỏ"
+    },
+    {
+      "id": "cake_fairy_birthday",
+      "name": "Bánh Sinh Nhật Tinh Linh",
+      "description": "Chiếc bánh kem kỷ niệm đặc biệt trang trí bằng ánh sáng đom đóm lung linh và dâu tuyết tươi.",
+      "station": "bakery_oven",
+      "ingredients": [
+        {
+          "id": "item_flour",
+          "name": "Bột Mì",
+          "quantity": 3
+        },
+        {
+          "id": "seed_lumiberry",
+          "name": "Dâu Tuyết",
+          "quantity": 2
+        },
+        {
+          "id": "item_lantern_firefly",
+          "name": "Đèn Đom Đóm",
+          "quantity": 1
+        }
+      ],
+      "result_item_id": "item_cake_fairy_birthday",
+      "duration_seconds": 13,
+      "effect_description": "Tạo niềm vui vô bờ bến và mở khóa ký ức đặc biệt khi tặng đúng ngày sinh nhật"
+    }
+  ]
+}
