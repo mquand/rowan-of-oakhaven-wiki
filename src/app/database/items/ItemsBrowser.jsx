@@ -47,6 +47,52 @@ export default function ItemsBrowser({ items }) {
     });
   }, [items, query, category]);
 
+  const groups = useMemo(() => {
+    const map = new Map();
+    for (const item of filtered) {
+      if (!map.has(item.category)) map.set(item.category, []);
+      map.get(item.category).push(item);
+    }
+    return CATEGORIES.filter(c => c.id !== 'all')
+      .map(c => ({ id: c.id, label: c.label, items: map.get(c.id) || [] }))
+      .filter(g => g.items.length > 0);
+  }, [filtered]);
+
+  const renderItemCard = item => {
+    const iconName = ICONS[item.category] || 'package';
+    const catLabel = CATEGORY_LABELS[item.category] || item.category;
+
+    return (
+      <Link
+        key={item.id}
+        href={`/database/items/${item.id}`}
+        className={`${styles.itemCard} pixel-frame`}
+      >
+        <div className={styles.itemCardHeader}>
+          <div className={styles.itemSlot}>
+            <Icon name={iconName} size={24} />
+          </div>
+          <div className={styles.itemNameGroup}>
+            <div className={styles.itemName}>{item.name}</div>
+            <div className={styles.itemCategory}>{catLabel}</div>
+          </div>
+        </div>
+
+        <p className={styles.itemDesc}>{item.description}</p>
+
+        {item.tags && item.tags.length > 0 && (
+          <div className={styles.itemTagsRow}>
+            {item.tags.map(t => (
+              <span key={t} className="badge forest" style={{ fontSize: '11px' }}>
+                #{t}
+              </span>
+            ))}
+          </div>
+        )}
+      </Link>
+    );
+  };
+
   return (
     <>
       <div className={styles.toolbar}>
@@ -110,42 +156,19 @@ export default function ItemsBrowser({ items }) {
           </button>
         </div>
       ) : viewMode === 'inventory' ? (
-        /* ==================== INVENTORY SLOT GRID ==================== */
-        <div className={styles.inventoryGrid}>
-          {filtered.map(item => {
-            const iconName = ICONS[item.category] || 'package';
-            const catLabel = CATEGORY_LABELS[item.category] || item.category;
-
-            return (
-              <Link
-                key={item.id}
-                href={`/database/items/${item.id}`}
-                className={`${styles.itemCard} pixel-frame`}
-              >
-                <div className={styles.itemCardHeader}>
-                  <div className={styles.itemSlot}>
-                    <Icon name={iconName} size={24} />
-                  </div>
-                  <div className={styles.itemNameGroup}>
-                    <div className={styles.itemName}>{item.name}</div>
-                    <div className={styles.itemCategory}>{catLabel}</div>
-                  </div>
-                </div>
-
-                <p className={styles.itemDesc}>{item.description}</p>
-
-                {item.tags && item.tags.length > 0 && (
-                  <div className={styles.itemTagsRow}>
-                    {item.tags.map(t => (
-                      <span key={t} className="badge forest" style={{ fontSize: '11px' }}>
-                        #{t}
-                      </span>
-                    ))}
-                  </div>
-                )}
-              </Link>
-            );
-          })}
+        /* ==================== INVENTORY SLOT GRID (GROUPED BY CATEGORY) ==================== */
+        <div className={styles.groupsWrap}>
+          {groups.map(group => (
+            <section key={group.id} className={styles.groupSection}>
+              <header className={styles.groupHeader}>
+                <span className={styles.groupTitle}>{group.label}</span>
+                <span className={styles.groupCount}>{group.items.length} mục</span>
+              </header>
+              <div className={styles.inventoryGrid}>
+                {group.items.map(renderItemCard)}
+              </div>
+            </section>
+          ))}
         </div>
       ) : (
         /* ==================== WIKI TABLE VIEW ==================== */

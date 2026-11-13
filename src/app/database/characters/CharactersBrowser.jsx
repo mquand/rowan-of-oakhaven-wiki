@@ -13,6 +13,14 @@ const GROUPS = [
   { id: 'realms', label: '5 Vương Quốc & Lữ Khách' },
 ];
 
+const SHOP_IDS = ['npc_rowan', 'pet_pip', 'pet_mallow', 'npc_amalia'];
+
+function groupOf(char) {
+  if (SHOP_IDS.includes(char.id)) return 'shop';
+  if (char.location.includes('Oakhaven')) return 'oakhaven';
+  return 'realms';
+}
+
 const CHARACTER_ICONS = {
   npc_rowan: 'sparkle',
   npc_amalia: 'scroll',
@@ -72,6 +80,74 @@ export default function CharactersBrowser({ characters }) {
       return haystack.includes(q);
     });
   }, [characters, query, group]);
+
+  const groups = useMemo(() => {
+    const map = new Map();
+    for (const char of filtered) {
+      const key = groupOf(char);
+      if (!map.has(key)) map.set(key, []);
+      map.get(key).push(char);
+    }
+    return GROUPS.filter(g => g.id !== 'all')
+      .map(g => ({ ...g, items: map.get(g.id) || [] }))
+      .filter(g => g.items.length > 0);
+  }, [filtered]);
+
+  const renderCharCard = char => {
+    const iconName = CHARACTER_ICONS[char.id] || 'users';
+    const favoriteItems = (char.favorite_items || []).map(lookupGift);
+
+    return (
+      <article key={char.id} className={`${styles.characterCard} pixel-frame`}>
+        <div className={styles.cardTop}>
+          <div className={styles.avatarSlot}>
+            <Icon name={iconName} size={30} />
+          </div>
+          <div className={styles.cardIdentity}>
+            <h2 className={styles.charName}>{char.name}</h2>
+            <div className={styles.charRole}>{char.role}</div>
+            <div className={styles.charMetaRow}>
+              <span className="badge forest">{char.species}</span>
+              <span className={styles.locationTag}>
+                <Icon name="map-pin" size={12} /> {char.location}
+              </span>
+            </div>
+          </div>
+        </div>
+
+        {char.quote && (
+          <div className={styles.quoteBubble}>
+            {char.quote}
+          </div>
+        )}
+
+        <p className={styles.charBio}>{char.description}</p>
+
+        <div className={styles.giftsSection}>
+          <div className={styles.giftsLabel}>
+            <Icon name="heart" size={13} />
+            <span>Món Quà Ưa Thích</span>
+          </div>
+          <div className={styles.giftsList}>
+            {favoriteItems.length > 0 ? (
+              favoriteItems.map((gift, idx) => (
+                <Link
+                  key={`${char.id}-gift-${idx}`}
+                  href={gift.href}
+                  className={styles.giftBadgeLink}
+                >
+                  <Icon name={gift.icon} size={13} />
+                  <span>{gift.name}</span>
+                </Link>
+              ))
+            ) : (
+              <span style={{ fontSize: '12px', color: '#8d92aa' }}>Đang tìm hiểu...</span>
+            )}
+          </div>
+        </div>
+      </article>
+    );
+  };
 
   return (
     <>
@@ -139,63 +215,19 @@ export default function CharactersBrowser({ characters }) {
           </button>
         </div>
       ) : viewMode === 'roster' ? (
-        /* ==================== ROSTER CARDS VIEW (DEFAULT) ==================== */
-        <div className={styles.characterGrid}>
-          {filtered.map(char => {
-            const iconName = CHARACTER_ICONS[char.id] || 'users';
-            const favoriteItems = (char.favorite_items || []).map(lookupGift);
-
-            return (
-              <article key={char.id} className={`${styles.characterCard} pixel-frame`}>
-                <div className={styles.cardTop}>
-                  <div className={styles.avatarSlot}>
-                    <Icon name={iconName} size={30} />
-                  </div>
-                  <div className={styles.cardIdentity}>
-                    <h2 className={styles.charName}>{char.name}</h2>
-                    <div className={styles.charRole}>{char.role}</div>
-                    <div className={styles.charMetaRow}>
-                      <span className="badge forest">{char.species}</span>
-                      <span className={styles.locationTag}>
-                        <Icon name="map-pin" size={12} /> {char.location}
-                      </span>
-                    </div>
-                  </div>
-                </div>
-
-                {char.quote && (
-                  <div className={styles.quoteBubble}>
-                    {char.quote}
-                  </div>
-                )}
-
-                <p className={styles.charBio}>{char.description}</p>
-
-                <div className={styles.giftsSection}>
-                  <div className={styles.giftsLabel}>
-                    <Icon name="heart" size={13} />
-                    <span>Món Quà Ưa Thích</span>
-                  </div>
-                  <div className={styles.giftsList}>
-                    {favoriteItems.length > 0 ? (
-                      favoriteItems.map((gift, idx) => (
-                        <Link
-                          key={`${char.id}-gift-${idx}`}
-                          href={gift.href}
-                          className={styles.giftBadgeLink}
-                        >
-                          <Icon name={gift.icon} size={13} />
-                          <span>{gift.name}</span>
-                        </Link>
-                      ))
-                    ) : (
-                      <span style={{ fontSize: '12px', color: '#8d92aa' }}>Đang tìm hiểu...</span>
-                    )}
-                  </div>
-                </div>
-              </article>
-            );
-          })}
+        /* ==================== ROSTER CARDS VIEW (GROUPED) ==================== */
+        <div className={styles.groupsWrap}>
+          {groups.map(g => (
+            <section key={g.id} className={styles.groupSection}>
+              <header className={styles.groupHeader}>
+                <span className={styles.groupTitle}>{g.label}</span>
+                <span className={styles.groupCount}>{g.items.length} cư dân</span>
+              </header>
+              <div className={styles.characterGrid}>
+                {g.items.map(renderCharCard)}
+              </div>
+            </section>
+          ))}
         </div>
       ) : (
         /* ==================== SỔ KẾ TABLE VIEW ==================== */

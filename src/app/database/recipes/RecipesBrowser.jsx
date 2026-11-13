@@ -32,6 +32,68 @@ export default function RecipesBrowser({ recipes }) {
     });
   }, [recipes, query, station]);
 
+  const groups = useMemo(() => {
+    const map = new Map();
+    for (const recipe of filtered) {
+      if (!map.has(recipe.station)) map.set(recipe.station, []);
+      map.get(recipe.station).push(recipe);
+    }
+    return STATIONS.filter(s => s.id !== 'all')
+      .map(s => ({ ...s, items: map.get(s.id) || [] }))
+      .filter(g => g.items.length > 0);
+  }, [filtered]);
+
+  const renderRecipeCard = recipe => {
+    const isTea = recipe.station === 'tea_station';
+    const stationLabel = isTea ? 'Trạm Trà ASMR' : 'Lò Nướng Bánh Thần Kỳ';
+    const iconName = isTea ? 'tea-bag' : 'cake';
+
+    return (
+      <article key={recipe.id} id={recipe.id} className={`${styles.recipeCard} pixel-frame`}>
+        <div className={styles.recipeTop}>
+          <div className={styles.avatarSlot}>
+            <Icon name={iconName} size={28} />
+          </div>
+          <div className={styles.recipeNameGroup}>
+            <h2 className={styles.recipeName}>{recipe.name}</h2>
+            <div className={styles.recipeStationMeta}>
+              <span className={styles.stationName}>{stationLabel}</span>
+              <span>·</span>
+              <span className={styles.duration}>
+                <Icon name="clock" size={12} /> {recipe.duration_seconds}s
+              </span>
+            </div>
+          </div>
+        </div>
+
+        {recipe.effect_description && (
+          <div className={styles.recipeEffect}>
+            <Icon name="sparkle" size={14} />
+            <span>{recipe.effect_description}</span>
+          </div>
+        )}
+
+        <p className={styles.recipeDesc}>{recipe.description}</p>
+
+        <div className={styles.recipeIngredientsBox}>
+          <div className={styles.ingLabel}>NGUYÊN LIỆU CẦN THIẾT</div>
+          <div className={styles.ingList}>
+            {recipe.ingredients.map(ing => (
+              <Link
+                key={ing.id}
+                href={`/database/items/${ing.id}`}
+                className={styles.ingredientLink}
+              >
+                <span>{ing.name}</span>
+                <span className={styles.ingredientQty}>x{ing.quantity}</span>
+              </Link>
+            ))}
+          </div>
+        </div>
+      </article>
+    );
+  };
+
   return (
     <>
       <div className={styles.toolbar}>
@@ -98,58 +160,19 @@ export default function RecipesBrowser({ recipes }) {
           </button>
         </div>
       ) : viewMode === 'cookery' ? (
-        /* ==================== SỔ BẾP BÀ NGOẠI CARDS ==================== */
-        <div className={styles.recipeGrid}>
-          {filtered.map(recipe => {
-            const isTea = recipe.station === 'tea_station';
-            const stationLabel = isTea ? 'Trạm Trà ASMR' : 'Lò Nướng Bánh Thần Kỳ';
-            const iconName = isTea ? 'tea-bag' : 'cake';
-
-            return (
-              <article key={recipe.id} id={recipe.id} className={`${styles.recipeCard} pixel-frame`}>
-                <div className={styles.recipeTop}>
-                  <div className={styles.avatarSlot}>
-                    <Icon name={iconName} size={28} />
-                  </div>
-                  <div className={styles.recipeNameGroup}>
-                    <h2 className={styles.recipeName}>{recipe.name}</h2>
-                    <div className={styles.recipeStationMeta}>
-                      <span className={styles.stationName}>{stationLabel}</span>
-                      <span>·</span>
-                      <span className={styles.duration}>
-                        <Icon name="clock" size={12} /> {recipe.duration_seconds}s
-                      </span>
-                    </div>
-                  </div>
-                </div>
-
-                {recipe.effect_description && (
-                  <div className={styles.recipeEffect}>
-                    <Icon name="sparkle" size={14} />
-                    <span>{recipe.effect_description}</span>
-                  </div>
-                )}
-
-                <p className={styles.recipeDesc}>{recipe.description}</p>
-
-                <div className={styles.recipeIngredientsBox}>
-                  <div className={styles.ingLabel}>NGUYÊN LIỆU CẦN THIẾT</div>
-                  <div className={styles.ingList}>
-                    {recipe.ingredients.map(ing => (
-                      <Link
-                        key={ing.id}
-                        href={`/database/items/${ing.id}`}
-                        className={styles.ingredientLink}
-                      >
-                        <span>{ing.name}</span>
-                        <span className={styles.ingredientQty}>x{ing.quantity}</span>
-                      </Link>
-                    ))}
-                  </div>
-                </div>
-              </article>
-            );
-          })}
+        /* ==================== SỔ BẾP BÀ NGOẠI CARDS (GROUPED BY STATION) ==================== */
+        <div className={styles.groupsWrap}>
+          {groups.map(g => (
+            <section key={g.id} className={styles.groupSection}>
+              <header className={styles.groupHeader}>
+                <span className={styles.groupTitle}>{g.label}</span>
+                <span className={styles.groupCount}>{g.items.length} công thức</span>
+              </header>
+              <div className={styles.recipeGrid}>
+                {g.items.map(renderRecipeCard)}
+              </div>
+            </section>
+          ))}
         </div>
       ) : (
         /* ==================== BẢNG SỔ KẾ ==================== */

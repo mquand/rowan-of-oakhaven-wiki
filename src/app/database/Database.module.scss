@@ -875,6 +875,42 @@
   }
 }
 
+/* ---------- Grouped Sections (CATEGORIES) ---------- */
+.groupsWrap {
+  display: flex;
+  flex-direction: column;
+  gap: $sp-10;
+}
+
+.groupSection {
+  min-width: 0;
+}
+
+.groupHeader {
+  display: flex;
+  align-items: center;
+  gap: $sp-3;
+  margin-bottom: $sp-5;
+  padding-bottom: $sp-3;
+  border-bottom: 2px solid rgba($color-night-border, 0.9);
+}
+
+.groupTitle {
+  font-family: $font-pixel;
+  font-size: 13px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: $color-amber-warm;
+}
+
+.groupCount {
+  margin-left: auto;
+  font-family: $font-pixel;
+  font-size: 11px;
+  letter-spacing: 0.06em;
+  color: $color-text-dim;
+}
+
 @media (max-width: 768px) {
   .characterGrid,
   .recipeGrid,
