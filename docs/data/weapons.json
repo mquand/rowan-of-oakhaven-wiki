@@ -14,7 +14,12 @@
         "sword",
         "magic",
         "melee"
-      ]
+      ],
+      "base_atk": 18,
+      "attack_speed": "Nhanh (3 nhịp/s)",
+      "reach": "Cận chiến (1.2 ô)",
+      "special_effect": "Nhát chém thứ 3 tạo sóng bụi sao làm vỡ đá nhỏ",
+      "materials_needed": "5 Quặng Đồng + 2 Than Đá tại Lò rèn Boris"
     },
     {
       "id": "mystic_scythe",
@@ -28,7 +33,12 @@
         "magic",
         "aoe",
         "harvest"
-      ]
+      ],
+      "base_atk": 22,
+      "attack_speed": "Trung bình (1.5 nhịp/s)",
+      "reach": "Bán nguyệt rộng (2.5 ô)",
+      "special_effect": "Quét sạch đàn quái nhỏ & thu hoạch cây trồng diện rộng",
+      "materials_needed": "8 Quặng Đồng + 1 Đá Tinh Thể tại Lò rèn Boris"
     },
     {
       "id": "spirit_lantern",
@@ -42,7 +52,12 @@
         "magic",
         "ranged",
         "light"
-      ]
+      ],
+      "base_atk": 14,
+      "attack_speed": "Nhanh (2 tia sáng/s)",
+      "reach": "Tầm xa (6 ô thẳng)",
+      "special_effect": "Bắn đốm sáng đẩy lùi quái, soi sáng mỏ sâu và phá sương",
+      "materials_needed": "5 Quặng Sắt + 1 Tinh Chất Đom Đóm tại Lò rèn Boris"
     },
     {
       "id": "whisk_hammer",
@@ -55,7 +70,12 @@
         "hammer",
         "heavy",
         "aoe"
-      ]
+      ],
+      "base_atk": 36,
+      "attack_speed": "Chậm (0.8 nhịp/s)",
+      "reach": "Chấn động diện rộng (2.0 ô)",
+      "special_effect": "Đập đất slam phá tan giáp quái vật đá và khối quặng",
+      "materials_needed": "10 Quặng Sắt + 2 Đá Tinh Thể tại Lò rèn Boris"
     }
   ]
 }

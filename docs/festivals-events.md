@@ -29,7 +29,7 @@ Chiếc thuyền vỏ ốc của thuyền trưởng **Garrick** cập bến đú
 
 ## Đêm Thắp Đèn Đom Đóm (Giao Thừa Mùa Đông)
 
-Đêm cuối Mùa Đông, dân làng thắp hàng trăm đèn đom đóm quanh Cây Thần — ấm áp, chữa lành, kết thúc năm.
+Đêm cuối Mùa Đông, dân làng thắp hàng trăm đèn đom đóm quanh Cây Thần — thắp sáng màn đêm, khép lại một năm an lành.
 
 ## Hệ thống Sinh Nhật & Bánh Kem
 

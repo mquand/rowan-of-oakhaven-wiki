@@ -57,7 +57,7 @@ const QUICK_CODEX = [
   {
     icon: 'cake',
     title: 'Sổ Công Thức Trà & Bánh',
-    desc: 'Danh mục các món trà ASMR chữa lành và công thức nướng bánh ma thuật.',
+    desc: 'Danh mục các loại trà thảo mộc Bụi Sao và công thức nướng bánh ma thuật.',
     href: '/database/recipes',
     linkText: 'Tra cứu công thức',
   },

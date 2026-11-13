@@ -1,5 +1,5 @@
 ---
-title: "Game Overview"
+title: "Tổng Quan Trò Chơi"
 status: draft
 audience: public
 updated: 2026-11-12
@@ -7,19 +7,18 @@ tags: [overview, pitch, core-loop, features]
 spoiler: false
 ---
 
-# 🍵 Rowan of Oakhaven — Game Overview
+# 🍵 Rowan of Oakhaven — Tổng Quan Trò Chơi
 
-> **Thể loại:** Cozy Dark Pixel RPG · ASMR Tea Brewing & Bakery · Herb Farming · Crystal Mining · Narrative Healing  
+> **Thể loại:** Dark Pixel RPG · Thảo Dược, Pha Trà & Bánh Ma Thuật · Khai Thác Mỏ · Cốt Truyện Đồng Cảm  
 > **Nền tảng:** PC (Steam, 16:9 Landscape) & Mobile  
-> **Engine:** Godot 4.7.2 (Typed GDScript)  
-> **Phong cách nghệ thuật:** 2D Dark Cozy Pixel Art (bảng màu đêm lạnh navy/tím, ánh sáng ấm vàng mật ong)  
+> **Phong cách nghệ thuật:** 2D Dark Pixel Art (bảng màu đêm lạnh navy/tím, ánh sáng ấm vàng mật ong)  
 
 ---
 
 ## 1. Giới Thiệu Chung & Cốt Truyện Khởi Đầu
 
 ### 1.1. Logline
-> *"Tiếp quản tiệm trà bánh cũ của người bà quá cố nơi rìa Rừng Thầm Thì, bạn gieo trồng thảo mộc, đào mỏ tìm than đá và thạch anh, để mỗi tối mở tiệm lắng nghe tâm sự của dân làng, tự tay nhào bột và pha những tách trà ASMR chữa lành tâm hồn cho họ."*
+> *"Tiếp quản tiệm trà bánh cũ của người bà quá cố nơi rìa Rừng Thầm Thì, bạn gieo trồng thảo mộc, đào mỏ tìm than đá và thạch anh, để mỗi tối mở tiệm lắng nghe tâm sự của dân làng, tự tay nhào bột và pha những tách trà thảo mộc Bụi Sao xoa dịu nỗi muộn phiền cho họ."*
 
 ### 1.2. Cốt Truyện Mở Đầu
 **Rowan** là một học viên phù thủy trẻ vừa kiệt sức sau nhiều năm chịu áp lực học thuật nặng nề tại Viện Phép Thuật hoàng gia. Giữa lúc phương hướng cuộc đời mờ mịt, cô nhận được tin **Bà Ngoại Amalia** — một nghệ nhân trà bánh ma thuật nổi tiếng ấm áp và đôn hậu — đã qua đời thanh thản trong giấc ngủ.
@@ -39,20 +38,20 @@ Một ngày trong game kéo dài khoảng **10 – 15 phút thời gian thực**
    - *Làm vườn:* Cuốc đất, gieo hạt, tưới nước thảo mộc (Trà Sen, Dâu Tuyết, Oải Hương Sao), xay lúa mì tại cối xay gió.
    - *Thám hiểm hang mỏ:* Cầm Đèn Đom Đóm soi mỏ sâu, khai thác than đá đốt lò bánh và quặng khoáng sản nâng cấp công cụ.
 3. **Hoàng Hôn (17:00 – 18:00):** Tự pha tách trà ấm uống nhận buff thể lực, chuẩn bị quầy bếp cho buổi tối.
-4. **Buổi Tối (18:00 – 23:00):** Mở tiệm trà bánh đón khách, lắng nghe tâm sự, làm bánh và pha trà ASMR xoa dịu nỗi niềm dân làng.
+4. **Buổi Tối (18:00 – 23:00):** Mở tiệm trà bánh đón khách, lắng nghe tâm sự, làm bánh và pha trà thảo mộc xoa dịu nỗi niềm dân làng.
 5. **Đêm Khuya (23:00 – 02:00):** Rèn công cụ tại Lò Rèn Boris, bật máy đĩa than lofi, lưu ảnh Polaroid kỷ niệm và lên giường ngủ.
 
 ---
 
 ## 3. Bản Sắc Riêng Biệt (Unique Selling Points - USPs)
 
-1. **ASMR Xúc Giác Cận Cảnh (Tactile Foley Audio):**
+1. **Âm Thanh Xúc Giác Cận Cảnh (Tactile Foley Audio):**
    Người chơi trực tiếp tương tác vật lý: ấn tay nhào bột dẻo dính bồm bộp, rắc bột mì khô rào rào, khuấy thìa gỗ tạo xoáy nước sóng sánh trong suốt, chuông lò nướng "Ding!" trong trẻo.
 2. **"Lắng Nghe" Thay Vì "Chạy Đơn Công Nghiệp":**
    Không có đồng hồ đếm ngược hối thúc; khách hàng không đọc menu máy móc mà giãi bày nỗi lòng. Bạn là người giải mã cảm xúc để chọn loại trà và chiếc bánh xoa dịu họ.
 3. **Sổ Thử Nghiệm Tự Do Của Bà Ngoại:**
    Cho phép phối ngẫu hứng bất kỳ nguyên liệu nào mà không bị gò bó. Tự do sáng chế và khám phá những công thức huyền bí ẩn giấu trong thiên nhiên.
-4. **Hơi Thở Văn Hóa Á Đông Mộc Mạc & Chữa Lành:**
+4. **Hơi Thở Văn Hóa Á Đông Mộc Mạc & Tĩnh Lặng:**
    Hương vị Trà Sen ngậm sương, Trà Atiso thanh lọc tâm can, Bánh nướng hoa bưởi, Lễ hội lồng đèn đêm trăng rằm tháng Tám.
 
 ---

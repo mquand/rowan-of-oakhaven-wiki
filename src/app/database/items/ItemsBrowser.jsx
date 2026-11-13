@@ -6,28 +6,41 @@ import Icon from '../../../components/Icon';
 import styles from '../Database.module.scss';
 
 const CATEGORY_LABELS = {
+  tea: 'Trà Thảo Mộc',
+  bakery: 'Bánh ma thuật',
   seed: 'Hạt giống',
   ingredient: 'Nguyên liệu',
   mineral: 'Khoáng sản',
   gem: 'Tinh thể',
-  monster_drop: 'Nguyên liệu quái',
+  monster_drop: 'Loot quái vật',
 };
 
 const CATEGORIES = [
   { id: 'all', label: 'Tất cả' },
+  { id: 'tea', label: 'Trà Thảo Mộc' },
+  { id: 'bakery', label: 'Bánh ma thuật' },
   { id: 'seed', label: 'Hạt giống' },
   { id: 'ingredient', label: 'Nguyên liệu' },
   { id: 'mineral', label: 'Khoáng sản' },
   { id: 'gem', label: 'Tinh thể' },
-  { id: 'monster_drop', label: 'Nguyên liệu quái' },
+  { id: 'monster_drop', label: 'Loot quái' },
 ];
 
 const ICONS = {
+  tea: 'tea-bag',
+  bakery: 'cake',
   seed: 'plant',
   ingredient: 'grains',
   mineral: 'mountains',
   gem: 'diamond',
   monster_drop: 'sparkle',
+};
+
+const RARITY_LABELS = {
+  common: 'Phổ thông',
+  uncommon: 'Quý',
+  rare: 'Tinh xảo',
+  mythic: 'Thần bí',
 };
 
 export default function ItemsBrowser({ items }) {
@@ -80,15 +93,26 @@ export default function ItemsBrowser({ items }) {
 
         <p className={styles.itemDesc}>{item.description}</p>
 
-        {item.tags && item.tags.length > 0 && (
-          <div className={styles.itemTagsRow}>
-            {item.tags.map(t => (
-              <span key={t} className="badge forest" style={{ fontSize: '11px' }}>
-                #{t}
-              </span>
-            ))}
-          </div>
-        )}
+        <div className={styles.itemTagsRow}>
+          {item.sell_price != null && (
+            <span className="badge" style={{ fontSize: '11px', color: '#ffcf40', borderColor: 'rgba(255, 207, 64, 0.4)' }}>
+              {item.sell_price} Vàng
+            </span>
+          )}
+          {item.energy != null && (
+            <span className="badge forest" style={{ fontSize: '11px' }}>
+              +{item.energy} HP
+            </span>
+          )}
+          {item.rarity && (
+            <span
+              className={`badge ${item.rarity === 'rare' ? 'gem' : item.rarity === 'mythic' ? 'monster_drop' : 'forest'}`}
+              style={{ fontSize: '11px' }}
+            >
+              {RARITY_LABELS[item.rarity] || item.rarity}
+            </span>
+          )}
+        </div>
       </Link>
     );
   };
@@ -102,7 +126,7 @@ export default function ItemsBrowser({ items }) {
             <input
               type="search"
               className={styles.searchInput}
-              placeholder="Tìm vật phẩm, nguyên liệu..."
+              placeholder="Tìm vật phẩm, nguyên liệu, trà, bánh..."
               value={query}
               onChange={e => setQuery(e.target.value)}
               aria-label="Tìm vật phẩm"
@@ -179,8 +203,10 @@ export default function ItemsBrowser({ items }) {
                 <th className={styles.iconCell}>Icon</th>
                 <th>Tên vật phẩm</th>
                 <th className={styles.descCell}>Mô tả</th>
-                <th className={styles.tagsCell}>Thể loại</th>
-                <th className={styles.badgeCell}>Tags</th>
+                <th className={styles.stationCell}>Thể loại</th>
+                <th className={styles.badgeCell}>Phẩm cấp</th>
+                <th className={styles.qtyCell}>Giá bán</th>
+                <th className={styles.effectCell}>Thể lực / Hiệu ứng</th>
               </tr>
             </thead>
             <tbody>
@@ -200,12 +226,18 @@ export default function ItemsBrowser({ items }) {
                       {CATEGORY_LABELS[item.category] || item.category}
                     </span>
                   </td>
-                  <td className={styles.tagsCell}>
-                    {item.tags?.map(t => (
-                      <span key={t} className="badge forest">
-                        #{t}
-                      </span>
-                    ))}
+                  <td className={styles.badgeCell}>
+                    <span className={`badge ${item.rarity === 'rare' ? 'gem' : item.rarity === 'mythic' ? 'monster_drop' : 'forest'}`}>
+                      {RARITY_LABELS[item.rarity] || 'Phổ thông'}
+                    </span>
+                  </td>
+                  <td className={styles.qtyCell}>
+                    {item.sell_price != null ? `${item.sell_price} Vàng` : '—'}
+                  </td>
+                  <td className={styles.effectCell}>
+                    {item.energy != null && <span>+{item.energy} HP </span>}
+                    {item.buff && <span style={{ color: '#8d92aa', fontSize: '12px' }}>({item.buff})</span>}
+                    {!item.energy && !item.buff && '—'}
                   </td>
                 </tr>
               ))}

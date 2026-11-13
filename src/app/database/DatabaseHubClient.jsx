@@ -12,8 +12,8 @@ const CATEGORIES = [
     group: 'craft',
     icon: 'package',
     href: '/database/items',
-    desc: 'Hạt giống, thảo mộc, quặng khoáng sản, tinh thể ma thuật và đồ rơi từ quái vật.',
-    tags: ['Hạt giống', 'Nguyên liệu', 'Khoáng sản', 'Tinh thể', 'Loot quái'],
+    desc: 'Trà thảo mộc, bánh nướng ma thuật, hạt giống, thảo mộc, quặng khoáng sản và tinh thể.',
+    tags: ['Trà thảo mộc', 'Bánh nướng', 'Hạt giống', 'Khoáng sản', 'Tinh thể', 'Loot quái'],
   },
   {
     key: 'recipes',
@@ -21,8 +21,8 @@ const CATEGORIES = [
     group: 'craft',
     icon: 'cake',
     href: '/database/recipes',
-    desc: 'Công thức trà an thần ASMR và các mẻ bánh ma thuật nướng tại tiệm bánh.',
-    tags: ['Trạm Trà ASMR', 'Lò Nướng Bánh', 'Hiệu ứng Buff', 'Chữa lành'],
+    desc: 'Công thức các loại trà thảo mộc Bụi Sao và các mẻ bánh ma thuật nướng tại lò.',
+    tags: ['Trạm Pha Trà', 'Lò Nướng Bánh', 'Hiệu ứng Buff', 'Hồi thể lực'],
   },
   {
     key: 'characters',

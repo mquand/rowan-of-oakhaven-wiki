@@ -7,7 +7,7 @@ import styles from '../Database.module.scss';
 
 const STATIONS = [
   { id: 'all', label: 'Tất cả công thức' },
-  { id: 'tea_station', label: 'Trạm Trà ASMR' },
+  { id: 'tea_station', label: 'Trạm Pha Trà' },
   { id: 'bakery_oven', label: 'Lò Nướng Bánh' },
 ];
 
@@ -25,7 +25,7 @@ export default function RecipesBrowser({ recipes }) {
         recipe.name,
         recipe.description,
         recipe.effect_description,
-        recipe.station === 'tea_station' ? 'trà asmr' : 'lò nướng bánh',
+        recipe.station === 'tea_station' ? 'trà thảo mộc' : 'lò nướng bánh',
         ...(recipe.ingredients || []).map(i => i.name),
       ].join(' ').toLowerCase();
       return haystack.includes(q);
@@ -45,7 +45,7 @@ export default function RecipesBrowser({ recipes }) {
 
   const renderRecipeCard = recipe => {
     const isTea = recipe.station === 'tea_station';
-    const stationLabel = isTea ? 'Trạm Trà ASMR' : 'Lò Nướng Bánh Thần Kỳ';
+    const stationLabel = isTea ? 'Trạm Pha Trà' : 'Lò Nướng Bánh Thần Kỳ';
     const iconName = isTea ? 'tea-bag' : 'cake';
 
     return (
@@ -90,6 +90,20 @@ export default function RecipesBrowser({ recipes }) {
             ))}
           </div>
         </div>
+
+        {recipe.result_item_id && (
+          <div className={styles.recipeProductBox}>
+            <div className={styles.productLabel}>THÀNH PHẨM TẠO RA</div>
+            <Link
+              href={`/database/items/${recipe.result_item_id}`}
+              className={styles.productLink}
+            >
+              <Icon name={isTea ? 'tea-bag' : 'cake'} size={16} />
+              <span>{recipe.name}</span>
+              <span className={styles.productTag}>Xem hồ sơ vật phẩm →</span>
+            </Link>
+          </div>
+        )}
       </article>
     );
   };
@@ -181,7 +195,7 @@ export default function RecipesBrowser({ recipes }) {
             <thead>
               <tr>
                 <th className={styles.iconCell}>Icon</th>
-                <th>Công thức</th>
+                <th>Công thức & Thành phẩm</th>
                 <th className={styles.stationCell}>Trạm</th>
                 <th className={styles.descCell}>Mô tả</th>
                 <th className={styles.effectCell}>Hiệu ứng</th>
@@ -201,11 +215,17 @@ export default function RecipesBrowser({ recipes }) {
                     </div>
                   </td>
                   <td className={styles.nameCell}>
-                    <strong>{recipe.name}</strong>
+                    {recipe.result_item_id ? (
+                      <Link href={`/database/items/${recipe.result_item_id}`}>
+                        {recipe.name}
+                      </Link>
+                    ) : (
+                      <strong>{recipe.name}</strong>
+                    )}
                   </td>
                   <td className={styles.stationCell}>
                     <span className="badge">
-                      {recipe.station === 'tea_station' ? 'Trà ASMR' : 'Lò nướng'}
+                      {recipe.station === 'tea_station' ? 'Trà Thảo Mộc' : 'Lò Nướng'}
                     </span>
                   </td>
                   <td className={styles.descCell}>{recipe.description}</td>

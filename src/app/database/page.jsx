@@ -24,7 +24,7 @@ export default function DatabaseHubPage() {
         <p className={styles.kicker}>OAKHAVEN COMPENDIUM</p>
         <h1>Cơ Sở Dữ Liệu Trò Chơi</h1>
         <p>
-          Bách khoa toàn thư tra cứu chi tiết về thảo mộc bốn mùa, sổ công thức pha trà ASMR,
+          Bách khoa toàn thư tra cứu chi tiết về thảo mộc bốn mùa, sổ công thức trà thảo mộc & bánh nướng,
           hồ sơ cư dân, sinh vật hắc hóa và bản đồ Năm Vương Quốc.
         </p>
       </header>

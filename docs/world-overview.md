@@ -10,7 +10,7 @@ spoiler: false
 # 🌍 World Overview — Thế Giới Năm Vương Quốc
 
 > **Game:** Rowan of Oakhaven  
-> **Thể loại:** Cozy Dark Pixel RPG — ASMR Tea & Bakery · Farming · Mining · Narrative Healing
+> **Thể loại:** Dark Pixel RPG — Trà Thảo Mộc & Bánh Ma Thuật · Nông Trại · Hang Mỏ · Đồng Cảm & Thanh Tẩy
 
 ---
 
@@ -58,7 +58,7 @@ Thế giới của Rowan of Oakhaven trải dài qua **5 Vương Quốc** (Realm
 
 ### 🌲 Realm 3 — Elven Forest (Rừng Yêu Tinh)
 **Mô tả:** Khu rừng cổ thụ huyền bí nơi các yêu tinh sinh sống hài hòa với thiên nhiên. Thảo dược quý hiếm chỉ mọc ở đây.  
-**Đặc trưng:** Cây cổ thụ ngàn năm, ánh sáng lân tinh, chợ thảo dược, suối chữa lành  
+**Đặc trưng:** Cây cổ thụ ngàn năm, ánh sáng lân tinh, chợ thảo dược, suối tiên phục hồi  
 **Cư dân:** Yêu tinh cung thủ, tiên dược sư, nàng tiên cá suối  
 
 ### 🏯 Realm 4 — Imperial City (Kinh Đô Hoàng Gia)
@@ -85,4 +85,4 @@ Thế giới của Rowan of Oakhaven trải dài qua **5 Vương Quốc** (Realm
 
 ---
 
-*Nguồn nội bộ: `docs/internal/world-asset-spec.md` · `design/gdd/stardust.md §10`*
+👉 Khám phá tiếp: [Lịch & Bốn Mùa](/wiki/calendar-seasons) · [Dàn Nhân Vật](/wiki/character-roster)

@@ -39,6 +39,73 @@
         "town",
         "starting",
         "home"
+      ],
+      "npcs": [
+        {
+          "id": "npc_rowan",
+          "name": "Rowan",
+          "role": "Chủ Tiệm Trà Bụi Sao"
+        },
+        {
+          "id": "npc_lumi",
+          "name": "Lumi",
+          "role": "Tinh Linh Rừng Thầm Thì"
+        },
+        {
+          "id": "npc_boris",
+          "name": "Boris Barnaby",
+          "role": "Bác Thợ Rèn Thị Trấn"
+        },
+        {
+          "id": "npc_maeve",
+          "name": "Maeve",
+          "role": "Bà Lão Làm Vườn"
+        },
+        {
+          "id": "npc_kael",
+          "name": "Kael",
+          "role": "Cậu Bé Bán Diêm"
+        },
+        {
+          "id": "npc_bram",
+          "name": "Bram",
+          "role": "Thợ Mỏ Pha Lê"
+        },
+        {
+          "id": "npc_penny",
+          "name": "Penny",
+          "role": "Cô Bé Bán Bánh Dạo"
+        },
+        {
+          "id": "npc_orion",
+          "name": "Giáo Sư Orion",
+          "role": "Nhà Chiêm Tinh Mất Ngủ"
+        },
+        {
+          "id": "npc_clara",
+          "name": "Clara",
+          "role": "Cô Thủ Thư Thị Trấn"
+        },
+        {
+          "id": "npc_garrick",
+          "name": "Thuyền Trưởng Garrick",
+          "role": "Cựu Thủy Thủ Biển Mây"
+        },
+        {
+          "id": "npc_finn",
+          "name": "Finn",
+          "role": "Cậu Bé Câu Sao"
+        },
+        {
+          "id": "npc_marlo",
+          "name": "Marlo",
+          "role": "Hiệp Sĩ Cảnh Vệ Ca Đêm"
+        },
+        {
+          "id": "npc_aurelia",
+          "name": "Aurelia",
+          "role": "Dược Sĩ Trạm Xá"
+        }
       ]
     },
     {
@@ -62,6 +129,13 @@
         "royal",
         "city",
         "palace"
+      ],
+      "npcs": [
+        {
+          "id": "npc_valen",
+          "name": "Valen",
+          "role": "Quý Tộc Ma Cà Rồng Ăn Chay"
+        }
       ]
     },
     {
@@ -88,6 +162,23 @@
         "forest",
         "elves",
         "magic"
+      ],
+      "npcs": [
+        {
+          "id": "npc_lumi",
+          "name": "Lumi",
+          "role": "Tinh Linh Rừng Thầm Thì"
+        },
+        {
+          "id": "npc_sylvan",
+          "name": "Sylvan",
+          "role": "Nhà Thảo Mộc Kính Một Mắt"
+        },
+        {
+          "id": "npc_elora",
+          "name": "Elora",
+          "role": "Thợ May Áo Choàng Dạ Hội"
+        }
       ]
     },
     {
@@ -112,6 +203,18 @@
         "underground",
         "dwarves",
         "forge"
+      ],
+      "npcs": [
+        {
+          "id": "npc_boris",
+          "name": "Boris Barnaby",
+          "role": "Bác Thợ Rèn Thị Trấn"
+        },
+        {
+          "id": "npc_bram",
+          "name": "Bram",
+          "role": "Thợ Mỏ Pha Lê"
+        }
       ]
     },
     {
@@ -136,6 +239,13 @@
         "floating",
         "finale",
         "spiritual"
+      ],
+      "npcs": [
+        {
+          "id": "npc_amalia",
+          "name": "Bà Ngoại Amalia",
+          "role": "Cố Nghệ Nhân Trà Bánh / Linh Hồn Dẫn Lối"
+        }
       ]
     }
   ]

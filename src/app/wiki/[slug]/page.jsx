@@ -95,7 +95,7 @@ export default async function DocPage({ params }) {
                 </tr>
                 {doc.tags && doc.tags.length > 0 && (
                   <tr>
-                    <th>Thần chú</th>
+                    <th>Chủ đề</th>
                     <td>
                       <div className={styles.tagList}>
                         {doc.tags.map(t => (

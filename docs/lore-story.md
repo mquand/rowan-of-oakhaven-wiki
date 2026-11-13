@@ -1,5 +1,5 @@
 ---
-title: "Cốt Truyện & Lore (Spoil)"
+title: "Cốt Truyện & Bí Mật Bụi Sao"
 status: draft
 audience: public
 updated: 2026-11-12
@@ -7,7 +7,7 @@ tags: [story, lore, prologue, spoiler]
 spoiler: true
 ---
 
-# ✨ Cốt Truyện & Lore
+# ✨ Cốt Truyện & Bí Mật Bụi Sao
 
 > ⚠️ Trang này tiết lộ cốt truyện. Đọc nếu đã chơi qua mở đầu hoặc không ngại spoil.
 
@@ -23,7 +23,7 @@ Game mở đầu bằng đoạn điện ảnh — bạn sống những ngày bì
 
 ## Bụi Sao & Sự Hắc Hóa
 
-Mọi phép thuật trong Oakhaven bắt nguồn từ **Bụi Sao (Stardust)**. Khi u uất tích tụ, Bụi Sao bị **Hắc Hóa (Star Blight)**, biến dạng sinh vật thành quái vật. Sứ mệnh Rowan là chữa lành — bằng trà, bánh, và sự đồng cảm.
+Mọi phép thuật trong Oakhaven bắt nguồn từ **Bụi Sao (Stardust)**. Khi u uất tích tụ, Bụi Sao bị **Hắc Hóa (Star Blight)**, biến dạng sinh vật thành quái vật. Sứ mệnh Rowan là thanh tẩy và tái sinh vùng đất — bằng trà thảo mộc, bánh ma thuật, và sự đồng cảm.
 
 ## Năm Đại Vực & Lịch sử
 
@@ -35,6 +35,6 @@ Mọi phép thuật trong Oakhaven bắt nguồn từ **Bụi Sao (Stardust)**. 
 
 ## Đỉnh cao cốt truyện
 
-Tại Aethelgard, Rowan dâng Bà tách trà vẹn tròn công thức cổ truyền — mở khóa "Bậc Thầy Bụi Sao Vĩnh Hằng". Chữa lành thế giới = chữa lành chính mình.
+Tại Aethelgard, Rowan dâng Bà tách trà vẹn tròn công thức cổ truyền — mở khóa "Bậc Thầy Bụi Sao Vĩnh Hằng". Khôi phục sự thanh khiết của thế giới cũng là tìm lại sự bình yên trong chính mình.
 
 👉 Nhân vật: [Dàn nhân vật](/wiki/character-roster) · Vùng đất: [Bản đồ 5 Vực](/wiki/world-overview)

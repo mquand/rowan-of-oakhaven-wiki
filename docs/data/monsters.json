@@ -15,6 +15,21 @@
         "mechanical",
         "fire",
         "dwarven"
+      ],
+      "hp": 120,
+      "atk": 18,
+      "danger_level": 3,
+      "loot_items": [
+        {
+          "id": "ore_copper",
+          "name": "Quặng Đồng",
+          "chance": "70%"
+        },
+        {
+          "id": "ore_coal",
+          "name": "Than Đá",
+          "chance": "50%"
+        }
       ]
     },
     {
@@ -29,6 +44,21 @@
         "beast",
         "lava",
         "dwarven"
+      ],
+      "hp": 160,
+      "atk": 14,
+      "danger_level": 3,
+      "loot_items": [
+        {
+          "id": "ore_copper",
+          "name": "Quặng Đồng",
+          "chance": "65%"
+        },
+        {
+          "id": "gem_ruby",
+          "name": "Hồng Ngọc Lửa",
+          "chance": "25%"
+        }
       ]
     },
     {
@@ -43,6 +73,21 @@
         "mechanical",
         "underground",
         "dwarven"
+      ],
+      "hp": 90,
+      "atk": 22,
+      "danger_level": 2,
+      "loot_items": [
+        {
+          "id": "item_stone",
+          "name": "Đá Cuội",
+          "chance": "80%"
+        },
+        {
+          "id": "ore_iron",
+          "name": "Quặng Sắt",
+          "chance": "45%"
+        }
       ]
     },
     {
@@ -57,6 +102,21 @@
         "plant",
         "dark",
         "elven"
+      ],
+      "hp": 85,
+      "atk": 16,
+      "danger_level": 2,
+      "loot_items": [
+        {
+          "id": "drop_incense_mist",
+          "name": "Giọt Khói Trầm Hương",
+          "chance": "65%"
+        },
+        {
+          "id": "la_tra_sen",
+          "name": "Lá Trà Sen",
+          "chance": "30%"
+        }
       ]
     },
     {
@@ -71,6 +131,21 @@
         "insect",
         "flying",
         "elven"
+      ],
+      "hp": 60,
+      "atk": 12,
+      "danger_level": 1,
+      "loot_items": [
+        {
+          "id": "drop_golden_pollen",
+          "name": "Phấn Hoa Ánh Kim",
+          "chance": "75%"
+        },
+        {
+          "id": "mat_ong",
+          "name": "Mật Ong",
+          "chance": "40%"
+        }
       ]
     },
     {
@@ -85,6 +160,21 @@
         "spirit",
         "mischief",
         "elven"
+      ],
+      "hp": 70,
+      "atk": 15,
+      "danger_level": 2,
+      "loot_items": [
+        {
+          "id": "drop_prism_jelly",
+          "name": "Thạch Tinh Thể Đổi Màu",
+          "chance": "55%"
+        },
+        {
+          "id": "dau_rung",
+          "name": "Dâu Rừng",
+          "chance": "35%"
+        }
       ]
     },
     {
@@ -99,6 +189,21 @@
         "undead",
         "armor",
         "royal"
+      ],
+      "hp": 240,
+      "atk": 32,
+      "danger_level": 4,
+      "loot_items": [
+        {
+          "id": "ore_gold",
+          "name": "Quặng Vàng",
+          "chance": "50%"
+        },
+        {
+          "id": "da_tinh_the",
+          "name": "Đá Tinh Thể",
+          "chance": "40%"
+        }
       ]
     },
     {
@@ -113,6 +218,21 @@
         "construct",
         "flying",
         "royal"
+      ],
+      "hp": 110,
+      "atk": 25,
+      "danger_level": 3,
+      "loot_items": [
+        {
+          "id": "bot_sao",
+          "name": "Bột Sao",
+          "chance": "60%"
+        },
+        {
+          "id": "gem_amethyst",
+          "name": "Thạch Anh Tím",
+          "chance": "30%"
+        }
       ]
     },
     {
@@ -127,6 +247,21 @@
         "beast",
         "flying",
         "royal"
+      ],
+      "hp": 105,
+      "atk": 24,
+      "danger_level": 3,
+      "loot_items": [
+        {
+          "id": "drop_crystal_sea_salt",
+          "name": "Muối Biển Tinh Thể",
+          "chance": "60%"
+        },
+        {
+          "id": "da_tinh_the",
+          "name": "Đá Tinh Thể",
+          "chance": "45%"
+        }
       ]
     },
     {
@@ -141,6 +276,21 @@
         "mythic",
         "guardian",
         "elysium"
+      ],
+      "hp": 380,
+      "atk": 45,
+      "danger_level": 5,
+      "loot_items": [
+        {
+          "id": "gem_ruby",
+          "name": "Hồng Ngọc Lửa",
+          "chance": "60%"
+        },
+        {
+          "id": "bot_sao",
+          "name": "Bột Sao",
+          "chance": "80%"
+        }
       ]
     },
     {
@@ -155,6 +305,21 @@
         "mythic",
         "spirit",
         "elysium"
+      ],
+      "hp": 420,
+      "atk": 40,
+      "danger_level": 5,
+      "loot_items": [
+        {
+          "id": "drop_moon_berry",
+          "name": "Quả Mọng Ánh Trăng",
+          "chance": "85%"
+        },
+        {
+          "id": "gem_sapphire",
+          "name": "Lam Ngọc Băng",
+          "chance": "50%"
+        }
       ]
     },
     {
@@ -169,6 +334,21 @@
         "spirit",
         "haunted",
         "local"
+      ],
+      "hp": 75,
+      "atk": 15,
+      "danger_level": 1,
+      "loot_items": [
+        {
+          "id": "da_tinh_the",
+          "name": "Đá Tinh Thể",
+          "chance": "70%"
+        },
+        {
+          "id": "la_tra_sen",
+          "name": "Lá Trà Sen",
+          "chance": "40%"
+        }
       ]
     },
     {
@@ -183,6 +363,21 @@
         "beetle",
         "crystal",
         "local"
+      ],
+      "hp": 95,
+      "atk": 18,
+      "danger_level": 2,
+      "loot_items": [
+        {
+          "id": "gem_amethyst",
+          "name": "Thạch Anh Tím",
+          "chance": "45%"
+        },
+        {
+          "id": "ore_coal",
+          "name": "Than Đá",
+          "chance": "60%"
+        }
       ]
     }
   ]

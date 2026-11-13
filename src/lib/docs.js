@@ -5,9 +5,6 @@ import { marked } from 'marked';
 
 const DOCS_DIR = path.join(process.cwd(), 'docs');
 
-// Tài liệu thiết kế/dev sync từ repo game — không hiển thị trên wiki public
-const INTERNAL_DOCS = new Set(['game-overview', 'lore-story', 'world-overview']);
-
 // YAML có thể trả về Date; chuẩn hóa thành chuỗi ISO ngắn (YYYY-MM-DD)
 function normalizeDate(value) {
   if (!value) return '2026-11-12';
@@ -19,8 +16,7 @@ export function getAllDocs() {
   if (!fs.existsSync(DOCS_DIR)) return [];
 
   const files = fs.readdirSync(DOCS_DIR)
-    .filter(file => file.endsWith('.md'))
-    .filter(file => !INTERNAL_DOCS.has(file.replace(/\.md$/, '')));
+    .filter(file => file.endsWith('.md'));
   const docs = files.map(file => {
     const slug = file.replace(/\.md$/, '');
     const fullPath = path.join(DOCS_DIR, file);
@@ -42,7 +38,6 @@ export function getAllDocs() {
 }
 
 export async function getDocBySlug(slug) {
-  if (INTERNAL_DOCS.has(slug)) return null;
   const fullPath = path.join(DOCS_DIR, `${slug}.md`);
   if (!fs.existsSync(fullPath)) return null;
 

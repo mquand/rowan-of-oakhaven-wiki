@@ -94,7 +94,7 @@ spoiler: false
 * **Elora:** Thợ may áo choàng dạ hội thanh lịch, bạn tri kỷ của Sylvan.
 * **Sylvan:** Nhà nghiên cứu thảo mộc đeo kính một mắt từ Rừng Yêu Tinh.
 * **Marlo:** Hiệp sĩ cảnh vệ ca đêm trung thành bảo vệ giấc ngủ thị trấn.
-* **Aurelia:** Dược sĩ dịu dàng điều hành trạm xá chữa lành cho cư dân.
+* **Aurelia:** Dược sư điều hành trạm xá chăm sóc thể lực cho cư dân.
 * **Valen:** Quý tộc ma cà rồng ăn chay sợ mùi tỏi nhưng thích trà ngọt lịm.
 * **Kassandra:** Phù thủy sao băng lưu vong phiêu bạt khắp các tầng trời.
 * **Chrono:** Người máy đồng hồ cổ đại còn sót lại từ nền văn minh đã mất.

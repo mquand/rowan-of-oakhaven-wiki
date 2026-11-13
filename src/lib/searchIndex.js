@@ -10,6 +10,22 @@ import {
   getLocations,
 } from './gameData';
 
+const CATEGORY_LABELS = {
+  seed: 'Hạt giống',
+  ingredient: 'Nguyên liệu',
+  mineral: 'Khoáng sản',
+  gem: 'Tinh thể',
+  monster_drop: 'Loot quái vật',
+  tea: 'Trà Thảo Mộc',
+  bakery: 'Bánh ma thuật',
+};
+
+const BRANCH_LABELS = {
+  exploration: 'Khám phá mỏ',
+  farming: 'Nông trại',
+  tea: 'Trà bánh',
+};
+
 export function getSearchIndex() {
   const entries = [];
 
@@ -18,10 +34,10 @@ export function getSearchIndex() {
     entries.push({
       id: `doc_${doc.slug}`,
       title: doc.title,
-      sub: doc.audience,
+      sub: doc.audience === 'public' ? 'Cẩm nang công khai' : doc.audience,
       type: 'doc',
       typeLabel: 'Tài liệu',
-      description: `Tài liệu wiki: ${(doc.tags || []).join(', ')}`,
+      description: doc.title,
       href: `/wiki/${doc.slug}`,
       icon: 'book-open',
       keywords: [doc.title, doc.slug, ...(doc.tags || []), doc.audience].join(' ').toLowerCase(),
@@ -33,12 +49,12 @@ export function getSearchIndex() {
     entries.push({
       id: `item_${item.id}`,
       title: item.name,
-      sub: item.category,
+      sub: CATEGORY_LABELS[item.category] || item.category,
       type: 'item',
       typeLabel: 'Vật phẩm',
       description: item.description,
       href: `/database/items/${item.id}`,
-      icon: 'package',
+      icon: item.category === 'tea' ? 'tea-bag' : item.category === 'bakery' ? 'cake' : 'package',
       keywords: [item.name, item.id, item.description, ...(item.tags || [])].join(' ').toLowerCase(),
     });
   }
@@ -48,7 +64,7 @@ export function getSearchIndex() {
     entries.push({
       id: `recipe_${recipe.id}`,
       title: recipe.name,
-      sub: recipe.station === 'tea_station' ? 'Trạm Trà ASMR' : 'Lò Nướng Bánh',
+      sub: recipe.station === 'tea_station' ? 'Trạm Pha Trà' : 'Lò Nướng Bánh Thần Kỳ',
       type: 'recipe',
       typeLabel: 'Công thức',
       description: `${recipe.description} (${recipe.effect_description})`,
@@ -137,7 +153,7 @@ export function getSearchIndex() {
     entries.push({
       id: `perk_${perk.id}`,
       title: perk.name,
-      sub: `Nhánh: ${perk.branch}`,
+      sub: `Nhánh: ${BRANCH_LABELS[perk.branch] || perk.branch}`,
       type: 'perk',
       typeLabel: 'Kỹ năng',
       description: perk.description,

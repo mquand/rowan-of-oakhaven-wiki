@@ -111,6 +111,11 @@ export default function CharactersBrowser({ characters }) {
               <span className={styles.locationTag}>
                 <Icon name="map-pin" size={12} /> {char.location}
               </span>
+              {char.birthday && (
+                <span className={styles.locationTag} style={{ color: '#ffcf40' }}>
+                  <Icon name="calendar" size={12} /> {char.birthday}
+                </span>
+              )}
             </div>
           </div>
         </div>
@@ -118,6 +123,13 @@ export default function CharactersBrowser({ characters }) {
         {char.quote && (
           <div className={styles.quoteBubble}>
             {char.quote}
+          </div>
+        )}
+
+        {char.schedule && (
+          <div className={styles.scheduleRow}>
+            <Icon name="clock" size={13} />
+            <span>{char.schedule}</span>
           </div>
         )}
 
@@ -238,7 +250,7 @@ export default function CharactersBrowser({ characters }) {
                 <th className={styles.iconCell}>Huy hiệu</th>
                 <th>Cư dân</th>
                 <th className={styles.metaCell}>Vai trò</th>
-                <th className={styles.metaCell}>Loài</th>
+                <th className={styles.metaCell}>Sinh nhật</th>
                 <th className={styles.metaCell}>Vị trí</th>
                 <th className={styles.descCell}>Tiểu sử & Lời thoại</th>
                 <th>Món quà ưa thích</th>
@@ -261,7 +273,7 @@ export default function CharactersBrowser({ characters }) {
                     </td>
                     <td className={styles.metaCell}>{char.role}</td>
                     <td className={styles.metaCell}>
-                      <span className="badge forest">{char.species}</span>
+                      <span className="badge forest" style={{ fontSize: '11px' }}>{char.birthday || '—'}</span>
                     </td>
                     <td className={styles.metaCell}>
                       <span className={styles.locationTag}>

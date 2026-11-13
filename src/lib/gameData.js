@@ -3,6 +3,21 @@ import path from 'node:path';
 
 const DATA_DIR = path.join(process.cwd(), 'docs/data');
 
+const REALM_NAMES = {
+  oakhaven: 'Thị trấn Oakhaven',
+  solaria: 'Kinh Đô Ánh Sáng Solaria',
+  'sylva-fae': 'Đại Rừng Yêu Tinh Sylva-Fae',
+  'khaz-drakor': 'Đại Đô Thị Ngầm Khaz-Drakor',
+  aethelgard: 'Địa Đàng Cực Quang Aethelgard',
+};
+
+const SEASON_NAMES = {
+  spring: 'Xuân',
+  summer: 'Hạ',
+  autumn: 'Thu',
+  winter: 'Đông',
+};
+
 export function getItems() {
   const filePath = path.join(DATA_DIR, 'items.json');
   if (!fs.existsSync(filePath)) return [];
@@ -20,12 +35,6 @@ export function getItemById(id) {
   return getItems().find(item => item.id === id) || null;
 }
 
-export function getRecipesUsingItem(itemId) {
-  return getRecipes().filter(recipe =>
-    (recipe.ingredients || []).some(ing => ing.id === itemId)
-  );
-}
-
 export function getRecipes() {
   const filePath = path.join(DATA_DIR, 'recipes.json');
   if (!fs.existsSync(filePath)) return [];
@@ -39,6 +48,20 @@ export function getRecipes() {
   }
 }
 
+export function getRecipeById(id) {
+  return getRecipes().find(r => r.id === id) || null;
+}
+
+export function getRecipeByResultItem(itemId) {
+  return getRecipes().find(r => r.result_item_id === itemId) || null;
+}
+
+export function getRecipesUsingItem(itemId) {
+  return getRecipes().filter(recipe =>
+    (recipe.ingredients || []).some(ing => ing.id === itemId)
+  );
+}
+
 export function getCharacters() {
   const filePath = path.join(DATA_DIR, 'characters.json');
   if (!fs.existsSync(filePath)) return [];
@@ -50,6 +73,10 @@ export function getCharacters() {
     console.error('Failed to load characters.json:', err);
     return [];
   }
+}
+
+export function getCharacterById(id) {
+  return getCharacters().find(c => c.id === id) || null;
 }
 
 function getCollection(fileName, key) {
@@ -71,74 +98,96 @@ export const getWeapons = () => getCollection('weapons.json', 'weapons');
 export const getPerks = () => getCollection('perks.json', 'perks');
 export const getLocations = () => getCollection('locations.json', 'locations');
 
+export function getCharactersWhoLoveItem(itemId) {
+  const characters = getCharacters();
+  const item = getItemById(itemId);
+  return characters.filter(c =>
+    (c.favorite_items || []).some(favId => {
+      if (favId === itemId) return true;
+      if (item && item.recipe_id === favId) return true;
+      return false;
+    })
+  );
+}
+
 export function getItemSources(itemId) {
   const item = getItemById(itemId);
   if (!item) return [];
 
   const sources = [];
 
-  // 1. Kiểm tra từ cây trồng (crops)
+  // 1. Chế biến từ công thức (Trạm Pha Trà / Lò Nướng Bánh)
+  const craftingRecipe = getRecipeByResultItem(itemId);
+  if (craftingRecipe) {
+    const ingText = (craftingRecipe.ingredients || [])
+      .map(i => `${i.name} x${i.quantity}`)
+      .join(', ');
+    const isTea = craftingRecipe.station === 'tea_station';
+    sources.push({
+      type: 'crafting',
+      title: `Chế biến tại ${isTea ? 'Trạm Pha Trà' : 'Lò Nướng Bánh Thần Kỳ'}`,
+      description: `Nguyên liệu: ${ingText} · Thời gian: ${craftingRecipe.duration_seconds}s`,
+      href: `/database/recipes#${craftingRecipe.id}`,
+      badge: isTea ? 'Trạm Pha Trà' : 'Lò Nướng Bánh',
+      icon: isTea ? 'tea-bag' : 'cake',
+    });
+  }
+
+  // 2. Thu hoạch từ cây trồng (crops)
   const crops = getCrops();
   const matchingCrop = crops.find(c => c.harvest_item_id === itemId);
   if (matchingCrop) {
+    const seasonsText = (matchingCrop.seasons || [])
+      .map(s => SEASON_NAMES[s] || s)
+      .join(', ');
     sources.push({
       type: 'crop',
       title: `Thu hoạch từ ${matchingCrop.name}`,
-      description: `Mùa: ${(matchingCrop.seasons || []).join(', ')} · Sinh trưởng ${matchingCrop.growth_days} ngày${matchingCrop.regrow_days > 0 ? ` (tái sinh mỗi ${matchingCrop.regrow_days} ngày)` : ''}`,
+      description: `Mùa vụ: ${seasonsText} · Sinh trưởng ${matchingCrop.growth_days} ngày${matchingCrop.regrow_days > 0 ? ` (tái sinh mỗi ${matchingCrop.regrow_days} ngày)` : ''}`,
       href: `/database/crops`,
-      badge: 'Nông trại',
+      badge: 'Nông Trại Bốn Mùa',
       icon: 'farm',
     });
   }
 
-  // 2. Kiểm tra nếu là hạt giống
+  // 3. Hạt giống mua tại shop hoặc nhận từ chú cú Pip
   if (item.category === 'seed') {
     sources.push({
       type: 'shop',
-      title: 'Cửa hàng hạt giống Oakhaven & Cú Pip mang về',
-      description: 'Mua tại quầy hạt giống của Thị Trấn Oakhaven hoặc nhận từ chú cú Pip sau chuyến bay đêm.',
+      title: 'Cửa hàng hạt giống Maeve & Cú Pip mang về',
+      description: 'Mua tại quầy hạt giống Maeve ở Quảng trường Oakhaven hoặc nhận từ chú cú Pip sau chuyến bay đêm.',
       badge: 'Thương nhân / Hòm thư',
       icon: 'package',
     });
   }
 
-  // 3. Kiểm tra từ quái vật (monsters)
+  // 4. Rơi từ quái vật (monsters)
   const monsters = getMonsters();
   const matchingMonsters = monsters.filter(m =>
-    (m.loot && m.loot.toLowerCase().includes(item.name.toLowerCase())) ||
-    (m.tags && m.tags.includes(itemId))
+    (m.loot_items && m.loot_items.some(l => l.id === itemId)) ||
+    (m.loot && m.loot.toLowerCase().includes(item.name.toLowerCase()))
   );
   for (const m of matchingMonsters) {
+    const lootMatch = (m.loot_items || []).find(l => l.id === itemId);
+    const chanceText = lootMatch?.chance ? ` (Tỉ lệ rơi: ${lootMatch.chance})` : '';
     sources.push({
       type: 'monster',
-      title: `Rơi từ quái: ${m.name}`,
-      description: `Vực: ${m.realm} · Điểm yếu: ${m.weakness || 'Không rõ'}`,
+      title: `Rơi khi hạ ${m.name}${chanceText}`,
+      description: `Khu vực: ${REALM_NAMES[m.realm] || m.realm} · Điểm yếu: ${m.weakness || 'Không rõ'}`,
       href: `/database/monsters`,
       badge: 'Chiến đấu',
       icon: 'sparkle',
     });
   }
 
-  // 4. Nếu là khoáng sản / tinh thể
+  // 5. Khai thác khoáng sản & đá tinh thể
   if (item.category === 'mineral' || item.category === 'gem') {
     sources.push({
       type: 'mining',
-      title: 'Khai thác hang mỏ Rừng Thầm Thì',
-      description: 'Dùng cuốc đập đá khoáng sản và khối tinh thể ở các tầng hầm mỏ sâu.',
-      badge: 'Khai mỏ',
+      title: 'Khai thác hang mỏ Rừng Thầm Thì (Mỏ 100 Tầng)',
+      description: 'Dùng cuốc đập đá khoáng sản và vỉa tinh thể ở các tầng hầm mỏ sâu.',
+      badge: 'Khai khoáng',
       icon: 'mountains',
-    });
-  }
-
-  // 5. Nếu là quái vật rơi nhưng chưa match cụ thể
-  if (item.category === 'monster_drop' && matchingMonsters.length === 0) {
-    sources.push({
-      type: 'monster',
-      title: 'Rơi từ quái vật đới mỏ',
-      description: item.description,
-      href: `/database/monsters`,
-      badge: 'Chiến đấu',
-      icon: 'sparkle',
     });
   }
 

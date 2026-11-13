@@ -14,7 +14,12 @@
         "spring",
         "summer"
       ],
-      "sprite": "res://assets/items/seeds/seed_sen_tea.png"
+      "rarity": "common",
+      "buy_price": 20,
+      "sell_price": 10,
+      "energy": null,
+      "buff": null,
+      "crop_id": "crop_sen_tea"
     },
     {
       "id": "seed_lumiberry",
@@ -27,7 +32,12 @@
         "summer",
         "autumn"
       ],
-      "sprite": "res://assets/items/seeds/seed_lumiberry.png"
+      "rarity": "common",
+      "buy_price": 25,
+      "sell_price": 12,
+      "energy": null,
+      "buff": null,
+      "crop_id": "crop_lumiberry"
     },
     {
       "id": "seed_silver_wheat",
@@ -41,7 +51,12 @@
         "summer",
         "autumn"
       ],
-      "sprite": "res://assets/items/seeds/seed_silver_wheat.png"
+      "rarity": "common",
+      "buy_price": 15,
+      "sell_price": 8,
+      "energy": null,
+      "buff": null,
+      "crop_id": "crop_silver_wheat"
     },
     {
       "id": "seed_star_lavender",
@@ -54,7 +69,12 @@
         "spring",
         "autumn"
       ],
-      "sprite": "res://assets/items/seeds/seed_star_lavender.png"
+      "rarity": "uncommon",
+      "buy_price": 30,
+      "sell_price": 15,
+      "energy": null,
+      "buff": null,
+      "crop_id": "crop_star_lavender"
     },
     {
       "id": "seed_sun_daisy",
@@ -67,7 +87,12 @@
         "spring",
         "summer"
       ],
-      "sprite": "res://assets/items/seeds/seed_sun_daisy.png"
+      "rarity": "common",
+      "buy_price": 18,
+      "sell_price": 9,
+      "energy": null,
+      "buff": null,
+      "crop_id": "crop_sun_daisy"
     },
     {
       "id": "seed_sweet_pumpkin",
@@ -79,7 +104,12 @@
         "seed",
         "autumn"
       ],
-      "sprite": "res://assets/items/seeds/seed_sweet_pumpkin.png"
+      "rarity": "uncommon",
+      "buy_price": 35,
+      "sell_price": 18,
+      "energy": null,
+      "buff": null,
+      "crop_id": "crop_sweet_pumpkin"
     },
     {
       "id": "item_flour",
@@ -90,7 +120,11 @@
         "bakery",
         "ingredient"
       ],
-      "sprite": "res://assets/items/crafted/item_flour.png"
+      "rarity": "common",
+      "buy_price": 25,
+      "sell_price": 15,
+      "energy": null,
+      "buff": null
     },
     {
       "id": "ore_coal",
@@ -101,7 +135,11 @@
         "mining",
         "fuel"
       ],
-      "sprite": "res://assets/items/minerals/ore_coal.png"
+      "rarity": "common",
+      "buy_price": 20,
+      "sell_price": 12,
+      "energy": null,
+      "buff": null
     },
     {
       "id": "ore_copper",
@@ -112,7 +150,11 @@
         "mining",
         "metal"
       ],
-      "sprite": "res://assets/items/minerals/ore_copper.png"
+      "rarity": "common",
+      "buy_price": 30,
+      "sell_price": 18,
+      "energy": null,
+      "buff": null
     },
     {
       "id": "ore_iron",
@@ -123,7 +165,11 @@
         "mining",
         "metal"
       ],
-      "sprite": "res://assets/items/minerals/ore_iron.png"
+      "rarity": "uncommon",
+      "buy_price": 50,
+      "sell_price": 32,
+      "energy": null,
+      "buff": null
     },
     {
       "id": "ore_gold",
@@ -134,7 +180,11 @@
         "mining",
         "metal"
       ],
-      "sprite": "res://assets/items/minerals/ore_gold.png"
+      "rarity": "rare",
+      "buy_price": 100,
+      "sell_price": 65,
+      "energy": null,
+      "buff": null
     },
     {
       "id": "gem_amethyst",
@@ -145,7 +195,11 @@
         "mining",
         "crystal"
       ],
-      "sprite": "res://assets/items/minerals/gem_amethyst.png"
+      "rarity": "uncommon",
+      "buy_price": 80,
+      "sell_price": 50,
+      "energy": null,
+      "buff": null
     },
     {
       "id": "la_tra_sen",
@@ -157,7 +211,11 @@
         "ingredient",
         "base"
       ],
-      "sprite": "res://assets/items/crops/la_tra_sen.png"
+      "rarity": "common",
+      "buy_price": null,
+      "sell_price": 35,
+      "energy": 15,
+      "buff": "Xoa dịu mệt mỏi nhẹ"
     },
     {
       "id": "dau_rung",
@@ -170,7 +228,11 @@
         "flavor",
         "forage"
       ],
-      "sprite": "res://assets/items/crops/dau_rung.png"
+      "rarity": "common",
+      "buy_price": null,
+      "sell_price": 40,
+      "energy": 20,
+      "buff": "Thanh mát cơ thể"
     },
     {
       "id": "da_tinh_the",
@@ -183,7 +245,11 @@
         "crystal",
         "mining"
       ],
-      "sprite": "res://assets/items/minerals/da_tinh_the.png"
+      "rarity": "common",
+      "buy_price": 40,
+      "sell_price": 25,
+      "energy": null,
+      "buff": null
     },
     {
       "id": "mat_ong",
@@ -196,7 +262,11 @@
         "flavor",
         "forage"
       ],
-      "sprite": "res://assets/items/crafted/mat_ong.png"
+      "rarity": "common",
+      "buy_price": 45,
+      "sell_price": 30,
+      "energy": 25,
+      "buff": "Ngọt ấm, hồi sức nhanh"
     },
     {
       "id": "oai_huong",
@@ -208,7 +278,11 @@
         "ingredient",
         "herb"
       ],
-      "sprite": "res://assets/items/crops/oai_huong.png"
+      "rarity": "uncommon",
+      "buy_price": null,
+      "sell_price": 55,
+      "energy": 20,
+      "buff": "An thần sâu lắng"
     },
     {
       "id": "bot_sao",
@@ -221,7 +295,11 @@
         "crystal",
         "magic"
       ],
-      "sprite": "res://assets/items/crafted/bot_sao.png"
+      "rarity": "rare",
+      "buy_price": 120,
+      "sell_price": 75,
+      "energy": null,
+      "buff": "Bụi ma thuật lấp lánh"
     },
     {
       "id": "item_stone",
@@ -233,7 +311,11 @@
         "stone",
         "building"
       ],
-      "sprite": "res://assets/items/minerals/item_stone.png"
+      "rarity": "common",
+      "buy_price": 5,
+      "sell_price": 2,
+      "energy": null,
+      "buff": null
     },
     {
       "id": "item_butter",
@@ -245,7 +327,11 @@
         "dairy",
         "ingredient"
       ],
-      "sprite": "res://assets/items/crafted/item_butter.png"
+      "rarity": "common",
+      "buy_price": 35,
+      "sell_price": 20,
+      "energy": 15,
+      "buff": null
     },
     {
       "id": "gem_sapphire",
@@ -256,7 +342,11 @@
         "mining",
         "crystal"
       ],
-      "sprite": "res://assets/items/minerals/gem_sapphire.png"
+      "rarity": "rare",
+      "buy_price": 150,
+      "sell_price": 95,
+      "energy": null,
+      "buff": null
     },
     {
       "id": "gem_ruby",
@@ -267,7 +357,11 @@
         "mining",
         "crystal"
       ],
-      "sprite": "res://assets/items/minerals/gem_ruby.png"
+      "rarity": "rare",
+      "buy_price": 180,
+      "sell_price": 110,
+      "energy": null,
+      "buff": null
     },
     {
       "id": "drop_prism_jelly",
@@ -279,7 +373,11 @@
         "cooking",
         "dessert"
       ],
-      "sprite": "res://assets/items/collectibles/drop_prism_jelly.png"
+      "rarity": "uncommon",
+      "buy_price": null,
+      "sell_price": 45,
+      "energy": null,
+      "buff": "Đổi màu lung linh"
     },
     {
       "id": "drop_moon_berry",
@@ -291,7 +389,11 @@
         "cooking",
         "fruit"
       ],
-      "sprite": "res://assets/items/collectibles/drop_moon_berry.png"
+      "rarity": "rare",
+      "buy_price": null,
+      "sell_price": 90,
+      "energy": 45,
+      "buff": "Phát quang ánh trăng"
     },
     {
       "id": "drop_crystal_sea_salt",
@@ -303,7 +405,11 @@
         "cooking",
         "seasoning"
       ],
-      "sprite": "res://assets/items/collectibles/drop_crystal_sea_salt.png"
+      "rarity": "uncommon",
+      "buy_price": null,
+      "sell_price": 50,
+      "energy": null,
+      "buff": "Vị mặn tinh khiết"
     },
     {
       "id": "drop_golden_pollen",
@@ -315,7 +421,11 @@
         "cooking",
         "decoration"
       ],
-      "sprite": "res://assets/items/collectibles/drop_golden_pollen.png"
+      "rarity": "uncommon",
+      "buy_price": null,
+      "sell_price": 55,
+      "energy": null,
+      "buff": "Phấn hoa óng ánh"
     },
     {
       "id": "drop_incense_mist",
@@ -327,7 +437,11 @@
         "tea",
         "rare"
       ],
-      "sprite": "res://assets/items/collectibles/drop_incense_mist.png"
+      "rarity": "uncommon",
+      "buy_price": null,
+      "sell_price": 60,
+      "energy": null,
+      "buff": "Hương trầm an tịnh"
     },
     {
       "id": "item_cinnamon",
@@ -339,7 +453,11 @@
         "bakery",
         "spice"
       ],
-      "sprite": "res://assets/items/materials/item_cinnamon.png"
+      "rarity": "common",
+      "buy_price": 30,
+      "sell_price": 18,
+      "energy": null,
+      "buff": "Hương nồng ấm áp"
     },
     {
       "id": "item_sugar",
@@ -351,7 +469,11 @@
         "bakery",
         "sweet"
       ],
-      "sprite": "res://assets/items/materials/item_sugar.png"
+      "rarity": "common",
+      "buy_price": 20,
+      "sell_price": 12,
+      "energy": 10,
+      "buff": null
     },
     {
       "id": "item_lantern_firefly",
@@ -363,7 +485,11 @@
         "magic",
         "light"
       ],
-      "sprite": "res://assets/items/materials/item_lantern_firefly.png"
+      "rarity": "rare",
+      "buy_price": 90,
+      "sell_price": 55,
+      "energy": null,
+      "buff": "Tỏa ánh sáng dịu"
     },
     {
       "id": "item_sun_daisy",
@@ -375,7 +501,11 @@
         "flower",
         "tea"
       ],
-      "sprite": "res://assets/items/materials/item_sun_daisy.png"
+      "rarity": "common",
+      "buy_price": null,
+      "sell_price": 38,
+      "energy": 18,
+      "buff": "Hấp thụ nắng mai"
     },
     {
       "id": "item_sweet_pumpkin",
@@ -387,7 +517,172 @@
         "vegetable",
         "bakery"
       ],
-      "sprite": "res://assets/items/materials/item_sweet_pumpkin.png"
+      "rarity": "uncommon",
+      "buy_price": null,
+      "sell_price": 85,
+      "energy": 35,
+      "buff": "Ngọt bùi ấm bụng"
+    },
+    {
+      "id": "item_tea_sen_an_than",
+      "name": "Trà Sen An Thần",
+      "description": "Tách trà sen ngậm sương thơm thanh khiết ướp mật ong rừng — thức uống biểu tượng của Tiệm Bụi Sao, làm dịu tâm can và xua tan muộn phiền.",
+      "category": "tea",
+      "rarity": "uncommon",
+      "buy_price": null,
+      "sell_price": 65,
+      "energy": 35,
+      "buff": "Xoa dịu muộn phiền, hồi phục 35 Thể Lực",
+      "recipe_id": "tra_sen_an_than",
+      "tags": [
+        "tea",
+        "calming",
+        "craftable"
+      ]
+    },
+    {
+      "id": "item_tea_dau_bang_tuyet",
+      "name": "Trà Dâu Băng Tuyết",
+      "description": "Vị chua ngọt mọng nước từ dâu rừng kết hợp đá tinh thể hang mỏ mát lạnh sảng khoái — tăng tốc độ di chuyển và tinh thần minh mẫn.",
+      "category": "tea",
+      "rarity": "uncommon",
+      "buy_price": null,
+      "sell_price": 75,
+      "energy": 40,
+      "buff": "+15% Tốc độ di chuyển trong 3 phút",
+      "recipe_id": "tra_dau_bang_tuyet",
+      "tags": [
+        "tea",
+        "speed",
+        "craftable"
+      ]
+    },
+    {
+      "id": "item_tea_oai_huong_ngan_sao",
+      "name": "Trà Oải Hương Ngàn Sao",
+      "description": "Hoa oải hương sao tím biếc hòa quyện cùng bột sao lấp lánh. Khi uống tỏa ra làn khói tím mộng mơ giúp ngủ sâu và phục hồi trọn vẹn sinh lực.",
+      "category": "tea",
+      "rarity": "rare",
+      "buy_price": null,
+      "sell_price": 110,
+      "energy": 100,
+      "buff": "Hồi phục 100% Thể Lực khi ngủ, giảm 20% tiêu hao thể lực đêm",
+      "recipe_id": "tra_oai_huong_ngan_sao",
+      "tags": [
+        "tea",
+        "stardust",
+        "sleep",
+        "craftable"
+      ]
+    },
+    {
+      "id": "item_tea_anh_duong",
+      "name": "Trà Ánh Dương",
+      "description": "Tách trà vàng hổ phách hấp thụ ánh bình minh đầu tiên, mang hào quang ấm áp truyền sức mạnh cho những chuyến thám hiểm hang mỏ sâu.",
+      "category": "tea",
+      "rarity": "rare",
+      "buy_price": null,
+      "sell_price": 125,
+      "energy": 50,
+      "buff": "+25% Tốc độ đập đá mỏ trong 3 phút, phát sáng quang thân",
+      "recipe_id": "tra_anh_duong",
+      "tags": [
+        "tea",
+        "mining",
+        "buff",
+        "craftable"
+      ]
+    },
+    {
+      "id": "item_bread_brioche",
+      "name": "Bánh Mì Hoa Cúc Mật Ong",
+      "description": "Ổ bánh mì nướng vàng ruộm thớ bông xốp ngậy thơm bơ tươi và mật ong rừng nguyên chất — món ăn lót dạ ấm bụng mỗi sáng của cư dân Oakhaven.",
+      "category": "bakery",
+      "rarity": "uncommon",
+      "buy_price": null,
+      "sell_price": 85,
+      "energy": 60,
+      "buff": "Hồi phục 60 Thể Lực tức thì",
+      "recipe_id": "bread_brioche",
+      "tags": [
+        "bakery",
+        "bread",
+        "healing",
+        "craftable"
+      ]
+    },
+    {
+      "id": "item_pastry_scone_berry",
+      "name": "Scone Dâu Rừng Dạ Quang",
+      "description": "Bánh scone xốp giòn nướng thơm bơ, xen lẫn những viên mứt dâu tuyết phát quang chua ngọt lạ miệng.",
+      "category": "bakery",
+      "rarity": "uncommon",
+      "buy_price": null,
+      "sell_price": 95,
+      "energy": 55,
+      "buff": "Hồi phục 55 Thể Lực, phát sáng nhẹ trong bóng tối",
+      "recipe_id": "pastry_scone_berry",
+      "tags": [
+        "bakery",
+        "pastry",
+        "luminescent",
+        "craftable"
+      ]
+    },
+    {
+      "id": "item_pastry_cinnamon_roll",
+      "name": "Bánh Quế Cuộn Thần Rừng",
+      "description": "Từng vòng bột xoắn ốc phết bơ đường và quế rừng thơm nức mũi vừa ra lò — giữ ấm cơ thể tuyệt hảo giữa mùa đông tuyết phủ.",
+      "category": "bakery",
+      "rarity": "rare",
+      "buy_price": null,
+      "sell_price": 120,
+      "energy": 70,
+      "buff": "Kháng 100% giá rét mùa đông, tăng 10% năng lượng làm việc trong 5 phút",
+      "recipe_id": "pastry_cinnamon_roll",
+      "tags": [
+        "bakery",
+        "pastry",
+        "warmth",
+        "craftable"
+      ]
+    },
+    {
+      "id": "item_pastry_crystal_tart",
+      "name": "Bánh Tart Pha Lê Sao",
+      "description": "Kiệt tác tráng miệng hoàng triều nướng từ bột mì thượng hạng và thạch anh tím óng ả, phủ bụi sao li ti giòn tan như kẹo đường ma thuật.",
+      "category": "bakery",
+      "rarity": "rare",
+      "buy_price": null,
+      "sell_price": 160,
+      "energy": 80,
+      "buff": "+25% Sát thương ma thuật, tăng may mắn tìm thấy quặng hiếm trong 4 phút",
+      "recipe_id": "pastry_crystal_tart",
+      "tags": [
+        "bakery",
+        "magic",
+        "luck",
+        "craftable"
+      ]
+    },
+    {
+      "id": "item_cake_fairy_birthday",
+      "name": "Bánh Sinh Nhật Tinh Linh",
+      "description": "Bánh kem kỷ niệm diệu kỳ nướng từ dâu tuyết tươi và ngọn lửa đom đóm ấm áp — khi thắp nến lên ngân vang giai điệu chúc mừng sinh nhật ngân nga.",
+      "category": "bakery",
+      "rarity": "mythic",
+      "buy_price": null,
+      "sell_price": 250,
+      "energy": 120,
+      "buff": "Tăng 1 Tim tình bạn lập tức với bất kỳ dân làng nào khi tặng quà",
+      "recipe_id": "cake_fairy_birthday",
+      "tags": [
+        "bakery",
+        "gift",
+        "birthday",
+        "celebration",
+        "craftable"
+      ]
     }
   ]
 }

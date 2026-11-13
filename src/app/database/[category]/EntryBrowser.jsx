@@ -4,13 +4,14 @@ import { useMemo, useState } from 'react';
 import Link from 'next/link';
 import Icon from '../../../components/Icon';
 import styles from '../Database.module.scss';
+import { lookupGift } from '../../../lib/itemLookup';
 
 const REALM_LABELS = {
-  oakhaven: 'Oakhaven',
-  solaria: 'Solaria',
-  'sylva-fae': 'Sylva-Fae',
-  'khaz-drakor': 'Khaz-Drakor',
-  aethelgard: 'Aethelgard',
+  oakhaven: 'Thị trấn Oakhaven',
+  solaria: 'Kinh Đô Solaria',
+  'sylva-fae': 'Rừng Sylva-Fae',
+  'khaz-drakor': 'Đô Thị Khaz-Drakor',
+  aethelgard: 'Địa Đàng Aethelgard',
 };
 
 const SEASON_LABELS = {
@@ -21,9 +22,9 @@ const SEASON_LABELS = {
 };
 
 const BRANCH_LABELS = {
-  exploration: 'Khám Phá',
+  exploration: 'Khám Phá Mỏ',
   farming: 'Nông Trại',
-  tea: 'Trà Bánh',
+  tea: 'Trà Thảo Mộc & Bánh',
 };
 
 const WEAPON_TYPE_LABELS = {
@@ -34,35 +35,171 @@ const WEAPON_TYPE_LABELS = {
 
 const LOCATION_TYPE_LABELS = {
   starting_town: 'Thị Trấn Khởi Đầu',
-  realm: 'Vương Quốc',
+  realm: 'Đại Vương Quốc',
 };
 
-const ITEM_NAMES = {
-  la_tra_sen: 'Lá Trà Sen',
-  dau_rung: 'Dâu Rừng',
-  item_flour: 'Bột Mì Tươi',
-  oai_huong: 'Oải Hương',
-  item_sun_daisy: 'Cánh Cúc Mặt Trời',
-  item_sweet_pumpkin: 'Bí Ngô Mật Ong',
+const TAG_TRANSLATIONS = {
+  tea: 'Trà thảo mộc',
+  base: 'Nguyên liệu nền',
+  regrow: 'Tái sinh',
+  fruit: 'Quả mọng',
+  grain: 'Ngũ cốc',
+  bakery: 'Bếp bánh',
+  mill: 'Cối xay',
+  herb: 'Thảo mộc',
+  calming: 'An thần',
+  flower: 'Hoa tươi',
+  energy: 'Hồi thể lực',
+  vegetable: 'Nông sản',
+  festival: 'Lễ hội',
+  mechanical: 'Cơ khí',
+  fire: 'Lửa',
+  dwarven: 'Người lùn',
+  beast: 'Dã thú',
+  lava: 'Dung nham',
+  underground: 'Lòng đất',
+  plant: 'Thực vật',
+  dark: 'Hắc hóa',
+  elven: 'Yêu tinh',
+  insect: 'Côn trùng',
+  flying: 'Bay lượn',
+  spirit: 'Linh hồn',
+  mischief: 'Tinh nghịch',
+  undead: 'Bất tử',
+  armor: 'Giáp nặng',
+  royal: 'Hoàng triều',
+  construct: 'Tạo tác',
+  mythic: 'Thần thoại',
+  guardian: 'Hộ vệ',
+  elysium: 'Thiên đường',
+  haunted: 'Ám muội',
+  local: 'Bản địa',
+  beetle: 'Bọ cánh cứng',
+  crystal: 'Tinh thể',
+  sword: 'Kiếm',
+  magic: 'Phép thuật',
+  melee: 'Cận chiến',
+  scythe: 'Liềm',
+  aoe: 'Diện rộng',
+  harvest: 'Thu hoạch',
+  lantern: 'Đèn lồng',
+  ranged: 'Tầm xa',
+  light: 'Ánh sáng',
+  hammer: 'Búa',
+  heavy: 'Hạng nặng',
+  movement: 'Di chuyển',
+  dodge: 'Né đòn',
+  mining: 'Khai khoáng',
+  detection: 'Dò tìm',
+  combat: 'Chiến đấu',
+  automation: 'Tự động',
+  crafting: 'Chế tạo',
+  social: 'Giao tiếp',
+  customers: 'Khách hàng',
+  utility: 'Tiện ích',
+  quality: 'Phẩm chất',
+  speed: 'Tốc độ',
+  capacity: 'Công suất',
+  town: 'Thị trấn',
+  starting: 'Khởi đầu',
+  home: 'Mái nhà',
+  city: 'Thành phố',
+  palace: 'Vương cung',
+  forest: 'Rừng thẳm',
+  elves: 'Yêu tinh',
+  dwarves: 'Người lùn',
+  forge: 'Lò rèn',
+  floating: 'Đảo bay',
+  finale: 'Hồi kết',
+  spiritual: 'Tâm linh',
+};
+
+const MONSTER_ICONS = {
+  furnace_cog_automaton: 'flame',
+  magma_magnesnail: 'flame',
+  steam_mole_driller: 'mountains',
+  gloom_root_strangler: 'plant',
+  nectar_phantasm_moth: 'leaf',
+  bramble_puck: 'acorn',
+  astral_hollow_knight: 'shield',
+  grimoire_mimic: 'book-open',
+  mirror_glass_raven: 'diamond',
+  solar_gryphon: 'sparkle',
+  aurora_stag: 'sparkle',
+  poltergeist_kettle: 'cooking-pot',
+  dark_crystal_scarab: 'diamond',
+};
+
+const WEAPON_ICONS = {
+  starlight_blade: 'sword',
+  mystic_scythe: 'plant',
+  spirit_lantern: 'sparkle',
+  whisk_hammer: 'cooking-pot',
+};
+
+const PERK_ICONS = {
+  exploration: 'mountains',
+  farming: 'farm',
+  tea: 'tea-bag',
+};
+
+const LOCATION_ICONS = {
+  oakhaven: 'farm',
+  solaria: 'sparkle',
+  sylva_fae: 'plant',
+  khaz_drakor: 'mountains',
+  aethelgard: 'sparkle',
 };
 
 const CONFIG = {
   monsters: {
-    icon: 'sparkle',
+    icon: e => MONSTER_ICONS[e.id] || 'sparkle',
     badge: e => REALM_LABELS[e.realm] || e.realm,
-    search: e => [e.name, e.name_en, e.description, e.weakness, e.loot, ...(e.tags || [])],
+    search: e => [e.name, e.name_en, e.description, e.weakness, ...(e.tags || [])],
     facet: {
       field: 'realm',
       labels: REALM_LABELS,
       order: ['oakhaven', 'solaria', 'sylva-fae', 'khaz-drakor', 'aethelgard'],
     },
-    details: e => [
-      { label: 'Điểm yếu', value: e.weakness },
-      { label: 'Loot khi hạ', value: e.loot },
-    ],
+    renderDetails: e => (
+      <>
+        {e.hp != null && (
+          <div className={styles.detailRow}>
+            <span className={styles.detailLabel}>Chỉ số sinh lực:</span>
+            <span style={{ color: '#ffcf40', fontWeight: 700 }}>
+              HP: {e.hp} · Sát thương: {e.atk} {e.danger_level ? `(Độ khó: ${'★'.repeat(e.danger_level)})` : ''}
+            </span>
+          </div>
+        )}
+        <div className={styles.detailRow}>
+          <span className={styles.detailLabel}>Điểm yếu:</span>
+          <span>{e.weakness}</span>
+        </div>
+        <div className={styles.detailRow} style={{ alignItems: 'flex-start' }}>
+          <span className={styles.detailLabel}>Vật phẩm rơi:</span>
+          <div className={styles.ingredientChips}>
+            {e.loot_items && e.loot_items.length > 0 ? (
+              e.loot_items.map((loot, idx) => (
+                <Link
+                  key={idx}
+                  href={`/database/items/${loot.id}`}
+                  className={styles.ingredientLink}
+                >
+                  <span>{loot.name}</span>
+                  <span className={styles.ingredientQty}>{loot.chance}</span>
+                </Link>
+              ))
+            ) : (
+              <span>{e.loot || 'Không rõ'}</span>
+            )}
+          </div>
+        </div>
+      </>
+    ),
   },
+
   crops: {
-    icon: 'farm',
+    icon: e => (e.tags?.includes('grain') ? 'grains' : e.tags?.includes('tea') ? 'leaf' : 'plant'),
     badge: e => (e.seasons || []).map(s => SEASON_LABELS[s] || s).join(' · '),
     search: e => [e.name, e.description, ...(e.tags || [])],
     facet: {
@@ -71,19 +208,62 @@ const CONFIG = {
       order: ['spring', 'summer', 'autumn', 'winter'],
       multi: true,
     },
-    details: e => [
-      { label: 'Sinh trưởng', value: `${e.growth_days} ngày` },
-      { label: 'Tái sinh', value: e.regrow_days > 0 ? `mỗi ${e.regrow_days} ngày` : 'một lần' },
-      {
-        label: 'Thu hoạch',
-        value: e.harvest_item_id ? ITEM_NAMES[e.harvest_item_id] || e.harvest_item_id : null,
-        itemId: e.harvest_item_id,
-      },
-      { label: 'Ghi chú', value: e.harvest_note || null },
-    ],
+    renderDetails: e => {
+      const seedGift = e.seed_item_id ? lookupGift(e.seed_item_id) : null;
+      const harvestGift = e.harvest_item_id ? lookupGift(e.harvest_item_id) : null;
+
+      return (
+        <>
+          <div className={styles.detailRow}>
+            <span className={styles.detailLabel}>Chu kỳ sinh trưởng:</span>
+            <span>
+              {e.growth_days} ngày
+              {e.regrow_days > 0 ? ` (Tái sinh mỗi ${e.regrow_days} ngày)` : ' (Thu hoạch một lần)'}
+            </span>
+          </div>
+          {seedGift && (
+            <div className={styles.detailRow}>
+              <span className={styles.detailLabel}>Hạt giống gieo:</span>
+              <Link href={seedGift.href} className={styles.ingredientLink}>
+                <Icon name={seedGift.icon} size={13} />
+                <span>{seedGift.name}</span>
+                {e.seed_price != null && (
+                  <span className={styles.ingredientQty}>{e.seed_price} Vàng</span>
+                )}
+              </Link>
+            </div>
+          )}
+          {harvestGift && (
+            <div className={styles.detailRow}>
+              <span className={styles.detailLabel}>Sản phẩm thu hoạch:</span>
+              <Link href={harvestGift.href} className={styles.ingredientLink}>
+                <Icon name={harvestGift.icon} size={13} />
+                <span>{harvestGift.name}</span>
+                {e.sell_price != null && (
+                  <span className={styles.ingredientQty}>{e.sell_price} Vàng</span>
+                )}
+              </Link>
+            </div>
+          )}
+          {e.profit_per_day && (
+            <div className={styles.detailRow}>
+              <span className={styles.detailLabel}>Hiệu suất kinh tế:</span>
+              <span style={{ color: '#74c99e', fontWeight: 600 }}>{e.profit_per_day}</span>
+            </div>
+          )}
+          {e.harvest_note && (
+            <div className={styles.detailRow}>
+              <span className={styles.detailLabel}>Ghi chú:</span>
+              <span style={{ color: '#8d92aa' }}>{e.harvest_note}</span>
+            </div>
+          )}
+        </>
+      );
+    },
   },
+
   weapons: {
-    icon: 'sword',
+    icon: e => WEAPON_ICONS[e.id] || 'sword',
     badge: e => WEAPON_TYPE_LABELS[e.weapon_type] || e.weapon_type,
     search: e => [e.name, e.name_en, e.description, e.upgrade_path, ...(e.tags || [])],
     facet: {
@@ -91,21 +271,55 @@ const CONFIG = {
       labels: WEAPON_TYPE_LABELS,
       order: ['melee', 'ranged', 'heavy'],
     },
-    details: e => [{ label: 'Nâng cấp', value: e.upgrade_path }],
+    renderDetails: e => (
+      <>
+        {e.base_atk != null && (
+          <div className={styles.detailRow}>
+            <span className={styles.detailLabel}>Sát thương & Tốc độ:</span>
+            <span style={{ color: '#ffcf40', fontWeight: 700 }}>
+              ATK: {e.base_atk} · {e.attack_speed}
+            </span>
+          </div>
+        )}
+        {e.reach && (
+          <div className={styles.detailRow}>
+            <span className={styles.detailLabel}>Tầm quét vũ khí:</span>
+            <span>{e.reach}</span>
+          </div>
+        )}
+        {e.special_effect && (
+          <div className={styles.detailRow}>
+            <span className={styles.detailLabel}>Hiệu ứng đặc biệt:</span>
+            <span style={{ color: '#7ad0ff' }}>{e.special_effect}</span>
+          </div>
+        )}
+        <div className={styles.detailRow}>
+          <span className={styles.detailLabel}>Nâng cấp lò rèn:</span>
+          <span>{e.materials_needed || e.upgrade_path}</span>
+        </div>
+      </>
+    ),
   },
+
   perks: {
-    icon: 'book-open',
-    badge: e => BRANCH_LABELS[e.branch] || e.branch,
+    icon: e => PERK_ICONS[e.branch] || 'book-open',
+    badge: e => `${BRANCH_LABELS[e.branch] || e.branch} · ${e.tier || 'Bậc I'}`,
     search: e => [e.name, e.description, e.unlock_hint, ...(e.tags || [])],
     facet: {
       field: 'branch',
       labels: BRANCH_LABELS,
       order: ['exploration', 'farming', 'tea'],
     },
-    details: e => [{ label: 'Cách mở khóa', value: e.unlock_hint }],
+    renderDetails: e => (
+      <div className={styles.detailRow}>
+        <span className={styles.detailLabel}>Cách mở khóa:</span>
+        <span style={{ color: '#ffcf40' }}>{e.unlock_hint}</span>
+      </div>
+    ),
   },
+
   locations: {
-    icon: 'map-pin',
+    icon: e => LOCATION_ICONS[e.id] || 'map-pin',
     badge: e => LOCATION_TYPE_LABELS[e.location_type] || e.location_type,
     search: e => [e.name, e.name_en, e.description, e.unlock_condition, ...(e.features || []), ...(e.tags || [])],
     facet: {
@@ -113,10 +327,40 @@ const CONFIG = {
       labels: LOCATION_TYPE_LABELS,
       order: ['starting_town', 'realm'],
     },
-    details: e => [
-      { label: 'Mở khóa', value: e.unlock_condition },
-      { label: 'Điểm nổi bật', value: (e.features || []).join(', ') },
-    ],
+    renderDetails: e => (
+      <>
+        <div className={styles.detailRow}>
+          <span className={styles.detailLabel}>Điều kiện mở:</span>
+          <span style={{ color: '#ffcf40' }}>{e.unlock_condition}</span>
+        </div>
+        <div className={styles.detailRow}>
+          <span className={styles.detailLabel}>Điểm nổi bật:</span>
+          <span>{(e.features || []).join(' · ')}</span>
+        </div>
+        {e.npcs && e.npcs.length > 0 && (
+          <div className={styles.detailRow} style={{ alignItems: 'flex-start' }}>
+            <span className={styles.detailLabel}>Cư dân gặp gỡ:</span>
+            <div className={styles.ingredientChips}>
+              {e.npcs.slice(0, 6).map(npc => (
+                <Link
+                  key={npc.id}
+                  href="/database/characters"
+                  className={styles.ingredientLink}
+                >
+                  <Icon name="users" size={12} />
+                  <span>{npc.name}</span>
+                </Link>
+              ))}
+              {e.npcs.length > 6 && (
+                <span style={{ fontSize: '11px', color: '#8d92aa', alignSelf: 'center' }}>
+                  +{e.npcs.length - 6} người
+                </span>
+              )}
+            </div>
+          </div>
+        )}
+      </>
+    ),
   },
 };
 
@@ -148,7 +392,7 @@ export default function EntryBrowser({ category, entries }) {
           <input
             type="search"
             className={styles.searchInput}
-            placeholder="Tìm kiếm..."
+            placeholder="Tìm kiếm theo tên, đặc tính, khu vực..."
             value={query}
             onChange={e => setQuery(e.target.value)}
             aria-label="Tìm kiếm"
@@ -181,7 +425,7 @@ export default function EntryBrowser({ category, entries }) {
 
       {filtered.length === 0 ? (
         <div className={styles.empty}>
-          <p>Không tìm thấy kết quả nào khớp với tìm kiếm.</p>
+          <p>Không tìm thấy mục nào khớp với tìm kiếm.</p>
           <button
             type="button"
             className={styles.resetBtn}
@@ -192,40 +436,35 @@ export default function EntryBrowser({ category, entries }) {
         </div>
       ) : (
         <div className={styles.grid}>
-          {filtered.map(entry => (
-            <article key={entry.id} className={`${styles.itemCard} pixel-frame`}>
-              <div className={styles.cardTop}>
-                <div className={styles.iconWrap}>
-                  <Icon name={config.icon} size={24} />
-                </div>
-                <span className="badge">{config.badge(entry)}</span>
-              </div>
-              <h3>{entry.name}</h3>
-              {entry.name_en && <div className={styles.entrySub}>{entry.name_en}</div>}
-              <p className={styles.desc}>{entry.description}</p>
-              <div className={styles.details}>
-                {config.details(entry).filter(d => d.value).map(d => (
-                  <div key={d.label} className={styles.detailRow}>
-                    <span className={styles.detailLabel}>{d.label}:</span>
-                    {d.itemId ? (
-                      <Link href={`/database/items/${d.itemId}`} style={{ color: '#ffcf40', textDecoration: 'underline' }}>
-                        {d.value}
-                      </Link>
-                    ) : (
-                      <span>{d.value}</span>
-                    )}
+          {filtered.map(entry => {
+            const iconName = typeof config.icon === 'function' ? config.icon(entry) : config.icon;
+
+            return (
+              <article key={entry.id} className={`${styles.itemCard} pixel-frame`}>
+                <div className={styles.cardTop}>
+                  <div className={styles.iconWrap}>
+                    <Icon name={iconName} size={24} />
                   </div>
-                ))}
-              </div>
-              {entry.tags?.length > 0 && (
-                <div className={styles.tags}>
-                  {entry.tags.map(t => (
-                    <span key={t} className="badge forest">#{t}</span>
-                  ))}
+                  <span className="badge">{config.badge(entry)}</span>
                 </div>
-              )}
-            </article>
-          ))}
+                <h3>{entry.name}</h3>
+                {entry.name_en && <div className={styles.entrySub}>{entry.name_en}</div>}
+                <p className={styles.desc}>{entry.description}</p>
+                <div className={styles.details}>
+                  {config.renderDetails(entry)}
+                </div>
+                {entry.tags?.length > 0 && (
+                  <div className={styles.tags}>
+                    {entry.tags.slice(0, 4).map(t => (
+                      <span key={t} className="badge forest" style={{ fontSize: '11px' }}>
+                        {TAG_TRANSLATIONS[t] || t}
+                      </span>
+                    ))}
+                  </div>
+                )}
+              </article>
+            );
+          })}
         </div>
       )}
     </>

@@ -1,7 +1,7 @@
 @use '../../../../styles/variables' as *;
 
 .container {
-  max-width: 1000px;
+  max-width: 1040px;
   margin: 0 auto;
   padding: $sp-10 $sp-6 $sp-12;
 }
@@ -40,16 +40,16 @@
     align-items: center;
     gap: $sp-2;
     font-family: $font-pixel;
-    font-size: 13px;
+    font-size: 12px;
     font-weight: 700;
+    letter-spacing: 0.12em;
     text-transform: uppercase;
-    letter-spacing: 0.14em;
     color: $color-amber-warm;
     margin-bottom: $sp-3;
   }
 
   h1 {
-    font-size: 36px;
+    font-size: 34px;
     font-weight: 700;
     color: $color-text-main;
     line-height: 1.2;
@@ -89,21 +89,45 @@
   border: 1px solid $color-night-border;
   border-radius: $radius-sm;
 
-  // Accent theo danh mục — tô màu icon
   &.seed { color: $color-cat-seed; }
   &.ingredient { color: $color-cat-ingredient; }
   &.mineral { color: $color-cat-mineral; }
   &.gem { color: $color-cat-gem; }
   &.monster_drop { color: $color-cat-monster; }
+  &.tea { color: $color-amber-glow; }
+  &.bakery { color: $color-bakery-crust; }
 }
 
-.spriteCaption {
-  font-size: 11px;
-  color: $color-text-dim;
-  text-align: center;
-  word-break: break-all;
-  font-family: $font-pixel;
-  line-height: 1.5;
+.quickStats {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-top: $sp-2;
+}
+
+.quickStatRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 12px;
+  background: rgba($color-night-dark, 0.6);
+  border: 1px solid rgba($color-night-border, 0.8);
+  padding: 6px 10px;
+  border-radius: $radius-sm;
+
+  .quickStatLabel {
+    color: $color-text-dim;
+    font-size: 11px;
+    font-family: $font-pixel;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+  }
+
+  .quickStatVal {
+    color: $color-amber-glow;
+    font-weight: 700;
+  }
 }
 
 /* Nội dung chính */
@@ -112,7 +136,7 @@
 }
 
 .description {
-  font-size: 16px;
+  font-size: 15px;
   line-height: 1.7;
   color: $color-text-main;
   text-wrap: pretty;
@@ -120,7 +144,27 @@
   background: rgba($color-night-card, 0.6);
   border-radius: 0 $radius-md $radius-md 0;
   padding: $sp-4 $sp-5;
-  margin-bottom: $sp-8;
+  margin-bottom: $sp-6;
+}
+
+.buffBanner {
+  display: flex;
+  align-items: center;
+  gap: $sp-3;
+  background: rgba($color-crystal-cyan, 0.08);
+  border: 1px solid rgba($color-crystal-cyan, 0.35);
+  border-left: 3px solid $color-crystal-cyan;
+  padding: $sp-3 $sp-4;
+  border-radius: 0 $radius-sm $radius-sm 0;
+  margin-bottom: $sp-6;
+  color: $color-crystal-cyan;
+  font-size: 13px;
+  font-weight: 600;
+
+  svg {
+    flex-shrink: 0;
+    color: $color-crystal-cyan;
+  }
 }
 
 .infoTable {
@@ -138,13 +182,14 @@
     padding: $sp-3 $sp-5;
     text-align: left;
     border-bottom: 1px solid rgba($color-night-border, 0.6);
-    vertical-align: top;
+    vertical-align: middle;
   }
 
   th {
     width: 160px;
-    color: $color-bakery-crust;
+    color: $color-amber-warm;
     font-weight: 700;
+    font-size: 13px;
     background: $color-night-elevated;
   }
 
@@ -177,16 +222,16 @@
   margin-bottom: $sp-8;
 
   h2 {
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 700;
-    color: $color-text-main;
+    color: $color-amber-glow;
     margin-bottom: $sp-4;
     display: flex;
     align-items: center;
     gap: $sp-2;
 
     svg {
-      color: $color-amber-glow;
+      color: $color-amber-warm;
     }
   }
 }
@@ -228,7 +273,7 @@
 
 .emptyNote {
   color: $color-text-dim;
-  font-size: 14px;
+  font-size: 13px;
   padding: $sp-4 $sp-5;
   border: 1px dashed $color-night-border;
   border-radius: $radius-md;
@@ -297,6 +342,64 @@
   }
 }
 
+.charactersGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: $sp-3;
+}
+
+.characterMiniCard {
+  display: flex;
+  align-items: center;
+  gap: $sp-3;
+  background: rgba($color-night-card, 0.85);
+  border: 1px solid $color-night-border;
+  padding: $sp-3 $sp-4;
+  border-radius: $radius-md;
+  color: $color-text-main;
+  text-decoration: none;
+  transition:
+    border-color $dur-fast $ease-out,
+    transform $dur-fast $ease-out;
+
+  &:hover {
+    border-color: $color-amber-base;
+    transform: translateY(-2px);
+  }
+
+  .charAvatar {
+    width: 36px;
+    height: 36px;
+    border-radius: $radius-sm;
+    background: $color-night-dark;
+    border: 1px solid $color-amber-warm;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: $color-amber-glow;
+    flex-shrink: 0;
+  }
+
+  .charInfo {
+    flex: 1;
+    min-width: 0;
+
+    .charName {
+      font-weight: 700;
+      font-size: 13px;
+      color: $color-amber-glow;
+    }
+
+    .charRole {
+      font-size: 11px;
+      color: $color-text-dim;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+  }
+}
+
 .relatedGrid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
@@ -344,8 +447,27 @@
   }
 }
 
+.techFooter {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: $sp-4;
+  margin-top: $sp-8;
+  padding: $sp-3 $sp-4;
+  background: rgba($color-night-dark, 0.5);
+  border: 1px solid rgba($color-night-border, 0.6);
+  border-radius: $radius-sm;
+  font-size: 11px;
+  color: $color-text-dim;
+
+  code {
+    font-family: $font-pixel;
+    color: $color-amber-warm;
+  }
+}
+
 .backRow {
-  margin-top: $sp-10;
+  margin-top: $sp-8;
   padding-top: $sp-6;
   border-top: 1px solid $color-night-border;
 }
@@ -375,13 +497,13 @@
   }
 
   .spriteBox {
-    width: 112px;
-    height: 112px;
+    width: 100px;
+    height: 100px;
     flex-shrink: 0;
   }
 
   .header h1 {
-    font-size: 28px;
+    font-size: 26px;
   }
 
   .infoTable th {

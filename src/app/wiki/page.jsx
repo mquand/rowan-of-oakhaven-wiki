@@ -46,7 +46,7 @@ const DOC_GROUPS = [
     slugs: ['dungeon-combat', 'lore-story'],
     descriptions: {
       'dungeon-combat': 'Cơ chế thám hiểm hang mỏ, vũ khí ma thuật, đòn chém 3 nhịp và thanh tẩy Bụi Sao Hắc Hóa.',
-      'lore-story': 'Nguồn gốc sâu xa của Bụi Sao, bí mật về người Bà Amalia và sứ mệnh chữa lành vùng đất.',
+      'lore-story': 'Nguồn gốc sâu xa của Bụi Sao, bí mật về người Bà Amalia và sứ mệnh thanh tẩy Bụi Sao Hắc Hóa.',
     },
     icon: 'sword',
   },
@@ -67,7 +67,7 @@ export default function WikiHubPage() {
       <header className={styles.header}>
         <h1>Tài liệu hướng dẫn</h1>
         <p>
-          Hệ thống cẩm nang hướng dẫn và ghi chép thế giới dành cho người chơi Rowan of Oakhaven — giúp bạn làm chủ nghệ thuật pha trà ASMR, chăm sóc khu vườn thảo mộc và khám phá Năm Vương Quốc.
+          Hệ thống cẩm nang hướng dẫn và ghi chép thế giới dành cho người chơi Rowan of Oakhaven — giúp bạn làm chủ nghệ thuật pha chế trà thảo mộc Bụi Sao, chăm sóc khu vườn thảo dược và khám phá Năm Vương Quốc.
         </p>
       </header>
 

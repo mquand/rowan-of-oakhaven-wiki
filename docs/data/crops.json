@@ -18,7 +18,11 @@
         "tea",
         "base",
         "regrow"
-      ]
+      ],
+      "seed_item_id": "seed_sen_tea",
+      "seed_price": 20,
+      "sell_price": 35,
+      "profit_per_day": "7.5 Vàng/ngày"
     },
     {
       "id": "crop_lumiberry",
@@ -35,7 +39,11 @@
         "fruit",
         "tea",
         "regrow"
-      ]
+      ],
+      "seed_item_id": "seed_lumiberry",
+      "seed_price": 25,
+      "sell_price": 40,
+      "profit_per_day": "8.0 Vàng/ngày"
     },
     {
       "id": "crop_silver_wheat",
@@ -54,7 +62,11 @@
         "grain",
         "bakery",
         "mill"
-      ]
+      ],
+      "seed_item_id": "seed_silver_wheat",
+      "seed_price": 15,
+      "sell_price": 30,
+      "profit_per_day": "3.75 Vàng/ngày"
     },
     {
       "id": "crop_star_lavender",
@@ -72,7 +84,11 @@
         "tea",
         "calming",
         "regrow"
-      ]
+      ],
+      "seed_item_id": "seed_star_lavender",
+      "seed_price": 30,
+      "sell_price": 55,
+      "profit_per_day": "9.1 Vàng/ngày"
     },
     {
       "id": "crop_sun_daisy",
@@ -89,7 +105,11 @@
         "flower",
         "tea",
         "energy"
-      ]
+      ],
+      "seed_item_id": "seed_sun_daisy",
+      "seed_price": 18,
+      "sell_price": 38,
+      "profit_per_day": "6.6 Vàng/ngày"
     },
     {
       "id": "crop_sweet_pumpkin",
@@ -105,7 +125,11 @@
         "vegetable",
         "bakery",
         "festival"
-      ]
+      ],
+      "seed_item_id": "seed_sweet_pumpkin",
+      "seed_price": 35,
+      "sell_price": 85,
+      "profit_per_day": "6.25 Vàng/ngày"
     }
   ]
 }

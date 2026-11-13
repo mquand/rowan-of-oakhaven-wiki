@@ -24,7 +24,7 @@ Một ngày trong game kéo dài **10 phút thực tế** (`1 giờ game = 25 gi
 | 08:00 – 12:00 | Buổi Sáng | 100s | Làm vườn (tưới, thu hoạch, xay lúa mì) hoặc đi mỏ |
 | 12:00 – 17:00 | Buổi Chiều | 125s | Thăm lò rèn Boris, mua hạt giống, thám hiểm mỏ tầng sâu |
 | 17:00 – 18:00 | Hoàng Hôn | 25s | Uống trà nhận buff, chuẩn bị quầy bếp |
-| 18:00 – 23:00 | Buổi Tối | 250s | **Giờ cao điểm tiệm** — lật biển OPEN đón khách, nghe tâm sự, pha trà ASMR |
+| 18:00 – 23:00 | Buổi Tối | 250s | **Giờ cao điểm tiệm** — lật biển OPEN đón khách, nghe tâm sự, pha trà thảo mộc |
 | 23:00 – 02:00 | Đêm Khuya | 50s | Máy hát đĩa than, ghim ảnh Polaroid, lên giường |
 | Sau 02:00 | Kiệt sức | — | Nhân vật tự ngủ, sáng dậy 08:00 với 70% thể lực |
 
@@ -75,7 +75,7 @@ Mang quặng mỏ + vàng đến lò rèn để nâng cấp 4 cấp (Gỗ/Rỉ �
 - Di chuyển 4 hướng; đi bộ là animation duy nhất — tăng tốc bằng **trà buff tốc độ** và lướt Bụi Sao.
 - Phím `Shift` chạy (`180 px/s`), phím `Space` lướt khi đã mở perk.
 - Tư thế `carry` giơ món đồ lên đỉnh đầu; ngồi ghế trò chuyện cạnh NPC được hỗ trợ.
-- Tương tác trạm (pha trà, nướng bánh) mở **màn hình cận cảnh** — tự tay thao tác ASMR.
+- Tương tác trạm (pha trà, nướng bánh) mở **màn hình cận cảnh** — tự tay thao tác thủ công chân thực.
 
 ---
 

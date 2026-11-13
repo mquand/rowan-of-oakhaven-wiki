@@ -25,7 +25,7 @@ export const metadata = {
   description: 'Official Game Wiki & Knowledge Base for Rowan of Oakhaven (by Fluvio Games)',
   openGraph: {
     title: 'Rowan of Oakhaven Wiki — Fluvio Games',
-    description: 'Cozy dark pixel RPG wiki — ASMR tea brewing, magic bakery, herb farming & crystal mining.',
+    description: 'Official Game Wiki for Rowan of Oakhaven — Tea crafting, magic bakery, herb farming & crystal mining.',
     type: 'website',
     locale: 'vi_VN',
     siteName: 'Rowan of Oakhaven Wiki',
@@ -41,7 +41,7 @@ export const metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Rowan of Oakhaven Wiki',
-    description: 'Cozy dark pixel RPG wiki — ASMR tea brewing, magic bakery, herb farming & crystal mining.',
+    description: 'Official Game Wiki for Rowan of Oakhaven — Tea crafting, magic bakery, herb farming & crystal mining.',
     images: ['/og-image.svg'],
   },
 };
