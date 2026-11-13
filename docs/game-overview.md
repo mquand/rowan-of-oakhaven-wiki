@@ -1,5 +1,5 @@
 ---
-title: "Game Overview — Rowan of Oakhaven"
+title: "Game Overview"
 status: draft
 audience: public
 updated: 2026-11-12

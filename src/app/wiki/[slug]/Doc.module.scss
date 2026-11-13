@@ -62,22 +62,6 @@
   }
 }
 
-.kicker {
-  display: inline-flex;
-  align-items: center;
-  gap: $sp-2;
-  font-family: $font-pixel;
-  font-size: 12px;
-  letter-spacing: 0.16em;
-  text-transform: uppercase;
-  color: $color-amber-warm;
-  margin-bottom: $sp-3;
-
-  svg {
-    color: $color-amber-glow;
-  }
-}
-
 .docMainTitle {
   font-family: $font-sans;
   font-size: 32px;

@@ -65,8 +65,7 @@ export default function WikiHubPage() {
       </nav>
 
       <header className={styles.header}>
-        <p className={styles.kicker}>OAKHAVEN ARCHIVES</p>
-        <h1>Tàng Thư Các Cốt Lõi</h1>
+        <h1>Tài liệu hướng dẫn</h1>
         <p>
           Hệ thống cẩm nang hướng dẫn và ghi chép thế giới dành cho người chơi Rowan of Oakhaven — giúp bạn làm chủ nghệ thuật pha trà ASMR, chăm sóc khu vườn thảo mộc và khám phá Năm Vương Quốc.
         </p>

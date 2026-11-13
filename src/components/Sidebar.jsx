@@ -21,12 +21,12 @@ export default function Sidebar({ docs = [] }) {
 
   return (
     <aside className={styles.sidebar}>
-      {/* SECTION 1: TÀI LIỆU CỐT LÕI */}
+      {/* SECTION 1: TÀI LIỆU */}
       <div className={`${styles.section} pixel-frame`}>
         <div className={styles.sectionHeader}>
           <div className={styles.sectionTitle}>
             <Icon name="scroll" size={14} />
-            <span>Tàng Thư Cốt Lõi</span>
+            <span>Tài liệu</span>
           </div>
           <Link href="/wiki" className={styles.sectionLink}>
             Tất cả

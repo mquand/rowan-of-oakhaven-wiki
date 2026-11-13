@@ -53,10 +53,6 @@ export default async function DocPage({ params }) {
         </nav>
 
         <header className={styles.docHeader}>
-          <div className={styles.kicker}>
-            <Icon name="scroll" size={14} />
-            <span>TÀI LIỆU CỐT LÕI · OAKHAVEN CODEX</span>
-          </div>
           <h1 className={styles.docMainTitle}>{doc.title}</h1>
           <div className={styles.docMeta}>
             <span className={styles.date}>
