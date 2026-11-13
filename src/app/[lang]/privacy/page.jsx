@@ -10,7 +10,7 @@ export async function generateMetadata({ params }) {
   const { lang = DEFAULT_LOCALE } = await params;
   const dict = getDictionary(lang);
   return {
-    title: `${dict.privacy.title} — Rowan of Oakhaven Codex`,
+    title: `${dict.privacy.title} — Rowan of Oakhaven Wiki`,
   };
 }
 
@@ -26,7 +26,7 @@ export default async function PrivacyPage({ params }) {
       <p className={styles.date}>{dict.privacy.updated}</p>
       <p>
         {isEn
-          ? 'The Rowan of Oakhaven Codex does not collect personal tracking data from its visitors. All documentation and database records are served locally from static content within this repository.'
+          ? 'The Rowan of Oakhaven Wiki does not collect personal tracking data from its visitors. All documentation and database records are served locally from static content within this repository.'
           : 'Wiki Rowan of Oakhaven không thu thập dữ liệu cá nhân nào từ người truy cập. Trang web này chỉ đọc file tài liệu cục bộ trong repo và hiển thị chúng trên trình duyệt của bạn.'}
       </p>
       <p>

@@ -17,7 +17,7 @@ spoiler: false
 
 ## 1. Giới Thiệu Chung & Cốt Truyện Khởi Đầu
 
-### 1.1. Logline
+### 1.1. Giới thiệu cốt truyện
 > *"Tiếp quản tiệm trà bánh cũ của người bà quá cố nơi rìa Rừng Thầm Thì, bạn gieo trồng thảo mộc, đào mỏ tìm than đá và thạch anh, để mỗi tối mở tiệm lắng nghe tâm sự của dân làng, tự tay nhào bột và pha những tách trà thảo mộc Bụi Sao xoa dịu nỗi muộn phiền cho họ."*
 
 ### 1.2. Cốt Truyện Mở Đầu

@@ -5,7 +5,7 @@
   margin: 0 auto;
   padding: $sp-8 $sp-6 $sp-12;
   display: flex;
-  gap: $sp-8;
+  gap: $sp-6;
   align-items: flex-start;
 }
 
@@ -27,6 +27,7 @@
 
   a {
     color: $color-text-muted;
+    text-decoration: none;
     transition: color $dur-fast $ease-out;
 
     &:hover {
@@ -64,10 +65,10 @@
 
 .docMainTitle {
   font-family: $font-sans;
-  font-size: 32px;
+  font-size: 30px;
   font-weight: 800;
   color: $color-text-main;
-  line-height: 1.28;
+  line-height: 1.3;
   margin: 0 0 $sp-4;
   text-wrap: balance;
   letter-spacing: -0.01em;
@@ -76,7 +77,7 @@
 .docMeta {
   display: flex;
   flex-wrap: wrap;
-  gap: $sp-4;
+  gap: $sp-3;
   align-items: center;
   font-size: 13px;
   color: $color-text-muted;
@@ -86,6 +87,18 @@
     align-items: center;
     gap: 6px;
   }
+}
+
+.readingTimeBadge {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 12px;
+  color: $color-amber-warm;
+  background: rgba($color-amber-base, 0.08);
+  border: 1px solid rgba($color-amber-base, 0.3);
+  padding: 2px 7px;
+  font-weight: 600;
 }
 
 .statusBadge {
@@ -102,48 +115,126 @@
   padding: 2px 8px;
 }
 
-/* Nội dung + Codex Plaque cột phụ bên phải */
+/* Layout 2 cột: Thân bài viết bên trái + Cột TOC / Infobox bên phải */
 .docLayout {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) 250px;
+  grid-template-columns: minmax(0, 1fr) 240px;
   gap: $sp-8;
   align-items: start;
 }
 
 .docBody {
   min-width: 0;
+
+  p {
+    max-width: 70ch;
+  }
+
+  li {
+    max-width: 70ch;
+  }
 }
 
-/* Codex Plaque (Bảng Khắc Tàng Thư Oakhaven) */
-.infobox {
+/* Cột phụ bên phải */
+.rightColumn {
   position: sticky;
-  top: 88px;
-  background-color: rgba($color-night-dark, 0.88);
-  padding: $sp-5;
-  font-size: 13px;
+  top: 84px;
+  display: flex;
+  flex-direction: column;
+  gap: $sp-5;
+}
+
+/* Mục lục "Trên trang này" */
+.tocBox {
+  background-color: rgba($color-night-dark, 0.9);
+  padding: $sp-4;
+}
+
+.tocHeader {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-family: $font-pixel;
+  font-size: 11px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: $color-amber-warm;
+  margin-bottom: $sp-3;
+  padding-bottom: $sp-2;
+  border-bottom: 1px solid rgba($color-night-border, 0.9);
+
+  svg {
+    color: $color-amber-glow;
+  }
+}
+
+.tocNav {
+  max-height: 280px;
+  overflow-y: auto;
+}
+
+.tocList {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.tocItem {
+  line-height: 1.35;
+}
+
+.tocSubItem {
+  padding-left: 10px;
+  font-size: 11px;
+}
+
+.tocLink {
+  display: block;
+  font-size: 12px;
+  color: $color-text-muted;
+  text-decoration: none;
+  padding: 3px 6px;
+  border-left: 2px solid transparent;
+  transition:
+    color $dur-fast $ease-out,
+    border-color $dur-fast $ease-out,
+    background-color $dur-fast $ease-out;
+
+  &:hover {
+    color: $color-amber-glow;
+    border-left-color: $color-amber-base;
+    background: rgba($color-amber-base, 0.08);
+  }
+}
+
+/* Bảng thông tin bài viết */
+.infobox {
+  background-color: rgba($color-night-dark, 0.9);
+  padding: $sp-4;
 }
 
 .infoboxHeader {
   display: flex;
   align-items: center;
-  gap: 8px;
-  padding-bottom: $sp-3;
+  gap: 6px;
   margin-bottom: $sp-3;
-  border-bottom: 1px solid rgba($color-amber-warm, 0.4);
-  color: $color-amber-glow;
+  padding-bottom: $sp-2;
+  border-bottom: 1px solid rgba($color-night-border, 0.9);
 
   svg {
     color: $color-amber-warm;
-    flex-shrink: 0;
   }
 }
 
 .infoboxTitle {
   font-family: $font-pixel;
-  font-size: 13px;
-  letter-spacing: 0.14em;
+  font-size: 11px;
+  letter-spacing: 0.1em;
   text-transform: uppercase;
-  color: $color-amber-glow;
+  color: $color-amber-warm;
   margin: 0;
 }
 
@@ -154,7 +245,7 @@
 
   th {
     text-align: left;
-    padding: 8px 0;
+    padding: 6px 0;
     color: $color-text-dim;
     font-weight: 700;
     font-family: $font-pixel;
@@ -167,7 +258,7 @@
   }
 
   td {
-    padding: 8px 0 8px 10px;
+    padding: 6px 0 6px 8px;
     color: $color-text-main;
     border-bottom: 1px dashed rgba($color-night-border, 0.7);
     vertical-align: middle;
@@ -190,8 +281,8 @@
   display: flex;
   align-items: center;
   gap: 6px;
-  margin-top: $sp-4;
-  padding-top: $sp-3;
+  margin-top: $sp-3;
+  padding-top: $sp-2;
   border-top: 1px solid rgba($color-night-border, 0.8);
   font-size: 11px;
   color: $color-text-dim;
@@ -202,7 +293,7 @@
   }
 }
 
-/* Điều hướng cuộn thư */
+/* Điều hướng bài viết */
 .docNav {
   display: flex;
   justify-content: space-between;
@@ -259,14 +350,13 @@
   }
 }
 
-@media (max-width: 1120px) {
+@media (max-width: 1140px) {
   .docLayout {
     grid-template-columns: 1fr;
   }
 
-  .infobox {
+  .rightColumn {
     position: static;
-    order: -1;
     margin-bottom: $sp-6;
   }
 }
@@ -282,6 +372,6 @@
   }
 
   .docMainTitle {
-    font-size: 26px;
+    font-size: 24px;
   }
 }

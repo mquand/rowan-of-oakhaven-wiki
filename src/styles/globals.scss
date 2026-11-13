@@ -20,12 +20,17 @@ html, body {
   -webkit-font-smoothing: antialiased;
 }
 
+#main-content {
+  position: relative;
+  z-index: 1;
+}
+
 // Bầu trời đêm — ánh hào quang sâu thẳm huyền bí
 body::before {
   content: '';
   position: fixed;
   inset: 0;
-  z-index: 0;
+  z-index: -2;
   pointer-events: none;
   background:
     radial-gradient(ellipse 90% 60% at 50% -10%, rgba(184, 116, 255, 0.12), transparent 70%),
@@ -33,11 +38,11 @@ body::before {
     radial-gradient(ellipse 60% 40% at 10% 80%, rgba(255, 230, 128, 0.05), transparent 60%);
 }
 
-// Lớp sao pixel hình dấu cộng (+) lấp lánh trên bầu trời đêm
+// Lớp sao pixel hình dấu cộng (+) lấp lánh trên bầu trời đêm — luôn ở phía dưới nội dung
 .starfield {
   position: fixed;
   inset: 0;
-  z-index: 0;
+  z-index: -1;
   pointer-events: none;
   overflow: hidden;
 

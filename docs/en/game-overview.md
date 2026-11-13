@@ -17,7 +17,7 @@ spoiler: false
 
 ## 1. Introduction & Prologue Story
 
-### 1.1. Logline
+### 1.1. Story Premise
 > *"Inheriting her late grandmother's rustic tea and pastry shop on the border of the Whisperwood, you harvest enchanted botanicals, delve into deep mines for coal and crystals, and open your doors each twilight to listen to travelers' deepest heartaches — hand-kneading dough and brewing Starlight herbal teas to bring solace to weary souls."*
 
 ### 1.2. The Prologue

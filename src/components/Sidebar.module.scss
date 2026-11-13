@@ -1,21 +1,22 @@
 @use '../styles/variables' as *;
 
 .sidebar {
-  width: $sidebar-width;
+  width: 250px;
   flex-shrink: 0;
   display: flex;
   flex-direction: column;
-  gap: $sp-6;
+  gap: $sp-5;
   position: sticky;
-  top: 88px;
+  top: 84px;
 }
 
-.section {
-  background-color: rgba($color-night-card, 0.85);
-  padding: $sp-4 $sp-4;
+.treeCard,
+.dbCard {
+  background-color: rgba($color-night-card, 0.9);
+  padding: $sp-4;
 }
 
-.sectionHeader {
+.treeHeader {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -24,13 +25,13 @@
   border-bottom: 1px solid rgba($color-night-border, 0.9);
 }
 
-.sectionTitle {
+.treeTitle {
   display: flex;
   align-items: center;
   gap: 6px;
   font-family: $font-pixel;
   font-size: 11px;
-  letter-spacing: 0.12em;
+  letter-spacing: 0.1em;
   text-transform: uppercase;
   color: $color-amber-warm;
 
@@ -39,7 +40,7 @@
   }
 }
 
-.sectionLink {
+.hubLink {
   font-family: $font-pixel;
   font-size: 10px;
   letter-spacing: 0.08em;
@@ -58,91 +59,131 @@
   }
 }
 
-.linkList {
-  list-style: none;
+.treeNav {
   display: flex;
   flex-direction: column;
-  gap: 3px;
-  margin: 0;
-  padding: 0;
+  gap: $sp-3;
 }
 
-.navLink {
+.treeBranch {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.branchHead {
   display: flex;
   align-items: center;
-  gap: 8px;
-  padding: 7px 10px;
-  font-size: 13px;
-  font-weight: 500;
+  gap: 6px;
+  padding: 2px 0;
+}
+
+.branchIcon {
+  color: $color-amber-base;
+  opacity: 0.8;
+  flex-shrink: 0;
+}
+
+.branchLabel {
+  font-family: $font-sans;
+  font-size: 12px;
+  font-weight: 700;
+  color: $color-text-main;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+/* Thụt lề dạng cành cây */
+.leafList {
+  list-style: none;
+  margin: 0;
+  padding: 0 0 0 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  border-left: 1px solid rgba($color-night-border, 0.8);
+  margin-left: 6px;
+}
+
+.leafItem {
+  position: relative;
+}
+
+.leafLink {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 4px 8px;
+  font-size: 12px;
   color: $color-text-muted;
   text-decoration: none;
-  border: 1px solid transparent;
+  line-height: 1.35;
   transition:
-    transform $dur-fast $ease-out,
     color $dur-fast $ease-out,
-    background-color $dur-fast $ease-out,
-    border-color $dur-fast $ease-out;
+    background-color $dur-fast $ease-out;
 
-  svg {
-    flex-shrink: 0;
-    color: $color-amber-base;
-    opacity: 0.75;
-    transition: opacity $dur-fast $ease-out;
-  }
-
-  .bullet {
-    font-size: 9px;
-    color: $color-amber-warm;
-    opacity: 0.6;
+  .leafLine {
+    display: inline-block;
+    width: 6px;
+    height: 1px;
+    background: rgba($color-night-border, 0.8);
     flex-shrink: 0;
   }
 
-  .linkText {
-    white-space: nowrap;
+  .leafText {
+    flex: 1;
     overflow: hidden;
     text-overflow: ellipsis;
+    white-space: nowrap;
   }
 
   &:hover {
-    color: $color-text-main;
-    background: rgba($color-night-elevated, 0.7);
-    transform: translateX(2px);
+    color: $color-amber-glow;
+    background: rgba($color-amber-base, 0.08);
 
-    svg {
-      opacity: 1;
+    .leafLine {
+      background: $color-amber-base;
     }
   }
 
-  &.navLinkActive {
+  &.leafActive {
     color: $color-amber-glow;
-    background: rgba($color-amber-base, 0.12);
-    border-color: rgba($color-amber-base, 0.4);
-    font-weight: 600;
+    font-weight: 700;
+    background: rgba($color-amber-base, 0.16);
+    border-left: 2px solid $color-amber-glow;
 
-    .bullet {
-      opacity: 1;
-      color: $color-amber-glow;
-      text-shadow: 0 0 6px rgba($color-amber-glow, 0.5);
-    }
-
-    svg {
-      opacity: 1;
-      color: $color-amber-glow;
+    .leafLine {
+      background: $color-amber-glow;
     }
   }
 }
 
-@media (max-width: 900px) {
-  .sidebar {
-    width: 100%;
-    position: static;
-    flex-direction: row;
-    overflow-x: auto;
-    gap: $sp-4;
-    padding-bottom: $sp-2;
+/* Shortcut chips cho database */
+.dbChips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+}
 
-    .section {
-      min-width: 260px;
-    }
+.dbChip {
+  font-size: 11px;
+  color: $color-text-dim;
+  background: rgba($color-night-dark, 0.7);
+  border: 1px solid $color-night-border;
+  padding: 3px 8px;
+  text-decoration: none;
+  transition:
+    color $dur-fast $ease-out,
+    border-color $dur-fast $ease-out;
+
+  &:hover {
+    color: $color-amber-glow;
+    border-color: $color-amber-base;
+  }
+}
+
+@media (max-width: 960px) {
+  .sidebar {
+    display: none;
   }
 }

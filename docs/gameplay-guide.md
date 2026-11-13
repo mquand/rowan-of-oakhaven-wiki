@@ -1,5 +1,5 @@
 ---
-title: "Gameplay Guide — Nhịp Sống, Mùa Vụ & Thể Lực"
+title: "Lối chơi và mùa vụ — Nhịp sinh hoạt, nông trại và thể lực"
 status: draft
 audience: public
 updated: 2026-11-12
@@ -7,7 +7,7 @@ tags: [gameplay, time, seasons, stamina, weather, tools]
 spoiler: false
 ---
 
-# 📖 Gameplay Guide — Nhịp Sống Trong Oakhaven
+# 📖 Lối chơi và mùa vụ — Nhịp sinh hoạt trong Oakhaven
 
 > **Game:** Rowan of Oakhaven  
 > Trang này tổng hợp các hệ thống sinh hoạt cốt lõi: chu kỳ ngày, 4 mùa, thể lực (Stamina), thời tiết và nâng cấp công cụ.

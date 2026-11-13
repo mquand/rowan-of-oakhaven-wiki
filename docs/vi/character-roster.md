@@ -1,5 +1,5 @@
 ---
-title: "Character Roster — Dàn Nhân Vật & Cư Dân"
+title: "Dàn nhân vật và cư dân Oakhaven"
 status: draft
 audience: public
 updated: 2026-11-12
@@ -7,7 +7,7 @@ tags: [characters, npcs, lore, rowan, oakhaven]
 spoiler: false
 ---
 
-# 👥 Character Roster — Dàn Nhân Vật Oakhaven & Các Vương Quốc
+# 👥 Dàn nhân vật và cư dân Oakhaven
 
 > **Game:** Rowan of Oakhaven  
 > Dưới đây là danh sách các nhân vật chính, bạn đồng hành và cư dân mà bạn sẽ gặp gỡ, trò chuyện và phục vụ trà bánh mỗi tối.

@@ -26,7 +26,7 @@
 }
 
 .about {
-  max-width: 420px;
+  max-width: 320px;
 
   h3 {
     font-family: $font-pixel;
@@ -40,6 +40,13 @@
     svg {
       color: $color-amber-warm;
     }
+  }
+
+  .aboutDesc {
+    font-size: 13px;
+    line-height: 1.5;
+    color: $color-text-dim;
+    margin: 0;
   }
 }
 

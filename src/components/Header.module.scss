@@ -67,7 +67,6 @@
     transition: color $dur-fast $ease-out;
   }
 
-  // Chữ tiếng Việt "Bách Khoa Toàn Thư" dùng font sans để không bị vỡ glyph
   .brandSub {
     font-family: $font-sans;
     font-size: 11px;
@@ -86,7 +85,9 @@
   padding: 0;
 
   a {
-    display: block;
+    display: flex;
+    align-items: center;
+    gap: 4px;
     font-size: 13px;
     font-weight: 700;
     color: $color-text-muted;
@@ -113,33 +114,106 @@
   }
 }
 
+/* ---------- Dropdown Cơ sở dữ liệu ---------- */
+.dropdownWrap {
+  position: relative;
+}
+
+.dropdownTrigger {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  cursor: pointer;
+
+  .caret {
+    transition: transform $dur-fast $ease-out;
+    opacity: 0.7;
+  }
+
+  &:hover .caret {
+    transform: translateY(1px);
+    opacity: 1;
+  }
+}
+
+.dropdownMenu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  margin-top: 6px;
+  width: 380px;
+  background-color: rgba($color-night-card, 0.96);
+  padding: $sp-3;
+  z-index: 150;
+  box-shadow:
+    0 12px 32px rgba(0, 0, 0, 0.8),
+    0 0 0 1px $color-night-border;
+}
+
+.dropdownGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: $sp-1;
+}
+
+.dropdownItem {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 10px !important;
+  text-decoration: none;
+  border: 1px solid transparent !important;
+  background: transparent !important;
+  box-shadow: none !important;
+
+  &:hover {
+    background: rgba($color-amber-base, 0.12) !important;
+    border-color: rgba($color-amber-base, 0.35) !important;
+
+    .itemTitle {
+      color: $color-amber-glow;
+    }
+  }
+
+  .itemIcon {
+    width: 28px;
+    height: 28px;
+    background: $color-night-dark;
+    border: 1px solid $color-night-border;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: $color-amber-warm;
+    flex-shrink: 0;
+  }
+
+  .itemText {
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    line-height: 1.2;
+  }
+
+  .itemTitle {
+    font-size: 13px;
+    font-weight: 700;
+    color: $color-text-main;
+    transition: color $dur-fast $ease-out;
+  }
+
+  .itemDesc {
+    font-size: 10px;
+    color: $color-text-dim;
+    font-weight: 500;
+  }
+}
+
+/* ---------- Header Actions ---------- */
 .actions {
   display: flex;
   align-items: center;
   gap: $sp-3;
   flex-shrink: 0;
-
-  .githubBtn {
-    font-family: $font-sans;
-    font-size: 13px;
-    font-weight: 700;
-    padding: 6px $sp-4;
-    color: $color-text-main;
-    background: #17162b;
-    border: 1px solid $color-night-border;
-    text-decoration: none;
-    box-shadow: 0 2px 0 #000;
-    transition:
-      border-color $dur-fast $ease-out,
-      background-color $dur-fast $ease-out,
-      color $dur-fast $ease-out;
-
-    &:hover {
-      border-color: $color-amber-base;
-      background: rgba($color-amber-base, 0.15);
-      color: $color-amber-glow;
-    }
-  }
 
   .searchBtn {
     display: flex;
@@ -174,13 +248,31 @@
   }
 }
 
+.mobileSearchIconBtn {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  background: #0d0e19;
+  border: 1px solid $color-night-border;
+  color: $color-amber-warm;
+  cursor: pointer;
+  box-shadow: 0 2px 0 #000;
+
+  &:hover {
+    border-color: $color-amber-base;
+    color: $color-amber-glow;
+  }
+}
+
 .menuBtn {
   display: none;
   flex-direction: column;
   justify-content: center;
   gap: 5px;
-  width: 38px;
-  height: 38px;
+  width: 36px;
+  height: 36px;
   padding: $sp-2;
   background: #0d0e19;
   border: 1px solid $color-night-border;
@@ -207,9 +299,7 @@
   }
 }
 
-/* ===================================================
-   MOBILE DRAWER (TUYỆT ĐỐI ẨN TRÊN DESKTOP > 960PX)
-   =================================================== */
+/* ---------- Mobile Drawer ---------- */
 .mobileDrawer {
   display: none;
 }
@@ -217,6 +307,14 @@
 @media (max-width: 960px) {
   .navLinks {
     display: none;
+  }
+
+  .actions .searchBtn {
+    display: none;
+  }
+
+  .mobileSearchIconBtn {
+    display: flex;
   }
 
   .menuBtn {
@@ -258,66 +356,60 @@
 
     a {
       display: block;
-      padding: $sp-3 $sp-4;
-      font-size: 15px;
+      font-size: 14px;
       font-weight: 700;
-      color: $color-text-muted;
+      color: $color-text-main;
       text-decoration: none;
-      border: 1px solid transparent;
+      padding: 6px 0;
 
-      &:hover {
+      &.active {
         color: $color-amber-glow;
-        background: rgba($color-night-elevated, 0.6);
-        border-color: $color-amber-base;
       }
+    }
+  }
+
+  .mobileSubList {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 6px;
+    padding: 6px 0 10px;
+    border-top: 1px solid rgba($color-night-border, 0.5);
+    margin-top: 4px;
+  }
+
+  .mobileSubItem {
+    display: flex !important;
+    align-items: center;
+    gap: 6px;
+    font-size: 12px !important;
+    color: $color-text-dim !important;
+    padding: 4px 6px !important;
+    background: rgba($color-night-dark, 0.6);
+    border: 1px solid $color-night-border;
+
+    &:hover {
+      color: $color-amber-warm !important;
+      border-color: $color-amber-base;
     }
   }
 
   .mobileDivider {
     height: 1px;
-    background: rgba($color-night-border, 0.8);
+    background: $color-night-border;
     margin: $sp-2 0;
   }
 
   .mobileSearchBtn {
-    width: 100%;
     display: flex;
     align-items: center;
-    gap: $sp-2;
-    padding: $sp-3 $sp-4;
-    background: $color-night-card;
-    border: 1px solid $color-night-border;
+    gap: 8px;
+    width: 100%;
+    padding: 10px 14px;
+    font-size: 13px;
+    font-weight: 700;
     color: $color-amber-glow;
-    font-size: 14px;
-    font-weight: 600;
+    background: $color-night-card;
+    border: 1px solid $color-amber-warm;
     cursor: pointer;
-    text-align: left;
-  }
-
-  .mobileGithubLink {
-    display: block;
-    padding: $sp-3 $sp-4;
-    font-size: 14px;
-    color: $color-text-dim;
-    text-decoration: none;
-
-    &:hover {
-      color: $color-text-main;
-    }
-  }
-}
-
-@media (max-width: 640px) {
-  .actions .searchBtn .searchBtnText,
-  .actions .searchBtn .searchKbd {
-    display: none;
-  }
-
-  .actions .searchBtn {
-    padding: $sp-2;
-  }
-
-  .brandSub {
-    display: none;
   }
 }

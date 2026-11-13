@@ -6,6 +6,7 @@ import styles from './Footer.module.scss';
 
 export default function Footer({ lang = DEFAULT_LOCALE }) {
   const dict = getDictionary(lang);
+  const isEn = lang === 'en';
 
   return (
     <footer className={styles.footer}>
@@ -13,6 +14,11 @@ export default function Footer({ lang = DEFAULT_LOCALE }) {
         <div className={styles.topRow}>
           <div className={styles.about}>
             <h3 className={styles.brand}><Icon name="tea-bag" size={20} /> Rowan of Oakhaven</h3>
+            <p className={styles.aboutDesc}>
+              {isEn
+                ? 'Community game wiki and player knowledge base for Rowan of Oakhaven, developed by Fluvio Games.'
+                : 'Wiki trò chơi và cẩm nang hướng dẫn cộng đồng cho Rowan of Oakhaven, phát triển bởi Fluvio Games.'}
+            </p>
           </div>
 
           <div className={styles.links}>
@@ -35,6 +41,28 @@ export default function Footer({ lang = DEFAULT_LOCALE }) {
                 <li><Link href={`/${lang}/database/characters`}>{dict.footer.links.characters}</Link></li>
                 <li><Link href={`/${lang}/database/crops`}>{dict.footer.links.crops}</Link></li>
                 <li><Link href={`/${lang}/database/monsters`}>{dict.footer.links.monsters}</Link></li>
+                <li><Link href={`/${lang}/database/locations`}>{dict.database.categories.locations.title}</Link></li>
+              </ul>
+            </div>
+
+            <div>
+              <h4>{isEn ? 'Community & Links' : 'Cộng Đồng & Dự Án'}</h4>
+              <ul>
+                <li>
+                  <a href="https://fluviogames.com" target="_blank" rel="noopener noreferrer">
+                    {isEn ? 'Fluvio Games Official' : 'Trang Chủ Game (Fluvio Games)'}
+                  </a>
+                </li>
+                <li>
+                  <a href="https://discord.gg/oakhaven" target="_blank" rel="noopener noreferrer">
+                    {isEn ? 'Discord Community' : 'Cộng Đồng Discord'}
+                  </a>
+                </li>
+                <li>
+                  <a href="https://github.com/mquand/rowan-of-oakhaven-wiki" target="_blank" rel="noopener noreferrer">
+                    GitHub Repository
+                  </a>
+                </li>
               </ul>
             </div>
 

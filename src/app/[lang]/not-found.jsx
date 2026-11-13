@@ -5,7 +5,7 @@ import { getDictionary } from '../../lib/i18n/getDictionary';
 import styles from './NotFound.module.scss';
 
 export const metadata = {
-  title: '404 — Rowan of Oakhaven Codex',
+  title: '404 — Rowan of Oakhaven Wiki',
 };
 
 export default async function NotFound({ params }) {

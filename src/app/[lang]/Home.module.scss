@@ -10,7 +10,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: $sp-12 $sp-6 $sp-10;
+  padding: $sp-12 $sp-6 $sp-8;
   text-align: center;
   overflow: hidden;
 }
@@ -59,6 +59,69 @@
 
 .heroSearchWrap {
   margin-top: $sp-2;
+  margin-bottom: $sp-6;
+}
+
+/* ---------- Starter CTA Banner ---------- */
+.starterCtaWrap {
+  display: flex;
+  justify-content: center;
+}
+
+.starterCtaBtn {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  background-color: rgba($color-night-card, 0.95);
+  border: 1px solid $color-amber-warm;
+  padding: 10px 20px;
+  text-decoration: none;
+  box-shadow:
+    0 4px 0 #080911,
+    0 8px 16px rgba(0, 0, 0, 0.6);
+  transition:
+    transform $dur-base $ease-out,
+    border-color $dur-fast $ease-out,
+    background-color $dur-fast $ease-out;
+
+  &:hover {
+    transform: translateY(-2px);
+    border-color: $color-amber-glow;
+    background-color: rgba($color-amber-base, 0.15);
+
+    .starterArrow {
+      transform: translateX(4px);
+      color: $color-amber-glow;
+    }
+  }
+
+  .starterBadge {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    background: rgba($color-amber-base, 0.2);
+    border: 1px solid rgba($color-amber-base, 0.5);
+    color: $color-amber-glow;
+    font-size: 11px;
+    font-weight: 700;
+    padding: 2px 8px;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+  }
+
+  .starterText {
+    font-family: $font-sans;
+    font-size: 14px;
+    font-weight: 700;
+    color: $color-text-main;
+  }
+
+  .starterArrow {
+    color: $color-amber-base;
+    transition:
+      transform $dur-fast $ease-out,
+      color $dur-fast $ease-out;
+  }
 }
 
 /* ---------- Shared Section Styles ---------- */
@@ -70,7 +133,7 @@
 
 .sectionHeader {
   text-align: center;
-  margin-bottom: $sp-10;
+  margin-bottom: $sp-8;
   max-width: 680px;
   margin-left: auto;
   margin-right: auto;
@@ -85,34 +148,129 @@
   }
 
   h2 {
-    font-size: 28px;
+    font-family: $font-sans;
+    font-size: 26px;
     font-weight: 700;
     color: $color-text-main;
     margin-bottom: $sp-2;
     text-wrap: balance;
   }
 
-  p {
+  .sectionDesc {
     color: $color-text-muted;
-    font-size: 15px;
+    font-size: 14px;
+    line-height: 1.6;
+    max-width: 68ch;
+    margin: 0 auto;
     text-wrap: pretty;
   }
 }
 
-/* ---------- 2. Companions Grid ---------- */
+/* ---------- 2. Database Grid ---------- */
+.databaseGrid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: $sp-4;
+  margin-bottom: $sp-8;
+}
+
+.categoryCard {
+  background-color: rgba($color-night-card, 0.85);
+  padding: $sp-5;
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  transition:
+    transform $dur-base $ease-out,
+    border-color $dur-fast $ease-out;
+
+  &:hover {
+    transform: translateY(-2px);
+    border-color: $color-amber-base;
+
+    .cardTitle {
+      color: $color-amber-glow;
+    }
+
+    .cardLink {
+      color: $color-amber-glow;
+
+      svg {
+        transform: translateX(4px);
+      }
+    }
+  }
+}
+
+.cardTop {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: $sp-3;
+}
+
+.cardIconBox {
+  width: 36px;
+  height: 36px;
+  background: $color-night-dark;
+  border: 1px solid $color-night-border;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: $color-amber-glow;
+}
+
+.cardBody {
+  flex: 1;
+  margin-bottom: $sp-4;
+}
+
+.cardTitle {
+  font-family: $font-sans;
+  font-size: 15px;
+  font-weight: 700;
+  color: $color-text-main;
+  margin-bottom: $sp-2;
+  transition: color $dur-fast $ease-out;
+}
+
+.cardDesc {
+  color: $color-text-muted;
+  font-size: 12px;
+  line-height: 1.5;
+  max-width: 68ch;
+  margin: 0;
+}
+
+.cardLink {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 12px;
+  font-weight: 700;
+  color: $color-amber-base;
+  text-decoration: none;
+  transition: color $dur-fast $ease-out;
+
+  svg {
+    transition: transform $dur-fast $ease-out;
+  }
+}
+
+/* ---------- 3. Companions Grid (4 Cột hoặc 2x2 — Boris không rớt hàng) ---------- */
 .companionsGrid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-  gap: $sp-6;
+  grid-template-columns: repeat(4, 1fr);
+  gap: $sp-5;
   margin-bottom: $sp-8;
 }
 
 .companionCard {
-  background-color: rgba($color-night-card, 0.8);
+  background-color: rgba($color-night-card, 0.85);
   padding: $sp-5;
   display: flex;
   flex-direction: column;
-  gap: $sp-4;
+  gap: $sp-3;
   transition:
     transform $dur-base $ease-out,
     border-color $dur-fast $ease-out;
@@ -123,56 +281,44 @@
   }
 }
 
-.compTop {
+.compHeader {
   display: flex;
-  gap: $sp-4;
-  align-items: center;
+  gap: $sp-3;
+  align-items: flex-start;
 }
 
-.compAvatar {
-  width: 52px;
-  height: 52px;
-  flex-shrink: 0;
-  background: $color-night-dark;
-  border: 2px solid $color-amber-warm;
-  box-shadow:
-    inset 2px 2px 0 0 rgba(255, 230, 128, 0.4),
-    inset -2px -2px 0 0 rgba(0, 0, 0, 0.6);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: $color-amber-glow;
-}
-
-.compInfo {
+.compHeaderInfo {
   flex: 1;
   min-width: 0;
-
-  .compName {
-    font-size: 17px;
-    font-weight: 700;
-    color: $color-amber-glow;
-    margin: 0 0 2px;
-  }
-
-  .compRole {
-    font-size: 12px;
-    color: $color-text-main;
-    font-weight: 600;
-    margin-bottom: 4px;
-  }
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
 }
 
-.compQuote {
-  background: rgba($color-night-dark, 0.7);
-  border-left: 3px solid $color-amber-base;
-  padding: 8px 12px;
+.compName {
+  font-family: $font-sans;
+  font-size: 16px;
+  font-weight: 700;
+  color: $color-amber-glow;
+  margin: 0;
+}
+
+.compRole {
+  font-size: 12px;
+  color: $color-text-dim;
+  font-weight: 600;
+  margin-bottom: 2px;
+}
+
+.compDesc {
+  color: $color-text-muted;
   font-size: 13px;
-  font-style: italic;
-  color: $color-bakery-cream;
-  line-height: 1.45;
+  line-height: 1.5;
+  max-width: 68ch;
+  margin: 0;
 }
 
+/* ---------- Action Button ---------- */
 .sectionActionCenter {
   text-align: center;
 }
@@ -202,80 +348,15 @@
   }
 }
 
-/* ---------- 4. Codex & Database Portal ---------- */
-.codexPortalGrid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-  gap: $sp-6;
-}
-
-.portalCard {
-  background-color: rgba($color-night-card, 0.8);
-  padding: $sp-5;
-  display: flex;
-  flex-direction: column;
-  transition:
-    transform $dur-base $ease-out,
-    border-color $dur-fast $ease-out;
-
-  &:hover {
-    transform: translateY(-2px);
-    border-color: $color-amber-base;
-
-    .portalTitle {
-      color: $color-amber-glow;
-    }
-
-    .portalLink {
-      color: $color-amber-glow;
-      transform: translateX(4px);
-    }
+/* ---------- Responsive ---------- */
+@media (max-width: 1024px) {
+  .databaseGrid {
+    grid-template-columns: repeat(2, 1fr);
   }
-}
 
-.portalIconBox {
-  width: 44px;
-  height: 44px;
-  background: $color-night-dark;
-  border: 1px solid $color-night-border;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: $color-amber-glow;
-  margin-bottom: $sp-4;
-}
-
-.portalBody {
-  flex: 1;
-  margin-bottom: $sp-4;
-}
-
-.portalTitle {
-  font-size: 17px;
-  font-weight: 700;
-  color: $color-text-main;
-  margin-bottom: $sp-2;
-  transition: color $dur-fast $ease-out;
-}
-
-.portalDesc {
-  color: $color-text-muted;
-  font-size: 13px;
-  line-height: 1.55;
-  margin: 0;
-}
-
-.portalLink {
-  display: inline-flex;
-  align-items: center;
-  gap: 5px;
-  font-size: 13px;
-  font-weight: 700;
-  color: $color-amber-base;
-  text-decoration: none;
-  transition:
-    color $dur-fast $ease-out,
-    transform $dur-fast $ease-out;
+  .companionsGrid {
+    grid-template-columns: repeat(2, 1fr); // 2x2 gọn gàng
+  }
 }
 
 @media (max-width: 768px) {
@@ -283,8 +364,17 @@
     font-size: 38px;
   }
 
-  .companionsGrid,
-  .codexPortalGrid {
+  .starterCtaBtn {
+    flex-direction: column;
+    gap: 6px;
+    padding: 12px 16px;
+  }
+
+  .databaseGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .companionsGrid {
     grid-template-columns: 1fr;
   }
 }

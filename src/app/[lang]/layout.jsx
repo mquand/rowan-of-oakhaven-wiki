@@ -27,37 +27,36 @@ export async function generateMetadata({ params }) {
   const { lang = DEFAULT_LOCALE } = await params;
   const isEn = lang === 'en';
   return {
-    metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || 'http://localhost:3000'),
-    title: isEn
-      ? 'Rowan of Oakhaven Codex — Fluvio Games'
-      : 'Rowan of Oakhaven Wiki — Fluvio Games',
+    metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || 'https://rowan-of-oakhaven-wiki.fluviogames.com'),
+    title: 'Rowan of Oakhaven Wiki — Fluvio Games',
     description: isEn
-      ? 'Official Game Wiki & Knowledge Base for Rowan of Oakhaven (by Fluvio Games)'
-      : 'Official Game Wiki & Knowledge Base for Rowan of Oakhaven (by Fluvio Games)',
+      ? 'Official Game Wiki & Database for Rowan of Oakhaven (Fluvio Games)'
+      : 'Wiki & Cơ sở dữ liệu trò chơi Rowan of Oakhaven (Fluvio Games)',
     openGraph: {
-      title: isEn ? 'Rowan of Oakhaven Codex' : 'Rowan of Oakhaven Wiki',
+      title: 'Rowan of Oakhaven Wiki',
       description: isEn
         ? 'Official Game Wiki for Rowan of Oakhaven — Tea crafting, magic bakery, herb farming & crystal mining.'
-        : 'Official Game Wiki for Rowan of Oakhaven — Tea crafting, magic bakery, herb farming & crystal mining.',
+        : 'Wiki trò chơi Rowan of Oakhaven — Chế biến trà thảo mộc, bếp bánh, nông trại và khai khoáng.',
       type: 'website',
       locale: isEn ? 'en_US' : 'vi_VN',
-      siteName: isEn ? 'Rowan of Oakhaven Codex' : 'Rowan of Oakhaven Wiki',
+      siteName: 'Rowan of Oakhaven Wiki',
       images: [
         {
-          url: '/og-image.svg',
+          url: '/og-image.png',
           width: 1200,
           height: 630,
           alt: 'Rowan of Oakhaven Wiki',
+          type: 'image/png',
         },
       ],
     },
     twitter: {
       card: 'summary_large_image',
-      title: isEn ? 'Rowan of Oakhaven Codex' : 'Rowan of Oakhaven Wiki',
+      title: 'Rowan of Oakhaven Wiki',
       description: isEn
         ? 'Official Game Wiki for Rowan of Oakhaven — Tea crafting, magic bakery, herb farming & crystal mining.'
-        : 'Official Game Wiki for Rowan of Oakhaven — Tea crafting, magic bakery, herb farming & crystal mining.',
-      images: ['/og-image.svg'],
+        : 'Wiki trò chơi Rowan of Oakhaven — Chế biến trà thảo mộc, bếp bánh, nông trại và khai khoáng.',
+      images: ['/og-image.png'],
     },
   };
 }

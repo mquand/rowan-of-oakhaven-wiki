@@ -14,7 +14,7 @@ export async function generateMetadata({ params }) {
   const { lang = DEFAULT_LOCALE } = await params;
   const dict = getDictionary(lang);
   return {
-    title: `${dict.database.categories.characters.title} — Rowan of Oakhaven Codex`,
+    title: `${dict.database.categories.characters.title} — Rowan of Oakhaven Wiki`,
     description: dict.database.categories.characters.desc,
   };
 }

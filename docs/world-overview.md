@@ -1,5 +1,5 @@
 ---
-title: "World Overview — The Five Realms"
+title: "Bản đồ thế giới — Năm vương quốc"
 status: draft
 audience: public
 updated: 2026-11-12
@@ -7,7 +7,7 @@ tags: [world, lore, map, realms]
 spoiler: false
 ---
 
-# 🌍 World Overview — Thế Giới Năm Vương Quốc
+# 🌍 Bản đồ thế giới — Năm vương quốc
 
 > **Game:** Rowan of Oakhaven  
 > **Thể loại:** Dark Pixel RPG — Trà Thảo Mộc & Bánh Ma Thuật · Nông Trại · Hang Mỏ · Đồng Cảm & Thanh Tẩy

@@ -1,31 +1,13 @@
 'use client';
 
-import { useState, useRef, useEffect } from 'react';
 import { usePathname, useRouter } from 'next/navigation';
-import Icon from './Icon';
-import { LOCALES, LOCALE_NAMES, LOCALE_SHORT_NAMES } from '../lib/i18n/config';
+import { LOCALES } from '../lib/i18n/config';
 import styles from './LanguageSwitcher.module.scss';
 
 export default function LanguageSwitcher({ currentLang }) {
   const pathname = usePathname();
   const router = useRouter();
-  const [open, setOpen] = useState(false);
-  const containerRef = useRef(null);
 
-  // Close dropdown on outside click
-  useEffect(() => {
-    function handleClickOutside(e) {
-      if (containerRef.current && !containerRef.current.contains(e.target)) {
-        setOpen(false);
-      }
-    }
-    if (open) {
-      document.addEventListener('click', handleClickOutside);
-      return () => document.removeEventListener('click', handleClickOutside);
-    }
-  }, [open]);
-
-  // Compute destination URL for a given locale
   function getLocaleUrl(targetLocale) {
     if (!pathname) return `/${targetLocale}`;
     const segments = pathname.split('/').filter(Boolean);
@@ -38,48 +20,34 @@ export default function LanguageSwitcher({ currentLang }) {
     return `/${targetLocale}${pathname.startsWith('/') ? pathname : '/' + pathname}`;
   }
 
-  function handleSelect(locale) {
-    setOpen(false);
+  function handleSwitch(locale) {
     if (locale === currentLang) return;
-
-    // Set cookie for 1 year
     document.cookie = `NEXT_LOCALE=${locale};path=/;max-age=${60 * 60 * 24 * 365}`;
     const targetUrl = getLocaleUrl(locale);
     router.push(targetUrl);
   }
 
   return (
-    <div className={styles.wrapper} ref={containerRef}>
+    <div className={styles.langToggle} role="group" aria-label="Change language / Đổi ngôn ngữ">
       <button
         type="button"
-        className={`${styles.switchBtn} pixel-frame`}
-        onClick={() => setOpen(prev => !prev)}
-        aria-label="Change language / Đổi ngôn ngữ"
-        aria-expanded={open}
+        className={`${styles.toggleBtn} ${currentLang === 'vi' ? styles.active : ''}`}
+        onClick={() => handleSwitch('vi')}
+        aria-pressed={currentLang === 'vi'}
+        title="Tiếng Việt"
       >
-        <Icon name="globe" size={16} />
-        <span className={styles.langCode}>{LOCALE_SHORT_NAMES[currentLang] || currentLang.toUpperCase()}</span>
+        VI
       </button>
-
-      {open && (
-        <div className={`${styles.dropdown} pixel-frame`}>
-          {LOCALES.map(loc => {
-            const isActive = loc === currentLang;
-            return (
-              <button
-                key={loc}
-                type="button"
-                className={`${styles.item} ${isActive ? styles.itemActive : ''}`}
-                onClick={() => handleSelect(loc)}
-              >
-                <span className={styles.itemCode}>{LOCALE_SHORT_NAMES[loc]}</span>
-                <span className={styles.itemName}>{LOCALE_NAMES[loc]}</span>
-                {isActive && <Icon name="check" size={14} className={styles.checkIcon} />}
-              </button>
-            );
-          })}
-        </div>
-      )}
+      <span className={styles.divider} aria-hidden="true">|</span>
+      <button
+        type="button"
+        className={`${styles.toggleBtn} ${currentLang === 'en' ? styles.active : ''}`}
+        onClick={() => handleSwitch('en')}
+        aria-pressed={currentLang === 'en'}
+        title="English"
+      >
+        EN
+      </button>
     </div>
   );
 }

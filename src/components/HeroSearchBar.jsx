@@ -31,7 +31,7 @@ export default function HeroSearchBar({ lang = DEFAULT_LOCALE }) {
       href: `/${lang}/wiki/calendar-seasons`,
     },
     {
-      label: isEn ? 'Monsters Codex' : 'Sổ Quái Vật',
+      label: isEn ? 'Monsters' : 'Quái Vật',
       href: `/${lang}/database/monsters`,
     },
   ];

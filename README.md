@@ -1,6 +1,6 @@
 # 🍵 Rowan of Oakhaven Wiki (by Fluvio Games)
 
-Bách khoa toàn thư chính thức dành cho người chơi của tựa game **Rowan of Oakhaven** (Tiệm Bụi Sao), do **Fluvio Games** phát triển.
+Wiki & Cơ sở dữ liệu chính thức dành cho người chơi của tựa game **Rowan of Oakhaven** (Tiệm Bụi Sao), do **Fluvio Games** phát triển.
 
 > Repo này **độc lập** và là **nguồn sự thật duy nhất** cho nội dung wiki công khai.
 > Bạn chỉnh sửa trực tiếp tại đây — **không còn đồng bộ tự động** từ repo game nữa.
@@ -14,7 +14,7 @@ Nội dung người chơi nằm trong `docs/`:
 
 **Trang tường thuật** (render tại `/wiki/<slug>`):
 
-- [`docs/game-overview.md`](docs/game-overview.md) — Tổng quan: logline, cốt truyện, vòng lặp ngày, 12 tính năng.
+- [`docs/game-overview.md`](docs/game-overview.md) — Tổng quan: cốt truyện mở đầu, vòng lặp ngày, 12 tính năng.
 - [`docs/gameplay-guide.md`](docs/gameplay-guide.md) — Cách chơi: chu kỳ ngày, thể lực, mùa, công cụ.
 - [`docs/character-roster.md`](docs/character-roster.md) — Dàn nhân vật, bạn đồng hành, cư dân Oakhaven.
 - [`docs/world-overview.md`](docs/world-overview.md) — Bản đồ & 5 Đại Vực.

@@ -13,7 +13,7 @@ export async function generateMetadata({ params }) {
   const { lang = DEFAULT_LOCALE } = await params;
   const dict = getDictionary(lang);
   return {
-    title: `${dict.database.hubTitle} — Rowan of Oakhaven Codex`,
+    title: `${dict.database.hubTitle} — Rowan of Oakhaven Wiki`,
     description: dict.database.hubDesc,
   };
 }
@@ -32,7 +32,7 @@ export default async function DatabaseHubPage({ params }) {
       </nav>
 
       <header className={styles.header}>
-        <p className={styles.kicker}>OAKHAVEN COMPENDIUM</p>
+        <p className={styles.kicker}>GAME DATABASE</p>
         <h1>{dict.database.hubTitle}</h1>
         <p>{dict.database.hubDesc}</p>
       </header>

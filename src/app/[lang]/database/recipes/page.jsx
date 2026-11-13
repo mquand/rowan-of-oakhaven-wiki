@@ -14,7 +14,7 @@ export async function generateMetadata({ params }) {
   const { lang = DEFAULT_LOCALE } = await params;
   const dict = getDictionary(lang);
   return {
-    title: `${dict.database.categories.recipes.title} — Rowan of Oakhaven Codex`,
+    title: `${dict.database.categories.recipes.title} — Rowan of Oakhaven Wiki`,
     description: dict.database.categories.recipes.desc,
   };
 }
@@ -37,7 +37,7 @@ export default async function RecipesPage({ params }) {
 
       <div className={styles.header}>
         <p className={styles.kicker}>
-          {isEn ? "GRANDMOTHER AMALIA'S LEGACY" : 'DI SẢN BÀ NGOẠI AMALIA'}
+          {isEn ? 'DATABASE / RECIPES' : 'CƠ SỞ DỮ LIỆU / CÔNG THỨC'}
         </p>
         <h1 className={styles.title}><Icon name="cake" size={28} /> {dict.database.categories.recipes.title}</h1>
         <p>{dict.database.categories.recipes.desc}</p>

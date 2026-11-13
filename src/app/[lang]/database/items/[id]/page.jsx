@@ -35,10 +35,10 @@ export async function generateStaticParams() {
 export async function generateMetadata({ params }) {
   const { lang = DEFAULT_LOCALE, id } = await params;
   const item = getItemById(id, lang);
-  if (!item) return { title: 'Not Found — Rowan of Oakhaven Codex' };
+  if (!item) return { title: 'Not Found — Rowan of Oakhaven Wiki' };
 
   return {
-    title: `${item.name} — Rowan of Oakhaven Codex`,
+    title: `${item.name} — Rowan of Oakhaven Wiki`,
     description: item.description,
   };
 }
