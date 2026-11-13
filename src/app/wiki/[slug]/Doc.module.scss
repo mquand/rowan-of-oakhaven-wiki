@@ -12,7 +12,7 @@
 .contentWrapper {
   flex-grow: 1;
   min-width: 0;
-  background-color: $color-night-card;
+  background-color: rgba($color-night-card, 0.88);
   padding: $sp-8 $sp-10;
 }
 
@@ -134,7 +134,7 @@
 .infobox {
   position: sticky;
   top: 88px;
-  background: $color-night-dark;
+  background-color: rgba($color-night-dark, 0.88);
   padding: $sp-5;
   font-size: 13px;
 }
@@ -233,7 +233,7 @@
     gap: 4px;
     max-width: 48%;
     padding: $sp-4 $sp-5;
-    background: $color-night-dark;
+    background-color: rgba($color-night-dark, 0.85);
     text-decoration: none;
     transition:
       transform $dur-base $ease-out,

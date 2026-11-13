@@ -2,6 +2,7 @@ import { Manrope, Pixelify_Sans } from 'next/font/google';
 import '../styles/globals.scss';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
+import Starfield from '../components/Starfield';
 
 const manrope = Manrope({
   subsets: ['latin', 'vietnamese'],
@@ -56,6 +57,7 @@ export default function RootLayout({ children }) {
         <a href="#main" className="skip-link">
           Đến nội dung chính
         </a>
+        <Starfield />
         <Header />
         <main id="main">{children}</main>
         <Footer />

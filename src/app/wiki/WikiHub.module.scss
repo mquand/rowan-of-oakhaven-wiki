@@ -95,7 +95,7 @@
 }
 
 .docCard {
-  background: $color-night-card;
+  background-color: rgba($color-night-card, 0.8);
   border: 1px solid $color-night-border;
   border-radius: $radius-md;
   padding: $sp-6;

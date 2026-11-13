@@ -7,7 +7,7 @@
 }
 
 .box {
-  background: $color-night-card;
+  background-color: rgba($color-night-card, 0.85);
   border: 1px solid $color-night-border;
   border-radius: $radius-lg;
   padding: $sp-10 $sp-8;

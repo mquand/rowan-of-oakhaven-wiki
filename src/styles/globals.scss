@@ -31,6 +31,26 @@ body::before {
   background-size: 120px 120px;
 }
 
+// Lớp sao lấp lánh — pixel 2-3px, mỗi sao nhấp nháy lệch pha nhau
+.starfield {
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+
+  i {
+    position: absolute;
+    display: block;
+    animation: starTwinkle 3s ease-in-out infinite alternate;
+    will-change: opacity;
+  }
+}
+
+@keyframes starTwinkle {
+  from { opacity: 0.15; }
+  to { opacity: 0.95; }
+}
+
 // Lớp grain mịn lên toàn bộ bề mặt — không gradient, không làm mờ
 body::after {
   content: '';
@@ -166,6 +186,11 @@ img {
     transition: none;
   }
 
+  .starfield i {
+    animation: none;
+    opacity: 0.6;
+  }
+
   *, *::before, *::after {
     animation-duration: 0.01ms !important;
     transition-duration: 0.01ms !important;
@@ -175,7 +200,7 @@ img {
 /* Khung góc pixel kiểu RPG dialog — góc pixel 3D 16-bit thật sự, không bo tròn giả cầy */
 .pixel-frame {
   position: relative;
-  background-color: $color-night-card;
+  background-color: rgba($color-night-card, 0.82);
   border: 2px solid $color-night-border;
   border-radius: 0 !important;
   box-shadow:
@@ -360,7 +385,7 @@ img {
     width: 100%;
     border-collapse: collapse;
     margin: 24px 0;
-    background: $color-night-card;
+    background-color: rgba($color-night-card, 0.85);
     border: 1px solid $color-night-border;
     font-size: 14px;
     box-shadow: 0 2px 0 rgba(0, 0, 0, 0.5);

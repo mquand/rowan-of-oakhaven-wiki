@@ -117,7 +117,7 @@
 }
 
 .pillarCard {
-  background: $color-night-card;
+  background-color: rgba($color-night-card, 0.8);
   padding: $sp-6;
   display: flex;
   flex-direction: column;
@@ -213,7 +213,7 @@
 }
 
 .companionCard {
-  background: $color-night-card;
+  background-color: rgba($color-night-card, 0.8);
   padding: $sp-5;
   display: flex;
   flex-direction: column;
@@ -315,7 +315,7 @@
 }
 
 .portalCard {
-  background: $color-night-card;
+  background-color: rgba($color-night-card, 0.8);
   padding: $sp-5;
   display: flex;
   flex-direction: column;
