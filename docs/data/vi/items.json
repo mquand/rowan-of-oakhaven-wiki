@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "version": "1.0.0",
-  "updated": "2026-11-12",
+  "updated": "2026-11-13",
   "items": [
     {
       "id": "seed_sen_tea",
@@ -681,6 +681,345 @@
         "gift",
         "birthday",
         "celebration",
+        "craftable"
+      ]
+    },
+    {
+      "id": "gem_diamond",
+      "name": "Kim Cương Băng Tinh",
+      "description": "Viên kim cương cực kỳ cứng cáp và thuần khiết kết tinh từ sương lạnh sâu thẳm, đại diện cho sự thanh tẩy tuyệt đối và nước mắt thần linh.",
+      "category": "gem",
+      "tags": [
+        "mining",
+        "gem",
+        "crystal",
+        "purity"
+      ],
+      "rarity": "legendary",
+      "buy_price": 600,
+      "sell_price": 400,
+      "energy": null,
+      "buff": null
+    },
+    {
+      "id": "gem_emerald",
+      "name": "Ngọc Lục Bảo Sinh Mệnh",
+      "description": "Ngọc lục bảo đẫm nhựa sống của rừng già, thúc đẩy sinh sôi thảo mộc và hồi phục sinh lực thần kỳ.",
+      "category": "gem",
+      "tags": [
+        "mining",
+        "gem",
+        "nature",
+        "healing"
+      ],
+      "rarity": "rare",
+      "buy_price": 220,
+      "sell_price": 140,
+      "energy": null,
+      "buff": null
+    },
+    {
+      "id": "gem_tigereye",
+      "name": "Mắt Hổ Trấn Ma",
+      "description": "Đá vân sóng vàng nâu lấp lánh như mắt dã thú rình mồi, bùa hộ mệnh xua đuổi tà ma và ảo giác hầm mỏ.",
+      "category": "gem",
+      "tags": [
+        "mining",
+        "gem",
+        "ward",
+        "talisman"
+      ],
+      "rarity": "uncommon",
+      "buy_price": 90,
+      "sell_price": 55,
+      "energy": null,
+      "buff": null
+    },
+    {
+      "id": "gem_lapis",
+      "name": "Ngọc Lưu Ly Hoàng Gia",
+      "description": "Khoáng thạch xanh thẳm điểm xuyết bụi vàng kim sa, gắn liền với tri thức cổ xưa và nền văn minh người lùn Khaz-Drakor.",
+      "category": "gem",
+      "tags": [
+        "mining",
+        "gem",
+        "knowledge",
+        "arcane"
+      ],
+      "rarity": "uncommon",
+      "buy_price": 120,
+      "sell_price": 75,
+      "energy": null,
+      "buff": null
+    },
+    {
+      "id": "gem_moonstone",
+      "name": "Đá Mặt Trăng Nguyệt Quang",
+      "description": "Đá phát quang sắc xà cừ trắng lam huyền ảo dưới ánh trăng, có khả năng xoa dịu cảm xúc hỗn loạn và đánh thức trực giác.",
+      "category": "gem",
+      "tags": [
+        "mining",
+        "gem",
+        "lunar",
+        "calming"
+      ],
+      "rarity": "rare",
+      "buy_price": 190,
+      "sell_price": 120,
+      "energy": null,
+      "buff": null
+    },
+    {
+      "id": "stone_mana_pure",
+      "name": "Ma Thạch Thuần Khiết",
+      "description": "Khối khoáng ngậm ma lực cô đặc từ các mạch địa mạch ngầm, nguồn năng lượng vận hành pháp trận và dụng cụ ma thuật.",
+      "category": "mineral",
+      "tags": [
+        "mining",
+        "mana",
+        "fuel",
+        "arcane"
+      ],
+      "rarity": "uncommon",
+      "buy_price": 110,
+      "sell_price": 70,
+      "energy": null,
+      "buff": null
+    },
+    {
+      "id": "stone_nullstone",
+      "name": "Đá Khóa Ma Thuật",
+      "description": "Khối đá màu tro xám nuốt chửng ma lực xung quanh, vô hiệu hóa hoàn toàn các luồng phép thuật trong cự ly gần.",
+      "category": "mineral",
+      "tags": [
+        "mining",
+        "nullstone",
+        "defense"
+      ],
+      "rarity": "rare",
+      "buy_price": 240,
+      "sell_price": 150,
+      "energy": null,
+      "buff": null
+    },
+    {
+      "id": "stone_memory_soul",
+      "name": "Đá Ký Ức Linh Hồn",
+      "description": "Tinh thể trong suốt lưu giữ những mẩu hồi ức hoặc hơi thở của người đã khuất, phát ra tiếng thì thầm rì rào khi chạm vào.",
+      "category": "gem",
+      "tags": [
+        "mining",
+        "gem",
+        "memory",
+        "soul"
+      ],
+      "rarity": "rare",
+      "buy_price": 250,
+      "sell_price": 160,
+      "energy": null,
+      "buff": null
+    },
+    {
+      "id": "ore_mithril",
+      "name": "Quặng Hắc Thiết Thần Thoại",
+      "description": "Quặng kim loại huyền thoại ánh tím bạc, nhẹ như cánh đom đóm nhưng cứng hơn thép tôi và dẫn truyền ma lực hoàn mỹ.",
+      "category": "mineral",
+      "tags": [
+        "mining",
+        "metal",
+        "mythic",
+        "crafting"
+      ],
+      "rarity": "mythic",
+      "buy_price": 450,
+      "sell_price": 300,
+      "energy": null,
+      "buff": null
+    },
+    {
+      "id": "stone_warpstone",
+      "name": "Thạch Biến Dị Hắc Hóa",
+      "description": "Khối đá nhiễm bụi sao hắc ám rỉ khói độc tím thẫm, làm đột biến sinh vật và biến đổi cấu trúc khoáng vật ngầm.",
+      "category": "mineral",
+      "tags": [
+        "mining",
+        "corrupted",
+        "abyssal",
+        "alchemical"
+      ],
+      "rarity": "rare",
+      "buy_price": 180,
+      "sell_price": 110,
+      "energy": null,
+      "buff": null
+    },
+    {
+      "id": "stone_philosopher",
+      "name": "Hòn Đá Triết Gia",
+      "description": "Đỉnh cao tuyệt đối của thuật giả kim cổ đại, viên đá màu đỏ thắm có khả năng biến đổi vật chất, ban tặng trường sinh và thanh lọc mọi lời nguyền.",
+      "category": "gem",
+      "tags": [
+        "alchemy",
+        "mythic",
+        "purification",
+        "legendary"
+      ],
+      "rarity": "mythic",
+      "buy_price": 1500,
+      "sell_price": 1000,
+      "energy": null,
+      "buff": null
+    },
+    {
+      "id": "stone_lumina_glow",
+      "name": "Đá Phát Sáng Dạ Quang",
+      "description": "Khoáng thạch lân tinh tự nhiên tỏa ánh sáng vàng hổ phách dịu êm không sinh nhiệt, dùng soi sáng hầm ngục và trang hoàng tiệm trà ban đêm.",
+      "category": "mineral",
+      "tags": [
+        "mining",
+        "light",
+        "magitech",
+        "decor"
+      ],
+      "rarity": "common",
+      "buy_price": 35,
+      "sell_price": 20,
+      "energy": null,
+      "buff": null
+    },
+    {
+      "id": "stone_echo_comm",
+      "name": "Đá Truyền Âm Vạn Dặm",
+      "description": "Cặp đá cộng hưởng tần số âm thanh, cho phép truyền giọng nói và tiếng chuông tức thì giữa hang mỏ sâu và tiệm trà trên mặt đất.",
+      "category": "mineral",
+      "tags": [
+        "mining",
+        "communication",
+        "magitech"
+      ],
+      "rarity": "uncommon",
+      "buy_price": 130,
+      "sell_price": 80,
+      "energy": null,
+      "buff": null
+    },
+    {
+      "id": "stone_gravity_float",
+      "name": "Đá Trọng Lực Lơ Lửng",
+      "description": "Khối đá huyền bí kháng lại sức hút của mặt đất, lơ lửng giữa không trung; cốt lõi của xe đẩy quặng tự hành và khinh khí cầu giao trà.",
+      "category": "mineral",
+      "tags": [
+        "mining",
+        "gravity",
+        "magitech",
+        "vehicle"
+      ],
+      "rarity": "rare",
+      "buy_price": 260,
+      "sell_price": 170,
+      "energy": null,
+      "buff": null
+    },
+    {
+      "id": "stone_sealing_ward",
+      "name": "Đá Trấn Giữ Phong Ấn",
+      "description": "Trụ đá khắc cổ tự của tộc Người Lùn, khi cắm xuống đất sẽ tạo vòng kết giới an toàn ngăn chặn quái vật hắc ám xâm nhập.",
+      "category": "mineral",
+      "tags": [
+        "mining",
+        "defense",
+        "ward",
+        "magitech"
+      ],
+      "rarity": "uncommon",
+      "buy_price": 140,
+      "sell_price": 85,
+      "energy": null,
+      "buff": null
+    },
+    {
+      "id": "stone_obsidian",
+      "name": "Hắc Diệp Thạch",
+      "description": "Thủy tinh núi lửa đen bóng sắc bén từ vỉa magma sâu, chịu nhiệt cực cao và dùng mài lưỡi dao thu hoạch thảo dược tinh vi.",
+      "category": "mineral",
+      "tags": [
+        "mining",
+        "volcanic",
+        "crafting"
+      ],
+      "rarity": "uncommon",
+      "buy_price": 75,
+      "sell_price": 45,
+      "energy": null,
+      "buff": null
+    },
+    {
+      "id": "stone_malachite",
+      "name": "Đá Khổng Tước",
+      "description": "Khoáng thạch vân xanh lục đồng tâm như lông công, dùng làm men gốm ủ trà cao cấp và cối nghiền khoáng dược liệu.",
+      "category": "gem",
+      "tags": [
+        "mining",
+        "gem",
+        "artisan"
+      ],
+      "rarity": "uncommon",
+      "buy_price": 85,
+      "sell_price": 50,
+      "energy": null,
+      "buff": null
+    },
+    {
+      "id": "item_tea_moonlight",
+      "name": "Trà Nguyệt Quang Sương Đêm",
+      "description": "Tách trà thanh tao lấp lánh ánh trăng bạc từ đá mặt trăng ngâm sương đêm, làm dịu tâm trí sâu và khơi gợi những lời tâm sự chân thành nhất.",
+      "category": "tea",
+      "rarity": "rare",
+      "buy_price": null,
+      "sell_price": 120,
+      "energy": 50,
+      "buff": "+30% Tốc độ hồi Thể Lực ban đêm, mở khóa các câu thoại bí mật của dân làng",
+      "recipe_id": "tra_nguyet_quang",
+      "tags": [
+        "tea",
+        "lunar",
+        "calming",
+        "craftable"
+      ]
+    },
+    {
+      "id": "item_pastry_emerald_tart",
+      "name": "Bánh Tart Ngọc Lục Bảo Rừng Sâu",
+      "description": "Bánh tart nướng nhân thạch ngọc lục bảo trong vắt thơm hương hoa rừng, tiếp thêm dòng nhựa sống mãnh liệt của thiên nhiên.",
+      "category": "bakery",
+      "rarity": "rare",
+      "buy_price": null,
+      "sell_price": 135,
+      "energy": 65,
+      "buff": "Tăng 40 Thể Lực tối đa trong 5 phút, nhân đôi tốc độ phục hồi sinh mệnh",
+      "recipe_id": "pastry_emerald_tart",
+      "tags": [
+        "bakery",
+        "nature",
+        "vitality",
+        "craftable"
+      ]
+    },
+    {
+      "id": "item_tea_diamond_purity",
+      "name": "Trà Thanh Lọc Kim Cương",
+      "description": "Trà sen tinh khiết lọc qua đĩa kim cương băng tinh, tỏa hào quang rực rỡ xua tan bóng tối và thanh lọc mọi lời nguyền.",
+      "category": "tea",
+      "rarity": "mythic",
+      "buy_price": null,
+      "sell_price": 280,
+      "energy": 90,
+      "buff": "Xóa sạch mọi hiệu ứng trúng độc và nguyền rủa, miễn nhiễm sát thương bóng tối trong 4 phút",
+      "recipe_id": "tra_kim_cuong_thanh_loc",
+      "tags": [
+        "tea",
+        "purification",
+        "mythic",
         "craftable"
       ]
     }

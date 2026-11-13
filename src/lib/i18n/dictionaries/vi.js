@@ -136,6 +136,7 @@ export default {
       'world-overview': 'Bản đồ các khu vực: Thị trấn Oakhaven, Lò Rèn Boris, Rừng Tinh Linh và Địa Đàng Cực Quang.',
       'character-roster': 'Hồ sơ các cư dân thị trấn Oakhaven: nghề nghiệp, lịch trình và quà tặng yêu thích.',
       'dungeon-combat': 'Cơ chế thám hiểm hang mỏ, vũ khí, chuỗi đòn đánh nhịp điệu và thanh tẩy hắc hóa.',
+      'minerals-guide': 'Bách khoa khoáng thạch: đá quý huyền thoại, ma thạch hư cấu, đá Magitech và ứng dụng ẩm thực.',
       'lore-story': 'Truyền thuyết thế giới: nguồn gốc Bụi Sao, di sản của người Bà Amalia và bí ẩn hắc hóa.',
     },
     readingTimes: {
@@ -146,6 +147,7 @@ export default {
       'character-roster': 8,
       'world-overview': 6,
       'dungeon-combat': 6,
+      'minerals-guide': 6,
       'lore-story': 5,
       'game-overview': 5,
     },
@@ -157,6 +159,7 @@ export default {
       'character-roster': 'Nhân vật',
       'world-overview': 'Bản đồ',
       'dungeon-combat': 'Chiến đấu',
+      'minerals-guide': 'Khai khoáng',
       'lore-story': 'Cốt truyện',
       'game-overview': 'Tổng quan',
     },

@@ -26,7 +26,7 @@ const TREE_GROUPS = [
   {
     id: 'combat',
     icon: 'sword',
-    slugs: ['dungeon-combat', 'lore-story'],
+    slugs: ['dungeon-combat', 'minerals-guide', 'lore-story'],
   },
 ];
 

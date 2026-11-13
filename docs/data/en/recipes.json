@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "version": "1.0.0",
-  "updated": "2026-11-12",
+  "updated": "2026-11-13",
   "recipes": [
     {
       "id": "tra_sen_an_than",
@@ -216,6 +216,84 @@
       "result_item_id": "item_cake_fairy_birthday",
       "duration_seconds": 13,
       "effect_description": "Brings boundless joy and unlocks special cherished dialogue when gifted on birthdays"
+    },
+    {
+      "id": "tra_nguyet_quang",
+      "name": "Moonlight Dew Tea",
+      "description": "Lotus tea leaves brewed with moonstone essence and celestial stardust powder, bringing deep solace beneath nocturnal skies.",
+      "station": "tea_station",
+      "ingredients": [
+        {
+          "id": "la_tra_sen",
+          "name": "Lotus Tea Leaf",
+          "quantity": 1
+        },
+        {
+          "id": "gem_moonstone",
+          "name": "Moonstone",
+          "quantity": 1
+        },
+        {
+          "id": "bot_sao",
+          "name": "Stardust Powder",
+          "quantity": 1
+        }
+      ],
+      "result_item_id": "item_tea_moonlight",
+      "duration_seconds": 3,
+      "effect_description": "Pacifies sorrow, grants +30% nighttime stamina regeneration and unlocks hidden confessions"
+    },
+    {
+      "id": "pastry_emerald_tart",
+      "name": "Deepwood Emerald Tart",
+      "description": "A crisp golden tart filled with emerald woodland nectar and wildflower honey, brimming with primal herb vitality.",
+      "station": "bakery_oven",
+      "ingredients": [
+        {
+          "id": "item_flour",
+          "name": "Fresh Flour",
+          "quantity": 1
+        },
+        {
+          "id": "gem_emerald",
+          "name": "Life Emerald",
+          "quantity": 1
+        },
+        {
+          "id": "mat_ong",
+          "name": "Wild Honey",
+          "quantity": 1
+        }
+      ],
+      "result_item_id": "item_pastry_emerald_tart",
+      "duration_seconds": 14,
+      "effect_description": "Grants +40 Max Stamina for 5 minutes and doubles natural health recovery speed"
+    },
+    {
+      "id": "tra_kim_cuong_thanh_loc",
+      "name": "Diamond Purified Tea",
+      "description": "Lotus and lavender tea filtered through a glacial diamond prism, radiating celestial light that dispels curses and toxins.",
+      "station": "tea_station",
+      "ingredients": [
+        {
+          "id": "la_tra_sen",
+          "name": "Lotus Tea Leaf",
+          "quantity": 1
+        },
+        {
+          "id": "gem_diamond",
+          "name": "Diamond of Purity",
+          "quantity": 1
+        },
+        {
+          "id": "oai_huong",
+          "name": "Starlight Lavender",
+          "quantity": 1
+        }
+      ],
+      "result_item_id": "item_tea_diamond_purity",
+      "duration_seconds": 4,
+      "effect_description": "Cleanses all debuffs and grants complete immunity to abyssal shadow damage for 4 minutes"
     }
   ]
 }

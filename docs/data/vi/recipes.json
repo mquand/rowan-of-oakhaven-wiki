@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "version": "1.0.0",
-  "updated": "2026-11-12",
+  "updated": "2026-11-13",
   "recipes": [
     {
       "id": "tra_sen_an_than",
@@ -216,6 +216,84 @@
       "result_item_id": "item_cake_fairy_birthday",
       "duration_seconds": 13,
       "effect_description": "Tạo niềm vui vô bờ bến và mở khóa ký ức đặc biệt khi tặng đúng ngày sinh nhật"
+    },
+    {
+      "id": "tra_nguyet_quang",
+      "name": "Trà Nguyệt Quang Sương Đêm",
+      "description": "Lá trà sen hòa quyện cùng tinh chất ngọc nguyệt quang và bụi sao, mang lại sự tĩnh tâm sâu sắc dưới ánh trăng.",
+      "station": "tea_station",
+      "ingredients": [
+        {
+          "id": "la_tra_sen",
+          "name": "Lá Trà Sen",
+          "quantity": 1
+        },
+        {
+          "id": "gem_moonstone",
+          "name": "Đá Mặt Trăng Nguyệt Quang",
+          "quantity": 1
+        },
+        {
+          "id": "bot_sao",
+          "name": "Bột Sao",
+          "quantity": 1
+        }
+      ],
+      "result_item_id": "item_tea_moonlight",
+      "duration_seconds": 3,
+      "effect_description": "Làm dịu tâm can, tăng 30% tốc độ hồi thể lực ban đêm và mở lời tâm sự của cư dân"
+    },
+    {
+      "id": "pastry_emerald_tart",
+      "name": "Bánh Tart Ngọc Lục Bảo Rừng Sâu",
+      "description": "Bánh tart nướng giòn nhân thạch ngọc lục bảo rừng già ướp mật ong hoa dại, tràn đầy nhựa sống thảo mộc.",
+      "station": "bakery_oven",
+      "ingredients": [
+        {
+          "id": "item_flour",
+          "name": "Bột Mì Tươi",
+          "quantity": 1
+        },
+        {
+          "id": "gem_emerald",
+          "name": "Ngọc Lục Bảo Sinh Mệnh",
+          "quantity": 1
+        },
+        {
+          "id": "mat_ong",
+          "name": "Mật Ong",
+          "quantity": 1
+        }
+      ],
+      "result_item_id": "item_pastry_emerald_tart",
+      "duration_seconds": 14,
+      "effect_description": "Tăng 40 Thể Lực tối đa trong 5 phút và nhân đôi tốc độ hồi phục sinh mệnh"
+    },
+    {
+      "id": "tra_kim_cuong_thanh_loc",
+      "name": "Trà Thanh Lọc Kim Cương",
+      "description": "Trà hoa oải hương và trà sen được tinh lọc qua đĩa kim cương băng tinh, tỏa hào quang xua tan nguyền rủa và độc tố.",
+      "station": "tea_station",
+      "ingredients": [
+        {
+          "id": "la_tra_sen",
+          "name": "Lá Trà Sen",
+          "quantity": 1
+        },
+        {
+          "id": "gem_diamond",
+          "name": "Kim Cương Băng Tinh",
+          "quantity": 1
+        },
+        {
+          "id": "oai_huong",
+          "name": "Oải Hương",
+          "quantity": 1
+        }
+      ],
+      "result_item_id": "item_tea_diamond_purity",
+      "duration_seconds": 4,
+      "effect_description": "Thanh tẩy mọi trạng thái bất lợi, kháng hoàn toàn sát thương bóng tối trong 4 phút"
     }
   ]
 }

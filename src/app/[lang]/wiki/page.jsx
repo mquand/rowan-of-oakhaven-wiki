@@ -33,7 +33,7 @@ const DOC_GROUP_CONFIG = [
   },
   {
     id: 'combat',
-    slugs: ['dungeon-combat', 'lore-story'],
+    slugs: ['dungeon-combat', 'minerals-guide', 'lore-story'],
     icon: 'sword',
     accent: 'purple',
   },

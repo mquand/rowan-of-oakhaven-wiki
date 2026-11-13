@@ -136,6 +136,7 @@ export default {
       'world-overview': 'Regional atlas: Oakhaven Town, Boris\'s Forge, Sylva-Fae Grove, and Aurora Elysium.',
       'character-roster': 'Profiles of Oakhaven residents: occupations, daily routines, and loved gifts.',
       'dungeon-combat': 'Mine exploration mechanics, weapon classes, 3-hit rhythm combat, and corruption cleansing.',
+      'minerals-guide': 'Minerals & magic stones compendium: traditional gems, mana stones, magitech, and culinary uses.',
       'lore-story': 'World lore: origin of Starlight, Grandmother Amalia\'s legacy, and the corruption mystery.',
     },
     readingTimes: {
@@ -146,6 +147,7 @@ export default {
       'character-roster': 8,
       'world-overview': 6,
       'dungeon-combat': 6,
+      'minerals-guide': 6,
       'lore-story': 5,
       'game-overview': 5,
     },
@@ -157,6 +159,7 @@ export default {
       'character-roster': 'Citizens',
       'world-overview': 'Atlas',
       'dungeon-combat': 'Combat',
+      'minerals-guide': 'Mining',
       'lore-story': 'Lore',
       'game-overview': 'Overview',
     },

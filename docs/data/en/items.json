@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "version": "1.0.0",
-  "updated": "2026-11-12",
+  "updated": "2026-11-13",
   "items": [
     {
       "id": "seed_sen_tea",
@@ -681,6 +681,345 @@
         "gift",
         "birthday",
         "celebration",
+        "craftable"
+      ]
+    },
+    {
+      "id": "gem_diamond",
+      "name": "Diamond of Purity",
+      "description": "An exceptionally hard and pristine diamond formed deep within glacial rifts, symbolizing divine tears and absolute cleansing.",
+      "category": "gem",
+      "tags": [
+        "mining",
+        "gem",
+        "crystal",
+        "purity"
+      ],
+      "rarity": "legendary",
+      "buy_price": 600,
+      "sell_price": 400,
+      "energy": null,
+      "buff": null
+    },
+    {
+      "id": "gem_emerald",
+      "name": "Life Emerald",
+      "description": "An emerald infused with primeval forest sap, accelerating crop vitality and granting remarkable recuperative powers.",
+      "category": "gem",
+      "tags": [
+        "mining",
+        "gem",
+        "nature",
+        "healing"
+      ],
+      "rarity": "rare",
+      "buy_price": 220,
+      "sell_price": 140,
+      "energy": null,
+      "buff": null
+    },
+    {
+      "id": "gem_tigereye",
+      "name": "Tiger's Eye",
+      "description": "A warm golden-brown chatoyant gemstone with the keen gaze of a predator, warding off darkness, ill omens, and hallucinations.",
+      "category": "gem",
+      "tags": [
+        "mining",
+        "gem",
+        "ward",
+        "talisman"
+      ],
+      "rarity": "uncommon",
+      "buy_price": 90,
+      "sell_price": 55,
+      "energy": null,
+      "buff": null
+    },
+    {
+      "id": "gem_lapis",
+      "name": "Royal Lapis Lazuli",
+      "description": "A celestial deep-blue mineral flecked with golden pyrite stardust, entwined with ancestral dwarven wisdom and astrological rites.",
+      "category": "gem",
+      "tags": [
+        "mining",
+        "gem",
+        "knowledge",
+        "arcane"
+      ],
+      "rarity": "uncommon",
+      "buy_price": 120,
+      "sell_price": 75,
+      "energy": null,
+      "buff": null
+    },
+    {
+      "id": "gem_moonstone",
+      "name": "Moonstone",
+      "description": "A luminous feldspar shimmering with opalescent silvery-blue adularescence, pacifying sorrow and opening the heart to prophecy.",
+      "category": "gem",
+      "tags": [
+        "mining",
+        "gem",
+        "lunar",
+        "calming"
+      ],
+      "rarity": "rare",
+      "buy_price": 190,
+      "sell_price": 120,
+      "energy": null,
+      "buff": null
+    },
+    {
+      "id": "stone_mana_pure",
+      "name": "Pure Mana Stone",
+      "description": "A condensed reservoir of primeval arcane energy dredged from subterranean leylines, powering conduits and enchanted devices.",
+      "category": "mineral",
+      "tags": [
+        "mining",
+        "mana",
+        "fuel",
+        "arcane"
+      ],
+      "rarity": "uncommon",
+      "buy_price": 110,
+      "sell_price": 70,
+      "energy": null,
+      "buff": null
+    },
+    {
+      "id": "stone_nullstone",
+      "name": "Nullstone",
+      "description": "A dense matte-grey stone that devours atmospheric mana, snuffing out incantations and banishing hexes in its vicinity.",
+      "category": "mineral",
+      "tags": [
+        "mining",
+        "nullstone",
+        "defense"
+      ],
+      "rarity": "rare",
+      "buy_price": 240,
+      "sell_price": 150,
+      "energy": null,
+      "buff": null
+    },
+    {
+      "id": "stone_memory_soul",
+      "name": "Memory Soulstone",
+      "description": "A translucent crystal encapsulating lingering memories and departed whispers, humming gently when held against the ear.",
+      "category": "gem",
+      "tags": [
+        "mining",
+        "gem",
+        "memory",
+        "soul"
+      ],
+      "rarity": "rare",
+      "buy_price": 250,
+      "sell_price": 160,
+      "energy": null,
+      "buff": null
+    },
+    {
+      "id": "ore_mithril",
+      "name": "Mithril Ore",
+      "description": "A mythic iridescent silvery-purple ore, lighter than thistle fluff yet harder than tempered steel, seamlessly channeling starlight.",
+      "category": "mineral",
+      "tags": [
+        "mining",
+        "metal",
+        "mythic",
+        "crafting"
+      ],
+      "rarity": "mythic",
+      "buy_price": 450,
+      "sell_price": 300,
+      "energy": null,
+      "buff": null
+    },
+    {
+      "id": "stone_warpstone",
+      "name": "Corrupted Warpstone",
+      "description": "An unstable shard poisoned by fallen stardust, venting violet vapors that mutate underground fauna and destabilize minerals.",
+      "category": "mineral",
+      "tags": [
+        "mining",
+        "corrupted",
+        "abyssal",
+        "alchemical"
+      ],
+      "rarity": "rare",
+      "buy_price": 180,
+      "sell_price": 110,
+      "energy": null,
+      "buff": null
+    },
+    {
+      "id": "stone_philosopher",
+      "name": "Philosopher's Stone",
+      "description": "The pinnacle of ancestral alchemy—a crimson elixir stone capable of transmuting metals, curing all ailments, and lifting abyssal curses.",
+      "category": "gem",
+      "tags": [
+        "alchemy",
+        "mythic",
+        "purification",
+        "legendary"
+      ],
+      "rarity": "mythic",
+      "buy_price": 1500,
+      "sell_price": 1000,
+      "energy": null,
+      "buff": null
+    },
+    {
+      "id": "stone_lumina_glow",
+      "name": "Lumina Glowstone",
+      "description": "A phosphorescent amber mineral radiating cool perpetual warmth and gentle luminescence, ideal for mine exploration and cozy teahouse lanterns.",
+      "category": "mineral",
+      "tags": [
+        "mining",
+        "light",
+        "magitech",
+        "decor"
+      ],
+      "rarity": "common",
+      "buy_price": 35,
+      "sell_price": 20,
+      "energy": null,
+      "buff": null
+    },
+    {
+      "id": "stone_echo_comm",
+      "name": "Echo Resonance Stone",
+      "description": "Paired sympathetic stones tuned to acoustic frequencies, relaying voice whispers and order chimes instantaneously across deep mine shafts.",
+      "category": "mineral",
+      "tags": [
+        "mining",
+        "communication",
+        "magitech"
+      ],
+      "rarity": "uncommon",
+      "buy_price": 130,
+      "sell_price": 80,
+      "energy": null,
+      "buff": null
+    },
+    {
+      "id": "stone_gravity_float",
+      "name": "Floatstone",
+      "description": "An anomalous mineral naturally buoyant against gravity, utilized to construct frictionless ore carts and cloud-ferry delivery skiffs.",
+      "category": "mineral",
+      "tags": [
+        "mining",
+        "gravity",
+        "magitech",
+        "vehicle"
+      ],
+      "rarity": "rare",
+      "buy_price": 260,
+      "sell_price": 170,
+      "energy": null,
+      "buff": null
+    },
+    {
+      "id": "stone_sealing_ward",
+      "name": "Sealing Ward-Stone",
+      "description": "An inscribed runic obelisk crafted by dwarven engineers, establishing a fortified safe zone that repels roaming abyssal beasts.",
+      "category": "mineral",
+      "tags": [
+        "mining",
+        "defense",
+        "ward",
+        "magitech"
+      ],
+      "rarity": "uncommon",
+      "buy_price": 140,
+      "sell_price": 85,
+      "energy": null,
+      "buff": null
+    },
+    {
+      "id": "stone_obsidian",
+      "name": "Obsidian Shard",
+      "description": "A razor-sharp volcanic glass harvested from subterranean magma vents, impervious to heat and forged into delicate herb scalpel blades.",
+      "category": "mineral",
+      "tags": [
+        "mining",
+        "volcanic",
+        "crafting"
+      ],
+      "rarity": "uncommon",
+      "buy_price": 75,
+      "sell_price": 45,
+      "energy": null,
+      "buff": null
+    },
+    {
+      "id": "stone_malachite",
+      "name": "Malachite Swirl",
+      "description": "A concentric emerald-green copper carbonate prized for artisan tea glazes, mortar grinding bowls, and protective charms.",
+      "category": "gem",
+      "tags": [
+        "mining",
+        "gem",
+        "artisan"
+      ],
+      "rarity": "uncommon",
+      "buy_price": 85,
+      "sell_price": 50,
+      "energy": null,
+      "buff": null
+    },
+    {
+      "id": "item_tea_moonlight",
+      "name": "Moonlight Dew Tea",
+      "description": "An ethereal tea glistening with silvery moonlight from dew-kissed moonstones, instilling profound tranquility and evoking heartfelt confessions.",
+      "category": "tea",
+      "rarity": "rare",
+      "buy_price": null,
+      "sell_price": 120,
+      "energy": 50,
+      "buff": "+30% Nighttime Stamina regeneration, unlocks intimate villager dialogue confessions",
+      "recipe_id": "tra_nguyet_quang",
+      "tags": [
+        "tea",
+        "lunar",
+        "calming",
+        "craftable"
+      ]
+    },
+    {
+      "id": "item_pastry_emerald_tart",
+      "name": "Deepwood Emerald Tart",
+      "description": "A glazed tart with a lucid emerald jelly filling that exudes blooming woodland aromas, infusing the body with relentless primeval vitality.",
+      "category": "bakery",
+      "rarity": "rare",
+      "buy_price": null,
+      "sell_price": 135,
+      "energy": 65,
+      "buff": "+40 Max Stamina for 5 minutes, doubles natural recovery speed",
+      "recipe_id": "pastry_emerald_tart",
+      "tags": [
+        "bakery",
+        "nature",
+        "vitality",
+        "craftable"
+      ]
+    },
+    {
+      "id": "item_tea_diamond_purity",
+      "name": "Diamond Purified Tea",
+      "description": "A consecrated lotus tea filtered across glacial diamond prisms, radiating celestial brilliance that cleanses corruption and dispels foul curses.",
+      "category": "tea",
+      "rarity": "mythic",
+      "buy_price": null,
+      "sell_price": 280,
+      "energy": 90,
+      "buff": "Purges all poison and curses, grants immunity to abyssal shadow damage for 4 minutes",
+      "recipe_id": "tra_kim_cuong_thanh_loc",
+      "tags": [
+        "tea",
+        "purification",
+        "mythic",
         "craftable"
       ]
     }
