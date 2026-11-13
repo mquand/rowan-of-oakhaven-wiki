@@ -294,6 +294,79 @@
       "result_item_id": "item_tea_diamond_purity",
       "duration_seconds": 4,
       "effect_description": "Thanh tẩy mọi trạng thái bất lợi, kháng hoàn toàn sát thương bóng tối trong 4 phút"
+    },
+    {
+      "id": "bread_miner_sourdough",
+      "name": "Bánh Mì Đen Của Thợ Mỏ",
+      "description": "Bánh mì hắc mạch nướng giòn vỏ ruột đặc giàu khoáng chất, giúp thợ mỏ cuốc đá không biết mệt mỏi.",
+      "station": "bakery_oven",
+      "ingredients": [
+        {
+          "id": "item_shadow_rye",
+          "name": "Bó Hắc Mạch Đêm Rừng",
+          "quantity": 1
+        },
+        {
+          "id": "ore_coal",
+          "name": "Than Đá",
+          "quantity": 1
+        }
+      ],
+      "result_item_id": "item_bread_miner_sourdough",
+      "duration_seconds": 10,
+      "effect_description": "-50% Tiêu hao Thể Lực khi đập đá mỏ trong 5 phút"
+    },
+    {
+      "id": "pastry_spark_lemon_meringue",
+      "name": "Bánh Meringue Chanh Sét",
+      "description": "Bánh tart nướng kem trứng phủ chanh sét chua cay tê rần, tăng vọt tốc độ hành động.",
+      "station": "bakery_oven",
+      "ingredients": [
+        {
+          "id": "item_flour",
+          "name": "Bột Mì Tươi",
+          "quantity": 1
+        },
+        {
+          "id": "item_spark_lemon",
+          "name": "Chanh Sét Tê Lưỡi",
+          "quantity": 1
+        },
+        {
+          "id": "item_honey_cane",
+          "name": "Mía Mật Ong Hổ Phách",
+          "quantity": 1
+        }
+      ],
+      "result_item_id": "item_pastry_spark_lemon_meringue",
+      "duration_seconds": 12,
+      "effect_description": "+40% Tốc độ di chuyển và làm việc trong 4 phút"
+    },
+    {
+      "id": "tea_whisper_hearth",
+      "name": "Trà Hỏa Khương Sưởi Ấm",
+      "description": "Trà sen kết hợp gừng đỏ hỏa khương và mật mía, làm ấm bừng cơ thể giữa bão tuyết mùa đông.",
+      "station": "tea_station",
+      "ingredients": [
+        {
+          "id": "la_tra_sen",
+          "name": "Lá Trà Sen",
+          "quantity": 1
+        },
+        {
+          "id": "item_whisper_ginger",
+          "name": "Hỏa Khương Rừng Thầm Thì",
+          "quantity": 1
+        },
+        {
+          "id": "item_honey_cane",
+          "name": "Mía Mật Ong Hổ Phách",
+          "quantity": 1
+        }
+      ],
+      "result_item_id": "item_tea_whisper_hearth",
+      "duration_seconds": 3,
+      "effect_description": "Hồi 45 Thể Lực và kháng hoàn toàn giá rét trong 5 phút"
     }
   ]
 }

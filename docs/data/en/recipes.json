@@ -294,6 +294,79 @@
       "result_item_id": "item_tea_diamond_purity",
       "duration_seconds": 4,
       "effect_description": "Cleanses all debuffs and grants complete immunity to abyssal shadow damage for 4 minutes"
+    },
+    {
+      "id": "bread_miner_sourdough",
+      "name": "Miner's Shadow Sourdough",
+      "description": "Crusty dark rye loaf packed with sustained carbs, empowering miners to quarry stone tirelessly.",
+      "station": "bakery_oven",
+      "ingredients": [
+        {
+          "id": "item_shadow_rye",
+          "name": "Shadow Rye Sheaf",
+          "quantity": 1
+        },
+        {
+          "id": "ore_coal",
+          "name": "Coal Ore",
+          "quantity": 1
+        }
+      ],
+      "result_item_id": "item_bread_miner_sourdough",
+      "duration_seconds": 10,
+      "effect_description": "-50% Stamina consumption when mining rocks and ores for 5 minutes"
+    },
+    {
+      "id": "pastry_spark_lemon_meringue",
+      "name": "Electric Lemon Meringue Tart",
+      "description": "Torched sweet meringue over electrifying spark-lemon curd, supercharging action reflexes.",
+      "station": "bakery_oven",
+      "ingredients": [
+        {
+          "id": "item_flour",
+          "name": "Fresh Flour",
+          "quantity": 1
+        },
+        {
+          "id": "item_spark_lemon",
+          "name": "Spark-Lemon",
+          "quantity": 1
+        },
+        {
+          "id": "item_honey_cane",
+          "name": "Amber Honey-Cane",
+          "quantity": 1
+        }
+      ],
+      "result_item_id": "item_pastry_spark_lemon_meringue",
+      "duration_seconds": 12,
+      "effect_description": "+40% Movement Speed and Task Action Speed for 4 minutes"
+    },
+    {
+      "id": "tea_whisper_hearth",
+      "name": "Whisper Hearth Tea",
+      "description": "Lotus and ginger tea simmered slow with amber honey-cane, banishing winter chill and cold debuffs.",
+      "station": "tea_station",
+      "ingredients": [
+        {
+          "id": "la_tra_sen",
+          "name": "Lotus Tea Leaf",
+          "quantity": 1
+        },
+        {
+          "id": "item_whisper_ginger",
+          "name": "Whisper Ginger Root",
+          "quantity": 1
+        },
+        {
+          "id": "item_honey_cane",
+          "name": "Amber Honey-Cane",
+          "quantity": 1
+        }
+      ],
+      "result_item_id": "item_tea_whisper_hearth",
+      "duration_seconds": 3,
+      "effect_description": "Restores 45 Stamina, complete immunity to freezing cold for 5 minutes"
     }
   ]
 }

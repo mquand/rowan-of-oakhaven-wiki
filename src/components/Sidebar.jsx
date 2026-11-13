@@ -16,7 +16,7 @@ const TREE_GROUPS = [
   {
     id: 'gameplay',
     icon: 'farm',
-    slugs: ['gameplay-guide', 'calendar-seasons', 'festivals-events'],
+    slugs: ['gameplay-guide', 'farming-crops-guide', 'calendar-seasons', 'festivals-events'],
   },
   {
     id: 'world',

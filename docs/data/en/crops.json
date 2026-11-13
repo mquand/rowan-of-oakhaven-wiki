@@ -1,12 +1,12 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "version": "1.0.0",
-  "updated": "2026-11-12",
+  "updated": "2026-11-13",
   "crops": [
     {
       "id": "crop_sen_tea",
-      "name": "Lotus Tea Buds",
-      "description": "Crisp snow-lotus blossoms — the primary foundation herb for calming herbal tea blends.",
+      "name": "Snow Lotus Tea Shoot",
+      "description": "Cooling alpine lotus bud—essential base ingredient for soothing herbal teas.",
       "seasons": [
         "spring",
         "summer"
@@ -25,9 +25,114 @@
       "profit_per_day": "7.5 Gold/day"
     },
     {
+      "id": "crop_silver_wheat",
+      "name": "Silver Wheat",
+      "description": "Shimmering silvery wheat stalks—ground at the windmill into fresh baking flour.",
+      "seasons": [
+        "spring",
+        "summer",
+        "autumn"
+      ],
+      "growth_days": 4,
+      "regrow_days": 0,
+      "harvest_item_id": "item_flour",
+      "harvest_note": "1 wheat sheaf → windmill 5s → 2 bags of Fresh Flour",
+      "tags": [
+        "grain",
+        "bakery",
+        "mill"
+      ],
+      "seed_item_id": "seed_silver_wheat",
+      "seed_price": 15,
+      "sell_price": 30,
+      "profit_per_day": "3.75 Gold/day"
+    },
+    {
+      "id": "crop_sun_daisy",
+      "name": "Sun Daisy",
+      "description": "Vibrant yellow daisies soaking up early dawn light—brewed into stamina-revitalizing tea.",
+      "seasons": [
+        "spring",
+        "summer"
+      ],
+      "growth_days": 3,
+      "regrow_days": 0,
+      "harvest_item_id": "item_sun_daisy",
+      "tags": [
+        "flower",
+        "tea",
+        "energy"
+      ],
+      "seed_item_id": "seed_sun_daisy",
+      "seed_price": 18,
+      "sell_price": 38,
+      "profit_per_day": "6.6 Gold/day"
+    },
+    {
+      "id": "crop_spring_wildberry",
+      "name": "Spring Wildberry",
+      "description": "Sweet and tangy vernal berries sprouting along woodland borders—glazed into buttery scones.",
+      "seasons": [
+        "spring"
+      ],
+      "growth_days": 5,
+      "regrow_days": 3,
+      "harvest_item_id": "item_spring_wildberry",
+      "tags": [
+        "fruit",
+        "berry",
+        "bakery",
+        "regrow"
+      ],
+      "seed_item_id": "seed_spring_wildberry",
+      "seed_price": 25,
+      "sell_price": 45,
+      "profit_per_day": "8.5 Gold/day"
+    },
+    {
+      "id": "crop_shadow_carrot",
+      "name": "Shadow Cat-Eye Carrot",
+      "description": "Midnight-purple carrots with starlit cores—baked into spiced cakes that grant night vision.",
+      "seasons": [
+        "spring"
+      ],
+      "growth_days": 4,
+      "regrow_days": 0,
+      "harvest_item_id": "item_shadow_carrot",
+      "tags": [
+        "vegetable",
+        "nightvision",
+        "buff"
+      ],
+      "seed_item_id": "seed_shadow_carrot",
+      "seed_price": 22,
+      "sell_price": 52,
+      "profit_per_day": "7.5 Gold/day"
+    },
+    {
+      "id": "crop_sun_corn",
+      "name": "Sun-Corn",
+      "description": "Towering stalks with golden amber kernels—bursts into crispy stardust popcorn over coals.",
+      "seasons": [
+        "summer"
+      ],
+      "growth_days": 6,
+      "regrow_days": 3,
+      "harvest_item_id": "item_sun_corn",
+      "tags": [
+        "grain",
+        "snack",
+        "regrow"
+      ],
+      "seed_item_id": "seed_sun_corn",
+      "seed_price": 30,
+      "sell_price": 60,
+      "profit_per_day": "10.0 Gold/day"
+    },
+    {
       "id": "crop_lumiberry",
       "name": "Lumiberry",
-      "description": "Gently bioluminescent wild berries with a sweet-tart burst — ideal for scone preserves and berry teas.",
+      "description": "Luminescent nightberries with sweet-tart notes—ideal for scone jams and iced berry tea.",
       "seasons": [
         "summer",
         "autumn"
@@ -46,32 +151,113 @@
       "profit_per_day": "8.0 Gold/day"
     },
     {
-      "id": "crop_silver_wheat",
-      "name": "Silver Wheat",
-      "description": "Glistening silver grain stalks — milled at the windmill into fine, aromatic baking flour.",
+      "id": "crop_spark_lemon",
+      "name": "Spark-Lemon",
+      "description": "Neon yellow citrus tingling with static electricity—infuses meringue tarts with running speed.",
       "seasons": [
-        "spring",
+        "summer"
+      ],
+      "growth_days": 7,
+      "regrow_days": 4,
+      "harvest_item_id": "item_spark_lemon",
+      "tags": [
+        "fruit",
+        "citrus",
+        "energy",
+        "regrow"
+      ],
+      "seed_item_id": "seed_spark_lemon",
+      "seed_price": 35,
+      "sell_price": 75,
+      "profit_per_day": "11.2 Gold/day"
+    },
+    {
+      "id": "crop_frostmint",
+      "name": "Frostmint",
+      "description": "Crisp frosty leaves with an intense icy bite—restores full alertness and chills summer drinks.",
+      "seasons": [
         "summer",
+        "winter"
+      ],
+      "growth_days": 3,
+      "regrow_days": 2,
+      "harvest_item_id": "item_frostmint",
+      "tags": [
+        "herb",
+        "cooling",
+        "tea",
+        "regrow"
+      ],
+      "seed_item_id": "seed_frostmint",
+      "seed_price": 16,
+      "sell_price": 36,
+      "profit_per_day": "7.0 Gold/day"
+    },
+    {
+      "id": "crop_magma_melon",
+      "name": "Magma Melon",
+      "description": "Basalt-crusted melon packed with steaming fizzy crimson pulp—baked into molten lava tarts.",
+      "seasons": [
+        "summer"
+      ],
+      "growth_days": 8,
+      "regrow_days": 0,
+      "harvest_item_id": "item_magma_melon",
+      "tags": [
+        "fruit",
+        "magma",
+        "warming"
+      ],
+      "seed_item_id": "seed_magma_melon",
+      "seed_price": 45,
+      "sell_price": 110,
+      "profit_per_day": "8.1 Gold/day"
+    },
+    {
+      "id": "crop_sweet_pumpkin",
+      "name": "Sweet Honey Pumpkin",
+      "description": "Golden autumn pumpkins with dense fragrant flesh—staple for festival pies and warm cream soups.",
+      "seasons": [
         "autumn"
       ],
-      "growth_days": 4,
+      "growth_days": 8,
       "regrow_days": 0,
-      "harvest_item_id": "item_flour",
-      "harvest_note": "1 wheat bundle → windmill for 5s → 2 bags of Fresh Flour",
+      "harvest_item_id": "item_sweet_pumpkin",
+      "tags": [
+        "vegetable",
+        "bakery",
+        "festival"
+      ],
+      "seed_item_id": "seed_sweet_pumpkin",
+      "seed_price": 35,
+      "sell_price": 85,
+      "profit_per_day": "6.25 Gold/day"
+    },
+    {
+      "id": "crop_shadow_rye",
+      "name": "Shadow Forest Rye",
+      "description": "Frost-hardy dark rye grain—stoneground into rustic flour for hearty miner's sourdough.",
+      "seasons": [
+        "autumn",
+        "winter"
+      ],
+      "growth_days": 5,
+      "regrow_days": 0,
+      "harvest_item_id": "item_shadow_rye",
       "tags": [
         "grain",
         "bakery",
-        "mill"
+        "hearty"
       ],
-      "seed_item_id": "seed_silver_wheat",
-      "seed_price": 15,
-      "sell_price": 30,
-      "profit_per_day": "3.75 Gold/day"
+      "seed_item_id": "seed_shadow_rye",
+      "seed_price": 24,
+      "sell_price": 58,
+      "profit_per_day": "6.8 Gold/day"
     },
     {
       "id": "crop_star_lavender",
-      "name": "Starlight Lavender",
-      "description": "Lavender flowers that exhale a tranquil fragrance under clear starlight — soothes spirits and scents shortbread.",
+      "name": "Star Lavender",
+      "description": "Fragrant purple blooms dusted with starlight—induces deep serenity and perfumes cookies.",
       "seasons": [
         "spring",
         "autumn"
@@ -91,45 +277,145 @@
       "profit_per_day": "9.1 Gold/day"
     },
     {
-      "id": "crop_sun_daisy",
-      "name": "Sun Daisy",
-      "description": "Bright golden daisies that absorb the morning sunshine — brewed into invigorating stamina-recovery teas.",
-      "seasons": [
-        "spring",
-        "summer"
-      ],
-      "growth_days": 3,
-      "regrow_days": 0,
-      "harvest_item_id": "item_sun_daisy",
-      "tags": [
-        "flower",
-        "tea",
-        "energy"
-      ],
-      "seed_item_id": "seed_sun_daisy",
-      "seed_price": 18,
-      "sell_price": 38,
-      "profit_per_day": "6.6 Gold/day"
-    },
-    {
-      "id": "crop_sweet_pumpkin",
-      "name": "Honey Pumpkin",
-      "description": "Golden-orange autumn squash brimming with natural sweetness — the centerpiece for seasonal harvest pies.",
+      "id": "crop_moonlight_yam",
+      "name": "Moonlight Sweet Yam",
+      "description": "Purple-skinned tuber packed with amber syrup—roasted over mine coal embers for fragrant snacks.",
       "seasons": [
         "autumn"
       ],
-      "growth_days": 8,
+      "growth_days": 6,
       "regrow_days": 0,
-      "harvest_item_id": "item_sweet_pumpkin",
+      "harvest_item_id": "item_moonlight_yam",
       "tags": [
         "vegetable",
-        "bakery",
-        "festival"
+        "tuber",
+        "sweet"
       ],
-      "seed_item_id": "seed_sweet_pumpkin",
-      "seed_price": 35,
-      "sell_price": 85,
-      "profit_per_day": "6.25 Gold/day"
+      "seed_item_id": "seed_moonlight_yam",
+      "seed_price": 26,
+      "sell_price": 68,
+      "profit_per_day": "7.0 Gold/day"
+    },
+    {
+      "id": "crop_honey_cane",
+      "name": "Amber Honey-Cane",
+      "description": "Stalks dripping with pure wild honey—pressed into caramel glazes for gleaming pastries.",
+      "seasons": [
+        "autumn"
+      ],
+      "growth_days": 7,
+      "regrow_days": 3,
+      "harvest_item_id": "item_honey_cane",
+      "tags": [
+        "sweetener",
+        "bakery",
+        "regrow"
+      ],
+      "seed_item_id": "seed_honey_cane",
+      "seed_price": 32,
+      "sell_price": 72,
+      "profit_per_day": "10.5 Gold/day"
+    },
+    {
+      "id": "crop_whisper_ginger",
+      "name": "Whisper Ginger",
+      "description": "Fiery subterranean root shaped like branching lightning—brewed into cold-banishing hearth teas.",
+      "seasons": [
+        "winter"
+      ],
+      "growth_days": 5,
+      "regrow_days": 0,
+      "harvest_item_id": "item_whisper_ginger",
+      "tags": [
+        "spice",
+        "tea",
+        "warming"
+      ],
+      "seed_item_id": "seed_whisper_ginger",
+      "seed_price": 28,
+      "sell_price": 66,
+      "profit_per_day": "7.6 Gold/day"
+    },
+    {
+      "id": "crop_frost_turnip",
+      "name": "Frost Turnip",
+      "description": "Lucid white root thriving beneath snowpacks—simmered into restorative broths for miners.",
+      "seasons": [
+        "winter"
+      ],
+      "growth_days": 4,
+      "regrow_days": 0,
+      "harvest_item_id": "item_frost_turnip",
+      "tags": [
+        "vegetable",
+        "winter",
+        "soup"
+      ],
+      "seed_item_id": "seed_frost_turnip",
+      "seed_price": 20,
+      "sell_price": 48,
+      "profit_per_day": "7.0 Gold/day"
+    },
+    {
+      "id": "crop_sopophorous_bean",
+      "name": "Sopophorous Bean",
+      "description": "Mystic climbing bean secreting potent sedatives—baked into lullaby biscuits that cure insomnia.",
+      "seasons": [
+        "winter"
+      ],
+      "growth_days": 7,
+      "regrow_days": 4,
+      "harvest_item_id": "item_sopophorous_bean",
+      "tags": [
+        "bean",
+        "alchemy",
+        "calming",
+        "regrow"
+      ],
+      "seed_item_id": "seed_sopophorous_bean",
+      "seed_price": 38,
+      "sell_price": 88,
+      "profit_per_day": "11.5 Gold/day"
+    },
+    {
+      "id": "crop_mandrake",
+      "name": "Shrieking Mandrake Root",
+      "description": "Homunculus root emitting deafening cries when harvested—steeped into 100% stamina elixir tarts.",
+      "seasons": [
+        "winter"
+      ],
+      "growth_days": 9,
+      "regrow_days": 0,
+      "harvest_item_id": "item_mandrake",
+      "tags": [
+        "magical",
+        "vitality",
+        "rare"
+      ],
+      "seed_item_id": "seed_mandrake",
+      "seed_price": 50,
+      "sell_price": 140,
+      "profit_per_day": "10.0 Gold/day"
+    },
+    {
+      "id": "crop_frost_lotus",
+      "name": "Frost-Lotus Bloom",
+      "description": "Glacial lotus blooming upon frozen ponds—whipped into freezing icing and cryogenic desserts.",
+      "seasons": [
+        "winter"
+      ],
+      "growth_days": 6,
+      "regrow_days": 0,
+      "harvest_item_id": "item_frost_lotus",
+      "tags": [
+        "flower",
+        "frost",
+        "baking"
+      ],
+      "seed_item_id": "seed_frost_lotus",
+      "seed_price": 36,
+      "sell_price": 90,
+      "profit_per_day": "9.0 Gold/day"
     }
   ]
 }

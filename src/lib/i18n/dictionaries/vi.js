@@ -131,6 +131,7 @@ export default {
       'game-overview': 'Tổng quan tựa game: giới thiệu cốt truyện mở đầu, chu kỳ ngày đêm và các tính năng cốt lõi.',
       'getting-started': 'Hướng dẫn 7 ngày đầu: dọn dẹp nông trại, làm quen cư dân và quản lý thể lực.',
       'gameplay-guide': 'Chi tiết nhịp sinh hoạt một ngày: làm vườn, thám hiểm hang mỏ và pha chế trà bánh.',
+      'farming-crops-guide': 'Cẩm nang cây trồng 4 mùa: 20 giống cây đặc trưng, công thức làm bánh và 4 giải pháp tưới tự động.',
       'calendar-seasons': 'Chu kỳ 4 mùa trong năm (Xuân, Hạ, Thu, Đông), thời tiết đặc biệt và lịch gieo trồng.',
       'festivals-events': 'Các lễ hội truyền thống theo mùa: Hội thả đèn, Chợ hoa xuân, Đêm bánh nướng và Trăng rằm.',
       'world-overview': 'Bản đồ các khu vực: Thị trấn Oakhaven, Lò Rèn Boris, Rừng Tinh Linh và Địa Đàng Cực Quang.',
@@ -142,6 +143,7 @@ export default {
     readingTimes: {
       'getting-started': 5,
       'gameplay-guide': 7,
+      'farming-crops-guide': 6,
       'calendar-seasons': 4,
       'festivals-events': 4,
       'character-roster': 8,
@@ -154,6 +156,7 @@ export default {
     difficultyLabels: {
       'getting-started': 'Người mới',
       'gameplay-guide': 'Cơ bản',
+      'farming-crops-guide': 'Nông trại',
       'calendar-seasons': 'Mùa vụ',
       'festivals-events': 'Sự kiện',
       'character-roster': 'Nhân vật',

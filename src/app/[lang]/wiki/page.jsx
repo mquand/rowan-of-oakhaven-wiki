@@ -21,7 +21,7 @@ export async function generateMetadata({ params }) {
 const DOC_GROUP_CONFIG = [
   {
     id: 'gameplay',
-    slugs: ['gameplay-guide', 'calendar-seasons', 'festivals-events'],
+    slugs: ['gameplay-guide', 'farming-crops-guide', 'calendar-seasons', 'festivals-events'],
     icon: 'farm',
     accent: 'green',
   },

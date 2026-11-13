@@ -1022,6 +1022,562 @@
         "mythic",
         "craftable"
       ]
+    },
+    {
+      "id": "seed_spring_wildberry",
+      "name": "Hạt Dâu Rừng Mùa Xuân",
+      "description": "Hạt giống dâu rừng mọc mầm đầu xuân, cho trái ngọt thanh khiết.",
+      "category": "seed",
+      "tags": [
+        "farming",
+        "seed",
+        "spring"
+      ],
+      "rarity": "common",
+      "buy_price": 25,
+      "sell_price": 12,
+      "energy": null,
+      "buff": null,
+      "crop_id": "crop_spring_wildberry"
+    },
+    {
+      "id": "seed_shadow_carrot",
+      "name": "Hạt Hắc Cà Rốt",
+      "description": "Hạt giống cà rốt đêm màu tím than, ưa đất ẩm mùn lá mục.",
+      "category": "seed",
+      "tags": [
+        "farming",
+        "seed",
+        "spring"
+      ],
+      "rarity": "common",
+      "buy_price": 22,
+      "sell_price": 10,
+      "energy": null,
+      "buff": null,
+      "crop_id": "crop_shadow_carrot"
+    },
+    {
+      "id": "seed_sun_corn",
+      "name": "Hạt Bắp Ngô Ánh Dương",
+      "description": "Hạt bắp vàng óng ưa nắng hạ rực rỡ, thân cao đón gió.",
+      "category": "seed",
+      "tags": [
+        "farming",
+        "seed",
+        "summer"
+      ],
+      "rarity": "common",
+      "buy_price": 30,
+      "sell_price": 15,
+      "energy": null,
+      "buff": null,
+      "crop_id": "crop_sun_corn"
+    },
+    {
+      "id": "seed_spark_lemon",
+      "name": "Cây Giống Chanh Sét",
+      "description": "Bụi cây chanh tích điện ma thuật, cho quả màu vàng neon.",
+      "category": "seed",
+      "tags": [
+        "farming",
+        "seed",
+        "summer"
+      ],
+      "rarity": "uncommon",
+      "buy_price": 35,
+      "sell_price": 18,
+      "energy": null,
+      "buff": null,
+      "crop_id": "crop_spark_lemon"
+    },
+    {
+      "id": "seed_frostmint",
+      "name": "Mầm Bạc Hà Băng Giá",
+      "description": "Mầm cây bạc hà the mát chịu được cả nắng hạ lẫn tuyết đông.",
+      "category": "seed",
+      "tags": [
+        "farming",
+        "seed",
+        "summer",
+        "winter"
+      ],
+      "rarity": "common",
+      "buy_price": 16,
+      "sell_price": 8,
+      "energy": null,
+      "buff": null,
+      "crop_id": "crop_frostmint"
+    },
+    {
+      "id": "seed_magma_melon",
+      "name": "Hạt Dưa Hấu Lửa",
+      "description": "Hạt giống dưa hấu chịu nhiệt mọc từ vùng đá bazan.",
+      "category": "seed",
+      "tags": [
+        "farming",
+        "seed",
+        "summer"
+      ],
+      "rarity": "rare",
+      "buy_price": 45,
+      "sell_price": 22,
+      "energy": null,
+      "buff": null,
+      "crop_id": "crop_magma_melon"
+    },
+    {
+      "id": "seed_shadow_rye",
+      "name": "Hạt Hắc Mạch Đêm",
+      "description": "Hạt lúa mạch đen cứng cáp, gieo vào mùa thu để thu hoạch bột mì đen.",
+      "category": "seed",
+      "tags": [
+        "farming",
+        "seed",
+        "autumn",
+        "winter"
+      ],
+      "rarity": "common",
+      "buy_price": 24,
+      "sell_price": 12,
+      "energy": null,
+      "buff": null,
+      "crop_id": "crop_shadow_rye"
+    },
+    {
+      "id": "seed_moonlight_yam",
+      "name": "Củ Giống Khoai Lang Nguyệt Quang",
+      "description": "Củ giống khoai lang tím ngọt lịm mùa thu.",
+      "category": "seed",
+      "tags": [
+        "farming",
+        "seed",
+        "autumn"
+      ],
+      "rarity": "common",
+      "buy_price": 26,
+      "sell_price": 13,
+      "energy": null,
+      "buff": null,
+      "crop_id": "crop_moonlight_yam"
+    },
+    {
+      "id": "seed_honey_cane",
+      "name": "Đốt Giống Mía Mật Ong",
+      "description": "Đốt mía chứa mật ngọt tự nhiên, lớn nhanh vào mùa thu.",
+      "category": "seed",
+      "tags": [
+        "farming",
+        "seed",
+        "autumn"
+      ],
+      "rarity": "uncommon",
+      "buy_price": 32,
+      "sell_price": 16,
+      "energy": null,
+      "buff": null,
+      "crop_id": "crop_honey_cane"
+    },
+    {
+      "id": "seed_whisper_ginger",
+      "name": "Củ Giống Hỏa Khương",
+      "description": "Củ gừng đỏ lửa chịu tuyết rơi, làm ấm cơ thể mùa đông.",
+      "category": "seed",
+      "tags": [
+        "farming",
+        "seed",
+        "winter"
+      ],
+      "rarity": "uncommon",
+      "buy_price": 28,
+      "sell_price": 14,
+      "energy": null,
+      "buff": null,
+      "crop_id": "crop_whisper_ginger"
+    },
+    {
+      "id": "seed_frost_turnip",
+      "name": "Hạt Bạch Ngọc Củ Cải",
+      "description": "Hạt giống củ cải mùa đông, phát triển mạnh dưới lớp tuyết phủ.",
+      "category": "seed",
+      "tags": [
+        "farming",
+        "seed",
+        "winter"
+      ],
+      "rarity": "common",
+      "buy_price": 20,
+      "sell_price": 10,
+      "energy": null,
+      "buff": null,
+      "crop_id": "crop_frost_turnip"
+    },
+    {
+      "id": "seed_sopophorous_bean",
+      "name": "Hạt Đậu Thao Thức",
+      "description": "Hạt đậu dây leo ma thuật ngâm ủ thuốc ngủ và an thần.",
+      "category": "seed",
+      "tags": [
+        "farming",
+        "seed",
+        "winter"
+      ],
+      "rarity": "rare",
+      "buy_price": 38,
+      "sell_price": 18,
+      "energy": null,
+      "buff": null,
+      "crop_id": "crop_sopophorous_bean"
+    },
+    {
+      "id": "seed_mandrake",
+      "name": "Mầm Cây Mandrake",
+      "description": "Mầm nhân sâm ma thuật quý hiếm, cần bịt tai khi nhổ củ trưởng thành.",
+      "category": "seed",
+      "tags": [
+        "farming",
+        "seed",
+        "winter"
+      ],
+      "rarity": "rare",
+      "buy_price": 50,
+      "sell_price": 25,
+      "energy": null,
+      "buff": null,
+      "crop_id": "crop_mandrake"
+    },
+    {
+      "id": "seed_frost_lotus",
+      "name": "Hạt Sen Băng Tuyết",
+      "description": "Hạt sen kỳ diệu chỉ nảy mầm trên hồ băng tuyết mùa đông.",
+      "category": "seed",
+      "tags": [
+        "farming",
+        "seed",
+        "winter"
+      ],
+      "rarity": "rare",
+      "buy_price": 36,
+      "sell_price": 18,
+      "energy": null,
+      "buff": null,
+      "crop_id": "crop_frost_lotus"
+    },
+    {
+      "id": "item_spring_wildberry",
+      "name": "Dâu Rừng Mùa Xuân",
+      "description": "Quả dâu rừng mọng nước thơm ngọt thanh tao hái từ vườn xuân.",
+      "category": "ingredient",
+      "tags": [
+        "fruit",
+        "berry",
+        "bakery"
+      ],
+      "rarity": "common",
+      "buy_price": null,
+      "sell_price": 45,
+      "energy": 20,
+      "buff": "Thanh lọc cơ thể"
+    },
+    {
+      "id": "item_shadow_carrot",
+      "name": "Hắc Cà Rốt Mắt Mèo",
+      "description": "Cà rốt vỏ đen ruột tím đốm sao, ăn vào kích hoạt tầm nhìn đêm.",
+      "category": "ingredient",
+      "tags": [
+        "vegetable",
+        "nightvision"
+      ],
+      "rarity": "common",
+      "buy_price": null,
+      "sell_price": 52,
+      "energy": 25,
+      "buff": "Mắt Mèo: Nhìn thấu bóng tối trong 3 phút"
+    },
+    {
+      "id": "item_sun_corn",
+      "name": "Bắp Ngô Ánh Dương",
+      "description": "Bắp ngô vàng óng nổ lách tách thành bỏng ngô thơm ngậy.",
+      "category": "ingredient",
+      "tags": [
+        "grain",
+        "snack"
+      ],
+      "rarity": "common",
+      "buy_price": null,
+      "sell_price": 60,
+      "energy": 30,
+      "buff": "+10% Tốc độ làm việc"
+    },
+    {
+      "id": "item_spark_lemon",
+      "name": "Chanh Sét Tê Lưỡi",
+      "description": "Quả chanh tích điện nhẹ, vị chua gắt sảng khoái đánh thức mọi giác quan.",
+      "category": "ingredient",
+      "tags": [
+        "fruit",
+        "energy"
+      ],
+      "rarity": "uncommon",
+      "buy_price": null,
+      "sell_price": 75,
+      "energy": 25,
+      "buff": "+25% Tốc độ di chuyển trong 3 phút"
+    },
+    {
+      "id": "item_frostmint",
+      "name": "Bạc Hà Băng Giá",
+      "description": "Lá bạc hà the buốt sương tuyết, giải nhiệt cấp tốc.",
+      "category": "ingredient",
+      "tags": [
+        "herb",
+        "cooling"
+      ],
+      "rarity": "common",
+      "buy_price": null,
+      "sell_price": 36,
+      "energy": 15,
+      "buff": "Hạ nhiệt tức thì, chống say nắng"
+    },
+    {
+      "id": "item_magma_melon",
+      "name": "Dưa Hấu Lửa Dung Nham",
+      "description": "Dưa hấu vỏ đen ruột đỏ ấm nóng, bổ đôi tỏa hơi ấm nồng nàn.",
+      "category": "ingredient",
+      "tags": [
+        "fruit",
+        "warming"
+      ],
+      "rarity": "rare",
+      "buy_price": null,
+      "sell_price": 110,
+      "energy": 50,
+      "buff": "Kháng lạnh hoàn toàn trong 5 phút"
+    },
+    {
+      "id": "item_shadow_rye",
+      "name": "Bó Hắc Mạch Đêm Rừng",
+      "description": "Ngũ cốc lúa mạch đen xay thành bột mì mộc mạc cho thợ mỏ.",
+      "category": "ingredient",
+      "tags": [
+        "grain",
+        "bakery"
+      ],
+      "rarity": "common",
+      "buy_price": null,
+      "sell_price": 58,
+      "energy": 25,
+      "buff": null
+    },
+    {
+      "id": "item_moonlight_yam",
+      "name": "Khoai Lang Nguyệt Quang",
+      "description": "Khoai lang tím ruột mật dẻo quánh, nướng than đá thơm ngào ngạt.",
+      "category": "ingredient",
+      "tags": [
+        "vegetable",
+        "tuber"
+      ],
+      "rarity": "common",
+      "buy_price": null,
+      "sell_price": 68,
+      "energy": 35,
+      "buff": "Hồi 35 Thể Lực"
+    },
+    {
+      "id": "item_honey_cane",
+      "name": "Mía Mật Ong Hổ Phách",
+      "description": "Cây mía chứa đầy mật ngọt nguyên chất, làm men bóng cho bánh nướng.",
+      "category": "ingredient",
+      "tags": [
+        "sweetener",
+        "bakery"
+      ],
+      "rarity": "uncommon",
+      "buy_price": null,
+      "sell_price": 72,
+      "energy": 20,
+      "buff": null
+    },
+    {
+      "id": "item_whisper_ginger",
+      "name": "Hỏa Khương Rừng Thầm Thì",
+      "description": "Củ gừng cay nồng đỏ rực, làm ấm bừng cơ thể giữa bão tuyết.",
+      "category": "ingredient",
+      "tags": [
+        "spice",
+        "tea"
+      ],
+      "rarity": "uncommon",
+      "buy_price": null,
+      "sell_price": 66,
+      "energy": 25,
+      "buff": "Ấm bụng, giải cảm lạnh"
+    },
+    {
+      "id": "item_frost_turnip",
+      "name": "Bạch Ngọc Củ Cải",
+      "description": "Củ cải trắng trong vắt mọng nước giòn ngọt đào dưới lớp băng tuyết.",
+      "category": "ingredient",
+      "tags": [
+        "vegetable",
+        "soup"
+      ],
+      "rarity": "common",
+      "buy_price": null,
+      "sell_price": 48,
+      "energy": 20,
+      "buff": null
+    },
+    {
+      "id": "item_sopophorous_bean",
+      "name": "Đậu Thao Thức",
+      "description": "Hạt đậu ma thuật tiết dịch làm dịu tinh thần, trị dứt điểm ác mộng.",
+      "category": "ingredient",
+      "tags": [
+        "bean",
+        "alchemy"
+      ],
+      "rarity": "rare",
+      "buy_price": null,
+      "sell_price": 88,
+      "energy": 15,
+      "buff": "An thần sâu"
+    },
+    {
+      "id": "item_mandrake",
+      "name": "Củ Mandrake Nhân Sâm",
+      "description": "Củ nhân sâm ma thuật nguyên vẹn, đại bổ nguyên khí.",
+      "category": "ingredient",
+      "tags": [
+        "magical",
+        "vitality"
+      ],
+      "rarity": "rare",
+      "buy_price": null,
+      "sell_price": 140,
+      "energy": 80,
+      "buff": "Khôi phục 80 Thể Lực lập tức"
+    },
+    {
+      "id": "item_frost_lotus",
+      "name": "Hoa Băng Tuyết Ngàn Năm",
+      "description": "Cánh sen ngậm băng tinh khiết, làm kem phủ mát lạnh cho bánh ngọt.",
+      "category": "ingredient",
+      "tags": [
+        "flower",
+        "frost"
+      ],
+      "rarity": "rare",
+      "buy_price": null,
+      "sell_price": 90,
+      "energy": 30,
+      "buff": "Kháng sát thương hỏa"
+    },
+    {
+      "id": "item_magic_cloud_sprinkler",
+      "name": "Mây Mưa Ma Thuật Tí Hon",
+      "description": "Đám mây xốp trắng có mắt biết chớp, lơ lửng cắm giữa vườn tự động tưới ướt vùng đất 3x3 vào đúng 06:00 sáng mỗi ngày.",
+      "category": "mineral",
+      "tags": [
+        "farming",
+        "automation",
+        "sprinkler",
+        "magitech"
+      ],
+      "rarity": "rare",
+      "buy_price": 350,
+      "sell_price": 200,
+      "energy": null,
+      "buff": "Tự động tưới nước 8 ô xung quanh mỗi sáng, +10% tỉ lệ quả vàng"
+    },
+    {
+      "id": "item_steam_sprinkler",
+      "name": "Vòi Phun Hơi Nước Khaz-Drakor",
+      "description": "Thiết bị cơ khí đồng thau của người lùn cắm vào ống dẫn suối sao, tự động phun sương tưới ẩm vườn 3x3.",
+      "category": "mineral",
+      "tags": [
+        "farming",
+        "automation",
+        "sprinkler",
+        "magitech"
+      ],
+      "rarity": "uncommon",
+      "buy_price": 200,
+      "sell_price": 110,
+      "energy": null,
+      "buff": "Tự động tưới nước 8 ô xung quanh mỗi sáng"
+    },
+    {
+      "id": "item_rain_totem",
+      "name": "Bùa Cầu Mưa Thần Rừng",
+      "description": "Bùa triệu hồi sấm chớp êm dịu: kích hoạt trước khi ngủ sẽ gọi một cơn mưa mát lành tưới toàn bộ thung lũng suốt ngày hôm sau.",
+      "category": "mineral",
+      "tags": [
+        "farming",
+        "weather",
+        "rain",
+        "magic"
+      ],
+      "rarity": "uncommon",
+      "buy_price": 150,
+      "sell_price": 80,
+      "energy": null,
+      "buff": "Gọi mưa tưới đẫm toàn bộ nông trại ngoài trời vào ngày hôm sau"
+    },
+    {
+      "id": "item_bread_miner_sourdough",
+      "name": "Bánh Mì Đen Của Thợ Mỏ",
+      "description": "Ổ bánh mì hắc mạch giòn rụm bên ngoài, đặc ruột đậm đà no lâu — món khoái khẩu của Boris và Bram.",
+      "category": "bakery",
+      "rarity": "uncommon",
+      "buy_price": null,
+      "sell_price": 85,
+      "energy": 55,
+      "buff": "-50% Tiêu hao Thể Lực khi đập đá và đào quặng trong 5 phút",
+      "recipe_id": "bread_miner_sourdough",
+      "tags": [
+        "bakery",
+        "mining",
+        "buff",
+        "craftable"
+      ]
+    },
+    {
+      "id": "item_pastry_spark_lemon_meringue",
+      "name": "Bánh Meringue Chanh Sét",
+      "description": "Lớp kem trứng nướng cháy ngọt bùi phủ trên nhân chanh sét tê rần đầu lưỡi — đánh thức năng lượng tức thì.",
+      "category": "bakery",
+      "rarity": "rare",
+      "buy_price": null,
+      "sell_price": 125,
+      "energy": 60,
+      "buff": "+40% Tốc độ di chuyển và tốc độ làm việc trong 4 phút",
+      "recipe_id": "pastry_spark_lemon_meringue",
+      "tags": [
+        "bakery",
+        "speed",
+        "energy",
+        "craftable"
+      ]
+    },
+    {
+      "id": "item_tea_whisper_hearth",
+      "name": "Trà Hỏa Khương Sưởi Ấm",
+      "description": "Tách trà sen gừng đỏ hầm chậm với mật mía, xua tan cái lạnh thấu xương và ngăn ngừa cảm cúm mùa đông.",
+      "category": "tea",
+      "rarity": "uncommon",
+      "buy_price": null,
+      "sell_price": 80,
+      "energy": 45,
+      "buff": "Hồi 45 Thể Lực, miễn nhiễm hoàn toàn lạnh cóng trong 5 phút",
+      "recipe_id": "tea_whisper_hearth",
+      "tags": [
+        "tea",
+        "warming",
+        "health",
+        "craftable"
+      ]
     }
   ]
 }

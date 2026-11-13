@@ -131,6 +131,7 @@ export default {
       'game-overview': 'Game overview: prologue premise, day-night cycle, and core gameplay features.',
       'getting-started': 'First 7 days walkthrough: farm clearing, villager introductions, and stamina management.',
       'gameplay-guide': 'Daily schedule breakdown: tending garden, foraging in mines, and evening tea brewing.',
+      'farming-crops-guide': 'Four-season crops compendium: 20 signature crops, baking recipes, and 4 irrigation automation systems.',
       'calendar-seasons': 'Four seasonal cycles (Spring, Summer, Autumn, Winter), weather effects, and planting calendar.',
       'festivals-events': 'Seasonal events: Lantern Festival, Spring Flower Fair, Pastry Night, and Harvest Moon.',
       'world-overview': 'Regional atlas: Oakhaven Town, Boris\'s Forge, Sylva-Fae Grove, and Aurora Elysium.',
@@ -142,6 +143,7 @@ export default {
     readingTimes: {
       'getting-started': 5,
       'gameplay-guide': 7,
+      'farming-crops-guide': 6,
       'calendar-seasons': 4,
       'festivals-events': 4,
       'character-roster': 8,
@@ -154,6 +156,7 @@ export default {
     difficultyLabels: {
       'getting-started': 'Starter',
       'gameplay-guide': 'Core',
+      'farming-crops-guide': 'Farming',
       'calendar-seasons': 'Seasons',
       'festivals-events': 'Events',
       'character-roster': 'Citizens',
