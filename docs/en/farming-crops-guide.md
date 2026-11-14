@@ -9,7 +9,7 @@ spoiler: false
 
 # 🌾 Four-Season Crops & Farm Automation Compendium
 
-The farmstead of Stardust Valley is not merely where Rowan toils for gold—it is the beating heart supplying fresh botanicals to the Stardust Teahouse and Boulangerie. Unlike mundane farming sims, agriculture in Oakhaven operates across strict seasonal cycles, integrated with **heartwarming community employment and magical irrigation systems** that free up your schedule for deep-mine expeditions and evening teahouse stories.
+The farmstead of Oakhaven Valley is not merely where Rowan toils for gold—it is the beating heart supplying fresh botanicals to the Oakhaven Bakery & Cafe. Unlike mundane farming sims, agriculture in Oakhaven operates across strict seasonal cycles, integrated with **heartwarming community employment and magical irrigation systems** that free up your schedule for deep-mine expeditions and evening teahouse stories.
 
 ---
 

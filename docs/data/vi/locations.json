@@ -26,11 +26,11 @@
         "npc_aurelia"
       ],
       "features": [
-        "Tiệm Bụi Sao",
+        "Tiệm Trà & Bánh Oakhaven",
         "Nông trại",
         "Cối xay gió",
         "Lò rèn",
-        "Mỏ 100 tầng",
+        "Hang Mỏ Oakhaven (150 tầng)",
         "Tháp thiên văn",
         "Thư viện",
         "Trạm xá"
@@ -44,7 +44,7 @@
         {
           "id": "npc_rowan",
           "name": "Rowan",
-          "role": "Chủ Tiệm Trà Bụi Sao"
+          "role": "Chủ Tiệm Trà & Bánh Oakhaven"
         },
         {
           "id": "npc_lumi",

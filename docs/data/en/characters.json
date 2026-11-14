@@ -6,23 +6,23 @@
     {
       "id": "npc_rowan",
       "name": "Rowan",
-      "role": "Keeper of the Starlight Tea Shop",
-      "location": "Starlight Tea Shop (Oakhaven)",
+      "role": "Keeper of the Oakhaven Cafe & Bakery",
+      "location": "Oakhaven Cafe & Bakery (Oakhaven)",
       "species": "Human (Witch)",
-      "description": "A young witch fresh from the Royal Arcane Academy, inheriting her late grandmother Amalia's cozy tea shop and her tattered grimoire.",
+      "description": "A young witch fresh from the Royal Arcane Academy, inheriting her late grandmother Amalia's cozy bakery & cafe and her tattered grimoire.",
       "favorite_items": [
         "tra_sen_an_than",
         "bread_brioche"
       ],
       "quote": "The greatest magic sometimes is just a warm cup of herbal tea and a shared smile.",
       "birthday": "Spring 1",
-      "schedule": "All day: Managing the Starlight Tea Shop & herb gardens"
+      "schedule": "All day: Managing the Oakhaven Cafe & Bakery & herb gardens"
     },
     {
       "id": "pet_pip",
       "name": "Pip",
       "role": "Night Mail Messenger & Seed Collector",
-      "location": "Starlight Tea Shop / Whisperwood",
+      "location": "Oakhaven Cafe & Bakery / Whisperwood",
       "species": "Pygmy Magic Owl",
       "description": "A plump, intelligent little owl who brings mysterious botanical seeds back to your mailbox every morning.",
       "favorite_items": [
@@ -37,7 +37,7 @@
       "id": "pet_mallow",
       "name": "Mallow",
       "role": "Hearth Familiar & Shop Guardian",
-      "location": "Starlight Tea Shop (Counter / Fireplace)",
+      "location": "Oakhaven Cafe & Bakery (Counter / Fireplace)",
       "species": "Calico Familiar",
       "description": "A round calico cat who sheltered in the shop during a thunderstorm and never left; loves slumbering near warm lanterns.",
       "favorite_items": [
@@ -111,7 +111,7 @@
       "id": "npc_amalia",
       "name": "Grandmother Amalia",
       "role": "Master Tea Artisan / Guiding Spirit",
-      "location": "Starlight Tea Shop (Grimoire & Memories)",
+      "location": "Oakhaven Cafe & Bakery (Grimoire & Memories)",
       "species": "Human (Guiding Spirit)",
       "description": "Rowan's late grandmother, legendary tea crafter whose warmth lives on through annotated grimoire margins and fond memory.",
       "favorite_items": [

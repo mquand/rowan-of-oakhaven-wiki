@@ -48,7 +48,7 @@ The world of Rowan of Oakhaven unfolds across **Five Great Realms**, each posses
 
 ### 🌿 Realm 1 — Oakhaven (Central Valley)
 **Overview:** The tranquil village where Rowan reopens her grandmother Amalia's tea salon. The Whisperwood borders the north, and the crystal mines descend to the east.  
-**Key Locations:** Starlight Tea Shop, Boris's Forge, Sunday Nautilus Pier, Professor Orion's Observatory, Finn's Shallows  
+**Key Locations:** Oakhaven Cafe & Bakery, Boris's Forge, Sunday Nautilus Pier, Professor Orion's Observatory, Finn's Shallows  
 **Inhabitants:** Townsfolk, forest glade spirits, dwarven blacksmiths, familiar creatures  
 
 ### ⚒️ Realm 2 — Khaz-Drakor (Dwarven Megalopolis)

@@ -29,9 +29,10 @@
   display: flex;
   align-items: center;
   gap: 6px;
-  font-family: $font-pixel;
+  font-family: $font-sans;
+  font-weight: 700;
   font-size: 11px;
-  letter-spacing: 0.1em;
+  letter-spacing: 0.08em;
   text-transform: uppercase;
   color: $color-amber-warm;
 
@@ -41,9 +42,10 @@
 }
 
 .hubLink {
-  font-family: $font-pixel;
+  font-family: $font-sans;
+  font-weight: 600;
   font-size: 10px;
-  letter-spacing: 0.08em;
+  letter-spacing: 0.05em;
   text-transform: uppercase;
   color: $color-text-dim;
   text-decoration: none;

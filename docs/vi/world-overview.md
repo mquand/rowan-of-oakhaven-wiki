@@ -48,7 +48,7 @@ Thế giới của Rowan of Oakhaven trải dài qua **5 Vương Quốc** (Realm
 
 ### 🌿 Realm 1 — Oakhaven (Trung Tâm)
 **Mô tả:** Ngôi làng yên bình nơi Rowan tiếp quản tiệm trà của bà ngoại Amalia. Rừng Thầm Thì bao phủ phía bắc, hang mỏ tinh thể nằm phía đông.  
-**Địa điểm nổi bật:** Tiệm Bụi Sao, Lò Rèn Boris, Chợ Phiên, Nhà Giáo Sư Orion, Bờ Sông Finn  
+**Địa điểm nổi bật:** Tiệm Trà & Bánh Oakhaven, Lò Rèn Boris, Chợ Phiên, Nhà Giáo Sư Orion, Bờ Sông Finn  
 **Cư dân:** Người thường, tinh linh rừng, thợ rèn người lùn, phù thủy  
 
 ### ⚒️ Realm 2 — Dwarf Kingdom (Thành Phố Người Lùn)

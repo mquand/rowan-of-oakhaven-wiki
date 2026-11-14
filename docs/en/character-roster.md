@@ -16,7 +16,7 @@ spoiler: false
 
 ## 1. Protagonist & Cherished Companions
 
-### 🌸 Rowan (Keeper of the Starlight Tea Shop)
+### 🌸 Rowan (Keeper of Oakhaven Cafe & Bakery)
 * **Role:** Player-controlled protagonist.
 * **Background:** A gifted young witch who recently graduated from the Royal Arcane Academy, burned out from detached academic pressure. She returns to Oakhaven to reopen her late grandmother Amalia's tea salon, guided by deep empathy and skillful artisan hands.
 * **Appearance:** Pinned dried blossoms in her hair, linen flour-dusted apron, and warm, attentive eyes.

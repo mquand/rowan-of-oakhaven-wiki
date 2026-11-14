@@ -154,9 +154,10 @@
   display: flex;
   align-items: center;
   gap: 6px;
-  font-family: $font-pixel;
+  font-family: $font-sans;
+  font-weight: 700;
   font-size: 11px;
-  letter-spacing: 0.1em;
+  letter-spacing: 0.08em;
   text-transform: uppercase;
   color: $color-amber-warm;
   margin-bottom: $sp-3;
@@ -230,9 +231,10 @@
 }
 
 .infoboxTitle {
-  font-family: $font-pixel;
+  font-family: $font-sans;
+  font-weight: 700;
   font-size: 11px;
-  letter-spacing: 0.1em;
+  letter-spacing: 0.08em;
   text-transform: uppercase;
   color: $color-amber-warm;
   margin: 0;
@@ -248,9 +250,9 @@
     padding: 6px 0;
     color: $color-text-dim;
     font-weight: 700;
-    font-family: $font-pixel;
+    font-family: $font-sans;
     text-transform: uppercase;
-    letter-spacing: 0.08em;
+    letter-spacing: 0.06em;
     font-size: 11px;
     vertical-align: top;
     width: 74px;

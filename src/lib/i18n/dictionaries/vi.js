@@ -60,9 +60,9 @@ export default {
       {
         id: 'rowan',
         name: 'Rowan',
-        role: 'Chủ tiệm trà Bụi Sao',
+        role: 'Chủ tiệm trà bánh Oakhaven',
         species: 'Con người',
-        desc: 'Kế thừa tiệm trà của bà ngoại Amalia, chăm sóc vườn thảo mộc và pha chế trà mỗi tối.',
+        desc: 'Kế thừa tiệm trà bánh của bà ngoại Amalia, chăm sóc vườn thảo mộc và pha chế bánh trà mỗi tối.',
       },
       {
         id: 'pip',
@@ -119,8 +119,15 @@ export default {
     searchDocPlaceholder: 'Tìm kiếm tài liệu...',
     starterFeaturedBadge: 'Người mới',
     starterFeaturedTitle: 'Hướng dẫn khởi đầu — 7 ngày đầu tại Oakhaven',
-    starterFeaturedDesc: 'Hướng dẫn từng bước giúp bạn dọn dẹp trang trại, gieo trồng thảo mộc, gặp gỡ cư dân và mở tiệm trà buổi tối đầu tiên.',
+    starterFeaturedDesc: 'Hướng dẫn từng bước giúp bạn dọn dẹp trang trại, gieo trồng thảo mộc, gặp gỡ cư dân và mở tiệm trà bánh buổi tối đầu tiên.',
     starterAction: 'Bắt đầu đọc hướng dẫn',
+    starterSteps: [
+      'Dọn nông trại & nhặt củi than',
+      'Gieo hạt mầm thảo mộc đầu tiên',
+      'Gặp thợ rèn Boris & dân làng',
+      'Mở tiệm trà bánh Oakhaven buổi tối',
+    ],
+    difficultyDefault: 'Hướng dẫn',
     groups: {
       intro: 'Khởi đầu & Giới thiệu',
       gameplay: 'Lối chơi & Mùa vụ',

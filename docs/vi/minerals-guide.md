@@ -15,7 +15,7 @@ Trong thế giới *Rowan of Oakhaven*, hệ thống đá và khoáng thạch l�
 
 ## 1. Cơ Chế Khai Thác Mỏ & Tiêu Hao Thể Lực
 
-Hang mỏ Oakhaven (Mỏ Cây Thần) gồm **100 tầng** chia làm **4 đới địa chất**. Khác với các tựa game thuần túy hành động, việc đập đá tại Oakhaven gắn liền mật thiết với việc quản lý **Thanh Thể Lực (Stamina)**:
+Hang mỏ Oakhaven (Mỏ Cây Thần) gồm **150 tầng** chia làm các đới địa chất sâu dần, có hệ thống thang máy lưu tiến trình mỗi 5 tầng. Đạt đến tầng 150 sẽ mở khóa sự kiện nhặt được Di chúc của Thợ Rèn Trưởng Barnaby và Bản đồ Da dê dẫn lối xuống Vương quốc Ngầm Người Lùn Khaz-Drakor. Khác với các tựa game thuần túy hành động, việc đập đá tại Oakhaven gắn liền mật thiết với việc quản lý **Thanh Thể Lực (Stamina)**:
 
 - **Đá Cuội / Sỏi thường:** Tiêu hao $-3$ Thể Lực mỗi tảng đá.
 - **Quặng Kim Loại (Đồng, Sắt, Than):** Tiêu hao $-5$ Thể Lực mỗi khối quặng.
@@ -61,7 +61,7 @@ Những loại khoáng vật mang tính chất siêu nhiên, dùng làm nguồn 
 ### 🕯️ Đá Ký Ức Linh Hồn (Memory Soulstone)
 - **Vị trí:** Tầng 51–100, kết tinh quanh các đài tưởng niệm cổ.
 - **Đặc tính:** Trong suốt như pha lê, lưu giữ những ký ức hoặc hơi thở của người xưa trước khi tan biến vào cõi vĩnh hằng.
-- **Ứng dụng:** Mở khóa các trang nhật ký thất lạc của bà ngoại Amalia, khám phá nguồn gốc của Tiệm Trà Bụi Sao.
+- **Ứng dụng:** Mở khóa các trang nhật ký thất lạc của bà ngoại Amalia, khám phá nguồn gốc của Tiệm Trà & Bánh Oakhaven.
 
 ### 🛡️ Quặng Hắc Thiết Thần Thoại (Mithril Ore)
 - **Vị trí:** Tầng 76–100, vỉa khoáng sản sâu nhất.
@@ -74,7 +74,7 @@ Những loại khoáng vật mang tính chất siêu nhiên, dùng làm nguồn 
 - **Ứng dụng:** Giao cho Dược sĩ Aurelia nghiên cứu huyết thanh giải độc biến dị; làm thuốc thử giả kim thuật.
 
 ### 🔴 Hòn Đá Triết Gia (Philosopher's Stone)
-- **Vị trí:** Tạo tác tối thượng đạt được sau khi thanh tẩy toàn bộ 100 tầng mỏ.
+- **Vị trí:** Tạo tác tối thượng đạt được sau khi chinh phục toàn bộ 150 tầng mỏ.
 - **Đặc tính:** Viên đá đỏ thắm tượng trưng cho đỉnh cao thuật giả kim: chuyển hóa vật chất, thanh tẩy mọi ô uế và ban tặng sinh mệnh trường tồn.
 
 ---

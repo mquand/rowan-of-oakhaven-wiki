@@ -9,11 +9,11 @@ spoiler: false
 
 # 🌙 Caverns & Combat Mechanics
 
-The subterranean mines form the core **action** pillar of Oakhaven — where you battle corrupted stardust creatures, cleanse mine shafts, quarry precious ores, and gather rare crafting materials.
+The subterranean world comprises two distinct sectors: **The Oakhaven Mines** (150 fixed floors, elevator checkpoints every 5 floors, with Floor 150 unlocking Khaz-Drakor) and **The Star Blight Dungeon** (an infinite procedural roguelike across 12 diverse biomes). This forms the core **action** pillar of Oakhaven — where you battle corrupted stardust creatures, quarry precious ores, and gather rare forging materials.
 
 ## Dungeon Loop Mechanics
 
-- **100 Floors / 4 Geological Strata**, each zone spanning ~25 floors with **procedurally generated rooms**.
+- **Subterranean Structure:** 150-floor fixed mining progression; infinite procedurally generated Star Blight Dungeon across 12 Biomes.
 - **Room Lockdowns:** defeat all hostiles in the chamber → doors unlock → proceed deeper.
 - **Firefly Lantern = Illumination:** shafts are pitch black; your hip-lantern is required to spot lurking monsters and pathways — a signature tactical mechanic.
 - **Strata Wardens:** Corrupted boss at the end of each stratum → defeat to unlock the regional waystone and mythic drops.

@@ -51,7 +51,7 @@ export default function CharactersBrowser({ characters, lang = DEFAULT_LOCALE })
 
   const groupsList = [
     { id: 'all', label: isEn ? 'All Citizens' : 'Tất cả cư dân' },
-    { id: 'shop', label: isEn ? 'Starlight Tea Shop' : 'Tiệm Bụi Sao' },
+    { id: 'shop', label: isEn ? 'Oakhaven Cafe & Bakery' : 'Tiệm Trà & Bánh Oakhaven' },
     { id: 'oakhaven', label: isEn ? 'Oakhaven Town' : 'Thị Trấn Oakhaven' },
     { id: 'realms', label: isEn ? 'Five Realms & Wayfarers' : '5 Vương Quốc & Lữ Khách' },
   ];

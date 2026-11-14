@@ -23,11 +23,11 @@ The game opens with an evocative cinematic prologue — living peaceful, sun-dap
 
 ## Stardust & The Dark Corruption
 
-All magic coursing through Oakhaven originates from celestial **Stardust**. When unhealed sorrows and bitter grief fester across centuries, Stardust undergoes **Star Blight**, twisting subterranean flora and fauna into hostile creatures. Rowan's true calling is not military conquest, but purifying and revitalizing the realm — through restorative teas, empathetic listening, and soothing pastries.
+All magic coursing through Oakhaven originates from celestial **Stardust**. When unhealed sorrows and bitter grief fester across centuries, Stardust undergoes **Star Blight**, twisting subterranean flora and fauna into hostile monsters. Rowan's mission is to delve into treacherous dungeon depths, quarry precious minerals, forge upgraded weaponry at Boris's anvil, and run the bakery & cafe economy to rebuild Oakhaven Town.
 
 ## The Five Realms in Realm Lore
 
-1. **The Stardust Valley & Oakhaven Town** — Rowan's ancestral starting point, Grandmother's hearth.
+1. **Oakhaven Valley & Town** — Rowan's ancestral starting point, Grandmother's bakery & cafe hearth.
 2. **The Royal Capital of Light Solaria** — Host of the Grand National Tea Tournament.
 3. **The Ancient Canopy Sylva-Fae** — Lumi's homeland, sheltering the celestial World Tree.
 4. **The Dwarven Megalopolis Khaz-Drakor** — Roaring geothermal lava forges and ancestral halls.

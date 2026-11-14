@@ -9,11 +9,11 @@ spoiler: false
 
 # 🌙 Hầm Ngục & Chiến Đấu
 
-Hầm ngục (mỏ sâu) là trụ cột **hành động** của Oakhaven — nơi bạn đánh bại quái Bụi Sao Hắc Hóa để thanh tẩy đới mỏ, đào quặng và thu loot. (Cơ chế xoa dịu đã bỏ — giờ là chiến đấu thật.)
+Hệ thống dưới lòng đất gồm hai phân khu riêng biệt: **Hang Mỏ Oakhaven** (150 tầng cố định, thang máy mỗi 5 tầng, tầng 150 mở lối Khaz-Drakor) và **Hầm Ngục Bụi Sao** (Roguelike vô hạn tầng qua 12 Biome đa dạng). Đây là trụ cột **hành động** của Oakhaven — nơi bạn đánh bại quái Bụi Sao Hắc Hóa, khai thác quặng hiếm và thu thập nguyên liệu rèn đúc.
 
 ## Vòng lặp dungeon (tham khảo Soul Knight)
 
-- **100 tầng / 4 đới địa chất**, mỗi đới ~25 tầng, phòng **sinh procedural**.
+- **Cấu trúc phân tầng:** Mỏ khai khoáng 150 tầng tiến trình cố định; Hầm ngục Bụi Sao phòng sinh procedural vô hạn qua 12 Biome.
 - **Khóa phòng:** đánh hết quái trong phòng → cửa mở → đi tiếp.
 - **Đèn Đom Đóm = ánh sáng:** hang tối, lantern soi mới thấy quái/đường; quái ẩn trong bóng — cơ chế riêng của Rowan.
 - **Warden:** boss Hắc Hóa cuối mỗi đới → đánh bại → mở waystone + loot thần thoại.

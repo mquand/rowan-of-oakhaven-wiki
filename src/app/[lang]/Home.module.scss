@@ -139,9 +139,10 @@
   margin-right: auto;
 
   .sectionKicker {
-    font-family: $font-pixel;
+    font-family: $font-sans;
+    font-weight: 700;
     font-size: 12px;
-    letter-spacing: 0.16em;
+    letter-spacing: 0.12em;
     text-transform: uppercase;
     color: $color-amber-warm;
     margin-bottom: $sp-2;

@@ -6,8 +6,8 @@
     {
       "id": "npc_rowan",
       "name": "Rowan",
-      "role": "Chủ Tiệm Trà Bụi Sao",
-      "location": "Tiệm Bụi Sao (Oakhaven)",
+      "role": "Chủ Tiệm Trà & Bánh Oakhaven",
+      "location": "Tiệm Trà & Bánh Oakhaven",
       "species": "Human (Phù Thủy)",
       "description": "Nữ phù thủy trẻ vừa rời Viện Phép Thuật, kế thừa tiệm trà bánh và quyển sổ rách bí truyền của bà ngoại Amalia.",
       "favorite_items": [
@@ -16,13 +16,13 @@
       ],
       "quote": "Phép thuật vĩ đại nhất đôi khi chỉ là một tách trà ấm và nụ cười sẻ chia.",
       "birthday": "Ngày 1 Mùa Xuân",
-      "schedule": "Cả ngày: Quản lý Tiệm Bụi Sao & Vườn sau tiệm"
+      "schedule": "Cả ngày: Quản lý Tiệm Trà & Bánh Oakhaven & Vườn sau tiệm"
     },
     {
       "id": "pet_pip",
       "name": "Pip",
       "role": "Cú Lùn Đưa Thư & Thu Nhặt Hạt Giống",
-      "location": "Tiệm Bụi Sao / Rừng Thầm Thì",
+      "location": "Tiệm Trà & Bánh Oakhaven / Rừng Thầm Thì",
       "species": "Lùn Cú Ma Thuật",
       "description": "Chú cú tròn xoe, thông minh, mang hạt mầm kỳ lạ từ rừng sâu về hòm thư mỗi sớm.",
       "favorite_items": [
@@ -37,7 +37,7 @@
       "id": "pet_mallow",
       "name": "Mallow",
       "role": "Mèo Giữ Tiệm",
-      "location": "Tiệm Bụi Sao (Quầy Bar / Lò Sưởi)",
+      "location": "Tiệm Trà & Bánh Oakhaven (Quầy Bar / Lò Sưởi)",
       "species": "Mèo Tam Thể",
       "description": "Chú mèo tam thể tròn xoe đến tiệm trú mưa rồi ở lại luôn, thích ngủ nướng bên đèn dầu.",
       "favorite_items": [
@@ -111,7 +111,7 @@
       "id": "npc_amalia",
       "name": "Bà Ngoại Amalia",
       "role": "Cố Nghệ Nhân Trà Bánh / Linh Hồn Dẫn Lối",
-      "location": "Tiệm Bụi Sao (trong ký ức & trang sổ tay)",
+      "location": "Tiệm Trà & Bánh Oakhaven (trong ký ức & trang sổ tay)",
       "species": "Human (Linh Hồn)",
       "description": "Bà ngoại của Rowan, cố nghệ nhân trà bánh đã khuất. Hình bóng bà hiện về qua những trang sổ tay ghi chú tỉ mỉ và lời khuyên dịu dàng trong ký ức của Rowan.",
       "favorite_items": [

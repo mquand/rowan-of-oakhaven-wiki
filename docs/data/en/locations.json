@@ -26,11 +26,11 @@
         "npc_aurelia"
       ],
       "features": [
-        "Starlight Tea Shop",
+        "Oakhaven Cafe & Bakery",
         "Herbal Farm",
         "Windmill",
         "Blacksmith Forge",
-        "100-Floor Mine",
+        "Oakhaven Mines (150 floors)",
         "Observatory Tower",
         "Town Library",
         "Apothecary Clinic"
@@ -44,7 +44,7 @@
         {
           "id": "npc_rowan",
           "name": "Rowan",
-          "role": "Keeper of the Starlight Tea Shop"
+          "role": "Keeper of the Oakhaven Cafe & Bakery"
         },
         {
           "id": "npc_lumi",

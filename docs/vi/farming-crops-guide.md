@@ -9,7 +9,7 @@ spoiler: false
 
 # 🌾 Cây Trồng Bốn Mùa & Tự Động Hóa Nông Trại
 
-Nông trại Thung Lũng Bụi Sao không chỉ là nơi Rowan gieo hạt kiếm sống, mà còn là "trái tim" cung cấp nguyên liệu tươi ngon cho Lò Nướng Bánh và Quầy Trà Bụi Sao. Khác với những tựa game nông trại thông thường, hệ thống cây trồng tại Oakhaven vận hành theo chu kỳ luân chuyển 4 mùa nghiêm ngặt, kết hợp cùng các giải pháp **tự động hóa tưới nước ấm áp và ma thuật** giúp bạn rảnh tay thám hiểm hầm mỏ và lắng nghe tâm sự của dân làng.
+Nông trại Thung Lũng Oakhaven không chỉ là nơi Rowan gieo hạt kiếm sống, mà còn là "trái tim" cung cấp nguyên liệu tươi ngon cho Lò Nướng Bánh và Tiệm Trà & Bánh Oakhaven. Khác với những tựa game nông trại thông thường, hệ thống cây trồng tại Oakhaven vận hành theo chu kỳ luân chuyển 4 mùa nghiêm ngặt, kết hợp cùng các giải pháp **tự động hóa tưới nước ấm áp và ma thuật** giúp bạn rảnh tay thám hiểm hầm mỏ và lắng nghe tâm sự của dân làng.
 
 ---
 

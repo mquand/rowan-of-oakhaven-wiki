@@ -23,11 +23,11 @@ Game mở đầu bằng đoạn điện ảnh — bạn sống những ngày bì
 
 ## Bụi Sao & Sự Hắc Hóa
 
-Mọi phép thuật trong Oakhaven bắt nguồn từ **Bụi Sao (Stardust)**. Khi u uất tích tụ, Bụi Sao bị **Hắc Hóa (Star Blight)**, biến dạng sinh vật thành quái vật. Sứ mệnh Rowan là thanh tẩy và tái sinh vùng đất — bằng trà thảo mộc, bánh ma thuật, và sự đồng cảm.
+Mọi phép thuật trong Oakhaven bắt nguồn từ **Bụi Sao (Stardust)**. Khi u uất tích tụ, Bụi Sao bị **Hắc Hóa (Star Blight)**, biến dạng sinh vật lòng đất thành quái thú hung tợn. Sứ mệnh của Rowan là chiến đấu dọn sạch các tầng hầm ngục, khai thác khoáng thạch quý, nâng cấp vũ khí tại lò rèn Boris và vận hành tiệm trà bánh để tái thiết kinh tế thị trấn Oakhaven.
 
 ## Năm Đại Vực & Lịch sử
 
-1. **Thung Lũng Bụi Sao & Thị Trấn Oakhaven** — khởi đầu, tiệm của Bà.
+1. **Thung Lũng Oakhaven & Thị Trấn** — khởi đầu, tiệm bánh trà của Bà.
 2. **Kinh Đô Hoàng Gia Solaria** — Đại Hội Trà Đạo Toàn Quốc.
 3. **Đại Rừng Yêu Tinh Sylva-Fae** — quê hương Lumi, Cây Thế Giới.
 4. **Đô Thị Ngầm Người Lùn Khaz-Drakor** — lò rèn dung nham.

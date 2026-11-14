@@ -147,7 +147,7 @@ export default async function ItemDetailPage({ params }) {
                 <tr>
                   <th>{dict.database.itemDetail.sellPrice}</th>
                   <td>
-                    <strong>{item.sell_price}</strong> {isEn ? 'Stardust Coins' : 'Đồng Bụi Sao'}
+                    <strong>{item.sell_price}</strong> {isEn ? 'Gold' : 'Đồng Vàng'}
                   </td>
                 </tr>
               )}
@@ -155,7 +155,7 @@ export default async function ItemDetailPage({ params }) {
                 <tr>
                   <th>{dict.database.itemDetail.buyPrice}</th>
                   <td>
-                    <strong>{item.buy_price}</strong> {isEn ? 'Stardust Coins (Oakhaven Stand)' : 'Đồng Bụi Sao (Quầy Oakhaven)'}
+                    <strong>{item.buy_price}</strong> {isEn ? 'Gold (Oakhaven Stand)' : 'Đồng Vàng (Quầy Oakhaven)'}
                   </td>
                 </tr>
               ) : (

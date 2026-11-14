@@ -15,7 +15,7 @@ In the realm of *Rowan of Oakhaven*, the system of rocks, ores, and gemstones se
 
 ## 1. Mining Mechanics & Stamina Depletion
 
-The Oakhaven Mine (Root of the Great Tree) spans **100 subterranean floors** divided into **4 distinct geological zones**. Unlike pure hack-and-slash action titles, breaking rock in Oakhaven is fundamentally tied to **Stamina Management**:
+The Oakhaven Mine (Root of the Great Tree) spans **150 subterranean floors** with elevator checkpoints saved every 5 floors. Conquering Floor 150 unlocks Chief Blacksmith Barnaby's Will & Parchment Tunnel Map leading into the subterranean Dwarven Kingdom of Khaz-Drakor. Unlike pure hack-and-slash action titles, breaking rock in Oakhaven is fundamentally tied to **Stamina Management**:
 
 - **Pebbles / Common Cobblestone:** Depletes $-3$ Stamina per block.
 - **Metal Ores (Copper, Iron, Coal):** Depletes $-5$ Stamina per vein.
@@ -61,7 +61,7 @@ Supernatural minerals that supply power to the arcane realm, alchemical circles,
 ### 🕯️ Memory Soulstone *(Đá Ký Ức Linh Hồn)*
 - **Depth:** Floors 51–100, crystallizing around ancestral memorials.
 - **Traits:** Transparent as polished glass, safeguarding lingering memories and departed voices before they dissolve into eternity.
-- **Applications:** Unlocks lost diary entries of Grandmother Amalia, unveiling the origins of the Stardust Teahouse.
+- **Applications:** Unlocks lost diary entries of Grandmother Amalia, unveiling the origins of the Oakhaven Bakery & Cafe.
 
 ### 🛡️ Mythic Mithril Ore *(Quặng Hắc Thiết Thần Thoại)*
 - **Depth:** Floors 76–100, within the deepest bedrock veins.
@@ -74,7 +74,7 @@ Supernatural minerals that supply power to the arcane realm, alchemical circles,
 - **Applications:** Delivered to Apothecary Aurelia to synthesize mutation antidotes; serves as a volatile alchemical reagent.
 
 ### 🔴 Philosopher's Stone *(Hòn Đá Triết Gia)*
-- **Depth:** The ultimate artifact achieved after cleansing all 100 mine floors.
+- **Depth:** The ultimate artifact achieved after conquering all 150 mine floors.
 - **Traits:** Crimson elixir stone epitomizing ancient alchemy: transmuting baseline matter, cleansing blight, and granting perpetual vigor.
 
 ---

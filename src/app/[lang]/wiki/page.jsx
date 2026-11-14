@@ -90,24 +90,16 @@ export default async function WikiHubPage({ params }) {
                 {dict.wiki.starterFeaturedDesc || starterDesc}
               </p>
 
-              <div className={styles.featuredSteps}>
-                <div className={styles.stepItem}>
-                  <span className={styles.stepNum}>1</span>
-                  <span>Dọn nông trại & nhặt củi than</span>
+              {Array.isArray(dict.wiki.starterSteps) && dict.wiki.starterSteps.length > 0 && (
+                <div className={styles.featuredSteps}>
+                  {dict.wiki.starterSteps.map((step, idx) => (
+                    <div key={idx} className={styles.stepItem}>
+                      <span className={styles.stepNum}>{idx + 1}</span>
+                      <span>{step}</span>
+                    </div>
+                  ))}
                 </div>
-                <div className={styles.stepItem}>
-                  <span className={styles.stepNum}>2</span>
-                  <span>Gieo hạt mầm thảo mộc đầu tiên</span>
-                </div>
-                <div className={styles.stepItem}>
-                  <span className={styles.stepNum}>3</span>
-                  <span>Gặp thợ rèn Boris & dân làng</span>
-                </div>
-                <div className={styles.stepItem}>
-                  <span className={styles.stepNum}>4</span>
-                  <span>Mở tiệm trà Bụi Sao buổi tối</span>
-                </div>
-              </div>
+              )}
             </div>
 
             <div className={styles.featuredFooter}>
@@ -141,7 +133,10 @@ export default async function WikiHubPage({ params }) {
                   const cleanTitle = doc.title.replace(/\s*\(Spoil\)/i, '');
                   const docDescription = dict.wiki.docDescriptions[doc.slug] || doc.title;
                   const time = (dict.wiki.readingTimes && dict.wiki.readingTimes[doc.slug]) || 5;
-                  const tagLabel = (dict.wiki.difficultyLabels && dict.wiki.difficultyLabels[doc.slug]) || 'Hướng dẫn';
+                  const tagLabel =
+                    (dict.wiki.difficultyLabels && dict.wiki.difficultyLabels[doc.slug]) ||
+                    dict.wiki.difficultyDefault ||
+                    (lang === 'en' ? 'Guide' : 'Hướng dẫn');
 
                   return (
                     <Link

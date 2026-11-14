@@ -60,9 +60,9 @@ export default {
       {
         id: 'rowan',
         name: 'Rowan',
-        role: 'Starlight Tea Shop Keeper',
+        role: 'Oakhaven Cafe & Bakery Keeper',
         species: 'Human',
-        desc: 'Inherited Grandmother Amalia’s tea shop, tending the herb garden and brewing comforting teas.',
+        desc: 'Inherited Grandmother Amalia’s cafe & bakery, tending the herb garden and baking fragrant pastries.',
       },
       {
         id: 'pip',
@@ -119,8 +119,15 @@ export default {
     searchDocPlaceholder: 'Search guides...',
     starterFeaturedBadge: 'Starter guide',
     starterFeaturedTitle: 'Getting started — Your first 7 days in Oakhaven',
-    starterFeaturedDesc: 'Step-by-step onboarding walkthrough: clearing your farm plot, sowing herbs, meeting villagers, and opening your first twilight tea shop.',
+    starterFeaturedDesc: 'Step-by-step onboarding walkthrough: clearing your farm plot, sowing herbs, meeting villagers, and opening your first twilight bakery & cafe.',
     starterAction: 'Read starter guide',
+    starterSteps: [
+      'Clear farm plot & collect coal firewood',
+      'Sow your first magical herb seeds',
+      'Meet blacksmith Boris & friendly villagers',
+      'Open your evening Oakhaven bakery & cafe',
+    ],
+    difficultyDefault: 'Guide',
     groups: {
       intro: 'Getting started & Overview',
       gameplay: 'Gameplay & Seasons',
