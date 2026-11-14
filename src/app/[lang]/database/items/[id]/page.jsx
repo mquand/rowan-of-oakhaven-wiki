@@ -194,7 +194,7 @@ export default async function ItemDetailPage({ params }) {
               </h2>
               <ul className={styles.recipeList}>
                 <li key={craftingRecipe.id}>
-                  <Icon name={craftingRecipe.station === 'tea_station' ? 'tea-bag' : 'cake'} size={18} />
+                  <Icon name={craftingRecipe.station === 'tea_station' ? 'tea-bag' : craftingRecipe.station === 'cooking_pot' ? 'cooking-pot' : 'cake'} size={18} />
                   <Link href={`/${lang}/database/recipes#${craftingRecipe.id}`}>{craftingRecipe.name}</Link>
                   <span className={styles.station}>
                     {getStationLabel(craftingRecipe.station, lang)} ({craftingRecipe.duration_seconds}s)
@@ -248,7 +248,7 @@ export default async function ItemDetailPage({ params }) {
               <ul className={styles.recipeList}>
                 {recipesUsing.map(recipe => (
                   <li key={recipe.id}>
-                    <Icon name={recipe.station === 'tea_station' ? 'tea-bag' : 'cake'} size={16} />
+                    <Icon name={recipe.station === 'tea_station' ? 'tea-bag' : recipe.station === 'cooking_pot' ? 'cooking-pot' : 'cake'} size={16} />
                     <Link href={`/${lang}/database/recipes#${recipe.id}`}>{recipe.name}</Link>
                     <span className={styles.station}>
                       {getStationLabel(recipe.station, lang)}

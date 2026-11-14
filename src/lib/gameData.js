@@ -85,26 +85,34 @@ export function getItemSources(itemId, lang = DEFAULT_LOCALE) {
   const isEn = lang === 'en';
   const sources = [];
 
-  // 1. Chế biến từ công thức (Trạm Pha Trà / Lò Nướng Bánh)
+  // 1. Chế biến từ công thức (Trạm Pha Trà / Lò Nướng Bánh / Bếp Nồi Hầm)
   const craftingRecipe = getRecipeByResultItem(itemId, lang);
   if (craftingRecipe) {
     const ingText = (craftingRecipe.ingredients || [])
       .map(i => `${i.name} x${i.quantity}`)
       .join(', ');
     const isTea = craftingRecipe.station === 'tea_station';
+    const isPot = craftingRecipe.station === 'cooking_pot';
+    const stationTitle = isTea
+      ? (isEn ? 'Tea & Beverage Station' : 'Trạm Pha Trà Oakhaven')
+      : isPot
+      ? (isEn ? 'Hearth Cauldron & Pot' : 'Bếp Nấu & Nồi Hầm Oakhaven')
+      : (isEn ? 'Stone Bakery Oven' : 'Lò Nướng Bánh Đá Oakhaven');
+    const badgeText = isTea
+      ? (isEn ? 'Tea Station' : 'Trạm Pha Trà')
+      : isPot
+      ? (isEn ? 'Cooking Pot' : 'Nồi Hầm')
+      : (isEn ? 'Bakery Oven' : 'Lò Nướng Bánh');
+    const iconName = isTea ? 'tea-bag' : isPot ? 'cooking-pot' : 'cake';
     sources.push({
       type: 'crafting',
-      title: isEn
-        ? `Crafted at ${isTea ? 'Tea Crafting Station' : 'Magic Bakery Oven'}`
-        : `Chế biến tại ${isTea ? 'Trạm Pha Trà' : 'Lò Nướng Bánh Thần Kỳ'}`,
+      title: isEn ? `Crafted at ${stationTitle}` : `Chế biến tại ${stationTitle}`,
       description: isEn
         ? `Ingredients: ${ingText} · Duration: ${craftingRecipe.duration_seconds}s`
         : `Nguyên liệu: ${ingText} · Thời gian: ${craftingRecipe.duration_seconds}s`,
       href: `/${lang}/database/recipes#${craftingRecipe.id}`,
-      badge: isTea
-        ? (isEn ? 'Tea Station' : 'Trạm Pha Trà')
-        : (isEn ? 'Bakery Oven' : 'Lò Nướng Bánh'),
-      icon: isTea ? 'tea-bag' : 'cake',
+      badge: badgeText,
+      icon: iconName,
     });
   }
 
@@ -172,8 +180,8 @@ export function getItemSources(itemId, lang = DEFAULT_LOCALE) {
     sources.push({
       type: 'mining',
       title: isEn
-        ? 'Mined in Whisperwood Caverns (100-Floor Mine)'
-        : 'Khai thác hang mỏ Rừng Thầm Thì (Mỏ 100 Tầng)',
+        ? 'Mined in Oakhaven Caverns (150-Floor Mine)'
+        : 'Khai thác Hang Mỏ Oakhaven (150 Tầng)',
       description: isEn
         ? 'Mine ore veins and crystal clusters using a pickaxe in subterranean depths.'
         : 'Dùng cuốc đập đá khoáng sản và vỉa tinh thể ở các tầng hầm mỏ sâu.',

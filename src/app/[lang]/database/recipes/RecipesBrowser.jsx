@@ -20,6 +20,7 @@ export default function RecipesBrowser({ recipes, lang = DEFAULT_LOCALE }) {
     { id: 'all', label: isEn ? 'All Recipes' : 'Tất cả công thức' },
     { id: 'tea_station', label: getStationLabel('tea_station', lang) },
     { id: 'bakery_oven', label: getStationLabel('bakery_oven', lang) },
+    { id: 'cooking_pot', label: getStationLabel('cooking_pot', lang) },
   ];
 
   const filtered = useMemo(() => {
@@ -51,8 +52,9 @@ export default function RecipesBrowser({ recipes, lang = DEFAULT_LOCALE }) {
 
   const renderRecipeCard = recipe => {
     const isTea = recipe.station === 'tea_station';
+    const isPot = recipe.station === 'cooking_pot';
     const stationLabel = getStationLabel(recipe.station, lang);
-    const iconName = isTea ? 'tea-bag' : 'cake';
+    const iconName = isTea ? 'tea-bag' : isPot ? 'cooking-pot' : 'cake';
 
     return (
       <article key={recipe.id} id={recipe.id} className={`${styles.recipeCard} pixel-frame`}>
@@ -104,7 +106,7 @@ export default function RecipesBrowser({ recipes, lang = DEFAULT_LOCALE }) {
               href={`/${lang}/database/items/${recipe.result_item_id}`}
               className={styles.productLink}
             >
-              <Icon name={isTea ? 'tea-bag' : 'cake'} size={16} />
+              <Icon name={isTea ? 'tea-bag' : isPot ? 'cooking-pot' : 'cake'} size={16} />
               <span>{recipe.name}</span>
               <span className={styles.productTag}>{isEn ? 'View item profile →' : 'Xem hồ sơ vật phẩm →'}</span>
             </Link>
@@ -213,7 +215,7 @@ export default function RecipesBrowser({ recipes, lang = DEFAULT_LOCALE }) {
                   <td className={styles.iconCell}>
                     <div className={styles.iconWrap}>
                       <Icon
-                        name={recipe.station === 'tea_station' ? 'tea-bag' : 'cake'}
+                        name={recipe.station === 'tea_station' ? 'tea-bag' : recipe.station === 'cooking_pot' ? 'cooking-pot' : 'cake'}
                         size={20}
                       />
                     </div>

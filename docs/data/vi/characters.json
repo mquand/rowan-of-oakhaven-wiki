@@ -12,7 +12,8 @@
       "description": "Nữ phù thủy trẻ vừa rời Viện Phép Thuật, kế thừa tiệm trà bánh và quyển sổ rách bí truyền của bà ngoại Amalia.",
       "favorite_items": [
         "tra_sen_an_than",
-        "bread_brioche"
+        "bread_brioche",
+        "dish_moonlight_creamy_risotto"
       ],
       "quote": "Phép thuật vĩ đại nhất đôi khi chỉ là một tách trà ấm và nụ cười sẻ chia.",
       "birthday": "Ngày 1 Mùa Xuân",
@@ -42,7 +43,8 @@
       "description": "Chú mèo tam thể tròn xoe đến tiệm trú mưa rồi ở lại luôn, thích ngủ nướng bên đèn dầu.",
       "favorite_items": [
         "item_butter",
-        "dau_rung"
+        "dau_rung",
+        "item_wild_mushroom"
       ],
       "quote": "Meo... *gừ gừ thư thái*",
       "birthday": "Ngày 4 Mùa Hạ",
@@ -71,7 +73,8 @@
       "description": "Thợ rèn người lùn rắn rỏi với bộ râu hung đỏ tết bím đôi, áo gile da sạm tro than mỏ.",
       "favorite_items": [
         "pastry_cinnamon_roll",
-        "tra_sen_an_than"
+        "dish_dwarf_ironforge_goulash",
+        "tea_whisper_hearth"
       ],
       "quote": "Cả ngày quai búa mỏi rã rời, lò rèn ấm nhưng lòng lão thì lạnh ngắt... Cho lão thứ gì vừa ngọt vừa thơm nức mùi gỗ quế nào.",
       "birthday": "Ngày 18 Mùa Đông",
@@ -86,7 +89,8 @@
       "description": "Bà lão làm vườn hiền hậu với mái tóc bạc búi thấp và khăn trùm đầu thêu hoa mùa xuân, bà nuôi của Kael.",
       "favorite_items": [
         "pastry_scone_berry",
-        "seed_sun_daisy"
+        "tea_sun_daisy_honey",
+        "dish_sweet_pumpkin_potage"
       ],
       "quote": "Mấy luống bí ngô hôm nay sâu ăn dữ quá, đứng nhổ cỏ từ trưa tới giờ lưng tôi sắp gãy rồi cô bé ơi...",
       "birthday": "Ngày 9 Mùa Xuân",
@@ -101,6 +105,7 @@
       "description": "Cậu bé mồ côi với chiếc mũ len chóp, áo khoác vá chỉ màu và đôi mắt to sáng long lanh, cháu nuôi của Maeve.",
       "favorite_items": [
         "cake_fairy_birthday",
+        "dish_sweet_pumpkin_potage",
         "dau_rung"
       ],
       "quote": "Bà Maeve dạo này hay đau nhức chân... Cháu muốn đổi hộp diêm lấy một tách trà gừng cho bà, cháu còn thiếu mấy đồng ạ?",
@@ -130,8 +135,9 @@
       "species": "Dwarf (Người Lùn)",
       "description": "Thợ mỏ kỳ cựu dưới các tầng sâu của mỏ, em trai của thợ rèn Boris. Tính cách cộc cằn, thích tranh cãi với anh trai nhưng trong lòng rất quan tâm gia đình.",
       "favorite_items": [
-        "ore_iron",
-        "ore_coal"
+        "bread_miner_sourdough",
+        "dish_miner_potato_stew",
+        "ore_iron"
       ],
       "quote": "Ông anh Boris của tôi lại càu nhàu về quặng sắt non... Pha cho tôi tách trà nào thật đắng chát để tôi nuốt trôi cục tức này cái!",
       "birthday": "Ngày 15 Mùa Đông",
@@ -145,8 +151,9 @@
       "species": "Human",
       "description": "Cô bé bán bánh dạo nhanh nhẹn, cháu gái của thợ rèn Boris và thợ mỏ Bram. Hoạt bát, sáng tạo, luôn ấp ủ những ý tưởng làm bánh độc lạ.",
       "favorite_items": [
+        "pastry_berry_shortcake",
         "pastry_scone_berry",
-        "item_sugar"
+        "item_tea_frostmint_breeze"
       ],
       "quote": "Chú Boris vừa gõ lại khuôn bánh hình ngôi sao cho em nè! Cho em thử một ly trà dâu chua ngọt để lấy cảm hứng sáng tạo mẻ bánh mới đi!",
       "birthday": "Ngày 11 Mùa Thu",
@@ -160,6 +167,7 @@
       "species": "Human",
       "description": "Nhà thiên văn học làm việc tại đài quan sát trên đồi cao, cha của Clara. Đãng trí, mải mê nghiên cứu các chòm sao đến mức quên ăn mất ngủ.",
       "favorite_items": [
+        "tea_sun_daisy_honey",
         "bot_sao",
         "gem_amethyst"
       ],
@@ -175,6 +183,7 @@
       "species": "Human",
       "description": "Người trông coi thư viện Oakhaven, con gái giáo sư Orion. Ngăn nắp, chu đáo, luôn phải nhắc nhở cha mình chăm sóc bản thân.",
       "favorite_items": [
+        "tea_earl_grey_clara",
         "tra_oai_huong_ngan_sao",
         "la_tra_sen"
       ],
@@ -190,8 +199,9 @@
       "species": "Human",
       "description": "Lão thuyền trưởng già đã gác mái chèo, ông nội của chú bé Finn. Thích kể chuyện phiêu lưu ngoài biển mây xa xôi cho khách nghe.",
       "favorite_items": [
-        "drop_crystal_sea_salt",
-        "tra_anh_duong"
+        "tea_magma_spiced_chai",
+        "tra_anh_duong",
+        "drop_crystal_sea_salt"
       ],
       "quote": "Gió từ thung lũng mang mùi biển khơi ngày xưa... Cho lão già này một tách trà đậm vị quế, nghe lão kể về hòn đảo lơ lửng ngoài mây nào.",
       "birthday": "Ngày 2 Mùa Hạ",
@@ -205,8 +215,9 @@
       "species": "Human",
       "description": "Cậu bé câu cá bên bờ suối và hồ sương mù, cháu nội của Thuyền Trưởng Garrick. Tò mò, thích khám phá các loài cá phát sáng kỳ lạ.",
       "favorite_items": [
-        "drop_prism_jelly",
-        "dau_rung"
+        "tea_frostmint_breeze",
+        "dau_rung",
+        "drop_prism_jelly"
       ],
       "quote": "Hôm nay em câu được con cá phát sáng bảy màu to đùng! Ông Garrick bảo mang sang biếu tiệm trà để đổi một ly bạc hà mát lạnh!",
       "birthday": "Ngày 19 Mùa Hạ",
@@ -235,6 +246,7 @@
       "species": "Human",
       "description": "Nhà nghiên cứu thảo mộc đeo kính một mắt đến từ Rừng Yêu Tinh, bạn tri kỷ của thợ may Elora. Mang theo những rễ cây ngàn năm làm quà trao đổi.",
       "favorite_items": [
+        "tea_sylvan_night_infusion",
         "seed_star_lavender",
         "la_tra_sen"
       ],
@@ -250,7 +262,8 @@
       "species": "Human",
       "description": "Hiệp sĩ cảnh vệ trung thành bảo vệ giấc ngủ của thị trấn trong những ca trực đêm dài dằng dặc giữa gió tuyết.",
       "favorite_items": [
-        "bread_brioche",
+        "dish_spicy_ginger_stew",
+        "bread_miner_sourdough",
         "ore_iron"
       ],
       "quote": "Gió tuyết lùa qua khe áo giáp buốt giá... Một ca trực đêm dài dằng dặc, chỉ có tách trà cay nồng của tiệm mới giữ tôi không ngủ gục.",

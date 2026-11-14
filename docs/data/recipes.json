@@ -367,6 +367,484 @@
       "result_item_id": "item_tea_whisper_hearth",
       "duration_seconds": 3,
       "effect_description": "Hồi 45 Thể Lực và kháng hoàn toàn giá rét trong 5 phút"
+    },
+    {
+      "id": "tea_sun_daisy_honey",
+      "name": "Trà Hoa Cúc Mật Ong",
+      "description": "Hương hoa cúc mặt trời phơi sương hòa với mật ong ấm áp, xoa dịu thần kinh và đẩy lùi mệt mỏi sau ngày dài.",
+      "station": "tea_station",
+      "ingredients": [
+        {
+          "id": "item_sun_daisy",
+          "name": "Cánh Cúc Mặt Trời",
+          "quantity": 2
+        },
+        {
+          "id": "mat_ong",
+          "name": "Mật Ong",
+          "quantity": 1
+        }
+      ],
+      "result_item_id": "item_tea_sun_daisy_honey",
+      "duration_seconds": 2,
+      "effect_description": "Xoa dịu muộn phiền, giảm 30% tiêu hao thể lực làm việc trong 4 phút"
+    },
+    {
+      "id": "tea_earl_grey_clara",
+      "name": "Trà Bá Tước Oakhaven",
+      "description": "Trà sen ủ với vỏ chanh sét sấy khô và mật mía, mang lại sự tỉnh táo minh mẫn tuyệt đối cho người đọc sách và nghiên cứu.",
+      "station": "tea_station",
+      "ingredients": [
+        {
+          "id": "la_tra_sen",
+          "name": "Lá Trà Sen",
+          "quantity": 1
+        },
+        {
+          "id": "item_spark_lemon",
+          "name": "Chanh Sét Tê Lưỡi",
+          "quantity": 1
+        },
+        {
+          "id": "item_honey_cane",
+          "name": "Mía Mật Ong Hổ Phách",
+          "quantity": 1
+        }
+      ],
+      "result_item_id": "item_tea_earl_grey_clara",
+      "duration_seconds": 3,
+      "effect_description": "Tỉnh táo minh mẫn, tăng 20% điểm kinh nghiệm kỹ năng trong 5 phút"
+    },
+    {
+      "id": "tea_frostmint_breeze",
+      "name": "Trà Bạc Hà Băng Tuyết",
+      "description": "Lá bạc hà băng giá kết hợp đá tinh thể đập vụn, giải nhiệt cấp tốc và tạo lớp màng mát lạnh bảo vệ cơ thể.",
+      "station": "tea_station",
+      "ingredients": [
+        {
+          "id": "item_frostmint",
+          "name": "Bạc Hà Băng Giá",
+          "quantity": 2
+        },
+        {
+          "id": "da_tinh_the",
+          "name": "Đá Tinh Thể",
+          "quantity": 1
+        }
+      ],
+      "result_item_id": "item_tea_frostmint_breeze",
+      "duration_seconds": 2,
+      "effect_description": "Hồi 50 Thể Lực và kháng hoàn toàn thiêu đốt, dung nham trong 4 phút"
+    },
+    {
+      "id": "tea_magma_spiced_chai",
+      "name": "Trà Chai Lửa Dung Nham",
+      "description": "Nước dưa hấu dung nham cô đặc đun sôi cùng gừng đỏ và vỏ quế, bùng cháy ngọn lửa dũng khí trong huyết quản.",
+      "station": "tea_station",
+      "ingredients": [
+        {
+          "id": "item_magma_melon",
+          "name": "Dưa Hấu Lửa Dung Nham",
+          "quantity": 1
+        },
+        {
+          "id": "item_whisper_ginger",
+          "name": "Hỏa Khương Rừng Thầm Thì",
+          "quantity": 1
+        },
+        {
+          "id": "item_cinnamon",
+          "name": "Vỏ Quế Rừng",
+          "quantity": 1
+        }
+      ],
+      "result_item_id": "item_tea_magma_spiced_chai",
+      "duration_seconds": 3,
+      "effect_description": "Hồi 75 Thể Lực, tăng 15% sát thương tấn công và miễn nhiễm đóng băng trong 5 phút"
+    },
+    {
+      "id": "tea_sylvan_night_infusion",
+      "name": "Trà Trầm Hương Rừng Già",
+      "description": "Sự kết hợp thâm sâu giữa lá trà sen, khoai nguyệt quang và vỏ quế, mang hương thơm tĩnh lặng của rừng nguyên sinh.",
+      "station": "tea_station",
+      "ingredients": [
+        {
+          "id": "la_tra_sen",
+          "name": "Lá Trà Sen",
+          "quantity": 1
+        },
+        {
+          "id": "item_moonlight_yam",
+          "name": "Khoai Lang Nguyệt Quang",
+          "quantity": 1
+        },
+        {
+          "id": "item_cinnamon",
+          "name": "Vỏ Quế Rừng",
+          "quantity": 1
+        }
+      ],
+      "result_item_id": "item_tea_sylvan_night_infusion",
+      "duration_seconds": 3,
+      "effect_description": "Tĩnh tâm sâu sắc, tăng 25% cơ hội thu thập thảo dược quý trong 5 phút"
+    },
+    {
+      "id": "bread_sweet_pumpkin_loaf",
+      "name": "Bánh Mì Bí Ngô Mật Ong",
+      "description": "Ổ bánh mì vàng ươm nở phồng từ bột bí ngô mật ong và bơ tươi, thơm nức mùi mùa thu Oakhaven.",
+      "station": "bakery_oven",
+      "ingredients": [
+        {
+          "id": "item_flour",
+          "name": "Bột Mì Tươi",
+          "quantity": 2
+        },
+        {
+          "id": "item_sweet_pumpkin",
+          "name": "Bí Ngô Mật Ong",
+          "quantity": 1
+        },
+        {
+          "id": "mat_ong",
+          "name": "Mật Ong",
+          "quantity": 1
+        },
+        {
+          "id": "item_butter",
+          "name": "Bơ Tươi",
+          "quantity": 1
+        }
+      ],
+      "result_item_id": "item_bread_sweet_pumpkin_loaf",
+      "duration_seconds": 10,
+      "effect_description": "Hồi 80 Thể Lực, tăng 15% năng suất thu hoạch cây trồng trong 5 phút"
+    },
+    {
+      "id": "pastry_sun_cornbread",
+      "name": "Bánh Bắp Vàng Nướng Chảo Đá",
+      "description": "Bánh ngô nướng xém viền giòn rụm trong chảo đá, xốp ẩm bên trong với hạt ngô ngọt mọng nước.",
+      "station": "bakery_oven",
+      "ingredients": [
+        {
+          "id": "item_flour",
+          "name": "Bột Mì Tươi",
+          "quantity": 1
+        },
+        {
+          "id": "item_sun_corn",
+          "name": "Bắp Ngô Ánh Dương",
+          "quantity": 2
+        },
+        {
+          "id": "item_butter",
+          "name": "Bơ Tươi",
+          "quantity": 1
+        }
+      ],
+      "result_item_id": "item_pastry_sun_cornbread",
+      "duration_seconds": 9,
+      "effect_description": "Hồi 70 Thể Lực, tăng 20% tốc độ di chuyển dưới hang mỏ trong 4 phút"
+    },
+    {
+      "id": "pastry_berry_shortcake",
+      "name": "Bánh Xốp Dâu Rừng Kem Sữa",
+      "description": "Bánh quy xốp nướng bơ kẹp đầy dâu rừng mùa xuân tươi mọng và kem sữa ngọt ngào — món khoái khẩu của cô bé Penny.",
+      "station": "bakery_oven",
+      "ingredients": [
+        {
+          "id": "item_flour",
+          "name": "Bột Mì Tươi",
+          "quantity": 2
+        },
+        {
+          "id": "item_spring_wildberry",
+          "name": "Dâu Rừng Mùa Xuân",
+          "quantity": 2
+        },
+        {
+          "id": "item_sugar",
+          "name": "Đường Mía Thô",
+          "quantity": 1
+        },
+        {
+          "id": "item_butter",
+          "name": "Bơ Tươi",
+          "quantity": 1
+        }
+      ],
+      "result_item_id": "item_pastry_berry_shortcake",
+      "duration_seconds": 11,
+      "effect_description": "Hồi 100 Thể Lực, tăng 10% doanh thu tiệm trà bánh trong 1 ngày"
+    },
+    {
+      "id": "pastry_shadow_rye_pretzel",
+      "name": "Bánh Xoắn Hắc Mạch Nướng Giòn",
+      "description": "Bánh quy xoắn dẻo dai làm từ lúa mạch đen rừng, rắc muối mỏ mộc mạc, món nhắm lý tưởng của cánh thợ rèn.",
+      "station": "bakery_oven",
+      "ingredients": [
+        {
+          "id": "item_shadow_rye",
+          "name": "Bó Hắc Mạch Đêm Rừng",
+          "quantity": 2
+        },
+        {
+          "id": "item_flour",
+          "name": "Bột Mì Tươi",
+          "quantity": 1
+        },
+        {
+          "id": "item_butter",
+          "name": "Bơ Tươi",
+          "quantity": 1
+        }
+      ],
+      "result_item_id": "item_pastry_shadow_rye_pretzel",
+      "duration_seconds": 10,
+      "effect_description": "Hồi 65 Thể Lực, tăng +15 Chỉ số phòng thủ giáp trong 5 phút"
+    },
+    {
+      "id": "pastry_moonlight_yam_pie",
+      "name": "Bánh Pie Khoai Lang Nguyệt Quang",
+      "description": "Vỏ pie ngàn lớp nướng giòn rụm bọc lấy nhân khoai lang tím dẻo bùi phát quang ánh trăng dịu nhẹ.",
+      "station": "bakery_oven",
+      "ingredients": [
+        {
+          "id": "item_moonlight_yam",
+          "name": "Khoai Lang Nguyệt Quang",
+          "quantity": 2
+        },
+        {
+          "id": "item_flour",
+          "name": "Bột Mì Tươi",
+          "quantity": 2
+        },
+        {
+          "id": "item_sugar",
+          "name": "Đường Mía Thô",
+          "quantity": 1
+        },
+        {
+          "id": "mat_ong",
+          "name": "Mật Ong",
+          "quantity": 1
+        }
+      ],
+      "result_item_id": "item_pastry_moonlight_yam_pie",
+      "duration_seconds": 13,
+      "effect_description": "Hồi 120 Thể Lực, cung cấp tầm nhìn ban đêm và hào quang sáng 8 ô trong 6 phút"
+    },
+    {
+      "id": "dish_miner_potato_stew",
+      "name": "Hầm Củ Cải Của Thợ Mỏ",
+      "description": "Nồi hầm sôi ùng ục với củ cải bạch ngọc, hắc cà rốt và bơ béo, tiếp thêm sinh lực cho những ca cuốc đá thâu đêm.",
+      "station": "cooking_pot",
+      "ingredients": [
+        {
+          "id": "item_frost_turnip",
+          "name": "Bạch Ngọc Củ Cải",
+          "quantity": 2
+        },
+        {
+          "id": "item_shadow_carrot",
+          "name": "Hắc Cà Rốt Mắt Mèo",
+          "quantity": 2
+        },
+        {
+          "id": "item_butter",
+          "name": "Bơ Tươi",
+          "quantity": 1
+        }
+      ],
+      "result_item_id": "item_dish_miner_potato_stew",
+      "duration_seconds": 8,
+      "effect_description": "Hồi 110 Thể Lực, tăng 35% tốc độ đào khoáng sản trong 5 phút"
+    },
+    {
+      "id": "dish_wild_forest_mushroom_soup",
+      "name": "Súp Nấm Rừng Kem Bơ",
+      "description": "Súp nấm rừng sánh mịn nấu cùng kem bơ béo ngậy và bột mì tươi, xoa dịu mọi vết thương đau đớn.",
+      "station": "cooking_pot",
+      "ingredients": [
+        {
+          "id": "item_wild_mushroom",
+          "name": "Nấm Hương Rừng Già",
+          "quantity": 2
+        },
+        {
+          "id": "item_flour",
+          "name": "Bột Mì Tươi",
+          "quantity": 1
+        },
+        {
+          "id": "item_butter",
+          "name": "Bơ Tươi",
+          "quantity": 1
+        }
+      ],
+      "result_item_id": "item_dish_wild_forest_mushroom_soup",
+      "duration_seconds": 7,
+      "effect_description": "Hồi 85 Thể Lực, tự động hồi phục +4 HP/giây trong 3 phút"
+    },
+    {
+      "id": "dish_sweet_pumpkin_potage",
+      "name": "Súp Bí Đỏ Hạt Mây",
+      "description": "Món súp bí ngô sánh vàng óng ả ngọt bùi, rưới mật ong thơm lừng sưởi ấm tâm hồn trong những đêm gió lộng.",
+      "station": "cooking_pot",
+      "ingredients": [
+        {
+          "id": "item_sweet_pumpkin",
+          "name": "Bí Ngô Mật Ong",
+          "quantity": 2
+        },
+        {
+          "id": "item_flour",
+          "name": "Bột Mì Tươi",
+          "quantity": 1
+        },
+        {
+          "id": "mat_ong",
+          "name": "Mật Ong",
+          "quantity": 1
+        }
+      ],
+      "result_item_id": "item_dish_sweet_pumpkin_potage",
+      "duration_seconds": 7,
+      "effect_description": "Hồi 90 Thể Lực, tăng 25% khả năng kháng sát thương phép thuật trong 4 phút"
+    },
+    {
+      "id": "dish_spicy_ginger_stew",
+      "name": "Hầm Hỏa Khương Tiêu Cay",
+      "description": "Nước canh hầm gừng lửa cay xè nấu cùng củ cải ngọc và hắc cà rốt, xua tan hoàn toàn cảm giác tê cóng và làm chậm.",
+      "station": "cooking_pot",
+      "ingredients": [
+        {
+          "id": "item_whisper_ginger",
+          "name": "Hỏa Khương Rừng Thầm Thì",
+          "quantity": 2
+        },
+        {
+          "id": "item_frost_turnip",
+          "name": "Bạch Ngọc Củ Cải",
+          "quantity": 1
+        },
+        {
+          "id": "item_shadow_carrot",
+          "name": "Hắc Cà Rốt Mắt Mèo",
+          "quantity": 1
+        }
+      ],
+      "result_item_id": "item_dish_spicy_ginger_stew",
+      "duration_seconds": 8,
+      "effect_description": "Hồi 95 Thể Lực, miễn nhiễm hoàn toàn làm chậm và đóng băng trong 5 phút"
+    },
+    {
+      "id": "dish_dwarf_ironforge_goulash",
+      "name": "Goulash Thợ Rèn Khaz-Drakor",
+      "description": "Món goulash đậm đặc truyền thống của thợ rèn tộc người lùn Khaz-Drakor, nấu từ ngô nướng, gừng đỏ và cà rốt ngầm.",
+      "station": "cooking_pot",
+      "ingredients": [
+        {
+          "id": "item_shadow_carrot",
+          "name": "Hắc Cà Rốt Mắt Mèo",
+          "quantity": 2
+        },
+        {
+          "id": "item_sun_corn",
+          "name": "Bắp Ngô Ánh Dương",
+          "quantity": 2
+        },
+        {
+          "id": "item_whisper_ginger",
+          "name": "Hỏa Khương Rừng Thầm Thì",
+          "quantity": 1
+        },
+        {
+          "id": "item_butter",
+          "name": "Bơ Tươi",
+          "quantity": 1
+        }
+      ],
+      "result_item_id": "item_dish_dwarf_ironforge_goulash",
+      "duration_seconds": 10,
+      "effect_description": "Hồi 130 Thể Lực, tăng 20% sát thương cận chiến (Búa, Kiếm, Rìu) trong 5 phút"
+    },
+    {
+      "id": "dish_moonlight_creamy_risotto",
+      "name": "Cháo Cơm Khoai Nguyệt Quang",
+      "description": "Cháo cơm hạt hắc mạch ninh nhừ với khoai nguyệt quang và bơ tươi béo ngậy, tỏa hương thảo mộc thanh thoát.",
+      "station": "cooking_pot",
+      "ingredients": [
+        {
+          "id": "item_moonlight_yam",
+          "name": "Khoai Lang Nguyệt Quang",
+          "quantity": 2
+        },
+        {
+          "id": "item_shadow_rye",
+          "name": "Bó Hắc Mạch Đêm Rừng",
+          "quantity": 2
+        },
+        {
+          "id": "item_butter",
+          "name": "Bơ Tươi",
+          "quantity": 1
+        }
+      ],
+      "result_item_id": "item_dish_moonlight_creamy_risotto",
+      "duration_seconds": 9,
+      "effect_description": "Hồi 115 Thể Lực, tăng 25% cơ hội tìm thấy rương và quặng quý trong 4 phút"
+    },
+    {
+      "id": "dish_adventurer_travel_ration",
+      "name": "Lương Khô Thám Hiểm Hầm Ngục",
+      "description": "Gói lương khô nén chặt từ bột hắc mạch, quả mọng sấy và mật ong rừng cô đặc — không bao giờ hỏng khi lặn lội đáy hang.",
+      "station": "cooking_pot",
+      "ingredients": [
+        {
+          "id": "item_shadow_rye",
+          "name": "Bó Hắc Mạch Đêm Rừng",
+          "quantity": 2
+        },
+        {
+          "id": "item_spring_wildberry",
+          "name": "Dâu Rừng Mùa Xuân",
+          "quantity": 2
+        },
+        {
+          "id": "mat_ong",
+          "name": "Mật Ong",
+          "quantity": 1
+        }
+      ],
+      "result_item_id": "item_dish_adventurer_travel_ration",
+      "duration_seconds": 6,
+      "effect_description": "Hồi 150 Thể Lực và xóa bỏ hoàn toàn trạng thái kiệt sức"
+    },
+    {
+      "id": "dish_mandrake_vitality_broth",
+      "name": "Canh Nhân Sâm Mandrake Đại Bổ",
+      "description": "Bát canh thần dược chưng cách thủy từ củ Mandrake nghìn năm, hoa sen tuyết và mật ong rừng — thần dược phục sinh nguyên khí.",
+      "station": "cooking_pot",
+      "ingredients": [
+        {
+          "id": "item_mandrake",
+          "name": "Củ Mandrake Nhân Sâm",
+          "quantity": 1
+        },
+        {
+          "id": "item_frost_lotus",
+          "name": "Hoa Băng Tuyết Ngàn Năm",
+          "quantity": 1
+        },
+        {
+          "id": "mat_ong",
+          "name": "Mật Ong",
+          "quantity": 1
+        }
+      ],
+      "result_item_id": "item_dish_mandrake_vitality_broth",
+      "duration_seconds": 12,
+      "effect_description": "Hồi 100% Thể Lực, +50 HP Tối đa và +20% toàn bộ chỉ số trong 10 phút"
     }
   ]
 }

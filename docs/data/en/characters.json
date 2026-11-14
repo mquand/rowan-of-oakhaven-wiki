@@ -12,7 +12,8 @@
       "description": "A young witch fresh from the Royal Arcane Academy, inheriting her late grandmother Amalia's cozy bakery & cafe and her tattered grimoire.",
       "favorite_items": [
         "tra_sen_an_than",
-        "bread_brioche"
+        "bread_brioche",
+        "dish_moonlight_creamy_risotto"
       ],
       "quote": "The greatest magic sometimes is just a warm cup of herbal tea and a shared smile.",
       "birthday": "Spring 1",
@@ -42,7 +43,8 @@
       "description": "A round calico cat who sheltered in the shop during a thunderstorm and never left; loves slumbering near warm lanterns.",
       "favorite_items": [
         "item_butter",
-        "dau_rung"
+        "dau_rung",
+        "item_wild_mushroom"
       ],
       "quote": "Meow... *contented purrs*",
       "birthday": "Summer 4",
@@ -71,7 +73,8 @@
       "description": "Stout, hardy dwarven smith with twin-braided russet beard and an ash-stained leather apron from years at the anvil.",
       "favorite_items": [
         "pastry_cinnamon_roll",
-        "tra_sen_an_than"
+        "dish_dwarf_ironforge_goulash",
+        "tea_whisper_hearth"
       ],
       "quote": "Hammering steel all day leaves me bone-weary. The furnace is hot, but my heart feels cold... got anything sweet and fragrant with wild cinnamon?",
       "birthday": "Winter 18",
@@ -86,7 +89,8 @@
       "description": "Gentle elder herbalist with silver hair pinned in a low bun and a spring-embroidered kerchief; foster grandmother to Kael.",
       "favorite_items": [
         "pastry_scone_berry",
-        "seed_sun_daisy"
+        "tea_sun_daisy_honey",
+        "dish_sweet_pumpkin_potage"
       ],
       "quote": "The caterpillars were harsh on my pumpkins today. Weeding since midday has my old back aching, little witch...",
       "birthday": "Spring 9",
@@ -101,6 +105,7 @@
       "description": "An orphaned boy with a pointed wool cap, patchworked winter coat, and bright curious eyes; Maeve's beloved ward.",
       "favorite_items": [
         "cake_fairy_birthday",
+        "dish_sweet_pumpkin_potage",
         "dau_rung"
       ],
       "quote": "Grandma Maeve's knees have been aching in the damp air... Can I trade my matchboxes for some ginger tea for her?",
@@ -130,8 +135,9 @@
       "species": "Dwarf",
       "description": "Veteran miner prospecting the deepest mine levels; Boris's younger brother. Gruff and argumentative, but fiercely devoted to family.",
       "favorite_items": [
-        "ore_iron",
-        "ore_coal"
+        "bread_miner_sourdough",
+        "dish_miner_potato_stew",
+        "ore_iron"
       ],
       "quote": "My brother Boris is lecturing me about brittle iron ore again... Brew me something deeply bitter so I can swallow my temper!",
       "birthday": "Winter 15",
@@ -145,8 +151,9 @@
       "species": "Human",
       "description": "Energetic, nimble pastry seller; niece of Boris and Bram. Quick-witted, cheerful, and always inventing eccentric new baked goods.",
       "favorite_items": [
+        "pastry_berry_shortcake",
         "pastry_scone_berry",
-        "item_sugar"
+        "item_tea_frostmint_breeze"
       ],
       "quote": "Uncle Boris just tapped out a star-shaped cookie cutter for me! Let me try that tart berry tea to inspire my next batch!",
       "birthday": "Autumn 11",
@@ -160,6 +167,7 @@
       "species": "Human",
       "description": "Astronomer stationed atop the hill observatory; Clara's father. Absentminded and so captivated by constellations that he forgets meals.",
       "favorite_items": [
+        "tea_sun_daisy_honey",
         "bot_sao",
         "gem_amethyst"
       ],
@@ -175,6 +183,7 @@
       "species": "Human",
       "description": "Meticulous curator of Oakhaven's archives; Orion's daughter. Organized, caring, and constantly reminding her father to take care of himself.",
       "favorite_items": [
+        "tea_earl_grey_clara",
         "tra_oai_huong_ngan_sao",
         "la_tra_sen"
       ],
@@ -190,8 +199,9 @@
       "species": "Human",
       "description": "Weathered sea captain who has hung up his oars; Finn's grandfather. Delights in recounting tales of uncharted celestial islands.",
       "favorite_items": [
-        "drop_crystal_sea_salt",
-        "tra_anh_duong"
+        "tea_magma_spiced_chai",
+        "tra_anh_duong",
+        "drop_crystal_sea_salt"
       ],
       "quote": "The valley wind smells of the great outer seas of my youth... Give an old sailor a robust spiced cup and listen to my stories of the floating isles.",
       "birthday": "Summer 2",
@@ -205,8 +215,9 @@
       "species": "Human",
       "description": "Spirited boy who fishes along mountain streams and misty lakes; Garrick's grandson. Fascinated by luminous aquatic fauna.",
       "favorite_items": [
-        "drop_prism_jelly",
-        "dau_rung"
+        "tea_frostmint_breeze",
+        "dau_rung",
+        "drop_prism_jelly"
       ],
       "quote": "I hooked a huge rainbow-glowing trout today! Grandpa Garrick said I could bring it by the tea shop for a frosty peppermint refresher!",
       "birthday": "Summer 19",
@@ -235,6 +246,7 @@
       "species": "Human",
       "description": "Monocled botanical researcher from the elven woods; Elora's confidant. Frequently trades ancient roots for grounding, hearty teas.",
       "favorite_items": [
+        "tea_sylvan_night_infusion",
         "seed_star_lavender",
         "la_tra_sen"
       ],
@@ -250,7 +262,8 @@
       "species": "Human",
       "description": "Steadfast town guard keeping watch through long, freezing snowy nights while Oakhaven slumbers peacefully.",
       "favorite_items": [
-        "bread_brioche",
+        "dish_spicy_ginger_stew",
+        "bread_miner_sourdough",
         "ore_iron"
       ],
       "quote": "Wind howls right through the gaps in my armor... On long night patrols, only your spicy tea keeps my eyes from snapping shut.",

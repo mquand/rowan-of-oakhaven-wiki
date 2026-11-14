@@ -1578,6 +1578,348 @@
         "health",
         "craftable"
       ]
+    },
+    {
+      "id": "item_wild_mushroom",
+      "name": "Nấm Hương Rừng Già",
+      "description": "Nấm thơm mọc dưới gốc sồi cổ thụ và tầng rễ cây hầm ngục, nguyên liệu thượng hạng cho các món hầm và súp kem bơ.",
+      "category": "ingredient",
+      "rarity": "common",
+      "buy_price": 40,
+      "sell_price": 28,
+      "energy": 15,
+      "buff": null,
+      "recipe_id": null,
+      "tags": [
+        "ingredient",
+        "foraging",
+        "forest",
+        "dungeon"
+      ]
+    },
+    {
+      "id": "item_tea_sun_daisy_honey",
+      "name": "Trà Hoa Cúc Mật Ong",
+      "description": "Hương hoa cúc mặt trời phơi sương hòa với mật ong ấm áp, xoa dịu thần kinh và đẩy lùi mệt mỏi sau ngày dài.",
+      "category": "tea",
+      "rarity": "common",
+      "buy_price": null,
+      "sell_price": 55,
+      "energy": 45,
+      "buff": "+30% Tiết kiệm thể lực làm việc trong 4 phút",
+      "recipe_id": "tea_sun_daisy_honey",
+      "tags": [
+        "tea",
+        "calming",
+        "energy",
+        "craftable"
+      ]
+    },
+    {
+      "id": "item_tea_earl_grey_clara",
+      "name": "Trà Bá Tước Oakhaven",
+      "description": "Trà sen ủ với vỏ chanh sét sấy khô và mật mía, mang lại sự tỉnh táo minh mẫn tuyệt đối cho người đọc sách và nghiên cứu.",
+      "category": "tea",
+      "rarity": "uncommon",
+      "buy_price": null,
+      "sell_price": 95,
+      "energy": 55,
+      "buff": "+20% Điểm kinh nghiệm kỹ năng trong 5 phút",
+      "recipe_id": "tea_earl_grey_clara",
+      "tags": [
+        "tea",
+        "focus",
+        "energy",
+        "craftable"
+      ]
+    },
+    {
+      "id": "item_tea_frostmint_breeze",
+      "name": "Trà Bạc Hà Băng Tuyết",
+      "description": "Lá bạc hà băng giá kết hợp đá tinh thể đập vụn, giải nhiệt cấp tốc và tạo lớp màng mát lạnh bảo vệ cơ thể.",
+      "category": "tea",
+      "rarity": "uncommon",
+      "buy_price": null,
+      "sell_price": 85,
+      "energy": 50,
+      "buff": "Kháng hoàn toàn sát thương thiêu đốt và dung nham trong 4 phút",
+      "recipe_id": "tea_frostmint_breeze",
+      "tags": [
+        "tea",
+        "cooling",
+        "defense",
+        "craftable"
+      ]
+    },
+    {
+      "id": "item_tea_magma_spiced_chai",
+      "name": "Trà Chai Lửa Dung Nham",
+      "description": "Nước dưa hấu dung nham cô đặc đun sôi cùng gừng đỏ và vỏ quế, bùng cháy ngọn lửa dũng khí trong huyết quản.",
+      "category": "tea",
+      "rarity": "rare",
+      "buy_price": null,
+      "sell_price": 150,
+      "energy": 75,
+      "buff": "+15% Sát thương tấn công và miễn nhiễm đóng băng trong 5 phút",
+      "recipe_id": "tea_magma_spiced_chai",
+      "tags": [
+        "tea",
+        "combat",
+        "warming",
+        "craftable"
+      ]
+    },
+    {
+      "id": "item_tea_sylvan_night_infusion",
+      "name": "Trà Trầm Hương Rừng Già",
+      "description": "Sự kết hợp thâm sâu giữa lá trà sen, khoai nguyệt quang và vỏ quế, mang hương thơm tĩnh lặng của rừng nguyên sinh.",
+      "category": "tea",
+      "rarity": "uncommon",
+      "buy_price": null,
+      "sell_price": 105,
+      "energy": 65,
+      "buff": "+25% Tỉ lệ nhặt thảo dược quý trong 5 phút",
+      "recipe_id": "tea_sylvan_night_infusion",
+      "tags": [
+        "tea",
+        "foraging",
+        "craftable"
+      ]
+    },
+    {
+      "id": "item_bread_sweet_pumpkin_loaf",
+      "name": "Bánh Mì Bí Ngô Mật Ong",
+      "description": "Ổ bánh mì vàng ươm nở phồng từ bột bí ngô mật ong và bơ tươi, thơm nức mùi mùa thu Oakhaven.",
+      "category": "bakery",
+      "rarity": "uncommon",
+      "buy_price": null,
+      "sell_price": 110,
+      "energy": 80,
+      "buff": "+15% Năng suất thu hoạch cây trồng trong 5 phút",
+      "recipe_id": "bread_sweet_pumpkin_loaf",
+      "tags": [
+        "bakery",
+        "farming",
+        "craftable"
+      ]
+    },
+    {
+      "id": "item_pastry_sun_cornbread",
+      "name": "Bánh Bắp Vàng Nướng Chảo Đá",
+      "description": "Bánh ngô nướng xém viền giòn rụm trong chảo đá, xốp ẩm bên trong với hạt ngô ngọt mọng nước.",
+      "category": "bakery",
+      "rarity": "common",
+      "buy_price": null,
+      "sell_price": 75,
+      "energy": 70,
+      "buff": "+20% Tốc độ di chuyển dưới hang mỏ trong 4 phút",
+      "recipe_id": "pastry_sun_cornbread",
+      "tags": [
+        "bakery",
+        "speed",
+        "mining",
+        "craftable"
+      ]
+    },
+    {
+      "id": "item_pastry_berry_shortcake",
+      "name": "Bánh Xốp Dâu Rừng Kem Sữa",
+      "description": "Bánh quy xốp nướng bơ kẹp đầy dâu rừng mùa xuân tươi mọng và kem sữa ngọt ngào — món khoái khẩu của cô bé Penny.",
+      "category": "bakery",
+      "rarity": "uncommon",
+      "buy_price": null,
+      "sell_price": 120,
+      "energy": 100,
+      "buff": "+10% Doanh thu tiệm trà bánh trong 1 ngày",
+      "recipe_id": "pastry_berry_shortcake",
+      "tags": [
+        "bakery",
+        "shop",
+        "sweet",
+        "craftable"
+      ]
+    },
+    {
+      "id": "item_pastry_shadow_rye_pretzel",
+      "name": "Bánh Xoắn Hắc Mạch Nướng Giòn",
+      "description": "Bánh quy xoắn dẻo dai làm từ lúa mạch đen rừng, rắc muối mỏ mộc mạc, món nhắm lý tưởng của cánh thợ rèn.",
+      "category": "bakery",
+      "rarity": "common",
+      "buy_price": null,
+      "sell_price": 70,
+      "energy": 65,
+      "buff": "+15 Phòng thủ giáp trong 5 phút",
+      "recipe_id": "pastry_shadow_rye_pretzel",
+      "tags": [
+        "bakery",
+        "defense",
+        "combat",
+        "craftable"
+      ]
+    },
+    {
+      "id": "item_pastry_moonlight_yam_pie",
+      "name": "Bánh Pie Khoai Lang Nguyệt Quang",
+      "description": "Vỏ pie ngàn lớp nướng giòn rụm bọc lấy nhân khoai lang tím dẻo bùi phát quang ánh trăng dịu nhẹ.",
+      "category": "bakery",
+      "rarity": "rare",
+      "buy_price": null,
+      "sell_price": 165,
+      "energy": 120,
+      "buff": "Tầm nhìn đêm và hào quang sáng 8 ô trong 6 phút",
+      "recipe_id": "pastry_moonlight_yam_pie",
+      "tags": [
+        "bakery",
+        "exploration",
+        "mining",
+        "craftable"
+      ]
+    },
+    {
+      "id": "item_dish_miner_potato_stew",
+      "name": "Hầm Củ Cải Của Thợ Mỏ",
+      "description": "Nồi hầm sôi ùng ục với củ cải bạch ngọc, hắc cà rốt và bơ béo, tiếp thêm sinh lực cho những ca cuốc đá thâu đêm.",
+      "category": "meal",
+      "rarity": "uncommon",
+      "buy_price": null,
+      "sell_price": 115,
+      "energy": 110,
+      "buff": "+35% Tốc độ đào khoáng sản trong 5 phút",
+      "recipe_id": "dish_miner_potato_stew",
+      "tags": [
+        "meal",
+        "stew",
+        "mining",
+        "craftable"
+      ]
+    },
+    {
+      "id": "item_dish_wild_forest_mushroom_soup",
+      "name": "Súp Nấm Rừng Kem Bơ",
+      "description": "Súp nấm rừng sánh mịn nấu cùng kem bơ béo ngậy và bột mì tươi, xoa dịu mọi vết thương đau đớn.",
+      "category": "meal",
+      "rarity": "common",
+      "buy_price": null,
+      "sell_price": 90,
+      "energy": 85,
+      "buff": "Tự động hồi phục +4 HP/giây trong 3 phút",
+      "recipe_id": "dish_wild_forest_mushroom_soup",
+      "tags": [
+        "meal",
+        "soup",
+        "healing",
+        "craftable"
+      ]
+    },
+    {
+      "id": "item_dish_sweet_pumpkin_potage",
+      "name": "Súp Bí Đỏ Hạt Mây",
+      "description": "Món súp bí ngô sánh vàng óng ả ngọt bùi, rưới mật ong thơm lừng sưởi ấm tâm hồn trong những đêm gió lộng.",
+      "category": "meal",
+      "rarity": "uncommon",
+      "buy_price": null,
+      "sell_price": 95,
+      "energy": 90,
+      "buff": "+25% Kháng sát thương phép thuật trong 4 phút",
+      "recipe_id": "dish_sweet_pumpkin_potage",
+      "tags": [
+        "meal",
+        "soup",
+        "defense",
+        "craftable"
+      ]
+    },
+    {
+      "id": "item_dish_spicy_ginger_stew",
+      "name": "Hầm Hỏa Khương Tiêu Cay",
+      "description": "Nước canh hầm gừng lửa cay xè nấu cùng củ cải ngọc và hắc cà rốt, xua tan hoàn toàn cảm giác tê cóng và làm chậm.",
+      "category": "meal",
+      "rarity": "uncommon",
+      "buy_price": null,
+      "sell_price": 105,
+      "energy": 95,
+      "buff": "Miễn nhiễm làm chậm và đóng băng trong 5 phút",
+      "recipe_id": "dish_spicy_ginger_stew",
+      "tags": [
+        "meal",
+        "stew",
+        "warming",
+        "combat",
+        "craftable"
+      ]
+    },
+    {
+      "id": "item_dish_dwarf_ironforge_goulash",
+      "name": "Goulash Thợ Rèn Khaz-Drakor",
+      "description": "Món goulash đậm đặc truyền thống của thợ rèn tộc người lùn Khaz-Drakor, nấu từ ngô nướng, gừng đỏ và cà rốt ngầm.",
+      "category": "meal",
+      "rarity": "rare",
+      "buy_price": null,
+      "sell_price": 160,
+      "energy": 130,
+      "buff": "+20% Sát thương cận chiến (Búa, Kiếm, Rìu) trong 5 phút",
+      "recipe_id": "dish_dwarf_ironforge_goulash",
+      "tags": [
+        "meal",
+        "stew",
+        "combat",
+        "craftable"
+      ]
+    },
+    {
+      "id": "item_dish_moonlight_creamy_risotto",
+      "name": "Cháo Cơm Khoai Nguyệt Quang",
+      "description": "Cháo cơm hạt hắc mạch ninh nhừ với khoai nguyệt quang và bơ tươi béo ngậy, tỏa hương thảo mộc thanh thoát.",
+      "category": "meal",
+      "rarity": "uncommon",
+      "buy_price": null,
+      "sell_price": 125,
+      "energy": 115,
+      "buff": "+25% Cơ hội tìm thấy rương và quặng quý trong 4 phút",
+      "recipe_id": "dish_moonlight_creamy_risotto",
+      "tags": [
+        "meal",
+        "mining",
+        "exploration",
+        "craftable"
+      ]
+    },
+    {
+      "id": "item_dish_adventurer_travel_ration",
+      "name": "Lương Khô Thám Hiểm Hầm Ngục",
+      "description": "Gói lương khô nén chặt từ bột hắc mạch, quả mọng sấy và mật ong rừng cô đặc — không bao giờ hỏng khi lặn lội đáy hang.",
+      "category": "meal",
+      "rarity": "uncommon",
+      "buy_price": null,
+      "sell_price": 135,
+      "energy": 150,
+      "buff": "Hồi phục 150 Thể Lực và xóa bỏ trạng thái kiệt sức",
+      "recipe_id": "dish_adventurer_travel_ration",
+      "tags": [
+        "meal",
+        "ration",
+        "dungeon",
+        "craftable"
+      ]
+    },
+    {
+      "id": "item_dish_mandrake_vitality_broth",
+      "name": "Canh Nhân Sâm Mandrake Đại Bổ",
+      "description": "Bát canh thần dược chưng cách thủy từ củ Mandrake nghìn năm, hoa sen tuyết và mật ong rừng — thần dược phục sinh nguyên khí.",
+      "category": "meal",
+      "rarity": "mythic",
+      "buy_price": null,
+      "sell_price": 320,
+      "energy": 250,
+      "buff": "Hồi 100% Thể Lực, +50 HP Tối đa và +20% toàn diện trong 10 phút",
+      "recipe_id": "dish_mandrake_vitality_broth",
+      "tags": [
+        "meal",
+        "mythic",
+        "healing",
+        "buff",
+        "craftable"
+      ]
     }
   ]
 }

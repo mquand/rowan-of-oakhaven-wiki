@@ -4,6 +4,7 @@ import { DEFAULT_LOCALE } from './i18n/config';
 export const CATEGORY_ICONS = {
   tea: 'tea-bag',
   bakery: 'cake',
+  meal: 'cooking-pot',
   seed: 'plant',
   ingredient: 'grains',
   mineral: 'mountains',
@@ -23,6 +24,7 @@ export const RARITY_CLASSES = {
 export const STATION_ICONS = {
   tea_station: 'tea-bag',
   bakery_oven: 'cake',
+  cooking_pot: 'cooking-pot',
 };
 
 export function getCategoryLabel(category, lang = DEFAULT_LOCALE) {

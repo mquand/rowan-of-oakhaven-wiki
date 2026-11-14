@@ -367,6 +367,484 @@
       "result_item_id": "item_tea_whisper_hearth",
       "duration_seconds": 3,
       "effect_description": "Restores 45 Stamina, complete immunity to freezing cold for 5 minutes"
+    },
+    {
+      "id": "tea_sun_daisy_honey",
+      "name": "Sun Daisy Honey Tea",
+      "description": "Sun daisy petals steeped gently with amber honey, soothing frazzled nerves and easing cognitive fatigue.",
+      "station": "tea_station",
+      "ingredients": [
+        {
+          "id": "item_sun_daisy",
+          "name": "Sun Daisy Petal",
+          "quantity": 2
+        },
+        {
+          "id": "mat_ong",
+          "name": "Honey",
+          "quantity": 1
+        }
+      ],
+      "result_item_id": "item_tea_sun_daisy_honey",
+      "duration_seconds": 2,
+      "effect_description": "Restores 45 Stamina, reduces work stamina drain by 30% for 4 minutes"
+    },
+    {
+      "id": "tea_earl_grey_clara",
+      "name": "Oakhaven Earl Grey",
+      "description": "Lotus tea blended with dried spark-lemon peel and molasses cane, granting lucid clarity for scholars and researchers.",
+      "station": "tea_station",
+      "ingredients": [
+        {
+          "id": "la_tra_sen",
+          "name": "Lotus Tea Leaf",
+          "quantity": 1
+        },
+        {
+          "id": "item_spark_lemon",
+          "name": "Electric Spark Lemon",
+          "quantity": 1
+        },
+        {
+          "id": "item_honey_cane",
+          "name": "Amber Honey-Cane",
+          "quantity": 1
+        }
+      ],
+      "result_item_id": "item_tea_earl_grey_clara",
+      "duration_seconds": 3,
+      "effect_description": "Sharp focus, +20% Skill EXP Gain for 5 minutes"
+    },
+    {
+      "id": "tea_frostmint_breeze",
+      "name": "Frostmint Glacial Brew",
+      "description": "Frostmint leaves muddled with crushed ice crystals, rapidly chilling the core and coating the drinker in cool protection.",
+      "station": "tea_station",
+      "ingredients": [
+        {
+          "id": "item_frostmint",
+          "name": "Glacial Frostmint",
+          "quantity": 2
+        },
+        {
+          "id": "da_tinh_the",
+          "name": "Crystal Shard",
+          "quantity": 1
+        }
+      ],
+      "result_item_id": "item_tea_frostmint_breeze",
+      "duration_seconds": 2,
+      "effect_description": "Restores 50 Stamina, grants burn and lava damage immunity for 4 minutes"
+    },
+    {
+      "id": "tea_magma_spiced_chai",
+      "name": "Magma Spiced Chai",
+      "description": "Concentrated magma melon extract boiled with whisper ginger and cinnamon bark, kindling fearless warmth within.",
+      "station": "tea_station",
+      "ingredients": [
+        {
+          "id": "item_magma_melon",
+          "name": "Magma Melon",
+          "quantity": 1
+        },
+        {
+          "id": "item_whisper_ginger",
+          "name": "Whisper Ginger Root",
+          "quantity": 1
+        },
+        {
+          "id": "item_cinnamon",
+          "name": "Wild Cinnamon",
+          "quantity": 1
+        }
+      ],
+      "result_item_id": "item_tea_magma_spiced_chai",
+      "duration_seconds": 3,
+      "effect_description": "Restores 75 Stamina, +15% Attack Damage and freeze immunity for 5 minutes"
+    },
+    {
+      "id": "tea_sylvan_night_infusion",
+      "name": "Deep Forest Herbal Infusion",
+      "description": "A contemplative brew of lotus tea, moonlight yam essence, and wild cinnamon, carrying the tranquil scent of ancient pines.",
+      "station": "tea_station",
+      "ingredients": [
+        {
+          "id": "la_tra_sen",
+          "name": "Lotus Tea Leaf",
+          "quantity": 1
+        },
+        {
+          "id": "item_moonlight_yam",
+          "name": "Moonlight Violet Yam",
+          "quantity": 1
+        },
+        {
+          "id": "item_cinnamon",
+          "name": "Wild Cinnamon",
+          "quantity": 1
+        }
+      ],
+      "result_item_id": "item_tea_sylvan_night_infusion",
+      "duration_seconds": 3,
+      "effect_description": "Deep serenity, +25% rare herb & seed foraging chance for 5 minutes"
+    },
+    {
+      "id": "bread_sweet_pumpkin_loaf",
+      "name": "Honey Pumpkin Loaf",
+      "description": "A golden loaf baked with roasted honey pumpkin mash and farm butter, fragrant with autumnal warmth.",
+      "station": "bakery_oven",
+      "ingredients": [
+        {
+          "id": "item_flour",
+          "name": "Fresh Flour",
+          "quantity": 2
+        },
+        {
+          "id": "item_sweet_pumpkin",
+          "name": "Honey Pumpkin",
+          "quantity": 1
+        },
+        {
+          "id": "mat_ong",
+          "name": "Honey",
+          "quantity": 1
+        },
+        {
+          "id": "item_butter",
+          "name": "Farm Butter",
+          "quantity": 1
+        }
+      ],
+      "result_item_id": "item_bread_sweet_pumpkin_loaf",
+      "duration_seconds": 10,
+      "effect_description": "Restores 80 Stamina, +15% Crop Harvest Yield for 5 minutes"
+    },
+    {
+      "id": "pastry_sun_cornbread",
+      "name": "Golden Sun Cornbread",
+      "description": "Stone-skillet cornbread with crisp caramelized edges and a moist, golden crumb packed with sweet sun-corn kernels.",
+      "station": "bakery_oven",
+      "ingredients": [
+        {
+          "id": "item_flour",
+          "name": "Fresh Flour",
+          "quantity": 1
+        },
+        {
+          "id": "item_sun_corn",
+          "name": "Sun Corn Cob",
+          "quantity": 2
+        },
+        {
+          "id": "item_butter",
+          "name": "Farm Butter",
+          "quantity": 1
+        }
+      ],
+      "result_item_id": "item_pastry_sun_cornbread",
+      "duration_seconds": 9,
+      "effect_description": "Restores 70 Stamina, +20% Movement Speed in caves for 4 minutes"
+    },
+    {
+      "id": "pastry_berry_shortcake",
+      "name": "Forest Berry Shortcake",
+      "description": "Buttery, crumbly shortcake layered with sweet wildberries and whipped cream—Penny's all-time favorite treat.",
+      "station": "bakery_oven",
+      "ingredients": [
+        {
+          "id": "item_flour",
+          "name": "Fresh Flour",
+          "quantity": 2
+        },
+        {
+          "id": "item_spring_wildberry",
+          "name": "Spring Wildberry",
+          "quantity": 2
+        },
+        {
+          "id": "item_sugar",
+          "name": "Raw Cane Sugar",
+          "quantity": 1
+        },
+        {
+          "id": "item_butter",
+          "name": "Farm Butter",
+          "quantity": 1
+        }
+      ],
+      "result_item_id": "item_pastry_berry_shortcake",
+      "duration_seconds": 11,
+      "effect_description": "Restores 100 Stamina, +10% Shop Sales Income for 1 game day"
+    },
+    {
+      "id": "pastry_shadow_rye_pretzel",
+      "name": "Shadow Rye Pretzel",
+      "description": "Chewy, knot-twisted pretzel made from dark forest rye and dusted with crushed rock salt—a smithy's favorite hearty snack.",
+      "station": "bakery_oven",
+      "ingredients": [
+        {
+          "id": "item_shadow_rye",
+          "name": "Forest Shadow Rye",
+          "quantity": 2
+        },
+        {
+          "id": "item_flour",
+          "name": "Fresh Flour",
+          "quantity": 1
+        },
+        {
+          "id": "item_butter",
+          "name": "Farm Butter",
+          "quantity": 1
+        }
+      ],
+      "result_item_id": "item_pastry_shadow_rye_pretzel",
+      "duration_seconds": 10,
+      "effect_description": "Restores 65 Stamina, +15 Armor Defense for 5 minutes"
+    },
+    {
+      "id": "pastry_moonlight_yam_pie",
+      "name": "Moonlight Yam Pie",
+      "description": "Flaky multi-layered crust enveloping silky violet yam custard that emits a delicate lunar luminescence.",
+      "station": "bakery_oven",
+      "ingredients": [
+        {
+          "id": "item_moonlight_yam",
+          "name": "Moonlight Violet Yam",
+          "quantity": 2
+        },
+        {
+          "id": "item_flour",
+          "name": "Fresh Flour",
+          "quantity": 2
+        },
+        {
+          "id": "item_sugar",
+          "name": "Raw Cane Sugar",
+          "quantity": 1
+        },
+        {
+          "id": "mat_ong",
+          "name": "Honey",
+          "quantity": 1
+        }
+      ],
+      "result_item_id": "item_pastry_moonlight_yam_pie",
+      "duration_seconds": 13,
+      "effect_description": "Restores 120 Stamina, grants Night Vision and an 8-tile light aura for 6 minutes"
+    },
+    {
+      "id": "dish_miner_potato_stew",
+      "name": "Miner's Turnip Stew",
+      "description": "A bubbling cauldron of white jade turnips, shadow carrots, and brown butter, fueling deep overnight mining shifts.",
+      "station": "cooking_pot",
+      "ingredients": [
+        {
+          "id": "item_frost_turnip",
+          "name": "White Jade Turnip",
+          "quantity": 2
+        },
+        {
+          "id": "item_shadow_carrot",
+          "name": "Shadow Cat-Eye Carrot",
+          "quantity": 2
+        },
+        {
+          "id": "item_butter",
+          "name": "Farm Butter",
+          "quantity": 1
+        }
+      ],
+      "result_item_id": "item_dish_miner_potato_stew",
+      "duration_seconds": 8,
+      "effect_description": "Restores 110 Stamina, +35% Pickaxe Mining Speed for 5 minutes"
+    },
+    {
+      "id": "dish_wild_forest_mushroom_soup",
+      "name": "Creamy Forest Mushroom Soup",
+      "description": "Velvety soup simmered with earthy forest mushrooms, rich cream butter, and fresh flour, soothing aches and wounds.",
+      "station": "cooking_pot",
+      "ingredients": [
+        {
+          "id": "item_wild_mushroom",
+          "name": "Wild Forest Mushroom",
+          "quantity": 2
+        },
+        {
+          "id": "item_flour",
+          "name": "Fresh Flour",
+          "quantity": 1
+        },
+        {
+          "id": "item_butter",
+          "name": "Farm Butter",
+          "quantity": 1
+        }
+      ],
+      "result_item_id": "item_dish_wild_forest_mushroom_soup",
+      "duration_seconds": 7,
+      "effect_description": "Restores 85 Stamina, triggers +4 HP/sec Auto Regeneration for 3 minutes"
+    },
+    {
+      "id": "dish_sweet_pumpkin_potage",
+      "name": "Velvet Pumpkin Potage",
+      "description": "Golden, silky pumpkin potage drizzled with fragrant amber honey, warming the spirit on windy valley evenings.",
+      "station": "cooking_pot",
+      "ingredients": [
+        {
+          "id": "item_sweet_pumpkin",
+          "name": "Honey Pumpkin",
+          "quantity": 2
+        },
+        {
+          "id": "item_flour",
+          "name": "Fresh Flour",
+          "quantity": 1
+        },
+        {
+          "id": "mat_ong",
+          "name": "Honey",
+          "quantity": 1
+        }
+      ],
+      "result_item_id": "item_dish_sweet_pumpkin_potage",
+      "duration_seconds": 7,
+      "effect_description": "Restores 90 Stamina, +25% Magic Damage Resistance for 4 minutes"
+    },
+    {
+      "id": "dish_spicy_ginger_stew",
+      "name": "Searing Hearth Ginger Broth",
+      "description": "A blazing cauldron broth of fiery whisper ginger, turnips, and carrots, instantly incinerating chills and slow debuffs.",
+      "station": "cooking_pot",
+      "ingredients": [
+        {
+          "id": "item_whisper_ginger",
+          "name": "Whisper Ginger Root",
+          "quantity": 2
+        },
+        {
+          "id": "item_frost_turnip",
+          "name": "White Jade Turnip",
+          "quantity": 1
+        },
+        {
+          "id": "item_shadow_carrot",
+          "name": "Shadow Cat-Eye Carrot",
+          "quantity": 1
+        }
+      ],
+      "result_item_id": "item_dish_spicy_ginger_stew",
+      "duration_seconds": 8,
+      "effect_description": "Restores 95 Stamina, immunity to Slowness and Freeze effects for 5 minutes"
+    },
+    {
+      "id": "dish_dwarf_ironforge_goulash",
+      "name": "Ironforge Goulash",
+      "description": "A thick, hearty goulash born from the Khaz-Drakor dwarf forges, packing roasted corn, fiery ginger, and subterranean carrots.",
+      "station": "cooking_pot",
+      "ingredients": [
+        {
+          "id": "item_shadow_carrot",
+          "name": "Shadow Cat-Eye Carrot",
+          "quantity": 2
+        },
+        {
+          "id": "item_sun_corn",
+          "name": "Sun Corn Cob",
+          "quantity": 2
+        },
+        {
+          "id": "item_whisper_ginger",
+          "name": "Whisper Ginger Root",
+          "quantity": 1
+        },
+        {
+          "id": "item_butter",
+          "name": "Farm Butter",
+          "quantity": 1
+        }
+      ],
+      "result_item_id": "item_dish_dwarf_ironforge_goulash",
+      "duration_seconds": 10,
+      "effect_description": "Restores 130 Stamina, +20% Melee Weapon Damage (Hammer, Sword, Axe) for 5 minutes"
+    },
+    {
+      "id": "dish_moonlight_creamy_risotto",
+      "name": "Moonlight Herb Risotto",
+      "description": "Silky dark-rye grain risotto braised slowly with moonlight yam purée and herb butter, exhaling ethereal aromas.",
+      "station": "cooking_pot",
+      "ingredients": [
+        {
+          "id": "item_moonlight_yam",
+          "name": "Moonlight Violet Yam",
+          "quantity": 2
+        },
+        {
+          "id": "item_shadow_rye",
+          "name": "Forest Shadow Rye",
+          "quantity": 2
+        },
+        {
+          "id": "item_butter",
+          "name": "Farm Butter",
+          "quantity": 1
+        }
+      ],
+      "result_item_id": "item_dish_moonlight_creamy_risotto",
+      "duration_seconds": 9,
+      "effect_description": "Restores 115 Stamina, +25% Treasure Chest & Rare Ore Find Chance in caves for 4 minutes"
+    },
+    {
+      "id": "dish_adventurer_travel_ration",
+      "name": "Adventurer's Camp Rations",
+      "description": "Dense, nutrient-packed travel brick of pressed shadow-rye, dried spring berries, and solidified honey—never spoils in damp depths.",
+      "station": "cooking_pot",
+      "ingredients": [
+        {
+          "id": "item_shadow_rye",
+          "name": "Forest Shadow Rye",
+          "quantity": 2
+        },
+        {
+          "id": "item_spring_wildberry",
+          "name": "Spring Wildberry",
+          "quantity": 2
+        },
+        {
+          "id": "mat_ong",
+          "name": "Honey",
+          "quantity": 1
+        }
+      ],
+      "result_item_id": "item_dish_adventurer_travel_ration",
+      "duration_seconds": 6,
+      "effect_description": "Restores 150 Stamina and cleanses fatigue"
+    },
+    {
+      "id": "dish_mandrake_vitality_broth",
+      "name": "Mandrake Vitality Broth",
+      "description": "A mythical tonic double-boiled from ancient Mandrake root, frost lotus petals, and wild honey—the apex of restorative elixirs.",
+      "station": "cooking_pot",
+      "ingredients": [
+        {
+          "id": "item_mandrake",
+          "name": "Ancient Ginseng Mandrake",
+          "quantity": 1
+        },
+        {
+          "id": "item_frost_lotus",
+          "name": "Millennial Frost Lotus",
+          "quantity": 1
+        },
+        {
+          "id": "mat_ong",
+          "name": "Honey",
+          "quantity": 1
+        }
+      ],
+      "result_item_id": "item_dish_mandrake_vitality_broth",
+      "duration_seconds": 12,
+      "effect_description": "Instantly restores 100% Stamina, +50 Max HP and +20% to all core attributes for 10 minutes"
     }
   ]
 }

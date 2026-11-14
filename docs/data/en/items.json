@@ -1578,6 +1578,348 @@
         "health",
         "craftable"
       ]
+    },
+    {
+      "id": "item_wild_mushroom",
+      "name": "Wild Forest Mushroom",
+      "description": "Fragrant mushrooms gathered beneath ancient oaks and biological cavern roots, prime ingredients for rich stews and creamy broths.",
+      "category": "ingredient",
+      "rarity": "common",
+      "buy_price": 40,
+      "sell_price": 28,
+      "energy": 15,
+      "buff": null,
+      "recipe_id": null,
+      "tags": [
+        "ingredient",
+        "foraging",
+        "forest",
+        "dungeon"
+      ]
+    },
+    {
+      "id": "item_tea_sun_daisy_honey",
+      "name": "Sun Daisy Honey Tea",
+      "description": "Sun daisy petals steeped gently with amber honey, soothing frazzled nerves and easing cognitive fatigue.",
+      "category": "tea",
+      "rarity": "common",
+      "buy_price": null,
+      "sell_price": 55,
+      "energy": 45,
+      "buff": "+30% Work Stamina Efficiency for 4 minutes",
+      "recipe_id": "tea_sun_daisy_honey",
+      "tags": [
+        "tea",
+        "calming",
+        "energy",
+        "craftable"
+      ]
+    },
+    {
+      "id": "item_tea_earl_grey_clara",
+      "name": "Oakhaven Earl Grey",
+      "description": "Lotus tea blended with dried spark-lemon peel and molasses cane, granting lucid clarity for scholars and researchers.",
+      "category": "tea",
+      "rarity": "uncommon",
+      "buy_price": null,
+      "sell_price": 95,
+      "energy": 55,
+      "buff": "+20% Skill EXP Gain for 5 minutes",
+      "recipe_id": "tea_earl_grey_clara",
+      "tags": [
+        "tea",
+        "focus",
+        "energy",
+        "craftable"
+      ]
+    },
+    {
+      "id": "item_tea_frostmint_breeze",
+      "name": "Frostmint Glacial Brew",
+      "description": "Frostmint leaves muddled with crushed ice crystals, rapidly chilling the core and coating the drinker in cool protection.",
+      "category": "tea",
+      "rarity": "uncommon",
+      "buy_price": null,
+      "sell_price": 85,
+      "energy": 50,
+      "buff": "Immunity to burn damage and lava hazards for 4 minutes",
+      "recipe_id": "tea_frostmint_breeze",
+      "tags": [
+        "tea",
+        "cooling",
+        "defense",
+        "craftable"
+      ]
+    },
+    {
+      "id": "item_tea_magma_spiced_chai",
+      "name": "Magma Spiced Chai",
+      "description": "Concentrated magma melon extract boiled with whisper ginger and cinnamon bark, kindling fearless warmth within.",
+      "category": "tea",
+      "rarity": "rare",
+      "buy_price": null,
+      "sell_price": 150,
+      "energy": 75,
+      "buff": "+15% Attack Damage and freeze immunity for 5 minutes",
+      "recipe_id": "tea_magma_spiced_chai",
+      "tags": [
+        "tea",
+        "combat",
+        "warming",
+        "craftable"
+      ]
+    },
+    {
+      "id": "item_tea_sylvan_night_infusion",
+      "name": "Deep Forest Herbal Infusion",
+      "description": "A contemplative brew of lotus tea, moonlight yam essence, and wild cinnamon, carrying the tranquil scent of ancient pines.",
+      "category": "tea",
+      "rarity": "uncommon",
+      "buy_price": null,
+      "sell_price": 105,
+      "energy": 65,
+      "buff": "+25% Rare Herb & Seed Foraging Chance for 5 minutes",
+      "recipe_id": "tea_sylvan_night_infusion",
+      "tags": [
+        "tea",
+        "foraging",
+        "craftable"
+      ]
+    },
+    {
+      "id": "item_bread_sweet_pumpkin_loaf",
+      "name": "Honey Pumpkin Loaf",
+      "description": "A golden loaf baked with roasted honey pumpkin mash and farm butter, fragrant with autumnal warmth.",
+      "category": "bakery",
+      "rarity": "uncommon",
+      "buy_price": null,
+      "sell_price": 110,
+      "energy": 80,
+      "buff": "+15% Crop Harvest Yield for 5 minutes",
+      "recipe_id": "bread_sweet_pumpkin_loaf",
+      "tags": [
+        "bakery",
+        "farming",
+        "craftable"
+      ]
+    },
+    {
+      "id": "item_pastry_sun_cornbread",
+      "name": "Golden Sun Cornbread",
+      "description": "Stone-skillet cornbread with crisp caramelized edges and a moist, golden crumb packed with sweet sun-corn kernels.",
+      "category": "bakery",
+      "rarity": "common",
+      "buy_price": null,
+      "sell_price": 75,
+      "energy": 70,
+      "buff": "+20% Cave Movement Speed for 4 minutes",
+      "recipe_id": "pastry_sun_cornbread",
+      "tags": [
+        "bakery",
+        "speed",
+        "mining",
+        "craftable"
+      ]
+    },
+    {
+      "id": "item_pastry_berry_shortcake",
+      "name": "Forest Berry Shortcake",
+      "description": "Buttery, crumbly shortcake layered with sweet wildberries and whipped cream—Penny's all-time favorite treat.",
+      "category": "bakery",
+      "rarity": "uncommon",
+      "buy_price": null,
+      "sell_price": 120,
+      "energy": 100,
+      "buff": "+10% Shop Sales Income for 1 game day",
+      "recipe_id": "pastry_berry_shortcake",
+      "tags": [
+        "bakery",
+        "shop",
+        "sweet",
+        "craftable"
+      ]
+    },
+    {
+      "id": "item_pastry_shadow_rye_pretzel",
+      "name": "Shadow Rye Pretzel",
+      "description": "Chewy, knot-twisted pretzel made from dark forest rye and dusted with crushed rock salt—a smithy's favorite hearty snack.",
+      "category": "bakery",
+      "rarity": "common",
+      "buy_price": null,
+      "sell_price": 70,
+      "energy": 65,
+      "buff": "+15 Armor Defense for 5 minutes",
+      "recipe_id": "pastry_shadow_rye_pretzel",
+      "tags": [
+        "bakery",
+        "defense",
+        "combat",
+        "craftable"
+      ]
+    },
+    {
+      "id": "item_pastry_moonlight_yam_pie",
+      "name": "Moonlight Yam Pie",
+      "description": "Flaky multi-layered crust enveloping silky violet yam custard that emits a delicate lunar luminescence.",
+      "category": "bakery",
+      "rarity": "rare",
+      "buy_price": null,
+      "sell_price": 165,
+      "energy": 120,
+      "buff": "Night Vision and 8-tile light aura for 6 minutes",
+      "recipe_id": "pastry_moonlight_yam_pie",
+      "tags": [
+        "bakery",
+        "exploration",
+        "mining",
+        "craftable"
+      ]
+    },
+    {
+      "id": "item_dish_miner_potato_stew",
+      "name": "Miner's Turnip Stew",
+      "description": "A bubbling cauldron of white jade turnips, shadow carrots, and brown butter, fueling deep overnight mining shifts.",
+      "category": "meal",
+      "rarity": "uncommon",
+      "buy_price": null,
+      "sell_price": 115,
+      "energy": 110,
+      "buff": "+35% Pickaxe Mining Speed for 5 minutes",
+      "recipe_id": "dish_miner_potato_stew",
+      "tags": [
+        "meal",
+        "stew",
+        "mining",
+        "craftable"
+      ]
+    },
+    {
+      "id": "item_dish_wild_forest_mushroom_soup",
+      "name": "Creamy Forest Mushroom Soup",
+      "description": "Velvety soup simmered with earthy forest mushrooms, rich cream butter, and fresh flour, soothing aches and wounds.",
+      "category": "meal",
+      "rarity": "common",
+      "buy_price": null,
+      "sell_price": 90,
+      "energy": 85,
+      "buff": "+4 HP/sec Auto Regeneration for 3 minutes",
+      "recipe_id": "dish_wild_forest_mushroom_soup",
+      "tags": [
+        "meal",
+        "soup",
+        "healing",
+        "craftable"
+      ]
+    },
+    {
+      "id": "item_dish_sweet_pumpkin_potage",
+      "name": "Velvet Pumpkin Potage",
+      "description": "Golden, silky pumpkin potage drizzled with fragrant amber honey, warming the spirit on windy valley evenings.",
+      "category": "meal",
+      "rarity": "uncommon",
+      "buy_price": null,
+      "sell_price": 95,
+      "energy": 90,
+      "buff": "+25% Magic Damage Resistance for 4 minutes",
+      "recipe_id": "dish_sweet_pumpkin_potage",
+      "tags": [
+        "meal",
+        "soup",
+        "defense",
+        "craftable"
+      ]
+    },
+    {
+      "id": "item_dish_spicy_ginger_stew",
+      "name": "Searing Hearth Ginger Broth",
+      "description": "A blazing cauldron broth of fiery whisper ginger, turnips, and carrots, instantly incinerating chills and slow debuffs.",
+      "category": "meal",
+      "rarity": "uncommon",
+      "buy_price": null,
+      "sell_price": 105,
+      "energy": 95,
+      "buff": "Immunity to Slowness and Freeze effects for 5 minutes",
+      "recipe_id": "dish_spicy_ginger_stew",
+      "tags": [
+        "meal",
+        "stew",
+        "warming",
+        "combat",
+        "craftable"
+      ]
+    },
+    {
+      "id": "item_dish_dwarf_ironforge_goulash",
+      "name": "Ironforge Goulash",
+      "description": "A thick, hearty goulash born from the Khaz-Drakor dwarf forges, packing roasted corn, fiery ginger, and subterranean carrots.",
+      "category": "meal",
+      "rarity": "rare",
+      "buy_price": null,
+      "sell_price": 160,
+      "energy": 130,
+      "buff": "+20% Melee Weapon Damage (Hammer, Sword, Axe) for 5 minutes",
+      "recipe_id": "dish_dwarf_ironforge_goulash",
+      "tags": [
+        "meal",
+        "stew",
+        "combat",
+        "craftable"
+      ]
+    },
+    {
+      "id": "item_dish_moonlight_creamy_risotto",
+      "name": "Moonlight Herb Risotto",
+      "description": "Silky dark-rye grain risotto braised slowly with moonlight yam purée and herb butter, exhaling ethereal aromas.",
+      "category": "meal",
+      "rarity": "uncommon",
+      "buy_price": null,
+      "sell_price": 125,
+      "energy": 115,
+      "buff": "+25% Treasure Chest & Rare Ore Find Chance in caves for 4 minutes",
+      "recipe_id": "dish_moonlight_creamy_risotto",
+      "tags": [
+        "meal",
+        "mining",
+        "exploration",
+        "craftable"
+      ]
+    },
+    {
+      "id": "item_dish_adventurer_travel_ration",
+      "name": "Adventurer's Camp Rations",
+      "description": "Dense, nutrient-packed travel brick of pressed shadow-rye, dried spring berries, and solidified honey—never spoils in damp depths.",
+      "category": "meal",
+      "rarity": "uncommon",
+      "buy_price": null,
+      "sell_price": 135,
+      "energy": 150,
+      "buff": "Restores 150 Stamina and cleanses fatigue",
+      "recipe_id": "dish_adventurer_travel_ration",
+      "tags": [
+        "meal",
+        "ration",
+        "dungeon",
+        "craftable"
+      ]
+    },
+    {
+      "id": "item_dish_mandrake_vitality_broth",
+      "name": "Mandrake Vitality Broth",
+      "description": "A mythical tonic double-boiled from ancient Mandrake root, frost lotus petals, and wild honey—the apex of restorative elixirs.",
+      "category": "meal",
+      "rarity": "mythic",
+      "buy_price": null,
+      "sell_price": 320,
+      "energy": 250,
+      "buff": "Instantly restores 100% Stamina, +50 Max HP and +20% to all core attributes for 10 minutes",
+      "recipe_id": "dish_mandrake_vitality_broth",
+      "tags": [
+        "meal",
+        "mythic",
+        "healing",
+        "buff",
+        "craftable"
+      ]
     }
   ]
 }

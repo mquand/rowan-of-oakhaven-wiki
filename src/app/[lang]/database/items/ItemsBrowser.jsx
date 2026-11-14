@@ -11,6 +11,7 @@ import { getDictionary } from '../../../../lib/i18n/getDictionary';
 const CATEGORY_KEYS = [
   'tea',
   'bakery',
+  'meal',
   'seed',
   'ingredient',
   'mineral',
