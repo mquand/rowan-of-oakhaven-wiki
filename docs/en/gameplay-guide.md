@@ -16,7 +16,7 @@ spoiler: false
 
 ## The Daily Clock Cycle
 
-A single in-game day spans **10 real-world minutes** (`1 game hour = 25 seconds`). Players arrange their daily schedule with complete freedom — there are no forced quests or stressful timers.
+A single in-game day spans **12 to 14 real-world minutes** (standard baseline, customizable up to 20 minutes in Settings). Players arrange their daily schedule with complete freedom between homestead farming, mine delving, and evening hospitality.
 
 | Game Time | Phase | Real Time | Recommended Activities |
 | :--- | :--- | :---: | :--- |

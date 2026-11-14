@@ -16,7 +16,7 @@ spoiler: false
 
 ## Chu Kỳ Một Ngày
 
-Một ngày trong game kéo dài **10 phút thực tế** (`1 giờ game = 25 giây`). Người chơi tự do sắp xếp lịch trình — không có nhiệm vụ ép buộc.
+Một ngày trong game kéo dài **12 – 14 phút thực tế** (chuẩn, có thể tùy chỉnh lên 20 phút thư thái trong Cài Đặt). Người chơi tự do sắp xếp lịch trình sinh hoạt giữa nông trang, hầm mỏ và tiệm bánh trà.
 
 | Khung Giờ Game | Buổi | Thời Lượng | Hoạt Động Gợi Ý |
 | :--- | :--- | :---: | :--- |

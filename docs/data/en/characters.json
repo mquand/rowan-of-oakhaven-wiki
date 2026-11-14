@@ -6,18 +6,18 @@
     {
       "id": "npc_rowan",
       "name": "Rowan",
-      "role": "Keeper of the Oakhaven Cafe & Bakery",
+      "role": "Hearthkeeper & Mine Delver of Oakhaven",
       "location": "Oakhaven Cafe & Bakery (Oakhaven)",
-      "species": "Human (Witch)",
-      "description": "A young witch fresh from the Royal Arcane Academy, inheriting her late grandmother Amalia's cozy bakery & cafe and her tattered grimoire.",
+      "species": "Human (Frontier Artisan)",
+      "description": "Resilient frontier artisan and keeper of Oakhaven's hearth. Equal parts capable farmer, deep-mine delver, and baker who keeps the wood stove roaring each night for a rugged frontier town.",
       "favorite_items": [
         "tra_sen_an_than",
         "bread_brioche",
         "dish_moonlight_creamy_risotto"
       ],
-      "quote": "The greatest magic sometimes is just a warm cup of herbal tea and a shared smile.",
+      "quote": "These hands swing heavy pickaxes in the deep dark, yet know how to knead warm dough to banish the winter frost.",
       "birthday": "Spring 1",
-      "schedule": "All day: Managing the Oakhaven Cafe & Bakery & herb gardens"
+      "schedule": "Morning & Afternoon: Tending homestead & delving the 150-floor mine; Evening: Firing the ovens at the hearth"
     },
     {
       "id": "pet_pip",

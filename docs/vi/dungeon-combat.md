@@ -35,7 +35,7 @@ Thế giới lòng đất của Oakhaven là trụ cột **hành động & sinh 
 ```
 
 1. **Hang Mỏ Oakhaven (The 150-Floor Mines):**
-   * Tiến trình cố định gồm **150 tầng mỏ**, phân bố thành 5 đới địa chất (Đất mềm tầng 1–20, Mỏ đồng tầng 21–50, Vực quặng sắt tầng 51–80, Đới hoàng kim tầng 81–110, Vực dung nham & hắc diện thạch tầng 111–140, và Đáy mỏ Tinh Tú tầng 141–150).
+   * Tiến trình cố định gồm **150 tầng mỏ**, phân bố thành 6 đới địa chất (Đất mềm tầng 1–20, Mỏ đồng tầng 21–50, Vực quặng sắt tầng 51–80, Đới hoàng kim tầng 81–110, Vực dung nham & hắc diện thạch tầng 111–140, và Đáy mỏ Tinh Tú tầng 141–150).
    * **Thang máy cơ giới:** Tự động mở khóa trạm dừng mỗi 5 tầng mỏ (5, 10, 15... 150), cho phép di chuyển tức thời giữa mặt đất và tầng đã khai phá.
    * **Warden Boss mốc:** Canh giữ tại các mốc tầng 30, 60, 90, 120 và 150. Đánh bại Warden sẽ mở khóa bản vẽ rèn đúc mới của Boris và lối đi sang đới kế tiếp.
 

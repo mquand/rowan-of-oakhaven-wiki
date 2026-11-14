@@ -12,6 +12,7 @@ export const CATEGORY_ICONS = {
   monster_drop: 'sparkle',
   wood: 'acorn',
   magic: 'sparkle',
+  crafted: 'package',
 };
 
 export const RARITY_CLASSES = {
@@ -25,6 +26,7 @@ export const STATION_ICONS = {
   tea_station: 'tea-bag',
   bakery_oven: 'cake',
   cooking_pot: 'cooking-pot',
+  artisan_workbench: 'package',
 };
 
 export function getCategoryLabel(category, lang = DEFAULT_LOCALE) {

@@ -16,10 +16,10 @@ spoiler: false
 
 ## 1. Nhân Vật Chính & Bạn Đồng Hành
 
-### 🌸 Rowan (Chủ Tiệm Trà Bụi Sao)
+### 🌸 Rowan (Chủ Tiệm Bánh Trà & Thợ Lặn Mỏ)
 * **Vai trò:** Nhân vật chính điều khiển bởi người chơi.
-* **Mô tả:** Cô gái phù thủy trẻ vừa rời Viện Phép Thuật hoàng gia sau những năm tháng kiệt sức vì áp lực học thuật. Cô trở về Oakhaven tiếp quản tiệm trà của bà ngoại Amalia, mang theo trái tim đồng cảm và đôi bàn tay khéo léo.
-* **Nhận diện:** Búi tóc cài hoa khô, chiếc tạp dề linen vương bột bánh, ánh mắt ấm áp.
+* **Mô tả:** Người thợ thủ công khai hoang kiên cường và chủ nhân tiếp quản tiệm bánh trà Oakhaven của bà ngoại Amalia. Không vướng bận cuộc sống nhung lụa kinh đô, Rowan chọn vùng đất biên viễn sương gió: tự tay cuốc đất trồng trọt, cầm cuốc chim và vũ khí tôi luyện lặn lội qua 150 tầng mỏ tối tăm, tối về lại nhóm lò đỏ lửa phục vụ những bữa ăn ấm bụng cho cư dân thị trấn.
+* **Nhận diện:** Chiếc áo khoác da sờn phong trần, tạp dề linen vương bột bánh và bụi mỏ, đôi bàn tay chai sạn vững chãi và ánh mắt kiên định.
 
 ### 🦉 Pip (Chú Cú Lùn Đồng Hành)
 * **Vai trò:** Bạn đồng hành đưa thư & thu nhặt hạt giống.

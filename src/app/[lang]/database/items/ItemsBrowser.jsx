@@ -17,6 +17,7 @@ const CATEGORY_KEYS = [
   'mineral',
   'gem',
   'monster_drop',
+  'crafted',
 ];
 
 export default function ItemsBrowser({ items, lang = DEFAULT_LOCALE }) {

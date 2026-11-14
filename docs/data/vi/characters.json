@@ -6,18 +6,18 @@
     {
       "id": "npc_rowan",
       "name": "Rowan",
-      "role": "Chủ Tiệm Trà & Bánh Oakhaven",
+      "role": "Chủ Tiệm Bánh Trà & Thợ Lặn Mỏ Oakhaven",
       "location": "Tiệm Trà & Bánh Oakhaven",
-      "species": "Human (Phù Thủy)",
-      "description": "Nữ phù thủy trẻ vừa rời Viện Phép Thuật, kế thừa tiệm trà bánh và quyển sổ rách bí truyền của bà ngoại Amalia.",
+      "species": "Human (Thợ Thủ Công Khai Hoang)",
+      "description": "Thợ thủ công khai hoang kiên cường và chủ tiệm bánh trà Oakhaven. Tự tay cuốc đất, xuống hầm mỏ 150 tầng săn quặng, tối về nhóm lò đỏ lửa phục vụ những bữa ăn no bụng cho cư dân thị trấn biên viễn.",
       "favorite_items": [
         "tra_sen_an_than",
         "bread_brioche",
         "dish_moonlight_creamy_risotto"
       ],
-      "quote": "Phép thuật vĩ đại nhất đôi khi chỉ là một tách trà ấm và nụ cười sẻ chia.",
+      "quote": "Bàn tay này biết vung cuốc quai búa dưới mỏ sâu, và cũng biết nhào bột nướng bánh sưởi ấm đêm đông.",
       "birthday": "Ngày 1 Mùa Xuân",
-      "schedule": "Cả ngày: Quản lý Tiệm Trà & Bánh Oakhaven & Vườn sau tiệm"
+      "schedule": "Sáng & Chiều: Nông trang & Khai phá hầm mỏ 150 tầng; Tối: Đứng lò nướng phục vụ tiệm bánh trà"
     },
     {
       "id": "pet_pip",

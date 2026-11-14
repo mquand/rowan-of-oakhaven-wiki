@@ -35,7 +35,7 @@ The subterranean depths of Oakhaven constitute the game's **core action and surv
 ```
 
 1. **The Oakhaven Mines (150 Fixed Floors):**
-   * A fixed 150-floor descent divided into 5 distinct geological strata (Shallow Earth 1–20, Copper Shafts 21–50, Iron Caverns 51–80, Golden Hollows 81–110, Volcanic Obsidian 111–140, and Starlight Depths 141–150).
+   * A fixed 150-floor descent divided into 6 distinct geological strata (Shallow Earth 1–20, Copper Shafts 21–50, Iron Caverns 51–80, Golden Hollows 81–110, Volcanic Obsidian 111–140, and Starlight Depths 141–150).
    * **Mechanical Elevators:** Automatically unlocks a lift gate every 5 floors (5, 10, 15... 150), allowing instant transit between the surface and explored depths.
    * **Stratum Wardens:** Major bosses defending milestones at floors 30, 60, 90, 120, and 150. Slaying a Warden unlocks new blueprints at Boris's Forge and passage into subsequent strata.
 

@@ -18,14 +18,14 @@ spoiler: false
 ## 1. Introduction & Prologue Story
 
 ### 1.1. Story Premise
-> *"Inheriting her late grandmother's rustic tea and pastry shop on the border of the Whisperwood, you harvest enchanted botanicals, delve into deep mines for coal and crystals, and open your doors each twilight to listen to travelers' deepest heartaches — hand-kneading dough and brewing Starlight herbal teas to bring solace to weary souls."*
+> *"Inheriting her late grandmother's rustic homestead and hearth at the Oakhaven frontier crossroads, you cultivate seasonal crops, wield pickaxes and forged steel across 150 treacherous mine floors, and set stream traps for lantern fuel — opening your doors each twilight to welcome weather-beaten miners, veteran knights, and weary wanderers to a roaring hearth, fresh crusty loaves, and restorative teas."*
 
 ### 1.2. The Prologue
-**Rowan** is a gifted young witch exhausted after grueling academic years at the Royal Arcane Academy. Feeling unmoored and disillusioned by detached royal scholasticism, she receives word that her **Grandmother Amalia** — a revered, warm-hearted artisan of magical teas and pastries — has peacefully passed away in her sleep.
+**Rowan** is an independent, capable frontier artisan. Rejecting the detached, pampered politics of aristocratic court scholasticism, she returned to the rugged frontier of Oakhaven to take up the hearth and untamed plot bequeathed by her late **Grandmother Amalia**, who passed away peacefully in her sleep.
 
-Amalia leaves Rowan a cozy, moss-shingled timber home by the Oakhaven crossroads, an overgrown garden plot, a pygmy owl companion named **Pip**, and her cherished **"Tattered Secret Grimoire"** brimming with unfinished, experimental recipes.
+Amalia leaves Rowan a moss-shingled timber homestead at the crossroads, an overgrown garden plot, a pygmy owl messenger named **Pip**, a calico hearth cat named **Mallow**, and her cherished **"Tattered Secret Grimoire"** brimming with handwritten formulas and unfinished culinary experiments.
 
-Here, Rowan discovers that the greatest magic does not lie in earth-shattering incantations, but in the comforting aroma of a fresh, crusty loaf pulled from the brick oven and the tranquil clarity of a cup of snow-lotus tea brewed with genuine empathy.
+In this harsh frontier, Rowan proves that true mastery lies not in hollow court spells, but in the crackle of firewood, the crusty warmth of sourdough fresh from the brick oven, and the genuine camaraderie shared with hardworking souls around a shared hearth.
 
 ---
 

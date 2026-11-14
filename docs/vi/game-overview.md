@@ -18,14 +18,14 @@ spoiler: false
 ## 1. Giới Thiệu Chung & Cốt Truyện Khởi Đầu
 
 ### 1.1. Giới thiệu cốt truyện
-> *"Tiếp quản tiệm trà bánh cũ của người bà quá cố nơi rìa Rừng Thầm Thì, bạn gieo trồng thảo mộc, đào mỏ tìm than đá và thạch anh, để mỗi tối mở tiệm lắng nghe tâm sự của dân làng, tự tay nhào bột và pha những tách trà thảo mộc Bụi Sao xoa dịu nỗi muộn phiền cho họ."*
+> *"Tiếp quản cơ ngơi và tiệm bánh trà của người bà quá cố nơi ngã ba Oakhaven biên viễn, bạn gieo trồng nông sản 4 mùa, cầm cuốc chim và vũ khí tôi luyện lặn lội qua 150 tầng mỏ tối tăm, đặt bẫy lờ suối bắt cá kiếm dầu thắp đèn, để mỗi tối mở tiệm đón những người thợ mỏ, cựu binh và cư dân sương gió ghé vào sưởi ấm, thưởng thức những mẻ bánh nướng giòn rụm và những tách trà ấm xoa dịu nỗi nhọc nhằn."*
 
 ### 1.2. Cốt Truyện Mở Đầu
-**Rowan** là một học viên phù thủy trẻ vừa kiệt sức sau nhiều năm chịu áp lực học thuật nặng nề tại Viện Phép Thuật hoàng gia. Giữa lúc phương hướng cuộc đời mờ mịt, cô nhận được tin **Bà Ngoại Amalia** — một nghệ nhân trà bánh ma thuật nổi tiếng ấm áp và đôn hậu — đã qua đời thanh thản trong giấc ngủ.
+**Rowan** là một thợ thủ công khai hoang mang tinh thần độc lập và bàn tay chai sạn. Khước từ cuộc sống nhung lụa xa cách thực tế chốn cung đình kinh đô, cô trở về Oakhaven tiếp quản tiệm bánh trà và mảnh đất hoang do **Bà Ngoại Amalia** để lại sau khi bà qua đời thanh thản.
 
-Bà để lại cho Rowan một căn nhà gỗ nhỏ phủ rêu phong nơi ngã ba thị trấn Oakhaven, một góc vườn hoang, chú cú lùn đồng hành **Pip**, và **"Quyển Sổ Rách Bí Truyền"** chứa những công thức thử nghiệm dở dang của bà.
+Bà để lại cho Rowan một căn nhà gỗ nhỏ phủ rêu phong nơi ngã ba thị trấn Oakhaven, một mảnh đất hoang sau nhà, chú cú lùn đồng hành **Pip**, chú mèo tam thể **Mallow**, và **"Quyển Sổ Rách Bí Truyền"** chứa những công thức thử nghiệm dở dang của bà.
 
-Tại đây, Rowan nhận ra phép thuật vĩ đại nhất không nằm ở những câu thần chú quyền năng hủy diệt, mà nằm ở hơi ấm của một ổ bánh mì vừa ra lò giòn rụm và hương thơm thanh tịnh của tách trà sen được pha từ sự chân thành.
+Tại vùng đất biên viễn khắc nghiệt này, Rowan nhận ra sức mạnh đích thực không nằm ở những câu thần chú hư danh, mà nằm ở hơi ấm của một ổ bánh mì vừa ra lò giòn rụm, nồi súp hầm đậm đà và tách trà thảo mộc được chuẩn bị bằng tất cả sự thấu hiểu dành cho những con người lao động lam lũ.
 
 ---
 

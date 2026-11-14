@@ -23,7 +23,7 @@ flowchart TD
 
 | Nhân vật (Vi / En) | Vai trò / Nghề nghiệp | Địa điểm xuất hiện & Lịch trình | Vai trò trong Gameplay | Thức ăn / Quà tặng yêu thích |
 | :--- | :--- | :--- | :--- | :--- |
-| **Rowan** *(Rowan)* | Chủ Tiệm Trà & Nông Trang | Tiệm Trà & Bánh Oakhaven | Nhân vật chính; quản lý nông trang, pha chế trà bánh, mở tiệm đón khách và thám hiểm hang mỏ. | Trà Sen An Thần, Bánh Mì Bơ Brioche, Cơm Risotto Nấm Trăng |
+| **Rowan** *(Rowan)* | Chủ Tiệm Bánh Trà & Thợ Lặn Mỏ | Tiệm Bánh Trà & Nông Trang Oakhaven | Nhân vật chính; thợ thủ công kiên cường, quản lý nông trang, đào sâu 150 tầng mỏ, tôi luyện vũ khí và mở lò nướng đón khách đêm. | Trà Sen An Thần, Bánh Mì Bơ Brioche, Cơm Risotto Nấm Trăng |
 | **Pip** *(Pip)* | Cú Lùn Đưa Thư | Tiệm Trà / Rừng Thầm Thì | Đưa thư từ, giao nhiệm vụ hàng ngày; thu lượm hạt giống dại hiếm từ rừng về cho Rowan. | Hạt Giống Trà Sen, Mật Ong Rừng |
 | **Mallow** *(Mallow)* | Mèo Mướp Giữ Tiệm | Quầy Bar / Lò Sưởi Tiệm Trà | Thú cưng quán trà; vuốt ve tăng độ ấm cúng, thỉnh thoảng nhả bơ béo hoặc nấm rừng. | Bơ Béo, Dâu Rừng, Nấm Rừng |
 | **Lumi** *(Lumi)* | Tinh Linh Rừng Thầm Thì | Rừng Thầm Thì / Ghé tiệm đêm | Hướng dẫn ma thuật cổ xưa; dẫn dắt linh hồn Rowan trở về an toàn khi gục ngã dưới mỏ sâu. | Trà Sen An Thần, Phấn Bướm Tinh Linh |
@@ -459,6 +459,86 @@ Các trang bị nhiễm Star Blight từ Tầng mỏ 100–150 mang lại sức 
   * *Búp Bê Len Pip:* Khi ba lô đầy dưới mỏ, Pip bay đến nhận 1 món mang về cất hộ (1 lần/ngày).
   * *Chuông Gió Đồng Mini:* Leng keng báo hiệu khi gần vách tường có phòng kho báu bí mật.
   * *Túi Thơm Sen Thần:* Đứng yên hít thở khí trời tự hồi phục +1 Thể lực mỗi 5 giây.
+
+---
+
+## 11. HỆ SINH THÁI THỦY SINH, BẪY LỜ & DƯỢC LIỆU RỪNG SÂU (AQUATIC ECOLOGY & WILD FORAGING)
+
+### 11.1. Bản Chất Hệ Sinh Thái & Triết Lý Không Rập Khuôn:
+Oakhaven là vùng đất biên viễn giao thoa giữa thiên nhiên hoang dã và tàn tích hầm mỏ bụi sao (*Star Blight*). Hệ thống Thủy sinh (Cá, Thủy sản) và Dược liệu (Sâm, Rễ cây rừng) không vận hành theo lối mòn chỉ câu cá giải trí hay nấu canh hồi máu, mà là mắt xích liên kết trực tiếp vào:
+1. **Nhiên liệu thắp sáng hầm mỏ** (Dầu cá béo nạp đèn lồng).
+2. **Vật liệu chế tác cơ khí & lò rèn Boris** (Vảy cá ngậm oxit sắt, mai cua thạch anh, da lươn cách điện).
+3. **Lương thực khô sinh tồn** (Cá hun khói bỏ túi không thiu hỏng khi vượt 150 tầng mỏ).
+4. **Dược liệu bào chế của Sylvan & bùa hộ thân** (Sơn Sâm vách đá, Huyết Sâm mạch khoáng, Mandrake ma thảo).
+
+### 11.2. Cơ Chế Thu Hoạch Tự Động & Đặt Lờ Bẫy Cá (Fish Traps / Creels):
+* **Cần câu thủ công (Finn's Rods):** Dành cho những ai thích săn lùng các loài cá hiếm vào khung giờ đặc biệt.
+* **Lờ / Bẫy cá ngầm (Fish Traps):** 
+  * Rowan đan bẫy từ cành liễu gai dẻo, đặt cố định tại các đoạn suối, hồ sương hoặc hồ ngầm đáy mỏ.
+  * Người chơi bỏ mồi và thoải mái đi cuốc đất, xuống mỏ đào quặng. Sáng hoặc tối hôm sau chỉ việc quay lại nhấc bẫy thu hoạch cá, tôm, cua tự động mà không bị ép buộc lặp lại mini-game.
+
+### 11.3. Bảng Phân Hệ Thủy Sản & Công Năng Cốt Lõi:
+| Nhóm Thủy Sản | Loài Tiêu Biểu | Nguồn Gốc / Cách Bắt | Công Năng Trong Game Loop |
+| :--- | :--- | :--- | :--- |
+| **Dầu & Nhiên Liệu** | **Cá Mỡ Suối** *(Fat-Belly Chub)* | Bờ suối làng / Lờ bẫy | Ép lấy dầu mộc nạp đèn lồng soi đường mỏ Tầng 1–30. |
+| **Dầu & Nhiên Liệu** | **Cá Lồng Đèn Đáy Hồ** *(Abyssal Angler)* | Hồ ngầm Tầng 60–90 | Râu phát quang dùng chế đuốc xua tan bóng tối vĩnh cửu. |
+| **Khoáng Hóa & Rèn**| **Cá Vảy Thép Mỏ** *(Iron-Scale Dace)* | Hồ ngậm oxit sắt Tầng 30–60 | Vảy cá tích tụ sắt; Boris dùng rèn giáp nhẹ chống va đập. |
+| **Khoáng Hóa & Rèn**| **Lươn Điện Khaz-Drakor** *(Volt Eel)* | Vực nước ngầm máy hơi nước | Da cách điện bọc chuôi vũ khí; linh kiện cơ khí Chrono. |
+| **Khoáng Hóa & Rèn**| **Cua Đá Thạch Anh** *(Quartz Crab)* | Đáy suối cạn & Hang đá | Đập mai cua lấy bột thạch anh mài sắc vũ khí (+10% ATK). |
+| **Sinh Lực & Lương Khô**| **Cá Hồi Vượt Thác** *(Highland Salmon)*| Suối thác Oakhaven | Hun khói bằng gỗ sồi làm lương khô bỏ túi (+40 Thể lực tức thì). |
+| **Sinh Lực & Lương Khô**| **Tôm Càng Bùn Đen** *(Mud Crayfish)* | Lờ bùn ven suối | Nướng muối ớt cay nồng phục vụ thợ mỏ và hiệp sĩ tuần đêm. |
+
+### 11.4. Bảng Tứ Đại Thần Sâm & Dược Liệu Hái Lượm Rừng Sâu:
+| Dược Liệu / Sâm | Địa Điểm & Dấu Hiệu Nhận Biết | Công Năng Chế Tác & Sinh Tồn |
+| :--- | :--- | :--- |
+| **Sơn Sâm Cổ Thụ** *(Wild Mountain Ginseng)* | Vách đá cheo leo ven đồi; 5–7 ngày mọc lại 1 lần; mèo Mallow khịt mũi báo hiệu. | **Chất dẫn thuốc tối thượng:** Nghiền thành bột sấy khô, nhân đôi thời gian tác dụng của mọi loại thuốc bôi hoặc buff thể lực. |
+| **Huyết Sâm Mạch Đá** *(Blood-Vein Ginseng)* | Mọc sát mạch nước ấm ngầm Tầng 80–110. Củ đỏ tía nhiều rễ phụ ngậm khoáng. | **Nấu Cao Huyết Sâm:** Mang theo khi đấu Boss Warden; tự động hồi thể lực liên tục trong 180s khi thể lực tụt xuống mức báo động. |
+| **Mandrake Ma Thảo** *(Mandrake Root)* | Rừng Sâu Sylva-Fae; nhổ lên rễ cọ xát phát ra tiếng kêu ma quái rùng rợn. | **Bùa Hộ Thân (Relic):** Chế bùa hộ mệnh đeo hông, giúp Rowan sống sót với 1 Thể lực khi trúng đòn chí tử của quái vật hầm mỏ. |
+| **Rêu Băng Dạ Quang** *(Frost Lumichen)* | Cạo từ các tảng băng trong hang lạnh đáy mỏ. | Trộn với mỡ cá làm sáp bôi đế giày, **giúp di chuyển trên băng tuyết không bị trượt ngã**. |
+| **Cỏ Mật Gai Rừng** *(Thorny Honey Herb)* | Bụi rậm Rừng Thầm Thì. Lá có gai nhỏ nhưng cuống ngọt đậm vị mật. | Thuốc xức vết thương cầm máu tức thì, giảm 50% thời gian bị choáng (Stun). |
+
+### 11.5. Bản Sắc Phong Trần & Đa Dạng Lứa Tuổi Của Cư Dân Oakhaven:
+Xóa bỏ hoàn toàn định kiến anime học đường ("nữ sinh phép thuật"). Oakhaven là một cộng đồng biên viễn lao động chân tay, cựu binh sương gió và những sinh thể cổ xưa:
+* **Rowan:** Thợ thủ công khai hoang kiên cường, bàn tay chai sạn vì cuốc đất, xuống mỏ 150 tầng săn quặng, tôi luyện vũ khí và nấu những bữa ăn ấm bụng cho cư dân.
+* **Cánh Thợ Mỏ & Thợ Rèn:** Bram (phổi rít vì bụi mỏ), Boris (râu bện bím đôi sém lửa lò), Marlo (hiệp sĩ tuần ca đêm sương muối căm căm).
+* **Những Kẻ Giang Hồ & Lưu Vong Già Dặn:** Thuyền trưởng Garrick (thủy thủ biển mây què chân vì bão), Valen (quý tộc ma cà rồng hàng trăm năm tuổi tìm hơi ấm nhân loại), Sylvan (nhà thảo mộc lập dị ngón tay nhuộm vàng nhựa độc).
+* **Thế Hệ Lao Động & Sinh Tồn:** Bà Maeve (bà lão làm vườn lưng còng), GS. Orion (nhà chiêm tinh mắt thâm quầng mất ngủ), Chrono (người máy hơi nước cổ đại rỉ sét), Kael (cậu bé đường phố lấm lem).
+
+---
+
+## 12. HỆ THỐNG BÀN CHẾ TÁC THỦ CÔNG & ĐỒ VẬT CHẾ TÁC (ARTISAN WORKBENCH & CRAFTABLE OBJECTS)
+
+### 12.1. Bản Chất Bàn Chế Tác Thủ Công (Artisan Workbench):
+Đặt ngay cạnh hiên nhà hoặc gian bếp của Rowan. Cho phép tự tay cưa gỗ, đan lát, gõ đinh và pha chế các trang thiết bị nông nghiệp, dụng cụ thám hiểm hầm mỏ, đồ gỗ nội thất tiệm trà và y dược dã ngoại mà không phụ thuộc vào NPC.
+
+### 12.2. Cơ Chế Mở Khóa Bản Vẽ: "Quyển Sổ Rách Của Bà Amalia"
+* **Cấp 1 (Mặc định):** Đóng hàng rào, đuốc cắm vách đá, giàn phơi thảo mộc và lờ bẫy cá đơn sơ.
+* **Mở khóa theo tiến trình:** Thu thập các **Mảnh Trang Sổ Rách** nằm rải rác trong rương báu hầm mỏ hoặc thư viện Clara để giác ngộ các bản vẽ tự động hóa (vòi phun nước, lò hun khói, bộc phá khai khoáng, lò sưởi đá).
+
+### 12.3. Bảng 20 Đồ Vật Chế Tác Thuộc 5 Phân Hệ Lớn:
+
+| Mã ID | Tên Đồ Vật (Vi / En) | Phân Hệ | Công Thức Nguyên Liệu | Công Năng & Gameplay |
+| :--- | :--- | :--- | :--- | :--- |
+| `craft_drying_rack` | **Giàn Phơi Sấy Thảo Mộc** *(Herb Drying Rack)* | Chế biến | 20 Gỗ Sồi + 5 Dây Leo | Sấy khô búp trà và nấm trong 24h $\rightarrow$ Tăng 1 sao chất lượng, không mốc hỏng. |
+| `craft_oak_smoker` | **Lò Hun Khói Gỗ Sồi** *(Oak Smoker)* | Chế biến | 25 Đá Thô + 15 Gỗ + 2 Phôi Sắt | Hun khói cá tươi & thịt rừng làm **Lương Khô Bỏ Túi** (+40 Thể lực, không thiu). |
+| `craft_fermentation_cask`| **Thùng Lên Men Gỗ Thông** *(Fermentation Cask)* | Chế biến | 30 Gỗ Thông + 2 Phôi Đồng | Lên men bột chua Sourdough; ủ rượu táo & giấm trái cây mùa đông. |
+| `craft_compost_bin` | **Thùng Ủ Phân Hữu Cơ** *(Compost Bin)* | Chế biến | 25 Gỗ Thô + 10 Rơm Rạ | Tái chế cỏ dại và lá mục thành Phân Bón Hữu Cơ (+20% tốc độ lớn). |
+| `craft_fae_apiary` | **Thùng Ong Tinh Linh** *(Fae Apiary)* | Chế biến | 35 Gỗ Sồi + 1 Phấn Tinh Linh + 10 Búp Trà | Thu hoạch Mật Ong Rừng mỗi 3 ngày cạnh luống hoa trà. |
+| `craft_wall_torch` | **Đuốc Cắm Vách Đá** *(Wall Torch — x5)* | Hầm mỏ | 2 Gỗ Sồi + 1 Than Đá | Cắm cố định vách đá hang mỏ; không bao giờ tắt, đánh dấu ngã ba đường. |
+| `craft_blast_powder`| **Bộc Phá Thợ Mỏ** *(Miner's Blast Powder)* | Hầm mỏ | 2 Than Đá + 2 Bột Bụi Sao + 1 Đất Sét | Ném phá tan các tảng đá khổng lồ; gom quặng rơi nhanh không tốn thể lực. |
+| `craft_escape_rope` | **Dây Thừng Thoát Hiểm** *(Escape Rope)* | Hầm mỏ | 12 Dây Leo Rừng | Trèo tức thì lên tầng thang máy gần nhất khi bị quái Blight bao vây. |
+| `craft_luminous_beacon`| **Cột Mốc Phát Quang** *(Luminous Beacon)* | Hầm mỏ | 1 Thạch Anh + 5 Đá Thô | Vòng sáng bảo vệ xua đuổi quái bóng tối 60s để tranh thủ nghỉ ngơi hồi phục. |
+| `craft_magma_tongs` | **Kẹp Sắt Bắt Quặng** *(Magma Tongs)* | Hầm mỏ | 4 Phôi Sắt | Cầm tay gắp quặng nóng chảy ở Tầng 90–120 mà không bị bỏng trừ máu. |
+| `craft_copper_sprinkler`| **Vòi Phun Đồng Oakhaven** *(Copper Sprinkler)* | Nông trang | 1 Phôi Đồng + 1 Phôi Sắt | Tự động tưới nước cho 4 ô đất chữ thập vào 06:00 mỗi sáng. |
+| `craft_gold_sprinkler` | **Vòi Phun Hoàng Kim** *(Gold Sprinkler)* | Nông trang | 1 Phôi Vàng + 1 Phôi Sắt + 1 Thạch Anh | Tự động tưới nước cho 8 ô đất xung quanh ($3 \times 3$). |
+| `craft_straw_scarecrow`| **Bù Nhìn Rơm Chống Quạ** *(Straw Scarecrow)* | Nông trang | 20 Rơm + 1 Gỗ + 1 Than Đá | Bảo vệ hoa màu bán kính 8 ô không bị chim rừng mổ ăn hạt giống. |
+| `craft_picket_fence` | **Hàng Rào Gỗ & Cổng Vườn** *(Picket Fence)* | Nông trang | 2 Gỗ Sồi / đoạn | Ngăn cỏ dại xâm lấn luống cây và tạo lối đi gọn gàng đẹp mắt. |
+| `craft_cobblestone_path`| **Lối Đi Lát Đá Cuội** *(Cobblestone Path)* | Nông trang | 1 Đá Thô / ô | Tăng 15% tốc độ chạy ngoài trời; ngăn cỏ dại mọc lấn đường. |
+| `craft_rustic_table` | **Bàn Gỗ Sồi Mộc 2 Chỗ** *(Rustic Oak Table)* | Tiệm trà | 30 Gỗ Sồi + 5 Đinh Sắt | Kê thêm bàn đón thêm 2 khách mỗi tối; tăng doanh thu tiệm trà. |
+| `craft_leather_armchair`| **Ghế Bành Da Dày** *(Padded Leather Armchair)* | Tiệm trà | 15 Gỗ + 2 Da Thú Elora | Khách ngồi êm ái tăng $+30\%$ thời gian kiên nhẫn chờ món. |
+| `craft_showcase_counter`| **Tủ Kính Trưng Bày Bánh** *(Showcase Counter)* | Tiệm trà | 40 Gỗ + 4 Kính Cửa Sổ + 2 Phôi Đồng | Giữ bánh nướng qua đêm không giảm độ giòn tươi; khách chọn món nhanh hơn. |
+| `craft_corner_hearth` | **Lò Sưởi Đá Cuội Góc Quán** *(Corner Hearth)* | Tiệm trà | 60 Đá Thô + 10 Đất Sét + 5 Than | Tâm điểm sưởi ấm; tăng $+50$ Cozy Rating, khách tip thêm vàng. |
+| `craft_willow_fish_trap`| **Lờ Đan Bẫy Cá Suối** *(Willow Fish Trap)* | Dã ngoại | 15 Cành Liễu Gai + 2 Dây Thừng | Cắm dưới suối / hồ ngầm; sáng hôm sau tự thu hoạch cá tôm mà không cần ngồi câu. |
 
 
 

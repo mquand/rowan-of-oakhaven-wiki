@@ -16,10 +16,10 @@ spoiler: false
 
 ## 1. Protagonist & Cherished Companions
 
-### 🌸 Rowan (Keeper of Oakhaven Cafe & Bakery)
+### 🌸 Rowan (Hearthkeeper & Mine Delver)
 * **Role:** Player-controlled protagonist.
-* **Background:** A gifted young witch who recently graduated from the Royal Arcane Academy, burned out from detached academic pressure. She returns to Oakhaven to reopen her late grandmother Amalia's tea salon, guided by deep empathy and skillful artisan hands.
-* **Appearance:** Pinned dried blossoms in her hair, linen flour-dusted apron, and warm, attentive eyes.
+* **Background:** A resilient frontier artisan and keeper of Oakhaven's hearth, inheriting her late grandmother Amalia's rustic haven. Rejecting pampered aristocratic scholasticism, Rowan chose the rugged frontier life: working the earth, wielding pickaxes and forged steel down 150 treacherous mine floors, and firing the brick ovens each night to nourish a weather-beaten frontier town.
+* **Appearance:** Weathered leather travel coat, linen apron dusted with flour and mine soot, calloused dependable hands, and quiet, determined eyes.
 
 ### 🦉 Pip (Pygmy Owl Messenger)
 * **Role:** Night mail courier & rare botanical seed forager.

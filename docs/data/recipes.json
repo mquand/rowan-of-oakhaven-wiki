@@ -683,7 +683,7 @@
       ],
       "result_item_id": "item_dish_wild_forest_mushroom_soup",
       "duration_seconds": 7,
-      "effect_description": "Hồi 85 Thể Lực, tự động hồi phục +4 HP/giây trong 3 phút"
+      "effect_description": "Hồi 85 Thể Lực, tự động hồi phục +4 Thể Lực/giây trong 3 phút"
     },
     {
       "id": "dish_sweet_pumpkin_potage",
@@ -844,7 +844,270 @@
       ],
       "result_item_id": "item_dish_mandrake_vitality_broth",
       "duration_seconds": 12,
-      "effect_description": "Hồi 100% Thể Lực, +50 HP Tối đa và +20% toàn bộ chỉ số trong 10 phút"
+      "effect_description": "Hồi 100% Thể Lực, +50 Thể Lực Tối đa và +20% toàn bộ chỉ số trong 10 phút"
+    },
+    {
+      "id": "recipe_craft_drying_rack",
+      "name": "Giàn Phơi Sấy Thảo Mộc",
+      "description": "Giàn gỗ phơi búp trà, nấm và dược liệu dưới nắng gió Oakhaven trong 24h, tăng 1 sao chất lượng.",
+      "station": "artisan_workbench",
+      "ingredients": [
+        { "id": "wood_oak", "name": "Gỗ Sồi Oakhaven", "quantity": 20 },
+        { "id": "item_vine", "name": "Dây Leo Rừng", "quantity": 5 }
+      ],
+      "result_item_id": "item_craft_drying_rack",
+      "duration_seconds": 3,
+      "effect_description": "Trạm chế biến: Sấy khô thảo mộc, búp trà và nấm rừng giúp giữ hương vị và nâng cấp phẩm chất"
+    },
+    {
+      "id": "recipe_craft_oak_smoker",
+      "name": "Lò Hun Khói Gỗ Sồi",
+      "description": "Lò đá hun khói cá tươi và thịt rừng bằng dăm gỗ sồi, tạo lương khô bỏ túi không bao giờ ôi thiu.",
+      "station": "artisan_workbench",
+      "ingredients": [
+        { "id": "ore_stone", "name": "Đá Thô Hang Mỏ", "quantity": 25 },
+        { "id": "wood_oak", "name": "Gỗ Sồi Oakhaven", "quantity": 15 },
+        { "id": "ore_iron_bar", "name": "Phôi Sắt Tôi Dầu", "quantity": 2 }
+      ],
+      "result_item_id": "item_craft_oak_smoker",
+      "duration_seconds": 4,
+      "effect_description": "Trạm chế biến: Hun khói cá và thịt rừng thành Lương Khô Thám Hiểm bền bỉ"
+    },
+    {
+      "id": "recipe_craft_fermentation_cask",
+      "name": "Thùng Lên Men Gỗ Thông",
+      "description": "Thùng gỗ thông ủ men nấm băng thành men bánh mì Sourdough, hoặc ủ táo rừng thành giấm quả thơm.",
+      "station": "artisan_workbench",
+      "ingredients": [
+        { "id": "wood_pine", "name": "Gỗ Thông Rừng Sâu", "quantity": 30 },
+        { "id": "ore_copper_bar", "name": "Phôi Đồng Đỏ", "quantity": 2 }
+      ],
+      "result_item_id": "item_craft_fermentation_cask",
+      "duration_seconds": 4,
+      "effect_description": "Trạm chế biến: Ủ nấm men bánh mì giòn xốp và ủ rượu táo mùa đông"
+    },
+    {
+      "id": "recipe_craft_compost_bin",
+      "name": "Thùng Ủ Phân Hữu Cơ",
+      "description": "Thùng gỗ ủ lá mục, cỏ dại và rơm rạ thành phân bón hữu cơ giàu dinh dưỡng cho đất trồng.",
+      "station": "artisan_workbench",
+      "ingredients": [
+        { "id": "wood_oak", "name": "Gỗ Sồi Oakhaven", "quantity": 25 },
+        { "id": "item_straw", "name": "Rơm Rạ Khô", "quantity": 10 }
+      ],
+      "result_item_id": "item_craft_compost_bin",
+      "duration_seconds": 3,
+      "effect_description": "Tái chế phế phẩm nông nghiệp thành Phân Bón Hữu Cơ tăng 20% tốc độ lớn hoa màu"
+    },
+    {
+      "id": "recipe_craft_fae_apiary",
+      "name": "Thùng Ong Tinh Linh",
+      "description": "Thùng ong gỗ sồi tẩm phấn hoa tinh linh, tự động thu mật ong rừng hoang dã mỗi 3 ngày.",
+      "station": "artisan_workbench",
+      "ingredients": [
+        { "id": "wood_oak", "name": "Gỗ Sồi Oakhaven", "quantity": 35 },
+        { "id": "item_fae_dust", "name": "Bột Phấn Tinh Linh", "quantity": 1 },
+        { "id": "la_tra_sen", "name": "Lá Trà Sen", "quantity": 10 }
+      ],
+      "result_item_id": "item_craft_fae_apiary",
+      "duration_seconds": 5,
+      "effect_description": "Hạ tầng nông trang: Tự động thu hoạch Mật Ong Rừng nguyên chất mỗi 3 ngày"
+    },
+    {
+      "id": "recipe_craft_wall_torch",
+      "name": "Đuốc Cắm Vách Đá (x5)",
+      "description": "Gói 5 ngọn đuốc quấn nhựa sồi và than đá, cắm cố định vách đá hang mỏ không bao giờ tắt.",
+      "station": "artisan_workbench",
+      "ingredients": [
+        { "id": "wood_oak", "name": "Gỗ Sồi Oakhaven", "quantity": 2 },
+        { "id": "ore_coal", "name": "Than Đá Đen", "quantity": 1 }
+      ],
+      "result_item_id": "item_craft_wall_torch",
+      "duration_seconds": 2,
+      "effect_description": "Dụng cụ mỏ: Soi sáng vĩnh cửu bán kính 3 ô vách đá, đánh dấu đường không lạc mê cung"
+    },
+    {
+      "id": "recipe_craft_blast_powder",
+      "name": "Bộc Phá Thợ Mỏ",
+      "description": "Gói thuốc nổ khoáng thạch trộn bột sao, nổ phá tan tảng đá lớn và quặng cứng trong chớp mắt.",
+      "station": "artisan_workbench",
+      "ingredients": [
+        { "id": "ore_coal", "name": "Than Đá Đen", "quantity": 2 },
+        { "id": "bot_sao", "name": "Bột Sao Tinh Khiết", "quantity": 2 },
+        { "id": "item_clay", "name": "Đất Sét Đỏ", "quantity": 1 }
+      ],
+      "result_item_id": "item_craft_blast_powder",
+      "duration_seconds": 3,
+      "effect_description": "Vật phẩm tiêu hao mỏ: Phá hủy đá bán kính 3x3 ô và thu gom khoáng sản rơi nhanh"
+    },
+    {
+      "id": "recipe_craft_escape_rope",
+      "name": "Dây Thừng Thoát Hiểm",
+      "description": "Cuộn dây leo rừng bệnh bện bền chắc, kích hoạt tức thì giúp leo thoát lên tầng thang máy an toàn.",
+      "station": "artisan_workbench",
+      "ingredients": [
+        { "id": "item_vine", "name": "Dây Leo Rừng", "quantity": 12 }
+      ],
+      "result_item_id": "item_craft_escape_rope",
+      "duration_seconds": 2,
+      "effect_description": "Sinh tồn mỏ: Rút lui khẩn cấp lên trạm thang máy gần nhất khi cạn thể lực"
+    },
+    {
+      "id": "recipe_craft_luminous_beacon",
+      "name": "Cột Mốc Phát Quang",
+      "description": "Trụ đá thạch anh phát tỏa hào quang dịu nhẹ xua tan quái vật bóng tối trong 60 giây.",
+      "station": "artisan_workbench",
+      "ingredients": [
+        { "id": "gem_quartz", "name": "Thạch Anh Tinh Thể", "quantity": 1 },
+        { "id": "ore_stone", "name": "Đá Thô Hang Mỏ", "quantity": 5 }
+      ],
+      "result_item_id": "item_craft_luminous_beacon",
+      "duration_seconds": 3,
+      "effect_description": "Khu vực an toàn: Dựng kết giới ánh sáng 60s ngăn quái vật tiếp cận để nghỉ ngơi"
+    },
+    {
+      "id": "recipe_craft_magma_tongs",
+      "name": "Kẹp Sắt Bắt Quặng Nóng",
+      "description": "Kẹp thép chịu nhiệt tôi dầu, giúp thu nhặt phôi quặng nóng chảy ở tầng sâu mà không bị bỏng.",
+      "station": "artisan_workbench",
+      "ingredients": [
+        { "id": "ore_iron_bar", "name": "Phôi Sắt Tôi Dầu", "quantity": 4 }
+      ],
+      "result_item_id": "item_craft_magma_tongs",
+      "duration_seconds": 4,
+      "effect_description": "Dụng cụ bảo hộ mỏ: Miễn nhiễm sát thương bỏng khi nhặt khoáng thạch nham thạch tầng 90-120"
+    },
+    {
+      "id": "recipe_craft_copper_sprinkler",
+      "name": "Vòi Phun Đồng Oakhaven",
+      "description": "Cơ cấu phun nước bằng đồng đỏ, tự động tưới 4 ô đất chữ thập liền kề mỗi sớm 06:00.",
+      "station": "artisan_workbench",
+      "ingredients": [
+        { "id": "ore_copper_bar", "name": "Phôi Đồng Đỏ", "quantity": 1 },
+        { "id": "ore_iron_bar", "name": "Phôi Sắt Tôi Dầu", "quantity": 1 }
+      ],
+      "result_item_id": "item_craft_copper_sprinkler",
+      "duration_seconds": 3,
+      "effect_description": "Tự động hóa nông trại: Tưới nước 4 ô đất chữ thập mỗi ngày, tiết kiệm sức lao động"
+    },
+    {
+      "id": "recipe_craft_gold_sprinkler",
+      "name": "Vòi Phun Hoàng Kim",
+      "description": "Vòi phun cơ khí cao cấp bằng vàng và lõi thạch anh, tự động tưới trọn 8 ô đất xung quanh.",
+      "station": "artisan_workbench",
+      "ingredients": [
+        { "id": "ore_gold_bar", "name": "Phôi Vàng Ròng", "quantity": 1 },
+        { "id": "ore_iron_bar", "name": "Phôi Sắt Tôi Dầu", "quantity": 1 },
+        { "id": "gem_quartz", "name": "Thạch Anh Tinh Thể", "quantity": 1 }
+      ],
+      "result_item_id": "item_craft_gold_sprinkler",
+      "duration_seconds": 4,
+      "effect_description": "Tự động hóa nông trại: Tưới nước trọn vẹn khu vực 3x3 (8 ô bao quanh) mỗi sáng"
+    },
+    {
+      "id": "recipe_craft_straw_scarecrow",
+      "name": "Bù Nhìn Rơm Chống Quạ",
+      "description": "Bù nhìn rơm khoác áo cũ gắn mắt than đá, xua đuổi chim rừng phá hoại hoa màu trong bán kính 8 ô.",
+      "station": "artisan_workbench",
+      "ingredients": [
+        { "id": "item_straw", "name": "Rơm Rạ Khô", "quantity": 20 },
+        { "id": "wood_oak", "name": "Gỗ Sồi Oakhaven", "quantity": 1 },
+        { "id": "ore_coal", "name": "Than Đá Đen", "quantity": 1 }
+      ],
+      "result_item_id": "item_craft_straw_scarecrow",
+      "duration_seconds": 2,
+      "effect_description": "Bảo vệ hoa màu: Bảo vệ luống cây bán kính 8 ô không bị chim rừng ăn hạt giống"
+    },
+    {
+      "id": "recipe_craft_picket_fence",
+      "name": "Hàng Rào Gỗ & Cổng Vườn (x5)",
+      "description": "Bộ cọc rào gỗ sồi gọt nhẵn, giúp quy hoạch luống cây và ngăn cỏ dại xâm lấn vườn hoa.",
+      "station": "artisan_workbench",
+      "ingredients": [
+        { "id": "wood_oak", "name": "Gỗ Sồi Oakhaven", "quantity": 2 }
+      ],
+      "result_item_id": "item_craft_picket_fence",
+      "duration_seconds": 1,
+      "effect_description": "Quy hoạch cảnh quan: Ngăn cỏ dại lan rộng và tạo ranh giới thẩm mỹ cho nông trang"
+    },
+    {
+      "id": "recipe_craft_cobblestone_path",
+      "name": "Lối Đi Lát Đá Cuội (x10)",
+      "description": "Các phiến đá lát phẳng phiu, giúp tăng 15% tốc độ di chuyển và không bị trượt bùn mùa mưa.",
+      "station": "artisan_workbench",
+      "ingredients": [
+        { "id": "ore_stone", "name": "Đá Thô Hang Mỏ", "quantity": 1 }
+      ],
+      "result_item_id": "item_craft_cobblestone_path",
+      "duration_seconds": 1,
+      "effect_description": "Hạ tầng nông trại: Tăng 15% tốc độ chạy và giữ lối đi sạch sẽ không sình lầy"
+    },
+    {
+      "id": "recipe_craft_rustic_table",
+      "name": "Bàn Gỗ Sồi Mộc 2 Chỗ",
+      "description": "Bàn gỗ sồi đóng thủ công mộc mạc, kê thêm tại tiệm trà để đón thêm 2 thực khách mỗi đêm.",
+      "station": "artisan_workbench",
+      "ingredients": [
+        { "id": "wood_oak", "name": "Gỗ Sồi Oakhaven", "quantity": 30 },
+        { "id": "ore_iron_bar", "name": "Phôi Sắt Tôi Dầu", "quantity": 1 }
+      ],
+      "result_item_id": "item_craft_rustic_table",
+      "duration_seconds": 4,
+      "effect_description": "Nội thất tiệm trà: Kê thêm 1 bàn đón thêm 2 khách/đêm, tăng doanh thu tiệm trà"
+    },
+    {
+      "id": "recipe_craft_leather_armchair",
+      "name": "Ghế Bành Da Dày Êm Ái",
+      "description": "Ghế bành bọc da thú êm ái, tạo chỗ ngồi thư thái giúp khách kiên nhẫn chờ món thêm 30%.",
+      "station": "artisan_workbench",
+      "ingredients": [
+        { "id": "wood_oak", "name": "Gỗ Sồi Oakhaven", "quantity": 15 },
+        { "id": "item_leather", "name": "Da Thuộc Elora", "quantity": 2 }
+      ],
+      "result_item_id": "item_craft_leather_armchair",
+      "duration_seconds": 3,
+      "effect_description": "Nội thất tiệm trà: Tăng 30% thời gian khách kiên nhẫn chờ món và tăng chỉ số Cozy"
+    },
+    {
+      "id": "recipe_craft_showcase_counter",
+      "name": "Tủ Kính Trưng Bày Bánh",
+      "description": "Tủ kính khung đồng bảo quản bánh nướng qua đêm, giữ nguyên độ tươi mới giòn thơm.",
+      "station": "artisan_workbench",
+      "ingredients": [
+        { "id": "wood_oak", "name": "Gỗ Sồi Oakhaven", "quantity": 40 },
+        { "id": "gem_quartz", "name": "Thạch Anh Tinh Thể", "quantity": 4 },
+        { "id": "ore_copper_bar", "name": "Phôi Đồng Đỏ", "quantity": 2 }
+      ],
+      "result_item_id": "item_craft_showcase_counter",
+      "duration_seconds": 5,
+      "effect_description": "Nội thất tiệm trà: Bảo quản 12 món bánh nướng qua đêm không giảm độ tươi"
+    },
+    {
+      "id": "recipe_craft_corner_hearth",
+      "name": "Lò Sưởi Đá Cuội Góc Quán",
+      "description": "Lò sưởi ấm đá cuội nhóm củi đượm lửa, trái tim xua tan giá rét mùa đông cho tiệm trà Oakhaven.",
+      "station": "artisan_workbench",
+      "ingredients": [
+        { "id": "ore_stone", "name": "Đá Thô Hang Mỏ", "quantity": 60 },
+        { "id": "item_clay", "name": "Đất Sét Đỏ", "quantity": 10 },
+        { "id": "ore_coal", "name": "Than Đá Đen", "quantity": 5 }
+      ],
+      "result_item_id": "item_craft_corner_hearth",
+      "duration_seconds": 6,
+      "effect_description": "Tâm điểm Cozy: Tăng +50 Cozy Rating, kích hoạt buff ấm cúng khiến khách tip thêm vàng"
+    },
+    {
+      "id": "recipe_craft_willow_fish_trap",
+      "name": "Lờ Đan Bẫy Cá Suối",
+      "description": "Lờ đan cành liễu gai dẻo thả ven suối hoặc hồ ngầm, sáng hôm sau tự thu hoạch cá tôm tươi.",
+      "station": "artisan_workbench",
+      "ingredients": [
+        { "id": "item_vine", "name": "Dây Leo Rừng", "quantity": 15 },
+        { "id": "wood_oak", "name": "Gỗ Sồi Oakhaven", "quantity": 2 }
+      ],
+      "result_item_id": "item_craft_willow_fish_trap",
+      "duration_seconds": 2,
+      "effect_description": "Thu hoạch tự động: Đặt dưới suối để thu thập cá mỡ, tôm càng và lươn mỗi sáng"
     }
   ]
 }

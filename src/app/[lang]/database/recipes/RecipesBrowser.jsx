@@ -21,6 +21,7 @@ export default function RecipesBrowser({ recipes, lang = DEFAULT_LOCALE }) {
     { id: 'tea_station', label: getStationLabel('tea_station', lang) },
     { id: 'bakery_oven', label: getStationLabel('bakery_oven', lang) },
     { id: 'cooking_pot', label: getStationLabel('cooking_pot', lang) },
+    { id: 'artisan_workbench', label: getStationLabel('artisan_workbench', lang) },
   ];
 
   const filtered = useMemo(() => {
@@ -53,8 +54,9 @@ export default function RecipesBrowser({ recipes, lang = DEFAULT_LOCALE }) {
   const renderRecipeCard = recipe => {
     const isTea = recipe.station === 'tea_station';
     const isPot = recipe.station === 'cooking_pot';
+    const isWorkbench = recipe.station === 'artisan_workbench';
     const stationLabel = getStationLabel(recipe.station, lang);
-    const iconName = isTea ? 'tea-bag' : isPot ? 'cooking-pot' : 'cake';
+    const iconName = isTea ? 'tea-bag' : isPot ? 'cooking-pot' : isWorkbench ? 'package' : 'cake';
 
     return (
       <article key={recipe.id} id={recipe.id} className={`${styles.recipeCard} pixel-frame`}>

@@ -13,15 +13,15 @@ spoiler: false
 
 ## Bạn là ai?
 
-Bạn vào vai **Rowan**, học viên phù thủy trẻ vừa rời Viện Phép Thuật hoàng gia, trở về Thung Lũng Bụi Sao tiếp quản tiệm trà bánh cũ của **Bà Ngoại Amalia**. Đồng hành cùng bạn là chú cú lùn **Pip** và chú mèo tam thể **Mallow**, cùng "Quyển Sổ Rách Bí Truyền" của bà.
+Bạn vào vai **Rowan**, thợ thủ công khai hoang kiên cường trở về Thung Lũng Bụi Sao tiếp quản cơ ngơi và tiệm bánh trà của **Bà Ngoại Amalia**. Đồng hành cùng bạn là chú cú lùn **Pip** và chú mèo tam thể **Mallow**, cùng "Quyển Sổ Rách Bí Truyền" của bà. Nhiệm vụ của bạn là gầy dựng nông trang, chinh phục 150 tầng mỏ và duy trì lò sưởi ấm cúng cho thị trấn biên viễn Oakhaven.
 
 ## Ngày đầu tiên
 
-1. **Lật biển `[OPEN]`** trước cửa tiệm để đón khách — bạn có thể mở bất kỳ lúc nào trong ngày.
-2. **Ra vườn sau tiệm:** cuốc đất, gieo hạt (Lúa Mì Bạc, Búp Trà Sen), tưới nước.
-3. **Xay lúa mì tại Cối Xay Gió** thành Bột Mì — nguyên liệu nướng bánh.
-4. **Buổi tối:** mở tiệm, nghe khách tâm sự, pha trà & nướng bánh theo manh mối cảm xúc.
-5. **Ngủ** để hồi Thể Lực và đẩy sang ngày mới.
+1. **Khởi đầu buổi sáng (06:00):** Ra vườn sau tiệm cuốc đất, gieo các hạt giống khởi đầu (Lúa Mì Bạc, Búp Trà Sen) và tưới nước.
+2. **Thu nhặt & Khám phá buổi chiều:** Đặt lờ bẫy cá ven suối, ghé lò rèn Boris và chuẩn bị củi đốt lò nướng.
+3. **Xay bột tại Cối Xay Gió:** Xay lúa mì thành bột mì tươi và chuẩn bị sẵn các mẻ bánh đầu tiên.
+4. **Hoàng hôn & Buổi tối (18:00):** Lật biển `[OPEN]` đón thợ mỏ và cư dân ghé sưởi ấm, lắng nghe tâm sự và phục vụ bữa tối.
+5. **Nghỉ ngơi trước 02:00:** Lên giường ngủ trước khi kiệt sức để hồi phục toàn bộ Thể Lực và đón ngày mới.
 
 ## Vòng lặp mỗi ngày
 

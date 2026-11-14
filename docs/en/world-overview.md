@@ -62,7 +62,7 @@ The world of Rowan of Oakhaven unfolds across **Five Great Realms**, each posses
 **Inhabitants:** Elven rangers, master botanists, fresh stream merfolk  
 
 ### 🏯 Realm 4 — Solaria (The Capital of Light)
-**Overview:** The magnificent white-marble metropolis of the sorcery empire where Rowan once studied at the Arcane Academy. High politics and boundless commerce.  
+**Overview:** The magnificent white-marble metropolis of high politics and opulent commerce, where Rowan once walked the marble halls before turning her back on court scholasticism to embrace the frontier of Oakhaven. Boundless commerce, deep archives, and intense intrigue.  
 **Features:** Spire academies, wizard bazaars, underground archives, Grand Tea Guild arenas  
 **Inhabitants:** Aristocratic spellcasters, royal scholars, international merchants  
 

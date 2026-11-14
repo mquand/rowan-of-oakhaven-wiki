@@ -683,7 +683,7 @@
       ],
       "result_item_id": "item_dish_wild_forest_mushroom_soup",
       "duration_seconds": 7,
-      "effect_description": "Restores 85 Stamina, triggers +4 HP/sec Auto Regeneration for 3 minutes"
+      "effect_description": "Restores 85 Stamina, triggers +4 Stamina/sec Auto Regeneration for 3 minutes"
     },
     {
       "id": "dish_sweet_pumpkin_potage",
@@ -844,7 +844,270 @@
       ],
       "result_item_id": "item_dish_mandrake_vitality_broth",
       "duration_seconds": 12,
-      "effect_description": "Instantly restores 100% Stamina, +50 Max HP and +20% to all core attributes for 10 minutes"
+      "effect_description": "Instantly restores 100% Stamina, +50 Max Stamina and +20% to all core attributes for 10 minutes"
+    },
+    {
+      "id": "recipe_craft_drying_rack",
+      "name": "Herb Drying Rack",
+      "description": "Rustic timber rack that dries tea leaves, mushrooms, and herbs over 24 hours, boosting quality by 1 star.",
+      "station": "artisan_workbench",
+      "ingredients": [
+        { "id": "wood_oak", "name": "Oakhaven Oak Timber", "quantity": 20 },
+        { "id": "item_vine", "name": "Forest Vines", "quantity": 5 }
+      ],
+      "result_item_id": "item_craft_drying_rack",
+      "duration_seconds": 3,
+      "effect_description": "Processing Station: Dries harvested botanicals and tea leaves, preserving aroma and elevating quality"
+    },
+    {
+      "id": "recipe_craft_oak_smoker",
+      "name": "Oak Smoker",
+      "description": "Sturdy stone smoker using oak sawdust to smoke fresh river fish and game meat into durable field rations.",
+      "station": "artisan_workbench",
+      "ingredients": [
+        { "id": "ore_stone", "name": "Cavern Rough Stone", "quantity": 25 },
+        { "id": "wood_oak", "name": "Oakhaven Oak Timber", "quantity": 15 },
+        { "id": "ore_iron_bar", "name": "Oil-Quenched Iron Bar", "quantity": 2 }
+      ],
+      "result_item_id": "item_craft_oak_smoker",
+      "duration_seconds": 4,
+      "effect_description": "Processing Station: Smokes fish and venison into non-perishable Expedition Rations"
+    },
+    {
+      "id": "recipe_craft_fermentation_cask",
+      "name": "Pine Fermentation Cask",
+      "description": "Deep pine cask for fermenting frost yeasts into sourdough starter or brewing spiced cider and cider vinegar.",
+      "station": "artisan_workbench",
+      "ingredients": [
+        { "id": "wood_pine", "name": "Deepwood Pine Timber", "quantity": 30 },
+        { "id": "ore_copper_bar", "name": "Red Copper Ingot", "quantity": 2 }
+      ],
+      "result_item_id": "item_craft_fermentation_cask",
+      "duration_seconds": 4,
+      "effect_description": "Processing Station: Ferments sourdough baking yeasts and aged winter cider"
+    },
+    {
+      "id": "recipe_craft_compost_bin",
+      "name": "Compost Bin",
+      "description": "A wooden bin recycling pulled weeds, garden clippings, and straw into nutrient-dense organic fertilizer.",
+      "station": "artisan_workbench",
+      "ingredients": [
+        { "id": "wood_oak", "name": "Oakhaven Oak Timber", "quantity": 25 },
+        { "id": "item_straw", "name": "Dried Straw", "quantity": 10 }
+      ],
+      "result_item_id": "item_craft_compost_bin",
+      "duration_seconds": 3,
+      "effect_description": "Recycles botanical garden waste into Organic Fertilizer that accelerates crop growth by 20%"
+    },
+    {
+      "id": "recipe_craft_fae_apiary",
+      "name": "Fae Apiary",
+      "description": "Enchanted oak beehive dusted with fae pollen, steadily producing wild honeycomb and honey every 3 days.",
+      "station": "artisan_workbench",
+      "ingredients": [
+        { "id": "wood_oak", "name": "Oakhaven Oak Timber", "quantity": 35 },
+        { "id": "item_fae_dust", "name": "Fae Flower Pollen", "quantity": 1 },
+        { "id": "la_tra_sen", "name": "Lotus Tea Leaves", "quantity": 10 }
+      ],
+      "result_item_id": "item_craft_fae_apiary",
+      "duration_seconds": 5,
+      "effect_description": "Homestead Infrastructure: Automatically harvests pure Wildflower Honey every 3 days"
+    },
+    {
+      "id": "recipe_craft_wall_torch",
+      "name": "Wall Torch (x5)",
+      "description": "Bundle of 5 resin-soaked torches mounted permanently into cavern rock walls, never extinguishing.",
+      "station": "artisan_workbench",
+      "ingredients": [
+        { "id": "wood_oak", "name": "Oakhaven Oak Timber", "quantity": 2 },
+        { "id": "ore_coal", "name": "Lump of Black Coal", "quantity": 1 }
+      ],
+      "result_item_id": "item_craft_wall_torch",
+      "duration_seconds": 2,
+      "effect_description": "Mining Tool: Permanently illuminates a 3-tile radius in cavern walls to prevent getting lost"
+    },
+    {
+      "id": "recipe_craft_blast_powder",
+      "name": "Miner's Blast Powder",
+      "description": "Concentrated explosive mineral dust packet that shatters stubborn boulders and compact vein clusters instantly.",
+      "station": "artisan_workbench",
+      "ingredients": [
+        { "id": "ore_coal", "name": "Lump of Black Coal", "quantity": 2 },
+        { "id": "bot_sao", "name": "Pure Starlight Dust", "quantity": 2 },
+        { "id": "item_clay", "name": "Red Terracotta Clay", "quantity": 1 }
+      ],
+      "result_item_id": "item_craft_blast_powder",
+      "duration_seconds": 3,
+      "effect_description": "Mining Consumable: Shatters boulders in a 3x3 tile radius and rapidly yields loose minerals"
+    },
+    {
+      "id": "recipe_craft_escape_rope",
+      "name": "Escape Rope",
+      "description": "Tightly woven thick forest vine rope, instantly pulling you back to the nearest elevator shaft checkpoint.",
+      "station": "artisan_workbench",
+      "ingredients": [
+        { "id": "item_vine", "name": "Forest Vines", "quantity": 12 }
+      ],
+      "result_item_id": "item_craft_escape_rope",
+      "duration_seconds": 2,
+      "effect_description": "Emergency Survival: Immediately extracts you to the nearest mine elevator shaft when overwhelmed"
+    },
+    {
+      "id": "recipe_craft_luminous_beacon",
+      "name": "Luminous Beacon",
+      "description": "Quartz-inlaid stone pylon projecting a tranquil aura that keeps shadow fiends at bay for 60 seconds.",
+      "station": "artisan_workbench",
+      "ingredients": [
+        { "id": "gem_quartz", "name": "Quartz Crystal Shard", "quantity": 1 },
+        { "id": "ore_stone", "name": "Cavern Rough Stone", "quantity": 5 }
+      ],
+      "result_item_id": "item_craft_luminous_beacon",
+      "duration_seconds": 3,
+      "effect_description": "Sanctuary Device: Creates a 60-second warding aura repelling darkness monsters to rest safely"
+    },
+    {
+      "id": "recipe_craft_magma_tongs",
+      "name": "Magma Tongs",
+      "description": "Heat-treated iron tongs engineered to safely harvest superheated ores in the deep volcanic stratum without burns.",
+      "station": "artisan_workbench",
+      "ingredients": [
+        { "id": "ore_iron_bar", "name": "Oil-Quenched Iron Bar", "quantity": 4 }
+      ],
+      "result_item_id": "item_craft_magma_tongs",
+      "duration_seconds": 4,
+      "effect_description": "Protection Tool: Grants immunity to thermal burns when harvesting molten ore veins on floors 90-120"
+    },
+    {
+      "id": "recipe_craft_copper_sprinkler",
+      "name": "Oakhaven Copper Sprinkler",
+      "description": "Compact mechanical sprinkler head that automatically waters the 4 adjacent cardinal soil tiles at 06:00.",
+      "station": "artisan_workbench",
+      "ingredients": [
+        { "id": "ore_copper_bar", "name": "Red Copper Ingot", "quantity": 1 },
+        { "id": "ore_iron_bar", "name": "Oil-Quenched Iron Bar", "quantity": 1 }
+      ],
+      "result_item_id": "item_craft_copper_sprinkler",
+      "duration_seconds": 3,
+      "effect_description": "Homestead Automation: Automatically waters 4 cross-adjacent soil tiles every dawn"
+    },
+    {
+      "id": "recipe_craft_gold_sprinkler",
+      "name": "Solar Gold Sprinkler",
+      "description": "Masterwork dwarven gear sprinkler featuring a quartz nozzle, watering all 8 surrounding soil tiles (3x3 grid).",
+      "station": "artisan_workbench",
+      "ingredients": [
+        { "id": "ore_gold_bar", "name": "Pure Gold Ingot", "quantity": 1 },
+        { "id": "ore_iron_bar", "name": "Oil-Quenched Iron Bar", "quantity": 1 },
+        { "id": "gem_quartz", "name": "Quartz Crystal Shard", "quantity": 1 }
+      ],
+      "result_item_id": "item_craft_gold_sprinkler",
+      "duration_seconds": 4,
+      "effect_description": "Homestead Automation: Automatically waters a full 3x3 grid (8 surrounding tiles) every dawn"
+    },
+    {
+      "id": "recipe_craft_straw_scarecrow",
+      "name": "Straw Scarecrow",
+      "description": "Handmade straw warden with coal button eyes, warding crows and forest birds away from seeds in an 8-tile radius.",
+      "station": "artisan_workbench",
+      "ingredients": [
+        { "id": "item_straw", "name": "Dried Straw", "quantity": 20 },
+        { "id": "wood_oak", "name": "Oakhaven Oak Timber", "quantity": 1 },
+        { "id": "ore_coal", "name": "Lump of Black Coal", "quantity": 1 }
+      ],
+      "result_item_id": "item_craft_straw_scarecrow",
+      "duration_seconds": 2,
+      "effect_description": "Crop Protection: Prevents wild birds from consuming newly planted seeds within an 8-tile radius"
+    },
+    {
+      "id": "recipe_craft_picket_fence",
+      "name": "Picket Fence & Gate (x5)",
+      "description": "Smoothly planed oak posts to delineate garden plots, prevent weed encroachment, and beautify your farm.",
+      "station": "artisan_workbench",
+      "ingredients": [
+        { "id": "wood_oak", "name": "Oakhaven Oak Timber", "quantity": 2 }
+      ],
+      "result_item_id": "item_craft_picket_fence",
+      "duration_seconds": 1,
+      "effect_description": "Landscaping: Stops wild weeds from spreading and provides aesthetic rustic boundaries"
+    },
+    {
+      "id": "recipe_craft_cobblestone_path",
+      "name": "Cobblestone Path (x10)",
+      "description": "Level stone pavers that grant +15% running speed and prevent mud accumulation during autumn rains.",
+      "station": "artisan_workbench",
+      "ingredients": [
+        { "id": "ore_stone", "name": "Cavern Rough Stone", "quantity": 1 }
+      ],
+      "result_item_id": "item_craft_cobblestone_path",
+      "duration_seconds": 1,
+      "effect_description": "Infrastructure: Boosts overland travel speed by 15% and keeps walkways pristine in stormy seasons"
+    },
+    {
+      "id": "recipe_craft_rustic_table",
+      "name": "Rustic 2-Seat Oak Table",
+      "description": "Hand-joined sturdy oak table accommodating 2 additional evening teahouse patrons, growing nightly revenue.",
+      "station": "artisan_workbench",
+      "ingredients": [
+        { "id": "wood_oak", "name": "Oakhaven Oak Timber", "quantity": 30 },
+        { "id": "ore_iron_bar", "name": "Oil-Quenched Iron Bar", "quantity": 1 }
+      ],
+      "result_item_id": "item_craft_rustic_table",
+      "duration_seconds": 4,
+      "effect_description": "Teahouse Furnishing: Adds 1 customer table (2 seats/night) to expand daily earnings"
+    },
+    {
+      "id": "recipe_craft_leather_armchair",
+      "name": "Padded Leather Armchair",
+      "description": "Supple leather-upholstered armchair where guests relax deeply, extending customer patience by +30%.",
+      "station": "artisan_workbench",
+      "ingredients": [
+        { "id": "wood_oak", "name": "Oakhaven Oak Timber", "quantity": 15 },
+        { "id": "item_leather", "name": "Tanned Leather", "quantity": 2 }
+      ],
+      "result_item_id": "item_craft_leather_armchair",
+      "duration_seconds": 3,
+      "effect_description": "Teahouse Furnishing: Increases patron waiting patience by 30% and adds +10 to Cozy Rating"
+    },
+    {
+      "id": "recipe_craft_showcase_counter",
+      "name": "Starlight Showcase Counter",
+      "description": "Copper-trimmed glass display case preserving up to 12 baked pastries overnight without staleness.",
+      "station": "artisan_workbench",
+      "ingredients": [
+        { "id": "wood_oak", "name": "Oakhaven Oak Timber", "quantity": 40 },
+        { "id": "gem_quartz", "name": "Quartz Crystal Shard", "quantity": 4 },
+        { "id": "ore_copper_bar", "name": "Red Copper Ingot", "quantity": 2 }
+      ],
+      "result_item_id": "item_craft_showcase_counter",
+      "duration_seconds": 5,
+      "effect_description": "Teahouse Furnishing: Preserves 12 baked pastries overnight at maximum freshness"
+    },
+    {
+      "id": "recipe_craft_corner_hearth",
+      "name": "Corner Cobblestone Hearth",
+      "description": "The radiant heart of your teahouse, filling the parlor with warmth, firelight, and the crackle of dry logs.",
+      "station": "artisan_workbench",
+      "ingredients": [
+        { "id": "ore_stone", "name": "Cavern Rough Stone", "quantity": 60 },
+        { "id": "item_clay", "name": "Red Terracotta Clay", "quantity": 10 },
+        { "id": "ore_coal", "name": "Lump of Black Coal", "quantity": 5 }
+      ],
+      "result_item_id": "item_craft_corner_hearth",
+      "duration_seconds": 6,
+      "effect_description": "Cozy Centerpiece: Adds +50 to Cozy Rating and triggers patron bliss, yielding generous tips"
+    },
+    {
+      "id": "recipe_craft_willow_fish_trap",
+      "name": "Willow Fish Trap",
+      "description": "Pliant willow-woven basket trap submerged in rivers or cave pools, netting fish and crayfish each morning.",
+      "station": "artisan_workbench",
+      "ingredients": [
+        { "id": "item_vine", "name": "Forest Vines", "quantity": 15 },
+        { "id": "wood_oak", "name": "Oakhaven Oak Timber", "quantity": 2 }
+      ],
+      "result_item_id": "item_craft_willow_fish_trap",
+      "duration_seconds": 2,
+      "effect_description": "Automated Harvesting: Place in streams or subterranean pools to harvest chub, mud crayfish, and eels"
     }
   ]
 }

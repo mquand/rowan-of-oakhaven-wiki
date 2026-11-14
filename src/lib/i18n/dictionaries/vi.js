@@ -334,6 +334,7 @@ export default {
       monster_drop: 'Loot quái vật',
       wood: 'Gỗ & Vật liệu',
       magic: 'Phép thuật',
+      crafted: 'Đồ chế tác & Tiện ích',
     },
     rarities: {
       common: 'Phổ thông',
@@ -373,6 +374,7 @@ export default {
       tea_station: 'Trạm pha trà',
       bakery_oven: 'Lò nướng bánh đá',
       cooking_pot: 'Bếp nấu & Nồi hầm',
+      artisan_workbench: 'Bàn chế tác thủ công',
     },
     tags: {
       tea: 'Trà thảo mộc',

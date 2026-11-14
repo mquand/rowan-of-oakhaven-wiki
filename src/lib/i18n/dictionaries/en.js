@@ -334,6 +334,7 @@ export default {
       monster_drop: 'Monster loot',
       wood: 'Wood & Materials',
       magic: 'Magical items',
+      crafted: 'Crafted & Utility Gear',
     },
     rarities: {
       common: 'Common',
@@ -373,6 +374,7 @@ export default {
       tea_station: 'Tea & Beverage Station',
       bakery_oven: 'Stone Bakery Oven',
       cooking_pot: 'Hearth Cauldron & Pot',
+      artisan_workbench: 'Artisan Workbench',
     },
     tags: {
       tea: 'Herbal tea',

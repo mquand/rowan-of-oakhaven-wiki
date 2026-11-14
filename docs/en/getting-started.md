@@ -13,15 +13,15 @@ spoiler: false
 
 ## Who Are You?
 
-You play as **Rowan**, a young apprentice witch who recently left the Royal Arcane Academy, returning to the Stardust Valley to inherit the rustic tea and bakery shop left by her late **Grandmother Amalia**. Accompanying you are your trusty companions: **Pip** the pygmy owl and **Mallow** the calico cat, alongside Grandmother's cherished "Tattered Secret Grimoire".
+You play as **Rowan**, a resilient frontier artisan returning to the Stardust Valley to inherit the rustic homestead and hearth left by her late **Grandmother Amalia**. Accompanying you are your trusty companions: **Pip** the pygmy owl and **Mallow** the calico cat, alongside Grandmother's cherished "Tattered Secret Grimoire". Your journey combines homestead cultivation, deep-mine exploration, and maintaining a cozy evening hearth for the frontier community of Oakhaven.
 
 ## Your Very First Day
 
-1. **Flip the `[OPEN]` sign** outside your door to welcome visitors — you can open the shop at any hour you wish.
-2. **Head to the backyard garden:** till the soil, plant starter seeds (Silver Wheat, Lotus Tea Buds), and water your plots.
-3. **Milled wheat at the Windmill** into Fresh Baking Flour — essential dough for the oven.
-4. **Twilight evening:** open the tea shop, listen to travelers' stories, and brew tea & bake pastries guided by emotional clues.
-5. **Rest and sleep** to restore full Stamina and welcome the dawn of a new day.
+1. **Morning Homestead (06:00):** Head out back to till garden soil, plant starter seeds (Silver Wheat, Lotus Tea Buds), and water your plots.
+2. **Afternoon Exploration:** Set willow fish traps by the stream, visit Boris at the forge, and gather firewood for the oven.
+3. **Milling & Prep:** Grind wheat into fresh flour at the windmill and prep your first dough batches.
+4. **Twilight Evening (18:00):** Flip the `[OPEN]` sign to welcome weary miners and villagers to the warm hearth, serving hearty loaves and hot tea.
+5. **Rest Before 02:00:** Sleep before midnight exhaustion sets in to restore full Stamina and greet the new dawn.
 
 ## Daily Routine Cycle
 
