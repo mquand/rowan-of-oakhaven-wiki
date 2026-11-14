@@ -1,0 +1,210 @@
+# 📜 OAKHAVEN MASTER DESIGN COMPENDIUM
+> **Tài Liệu Tổng Hợp Thông Số & Thiết Kế Trò Chơi: Rowan of Oakhaven**  
+> *Phiên bản:* 2.0.0 • *Cập nhật:* 14/11/2026 • *Phong cách:* Dark Cozy Pixel Art Action RPG & Shopkeeping
+
+---
+
+## 🧭 VÒNG LẶP CỐT LÕI (CORE GAMEPLAY LOOP)
+
+```mermaid
+flowchart TD
+    Farm["🌾 NÔNG TRẠI OAKHAVEN<br/>(20 giống cây trồng 4 mùa)"] --> Cook["🍵 ẨM THỰC & CHẾ BIẾN<br/>(33 công thức: Trà • Bánh • Súp Hầm)"]
+    Cook --> Shop["🏪 TIỆM TRÀ BÁNH BUỔI TỐI<br/>(Bán cho 22 dân làng kiếm Vàng & Tim)"]
+    Shop --> Forge["🔨 LÒ RÈN BORIS<br/>(Chế tạo, tôi thép +1..+5, khảm ngọc 23 vũ khí)"]
+    Forge --> Dungeon["⚔️ CHINH PHỤC LÒNG ĐẤT<br/>(150 Tầng Mỏ Oakhaven & Star Blight Dungeon)"]
+    Dungeon --> Resource["💎 TÀI NGUYÊN KHAI THÁC<br/>(17 quặng kim loại • 11 đá quý • giọt quái)"]
+    Resource --> Farm
+    Resource --> Forge
+```
+
+---
+
+## 1. BẢNG HỒ SƠ 22 CƯ DÂN & NHÂN VẬT (CHARACTERS ROSTER)
+
+| Nhân vật (Vi / En) | Vai trò / Nghề nghiệp | Địa điểm xuất hiện & Lịch trình | Vai trò trong Gameplay | Thức ăn / Quà tặng yêu thích |
+| :--- | :--- | :--- | :--- | :--- |
+| **Rowan** *(Rowan)* | Chủ Tiệm Trà & Nông Trang | Tiệm Trà & Bánh Oakhaven | Nhân vật chính; quản lý nông trang, pha chế trà bánh, mở tiệm đón khách và thám hiểm hang mỏ. | Trà Sen An Thần, Bánh Mì Bơ Brioche, Cơm Risotto Nấm Trăng |
+| **Pip** *(Pip)* | Cú Lùn Đưa Thư | Tiệm Trà / Rừng Thầm Thì | Đưa thư từ, giao nhiệm vụ hàng ngày; thu lượm hạt giống dại hiếm từ rừng về cho Rowan. | Hạt Giống Trà Sen, Mật Ong Rừng |
+| **Mallow** *(Mallow)* | Mèo Mướp Giữ Tiệm | Quầy Bar / Lò Sưởi Tiệm Trà | Thú cưng quán trà; vuốt ve tăng độ ấm cúng, thỉnh thoảng nhả bơ béo hoặc nấm rừng. | Bơ Béo, Dâu Rừng, Nấm Rừng |
+| **Lumi** *(Lumi)* | Tinh Linh Rừng Thầm Thì | Rừng Thầm Thì / Ghé tiệm đêm | Hướng dẫn ma thuật cổ xưa; dẫn dắt linh hồn Rowan trở về an toàn khi gục ngã dưới mỏ sâu. | Trà Sen An Thần, Phấn Bướm Tinh Linh |
+| **Boris Barnaby** *(Boris)* | Bác Thợ Rèn Kỳ Cựu | Lò Rèn Oakhaven (Phía Đông) | **Trụ cột vũ khí:** Nơi rèn mới, tôi thép $+1 \rightarrow +5$, khảm ngọc cổ ngữ cho toàn bộ 23 vũ khí. | Bánh Cuộn Quế Nướng, Goulash Hầm Mỏ, Trà Lửa Ấm |
+| **Maeve** *(Maeve)* | Bà Lão Làm Vườn | Vườn Ươm Nông Trại Oakhaven | Bán các loại hạt giống 4 mùa, hướng dẫn thời vụ gieo trồng và sản xuất phân bón hữu cơ. | Bánh Nướng Scone Dâu, Trà Cúc Mật Ong, Súp Bí Đỏ |
+| **Kael** *(Kael)* | Cậu Bé Bán Diêm | Bờ Sông / Góc Chợ Oakhaven | Khách hàng nhí; mua các loại bánh nướng giá rẻ, cung cấp diêm mồi lửa hầm mỏ tầng tối. | Bánh Sinh Nhật Tinh Linh, Súp Bí Đỏ, Dâu Rừng |
+| **Bà Ngoại Amalia** *(Amalia)* | Cố Nghệ Nhân Trà Bánh | Ký ức / Di cảo Sổ Tay | Tác giả cuốn sổ tay công thức; để lại các trang công thức bí truyền được mở khóa theo tiến trình. | Búp Trà Sen, Bột Mì Đa Dụng |
+| **Bram** *(Bram)* | Thợ Mỏ Pha Lê Kỳ Cựu | Cửa Hang Mỏ Oakhaven | Vận hành thang máy mỏ 150 tầng; nâng cấp cuốc chim và hướng dẫn đập các mạch quặng cứng. | Bánh Mì Thợ Mỏ Sourdough, Súp Khoai Tây Hầm, Phôi Sắt |
+| **Penny** *(Penny)* | Cô Bé Bán Bánh Dạo | Xe Bánh Lưu Động Chợ Làng | Đối thủ cạnh tranh thân thiện; mua sỉ bánh quy và cung cấp bơ sữa tươi nhập khẩu. | Bánh Shortcake Dâu Rừng, Bánh Scone Dâu, Trà Bạc Hà Băng |
+| **Giáo Sư Orion** *(Orion)* | Nhà Chiêm Tinh Mất Ngủ | Đài Thiên Văn Trên Đồi | Nghiên cứu hiện tượng ô nhiễm Star Blight; đổi bột sao lấy các bùa hộ mệnh chiêm tinh. | Trà Hoa Cúc Mật Ong, Bột Bụi Sao, Thạch Anh Tím |
+| **Clara** *(Clara)* | Cô Thủ Thư Thị Trấn | Thư Viện Cổ Oakhaven | Lưu trữ biên niên sử Oakhaven; giải mã các mảnh cuộn giấy cổ ngữ nhặt được dưới hầm ngục. | Trà Bá Tước Quý Cô, Trà Oải Hương Ngân Sao, Búp Trà Sen |
+| **Thuyền Trưởng Garrick** *(Garrick)* | Cựu Thủy Thủ Biển Mây | Bến Thuyền Mây Cập Bến | Thương nhân hải hành; bán muối biển tinh thể, gia vị ngoại lai và mua nông sản số lượng lớn. | Trà Sữa Masala Dung Nham, Trà Ánh Dương, Muối Biển Tinh Thể |
+| **Finn** *(Finn)* | Cậu Bé Câu Sao Bờ Hồ | Bờ Suối / Hồ Sương Mù | Chuyên gia câu cá và thủy sinh; cung cấp thông tin về các loài cá theo mùa và hồ mỏ ngầm. | Trà Bạc Hà Băng, Dâu Rừng, Thạch Lăng Kính |
+| **Elora** *(Elora)* | Thợ May Áo Choàng Dạ Hội | Xưởng Dệt Rừng Yêu Tinh | Nâng cấp túi đồ cá nhân (Backpack Capacity), may tạp dề tiệm trà và áo choàng kháng lạnh. | Phấn Vàng Tinh Linh, Hoa Oải Hương |
+| **Sylvan** *(Sylvan)* | Nhà Thảo Mộc Kính Một Mắt | Rừng Sâu Sylva-Fae | Thu mua dược liệu quý; chế tạo các loại thuốc giải độc bọ cạp và thuốc chống bỏng dung nham. | Trà Thảo Mộc Đêm Sylvan, Hạt Oải Hương, Búp Trà Sen |
+| **Marlo** *(Marlo)* | Hiệp Sĩ Cảnh Vệ Ca Đêm | Cổng Tuần Tra Thị Trấn | Tuần tra ban đêm; khách quen mua súp nóng và bánh mì thợ mỏ; cảnh báo quái vật đêm. | Súp Hầm Gừng Cay, Bánh Mì Thợ Mỏ, Quặng Sắt |
+| **Aurelia** *(Aurelia)* | Dược Sĩ Trạm Xá | Trạm Y Tế Oakhaven | Cứu chữa cho Rowan khi kiệt sức dưới hầm mỏ; bán băng gạc và thuốc bổ tăng thể lực tạm thời. | Hoa Oải Hương, Mật Ong Rừng |
+| **Valen** *(Valen)* | Quý Tộc Ma Cà Rồng Ăn Chay | Lâu Đài Cổ U Ám | Khách hàng thượng lưu VIP; trả giá cực cao cho các loại trà đỏ, trà dâu tuyết và bánh kem đêm. | Trà Dâu Băng Tuyết, Dâu Rừng Mùa Xuân |
+| **Kassandra** *(Kassandra)* | Phù Thủy Sao Băng Lưu Vong | Lữ Khách Ven Rừng | Hướng dẫn Rowan cách khảm ngọc nguyên tố và sử dụng pháp trượng bắn ma thuật tinh tú. | Bột Bụi Sao, Đá Lam Ngọc |
+| **Chrono** *(Chrono)* | Người Máy Đồng Hồ Cổ Đại | Lòng Đất Khaz-Drakor | Mở khóa công nghệ cơ khí Người Lùn; cung cấp bánh răng cổ đại để chế tạo Nỏ Cơ Giới. | Phôi Vàng, Đá Tinh Thể |
+| **Lapis** *(Lapis)* | Nàng Tiên Cá Biển Mây | Biển Sương Mù | Cung cấp ngọc trai và nước tinh khiết để pha các loại trà thanh nhiệt cao cấp. | Muối Biển Tinh Thể, Lam Ngọc |
+
+---
+
+## 2. BẢNG NÔNG NGHIỆP: 20 CÂY TRỒNG 4 MÙA (CROPS & FARMING)
+
+| Tên Cây Trồng (Vi / En) | Mùa Vụ | Chu Kỳ | Tái Sinh | Giá Hạt | Giá Bán | Lợi Nhuận/Ngày | Ứng Dụng Ẩm Thực Chính |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **Búp Trà Sen** *(Sen Tea Leaves)* | Xuân, Hạ | 4 ngày | 2 ngày | 40g | 65g | +12.5g/ngày | Nguyên liệu nền tảng cho 12 công thức trà thảo mộc. |
+| **Lúa Mì Bạc** *(Silver Wheat)* | Xuân, Hạ, Thu | 4 ngày | 0 | 25g | 50g | +6.25g/ngày | Xay thành Bột mì đúc bánh mì, bánh brioche, scone. |
+| **Hoa Cúc Mặt Trời** *(Sun Daisy)* | Xuân, Hạ | 3 ngày | 0 | 30g | 55g | +8.33g/ngày | Trà Cúc Mật Ong hồi thể lực, Trà Ánh Dương. |
+| **Dâu Rừng Mùa Xuân** *(Spring Wildberry)* | Xuân | 5 ngày | 3 ngày | 60g | 85g | +14.0g/ngày | Mứt dâu, Bánh Nướng Scone Dâu, Bánh Shortcake. |
+| **Hắc Cà Rốt Mắt Mèo** *(Cat-Eye Black Carrot)*| Xuân | 4 ngày | 0 | 35g | 60g | +6.25g/ngày | Súp củ cải hầm, bánh nướng bổ mắt soi đêm. |
+| **Củ Cải Tuyết Xuân** *(Snow Radish)* | Xuân | 4 ngày | 0 | 30g | 55g | +6.25g/ngày | Súp Hầm Củ Cải Thợ Mỏ (+35% tốc độ đào quặng). |
+| **Khoai Tây Hang Đá** *(Cave Potato)* | Xuân, Thu | 5 ngày | 0 | 40g | 75g | +7.0g/ngày | Súp Khoai Tây Hầm Thịt Lợn Rừng, bánh đá nghiền. |
+| **Quả Mọng Ánh Dương** *(Solar Berry)* | Hạ | 6 ngày | 3 ngày | 70g | 110g | +18.0g/ngày | Trà Trái Cây Mùa Hè, Bánh Tart Mọng Nước Ánh Dương. |
+| **Ngô Ngọt Vàng Óng** *(Golden Sweetcorn)* | Hạ, Thu | 6 ngày | 3 ngày | 65g | 95g | +15.0g/ngày | Bột ngô làm bánh đá nướng, bánh mì bắp chảo. |
+| **Bạc Hà Băng Tuyết** *(Frostmint)* | Hạ, Đông | 4 ngày | 2 ngày | 35g | 60g | +11.5g/ngày | Trà Bạc Hà Băng (giải nhiệt chống nóng dung nham). |
+| **Ớt Lửa Nham Thạch** *(Magma Pepper)* | Hạ | 5 ngày | 3 ngày | 50g | 85g | +16.0g/ngày | Trà Sữa Masala Dung Nham, Súp Goulash Cay Nồng. |
+| **Dưa Lưới Tinh Vân** *(Nebula Melon)* | Hạ | 7 ngày | 0 | 80g | 160g | +11.4g/ngày | Món tráng miệng quý tộc giá cao tại tiệm trà. |
+| **Hoa Oải Hương Ngàn Sao** *(Star Lavender)* | Thu | 5 ngày | 0 | 45g | 80g | +7.0g/ngày | Trà Oải Hương Ngân Sao an thần, túi thơm ru ngủ. |
+| **Bí Ngô Trăng Rằm** *(Harvest Moon Pumpkin)* | Thu | 6 ngày | 0 | 60g | 120g | +10.0g/ngày | Súp Bí Ngô Kem Béo (giảm 20% sát thương quái). |
+| **Hạt Phỉ Rừng Già** *(Ancient Hazelnut)* | Thu | 7 ngày | 4 ngày | 80g | 135g | +19.5g/ngày | Bánh Quy Bơ Hạt Phỉ, Bánh Kem Tinh Linh. |
+| **Hành Tây Khói Đen** *(Smoked Black Onion)* | Thu, Đông | 4 ngày | 0 | 35g | 65g | +7.5g/ngày | Nền gia vị súp hầm thịt, súp hành thợ mỏ. |
+| **Gừng Lửa Núi Cao** *(Highland Fire Ginger)* | Thu, Đông | 5 ngày | 0 | 45g | 80g | +7.0g/ngày | Súp Hầm Gừng Cay (miễn nhiễm trạng thái cóng lạnh). |
+| **Lúa Mạch Mùa Đông** *(Winter Barley)* | Đông | 5 ngày | 0 | 35g | 70g | +7.0g/ngày | Bánh Mì Đen Lúa Mạch, bột ngũ cốc sưởi ấm mùa đông. |
+| **Bắp Cải Băng Đảo** *(Glacier Cabbage)* | Đông | 5 ngày | 0 | 40g | 75g | +7.0g/ngày | Canh bắp cải muối chua, cuộn thịt nướng đá. |
+| **Nấm Men Băng Giá** *(Frost Shroom Yeast)* | Đông | 6 ngày | 3 ngày | 75g | 125g | +22.0g/ngày | Lên men bánh sourdough thợ mỏ, ủ rượu táo mùa đông. |
+
+---
+
+## 3. BẢNG KHAI KHOÁNG & HẦM MỎ 150 TẦNG (MINING & MINERALS)
+
+| Đới Địa Tầng | Độ Sâu Tầng | Quặng Kim Loại (17 loại) | Đá Quý & Tinh Thể (11 loại) | Boss Mốc (Stratum Warden) | Ứng Dụng Rèn Đúc & Khai Khai Thác |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **Đới 1: Đất Mềm Khởi Đầu** | Tầng 1 – 20 | Than Đá (`ore_coal`), Đá Thô (`ore_stone`) | Thạch Anh Vụn (`gem_quartz`) | *Khu vực tập luyện* | Đốt lò nướng bánh, rèn vũ khí Bậc 1 (Gỗ & Đá). |
+| **Đới 2: Mỏ Đồng Cổ Xưa** | Tầng 21 – 50 | Quặng Đồng (`ore_copper`) $\rightarrow$ Phôi Đồng | Ngọc Thạch Anh (`gem_amethyst`), Topaz | **Tầng 30:** Vua Bọ Tinh Thể | Đúc vũ khí Bậc 2; nâng cấp cuốc đồng, bình tưới đồng. |
+| **Đới 3: Vực Thép Người Lùn**| Tầng 51 – 80 | Quặng Sắt (`ore_iron`) $\rightarrow$ Phôi Sắt | Ngọc Lục Bảo (`gem_emerald`), Sapphire | **Tầng 60:** Cỗ Máy Hơi Nước Cổ | Rèn vũ khí Bậc 3; làm cối xay bột tự động, búa đập đá. |
+| **Đới 4: Đới Hoàng Kim & Bạc**| Tầng 81 – 110 | Quặng Vàng (`ore_gold`), Quặng Bạc (`ore_silver`)| Lam Ngọc (`gem_sapphire`), Ruby | **Tầng 90:** Kỳ Nhông Nham Thạch | Rèn vũ khí Bậc 4; hệ thống vòi phun nước tự động. |
+| **Đới 5: Vực Hắc Diện Thạch**| Tầng 111 – 140 | Hắc Diện Thạch (`ore_obsidian`), Đá Dung Nham | Hồng Ngọc (`gem_ruby`), Kim Cương | **Tầng 120:** Bóng Ma Băng Vĩnh Cửu | Rèn vũ khí Bậc 5 (kháng cháy); nung chảy dụng cụ. |
+| **Đới 6: Đáy Mỏ Tinh Tú** | Tầng 141 – 150 | Quặng Tinh Tú, Lõi Hư Không (`item_starlight_core`)| Kim Cương Hoàn Hảo (`gem_diamond`) | **Tầng 150:** Trái Tim Ô Nhiễm Blight| Rèn 5 vũ khí tối thượng Bậc 6; mở lối Khaz-Drakor. |
+
+---
+
+## 4. BẢNG ẨM THỰC: 33 CÔNG THỨC & 3 BÀN CHẾ TÁC (RECIPES & CUISINE)
+
+### A. Trạm Pha Trà (`tea_station` — 12 Món Thức Uống)
+| Tên Món Trà | Nguyên Liệu | Giá Bán | Hiệu Ứng Buff Tác Dụng |
+| :--- | :--- | :--- | :--- |
+| **Trà Sen An Thần** | Búp Trà Sen + Nước Tinh Khiết | 85g | Hồi $+45$ Thể lực; hồi $2$ Thể lực/giây trong 60s. |
+| **Trà Hoa Cúc Mật Ong** | Hoa Cúc + Mật Ong + Búp Trà Sen | 110g | Hồi $+60$ Thể lực; tăng $+15\%$ tốc độ làm việc đồng áng. |
+| **Trà Oải Hương Ngân Sao** | Hoa Oải Hương + Búp Trà Sen + Bột Bụi Sao | 150g | Hồi $+80$ Thể lực; tạo vòng sáng nhỏ soi đường hầm tối. |
+| **Trà Bạc Hà Băng Tuyết** | Bạc Hà Băng + Búp Trà Sen + Nước Đá | 120g | Hồi $+50$ Thể lực; **Giải nhiệt, giảm $50\%$ sát thương nóng dung nham**. |
+| **Trà Lửa Ấm Áp** | Búp Trà Sen + Than Củi Ngọt + Mật Ong | 95g | Hồi $+55$ Thể lực; **Giữ ấm, miễn nhiễm cóng lạnh tầng băng**. |
+| **Trà Bá Tước Quý Cô** | Búp Trà Sen + Cam Bergamot + Sữa Tươi | 140g | Hồi $+75$ Thể lực; tăng $+10\%$ giá bán mọi vật phẩm trong ngày. |
+| **Trà Sữa Masala Dung Nham**| Ớt Nham Thạch + Búp Trà Sen + Sữa Tươi | 160g | Hồi $+90$ Thể lực; tăng $+15\%$ tốc độ vung vũ khí cận chiến. |
+| **Trà Dâu Băng Tuyết** | Dâu Rừng + Bạc Hà Băng + Búp Trà Sen | 135g | Hồi $+70$ Thể lực; tăng $+20\%$ tốc độ chạy trong 120s. |
+| **Trà Ánh Dương** | Hoa Cúc + Quả Mọng Ánh Dương + Mật Ong | 175g | Hồi $+100$ Thể lực; **Tăng $+25\%$ tốc độ cuốc quặng trong mỏ**. |
+| **Trà Thảo Mộc Đêm Sylvan** | Rễ Cây Rừng + Búp Trà Sen + Thảo Mộc | 130g | Hồi $+65$ Thể lực; kháng toàn bộ độc tố từ nhện và bọ cạp. |
+| **Trà Tinh Thể Băng Giá** | Tinh Thể Băng + Búp Trà Sen + Bạc Hà | 190g | Hồi $+110$ Thể lực; làm chậm kẻ địch chạm vào người 2s. |
+| **Trà Bụi Sao Thần Diệu** | Búp Trà Sen + Lõi Tinh Tú + Mật Ong Thần | 350g | Hồi **$100\%$ Thể lực**; tăng $+30\%$ sát thương phép thuật. |
+
+### B. Lò Nướng Bánh Đá (`bakery_oven` — 13 Món Bánh Nướng)
+| Tên Món Bánh | Nguyên Liệu | Giá Bán | Hiệu Ứng Buff Tác Dụng |
+| :--- | :--- | :--- | :--- |
+| **Bánh Mì Thợ Mỏ Sourdough**| Bột Mì Bạc + Men Nấm Băng + Nước | 90g | Hồi $+70$ Thể lực; tăng $+10\%$ sức chống chịu va đập quái. |
+| **Bánh Mì Bơ Brioche** | Bột Mì Bạc + Bơ Béo + Trứng Gà | 125g | Hồi $+85$ Thể lực; tăng $+15\%$ độ hảo cảm khi tặng quà dân làng. |
+| **Bánh Cuộn Quế Nướng** | Bột Mì + Vỏ Quế Rừng + Đường Mật | 115g | Hồi $+80$ Thể lực; bước chân lướt nhanh hơn $10\%$. |
+| **Bánh Nướng Scone Dâu** | Bột Mì + Dâu Rừng + Bơ Béo | 130g | Hồi $+90$ Thể lực; tăng may mắn nhặt được hạt giống kép. |
+| **Bánh Shortcake Dâu Rừng** | Bột Mì + Dâu Rừng + Kem Sữa Tươi | 165g | Hồi $+110$ Thể lực; tăng $+20\%$ tỉ lệ rơi đá quý khi đập đá. |
+| **Bánh Bí Ngô Lễ Hội** | Bí Ngô Vàng + Bột Mì + Mật Ong | 145g | Hồi $+100$ Thể lực; tăng $+20$ Thể lực tối đa trong 180s. |
+| **Bánh Quy Bơ Hạt Phỉ** | Bột Mì + Hạt Phỉ Rừng + Bơ Béo | 135g | Hồi $+95$ Thể lực; tăng cự ly hút vật phẩm từ xa. |
+| **Bánh Tart Quả Mọng Nắng** | Quả Mọng Ánh Dương + Bột Mì + Kem | 180g | Hồi $+120$ Thể lực; hồi Thể lực nhanh gấp đôi khi đứng yên. |
+| **Bánh Sinh Nhật Tinh Linh** | Bột Mì + Bột Bụi Sao + Dâu + Bơ | 280g | Hồi $+180$ Thể lực; hào quang bụi sao đẩy lùi quái nhỏ xung quanh. |
+| **Bánh Mì Đen Lúa Mạch** | Lúa Mạch Mùa Đông + Men Nấm + Muối | 100g | Hồi $+75$ Thể lực; giảm $20\%$ tốc độ tụt thể lực khi cuốc đất. |
+| **Bánh Sừng Bò Bơ Giòn** | Bột Mì Bạc + Bơ Béo Cao Cấp | 140g | Hồi $+95$ Thể lực; tăng độ linh hoạt khi lướt né Stardust Dash. |
+| **Bánh Nướng Phô Mai Mỏ** | Bột Mì + Phô Mai Ủ + Muối Biển | 160g | Hồi $+115$ Thể lực; tăng $+15\%$ lực chém vũ khí cận chiến. |
+| **Bánh Trăng Rằm Tinh Tú** | Bột Mì + Lõi Tinh Tú + Mật Ong Rừng | 380g | Hồi **$100\%$ Thể lực**; nhận 1 lớp khiên ảo chặn 1 đòn tử mạng. |
+
+### C. Bếp Nấu & Nồi Hầm (`cooking_pot` — 8 Món Ăn Chính & Súp Hầm)
+| Tên Món Ăn | Nguyên Liệu | Giá Bán | Hiệu Ứng Buff Tác Dụng |
+| :--- | :--- | :--- | :--- |
+| **Súp Hầm Củ Cải Thợ Mỏ** | Củ Cải Tuyết + Khoai Hang + Nước Dùng | 140g | Hồi $+90$ Thể lực; **$+35\%$ Tốc độ cuốc mỏ trong 240s**. |
+| **Súp Bí Đỏ Kem Béo** | Bí Ngô Vàng + Sữa Tươi + Bơ + Nấm Rừng | 160g | Hồi $+105$ Thể lực; **Giảm $20\%$ sát thương nhận vào từ quái vật**. |
+| **Goulash Sắt Người Lùn** | Thịt Rừng + Khoai + Ớt Lửa + Cà Rốt | 220g | Hồi $+140$ Thể lực; **$+30\%$ Lực đánh đòn nặng (Heavy Attack)**. |
+| **Súp Gừng Lửa Cay Nồng** | Gừng Lửa + Hành Tây Khói + Nước Dùng | 150g | Hồi $+95$ Thể lực; **Miễn nhiễm hoàn toàn trạng thái Băng Giá**. |
+| **Cơm Risotto Nấm Trăng** | Gạo Nước + Nấm Rừng + Bơ + Bột Sao | 260g | Hồi $+160$ Thể lực; **Hút $5\%$ sát thương gây ra thành Thể lực**. |
+| **Canh Rau Thảo Dược Rừng** | Cà Rốt + Củ Cải + Thảo Mộc Sylvan | 130g | Hồi $+85$ Thể lực; **Tự động giải trừ mọi chất độc ngay lập tức**. |
+| **Bò Hầm Nham Thạch Núi Lửa**| Thịt Bò + Hắc Diện Thạch Vụn + Ớt Lửa | 280g | Hồi $+175$ Thể lực; **Đòn đánh cận chiến thiêu đốt quái 5s**. |
+| **Lương Khô Thám Hiểm Hư Không**| Bột Đen + Men Nấm Băng + Lõi Tinh Tú | 320g | Hồi $+200$ Thể lực; **Tăng $+25\%$ Sát thương lên quái Blight**. |
+
+---
+
+## 5. BẢNG KHO VŨ KHÍ: 23 VŨ KHÍ 5 PHÂN HỆ & 6 BẬC LÒ RÈN BORIS
+
+| Bậc (Tier) | Tên Vũ Khí (Vi / En) | Phân Hệ | ATK & Tốc Độ | Tầm Đánh | Kỹ Năng Cổ Ngữ (Runic Skill) | Công Thức Lò Rèn Boris |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **Bậc 1** | **Kiếm Gỗ Huấn Luyện** *(Wooden Training Sword)* | Cận chiến | ATK 6 • 2.2 nhịp/s | Cận chiến 1.1 ô | **Đập Chuôi Kiếm:** Choáng quái nhỏ 0.5s. | 15 Gỗ Sồi + 100g |
+| **Bậc 1** | **Liềm Làm Nông Cũ** *(Rusty Farm Scythe)* | Cận chiến | ATK 8 • 1.4 nhịp/s | Bán nguyệt 2.0 ô | **Vung Quét Rộng:** Văng lùi quái nhỏ xung quanh. | 10 Gỗ Sồi + 5 Đá Thô + 150g |
+| **Bậc 1** | **Búa Đá Thợ Mỏ** *(Miner's Stone Mallet)* | Hạng nặng | ATK 12 • 0.9 nhịp/s | Đập đất 1.5 ô | **Dậm Đất Nặng:** Dậm choáng quái xung quanh 1s. | 20 Đá Thô + 5 Gỗ Sồi + 200g |
+| **Bậc 1** | **Cung Săn Oakhaven** *(Oakhaven Hunter Bow)* | Tầm xa | ATK 10 • 1.2 tên/s | Tầm xa 5.0 ô | **Tiễn Ngắm Chuẩn:** Kéo căng x2 sát thương chí mạng. | 15 Gỗ Sồi + 5 Dây Leo + 180g |
+| **Bậc 1** | **Đũa Phép Gỗ Sơ Cấp** *(Apprentice Oak Wand)* | Pháp thuật | ATK 9 • 1.5 phát/s | Tầm trung 4.5 ô | **Chớp Sáng Đẩy Lùi:** Nổ chớp sáng đẩy lùi bọ cánh cứng. | 12 Gỗ Sồi + 2 Thạch Anh + 220g |
+| **Bậc 2** | **Kiếm Bản Rộng Đồng Đỏ** *(Copper Broadsword)* | Cận chiến | ATK 14 • 2.6 nhịp/s | Cận chiến 1.2 ô | **Trảm Phong:** Vung kiếm 360° đẩy lùi kẻ địch bao vây. | 6 Phôi Đồng + 2 Than + 600g |
+| **Bậc 2** | **Chùy Gai Đồng Đỏ** *(Copper Spiked Mace)* | Hạng nặng | ATK 22 • 1.1 nhịp/s | Cận chiến 1.6 ô | **Nghiền Giáp:** Đòn đập giảm 40% giáp mục tiêu 5s. | 8 Phôi Đồng + 4 Than + 850g |
+| **Bậc 3** | **Kiếm Thép Rèn Oakhaven** *(Forged Steelblade)* | Cận chiến | ATK 24 • 2.8 nhịp/s | Cận chiến 1.3 ô | **Đỡ & Phản Kích:** Parry hoàn hảo choáng 2s, phản 150% dmg. | 8 Phôi Sắt + 4 Than + 1,800g |
+| **Bậc 3** | **Liềm Ma Thuật** *(Mystic Scythe)* | Cận chiến | ATK 28 • 1.8 nhịp/s | Bán nguyệt 2.5 ô | **Lốc Thu Hoạch:** Xoay lốc xoáy nhỏ gom quái lại một điểm. | 6 Phôi Đồng + 4 Phôi Sắt + 1 Emerald + 2,400g |
+| **Bậc 3** | **Gậy Quấy Trà Khổng Lồ** *(Whisk Hammer)* | Hạng nặng | ATK 38 • 0.8 nhịp/s | Sóng nứt 2.0 ô | **Sóng Bụi Trà:** Đập búa tạo sóng bột trà làm chậm quái 50%.| 10 Phôi Sắt + 2 Đá Tinh Thể + 2,500g |
+| **Bậc 3** | **Nỏ Cơ Giới Bánh Răng** *(Clockwork Crossbow)* | Tầm xa | ATK 26 • 1.8 phát/s | Tầm xa 6.5 ô | **Xạ Kích Liên Hoàn:** Bắn liền 3 mũi tên thép xuyên thấu. | 8 Phôi Sắt + 2 Bánh Răng Vàng + 2,800g |
+| **Bậc 3** | **Đèn Lồng Bão Đom Đóm** *(Spirit Lantern)* | Pháp thuật | ATK 25 • 2.0 tia/s | Tầm xa 6.0 ô | **Hào Quang Huỳnh Quang:** Đom đóm bay quanh tạo khiên hộ thể.| 6 Phôi Sắt + 1 Tinh Chất Đom Đóm + 2 Quartz + 2,200g |
+| **Bậc 4** | **Kiếm Liễu Thái Dương** *(Sunburst Rapier)* | Cận chiến | ATK 35 • 3.5 nhịp/s | Đâm thẳng 1.5 ô | **Lướt Đâm Quang Năng:** Lướt xuyên hàng quái để lại vệt cháy.| 6 Phôi Vàng + 1 Ruby + 4,500g |
+| **Bậc 4** | **Lưỡi Hái Ngân Nguyệt** *(Silver Moon Scythe)* | Cận chiến | ATK 42 • 2.0 nhịp/s | Bán nguyệt 2.6 ô | **Sóng Ngân Nguyệt:** Phóng lưỡi đao ánh trăng xuyên hàng quái.| 8 Phôi Bạc + 2 Amethyst + 6,000g |
+| **Bậc 4** | **Nỏ Bắn Tỉa Kim Quang** *(Solar Arbalest)* | Tầm xa | ATK 44 • 1.4 phát/s | Siêu xa 8.0 ô | **Lao Quang Tuyến:** Bắn lao sáng xuyên quái, làm mù quái 3s. | 10 Phôi Vàng + 2 Topaz + 6,500g |
+| **Bậc 5** | **Kiếm Lửa Hắc Diện Thạch** *(Obsidian Saber)* | Cận chiến | ATK 50 • 3.0 nhịp/s | Cận chiến 1.4 ô | **Dung Nham Phun Trào:** Cắm kiếm tạo cột dung nham hất tung. | 10 Hắc Diện Thạch + 5 Phôi Sắt + 9,000g |
+| **Bậc 5** | **Búa Tạ Nham Thạch** *(Magma Warhammer)* | Hạng nặng | ATK 62 • 0.7 nhịp/s | Nứt đất 2.4 ô | **Địa Chấn Dung Nham:** Tạo rãnh dung nham nổ 4 ô thẳng. | 12 Hắc Diện Thạch + 6 Phôi Sắt + 10,500g |
+| **Bậc 5** | **Trượng Hỏa Sơn Dung Nham** *(Magma Rod)* | Pháp thuật | ATK 54 • 1.3 phát/s | Tầm xa 6.5 ô | **Vòng Lửa Thiêu Rụi:** Dựng tường lửa tròn chặn quái áp sát 6s.| 8 Hắc Diện Thạch + 2 Ruby + 8,500g |
+| **Bậc 6** | **Kiếm Pha Lê Sao** *(Starlight Blade)* | Cận chiến | ATK 68 • 3.8 nhịp/s | Cận chiến 1.4 ô | **Bụi Sao Thác Đổ:** Phóng 5 phi kiếm sao tự tìm mục tiêu. | 1 Lõi Tinh Tú + 4 Kim Cương + 20,000g |
+| **Bậc 6** | **Lưỡi Hái Hư Không Tinh Tú** *(Void Reaper)* | Cận chiến | ATK 74 • 2.2 nhịp/s | Bán nguyệt 3.0 ô | **Đoạt Hồn Trảm:** Trảm sát ngay quái thường dưới 25% HP. | 1 Lõi Tinh Tú + 8 Hắc Diện Thạch + 2 Diamond + 22,000g |
+| **Bậc 6** | **Búa Tinh Vân Thần Tượng** *(Stellar Crusher)* | Hạng nặng | ATK 92 • 0.75 nhịp/s | Địa chấn 2.8 ô | **Thiên Thạch Giáng Thế:** Nhảy vọt lên giáng búa như thiên thạch.| 1 Lõi Tinh Tú + 4 Diamond + 10 Phôi Vàng + 25,000g |
+| **Bậc 6** | **Nỏ Liên Thanh Hư Không** *(Void Repeater)* | Tầm xa | ATK 65 • 2.5 phát/s | Tầm xa 7.0 ô | **Mưa Tên Tinh Tú:** Trút cơn mưa tên sao nổ diện tích 4x4 ô. | 1 Lõi Tinh Tú + 6 Phôi Bạc + 3 Diamond + 24,000g |
+| **Bậc 6** | **Pháp Trượng Khởi Nguyên** *(Starlight Staff)*| Pháp thuật | ATK 76 • 2.0 phát/s | Bao quát 7.5 ô | **Siêu Tân Tinh (Supernova):** Quả cầu sao nổ quét sạch màn hình.| 1 Lõi Tinh Tú + 3 Sapphire + 3 Diamond + 26,000g |
+
+### 🛠️ Nguyên Tắc Thiết Kế Lò Rèn Boris:
+1. **Tôi Thép Cường Hóa ($+1 \rightarrow +5$):** Mỗi cấp tăng $+10\%$ ATK và $+5\%$ Tốc độ vung.
+2. **Cam Kết Nhân Văn (Dark Cozy):** **Tỉ lệ thành công LUÔN LÀ 100%**. Không bao giờ có cơ chế xịt đồ, tụt cấp hay vỡ vũ khí.
+3. **Khảm Ấn Ngọc Cổ Ngữ:**
+   * 🔴 *Ruby:* Hiệu ứng Cháy (Burn) 4s.
+   * 🔵 *Sapphire:* Hiệu ứng Làm Chậm $40\%$ (Frost Slow).
+   * 🟢 *Emerald:* Phóng thích Bào Tử Độc (Poison Spores).
+   * 💎 *Diamond:* Tăng vĩnh viễn $+20\%$ Tỉ lệ đòn Chí Mạng.
+   * 🟣 *Amethyst:* Giảm $25\%$ Thể lực tiêu hao khi vung vũ khí.
+   * 🟡 *Topaz:* Tăng $+35\%$ Lực Đẩy Lùi (Knockback).
+4. **Tái Chế Nấu Chảy:** Hoàn lại $60\%$ số phôi kim loại và $100\%$ viên đá quý đã khảm.
+
+---
+
+## 6. BẢNG BẢN ĐỒ THẾ GIỚI & CÁC VÙNG ĐẤT (WORLD ATLAS)
+
+| Địa Danh (Vi / En) | Phân Loại | Cư Dân Tiêu Biểu | Cảnh Quan & Khí Hậu | Tính Năng Hoạt Động |
+| :--- | :--- | :--- | :--- | :--- |
+| **Thị Trấn Oakhaven** *(The Stardust Valley)* | Thị trấn Khởi đầu | Rowan, Pip, Mallow, Boris, Maeve, Penny, Clara | Thung lũng êm đềm dưới bóng cây sồi ngàn năm, suối trong vắt, ban đêm có bụi sao rơi. | Nông trại, Tiệm Trà Bánh, Lò Rèn Boris, Cửa Hang Mỏ, Thư viện, Trạm xá. |
+| **Kinh Đô Ánh Sáng Solaria** *(The Royal Capital)* | Vùng đất liên thông | Giáo sư Orion, Thương nhân Hoàng triều | Thành phố tráng lệ lát đá cẩm thạch trắng, cung điện dát vàng phản chiếu ánh dương rực rỡ. | Chợ giao thương hoàng gia, Đài thiên văn chiêm tinh, Viện nghiên cứu ma thuật. |
+| **Đại Rừng Yêu Tinh Sylva-Fae** *(The Ancient Elven Canopy)* | Vùng đất liên thông | Lumi, Elora, Sylvan | Tán rừng nguyên sinh khổng lồ, những ngôi nhà hình nấm phát quang, đom đóm dạ quang bay rợp trời. | Thu hái nấm rừng quý, dệt áo choàng dạ hội, học ma thuật tinh linh cổ xưa. |
+| **Đô Thị Ngầm Khaz-Drakor** *(The Dwarven Megalopolis)* | Vùng đất liên thông | Bram, Chrono, Thợ rèn Người Lùn | Đại đô thị xây sâu trong lòng núi đá dung nham, guồng máy hơi nước khổng lồ và lò cao luyện kim. | Luyện kim thuật đỉnh cao, phụ kiện bánh răng cơ giới, thông tới Tầng 150 đáy mỏ. |
+| **Cõi Địa Đàng Aethelgard** *(The Floating Elysium)* | Vùng đất liên thông | Kassandra, Lapis, Thủy thủ Garrick | Quần thể đảo bay lơ lửng giữa biển mây bồng bềnh, thác nước đổ ngược lên trời, cực quang vĩnh cửu. | Khai thác Lõi Tinh Tú, bến thuyền mây viễn du, chinh phục Hầm ngục Star Blight. |
+
+---
+
+## 7. CƠ CHẾ SINH TỒN & CHIẾN ĐẤU CỐT LÕI (CORE COMBAT MECHANICS)
+
+1. **Thanh Thể Lực Hợp Nhất (Unified Stamina Bar):**
+   * Không có thanh HP riêng biệt. Nhận sát thương = Trừ Thể lực. Cạn Thể lực = Gục ngã.
+   * Thức ăn nóng, bánh nướng và trà thảo mộc là nguồn hồi phục sinh lực sống còn.
+2. **Lướt Né Tránh (Stardust Dash):**
+   * Tiêu tốn 12 Thể lực, lướt 2.5 ô để lại vệt tàn ảnh bụi sao.
+   * Nhận **0.25 giây bất tử (i-Frames)** để né mọi đòn quét diện rộng và bẫy hang.
+3. **Phản Đòn Hoàn Hảo (Perfect Parry):**
+   * Giơ thế thủ trước 0.2s khi quái chạm đòn $\rightarrow$ Miễn nhiễm sát thương, hồi **+15 Thể lực** và gây choáng quái 2 giây.
+4. **Cơ Chế Bóng Tối Hang Mỏ (Lantern Darkness):**
+   * Từ tầng 30 trở đi hoàn toàn tối đen. Quái vật trong bóng tối tàng hình và tăng 50% tốc độ.
+   * Bắt buộc trang bị Đèn Lồng Đom Đóm để soi sáng, làm hiện hình điểm yếu của quái vật.
+5. **Mức Độ Rủi Ro Khi Gục Ngã (Stakes & Defeat):**
+   * **Không Perma-death.**
+   * Giữ nguyên 100% trang bị, vũ khí, tiền vàng và hòm đồ trên mặt đất.
+   * Chỉ rơi lại $\approx 30\%$ quặng thô và thảo mộc vừa thu nhặt trong chuyến đi đó.
