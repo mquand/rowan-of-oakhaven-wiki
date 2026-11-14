@@ -207,4 +207,139 @@ flowchart TD
 5. **Mức Độ Rủi Ro Khi Gục Ngã (Stakes & Defeat):**
    * **Không Perma-death.**
    * Giữ nguyên 100% trang bị, vũ khí, tiền vàng và hòm đồ trên mặt đất.
-   * Chỉ rơi lại $\approx 30\%$ quặng thô và thảo mộc vừa thu nhặt trong chuyến đi đó.
+   * Chỉ rơi lại $\approx 30\%$ quặng thô và thảo mộc vừa thu nhặt trong chuyến đi đó (có thể điều chỉnh theo Chế độ chơi).
+
+---
+
+## 8. HỆ THỐNG KINH TẾ, DÒNG TIỀN & 8 KÊNH TIÊU TIỀN (MACRO ECONOMY & MONEY SINKS)
+
+### 💡 Triết Lý Kinh Tế Cốt Lõi:
+Nền kinh tế của *Rowan of Oakhaven* vận hành theo nguyên lý: **"Tiền (Vàng) = Thời gian được giải phóng + Không gian ấm cúng được mở rộng + Cảm giác tự hào của người bảo hộ thị trấn."**
+Tiền kiếm được từ Tiệm Trà Đêm và Nông Trại không bao giờ bị nghẽn ở Lò Rèn Boris, mà liên tục luân chuyển qua 8 trụ cột lớn:
+
+```mermaid
+flowchart TD
+    subgraph INFLOW["DÒNG TIỀN VÀO (INCOME)"]
+        In1["🍵 Tiệm Trà Bánh Đêm (33 món)"]
+        In2["🌾 Nông Sản 4 Mùa (20 cây trồng)"]
+        In3["💎 Khoáng Sản Tầng Sâu (150 tầng mỏ)"]
+        In4["📜 Nhiệm Vụ Bảng Tin Thị Trấn"]
+    end
+
+    subgraph OUTFLOW["DÒNG TIỀN RA (8 MONEY SINKS)"]
+        S1["⛏️ 1. Khai Khoáng, Mua Mỏ & Tự Động Hóa"]
+        S2["🏪 2. Nâng Cấp Tiệm Trà & Cozy Rating"]
+        S3["🌾 3. Tự Động Nông Trại & Thuê Nhân Công"]
+        S4["🐎 4. Giao Thông, Vận Tải & Xe Goòng"]
+        S5["🏛️ 5. Tái Thiết Thị Trấn & Dự Án Công"]
+        S6["🚢 6. Đầu Tư Mạo Hiểm & Thương Mại"]
+        S7["🎒 7. Nâng Cấp Ba Lô, Đèn Lồng & QoL"]
+        S8["🎁 8. Đời Sống Xã Hội & Lễ Hội 4 Mùa"]
+    end
+
+    INFLOW ==> OUTFLOW
+```
+
+### 8.1. Trụ Cột 1: Khai Khoáng, Sở Hữu Mỏ & Nguyên Vật Liệu Thô (Mining Sinks)
+* **Mua Lẻ Cấp Bách (Bram & Boris):**
+  * *Năm 1:* Đá cuội (10g), Than đen (30g), Quặng Đồng (50g), Quặng Sắt (120g), Phôi Đồng (200g), Phôi Sắt (450g).
+  * *Năm 2 trở đi (Lạm phát):* Giá tăng $+50\% \rightarrow +100\%$ nhằm hấp thụ lượng tiền mặt dư thừa của người chơi giàu.
+* **Hợp Đồng Bao Tiêu Mỏ Của Bram (Bram's Mining Contracts):**
+  * *Gói Tầng Nông (Tầng 1–30):* 1,800g / tuần $\rightarrow$ Giao 15 Đồng, 20 Than, 40 Đá Cuội, 2 Mã Não Rêu mỗi sáng lúc 6:00.
+  * *Gói Lòng Sắt & Vàng (Tầng 31–90):* 6,500g / tuần $\rightarrow$ Giao 15 Sắt, 8 Vàng, 10 Đất Sét Đỏ, 1 Hồng Ngọc Lửa.
+  * *Gói Vực Thẳm Tinh Tú (Tầng 91–150):* 22,000g / tuần $\rightarrow$ Giao 6 Mithril, 6 Obsidian, 2 Tinh Thể Băng, 1 Kim Cương Thô.
+* **Mua Đứt Bãi Mỏ Bỏ Hoang Nông Trang (The Abandoned Farm Quarry):**
+  * Chi phí: **35,000g + 50 Phôi Sắt + 80 Gỗ Sồi**.
+  * Mỗi 2 ngày tự động sản sinh 8–12 khối quặng ngẫu nhiên theo mốc tầng mỏ cao nhất từng đạt, kèm hạch đá Geodes.
+* **Robot Đào Mỏ Tự Động Chrono (Dwarven Auto-Miner):**
+  * Giá mua: 15,000g + 5 Bánh Răng Cổ tại Khaz-Drakor. Cắm cố định tại các tầng mốc.
+  * Chi phí vận hành: 2,500g / tuần tiền mua Lõi Hơi Nước Cổ để máy hoạt động liên tục.
+* **Chợ Đá Quý Kassandra:**
+  * Bán đá quý khảm ngọc chưa giám định (2,000g – 10,000g) vào Thứ Bảy hàng tuần.
+
+### 8.2. Trụ Cột 2: Nâng Cấp Tiệm Trà & Kinh Tế Cozy (Hospitality Sinks)
+* **Mở Rộng Không Gian Phục Vụ:**
+  * *Cấp 1 (Mặc định):* 2 bàn (4 khách/đêm).
+  * *Cấp 2 (12,000g):* 4 bàn + 2 ghế quầy bar, khách gọi thêm món phụ.
+  * *Cấp 3 (40,000g):* Gác xép VIP phục vụ khách đặc biệt (Valen, Orion, Garrick) với giá thực đơn $\times 2.5$.
+* **Thiết Bị Chế Biến Cao Cấp (Kitchen Tier):**
+  * *Lò Nướng Đá Cổ (Stone Hearth Oven - 8,000g):* Tốc độ nướng $\times 2$, giảm $30\%$ rủi ro cháy bánh, tăng tỷ lệ bánh Star-Tier.
+  * *Bộ Ấm Đồng Rót Chậm (Copper Kettle - 5,000g):* Giữ trà ấm trong 4 giờ, tăng điểm hài lòng và tip $+30\%$.
+  * *Tủ Kính Pha Lê (Starlight Showcase - 15,000g):* Giữ bánh trà qua đêm không giảm độ tươi.
+* **Chỉ Số Ấm Cúng (Cozy Rating) & Hộp Nhạc:**
+  * Mua thảm dệt Elora (3,000g), lò sưởi đá (7,500g), đèn chùm pha lê sao (10,000g).
+  * *Hộp Nhạc Oakhaven (Jukebox - 12,000g):* Mua băng nhạc lofi (1,500g/băng). Khi Cozy Rating đạt cực đại, khách kiên nhẫn chờ $+50\%$ và tỷ lệ tặng quà lưu niệm là $20\%$.
+
+### 8.3. Trụ Cột 3: Tự Động Hóa Nông Trại & Nhân Công (Farming & Helpers)
+* **Thuê Nhân Công Làng Oakhaven:**
+  * *Kael (400g/tuần):* Dọn cỏ dại, nhặt cành khô, tưới các ô đất chưa lắp vòi phun nước.
+  * *Penny (1,200g/tuần + 5% hoa hồng):* Bán sỉ bánh mì tồn kho dư thừa tại xe đẩy chợ sáng.
+* **Thú Cưng & Tinh Linh Phụ Tá:**
+  * *Mèo Mallow:* Nệm nhung (4,000g), đồ chơi cào móng (2,000g), hạt cá hồi (200g/ngày) $\rightarrow$ Mallow hạnh phúc, tha nấm quý và bơ béo về tiệm mỗi sáng.
+  * *Cú Pip:* Chuồng cú hoàng gia (8,000g) $\rightarrow$ Đi xa giao hàng buôn sỉ và tha về hạt giống trà dại đột biến.
+  * *Tổ Ong Tinh Linh (Fae Apiary):* Dựng thùng ong rừng gần luống hoa trà để tự thu hoạch Mật Ong Rừng mỗi 3 ngày.
+* **Nhà Kính Cổ Oakhaven (Ancient Greenhouse):**
+  * Chi phí phục hồi: **50,000g + 100 Gỗ Sồi + 40 Phôi Vàng**.
+  * Cho phép trồng bất kỳ loại cây nào trong 20 loại cây trồng quanh năm không phụ thuộc mùa.
+
+### 8.4. Trụ Cột 4: Giao Thông, Vận Tải & Logistics (Mobility Sinks)
+* **Vé Xe Ngựa Bác Bram:** Vé tháng 2,000g dịch chuyển tức thời Nông Trại ↔ Làng ↔ Cửa Mỏ.
+* **Đường Ray Xe Goòng Ngầm (Minecart Network):**
+  * 20,000g + 30 Thanh Ray Sắt: Nối thẳng từ hầm tiệm trà xuống Tầng 30, 60, 90 hầm mỏ.
+* **Vé Thuyền Mây Garrick:**
+  * 500g / lượt đi sang Chợ Nổi Biển Mây mua gia vị ngoại lai và câu cá hiếm.
+
+### 8.5. Trụ Cột 5: Tái Thiết Thị Trấn & Dự Án Công Cộng (Public Works)
+* **Sửa Cầu Gỗ Hồ Sương Mù (15,000g + 50 Gỗ Sồi + 20 Phôi Sắt):** Mở lối gặp Nàng Tiên Cá Lapis và bãi câu đêm.
+* **Trùng Tu Thư Viện Clara (25,000g + 30 Granite + 10 Phôi Vàng):** Mở khóa 5 công thức bánh Hoàng Gia thất truyền.
+* **Đèn Khí Đốt Phố Đêm (30,000g + 40 Phôi Đồng + 50 Tinh Thể Bạc):** Đẩy lùi quái đêm, lượng khách ghé quán đêm tăng $+40\%$.
+* **Tài Trợ Đài Thiên Văn Orion (45,000g + 15 Thạch Anh Tím + 10 Kính Pha Lê):** Mở tính năng Dự Báo Khí Tượng Chiêm Tinh (báo trước Mưa Sao Băng, Trăng Máu 3 ngày).
+* **Trạm Y Tế Aurelia Mới (20,000g + 40 Gỗ Thông + 20 Đất Sét):** Giảm 50% viện phí, mở bán thuốc kháng độc cao cấp.
+
+### 8.6. Trụ Cột 6: Đầu Tư Mạo Hiểm & Thương Mại Viễn Dương (Investments)
+* **Góp Vốn Tàu Buôn Garrick:**
+  * Gói Ven Bờ (5,000g / 3 ngày): Lãi $120\% - 140\%$ hoặc gia vị hiếm.
+  * Gói Biển Sâu (20,000g / 7 ngày): Rương báu cổ đại, phôi Mithril, hạt giống cây ngoại lai.
+* **Bản Quyền Công Thức Hoàng Gia (Exclusive Licenses):** 10,000g – 30,000g / món từ các đầu bếp lữ hành ghé làng.
+* **Quỹ Bảo Hiểm Hầm Mỏ Aurelia:** Phí 5,000g / mùa $\rightarrow$ Gục ngã trong mỏ không bị trừ tiền và giữ 100% túi đồ.
+
+### 8.7. Trụ Cột 7: Nâng Cấp Cá Nhân, Đèn Lồng & QoL (Gear & Survival)
+* **4 Bậc Đèn Lồng:** Đèn Dầu Cũ (Gốc) $\rightarrow$ Đèn Đồng (2,500g) $\rightarrow$ Đèn Pha Lê Tinh Thể (8,000g) $\rightarrow$ Đèn Tinh Tú Vĩnh Cửu (25,000g).
+* **4 Bậc Ba Lô Elora:** Túi Vải 16 ô (Gốc) $\rightarrow$ Ba Lô Da 24 ô (3,000g) $\rightarrow$ Ba Lô Thám Hiểm 36 ô (10,000g) $\rightarrow$ Túi Càn Khôn 48 ô (30,000g).
+* **Bình Giữ Nhiệt Titan (Thermos Flask - 6,000g):** Giữ súp/trà nóng không bị nguội trong tầng mỏ tuyết băng.
+
+### 8.8. Trụ Cột 8: Đời Sống Xã Hội, Quà Tặng & Lễ Hội 4 Mùa (Social Sinks)
+* **Hộp Quà Lụa Elora (500g/hộp):** Tặng quà trong hộp lụa nhận $+50$ Tim và lời thoại cảm động độc quyền.
+* **Gian Hàng Hội Chợ 4 Mùa (5,000g thuê quầy trung tâm):** Bán đặc sản cho du khách thập phương kiếm lãi đậm.
+* **Vé Mini-game Lễ Hội:** Đổi lấy tượng pixel trang trí sân vườn độc bản.
+
+---
+
+## 9. HỆ THỐNG CHẾ ĐỘ CHƠI & ĐIỀU TIẾT DÒNG TIỀN (DIFFICULTY MODES & CASHFLOW REGULATION)
+
+Game phân chia 3 chế độ chơi chính gắn liền với công thức điều tiết kinh tế và tỷ suất sinh lời:
+
+### 9.1. Định Danh 3 Chế Độ Chơi:
+1. 🍃 **Hương Trà Ấm Cúng (Cozy Sip Mode - Dễ):** Dành cho người muốn thư giãn tuyệt đối, đọc thoại, trang trí tiệm trà, dòng tiền luôn dồi dào, sai lầm không bị trừng phạt.
+2. 🧭 **Lữ Khách Oakhaven (Adventurer Standard - Vừa / Mặc Định):** Cân bằng hoàn hảo theo đúng thiết kế gốc; luân chuyển vốn nhịp nhàng giữa tiệm trà, nông trang và hầm mỏ.
+3. 🌑 **Đêm Tinh Tú Khắc Nghiệt (Star Blight Hardcore - Khó):** Quản lý kinh doanh căng thẳng, tính toán biên lợi nhuận mỏng, khách khó tính, quái mỏ hung dữ, rủi ro mất tiền lớn khi gục ngã.
+
+### 9.2. Bảng Ma Trận Hệ Số Kinh Tế Theo Chế Độ:
+
+| Chỉ Số Kinh Tế & Vận Hành | 🍃 Hương Trà Ấm Cúng (Easy) | 🧭 Lữ Khách Oakhaven (Normal) | 🌑 Đêm Tinh Tú Khắc Nghiệt (Hard) |
+| :--- | :---: | :---: | :---: |
+| **Hệ số Bán Hàng (Sell Price)** | **$\times 1.5$** *(+50% giá bán)* | **$\times 1.0$** *(Chuẩn)* | **$\times 0.75$** *(-25% giá bán)* |
+| **Hệ số Giá Mua Đầu Vào (Buy Price)**| **$\times 0.8$** *(-20% giá mua)* | **$\times 1.0$** *(Chuẩn)* | **$\times 1.3$** *(+30% giá mua)* |
+| **Biên Lợi Nhuận Cơ Bản** | $60\% - 75\%$ | $35\% - 45\%$ | $15\% - 20\%$ |
+| **Thời Gian Khách Chờ Tiệm Trà** | Rất kiên nhẫn ($+50\%$ time) | Chuẩn ($25$s / khách) | Gắt gao ($15$s / khách, dễ bỏ về) |
+| **Tỷ Lệ Tiền Boa (Tip Rate)** | $20\% \rightarrow 35\%$ bill | $10\% \rightarrow 15\%$ bill | $0\% \rightarrow 5\%$ (Chỉ tip khi 100% điểm) |
+| **Chi Phí Thuê Nhân Công & Mỏ** | Giảm $30\%$ chi phí | Chuẩn theo bảng giá | Tăng $+30\%$ chi phí lương |
+| **Hình Phạt Khi Gục Ngã (Faint)** | $0$ Vàng • $0$ Rơi đồ | Mất $10\%$ tiền mặt • Rơi 1 ô đồ | Mất $25\%$ tiền mặt • Rơi 3-5 ô đồ |
+| **Rủi Ro Mất Mùa & Thời Tiết** | Không sâu bệnh | Thời tiết xấu chậm 1 ngày lớn | Sâu Blight ăn hỏng hoa màu nếu không xịt |
+
+### 9.3. Thanh Trượt Tùy Chỉnh Nâng Cao (Custom Accessibility Modifiers):
+Người chơi có thể tùy biến độc lập trong menu Cài đặt (Settings):
+* **Thanh Trượt Biên Lợi Nhuận (Profit Margin):** `50%` • `75%` • `100%` (Mặc định) • `125%` • `150%`.
+* **Giữ Nguyên Túi Đồ Khi Gục Ngã (Keep Inventory on Faint):** Bật / Tắt.
+* **Thời Lượng Một Ngày (Day Length Duration):** `14 phút` (Chuẩn) $\rightarrow$ `20 phút` (Thư thái).
+
