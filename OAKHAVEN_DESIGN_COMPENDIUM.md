@@ -343,3 +343,74 @@ Người chơi có thể tùy biến độc lập trong menu Cài đặt (Settin
 * **Giữ Nguyên Túi Đồ Khi Gục Ngã (Keep Inventory on Faint):** Bật / Tắt.
 * **Thời Lượng Một Ngày (Day Length Duration):** `14 phút` (Chuẩn) $\rightarrow$ `20 phút` (Thư thái).
 
+---
+
+## 10. HỆ THỐNG TRANG BỊ MỞ RỘNG & CHẾ TÁC TRANG SỨC (EXTENDED EQUIPMENT & JEWELRY CRAFTING)
+
+Kế thừa giao diện trực quan của *Stardew Valley* nhưng mở rộng sâu hơn để đáp ứng 3 trụ cột của Rowan: **Làm Bánh Trà • Làm Nông • Khai Mỏ & Chiến Đấu**.
+
+### 10.1. Giao Diện Búp Bê Nhân Vật (Paperdoll Inventory - 10 Ô Trang Bị):
+
+```
+                  ┌──────────────────────────────┐
+                  │   GIAO DIỆN TRANG BỊ ROWAN   │
+                  │                              │
+                  │     [ 👒 1. MŨ / NÓN ]       │
+                  │                              │
+    [ ⚔️ 10.VŨ KHÍ]│     [ 🦺 2. ÁO / TẠP DÈ ]    │ [ 🏮 5. ĐÈN LỒNG HÔNG ]
+                  │                              │
+    [ 🧤 3.GĂNG TAY│     [ 👢 4. GIÀY / ỦNG ]    │ [ 🔮 8. CỔ VẬT 1 ]
+    [ 💍 6. NHẪN 1]│                              │ [ ⚙️ 9. CỔ VẬT 2 ]
+    [ 💍 7. NHẪN 2]└──────────────────────────────┘
+                  [ 🛠️ THẮT LƯNG 5 DỤNG CỤ LAO ĐỘNG ]
+```
+
+| STT | Ô Trang Bị (Slot) | Chức Năng Cốt Lõi | Món Tiêu Biểu |
+| :---: | :--- | :--- | :--- |
+| **1** | **Mũ / Nón** *(Headgear)* | Tăng hiệu suất công việc theo ngành nghề | • *Mũ Trưởng Bếp:* Nướng nhanh $+20\%$, $0\%$ cháy bánh.<br>• *Nón Lá Trà:* Giảm 15% thể lực làm vườn.<br>• *Mũ Thợ Mỏ Pha Lê:* +2 Giáp, rọi vệt sáng trước mặt.<br>• *Vương Miện Solaria:* +15% sát thương ma thuật. |
+| **2** | **Áo / Tạp Dề & Áo Choàng** *(Attire / Apron / Cloak)* | Phòng thủ, tốc độ phục vụ & thích ứng môi trường | • *Tạp Dề Tiệm Trà:* Khách tip thêm $+15\%$.<br>• *Áo Choàng Rừng Sylva:* Giảm 40% tầm phát hiện của quái mỏ, kháng gai rừng.<br>• *Áo Giáp Sắt Boris:* +6 Giáp, không bị ngắt chiêu.<br>• *Áo Choàng Lông Thú:* Kháng lạnh hầm mỏ băng. |
+| **3** | **Găng Tay Đa Năng** *(Gloves / Gauntlets)* | Tác vụ bàn tay: Lấy bánh, hái quả, đập đá, phản đòn | • *Găng Tay Nhấc Lò Bọc Bông:* Rút ngắn $20\%$ thời gian nướng.<br>• *Găng Tay Da Dê:* Thu hoạch cụm $3 \times 3$ trong 1 chạm.<br>• *Găng Tay Đập Đá Bram:* Giảm 1 nhát cuốc đập đá.<br>• *Găng Tay Đấu Sĩ:* Tăng cửa sổ **Perfect Parry từ 0.2s lên 0.35s**. |
+| **4** | **Giày / Ủng** *(Footwear / Boots)* | Tốc độ chạy & thích ứng địa hình hiểm trở | • *Ủng Cao Su:* Đi trên bùn/nước không bị chậm.<br>• *Giày Da Du Mục:* +12% tốc độ chạy ngoài trời.<br>• *Ủng Thép Chống Gai:* Miễn nhiễm 100% bẫy chông.<br>• *Giày Bụi Sao:* Bứt tốc $+35\%$ trong 2s sau khi Dash. |
+| **5** | **Đèn Lồng Đeo Thắt Lưng** *(Hip-Mounted Lantern)* | Soi sáng độc lập, giải phóng 2 tay để chiến đấu | • *Cấp 1 - Đèn Dầu Vải:* Bán kính 2.5 ô.<br>• *Cấp 2 - Đèn Đồng Bram:* Bán kính 4.5 ô, xua sương mù.<br>• *Cấp 3 - Đèn Pha Lê:* Bán kính 6.5 ô, phát hiện bẫy ngầm.<br>• *Cấp 4 - Đèn Tinh Tú:* Soi sáng toàn phòng, đốt cháy nhẹ quái bóng tối. |
+| **6 & 7** | **2 Nhẫn Ma Thuật** *(Left & Right Rings)* | Kích hoạt hiệu ứng ma thuật từ kim loại & đá quý | Tự chế tác từ 6 Bậc Khung Kim Loại + Đính 8 Loại Ngọc Ma Thuật (Ruby, Sapphire, Diamond...). Có thể nung chảy kép. |
+| **8 & 9** | **2 Cổ Vật & Bùa Hộ Mệnh** *(Starlight Relics)* | Bùa chú linh hồn trợ chiến & sinh tồn | • *Chuông Lumi:* Rung chuông hồi +8 Thể lực mỗi 15s.<br>• *Đồng Hồ Chrono:* Ngưng đọng thời gian 2.5s khi máu dưới 20%.<br>• *Lông Vũ Pip:* +15% tốc độ vung 23 vũ khí.<br>• *Bình Cà Phê Vĩnh Cửu:* Không bị đi chậm khi kiệt sức. |
+| **10** | **Vũ Khí Chiến Đấu Chính** *(Main Weapon)* | Gây sát thương hầm ngục & kỹ năng cổ ngữ | 1 trong 23 loại vũ khí thuộc 5 trường phái (Kiếm, Liềm, Búa, Nỏ, Pháp Trượng). |
+| **—** | **Thắt Lưng 5 Dụng Cụ** *(Tool Belt)* | 5 phím số nhanh (1–5) không chiếm ô ba lô | 1. Cuốc Chim • 2. Bình Tưới • 3. Rìu Đốn Củi • 4. Liềm Thu Hoạch • 5. Cần Câu Sao. |
+
+### 10.2. Hệ Thống Chế Tác Nhẫn 2 Thành Phần (Jewelry Crafting & Socketing):
+Công thức: **Khung Kim Loại (Base Band)** + **Ngọc Ma Thuật (Gem Inset)** + **Phí Boris (Gold)**.
+
+#### A. 6 Bậc Khung Kim Loại (Ring Bases):
+* **Bậc 1 - Khung Đồng (Copper Band):** 2 Phôi Đồng $\rightarrow$ $+5$ Thể Lực Tối Đa (Phí 200g).
+* **Bậc 2 - Khung Sắt (Iron Band):** 2 Phôi Sắt $\rightarrow$ $+2$ Phòng Thủ • Giảm 5% thời gian choáng (Phí 600g).
+* **Bậc 3 - Khung Bạc (Silver Band):** 2 Phôi Bạc $\rightarrow$ $+10$ Thể Lực • Giảm 10% Thể lực dùng kỹ năng (Phí 1,500g).
+* **Bậc 4 - Khung Vàng (Gold Band):** 2 Phôi Vàng $\rightarrow$ $+15\%$ Tiền rơi từ quái & Tiền Tip quán trà (Phí 3,500g).
+* **Bậc 5 - Khung Mithril (Mithril Band):** 2 Phôi Mithril $\rightarrow$ $+4$ Phòng Thủ • $+10\%$ Tốc độ di chuyển (Phí 8,000g).
+* **Bậc 6 - Khung Tinh Tú (Starlight Band):** 1 Lõi Tinh Tú + 2 Phôi Bạc $\rightarrow$ $+20$ Thể Lực • Hồi 1 Thể lực mỗi 3 giây (Phí 20,000g).
+
+#### B. 8 Loại Ngọc Ma Thuật Đính Kèm (Gemstone Enchants):
+1. 🔴 **Hồng Ngọc (Ruby):** Hỏa Ngục $\rightarrow$ $+10\%$ ATK; đòn đánh có 25% cơ hội thiêu đốt quái 4s.
+2. 🔵 **Lam Ngọc (Sapphire):** Băng Phong $\rightarrow$ Đòn đánh làm chậm 30%; Perfect Parry đóng băng quái xung quanh 2s.
+3. 🟢 **Ngọc Lục Bảo (Emerald):** Sinh Khí & Kịch Độc $\rightarrow$ Đòn đánh gây độc; tăng $+15$ Thể lực tối đa.
+4. 💎 **Kim Cương (Diamond):** Chí Mạng Tuyệt Đối $\rightarrow$ $+15\%$ Crit Rate; Sát thương Crit tăng lên $200\%$.
+5. 🟣 **Thạch Anh Tím (Amethyst):** Nam Châm $\rightarrow$ Hút nông sản, quặng rơi và tiền vàng trong bán kính 4 ô.
+6. 🟡 **Hoàng Ngọc (Topaz):** Lôi Đình $\rightarrow$ Tăng $+40\%$ Lực đẩy lùi; tăng $+10\%$ Tốc độ vung đòn vũ khí.
+7. 🌙 **Đá Mặt Trăng (Moonstone):** Hào Quang $\rightarrow$ Tự phát sáng 3 ô; tăng 15% tỷ lệ trà pha ra đạt Star-tier.
+8. 🌈 **Thạch Lăng Kính (Prismatic):** Vạn Cổ $\rightarrow$ Kích hoạt ngẫu nhiên 3 hiệu ứng nguyên tố cùng lúc (Cháy + Chậm + Độc).
+
+#### C. Tháo Ngọc An Toàn & Hợp Nhất Nhẫn Cuối Game:
+* **Tháo Ngọc An Toàn 100% (Unsocketing):** Mang nhẫn đến Boris tháo ngọc cũ giữ nguyên vẹn 100% viên ngọc để gắn vào khung xịn hơn (Phí 300g – 1,000g).
+* **Nung Chảy Kép (Ring Fusion):** Cho phép Boris dung hợp 2 chiếc nhẫn thành 1 Nhẫn Kép mang đủ 2 dòng thuộc tính. Người chơi có thể sở hữu tối đa 4 hiệu ứng nhẫn cùng lúc trên 2 ngón tay.
+
+### 10.3. Hệ Thống Bộ Trang Phục Đồng Bộ (Set Bonuses):
+* 🍵 **Set Bậc Thầy Tiệm Trà** *(Mũ Bếp + Tạp Dề Tiệm + Găng Lụa Phục Vụ + Giày Du Mục):* Tăng $+25\%$ giá bán toàn bộ menu tiệm trà đêm; khách tip thêm $+15\%$ và không bao giờ bỏ về.
+* ⛏️ **Set Thợ Mỏ Khaz-Drakor** *(Mũ Mỏ Pha Lê + Giáp Sắt + Găng Đập Đá Bram + Ủng Chống Gai):* Giảm $30\%$ Thể lực đập đá; $+25\%$ quặng rơi; kháng $100\%$ bẫy chông và đá rơi.
+* 🌌 **Set Pháp Sư Tinh Tú** *(Vương Miện Solaria + Áo Choàng Sylva + Găng Bụi Sao + Giày Bụi Sao):* Giảm $30\%$ thời gian hồi chiêu Runic Skills; Stardust Dash để lại vệt sao thiêu đốt kẻ địch.
+
+### 10.4. Lớp Thẩm Mỹ Tự Do (Vanity / Transmog System):
+* Giao diện Gương Tủ Đồ của Elora chia làm 2 lớp độc lập:
+  * **Lớp Chỉ Số (Stats Layer):** Gắn các trang bị giáp nặng, ủng thép, mũ mỏ để lấy sức mạnh cao nhất.
+  * **Lớp Thẩm Mỹ (Vanity Layer):** Chọn hiển thị bên ngoài là Tạp Dề Thêu Hoa, Váy Yếm, Mũ Vành Cozy.
+  * Nhân vật pixel art luôn duy trì đúng phong cách Dark Cozy thanh lịch mà không bao giờ bị phá hỏng thẩm mỹ bởi chỉ số chiến đấu.
+
+
