@@ -369,13 +369,13 @@ Kế thừa giao diện trực quan của *Stardew Valley* nhưng mở rộng s�
 | :---: | :--- | :--- | :--- |
 | **1** | **Mũ / Nón** *(Headgear)* | Tăng hiệu suất công việc theo ngành nghề | • *Mũ Trưởng Bếp:* Nướng nhanh $+20\%$, $0\%$ cháy bánh.<br>• *Nón Lá Trà:* Giảm 15% thể lực làm vườn.<br>• *Mũ Thợ Mỏ Pha Lê:* +2 Giáp, rọi vệt sáng trước mặt.<br>• *Vương Miện Solaria:* +15% sát thương ma thuật. |
 | **2** | **Áo / Tạp Dề & Áo Choàng** *(Attire / Apron / Cloak)* | Phòng thủ, tốc độ phục vụ & thích ứng môi trường | • *Tạp Dề Tiệm Trà:* Khách tip thêm $+15\%$.<br>• *Áo Choàng Rừng Sylva:* Giảm 40% tầm phát hiện của quái mỏ, kháng gai rừng.<br>• *Áo Giáp Sắt Boris:* +6 Giáp, không bị ngắt chiêu.<br>• *Áo Choàng Lông Thú:* Kháng lạnh hầm mỏ băng. |
-| **3** | **Găng Tay Đa Năng** *(Gloves / Gauntlets)* | Tác vụ bàn tay: Lấy bánh, hái quả, đập đá, phản đòn | • *Găng Tay Nhấc Lò Bọc Bông:* Rút ngắn $20\%$ thời gian nướng.<br>• *Găng Tay Da Dê:* Thu hoạch cụm $3 \times 3$ trong 1 chạm.<br>• *Găng Tay Đập Đá Bram:* Giảm 1 nhát cuốc đập đá.<br>• *Găng Tay Đấu Sĩ:* Tăng cửa sổ **Perfect Parry từ 0.2s lên 0.35s**. |
+| **3** | **Găng Tay Đa Năng** *(Gloves / Gauntlets)* | Chỉ số bàn tay: Tốc độ vung đòn, Sát thương, Bổ cuốc, Đỡ đòn | • *Găng Nhấc Lò Bọc Bông:* +10 Max Stamina, +20% Service Speed, giảm $10\%$ thời gian nướng.<br>• *Găng Da Thợ Mỏ Bram:* +1 DEF, +15% Tool Speed (bổ cuốc nhanh hơn).<br>• *Găng Đấu Sĩ:* +2 DEF, +5 ATK, +10% Atk Speed, **tăng cửa sổ Perfect Parry từ 0.20s lên 0.35s**.<br>• *Bao Tay Thép Khaz-Drakor:* +4 DEF, +8 ATK, +35% Knockback (đẩy lùi quái). |
 | **4** | **Giày / Ủng** *(Footwear / Boots)* | Tốc độ chạy & thích ứng địa hình hiểm trở | • *Ủng Cao Su:* Đi trên bùn/nước không bị chậm.<br>• *Giày Da Du Mục:* +12% tốc độ chạy ngoài trời.<br>• *Ủng Thép Chống Gai:* Miễn nhiễm 100% bẫy chông.<br>• *Giày Bụi Sao:* Bứt tốc $+35\%$ trong 2s sau khi Dash. |
 | **5** | **Đèn Lồng Đeo Thắt Lưng** *(Hip-Mounted Lantern)* | Soi sáng độc lập, giải phóng 2 tay để chiến đấu | • *Cấp 1 - Đèn Dầu Vải:* Bán kính 2.5 ô.<br>• *Cấp 2 - Đèn Đồng Bram:* Bán kính 4.5 ô, xua sương mù.<br>• *Cấp 3 - Đèn Pha Lê:* Bán kính 6.5 ô, phát hiện bẫy ngầm.<br>• *Cấp 4 - Đèn Tinh Tú:* Soi sáng toàn phòng, đốt cháy nhẹ quái bóng tối. |
 | **6 & 7** | **2 Nhẫn Ma Thuật** *(Left & Right Rings)* | Kích hoạt hiệu ứng ma thuật từ kim loại & đá quý | Tự chế tác từ 6 Bậc Khung Kim Loại + Đính 8 Loại Ngọc Ma Thuật (Ruby, Sapphire, Diamond...). Có thể nung chảy kép. |
 | **8 & 9** | **2 Cổ Vật & Bùa Hộ Mệnh** *(Starlight Relics)* | Bùa chú linh hồn trợ chiến & sinh tồn | • *Chuông Lumi:* Rung chuông hồi +8 Thể lực mỗi 15s.<br>• *Đồng Hồ Chrono:* Ngưng đọng thời gian 2.5s khi máu dưới 20%.<br>• *Lông Vũ Pip:* +15% tốc độ vung 23 vũ khí.<br>• *Bình Cà Phê Vĩnh Cửu:* Không bị đi chậm khi kiệt sức. |
 | **10** | **Vũ Khí Chiến Đấu Chính** *(Main Weapon)* | Gây sát thương hầm ngục & kỹ năng cổ ngữ | 1 trong 23 loại vũ khí thuộc 5 trường phái (Kiếm, Liềm, Búa, Nỏ, Pháp Trượng). |
-| **—** | **Thắt Lưng 5 Dụng Cụ** *(Tool Belt)* | 5 phím số nhanh (1–5) không chiếm ô ba lô | 1. Cuốc Chim • 2. Bình Tưới • 3. Rìu Đốn Củi • 4. Liềm Thu Hoạch • 5. Cần Câu Sao. |
+| **—** | **Thắt Lưng 5 Dụng Cụ** *(Tool Belt)* | 5 phím số nhanh (1–5) không chiếm ô ba lô | 1. Cuốc Chim • 2. Bình Tưới • 3. Rìu Đốn Củi • 4. **Liềm Thu Hoạch (Quét $1\times 3 \rightarrow 3\times 3 \rightarrow 5\times 5$ ô)** • 5. Cần Câu Sao. |
 
 ### 10.2. Hệ Thống Chế Tác Nhẫn 2 Thành Phần (Jewelry Crafting & Socketing):
 Công thức: **Khung Kim Loại (Base Band)** + **Ngọc Ma Thuật (Gem Inset)** + **Phí Boris (Gold)**.
@@ -412,5 +412,53 @@ Công thức: **Khung Kim Loại (Base Band)** + **Ngọc Ma Thuật (Gem Inset)
   * **Lớp Chỉ Số (Stats Layer):** Gắn các trang bị giáp nặng, ủng thép, mũ mỏ để lấy sức mạnh cao nhất.
   * **Lớp Thẩm Mỹ (Vanity Layer):** Chọn hiển thị bên ngoài là Tạp Dề Thêu Hoa, Váy Yếm, Mũ Vành Cozy.
   * Nhân vật pixel art luôn duy trì đúng phong cách Dark Cozy thanh lịch mà không bao giờ bị phá hỏng thẩm mỹ bởi chỉ số chiến đấu.
+
+### 10.5. Hệ Thống Tiền Tố Trang Bị & Reforge Tại Boris (Equipment Prefixes):
+Người chơi mang trang bị đến Lò Rèn Boris để đúc lại dòng tiền tố (Phí 500g – 2,000g):
+* **Nhóm Thợ Mỏ:** *Nặng Trịch (Heavy)*: +20% lực đập đá, -3% Move Speed; *Sắc Cạnh (Keen)*: +15% Tool Speed, +5% x2 quặng rơi.
+* **Nhóm Tiệm Trà:** *Thanh Nhã (Graceful)*: +10% Service Speed, +8% Tip; *Thơm Ngát (Aromatic)*: -10% thể lực làm vườn, tăng thời gian khách kiên nhẫn.
+* **Nhóm Chiến Binh:** *Thần Tốc (Swift)*: +12% Attack Speed; *Áp Đảo (Brutal)*: +8 ATK, +30% Knockback.
+* **Huyền Thoại:** *Tinh Tú Ban Phước (Starlit)*: +10% toàn bộ chỉ số, ban đêm nhân vật tự phát quang bụi sao lấp lánh.
+
+### 10.6. Cơ Chế May Mắn (Luck & Fortune Mechanics):
+Chỉ số **May Mắn (+Luck)** tác động toàn diện lên 3 trụ cột game:
+1. **Trong Hầm Mỏ:** Tăng tỷ lệ xuất hiện thang máy/thang đá ngay nhát cuốc đầu tiên, tăng tỷ lệ phòng kho báu bí mật và quặng rơi $\times 2$.
+2. **Tại Nông Trại:** Tăng tỷ lệ thu hoạch ra Nông Sản Tinh Tú (Star Quality, giá $\times 2.5$) và tỷ lệ hái đúp 2 quả trên 1 luống.
+3. **Tại Tiệm Trà Đêm:** Khách VIP (Valen, Orion, Garrick) ghé tiệm thường xuyên hơn; tăng cơ hội khách tặng lại quà quý (ngọc, hạt giống cổ).
+
+### 10.7. Cơ Chế Rủi Ro & Cổ Vật Bị Nguyền Rủa (Risk & Cursed Relics):
+Các trang bị nhiễm Star Blight từ Tầng mỏ 100–150 mang lại sức mạnh tột bực nhưng đi kèm cái giá phải trả:
+* **Nhẫn Khát Máu Valen (Vampiric Ring):** Đòn đánh hồi $+4\%$ Thể Lực (hút máu) • *Rủi ro:* Ra ngoài nắng ban ngày thể lực tụt nhanh hơn $+25\%$.
+* **Mặt Nạ Hư Không (Void Mask):** Tăng $+40\%$ ATK và $+20\%$ Crit Rate • *Rủi ro:* Nhận thêm $+30\%$ sát thương; ngất xỉu mất gấp đôi tiền viện phí.
+* **Găng Tay Kẻ Cược Mệnh (Gambler's Iron Mitts):** 35% cơ hội đập đá rơi $\times 3$ quặng • *Rủi ro:* 15% hòn đá nổ ngược trừ $8$ Thể Lực.
+* **Ấm Đun Cổ Ngữ Quá Nhiệt (Overclocked Kettle):** Nấu trà và nướng bánh hoàn tất tức thì (0s) • *Rủi ro:* 8% phụt khói đen làm khách bỏ đi 1 bàn.
+* **Cơ Chế Thanh Tẩy (Purification):** Mang đồ nguyền rủa đến Lumi hoặc Clara, dùng 1 Bột Bụi Sao để xóa bỏ 100% rủi ro (giữ lại 70% chỉ số cộng thêm).
+
+### 10.8. Độc Tố & Ô Nhiễm Tinh Tú (Poison & Star Blight):
+* **Tấn Công Đầu Độc:** Găng Bào Tử Sylva, Nhẫn Emerald, Lưỡi Hái Độc tích lũy tới 5 tầng độc rút máu quái vật liên tục và làm chậm quái $25\%$.
+* **Phòng Thủ Kháng Độc:** Tầng mỏ 61–90 nhiều nhện axit và khí độc. Dính độc thanh Thể Lực chuyển sang màu tím rút liên tục 2 Thể lực/2s. Trang bị *Mặt Nạ Lọc Thảo Mộc* giảm 80% thời gian độc, *Áo Choàng Vỏ Cây* miễn nhiễm sình lầy axit.
+
+### 10.9. Các Hiệu Ứng Nguyên Tố & Trạng Thái Cozy Bliss:
+* 🔥 **Thiêu Đốt (Burn):** Gây sát thương đốt liên tục từ Ruby / Hắc Diện Thạch, khiến quái hoảng loạn ngắt chiêu gồng.
+* ❄️ **Băng Giá & Đóng Băng (Frost & Freeze):** Làm chậm quái $40\%$; Perfect Parry với đồ băng đóng băng quái cứng như tượng đá 2.5s.
+* ⚡ **Sấm Sét & Đẩy Lùi (Shockwave):** Giật điện lan sang kẻ địch lân cận và hất văng chúng vào tường đá.
+* 🍵 **Ấm Cúng Say Mê (Cozy Bliss):** Kích hoạt khi mặc đồ thêu Hoa Trà và tẩm tinh dầu oải hương. Khách hàng nhận buff thư thái, kiên nhẫn vô hạn và tip thêm $+25\%$.
+
+### 10.10. Thêu Huy Hiệu Elora, Tẩm Tinh Dầu & Móc Khóa Ba Lô:
+* **Thêu Huy Hiệu Elora (Patches):** Thêu lên Mũ, Tạp Dề, Áo:
+  * *Huy Hiệu Hoa Trà:* +20% điểm Tim tình bạn khi trò chuyện với 22 dân làng.
+  * *Huy Hiệu Mèo Mallow:* +15% may mắn tìm thấy rương ngầm khi đào xới.
+  * *Huy Hiệu Vảy Lapis:* +25% thanh bắt cá mini-game câu cá; đi trên băng không trơn trượt.
+  * *Huy Hiệu Cánh Cú Pip:* +4 ô chuyên dụng trong ba lô chỉ đựng thảo mộc và hạt giống.
+* **Bảo Dưỡng Ấm Cúng (Cozy Maintenance - Không Vỡ Đồ):**
+  * *Đá Mài Bram:* Mài cuốc/vũ khí buổi sáng nhận buff +10% ATK trong 24h.
+  * *Tinh Dầu Oải Hương Maeve:* Tẩm tạp dề tiệm trà xua tan cáu gắt của khách suốt đêm.
+  * *Mỡ Gấu & Sáp Ong:* Đánh bóng ủng giúp miễn nhiễm bẫy gai cả ngày.
+* **Thùng Nhuộm Nước Suối (Botanical Dye Vat):** Dùng Dâu Rừng (Đỏ), Hoa Oải Hương (Tím), Hoa Cúc (Vàng), Pha Lê Băng (Xanh Cyan), Bột Sao (Xanh dạ quang) để đổi màu trang phục pixel art.
+* **Móc Khóa Treo Ba Lô (Backpack Charms):**
+  * *Búp Bê Len Pip:* Khi ba lô đầy dưới mỏ, Pip bay đến nhận 1 món mang về cất hộ (1 lần/ngày).
+  * *Chuông Gió Đồng Mini:* Leng keng báo hiệu khi gần vách tường có phòng kho báu bí mật.
+  * *Túi Thơm Sen Thần:* Đứng yên hít thở khí trời tự hồi phục +1 Thể lực mỗi 5 giây.
+
 
 
