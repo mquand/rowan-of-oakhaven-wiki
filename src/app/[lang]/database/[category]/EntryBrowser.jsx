@@ -31,10 +31,34 @@ const MONSTER_ICONS = {
 };
 
 const WEAPON_ICONS = {
-  starlight_blade: 'sword',
+  // Blades
+  wooden_training_sword: 'sword',
+  copper_broadsword: 'sword',
+  iron_knight_blade: 'sword',
+  sunburst_rapier: 'sword',
+  obsidian_flame_saber: 'flame',
+  starlight_blade: 'sparkle',
+  // Scythes
+  rusty_farm_scythe: 'plant',
   mystic_scythe: 'plant',
-  spirit_lantern: 'sparkle',
+  silver_moon_scythe: 'sparkle',
+  astral_void_reaper: 'diamond',
+  // Warhammers
+  miner_stone_mallet: 'mountains',
+  copper_spiked_mace: 'mountains',
   whisk_hammer: 'cooking-pot',
+  magma_crag_warhammer: 'flame',
+  titan_stellar_crusher: 'mountains',
+  // Crossbows & Bows
+  hunter_shortbow: 'arrow-right',
+  clockwork_iron_crossbow: 'arrow-right',
+  golden_solar_arbalest: 'sparkle',
+  starblight_void_repeater: 'arrow-right',
+  // Staves & Relics
+  apprentice_wood_wand: 'sparkle',
+  spirit_lantern: 'sparkle',
+  volcanic_fire_rod: 'flame',
+  primordial_starlight_staff: 'diamond',
 };
 
 const PERK_ICONS = {
@@ -171,13 +195,13 @@ export default function EntryBrowser({ category, entries, lang = 'vi' }) {
       },
 
       weapons: {
-        icon: e => WEAPON_ICONS[e.id] || 'sword',
-        badge: e => getWeaponTypeLabel(e.weapon_type, lang),
-        search: e => [e.name, e.name_en, e.description, e.upgrade_path, ...(e.tags || [])],
+        icon: e => WEAPON_ICONS[e.id] || (e.weapon_type === 'heavy' ? 'mountains' : e.weapon_type === 'ranged' ? 'arrow-right' : e.weapon_type === 'magic' ? 'sparkle' : 'sword'),
+        badge: e => `${getWeaponTypeLabel(e.weapon_type, lang)}${e.tier ? ` · ${isEn ? `Tier ${e.tier}` : `Bậc ${e.tier}`}` : ''}`,
+        search: e => [e.name, e.name_en, e.description, e.upgrade_path, e.runic_skill, ...(e.tags || [])],
         facet: {
           field: 'weapon_type',
           getLabel: id => getWeaponTypeLabel(id, lang),
-          order: ['melee', 'ranged', 'heavy'],
+          order: ['melee', 'ranged', 'heavy', 'magic'],
         },
         renderDetails: e => (
           <>
@@ -201,9 +225,15 @@ export default function EntryBrowser({ category, entries, lang = 'vi' }) {
                 <span style={{ color: '#7ad0ff' }}>{e.special_effect}</span>
               </div>
             )}
+            {e.runic_skill && (
+              <div className={styles.detailRow}>
+                <span className={styles.detailLabel}>{isEn ? 'Runic Skill:' : 'Kỹ năng Cổ ngữ:'}</span>
+                <span style={{ color: '#e288ff', fontWeight: 600 }}>{e.runic_skill}</span>
+              </div>
+            )}
             <div className={styles.detailRow}>
-              <span className={styles.detailLabel}>{isEn ? 'Forge Upgrade:' : 'Nâng cấp lò rèn:'}</span>
-              <span>{e.materials_needed || e.upgrade_path}</span>
+              <span className={styles.detailLabel}>{isEn ? 'Forge Recipe:' : 'Rèn tại Lò Boris:'}</span>
+              <span style={{ color: '#ffc107' }}>{e.materials_needed || e.upgrade_path}</span>
             </div>
           </>
         ),

@@ -1,81 +1,465 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "version": "1.0.0",
-  "updated": "2026-11-12",
+  "version": "2.0.0",
+  "updated": "2026-11-14",
   "weapons": [
+    {
+      "id": "wooden_training_sword",
+      "name": "Wooden Training Sword",
+      "name_en": "Wooden Training Sword",
+      "weapon_type": "melee",
+      "tier": 1,
+      "description": "Starter practice blade carved from Rowan oak; lightweight, agile, and easy to swing in basic caverns.",
+      "upgrade_path": "Upgrades at Boris's Forge: Oak Wood → Copper Bar",
+      "tags": [
+        "sword",
+        "melee",
+        "starter"
+      ],
+      "base_atk": 6,
+      "attack_speed": "Medium (2.2 strikes/s)",
+      "reach": "Melee (1.1 tiles)",
+      "special_effect": "Introductory weapon to master the 3-strike attack cadence across upper cavern shafts.",
+      "runic_skill": "Pommel Strike: Staggers small pests for 0.5s with a quick blunt pommel hit.",
+      "materials_needed": "15 Oak Wood + 100 Gold at Boris's Forge"
+    },
+    {
+      "id": "copper_broadsword",
+      "name": "Copper Broadsword",
+      "name_en": "Copper Broadsword",
+      "weapon_type": "melee",
+      "tier": 2,
+      "description": "Oil-tempered red copper broadsword; robust edge that cleaves through cavern brambles and clinging cave vines.",
+      "upgrade_path": "Upgrades at Boris's Forge: Copper → Iron",
+      "tags": [
+        "sword",
+        "melee",
+        "copper"
+      ],
+      "base_atk": 14,
+      "attack_speed": "Fast (2.6 strikes/s)",
+      "reach": "Melee (1.2 tiles)",
+      "special_effect": "Cleaves thorny vines blocking tunnels and disperses scarab nests quickly.",
+      "runic_skill": "Whirlwind Slash: Sweeps 360 degrees to knock back swarming enemies.",
+      "materials_needed": "6 Copper Bars + 2 Coal + 600 Gold at Boris's Forge"
+    },
+    {
+      "id": "iron_knight_blade",
+      "name": "Oakhaven Forged Steelblade",
+      "name_en": "Oakhaven Forged Steelblade",
+      "weapon_type": "melee",
+      "tier": 3,
+      "description": "Forged from deep cavern iron and quenched in subterranean mineral springs; 3rd strike staggers defensive monsters.",
+      "upgrade_path": "Upgrades at Boris's Forge: Iron → Gold",
+      "tags": [
+        "sword",
+        "melee",
+        "iron"
+      ],
+      "base_atk": 24,
+      "attack_speed": "Fast (2.8 strikes/s)",
+      "reach": "Melee (1.3 tiles)",
+      "special_effect": "3rd strike cracks monster defensive stances and shatters minor surrounding rocks.",
+      "runic_skill": "Parry & Counter: Perfect parry stuns target for 2s and reflects 150% incoming damage.",
+      "materials_needed": "8 Iron Bars + 4 Coal + 1,800 Gold at Boris's Forge"
+    },
+    {
+      "id": "sunburst_rapier",
+      "name": "Sunburst Rapier",
+      "name_en": "Sunburst Rapier",
+      "weapon_type": "melee",
+      "tier": 4,
+      "description": "Gilded rapier radiating solar heat; stores thermal kinetic force that gently burns struck targets.",
+      "upgrade_path": "Upgrades at Boris's Forge: Gold → Obsidian",
+      "tags": [
+        "sword",
+        "melee",
+        "fire"
+      ],
+      "base_atk": 35,
+      "attack_speed": "Very Fast (3.5 strikes/s)",
+      "reach": "Direct Thrust (1.5 tiles)",
+      "special_effect": "Ultra-fast thrusts ignite targets with stacking burn damage over time.",
+      "runic_skill": "Solar Thrust: Dashes through enemies leaving a searing trail of light.",
+      "materials_needed": "6 Gold Bars + 1 Ruby + 4,500 Gold at Boris's Forge"
+    },
+    {
+      "id": "obsidian_flame_saber",
+      "name": "Obsidian Flame Saber",
+      "name_en": "Obsidian Flame Saber",
+      "weapon_type": "melee",
+      "tier": 5,
+      "description": "Forged from razor-sharp volcanic glass and iron; strikes release bursts of magma flame searing targets for 4s.",
+      "upgrade_path": "Upgrades at Boris's Forge: Obsidian → Starlight Core",
+      "tags": [
+        "sword",
+        "melee",
+        "lava"
+      ],
+      "base_atk": 50,
+      "attack_speed": "Fast (3.0 strikes/s)",
+      "reach": "Melee (1.4 tiles)",
+      "special_effect": "Slices through molten rock armor; inflicts +25% bonus damage against frost creatures.",
+      "runic_skill": "Magma Eruption: Plunges blade into ground to erupt a volcanic geyser.",
+      "materials_needed": "10 Obsidian + 5 Iron Bars + 9,000 Gold at Boris's Forge"
+    },
     {
       "id": "starlight_blade",
       "name": "Starlight Blade",
       "name_en": "Starlight Blade",
       "weapon_type": "melee",
-      "description": "Luminescent crystal blade with a fluid 3-hit rhythm, leaving a trail of shimmering stardust. The third strike shatters minor surrounding rocks.",
-      "upgrade_path": "Upgrades at Boris's Forge: Copper → Iron → Starlight Crystal",
+      "tier": 6,
+      "description": "Luminescent crystal blade with a fluid 3-hit rhythm, leaving a trail of shimmering stardust. The third strike shatters hard rocks and pierces void armor.",
+      "upgrade_path": "Pinnacle Tier: Forged at Boris's Forge with a Starlight Core",
       "tags": [
         "sword",
         "magic",
         "melee"
       ],
-      "base_atk": 18,
-      "attack_speed": "Fast (3 strikes/s)",
-      "reach": "Melee (1.2 tiles)",
-      "special_effect": "3rd strike releases a stardust shockwave that shatters small rocks",
-      "materials_needed": "5 Copper Ore + 2 Coal at Boris's Forge"
+      "base_atk": 68,
+      "attack_speed": "Ultra Fast (3.8 strikes/s)",
+      "reach": "Melee (1.4 tiles)",
+      "special_effect": "3rd strike releases a starlight wave that shatters hard rocks and pierces void armor.",
+      "runic_skill": "Astral Cascade: Releases 5 homing starlight blade shards.",
+      "materials_needed": "1 Starlight Core + 4 Diamonds + 20,000 Gold at Boris's Forge"
+    },
+    {
+      "id": "rusty_farm_scythe",
+      "name": "Rusty Farm Scythe",
+      "name_en": "Rusty Farm Scythe",
+      "weapon_type": "melee",
+      "tier": 1,
+      "description": "Rowan's heirloom farming tool; weathered edge that cuts thick weeds and reaps wheat across 3 tiles at once.",
+      "upgrade_path": "Upgrades at Boris's Forge: Farm Scythe → Mystic Scythe",
+      "tags": [
+        "scythe",
+        "harvest",
+        "melee"
+      ],
+      "base_atk": 8,
+      "attack_speed": "Medium (1.4 strikes/s)",
+      "reach": "Semi-circle (2.0 tiles)",
+      "special_effect": "Rapidly reaps crops and herbs; drives away minor cave pests and garden vermin.",
+      "runic_skill": "Wide Sweep: Reaping sweep that knocks back all low-tier monsters.",
+      "materials_needed": "10 Oak Wood + 5 Stone + 150 Gold at Boris's Forge"
     },
     {
       "id": "mystic_scythe",
       "name": "Mystic Scythe",
       "name_en": "Mystic Scythe",
       "weapon_type": "melee",
+      "tier": 3,
       "description": "Enchanted scythe with a wide semi-circular sweep — dual-purposed for controlling swarms of pests and reaping patches of wheat and herbs in one swing.",
-      "upgrade_path": "Upgrades at Boris's Forge",
+      "upgrade_path": "Upgrades at Boris's Forge: Iron → Silver",
       "tags": [
         "scythe",
         "magic",
         "aoe",
         "harvest"
       ],
-      "base_atk": 22,
-      "attack_speed": "Medium (1.5 strikes/s)",
+      "base_atk": 28,
+      "attack_speed": "Medium-Fast (1.8 strikes/s)",
       "reach": "Wide semi-circle (2.5 tiles)",
-      "special_effect": "Sweeps small swarms & reaps wide farming plots",
-      "materials_needed": "8 Copper Ore + 1 Crystal Gem at Boris's Forge"
+      "special_effect": "Sweeps small swarms & reaps wide farming plots in a single arc.",
+      "runic_skill": "Harvest Vortex: Twirls scythe into a localized cyclone that pulls monsters together.",
+      "materials_needed": "6 Copper Bars + 4 Iron Bars + 1 Emerald + 2,400 Gold at Boris's Forge"
     },
     {
-      "id": "spirit_lantern",
-      "name": "Firefly Storm Lantern",
-      "name_en": "Spirit Lantern",
-      "weapon_type": "ranged",
-      "description": "Ranged magical focus that fires volleys of jade sparks, repelling hostile creatures while dispelling miasma and illuminating dark tunnels.",
-      "upgrade_path": "Upgrades at Boris's Forge",
+      "id": "silver_moon_scythe",
+      "name": "Silver Moon Scythe",
+      "name_en": "Silver Moon Scythe",
+      "weapon_type": "melee",
+      "tier": 4,
+      "description": "Silver lunar blade glowing with cool moonbeams; razor-sharp sweep that siphons Stamina whenever clearing enemy packs.",
+      "upgrade_path": "Upgrades at Boris's Forge: Silver → Starlight Core",
       "tags": [
-        "lantern",
+        "scythe",
         "magic",
-        "ranged",
-        "light"
+        "aoe"
       ],
-      "base_atk": 14,
-      "attack_speed": "Fast (2 bursts/s)",
-      "reach": "Ranged (6 straight tiles)",
-      "special_effect": "Knocks back monsters, illuminates deep shafts, and parts thick mist",
-      "materials_needed": "5 Iron Ore + 1 Firefly Essence at Boris's Forge"
+      "base_atk": 42,
+      "attack_speed": "Fast (2.0 strikes/s)",
+      "reach": "Wide semi-circle (2.6 tiles)",
+      "special_effect": "Restores 3 Stamina for every monster slain in its crescent sweep.",
+      "runic_skill": "Crescent Moon Wave: Projects a glowing lunar crescent wave through all enemies.",
+      "materials_needed": "8 Silver Bars + 2 Amethysts + 6,000 Gold at Boris's Forge"
+    },
+    {
+      "id": "astral_void_reaper",
+      "name": "Astral Void Reaper",
+      "name_en": "Astral Void Reaper",
+      "weapon_type": "melee",
+      "tier": 6,
+      "description": "Mythic scythe cleaving the fabric of space; opens astral rifts that devour the vitality of shadow monsters.",
+      "upgrade_path": "Pinnacle Tier: Forged at Boris's Forge with a Starlight Core",
+      "tags": [
+        "scythe",
+        "magic",
+        "aoe"
+      ],
+      "base_atk": 74,
+      "attack_speed": "Fast (2.2 strikes/s)",
+      "reach": "Colossal semi-circle (3.0 tiles)",
+      "special_effect": "Cleaves spatial fabric; grants +30% bonus rare loot drop rate on slain monsters.",
+      "runic_skill": "Soul Severance: Instantly executes regular monsters below 25% health.",
+      "materials_needed": "1 Starlight Core + 8 Obsidian + 2 Diamonds + 22,000 Gold at Boris's Forge"
+    },
+    {
+      "id": "miner_stone_mallet",
+      "name": "Miner's Stone Mallet",
+      "name_en": "Miner's Stone Mallet",
+      "weapon_type": "heavy",
+      "tier": 1,
+      "description": "Dense river stone block bound to an oak handle; pulverizes rubble and coal veins without consuming pickaxe stamina.",
+      "upgrade_path": "Upgrades at Boris's Forge: Stone → Spiked Copper Mace",
+      "tags": [
+        "hammer",
+        "heavy"
+      ],
+      "base_atk": 12,
+      "attack_speed": "Slow (0.9 strikes/s)",
+      "reach": "Ground Slam (1.5 tiles)",
+      "special_effect": "Crushes coal veins and rocks; heavy swings interrupt monster attack windups.",
+      "runic_skill": "Heavy Stomp: Slams the floor to stagger all nearby subterranean critters for 1s.",
+      "materials_needed": "20 Stone + 5 Oak Wood + 200 Gold at Boris's Forge"
+    },
+    {
+      "id": "copper_spiked_mace",
+      "name": "Copper Spiked Mace",
+      "name_en": "Copper Spiked Mace",
+      "weapon_type": "heavy",
+      "tier": 2,
+      "description": "Heavy bronze mace studded with sharp spikes; cracks the tough chitin of cavern scarabs and magma magnesnails.",
+      "upgrade_path": "Upgrades at Boris's Forge: Copper → Iron",
+      "tags": [
+        "hammer",
+        "heavy",
+        "copper"
+      ],
+      "base_atk": 22,
+      "attack_speed": "Medium-Slow (1.1 strikes/s)",
+      "reach": "Heavy Melee (1.6 tiles)",
+      "special_effect": "Bronze spikes shatter defense; breaks copper ore deposits in just a couple swings.",
+      "runic_skill": "Armor Shatter: Crushing swing reduces target defense by 40% for 5s.",
+      "materials_needed": "8 Copper Bars + 4 Coal + 850 Gold at Boris's Forge"
     },
     {
       "id": "whisk_hammer",
       "name": "Colossal Tea Whisk Hammer",
       "name_en": "Whisk Hammer",
       "weapon_type": "heavy",
+      "tier": 3,
       "description": "Heavy blunt warhammer that slams the ground to unleash shockwaves — pulverizing armored stone golems and mineral deposits simultaneously.",
-      "upgrade_path": "Upgrades at Boris's Forge",
+      "upgrade_path": "Upgrades at Boris's Forge: Iron → Obsidian",
       "tags": [
         "hammer",
         "heavy",
         "aoe"
       ],
-      "base_atk": 36,
+      "base_atk": 38,
       "attack_speed": "Slow (0.8 strikes/s)",
       "reach": "Area Shockwave (2.0 tiles)",
-      "special_effect": "Slam shatters monster armor and mineral nodes",
-      "materials_needed": "10 Iron Ore + 2 Crystal Gems at Boris's Forge"
+      "special_effect": "Slam shatters monster armor and mineral nodes simultaneously.",
+      "runic_skill": "Matcha Shockwave: Slams ground emitting powdered matcha ripples that slow foes by 50%.",
+      "materials_needed": "10 Iron Bars + 2 Crystal Gems + 2,500 Gold at Boris's Forge"
+    },
+    {
+      "id": "magma_crag_warhammer",
+      "name": "Magma Crag Warhammer",
+      "name_en": "Magma Crag Warhammer",
+      "weapon_type": "heavy",
+      "tier": 5,
+      "description": "Colossal warhammer cast from molten obsidian; impact generates explosive concussive booms and searing thermal waves.",
+      "upgrade_path": "Upgrades at Boris's Forge: Obsidian → Starlight Core",
+      "tags": [
+        "hammer",
+        "heavy",
+        "lava"
+      ],
+      "base_atk": 62,
+      "attack_speed": "Very Slow (0.7 strikes/s)",
+      "reach": "Fissure Shockwave (2.4 tiles)",
+      "special_effect": "Crushes massive obsidian boulders in one blow; grants burn immunity while wielded.",
+      "runic_skill": "Fissure Slam: Slams hammer creating a 4-tile magma fissure erupting beneath enemies.",
+      "materials_needed": "12 Obsidian + 6 Iron Bars + 10,500 Gold at Boris's Forge"
+    },
+    {
+      "id": "titan_stellar_crusher",
+      "name": "Titan Stellar Crusher",
+      "name_en": "Titan Stellar Crusher",
+      "weapon_type": "heavy",
+      "tier": 6,
+      "description": "The ultimate blunt weapon taught by Boris — carries the mass of a miniature fallen meteor, crushing everything in its trajectory.",
+      "upgrade_path": "Pinnacle Tier: Forged at Boris's Forge with a Starlight Core",
+      "tags": [
+        "hammer",
+        "heavy",
+        "magic"
+      ],
+      "base_atk": 92,
+      "attack_speed": "Slow (0.75 strikes/s)",
+      "reach": "Colossal Quake (2.8 tiles)",
+      "special_effect": "Colossal single-hit crushing power; knocks back all foes and obliterates hardest obstacles.",
+      "runic_skill": "Meteor Impact: Leaps into the air and crashes down like a falling celestial meteor.",
+      "materials_needed": "1 Starlight Core + 4 Diamonds + 10 Gold Bars + 25,000 Gold at Boris's Forge"
+    },
+    {
+      "id": "hunter_shortbow",
+      "name": "Oakhaven Hunter Bow",
+      "name_en": "Oakhaven Hunter Bow",
+      "weapon_type": "ranged",
+      "tier": 1,
+      "description": "Nimble shortbow bent from flexible oak boughs and wild vine twine; ideal for hunting game and baiting cave beasts from afar.",
+      "upgrade_path": "Upgrades at Boris's Forge: Oak Wood → Clockwork Crossbow",
+      "tags": [
+        "bow",
+        "ranged"
+      ],
+      "base_atk": 10,
+      "attack_speed": "Single Shot (1.2 arrows/s)",
+      "reach": "Ranged (5.0 tiles)",
+      "special_effect": "Fires scout arrows into dark corners; checks monster reactions from safe distance.",
+      "runic_skill": "Aimed Shot: Full tension release delivering 200% critical damage.",
+      "materials_needed": "15 Oak Wood + 5 Forest Vines + 180 Gold at Boris's Forge"
+    },
+    {
+      "id": "clockwork_iron_crossbow",
+      "name": "Clockwork Iron Crossbow",
+      "name_en": "Clockwork Iron Crossbow",
+      "weapon_type": "ranged",
+      "tier": 3,
+      "description": "Ancient Dwarven cog mechanism automatically winds and reloads; high-penetration bolts pierce through the first enemy in flight.",
+      "upgrade_path": "Upgrades at Boris's Forge: Iron → Gold",
+      "tags": [
+        "crossbow",
+        "ranged",
+        "mechanical"
+      ],
+      "base_atk": 26,
+      "attack_speed": "Burst Fire (1.8 bolts/s)",
+      "reach": "Ranged (6.5 tiles)",
+      "special_effect": "Internal cogs auto-cock bolts; shots pierce through the first monster struck.",
+      "runic_skill": "Triple Burst: Rapidly discharges 3 high-velocity steel bolts in an instant.",
+      "materials_needed": "8 Iron Bars + 2 Dwarven Cogs + 2,800 Gold at Boris's Forge"
+    },
+    {
+      "id": "golden_solar_arbalest",
+      "name": "Golden Solar Arbalest",
+      "name_en": "Golden Solar Arbalest",
+      "weapon_type": "ranged",
+      "tier": 4,
+      "description": "Intricately gilded sniper arbalest with crystal optics; fires dazzling radiant bolts that blind nocturnal cave creatures for 3s.",
+      "upgrade_path": "Upgrades at Boris's Forge: Gold → Starlight Core",
+      "tags": [
+        "crossbow",
+        "ranged",
+        "fire"
+      ],
+      "base_atk": 44,
+      "attack_speed": "High Velocity (1.4 bolts/s)",
+      "reach": "Extreme Range (8.0 tiles)",
+      "special_effect": "Dazzling light bolts blind nocturnal cave beasts for 3s upon impact.",
+      "runic_skill": "Sunbeam Piercer: Fires a high-intensity radiant spear piercing all monsters in line.",
+      "materials_needed": "10 Gold Bars + 2 Topaz + 6,500 Gold at Boris's Forge"
+    },
+    {
+      "id": "starblight_void_repeater",
+      "name": "Starblight Void Repeater",
+      "name_en": "Starblight Void Repeater",
+      "weapon_type": "ranged",
+      "tier": 6,
+      "description": "Pinnacle ranged weapon requiring no mundane ammo; condenses void stardust into barrages of self-propelling explosive bolts.",
+      "upgrade_path": "Pinnacle Tier: Forged at Boris's Forge with a Starlight Core",
+      "tags": [
+        "crossbow",
+        "ranged",
+        "magic"
+      ],
+      "base_atk": 65,
+      "attack_speed": "Rapid (2.5 bolts/s)",
+      "reach": "Ranged (7.0 tiles)",
+      "special_effect": "Consumes no mundane bolts; manifests stardust shards that explode on impact.",
+      "runic_skill": "Starlight Barrage: Calls down a celestial rain of star arrows across a 4x4 tile area.",
+      "materials_needed": "1 Starlight Core + 6 Silver Bars + 3 Diamonds + 24,000 Gold at Boris's Forge"
+    },
+    {
+      "id": "apprentice_wood_wand",
+      "name": "Apprentice Oak Wand",
+      "name_en": "Apprentice Oak Wand",
+      "weapon_type": "magic",
+      "tier": 1,
+      "description": "Simple wand turned from sacred oak sprigs tipped with chipped quartz; fires gentle pollen sparks illuminating dark corridors.",
+      "upgrade_path": "Upgrades at Boris's Forge: Oak Wand → Firefly Lantern",
+      "tags": [
+        "wand",
+        "magic"
+      ],
+      "base_atk": 9,
+      "attack_speed": "Rhythmic (1.5 bolts/s)",
+      "reach": "Mid Range (4.5 tiles)",
+      "special_effect": "Fires gentle pollen sparks; casts faint glimmer revealing path in dark corridors.",
+      "runic_skill": "Spark Flash: Magic flare repelling small creepy-crawlies within 1 tile.",
+      "materials_needed": "12 Oak Wood + 2 Quartz + 220 Gold at Boris's Forge"
+    },
+    {
+      "id": "spirit_lantern",
+      "name": "Firefly Storm Lantern",
+      "name_en": "Spirit Lantern",
+      "weapon_type": "magic",
+      "tier": 3,
+      "description": "Ranged magical focus that fires volleys of jade sparks, repelling hostile creatures while dispelling miasma and illuminating dark tunnels.",
+      "upgrade_path": "Upgrades at Boris's Forge: Iron → Obsidian",
+      "tags": [
+        "lantern",
+        "magic",
+        "light"
+      ],
+      "base_atk": 25,
+      "attack_speed": "Burst Stream (2.0 beams/s)",
+      "reach": "Ranged (6.0 tiles)",
+      "special_effect": "Knocks back monsters, illuminates deep shafts, and parts thick mist.",
+      "runic_skill": "Luminescent Aura: Releases orbiting fireflies creating a radiant barrier damaging contacts.",
+      "materials_needed": "6 Iron Bars + 1 Firefly Essence + 2 Quartz + 2,200 Gold at Boris's Forge"
+    },
+    {
+      "id": "volcanic_fire_rod",
+      "name": "Volcanic Magma Rod",
+      "name_en": "Volcanic Magma Rod",
+      "weapon_type": "magic",
+      "tier": 5,
+      "description": "Magical rod crowned with a blazing garnet atop obsidian spire; launches explosive molten spheres melting frost creatures.",
+      "upgrade_path": "Upgrades at Boris's Forge: Obsidian → Starlight Core",
+      "tags": [
+        "staff",
+        "magic",
+        "fire",
+        "lava"
+      ],
+      "base_atk": 54,
+      "attack_speed": "Magma Orbs (1.3 casts/s)",
+      "reach": "Ranged (6.5 tiles)",
+      "special_effect": "Launches explosive molten spheres melting frost creatures and cave ice.",
+      "runic_skill": "Ring of Fire: Summons circular fire barrier searing and deterring approaching foes for 6s.",
+      "materials_needed": "8 Obsidian + 2 Rubies + 8,500 Gold at Boris's Forge"
+    },
+    {
+      "id": "primordial_starlight_staff",
+      "name": "Primordial Starlight Staff",
+      "name_en": "Primordial Starlight Staff",
+      "weapon_type": "magic",
+      "tier": 6,
+      "description": "Mythic focus channeling pure cosmic starlight; purifies Star Blight corruption and dispels the deepest subterranean shadows.",
+      "upgrade_path": "Pinnacle Tier: Forged at Boris's Forge with a Starlight Core",
+      "tags": [
+        "staff",
+        "magic"
+      ],
+      "base_atk": 76,
+      "attack_speed": "Continuous (2.0 casts/s)",
+      "reach": "Wide Arc (7.5 tiles)",
+      "special_effect": "Channels pure cosmic starlight; purifies Star Blight corruption and dispels deep shadows.",
+      "runic_skill": "Supernova: Condenses a celestial singularity detonating in a screen-clearing cosmic burst.",
+      "materials_needed": "1 Starlight Core + 3 Sapphires + 3 Diamonds + 26,000 Gold at Boris's Forge"
     }
   ]
 }
