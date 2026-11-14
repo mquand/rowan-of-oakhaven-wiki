@@ -27,6 +27,7 @@ Mọi AI khi làm việc trong repository này PHẢI đọc và tuân thủ ngh
 
 - **Không dùng placeholder:** CẤM TUYỆT ĐỐI viết `// ... rest of code`, `/* giữ nguyên */`, `// TODO`. Viết code hoàn chỉnh 100%.
 - **Đọc kỹ trước khi sửa:** Luôn dùng `read_file` đọc toàn bộ file trước khi gọi `edit_file` hoặc `write_file`. Cấm đoán mò cấu trúc file.
+- **Đối chiếu Design Compendium gốc (BẮT BUỘC):** Khi đối chiếu, sửa đổi hoặc thêm mới bất kỳ thành phần nào (nhân vật, cây trồng, khoáng sản, công thức món ăn, vũ khí, địa danh), BẮT BUỘC phải mở và kiểm tra tài liệu thiết kế chuẩn [OAKHAVEN_DESIGN_COMPENDIUM.md](./OAKHAVEN_DESIGN_COMPENDIUM.md). Mọi thông số đưa vào code/database PHẢI nhất quán 100% với Compendium, và khi mở rộng hệ thống PHẢI cập nhật đồng bộ ngược lại vào Compendium này.
 - **Quy tắc song ngữ (Bilingual):** Mọi thay đổi dữ liệu hoặc UI PHẢI đồng bộ CẢ HAI ngôn ngữ `vi` và `en` (`docs/data/vi/` + `docs/data/en/`, `docs/vi/` + `docs/en/`, `dictionaries/vi.js` + `dictionaries/en.js`).
 - **Rà soát điểm phụ thuộc:** Dùng `grep` tìm tất cả consumer/call-sites trước khi sửa. Sửa component phải kiểm tra cả `.module.scss` đi kèm.
 - **Phân biệt Server vs Client:** File có `'use client'` CẤM import `fs`, `path`, hoặc module Node.js.

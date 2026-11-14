@@ -15,6 +15,9 @@ Tài liệu này là quy chuẩn **BẮT BUỘC** đối với mọi AI Agent (A
    - Luôn dùng công cụ đọc file (`read_file`) để nắm rõ toàn bộ logic, các import, export và ngữ cảnh trước khi gọi lệnh sửa (`edit_file` hoặc `write_file`).
 3. **Phạm vi hoàn chỉnh (Full-Scope Completeness):**
    - Khi chỉnh sửa một tính năng, không được dừng lại ở một nửa giải pháp. Phải sửa xuyên suốt từ tầng Dữ liệu (JSON / Markdown) $\rightarrow$ Tầng Thư viện logic (Helper / Lib) $\rightarrow$ Tầng Giao diện (Component / SCSS) $\rightarrow$ Định tuyến (Route / Proxy).
+4. **Đối chiếu Design Compendium gốc (Single Source of Truth — BẮT BUỘC):**
+   - Khi chỉnh sửa, đối chiếu hoặc bổ sung bất kỳ thành phần nào (22 nhân vật, 20 cây trồng, 17 quặng kim loại, 11 đá quý, 33 công thức ẩm thực, 23 vũ khí, 5 địa danh), **BẮT BUỘC PHẢI MỞ VÀ CHECK TÀI LIỆU [OAKHAVEN_DESIGN_COMPENDIUM.md](./OAKHAVEN_DESIGN_COMPENDIUM.md)**.
+   - Tuyệt đối không tự ý bịa đặt thông số, tên gọi, công thức hoặc hiệu ứng sai lệch so với Compendium chuẩn. Khi mở rộng hoặc thay đổi thiết kế hệ thống, BẮT BUỘC phải cập nhật đồng bộ ngược lại vào Compendium.
 
 ---
 
@@ -84,6 +87,7 @@ Mọi AI khi nhận yêu cầu sửa đổi code PHẢI tuân thủ trình tự 
 Trước khi kết thúc lượt phản hồi, AI phải tự kiểm tra các câu hỏi sau:
 - [ ] Mình có để lại bất kỳ đoạn `// ...` hay placeholder nào trong code không?
 - [ ] Dữ liệu hoặc nhãn mới đã có ở CẢ HAI ngôn ngữ `vi` và `en` chưa?
+- [ ] Mọi thông số dữ liệu/tính năng mới hoặc sửa đổi đã được đối chiếu và đồng bộ với [OAKHAVEN_DESIGN_COMPENDIUM.md](./OAKHAVEN_DESIGN_COMPENDIUM.md) chưa?
 - [ ] Tất cả các consumer/call-sites của hàm/API đã được cập nhật chưa?
 - [ ] Có file cũ nào bị bỏ sót gây xung đột build không?
 - [ ] Đã chạy `npm run build` và kết quả có 0 lỗi, 0 cảnh báo không?
