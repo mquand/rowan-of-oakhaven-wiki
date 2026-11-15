@@ -207,8 +207,30 @@ Preserving the **Dark Cozy Pixel Art** philosophy — tense underground stakes b
 
 ---
 
+## 6. The Delvers' Lodge & Bounty Commission Loop
+
+The cavern entrance at Oakhaven is more than a simple minehead—it serves as **The Delvers' Lodge**, jointly organized by **Knight Marlo** and **Mine Foreman Bram**. It stands as the forward staging ground for freelance delvers and pioneers braving the 150-floor depths.
+
+### The 4-Step Delver Loop
+1. **📜 Accept Commissions (Bounty Board):** Inspect the daily bounty noticeboard at the mine outpost (culling Blight beasts, supplying ores for Boris, or harvesting deep-cavern herbs for Sylvan).
+2. **⛏️ Descend & Extract:** Ride the mine elevator down to target depths, defeat hostiles, mine mineral veins, and harvest cave-lake fisheries.
+3. **💰 Cash-In & Crest Rewards:** Hand in spoils for instant gold coin bounties and **Delver's Crests (`item_delver_crest`)** to build lodge renown.
+4. **🔨 Systemic Reinvestment:**
+   * Ores & metal ingots $\rightarrow$ Forge weapon tempering ($+1 \rightarrow +5$) and automated farm sprinklers.
+   * Rare ginseng & herbs $\rightarrow$ Brew vitality restorative teas for subsequent descents.
+   * Fish & aquatic oils $\rightarrow$ Refuel exploration lanterns and smoke durable rations.
+   * Nightfall $\rightarrow$ Open the hearthside tea shop to host fellow weary adventurers seeking warm stew and respite.
+
+### The 3 Core Bounty Types
+* **⚔️ Monster Bounties (Knight Marlo):** Hunt cave spiders, blight slimes, or Stratum Warden bosses $\rightarrow$ Substantial gold bounties + Delver's Crests.
+* **⛏️ Mineral Supplies (Bram & Boris):** Excavate coal, iron ore, and rough stone $\rightarrow$ Rapid coin payout + discounted mine elevator fares.
+* **🌿 Underground Foraging (Sylvan):** Harvest luminous fungi, cave lichen, and magma ginseng roots $\rightarrow$ Protective elixirs and antidotes.
+
+---
+
 👉 Related Database Entries:
 * [Weapons & Equipment Directory](/en/database/weapons)
 * [Monsters & Bosses Dossiers](/en/database/monsters)
 * [Minerals & Gems Compendium](/en/wiki/minerals-guide)
 * [Culinary Recipes & Buff Guide](/en/wiki/cooking-recipes-guide)
+* [Artisan Crafting Guide](/en/wiki/crafting-guide)

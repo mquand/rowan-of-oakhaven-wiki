@@ -2160,6 +2160,18 @@
       "energy": null,
       "buff": "Tự động đánh bắt cá suối, tôm càng và lươn ngầm mỗi sáng",
       "tags": ["craftable", "fishing", "trap", "automation"]
+    },
+    {
+      "id": "item_delver_crest",
+      "name": "Huy Hiệu Tiền Đồn Oakhaven",
+      "description": "Huy hiệu bằng đồng và sáp ong trao cho mạo hiểm giả hoàn thành các hợp đồng săn quái hoặc cung ứng tài nguyên dưới mỏ sâu.",
+      "category": "crafted",
+      "rarity": "rare",
+      "buy_price": null,
+      "sell_price": 50,
+      "energy": null,
+      "buff": "Minh chứng danh dự của mạo hiểm giả; dùng đổi bản vẽ cổ đại và trang bị đặc thù tại Tiền Đồn Marlo",
+      "tags": ["bounty", "crest", "delver", "reputation"]
     }
   ]
 }

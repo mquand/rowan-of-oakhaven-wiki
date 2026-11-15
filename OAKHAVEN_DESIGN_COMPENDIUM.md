@@ -540,5 +540,45 @@ Xóa bỏ hoàn toàn định kiến anime học đường ("nữ sinh phép thu
 | `craft_corner_hearth` | **Lò Sưởi Đá Cuội Góc Quán** *(Corner Hearth)* | Tiệm trà | 60 Đá Thô + 10 Đất Sét + 5 Than | Tâm điểm sưởi ấm; tăng $+50$ Cozy Rating, khách tip thêm vàng. |
 | `craft_willow_fish_trap`| **Lờ Đan Bẫy Cá Suối** *(Willow Fish Trap)* | Dã ngoại | 15 Cành Liễu Gai + 2 Dây Thừng | Cắm dưới suối / hồ ngầm; sáng hôm sau tự thu hoạch cá tôm mà không cần ngồi câu. |
 
+---
+
+## 13. TIỀN ĐỒN MẠO HIỂM GIẢ & VÒNG LẶP NHIỆM VỤ BIÊN VIỄN (DELVERS' LODGE & BOUNTY COMMISSION LOOP)
+
+### 13.1. Sự Hiện Diện Của Giới Mạo Hiểm Giả (The Delvers & Pioneers):
+Thị trấn biên viễn Oakhaven không chỉ là nơi định cư của 22 cư dân quen thuộc, mà còn là trạm dừng chân chiến lược của những **Mạo Hiểm Giả / Thợ Lặn Mỏ Tự Do (Freelance Delvers)**. Họ kéo về đây để tìm kiếm danh tiếng, săn lùng bảo vật và đối mặt với thảm họa ô nhiễm Tinh Tú (*Star Blight*) dưới đáy mỏ 150 tầng.
+* **Trạm Tiền Đồn Oakhaven (The Delvers' Lodge):** Căn nhà gỗ đá mộc mạc dựng sát cửa hang mỏ của Bram, nơi cắm chốt gác đêm của Hiệp sĩ Marlo.
+* **Bảng Lệnh Truy Nã & Hợp Đồng (Bounty Board):** Nơi niêm yết các yêu cầu khẩn cấp của dân làng và quân cảnh vệ thị trấn.
+
+### 13.2. Vòng Lặp Khép Kín 4 Bước (The 4-Step Core Loop):
+```mermaid
+flowchart LR
+    A["📜 1. NHẬN NHIỆM VỤ<br/>(Bảng Tiền Đồn Marlo & Bram)"] --> B["⛏️ 2. XUỐNG MỎ & ĐÀO TÀI NGUYÊN<br/>(150 tầng mỏ & Hầm ngục Blight)"]
+    B --> C["💰 3. NỘP NHIỆM VỤ ĐỔI TIỀN<br/>(Nhận Vàng & Huy Hiệu Tiền Đồn)"]
+    C --> D["🔨 4. TÁI ĐẦU TƯ TÀI NGUYÊN<br/>(Rèn vũ khí • Chế bàn chế tác • Bếp tối)"]
+    D --> A
+```
+
+1. **Bước 1 — Nhận Hợp Đồng:** Nhận các lệnh truy nã quái vật Blight hoặc đơn đặt hàng nguyên vật liệu từ Bảng Tiền Đồn.
+2. **Bước 2 — Xuống Ngục / Đào Mỏ Thu Thập:** Lặn sâu vào các tầng mỏ, khai thác quặng, chặt rễ cây, săn quái, đặt bẫy lờ cá.
+3. **Bước 3 — Đổi Tiền & Phần Thưởng:** Nộp chiến lợi phẩm hoặc xác nhận tiêu diệt quái vật để nhận Vàng mặt, điểm danh vọng và **Huy Hiệu Tiền Đồn (`item_delver_crest`)**.
+4. **Bước 4 — Móc Nối Toàn Bộ Hệ Thống:** Tài nguyên dôi dư không bán hết được đưa ngược vào:
+   * Ép mỡ cá nạp đèn lồng thám hiểm.
+   * Mang vảy sắt và quặng cho Boris rèn giáp nhẹ và tôi vũ khí $+1 \rightarrow +5$.
+   * Đưa gỗ sồi và đá thô vào Bàn Chế Tác làm vòi phun nước, lờ bẫy cá, hàng rào.
+   * Đêm về đỏ lò nướng súp nóng và bánh mì phục vụ chính các đồng đội mạo hiểm giả ghé sưởi ấm bên lò sưởi tiệm trà.
+
+### 13.3. Bảng 3 Phân Loại Nhiệm Vụ Khởi Đầu (Bounty & Commission Types):
+| Phân Loại Nhiệm Vụ | Người Giao Đại Diện | Mục Tiêu & Hoạt Động | Phần Thưởng Cốt Lõi |
+| :--- | :--- | :--- | :--- |
+| **1. Tiễu Phạt Quái Vật (Monster Bounties)** | **Hiệp sĩ Marlo** | Tiêu diệt số lượng quái Blight tràn lên cửa mỏ hoặc hạ gục các Stratum Warden (Boss tầng 30, 60, 90, 120, 150). | Tiền Vàng lớn + Huy Hiệu Tiền Đồn + Bản vẽ giáp hộ thân. |
+| **2. Thu Gom Khoáng Sản (Resource Supplies)** | **Bác Thợ Mỏ Bram & Boris** | Cung cấp số lượng lớn Than đá, Quặng Đồng, Sắt, Đá thô phục vụ lò rèn và sửa chữa đường ray xe goòng. | Tiền mặt nhanh + Giảm giá vé thang máy mỏ của Bram. |
+| **3. Thu Hái Dược Liệu Hiếm (Rare Botanical Foraging)** | **Nhà Thảo Mộc Sylvan** | Tìm kiếm Sơn Sâm vách đá, Rễ Cam Thảo Rừng, Mandrake ma thảo hoặc nấm men tuyết. | Dược phẩm kháng độc/bỏng + Công thức cao đan dược quý. |
+
+### 13.4. Lộ Trình Phát Triển Từng Phần Tiếp Theo (Roadmap for Deep Expansion):
+*Hệ thống được thiết kế theo dạng mô-đun mở, cho phép đào sâu thêm trong các bản cập nhật kế tiếp:*
+* **Giai đoạn 1 (Hiện tại - Nền tảng):** Thiết lập cơ chế mạo hiểm giả, vòng lặp nhận lệnh $\rightarrow$ đi mỏ $\rightarrow$ đổi tiền $\rightarrow$ tái chế tài nguyên.
+* **Giai đoạn 2 (Sắp tới - Cấp Bậc & Kho Đổi Đồ):** Mở rộng hệ thống 6 Bậc Thợ Lặn Mỏ (*Delver Ranks*) và cửa hàng đổi đồ độc quyền bằng Huy Hiệu Tiền Đồn.
+* **Giai đoạn 3 (Nâng cao - Mạo Hiểm Giả NPC Ghé Tiệm):** Tạo các NPC mạo hiểm giả vãng lai ghé tiệm trà đêm của Rowan để kể chuyện chiến tích, lập tổ đội thám hiểm dã ngoại hoặc nhờ Rowan chế tạo trang bị đặc thù.
+
 
 

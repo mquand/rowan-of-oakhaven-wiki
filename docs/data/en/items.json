@@ -2160,6 +2160,18 @@
       "energy": null,
       "buff": "Passively catches river chub, crayfish, and cavern eels each dawn",
       "tags": ["craftable", "fishing", "trap", "automation"]
+    },
+    {
+      "id": "item_delver_crest",
+      "name": "Oakhaven Delver's Crest",
+      "description": "Bronze and beeswax insignias awarded to pioneers who fulfill monster extermination bounties and critical resource commissions in the deep mines.",
+      "category": "crafted",
+      "rarity": "rare",
+      "buy_price": null,
+      "sell_price": 50,
+      "energy": null,
+      "buff": "Pioneer badge of honor; exchanged for ancient blueprints and specialized equipment at Marlo's Outpost",
+      "tags": ["bounty", "crest", "delver", "reputation"]
     }
   ]
 }
