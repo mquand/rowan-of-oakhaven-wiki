@@ -1,1113 +1,1266 @@
 {
-  "$schema": "http://json-schema.org/draft-07/schema#",
-  "version": "1.0.0",
-  "updated": "2026-11-13",
+  "version": "2.0.0",
+  "updated": "2026-11-17",
   "recipes": [
     {
-      "id": "tra_sen_an_than",
-      "name": "Calming Lotus Tea",
-      "description": "Crisp floral base sweetened with wild honey, gently soothing troubled minds and releasing fatigue.",
-      "station": "tea_station",
+      "id": "com_nam_muoi_rung",
+      "name": "Cơm Nắm Muối Rừng",
+      "station": "kitchen_pot",
+      "ingredients": [
+        {
+          "id": "lua_mien",
+          "name": "Lúa Miến Hoàng Kim",
+          "quantity": 1
+        },
+        {
+          "id": "muoi_mo",
+          "name": "Muối Mỏ Tinh Khiết",
+          "quantity": 1
+        }
+      ],
+      "result_item_id": "food_com_nam_muoi_rung",
+      "hp": 30,
+      "stamina": 50,
+      "buff": "Không có buff (Món cơ bản)"
+    },
+    {
+      "id": "trung_op_la_thao_moc",
+      "name": "Trứng Ốp La Thảo Mộc",
+      "station": "kitchen_pan",
+      "ingredients": [
+        {
+          "id": "trung_ga",
+          "name": "Trứng Gà",
+          "quantity": 1
+        },
+        {
+          "id": "hanh_hoa",
+          "name": "Hành Hoa",
+          "quantity": 1
+        }
+      ],
+      "result_item_id": "food_trung_op_la_thao_moc",
+      "hp": 40,
+      "stamina": 70,
+      "buff": "+1 Tốc độ di chuyển"
+    },
+    {
+      "id": "khoai_tay_nuong_bo_toi",
+      "name": "Khoai Tây Nướng Bơ Tỏi",
+      "station": "kitchen_oven",
+      "ingredients": [
+        {
+          "id": "khoai_tay",
+          "name": "Khoai Tây",
+          "quantity": 1
+        },
+        {
+          "id": "bo_beo",
+          "name": "Bơ Béo",
+          "quantity": 1
+        },
+        {
+          "id": "toi_dai",
+          "name": "Tỏi Dại",
+          "quantity": 1
+        }
+      ],
+      "result_item_id": "food_khoai_tay_nuong_bo_toi",
+      "hp": 60,
+      "stamina": 90,
+      "buff": "+1 Phòng ngự"
+    },
+    {
+      "id": "banh_mi_lua_mi_gion",
+      "name": "Bánh Mì Lúa Mì Giòn",
+      "station": "kitchen_oven",
+      "ingredients": [
+        {
+          "id": "bot_mi",
+          "name": "Bột Mì Mịn",
+          "quantity": 2
+        },
+        {
+          "id": "men_tu_nhien",
+          "name": "Men Tự Nhiên",
+          "quantity": 1
+        }
+      ],
+      "result_item_id": "food_banh_mi_lua_mi_gion",
+      "hp": 50,
+      "stamina": 80,
+      "buff": "+10% Giảm hao thể lực khi cuốc đất"
+    },
+    {
+      "id": "sup_nam_sao_am_bung",
+      "name": "Súp Nấm Sao Ấm Bụng",
+      "station": "kitchen_pot",
+      "ingredients": [
+        {
+          "id": "nam_sao_tim",
+          "name": "Nấm Sao Tím",
+          "quantity": 1
+        },
+        {
+          "id": "hanh_hoa",
+          "name": "Hành Hoa",
+          "quantity": 1
+        }
+      ],
+      "result_item_id": "food_sup_nam_sao_am_bung",
+      "hp": 70,
+      "stamina": 110,
+      "buff": "+2 Đào mỏ (Đập đá nhanh hơn)"
+    },
+    {
+      "id": "ca_suoi_nuong_muoi_ot",
+      "name": "Cá Suối Nướng Muối Ớt",
+      "station": "kitchen_grill",
+      "ingredients": [
+        {
+          "id": "ca_chep_suoi",
+          "name": "Cá Chép Suối",
+          "quantity": 1
+        },
+        {
+          "id": "ot_lua",
+          "name": "Ớt Lửa Hầm Ngục",
+          "quantity": 1
+        },
+        {
+          "id": "muoi_mo",
+          "name": "Muối Mỏ Tinh Khiết",
+          "quantity": 1
+        }
+      ],
+      "result_item_id": "food_ca_suoi_nuong_muoi_ot",
+      "hp": 80,
+      "stamina": 100,
+      "buff": "+1 Sức tấn công cận chiến"
+    },
+    {
+      "id": "bap_xao_bo_cay",
+      "name": "Bắp Xào Bơ Cay",
+      "station": "kitchen_pan",
+      "ingredients": [
+        {
+          "id": "ngo_ngot",
+          "name": "Ngô Ngọt",
+          "quantity": 1
+        },
+        {
+          "id": "bo_beo",
+          "name": "Bơ Béo",
+          "quantity": 1
+        },
+        {
+          "id": "ot_lua",
+          "name": "Ớt Lửa Hầm Ngục",
+          "quantity": 1
+        }
+      ],
+      "result_item_id": "food_bap_xao_bo_cay",
+      "hp": 75,
+      "stamina": 100,
+      "buff": "+1 Tốc độ, +1 Tấn công"
+    },
+    {
+      "id": "chao_yen_mach_mat_ong",
+      "name": "Cháo Yến Mạch Mật Ong",
+      "station": "kitchen_pot",
+      "ingredients": [
+        {
+          "id": "lua_mach_den",
+          "name": "Lúa Mạch Đen",
+          "quantity": 1
+        },
+        {
+          "id": "mat_ong",
+          "name": "Mật Ong Rừng",
+          "quantity": 1
+        }
+      ],
+      "result_item_id": "food_chao_yen_mach_mat_ong",
+      "hp": 85,
+      "stamina": 140,
+      "buff": "Tự động hồi phục Stamina +2/giây"
+    },
+    {
+      "id": "rau_cu_ham_thap_cam",
+      "name": "Rau Củ Hầm Thập Cẩm",
+      "station": "kitchen_pot",
+      "ingredients": [
+        {
+          "id": "bi_do",
+          "name": "Bí Đỏ Đại Thụ",
+          "quantity": 1
+        },
+        {
+          "id": "ca_rot",
+          "name": "Cà Rốt",
+          "quantity": 1
+        },
+        {
+          "id": "cai_thia",
+          "name": "Cải Thìa",
+          "quantity": 1
+        }
+      ],
+      "result_item_id": "food_rau_cu_ham_thap_cam",
+      "hp": 90,
+      "stamina": 130,
+      "buff": "+2 Phòng ngự"
+    },
+    {
+      "id": "banh_xeo_hanh_hoa_gion",
+      "name": "Bánh Xèo Hành Hoa Giòn",
+      "station": "kitchen_pan",
+      "ingredients": [
+        {
+          "id": "bot_mi",
+          "name": "Bột Mì Mịn",
+          "quantity": 1
+        },
+        {
+          "id": "hanh_hoa",
+          "name": "Hành Hoa",
+          "quantity": 1
+        },
+        {
+          "id": "trung_ga",
+          "name": "Trứng Gà",
+          "quantity": 1
+        }
+      ],
+      "result_item_id": "food_banh_xeo_hanh_hoa_gion",
+      "hp": 70,
+      "stamina": 95,
+      "buff": "+15% Tốc độ vung vũ khí"
+    },
+    {
+      "id": "bo_ham_ruou_vang_mo",
+      "name": "Bò Hầm Rượu Vang Mỏ",
+      "station": "kitchen_pot",
+      "ingredients": [
+        {
+          "id": "thit_bo",
+          "name": "Thịt Bò",
+          "quantity": 1
+        },
+        {
+          "id": "ruou_nho",
+          "name": "Rượu Nho Đêm",
+          "quantity": 1
+        },
+        {
+          "id": "ca_rot",
+          "name": "Cà Rốt",
+          "quantity": 1
+        }
+      ],
+      "result_item_id": "food_bo_ham_ruou_vang_mo",
+      "hp": 150,
+      "stamina": 200,
+      "buff": "+3 Sức tấn công, +20 Max HP"
+    },
+    {
+      "id": "bit_tet_nuong_than_soi",
+      "name": "Bít Tết Nướng Than Sồi",
+      "station": "kitchen_grill",
+      "ingredients": [
+        {
+          "id": "thit_bo",
+          "name": "Thịt Bò Hảo Hạng",
+          "quantity": 1
+        },
+        {
+          "id": "toi_dai",
+          "name": "Tỏi Dại",
+          "quantity": 1
+        }
+      ],
+      "result_item_id": "food_bit_tet_nuong_than_soi",
+      "hp": 160,
+      "stamina": 180,
+      "buff": "+4 Sức tấn công"
+    },
+    {
+      "id": "ga_quay_mat_ong_hoa_rung",
+      "name": "Gà Quay Mật Ong Hoa Rừng",
+      "station": "kitchen_oven",
+      "ingredients": [
+        {
+          "id": "thit_ga",
+          "name": "Thịt Gà",
+          "quantity": 1
+        },
+        {
+          "id": "mat_ong",
+          "name": "Mật Ong Rừng",
+          "quantity": 1
+        },
+        {
+          "id": "bo_beo",
+          "name": "Bơ Béo",
+          "quantity": 1
+        }
+      ],
+      "result_item_id": "food_ga_quay_mat_ong_hoa_rung",
+      "hp": 140,
+      "stamina": 190,
+      "buff": "+2 Tấn công, +1 Tốc độ"
+    },
+    {
+      "id": "suon_nuong_xot_man_ngot",
+      "name": "Sườn Nướng Xốt Mận Ngọt",
+      "station": "kitchen_grill",
+      "ingredients": [
+        {
+          "id": "thit_suon",
+          "name": "Thịt Sườn Heo",
+          "quantity": 1
+        },
+        {
+          "id": "man_rung",
+          "name": "Mận Rừng",
+          "quantity": 1
+        },
+        {
+          "id": "duong_mia",
+          "name": "Đường Mía",
+          "quantity": 1
+        }
+      ],
+      "result_item_id": "food_suon_nuong_xot_man_ngot",
+      "hp": 150,
+      "stamina": 210,
+      "buff": "+2 Tấn công, +2 Phòng ngự"
+    },
+    {
+      "id": "banh_mi_thit_ham_pho_mai",
+      "name": "Bánh Mì Thịt Hầm Phô Mai",
+      "station": "kitchen_oven",
+      "ingredients": [
+        {
+          "id": "bot_mi",
+          "name": "Bột Mì Mịn",
+          "quantity": 1
+        },
+        {
+          "id": "thit_bo",
+          "name": "Thịt Bò",
+          "quantity": 1
+        },
+        {
+          "id": "pho_mai",
+          "name": "Phô Mai Sữa Bò",
+          "quantity": 1
+        }
+      ],
+      "result_item_id": "food_banh_mi_thit_ham_pho_mai",
+      "hp": 130,
+      "stamina": 170,
+      "buff": "+3 Phòng ngự, Miễn nhiễm choáng"
+    },
+    {
+      "id": "canh_chua_ca_suoi_cay",
+      "name": "Canh Chua Cá Suối Cay",
+      "station": "kitchen_pot",
+      "ingredients": [
+        {
+          "id": "ca_chep_suoi",
+          "name": "Cá Suối",
+          "quantity": 1
+        },
+        {
+          "id": "ca_chua",
+          "name": "Cà Chua Mọng",
+          "quantity": 1
+        },
+        {
+          "id": "ot_lua",
+          "name": "Ớt Lửa Hầm Ngục",
+          "quantity": 1
+        }
+      ],
+      "result_item_id": "food_canh_chua_ca_suoi_cay",
+      "hp": 100,
+      "stamina": 140,
+      "buff": "+2 Kháng nhiệt độ / Kháng độc"
+    },
+    {
+      "id": "muc_ham_hanh_toi",
+      "name": "Mực Hầm Hành Tỏi",
+      "station": "kitchen_pot",
+      "ingredients": [
+        {
+          "id": "muc_ho_sao",
+          "name": "Mực Hồ Sao",
+          "quantity": 1
+        },
+        {
+          "id": "toi_dai",
+          "name": "Tỏi Dại",
+          "quantity": 1
+        }
+      ],
+      "result_item_id": "food_muc_ham_hanh_toi",
+      "hp": 110,
+      "stamina": 150,
+      "buff": "+2 May mắn (Tăng tỉ lệ rơi quặng hiếm)"
+    },
+    {
+      "id": "com_chien_hai_san_dam_vi",
+      "name": "Cơm Chiên Hải Sản Đậm Vị",
+      "station": "kitchen_pan",
+      "ingredients": [
+        {
+          "id": "lua_mien",
+          "name": "Lúa Miến Hoàng Kim",
+          "quantity": 1
+        },
+        {
+          "id": "ca_chep_suoi",
+          "name": "Cá Suối",
+          "quantity": 1
+        },
+        {
+          "id": "trung_ga",
+          "name": "Trứng Gà",
+          "quantity": 1
+        }
+      ],
+      "result_item_id": "food_com_chien_hai_san_dam_vi",
+      "hp": 120,
+      "stamina": 160,
+      "buff": "+2 Đào mỏ, +1 Tấn công"
+    },
+    {
+      "id": "sup_tom_hum_sua_beo",
+      "name": "Súp Tôm Hùm Sữa Béo",
+      "station": "kitchen_pot",
+      "ingredients": [
+        {
+          "id": "tom_ho_sao",
+          "name": "Tôm Hồ Sao",
+          "quantity": 1
+        },
+        {
+          "id": "sua_bo",
+          "name": "Sữa Tươi Nguyên Kem",
+          "quantity": 1
+        },
+        {
+          "id": "bo_beo",
+          "name": "Bơ Béo",
+          "quantity": 1
+        }
+      ],
+      "result_item_id": "food_sup_tom_hum_sua_beo",
+      "hp": 180,
+      "stamina": 250,
+      "buff": "+3 Phòng ngự, +3 May mắn"
+    },
+    {
+      "id": "lau_ca_cay_ham_nguc",
+      "name": "Lẩu Cá Cay Hầm Ngục",
+      "station": "kitchen_pot",
+      "ingredients": [
+        {
+          "id": "ca_chep_suoi",
+          "name": "Cá Quý",
+          "quantity": 1
+        },
+        {
+          "id": "nam_sao_tim",
+          "name": "Nấm Sao Tím",
+          "quantity": 1
+        },
+        {
+          "id": "ot_lua",
+          "name": "Ớt Lửa Hầm Ngục",
+          "quantity": 1
+        }
+      ],
+      "result_item_id": "food_lau_ca_cay_ham_nguc",
+      "hp": 200,
+      "stamina": 250,
+      "buff": "+4 Tấn công, Tỏa hào quang sáng trong hang"
+    },
+    {
+      "id": "tart_dau_tuyet_lanh",
+      "name": "Tart Dâu Tuyết Lạnh",
+      "station": "kitchen_oven",
+      "ingredients": [
+        {
+          "id": "dau_tay_tuyet",
+          "name": "Dâu Tuyết",
+          "quantity": 1
+        },
+        {
+          "id": "bot_mi",
+          "name": "Bột Mì Mịn",
+          "quantity": 1
+        },
+        {
+          "id": "duong_mia",
+          "name": "Đường Mía",
+          "quantity": 1
+        }
+      ],
+      "result_item_id": "food_tart_dau_tuyet_lanh",
+      "hp": 80,
+      "stamina": 120,
+      "buff": "Kháng băng tuyết hoàn toàn"
+    },
+    {
+      "id": "banh_mi_bo_toi_nuong_kep",
+      "name": "Bánh Mì Bơ Tỏi Nướng Kép",
+      "station": "kitchen_oven",
+      "ingredients": [
+        {
+          "id": "bot_mi",
+          "name": "Bột Mì Mịn",
+          "quantity": 1
+        },
+        {
+          "id": "toi_dai",
+          "name": "Tỏi Dại",
+          "quantity": 1
+        },
+        {
+          "id": "bo_beo",
+          "name": "Bơ Béo",
+          "quantity": 1
+        }
+      ],
+      "result_item_id": "food_banh_mi_bo_toi_nuong_kep",
+      "hp": 90,
+      "stamina": 110,
+      "buff": "+2 Đào mỏ"
+    },
+    {
+      "id": "salad_trai_cay_mua_ha",
+      "name": "Salad Trái Cây Mùa Hạ",
+      "station": "kitchen_bowl",
+      "ingredients": [
+        {
+          "id": "dua_luoi_tinh_van",
+          "name": "Dưa Lưới Tinh Vân",
+          "quantity": 1
+        },
+        {
+          "id": "tao_soi",
+          "name": "Táo Sồi",
+          "quantity": 1
+        },
+        {
+          "id": "mat_ong",
+          "name": "Mật Ong Rừng",
+          "quantity": 1
+        }
+      ],
+      "result_item_id": "food_salad_trai_cay_mua_ha",
+      "hp": 60,
+      "stamina": 150,
+      "buff": "+2 Tốc độ di chuyển"
+    },
+    {
+      "id": "bi_do_nuong_pho_mai_deo",
+      "name": "Bí Đỏ Nướng Phô Mai Dẻo",
+      "station": "kitchen_oven",
+      "ingredients": [
+        {
+          "id": "bi_do",
+          "name": "Bí Đỏ Đại Thụ",
+          "quantity": 1
+        },
+        {
+          "id": "pho_mai",
+          "name": "Phô Mai Sữa Bò",
+          "quantity": 1
+        }
+      ],
+      "result_item_id": "food_bi_do_nuong_pho_mai_deo",
+      "hp": 110,
+      "stamina": 160,
+      "buff": "+3 Phòng ngự"
+    },
+    {
+      "id": "banh_quy_gung_giu_am",
+      "name": "Bánh Quy Gừng Giữ Ấm",
+      "station": "kitchen_oven",
+      "ingredients": [
+        {
+          "id": "gung_rung",
+          "name": "Gừng Rừng",
+          "quantity": 1
+        },
+        {
+          "id": "bot_mi",
+          "name": "Bột Mì Mịn",
+          "quantity": 1
+        },
+        {
+          "id": "duong_mia",
+          "name": "Đường Mía",
+          "quantity": 1
+        }
+      ],
+      "result_item_id": "food_banh_quy_gung_giu_am",
+      "hp": 70,
+      "stamina": 100,
+      "buff": "Miễn nhiễm hiệu ứng Chậm do giá rét"
+    },
+    {
+      "id": "thit_xong_khoi_cui_go_soi",
+      "name": "Thịt Xông Khói Củi Gỗ Sồi",
+      "station": "kitchen_smokehouse",
+      "ingredients": [
+        {
+          "id": "thit_heo",
+          "name": "Thịt Heo",
+          "quantity": 1
+        },
+        {
+          "id": "muoi_mo",
+          "name": "Muối Mỏ Tinh Khiết",
+          "quantity": 1
+        }
+      ],
+      "result_item_id": "food_thit_xong_khoi_cui_go_soi",
+      "hp": 130,
+      "stamina": 170,
+      "buff": "+2 Tấn công, +30 Max Stamina"
+    },
+    {
+      "id": "lap_xuong_tieu_den_mo_da",
+      "name": "Lạp Xưởng Tiêu Đen Mỏ Đá",
+      "station": "kitchen_smokehouse",
+      "ingredients": [
+        {
+          "id": "thit_heo",
+          "name": "Thịt Heo",
+          "quantity": 1
+        },
+        {
+          "id": "muoi_mo",
+          "name": "Muối Mỏ Tinh Khiết",
+          "quantity": 1
+        }
+      ],
+      "result_item_id": "food_lap_xuong_tieu_den_mo_da",
+      "hp": 120,
+      "stamina": 150,
+      "buff": "+15% Tỉ lệ đòn đánh chí mạng"
+    },
+    {
+      "id": "mi_soi_tuoi_xao_nam_cay",
+      "name": "Mì Sợi Tươi Xào Nấm Cay",
+      "station": "kitchen_pan",
+      "ingredients": [
+        {
+          "id": "bot_mi",
+          "name": "Bột Mì Mịn",
+          "quantity": 1
+        },
+        {
+          "id": "nam_sao_tim",
+          "name": "Nấm Sao Tím",
+          "quantity": 1
+        },
+        {
+          "id": "ot_lua",
+          "name": "Ớt Lửa Hầm Ngục",
+          "quantity": 1
+        }
+      ],
+      "result_item_id": "food_mi_soi_tuoi_xao_nam_cay",
+      "hp": 100,
+      "stamina": 140,
+      "buff": "+2 Tốc độ, +1 Tấn công"
+    },
+    {
+      "id": "banh_kep_trung_xuc_xich",
+      "name": "Bánh Kẹp Trứng Xúc Xích",
+      "station": "kitchen_pan",
+      "ingredients": [
+        {
+          "id": "bot_mi",
+          "name": "Bột Mì Mịn",
+          "quantity": 1
+        },
+        {
+          "id": "trung_ga",
+          "name": "Trứng Gà",
+          "quantity": 1
+        },
+        {
+          "id": "thit_heo",
+          "name": "Thịt Heo",
+          "quantity": 1
+        }
+      ],
+      "result_item_id": "food_banh_kep_trung_xuc_xich",
+      "hp": 110,
+      "stamina": 150,
+      "buff": "+2 Tốc độ đào bới nông trại"
+    },
+    {
+      "id": "sup_cu_den_do_dai_ngan",
+      "name": "Súp Củ Dền Đỏ Đại Ngàn",
+      "station": "kitchen_pot",
+      "ingredients": [
+        {
+          "id": "cu_den_do",
+          "name": "Củ Dền Đỏ",
+          "quantity": 1
+        },
+        {
+          "id": "khoai_tay",
+          "name": "Khoai Tây",
+          "quantity": 1
+        },
+        {
+          "id": "sua_bo",
+          "name": "Sữa Bò",
+          "quantity": 1
+        }
+      ],
+      "result_item_id": "food_sup_cu_den_do_dai_ngan",
+      "hp": 95,
+      "stamina": 135,
+      "buff": "Hồi 5% máu tối đa mỗi 10 giây"
+    },
+    {
+      "id": "banh_khoai_mon_tro_trau",
+      "name": "Bánh Khoai Môn Tro Trấu",
+      "station": "kitchen_steamer",
+      "ingredients": [
+        {
+          "id": "khoai_mon",
+          "name": "Khoai Môn Tro Trấu",
+          "quantity": 1
+        },
+        {
+          "id": "men_tu_nhien",
+          "name": "Men Tự Nhiên",
+          "quantity": 1
+        }
+      ],
+      "result_item_id": "food_banh_khoai_mon_tro_trau",
+      "hp": 100,
+      "stamina": 150,
+      "buff": "[Món Thanh Tẩy]: Siêu thoát vong hồn đất"
+    },
+    {
+      "id": "xoi_hat_sen_nuoc_cot_dua",
+      "name": "Xôi Hạt Sen Nước Cốt Dừa",
+      "station": "kitchen_steamer",
+      "ingredients": [
+        {
+          "id": "nep_thom",
+          "name": "Nếp Thơm",
+          "quantity": 1
+        },
+        {
+          "id": "hat_sen",
+          "name": "Hạt Sen Tuyết",
+          "quantity": 1
+        },
+        {
+          "id": "duong_mia",
+          "name": "Đường Mía",
+          "quantity": 1
+        }
+      ],
+      "result_item_id": "food_xoi_hat_sen_nuoc_cot_dua",
+      "hp": 120,
+      "stamina": 180,
+      "buff": "[Món Thanh Tẩy]: Tăng 25% điểm hòa giải linh hồn"
+    },
+    {
+      "id": "banh_chung_lua_rung",
+      "name": "Bánh Chưng Lửa Rừng",
+      "station": "kitchen_pot",
+      "ingredients": [
+        {
+          "id": "nep_thom",
+          "name": "Nếp Thơm",
+          "quantity": 1
+        },
+        {
+          "id": "dau_den",
+          "name": "Đậu Đen/Đậu Xanh",
+          "quantity": 1
+        },
+        {
+          "id": "thit_heo",
+          "name": "Thịt Heo",
+          "quantity": 1
+        }
+      ],
+      "result_item_id": "food_banh_chung_lua_rung",
+      "hp": 220,
+      "stamina": 300,
+      "buff": "+3 Phòng ngự, +3 Tấn công, +50 Max HP"
+    },
+    {
+      "id": "canh_thao_moc_bup_sen",
+      "name": "Canh Thảo Mộc Búp Sen",
+      "station": "kitchen_pot",
+      "ingredients": [
+        {
+          "id": "hat_sen",
+          "name": "Hạt Sen Tuyết",
+          "quantity": 1
+        },
+        {
+          "id": "cai_thia",
+          "name": "Cải Thìa",
+          "quantity": 1
+        }
+      ],
+      "result_item_id": "food_canh_thao_moc_bup_sen",
+      "hp": 110,
+      "stamina": 170,
+      "buff": "Xóa sạch mọi hiệu ứng trúng độc và nguyền rủa"
+    },
+    {
+      "id": "banh_deo_trang_ram_hoa_buoi",
+      "name": "Bánh Dẻo Trăng Rằm Hoa Bưởi",
+      "station": "kitchen_steamer",
+      "ingredients": [
+        {
+          "id": "nep_thom",
+          "name": "Bột Nếp",
+          "quantity": 1
+        },
+        {
+          "id": "duong_mia",
+          "name": "Đường Mía",
+          "quantity": 1
+        }
+      ],
+      "result_item_id": "food_banh_deo_trang_ram_hoa_buoi",
+      "hp": 90,
+      "stamina": 140,
+      "buff": "+3 May mắn, Khách mua hàng hào phóng +30%"
+    },
+    {
+      "id": "tra_sen_bach_diep",
+      "name": "Trà Sen Bách Diệp",
+      "station": "kitchen_pot",
       "ingredients": [
         {
           "id": "la_tra_sen",
-          "name": "Lotus Tea Leaves",
+          "name": "Búp Sen Tuyết",
+          "quantity": 1
+        },
+        {
+          "id": "tra_xanh",
+          "name": "Trà Xanh",
+          "quantity": 1
+        }
+      ],
+      "result_item_id": "food_tra_sen_bach_diep",
+      "hp": 40,
+      "stamina": 180,
+      "buff": "Giảm 50% tiêu hao Stamina cho mọi hoạt động"
+    },
+    {
+      "id": "nuoc_mia_ep_gung_am",
+      "name": "Nước Mía Ép Gừng Ấm",
+      "station": "kitchen_bowl",
+      "ingredients": [
+        {
+          "id": "mia_duong",
+          "name": "Mía Đường",
+          "quantity": 1
+        },
+        {
+          "id": "gung_rung",
+          "name": "Gừng Tươi",
+          "quantity": 1
+        }
+      ],
+      "result_item_id": "food_nuoc_mia_ep_gung_am",
+      "hp": 50,
+      "stamina": 120,
+      "buff": "+2 Tốc độ di chuyển"
+    },
+    {
+      "id": "sua_bo_nong_mat_ong",
+      "name": "Sữa Bò Nóng Mật Ong",
+      "station": "kitchen_pot",
+      "ingredients": [
+        {
+          "id": "sua_bo",
+          "name": "Sữa Tươi Nguyên Kem",
           "quantity": 1
         },
         {
           "id": "mat_ong",
-          "name": "Honey",
+          "name": "Mật Ong Rừng",
           "quantity": 1
         }
       ],
-      "result_item_id": "item_tea_sen_an_than",
-      "duration_seconds": 2,
-      "effect_description": "Soothes worries, restores 35 Stamina"
+      "result_item_id": "food_sua_bo_nong_mat_ong",
+      "hp": 60,
+      "stamina": 130,
+      "buff": "Ngủ dậy ngày hôm sau được thêm +50 Stamina"
     },
     {
-      "id": "tra_dau_bang_tuyet",
-      "name": "Glacial Berry Iced Tea",
-      "description": "Succulent sweet-tart forest berries blended with cooling frost crystals for an exhilarating refresher.",
-      "station": "tea_station",
+      "id": "ruou_trai_cay_len_men",
+      "name": "Rượu Trái Cây Lên Men",
+      "station": "kitchen_pot",
       "ingredients": [
         {
-          "id": "dau_rung",
-          "name": "Wild Berries",
+          "id": "nho_dem",
+          "name": "Nho Đêm",
           "quantity": 1
         },
         {
-          "id": "da_tinh_the",
-          "name": "Crystal Shard",
+          "id": "man_rung",
+          "name": "Mận Rừng",
           "quantity": 1
         }
       ],
-      "result_item_id": "item_tea_dau_bang_tuyet",
-      "duration_seconds": 2,
-      "effect_description": "Invigorating chill, increases walking speed by 15% for 3 minutes"
+      "result_item_id": "food_ruou_trai_cay_len_men",
+      "hp": 100,
+      "stamina": 100,
+      "buff": "+4 Tấn công, nhưng tầm nhìn mỏ bị tối 10%"
     },
     {
-      "id": "tra_oai_huong_ngan_sao",
-      "name": "Thousand Stars Lavender Tea",
-      "description": "Delicate lavender blossoms infused with shimmering stardust powder, guiding the soul into serene stillness.",
-      "station": "tea_station",
+      "id": "nuoc_ep_dua_luoi_bang_gia",
+      "name": "Nước Ép Dưa Lưới Băng Giá",
+      "station": "kitchen_bowl",
       "ingredients": [
         {
-          "id": "oai_huong",
-          "name": "Starlight Lavender",
+          "id": "dua_luoi_tinh_van",
+          "name": "Dưa Lưới Tinh Vân",
+          "quantity": 1
+        }
+      ],
+      "result_item_id": "food_nuoc_ep_dua_luoi_bang_gia",
+      "hp": 70,
+      "stamina": 140,
+      "buff": "Miễn nhiễm sát thương Dung nham trong 3 phút"
+    },
+    {
+      "id": "phi_le_ca_ngu_nuong_rom",
+      "name": "Phi-lê Cá Ngừ Nướng Rơm",
+      "station": "kitchen_grill",
+      "ingredients": [
+        {
+          "id": "ca_chep_suoi",
+          "name": "Cá Ngừ Hồ Sâu",
           "quantity": 1
         },
         {
-          "id": "bot_sao",
-          "name": "Stardust Powder",
+          "id": "toi_dai",
+          "name": "Tỏi Dại",
           "quantity": 1
         }
       ],
-      "result_item_id": "item_tea_oai_huong_ngan_sao",
-      "duration_seconds": 2.5,
-      "effect_description": "Exhales faint stardust, induces sound sleep and recovers 100% Stamina"
+      "result_item_id": "food_phi_le_ca_ngu_nuong_rom",
+      "hp": 140,
+      "stamina": 180,
+      "buff": "+3 Đào mỏ, +2 Tấn công"
     },
     {
-      "id": "tra_anh_duong",
-      "name": "Solar Dawn Infusion",
-      "description": "Golden-amber tea shimmering like early sunlight, pouring fiery vitality into miners before deep descents.",
-      "station": "tea_station",
+      "id": "oc_nuong_bo_tieu_den",
+      "name": "Ốc Nướng Bơ Tiêu Đen",
+      "station": "kitchen_grill",
+      "ingredients": [
+        {
+          "id": "ca_chep_suoi",
+          "name": "Ốc Suối",
+          "quantity": 1
+        },
+        {
+          "id": "bo_beo",
+          "name": "Bơ Béo",
+          "quantity": 1
+        }
+      ],
+      "result_item_id": "food_oc_nuong_bo_tieu_den",
+      "hp": 85,
+      "stamina": 120,
+      "buff": "+20% Tầm nhặt đồ hút vật phẩm"
+    },
+    {
+      "id": "com_tho_suon_hap_nam",
+      "name": "Cơm Thố Sườn Hấp Nấm",
+      "station": "kitchen_steamer",
+      "ingredients": [
+        {
+          "id": "lua_mien",
+          "name": "Lúa Miến Hoàng Kim",
+          "quantity": 1
+        },
+        {
+          "id": "thit_suon",
+          "name": "Sườn Heo",
+          "quantity": 1
+        },
+        {
+          "id": "nam_sao_tim",
+          "name": "Nấm Sao Tím",
+          "quantity": 1
+        }
+      ],
+      "result_item_id": "food_com_tho_suon_hap_nam",
+      "hp": 160,
+      "stamina": 210,
+      "buff": "+2 Tấn công, +2 Đào mỏ, +1 Tốc độ"
+    },
+    {
+      "id": "banh_pie_tao_que_lo_dat",
+      "name": "Bánh Pie Táo Quế Lò Đất",
+      "station": "kitchen_oven",
+      "ingredients": [
+        {
+          "id": "tao_soi",
+          "name": "Táo Sồi",
+          "quantity": 1
+        },
+        {
+          "id": "bot_mi",
+          "name": "Bột Mì Mịn",
+          "quantity": 1
+        }
+      ],
+      "result_item_id": "food_banh_pie_tao_que_lo_dat",
+      "hp": 110,
+      "stamina": 160,
+      "buff": "+2 May mắn, +1 Tốc độ"
+    },
+    {
+      "id": "banh_tart_viet_quat_bui_sao",
+      "name": "Bánh Tart Việt Quất Bụi Sao",
+      "station": "kitchen_oven",
+      "ingredients": [
+        {
+          "id": "viet_quat",
+          "name": "Quả Việt Quất",
+          "quantity": 1
+        },
+        {
+          "id": "bot_mi",
+          "name": "Bột Mì Mịn",
+          "quantity": 1
+        }
+      ],
+      "result_item_id": "food_banh_tart_viet_quat_bui_sao",
+      "hp": 120,
+      "stamina": 170,
+      "buff": "Tự phát sáng quanh người trong hang tối"
+    },
+    {
+      "id": "dui_rung_hun_khoi_da_chien",
+      "name": "Đùi Rừng Hun Khói Dã Chiến",
+      "station": "kitchen_smokehouse",
+      "ingredients": [
+        {
+          "id": "thit_heo",
+          "name": "Thịt Rừng",
+          "quantity": 1
+        },
+        {
+          "id": "muoi_mo",
+          "name": "Muối Mỏ Tinh Khiết",
+          "quantity": 1
+        }
+      ],
+      "result_item_id": "food_dui_rung_hun_khoi_da_chien",
+      "hp": 170,
+      "stamina": 220,
+      "buff": "+4 Tấn công khi chiến đấu trong hầm ngục"
+    },
+    {
+      "id": "lau_thap_cam_bach_vi",
+      "name": "Lẩu Thập Cẩm Bách Vị",
+      "station": "kitchen_pot",
+      "ingredients": [
+        {
+          "id": "thit_bo",
+          "name": "Thịt Bò",
+          "quantity": 1
+        },
+        {
+          "id": "ca_chep_suoi",
+          "name": "Cá Suối",
+          "quantity": 1
+        },
+        {
+          "id": "nam_sao_tim",
+          "name": "Nấm Sao Tím",
+          "quantity": 1
+        }
+      ],
+      "result_item_id": "food_lau_thap_cam_bach_vi",
+      "hp": 250,
+      "stamina": 350,
+      "buff": "+3 Toàn bộ chỉ số (Tấn công, Thủ, Tốc, Mỏ)"
+    },
+    {
+      "id": "banh_mi_den_dai_han",
+      "name": "Bánh Mì Đen Đại Hàn",
+      "station": "kitchen_oven",
+      "ingredients": [
+        {
+          "id": "lua_mach_den",
+          "name": "Lúa Mạch Đen",
+          "quantity": 2
+        }
+      ],
+      "result_item_id": "food_banh_mi_den_dai_han",
+      "hp": 130,
+      "stamina": 190,
+      "buff": "Tăng gấp đôi giáp khi HP dưới 30%"
+    },
+    {
+      "id": "com_lam_ong_tre_muoi_me",
+      "name": "Cơm Lam Ống Tre Muối Mè",
+      "station": "kitchen_grill",
+      "ingredients": [
+        {
+          "id": "nep_thom",
+          "name": "Nếp Thơm",
+          "quantity": 1
+        }
+      ],
+      "result_item_id": "food_com_lam_ong_tre_muoi_me",
+      "hp": 100,
+      "stamina": 150,
+      "buff": "+1 Đào mỏ, +1 Phòng thủ"
+    },
+    {
+      "id": "ga_ham_sam_rung_da",
+      "name": "Gà Hầm Sâm Rừng Đá",
+      "station": "kitchen_pot",
+      "ingredients": [
+        {
+          "id": "thit_ga",
+          "name": "Thịt Gà",
+          "quantity": 1
+        }
+      ],
+      "result_item_id": "food_ga_ham_sam_rung_da",
+      "hp": 220,
+      "stamina": 300,
+      "buff": "Tăng vĩnh viễn +5 Max Stamina (ăn tối đa 5 lần)"
+    },
+    {
+      "id": "thit_nuong_lua_dia_nguc",
+      "name": "Thịt Nướng Lửa Địa Ngục",
+      "station": "kitchen_grill",
+      "ingredients": [
+        {
+          "id": "thit_bo",
+          "name": "Thịt Bò",
+          "quantity": 1
+        },
+        {
+          "id": "ot_lua",
+          "name": "Ớt Lửa Hầm Ngục",
+          "quantity": 1
+        }
+      ],
+      "result_item_id": "food_thit_nuong_lua_dia_nguc",
+      "hp": 200,
+      "stamina": 240,
+      "buff": "Đòn đánh đánh kèm hiệu ứng Thiêu Đốt kẻ địch"
+    },
+    {
+      "id": "sup_yen_bui_sao_than_thoai",
+      "name": "Súp Yến Bụi Sao Thần Thoại",
+      "station": "kitchen_pot",
+      "ingredients": [
+        {
+          "id": "mat_ong",
+          "name": "Mật Ong Rừng",
+          "quantity": 1
+        }
+      ],
+      "result_item_id": "food_sup_yen_bui_sao_than_thoai",
+      "hp": 300,
+      "stamina": 400,
+      "buff": "Hồi sinh 1 lần ngay lập tức nếu bị hết máu"
+    },
+    {
+      "id": "banh_ngu_coc_dai_luc",
+      "name": "Bánh Ngũ Cốc Đại Lục",
+      "station": "kitchen_oven",
+      "ingredients": [
+        {
+          "id": "bot_mi",
+          "name": "Bột Mì Mịn",
+          "quantity": 1
+        },
+        {
+          "id": "lua_mach_den",
+          "name": "Lúa Mạch Đen",
+          "quantity": 1
+        }
+      ],
+      "result_item_id": "food_banh_ngu_coc_dai_luc",
+      "hp": 150,
+      "stamina": 220,
+      "buff": "Tăng 20% lượng kinh nghiệm kỹ năng nhận được"
+    },
+    {
+      "id": "banh_cau_vong_4_mua",
+      "name": "Bánh Cầu Vồng 4 Mùa",
+      "station": "kitchen_oven",
+      "ingredients": [
+        {
+          "id": "dau_tay_tuyet",
+          "name": "Dâu Tuyết",
+          "quantity": 1
+        },
+        {
+          "id": "dua_luoi_tinh_van",
+          "name": "Dưa Lưới",
+          "quantity": 1
+        },
+        {
+          "id": "viet_quat",
+          "name": "Việt Quất",
+          "quantity": 1
+        }
+      ],
+      "result_item_id": "food_banh_cau_vong_4_mua",
+      "hp": 250,
+      "stamina": 300,
+      "buff": "Tăng 50% giá bán toàn bộ nông sản trong ngày"
+    },
+    {
+      "id": "yen_tiec_cau_sieu_anh_hon",
+      "name": "Yến Tiệc Cầu Siêu Anh Hồn",
+      "station": "kitchen_pot",
       "ingredients": [
         {
           "id": "la_tra_sen",
-          "name": "Lotus Tea Leaves",
+          "name": "Hoa Sen Tuyết",
           "quantity": 1
         },
         {
-          "id": "bot_sao",
-          "name": "Stardust Powder",
-          "quantity": 1
-        },
-        {
-          "id": "mat_ong",
-          "name": "Honey",
-          "quantity": 1
-        }
-      ],
-      "result_item_id": "item_tea_anh_duong",
-      "duration_seconds": 3,
-      "effect_description": "Increases mining pickaxe speed by 25% for 3 real minutes, restores 50 Stamina"
-    },
-    {
-      "id": "bread_brioche",
-      "name": "Honey Chamomile Brioche",
-      "description": "Fluffy, tender loaf rich with creamy butter and sweet forest wildflower honey notes.",
-      "station": "bakery_oven",
-      "ingredients": [
-        {
-          "id": "item_flour",
-          "name": "Flour",
-          "quantity": 2
-        },
-        {
-          "id": "mat_ong",
-          "name": "Honey",
-          "quantity": 1
-        },
-        {
-          "id": "item_butter",
-          "name": "Butter",
-          "quantity": 1
-        }
-      ],
-      "result_item_id": "item_bread_brioche",
-      "duration_seconds": 10,
-      "effect_description": "Restores 60 Stamina"
-    },
-    {
-      "id": "pastry_scone_berry",
-      "name": "Bioluminescent Berry Scone",
-      "description": "Golden-baked crumbly scone studded with glowing, sweet-tart snowberries.",
-      "station": "bakery_oven",
-      "ingredients": [
-        {
-          "id": "item_flour",
-          "name": "Flour",
-          "quantity": 2
-        },
-        {
-          "id": "seed_lumiberry",
-          "name": "Lumiberry",
-          "quantity": 2
-        }
-      ],
-      "result_item_id": "item_pastry_scone_berry",
-      "duration_seconds": 9,
-      "effect_description": "Restores vitality and uplifts daily mood"
-    },
-    {
-      "id": "pastry_cinnamon_roll",
-      "name": "Forest Spirit Cinnamon Roll",
-      "description": "Spiced pastry swirl filled with warming forest cinnamon sugar — the all-time favorite of blacksmith Boris.",
-      "station": "bakery_oven",
-      "ingredients": [
-        {
-          "id": "item_flour",
-          "name": "Flour",
-          "quantity": 2
-        },
-        {
-          "id": "item_cinnamon",
-          "name": "Wild Cinnamon",
-          "quantity": 1
-        },
-        {
-          "id": "item_sugar",
-          "name": "Sugar",
-          "quantity": 1
-        }
-      ],
-      "result_item_id": "item_pastry_cinnamon_roll",
-      "duration_seconds": 11,
-      "effect_description": "Infuses the body with deep hearth warmth, repelling cold chills"
-    },
-    {
-      "id": "pastry_crystal_tart",
-      "name": "Starlight Crystal Tart",
-      "description": "Exquisite artisanal tart with shimmering violet amethyst jelly, resembling a starry midnight sky.",
-      "station": "bakery_oven",
-      "ingredients": [
-        {
-          "id": "item_flour",
-          "name": "Flour",
-          "quantity": 1
-        },
-        {
-          "id": "gem_amethyst",
-          "name": "Amethyst Gem",
-          "quantity": 1
-        },
-        {
-          "id": "bot_sao",
-          "name": "Stardust Powder",
-          "quantity": 1
-        }
-      ],
-      "result_item_id": "item_pastry_crystal_tart",
-      "duration_seconds": 12,
-      "effect_description": "Radiates a mystical aura, increasing rare ore drop chances in mines"
-    },
-    {
-      "id": "cake_fairy_birthday",
-      "name": "Faerie Birthday Cake",
-      "description": "Celebratory jubilee confection adorned with twinkling firefly lights and fresh frost berries.",
-      "station": "bakery_oven",
-      "ingredients": [
-        {
-          "id": "item_flour",
-          "name": "Flour",
-          "quantity": 3
-        },
-        {
-          "id": "seed_lumiberry",
-          "name": "Lumiberry",
-          "quantity": 2
-        },
-        {
-          "id": "item_lantern_firefly",
-          "name": "Firefly Lantern",
-          "quantity": 1
-        }
-      ],
-      "result_item_id": "item_cake_fairy_birthday",
-      "duration_seconds": 13,
-      "effect_description": "Brings boundless joy and unlocks special cherished dialogue when gifted on birthdays"
-    },
-    {
-      "id": "tra_nguyet_quang",
-      "name": "Moonlight Dew Tea",
-      "description": "Lotus tea leaves brewed with moonstone essence and celestial stardust powder, bringing deep solace beneath nocturnal skies.",
-      "station": "tea_station",
-      "ingredients": [
-        {
-          "id": "la_tra_sen",
-          "name": "Lotus Tea Leaf",
-          "quantity": 1
-        },
-        {
-          "id": "gem_moonstone",
-          "name": "Moonstone",
-          "quantity": 1
-        },
-        {
-          "id": "bot_sao",
-          "name": "Stardust Powder",
-          "quantity": 1
-        }
-      ],
-      "result_item_id": "item_tea_moonlight",
-      "duration_seconds": 3,
-      "effect_description": "Pacifies sorrow, grants +30% nighttime stamina regeneration and unlocks hidden confessions"
-    },
-    {
-      "id": "pastry_emerald_tart",
-      "name": "Deepwood Emerald Tart",
-      "description": "A crisp golden tart filled with emerald woodland nectar and wildflower honey, brimming with primal herb vitality.",
-      "station": "bakery_oven",
-      "ingredients": [
-        {
-          "id": "item_flour",
-          "name": "Fresh Flour",
-          "quantity": 1
-        },
-        {
-          "id": "gem_emerald",
-          "name": "Life Emerald",
+          "id": "nep_thom",
+          "name": "Nếp Thơm",
           "quantity": 1
         },
         {
           "id": "mat_ong",
-          "name": "Wild Honey",
+          "name": "Mật Ong Rừng",
           "quantity": 1
         }
       ],
-      "result_item_id": "item_pastry_emerald_tart",
-      "duration_seconds": 14,
-      "effect_description": "Grants +40 Max Stamina for 5 minutes and doubles natural health recovery speed"
-    },
-    {
-      "id": "tra_kim_cuong_thanh_loc",
-      "name": "Diamond Purified Tea",
-      "description": "Lotus and lavender tea filtered through a glacial diamond prism, radiating celestial light that dispels curses and toxins.",
-      "station": "tea_station",
-      "ingredients": [
-        {
-          "id": "la_tra_sen",
-          "name": "Lotus Tea Leaf",
-          "quantity": 1
-        },
-        {
-          "id": "gem_diamond",
-          "name": "Diamond of Purity",
-          "quantity": 1
-        },
-        {
-          "id": "oai_huong",
-          "name": "Starlight Lavender",
-          "quantity": 1
-        }
-      ],
-      "result_item_id": "item_tea_diamond_purity",
-      "duration_seconds": 4,
-      "effect_description": "Cleanses all debuffs and grants complete immunity to abyssal shadow damage for 4 minutes"
-    },
-    {
-      "id": "bread_miner_sourdough",
-      "name": "Miner's Shadow Sourdough",
-      "description": "Crusty dark rye loaf packed with sustained carbs, empowering miners to quarry stone tirelessly.",
-      "station": "bakery_oven",
-      "ingredients": [
-        {
-          "id": "item_shadow_rye",
-          "name": "Shadow Rye Sheaf",
-          "quantity": 1
-        },
-        {
-          "id": "ore_coal",
-          "name": "Coal Ore",
-          "quantity": 1
-        }
-      ],
-      "result_item_id": "item_bread_miner_sourdough",
-      "duration_seconds": 10,
-      "effect_description": "-50% Stamina consumption when mining rocks and ores for 5 minutes"
-    },
-    {
-      "id": "pastry_spark_lemon_meringue",
-      "name": "Electric Lemon Meringue Tart",
-      "description": "Torched sweet meringue over electrifying spark-lemon curd, supercharging action reflexes.",
-      "station": "bakery_oven",
-      "ingredients": [
-        {
-          "id": "item_flour",
-          "name": "Fresh Flour",
-          "quantity": 1
-        },
-        {
-          "id": "item_spark_lemon",
-          "name": "Spark-Lemon",
-          "quantity": 1
-        },
-        {
-          "id": "item_honey_cane",
-          "name": "Amber Honey-Cane",
-          "quantity": 1
-        }
-      ],
-      "result_item_id": "item_pastry_spark_lemon_meringue",
-      "duration_seconds": 12,
-      "effect_description": "+40% Movement Speed and Task Action Speed for 4 minutes"
-    },
-    {
-      "id": "tea_whisper_hearth",
-      "name": "Whisper Hearth Tea",
-      "description": "Lotus and ginger tea simmered slow with amber honey-cane, banishing winter chill and cold debuffs.",
-      "station": "tea_station",
-      "ingredients": [
-        {
-          "id": "la_tra_sen",
-          "name": "Lotus Tea Leaf",
-          "quantity": 1
-        },
-        {
-          "id": "item_whisper_ginger",
-          "name": "Whisper Ginger Root",
-          "quantity": 1
-        },
-        {
-          "id": "item_honey_cane",
-          "name": "Amber Honey-Cane",
-          "quantity": 1
-        }
-      ],
-      "result_item_id": "item_tea_whisper_hearth",
-      "duration_seconds": 3,
-      "effect_description": "Restores 45 Stamina, complete immunity to freezing cold for 5 minutes"
-    },
-    {
-      "id": "tea_sun_daisy_honey",
-      "name": "Sun Daisy Honey Tea",
-      "description": "Sun daisy petals steeped gently with amber honey, soothing frazzled nerves and easing cognitive fatigue.",
-      "station": "tea_station",
-      "ingredients": [
-        {
-          "id": "item_sun_daisy",
-          "name": "Sun Daisy Petal",
-          "quantity": 2
-        },
-        {
-          "id": "mat_ong",
-          "name": "Honey",
-          "quantity": 1
-        }
-      ],
-      "result_item_id": "item_tea_sun_daisy_honey",
-      "duration_seconds": 2,
-      "effect_description": "Restores 45 Stamina, reduces work stamina drain by 30% for 4 minutes"
-    },
-    {
-      "id": "tea_earl_grey_clara",
-      "name": "Oakhaven Earl Grey",
-      "description": "Lotus tea blended with dried spark-lemon peel and molasses cane, granting lucid clarity for scholars and researchers.",
-      "station": "tea_station",
-      "ingredients": [
-        {
-          "id": "la_tra_sen",
-          "name": "Lotus Tea Leaf",
-          "quantity": 1
-        },
-        {
-          "id": "item_spark_lemon",
-          "name": "Electric Spark Lemon",
-          "quantity": 1
-        },
-        {
-          "id": "item_honey_cane",
-          "name": "Amber Honey-Cane",
-          "quantity": 1
-        }
-      ],
-      "result_item_id": "item_tea_earl_grey_clara",
-      "duration_seconds": 3,
-      "effect_description": "Sharp focus, +20% Skill EXP Gain for 5 minutes"
-    },
-    {
-      "id": "tea_frostmint_breeze",
-      "name": "Frostmint Glacial Brew",
-      "description": "Frostmint leaves muddled with crushed ice crystals, rapidly chilling the core and coating the drinker in cool protection.",
-      "station": "tea_station",
-      "ingredients": [
-        {
-          "id": "item_frostmint",
-          "name": "Glacial Frostmint",
-          "quantity": 2
-        },
-        {
-          "id": "da_tinh_the",
-          "name": "Crystal Shard",
-          "quantity": 1
-        }
-      ],
-      "result_item_id": "item_tea_frostmint_breeze",
-      "duration_seconds": 2,
-      "effect_description": "Restores 50 Stamina, grants burn and lava damage immunity for 4 minutes"
-    },
-    {
-      "id": "tea_magma_spiced_chai",
-      "name": "Magma Spiced Chai",
-      "description": "Concentrated magma melon extract boiled with whisper ginger and cinnamon bark, kindling fearless warmth within.",
-      "station": "tea_station",
-      "ingredients": [
-        {
-          "id": "item_magma_melon",
-          "name": "Magma Melon",
-          "quantity": 1
-        },
-        {
-          "id": "item_whisper_ginger",
-          "name": "Whisper Ginger Root",
-          "quantity": 1
-        },
-        {
-          "id": "item_cinnamon",
-          "name": "Wild Cinnamon",
-          "quantity": 1
-        }
-      ],
-      "result_item_id": "item_tea_magma_spiced_chai",
-      "duration_seconds": 3,
-      "effect_description": "Restores 75 Stamina, +15% Attack Damage and freeze immunity for 5 minutes"
-    },
-    {
-      "id": "tea_sylvan_night_infusion",
-      "name": "Deep Forest Herbal Infusion",
-      "description": "A contemplative brew of lotus tea, moonlight yam essence, and wild cinnamon, carrying the tranquil scent of ancient pines.",
-      "station": "tea_station",
-      "ingredients": [
-        {
-          "id": "la_tra_sen",
-          "name": "Lotus Tea Leaf",
-          "quantity": 1
-        },
-        {
-          "id": "item_moonlight_yam",
-          "name": "Moonlight Violet Yam",
-          "quantity": 1
-        },
-        {
-          "id": "item_cinnamon",
-          "name": "Wild Cinnamon",
-          "quantity": 1
-        }
-      ],
-      "result_item_id": "item_tea_sylvan_night_infusion",
-      "duration_seconds": 3,
-      "effect_description": "Deep serenity, +25% rare herb & seed foraging chance for 5 minutes"
-    },
-    {
-      "id": "bread_sweet_pumpkin_loaf",
-      "name": "Honey Pumpkin Loaf",
-      "description": "A golden loaf baked with roasted honey pumpkin mash and farm butter, fragrant with autumnal warmth.",
-      "station": "bakery_oven",
-      "ingredients": [
-        {
-          "id": "item_flour",
-          "name": "Fresh Flour",
-          "quantity": 2
-        },
-        {
-          "id": "item_sweet_pumpkin",
-          "name": "Honey Pumpkin",
-          "quantity": 1
-        },
-        {
-          "id": "mat_ong",
-          "name": "Honey",
-          "quantity": 1
-        },
-        {
-          "id": "item_butter",
-          "name": "Farm Butter",
-          "quantity": 1
-        }
-      ],
-      "result_item_id": "item_bread_sweet_pumpkin_loaf",
-      "duration_seconds": 10,
-      "effect_description": "Restores 80 Stamina, +15% Crop Harvest Yield for 5 minutes"
-    },
-    {
-      "id": "pastry_sun_cornbread",
-      "name": "Golden Sun Cornbread",
-      "description": "Stone-skillet cornbread with crisp caramelized edges and a moist, golden crumb packed with sweet sun-corn kernels.",
-      "station": "bakery_oven",
-      "ingredients": [
-        {
-          "id": "item_flour",
-          "name": "Fresh Flour",
-          "quantity": 1
-        },
-        {
-          "id": "item_sun_corn",
-          "name": "Sun Corn Cob",
-          "quantity": 2
-        },
-        {
-          "id": "item_butter",
-          "name": "Farm Butter",
-          "quantity": 1
-        }
-      ],
-      "result_item_id": "item_pastry_sun_cornbread",
-      "duration_seconds": 9,
-      "effect_description": "Restores 70 Stamina, +20% Movement Speed in caves for 4 minutes"
-    },
-    {
-      "id": "pastry_berry_shortcake",
-      "name": "Forest Berry Shortcake",
-      "description": "Buttery, crumbly shortcake layered with sweet wildberries and whipped cream—Penny's all-time favorite treat.",
-      "station": "bakery_oven",
-      "ingredients": [
-        {
-          "id": "item_flour",
-          "name": "Fresh Flour",
-          "quantity": 2
-        },
-        {
-          "id": "item_spring_wildberry",
-          "name": "Spring Wildberry",
-          "quantity": 2
-        },
-        {
-          "id": "item_sugar",
-          "name": "Raw Cane Sugar",
-          "quantity": 1
-        },
-        {
-          "id": "item_butter",
-          "name": "Farm Butter",
-          "quantity": 1
-        }
-      ],
-      "result_item_id": "item_pastry_berry_shortcake",
-      "duration_seconds": 11,
-      "effect_description": "Restores 100 Stamina, +10% Shop Sales Income for 1 game day"
-    },
-    {
-      "id": "pastry_shadow_rye_pretzel",
-      "name": "Shadow Rye Pretzel",
-      "description": "Chewy, knot-twisted pretzel made from dark forest rye and dusted with crushed rock salt—a smithy's favorite hearty snack.",
-      "station": "bakery_oven",
-      "ingredients": [
-        {
-          "id": "item_shadow_rye",
-          "name": "Forest Shadow Rye",
-          "quantity": 2
-        },
-        {
-          "id": "item_flour",
-          "name": "Fresh Flour",
-          "quantity": 1
-        },
-        {
-          "id": "item_butter",
-          "name": "Farm Butter",
-          "quantity": 1
-        }
-      ],
-      "result_item_id": "item_pastry_shadow_rye_pretzel",
-      "duration_seconds": 10,
-      "effect_description": "Restores 65 Stamina, +15 Armor Defense for 5 minutes"
-    },
-    {
-      "id": "pastry_moonlight_yam_pie",
-      "name": "Moonlight Yam Pie",
-      "description": "Flaky multi-layered crust enveloping silky violet yam custard that emits a delicate lunar luminescence.",
-      "station": "bakery_oven",
-      "ingredients": [
-        {
-          "id": "item_moonlight_yam",
-          "name": "Moonlight Violet Yam",
-          "quantity": 2
-        },
-        {
-          "id": "item_flour",
-          "name": "Fresh Flour",
-          "quantity": 2
-        },
-        {
-          "id": "item_sugar",
-          "name": "Raw Cane Sugar",
-          "quantity": 1
-        },
-        {
-          "id": "mat_ong",
-          "name": "Honey",
-          "quantity": 1
-        }
-      ],
-      "result_item_id": "item_pastry_moonlight_yam_pie",
-      "duration_seconds": 13,
-      "effect_description": "Restores 120 Stamina, grants Night Vision and an 8-tile light aura for 6 minutes"
-    },
-    {
-      "id": "dish_miner_potato_stew",
-      "name": "Miner's Turnip Stew",
-      "description": "A bubbling cauldron of white jade turnips, shadow carrots, and brown butter, fueling deep overnight mining shifts.",
-      "station": "cooking_pot",
-      "ingredients": [
-        {
-          "id": "item_frost_turnip",
-          "name": "White Jade Turnip",
-          "quantity": 2
-        },
-        {
-          "id": "item_shadow_carrot",
-          "name": "Shadow Cat-Eye Carrot",
-          "quantity": 2
-        },
-        {
-          "id": "item_butter",
-          "name": "Farm Butter",
-          "quantity": 1
-        }
-      ],
-      "result_item_id": "item_dish_miner_potato_stew",
-      "duration_seconds": 8,
-      "effect_description": "Restores 110 Stamina, +35% Pickaxe Mining Speed for 5 minutes"
-    },
-    {
-      "id": "dish_wild_forest_mushroom_soup",
-      "name": "Creamy Forest Mushroom Soup",
-      "description": "Velvety soup simmered with earthy forest mushrooms, rich cream butter, and fresh flour, soothing aches and wounds.",
-      "station": "cooking_pot",
-      "ingredients": [
-        {
-          "id": "item_wild_mushroom",
-          "name": "Wild Forest Mushroom",
-          "quantity": 2
-        },
-        {
-          "id": "item_flour",
-          "name": "Fresh Flour",
-          "quantity": 1
-        },
-        {
-          "id": "item_butter",
-          "name": "Farm Butter",
-          "quantity": 1
-        }
-      ],
-      "result_item_id": "item_dish_wild_forest_mushroom_soup",
-      "duration_seconds": 7,
-      "effect_description": "Restores 85 Stamina, triggers +4 Stamina/sec Auto Regeneration for 3 minutes"
-    },
-    {
-      "id": "dish_sweet_pumpkin_potage",
-      "name": "Velvet Pumpkin Potage",
-      "description": "Golden, silky pumpkin potage drizzled with fragrant amber honey, warming the spirit on windy valley evenings.",
-      "station": "cooking_pot",
-      "ingredients": [
-        {
-          "id": "item_sweet_pumpkin",
-          "name": "Honey Pumpkin",
-          "quantity": 2
-        },
-        {
-          "id": "item_flour",
-          "name": "Fresh Flour",
-          "quantity": 1
-        },
-        {
-          "id": "mat_ong",
-          "name": "Honey",
-          "quantity": 1
-        }
-      ],
-      "result_item_id": "item_dish_sweet_pumpkin_potage",
-      "duration_seconds": 7,
-      "effect_description": "Restores 90 Stamina, +25% Magic Damage Resistance for 4 minutes"
-    },
-    {
-      "id": "dish_spicy_ginger_stew",
-      "name": "Searing Hearth Ginger Broth",
-      "description": "A blazing cauldron broth of fiery whisper ginger, turnips, and carrots, instantly incinerating chills and slow debuffs.",
-      "station": "cooking_pot",
-      "ingredients": [
-        {
-          "id": "item_whisper_ginger",
-          "name": "Whisper Ginger Root",
-          "quantity": 2
-        },
-        {
-          "id": "item_frost_turnip",
-          "name": "White Jade Turnip",
-          "quantity": 1
-        },
-        {
-          "id": "item_shadow_carrot",
-          "name": "Shadow Cat-Eye Carrot",
-          "quantity": 1
-        }
-      ],
-      "result_item_id": "item_dish_spicy_ginger_stew",
-      "duration_seconds": 8,
-      "effect_description": "Restores 95 Stamina, immunity to Slowness and Freeze effects for 5 minutes"
-    },
-    {
-      "id": "dish_dwarf_ironforge_goulash",
-      "name": "Ironforge Goulash",
-      "description": "A thick, hearty goulash born from the Khaz-Drakor dwarf forges, packing roasted corn, fiery ginger, and subterranean carrots.",
-      "station": "cooking_pot",
-      "ingredients": [
-        {
-          "id": "item_shadow_carrot",
-          "name": "Shadow Cat-Eye Carrot",
-          "quantity": 2
-        },
-        {
-          "id": "item_sun_corn",
-          "name": "Sun Corn Cob",
-          "quantity": 2
-        },
-        {
-          "id": "item_whisper_ginger",
-          "name": "Whisper Ginger Root",
-          "quantity": 1
-        },
-        {
-          "id": "item_butter",
-          "name": "Farm Butter",
-          "quantity": 1
-        }
-      ],
-      "result_item_id": "item_dish_dwarf_ironforge_goulash",
-      "duration_seconds": 10,
-      "effect_description": "Restores 130 Stamina, +20% Melee Weapon Damage (Hammer, Sword, Axe) for 5 minutes"
-    },
-    {
-      "id": "dish_moonlight_creamy_risotto",
-      "name": "Moonlight Herb Risotto",
-      "description": "Silky dark-rye grain risotto braised slowly with moonlight yam purée and herb butter, exhaling ethereal aromas.",
-      "station": "cooking_pot",
-      "ingredients": [
-        {
-          "id": "item_moonlight_yam",
-          "name": "Moonlight Violet Yam",
-          "quantity": 2
-        },
-        {
-          "id": "item_shadow_rye",
-          "name": "Forest Shadow Rye",
-          "quantity": 2
-        },
-        {
-          "id": "item_butter",
-          "name": "Farm Butter",
-          "quantity": 1
-        }
-      ],
-      "result_item_id": "item_dish_moonlight_creamy_risotto",
-      "duration_seconds": 9,
-      "effect_description": "Restores 115 Stamina, +25% Treasure Chest & Rare Ore Find Chance in caves for 4 minutes"
-    },
-    {
-      "id": "dish_adventurer_travel_ration",
-      "name": "Adventurer's Camp Rations",
-      "description": "Dense, nutrient-packed travel brick of pressed shadow-rye, dried spring berries, and solidified honey—never spoils in damp depths.",
-      "station": "cooking_pot",
-      "ingredients": [
-        {
-          "id": "item_shadow_rye",
-          "name": "Forest Shadow Rye",
-          "quantity": 2
-        },
-        {
-          "id": "item_spring_wildberry",
-          "name": "Spring Wildberry",
-          "quantity": 2
-        },
-        {
-          "id": "mat_ong",
-          "name": "Honey",
-          "quantity": 1
-        }
-      ],
-      "result_item_id": "item_dish_adventurer_travel_ration",
-      "duration_seconds": 6,
-      "effect_description": "Restores 150 Stamina and cleanses fatigue"
-    },
-    {
-      "id": "dish_mandrake_vitality_broth",
-      "name": "Mandrake Vitality Broth",
-      "description": "A mythical tonic double-boiled from ancient Mandrake root, frost lotus petals, and wild honey—the apex of restorative elixirs.",
-      "station": "cooking_pot",
-      "ingredients": [
-        {
-          "id": "item_mandrake",
-          "name": "Ancient Ginseng Mandrake",
-          "quantity": 1
-        },
-        {
-          "id": "item_frost_lotus",
-          "name": "Millennial Frost Lotus",
-          "quantity": 1
-        },
-        {
-          "id": "mat_ong",
-          "name": "Honey",
-          "quantity": 1
-        }
-      ],
-      "result_item_id": "item_dish_mandrake_vitality_broth",
-      "duration_seconds": 12,
-      "effect_description": "Instantly restores 100% Stamina, +50 Max Stamina and +20% to all core attributes for 10 minutes"
-    },
-    {
-      "id": "recipe_craft_drying_rack",
-      "name": "Herb Drying Rack",
-      "description": "Rustic timber rack that dries tea leaves, mushrooms, and herbs over 24 hours, boosting quality by 1 star.",
-      "station": "artisan_workbench",
-      "ingredients": [
-        { "id": "wood_oak", "name": "Oakhaven Oak Timber", "quantity": 20 },
-        { "id": "item_vine", "name": "Forest Vines", "quantity": 5 }
-      ],
-      "result_item_id": "item_craft_drying_rack",
-      "duration_seconds": 3,
-      "effect_description": "Processing Station: Dries harvested botanicals and tea leaves, preserving aroma and elevating quality"
-    },
-    {
-      "id": "recipe_craft_oak_smoker",
-      "name": "Oak Smoker",
-      "description": "Sturdy stone smoker using oak sawdust to smoke fresh river fish and game meat into durable field rations.",
-      "station": "artisan_workbench",
-      "ingredients": [
-        { "id": "ore_stone", "name": "Cavern Rough Stone", "quantity": 25 },
-        { "id": "wood_oak", "name": "Oakhaven Oak Timber", "quantity": 15 },
-        { "id": "ore_iron_bar", "name": "Oil-Quenched Iron Bar", "quantity": 2 }
-      ],
-      "result_item_id": "item_craft_oak_smoker",
-      "duration_seconds": 4,
-      "effect_description": "Processing Station: Smokes fish and venison into non-perishable Expedition Rations"
-    },
-    {
-      "id": "recipe_craft_fermentation_cask",
-      "name": "Pine Fermentation Cask",
-      "description": "Deep pine cask for fermenting frost yeasts into sourdough starter or brewing spiced cider and cider vinegar.",
-      "station": "artisan_workbench",
-      "ingredients": [
-        { "id": "wood_pine", "name": "Deepwood Pine Timber", "quantity": 30 },
-        { "id": "ore_copper_bar", "name": "Red Copper Ingot", "quantity": 2 }
-      ],
-      "result_item_id": "item_craft_fermentation_cask",
-      "duration_seconds": 4,
-      "effect_description": "Processing Station: Ferments sourdough baking yeasts and aged winter cider"
-    },
-    {
-      "id": "recipe_craft_compost_bin",
-      "name": "Compost Bin",
-      "description": "A wooden bin recycling pulled weeds, garden clippings, and straw into nutrient-dense organic fertilizer.",
-      "station": "artisan_workbench",
-      "ingredients": [
-        { "id": "wood_oak", "name": "Oakhaven Oak Timber", "quantity": 25 },
-        { "id": "item_straw", "name": "Dried Straw", "quantity": 10 }
-      ],
-      "result_item_id": "item_craft_compost_bin",
-      "duration_seconds": 3,
-      "effect_description": "Recycles botanical garden waste into Organic Fertilizer that accelerates crop growth by 20%"
-    },
-    {
-      "id": "recipe_craft_fae_apiary",
-      "name": "Fae Apiary",
-      "description": "Enchanted oak beehive dusted with fae pollen, steadily producing wild honeycomb and honey every 3 days.",
-      "station": "artisan_workbench",
-      "ingredients": [
-        { "id": "wood_oak", "name": "Oakhaven Oak Timber", "quantity": 35 },
-        { "id": "item_fae_dust", "name": "Fae Flower Pollen", "quantity": 1 },
-        { "id": "la_tra_sen", "name": "Lotus Tea Leaves", "quantity": 10 }
-      ],
-      "result_item_id": "item_craft_fae_apiary",
-      "duration_seconds": 5,
-      "effect_description": "Homestead Infrastructure: Automatically harvests pure Wildflower Honey every 3 days"
-    },
-    {
-      "id": "recipe_craft_wall_torch",
-      "name": "Wall Torch (x5)",
-      "description": "Bundle of 5 resin-soaked torches mounted permanently into cavern rock walls, never extinguishing.",
-      "station": "artisan_workbench",
-      "ingredients": [
-        { "id": "wood_oak", "name": "Oakhaven Oak Timber", "quantity": 2 },
-        { "id": "ore_coal", "name": "Lump of Black Coal", "quantity": 1 }
-      ],
-      "result_item_id": "item_craft_wall_torch",
-      "duration_seconds": 2,
-      "effect_description": "Mining Tool: Permanently illuminates a 3-tile radius in cavern walls to prevent getting lost"
-    },
-    {
-      "id": "recipe_craft_blast_powder",
-      "name": "Miner's Blast Powder",
-      "description": "Concentrated explosive mineral dust packet that shatters stubborn boulders and compact vein clusters instantly.",
-      "station": "artisan_workbench",
-      "ingredients": [
-        { "id": "ore_coal", "name": "Lump of Black Coal", "quantity": 2 },
-        { "id": "bot_sao", "name": "Pure Starlight Dust", "quantity": 2 },
-        { "id": "item_clay", "name": "Red Terracotta Clay", "quantity": 1 }
-      ],
-      "result_item_id": "item_craft_blast_powder",
-      "duration_seconds": 3,
-      "effect_description": "Mining Consumable: Shatters boulders in a 3x3 tile radius and rapidly yields loose minerals"
-    },
-    {
-      "id": "recipe_craft_escape_rope",
-      "name": "Escape Rope",
-      "description": "Tightly woven thick forest vine rope, instantly pulling you back to the nearest elevator shaft checkpoint.",
-      "station": "artisan_workbench",
-      "ingredients": [
-        { "id": "item_vine", "name": "Forest Vines", "quantity": 12 }
-      ],
-      "result_item_id": "item_craft_escape_rope",
-      "duration_seconds": 2,
-      "effect_description": "Emergency Survival: Immediately extracts you to the nearest mine elevator shaft when overwhelmed"
-    },
-    {
-      "id": "recipe_craft_luminous_beacon",
-      "name": "Luminous Beacon",
-      "description": "Quartz-inlaid stone pylon projecting a tranquil aura that keeps shadow fiends at bay for 60 seconds.",
-      "station": "artisan_workbench",
-      "ingredients": [
-        { "id": "gem_quartz", "name": "Quartz Crystal Shard", "quantity": 1 },
-        { "id": "ore_stone", "name": "Cavern Rough Stone", "quantity": 5 }
-      ],
-      "result_item_id": "item_craft_luminous_beacon",
-      "duration_seconds": 3,
-      "effect_description": "Sanctuary Device: Creates a 60-second warding aura repelling darkness monsters to rest safely"
-    },
-    {
-      "id": "recipe_craft_magma_tongs",
-      "name": "Magma Tongs",
-      "description": "Heat-treated iron tongs engineered to safely harvest superheated ores in the deep volcanic stratum without burns.",
-      "station": "artisan_workbench",
-      "ingredients": [
-        { "id": "ore_iron_bar", "name": "Oil-Quenched Iron Bar", "quantity": 4 }
-      ],
-      "result_item_id": "item_craft_magma_tongs",
-      "duration_seconds": 4,
-      "effect_description": "Protection Tool: Grants immunity to thermal burns when harvesting molten ore veins on floors 90-120"
-    },
-    {
-      "id": "recipe_craft_copper_sprinkler",
-      "name": "Oakhaven Copper Sprinkler",
-      "description": "Compact mechanical sprinkler head that automatically waters the 4 adjacent cardinal soil tiles at 06:00.",
-      "station": "artisan_workbench",
-      "ingredients": [
-        { "id": "ore_copper_bar", "name": "Red Copper Ingot", "quantity": 1 },
-        { "id": "ore_iron_bar", "name": "Oil-Quenched Iron Bar", "quantity": 1 }
-      ],
-      "result_item_id": "item_craft_copper_sprinkler",
-      "duration_seconds": 3,
-      "effect_description": "Homestead Automation: Automatically waters 4 cross-adjacent soil tiles every dawn"
-    },
-    {
-      "id": "recipe_craft_gold_sprinkler",
-      "name": "Solar Gold Sprinkler",
-      "description": "Masterwork dwarven gear sprinkler featuring a quartz nozzle, watering all 8 surrounding soil tiles (3x3 grid).",
-      "station": "artisan_workbench",
-      "ingredients": [
-        { "id": "ore_gold_bar", "name": "Pure Gold Ingot", "quantity": 1 },
-        { "id": "ore_iron_bar", "name": "Oil-Quenched Iron Bar", "quantity": 1 },
-        { "id": "gem_quartz", "name": "Quartz Crystal Shard", "quantity": 1 }
-      ],
-      "result_item_id": "item_craft_gold_sprinkler",
-      "duration_seconds": 4,
-      "effect_description": "Homestead Automation: Automatically waters a full 3x3 grid (8 surrounding tiles) every dawn"
-    },
-    {
-      "id": "recipe_craft_straw_scarecrow",
-      "name": "Straw Scarecrow",
-      "description": "Handmade straw warden with coal button eyes, warding crows and forest birds away from seeds in an 8-tile radius.",
-      "station": "artisan_workbench",
-      "ingredients": [
-        { "id": "item_straw", "name": "Dried Straw", "quantity": 20 },
-        { "id": "wood_oak", "name": "Oakhaven Oak Timber", "quantity": 1 },
-        { "id": "ore_coal", "name": "Lump of Black Coal", "quantity": 1 }
-      ],
-      "result_item_id": "item_craft_straw_scarecrow",
-      "duration_seconds": 2,
-      "effect_description": "Crop Protection: Prevents wild birds from consuming newly planted seeds within an 8-tile radius"
-    },
-    {
-      "id": "recipe_craft_picket_fence",
-      "name": "Picket Fence & Gate (x5)",
-      "description": "Smoothly planed oak posts to delineate garden plots, prevent weed encroachment, and beautify your farm.",
-      "station": "artisan_workbench",
-      "ingredients": [
-        { "id": "wood_oak", "name": "Oakhaven Oak Timber", "quantity": 2 }
-      ],
-      "result_item_id": "item_craft_picket_fence",
-      "duration_seconds": 1,
-      "effect_description": "Landscaping: Stops wild weeds from spreading and provides aesthetic rustic boundaries"
-    },
-    {
-      "id": "recipe_craft_cobblestone_path",
-      "name": "Cobblestone Path (x10)",
-      "description": "Level stone pavers that grant +15% running speed and prevent mud accumulation during autumn rains.",
-      "station": "artisan_workbench",
-      "ingredients": [
-        { "id": "ore_stone", "name": "Cavern Rough Stone", "quantity": 1 }
-      ],
-      "result_item_id": "item_craft_cobblestone_path",
-      "duration_seconds": 1,
-      "effect_description": "Infrastructure: Boosts overland travel speed by 15% and keeps walkways pristine in stormy seasons"
-    },
-    {
-      "id": "recipe_craft_rustic_table",
-      "name": "Rustic 2-Seat Oak Table",
-      "description": "Hand-joined sturdy oak table accommodating 2 additional evening teahouse patrons, growing nightly revenue.",
-      "station": "artisan_workbench",
-      "ingredients": [
-        { "id": "wood_oak", "name": "Oakhaven Oak Timber", "quantity": 30 },
-        { "id": "ore_iron_bar", "name": "Oil-Quenched Iron Bar", "quantity": 1 }
-      ],
-      "result_item_id": "item_craft_rustic_table",
-      "duration_seconds": 4,
-      "effect_description": "Teahouse Furnishing: Adds 1 customer table (2 seats/night) to expand daily earnings"
-    },
-    {
-      "id": "recipe_craft_leather_armchair",
-      "name": "Padded Leather Armchair",
-      "description": "Supple leather-upholstered armchair where guests relax deeply, extending customer patience by +30%.",
-      "station": "artisan_workbench",
-      "ingredients": [
-        { "id": "wood_oak", "name": "Oakhaven Oak Timber", "quantity": 15 },
-        { "id": "item_leather", "name": "Tanned Leather", "quantity": 2 }
-      ],
-      "result_item_id": "item_craft_leather_armchair",
-      "duration_seconds": 3,
-      "effect_description": "Teahouse Furnishing: Increases patron waiting patience by 30% and adds +10 to Cozy Rating"
-    },
-    {
-      "id": "recipe_craft_showcase_counter",
-      "name": "Starlight Showcase Counter",
-      "description": "Copper-trimmed glass display case preserving up to 12 baked pastries overnight without staleness.",
-      "station": "artisan_workbench",
-      "ingredients": [
-        { "id": "wood_oak", "name": "Oakhaven Oak Timber", "quantity": 40 },
-        { "id": "gem_quartz", "name": "Quartz Crystal Shard", "quantity": 4 },
-        { "id": "ore_copper_bar", "name": "Red Copper Ingot", "quantity": 2 }
-      ],
-      "result_item_id": "item_craft_showcase_counter",
-      "duration_seconds": 5,
-      "effect_description": "Teahouse Furnishing: Preserves 12 baked pastries overnight at maximum freshness"
-    },
-    {
-      "id": "recipe_craft_corner_hearth",
-      "name": "Corner Cobblestone Hearth",
-      "description": "The radiant heart of your teahouse, filling the parlor with warmth, firelight, and the crackle of dry logs.",
-      "station": "artisan_workbench",
-      "ingredients": [
-        { "id": "ore_stone", "name": "Cavern Rough Stone", "quantity": 60 },
-        { "id": "item_clay", "name": "Red Terracotta Clay", "quantity": 10 },
-        { "id": "ore_coal", "name": "Lump of Black Coal", "quantity": 5 }
-      ],
-      "result_item_id": "item_craft_corner_hearth",
-      "duration_seconds": 6,
-      "effect_description": "Cozy Centerpiece: Adds +50 to Cozy Rating and triggers patron bliss, yielding generous tips"
-    },
-    {
-      "id": "recipe_craft_willow_fish_trap",
-      "name": "Willow Fish Trap",
-      "description": "Pliant willow-woven basket trap submerged in rivers or cave pools, netting fish and crayfish each morning.",
-      "station": "artisan_workbench",
-      "ingredients": [
-        { "id": "item_vine", "name": "Forest Vines", "quantity": 15 },
-        { "id": "wood_oak", "name": "Oakhaven Oak Timber", "quantity": 2 }
-      ],
-      "result_item_id": "item_craft_willow_fish_trap",
-      "duration_seconds": 2,
-      "effect_description": "Automated Harvesting: Place in streams or subterranean pools to harvest chub, mud crayfish, and eels"
+      "result_item_id": "food_yen_tiec_cau_sieu_anh_hon",
+      "hp": 350,
+      "stamina": 500,
+      "buff": "[Món Thanh Tẩy Tối Thượng]: Siêu thoát toàn bộ linh hồn trong 1 khu vực"
     }
   ]
 }

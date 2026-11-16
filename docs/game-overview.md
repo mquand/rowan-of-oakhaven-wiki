@@ -1,74 +1,72 @@
 ---
 title: "Tổng Quan Trò Chơi"
-status: draft
+status: public
 audience: public
-updated: 2026-11-12
-tags: [overview, pitch, core-loop, features]
+updated: 2026-11-17
+tags: [overview, pitch, core-loop, features, eatery, tavern]
 spoiler: false
 ---
 
-# 🍵 Rowan of Oakhaven — Tổng Quan Trò Chơi
+# 🍲 Rowan of Oakhaven — Tổng Quan Trò Chơi
 
-> **Thể loại:** Dark Pixel RPG · Thảo Dược, Pha Trà & Bánh Ma Thuật · Khai Thác Mỏ · Cốt Truyện Đồng Cảm  
-> **Nền tảng:** PC (Steam, 16:9 Landscape) & Mobile  
-> **Phong cách nghệ thuật:** 2D Dark Pixel Art (bảng màu đêm lạnh navy/tím, ánh sáng ấm vàng mật ong)  
-
----
-
-## 1. Giới Thiệu Chung & Cốt Truyện Khởi Đầu
-
-### 1.1. Giới thiệu cốt truyện
-> *"Tiếp quản tiệm trà bánh cũ của người bà quá cố nơi rìa Rừng Thầm Thì, bạn gieo trồng thảo mộc, đào mỏ tìm than đá và thạch anh, để mỗi tối mở tiệm lắng nghe tâm sự của dân làng, tự tay nhào bột và pha những tách trà thảo mộc Bụi Sao xoa dịu nỗi muộn phiền cho họ."*
-
-### 1.2. Cốt Truyện Mở Đầu
-**Rowan** là một học viên phù thủy trẻ vừa kiệt sức sau nhiều năm chịu áp lực học thuật nặng nề tại Viện Phép Thuật hoàng gia. Giữa lúc phương hướng cuộc đời mờ mịt, cô nhận được tin **Bà Ngoại Amalia** — một nghệ nhân trà bánh ma thuật nổi tiếng ấm áp và đôn hậu — đã qua đời thanh thản trong giấc ngủ.
-
-Bà để lại cho Rowan một căn nhà gỗ nhỏ phủ rêu phong nơi ngã ba thị trấn Oakhaven, một góc vườn hoang, chú cú lùn đồng hành **Pip**, và **"Quyển Sổ Rách Bí Truyền"** chứa những công thức thử nghiệm dở dang của bà.
-
-Tại đây, Rowan nhận ra phép thuật vĩ đại nhất không nằm ở những câu thần chú quyền năng hủy diệt, mà nằm ở hơi ấm của một ổ bánh mì vừa ra lò giòn rụm và hương thơm thanh tịnh của tách trà sen được pha từ sự chân thành.
+> **Thể loại:** Dark Pixel Action RPG · Quán Ăn & Nông Trại 4 Mùa · Khai Thác Mỏ 150 Tầng · Cầu Siêu Hậu Chiến  
+> **Nền tảng:** PC (Steam, 16:9 Landscape) & Mobile-Ready  
+> **Phong cách nghệ thuật:** 2D Dark Pixel Art (bảng màu đêm lạnh navy/tím, ánh lửa cam ấm áp từ bếp nấu)  
 
 ---
 
-## 2. Vòng Lặp Trải Nghiệm Một Ngày (Core Gameplay Loop)
+## 1. Giới Thiệu Cốt Truyện & Vết Thương Hậu Chiến
 
-Một ngày trong game kéo dài khoảng **10 – 15 phút thời gian thực**, cho phép lưu tiến trình linh hoạt:
+### 1.1. Bối cảnh mất mát
+Chiến tranh tàn khốc nổ ra ở kinh thành đại lục cướp đi sinh mạng của cả cha và mẹ Rowan. Lớn lên trong vòng tay gầy gò của Bà, ký ức tuổi thơ duy nhất đem lại cảm giác bình yên cho Rowan chính là hơi ấm từ gian bếp củi của Bà và mùi thức ăn ấm nóng xua đi khói bụi súng đạn.
 
-1. **Bình Minh (06:00 – 08:00):** Mở hòm thư đọc thư tay cảm ơn, nhận hạt giống quý do chú cú Pip mang về từ rừng sâu.
-2. **Buổi Sáng & Chiều (08:00 – 17:00):** Tự do lựa chọn:
-   - *Làm vườn:* Cuốc đất, gieo hạt, tưới nước thảo mộc (Trà Sen, Dâu Tuyết, Oải Hương Sao), xay lúa mì tại cối xay gió.
-   - *Thám hiểm hang mỏ:* Cầm Đèn Đom Đóm soi mỏ sâu, khai thác than đá đốt lò bánh và quặng khoáng sản nâng cấp công cụ.
-3. **Hoàng Hôn (17:00 – 18:00):** Tự pha tách trà ấm uống nhận buff thể lực, chuẩn bị quầy bếp cho buổi tối.
-4. **Buổi Tối (18:00 – 23:00):** Mở tiệm trà bánh đón khách, lắng nghe tâm sự, làm bánh và pha trà thảo mộc xoa dịu nỗi niềm dân làng.
-5. **Đêm Khuya (23:00 – 02:00):** Rèn công cụ tại Lò Rèn Boris, bật máy đĩa than lofi, lưu ảnh Polaroid kỷ niệm và lên giường ngủ.
+Khi chiến loạn vừa dứt, người bà kính yêu cũng qua đời vì tuổi già và kiệt sức. Mang trái tim vụn vỡ nhưng kiên cường, Rowan rời bỏ quê hương đổ nát, mang theo cuốn sổ công thức nấu ăn của Bà, tìm đến thung lũng sương mù ven rừng **Oakhaven** để bắt đầu lại cuộc đời từ hai bàn tay trắng.
 
----
+Chú chim cú lùn **Pip** chỉ đậu tĩnh trên mái nhà hoặc cành cây sân trước, làm nhiệm vụ ngậm thư/nhiệm vụ dân làng buổi sáng mà không đi theo Rowan gây phiền phức khi di chuyển.
 
-## 3. Bản Sắc Riêng Biệt (Unique Selling Points - USPs)
-
-1. **Âm Thanh Xúc Giác Cận Cảnh (Tactile Foley Audio):**
-   Người chơi trực tiếp tương tác vật lý: ấn tay nhào bột dẻo dính bồm bộp, rắc bột mì khô rào rào, khuấy thìa gỗ tạo xoáy nước sóng sánh trong suốt, chuông lò nướng "Ding!" trong trẻo.
-2. **"Lắng Nghe" Thay Vì "Chạy Đơn Công Nghiệp":**
-   Không có đồng hồ đếm ngược hối thúc; khách hàng không đọc menu máy móc mà giãi bày nỗi lòng. Bạn là người giải mã cảm xúc để chọn loại trà và chiếc bánh xoa dịu họ.
-3. **Sổ Thử Nghiệm Tự Do Của Bà Ngoại:**
-   Cho phép phối ngẫu hứng bất kỳ nguyên liệu nào mà không bị gò bó. Tự do sáng chế và khám phá những công thức huyền bí ẩn giấu trong thiên nhiên.
-4. **Hơi Thở Văn Hóa Á Đông Mộc Mạc & Tĩnh Lặng:**
-   Hương vị Trà Sen ngậm sương, Trà Atiso thanh lọc tâm can, Bánh nướng hoa bưởi, Lễ hội lồng đèn đêm trăng rằm tháng Tám.
+### 1.2. Ý nghĩa của Bếp Nấu & Món Ăn
+Rowan tự tay dọn dẹp căn nhà hoang đổ nát ở Oakhaven, thắp lại ngọn lửa đầu tiên trong gian bếp cũ. Thức ăn tại Oakhaven mang 3 ý nghĩa thiêng liêng:
+1. **Lương thực sinh tồn:** Hồi phục HP/Stamina và ban các buff chỉ số chiến đấu khi thám hiểm mỏ sâu.
+2. **Kinh tế Quán Ăn:** Bán cho dân làng và du khách ghé quán kiếm Vàng tái thiết thung lũng.
+3. **Cầu siêu thanh tẩy:** Dâng món ăn truyền thống lên các Bàn Thờ Cầu Siêu dọc chiến trường cổ để siêu thoát linh hồn binh sĩ ngã xuống và hồi sinh đất đai chết chóc.
 
 ---
 
-## 4. Bộ 12 Tính Năng Đặc Trưng
+## 2. Vòng Lặp Trải Nghiệm Một Ngày (The 4-Pillar Loop)
 
-| # | Tính Năng | Mô Tả Trải Nghiệm |
-| :-: | :--- | :--- |
-| **1** | **Sổ Thử Nghiệm Tự Do** | Tự do trộn nguyên liệu nông sản, hoa cỏ, tinh thể để khám phá công thức mới. |
-| **2** | **Mèo Lạc & Cú Pip** | Chú mèo tam thể Mallow bầu bạn tại tiệm; cú Pip bay lượn thu nhặt hạt giống hiếm. |
-| **3** | **Hiệu Ứng Bánh Phép Thuật** | Khách ăn bánh sẽ phát hào quang nhẹ, mọc tai thỏ, hoặc thở ra bụi sao lấp lánh xua tan mệt mỏi. |
-| **4** | **Máy Hát Đĩa Than Cổ** | Sưu tầm đĩa than cổ dưới hang mỏ để phát nhạc Lo-fi êm dịu trong tiệm. |
-| **5** | **Tường Ảnh Polaroid** | Chụp ảnh lưu niệm cùng dân làng sau mỗi cột mốc gắn kết và ghim lên tường tiệm. |
-| **6** | **Tự Uống Trà Nhận Buff** | Chủ tiệm tự thưởng cho mình những tách trà giúp tăng tốc độ làm việc và chịu rét trong mỏ. |
-| **7** | **Hòm Thư Buổi Sớm** | Nhận những bức thư tay cảm ơn mộc mạc kèm quà tặng từ những vị khách ghé tiệm tối hôm trước. |
-| **8** | **Bánh Sinh Nhật Dân Làng** | Tự tay nướng chiếc bánh kem đặc biệt chúc mừng sinh nhật từng người dân thị trấn. |
-| **9** | **Vẽ Cửa Kính Ngày Mưa** | Dùng chuột vẽ hình trái tim, mặt cười lên mặt kính tiệm đọng hơi nước những ngày mưa. |
-| **10**| **Đèn Đom Đóm Soi Mỏ** | Bắt đom đóm trong đêm hè cho vào lọ thủy tinh làm đèn treo hông ấm áp soi mỏ tối. |
-| **11**| **Hiên Trà Ngắm Sao** | Mở rộng sân vườn thêm bàn trà ngoài trời để đón khách đêm hè ngồi ngắm dải ngân hà. |
-| **12**| **Lễ Hội Bánh Mùa Thu** | Hội chợ thi nướng bánh lớn nhất năm vào ngày 20 mùa Thu với đèn lồng rực rỡ khắp thị trấn. |
+Một ngày trong game kéo dài khoảng **10 – 15 phút thời gian thực**:
+
+```
+[BÌNH MINH (06:00 - 08:00)] 
+  └── Đọc thư tay, nhận hạt giống từ cú Pip trên mái nhà.
+[BUỔI SÁNG & TRƯA (08:00 - 15:00)]
+  ├── Nông trại: Tưới nước, thu hoạch 32 loại cây trồng 4 mùa (vòi phun tự động hỗ trợ).
+  └── Thám hiểm: Xuống Hang Mỏ 150 tầng đập đá tìm quặng, săn ngọc ma thuật, dâng món ăn cầu siêu.
+[CHIỀU TỐI & BAN ĐÊM (17:00 - 23:00)]
+  └── Mở Quán Ăn Oakhaven [OPEN]: Nấu 55 món ăn phục vụ khách mang đi (Takeaway) và khách ngồi bàn (Dine-in).
+[ĐÊM KHUYA (23:00 - 02:00)]
+  └── Thu tiền phòng trọ tầng lầu, nâng cấp công cụ tại Boris, lên giường ngủ lưu dữ liệu.
+```
+
+---
+
+## 3. Hệ Thống Tính Năng Chuẩn Mực
+
+1. **HP & Stamina Chuẩn Stardew + Dịch Vụ Tìm Đồ Hộ:**
+   - Hoạt động tiêu hao Stamina; trúng đòn giảm HP.
+   - Ngất xỉu $\rightarrow$ Đưa về Trạm Xá, trừ tiền viện phí và rơi mất 1-4 món đồ trong Balo.
+   - Đến **Lò Rèn Boris** để chuộc lại 1 món đồ quan trọng nhất đã đánh rơi.
+2. **55 Món Ăn Đa Dạng & Buff Chỉ Số:**
+   - 6 nhánh buff: Tốc độ di chuyển, Sức tấn công cận chiến, Giáp phòng ngự, Đào khoáng, May mắn, Kháng nguyên tố.
+3. **Nông Nghiệp 32 Cây Trồng & Tự Động Hóa:**
+   - 32 loại cây trồng phân bổ đều 4 mùa (Xuân, Hạ, Thu, Đông) và cây lâu năm.
+   - Vòi phun tự động 3 cấp (Đồng 4 ô, Sắt 8 ô, Bụi Sao 24 ô), bù nhìn rơm bảo vệ mùa màng.
+4. **Bản Đồ Mở Rộng Theo Sửa Chữa Tuyến Đường:**
+   - Sửa cầu gỗ bờ Tây (Thảo Nguyên Nắng), nổ mìn dọn đèo Bắc (Chiến Trường Tro Tàn), sửa ga tàu hơi nước (Giao Thương Đại Lục), khôi phục bến thuyền (Đảo Ngọc Bích).
+5. **Trang Bị Chuẩn Stardew, Chế Tác Nhẫn & Ngọc Ma Thuật:**
+   - Slot trang phục: Mũ, Áo, Quần, Giày, 2 Khe Đeo Nhẫn, Balo.
+   - Hợp nhất 2 nhẫn thành 1 (Ring Fusion) tại Tầng 100 mỏ.
+   - Ngọc Ma Thuật khảm cố định vĩnh viễn (không có cơ chế tháo ngọc rườm rà).
+6. **Tái Thiết Thị Trấn & Tuyến Nhà Trọ Tầng Lầu:**
+   - Sửa cối xay gió, trạm xá, đèn đường làng.
+   - Cho thuê 3-5 phòng ngủ trên lầu Quán Ăn cho du khách và đoàn buôn, tự động thu tiền phòng mỗi sáng.
