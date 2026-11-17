@@ -6,8 +6,8 @@
     {
       "id": "npc_rowan",
       "name": "Rowan",
-      "role": "Chủ Tiệm Bánh Trà & Thợ Lặn Mỏ Oakhaven",
-      "location": "Tiệm Trà & Bánh Oakhaven",
+      "role": "Chủ Quán Ăn & Thợ Lặn Mỏ Oakhaven",
+      "location": "Quán Ăn & Nhà Trọ Oakhaven",
       "species": "Human (Thợ Thủ Công Khai Hoang)",
       "description": "Thợ thủ công khai hoang kiên cường và chủ tiệm bánh trà Oakhaven. Tự tay cuốc đất, xuống hầm mỏ 150 tầng săn quặng, tối về nhóm lò đỏ lửa phục vụ những bữa ăn no bụng cho cư dân thị trấn biên viễn.",
       "favorite_items": [
@@ -17,13 +17,16 @@
       ],
       "quote": "Bàn tay này biết vung cuốc quai búa dưới mỏ sâu, và cũng biết nhào bột nướng bánh sưởi ấm đêm đông.",
       "birthday": "Ngày 1 Mùa Xuân",
-      "schedule": "Sáng & Chiều: Nông trang & Khai phá hầm mỏ 150 tầng; Tối: Đứng lò nướng phục vụ tiệm bánh trà"
+      "schedule": "Sáng & Chiều: Nông trang & Khai phá hầm mỏ 150 tầng; Tối: Đứng lò nướng phục vụ tiệm bánh trà",
+      "real_world_wound": "Hội chứng kiệt quệ (Burnout) và hội chứng kẻ giả mạo (Imposter Syndrome) sau khi bỏ chạy khỏi kinh đô vô cảm; sợ không xứng đáng với di sản của bà Amalia.",
+      "comfort_dish": "dish_moonlight_creamy_risotto",
+      "heart_event_summary": "Từng bước tìm lại bản lĩnh qua nhát cuốc khai hoang và ánh lửa ấm áp gian bếp."
     },
     {
       "id": "pet_pip",
       "name": "Pip",
       "role": "Cú Lùn Đưa Thư & Thu Nhặt Hạt Giống",
-      "location": "Tiệm Trà & Bánh Oakhaven / Rừng Thầm Thì",
+      "location": "Cọc thư trước hiên Quán Ăn",
       "species": "Lùn Cú Ma Thuật",
       "description": "Chú cú tròn xoe, thông minh, mang hạt mầm kỳ lạ từ rừng sâu về hòm thư mỗi sớm.",
       "favorite_items": [
@@ -32,13 +35,16 @@
       ],
       "quote": "Hú... cú... *nghiêng đầu chớp mắt*",
       "birthday": "Ngày 12 Mùa Thu",
-      "schedule": "Sáng sớm: Mang hạt giống về hòm thư; Chiều: Đậu hiên tiệm"
+      "schedule": "Sáng sớm: Mang hạt giống về hòm thư; Chiều: Đậu hiên tiệm",
+      "real_world_wound": "Chú cú trung thành không bao giờ rời bỏ cọc thư, chờ đợi từng phong thư của dân làng.",
+      "comfort_dish": "mat_ong",
+      "heart_event_summary": "Đậu cố định tại cọc thư sáng sớm ngậm hạt giống hiếm từ Rừng Thầm Thì về cho Rowan."
     },
     {
       "id": "pet_mallow",
       "name": "Mallow",
-      "role": "Mèo Giữ Tiệm",
-      "location": "Tiệm Trà & Bánh Oakhaven (Quầy Bar / Lò Sưởi)",
+      "role": "Mèo Giữ Quán & Biểu Tượng May Mắn",
+      "location": "Lò Sưởi Quán Ăn Oakhaven",
       "species": "Mèo Tam Thể",
       "description": "Chú mèo tam thể tròn xoe đến tiệm trú mưa rồi ở lại luôn, thích ngủ nướng bên đèn dầu.",
       "favorite_items": [
@@ -48,13 +54,16 @@
       ],
       "quote": "Meo... *gừ gừ thư thái*",
       "birthday": "Ngày 4 Mùa Hạ",
-      "schedule": "Cả ngày: Nằm sưởi ấm bên lò nướng bánh hoặc quầy bar"
+      "schedule": "Cả ngày: Nằm sưởi ấm bên lò nướng bánh hoặc quầy bar",
+      "real_world_wound": "Mèo hoang tìm thấy mái ấm sau đêm giông bão; sợ bị bỏ rơi lại ngoài mưa tuyết.",
+      "comfort_dish": "item_butter",
+      "heart_event_summary": "Sưởi ấm đôi chân khách ăn đêm và luôn đồng hành cạnh bếp lửa."
     },
     {
       "id": "npc_lumi",
       "name": "Lumi",
-      "role": "Tinh Linh Rừng Thầm Thì",
-      "location": "Rừng Thầm Thì / Ghé Tiệm Buổi Tối",
+      "role": "Tinh Linh Cáo Tuyết Kemomimi-Elf",
+      "location": "Rừng Thầm Thì / Quán Ăn",
       "species": "Kemomimi-Elf (Cáo Tuyết & Tinh Linh)",
       "description": "Tinh Linh dạng Kemomimi-Elf độc bản — 2 tai cáo tuyết trắng xù trên đỉnh đầu + 2 tai nhọn tinh linh, tóc xanh ngọc bích twin-tails, khăn len đỏ.",
       "favorite_items": [
@@ -62,7 +71,10 @@
       ],
       "quote": "Tiếng gió rít ngoài rừng đêm nay làm tai tôi ù đi... có thứ gì thanh mát làm lòng tôi dịu lại không?",
       "birthday": "Ngày 7 Mùa Xuân",
-      "schedule": "Chiều: Đi dạo Rừng Thầm Thì; Tối: Ngồi góc yên tĩnh tiệm trà"
+      "schedule": "Chiều: Đi dạo Rừng Thầm Thì; Tối: Ngồi góc yên tĩnh tiệm trà",
+      "real_world_wound": "Dị chủng lai bị cả hai giới người thú và tinh linh xa lánh; sợ bị kỳ thị và xua đuổi.",
+      "comfort_dish": "tra_sen_an_than",
+      "heart_event_summary": "Tìm thấy mái ấm và niềm tin yêu bên ngọn lửa ấm áp của Quán Ăn Rowan."
     },
     {
       "id": "npc_boris",
@@ -78,13 +90,16 @@
       ],
       "quote": "Cả ngày quai búa mỏi rã rời, lò rèn ấm nhưng lòng lão thì lạnh ngắt... Cho lão thứ gì vừa ngọt vừa thơm nức mùi gỗ quế nào.",
       "birthday": "Ngày 18 Mùa Đông",
-      "schedule": "07:00 - 18:00: Đập búa tại Lò Rèn; 19:00: Ghé tiệm ăn bánh cuộn quế"
+      "schedule": "07:00 - 18:00: Đập búa tại Lò Rèn; 19:00: Ghé tiệm ăn bánh cuộn quế",
+      "real_world_wound": "Dằn vặt 10 năm sau tai nạn sập mỏ khiến em trai Bram gãy chân; bao bọc thái quá vì sợ mất em.",
+      "comfort_dish": "dish_dwarf_ironforge_goulash",
+      "heart_event_summary": "Hóa giải 10 năm bất đồng với Bram sau bữa cơm Goulash gia đình tại 8 Tim; mở khóa Trạm Tinh Luyện Cao Cấp."
     },
     {
       "id": "npc_maeve",
       "name": "Maeve",
-      "role": "Bà Lão Làm Vườn",
-      "location": "Nông Trại Oakhaven",
+      "role": "Bà Cụ Làm Vườn",
+      "location": "Nông Trại & Quảng Trường Oakhaven",
       "species": "Human",
       "description": "Bà lão làm vườn hiền hậu với mái tóc bạc búi thấp và khăn trùm đầu thêu hoa mùa xuân, bà nuôi của Kael.",
       "favorite_items": [
@@ -94,13 +109,16 @@
       ],
       "quote": "Mấy luống bí ngô hôm nay sâu ăn dữ quá, đứng nhổ cỏ từ trưa tới giờ lưng tôi sắp gãy rồi cô bé ơi...",
       "birthday": "Ngày 9 Mùa Xuân",
-      "schedule": "06:00 - 17:00: Bán hạt giống tại Quảng trường; Tối: Dạo bờ sông"
+      "schedule": "06:00 - 17:00: Bán hạt giống tại Quảng trường; Tối: Dạo bờ sông",
+      "real_world_wound": "Thoái hóa khớp nặng tuổi già; sợ chết đi sẽ bỏ lại đứa cháu nuôi Kael bơ vơ giữa dòng đời.",
+      "comfort_dish": "dish_sweet_pumpkin_potage",
+      "heart_event_summary": "Được cứu chữa trong đêm bão tuyết; an tâm nhìn Kael khôn lớn và trao lại Vườn Ươm Bốn Mùa tại 8 Tim."
     },
     {
       "id": "npc_kael",
       "name": "Kael",
       "role": "Cậu Bé Bán Diêm",
-      "location": "Bờ Sông / Góc Chợ Oakhaven",
+      "location": "Bờ Sông & Quán Ăn",
       "species": "Human",
       "description": "Cậu bé mồ côi với chiếc mũ len chóp, áo khoác vá chỉ màu và đôi mắt to sáng long lanh, cháu nuôi của Maeve.",
       "favorite_items": [
@@ -110,13 +128,16 @@
       ],
       "quote": "Bà Maeve dạo này hay đau nhức chân... Cháu muốn đổi hộp diêm lấy một tách trà gừng cho bà, cháu còn thiếu mấy đồng ạ?",
       "birthday": "Ngày 22 Mùa Hạ",
-      "schedule": "Sáng: Tập kiếm tại sân tập; Tối: Ngồi uống trà dâu mát lạnh"
+      "schedule": "Sáng: Tập kiếm tại sân tập; Tối: Ngồi uống trà dâu mát lạnh",
+      "real_world_wound": "Ám ảnh bị bỏ rơi lần thứ hai; sợ mình vô dụng nên làm việc kiệt sức bất kể rét buốt.",
+      "comfort_dish": "cake_fairy_birthday",
+      "heart_event_summary": "Khám phá cuốn sổ tiết kiệm bà Maeve dành riêng cho mình; trưởng thành mở Vườn Ươm Cây Giống tại 8 Tim."
     },
     {
       "id": "npc_amalia",
       "name": "Bà Ngoại Amalia",
-      "role": "Cố Nghệ Nhân Trà Bánh / Linh Hồn Dẫn Lối",
-      "location": "Tiệm Trà & Bánh Oakhaven (trong ký ức & trang sổ tay)",
+      "role": "Cố Nghệ Nhân Ẩm Thực / Linh Hồn Dẫn Lối",
+      "location": "Di cảo & Sổ tay công thức bí truyền",
       "species": "Human (Linh Hồn)",
       "description": "Bà ngoại của Rowan, cố nghệ nhân trà bánh đã khuất. Hình bóng bà hiện về qua những trang sổ tay ghi chú tỉ mỉ và lời khuyên dịu dàng trong ký ức của Rowan.",
       "favorite_items": [
@@ -125,13 +146,16 @@
       ],
       "quote": "Phép thuật đích thực không ở đâu xa, nó nằm trong sự nâng niu từng búp trà và từng mẩu bánh con nướng cho người khác.",
       "birthday": "Ngày 28 Mùa Đông",
-      "schedule": "Hiện diện trong ký ức, trang sổ rách và giấc mơ của Rowan"
+      "schedule": "Hiện diện trong ký ức, trang sổ rách và giấc mơ của Rowan",
+      "real_world_wound": "Từng ở lại cứu cả thị trấn trong nạn đói dù phải đánh đổi sinh mạng vì kiệt sức.",
+      "comfort_dish": "tra_sen_an_than",
+      "heart_event_summary": "Triết lý: 'Nấu ăn là để người ta cảm thấy mình xứng đáng được sống và được yêu thương.'"
     },
     {
       "id": "npc_bram",
       "name": "Bram",
-      "role": "Thợ Mỏ Pha Lê",
-      "location": "Mỏ Pha Lê Oakhaven",
+      "role": "Thợ Mỏ Tầng Sâu",
+      "location": "Mỏ Khai Nguyên Oakhaven",
       "species": "Dwarf (Người Lùn)",
       "description": "Thợ mỏ kỳ cựu dưới các tầng sâu của mỏ, em trai của thợ rèn Boris. Tính cách cộc cằn, thích tranh cãi với anh trai nhưng trong lòng rất quan tâm gia đình.",
       "favorite_items": [
@@ -141,13 +165,16 @@
       ],
       "quote": "Ông anh Boris của tôi lại càu nhàu về quặng sắt non... Pha cho tôi tách trà nào thật đắng chát để tôi nuốt trôi cục tức này cái!",
       "birthday": "Ngày 15 Mùa Đông",
-      "schedule": "08:00 - 17:00: Cửa vào hang mỏ; Tối: Lò rèn cùng anh trai Boris"
+      "schedule": "08:00 - 17:00: Cửa vào hang mỏ; Tối: Lò rèn cùng anh trai Boris",
+      "real_world_wound": "Tự ái và uất ức vì bị anh trai coi là phế nhân; lao xuống mỏ sâu để chứng minh giá trị bản thân.",
+      "comfort_dish": "bread_miner_sourdough",
+      "heart_event_summary": "Thừa nhận nỗi sợ và tình cảm của anh trai tại 8 Tim; phối hợp cùng Boris chế tạo vũ khí đỉnh cao."
     },
     {
       "id": "npc_penny",
       "name": "Penny",
       "role": "Cô Bé Bán Bánh Dạo",
-      "location": "Chợ Oakhaven",
+      "location": "Quảng Trường Chợ Oakhaven",
       "species": "Human",
       "description": "Cô bé bán bánh dạo nhanh nhẹn, cháu gái của thợ rèn Boris và thợ mỏ Bram. Hoạt bát, sáng tạo, luôn ấp ủ những ý tưởng làm bánh độc lạ.",
       "favorite_items": [
@@ -157,13 +184,16 @@
       ],
       "quote": "Chú Boris vừa gõ lại khuôn bánh hình ngôi sao cho em nè! Cho em thử một ly trà dâu chua ngọt để lấy cảm hứng sáng tạo mẻ bánh mới đi!",
       "birthday": "Ngày 11 Mùa Thu",
-      "schedule": "08:00 - 16:00: Bưu điện Oakhaven; 18:00: Ghé tiệm trà giao thư"
+      "schedule": "08:00 - 16:00: Bưu điện Oakhaven; 18:00: Ghé tiệm trà giao thư",
+      "real_world_wound": "Mồ côi cha mẹ; khao khát tự lập với chiếc xe kéo bán bánh ngọt khắp vùng biên viễn.",
+      "comfort_dish": "pastry_berry_shortcake",
+      "heart_event_summary": "Được hai người chú Boris và Bram đóng cho chiếc xe kéo bánh ngọt cơ động."
     },
     {
       "id": "npc_orion",
       "name": "Giáo Sư Orion",
       "role": "Nhà Chiêm Tinh Mất Ngủ",
-      "location": "Đài Quan Sát Trên Đồi / Tháp Thiên Văn",
+      "location": "Tháp Thiên Văn Trên Đồi",
       "species": "Human",
       "description": "Nhà thiên văn học làm việc tại đài quan sát trên đồi cao, cha của Clara. Đãng trí, mải mê nghiên cứu các chòm sao đến mức quên ăn mất ngủ.",
       "favorite_items": [
@@ -173,7 +203,10 @@
       ],
       "quote": "Chòm sao Thiên Nga vừa dịch chuyển 3 độ... Mắt ta mờ đi rồi, cho ta thứ gì giúp não bộ ngưng tính toán trong 2 tiếng được không?",
       "birthday": "Ngày 25 Mùa Thu",
-      "schedule": "Đêm: Tháp Thiên Văn quan sát sao băng; Sáng: Ngủ bù tại thư viện"
+      "schedule": "Đêm: Tháp Thiên Văn quan sát sao băng; Sáng: Ngủ bù tại thư viện",
+      "real_world_wound": "Mắc chứng sa sút trí nhớ tuổi già (Alzheimer); tuyệt vọng thức trắng đêm tìm vì sao mang tên người vợ quá cố Elise trước khi quên hết.",
+      "comfort_dish": "pastry_berry_shortcake",
+      "heart_event_summary": "Cùng con gái Clara vẽ lại bản đồ sao Elise tại 8 Tim; trân trọng từng khoảnh khắc tỉnh táo cuối đời."
     },
     {
       "id": "npc_clara",
@@ -189,13 +222,16 @@
       ],
       "quote": "Cha tôi lại trốn trên tháp thiên văn 2 ngày không chịu ăn... Bạn pha cho tôi một bình trà cúc lớn để tôi mang lên bắt ông ấy uống nhé!",
       "birthday": "Ngày 16 Mùa Xuân",
-      "schedule": "08:00 - 17:00: Trạm xá thảo dược; Tối: Uống trà oải hương an thần"
+      "schedule": "08:00 - 17:00: Trạm xá thảo dược; Tối: Uống trà oải hương an thần",
+      "real_world_wound": "Kiệt sức vì chăm cha già (Caregiver Burnout); giằng xé giữa chữ hiếu và ước mơ học thuật bị chôn vùi.",
+      "comfort_dish": "tea_earl_grey_clara",
+      "heart_event_summary": "Tìm thấy sự bình yên và mở khóa Kho Lưu Trữ Công Thức Cổ Đại tại Thư Viện sau sự kiện 8 Tim."
     },
     {
       "id": "npc_garrick",
       "name": "Thuyền Trưởng Garrick",
-      "role": "Cựu Thủy Thủ Biển Mây",
-      "location": "Bến Thuyền Mây / Cập Bến Hồ Sao",
+      "role": "Lão Thủy Thủ Biển Mây",
+      "location": "Bến Thuyền Hồ Sương Mù",
       "species": "Human",
       "description": "Lão thuyền trưởng già đã gác mái chèo, ông nội của chú bé Finn. Thích kể chuyện phiêu lưu ngoài biển mây xa xôi cho khách nghe.",
       "favorite_items": [
@@ -205,13 +241,16 @@
       ],
       "quote": "Gió từ thung lũng mang mùi biển khơi ngày xưa... Cho lão già này một tách trà đậm vị quế, nghe lão kể về hòn đảo lơ lửng ngoài mây nào.",
       "birthday": "Ngày 2 Mùa Hạ",
-      "schedule": "Sáng Chủ Nhật: Cập bến thuyền vỏ ốc tại cầu cảng Chợ Phiên"
+      "schedule": "Sáng Chủ Nhật: Cập bến thuyền vỏ ốc tại cầu cảng Chợ Phiên",
+      "real_world_wound": "Mù màu và thấp khớp nặng; mặc cảm bản thân là thanh gỗ mục vô dụng mắc cạn nơi đất liền.",
+      "comfort_dish": "dish_magma_seafood_paella",
+      "heart_event_summary": "Truyền lại ngọn lửa thám hiểm cho cháu trai Finn và đầu tư mở tuyến hàng hải mới."
     },
     {
       "id": "npc_finn",
       "name": "Finn",
       "role": "Cậu Bé Câu Sao",
-      "location": "Bờ Suối / Hồ Sương Mù",
+      "location": "Bờ Hồ Sương Mù",
       "species": "Human",
       "description": "Cậu bé câu cá bên bờ suối và hồ sương mù, cháu nội của Thuyền Trưởng Garrick. Tò mò, thích khám phá các loài cá phát sáng kỳ lạ.",
       "favorite_items": [
@@ -221,7 +260,10 @@
       ],
       "quote": "Hôm nay em câu được con cá phát sáng bảy màu to đùng! Ông Garrick bảo mang sang biếu tiệm trà để đổi một ly bạc hà mát lạnh!",
       "birthday": "Ngày 19 Mùa Hạ",
-      "schedule": "06:00 - 18:00: Câu cá bên bờ sông sao; Tối: Ghé tiệm sưởi ấm"
+      "schedule": "06:00 - 18:00: Câu cá bên bờ sông sao; Tối: Ghé tiệm sưởi ấm",
+      "real_world_wound": "Lặng lẽ câu cá gom tiền chuộc lại chiếc La Bàn Bạc Cổ mà ông nội từng phải cầm cố chữa bệnh cho cha.",
+      "comfort_dish": "item_tea_frostmint_breeze",
+      "heart_event_summary": "Chuộc lại kỷ vật cho ông nội và trở thành hoa tiêu trẻ tuổi của Oakhaven."
     },
     {
       "id": "npc_elora",
@@ -258,7 +300,7 @@
       "id": "npc_marlo",
       "name": "Marlo",
       "role": "Hiệp Sĩ Cảnh Vệ Ca Đêm",
-      "location": "Thị Trấn Oakhaven (Ca Trực Đêm)",
+      "location": "Cổng Làng & Điểm Gác Đêm",
       "species": "Human",
       "description": "Hiệp sĩ cảnh vệ trung thành bảo vệ giấc ngủ của thị trấn trong những ca trực đêm dài dằng dặc giữa gió tuyết.",
       "favorite_items": [
@@ -268,7 +310,10 @@
       ],
       "quote": "Gió tuyết lùa qua khe áo giáp buốt giá... Một ca trực đêm dài dằng dặc, chỉ có tách trà cay nồng của tiệm mới giữ tôi không ngủ gục.",
       "birthday": "Ngày 13 Mùa Thu",
-      "schedule": "07:00 - 17:00: Vận hành cối xay gió Oakhaven xay bột mì"
+      "schedule": "07:00 - 17:00: Vận hành cối xay gió Oakhaven xay bột mì",
+      "real_world_wound": "Gánh nặng kinh tế nuôi 4 đứa em nghèo; sự cô đơn buốt giá của những ca trực thâu đêm giữa sương muối.",
+      "comfort_dish": "dish_spicy_ginger_stew",
+      "heart_event_summary": "Tìm thấy hơi ấm gia đình và niềm kiêu hãnh của một người bảo hộ thầm lặng."
     },
     {
       "id": "npc_aurelia",
@@ -283,7 +328,10 @@
       ],
       "quote": "Thuốc thang chỉ chữa được vết thương ngoài da... Người dân thị trấn cần những tách trà ấm của cô bé để xoa dịu nỗi muộn phiền hơn.",
       "birthday": "Ngày 21 Mùa Hạ",
-      "schedule": "Sáng: Vườn ong mật Oakhaven; Chiều: Giao mật ong tươi cho tiệm"
+      "schedule": "Sáng: Vườn ong mật Oakhaven; Chiều: Giao mật ong tươi cho tiệm",
+      "real_world_wound": "Thất vọng trước sự thương mại hóa vô nhân đạo của ngành y kinh đô; trăn trở trước nghèo đói vùng biên viễn.",
+      "comfort_dish": "tra_oai_huong_ngan_sao",
+      "heart_event_summary": "Vực dậy lý tưởng cứu người và hợp tác với Quán Ăn bào chế các món canh dưỡng sinh giảm đau."
     },
     {
       "id": "npc_valen",
@@ -344,6 +392,44 @@
       "quote": "Dưới đáy biển cái gì cũng ướt sũng... Lần đầu tiên em được nếm chiếc bánh nướng giòn rụm tan trong miệng thế này, diệu kỳ quá đi!",
       "birthday": "Ngày 17 Mùa Hạ",
       "schedule": "Khai thác tinh thể sâu trong lòng mỏ Khaz-Drakor"
+    },
+    {
+      "id": "npc_thorne",
+      "name": "Guildmaster Thorne",
+      "role": "Hội Trưởng Hiệp Hội Mạo Hiểm Oakhaven",
+      "location": "Đại Sảnh Hiệp Hội Mạo Hiểm",
+      "species": "Human (Cựu Chỉ Huy Chiến Binh)",
+      "description": "Cựu sĩ quan cấm vệ quân mang chân giả bằng sắt. Mất 18 đồng đội dưới hầm sâu, ông lập ra Đội Cứu Nạn với lời thề: 'Quyết không bỏ lại bất kỳ ai trong bóng tối'.",
+      "favorite_items": [
+        "dish_spicy_ginger_stew",
+        "ore_iron",
+        "bread_miner_sourdough"
+      ],
+      "quote": "Dưới mỏ sâu không có chỗ cho sự bất cẩn. Nếu ngươi ngã xuống, ta sẽ là người lôi ngươi ra khỏi bóng tối.",
+      "birthday": "Ngày 14 Mùa Đông",
+      "schedule": "08:00 - 22:00: Trực bàn chỉ huy Hiệp Hội Mạo Hiểm; Đêm: Tuần tra cửa hang mỏ",
+      "real_world_wound": "Ám ảnh tội lỗi của người sống sót (Survivor's Guilt) sau khi mất cả tiểu đội trinh sát dưới hầm 150 tầng.",
+      "comfort_dish": "dish_spicy_ginger_stew",
+      "heart_event_summary": "Mở lòng gỡ bỏ gánh nặng quá khứ tại 8 Tim; thành lập Đội Biệt Kích Cứu Hộ Hầm Sâu giảm 50% phí cứu nạn."
+    },
+    {
+      "id": "npc_valerie",
+      "name": "Điều Phối Viên Valerie",
+      "role": "Người Quản Lý Đồ Thất Lạc (Lost & Found)",
+      "location": "Quầy Tiếp Tân Hiệp Hội Mạo Hiểm",
+      "species": "Human (Cựu Cung Thủ Thiện Xạ)",
+      "description": "Nữ thiện xạ giải ngũ vì mất thính lực một bên tai và chứng sợ tiếng nổ lớn (PTSD). Tỉ mỉ lập hồ sơ cứu nạn và thu hồi hành lý rơi rớt cho mạo hiểm giả.",
+      "favorite_items": [
+        "dish_sweet_pumpkin_potage",
+        "tea_sun_daisy_honey",
+        "gem_sapphire"
+      ],
+      "quote": "Hành lý của bạn đã được đội tuần tra mang về an toàn. Đừng liều lĩnh nữa, sinh mạng quý hơn quặng đá nhiều.",
+      "birthday": "Ngày 20 Mùa Thu",
+      "schedule": "08:00 - 20:00: Quản lý quầy đồ thất lạc tại Hiệp Hội Mạo Hiểm; 20:30: Ăn tối tại Quán Ăn Rowan",
+      "real_world_wound": "Hội chứng sang chấn tiếng nổ chiến trường (PTSD) và mất thính lực; giấu mình sau bàn giấy phân loại đồ thất lạc.",
+      "comfort_dish": "dish_sweet_pumpkin_potage",
+      "heart_event_summary": "Tìm lại sự tĩnh lặng và tự tin tại 8 Tim; hỗ trợ người chơi thu hồi toàn bộ đồ rơi bằng cơm hộp tiếp tế."
     }
   ]
 }

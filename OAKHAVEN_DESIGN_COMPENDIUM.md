@@ -202,3 +202,40 @@ Thế giới game mở rộng dựa trên **Khôi Phục Đại Công Trình Th�
 - Bảng Nhiệm Vụ Hiệp Hội & Bảng Tái Thiết Thị Trấn: Đóng góp vật liệu sửa Cối Xay Gió, Đèn Đường, Trạm Xá.
 - Ký hợp đồng cung cấp lương thực số lượng lớn cho đoàn buôn đường sắt.
 - Đầu tư cổ phần tàu thám hiểm của Thuyền Trưởng Garrick để nhận hải sản và gia vị ngoại quốc độc quyền.
+
+---
+
+## 10. Hồ Sơ Tâm Lý, Chiều Sâu Nhân Vật & Tuyến Nhiệm Vụ Trái Tim (NPC Narrative Lore & Heart Events)
+
+### 10.1. Triết Lý Xây Dựng: "Vết Nứt Đời Thực & Hơi Ấm Gian Bếp"
+Mỗi cư dân Oakhaven không phải NPC rập khuôn vô hồn, mà mang một **vết nứt tâm lý đời thực** (Real-world trauma & flaw): gánh nặng phụng dưỡng cha mẹ già sa sút trí nhớ, bất đồng ngôn ngữ tình cảm giữa hai anh em ruột, mặc cảm tội lỗi của cựu binh sống sót, hay nỗi cô đơn của đứa trẻ mồ côi sợ bị vứt bỏ. Món ăn Rowan nấu là chìa khóa mở khóa tâm can họ.
+
+### 10.2. Mạng Lưới Nhân Vật & Vết Thương Đời Thực
+1. **Rowan (Chủ Tiệm & Thợ Lặn Mỏ):** Người trẻ kiệt quệ (burnout) trốn chạy cuộc sống tư bản vô cảm kinh đô, mang hội chứng kẻ giả mạo (Imposter Syndrome) trước di sản của người bà. Trưởng thành qua từng nhát cuốc khai hoang và ngọn lửa lò bếp.
+2. **Bà Ngoại Amalia (Di sản & Linh hồn dẫn lối):** Biểu tượng người phụ nữ gom yêu thương vào mâm cơm. Từng ở lại cứu thị trấn trong nạn đói. Lời dặn: *"Nấu ăn là để người ta cảm thấy mình xứng đáng được sống và được yêu thương."*
+3. **Cặp Anh Em Nhà Lùn Boris & Bram Barnaby (Mâu Thuẫn Anh Em Ruột):**
+   - *Boris (Thợ rèn):* Dằn vặt 10 năm sau vụ sập mỏ khiến em trai Bram tàn tật; bao bọc thái quá vì sợ mất em.
+   - *Bram (Thợ mỏ tầng sâu):* Tự ái vì bị xem là kẻ phế nhân thương hại; liều mạng xuống mỏ sâu chứng minh giá trị.
+   - *Hàn gắn (8 Tim):* Nồi súp bò củ dền *Dwarf Ironforge Goulash* và bức thư di sản của người mẹ mở khóa **Trạm Tinh Luyện Cao Cấp** (rút ngắn thời gian đúc quặng, tăng tỷ lệ ngọc quý).
+4. **Bà Cụ Maeve & Cậu Bé Bán Diêm Kael (Tình Thân Không Cùng Máu Mủ):**
+   - *Bà Maeve:* Người làm vườn già thoái hóa khớp nặng, nén đau chắt chiu từng đồng tiền thuốc để dành cho tương lai của Kael.
+   - *Kael:* Trẻ mồ côi từng bán diêm co ro trong bão tuyết, sợ bị bỏ rơi lần nữa nên làm việc kiệt sức để chứng minh bản thân hữu ích.
+   - *Hàn gắn (8 Tim):* *Súp Bí Đỏ Hạt Sen* và bánh sinh nhật bảy màu; Kael tiếp quản và mở khóa **Vườn Ươm Cây Giống Bốn Mùa**.
+5. **Hiệp Hội Mạo Hiểm: Hội Trưởng Thorne & Điều Phối Viên Valerie (Dư Chấn Chiến Trường PTSD):**
+   - *Thorne:* Cựu chỉ huy cấm vệ quân mang chân giả, mất 18 đồng đội dưới hầm sâu; lập trạm cứu hộ thề "không bỏ rơi ai trong bóng tối".
+   - *Valerie:* Cung thủ bắn tỉa giải ngũ vì mất thính lực một bên tai và chứng sợ tiếng nổ lớn (PTSD); quản lý kho đồ thất lạc (Lost & Found).
+   - *Hàn gắn (8 Tim):* Cơm hộp dã chiến tiếp tế và *Súp Nấm Tuyết Sườn Non*; giảm 50% phí cứu nạn và mở khóa **Đội Biệt Kích Cứu Hộ Hầm Sâu**.
+6. **Cha Con Đài Thiên Văn: Giáo Sư Orion & Thủ Thư Clara (Chăm Sóc Cha Già Sa Sút Trí Nhớ):**
+   - *Giáo sư Orion:* Mắc chứng sa sút trí tuệ (Alzheimer), tuyệt vọng thức trắng đêm tìm vì sao mang tên người vợ quá cố Elise trước khi trí nhớ tan biến.
+   - *Clara:* Kiệt sức vì chăm cha già (Caregiver Burnout), xé nát thư trúng tuyển đại học danh giá kinh đô để ở lại Oakhaven phụng dưỡng cha.
+   - *Hàn gắn (8 Tim):* *Bánh Tart Việt Quất Tinh Cầu* và Trà Bá Tước Hoa Nhài; Thư viện mở khóa **Kho Lưu Trữ Công Thức Cổ Đại**.
+7. **Thuyền Trưởng Garrick & Cậu Bé Finn:** Lão hoa tiêu già mù màu mặc cảm "khúc gỗ mục mắc cạn" và đứa cháu trai ngày đêm câu cá sao gom tiền chuộc lại chiếc la bàn báu vật cho ông.
+8. **Lumi (Tinh Linh Cáo Tuyết Kemomimi-Elf):** Sinh linh lai bị cả người thú và tinh linh xa lánh; tìm thấy sự an toàn tuyệt đối bên tách *Trà Sen An Thần* và chiếc bánh bột gạo hấp của Rowan.
+9. **Aurelia (Dược Sĩ) & Marlo (Hiệp Sĩ Ca Đêm):** Aurelia trăn trở lý tưởng y đức trước nghèo đói; Marlo hy sinh giấc ngủ và sức khỏe gửi 90% lương về quê nuôi 4 đứa em thơ.
+
+### 10.3. Cơ Chế Bữa Ăn Chữa Lành Tối (The Nightly Hearthside Service)
+- Mỗi tối cư dân ghé tiệm ăn mang theo tâm trạng và khúc mắc riêng.
+- Nếu Rowan phục vụ đúng món ăn "Ký ức & Chữa lành" phù hợp tâm trạng của họ:
+  - Điểm thân mật tăng gấp 3 lần.
+  - Kích hoạt các đoạn độc thoại tâm sự chạm đáy cảm xúc.
+  - Sau sự kiện 8 Tim, nhân vật sẽ tặng Rowan công thức gia truyền hoặc mở khóa tiện ích dịch vụ vĩnh viễn cho thị trấn.

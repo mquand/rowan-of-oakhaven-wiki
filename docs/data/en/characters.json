@@ -6,8 +6,8 @@
     {
       "id": "npc_rowan",
       "name": "Rowan",
-      "role": "Hearthkeeper & Mine Delver of Oakhaven",
-      "location": "Oakhaven Cafe & Bakery (Oakhaven)",
+      "role": "Hearthkeeper & Frontier Delver of Oakhaven",
+      "location": "The Hearth Eatery & Inn",
       "species": "Human (Frontier Artisan)",
       "description": "Resilient frontier artisan and keeper of Oakhaven's hearth. Equal parts capable farmer, deep-mine delver, and baker who keeps the wood stove roaring each night for a rugged frontier town.",
       "favorite_items": [
@@ -17,13 +17,16 @@
       ],
       "quote": "These hands swing heavy pickaxes in the deep dark, yet know how to knead warm dough to banish the winter frost.",
       "birthday": "Spring 1",
-      "schedule": "Morning & Afternoon: Tending homestead & delving the 150-floor mine; Evening: Firing the ovens at the hearth"
+      "schedule": "Morning & Afternoon: Tending homestead & delving the 150-floor mine; Evening: Firing the ovens at the hearth",
+      "real_world_wound": "Burnout and Imposter Syndrome after fleeing urban exploitation; haunted by fear of failing Amalia's legacy.",
+      "comfort_dish": "dish_moonlight_creamy_risotto",
+      "heart_event_summary": "Reclaims self-worth through honest farm labor, perilous mine exploration, and the warmth of the evening kitchen."
     },
     {
       "id": "pet_pip",
       "name": "Pip",
-      "role": "Night Mail Messenger & Seed Collector",
-      "location": "Oakhaven Cafe & Bakery / Whisperwood",
+      "role": "Pygmy Owl Messenger & Botanical Forager",
+      "location": "Front Porch Mailbox Post",
       "species": "Pygmy Magic Owl",
       "description": "A plump, intelligent little owl who brings mysterious botanical seeds back to your mailbox every morning.",
       "favorite_items": [
@@ -32,13 +35,16 @@
       ],
       "quote": "Hoo... coo... *tilts head and blinks*",
       "birthday": "Autumn 12",
-      "schedule": "Dawn: Delivers seeds to mailbox; Afternoon: Perches on porch"
+      "schedule": "Dawn: Delivers seeds to mailbox; Afternoon: Perches on porch",
+      "real_world_wound": "A loyal familiar who never abandons the mailbox, eagerly watching for town mail.",
+      "comfort_dish": "mat_ong",
+      "heart_event_summary": "Perches faithfully each morning to deliver rare seeds gathered from the Whisperwood glade."
     },
     {
       "id": "pet_mallow",
       "name": "Mallow",
-      "role": "Hearth Familiar & Shop Guardian",
-      "location": "Oakhaven Cafe & Bakery (Counter / Fireplace)",
+      "role": "Hearth Familiar & Mascot",
+      "location": "Hearth Eatery Fireplace",
       "species": "Calico Familiar",
       "description": "A round calico cat who sheltered in the shop during a thunderstorm and never left; loves slumbering near warm lanterns.",
       "favorite_items": [
@@ -48,13 +54,16 @@
       ],
       "quote": "Meow... *contented purrs*",
       "birthday": "Summer 4",
-      "schedule": "All day: Lounging warmly by the brick oven or timber counter"
+      "schedule": "All day: Lounging warmly by the brick oven or timber counter",
+      "real_world_wound": "A stray rescue haunted by rain-storm abandonment, finding warmth beside the dining tavern fire.",
+      "comfort_dish": "item_butter",
+      "heart_event_summary": "Warms tired feet of nocturnal patrons and sleeps lazily on the wooden dining bar."
     },
     {
       "id": "npc_lumi",
       "name": "Lumi",
-      "role": "Whisperwood Glade Spirit",
-      "location": "Whisperwood Glade / Evening Visitor",
+      "role": "Whisperwood Kemomimi-Elf Spirit",
+      "location": "Whisperwood / Hearth Eatery",
       "species": "Kemomimi-Elf (Snow Fox & Glade Fae)",
       "description": "Unique Kemomimi-Elf spirit featuring fluffy white fox ears atop jade twin-tails, pointed elven ears, and a soft crimson knitted scarf.",
       "favorite_items": [
@@ -62,12 +71,15 @@
       ],
       "quote": "The howling forest winds tonight make my ears ring... could I have something cool and gentle to soothe my heart?",
       "birthday": "Spring 7",
-      "schedule": "Afternoon: Strolls through Whisperwood; Evening: Quiet corner at tea shop"
+      "schedule": "Afternoon: Strolls through Whisperwood; Evening: Quiet corner at tea shop",
+      "real_world_wound": "Hybrid outcast shunned by both fae and beastfolk; yearns for warmth yet dreads hostility.",
+      "comfort_dish": "tra_sen_an_than",
+      "heart_event_summary": "Finds a loving, safe sanctuary beside Rowan's tavern kitchen hearth."
     },
     {
       "id": "npc_boris",
       "name": "Boris Barnaby",
-      "role": "Town Blacksmith",
+      "role": "Master Blacksmith",
       "location": "Oakhaven Forge",
       "species": "Dwarf",
       "description": "Stout, hardy dwarven smith with twin-braided russet beard and an ash-stained leather apron from years at the anvil.",
@@ -78,13 +90,16 @@
       ],
       "quote": "Hammering steel all day leaves me bone-weary. The furnace is hot, but my heart feels cold... got anything sweet and fragrant with wild cinnamon?",
       "birthday": "Winter 18",
-      "schedule": "07:00 - 18:00: At the forge anvil; 19:00: Cinnamon rolls at the tea shop"
+      "schedule": "07:00 - 18:00: At the forge anvil; 19:00: Cinnamon rolls at the tea shop",
+      "real_world_wound": "Tormented by a 10-year-old mine collapse that crippled Bram; overprotective to a fault out of terror.",
+      "comfort_dish": "dish_dwarf_ironforge_goulash",
+      "heart_event_summary": "Reconciles 10 years of estrangement after sharing family goulash at 8 Hearts; unlocks Advanced Refining Forge."
     },
     {
       "id": "npc_maeve",
       "name": "Maeve",
       "role": "Elder Herb Cultivator",
-      "location": "Oakhaven Valley Farm",
+      "location": "Homestead & Town Square",
       "species": "Human",
       "description": "Gentle elder herbalist with silver hair pinned in a low bun and a spring-embroidered kerchief; foster grandmother to Kael.",
       "favorite_items": [
@@ -94,13 +109,16 @@
       ],
       "quote": "The caterpillars were harsh on my pumpkins today. Weeding since midday has my old back aching, little witch...",
       "birthday": "Spring 9",
-      "schedule": "06:00 - 17:00: Selling seeds in Town Square; Evening: Strolling riverside"
+      "schedule": "06:00 - 17:00: Selling seeds in Town Square; Evening: Strolling riverside",
+      "real_world_wound": "Debilitating joint degeneration; fears dying and leaving orphaned Kael alone in a harsh world.",
+      "comfort_dish": "dish_sweet_pumpkin_potage",
+      "heart_event_summary": "Rescued during a midnight winter storm; safely bequeaths the Four-Seasons Nursery at 8 Hearts."
     },
     {
       "id": "npc_kael",
       "name": "Kael",
       "role": "Apprentice Match Vendor",
-      "location": "Riverside / Market Corner",
+      "location": "Riverbank & Eatery",
       "species": "Human",
       "description": "An orphaned boy with a pointed wool cap, patchworked winter coat, and bright curious eyes; Maeve's beloved ward.",
       "favorite_items": [
@@ -110,13 +128,16 @@
       ],
       "quote": "Grandma Maeve's knees have been aching in the damp air... Can I trade my matchboxes for some ginger tea for her?",
       "birthday": "Summer 22",
-      "schedule": "Morning: Practice yard; Evening: Sipping cold berry tea"
+      "schedule": "Morning: Practice yard; Evening: Sipping cold berry tea",
+      "real_world_wound": "Acute abandonment trauma; overworks himself in freezing gales out of terror of being discarded.",
+      "comfort_dish": "cake_fairy_birthday",
+      "heart_event_summary": "Discovers Maeve's secret apprenticeship fund; blossoms into the town's young nursery keeper at 8 Hearts."
     },
     {
       "id": "npc_amalia",
       "name": "Grandmother Amalia",
-      "role": "Master Tea Artisan / Guiding Spirit",
-      "location": "Oakhaven Cafe & Bakery (Grimoire & Memories)",
+      "role": "Late Culinary Artisan / Guiding Spirit",
+      "location": "Secret Recipe Grimoire & Memories",
       "species": "Human (Guiding Spirit)",
       "description": "Rowan's late grandmother, legendary tea crafter whose warmth lives on through annotated grimoire margins and fond memory.",
       "favorite_items": [
@@ -125,13 +146,16 @@
       ],
       "quote": "True magic isn't found afar; it lives in the care you pour into each tea leaf and warm morsel you bake for another.",
       "birthday": "Winter 28",
-      "schedule": "Present in grimoire margins, cherished memories, and dreams"
+      "schedule": "Present in grimoire margins, cherished memories, and dreams",
+      "real_world_wound": "Sacrificed her own health during famine years to keep the frontier settlement fed and alive.",
+      "comfort_dish": "tra_sen_an_than",
+      "heart_event_summary": "Philosophy: 'Cooking is to make others feel worthy of living and being loved.'"
     },
     {
       "id": "npc_bram",
       "name": "Bram",
-      "role": "Crystal Mine Forager",
-      "location": "Oakhaven Crystal Mines",
+      "role": "Deep Mine Forager",
+      "location": "Oakhaven Mine Entrance",
       "species": "Dwarf",
       "description": "Veteran miner prospecting the deepest mine levels; Boris's younger brother. Gruff and argumentative, but fiercely devoted to family.",
       "favorite_items": [
@@ -141,13 +165,16 @@
       ],
       "quote": "My brother Boris is lecturing me about brittle iron ore again... Brew me something deeply bitter so I can swallow my temper!",
       "birthday": "Winter 15",
-      "schedule": "08:00 - 17:00: Mine shafts entrance; Evening: Arguing at Boris's forge"
+      "schedule": "08:00 - 17:00: Mine shafts entrance; Evening: Arguing at Boris's forge",
+      "real_world_wound": "Pride wounded by brotherly pity; dives into lethal depths to prove he is still a whole, capable man.",
+      "comfort_dish": "bread_miner_sourdough",
+      "heart_event_summary": "Acknowledges brother's love at 8 Hearts; pairs with Boris to forge legendary mastercraft picks."
     },
     {
       "id": "npc_penny",
       "name": "Penny",
-      "role": "Wandering Pastry Hawker",
-      "location": "Oakhaven Market",
+      "role": "Itinerant Pastry Courier",
+      "location": "Town Market Square",
       "species": "Human",
       "description": "Energetic, nimble pastry seller; niece of Boris and Bram. Quick-witted, cheerful, and always inventing eccentric new baked goods.",
       "favorite_items": [
@@ -157,13 +184,16 @@
       ],
       "quote": "Uncle Boris just tapped out a star-shaped cookie cutter for me! Let me try that tart berry tea to inspire my next batch!",
       "birthday": "Autumn 11",
-      "schedule": "08:00 - 16:00: Postal run; 18:00: Dropping letters off at the tea shop"
+      "schedule": "08:00 - 16:00: Postal run; 18:00: Dropping letters off at the tea shop",
+      "real_world_wound": "Orphaned niece raised by bachelor dwarven uncles; dreams of running an independent mobile bakery cart.",
+      "comfort_dish": "pastry_berry_shortcake",
+      "heart_event_summary": "Receives a custom-crafted rolling pastry cart from Boris and Bram at 8 Hearts."
     },
     {
       "id": "npc_orion",
       "name": "Professor Orion",
-      "role": "Sleepless Royal Astrologer",
-      "location": "Hilltop Observatory Tower",
+      "role": "Insomniac Astrologer",
+      "location": "Hilltop Observatory",
       "species": "Human",
       "description": "Astronomer stationed atop the hill observatory; Clara's father. Absentminded and so captivated by constellations that he forgets meals.",
       "favorite_items": [
@@ -173,13 +203,16 @@
       ],
       "quote": "The Cygnus constellation just shifted three degrees... My eyes are blurring, do you have a brew that lets my thoughts rest for two hours?",
       "birthday": "Autumn 25",
-      "schedule": "Night: Stargazing at Observatory; Morning: Napping in library"
+      "schedule": "Night: Stargazing at Observatory; Morning: Napping in library",
+      "real_world_wound": "Progressive dementia (Alzheimer's); desperately stays awake to spot his late wife's star before memory fades.",
+      "comfort_dish": "pastry_berry_shortcake",
+      "heart_event_summary": "Reconstructs Elise's star map with Clara at 8 Hearts, cherishing fleeting lucid clarity."
     },
     {
       "id": "npc_clara",
       "name": "Clara",
-      "role": "Town Archivist & Librarian",
-      "location": "Oakhaven Town Library",
+      "role": "Head Town Librarian",
+      "location": "Oakhaven Library",
       "species": "Human",
       "description": "Meticulous curator of Oakhaven's archives; Orion's daughter. Organized, caring, and constantly reminding her father to take care of himself.",
       "favorite_items": [
@@ -189,13 +222,16 @@
       ],
       "quote": "Father stayed up in the observatory tower for two days without food again... Could you brew a big pot of chamomile tea so I can make him drink it?",
       "birthday": "Spring 16",
-      "schedule": "08:00 - 17:00: Library and dispensary; Evening: Calming lavender tea"
+      "schedule": "08:00 - 17:00: Library and dispensary; Evening: Calming lavender tea",
+      "real_world_wound": "Caregiver burnout; tore up a royal scholarship to care for her ailing father, mourning lost youth.",
+      "comfort_dish": "tea_earl_grey_clara",
+      "heart_event_summary": "Finds emotional balance and unseals the Ancient Recipe Archives in the library at 8 Hearts."
     },
     {
       "id": "npc_garrick",
       "name": "Captain Garrick",
-      "role": "Veteran Cloud-Sea Mariner",
-      "location": "Cloud-Sea Docks / Star Lake Harbor",
+      "role": "Retired Sky-Sailor",
+      "location": "Mist Lake Pier",
       "species": "Human",
       "description": "Weathered sea captain who has hung up his oars; Finn's grandfather. Delights in recounting tales of uncharted celestial islands.",
       "favorite_items": [
@@ -205,13 +241,16 @@
       ],
       "quote": "The valley wind smells of the great outer seas of my youth... Give an old sailor a robust spiced cup and listen to my stories of the floating isles.",
       "birthday": "Summer 2",
-      "schedule": "Sunday Morning: Anchoring his nautilus vessel by the pier market"
+      "schedule": "Sunday Morning: Anchoring his nautilus vessel by the pier market",
+      "real_world_wound": "Color-blind and arthritic; agonizes over feeling like beached driftwood stripped of purpose.",
+      "comfort_dish": "dish_magma_seafood_paella",
+      "heart_event_summary": "Passes maritime dreams to Finn and invests in opening new lake trading routes."
     },
     {
       "id": "npc_finn",
       "name": "Finn",
-      "role": "Star-Angler Boy",
-      "location": "Riverside / Mist Lake Shallows",
+      "role": "Star Fisher Boy",
+      "location": "Mist Lake Shore",
       "species": "Human",
       "description": "Spirited boy who fishes along mountain streams and misty lakes; Garrick's grandson. Fascinated by luminous aquatic fauna.",
       "favorite_items": [
@@ -221,7 +260,10 @@
       ],
       "quote": "I hooked a huge rainbow-glowing trout today! Grandpa Garrick said I could bring it by the tea shop for a frosty peppermint refresher!",
       "birthday": "Summer 19",
-      "schedule": "06:00 - 18:00: Angling by the starlight brook; Evening: Warming by hearth"
+      "schedule": "06:00 - 18:00: Angling by the starlight brook; Evening: Warming by hearth",
+      "real_world_wound": "Fishes tirelessly to buy back the ancestral Silver Compass Garrick pawned for family medicine.",
+      "comfort_dish": "item_tea_frostmint_breeze",
+      "heart_event_summary": "Recovers the heirloom compass and trains as Oakhaven's next adventurous navigator."
     },
     {
       "id": "npc_elora",
@@ -258,7 +300,7 @@
       "id": "npc_marlo",
       "name": "Marlo",
       "role": "Nightwatch Sentinel",
-      "location": "Oakhaven Town (Night Shifts)",
+      "location": "Town Gates & Night Patrol",
       "species": "Human",
       "description": "Steadfast town guard keeping watch through long, freezing snowy nights while Oakhaven slumbers peacefully.",
       "favorite_items": [
@@ -268,12 +310,15 @@
       ],
       "quote": "Wind howls right through the gaps in my armor... On long night patrols, only your spicy tea keeps my eyes from snapping shut.",
       "birthday": "Autumn 13",
-      "schedule": "07:00 - 17:00: Operating Oakhaven windmill grinding flour"
+      "schedule": "07:00 - 17:00: Operating Oakhaven windmill grinding flour",
+      "real_world_wound": "Supports 4 impoverished siblings back home; endures frozen nocturnal vigils in solitude.",
+      "comfort_dish": "dish_spicy_ginger_stew",
+      "heart_event_summary": "Discovers family warmth and silent honor at Rowan's late-night hearth table."
     },
     {
       "id": "npc_aurelia",
       "name": "Aurelia",
-      "role": "Remedy Apothecary",
+      "role": "Disillusioned Town Physician",
       "location": "Oakhaven Clinic",
       "species": "Human",
       "description": "Caring town healer running the dispensary clinic. Believes wholesome teas heal spirits far deeper than bitter salves alone.",
@@ -283,7 +328,10 @@
       ],
       "quote": "Potions only close surface wounds... Townspeople need your warm herbal teas to soothe their deeper quiet sorrows.",
       "birthday": "Summer 21",
-      "schedule": "Morning: Honeybee apiary; Afternoon: Delivering fresh honey to shop"
+      "schedule": "Morning: Honeybee apiary; Afternoon: Delivering fresh honey to shop",
+      "real_world_wound": "Disgusted by commercial medicine prioritizing nobles; struggles with poverty-driven medical shortages.",
+      "comfort_dish": "tra_oai_huong_ngan_sao",
+      "heart_event_summary": "Reclaims humanitarian purpose and collaborates with Rowan on therapeutic culinary tonics."
     },
     {
       "id": "npc_valen",
@@ -344,6 +392,44 @@
       "quote": "Down in the deep ocean, everything is perpetually soggy... Tasting hot, crispy pastries that melt away like sweet foam is sheer wonder!",
       "birthday": "Summer 17",
       "schedule": "Prospecting deep crystal caverns in the Khaz-Drakor mines"
+    },
+    {
+      "id": "npc_thorne",
+      "name": "Guildmaster Thorne",
+      "role": "Master of the Adventurer's Guild",
+      "location": "Adventurer's Guild Hall",
+      "species": "Human (Veteran Vanguard Commander)",
+      "description": "Decorated royal guard captain bearing an iron leg prosthesis. Having lost 18 comrades in deep subterranean vaults, he established the Rescue Outpost with a binding oath: 'No one is left behind in the dark.'",
+      "favorite_items": [
+        "dish_spicy_ginger_stew",
+        "ore_iron",
+        "bread_miner_sourdough"
+      ],
+      "quote": "Carelessness in deep shafts is paid in blood. If you collapse down there, my squad will pull you back into the light.",
+      "birthday": "Winter 14",
+      "schedule": "08:00 - 22:00: Commanding guild hall operations; Night: Inspecting mine barricades",
+      "real_world_wound": "Haunted by severe Survivor's Guilt after his 18-soldier platoon perished in the Sunken Necropolis.",
+      "comfort_dish": "dish_spicy_ginger_stew",
+      "heart_event_summary": "Releases past ghosts at 8 Hearts; mobilizes the Deep-Mine Rescue Strike Force, halving rescue penalties."
+    },
+    {
+      "id": "npc_valerie",
+      "name": "Dispatcher Valerie",
+      "role": "Lost & Found Custodian & Guild Registrar",
+      "location": "Adventurer's Guild Reception",
+      "species": "Human (Retired Marksman)",
+      "description": "Former sharpshooter who suffered unilateral hearing damage and acoustic blast PTSD. Meticulously logs rescue reports and coordinates gear retrieval for injured miners.",
+      "favorite_items": [
+        "dish_sweet_pumpkin_potage",
+        "tea_sun_daisy_honey",
+        "gem_sapphire"
+      ],
+      "quote": "Your belongings have been secured by our scouts. Value your life over raw ore; tools can be re-forged, lives cannot.",
+      "birthday": "Autumn 20",
+      "schedule": "08:00 - 20:00: Managing lost items desk; 20:30: Dining at Rowan's Hearth Eatery",
+      "real_world_wound": "Suffers from acoustic blast PTSD and partial deafness, finding solace in quiet administrative paperwork.",
+      "comfort_dish": "dish_sweet_pumpkin_potage",
+      "heart_event_summary": "Finds calm assurance at 8 Hearts; accepts Expedition Rations to recover lost equipment without fee."
     }
   ]
 }
