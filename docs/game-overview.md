@@ -1,5 +1,5 @@
 ---
-title: "Tổng Quan Trò Chơi"
+title: "Game Overview"
 status: public
 audience: public
 updated: 2026-11-17
@@ -7,66 +7,72 @@ tags: [overview, pitch, core-loop, features, eatery, tavern]
 spoiler: false
 ---
 
-# 🍲 Rowan of Oakhaven — Tổng Quan Trò Chơi
+# 🍲 Rowan of Oakhaven — Game Overview
 
-> **Thể loại:** Dark Pixel Action RPG · Quán Ăn & Nông Trại 4 Mùa · Khai Thác Mỏ 150 Tầng · Cầu Siêu Hậu Chiến  
-> **Nền tảng:** PC (Steam, 16:9 Landscape) & Mobile-Ready  
-> **Phong cách nghệ thuật:** 2D Dark Pixel Art (bảng màu đêm lạnh navy/tím, ánh lửa cam ấm áp từ bếp nấu)  
-
----
-
-## 1. Giới Thiệu Cốt Truyện & Vết Thương Hậu Chiến
-
-### 1.1. Bối cảnh mất mát
-Chiến tranh tàn khốc nổ ra ở kinh thành đại lục cướp đi sinh mạng của cả cha và mẹ Rowan. Lớn lên trong vòng tay gầy gò của Bà, ký ức tuổi thơ duy nhất đem lại cảm giác bình yên cho Rowan chính là hơi ấm từ gian bếp củi của Bà và mùi thức ăn ấm nóng xua đi khói bụi súng đạn.
-
-Khi chiến loạn vừa dứt, người bà kính yêu cũng qua đời vì tuổi già và kiệt sức. Mang trái tim vụn vỡ nhưng kiên cường, Rowan rời bỏ quê hương đổ nát, mang theo cuốn sổ công thức nấu ăn của Bà, tìm đến thung lũng sương mù ven rừng **Oakhaven** để bắt đầu lại cuộc đời từ hai bàn tay trắng.
-
-Chú chim cú lùn **Pip** chỉ đậu tĩnh trên mái nhà hoặc cành cây sân trước, làm nhiệm vụ ngậm thư/nhiệm vụ dân làng buổi sáng mà không đi theo Rowan gây phiền phức khi di chuyển.
-
-### 1.2. Ý nghĩa của Bếp Nấu & Món Ăn
-Rowan tự tay dọn dẹp căn nhà hoang đổ nát ở Oakhaven, thắp lại ngọn lửa đầu tiên trong gian bếp cũ. Thức ăn tại Oakhaven mang 3 ý nghĩa thiêng liêng:
-1. **Lương thực sinh tồn:** Hồi phục HP/Stamina và ban các buff chỉ số chiến đấu khi thám hiểm mỏ sâu.
-2. **Kinh tế Quán Ăn:** Bán cho dân làng và du khách ghé quán kiếm Vàng tái thiết thung lũng.
-3. **Cầu siêu thanh tẩy:** Dâng món ăn truyền thống lên các Bàn Thờ Cầu Siêu dọc chiến trường cổ để siêu thoát linh hồn binh sĩ ngã xuống và hồi sinh đất đai chết chóc.
+> **Genre:** Dark Pixel Action RPG · Eatery & 4-Season Farming · 150-Floor Pure Combat Mine · Post-War Purification  
+> **Platform:** PC (Steam, 16:9 Landscape) & Mobile-Ready  
+> **Art Style:** 2D Dark Pixel Art (Navy/Purple palette, warm orange cooking fire, starlight gleams)  
 
 ---
 
-## 2. Vòng Lặp Trải Nghiệm Một Ngày (The 4-Pillar Loop)
+## 1. Narrative & Post-War Setting
 
-Một ngày trong game kéo dài khoảng **10 – 15 phút thời gian thực**:
+### 1.1. Tragedy & New Beginnings
+War took both of Rowan's parents on the continental frontlines. Raised by their grandmother beside the warmth of an old stove, Rowan's fondest memories are rooted in hearty, warm meals that kept the chill of war away.
+
+When the war ended, Grandmother passed away from old age and exhaustion. Carrying her heirloom recipe journal, Rowan sets out alone for the frontier valley of **Oakhaven** to heal and rebuild life from scratch.
+
+**Pip the Owl** perches quietly atop the roof eaves or mailbox to deliver morning notices and mail. Pip does not follow Rowan around, eliminating pathfinding clutter.
+
+### 1.2. The Role of Cooking
+Rebuilding the dusty hearth at Oakhaven serves three core purposes:
+1. **Survival & Combat Buffs:** High-stat buffs (ATK, DEF, Speed, Mining, Elemental Resist, Instant Heal) consumed before and during fierce dungeon combat.
+2. **Eatery & Inn Revenue:** Serving takeaway and dine-in patrons, plus renting upstairs rooms to travellers.
+3. **Memorial Cleansing:** Offering traditional festive dishes at Ancient Altars scattered across the battlefield ruins to purify troubled soldier spirits and reclaim black arable farmland.
+
+---
+
+## 2. The Daily 4-Pillar Loop
+
+A typical in-game day spans **10–15 minutes of real time**:
 
 ```
-[BÌNH MINH (06:00 - 08:00)] 
-  └── Đọc thư tay, nhận hạt giống từ cú Pip trên mái nhà.
-[BUỔI SÁNG & TRƯA (08:00 - 15:00)]
-  ├── Nông trại: Tưới nước, thu hoạch 32 loại cây trồng 4 mùa (vòi phun tự động hỗ trợ).
-  └── Thám hiểm: Xuống Hang Mỏ 150 tầng đập đá tìm quặng, săn ngọc ma thuật, dâng món ăn cầu siêu.
-[CHIỀU TỐI & BAN ĐÊM (17:00 - 23:00)]
-  └── Mở Quán Ăn Oakhaven [OPEN]: Nấu 55 món ăn phục vụ khách mang đi (Takeaway) và khách ngồi bàn (Dine-in).
-[ĐÊM KHUYA (23:00 - 02:00)]
-  └── Thu tiền phòng trọ tầng lầu, nâng cấp công cụ tại Boris, lên giường ngủ lưu dữ liệu.
+[DAWN (06:00 - 08:00)] 
+  └── Read mail from Pip on the roof; collect morning room rental revenue.
+[DAYTIME (08:00 - 15:00)]
+  ├── Farm: Water, harvest 32 seasonal crops, cultivate irrigated rice paddies.
+  └── Expedition: Descend 150-floor PURE COMBAT mine, slay monsters, mine 5 ore tiers, defeat Wardens; visit Adventurer's Guild for Lost & Found recovery.
+[EVENING (17:00 - 23:00)]
+  └── Open Oakhaven Eatery [OPEN]: Cook 55 dishes for takeaway and seated guests.
+[NIGHT (23:00 - 02:00)]
+  └── Retreat to Rowan's private attic loft: R&D new recipes, manage wardrobe, sleep to save.
 ```
 
 ---
 
-## 3. Hệ Thống Tính Năng Chuẩn Mực
+## 3. Core Mechanics
 
-1. **HP & Stamina Chuẩn Stardew + Dịch Vụ Tìm Đồ Hộ:**
-   - Hoạt động tiêu hao Stamina; trúng đòn giảm HP.
-   - Ngất xỉu $\rightarrow$ Đưa về Trạm Xá, trừ tiền viện phí và rơi mất 1-4 món đồ trong Balo.
-   - Đến **Lò Rèn Boris** để chuộc lại 1 món đồ quan trọng nhất đã đánh rơi.
-2. **55 Món Ăn Đa Dạng & Buff Chỉ Số:**
-   - 6 nhánh buff: Tốc độ di chuyển, Sức tấn công cận chiến, Giáp phòng ngự, Đào khoáng, May mắn, Kháng nguyên tố.
-3. **Nông Nghiệp 32 Cây Trồng & Tự Động Hóa:**
-   - 32 loại cây trồng phân bổ đều 4 mùa (Xuân, Hạ, Thu, Đông) và cây lâu năm.
-   - Vòi phun tự động 3 cấp (Đồng 4 ô, Sắt 8 ô, Bụi Sao 24 ô), bù nhìn rơm bảo vệ mùa màng.
-4. **Bản Đồ Mở Rộng Theo Sửa Chữa Tuyến Đường:**
-   - Sửa cầu gỗ bờ Tây (Thảo Nguyên Nắng), nổ mìn dọn đèo Bắc (Chiến Trường Tro Tàn), sửa ga tàu hơi nước (Giao Thương Đại Lục), khôi phục bến thuyền (Đảo Ngọc Bích).
-5. **Trang Bị Chuẩn Stardew, Chế Tác Nhẫn & Ngọc Ma Thuật:**
-   - Slot trang phục: Mũ, Áo, Quần, Giày, 2 Khe Đeo Nhẫn, Balo.
-   - Hợp nhất 2 nhẫn thành 1 (Ring Fusion) tại Tầng 100 mỏ.
-   - Ngọc Ma Thuật khảm cố định vĩnh viễn (không có cơ chế tháo ngọc rườm rà).
-6. **Tái Thiết Thị Trấn & Tuyến Nhà Trọ Tầng Lầu:**
-   - Sửa cối xay gió, trạm xá, đèn đường làng.
-   - Cho thuê 3-5 phòng ngủ trên lầu Quán Ăn cho du khách và đoàn buôn, tự động thu tiền phòng mỗi sáng.
+1. **HP & Stamina + Adventurer's Guild Lost & Found:**
+   - Activities consume Stamina; monster hits deplete HP.
+   - Fainting results in rescue by the **Adventurer's Guild**, medical bill penalty, and dropping 1–4 items.
+   - Speak with Guildmaster Thorne at the Adventurer's Guild to recover lost items via Gold or Expedition Supply Rations.
+2. **Pure Action RPG Combat (No Monster Soothing):**
+   - 150 floors of brutal hack-and-slash combat across 4 geological zones: Room locks $\rightarrow$ defeat all hostile monsters $\rightarrow$ door opens + chest drops.
+   - Spirit Lantern reveals stealth enemies in the dark.
+   - 55 culinary dishes serve as Rowan's personal combat stat boosters.
+3. **32 Seasonal Crops & Automation:**
+   - 32 crops spanning Spring, Summer, Autumn, Winter, plus perennials.
+   - Automated sprinklers in 3 tiers (Copper 4-tile, Iron 8-tile, Stardust 24-tile) and scarecrows.
+4. **Unique Oakhaven Map Expansions:**
+   - 1. Highland Aqueduct (Unlocks Irrigated Rice Paddies & Riverboat).
+   - 2. Elder Tree & Grand Cleansing Feast (Dispels toxic miasma to unlock Sacred Grove).
+   - 3. Ancient Sky-Tram (Ascends Wolf-Fang Peak for Stardust ore & hot springs).
+   - 4. Central Railway Station (Brings continental tourists and traveling chefs to the inn).
+   - 5. Sunken Necropolis (Weekly procedural endless dungeon post-floor 150).
+5. **Gear, Ring Fusion & Soul Gem Socketing:**
+   - Standard equipment: Head, Shirt/Armor, Pants, Boots, 2 Rings, Backpack.
+   - Ring Fusion at Floor 100 combines two rings into one.
+   - 5 Soul Essences permanently socketed (no unsocketing tedium).
+6. **Rowan's Private Loft & Upstairs Inn:**
+   - Private living quarters: Bed, R&D recipe experimentation table, wardrobe mirror, fermentation cellar.
+   - 3–5 guest rooms upstairs for passive morning rental income and breakfast demand.
