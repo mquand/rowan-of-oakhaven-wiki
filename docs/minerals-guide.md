@@ -61,7 +61,7 @@ Những loại khoáng vật mang tính chất siêu nhiên, dùng làm nguồn 
 ### 🕯️ Đá Ký Ức Linh Hồn (Memory Soulstone)
 - **Vị trí:** Tầng 51–100, kết tinh quanh các đài tưởng niệm cổ.
 - **Đặc tính:** Trong suốt như pha lê, lưu giữ những ký ức hoặc hơi thở của người xưa trước khi tan biến vào cõi vĩnh hằng.
-- **Ứng dụng:** Mở khóa các trang nhật ký thất lạc của bà ngoại Amalia, khám phá nguồn gốc của Tiệm Trà & Bánh Oakhaven.
+- **Ứng dụng:** Mở khóa các trang nhật ký thất lạc của bà ngoại Amalia, khám phá nguồn gốc của Quán Ăn & Nhà Trọ Oakhaven.
 
 ### 🛡️ Quặng Hắc Thiết Thần Thoại (Mithril Ore)
 - **Vị trí:** Tầng 76–100, vỉa khoáng sản sâu nhất.

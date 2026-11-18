@@ -13,7 +13,7 @@ spoiler: false
 
 ## Bạn là ai?
 
-Bạn vào vai **Rowan**, học viên phù thủy trẻ vừa rời Viện Phép Thuật hoàng gia, trở về Thung Lũng Bụi Sao tiếp quản tiệm trà bánh cũ của **Bà Ngoại Amalia**. Đồng hành cùng bạn là chú cú lùn **Pip** và chú mèo tam thể **Mallow**, cùng "Quyển Sổ Rách Bí Truyền" của bà.
+Bạn vào vai **Rowan**, học viên phù thủy trẻ vừa rời Viện Phép Thuật hoàng gia, trở về Thung Lũng Bụi Sao tiếp quản quán ăn cũ của **Bà Ngoại Amalia**. Đồng hành cùng bạn là chú cú lùn **Pip** và chú mèo tam thể **Mallow**, cùng "Quyển Sổ Rách Bí Truyền" của bà.
 
 ## Ngày đầu tiên
 

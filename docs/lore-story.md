@@ -23,7 +23,7 @@ Game mở đầu bằng đoạn điện ảnh — bạn sống những ngày bì
 
 ## Bụi Sao & Sự Hắc Hóa
 
-Mọi phép thuật trong Oakhaven bắt nguồn từ **Bụi Sao (Stardust)**. Khi u uất tích tụ, Bụi Sao bị **Hắc Hóa (Star Blight)**, biến dạng sinh vật lòng đất thành quái thú hung tợn. Sứ mệnh của Rowan là chiến đấu dọn sạch các tầng hầm ngục, khai thác khoáng thạch quý, nâng cấp vũ khí tại lò rèn Boris và vận hành tiệm trà bánh để tái thiết kinh tế thị trấn Oakhaven.
+Mọi phép thuật trong Oakhaven bắt nguồn từ **Bụi Sao (Stardust)**. Khi u uất tích tụ, Bụi Sao bị **Hắc Hóa (Star Blight)**, biến dạng sinh vật lòng đất thành quái thú hung tợn. Sứ mệnh của Rowan là chiến đấu dọn sạch các tầng hầm ngục, khai thác khoáng thạch quý, nâng cấp vũ khí tại lò rèn Boris và vận hành quán ăn để tái thiết kinh tế thị trấn Oakhaven.
 
 ## Năm Đại Vực & Lịch sử
 

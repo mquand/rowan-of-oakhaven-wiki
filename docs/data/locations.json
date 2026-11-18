@@ -26,7 +26,7 @@
         "npc_aurelia"
       ],
       "features": [
-        "Tiệm Trà & Bánh Oakhaven",
+        "Quán Ăn & Nhà Trọ Oakhaven",
         "Nông trại",
         "Cối xay gió",
         "Lò rèn",
@@ -44,7 +44,7 @@
         {
           "id": "npc_rowan",
           "name": "Rowan",
-          "role": "Chủ Tiệm Trà & Bánh Oakhaven"
+          "role": "Chủ Quán Ăn & Nhà Trọ Oakhaven"
         },
         {
           "id": "npc_lumi",

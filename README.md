@@ -1,6 +1,6 @@
 # 🍵 Rowan of Oakhaven Wiki (by Fluvio Games)
 
-Wiki & Cơ sở dữ liệu chính thức dành cho người chơi của tựa game **Rowan of Oakhaven** (Tiệm Bụi Sao), do **Fluvio Games** phát triển.
+Wiki & Cơ sở dữ liệu chính thức dành cho người chơi của tựa game **Rowan of Oakhaven** (Quán Ăn & Nhà Trọ Oakhaven), do **Fluvio Games** phát triển.
 
 > Repo này **độc lập** và là **nguồn sự thật duy nhất** cho nội dung wiki công khai.
 > Bạn chỉnh sửa trực tiếp tại đây — **không còn đồng bộ tự động** từ repo game nữa.
