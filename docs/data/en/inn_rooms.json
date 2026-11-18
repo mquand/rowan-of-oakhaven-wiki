@@ -1,0 +1,65 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "version": "1.0.0",
+  "updated": "2026-11-18",
+  "room_tiers": [
+    {
+      "tier_id": "dorm_bunkhouse",
+      "name": "Delver Bunkhouse Dorm",
+      "name_en": "Delver Bunkhouse Dorm",
+      "description": "A rustic communal lodging with 4 pine bunk beds and sturdy iron storage lockers for weary miners and porters.",
+      "capacity": 4,
+      "base_rent_per_guest": 40,
+      "unlock_cost": {
+        "gold": 500,
+        "wood_oak": 10
+      },
+      "default_cozy_rating": 20,
+      "max_cozy_rating": 60,
+      "required_furniture": [
+        { "id": "props_inn_bunk_bed", "name": "Pine Bunk Bed", "size": "32x32", "amount": 2 },
+        { "id": "props_inn_luggage_chest", "name": "Iron Footlocker", "size": "16x16", "amount": 4 }
+      ]
+    },
+    {
+      "tier_id": "standard_hearth",
+      "name": "Standard Hearth Room",
+      "name_en": "Standard Hearth Room",
+      "description": "A private chamber featuring a straw-stuffed double bed draped in Elora's handwoven wool blankets and a crackling stone hearth.",
+      "capacity": 2,
+      "base_rent_per_guest": 150,
+      "unlock_cost": {
+        "gold": 1200,
+        "wood_oak": 30,
+        "bar_iron": 15
+      },
+      "default_cozy_rating": 50,
+      "max_cozy_rating": 120,
+      "required_furniture": [
+        { "id": "props_inn_hearth_bed", "name": "Oak Hearth Bed", "size": "32x32", "amount": 1 },
+        { "id": "props_inn_corner_hearth", "name": "Compact Stone Hearth", "size": "32x32", "amount": 1 },
+        { "id": "props_inn_wash_basin", "name": "Brass Washbasin", "size": "16x16", "amount": 1 }
+      ]
+    },
+    {
+      "tier_id": "merchant_suite",
+      "name": "Grand Merchant Suite",
+      "name_en": "Grand Merchant Suite",
+      "description": "An exquisite loft sanctuary boasting a Solaria goose-down canopy bed, an aromatic steamy oak soaking tub, and a walnut study desk.",
+      "capacity": 1,
+      "base_rent_per_guest": 450,
+      "unlock_cost": {
+        "gold": 3500,
+        "wood_oak": 50,
+        "bar_gold": 10
+      },
+      "default_cozy_rating": 100,
+      "max_cozy_rating": 250,
+      "required_furniture": [
+        { "id": "props_inn_luxury_canopy_bed", "name": "Goose-Down Canopy Bed", "size": "32x48", "amount": 1 },
+        { "id": "props_inn_oak_bathtub", "name": "Hot Oak Soaking Tub", "size": "32x32", "amount": 1 },
+        { "id": "props_inn_writing_desk", "name": "Walnut Writing Desk", "size": "32x16", "amount": 1 }
+      ]
+    }
+  ]
+}
