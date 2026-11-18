@@ -1,0 +1,107 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "version": "1.0.0",
+  "updated": "2026-11-18",
+  "seasonal_festivals": [
+    {
+      "id": "fest_spring_cleansing",
+      "name": "Spring Cleansing & The Sacred Grove",
+      "season": "spring",
+      "day": 15,
+      "time": "09:00 - 22:00",
+      "location": "Ancient Memorial Altar & Sacred Grove",
+      "summary": "Early spring ritual honoring post-war fallen comrades, purifying lingering miasma, and liberating blighted soil.",
+      "activities": [
+        "Cook 5 feast offerings at the Ancient Memorial Altar to cleanse toxic haze",
+        "Brew First-Harvest Lotus Tea for town elders",
+        "Light memorial candles for fallen Guild vanguards"
+      ],
+      "rewards": [
+        "Permanently unlocks the Sacred Elder Herb Grove",
+        "+100 friendship points with all town residents",
+        "Title: 'Keeper of Cleansing Flames'"
+      ],
+      "special_food": "canh_thao_moc_bup_sen"
+    },
+    {
+      "id": "fest_summer_gala",
+      "name": "Adventurer Games & Firefly Night",
+      "season": "summer",
+      "day": 18,
+      "time": "10:00 - 23:00",
+      "location": "Oakhaven Town Square & Lake Pier",
+      "summary": "Honoring frontier knights and miners, capped by a tranquil evening boat ride floating lanterns beneath starry fireflies.",
+      "activities": [
+        "Friendly sparring exhibition match with Guildmaster Thorne",
+        "Speed-cooking tactical field rations with combat buffs",
+        "Float firefly lanterns on the midnight lake with your closest confidant"
+      ],
+      "rewards": [
+        "Honorary Vanguard Badge (15% discount on weapon repair at Boris's Forge)",
+        "+200 friendship points with companion",
+        "Exclusive Recipe: Hellfire Roast"
+      ],
+      "special_food": "dui_rung_hun_khoi_da_chien"
+    },
+    {
+      "id": "fest_autumn_harvest",
+      "name": "Autumn Harvest Feast & Lantern Gala",
+      "season": "autumn",
+      "day": 20,
+      "time": "12:00 - 24:00",
+      "location": "Town Square & Hearth Eatery",
+      "summary": "The largest annual festival celebrating abundant golden wheat harvests and mid-autumn candlelit paper lanterns.",
+      "activities": [
+        "Autumn Master Chef Contest (Judges Boris, Maeve, Clara rate 3 pastries)",
+        "Hang paper lanterns and lotus candles across town avenues",
+        "Serve free pastry banquets at the Hearth Eatery tavern counter"
+      ],
+      "rewards": [
+        "Golden Harvest Trophy (permanently increases dish selling prices by 15%)",
+        "Unlocks 'Harvest Moon Chef' festive outfit",
+        "Traditional Heritage Recipe: Mid-Autumn Blossom Mooncake"
+      ],
+      "special_food": "banh_deo_trang_ram_hoa_buoi"
+    },
+    {
+      "id": "fest_winter_vigil",
+      "name": "New Year Hearthfire Vigil",
+      "season": "winter",
+      "day": 28,
+      "time": "18:00 - 02:00",
+      "location": "The Hearth Eatery & Tavern",
+      "summary": "On the coldest New Year's Eve, the entire township gathers around Rowan's crackling hearthfire to share life stories and welcome spring.",
+      "activities": [
+        "Cook a communal grand hotpot feast for the entire village",
+        "Listen to intimate New Year Eve reflections from healed residents",
+        "Pip's New Year lucky seed lottery raffle"
+      ],
+      "rewards": [
+        "Unlocks Grandmother Amalia's Secret Tome Volume 2",
+        "+20% growth rate for all winter greenhouse crops in the following year",
+        "+150 deep-bond points with all attendees"
+      ],
+      "special_food": "lau_thap_cam_bach_vi"
+    }
+  ],
+  "recurring_events": [
+    {
+      "id": "rec_sunday_market",
+      "name": "Captain Garrick's Sunday Lakeshore Market",
+      "recurrence": "weekly",
+      "day_of_week": "sunday",
+      "time": "07:00 - 17:00",
+      "location": "Oakhaven Lakeshore Wharf",
+      "summary": "Captain Garrick's wooden schooner docks weekly, laden with exotic ocean fish, foreign spices, and vintage Lo-fi vinyl records."
+    },
+    {
+      "id": "rec_wednesday_hearth",
+      "name": "Town Maintenance & Rest Wednesday",
+      "recurrence": "weekly",
+      "day_of_week": "wednesday",
+      "time": "All Day",
+      "location": "Throughout Town",
+      "summary": "Boris cools forge fires for scheduled maintenance, Clara's library opens free archives, and Maeve offers 10% off seeds."
+    }
+  ]
+}

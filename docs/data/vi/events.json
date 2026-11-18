@@ -1,0 +1,107 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "version": "1.0.0",
+  "updated": "2026-11-18",
+  "seasonal_festivals": [
+    {
+      "id": "fest_spring_cleansing",
+      "name": "Đại Lễ Tẩy Trần & Cây Thần Ngàn Năm",
+      "season": "spring",
+      "day": 15,
+      "time": "09:00 - 22:00",
+      "location": "Bàn Thờ Cổ Tưởng Niệm & Khu Rừng Thần",
+      "summary": "Lễ hội tâm linh đầu xuân nhằm tưởng niệm các nạn nhân chiến tranh, xua tan chướng khí tàn dư và giải phóng đất hoang hóa.",
+      "activities": [
+        "Nấu 5 món đại tiệc dâng Bàn Thờ Cổ Tưởng Niệm giải trừ khí độc",
+        "Pha ấm Trà Sen Đầu Mùa mời hội bô lão Oakhaven",
+        "Thắp nến tưởng nhớ các đồng đội đã khuất của Hiệp Hội Mạo Hiểm"
+      ],
+      "rewards": [
+        "Mở khóa vĩnh viễn Khu Rừng Thần Thảo Mộc (cây giống quý & đàn ong mật sao)",
+        "+100 điểm thiện cảm với toàn bộ cư dân thị trấn",
+        "Danh hiệu 'Người Thắp Lửa Tẩy Trần'"
+      ],
+      "special_food": "canh_thao_moc_bup_sen"
+    },
+    {
+      "id": "fest_summer_gala",
+      "name": "Hội Thao Mạo Hiểm & Đêm Bắt Đom Đóm",
+      "season": "summer",
+      "day": 18,
+      "time": "10:00 - 23:00",
+      "location": "Quảng Trường Oakhaven & Bến Hồ Đom Đóm",
+      "summary": "Ngày hội tôn vinh tinh thần quả cảm của những thợ mỏ và hiệp sĩ biên viễn, kết thúc bằng đêm du thuyền thả đèn đom đóm.",
+      "activities": [
+        "Hội thi đấu trường giao hữu cùng Hội Trưởng Thorne",
+        "Thử thách nấu cơm hộp dã chiến cấp buff chiến đấu trong thời gian giới hạn",
+        "Chèo thuyền đêm ra giữa lòng hồ thả đèn đom đóm cùng NPC tri kỷ"
+      ],
+      "rewards": [
+        "Huy Hiệu Mạo Hiểm Giả Danh Dự (giảm 15% phí sửa chữa vũ khí tại Lò Rèn Boris)",
+        "+200 điểm tình cảm với NPC đồng hành thả đèn",
+        "Công thức món ăn độc quyền: Thịt Nướng Lửa Địa Ngục"
+      ],
+      "special_food": "dui_rung_hun_khoi_da_chien"
+    },
+    {
+      "id": "fest_autumn_harvest",
+      "name": "Lễ Hội Ẩm Thực Mùa Gặt & Đêm Hội Lồng Đèn",
+      "season": "autumn",
+      "day": 20,
+      "time": "12:00 - 24:00",
+      "location": "Quảng Trường Thị Trấn & Quán Ăn Oakhaven",
+      "summary": "Đại lễ lớn nhất trong năm để tạ ơn vụ mùa lúa mì vàng óng và nông sản bội thu, kết hợp rước đèn lồng hoa sen Trung Thu.",
+      "activities": [
+        "Cuộc thi Vua Đầu Bếp Mùa Thu (Ban giám khảo Boris, Maeve, Clara nếm 3 món bánh dự thi)",
+        "Treo đèn lồng giấy kiếng và thắp nến hoa sen dọc khắp dãy phố thị trấn",
+        "Phục vụ đại tiệc bánh nướng miễn phí tại quầy Quán Ăn Oakhaven"
+      ],
+      "rewards": [
+        "Cúp Vàng Đầu Bếp Mùa Thu (tăng vĩnh viễn 15% giá bán mọi món ăn tại Quán)",
+        "Mở khóa Bộ Trang Phục 'Đầu Bếp Trăng Rằm'",
+        "Công thức bánh cổ truyền: Bánh Dẻo Trăng Rằm Hoa Bưởi"
+      ],
+      "special_food": "banh_deo_trang_ram_hoa_buoi"
+    },
+    {
+      "id": "fest_winter_vigil",
+      "name": "Đêm Bếp Lửa Đón Năm Mới",
+      "season": "winter",
+      "day": 28,
+      "time": "18:00 - 02:00",
+      "location": "Quán Ăn & Nhà Trọ Oakhaven",
+      "summary": "Đêm giao thừa giá rét, toàn thị trấn tụ họp bên lò sưởi ấm của Quán Ăn Rowan để sẻ chia chuyện đời và đón mừng mùa xuân mới.",
+      "activities": [
+        "Nấu nồi lẩu nóng khổng lồ 'Bách Vị Đại Ngàn' chiêu đãi cả làng",
+        "Lắng nghe tâm sự giao thừa của từng cư dân sau một năm hàn gắn vết thương",
+        "Cùng chú cú Pip bốc thăm phong bao hạt giống may mắn đầu năm"
+      ],
+      "rewards": [
+        "Mở khóa Sách Công Thức Bí Truyền Phần 2 của Bà Ngoại Amalia",
+        "Tăng 20% tốc độ sinh trưởng của toàn bộ cây trồng trong nhà kính mùa sau",
+        "+150 điểm gắn kết tri kỷ với tất cả cư dân tham dự"
+      ],
+      "special_food": "lau_thap_cam_bach_vi"
+    }
+  ],
+  "recurring_events": [
+    {
+      "id": "rec_sunday_market",
+      "name": "Chợ Phiên Bờ Hồ Thuyền Buôn Garrick",
+      "recurrence": "weekly",
+      "day_of_week": "sunday",
+      "time": "07:00 - 17:00",
+      "location": "Bến Cảng Bờ Hồ Oakhaven",
+      "summary": "Chiếc thuyền gỗ viễn chinh của Thuyền Trưởng Garrick cập bến hàng tuần, đem theo nông sản biển lạ, gia vị ngoại quốc và đĩa than Lo-fi hiếm."
+    },
+    {
+      "id": "rec_wednesday_hearth",
+      "name": "Ngày Xả Lò & Nghỉ Ngơi Định Kỳ",
+      "recurrence": "weekly",
+      "day_of_week": "wednesday",
+      "time": "Cả ngày",
+      "location": "Toàn Thị Trấn",
+      "summary": "Lò rèn Boris tắt lửa bảo trì, thư viện Clara mở cửa miễn phí cho trẻ em, bà Maeve giảm 10% giá hạt giống rau củ."
+    }
+  ]
+}
