@@ -24,10 +24,11 @@ Một năm trong Oakhaven có **4 mùa × 28 ngày = 112 ngày**. Mỗi mùa man
 
 | Loại | Hiệu ứng |
 | :--- | :--- |
-| ☀️ Nắng trong | Tia sáng xiên kẽ lá |
-| 🌧️ Mưa Bụi Sao (Star Rain) | Mưa óng ánh — **tự động tưới đẫm toàn bộ đất trong vườn** |
-| 🌫️ Sương mù đêm | Sương lướt mặt hồ |
-| 🍃 Gió cuốn lá thu | Lá phong vàng chao liệng |
+| ☀️ Nắng trong (Sunny) | Trời xanh, tia sáng xiên kẽ lá, chim hót rộn rã |
+| 🌧️ Mưa rào tự nhiên (Rainy) | Mưa rào mát lành — **tự động tưới đẫm toàn bộ đất trong vườn** |
+| 🌫️ Sương mù ẩm ướt (Foggy) | Sương giăng mờ lướt mặt hồ, tầm nhìn hạn chế |
+| 🍃 Gió cuốn lá thu (Windy) | Lá phong vàng chao liệng cuốn theo chiều gió |
+| ❄️ Bão tuyết mùa đông (Blizzard) | Gió lạnh buốt giá, tuyết rơi dày đặc giữ chân dân làng trong nhà |
 
 ## Chu kỳ ánh sáng trong ngày
 

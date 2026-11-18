@@ -1007,3 +1007,168 @@
     white-space: nowrap;
   }
 }
+
+/* ---------- Enhanced Character Card Details (Trauma, Schedule, Gifts) ---------- */
+.traumaBox {
+  margin: $sp-3 0;
+  padding: $sp-3 $sp-4;
+  background: rgba(#e25858, 0.08);
+  border-left: 3px solid #e25858;
+  border-radius: 4px;
+}
+
+.traumaHeader {
+  display: flex;
+  align-items: center;
+  gap: $sp-2;
+  font-family: $font-pixel;
+  font-size: 11px;
+  color: #ff8585;
+  text-transform: uppercase;
+  margin-bottom: $sp-1;
+}
+
+.traumaText {
+  margin: 0;
+  font-size: 12px;
+  line-height: 1.5;
+  color: #f1b0b0;
+}
+
+.heartMilestoneBox {
+  margin: $sp-3 0;
+  padding: $sp-3 $sp-4;
+  background: rgba(#ffd043, 0.06);
+  border-left: 3px solid #ffd043;
+  border-radius: 4px;
+}
+
+.heartMilestoneHeader {
+  display: flex;
+  align-items: center;
+  gap: $sp-2;
+  font-family: $font-pixel;
+  font-size: 11px;
+  color: #ffd043;
+  text-transform: uppercase;
+  margin-bottom: $sp-1;
+}
+
+.heartMilestoneText {
+  margin: 0;
+  font-size: 12px;
+  line-height: 1.5;
+  color: #f5dfa8;
+}
+
+.scheduleTabsSection {
+  margin-top: $sp-4;
+  padding-top: $sp-3;
+  border-top: 1px dashed rgba($color-night-border, 0.9);
+}
+
+.scheduleHeader {
+  display: flex;
+  align-items: center;
+  gap: $sp-2;
+  font-family: $font-pixel;
+  font-size: 11px;
+  color: $color-amber-warm;
+  margin-bottom: $sp-2;
+  text-transform: uppercase;
+}
+
+.scheduleTabs {
+  display: flex;
+  gap: $sp-2;
+  margin-bottom: $sp-3;
+}
+
+.scheduleTabBtn {
+  background: rgba($color-night-surface, 0.8);
+  border: 1px solid rgba($color-night-border, 0.8);
+  color: $color-text-dim;
+  font-family: $font-pixel;
+  font-size: 10px;
+  padding: 4px 8px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+
+  &:hover {
+    color: #fff;
+    border-color: $color-amber-warm;
+  }
+
+  &.activeTab {
+    background: rgba($color-amber-warm, 0.15);
+    border-color: $color-amber-warm;
+    color: $color-amber-warm;
+  }
+}
+
+.scheduleTimeline {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  background: rgba(#0a0b10, 0.4);
+  padding: $sp-3;
+  border-radius: 4px;
+}
+
+.timelineRow {
+  display: flex;
+  align-items: flex-start;
+  gap: $sp-3;
+  font-size: 11px;
+  line-height: 1.4;
+}
+
+.timelineTime {
+  font-family: $font-pixel;
+  color: #79c0ff;
+  font-size: 10px;
+  min-width: 44px;
+}
+
+.timelineContent {
+  color: #d2d7df;
+}
+
+.timelineLocation {
+  color: #e3b341;
+  font-weight: 600;
+  margin-right: 4px;
+}
+
+.giftTiersSection {
+  margin-top: $sp-3;
+  display: flex;
+  flex-direction: column;
+  gap: $sp-2;
+}
+
+.giftTierRow {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.giftTierLabel {
+  font-family: $font-pixel;
+  font-size: 10px;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+
+  &.tierLoved {
+    color: #ff7b72;
+  }
+  &.tierLiked {
+    color: #7ee787;
+  }
+  &.tierHated {
+    color: #8b949e;
+  }
+}
+

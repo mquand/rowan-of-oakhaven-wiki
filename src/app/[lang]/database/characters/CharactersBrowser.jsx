@@ -7,6 +7,7 @@ import styles from '../Database.module.scss';
 import { lookupGift } from '../../../../lib/itemLookup';
 import { DEFAULT_LOCALE } from '../../../../lib/i18n/config';
 import { getDictionary } from '../../../../lib/i18n/getDictionary';
+import CharacterCard from './CharacterCard';
 
 const SHOP_IDS = ['npc_rowan', 'pet_pip', 'pet_mallow', 'npc_amalia'];
 
@@ -99,69 +100,15 @@ export default function CharactersBrowser({ characters, lang = DEFAULT_LOCALE })
 
   const renderCharCard = char => {
     const iconName = CHARACTER_ICONS[char.id] || 'users';
-    const favoriteItems = (char.favorite_items || []).map(id => lookupGift(id, lang));
-
     return (
-      <article key={char.id} className={`${styles.characterCard} pixel-frame`}>
-        <div className={styles.cardTop}>
-          <div className={styles.avatarSlot}>
-            <Icon name={iconName} size={30} />
-          </div>
-          <div className={styles.cardIdentity}>
-            <h2 className={styles.charName}>{char.name}</h2>
-            <div className={styles.charRole}>{char.role}</div>
-            <div className={styles.charMetaRow}>
-              <span className="badge forest">{char.species}</span>
-              <span className={styles.locationTag}>
-                <Icon name="map-pin" size={12} /> {char.location}
-              </span>
-              {char.birthday && (
-                <span className={styles.locationTag} style={{ color: '#ffcf40' }}>
-                  <Icon name="clock" size={12} /> {char.birthday}
-                </span>
-              )}
-            </div>
-          </div>
-        </div>
-
-        {char.quote && (
-          <div className={styles.quoteBubble}>
-            &ldquo;{char.quote}&rdquo;
-          </div>
-        )}
-
-        {char.schedule && (
-          <div className={styles.scheduleRow}>
-            <Icon name="clock" size={13} />
-            <span>{char.schedule}</span>
-          </div>
-        )}
-
-        <p className={styles.charBio}>{char.description}</p>
-
-        <div className={styles.giftsSection}>
-          <div className={styles.giftsLabel}>
-            <Icon name="heart" size={13} />
-            <span>{dict.database.browser.favoriteGifts}</span>
-          </div>
-          <div className={styles.giftsList}>
-            {favoriteItems.length > 0 ? (
-              favoriteItems.map((gift, idx) => (
-                <Link
-                  key={`${char.id}-gift-${idx}`}
-                  href={gift.href}
-                  className={styles.giftBadgeLink}
-                >
-                  <Icon name={gift.icon} size={13} />
-                  <span>{gift.name}</span>
-                </Link>
-              ))
-            ) : (
-              <span style={{ fontSize: '12px', color: '#8d92aa' }}>{isEn ? 'Discovering...' : 'Đang tìm hiểu...'}</span>
-            )}
-          </div>
-        </div>
-      </article>
+      <CharacterCard
+        key={char.id}
+        char={char}
+        lang={lang}
+        iconName={iconName}
+        dict={dict}
+        isEn={isEn}
+      />
     );
   };
 

@@ -56,7 +56,58 @@ Một năm gồm **112 ngày** (`4 mùa × 28 ngày`). Mỗi mùa có cây trồ
 
 Bốn mốc sáng trong ngày: **bình minh** (hồng cam, sương sớm) → **ban ngày** (nắng vàng) → **hoàng hôn** (tím than hổ phách) → **ban đêm** (xanh tím ma thuật, đèn lồng tự bật).
 
-Bốn kiểu thời tiết hạt: nắng trong, **mưa bụi sao** (tự tưới đẫm vườn), **sương mù đêm** lướt trên hồ, và **gió cuốn lá thu**.
+Bốn kiểu thời tiết hạt: nắng trong, **mưa rào tự nhiên** (tự tưới đẫm vườn), **sương mù ẩm ướt** lướt trên hồ, và **gió cuốn lá thu**.
+
+---
+
+## 🎁 Hệ Thống Quà Tặng & Giới Hạn Tình Cảm (Gifts & Friendship Limits)
+
+Để xây dựng mối quan hệ tự nhiên và tránh tình trạng người chơi "spam" dồn dập vật phẩm ép tăng tim nhanh chóng, game áp dụng quy chuẩn cân bằng nhịp độ:
+
+### 📊 Bảng Cân Bằng Điểm Tình Cảm (Friendship Balancing)
+- **Chuẩn điểm:** Mỗi Trái Tim tương đương **400 điểm**.
+- **Tổng điểm để đạt Full 8 Trái Tim (Tri Kỷ):** **3.200 điểm**.
+- **Nhịp độ trải nghiệm (Pacing):**
+  - **Người chơi chăm chỉ & tinh tế** (Tặng đúng món Loved, nhớ ngày sinh nhật, trò chuyện thường xuyên): Cán mốc 8 Tim sau khoảng **2 – 3 Mùa** (tương đương Mùa Thu hoặc Mùa Đông Năm 1).
+  - **Người chơi tự nhiên / thông thường** (Tặng quà rải rác món Liked, thỉnh thoảng phục vụ quán trà): Cán mốc 8 Tim vào **Mùa Xuân hoặc Mùa Hạ Năm 2**.
+  - Không quá nhanh để làm mất giá trị câu chuyện, nhưng cũng không quá cày cuốc (grindy) gây mệt mỏi.
+
+### 💖 Các Mốc Trái Tim & Ý Nghĩa:
+| Mốc Trái Tim | Tổng Điểm | Cấp Độ Quan Hệ | Ý Nghĩa Tâm Lý |
+| :---: | :---: | :--- | :--- |
+| **1 – 2 Tim** | 400 – 800 pts | Người quen lối xóm | Phá vỡ phòng vệ ban đầu, chịu mở lời chào hỏi |
+| **3 – 4 Tim** | 1.200 – 1.600 pts | Bạn bè thân thiết | Bắt đầu chia sẻ nỗi trăn trở, thói quen sinh hoạt |
+| **5 – 6 Tim** | 2.000 – 2.400 pts | Điểm tựa tin cậy | Bộc lộ vết nứt tâm lý đời thực (Trauma Arc) |
+| **7 – 8 Tim** | 2.800 – 3.200 pts | **Tri Kỷ Gắn Kết** | **Hàn gắn tổn thương**, mở khóa đại sự kiện & công trình mới |
+
+### ⚖️ Quy Tắc Thu Thập Điểm:
+- **Giới hạn thường nhật:** Tối đa **1 món quà / ngày** cho mỗi NPC.
+- **Giới hạn tuần:** Tối đa **2 món quà / tuần** cho mỗi NPC (Lịch tuần reset vào sáng sớm Thứ Hai).
+- **Phân loại quà:**
+  - ❤️ **Loved (+80 pts):** Món ăn an ủi ký ức, khoáng sản quý đặc thù.
+  - 👍 **Liked (+45 pts):** Nông sản tươi, bánh mì giòn, đồ ngọt hợp vị.
+  - 👎 **Disliked (-10 pts):** Món không hợp khẩu vị.
+  - ❌ **Hated (-30 pts):** Món gợi ký ức xấu hoặc dị ứng.
+- **Ngoại lệ Sinh Nhật (Birthday Bonus - Tối quan trọng!):** 
+  - Vào ngày sinh nhật của NPC, bạn **luôn được phép tặng 1 món quà sinh nhật**, ngay cả khi trong tuần đó bạn đã đạt giới hạn 2 món quà.
+  - Quà tặng đúng ngày sinh nhật được **nhân 5× điểm tình cảm** (Loved Gift từ +80 sẽ tăng vọt thành **+400 điểm**, tức trọn vẹn 1 Trái Tim chỉ sau một bữa ăn sinh nhật chu đáo!).
+- **Điểm trò chuyện hàng ngày:** Trò chuyện câu chào đầu tiên trong ngày với NPC đem lại **+20 điểm** (không bị tính vào giới hạn quà).
+
+### 🌟 Các Hoạt Động & Sự Kiện Gắn Kết Tăng Điểm Tình Cảm (Bonding Events)
+Không chỉ dựa vào quà tặng, tình cảm giữa Rowan và cư dân Oakhaven tăng trưởng mạnh mẽ qua các tương tác đời sống thường nhật và sự kiện cộng đồng:
+
+1. **Phục vụ trà bánh buổi tối tại quán:**
+   - Khách ghé quán lúc 18:00 – 23:00, nhận đúng món bánh/tách trà đạt **3 Sao** (đúng công thức, căn lửa chuẩn, phục vụ nhanh) $\rightarrow$ Thưởng **+40 đến +60 điểm tình cảm**.
+   - Phục vụ đúng **Món an ủi ký ức (Comfort Food)** khi khách đang trĩu nặng ưu phiền $\rightarrow$ Thưởng **+100 điểm**.
+2. **Tham gia Lễ Hội & Sự Kiện Mùa (Festival Bonding):**
+   - Đêm Hội Bánh Mùa Thu & Lồng Đèn (20 Mùa Thu): Mời NPC cùng thả đèn hoa đăng hoặc cùng nếm bánh thi $\rightarrow$ Tăng **+150 điểm** với người đồng hành và **+30 điểm** thiện cảm toàn thị trấn.
+   - Hội Chợ Thuyền Buôn Garrick (Chủ Nhật): Tiếp đón đoàn buôn và hỗ trợ dân làng khuân vác $\rightarrow$ Tăng điểm gắn kết cộng đồng.
+3. **Hoàn thành Nhiệm Vụ Bảng Tin Hiệp Hội (Help Wanted Board Quests):**
+   - Giúp Boris đem than đá, giúp bà Maeve tìm hạt giống thất lạc, giúp Clara dọn sách $\rightarrow$ Ngoài tiền công, nhận ngay **+100 điểm tình cảm**.
+4. **Lựa chọn đối thoại thấu cảm trong Tuyến Sự Kiện Trái Tim (Heart Cutscenes):**
+   - Khi kích hoạt mốc 2, 4, 6, 8 Tim, người chơi đứng trước các lựa chọn lời thoại. Chọn câu trả lời thấu hiểu nỗi đau (Active Listening) $\rightarrow$ Thưởng ngay **+50 đến +100 điểm**; chọn câu vô tâm hoặc ép buộc sẽ không được cộng điểm.
+5. **Cứu hộ & Tiếp tế hầm sâu:**
+   - Tiếp tế cơm hộp dã chiến cho đội cứu hộ của Thorne & Valerie, hoặc tặng đá quý khai khoáng hiếm cho Bram $\rightarrow$ Nhận điểm tình cảm đặc biệt.
 
 ---
 

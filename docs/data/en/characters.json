@@ -74,7 +74,60 @@
       "schedule": "Afternoon: Strolls through Whisperwood; Evening: Quiet corner at tea shop",
       "real_world_wound": "Hybrid outcast shunned by both fae and beastfolk; yearns for warmth yet dreads hostility.",
       "comfort_dish": "tra_sen_an_than",
-      "heart_event_summary": "Finds a loving, safe sanctuary beside Rowan's tavern kitchen hearth."
+      "heart_event_summary": "Finds a loving, safe sanctuary beside Rowan's tavern kitchen hearth.",
+      "gift_preferences": {
+        "loved": [
+          "tra_sen_bach_diep",
+          "xoi_hat_sen_nuoc_cot_dua",
+          "dau_rung"
+        ],
+        "liked": [
+          "oai_huong",
+          "mat_ong",
+          "banh_deo_trang_ram_hoa_buoi"
+        ],
+        "disliked": [
+          "thit_nuong_lua_dia_nguc",
+          "ore_coal"
+        ],
+        "hated": [
+          "bit_tet_nuong_than_soi",
+          "ruou_trai_cay_len_men"
+        ]
+      },
+      "schedules": {
+        "default": {
+          "sunny": [
+            {
+              "time": "09:00",
+              "location": "Rừng Thầm Thì",
+              "activity": "Đi dạo hái dâu rừng và trò chuyện cùng muông thú"
+            },
+            {
+              "time": "14:00",
+              "location": "Bờ Hồ Trăng",
+              "activity": "Ngồi dưới tán cây phong soi bóng đôi tai xù dưới làn nước"
+            },
+            {
+              "time": "18:00",
+              "location": "Tiệm Trà & Bánh Oakhaven",
+              "activity": "Ngồi ở chiếc bàn góc trong cùng, uống trà sen thanh dịu"
+            }
+          ],
+          "rainy": [
+            {
+              "time": "10:00",
+              "location": "Gốc Cây Cổ Thụ Rừng",
+              "activity": "Trú mưa dưới tán lá khổng lồ nghe tiếng mưa rào"
+            },
+            {
+              "time": "15:00",
+              "location": "Tiệm Trà & Bánh Oakhaven",
+              "activity": "Vào tiệm hong khô khăn len đỏ bên lò sưởi ấm"
+            }
+          ]
+        }
+      }
     },
     {
       "id": "npc_boris",
@@ -93,7 +146,138 @@
       "schedule": "07:00 - 18:00: At the forge anvil; 19:00: Cinnamon rolls at the tea shop",
       "real_world_wound": "Tormented by a 10-year-old mine collapse that crippled Bram; overprotective to a fault out of terror.",
       "comfort_dish": "dish_dwarf_ironforge_goulash",
-      "heart_event_summary": "Reconciles 10 years of estrangement after sharing family goulash at 8 Hearts; unlocks Advanced Refining Forge."
+      "heart_event_summary": "Reconciles 10 years of estrangement after sharing family goulash at 8 Hearts; unlocks Advanced Refining Forge.",
+      "gift_preferences": {
+        "loved": [
+          "banh_pie_tao_que_lo_dat",
+          "bo_ham_ruou_vang_mo",
+          "ore_gold"
+        ],
+        "liked": [
+          "banh_mi_lua_mi_gion",
+          "ore_iron",
+          "ore_copper",
+          "ore_coal"
+        ],
+        "disliked": [
+          "salad_trai_cay_mua_ha",
+          "nuoc_ep_dua_luoi_bang_gia"
+        ],
+        "hated": [
+          "bot_sao",
+          "drop_crystal_sea_salt"
+        ]
+      },
+      "schedules": {
+        "default": {
+          "sunny": [
+            {
+              "time": "06:30",
+              "location": "Lò Rèn Oakhaven",
+              "activity": "Thức dậy, nhóm lò than rực đỏ"
+            },
+            {
+              "time": "08:00",
+              "location": "Lò Rèn Oakhaven",
+              "activity": "Rèn nông cụ và mài kiếm cho mạo hiểm giả"
+            },
+            {
+              "time": "12:30",
+              "location": "Lò Rèn Oakhaven",
+              "activity": "Ăn bánh mì khô và uống nước lá đun sôi"
+            },
+            {
+              "time": "13:30",
+              "location": "Lò Rèn Oakhaven",
+              "activity": "Đập đe tôi thép, gia công cuốc xẻng"
+            },
+            {
+              "time": "17:30",
+              "location": "Lò Rèn Oakhaven",
+              "activity": "Đứng trước hiên nhìn về phía mỏ đá thở dài lo cho Bram"
+            },
+            {
+              "time": "19:30",
+              "location": "Tiệm Trà & Bánh Oakhaven",
+              "activity": "Ăn bánh nướng ấm áp bên bếp lò, nhâm nhi trà nóng"
+            },
+            {
+              "time": "22:30",
+              "location": "Nhà Riêng Sau Lò Rèn",
+              "activity": "Về nhà nghỉ ngơi sau ngày dài quai búa"
+            }
+          ],
+          "rainy": [
+            {
+              "time": "07:30",
+              "location": "Kho Trong Lò Rèn",
+              "activity": "Tránh mưa tạt, mài đinh tán và sửa bễ thổi"
+            },
+            {
+              "time": "12:00",
+              "location": "Kho Trong Lò Rèn",
+              "activity": "Kiểm kê than đá và quặng sắt tồn kho"
+            },
+            {
+              "time": "18:00",
+              "location": "Tiệm Trà & Bánh Oakhaven",
+              "activity": "Trú mưa sớm, gọi bát súp bò hầm nóng làm ấm xương khớp"
+            }
+          ]
+        },
+        "wednesday": {
+          "sunny": [
+            {
+              "time": "08:30",
+              "location": "Lò Rèn Oakhaven",
+              "activity": "Dập lửa xả xỉ than bảo dưỡng định kỳ lò"
+            },
+            {
+              "time": "13:00",
+              "location": "Bến Cảng Bờ Hồ",
+              "activity": "Gặp Thuyền trưởng Garrick đẽo cán búa gỗ và nghe chuyện viễn du"
+            },
+            {
+              "time": "17:00",
+              "location": "Quảng Trường Thị Trấn",
+              "activity": "Mua chút nhu yếu phẩm rồi về nhà"
+            }
+          ]
+        },
+        "sunday": {
+          "all_weather": [
+            {
+              "time": "08:30",
+              "location": "Bến Cảng Bờ Hồ",
+              "activity": "Đón thuyền buôn cập bến xem có quặng quý ngoại quốc"
+            },
+            {
+              "time": "14:00",
+              "location": "Tiệm Trà & Bánh Oakhaven",
+              "activity": "Ngồi đàm đạo cùng Maeve và Garrick"
+            },
+            {
+              "time": "19:00",
+              "location": "Nhà Riêng Sau Lò Rèn",
+              "activity": "Bảo dưỡng bộ đồ nghề thợ rèn gia truyền"
+            }
+          ]
+        },
+        "winter": {
+          "blizzard": [
+            {
+              "time": "06:00",
+              "location": "Lò Rèn Oakhaven",
+              "activity": "Giữ lửa lò sưởi ấm cho cả dãy phố biên viễn"
+            },
+            {
+              "time": "19:00",
+              "location": "Tiệm Trà & Bánh Oakhaven",
+              "activity": "Nhanh chóng ghé ăn bát súp nóng rồi về trực lò"
+            }
+          ]
+        }
+      }
     },
     {
       "id": "npc_maeve",
@@ -112,7 +296,104 @@
       "schedule": "06:00 - 17:00: Selling seeds in Town Square; Evening: Strolling riverside",
       "real_world_wound": "Debilitating joint degeneration; fears dying and leaving orphaned Kael alone in a harsh world.",
       "comfort_dish": "dish_sweet_pumpkin_potage",
-      "heart_event_summary": "Rescued during a midnight winter storm; safely bequeaths the Four-Seasons Nursery at 8 Hearts."
+      "heart_event_summary": "Rescued during a midnight winter storm; safely bequeaths the Four-Seasons Nursery at 8 Hearts.",
+      "gift_preferences": {
+        "loved": [
+          "bi_do_nuong_pho_mai_deo",
+          "tra_sen_bach_diep",
+          "seed_sen_tea"
+        ],
+        "liked": [
+          "seed_sun_daisy",
+          "seed_silver_wheat",
+          "mat_ong",
+          "dau_rung"
+        ],
+        "disliked": [
+          "bit_tet_nuong_than_soi",
+          "lau_ca_cay_ham_nguc"
+        ],
+        "hated": [
+          "ore_coal",
+          "drop_prism_jelly"
+        ]
+      },
+      "schedules": {
+        "default": {
+          "sunny": [
+            {
+              "time": "06:00",
+              "location": "Vườn Ươm Oakhaven",
+              "activity": "Tưới luống sen tuyết và bắt sâu cùng Kael"
+            },
+            {
+              "time": "10:00",
+              "location": "Quảng Trường Thị Trấn",
+              "activity": "Bày sạp bán hạt giống và hoa quả tươi"
+            },
+            {
+              "time": "12:30",
+              "location": "Gốc Cây Cổ Thụ Quảng Trường",
+              "activity": "Cùng Kael ăn cơm nắm mè rang dưới bóng mát"
+            },
+            {
+              "time": "14:30",
+              "location": "Hiên Nhà Vườn",
+              "activity": "Ngồi ghế bập bênh xâu hạt hoa và đan khăn len"
+            },
+            {
+              "time": "18:30",
+              "location": "Nhà Riêng Cạnh Vườn",
+              "activity": "Dặn Kael đóng cửa chuồng gà và vào ăn tối"
+            }
+          ],
+          "rainy": [
+            {
+              "time": "07:30",
+              "location": "Trong Nhà Ấm Cúng",
+              "activity": "Mưa tự tưới cây nên ở trong nhà xoa dầu tràm lên khớp gối"
+            },
+            {
+              "time": "11:00",
+              "location": "Trong Nhà Ấm Cúng",
+              "activity": "Dạy Kael tập đọc chữ qua các túi đựng hạt giống"
+            },
+            {
+              "time": "16:30",
+              "location": "Tiệm Trà & Bánh Oakhaven",
+              "activity": "Sang trò chuyện cùng Rowan và uống trà hoa cúc ấm"
+            }
+          ]
+        },
+        "sunday": {
+          "sunny": [
+            {
+              "time": "08:00",
+              "location": "Bến Cảng Bờ Hồ",
+              "activity": "Đón tàu Garrick xem có hạt giống hải ngoại độc lạ"
+            },
+            {
+              "time": "11:30",
+              "location": "Quảng Trường Thị Trấn",
+              "activity": "Hàn huyên cùng hội phụ lão Oakhaven"
+            }
+          ]
+        },
+        "winter": {
+          "blizzard": [
+            {
+              "time": "08:00",
+              "location": "Nhà Kính Kín Gió",
+              "activity": "Chăm chút vài chậu mầm nhạy cảm với sương giá"
+            },
+            {
+              "time": "15:00",
+              "location": "Bếp Lò Trong Nhà",
+              "activity": "Hầm nồi súp bí đỏ hạt sen bồi dưỡng cho Kael"
+            }
+          ]
+        }
+      }
     },
     {
       "id": "npc_kael",
@@ -131,7 +412,90 @@
       "schedule": "Morning: Practice yard; Evening: Sipping cold berry tea",
       "real_world_wound": "Acute abandonment trauma; overworks himself in freezing gales out of terror of being discarded.",
       "comfort_dish": "cake_fairy_birthday",
-      "heart_event_summary": "Discovers Maeve's secret apprenticeship fund; blossoms into the town's young nursery keeper at 8 Hearts."
+      "heart_event_summary": "Discovers Maeve's secret apprenticeship fund; blossoms into the town's young nursery keeper at 8 Hearts.",
+      "gift_preferences": {
+        "loved": [
+          "xoi_hat_sen_nuoc_cot_dua",
+          "banh_cau_vong_4_mua",
+          "mat_ong"
+        ],
+        "liked": [
+          "dau_rung",
+          "com_nam_muoi_rung",
+          "bap_xao_bo_cay",
+          "item_sugar"
+        ],
+        "disliked": [
+          "canh_thao_moc_bup_sen",
+          "ore_coal"
+        ],
+        "hated": [
+          "ruou_trai_cay_len_men",
+          "bit_tet_nuong_than_soi"
+        ]
+      },
+      "schedules": {
+        "default": {
+          "sunny": [
+            {
+              "time": "06:00",
+              "location": "Vườn Ươm Oakhaven",
+              "activity": "Hăng hái xách xô nước phụ bà Maeve tưới luống hoa"
+            },
+            {
+              "time": "10:00",
+              "location": "Quảng Trường Thị Trấn",
+              "activity": "Chạy lăng xăng giúp bà giao túi hạt cho khách"
+            },
+            {
+              "time": "12:30",
+              "location": "Gốc Cây Cổ Thụ",
+              "activity": "Ngồi ăn cơm nắm và khoe với bà chiếc lông chim nhặt được"
+            },
+            {
+              "time": "14:30",
+              "location": "Bờ Suối Rừng Thầm Thì",
+              "activity": "Chơi ném thia la lia đá trên mặt nước mát"
+            },
+            {
+              "time": "18:00",
+              "location": "Tiệm Trà & Bánh Oakhaven",
+              "activity": "Chạy sang xin Rowan bát súp ấm đem về cho bà"
+            }
+          ],
+          "rainy": [
+            {
+              "time": "08:00",
+              "location": "Hiên Nhà Vườn",
+              "activity": "Ngắm bong bóng mưa vỡ trên sân"
+            },
+            {
+              "time": "11:00",
+              "location": "Tiệm Trà & Bánh Oakhaven",
+              "activity": "Trú mưa bên bếp lửa, ngồi vẽ tranh cùng mèo Mallow"
+            },
+            {
+              "time": "17:00",
+              "location": "Nhà Riêng Cạnh Vườn",
+              "activity": "Đội nón lá chạy về nhà quây quần bên bà Maeve"
+            }
+          ]
+        },
+        "sunday": {
+          "all_weather": [
+            {
+              "time": "08:00",
+              "location": "Bến Cảng Bờ Hồ",
+              "activity": "Phụ bác Garrick vác bao tải nhỏ với vẻ mặt tự hào"
+            },
+            {
+              "time": "14:00",
+              "location": "Bãi Cỏ Bìa Rừng",
+              "activity": "Chạy đuổi bướm và hái hoa dại cắm bình cho bà"
+            }
+          ]
+        }
+      }
     },
     {
       "id": "npc_amalia",
@@ -168,7 +532,95 @@
       "schedule": "08:00 - 17:00: Mine shafts entrance; Evening: Arguing at Boris's forge",
       "real_world_wound": "Pride wounded by brotherly pity; dives into lethal depths to prove he is still a whole, capable man.",
       "comfort_dish": "bread_miner_sourdough",
-      "heart_event_summary": "Acknowledges brother's love at 8 Hearts; pairs with Boris to forge legendary mastercraft picks."
+      "heart_event_summary": "Acknowledges brother's love at 8 Hearts; pairs with Boris to forge legendary mastercraft picks.",
+      "gift_preferences": {
+        "loved": [
+          "banh_mi_den_dai_han",
+          "sup_cu_den_do_dai_ngan",
+          "gem_amethyst"
+        ],
+        "liked": [
+          "ore_coal",
+          "ore_iron",
+          "da_tinh_the",
+          "khoai_tay_nuong_bo_toi"
+        ],
+        "disliked": [
+          "banh_deo_trang_ram_hoa_buoi",
+          "sua_bo_nong_mat_ong"
+        ],
+        "hated": [
+          "ruou_trai_cay_len_men",
+          "drop_golden_pollen"
+        ]
+      },
+      "schedules": {
+        "default": {
+          "sunny": [
+            {
+              "time": "07:00",
+              "location": "Lối Mòn Sau Rừng",
+              "activity": "Lén đi đường vòng sau núi né mặt anh trai Boris"
+            },
+            {
+              "time": "08:00",
+              "location": "Cửa Hang Mỏ (Tầng 1-20)",
+              "activity": "Đào thạch anh và quặng sắt tầng nông"
+            },
+            {
+              "time": "12:30",
+              "location": "Vòm Đá Hang Mỏ",
+              "activity": "Ngồi bóp chiếc chân giả đau nhức, ăn củ khoai nướng"
+            },
+            {
+              "time": "14:00",
+              "location": "Hang Mỏ (Tầng 15)",
+              "activity": "Lần mò tìm khoáng mạch mới"
+            },
+            {
+              "time": "17:00",
+              "location": "Mỏm Đá Ven Cửa Động",
+              "activity": "Ngắm ráng chiều buông xuống thung lũng Oakhaven"
+            },
+            {
+              "time": "20:30",
+              "location": "Tiệm Trà & Bánh Oakhaven",
+              "activity": "Chờ Boris về mới lén vào mua bánh mì đem về nhà ăn"
+            }
+          ],
+          "rainy": [
+            {
+              "time": "08:30",
+              "location": "Căn Lều Bìa Rừng",
+              "activity": "Mưa làm trơn trượt cửa hang, ngồi nhà mài lại lưỡi cuốc"
+            },
+            {
+              "time": "13:00",
+              "location": "Tiệm Trà & Bánh Oakhaven",
+              "activity": "Ngồi góc khuất nhìn ra ô cửa mưa rơi, uống trà đắng"
+            },
+            {
+              "time": "18:00",
+              "location": "Căn Lều Bìa Rừng",
+              "activity": "Về lều thắp nến xem bản đồ trắc địa hang sâu"
+            }
+          ]
+        },
+        "sunday": {
+          "all_weather": [
+            {
+              "time": "09:00",
+              "location": "Bờ Hồ Oakhaven",
+              "activity": "Ngồi thả cần câu một mình tránh xa sự ồn ào"
+            },
+            {
+              "time": "16:00",
+              "location": "Đài Quan Sát Gió",
+              "activity": "Đứng đón gió núi làm dịu nỗi bức bối trong lòng"
+            }
+          ]
+        }
+      }
     },
     {
       "id": "npc_penny",
@@ -187,7 +639,65 @@
       "schedule": "08:00 - 16:00: Postal run; 18:00: Dropping letters off at the tea shop",
       "real_world_wound": "Orphaned niece raised by bachelor dwarven uncles; dreams of running an independent mobile bakery cart.",
       "comfort_dish": "pastry_berry_shortcake",
-      "heart_event_summary": "Receives a custom-crafted rolling pastry cart from Boris and Bram at 8 Hearts."
+      "heart_event_summary": "Receives a custom-crafted rolling pastry cart from Boris and Bram at 8 Hearts.",
+      "gift_preferences": {
+        "loved": [
+          "tart_dau_tuyet_lanh",
+          "banh_cau_vong_4_mua",
+          "dau_rung"
+        ],
+        "liked": [
+          "banh_mi_lua_mi_gion",
+          "mat_ong",
+          "item_butter"
+        ],
+        "disliked": [
+          "bo_ham_ruou_vang_mo",
+          "ore_coal"
+        ],
+        "hated": [
+          "ruou_trai_cay_len_men",
+          "bit_tet_nuong_than_soi"
+        ]
+      },
+      "schedules": {
+        "default": {
+          "sunny": [
+            {
+              "time": "07:00",
+              "location": "Quảng Trường Thị Trấn",
+              "activity": "Đẩy xe bánh dạo nhỏ rộn rã tiếng chuông leng keng"
+            },
+            {
+              "time": "12:00",
+              "location": "Lò Rèn Oakhaven",
+              "activity": "Mang bánh mì qua cho chú Boris và chú Bram"
+            },
+            {
+              "time": "15:00",
+              "location": "Bến Cảng Bờ Hồ",
+              "activity": "Bán bánh cho các thủy thủ và khách vãng lai"
+            },
+            {
+              "time": "18:00",
+              "location": "Tiệm Trà & Bánh Oakhaven",
+              "activity": "Học hỏi bí quyết nướng bánh mới từ Rowan"
+            }
+          ],
+          "rainy": [
+            {
+              "time": "09:00",
+              "location": "Nhà Bếp Sau Lò Rèn",
+              "activity": "Mưa không đẩy xe bánh được, ở nhà thử nghiệm công thức bánh mới"
+            },
+            {
+              "time": "14:00",
+              "location": "Tiệm Trà & Bánh Oakhaven",
+              "activity": "Sang trò chuyện cùng Rowan và nhâm nhi trà ngọt"
+            }
+          ]
+        }
+      }
     },
     {
       "id": "npc_orion",
@@ -206,7 +716,70 @@
       "schedule": "Night: Stargazing at Observatory; Morning: Napping in library",
       "real_world_wound": "Progressive dementia (Alzheimer's); desperately stays awake to spot his late wife's star before memory fades.",
       "comfort_dish": "pastry_berry_shortcake",
-      "heart_event_summary": "Reconstructs Elise's star map with Clara at 8 Hearts, cherishing fleeting lucid clarity."
+      "heart_event_summary": "Reconstructs Elise's star map with Clara at 8 Hearts, cherishing fleeting lucid clarity.",
+      "gift_preferences": {
+        "loved": [
+          "banh_tart_viet_quat_bui_sao",
+          "da_tinh_the",
+          "gem_sapphire"
+        ],
+        "liked": [
+          "tra_sen_bach_diep",
+          "chao_yen_mach_mat_ong",
+          "gem_amethyst"
+        ],
+        "disliked": [
+          "thit_nuong_lua_dia_nguc",
+          "lap_xuong_tieu_den_mo_da"
+        ],
+        "hated": [
+          "ore_coal",
+          "canh_chua_ca_suoi_cay"
+        ]
+      },
+      "schedules": {
+        "default": {
+          "sunny": [
+            {
+              "time": "11:00",
+              "location": "Đài Thiên Văn Đỉnh Đồi",
+              "activity": "Thức dậy sau đêm dài ngắm sao, dụi mắt tìm kính lão"
+            },
+            {
+              "time": "13:00",
+              "location": "Thư Viện Oakhaven",
+              "activity": "Tìm sách cổ thiên văn, lẩm bẩm tên vợ Elise"
+            },
+            {
+              "time": "17:00",
+              "location": "Tiệm Trà & Bánh Oakhaven",
+              "activity": "Uống trà thảo mộc định thần do Clara dắt sang"
+            },
+            {
+              "time": "20:00",
+              "location": "Đài Thiên Văn Đỉnh Đồi",
+              "activity": "Thức trắng đêm bên kính thiên văn truy tìm chòm sao Elise"
+            }
+          ],
+          "rainy": [
+            {
+              "time": "10:00",
+              "location": "Đài Thiên Văn Đỉnh Đồi",
+              "activity": "Mây mù che kín sao, bồn chồn lo lắng đi đi lại lại"
+            },
+            {
+              "time": "14:00",
+              "location": "Quảng Trường Thị Trấn",
+              "activity": "Che ô rách đi lạc ngơ ngác giữa làn mưa"
+            },
+            {
+              "time": "16:00",
+              "location": "Thư Viện Oakhaven",
+              "activity": "Được Clara tìm thấy và dắt về sưởi ấm"
+            }
+          ]
+        }
+      }
     },
     {
       "id": "npc_clara",
@@ -225,7 +798,75 @@
       "schedule": "08:00 - 17:00: Library and dispensary; Evening: Calming lavender tea",
       "real_world_wound": "Caregiver burnout; tore up a royal scholarship to care for her ailing father, mourning lost youth.",
       "comfort_dish": "tea_earl_grey_clara",
-      "heart_event_summary": "Finds emotional balance and unseals the Ancient Recipe Archives in the library at 8 Hearts."
+      "heart_event_summary": "Finds emotional balance and unseals the Ancient Recipe Archives in the library at 8 Hearts.",
+      "gift_preferences": {
+        "loved": [
+          "tra_sen_bach_diep",
+          "banh_quy_gung_giu_am",
+          "oai_huong"
+        ],
+        "liked": [
+          "banh_mi_lua_mi_gion",
+          "mat_ong",
+          "seed_star_lavender"
+        ],
+        "disliked": [
+          "thit_nuong_lua_dia_nguc",
+          "lau_ca_cay_ham_nguc"
+        ],
+        "hated": [
+          "ore_coal",
+          "drop_prism_jelly"
+        ]
+      },
+      "schedules": {
+        "default": {
+          "sunny": [
+            {
+              "time": "07:30",
+              "location": "Đài Thiên Văn Đỉnh Đồi",
+              "activity": "Nấu cháo yến mạch và để sẵn thuốc bổ cho cha"
+            },
+            {
+              "time": "08:30",
+              "location": "Thư Viện Oakhaven",
+              "activity": "Mở cửa thư viện, phân loại bản đồ cổ và tài liệu"
+            },
+            {
+              "time": "12:00",
+              "location": "Thư Viện Oakhaven",
+              "activity": "Đọc lại những bức thư học bổng cũ rồi cất vào ngăn kéo"
+            },
+            {
+              "time": "17:00",
+              "location": "Tiệm Trà & Bánh Oakhaven",
+              "activity": "Dắt cha sang uống trà, thưởng thức bánh quy bơ"
+            },
+            {
+              "time": "19:30",
+              "location": "Thư Viện Oakhaven",
+              "activity": "Khóa cửa thư viện, chuẩn bị trà đêm cho cha"
+            }
+          ],
+          "rainy": [
+            {
+              "time": "08:00",
+              "location": "Thư Viện Oakhaven",
+              "activity": "Kê chậu hứng nước dột từ mái ngói cổ"
+            },
+            {
+              "time": "14:30",
+              "location": "Quảng Trường Thị Trấn",
+              "activity": "Cầm ô hớt hải đi tìm cha đang đi lạc dưới mưa"
+            },
+            {
+              "time": "16:30",
+              "location": "Tiệm Trà & Bánh Oakhaven",
+              "activity": "Cùng cha trú mưa và uống trà nóng làm dịu thần kinh"
+            }
+          ]
+        }
+      }
     },
     {
       "id": "npc_garrick",
@@ -244,7 +885,74 @@
       "schedule": "Sunday Morning: Anchoring his nautilus vessel by the pier market",
       "real_world_wound": "Color-blind and arthritic; agonizes over feeling like beached driftwood stripped of purpose.",
       "comfort_dish": "dish_magma_seafood_paella",
-      "heart_event_summary": "Passes maritime dreams to Finn and invests in opening new lake trading routes."
+      "heart_event_summary": "Passes maritime dreams to Finn and invests in opening new lake trading routes.",
+      "gift_preferences": {
+        "loved": [
+          "ca_suoi_nuong_muoi_ot",
+          "ruou_trai_cay_len_men",
+          "drop_crystal_sea_salt"
+        ],
+        "liked": [
+          "com_nam_muoi_rung",
+          "bit_tet_nuong_than_soi",
+          "ore_gold"
+        ],
+        "disliked": [
+          "banh_cau_vong_4_mua",
+          "sua_bo_nong_mat_ong"
+        ],
+        "hated": [
+          "bot_sao",
+          "banh_deo_trang_ram_hoa_buoi"
+        ]
+      },
+      "schedules": {
+        "default": {
+          "sunny": [
+            {
+              "time": "06:00",
+              "location": "Bến Cảng Bờ Hồ",
+              "activity": "Kiểm tra neo tàu và vá lại mảnh lưới đánh cá"
+            },
+            {
+              "time": "10:00",
+              "location": "Mạn Thuyền Gỗ",
+              "activity": "Dạy chú bé Finn cách thắt các nút dây thủy thủ"
+            },
+            {
+              "time": "14:00",
+              "location": "Bến Cảng Bờ Hồ",
+              "activity": "Hút tẩu thuốc lá ngắm mây trôi trên hồ nước"
+            },
+            {
+              "time": "18:30",
+              "location": "Tiệm Trà & Bánh Oakhaven",
+              "activity": "Kể chuyện quái vật biển mây cho khách nghe"
+            }
+          ],
+          "rainy": [
+            {
+              "time": "07:00",
+              "location": "Khoang Tàu Trú Mưa",
+              "activity": "Uống ngụm rượu trái cây sưởi ấm, xoa ngực áo"
+            },
+            {
+              "time": "14:00",
+              "location": "Tiệm Trà & Bánh Oakhaven",
+              "activity": "Ngồi cạnh lò sưởi nhấp trà cay nồng nướng cá"
+            }
+          ]
+        },
+        "sunday": {
+          "all_weather": [
+            {
+              "time": "07:00",
+              "location": "Bến Cảng Bờ Hồ",
+              "activity": "Họp chợ phiên bờ hồ, trao đổi hải sản và đặc sản biển"
+            }
+          ]
+        }
+      }
     },
     {
       "id": "npc_finn",
@@ -263,7 +971,65 @@
       "schedule": "06:00 - 18:00: Angling by the starlight brook; Evening: Warming by hearth",
       "real_world_wound": "Fishes tirelessly to buy back the ancestral Silver Compass Garrick pawned for family medicine.",
       "comfort_dish": "item_tea_frostmint_breeze",
-      "heart_event_summary": "Recovers the heirloom compass and trains as Oakhaven's next adventurous navigator."
+      "heart_event_summary": "Recovers the heirloom compass and trains as Oakhaven's next adventurous navigator.",
+      "gift_preferences": {
+        "loved": [
+          "nuoc_ep_dua_luoi_bang_gia",
+          "banh_quy_gung_giu_am",
+          "da_tinh_the"
+        ],
+        "liked": [
+          "dau_rung",
+          "com_nam_muoi_rung",
+          "bap_xao_bo_cay"
+        ],
+        "disliked": [
+          "canh_thao_moc_bup_sen",
+          "bo_ham_ruou_vang_mo"
+        ],
+        "hated": [
+          "ruou_trai_cay_len_men",
+          "ore_coal"
+        ]
+      },
+      "schedules": {
+        "default": {
+          "sunny": [
+            {
+              "time": "06:30",
+              "location": "Bờ Đá Hồ Sương Mù",
+              "activity": "Thả cần câu cá sớm gom tiền chuộc la bàn cho ông"
+            },
+            {
+              "time": "11:00",
+              "location": "Bến Cảng Bờ Hồ",
+              "activity": "Giao mớ cá tươi câu được cho quán ăn của Rowan"
+            },
+            {
+              "time": "14:00",
+              "location": "Bờ Suối Rừng Thầm Thì",
+              "activity": "Chơi đùa cùng Kael nhặt ốc sên và vỏ sò"
+            },
+            {
+              "time": "18:00",
+              "location": "Tiệm Trà & Bánh Oakhaven",
+              "activity": "Ngồi nghe ông nội Garrick kể chuyện phiêu lưu"
+            }
+          ],
+          "rainy": [
+            {
+              "time": "09:00",
+              "location": "Khoang Tàu Bến Cảng",
+              "activity": "Ngồi bên ông nội quấn dây cước câu cá"
+            },
+            {
+              "time": "13:30",
+              "location": "Tiệm Trà & Bánh Oakhaven",
+              "activity": "Ăn bánh quy gừng thơm giòn ngắm mưa rơi"
+            }
+          ]
+        }
+      }
     },
     {
       "id": "npc_elora",
@@ -410,7 +1176,75 @@
       "schedule": "08:00 - 22:00: Commanding guild hall operations; Night: Inspecting mine barricades",
       "real_world_wound": "Haunted by severe Survivor's Guilt after his 18-soldier platoon perished in the Sunken Necropolis.",
       "comfort_dish": "dish_spicy_ginger_stew",
-      "heart_event_summary": "Releases past ghosts at 8 Hearts; mobilizes the Deep-Mine Rescue Strike Force, halving rescue penalties."
+      "heart_event_summary": "Releases past ghosts at 8 Hearts; mobilizes the Deep-Mine Rescue Strike Force, halving rescue penalties.",
+      "gift_preferences": {
+        "loved": [
+          "dui_rung_hun_khoi_da_chien",
+          "bit_tet_nuong_than_soi",
+          "ore_gold"
+        ],
+        "liked": [
+          "thit_xong_khoi_cui_go_soi",
+          "ore_iron",
+          "bo_ham_ruou_vang_mo"
+        ],
+        "disliked": [
+          "banh_cau_vong_4_mua",
+          "nuoc_mia_ep_gung_am"
+        ],
+        "hated": [
+          "bot_sao",
+          "banh_deo_trang_ram_hoa_buoi"
+        ]
+      },
+      "schedules": {
+        "default": {
+          "sunny": [
+            {
+              "time": "06:00",
+              "location": "Hiệp Hội Mạo Hiểm",
+              "activity": "Dậy sớm lau chùi thanh cự kiếm và kiểm tra chân giả"
+            },
+            {
+              "time": "08:00",
+              "location": "Bảng Nhiệm Vụ Oakhaven",
+              "activity": "Ghim lệnh truy nã quái vật và cứu hộ hầm sâu"
+            },
+            {
+              "time": "12:00",
+              "location": "Hiệp Hội Mạo Hiểm",
+              "activity": "Duyệt hồ sơ cứu nạn cùng Valerie"
+            },
+            {
+              "time": "16:00",
+              "location": "Bia Tưởng Niệm Bìa Rừng",
+              "activity": "Đứng nghiêm trang tưởng nhớ 18 đồng đội đã khuất"
+            },
+            {
+              "time": "19:00",
+              "location": "Tiệm Trà & Bánh Oakhaven",
+              "activity": "Ăn phần thịt nướng đậm vị và uống trà ấm"
+            }
+          ],
+          "rainy": [
+            {
+              "time": "08:00",
+              "location": "Hiệp Hội Mạo Hiểm",
+              "activity": "Thời tiết xấu khiến vết thương chân buốt nhức"
+            },
+            {
+              "time": "14:00",
+              "location": "Kho Vật Tư Hiệp Hội",
+              "activity": "Kiểm tra dây thừng và túi cứu thương dã chiến"
+            },
+            {
+              "time": "18:30",
+              "location": "Tiệm Trà & Bánh Oakhaven",
+              "activity": "Gặp Rowan đặt nấu các phần cơm hộp cứu hộ"
+            }
+          ]
+        }
+      }
     },
     {
       "id": "npc_valerie",
@@ -429,7 +1263,65 @@
       "schedule": "08:00 - 20:00: Managing lost items desk; 20:30: Dining at Rowan's Hearth Eatery",
       "real_world_wound": "Suffers from acoustic blast PTSD and partial deafness, finding solace in quiet administrative paperwork.",
       "comfort_dish": "dish_sweet_pumpkin_potage",
-      "heart_event_summary": "Finds calm assurance at 8 Hearts; accepts Expedition Rations to recover lost equipment without fee."
+      "heart_event_summary": "Finds calm assurance at 8 Hearts; accepts Expedition Rations to recover lost equipment without fee.",
+      "gift_preferences": {
+        "loved": [
+          "sup_cu_den_do_dai_ngan",
+          "tra_sen_bach_diep",
+          "oai_huong"
+        ],
+        "liked": [
+          "banh_mi_lua_mi_gion",
+          "salad_trai_cay_mua_ha",
+          "da_tinh_the"
+        ],
+        "disliked": [
+          "thit_nuong_lua_dia_nguc",
+          "lau_ca_cay_ham_nguc"
+        ],
+        "hated": [
+          "ore_coal",
+          "drop_prism_jelly"
+        ]
+      },
+      "schedules": {
+        "default": {
+          "sunny": [
+            {
+              "time": "07:30",
+              "location": "Quầy Đồ Thất Lạc Hiệp Hội",
+              "activity": "Sắp xếp balô và vũ khí rơi rớt từ hầm mỏ"
+            },
+            {
+              "time": "11:30",
+              "location": "Hiệp Hội Mạo Hiểm",
+              "activity": "Đeo nút bịt tai kiểm tra giấy tờ mạo hiểm giả"
+            },
+            {
+              "time": "15:00",
+              "location": "Vườn Sau Hiệp Hội",
+              "activity": "Ngồi nơi yên tĩnh hít thở không khí trong lành"
+            },
+            {
+              "time": "19:00",
+              "location": "Tiệm Trà & Bánh Oakhaven",
+              "activity": "Đi cùng Thorne sang ăn tối, thích không gian yên ắng"
+            }
+          ],
+          "rainy": [
+            {
+              "time": "08:30",
+              "location": "Quầy Đồ Thất Lạc",
+              "activity": "Lau khô các trang bị ướt của đội cứu hộ mang về"
+            },
+            {
+              "time": "15:00",
+              "location": "Tiệm Trà & Bánh Oakhaven",
+              "activity": "Trú tiếng sấm chớp giông bão bên lò sưởi ấm"
+            }
+          ]
+        }
+      }
     }
   ]
 }
