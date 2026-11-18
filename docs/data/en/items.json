@@ -1931,7 +1931,12 @@
       "sell_price": 80,
       "energy": null,
       "buff": "Dries botanical crops over 24 hours, upgrading quality by +1 star",
-      "tags": ["craftable", "processing", "artisan", "homestead"]
+      "tags": [
+        "craftable",
+        "processing",
+        "artisan",
+        "homestead"
+      ]
     },
     {
       "id": "item_craft_oak_smoker",
@@ -1943,7 +1948,12 @@
       "sell_price": 160,
       "energy": null,
       "buff": "Smokes fish and venison into non-perishable Expedition Rations",
-      "tags": ["craftable", "processing", "artisan", "rations"]
+      "tags": [
+        "craftable",
+        "processing",
+        "artisan",
+        "rations"
+      ]
     },
     {
       "id": "item_craft_fermentation_cask",
@@ -1955,7 +1965,12 @@
       "sell_price": 140,
       "energy": null,
       "buff": "Ferments sourdough baking starters and aged winter cider",
-      "tags": ["craftable", "processing", "artisan", "bakery"]
+      "tags": [
+        "craftable",
+        "processing",
+        "artisan",
+        "bakery"
+      ]
     },
     {
       "id": "item_craft_compost_bin",
@@ -1967,7 +1982,12 @@
       "sell_price": 60,
       "energy": null,
       "buff": "Recycles plant debris into Organic Fertilizer (+20% crop speed)",
-      "tags": ["craftable", "farming", "fertilizer", "homestead"]
+      "tags": [
+        "craftable",
+        "farming",
+        "fertilizer",
+        "homestead"
+      ]
     },
     {
       "id": "item_craft_fae_apiary",
@@ -1979,7 +1999,12 @@
       "sell_price": 280,
       "energy": null,
       "buff": "Automatically yields pure Wildflower Honey every 3 days",
-      "tags": ["craftable", "farming", "honey", "fae"]
+      "tags": [
+        "craftable",
+        "farming",
+        "honey",
+        "fae"
+      ]
     },
     {
       "id": "item_craft_wall_torch",
@@ -1991,7 +2016,12 @@
       "sell_price": 30,
       "energy": null,
       "buff": "Permanently illuminates a 3-tile radius in cave walls",
-      "tags": ["craftable", "mining", "torch", "light"]
+      "tags": [
+        "craftable",
+        "mining",
+        "torch",
+        "light"
+      ]
     },
     {
       "id": "item_craft_blast_powder",
@@ -2003,7 +2033,12 @@
       "sell_price": 75,
       "energy": null,
       "buff": "Shatters rock in a 3x3 tile radius and yields loose ore quickly",
-      "tags": ["craftable", "mining", "explosive", "utility"]
+      "tags": [
+        "craftable",
+        "mining",
+        "explosive",
+        "utility"
+      ]
     },
     {
       "id": "item_craft_escape_rope",
@@ -2015,7 +2050,12 @@
       "sell_price": 45,
       "energy": null,
       "buff": "Emergency extraction to the nearest mine elevator shaft",
-      "tags": ["craftable", "mining", "survival", "emergency"]
+      "tags": [
+        "craftable",
+        "mining",
+        "survival",
+        "emergency"
+      ]
     },
     {
       "id": "item_craft_luminous_beacon",
@@ -2027,7 +2067,12 @@
       "sell_price": 110,
       "energy": null,
       "buff": "Projects a 60-second tranquil ward repelling darkness monsters",
-      "tags": ["craftable", "mining", "beacon", "defense"]
+      "tags": [
+        "craftable",
+        "mining",
+        "beacon",
+        "defense"
+      ]
     },
     {
       "id": "item_craft_magma_tongs",
@@ -2039,7 +2084,12 @@
       "sell_price": 200,
       "energy": null,
       "buff": "Immunity to thermal burns while harvesting magma veins on floors 90-120",
-      "tags": ["craftable", "mining", "tool", "heat_resist"]
+      "tags": [
+        "craftable",
+        "mining",
+        "tool",
+        "heat_resist"
+      ]
     },
     {
       "id": "item_craft_copper_sprinkler",
@@ -2051,7 +2101,12 @@
       "sell_price": 120,
       "energy": null,
       "buff": "Waters 4 cardinal cross-adjacent soil tiles every dawn",
-      "tags": ["craftable", "farming", "automation", "copper"]
+      "tags": [
+        "craftable",
+        "farming",
+        "automation",
+        "copper"
+      ]
     },
     {
       "id": "item_craft_gold_sprinkler",
@@ -2063,7 +2118,12 @@
       "sell_price": 350,
       "energy": null,
       "buff": "Waters a full 3x3 grid (8 surrounding tiles) every dawn",
-      "tags": ["craftable", "farming", "automation", "gold"]
+      "tags": [
+        "craftable",
+        "farming",
+        "automation",
+        "gold"
+      ]
     },
     {
       "id": "item_craft_straw_scarecrow",
@@ -2075,7 +2135,12 @@
       "sell_price": 50,
       "energy": null,
       "buff": "Protects crops within an 8-tile radius from wild seed-eating birds",
-      "tags": ["craftable", "farming", "scarecrow", "protection"]
+      "tags": [
+        "craftable",
+        "farming",
+        "scarecrow",
+        "protection"
+      ]
     },
     {
       "id": "item_craft_picket_fence",
@@ -2087,7 +2152,12 @@
       "sell_price": 20,
       "energy": null,
       "buff": "Stops wild weed spreading and provides tidy rustic boundaries",
-      "tags": ["craftable", "homestead", "decor", "fence"]
+      "tags": [
+        "craftable",
+        "homestead",
+        "decor",
+        "fence"
+      ]
     },
     {
       "id": "item_craft_cobblestone_path",
@@ -2099,7 +2169,12 @@
       "sell_price": 25,
       "energy": null,
       "buff": "Boosts overland run speed by +15% and prevents muddy walkways",
-      "tags": ["craftable", "homestead", "path", "speed"]
+      "tags": [
+        "craftable",
+        "homestead",
+        "path",
+        "speed"
+      ]
     },
     {
       "id": "item_craft_rustic_table",
@@ -2111,7 +2186,12 @@
       "sell_price": 180,
       "energy": null,
       "buff": "Accommodates 2 extra evening patrons per night, expanding revenue",
-      "tags": ["craftable", "teahouse", "furniture", "table"]
+      "tags": [
+        "craftable",
+        "teahouse",
+        "furniture",
+        "table"
+      ]
     },
     {
       "id": "item_craft_leather_armchair",
@@ -2123,7 +2203,12 @@
       "sell_price": 150,
       "energy": null,
       "buff": "Increases patron waiting patience by +30% and adds +10 Cozy Rating",
-      "tags": ["craftable", "teahouse", "furniture", "chair"]
+      "tags": [
+        "craftable",
+        "teahouse",
+        "furniture",
+        "chair"
+      ]
     },
     {
       "id": "item_craft_showcase_counter",
@@ -2135,7 +2220,12 @@
       "sell_price": 400,
       "energy": null,
       "buff": "Preserves 12 baked pastries overnight at maximum oven freshness",
-      "tags": ["craftable", "teahouse", "furniture", "showcase"]
+      "tags": [
+        "craftable",
+        "teahouse",
+        "furniture",
+        "showcase"
+      ]
     },
     {
       "id": "item_craft_corner_hearth",
@@ -2147,7 +2237,12 @@
       "sell_price": 500,
       "energy": null,
       "buff": "Adds +50 Cozy Rating to your teahouse, triggering generous tips",
-      "tags": ["craftable", "teahouse", "hearth", "cozy"]
+      "tags": [
+        "craftable",
+        "teahouse",
+        "hearth",
+        "cozy"
+      ]
     },
     {
       "id": "item_craft_willow_fish_trap",
@@ -2159,7 +2254,12 @@
       "sell_price": 55,
       "energy": null,
       "buff": "Passively catches river chub, crayfish, and cavern eels each dawn",
-      "tags": ["craftable", "fishing", "trap", "automation"]
+      "tags": [
+        "craftable",
+        "fishing",
+        "trap",
+        "automation"
+      ]
     },
     {
       "id": "item_delver_crest",
@@ -2171,7 +2271,386 @@
       "sell_price": 50,
       "energy": null,
       "buff": "Pioneer badge of honor; exchanged for ancient blueprints and specialized equipment at Marlo's Outpost",
-      "tags": ["bounty", "crest", "delver", "reputation"]
+      "tags": [
+        "bounty",
+        "crest",
+        "delver",
+        "reputation"
+      ]
+    },
+    {
+      "id": "item_wood_oak",
+      "name": "Mature Oak Timber",
+      "description": "Solid, dense oak beams felled from Whisperwood; highly resilient under tension, primary resource for bridges and mills.",
+      "category": "material",
+      "rarity": "common",
+      "buy_price": 15,
+      "sell_price": 6,
+      "energy": null,
+      "buff": null,
+      "tags": [
+        "material",
+        "wood",
+        "building",
+        "foraging"
+      ]
+    },
+    {
+      "id": "item_wood_pine",
+      "name": "Resilient Pine Lumber",
+      "description": "Lightweight elastic pine lumber aromatic with warm resin; ideal for barns and drying frames.",
+      "category": "material",
+      "rarity": "common",
+      "buy_price": 12,
+      "sell_price": 5,
+      "energy": null,
+      "buff": null,
+      "tags": [
+        "material",
+        "wood",
+        "building",
+        "foraging"
+      ]
+    },
+    {
+      "id": "item_stone_brick",
+      "name": "Dressed Stone Block",
+      "description": "Quarried cobblestone cut true and square for foundations, well masonry, and watchtowers.",
+      "category": "material",
+      "rarity": "common",
+      "buy_price": 10,
+      "sell_price": 4,
+      "energy": null,
+      "buff": null,
+      "tags": [
+        "material",
+        "stone",
+        "masonry",
+        "building"
+      ]
+    },
+    {
+      "id": "item_clay",
+      "name": "Malleable Stream Clay",
+      "description": "Silky alluvial clay dug from brook meanders; seals wall drafts and kilns into waterproof tiles.",
+      "category": "material",
+      "rarity": "common",
+      "buy_price": 12,
+      "sell_price": 4,
+      "energy": null,
+      "buff": null,
+      "tags": [
+        "material",
+        "earth",
+        "clay",
+        "foraging"
+      ]
+    },
+    {
+      "id": "bar_copper",
+      "name": "Smelted Copper Bar",
+      "description": "Refined copper ingot smelted at Boris's forge; used for windmill axles and automated farm sprinklers.",
+      "category": "mineral",
+      "rarity": "uncommon",
+      "buy_price": 80,
+      "sell_price": 40,
+      "energy": null,
+      "buff": null,
+      "tags": [
+        "mineral",
+        "metal",
+        "smelted",
+        "forge"
+      ]
+    },
+    {
+      "id": "bar_iron",
+      "name": "Smelted Iron Bar",
+      "description": "High-temperature tempered iron ingot; heavy and unbreakable, the backbone of civil architecture and weaponry.",
+      "category": "mineral",
+      "rarity": "uncommon",
+      "buy_price": 150,
+      "sell_price": 75,
+      "energy": null,
+      "buff": null,
+      "tags": [
+        "mineral",
+        "metal",
+        "smelted",
+        "forge"
+      ]
+    },
+    {
+      "id": "bar_gold",
+      "name": "Smelted Gold Bar",
+      "description": "Pure lustrous gold extracted from Tree of Life deep veins; conducts magic energy and never oxidizes.",
+      "category": "mineral",
+      "rarity": "rare",
+      "buy_price": 350,
+      "sell_price": 180,
+      "energy": null,
+      "buff": null,
+      "tags": [
+        "mineral",
+        "metal",
+        "gold",
+        "forge"
+      ]
+    },
+    {
+      "id": "item_iron_nail",
+      "name": "Boris's Forged Iron Nails",
+      "description": "Four-sided case-hardened iron nails struck at Boris's anvil; immune to rust and loosening.",
+      "category": "material",
+      "rarity": "common",
+      "buy_price": 15,
+      "sell_price": 6,
+      "energy": null,
+      "buff": null,
+      "tags": [
+        "material",
+        "hardware",
+        "forge",
+        "building"
+      ]
+    },
+    {
+      "id": "stone_quartz",
+      "name": "Clear Quartz Crystal",
+      "description": "Pristine hexagonal quartz crystal mined from cavern strata; focuses light and purifies subterranean currents.",
+      "category": "mineral",
+      "rarity": "uncommon",
+      "buy_price": 90,
+      "sell_price": 45,
+      "energy": null,
+      "buff": null,
+      "tags": [
+        "mineral",
+        "crystal",
+        "mining",
+        "light"
+      ]
+    },
+    {
+      "id": "item_dwarven_cog",
+      "name": "Deep Mine Dwarven Cog",
+      "description": "Ancient alloy gear cast by Khaz-Drakor artisans; precision meshing powers mills and hoisting cages.",
+      "category": "material",
+      "rarity": "uncommon",
+      "buy_price": 120,
+      "sell_price": 60,
+      "energy": null,
+      "buff": null,
+      "tags": [
+        "material",
+        "machinery",
+        "dwarf",
+        "cog"
+      ]
+    },
+    {
+      "id": "item_willow_branch",
+      "name": "Pliant Willow Branch",
+      "description": "Supple water-cured willow whips; woven into fish weirs, harvest baskets, and Pip's roost.",
+      "category": "material",
+      "rarity": "common",
+      "buy_price": 8,
+      "sell_price": 3,
+      "energy": null,
+      "buff": null,
+      "tags": [
+        "material",
+        "willow",
+        "crafting",
+        "foraging"
+      ]
+    },
+    {
+      "id": "item_canvas_wool",
+      "name": "Waterproof Wool Canvas",
+      "description": "Heavy oiled wool canvas woven by Elora; deflects gales and freezing sleet with ease.",
+      "category": "material",
+      "rarity": "uncommon",
+      "buy_price": 140,
+      "sell_price": 70,
+      "energy": null,
+      "buff": null,
+      "tags": [
+        "material",
+        "textile",
+        "wool",
+        "building"
+      ]
+    },
+    {
+      "id": "item_optical_lens",
+      "name": "Precision Optical Lens",
+      "description": "Convex ground amethyst lens; enables hilltop spyglasses to peer 50 leagues through squall clouds.",
+      "category": "material",
+      "rarity": "rare",
+      "buy_price": 400,
+      "sell_price": 200,
+      "energy": null,
+      "buff": null,
+      "tags": [
+        "material",
+        "optics",
+        "watchtower",
+        "crafting"
+      ]
+    },
+    {
+      "id": "item_humus_wood",
+      "name": "Decayed Humus Log",
+      "description": "Crumbly, sponge-like oak log saturated in wild forest spores; perfect nursery medium for bioluminescent fungi.",
+      "category": "material",
+      "rarity": "common",
+      "buy_price": 25,
+      "sell_price": 10,
+      "energy": null,
+      "buff": null,
+      "tags": [
+        "material",
+        "compost",
+        "apothecary",
+        "foraging"
+      ]
+    },
+    {
+      "id": "item_rich_compost",
+      "name": "Rich Forest Compost",
+      "description": "Dark leaf mold matured over three rainy seasons; delivers potent vigor to Sylvan's nursery beds.",
+      "category": "material",
+      "rarity": "common",
+      "buy_price": 20,
+      "sell_price": 8,
+      "energy": null,
+      "buff": null,
+      "tags": [
+        "material",
+        "soil",
+        "compost",
+        "farming"
+      ]
+    },
+    {
+      "id": "herb_lumina_shroom",
+      "name": "Luminous Cavern Shroom",
+      "description": "Azure-gleaming cap harvested along subterranean pools below Floor 40; neutralizes Blight miasma.",
+      "category": "ingredient",
+      "rarity": "rare",
+      "buy_price": 120,
+      "sell_price": 60,
+      "energy": 20,
+      "buff": "Neutralizes 50% accumulated bodily toxins",
+      "tags": [
+        "ingredient",
+        "mushroom",
+        "mining",
+        "healing"
+      ]
+    },
+    {
+      "id": "item_hemp_rope",
+      "name": "Braided Hemp Rope",
+      "description": "Multi-ply hemp cordage rated for multi-ton tension; anchors Garrick's caravels and braces bridge spans.",
+      "category": "material",
+      "rarity": "common",
+      "buy_price": 30,
+      "sell_price": 12,
+      "energy": null,
+      "buff": null,
+      "tags": [
+        "material",
+        "rope",
+        "marine",
+        "building"
+      ]
+    },
+    {
+      "id": "item_heavy_leather",
+      "name": "Treated Heavy Leather",
+      "description": "Oak-tanned bovine hide cured by Elora; supple yet tough, binds archive tomes and armchairs.",
+      "category": "material",
+      "rarity": "uncommon",
+      "buy_price": 160,
+      "sell_price": 80,
+      "energy": null,
+      "buff": null,
+      "tags": [
+        "material",
+        "leather",
+        "crafting",
+        "library"
+      ]
+    },
+    {
+      "id": "item_lumina_ink",
+      "name": "Luminous Glow Ink",
+      "description": "Inscribing ink ground from quartz dust and night-nectar; glows indelible in complete darkness.",
+      "category": "material",
+      "rarity": "rare",
+      "buy_price": 250,
+      "sell_price": 120,
+      "energy": null,
+      "buff": null,
+      "tags": [
+        "material",
+        "scholar",
+        "ink",
+        "library"
+      ]
+    },
+    {
+      "id": "item_purification_salt",
+      "name": "Blight Purification Salt",
+      "description": "Cavern salt infused with herbal ash per Morrigan's rites; dissolves Blight root blight upon contact.",
+      "category": "material",
+      "rarity": "rare",
+      "buy_price": 300,
+      "sell_price": 150,
+      "energy": null,
+      "buff": null,
+      "tags": [
+        "material",
+        "alchemy",
+        "purification",
+        "soil"
+      ]
+    },
+    {
+      "id": "item_ancient_altar_dust",
+      "name": "Ancient Altar Dust",
+      "description": "Luminescent stone shavings gathered from shattered subterranean sanctums; holds the Great Tree's blessing.",
+      "category": "mineral",
+      "rarity": "epic",
+      "buy_price": 600,
+      "sell_price": 300,
+      "energy": null,
+      "buff": null,
+      "tags": [
+        "mineral",
+        "relic",
+        "ancient",
+        "sacred"
+      ]
+    },
+    {
+      "id": "item_eternal_flame_core",
+      "name": "Eternal Flame Core",
+      "description": "Unquenchable fiery heart wrested from the Floor 80 Magma Warden; kindles the village Eternal Hearth.",
+      "category": "mineral",
+      "rarity": "legendary",
+      "buy_price": null,
+      "sell_price": 2000,
+      "energy": null,
+      "buff": "Radiates endless warmth that banishes sub-zero cold forever",
+      "tags": [
+        "mineral",
+        "boss_drop",
+        "fire",
+        "eternal"
+      ]
     }
   ]
 }

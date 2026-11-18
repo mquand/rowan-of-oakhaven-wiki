@@ -1,0 +1,312 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "version": "1.0.0",
+  "updated": "2026-11-18",
+  "phases": [
+    {
+      "phase_id": "phase_1_homestead",
+      "name": "Phase 1: Homestead & Village Core",
+      "description": "Essential initial reconstructions addressing immediate wartime trauma around the homestead and riverbank."
+    },
+    {
+      "phase_id": "phase_2_logistics",
+      "name": "Phase 2: Frontier Logistics & Mining Hoists",
+      "description": "Support stations, automated ore carts, and postal roosts facilitating the 150-floor cavern excavation."
+    },
+    {
+      "phase_id": "phase_3_civic_trade",
+      "name": "Phase 3: Commerce, Apothecary & Culture",
+      "description": "Merchant wharf expansion, hilltop squall observatory, and underground mycelium nursery beds."
+    },
+    {
+      "phase_id": "phase_4_heritage_heart",
+      "name": "Phase 4: Postwar Heritage & The Soul of Oakhaven",
+      "description": "The pinnacle of valley renewal: ancient archive, consecrated soil cleansing, and the eternal public hearth."
+    }
+  ],
+  "projects": [
+    {
+      "id": "p_bridge_brook",
+      "phase": "phase_1_homestead",
+      "map_zone": "riverside",
+      "title": "Whisperwood Brook Bridge",
+      "narrative_lead": "npc_cedric",
+      "narrative_lead_name": "Cedric",
+      "emotional_hook": "Rebinds the severed brook crossing blasted during wartime floodings, reuniting young Finn with his grandpa Garrick.",
+      "visual_scale": "major_landmark",
+      "size": "64x48",
+      "materials": [
+        { "item_id": "item_wood_oak", "item_name": "Mature Oak Timber", "amount": 120 },
+        { "item_id": "item_stone", "item_name": "River Cobblestone", "amount": 60 },
+        { "item_id": "item_iron_nail", "item_name": "Boris's Forged Nails", "amount": 25 },
+        { "item_id": "gold", "item_name": "Gold Coins", "amount": 2500 }
+      ],
+      "unlock_benefits": [
+        "Cuts foot travel time to Garrick's caravel wharf by 60%",
+        "Unlocks riverside otter shoals for freshwater pearl foraging"
+      ],
+      "celebration_dish": "dish_smoked_fish_platter",
+      "celebration_dish_name": "Hearthside Smoked Brookfish Platter"
+    },
+    {
+      "id": "p_windmill",
+      "phase": "phase_1_homestead",
+      "map_zone": "farm",
+      "title": "Heirloom Farmstead Windmill",
+      "narrative_lead": "npc_maeve",
+      "narrative_lead_name": "Maeve",
+      "emotional_hook": "Grandmother Amalia's mill lost its drive shaft during artillery bombardments; restores the comforting hum of flour milling.",
+      "visual_scale": "major_landmark",
+      "size": "64x64",
+      "materials": [
+        { "item_id": "item_wood_oak", "item_name": "Mature Oak Timber", "amount": 100 },
+        { "item_id": "bar_copper", "item_name": "Smelted Copper Bar", "amount": 35 },
+        { "item_id": "item_dwarven_cog", "item_name": "Dwarven Mechanical Cog", "amount": 15 },
+        { "item_id": "gold", "item_name": "Gold Coins", "amount": 3200 }
+      ],
+      "unlock_benefits": [
+        "Automatically mills grain overnight at a 1:2 grain-to-flour ratio",
+        "Confers +30 Cozy Rating across farmsteads as the vanes spin again"
+      ],
+      "celebration_dish": "bread_brioche",
+      "celebration_dish_name": "Golden Crust Brioche Loaf"
+    },
+    {
+      "id": "p_ancient_well",
+      "phase": "phase_1_homestead",
+      "map_zone": "village",
+      "title": "Ancient Village Wellspring",
+      "narrative_lead": "npc_cedric",
+      "narrative_lead_name": "Cedric",
+      "emotional_hook": "Excavates wartime rubble choking the sacred mountain aquifer, restoring crystal spring water to village homes.",
+      "visual_scale": "minor_prop",
+      "size": "32x32",
+      "materials": [
+        { "item_id": "item_stone_brick", "item_name": "Dressed Stone Block", "amount": 100 },
+        { "item_id": "item_clay", "item_name": "Malleable Stream Clay", "amount": 40 },
+        { "item_id": "stone_quartz", "item_name": "Clear Quartz Crystal", "amount": 5 },
+        { "item_id": "gold", "item_name": "Gold Coins", "amount": 2000 }
+      ],
+      "unlock_benefits": [
+        "Instantly refills watering cans with zero stamina expenditure",
+        "Crops planted within a 5-tile radius grow 15% faster"
+      ],
+      "celebration_dish": "tra_sen_bach_diep",
+      "celebration_dish_name": "Spring-Purified Hundred-Leaf Lotus Tea"
+    },
+    {
+      "id": "p_pip_roost",
+      "phase": "phase_2_logistics",
+      "map_zone": "farm",
+      "title": "Pip's Avian Roost & Dispatch",
+      "narrative_lead": "npc_pip",
+      "narrative_lead_name": "Pip the Pygmy Owl",
+      "emotional_hook": "Constructs a cozy insulated roost shielding loyal Pip from winter gales, with seed bins for exotic botanicals.",
+      "visual_scale": "minor_prop",
+      "size": "32x32",
+      "materials": [
+        { "item_id": "item_wood_pine", "item_name": "Resilient Pine Lumber", "amount": 80 },
+        { "item_id": "item_willow_branch", "item_name": "Pliant Willow Branch", "amount": 40 },
+        { "item_id": "stone_quartz", "item_name": "Clear Quartz Crystal", "amount": 15 },
+        { "item_id": "stone_lumina_glow", "item_name": "Lumina Glowstone", "amount": 2 },
+        { "item_id": "gold", "item_name": "Gold Coins", "amount": 2800 }
+      ],
+      "unlock_benefits": [
+        "Enables Avian Expeditions to forage rare foreign seeds across distant realms",
+        "Pip delivers correspondence and trade manifests one hour earlier each dawn"
+      ],
+      "celebration_dish": "pastry_berry_shortcake",
+      "celebration_dish_name": "Berry Shortcake Treat for Pip"
+    },
+    {
+      "id": "p_ore_cart_track",
+      "phase": "phase_2_logistics",
+      "map_zone": "mine",
+      "title": "Mine Ore Cart Automation Track",
+      "narrative_lead": "npc_bram",
+      "narrative_lead_name": "Bram & Boris",
+      "emotional_hook": "Mends a 10-year estrangement following the shaft collapse that crippled Bram; spares young delvers from crushing loads.",
+      "visual_scale": "minor_prop",
+      "size": "48x32",
+      "materials": [
+        { "item_id": "bar_iron", "item_name": "Smelted Iron Bar", "amount": 60 },
+        { "item_id": "item_wood_oak", "item_name": "Mature Oak Timber", "amount": 50 },
+        { "item_id": "stone_gravity_float", "item_name": "Gravity Floatstone", "amount": 3 },
+        { "item_id": "ore_coal", "item_name": "Anthracite Coal", "amount": 30 },
+        { "item_id": "gold", "item_name": "Gold Coins", "amount": 4500 }
+      ],
+      "unlock_benefits": [
+        "Automated magnetic carts ferry excavated cavern ores directly to Boris's forge bin",
+        "Completely eliminates mineral inventory clogging during deep descents"
+      ],
+      "celebration_dish": "dish_dwarf_ironforge_goulash",
+      "celebration_dish_name": "Dwarven Ironforge Stout Goulash"
+    },
+    {
+      "id": "p_ranger_outpost",
+      "phase": "phase_2_logistics",
+      "map_zone": "forest",
+      "title": "Whisperwood Ranger Outpost",
+      "narrative_lead": "npc_marlo",
+      "narrative_lead_name": "Marlo & Elora",
+      "emotional_hook": "Establishes a weather-tight outpost deep in the wilderness, protecting foragers from hypothermia and sudden blizzards.",
+      "visual_scale": "major_landmark",
+      "size": "64x48",
+      "materials": [
+        { "item_id": "item_wood_oak", "item_name": "Mature Oak Timber", "amount": 120 },
+        { "item_id": "item_canvas_wool", "item_name": "Waterproof Wool Canvas", "amount": 20 },
+        { "item_id": "stone_quartz", "item_name": "Clear Quartz Crystal", "amount": 25 },
+        { "item_id": "item_craft_corner_hearth", "item_name": "Stone Corner Hearth", "amount": 1 },
+        { "item_id": "gold", "item_name": "Gold Coins", "amount": 3500 }
+      ],
+      "unlock_benefits": [
+        "Safe haven bunk preventing exhaustion penalties when foraging past midnight",
+        "Field workbench to repair axes and tools on site"
+      ],
+      "celebration_dish": "dish_herbal_chicken_stew",
+      "celebration_dish_name": "Simmering Wildwood Chicken Broth"
+    },
+    {
+      "id": "p_watchtower_hill",
+      "phase": "phase_3_civic_trade",
+      "map_zone": "mine",
+      "title": "Hilltop Optical Watchtower",
+      "narrative_lead": "npc_marlo",
+      "narrative_lead_name": "Knight Marlo",
+      "emotional_hook": "Rekindles the optical beacon shattered by lightning, shielding the valley from northern blizzard surprises.",
+      "visual_scale": "major_landmark",
+      "size": "64x96",
+      "materials": [
+        { "item_id": "item_stone_brick", "item_name": "Dressed Stone Block", "amount": 150 },
+        { "item_id": "bar_iron", "item_name": "Smelted Iron Bar", "amount": 50 },
+        { "item_id": "item_optical_lens", "item_name": "Precision Optical Lens", "amount": 15 },
+        { "item_id": "gold", "item_name": "Gold Coins", "amount": 6000 }
+      ],
+      "unlock_benefits": [
+        "Provides 100% accurate 3-day weather forecasts on morning bulletin posts",
+        "Advance storm warning allows stoking tavern hearths for Stormbound Strangers"
+      ],
+      "celebration_dish": "dish_iron_steak",
+      "celebration_dish_name": "Red Wine Searing Iron Steak"
+    },
+    {
+      "id": "p_apothecary_nursery",
+      "phase": "phase_3_civic_trade",
+      "map_zone": "village",
+      "title": "Sylvan's Cavern Apothecary Nursery",
+      "narrative_lead": "npc_sylvan",
+      "narrative_lead_name": "Elder Sylvan",
+      "emotional_hook": "Constructs a subterranean-simulated moss greenhouse, aiding Sylvan in concocting antidotes for poisoned veterans.",
+      "visual_scale": "minor_prop",
+      "size": "48x48",
+      "materials": [
+        { "item_id": "item_humus_wood", "item_name": "Decayed Humus Log", "amount": 80 },
+        { "item_id": "item_rich_compost", "item_name": "Rich Forest Compost", "amount": 50 },
+        { "item_id": "herb_lumina_shroom", "item_name": "Luminous Cavern Shroom", "amount": 25 },
+        { "item_id": "drop_prism_jelly", "item_name": "Prism Jelly Drop", "amount": 10 },
+        { "item_id": "gold", "item_name": "Gold Coins", "amount": 5000 }
+      ],
+      "unlock_benefits": [
+        "Clones deep cavern lumina mushrooms and magma ginseng on the surface",
+        "Sylvan offers remedies and invigorating broths at a 50% community discount"
+      ],
+      "celebration_dish": "dish_mushroom_risotto",
+      "celebration_dish_name": "Wild Cavern Pearl Mushroom Risotto"
+    },
+    {
+      "id": "p_garrick_wharf",
+      "phase": "phase_3_civic_trade",
+      "map_zone": "riverside",
+      "title": "Garrick's Merchant Wharf & Basin",
+      "narrative_lead": "npc_garrick",
+      "narrative_lead_name": "Captain Garrick",
+      "emotional_hook": "Transforms rotted mooring pilings into a fortified stone quay, welcoming 5-vessel trade caravels and breaking isolation.",
+      "visual_scale": "major_landmark",
+      "size": "96x64",
+      "materials": [
+        { "item_id": "item_wood_oak", "item_name": "Mature Oak Timber", "amount": 160 },
+        { "item_id": "bar_copper", "item_name": "Smelted Copper Bar", "amount": 50 },
+        { "item_id": "item_hemp_rope", "item_name": "Braided Hemp Rope", "amount": 30 },
+        { "item_id": "bar_iron", "item_name": "Smelted Iron Bar", "amount": 20 },
+        { "item_id": "gold", "item_name": "Gold Coins", "amount": 7500 }
+      ],
+      "unlock_benefits": [
+        "Garrick docks a magnificent 3-masted flagship every Sunday dawn",
+        "Doubles available southern spices and foreign tailoring textiles"
+      ],
+      "celebration_dish": "dish_seafood_paella",
+      "celebration_dish_name": "Saffron Sizzling Seafood Paella"
+    },
+    {
+      "id": "p_clara_library",
+      "phase": "phase_4_heritage_heart",
+      "map_zone": "village",
+      "title": "Clara's Ancient Archive & Map Room",
+      "narrative_lead": "npc_clara",
+      "narrative_lead_name": "Clara & Orion",
+      "emotional_hook": "Resurrects burnt scholarship, re-opens the village classroom, and fulfills the dying wish of Clara's lineage.",
+      "visual_scale": "major_landmark",
+      "size": "64x64",
+      "materials": [
+        { "item_id": "item_wood_oak", "item_name": "Mature Oak Timber", "amount": 140 },
+        { "item_id": "item_heavy_leather", "item_name": "Treated Heavy Leather", "amount": 30 },
+        { "item_id": "item_lumina_ink", "item_name": "Luminous Glow Ink", "amount": 15 },
+        { "item_id": "stone_quartz", "item_name": "Clear Quartz Crystal", "amount": 20 },
+        { "item_id": "gold", "item_name": "Gold Coins", "amount": 8000 }
+      ],
+      "unlock_benefits": [
+        "Unlocks Ancient Blueprint Decryption for Royal-tier weapon forging",
+        "Clara teaches village youngsters each morning, elevating town morale"
+      ],
+      "celebration_dish": "tart_dau_tuyet_lanh",
+      "celebration_dish_name": "Frosted Snowberry Glaze Tart"
+    },
+    {
+      "id": "p_sacred_altar",
+      "phase": "phase_4_heritage_heart",
+      "map_zone": "farm",
+      "title": "Sacred Soil Cleansing Altar",
+      "narrative_lead": "npc_rowan",
+      "narrative_lead_name": "The Entire Valley",
+      "emotional_hook": "Liberates a 40-tile eastern expanse poisoned by subterranean Blight roots for 15 years, restoring sacred arable land.",
+      "visual_scale": "major_landmark",
+      "size": "64x64",
+      "materials": [
+        { "item_id": "item_purification_salt", "item_name": "Blight Purification Salt", "amount": 100 },
+        { "item_id": "stone_mana_pure", "item_name": "Pure Mana Stone", "amount": 25 },
+        { "item_id": "item_ancient_altar_dust", "item_name": "Ancient Altar Dust", "amount": 10 },
+        { "item_id": "gold", "item_name": "Gold Coins", "amount": 12000 }
+      ],
+      "unlock_benefits": [
+        "Restores 40 eastern farm plots into Sacred Arable Land",
+        "Crops sown here never wither and boast a guaranteed 100% 3-Star harvest rate"
+      ],
+      "celebration_dish": "dish_moonlight_creamy_risotto",
+      "celebration_dish_name": "Moonlight Creamy Truffle Risotto"
+    },
+    {
+      "id": "p_eternal_hearth",
+      "phase": "phase_4_heritage_heart",
+      "map_zone": "village",
+      "title": "Town Square Eternal Hearth",
+      "narrative_lead": "npc_maeve",
+      "narrative_lead_name": "Citizens of Oakhaven",
+      "emotional_hook": "Kindles the unquenchable village hearth, permanently banishing wartime dread and freezing cold.",
+      "visual_scale": "major_landmark",
+      "size": "64x64",
+      "materials": [
+        { "item_id": "ore_coal", "item_name": "Anthracite Coal", "amount": 200 },
+        { "item_id": "bar_gold", "item_name": "Smelted Gold Bar", "amount": 60 },
+        { "item_id": "item_eternal_flame_core", "item_name": "Eternal Flame Core", "amount": 1 },
+        { "item_id": "gold", "item_name": "Gold Coins", "amount": 15000 }
+      ],
+      "unlock_benefits": [
+        "All 12 NPCs gain permanent Heart-warmed buff (+25% friendship gain)",
+        "Unlocks the grand Winter Hearth Gala Festival (Winter 28)",
+        "Bestows the crowning title: Restorer of Oakhaven"
+      ],
+      "celebration_dish": "dish_autumn_pumpkin_cinnamon_pie",
+      "celebration_dish_name": "Grand Autumn Cinnamon Pumpkin Feast Pie"
+    }
+  ]
+}

@@ -1931,7 +1931,12 @@
       "sell_price": 80,
       "energy": null,
       "buff": "Sấy khô nông sản trong 24h, nâng phẩm chất thêm +1 sao",
-      "tags": ["craftable", "processing", "artisan", "homestead"]
+      "tags": [
+        "craftable",
+        "processing",
+        "artisan",
+        "homestead"
+      ]
     },
     {
       "id": "item_craft_oak_smoker",
@@ -1943,7 +1948,12 @@
       "sell_price": 160,
       "energy": null,
       "buff": "Hun khói cá và thịt rừng thành Lương Khô Thám Hiểm không ôi thiu",
-      "tags": ["craftable", "processing", "artisan", "rations"]
+      "tags": [
+        "craftable",
+        "processing",
+        "artisan",
+        "rations"
+      ]
     },
     {
       "id": "item_craft_fermentation_cask",
@@ -1955,7 +1965,12 @@
       "sell_price": 140,
       "energy": null,
       "buff": "Lên men bột nở bánh mì sourdough và ủ rượu táo mùa đông",
-      "tags": ["craftable", "processing", "artisan", "bakery"]
+      "tags": [
+        "craftable",
+        "processing",
+        "artisan",
+        "bakery"
+      ]
     },
     {
       "id": "item_craft_compost_bin",
@@ -1967,7 +1982,12 @@
       "sell_price": 60,
       "energy": null,
       "buff": "Tái chế rác thực vật thành Phân Bón Hữu Cơ (+20% tốc độ lớn)",
-      "tags": ["craftable", "farming", "fertilizer", "homestead"]
+      "tags": [
+        "craftable",
+        "farming",
+        "fertilizer",
+        "homestead"
+      ]
     },
     {
       "id": "item_craft_fae_apiary",
@@ -1979,7 +1999,12 @@
       "sell_price": 280,
       "energy": null,
       "buff": "Tự động sản sinh Mật Ong Rừng nguyên chất mỗi 3 ngày",
-      "tags": ["craftable", "farming", "honey", "fae"]
+      "tags": [
+        "craftable",
+        "farming",
+        "honey",
+        "fae"
+      ]
     },
     {
       "id": "item_craft_wall_torch",
@@ -1991,7 +2016,12 @@
       "sell_price": 30,
       "energy": null,
       "buff": "Soi sáng vĩnh cửu bán kính 3 ô trong hang mỏ, đánh dấu ngã ba đường",
-      "tags": ["craftable", "mining", "torch", "light"]
+      "tags": [
+        "craftable",
+        "mining",
+        "torch",
+        "light"
+      ]
     },
     {
       "id": "item_craft_blast_powder",
@@ -2003,7 +2033,12 @@
       "sell_price": 75,
       "energy": null,
       "buff": "Phá hủy đá bán kính 3x3 ô và gom quặng rơi nhanh",
-      "tags": ["craftable", "mining", "explosive", "utility"]
+      "tags": [
+        "craftable",
+        "mining",
+        "explosive",
+        "utility"
+      ]
     },
     {
       "id": "item_craft_escape_rope",
@@ -2015,7 +2050,12 @@
       "sell_price": 45,
       "energy": null,
       "buff": "Rút lui khẩn cấp lên trạm thang máy gần nhất khi cạn kiệt thể lực",
-      "tags": ["craftable", "mining", "survival", "emergency"]
+      "tags": [
+        "craftable",
+        "mining",
+        "survival",
+        "emergency"
+      ]
     },
     {
       "id": "item_craft_luminous_beacon",
@@ -2027,7 +2067,12 @@
       "sell_price": 110,
       "energy": null,
       "buff": "Tạo kết giới ánh sáng an toàn 60s xua đuổi quái vật bóng tối",
-      "tags": ["craftable", "mining", "beacon", "defense"]
+      "tags": [
+        "craftable",
+        "mining",
+        "beacon",
+        "defense"
+      ]
     },
     {
       "id": "item_craft_magma_tongs",
@@ -2039,7 +2084,12 @@
       "sell_price": 200,
       "energy": null,
       "buff": "Miễn nhiễm sát thương nhiệt khi nhặt quặng nóng tầng 90-120",
-      "tags": ["craftable", "mining", "tool", "heat_resist"]
+      "tags": [
+        "craftable",
+        "mining",
+        "tool",
+        "heat_resist"
+      ]
     },
     {
       "id": "item_craft_copper_sprinkler",
@@ -2051,7 +2101,12 @@
       "sell_price": 120,
       "energy": null,
       "buff": "Tự động tưới nước 4 ô đất chữ thập mỗi ngày lúc 06:00",
-      "tags": ["craftable", "farming", "automation", "copper"]
+      "tags": [
+        "craftable",
+        "farming",
+        "automation",
+        "copper"
+      ]
     },
     {
       "id": "item_craft_gold_sprinkler",
@@ -2063,7 +2118,12 @@
       "sell_price": 350,
       "energy": null,
       "buff": "Tự động tưới nước khu vực 3x3 ô (8 ô xung quanh) mỗi sáng",
-      "tags": ["craftable", "farming", "automation", "gold"]
+      "tags": [
+        "craftable",
+        "farming",
+        "automation",
+        "gold"
+      ]
     },
     {
       "id": "item_craft_straw_scarecrow",
@@ -2075,7 +2135,12 @@
       "sell_price": 50,
       "energy": null,
       "buff": "Bảo vệ hoa màu trong bán kính 8 ô không bị chim rừng ăn hạt",
-      "tags": ["craftable", "farming", "scarecrow", "protection"]
+      "tags": [
+        "craftable",
+        "farming",
+        "scarecrow",
+        "protection"
+      ]
     },
     {
       "id": "item_craft_picket_fence",
@@ -2087,7 +2152,12 @@
       "sell_price": 20,
       "energy": null,
       "buff": "Quy hoạch cảnh quan nông trang và ngăn cỏ dại mọc lấn",
-      "tags": ["craftable", "homestead", "decor", "fence"]
+      "tags": [
+        "craftable",
+        "homestead",
+        "decor",
+        "fence"
+      ]
     },
     {
       "id": "item_craft_cobblestone_path",
@@ -2099,7 +2169,12 @@
       "sell_price": 25,
       "energy": null,
       "buff": "Tăng +15% tốc độ chạy ngoài trời và giữ sạch lối đi",
-      "tags": ["craftable", "homestead", "path", "speed"]
+      "tags": [
+        "craftable",
+        "homestead",
+        "path",
+        "speed"
+      ]
     },
     {
       "id": "item_craft_rustic_table",
@@ -2111,7 +2186,12 @@
       "sell_price": 180,
       "energy": null,
       "buff": "Đón thêm 2 khách/đêm tại quán ăn, tăng doanh thu quán",
-      "tags": ["craftable", "eatery", "furniture", "table"]
+      "tags": [
+        "craftable",
+        "eatery",
+        "furniture",
+        "table"
+      ]
     },
     {
       "id": "item_craft_leather_armchair",
@@ -2123,7 +2203,12 @@
       "sell_price": 150,
       "energy": null,
       "buff": "Khách kiên nhẫn chờ món thêm +30% và cộng +10 Cozy Rating",
-      "tags": ["craftable", "eatery", "furniture", "chair"]
+      "tags": [
+        "craftable",
+        "eatery",
+        "furniture",
+        "chair"
+      ]
     },
     {
       "id": "item_craft_showcase_counter",
@@ -2135,7 +2220,12 @@
       "sell_price": 400,
       "energy": null,
       "buff": "Bảo quản 12 món ăn qua đêm ở chất lượng tươi mới 100%",
-      "tags": ["craftable", "eatery", "furniture", "showcase"]
+      "tags": [
+        "craftable",
+        "eatery",
+        "furniture",
+        "showcase"
+      ]
     },
     {
       "id": "item_craft_corner_hearth",
@@ -2147,7 +2237,12 @@
       "sell_price": 500,
       "energy": null,
       "buff": "Tăng +50 Cozy Rating cho quán ăn, kích hoạt khách tip thêm tiền",
-      "tags": ["craftable", "eatery", "hearth", "cozy"]
+      "tags": [
+        "craftable",
+        "eatery",
+        "hearth",
+        "cozy"
+      ]
     },
     {
       "id": "item_craft_willow_fish_trap",
@@ -2159,7 +2254,12 @@
       "sell_price": 55,
       "energy": null,
       "buff": "Tự động đánh bắt cá suối, tôm càng và lươn ngầm mỗi sáng",
-      "tags": ["craftable", "fishing", "trap", "automation"]
+      "tags": [
+        "craftable",
+        "fishing",
+        "trap",
+        "automation"
+      ]
     },
     {
       "id": "item_delver_crest",
@@ -2171,7 +2271,386 @@
       "sell_price": 50,
       "energy": null,
       "buff": "Minh chứng danh dự của mạo hiểm giả; dùng đổi bản vẽ cổ đại và trang bị đặc thù tại Tiền Đồn Marlo",
-      "tags": ["bounty", "crest", "delver", "reputation"]
+      "tags": [
+        "bounty",
+        "crest",
+        "delver",
+        "reputation"
+      ]
+    },
+    {
+      "id": "item_wood_oak",
+      "name": "Gỗ Sồi Già",
+      "description": "Súc gỗ sồi đanh chắc đốn từ Rừng Thầm Thì, thớ gỗ nặng chịu lực cực tốt, vật liệu chính để phục hồi cầu cống và cối xay.",
+      "category": "material",
+      "rarity": "common",
+      "buy_price": 15,
+      "sell_price": 6,
+      "energy": null,
+      "buff": null,
+      "tags": [
+        "material",
+        "wood",
+        "building",
+        "foraging"
+      ]
+    },
+    {
+      "id": "item_wood_pine",
+      "name": "Gỗ Thông Dẻo",
+      "description": "Gỗ thông dầu nhẹ và đàn hồi tốt, tỏa mùi hương nhựa thông ấm áp, lý tưởng để dựng chuồng trại và giàn phơi.",
+      "category": "material",
+      "rarity": "common",
+      "buy_price": 12,
+      "sell_price": 5,
+      "energy": null,
+      "buff": null,
+      "tags": [
+        "material",
+        "wood",
+        "building",
+        "foraging"
+      ]
+    },
+    {
+      "id": "item_stone_brick",
+      "name": "Khối Đá Cắt Thô",
+      "description": "Đá cuội xẻ gọt vuông vức dùng gia cố móng nhà, đắp thành giếng và dựng tháp canh.",
+      "category": "material",
+      "rarity": "common",
+      "buy_price": 10,
+      "sell_price": 4,
+      "energy": null,
+      "buff": null,
+      "tags": [
+        "material",
+        "stone",
+        "masonry",
+        "building"
+      ]
+    },
+    {
+      "id": "item_clay",
+      "name": "Đất Sét Dẻo",
+      "description": "Đất sét phù sa mịn màng đào ven bờ suối, dùng trát tường nhà chống gió bấc và nung ngói lợp mái.",
+      "category": "material",
+      "rarity": "common",
+      "buy_price": 12,
+      "sell_price": 4,
+      "energy": null,
+      "buff": null,
+      "tags": [
+        "material",
+        "earth",
+        "clay",
+        "foraging"
+      ]
+    },
+    {
+      "id": "bar_copper",
+      "name": "Thỏi Đồng Đúc",
+      "description": "Phôi kim loại đồng được luyện từ quặng đồng tại lò rèn Boris, dùng làm trục cối xay và vòi phun tự động.",
+      "category": "mineral",
+      "rarity": "uncommon",
+      "buy_price": 80,
+      "sell_price": 40,
+      "energy": null,
+      "buff": null,
+      "tags": [
+        "mineral",
+        "metal",
+        "smelted",
+        "forge"
+      ]
+    },
+    {
+      "id": "bar_iron",
+      "name": "Thỏi Sắt Đúc",
+      "description": "Phôi sắt luyện ở nhiệt độ cao, bền bỉ và nặng trịch, xương sống của mọi công trình kiến trúc và vũ khí.",
+      "category": "mineral",
+      "rarity": "uncommon",
+      "buy_price": 150,
+      "sell_price": 75,
+      "energy": null,
+      "buff": null,
+      "tags": [
+        "mineral",
+        "metal",
+        "smelted",
+        "forge"
+      ]
+    },
+    {
+      "id": "bar_gold",
+      "name": "Thỏi Vàng Đúc",
+      "description": "Phôi vàng ròng tinh khiết khai thác từ tầng sâu mỏ Cây Thần, có khả năng dẫn truyền năng lượng ma thuật và bền vững vĩnh cửu.",
+      "category": "mineral",
+      "rarity": "rare",
+      "buy_price": 350,
+      "sell_price": 180,
+      "energy": null,
+      "buff": null,
+      "tags": [
+        "mineral",
+        "metal",
+        "gold",
+        "forge"
+      ]
+    },
+    {
+      "id": "item_iron_nail",
+      "name": "Đinh Sắt Rèn Boris",
+      "description": "Những chiếc đinh sắt bốn cạnh tôi đanh chắc do chính tay thợ rèn Boris đập đe, không bao giờ bị gỉ sét hay tuột then.",
+      "category": "material",
+      "rarity": "common",
+      "buy_price": 15,
+      "sell_price": 6,
+      "energy": null,
+      "buff": null,
+      "tags": [
+        "material",
+        "hardware",
+        "forge",
+        "building"
+      ]
+    },
+    {
+      "id": "stone_quartz",
+      "name": "Thạch Anh Tinh Thể",
+      "description": "Tinh thể thạch anh trong suốt khai thác từ vỉa đá mỏ, có tác dụng hội tụ quang học và thanh lọc năng lượng mạch nước ngầm.",
+      "category": "mineral",
+      "rarity": "uncommon",
+      "buy_price": 90,
+      "sell_price": 45,
+      "energy": null,
+      "buff": null,
+      "tags": [
+        "mineral",
+        "crystal",
+        "mining",
+        "light"
+      ]
+    },
+    {
+      "id": "item_dwarven_cog",
+      "name": "Bánh Răng Cơ Khí Mỏ Sâu",
+      "description": "Bánh răng hợp kim cổ trục đúc bởi người lùn Khaz-Drakor, khớp răng siêu chuẩn xác giúp vận hành cối xay và máy nâng.",
+      "category": "material",
+      "rarity": "uncommon",
+      "buy_price": 120,
+      "sell_price": 60,
+      "energy": null,
+      "buff": null,
+      "tags": [
+        "material",
+        "machinery",
+        "dwarf",
+        "cog"
+      ]
+    },
+    {
+      "id": "item_willow_branch",
+      "name": "Cành Liễu Gai Dẻo",
+      "description": "Cành liễu gai ngâm nước suối đàn hồi tuyệt vời, dùng đan lờ cá, đan giỏ và kết chuồng cú Pip.",
+      "category": "material",
+      "rarity": "common",
+      "buy_price": 8,
+      "sell_price": 3,
+      "energy": null,
+      "buff": null,
+      "tags": [
+        "material",
+        "willow",
+        "crafting",
+        "foraging"
+      ]
+    },
+    {
+      "id": "item_canvas_wool",
+      "name": "Vải Bạt Len Chống Thấm",
+      "description": "Vải bạt dệt từ len cừu Oakhaven ngâm sáp thông do thợ may Elora làm, cản gió bão và chống thấm mưa tuyết tuyệt đối.",
+      "category": "material",
+      "rarity": "uncommon",
+      "buy_price": 140,
+      "sell_price": 70,
+      "energy": null,
+      "buff": null,
+      "tags": [
+        "material",
+        "textile",
+        "wool",
+        "building"
+      ]
+    },
+    {
+      "id": "item_optical_lens",
+      "name": "Thấu Kính Quang Học Đỉnh Đồi",
+      "description": "Thấu kính lồi mài từ thạch anh tím quang học, cho phép kính viễn vọng tháp canh nhìn xa 50 dặm thấu suốt mây mù.",
+      "category": "material",
+      "rarity": "rare",
+      "buy_price": 400,
+      "sell_price": 200,
+      "energy": null,
+      "buff": null,
+      "tags": [
+        "material",
+        "optics",
+        "watchtower",
+        "crafting"
+      ]
+    },
+    {
+      "id": "item_humus_wood",
+      "name": "Gỗ Mục Giàu Dinh Dưỡng",
+      "description": "Thân gỗ sồi mục rữa chứa đầy bào tử nấm men tự nhiên, giá thể hoàn hảo để ươm trồng nấm huỳnh quang.",
+      "category": "material",
+      "rarity": "common",
+      "buy_price": 25,
+      "sell_price": 10,
+      "energy": null,
+      "buff": null,
+      "tags": [
+        "material",
+        "compost",
+        "apothecary",
+        "foraging"
+      ]
+    },
+    {
+      "id": "item_rich_compost",
+      "name": "Mùn Rừng Phì Nhiêu",
+      "description": "Hỗn hợp đất mùn lá mục rục qua 3 mùa mưa, cung cấp dưỡng chất dồi dào cho vườn thảo mộc của cụ Sylvan.",
+      "category": "material",
+      "rarity": "common",
+      "buy_price": 20,
+      "sell_price": 8,
+      "energy": null,
+      "buff": null,
+      "tags": [
+        "material",
+        "soil",
+        "compost",
+        "farming"
+      ]
+    },
+    {
+      "id": "herb_lumina_shroom",
+      "name": "Nấm Huỳnh Quang Mỏ Sâu",
+      "description": "Nấm phát ra ánh lam ngọc dịu dàng mọc quanh hồ nước ngầm tầng 40+, dược liệu cốt lõi giải độc khí Blight.",
+      "category": "ingredient",
+      "rarity": "rare",
+      "buy_price": 120,
+      "sell_price": 60,
+      "energy": 20,
+      "buff": "Hóa giải 50% độc tố tích tụ trong cơ thể",
+      "tags": [
+        "ingredient",
+        "mushroom",
+        "mining",
+        "healing"
+      ]
+    },
+    {
+      "id": "item_hemp_rope",
+      "name": "Dây Thừng Gai Bện Chắc",
+      "description": "Cuộn dây thừng bện từ sợi gai dầu chịu lực kéo hàng tấn, dùng neo thuyền buôn Garrick và giằng mố cầu.",
+      "category": "material",
+      "rarity": "common",
+      "buy_price": 30,
+      "sell_price": 12,
+      "energy": null,
+      "buff": null,
+      "tags": [
+        "material",
+        "rope",
+        "marine",
+        "building"
+      ]
+    },
+    {
+      "id": "item_heavy_leather",
+      "name": "Da Thuộc Cứng Elora",
+      "description": "Tấm da bò ngâm vỏ cây sồi thuộc thủ công, dai dẻo chịu lực, dùng đóng bìa sách cổ thư viện và bọc ghế bành.",
+      "category": "material",
+      "rarity": "uncommon",
+      "buy_price": 160,
+      "sell_price": 80,
+      "energy": null,
+      "buff": null,
+      "tags": [
+        "material",
+        "leather",
+        "crafting",
+        "library"
+      ]
+    },
+    {
+      "id": "item_lumina_ink",
+      "name": "Mực Dạ Quang Thạch Anh",
+      "description": "Mực viết điều chế từ bột thạch anh nghiền và mật hoa đêm, chữ viết sáng rõ trong bóng tối không bao giờ phai.",
+      "category": "material",
+      "rarity": "rare",
+      "buy_price": 250,
+      "sell_price": 120,
+      "energy": null,
+      "buff": null,
+      "tags": [
+        "material",
+        "scholar",
+        "ink",
+        "library"
+      ]
+    },
+    {
+      "id": "item_purification_salt",
+      "name": "Muối Thanh Tẩy Blight",
+      "description": "Muối mỏ ngâm tro thảo mộc theo bí truyền của phù thủy Morrigan, rải đến đâu rễ quỷ Blight tan biến đến đó.",
+      "category": "material",
+      "rarity": "rare",
+      "buy_price": 300,
+      "sell_price": 150,
+      "energy": null,
+      "buff": null,
+      "tags": [
+        "material",
+        "alchemy",
+        "purification",
+        "soil"
+      ]
+    },
+    {
+      "id": "item_ancient_altar_dust",
+      "name": "Bụi Tế Đàn Cổ",
+      "description": "Mạt bụi phát sáng thu thập từ các phiến tế đàn đổ nát dưới mỏ sâu, lưu giữ lời chúc phúc của Cổ Thụ ngàn năm.",
+      "category": "mineral",
+      "rarity": "epic",
+      "buy_price": 600,
+      "sell_price": 300,
+      "energy": null,
+      "buff": null,
+      "tags": [
+        "mineral",
+        "relic",
+        "ancient",
+        "sacred"
+      ]
+    },
+    {
+      "id": "item_eternal_flame_core",
+      "name": "Lõi Lửa Dung Nham Bất Diệt",
+      "description": "Trái tim lửa rực cháy vĩnh cửu rơi ra từ Chúa Tể Dung Nham Tầng 80, nguồn năng lượng thắp sáng Lò Sưởi Vĩnh Cửu.",
+      "category": "mineral",
+      "rarity": "legendary",
+      "buy_price": null,
+      "sell_price": 2000,
+      "energy": null,
+      "buff": "Tỏa hơi ấm vô tận xua tan băng giá vĩnh viễn",
+      "tags": [
+        "mineral",
+        "boss_drop",
+        "fire",
+        "eternal"
+      ]
     }
   ]
 }
