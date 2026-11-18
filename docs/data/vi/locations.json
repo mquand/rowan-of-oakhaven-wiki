@@ -23,7 +23,16 @@
         "npc_garrick",
         "npc_finn",
         "npc_marlo",
-        "npc_aurelia"
+        "npc_aurelia",
+        "npc_elder_oak",
+        "npc_cedar",
+        "npc_wren",
+        "npc_hazel",
+        "npc_bramble",
+        "npc_rosemary",
+        "npc_tilly",
+        "npc_valerius",
+        "npc_morrigan"
       ],
       "features": [
         "Quán Ăn & Nhà Trọ Oakhaven",
@@ -105,6 +114,51 @@
           "id": "npc_aurelia",
           "name": "Aurelia",
           "role": "Dược Sĩ Trạm Xá"
+        },
+        {
+          "id": "npc_elder_oak",
+          "name": "Trưởng Lão Oakwood",
+          "role": "Town Mayor / Trưởng Thôn"
+        },
+        {
+          "id": "npc_cedar",
+          "name": "Cedar",
+          "role": "Master Carpenter / Thợ Mộc"
+        },
+        {
+          "id": "npc_wren",
+          "name": "Wren",
+          "role": "Wandering Bard / Nhạc Sĩ Lang Thang"
+        },
+        {
+          "id": "npc_hazel",
+          "name": "Hazel",
+          "role": "Livestock Rancher / Chủ Trại Chăn Nuôi"
+        },
+        {
+          "id": "npc_bramble",
+          "name": "Bramble",
+          "role": "General Merchant / Tiệm Tạp Hóa"
+        },
+        {
+          "id": "npc_rosemary",
+          "name": "Rosemary",
+          "role": "Stardust Shrine Keeper / Người Giữ Đền"
+        },
+        {
+          "id": "npc_tilly",
+          "name": "Tilly",
+          "role": "Shepherdess / Cô Bé Chăn Cừu"
+        },
+        {
+          "id": "npc_valerius",
+          "name": "Valerius",
+          "role": "Guardian Captain / Đội Trưởng Dân Quân"
+        },
+        {
+          "id": "npc_morrigan",
+          "name": "Morrigan",
+          "role": "Hedge Witch / Phù Thủy Ẩn Dật"
         }
       ]
     },
@@ -116,7 +170,8 @@
       "description": "Thành phố lát đá cẩm thạch trắng nguy nga, đài phun nước phát quang, tháp chuông ngân vang và quảng trường Vương Cung hoa lệ. Rowan mở chi nhánh Quán Ăn thứ 2 tại góc phố hoàng gia.",
       "unlock_condition": "Đạt Danh Tiếng Cấp 5 & mở khóa tuyến xe ngựa sao",
       "notable_npcs": [
-        "npc_valen"
+        "npc_valen",
+        "npc_iris"
       ],
       "features": [
         "Chi nhánh Quán Ăn hoàng gia",
@@ -135,6 +190,11 @@
           "id": "npc_valen",
           "name": "Valen",
           "role": "Quý Tộc Ma Cà Rồng Ăn Chay"
+        },
+        {
+          "id": "npc_iris",
+          "name": "Iris",
+          "role": "Royal Chronicler / Sử Gia Hoàng Gia"
         }
       ]
     },
@@ -148,7 +208,9 @@
       "notable_npcs": [
         "npc_lumi",
         "npc_sylvan",
-        "npc_elora"
+        "npc_elora",
+        "npc_thistle",
+        "npc_fern"
       ],
       "features": [
         "Tộc Yêu Tinh Rừng",
@@ -178,6 +240,16 @@
           "id": "npc_elora",
           "name": "Elora",
           "role": "Thợ May Áo Choàng Dạ Hội"
+        },
+        {
+          "id": "npc_thistle",
+          "name": "Thistle",
+          "role": "Nocturnal Moth Ranger / Thợ Săn Bướm Đêm"
+        },
+        {
+          "id": "npc_fern",
+          "name": "Fern",
+          "role": "Ancient Root Healer / Thầy Thuốc Cổ Đại"
         }
       ]
     },
@@ -190,7 +262,10 @@
       "unlock_condition": "Mở sau khi gắn kết cư dân Oakhaven",
       "notable_npcs": [
         "npc_boris",
-        "npc_bram"
+        "npc_bram",
+        "npc_grimhild",
+        "npc_cogsworth",
+        "npc_ember"
       ],
       "features": [
         "Lò nướng nhiệt địa tâm",
@@ -214,6 +289,21 @@
           "id": "npc_bram",
           "name": "Bram",
           "role": "Thợ Mỏ Pha Lê"
+        },
+        {
+          "id": "npc_grimhild",
+          "name": "Đại Thợ Rèn Grimhild",
+          "role": "Dwarven High Smith / Đại Thợ Rèn"
+        },
+        {
+          "id": "npc_cogsworth",
+          "name": "Cogsworth",
+          "role": "Steam Engineer / Kỹ Sư Hơi Nước"
+        },
+        {
+          "id": "npc_ember",
+          "name": "Ember",
+          "role": "Lava Roaster Chef / Đầu Bếp Dung Nham"
         }
       ]
     },
@@ -225,7 +315,8 @@
       "description": "Quần thể đảo bay lơ lửng giữa biển mây ngập ánh sao dạ quang, nơi bắt nguồn dòng sông ánh sáng và truyền thuyết Khởi Nguyên Bụi Sao. Nơi an nghỉ của linh hồn Bà Ngoại.",
       "unlock_condition": "Mở ở đỉnh cao cốt truyện",
       "notable_npcs": [
-        "npc_amalia"
+        "npc_amalia",
+        "npc_solace"
       ],
       "features": [
         "Cây Tinh Tú Thần Linh",
@@ -245,6 +336,11 @@
           "id": "npc_amalia",
           "name": "Bà Ngoại Amalia",
           "role": "Cố Nghệ Nhân Trà Bánh / Linh Hồn Dẫn Lối"
+        },
+        {
+          "id": "npc_solace",
+          "name": "Solace",
+          "role": "Celestial Gate Guardian / Linh Thể Hộ Tinh"
         }
       ]
     }

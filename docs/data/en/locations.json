@@ -23,7 +23,16 @@
         "npc_garrick",
         "npc_finn",
         "npc_marlo",
-        "npc_aurelia"
+        "npc_aurelia",
+        "npc_elder_oak",
+        "npc_cedar",
+        "npc_wren",
+        "npc_hazel",
+        "npc_bramble",
+        "npc_rosemary",
+        "npc_tilly",
+        "npc_valerius",
+        "npc_morrigan"
       ],
       "features": [
         "Oakhaven Cafe & Bakery",
@@ -105,6 +114,51 @@
           "id": "npc_aurelia",
           "name": "Aurelia",
           "role": "Remedy Apothecary"
+        },
+        {
+          "id": "npc_elder_oak",
+          "name": "Elder Oakwood",
+          "role": "Town Mayor / Trưởng Thôn"
+        },
+        {
+          "id": "npc_cedar",
+          "name": "Cedar",
+          "role": "Master Carpenter / Thợ Mộc"
+        },
+        {
+          "id": "npc_wren",
+          "name": "Wren",
+          "role": "Wandering Bard / Nhạc Sĩ Lang Thang"
+        },
+        {
+          "id": "npc_hazel",
+          "name": "Hazel",
+          "role": "Livestock Rancher / Chủ Trại Chăn Nuôi"
+        },
+        {
+          "id": "npc_bramble",
+          "name": "Bramble",
+          "role": "General Merchant / Tiệm Tạp Hóa"
+        },
+        {
+          "id": "npc_rosemary",
+          "name": "Rosemary",
+          "role": "Stardust Shrine Keeper / Người Giữ Đền"
+        },
+        {
+          "id": "npc_tilly",
+          "name": "Tilly",
+          "role": "Shepherdess / Cô Bé Chăn Cừu"
+        },
+        {
+          "id": "npc_valerius",
+          "name": "Valerius",
+          "role": "Guardian Captain / Đội Trưởng Dân Quân"
+        },
+        {
+          "id": "npc_morrigan",
+          "name": "Morrigan",
+          "role": "Hedge Witch / Phù Thủy Ẩn Dật"
         }
       ]
     },
@@ -116,7 +170,8 @@
       "description": "Grand city of glistening white marble, luminous celestial fountains, chiming cathedral spires, and magnificent palace promenades. Rowan establishes a prestigious second tea branch here.",
       "unlock_condition": "Reach Shop Fame Level 5 & unlock the Stardust Carriage line",
       "notable_npcs": [
-        "npc_valen"
+        "npc_valen",
+        "npc_iris"
       ],
       "features": [
         "Royal Tea Salon Branch",
@@ -135,6 +190,11 @@
           "id": "npc_valen",
           "name": "Valen",
           "role": "Vegetarian Vampire Noble"
+        },
+        {
+          "id": "npc_iris",
+          "name": "Iris",
+          "role": "Royal Chronicler / Sử Gia Hoàng Gia"
         }
       ]
     },
@@ -148,7 +208,9 @@
       "notable_npcs": [
         "npc_lumi",
         "npc_sylvan",
-        "npc_elora"
+        "npc_elora",
+        "npc_thistle",
+        "npc_fern"
       ],
       "features": [
         "Elven Forest Clan",
@@ -178,6 +240,16 @@
           "id": "npc_elora",
           "name": "Elora",
           "role": "Gala Robe Seamstress"
+        },
+        {
+          "id": "npc_thistle",
+          "name": "Thistle",
+          "role": "Nocturnal Moth Ranger / Thợ Săn Bướm Đêm"
+        },
+        {
+          "id": "npc_fern",
+          "name": "Fern",
+          "role": "Ancient Root Healer / Thầy Thuốc Cổ Đại"
         }
       ]
     },
@@ -190,7 +262,10 @@
       "unlock_condition": "Unlocked through town community milestones",
       "notable_npcs": [
         "npc_boris",
-        "npc_bram"
+        "npc_bram",
+        "npc_grimhild",
+        "npc_cogsworth",
+        "npc_ember"
       ],
       "features": [
         "Geothermal Bake Oven",
@@ -214,6 +289,21 @@
           "id": "npc_bram",
           "name": "Bram",
           "role": "Crystal Mine Forager"
+        },
+        {
+          "id": "npc_grimhild",
+          "name": "High Smith Grimhild",
+          "role": "Dwarven High Smith / Đại Thợ Rèn"
+        },
+        {
+          "id": "npc_cogsworth",
+          "name": "Cogsworth",
+          "role": "Steam Engineer / Kỹ Sư Hơi Nước"
+        },
+        {
+          "id": "npc_ember",
+          "name": "Ember",
+          "role": "Lava Roaster Chef / Đầu Bếp Dung Nham"
         }
       ]
     },
@@ -225,7 +315,8 @@
       "description": "Floating celestial isles suspended above an iridescent sea of clouds, illuminated by dancing auroras. The cosmic birthplace of Stardust and the resting sanctuary of Grandmother Amalia's guiding spirit.",
       "unlock_condition": "Unlocked at the story's emotional climax",
       "notable_npcs": [
-        "npc_amalia"
+        "npc_amalia",
+        "npc_solace"
       ],
       "features": [
         "Tree of Celestial Constellations",
@@ -245,6 +336,11 @@
           "id": "npc_amalia",
           "name": "Grandmother Amalia",
           "role": "Master Tea Artisan / Guiding Spirit"
+        },
+        {
+          "id": "npc_solace",
+          "name": "Solace",
+          "role": "Celestial Gate Guardian / Linh Thể Hộ Tinh"
         }
       ]
     }

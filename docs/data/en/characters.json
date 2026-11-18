@@ -1322,6 +1322,1158 @@
           ]
         }
       }
+    },
+    {
+      "id": "npc_elder_oak",
+      "name": "Elder Oakwood",
+      "role": "Town Mayor of Oakhaven",
+      "location": "Oakhaven Town Hall",
+      "species": "Human (Veteran Vanguard)",
+      "description": "Silver-haired elder with a resonant voice, leaning upon an antique runic oak staff. Steadfastly sheltered the town through the Great Blight 20 years ago.",
+      "favorite_items": [
+        "tea_whisper_hearth",
+        "bread_brioche",
+        "mat_ong"
+      ],
+      "quote": "I have borne this town for thirty years upon aching shoulders and trembling knees... I am weary, yet who shall shoulder it if I falter?",
+      "birthday": "Winter 20",
+      "schedule": "08:00 - 16:00: Town Hall; Evening: Resting at the Hearth Eatery",
+      "real_world_wound": "Tired Hero syndrome; bore the crushing mantle of sole communal leadership for three decades, terrified of catastrophic failure if he lets go.",
+      "comfort_dish": "tea_whisper_hearth",
+      "heart_event_summary": "At 8 Hearts: Yields executive authority to a collective Town Council; unlocks the Town Restoration Upgrade Board.",
+      "gift_preferences": {
+        "loved": [
+          "tea_whisper_hearth",
+          "banh_pie_tao_que_lo_dat",
+          "ore_gold"
+        ],
+        "liked": [
+          "mat_ong",
+          "banh_mi_lua_mi_gion",
+          "la_tra_sen"
+        ],
+        "disliked": [
+          "lau_ca_cay_ham_nguc",
+          "nuoc_ep_dua_luoi_bang_gia"
+        ],
+        "hated": [
+          "ore_coal",
+          "drop_prism_jelly"
+        ]
+      },
+      "schedules": {
+        "default": {
+          "sunny": [
+            {
+              "time": "08:00",
+              "location": "Oakhaven Town Hall",
+              "activity": "Reviewing restoration blueprints for communal facilities"
+            },
+            {
+              "time": "12:00",
+              "location": "Town Market Square",
+              "activity": "Strolling through the square to converse with shopkeepers"
+            },
+            {
+              "time": "18:00",
+              "location": "The Hearth Eatery & Inn",
+              "activity": "Sipping warm hearth tea and consulting with Rowan"
+            }
+          ],
+          "rainy": [
+            {
+              "time": "09:00",
+              "location": "Oakhaven Town Hall",
+              "activity": "Stoking the ember grate and archiving registry logs"
+            },
+            {
+              "time": "17:00",
+              "location": "The Hearth Eatery & Inn",
+              "activity": "Sheltering from cold downpours alongside fellow village elders"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "npc_cedar",
+      "name": "Cedar",
+      "role": "Master Carpenter & Builder",
+      "location": "Oakhaven Carpenter Workshop",
+      "species": "Beastfolk (Ursine Bear-kin)",
+      "description": "Burly, kindhearted brown bear-kin carpenter whose weathered paws craft breathtaking timber joinery. A quiet artisan whose deep laughter rattles the shop rafters.",
+      "favorite_items": [
+        "dish_sweet_pumpkin_potage",
+        "mat_ong",
+        "banh_mi_lua_mi_gion"
+      ],
+      "quote": "They branded me a coward for refusing tribal war... Yet raising a warm roof to endure winter blizzard gales demands far greater courage than swinging a sword.",
+      "birthday": "Autumn 8",
+      "schedule": "07:00 - 17:00: Carpenter Workshop; 18:30: Hearth Eatery",
+      "real_world_wound": "Exiled from his native mountain clan for pacifism; branded a coward yet steadfast in his conviction that creation triumphs over ruin.",
+      "comfort_dish": "dish_sweet_pumpkin_potage",
+      "heart_event_summary": "At 8 Hearts: Reconstructs the Old Timber Viaduct into Whisperwood; unlocks Home & Eatery Structural Expansion projects.",
+      "gift_preferences": {
+        "loved": [
+          "dish_sweet_pumpkin_potage",
+          "mat_ong",
+          "banh_cau_vong_4_mua"
+        ],
+        "liked": [
+          "dau_rung",
+          "khoai_tay_nuong_bo_toi",
+          "item_butter"
+        ],
+        "disliked": [
+          "ruou_trai_cay_len_men",
+          "ore_coal"
+        ],
+        "hated": [
+          "bot_sao",
+          "drop_crystal_sea_salt"
+        ]
+      },
+      "schedules": {
+        "default": {
+          "sunny": [
+            {
+              "time": "07:00",
+              "location": "Carpenter Workshop",
+              "activity": "Hewing pine beams and sizing mortise joints"
+            },
+            {
+              "time": "13:00",
+              "location": "Whisperwood Fringes",
+              "activity": "Harvesting fallen stormwood and seasoned oak branches"
+            },
+            {
+              "time": "18:30",
+              "location": "The Hearth Eatery & Inn",
+              "activity": "Restoring vigor over a piping hot bowl of pumpkin potage"
+            }
+          ],
+          "rainy": [
+            {
+              "time": "08:00",
+              "location": "Carpenter Workshop",
+              "activity": "Carving custom chairs and whittling wooden toys for village children"
+            },
+            {
+              "time": "17:00",
+              "location": "The Hearth Eatery & Inn",
+              "activity": "Enjoying clover honey tea beside the tavern fireplace"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "npc_wren",
+      "name": "Wren",
+      "role": "Wandering Halfling Bard",
+      "location": "Town Square & Hearth Eatery",
+      "species": "Halfling",
+      "description": "Nimble halfling clad in a forest-green feathered beret, carrying a cherished antique mandolin. Sings like a dawn thrush yet turns crimson with stage fright offstage.",
+      "favorite_items": [
+        "pastry_scone_berry",
+        "tra_dau_bang_tuyet",
+        "dau_rung"
+      ],
+      "quote": "I-I can sing well enough, really... but the moment people look directly at me without my music, my throat locks tight...",
+      "birthday": "Spring 14",
+      "schedule": "Afternoon: Riverside rehearsal; Evening: Performing at the Hearth Eatery",
+      "real_world_wound": "Suffered acute aphonia for three years following the destruction of his homeland; afflicted by severe social anxiety and performance dread.",
+      "comfort_dish": "pastry_scone_berry",
+      "heart_event_summary": "At 8 Hearts: Debuts the full 'Lullaby of Oakhaven' at the Harvest Festival; unlocks the Tavern Ambience Music Jukebox.",
+      "gift_preferences": {
+        "loved": [
+          "pastry_scone_berry",
+          "tart_dau_tuyet_lanh",
+          "da_tinh_the"
+        ],
+        "liked": [
+          "dau_rung",
+          "mat_ong",
+          "banh_quy_gung_giu_am"
+        ],
+        "disliked": [
+          "thit_nuong_lua_dia_nguc",
+          "ore_coal"
+        ],
+        "hated": [
+          "bit_tet_nuong_than_soi",
+          "lau_ca_cay_ham_nguc"
+        ]
+      },
+      "schedules": {
+        "default": {
+          "sunny": [
+            {
+              "time": "10:00",
+              "location": "Oakhaven Riverbank",
+              "activity": "Strumming mandolin chords while watching rippling eddies"
+            },
+            {
+              "time": "15:00",
+              "location": "Town Market Square",
+              "activity": "Entertaining town children with merry folk ballads"
+            },
+            {
+              "time": "19:00",
+              "location": "The Hearth Eatery & Inn",
+              "activity": "Performing warm evening tunes for dining patrons"
+            }
+          ],
+          "rainy": [
+            {
+              "time": "11:00",
+              "location": "Oakhaven Library",
+              "activity": "Perusing antique sheet scrolls in peaceful study alongside Clara"
+            },
+            {
+              "time": "18:00",
+              "location": "The Hearth Eatery & Inn",
+              "activity": "Fingerpicking soothing acoustic melodies beside the brick oven"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "npc_hazel",
+      "name": "Hazel",
+      "role": "Rancher & Livestock Matron",
+      "location": "Southern Pastures",
+      "species": "Human",
+      "description": "Sun-bronzed rancher with an amber ponytail and practical denim overalls. Runs the sprawling dairy and sheep pastures single-handedly with rugged pride.",
+      "favorite_items": [
+        "sua_bo_nong_mat_ong",
+        "banh_mi_lua_mi_gion",
+        "khoai_tay_nuong_bo_toi"
+      ],
+      "quote": "The heifer herd refused their fresh clover this morning... Perhaps they miss him. I certainly do not. Truly.",
+      "birthday": "Summer 3",
+      "schedule": "06:00 - 18:00: Southern Pastures and barn operations",
+      "real_world_wound": "Abandoned by a merchant spouse who vanished into metropolitan Solaria; fiercely guards her autonomy and spurns assistance out of betrayal trauma.",
+      "comfort_dish": "sua_bo_nong_mat_ong",
+      "heart_event_summary": "At 8 Hearts: Accepts town community support to establish the Valley Ranching Cooperative; unlocks purchasing barn livestock and dairy stock.",
+      "gift_preferences": {
+        "loved": [
+          "sua_bo_nong_mat_ong",
+          "banh_pie_tao_que_lo_dat",
+          "bap_xao_bo_cay"
+        ],
+        "liked": [
+          "khoai_tay_nuong_bo_toi",
+          "seed_silver_wheat",
+          "dau_rung"
+        ],
+        "disliked": [
+          "ruou_trai_cay_len_men",
+          "ore_coal"
+        ],
+        "hated": [
+          "drop_prism_jelly",
+          "bot_sao"
+        ]
+      },
+      "schedules": {
+        "default": {
+          "sunny": [
+            {
+              "time": "06:00",
+              "location": "Dairy Barn",
+              "activity": "Milking cows and distributing morning grain feeds"
+            },
+            {
+              "time": "10:00",
+              "location": "Southern Pastures",
+              "activity": "Guiding the sheep flocks alongside young Tilly onto the hills"
+            },
+            {
+              "time": "18:30",
+              "location": "The Hearth Eatery & Inn",
+              "activity": "Delivering fresh churned butter and dairy pails to Rowan"
+            }
+          ],
+          "rainy": [
+            {
+              "time": "07:30",
+              "location": "Hay Barn",
+              "activity": "Bedding fresh dry straw and securing paddock shutters"
+            },
+            {
+              "time": "15:00",
+              "location": "Farmstead Porch",
+              "activity": "Spinning sheep fleece yarn while listening to drum rains"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "npc_bramble",
+      "name": "Bramble",
+      "role": "General Provisioner",
+      "location": "Bramble's Treasure Urn Shop",
+      "species": "Goblin",
+      "description": "Small, olive-skinned goblin in round spectacles and a tartan vest. Keeps exact abacus ledgers and hoards antique buttons, but conducts strictly honorable commerce.",
+      "favorite_items": [
+        "chao_yen_mach_mat_ong",
+        "ore_gold",
+        "da_tinh_the"
+      ],
+      "quote": "Squeezing an extra penny from another's misery? I'd rather starve. Bramble may be a goblin, but Bramble has a conscience, understand?!",
+      "birthday": "Autumn 29",
+      "schedule": "08:00 - 18:00: General Store; Saturday Evenings: Night Bazaar",
+      "real_world_wound": "Exiled from Solaria's Merchant Conclave for blowing the whistle on counterfeit elixirs; branded a traitor to both goblin kind and wealthy guildmasters.",
+      "comfort_dish": "chao_yen_mach_mat_ong",
+      "heart_event_summary": "At 8 Hearts: Establishes the Oakhaven Saturday Night Bazaar; unlocks exotic import crop seeds and rare tool attachments.",
+      "gift_preferences": {
+        "loved": [
+          "chao_yen_mach_mat_ong",
+          "ore_gold",
+          "gem_sapphire"
+        ],
+        "liked": [
+          "da_tinh_the",
+          "mat_ong",
+          "banh_mi_lua_mi_gion"
+        ],
+        "disliked": [
+          "canh_thao_moc_bup_sen",
+          "tra_sen_an_than"
+        ],
+        "hated": [
+          "ore_coal",
+          "drop_prism_jelly"
+        ]
+      },
+      "schedules": {
+        "default": {
+          "sunny": [
+            {
+              "time": "08:00",
+              "location": "Town Market Urn Shop",
+              "activity": "Unpacking crate inventory and balancing abacus tallies"
+            },
+            {
+              "time": "14:00",
+              "location": "Mist Lake Pier",
+              "activity": "Trading bulk valley flour for Garrick's sea imports"
+            },
+            {
+              "time": "19:00",
+              "location": "The Hearth Eatery & Inn",
+              "activity": "Counting novelty brass buttons over a warm honey oat porridge"
+            }
+          ],
+          "rainy": [
+            {
+              "time": "09:00",
+              "location": "Canopy Market Stall",
+              "activity": "Securing oilcloth tarps and polishing brass scale weights"
+            },
+            {
+              "time": "16:00",
+              "location": "The Hearth Eatery & Inn",
+              "activity": "Sharing spiced hot tea with passing carriage travelers"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "npc_rosemary",
+      "name": "Rosemary",
+      "role": "Stardust Shrine Keeper",
+      "location": "Stardust Shrine — Whisperwood Glade",
+      "species": "Dryad (Mother Oak Avatar)",
+      "description": "Serene dryad disguised in linen robes, bearing forest-moss braids interwoven with budding white blossoms. Living avatar of Oakhaven's ancient mother oak.",
+      "favorite_items": [
+        "tra_sen_bach_diep",
+        "seed_star_lavender",
+        "dau_rung"
+      ],
+      "quote": "Every time an ancient timber in the glade perishes to Star Blight... I feel as though someone has severed one of my own fingers.",
+      "birthday": "Spring 1",
+      "schedule": "All day: Guarding the sacred stardust shrine and ancient roots",
+      "real_world_wound": "Agonized by Star Blight corrupting deep subterranean root systems; terrified that if the mother tree withers, her consciousness will dissolve.",
+      "comfort_dish": "tra_sen_bach_diep",
+      "heart_event_summary": "At 8 Hearts: Reveals her true dryad essence and purges the root blight; unlocks the Stardust Purification Cauldron.",
+      "gift_preferences": {
+        "loved": [
+          "tra_sen_bach_diep",
+          "seed_sen_tea",
+          "seed_star_lavender"
+        ],
+        "liked": [
+          "dau_rung",
+          "oai_huong",
+          "mat_ong"
+        ],
+        "disliked": [
+          "thit_nuong_lua_dia_nguc",
+          "bit_tet_nuong_than_soi"
+        ],
+        "hated": [
+          "ore_coal",
+          "lap_xuong_tieu_den_mo_da"
+        ]
+      },
+      "schedules": {
+        "default": {
+          "sunny": [
+            {
+              "time": "06:00",
+              "location": "Stardust Shrine",
+              "activity": "Sweeping cedar needles from ancient runic altars"
+            },
+            {
+              "time": "12:00",
+              "location": "Mother Oak Roots",
+              "activity": "Pressing her palms against bark to commune with the grove"
+            },
+            {
+              "time": "18:00",
+              "location": "Whisperwood Fringes",
+              "activity": "Basking in cool evening winds alongside luminous moths"
+            }
+          ],
+          "rainy": [
+            {
+              "time": "08:00",
+              "location": "Shrine Eaves",
+              "activity": "Collecting rainwater to bathe tender seedling shoots"
+            },
+            {
+              "time": "16:00",
+              "location": "Stardust Shrine",
+              "activity": "Lighting fragrant beeswax candles to repel gloomy miasma"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "npc_tilly",
+      "name": "Tilly",
+      "role": "Little Shepherdess",
+      "location": "Southern Pastures",
+      "species": "Beastfolk (Ovine Sheep-kin)",
+      "description": "Spirited 10-year-old sheep-kin girl with curling horns (one chipped short from past trauma) and fluffy cream-white curls. Loves stargazing and often dozes in haystacks.",
+      "favorite_items": [
+        "sua_bo_nong_mat_ong",
+        "banh_cau_vong_4_mua",
+        "dau_rung"
+      ],
+      "quote": "Kael and Finn said there are wonderful glowing fireflies in the woods at night... Tilly wants to see them too, but... it's just so scary and dark...",
+      "birthday": "Spring 15",
+      "schedule": "Morning: Herding yearling lambs; Afternoon: Playing with Kael and Finn",
+      "real_world_wound": "Suffers severe nyctophobia and post-traumatic anxiety following an old winter wolf attack; longs to appear brave before her peers.",
+      "comfort_dish": "sua_bo_nong_mat_ong",
+      "heart_event_summary": "At 8 Hearts: Conquers her terror of the dark to rescue an orphaned lamb; unlocks the Rainbow Wool Dyeing Workshop.",
+      "gift_preferences": {
+        "loved": [
+          "banh_cau_vong_4_mua",
+          "sua_bo_nong_mat_ong",
+          "tart_dau_tuyet_lanh"
+        ],
+        "liked": [
+          "dau_rung",
+          "mat_ong",
+          "item_sugar"
+        ],
+        "disliked": [
+          "canh_thao_moc_bup_sen",
+          "ore_coal"
+        ],
+        "hated": [
+          "ruou_trai_cay_len_men",
+          "bit_tet_nuong_than_soi"
+        ]
+      },
+      "schedules": {
+        "default": {
+          "sunny": [
+            {
+              "time": "07:30",
+              "location": "Southern Pastures",
+              "activity": "Guiding spring lambs to clover slopes with her little crook"
+            },
+            {
+              "time": "13:30",
+              "location": "Town Square Great Oak",
+              "activity": "Skipping river stones and solving riddles with Kael and Finn"
+            },
+            {
+              "time": "18:00",
+              "location": "The Hearth Eatery & Inn",
+              "activity": "Drinking warm sweetened honey milk with fresh star cookies"
+            }
+          ],
+          "rainy": [
+            {
+              "time": "09:00",
+              "location": "Hazel's Sheepfold",
+              "activity": "Grooming wet fleece and sheltering young lambs beside the stove"
+            },
+            {
+              "time": "15:00",
+              "location": "The Hearth Eatery & Inn",
+              "activity": "Drawing crayons illustrations with Kael and Mallow"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "npc_grimhild",
+      "name": "High Smith Grimhild",
+      "role": "Dwarven High Smith of Khaz-Drakor",
+      "location": "Royal Forge of Khaz-Drakor",
+      "species": "Dwarf",
+      "description": "Legendary dwarven matriarch boasting four thick platinum braids and sinewy arms that have hammered out ancient relics. Foster mother of Boris and Bram.",
+      "favorite_items": [
+        "dish_dwarf_ironforge_goulash",
+        "ore_gold",
+        "banh_pie_tao_que_lo_dat"
+      ],
+      "quote": "This old smith has forged tens of thousands of mastercraft blades... yet never discovered the craft to re-temper her own broken heart.",
+      "birthday": "Winter 5",
+      "schedule": "All day: Pounding enchanted metal at the Royal Forge of Khaz-Drakor",
+      "real_world_wound": "Haunted by the memory of driving Boris and Bram away with unrelenting severity; maternal remorse buried deep behind deafening anvil strikes.",
+      "comfort_dish": "dish_dwarf_ironforge_goulash",
+      "heart_event_summary": "At 8 Hearts: Tearfully reconciles with Boris and Bram at Oakhaven; unlocks Masterwork Mithril Weapon & Armor smithing.",
+      "gift_preferences": {
+        "loved": [
+          "dish_dwarf_ironforge_goulash",
+          "banh_pie_tao_que_lo_dat",
+          "ore_gold"
+        ],
+        "liked": [
+          "ore_iron",
+          "ore_copper",
+          "banh_mi_den_dai_han"
+        ],
+        "disliked": [
+          "salad_trai_cay_mua_ha",
+          "nuoc_ep_dua_luoi_bang_gia"
+        ],
+        "hated": [
+          "drop_crystal_sea_salt",
+          "bot_sao"
+        ]
+      },
+      "schedules": {
+        "default": {
+          "sunny": [
+            {
+              "time": "06:00",
+              "location": "Royal Forge of Khaz-Drakor",
+              "activity": "Stoking magma bellows to forge legendary mithril plating"
+            },
+            {
+              "time": "12:00",
+              "location": "Great Stone Hall",
+              "activity": "Quaffing deep beet brew and reminiscing over old memories"
+            },
+            {
+              "time": "18:00",
+              "location": "Royal Forge",
+              "activity": "Inspecting royal vanguard armaments"
+            }
+          ],
+          "rainy": [
+            {
+              "time": "08:00",
+              "location": "Royal Forge",
+              "activity": "Pounding red-hot ingots whose clangs drown out subterranean thunder"
+            },
+            {
+              "time": "17:00",
+              "location": "Deep Ore Vaults",
+              "activity": "Sorting pristine celestial crystals"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "npc_cogsworth",
+      "name": "Cogsworth",
+      "role": "Steam Engineer",
+      "location": "Underground Steam Workshop",
+      "species": "Dwarf",
+      "description": "Slender young dwarf sporting crooked brass goggles and grease-smeared overalls. Intrigued by gears and clockwork, and the only soul capable of deciphering Chrono's cadence.",
+      "favorite_items": [
+        "khoai_tay_nuong_bo_toi",
+        "da_tinh_the",
+        "ore_iron"
+      ],
+      "quote": "The clan elders claim I insult our forefathers... But if our ancient ancestors built Chrono, then they were mechanical engineers, not just anvil thumpers!",
+      "birthday": "Summer 12",
+      "schedule": "08:00 - 18:00: Repairing pneumatic valves and minecart lines",
+      "real_world_wound": "Ostracized by conservative dwarven clans for pursuing steam engineering over traditional blacksmithy; struggling with profound intellectual alienation.",
+      "comfort_dish": "khoai_tay_nuong_bo_toi",
+      "heart_event_summary": "At 8 Hearts: Restores the subterranean Minecart Express network; unlocks Automated Sprinkler & Hopper blueprints for farming.",
+      "gift_preferences": {
+        "loved": [
+          "khoai_tay_nuong_bo_toi",
+          "da_tinh_the",
+          "gem_amethyst"
+        ],
+        "liked": [
+          "ore_iron",
+          "ore_copper",
+          "ore_coal"
+        ],
+        "disliked": [
+          "banh_deo_trang_ram_hoa_buoi",
+          "sua_bo_nong_mat_ong"
+        ],
+        "hated": [
+          "drop_golden_pollen",
+          "ruou_trai_cay_len_men"
+        ]
+      },
+      "schedules": {
+        "default": {
+          "sunny": [
+            {
+              "time": "08:00",
+              "location": "Steam Workshop",
+              "activity": "Lubricating brass gears and tensioning boiler valves"
+            },
+            {
+              "time": "13:00",
+              "location": "Ancient Tram Line",
+              "activity": "Conducting trials on a pneumatic steam-cart prototype"
+            },
+            {
+              "time": "19:00",
+              "location": "Deep Cavern Tavern",
+              "activity": "Dining on garlicky roasted potatoes with a satisfied sigh"
+            }
+          ],
+          "rainy": [
+            {
+              "time": "09:00",
+              "location": "Beside Chrono the Golem",
+              "activity": "Applying chamomile lubricant to Chrono's rusted joints"
+            },
+            {
+              "time": "16:00",
+              "location": "Drafting Table",
+              "activity": "Drafting blueprints for high-pressure irrigation pumps"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "npc_ember",
+      "name": "Ember",
+      "role": "Lava Roaster Chef",
+      "location": "Lava Basin Eatery — Khaz-Drakor",
+      "species": "Beastfolk (Fire Salamander)",
+      "description": "Energetic fire salamander chef with orange-black patterns and an ember-tipped tail, wearing a charred chef's apron. Roasts directly over geothermal magma; Rowan's friendly cooking rival.",
+      "favorite_items": [
+        "thit_nuong_lua_dia_nguc",
+        "bap_xao_bo_cay",
+        "drop_crystal_sea_salt"
+      ],
+      "quote": "Surface folk cringe at my flames... Yet a hearth flame roasting wholesome meat to satisfy empty stomachs — what is fearful about that?!",
+      "birthday": "Summer 21",
+      "schedule": "10:00 - 22:00: Cooking at the Khaz-Drakor Lava Basin Eatery",
+      "real_world_wound": "Barred from surface culinary guilds due to deep prejudice against fire-breathing beastfolk; longs for genuine recognition of his gastronomic artistry.",
+      "comfort_dish": "thit_nuong_lua_dia_nguc",
+      "heart_event_summary": "At 8 Hearts: Engages Rowan in an exhilarating harvest cook-off; unlocks the Magma Forge Cooking Station and superheated recipes.",
+      "gift_preferences": {
+        "loved": [
+          "thit_nuong_lua_dia_nguc",
+          "bit_tet_nuong_than_soi",
+          "drop_crystal_sea_salt"
+        ],
+        "liked": [
+          "bap_xao_bo_cay",
+          "ca_suoi_nuong_muoi_ot",
+          "ore_coal"
+        ],
+        "disliked": [
+          "nuoc_ep_dua_luoi_bang_gia",
+          "tart_dau_tuyet_lanh"
+        ],
+        "hated": [
+          "tra_dau_bang_tuyet",
+          "tra_sen_an_than"
+        ]
+      },
+      "schedules": {
+        "default": {
+          "sunny": [
+            {
+              "time": "10:00",
+              "location": "Magma Roasting Grate",
+              "activity": "Charbroiling prime boulder steaks over lava jets"
+            },
+            {
+              "time": "15:00",
+              "location": "Underground Mineral Mart",
+              "activity": "Bargaining for deep-sea crystal rock salts"
+            },
+            {
+              "time": "20:00",
+              "location": "Magma Roasting Grate",
+              "activity": "Savoring sizzling spicy skewers with fiery zest"
+            }
+          ],
+          "rainy": [
+            {
+              "time": "11:00",
+              "location": "Magma Roasting Grate",
+              "activity": "Simmering spicy stews to warm shift miners coming off deep shafts"
+            },
+            {
+              "time": "18:00",
+              "location": "Magma Roasting Grate",
+              "activity": "Inventing volcanic chili marinade infusions"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "npc_thistle",
+      "name": "Thistle",
+      "role": "Nocturnal Moth Ranger",
+      "location": "Canopy Boughs of Sylva-Fae",
+      "species": "Moth-Folk",
+      "description": "Lithe moth-folk with silver-violet wings dusted with bioluminescent scales, feathery antennae, and a snowy down collar. Patrols canopy treetops and harvests star-dew.",
+      "favorite_items": [
+        "tra_oai_huong_ngan_sao",
+        "drop_golden_pollen",
+        "oai_huong"
+      ],
+      "quote": "City lanterns... sting so sharply... Yet moonbeams filtering through forest canopy boughs feel as tender as a mother's lullaby.",
+      "birthday": "Autumn 28",
+      "schedule": "20:00 - 05:00: Patrolling Sylva-Fae canopy; Day: Slumbering in silk cocoon",
+      "real_world_wound": "Suffers photic hypersensitivity from blinding glare; isolated by living entirely inverted nocturnal hours from the rest of the world.",
+      "comfort_dish": "tra_oai_huong_ngan_sao",
+      "heart_event_summary": "At 8 Hearts: Guides Rowan into the Moonlit Moth Sanctuary; unlocks harvesting Luminescent Silk for Elora's haute tailoring.",
+      "gift_preferences": {
+        "loved": [
+          "tra_oai_huong_ngan_sao",
+          "drop_golden_pollen",
+          "seed_star_lavender"
+        ],
+        "liked": [
+          "oai_huong",
+          "dau_rung",
+          "mat_ong"
+        ],
+        "disliked": [
+          "thit_nuong_lua_dia_nguc",
+          "ore_coal"
+        ],
+        "hated": [
+          "bit_tet_nuong_than_soi",
+          "ruou_trai_cay_len_men"
+        ]
+      },
+      "schedules": {
+        "default": {
+          "sunny": [
+            {
+              "time": "20:00",
+              "location": "Canopy Treetop Bridges",
+              "activity": "Gliding between moonlit spider-silk walkways"
+            },
+            {
+              "time": "23:00",
+              "location": "Firefly Brook Shallows",
+              "activity": "Collecting stardust pollen floating upon misty eddies"
+            },
+            {
+              "time": "03:00",
+              "location": "Treetop Cocoon Perch",
+              "activity": "Sipping calming night lavender infusion before daybreak"
+            }
+          ],
+          "rainy": [
+            {
+              "time": "21:00",
+              "location": "Hollow Ancient Oak",
+              "activity": "Sheltering from rainfall to protect wing dust scales"
+            },
+            {
+              "time": "01:00",
+              "location": "Hollow Ancient Oak",
+              "activity": "Listening to the rhythmic drip of rainfall against the moss"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "npc_fern",
+      "name": "Fern",
+      "role": "Ancient Root Healer",
+      "location": "Root Sanctum — Deep Sylva-Fae",
+      "species": "Elf (800-year-old Elder)",
+      "description": "Blind ancient elf with flowing silver hair braided with dried roots, sensing all life through the subterranean root network. Sylvan's esteemed former mentor.",
+      "favorite_items": [
+        "canh_thao_moc_bup_sen",
+        "la_tra_sen",
+        "seed_sen_tea"
+      ],
+      "quote": "I surrendered my sight to the Blight two hundred years ago... Yet through the soil roots beneath my feet, I still 'witness' every dewdrop upon each petal.",
+      "birthday": "Autumn 1",
+      "schedule": "All day: Meditating within the deep Root Sanctum of Sylva-Fae",
+      "real_world_wound": "Blinded during a solitary stand against primordial Star Blight two centuries ago; bears enduring guilt over failing to save the entire forest.",
+      "comfort_dish": "canh_thao_moc_bup_sen",
+      "heart_event_summary": "At 8 Hearts: Imparts the ancient art of culinary purification; unlocks Primeval Herbal Remedies for terminal ailments.",
+      "gift_preferences": {
+        "loved": [
+          "canh_thao_moc_bup_sen",
+          "tra_sen_bach_diep",
+          "seed_sen_tea"
+        ],
+        "liked": [
+          "la_tra_sen",
+          "oai_huong",
+          "mat_ong"
+        ],
+        "disliked": [
+          "thit_nuong_lua_dia_nguc",
+          "bit_tet_nuong_than_soi"
+        ],
+        "hated": [
+          "ore_coal",
+          "lap_xuong_tieu_den_mo_da"
+        ]
+      },
+      "schedules": {
+        "default": {
+          "sunny": [
+            {
+              "time": "07:00",
+              "location": "Root Sanctum Herb Garden",
+              "activity": "Touching soil beds to diagnose botanical health"
+            },
+            {
+              "time": "12:00",
+              "location": "Root Sanctum",
+              "activity": "Instructing Sylvan in ancient botanical harmonies"
+            },
+            {
+              "time": "17:00",
+              "location": "Root Sanctum",
+              "activity": "Brewing lotus root potage while communing with dusk winds"
+            }
+          ],
+          "rainy": [
+            {
+              "time": "08:00",
+              "location": "Root Sanctum",
+              "activity": "Meditating as subterranean roots drink deep of stormwaters"
+            },
+            {
+              "time": "15:00",
+              "location": "Root Sanctum",
+              "activity": "Grinding ancient herbal powders for soothing salves"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "npc_valerius",
+      "name": "Valerius",
+      "role": "Exiled Knight",
+      "location": "Vagabond / Oakhaven Watch",
+      "species": "Human (Former Royal Guard Commander)",
+      "description": "Stoic disgraced commander bearing a saber scar across his nose, battered silver armor, and an air of aristocratic dignity. Settles permanently to defend Oakhaven.",
+      "favorite_items": [
+        "bit_tet_nuong_than_soi",
+        "dish_iron_steak",
+        "ruou_trai_cay_len_men"
+      ],
+      "quote": "My fealty belongs to righteous honor, not to an ornate throne. If that be treason... then I bear the brand with head unbowed.",
+      "birthday": "Winter 7",
+      "schedule": "06:00 - 18:00: Drilling town militia and patrolling the North Valley Gate",
+      "real_world_wound": "Falsely framed for treason and banished from Solaria after uncovering ministerial corruption; deeply embittered by betrayal yet unshakably honorable.",
+      "comfort_dish": "bit_tet_nuong_than_soi",
+      "heart_event_summary": "At 8 Hearts: Vindicated of all false charges and named Captain of Oakhaven's Guardians; unlocks Combat Parry Training.",
+      "gift_preferences": {
+        "loved": [
+          "bit_tet_nuong_than_soi",
+          "bo_ham_ruou_vang_mo",
+          "ore_gold"
+        ],
+        "liked": [
+          "banh_mi_lua_mi_gion",
+          "ruou_trai_cay_len_men",
+          "ore_iron"
+        ],
+        "disliked": [
+          "banh_cau_vong_4_mua",
+          "sua_bo_nong_mat_ong"
+        ],
+        "hated": [
+          "bot_sao",
+          "banh_deo_trang_ram_hoa_buoi"
+        ]
+      },
+      "schedules": {
+        "default": {
+          "sunny": [
+            {
+              "time": "06:00",
+              "location": "North Gate Drill Yard",
+              "activity": "Practicing combat footwork with his tarnished royal blade"
+            },
+            {
+              "time": "12:00",
+              "location": "The Hearth Eatery & Inn",
+              "activity": "Dining on hardtack bread while drafting defense patrols"
+            },
+            {
+              "time": "18:00",
+              "location": "Valley Border Outpost",
+              "activity": "Standing vigilant watch against roving mountain wolves"
+            }
+          ],
+          "rainy": [
+            {
+              "time": "08:00",
+              "location": "Adventurer's Guild Hall",
+              "activity": "Consulting regional defense strategies with Guildmaster Thorne"
+            },
+            {
+              "time": "17:00",
+              "location": "The Hearth Eatery & Inn",
+              "activity": "Ordering a hearty wood-fired iron steak beside the fireplace"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "npc_morrigan",
+      "name": "Morrigan",
+      "role": "Recluse Hedge Witch",
+      "location": "Western Marshes of Oakhaven",
+      "species": "Human (Ancient Hedge Witch)",
+      "description": "Enigmatic marsh witch with raven-black tresses, violet gaze, and a pet crow perched on her shoulder. Gruff and spooky on the surface, but secretly nurse to wounded forest beasts.",
+      "favorite_items": [
+        "tea_frostmint_breeze",
+        "dau_rung",
+        "da_tinh_the"
+      ],
+      "quote": "You want me gone? No need to yell; I'm accustomed to it. ...Just let me finish bandaging this fox kit outside my door first.",
+      "birthday": "Autumn 31",
+      "schedule": "All day: Marshland Hermitage; Blizzard nights: Lodging at the Hearth Eatery",
+      "real_world_wound": "Shunned and vilified throughout civilized realms due to superstitious fear of her appearance; isolates herself to preemptively ward off rejection.",
+      "comfort_dish": "tea_frostmint_breeze",
+      "heart_event_summary": "At 8 Hearts: Rescues the valley from a lethal plague and receives townwide gratitude; unlocks the Potion & Enchantment Brewing Table.",
+      "gift_preferences": {
+        "loved": [
+          "tea_frostmint_breeze",
+          "da_tinh_the",
+          "dau_rung"
+        ],
+        "liked": [
+          "mat_ong",
+          "oai_huong",
+          "item_wild_mushroom"
+        ],
+        "disliked": [
+          "banh_cau_vong_4_mua",
+          "thit_nuong_lua_dia_nguc"
+        ],
+        "hated": [
+          "ore_coal",
+          "bit_tet_nuong_than_soi"
+        ]
+      },
+      "schedules": {
+        "default": {
+          "sunny": [
+            {
+              "time": "09:00",
+              "location": "Western Marsh Shallows",
+              "activity": "Harvesting marsh moss and luminescent toadstools"
+            },
+            {
+              "time": "14:00",
+              "location": "Witch Hermitage",
+              "activity": "Splinting fractured wings of fallen forest ravens"
+            },
+            {
+              "time": "19:00",
+              "location": "Copper Cauldron Grate",
+              "activity": "Simmering restorative salves under violet candlelight"
+            }
+          ],
+          "rainy": [
+            {
+              "time": "10:00",
+              "location": "Hermitage Hearth",
+              "activity": "Listening to crow caws beside crackling cedar logs"
+            },
+            {
+              "time": "18:00",
+              "location": "The Hearth Eatery & Inn",
+              "activity": "Seeking shelter during howling storms for a cup of frostmint tea"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "npc_iris",
+      "name": "Iris",
+      "role": "Royal Chronicler",
+      "location": "Solaria Archives / Oakhaven",
+      "species": "Human",
+      "description": "Bright, earnest scholar with a bouncy auburn bob and round spectacles, constantly balancing towering stacks of antique tomes. Passionate about authentic history.",
+      "favorite_items": [
+        "tea_earl_grey_clara",
+        "banh_quy_gung_giu_am",
+        "tra_sen_an_than"
+      ],
+      "quote": "The royal court ordered me to write that Oakhaven was a barbaric frontier hamlet... Yet beneath every single paving stone here lie fragments of a primordial golden age!",
+      "birthday": "Spring 10",
+      "schedule": "08:00 - 17:00: Archival research at the Oakhaven Library with Clara",
+      "real_world_wound": "Grew up stifled beneath rigid imperial censorship; torn between court loyalty and an unquenchable devotion to truthful historical documentation.",
+      "comfort_dish": "tea_earl_grey_clara",
+      "heart_event_summary": "At 8 Hearts: Publishes 'The Unvarnished Chronicles of Oakhaven'; unlocks the Relic Artifact Lore Compendium.",
+      "gift_preferences": {
+        "loved": [
+          "tea_earl_grey_clara",
+          "banh_quy_gung_giu_am",
+          "tra_sen_bach_diep"
+        ],
+        "liked": [
+          "mat_ong",
+          "banh_mi_lua_mi_gion",
+          "la_tra_sen"
+        ],
+        "disliked": [
+          "thit_nuong_lua_dia_nguc",
+          "ore_coal"
+        ],
+        "hated": [
+          "bit_tet_nuong_than_soi",
+          "lau_ca_cay_ham_nguc"
+        ]
+      },
+      "schedules": {
+        "default": {
+          "sunny": [
+            {
+              "time": "08:30",
+              "location": "Oakhaven Library",
+              "activity": "Deciphering runic tablets alongside archivist Clara"
+            },
+            {
+              "time": "13:30",
+              "location": "Eastern Valley Ruins",
+              "activity": "Taking charcoal rubbings of ancient temple stelae"
+            },
+            {
+              "time": "18:00",
+              "location": "The Hearth Eatery & Inn",
+              "activity": "Nibbling ginger biscuits while enthusiastically discussing history"
+            }
+          ],
+          "rainy": [
+            {
+              "time": "09:00",
+              "location": "Library Reading Nook",
+              "activity": "Burrowed deep within antique chronicles beside the stove"
+            },
+            {
+              "time": "16:00",
+              "location": "The Hearth Eatery & Inn",
+              "activity": "Savoring hot Earl Grey tea in cozy shelter"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "npc_solace",
+      "name": "Solace",
+      "role": "Celestial Gate Guardian",
+      "location": "Celestial Gates of Aethelgard",
+      "species": "Celestial Spirit",
+      "description": "Luminous astral being hovering softly above the sea of clouds in Aethelgard. Ancient guardian who surrendered mortal identity to watch over the stardust threshold.",
+      "favorite_items": [
+        "tra_sen_an_than",
+        "da_tinh_the",
+        "gem_sapphire"
+      ],
+      "quote": "I have forgotten... my own name... yet this fragrance of lotus tea... someone brewed it for me... so long ago... so... warm...",
+      "birthday": "Endless (Unknown)",
+      "schedule": "All day: Guarding the celestial threshold of Aethelgard",
+      "real_world_wound": "Millennia of solitary celestial duty; the quiet tragedy of forgotten mortality and yearning for restful peace.",
+      "comfort_dish": "tra_sen_an_than",
+      "heart_event_summary": "At 8 Hearts: Reclaims fading memories of once having been an ancient mortal baker; permanently unseals Aethelgard's gates to mortals.",
+      "gift_preferences": {
+        "loved": [
+          "tra_sen_an_than",
+          "tra_sen_bach_diep",
+          "da_tinh_the"
+        ],
+        "liked": [
+          "gem_sapphire",
+          "gem_amethyst",
+          "drop_golden_pollen"
+        ],
+        "disliked": [
+          "thit_nuong_lua_dia_nguc",
+          "ore_coal"
+        ],
+        "hated": [
+          "bit_tet_nuong_than_soi",
+          "ruou_trai_cay_len_men"
+        ]
+      },
+      "schedules": {
+        "default": {
+          "sunny": [
+            {
+              "time": "06:00",
+              "location": "Celestial Gates",
+              "activity": "Floating serenely over cloud oceans bathed in aurora light"
+            },
+            {
+              "time": "14:00",
+              "location": "Astral Shrine",
+              "activity": "Listening to stardust whispers echoing from mortal prayers"
+            },
+            {
+              "time": "20:00",
+              "location": "Tree of Longevity",
+              "activity": "Gazing quietly upon the turning wheel of cosmic constellations"
+            }
+          ],
+          "rainy": [
+            {
+              "time": "08:00",
+              "location": "Celestial Gates",
+              "activity": "Observing thunderstorm lightning flashing across the world below"
+            },
+            {
+              "time": "18:00",
+              "location": "Canopy of Light",
+              "activity": "Absorbing stardust essence into ethereal form"
+            }
+          ]
+        }
+      }
     }
   ]
 }

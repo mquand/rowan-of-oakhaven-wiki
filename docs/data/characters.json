@@ -1322,6 +1322,1158 @@
           ]
         }
       }
+    },
+    {
+      "id": "npc_elder_oak",
+      "name": "Trưởng Lão Oakwood",
+      "role": "Trưởng Thôn Oakhaven",
+      "location": "Tòa Thị Chính Oakhaven",
+      "species": "Human (Cựu Mạo Hiểm Gia)",
+      "description": "Cựu mạo hiểm gia râu tóc bạc phơ, giọng trầm ấm, luôn mang theo cây gậy gỗ sồi chạm rune cổ. Từng bảo vệ thị trấn qua đại dịch 20 năm trước.",
+      "favorite_items": [
+        "tea_whisper_hearth",
+        "bread_brioche",
+        "mat_ong"
+      ],
+      "quote": "Lão giữ thị trấn này 30 năm bằng lưng gánh chịu và đầu gối run rẩy... Lão mệt lắm rồi, nhưng buông tay thì ai gánh?",
+      "birthday": "Ngày 20 Mùa Đông",
+      "schedule": "08:00 - 16:00: Tòa Thị Chính; Chiều: Ghé Quán Ăn Oakhaven",
+      "real_world_wound": "Hội chứng người hùng mệt mỏi; gánh vác trách nhiệm thị trấn suốt 30 năm không ai chia sẻ, sợ buông tay thị trấn sẽ sụp đổ.",
+      "comfort_dish": "tea_whisper_hearth",
+      "heart_event_summary": "Tại 8 Tim: Chấp nhận truyền vị cho thế hệ trẻ và thành lập Hội Đồng Thị Trấn; mở khóa Bảng Dự Án Khôi Phục (Town Board).",
+      "gift_preferences": {
+        "loved": [
+          "tea_whisper_hearth",
+          "banh_pie_tao_que_lo_dat",
+          "ore_gold"
+        ],
+        "liked": [
+          "mat_ong",
+          "banh_mi_lua_mi_gion",
+          "la_tra_sen"
+        ],
+        "disliked": [
+          "lau_ca_cay_ham_nguc",
+          "nuoc_ep_dua_luoi_bang_gia"
+        ],
+        "hated": [
+          "ore_coal",
+          "drop_prism_jelly"
+        ]
+      },
+      "schedules": {
+        "default": {
+          "sunny": [
+            {
+              "time": "08:00",
+              "location": "Tòa Thị Chính Oakhaven",
+              "activity": "Xem xét các bản vẽ phục hồi thị trấn"
+            },
+            {
+              "time": "12:00",
+              "location": "Quảng Trường Thị Trấn",
+              "activity": "Đi dạo thăm hỏi người dân và thương nhân"
+            },
+            {
+              "time": "18:00",
+              "location": "Quán Ăn & Nhà Trọ Oakhaven",
+              "activity": "Uống tách trà lò sưởi ấm, bàn việc cùng Rowan"
+            }
+          ],
+          "rainy": [
+            {
+              "time": "09:00",
+              "location": "Tòa Thị Chính Oakhaven",
+              "activity": "Ngồi sưởi ấm bên lò than, ghi chép sổ sách"
+            },
+            {
+              "time": "17:00",
+              "location": "Quán Ăn & Nhà Trọ Oakhaven",
+              "activity": "Trú mưa và trò chuyện cùng hội bô lão"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "npc_cedar",
+      "name": "Cedar",
+      "role": "Thợ Mộc & Nhà Thầu Xây Dựng",
+      "location": "Xưởng Mộc Oakhaven",
+      "species": "Beastfolk (Gấu Nâu Nhân Hình)",
+      "description": "Thợ mộc gấu nâu to lớn hiền lành, bàn tay thô ráp chạm khắc tinh xảo. Nói ít, làm nhiều, mỗi khi cười thì cả xưởng rung lên.",
+      "favorite_items": [
+        "dish_sweet_pumpkin_potage",
+        "mat_ong",
+        "banh_mi_lua_mi_gion"
+      ],
+      "quote": "Người ta bảo tôi hèn vì không chịu đánh nhau... Nhưng xây một mái nhà qua mùa đông bão tuyết, cần dũng khí hơn vung gươm nhiều.",
+      "birthday": "Ngày 8 Mùa Thu",
+      "schedule": "07:00 - 17:00: Xưởng Mộc; 18:30: Ăn tối tại Quán Ăn",
+      "real_world_wound": "Bị đồng loại gấu xua đuổi vì từ chối chiến tranh; mang tiếng hèn nhát nhưng kiên định với lý tưởng kiến thiết.",
+      "comfort_dish": "dish_sweet_pumpkin_potage",
+      "heart_event_summary": "Tại 8 Tim: Dựng lại Cầu Gỗ Cổ nối Oakhaven với Rừng Thầm Thì; mở khóa tính năng Mở Rộng Nhà Cửa & Quán Ăn.",
+      "gift_preferences": {
+        "loved": [
+          "dish_sweet_pumpkin_potage",
+          "mat_ong",
+          "banh_cau_vong_4_mua"
+        ],
+        "liked": [
+          "dau_rung",
+          "khoai_tay_nuong_bo_toi",
+          "item_butter"
+        ],
+        "disliked": [
+          "ruou_trai_cay_len_men",
+          "ore_coal"
+        ],
+        "hated": [
+          "bot_sao",
+          "drop_crystal_sea_salt"
+        ]
+      },
+      "schedules": {
+        "default": {
+          "sunny": [
+            {
+              "time": "07:00",
+              "location": "Xưởng Mộc Oakhaven",
+              "activity": "Cưa xẻ gỗ và đo đạc khung nhà mới"
+            },
+            {
+              "time": "13:00",
+              "location": "Bờ Rừng Oakhaven",
+              "activity": "Thu gom củi khô và gỗ sồi già rụng"
+            },
+            {
+              "time": "18:30",
+              "location": "Quán Ăn & Nhà Trọ Oakhaven",
+              "activity": "Ăn bát súp bí đỏ nóng hồi sức sau ngày vất vả"
+            }
+          ],
+          "rainy": [
+            {
+              "time": "08:00",
+              "location": "Trong Xưởng Mộc",
+              "activity": "Chạm trổ bàn ghế và đồ chơi gỗ cho trẻ con"
+            },
+            {
+              "time": "17:00",
+              "location": "Quán Ăn & Nhà Trọ Oakhaven",
+              "activity": "Ghé tiệm trú mưa, uống trà mật ong"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "npc_wren",
+      "name": "Wren",
+      "role": "Nhạc Sĩ Lang Thang",
+      "location": "Quảng Trường & Quán Ăn Oakhaven",
+      "species": "Halfling (Người Nửa Tí)",
+      "description": "Halfling nhỏ nhắn với cây đàn mandolin cũ kỹ và chiếc mũ nồi xanh lá. Giọng hát trong veo lay động lòng người nhưng ngoài sân khấu lại vô cùng nhút nhát.",
+      "favorite_items": [
+        "pastry_scone_berry",
+        "tra_dau_bang_tuyet",
+        "dau_rung"
+      ],
+      "quote": "T-tôi hát được thôi mà... chỉ là... khi mọi người nhìn tôi ngoài sân khấu thì cổ họng tôi thắt lại...",
+      "birthday": "Ngày 14 Mùa Xuân",
+      "schedule": "Chiều: Tản bộ bờ sông lấy cảm hứng; Tối: Đàn hát tại Quán Ăn",
+      "real_world_wound": "Từng mất giọng 3 năm sau khi quê hương bị tàn phá; hội chứng sợ xã hội và nỗi sợ bị phán xét.",
+      "comfort_dish": "pastry_scone_berry",
+      "heart_event_summary": "Tại 8 Tim: Trình diễn khúc ca 'Lullaby of Oakhaven' tại Lễ Hội Mùa Thu; mở khóa Hệ Thống Âm Nhạc Quán Ăn.",
+      "gift_preferences": {
+        "loved": [
+          "pastry_scone_berry",
+          "tart_dau_tuyet_lanh",
+          "da_tinh_the"
+        ],
+        "liked": [
+          "dau_rung",
+          "mat_ong",
+          "banh_quy_gung_giu_am"
+        ],
+        "disliked": [
+          "thit_nuong_lua_dia_nguc",
+          "ore_coal"
+        ],
+        "hated": [
+          "bit_tet_nuong_than_soi",
+          "lau_ca_cay_ham_nguc"
+        ]
+      },
+      "schedules": {
+        "default": {
+          "sunny": [
+            {
+              "time": "10:00",
+              "location": "Bờ Sông Oakhaven",
+              "activity": "Ngồi gảy đàn mandolin ngắm mây trôi"
+            },
+            {
+              "time": "15:00",
+              "location": "Quảng Trường Thị Trấn",
+              "activity": "Hát rong góc đường cho trẻ em nghe"
+            },
+            {
+              "time": "19:00",
+              "location": "Quán Ăn & Nhà Trọ Oakhaven",
+              "activity": "Đàn hát phục vụ bữa tối cho khách"
+            }
+          ],
+          "rainy": [
+            {
+              "time": "11:00",
+              "location": "Thư Viện Oakhaven",
+              "activity": "Tra cứu các bản nhạc cổ xưa cùng Clara"
+            },
+            {
+              "time": "18:00",
+              "location": "Quán Ăn & Nhà Trọ Oakhaven",
+              "activity": "Gảy khúc nhạc mưa dịu êm bên lò sưởi"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "npc_hazel",
+      "name": "Hazel",
+      "role": "Chủ Trại Chăn Nuôi",
+      "location": "Đồng Cỏ Phía Nam",
+      "species": "Human",
+      "description": "Nữ nông dân tóc hạt dẻ buộc cao, da rám nắng khỏe mạnh. Tự mình gánh vác cả trang trại gia súc với nụ cười rắn rỏi nhưng ánh mắt phảng phất nỗi buồn.",
+      "favorite_items": [
+        "sua_bo_nong_mat_ong",
+        "banh_mi_lua_mi_gion",
+        "khoai_tay_nuong_bo_toi"
+      ],
+      "quote": "Mấy con bò sáng nay không chịu ăn cỏ... Chắc chúng nhớ người cũ. Tôi thì không nhớ đâu. Thật đấy.",
+      "birthday": "Ngày 3 Mùa Hạ",
+      "schedule": "06:00 - 18:00: Chăm sóc đàn gia súc đồng cỏ phía Nam",
+      "real_world_wound": "Bị bạn đời bội ước bỏ đi theo đoàn buôn kinh đô; sợ mở lòng và từ chối mọi sự giúp đỡ vì sợ bị phản bội lần nữa.",
+      "comfort_dish": "sua_bo_nong_mat_ong",
+      "heart_event_summary": "Tại 8 Tim: Mở lòng đón nhận sự giúp đỡ của dân làng; thành lập Hợp Tác Xã Chăn Nuôi và mở khóa mua bán gia súc.",
+      "gift_preferences": {
+        "loved": [
+          "sua_bo_nong_mat_ong",
+          "banh_pie_tao_que_lo_dat",
+          "bap_xao_bo_cay"
+        ],
+        "liked": [
+          "khoai_tay_nuong_bo_toi",
+          "seed_silver_wheat",
+          "dau_rung"
+        ],
+        "disliked": [
+          "ruou_trai_cay_len_men",
+          "ore_coal"
+        ],
+        "hated": [
+          "drop_prism_jelly",
+          "bot_sao"
+        ]
+      },
+      "schedules": {
+        "default": {
+          "sunny": [
+            {
+              "time": "06:00",
+              "location": "Chuồng Gia Súc",
+              "activity": "Vắt sữa bò và cho gà ăn sớm"
+            },
+            {
+              "time": "10:00",
+              "location": "Đồng Cỏ Phía Nam",
+              "activity": "Lùa cừu cùng bé Tilly ra đồi cỏ xanh"
+            },
+            {
+              "time": "18:30",
+              "location": "Quán Ăn & Nhà Trọ Oakhaven",
+              "activity": "Giao sữa tươi và bơ cho Rowan làm bánh"
+            }
+          ],
+          "rainy": [
+            {
+              "time": "07:30",
+              "location": "Kho Rơm Trang Trại",
+              "activity": "Che chắn máng ăn và lót rơm khô cho đàn bò"
+            },
+            {
+              "time": "15:00",
+              "location": "Hiên Nhà Trại",
+              "activity": "Ngồi đan len nghe tiếng mưa rơi"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "npc_bramble",
+      "name": "Bramble",
+      "role": "Tiệm Tạp Hóa 'Hũ Châu Báu'",
+      "location": "Quảng Trường Chợ Oakhaven",
+      "species": "Goblin (Yêu Tinh Xanh)",
+      "description": "Goblin xanh da olive nhỏ thó đeo kính lão tròn và áo vest sọc đỏ. Luôn tính toán tỉ mỉ nhưng bán hàng rất trung thực, thích sưu tầm nút áo kỳ lạ.",
+      "favorite_items": [
+        "chao_yen_mach_mat_ong",
+        "ore_gold",
+        "da_tinh_the"
+      ],
+      "quote": "Lãi một xu trên nỗi đau người khác? Thà nghèo còn hơn. Bramble tuy là goblin nhưng Bramble có cái tâm, nghe chưa!",
+      "birthday": "Ngày 29 Mùa Thu",
+      "schedule": "08:00 - 18:00: Quầy Tạp Hóa Quảng Trường; Tối thứ Bảy: Chợ Đêm",
+      "real_world_wound": "Bị trục xuất khỏi Hội Thương Nhân Solaria vì từ chối bán thuốc giả; bị gắn mác kẻ phản bội vì giữ vững lương tâm.",
+      "comfort_dish": "chao_yen_mach_mat_ong",
+      "heart_event_summary": "Tại 8 Tim: Khai trương phiên Chợ Đêm Thứ Bảy với hàng hóa độc lạ 5 Realm; mở khóa các loại túi hạt giống cao cấp.",
+      "gift_preferences": {
+        "loved": [
+          "chao_yen_mach_mat_ong",
+          "ore_gold",
+          "gem_sapphire"
+        ],
+        "liked": [
+          "da_tinh_the",
+          "mat_ong",
+          "banh_mi_lua_mi_gion"
+        ],
+        "disliked": [
+          "canh_thao_moc_bup_sen",
+          "tra_sen_an_than"
+        ],
+        "hated": [
+          "ore_coal",
+          "drop_prism_jelly"
+        ]
+      },
+      "schedules": {
+        "default": {
+          "sunny": [
+            {
+              "time": "08:00",
+              "location": "Quầy Tạp Hóa Quảng Trường",
+              "activity": "Mở hòm hàng, gõ bàn tính kiểm tra giá cả"
+            },
+            {
+              "time": "14:00",
+              "location": "Bến Cảng Bờ Hồ",
+              "activity": "Gặp thuyền trưởng Garrick đổi đồ ngoại nhập"
+            },
+            {
+              "time": "19:00",
+              "location": "Quán Ăn & Nhà Trọ Oakhaven",
+              "activity": "Đếm nút áo nhặt được và ăn bát cháo nóng"
+            }
+          ],
+          "rainy": [
+            {
+              "time": "09:00",
+              "location": "Quầy Tạp Hóa Có Mái Che",
+              "activity": "Che bạt giữ đồ khô ráo, lau chùi kính mắt"
+            },
+            {
+              "time": "16:00",
+              "location": "Quán Ăn & Nhà Trọ Oakhaven",
+              "activity": "Trú mưa cùng hội thương nhân vãng lai"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "npc_rosemary",
+      "name": "Rosemary",
+      "role": "Người Giữ Đền Stardust",
+      "location": "Miếu Thờ Stardust — Bìa Rừng Thầm Thì",
+      "species": "Dryad (Tinh Linh Cây Sồi Mẹ)",
+      "description": "Thiếu nữ điềm tĩnh với mái tóc dài xanh rêu có hoa non mọc lẫn, mắt màu hổ phách. Là hiện thân của cây sồi cổ bảo hộ thung lũng Oakhaven.",
+      "favorite_items": [
+        "tra_sen_bach_diep",
+        "seed_star_lavender",
+        "dau_rung"
+      ],
+      "quote": "Mỗi khi một thân cây trong rừng chết vì Blight... tôi cảm thấy như ai đó cắt đi một ngón tay của mình.",
+      "birthday": "Ngày 1 Mùa Xuân",
+      "schedule": "Toàn thời gian: Trông nom miếu cổ và gốc Sồi Mẹ bìa rừng",
+      "real_world_wound": "Nỗi đau chứng kiến thiên nhiên bị Star Blight ăn mòn; sợ rằng khi cây sồi mẹ khô héo, sự tồn tại của bản thân cũng tan biến.",
+      "comfort_dish": "tra_sen_bach_diep",
+      "heart_event_summary": "Tại 8 Tim: Tiết lộ chân tướng Dryad và cùng Rowan thanh tẩy Star Blight gốc; mở khóa Bàn Thanh Tẩy Bụi Sao.",
+      "gift_preferences": {
+        "loved": [
+          "tra_sen_bach_diep",
+          "seed_sen_tea",
+          "seed_star_lavender"
+        ],
+        "liked": [
+          "dau_rung",
+          "oai_huong",
+          "mat_ong"
+        ],
+        "disliked": [
+          "thit_nuong_lua_dia_nguc",
+          "bit_tet_nuong_than_soi"
+        ],
+        "hated": [
+          "ore_coal",
+          "lap_xuong_tieu_den_mo_da"
+        ]
+      },
+      "schedules": {
+        "default": {
+          "sunny": [
+            {
+              "time": "06:00",
+              "location": "Miếu Thờ Stardust",
+              "activity": "Quét lá rụng quanh bệ thờ cổ"
+            },
+            {
+              "time": "12:00",
+              "location": "Gốc Cây Sồi Mẹ",
+              "activity": "Tựa lưng vào vỏ cây lắng nghe tiếng nhựa chảy"
+            },
+            {
+              "time": "18:00",
+              "location": "Bìa Rừng Thầm Thì",
+              "activity": "Đón gió chiều và đón những cánh bướm đêm"
+            }
+          ],
+          "rainy": [
+            {
+              "time": "08:00",
+              "location": "Mái Hiên Miếu Cổ",
+              "activity": "Hứng nước mưa gội tóc, đón nhận dòng nước mát"
+            },
+            {
+              "time": "16:00",
+              "location": "Miếu Thờ Stardust",
+              "activity": "Thắp ngọn nến thơm xua tan âm khí ẩm ướt"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "npc_tilly",
+      "name": "Tilly",
+      "role": "Cô Bé Chăn Cừu",
+      "location": "Đồng Cỏ Phía Nam",
+      "species": "Beastfolk (Cừu Nhân Hình)",
+      "description": "Cô bé 10 tuổi với đôi sừng cừu cuộn tròn (một bên ngắn do sẹo cũ), tóc xoăn bồng bềnh trắng kem. Phụ Hazel chăn cừu, thích ngắm sao và hay ngủ gật giữa đồng cỏ.",
+      "favorite_items": [
+        "sua_bo_nong_mat_ong",
+        "banh_cau_vong_4_mua",
+        "dau_rung"
+      ],
+      "quote": "Kael và Finn nói ban đêm trong rừng có đom đóm đẹp lắm... Tilly cũng muốn đi xem nhưng... trời tối quá...",
+      "birthday": "Ngày 15 Mùa Xuân",
+      "schedule": "Sáng: Chăn đàn cừu non; Chiều: Chơi cùng Kael và Finn",
+      "real_world_wound": "Mắc chứng sợ bóng tối và sang chấn sau vụ sói tấn công làm gãy sừng; khao khát dũng cảm như các bạn đồng trang lứa.",
+      "comfort_dish": "sua_bo_nong_mat_ong",
+      "heart_event_summary": "Tại 8 Tim: Vượt qua nỗi sợ bóng đêm để giải cứu chú cừu con đi lạc; mở khóa Xưởng Nhuộm Len Đa Sắc.",
+      "gift_preferences": {
+        "loved": [
+          "banh_cau_vong_4_mua",
+          "sua_bo_nong_mat_ong",
+          "tart_dau_tuyet_lanh"
+        ],
+        "liked": [
+          "dau_rung",
+          "mat_ong",
+          "item_sugar"
+        ],
+        "disliked": [
+          "canh_thao_moc_bup_sen",
+          "ore_coal"
+        ],
+        "hated": [
+          "ruou_trai_cay_len_men",
+          "bit_tet_nuong_than_soi"
+        ]
+      },
+      "schedules": {
+        "default": {
+          "sunny": [
+            {
+              "time": "07:30",
+              "location": "Đồng Cỏ Phía Nam",
+              "activity": "Dẫn đàn cừu non đi gặm cỏ buổi sớm"
+            },
+            {
+              "time": "13:30",
+              "location": "Gốc Cây Cổ Thụ Quảng Trường",
+              "activity": "Chơi ném thia la và đố chữ cùng Kael, Finn"
+            },
+            {
+              "time": "18:00",
+              "location": "Quán Ăn & Nhà Trọ Oakhaven",
+              "activity": "Uống ly sữa nóng ngọt lịm cùng bánh quy"
+            }
+          ],
+          "rainy": [
+            {
+              "time": "09:00",
+              "location": "Kho Rơm Trang Trại Hazel",
+              "activity": "Chải lông và sưởi ấm cho bầy cừu non"
+            },
+            {
+              "time": "15:00",
+              "location": "Quán Ăn & Nhà Trọ Oakhaven",
+              "activity": "Ngồi vẽ tranh cùng Kael và mèo Mallow"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "npc_grimhild",
+      "name": "Nữ Hoàng Lò Rèn Grimhild",
+      "role": "Đại Thợ Rèn Khaz-Drakor",
+      "location": "Lò Rèn Hoàng Gia Khaz-Drakor",
+      "species": "Dwarf (Người Lùn)",
+      "description": "Nữ thợ rèn người lùn huyền thoại với 4 bím tóc bạch kim nặng trĩu, bắp tay cuồn cuộn. Mẹ nuôi của Boris và Bram, người duy nhất nắm giữ bí thuật rèn Mithril.",
+      "favorite_items": [
+        "dish_dwarf_ironforge_goulash",
+        "ore_gold",
+        "banh_pie_tao_que_lo_dat"
+      ],
+      "quote": "Lão thợ rèn già này đã đập hàng vạn thanh kiếm... nhưng chưa bao giờ biết rèn lại trái tim tan vỡ của chính mình.",
+      "birthday": "Ngày 5 Mùa Đông",
+      "schedule": "Toàn thời gian: Quai búa tại Lò Rèn Hoàng Gia Khaz-Drakor",
+      "real_world_wound": "Dằn vặt vì sự khắc nghiệt ngày xưa đã đẩy Boris và Bram rời bỏ quê hương; nỗi ân hận của bậc làm cha mẹ chôn sâu sau tiếng đe búa.",
+      "comfort_dish": "dish_dwarf_ironforge_goulash",
+      "heart_event_summary": "Tại 8 Tim: Đoàn tụ trong nước mắt cùng hai con trai tại Oakhaven; mở khóa Công Thức Đúc Trang Bị Mithril Đỉnh Cao.",
+      "gift_preferences": {
+        "loved": [
+          "dish_dwarf_ironforge_goulash",
+          "banh_pie_tao_que_lo_dat",
+          "ore_gold"
+        ],
+        "liked": [
+          "ore_iron",
+          "ore_copper",
+          "banh_mi_den_dai_han"
+        ],
+        "disliked": [
+          "salad_trai_cay_mua_ha",
+          "nuoc_ep_dua_luoi_bang_gia"
+        ],
+        "hated": [
+          "drop_crystal_sea_salt",
+          "bot_sao"
+        ]
+      },
+      "schedules": {
+        "default": {
+          "sunny": [
+            {
+              "time": "06:00",
+              "location": "Lò Rèn Hoàng Gia Khaz-Drakor",
+              "activity": "Nhóm lò magma tôi luyện thép Mithril"
+            },
+            {
+              "time": "12:00",
+              "location": "Đại Sảnh Đá Ngầm",
+              "activity": "Uống bia củ dền và hồi tưởng kỷ niệm cùng hai con"
+            },
+            {
+              "time": "18:00",
+              "location": "Lò Rèn Hoàng Gia",
+              "activity": "Kiểm tra sản phẩm vũ khí hoàng gia"
+            }
+          ],
+          "rainy": [
+            {
+              "time": "08:00",
+              "location": "Lò Rèn Hoàng Gia",
+              "activity": "Tiếng búa đập thép át đi tiếng sấm ngầm"
+            },
+            {
+              "time": "17:00",
+              "location": "Kho Quặng Khaz-Drakor",
+              "activity": "Phân loại tinh thạch quý"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "npc_cogsworth",
+      "name": "Kỹ Sư Cogsworth",
+      "role": "Kỹ Sư Cơ Khí Hơi Nước",
+      "location": "Xưởng Cơ Khí Khaz-Drakor",
+      "species": "Dwarf (Người Lùn)",
+      "description": "Dwarf trẻ tuổi gầy gò đeo kính bảo hộ lệch trán, áo dính đầy dầu máy. Say mê bánh răng và hơi nước, là người duy nhất giải mã được tiếng tích tắc của Chrono.",
+      "favorite_items": [
+        "khoai_tay_nuong_bo_toi",
+        "da_tinh_the",
+        "ore_iron"
+      ],
+      "quote": "Các bô lão bảo tôi đang xúc phạm tổ tiên... Nhưng nếu tổ tiên đã từng chế tạo ra Chrono, thì chính họ cũng là kỹ sư chứ đâu chỉ thợ rèn!",
+      "birthday": "Ngày 12 Mùa Hạ",
+      "schedule": "08:00 - 18:00: Sửa chữa đường ray xe goòng và van hơi nước",
+      "real_world_wound": "Bị gia tộc dwarf bài xích vì đam mê máy móc thay vì nghề rèn truyền thống; cảm giác lạc lõng giữa xã hội bảo thủ.",
+      "comfort_dish": "khoai_tay_nuong_bo_toi",
+      "heart_event_summary": "Tại 8 Tim: Khôi phục tuyến Tàu Goòng Cao Tốc (Minecart Express); mở khóa Hệ Thống Tưới Tiêu Tự Động cho nông trại.",
+      "gift_preferences": {
+        "loved": [
+          "khoai_tay_nuong_bo_toi",
+          "da_tinh_the",
+          "gem_amethyst"
+        ],
+        "liked": [
+          "ore_iron",
+          "ore_copper",
+          "ore_coal"
+        ],
+        "disliked": [
+          "banh_deo_trang_ram_hoa_buoi",
+          "sua_bo_nong_mat_ong"
+        ],
+        "hated": [
+          "drop_golden_pollen",
+          "ruou_trai_cay_len_men"
+        ]
+      },
+      "schedules": {
+        "default": {
+          "sunny": [
+            {
+              "time": "08:00",
+              "location": "Xưởng Cơ Khí Khaz-Drakor",
+              "activity": "Lau dầu bánh răng và siết bu-lông máy bơm hơi"
+            },
+            {
+              "time": "13:00",
+              "location": "Đường Ray Mỏ Cổ",
+              "activity": "Thử nghiệm xe goòng động cơ hơi nước mới"
+            },
+            {
+              "time": "19:00",
+              "location": "Quầy Rượu Lòng Đất",
+              "activity": "Ngồi ăn đĩa khoai tây nướng bơ tỏi thơm lừng"
+            }
+          ],
+          "rainy": [
+            {
+              "time": "09:00",
+              "location": "Bên Cạnh Robot Chrono",
+              "activity": "Tra dầu hoa cúc và kiểm tra khớp nối cho Chrono"
+            },
+            {
+              "time": "16:00",
+              "location": "Bàn Bản Vẽ Cơ Khí",
+              "activity": "Thiết kế hệ thống van xả áp mới"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "npc_ember",
+      "name": "Ember",
+      "role": "Đầu Bếp Lửa Dung Nham",
+      "location": "Quán Ăn Dung Nham Khaz-Drakor",
+      "species": "Beastfolk (Kỳ Nhông Lửa Nhân Hình)",
+      "description": "Kỳ nhông lửa da cam sọc đen với chiếc đuôi luôn tỏa nhiệt, đeo tạp dề chef viền cháy. Nấu ăn trực tiếp bằng hơi nóng dung nham, đối thủ ẩm thực thân thiện của Rowan.",
+      "favorite_items": [
+        "thit_nuong_lua_dia_nguc",
+        "bap_xao_bo_cay",
+        "drop_crystal_sea_salt"
+      ],
+      "quote": "Người trên mặt đất sợ lửa của tôi... Nhưng ngọn lửa nướng chín miếng thịt nuôi no bụng người ta — có gì đáng sợ đâu?",
+      "birthday": "Ngày 21 Mùa Hạ",
+      "schedule": "10:00 - 22:00: Nấu nướng tại Quán Ăn Dung Nham Khaz-Drakor",
+      "real_world_wound": "Bị xua đuổi khỏi các kinh đô ẩm thực vì chủng tộc bò sát lửa bị định kiến là nguy hiểm; khao khát được công nhận tài năng ẩm thực chân chính.",
+      "comfort_dish": "thit_nuong_lua_dia_nguc",
+      "heart_event_summary": "Tại 8 Tim: Đọ tài nấu nướng đỉnh cao cùng Rowan tại Hội Ẩm Thực; mở khóa Trạm Nướng Lửa Magma và công thức siêu nhiệt.",
+      "gift_preferences": {
+        "loved": [
+          "thit_nuong_lua_dia_nguc",
+          "bit_tet_nuong_than_soi",
+          "drop_crystal_sea_salt"
+        ],
+        "liked": [
+          "bap_xao_bo_cay",
+          "ca_suoi_nuong_muoi_ot",
+          "ore_coal"
+        ],
+        "disliked": [
+          "nuoc_ep_dua_luoi_bang_gia",
+          "tart_dau_tuyet_lanh"
+        ],
+        "hated": [
+          "tra_dau_bang_tuyet",
+          "tra_sen_an_than"
+        ]
+      },
+      "schedules": {
+        "default": {
+          "sunny": [
+            {
+              "time": "10:00",
+              "location": "Bếp Nướng Dung Nham",
+              "activity": "Nhóm vạc lửa nướng tảng thịt bò đá"
+            },
+            {
+              "time": "15:00",
+              "location": "Chợ Quặng Khaz-Drakor",
+              "activity": "Tìm mua muối mỏ biển sâu ướp gia vị"
+            },
+            {
+              "time": "20:00",
+              "location": "Bếp Nướng Dung Nham",
+              "activity": "Thưởng thức đĩa thịt cay nồng xèo xèo"
+            }
+          ],
+          "rainy": [
+            {
+              "time": "11:00",
+              "location": "Bếp Nướng Dung Nham",
+              "activity": "Hầm chảo súp cay giữ ấm cho các thợ mỏ ca đêm"
+            },
+            {
+              "time": "18:00",
+              "location": "Bếp Nướng Dung Nham",
+              "activity": "Sáng tạo công thức nước sốt ớt lửa mới"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "npc_thistle",
+      "name": "Thistle",
+      "role": "Thợ Săn Moth-Folk Đêm",
+      "location": "Tán Rừng Cổ Thụ Sylva-Fae",
+      "species": "Moth-Folk (Người Bướm Đêm)",
+      "description": "Moth-folk với đôi cánh tím bạc phủ vảy lân tinh, râu xúc giác nhạy cảm và cổ lông trắng mịn. Chuyên tuần tra tán cây ban đêm và hái nụ hoa phát quang.",
+      "favorite_items": [
+        "tra_oai_huong_ngan_sao",
+        "drop_golden_pollen",
+        "oai_huong"
+      ],
+      "quote": "Ánh đèn thành phố... đau lắm... Nhưng ánh trăng qua kẽ lá thì dịu dàng như lời ru của mẹ.",
+      "birthday": "Ngày 28 Mùa Thu",
+      "schedule": "20:00 - 05:00: Tuần tra tán cây Sylva-Fae; Ban ngày: Ngủ trong tổ kén",
+      "real_world_wound": "Đôi mắt và cánh bị tổn thương bởi ánh sáng chói; cô đơn vì hoạt động ngược nhịp sinh học với thế giới.",
+      "comfort_dish": "tra_oai_huong_ngan_sao",
+      "heart_event_summary": "Tại 8 Tim: Đưa Rowan đến Vườn Bướm Trăng bí mật; mở khóa thu hoạch Tơ Phát Quang (nguyên liệu may cao cấp cho Elora).",
+      "gift_preferences": {
+        "loved": [
+          "tra_oai_huong_ngan_sao",
+          "drop_golden_pollen",
+          "seed_star_lavender"
+        ],
+        "liked": [
+          "oai_huong",
+          "dau_rung",
+          "mat_ong"
+        ],
+        "disliked": [
+          "thit_nuong_lua_dia_nguc",
+          "ore_coal"
+        ],
+        "hated": [
+          "bit_tet_nuong_than_soi",
+          "ruou_trai_cay_len_men"
+        ]
+      },
+      "schedules": {
+        "default": {
+          "sunny": [
+            {
+              "time": "20:00",
+              "location": "Tán Rừng Cổ Thụ",
+              "activity": "Xòe cánh tím lướt nhẹ giữa các cầu treo tơ nhện"
+            },
+            {
+              "time": "23:00",
+              "location": "Bờ Suối Đom Đóm",
+              "activity": "Thu thập phấn hoa sao rơi đọng trên mặt nước"
+            },
+            {
+              "time": "03:00",
+              "location": "Tổ Kén Treetop",
+              "activity": "Nhấp tách trà oải hương trước khi chợp mắt"
+            }
+          ],
+          "rainy": [
+            {
+              "time": "21:00",
+              "location": "Hốc Cây Cổ Thụ Kín Gió",
+              "activity": "Trú mưa bảo vệ vảy phấn cánh không bị ướt"
+            },
+            {
+              "time": "01:00",
+              "location": "Hốc Cây Cổ Thụ",
+              "activity": "Lắng nghe tiếng mưa rơi rả rích trên tán lá"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "npc_fern",
+      "name": "Fern",
+      "role": "Thầy Thuốc Tinh Linh Cổ Đại",
+      "location": "Lều Rễ Cây — Sylva-Fae Sâu",
+      "species": "Elf (Tinh Linh 800 Tuổi)",
+      "description": "Elf cổ xưa mù lòa với mái tóc bạc dài lẫn rễ cây khô, dùng mạng rễ dưới lòng đất làm 'đôi mắt' cảm nhận vạn vật. Thầy dạy cũ của Sylvan.",
+      "favorite_items": [
+        "canh_thao_moc_bup_sen",
+        "la_tra_sen",
+        "seed_sen_tea"
+      ],
+      "quote": "Ta đã mất đôi mắt cho Blight 200 năm trước... Nhưng qua mạng rễ dưới chân, ta vẫn 'nhìn' thấy từng giọt sương trên cánh hoa.",
+      "birthday": "Ngày 1 Mùa Thu",
+      "schedule": "Toàn thời gian: Tĩnh tọa tại Lều Rễ Cây Sylva-Fae sâu",
+      "real_world_wound": "Mất đi đôi mắt khi đơn độc ngăn chặn Star Blight cổ đại 200 năm trước; mang mặc cảm tội lỗi vì không cứu được trọn vẹn khu rừng.",
+      "comfort_dish": "canh_thao_moc_bup_sen",
+      "heart_event_summary": "Tại 8 Tim: Truyền lại bí thuật thanh tẩy kết hợp dược thảo và ẩm thực; mở khóa Công Thức Thảo Dược Thượng Cổ.",
+      "gift_preferences": {
+        "loved": [
+          "canh_thao_moc_bup_sen",
+          "tra_sen_bach_diep",
+          "seed_sen_tea"
+        ],
+        "liked": [
+          "la_tra_sen",
+          "oai_huong",
+          "mat_ong"
+        ],
+        "disliked": [
+          "thit_nuong_lua_dia_nguc",
+          "bit_tet_nuong_than_soi"
+        ],
+        "hated": [
+          "ore_coal",
+          "lap_xuong_tieu_den_mo_da"
+        ]
+      },
+      "schedules": {
+        "default": {
+          "sunny": [
+            {
+              "time": "07:00",
+              "location": "Vườn Thảo Mộc Rễ Cây",
+              "activity": "Chạm ngón tay vào đất chẩn đoán sức khỏe thảo mộc"
+            },
+            {
+              "time": "12:00",
+              "location": "Lều Rễ Cây",
+              "activity": "Truyền dạy dược thuật cổ xưa cho Sylvan"
+            },
+            {
+              "time": "17:00",
+              "location": "Lều Rễ Cây",
+              "activity": "Hãm ấm trà búp sen cảm nhận thanh âm rừng chiều"
+            }
+          ],
+          "rainy": [
+            {
+              "time": "08:00",
+              "location": "Lều Rễ Cây",
+              "activity": "Mưa làm rễ cây no nước, tĩnh tâm thiền định"
+            },
+            {
+              "time": "15:00",
+              "location": "Lều Rễ Cây",
+              "activity": "Nghiền bột thảo dược làm thuốc xoa bóp"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "npc_valerius",
+      "name": "Valerius",
+      "role": "Hiệp Sĩ Lưu Đày",
+      "location": "Lang Thang / Oakhaven",
+      "species": "Human (Cựu Chỉ Huy Cận Vệ Hoàng Gia)",
+      "description": "Cựu hiệp sĩ hoàng gia với vết sẹo chéo sống mũi, giáp bạc cũ sờn và phong thái quý tộc lạnh lùng. Từng là khách trú bão tại Quán Ăn trước khi định cư bảo vệ Oakhaven.",
+      "favorite_items": [
+        "bit_tet_nuong_than_soi",
+        "dish_iron_steak",
+        "ruou_trai_cay_len_men"
+      ],
+      "quote": "Lòng trung thành của ta dành cho lẽ phải, không phải ngai vàng. Nếu điều đó là phản quốc... thì ta chấp nhận mang tiếng.",
+      "birthday": "Ngày 7 Mùa Đông",
+      "schedule": "06:00 - 18:00: Huấn luyện dân quân và canh gác cổng thành phía Bắc",
+      "real_world_wound": "Bị vu oan phản quốc và trục xuất khỏi Solaria vì phát hiện tham nhũng triều đình; vết thương danh dự và sự cay đắng của kẻ trung kiên bị phản bội.",
+      "comfort_dish": "bit_tet_nuong_than_soi",
+      "heart_event_summary": "Tại 8 Tim: Được minh oan và chính thức nhậm chức Đội Trưởng Dân Quân Oakhaven; mở khóa Huấn Luyện Kỹ Năng Đỡ Đòn (Parry Training).",
+      "gift_preferences": {
+        "loved": [
+          "bit_tet_nuong_than_soi",
+          "bo_ham_ruou_vang_mo",
+          "ore_gold"
+        ],
+        "liked": [
+          "banh_mi_lua_mi_gion",
+          "ruou_trai_cay_len_men",
+          "ore_iron"
+        ],
+        "disliked": [
+          "banh_cau_vong_4_mua",
+          "sua_bo_nong_mat_ong"
+        ],
+        "hated": [
+          "bot_sao",
+          "banh_deo_trang_ram_hoa_buoi"
+        ]
+      },
+      "schedules": {
+        "default": {
+          "sunny": [
+            {
+              "time": "06:00",
+              "location": "Sân Tập Cổng Bắc",
+              "activity": "Rèn luyện kiếm thuật cùng thanh trường kiếm bạc"
+            },
+            {
+              "time": "12:00",
+              "location": "Quán Ăn & Nhà Trọ Oakhaven",
+              "activity": "Ăn trưa với bánh mì khô và ngẫm nghĩ chiến thuật"
+            },
+            {
+              "time": "18:00",
+              "location": "Chòi Gác Biên Giới",
+              "activity": "Đứng gác hiên ngang trong gió lạnh"
+            }
+          ],
+          "rainy": [
+            {
+              "time": "08:00",
+              "location": "Hiệp Hội Mạo Hiểm",
+              "activity": "Bàn chiến thuật bảo vệ thung lũng cùng Thorne"
+            },
+            {
+              "time": "17:00",
+              "location": "Quán Ăn & Nhà Trọ Oakhaven",
+              "activity": "Bên lò sưởi ấm gọi đĩa bít tết sồi nướng nóng"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "npc_morrigan",
+      "name": "Morrigan",
+      "role": "Phù Thủy Ẩn Dật",
+      "location": "Đầm Lầy Phía Tây Oakhaven",
+      "species": "Human (Phù Thủy Cổ)",
+      "description": "Phù thủy trung niên bí ẩn với áo choàng đen, mắt tím huyền ảo và chú quạ cưng đậu trên vai. Bên ngoài lạnh lùng nhưng thực chất âm thầm chữa bệnh cho thú rừng bị thương.",
+      "favorite_items": [
+        "tea_frostmint_breeze",
+        "dau_rung",
+        "da_tinh_the"
+      ],
+      "quote": "Các ngươi muốn ta đi à? Khỏi cần đuổi. Ta quen rồi. ...Nhưng con cáo bị thương ngoài cửa lều, để ta băng bó nó đã rồi đi.",
+      "birthday": "Ngày 31 Mùa Thu",
+      "schedule": "Toàn thời gian: Lều Phù Thủy Đầm Lầy Tây; Đêm bão tuyết: Ghé Quán Ăn",
+      "real_world_wound": "Bị kỳ thị và xua đuổi khắp nơi vì ngoại hình phù thủy hắc ám; tự cô lập để không ai có cơ hội làm tổn thương mình thêm nữa.",
+      "comfort_dish": "tea_frostmint_breeze",
+      "heart_event_summary": "Tại 8 Tim: Cứu thị trấn khỏi đợt dịch độc và lần đầu nhận được lời cảm ơn chân thành; mở khóa Bàn Pha Chế Độc Dược & Thần Dược.",
+      "gift_preferences": {
+        "loved": [
+          "tea_frostmint_breeze",
+          "da_tinh_the",
+          "dau_rung"
+        ],
+        "liked": [
+          "mat_ong",
+          "oai_huong",
+          "item_wild_mushroom"
+        ],
+        "disliked": [
+          "banh_cau_vong_4_mua",
+          "thit_nuong_lua_dia_nguc"
+        ],
+        "hated": [
+          "ore_coal",
+          "bit_tet_nuong_than_soi"
+        ]
+      },
+      "schedules": {
+        "default": {
+          "sunny": [
+            {
+              "time": "09:00",
+              "location": "Đầm Lầy Phía Tây",
+              "activity": "Hái rêu độc và nấm phát quang ven hồ nước"
+            },
+            {
+              "time": "14:00",
+              "location": "Lều Phù Thủy",
+              "activity": "Băng bó vết thương cho chim chóc thú rừng"
+            },
+            {
+              "time": "19:00",
+              "location": "Bên Vạc Thuốc Đồng",
+              "activity": "Khuấy vạc thuốc sôi sùng sục dưới ánh nến tím"
+            }
+          ],
+          "rainy": [
+            {
+              "time": "10:00",
+              "location": "Lều Phù Thủy",
+              "activity": "Ngồi sưởi ấm nghe tiếng quạ kêu bên khung cửa"
+            },
+            {
+              "time": "18:00",
+              "location": "Quán Ăn & Nhà Trọ Oakhaven",
+              "activity": "Ghé tiệm trú bão tuyết, nhấp chén trà sương giá"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "npc_iris",
+      "name": "Iris",
+      "role": "Sử Gia Hoàng Gia",
+      "location": "Thư Viện Solaria / Oakhaven",
+      "species": "Human",
+      "description": "Sử gia trẻ trung đầy nhiệt huyết với mái tóc auburn ngắn, kính tròn và luôn ôm chồng sách cao quá đầu. Khao khát chép lại sự thật lịch sử không thiên vị quyền lực.",
+      "favorite_items": [
+        "tea_earl_grey_clara",
+        "banh_quy_gung_giu_am",
+        "tra_sen_an_than"
+      ],
+      "quote": "Cung đình bảo tôi viết rằng Oakhaven chỉ là làng quê vô danh... Nhưng tôi đã thấy vết tích nền văn minh cổ đại dưới mỗi viên đá lát đường ở đây!",
+      "birthday": "Ngày 10 Mùa Xuân",
+      "schedule": "08:00 - 17:00: Đào sâu tài liệu cổ tại Thư Viện Oakhaven cùng Clara",
+      "real_world_wound": "Lớn lên giữa sự kiểm duyệt khắt khe của Solaria; giằng xé giữa lòng trung thành gia tộc và khát vọng bảo vệ sự thật lịch sử.",
+      "comfort_dish": "tea_earl_grey_clara",
+      "heart_event_summary": "Tại 8 Tim: Hoàn thành cuốn 'Biên Niên Sử Chân Thực Oakhaven' bất chấp lệnh cấm cung đình; mở khóa Bách Khoa Toàn Thư Cổ Vật.",
+      "gift_preferences": {
+        "loved": [
+          "tea_earl_grey_clara",
+          "banh_quy_gung_giu_am",
+          "tra_sen_bach_diep"
+        ],
+        "liked": [
+          "mat_ong",
+          "banh_mi_lua_mi_gion",
+          "la_tra_sen"
+        ],
+        "disliked": [
+          "thit_nuong_lua_dia_nguc",
+          "ore_coal"
+        ],
+        "hated": [
+          "bit_tet_nuong_than_soi",
+          "lau_ca_cay_ham_nguc"
+        ]
+      },
+      "schedules": {
+        "default": {
+          "sunny": [
+            {
+              "time": "08:30",
+              "location": "Thư Viện Oakhaven",
+              "activity": "Cùng Clara dịch thuật các phiến đá rune cổ"
+            },
+            {
+              "time": "13:30",
+              "location": "Tàn Tích Cổ Phía Đông",
+              "activity": "Dập bản khắc hoa văn cổ đại vào sổ tay"
+            },
+            {
+              "time": "18:00",
+              "location": "Quán Ăn & Nhà Trọ Oakhaven",
+              "activity": "Vừa ăn bánh quy vừa thảo luận lịch sử cùng khách trọ"
+            }
+          ],
+          "rainy": [
+            {
+              "time": "09:00",
+              "location": "Góc Đọc Sách Thư Viện",
+              "activity": "Vùi mình vào chồng sách lịch sử bên lò sưởi"
+            },
+            {
+              "time": "16:00",
+              "location": "Quán Ăn & Nhà Trọ Oakhaven",
+              "activity": "Nhâm nhi trà Earl Grey ấm cúng"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "npc_solace",
+      "name": "Solace",
+      "role": "Linh Thể Hộ Tinh",
+      "location": "Cổng Trời Aethelgard",
+      "species": "Celestial Spirit (Linh Thể Ánh Sao)",
+      "description": "Linh thể ánh sao thuần khiết lơ lửng giữa biển mây Aethelgard. Người gác cổng cổ xưa đã lãng quên danh tính bản thân qua hàng ngàn năm cô độc.",
+      "favorite_items": [
+        "tra_sen_an_than",
+        "da_tinh_the",
+        "gem_sapphire"
+      ],
+      "quote": "Ta đã quên... tên mình... nhưng mùi hương trà sen này... ai đó từng pha cho ta uống... rất lâu rồi... rất... ấm...",
+      "birthday": "Vô Tận (Chưa xác định)",
+      "schedule": "Toàn thời gian: Canh giữ Ngưỡng Cửa Thiên Giới Aethelgard",
+      "real_world_wound": "Sự cô đơn tột cùng kéo dài thiên niên kỷ; nỗi đau của sự lãng quên nguồn cội và khao khát được một lần an nghỉ bình yên.",
+      "comfort_dish": "tra_sen_an_than",
+      "heart_event_summary": "Tại 8 Tim: Tìm lại hồi ức từng là một đầu bếp thời sơ khai; khai mở vĩnh viễn Cổng Trời Aethelgard nối liền phàm trần và tiên cảnh.",
+      "gift_preferences": {
+        "loved": [
+          "tra_sen_an_than",
+          "tra_sen_bach_diep",
+          "da_tinh_the"
+        ],
+        "liked": [
+          "gem_sapphire",
+          "gem_amethyst",
+          "drop_golden_pollen"
+        ],
+        "disliked": [
+          "thit_nuong_lua_dia_nguc",
+          "ore_coal"
+        ],
+        "hated": [
+          "bit_tet_nuong_than_soi",
+          "ruou_trai_cay_len_men"
+        ]
+      },
+      "schedules": {
+        "default": {
+          "sunny": [
+            {
+              "time": "06:00",
+              "location": "Cổng Trời Aethelgard",
+              "activity": "Lơ lửng giữa biển mây đón ánh ban mai bụi sao"
+            },
+            {
+              "time": "14:00",
+              "location": "Đền Thờ Sao Băng",
+              "activity": "Lắng nghe lời nguyện cầu vọng về từ trần thế"
+            },
+            {
+              "time": "20:00",
+              "location": "Cây Trường Sinh",
+              "activity": "Tĩnh lặng nhìn các vì tinh tú dịch chuyển"
+            }
+          ],
+          "rainy": [
+            {
+              "time": "08:00",
+              "location": "Cổng Trời Aethelgard",
+              "activity": "Nhìn biển mây dâng trào sấm chớp phía trần gian"
+            },
+            {
+              "time": "18:00",
+              "location": "Vòm Ánh Sáng Cổ",
+              "activity": "Nhấp giọt sương sao thanh khiết"
+            }
+          ]
+        }
+      }
     }
   ]
 }

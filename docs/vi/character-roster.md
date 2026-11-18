@@ -127,11 +127,78 @@ spoiler: false
 * **Marlo:** Người lính gác thầm lặng trong đêm lạnh, gửi 90% lương về quê nuôi đàn em thơ; quán ăn của Rowan là điểm tựa ấm áp duy nhất của anh.
 
 ---
+---
 
-## 3. Khách Vãng Lai & Cư Dân Vương Quốc Ngoài
+## 3. Cư Dân Oakhaven Mới Mở Rộng
 
+### 🏛️ Trưởng Lão Oakwood (Thị Trưởng Oakhaven)
+* **Vết nứt tâm lý:** Hội chứng "người hùng mệt mỏi" (Tired Hero). Đơn độc chèo chống thị trấn qua đại dịch 30 năm trước, nay tuổi già gối mỏi nhưng sợ buông tay thì cả thị trấn sẽ sụp đổ.
+* **Món ăn ký ức:** **Trà Lò Sưởi Thì Thầm & Bánh Mì Hoa Cúc Brioche**.
+* **Tuyến sự kiện 8 Tim:** Chấp nhận buông bỏ quyền lực độc nhiệm để thành lập Hội Đồng Thị Trấn; mở khóa **Bảng Dự Án Tái Thiết Oakhaven**.
+
+### 🪵 Cedar (Thợ Mộc Gấu Nâu)
+* **Vết nứt tâm lý:** Bị bộ tộc gấu núi xua đuổi vì từ chối cầm rìu ra chiến trường; mang tiếng "kẻ hèn nhát" nhưng kiên định với niềm tin rằng dựng một mái nhà qua bão tuyết đòi hỏi dũng khí hơn là chém giết.
+* **Món ăn ký ức:** **Súp Bí Đỏ Hạt Sen & Mật Ong Rừng**.
+* **Tuyến sự kiện 8 Tim:** Cùng Rowan dựng lại Cầu Gỗ Cổ dẫn vào Rừng Thầm Thì; mở khóa **Mở Rộng Nhà Ở & Gian Bếp Quán Ăn**.
+
+### 🎶 Wren (Nhạc Sĩ Halfling)
+* **Vết nứt tâm lý:** Mất giọng 3 năm sau biến cố quê hương bị tàn phá; ám ảnh sợ xã hội và nỗi sợ bị phán xét ngoài sân khấu.
+* **Món ăn ký ức:** **Bánh Scone Dâu Rừng & Trà Dâu Băng Tuyết**.
+* **Tuyến sự kiện 8 Tim:** Trình diễn bài hát nguyên bản 'Lullaby of Oakhaven' tại Lễ Hội Thu; mở khóa **Hộp Nhạc Giai Điệu Quán Ăn**.
+
+### 🌾 Hazel (Chủ Trại Chăn Nuôi) & 🐑 Tilly (Cô Bé Chăn Cừu)
+* **Hazel:** Bị bạn đời phản bội bỏ theo đoàn buôn kinh đô; đóng chặt trái tim, từ chối mọi sự giúp đỡ vì sợ bị phụ bạc lần hai.
+  - *Món ăn:* **Sữa Bò Nóng Mật Ong & Bánh Mì Lúa Mì Giòn**.
+  - *Sự kiện:* Thành lập Hợp Tác Xã Chăn Nuôi Thung Lũng; mở khóa mua bán bò, gà, cừu lấy sữa, trứng, len.
+* **Tilly (10 tuổi - Beastfolk Cừu):** Sang chấn tâm lý sau vụ sói tấn công làm gãy một bên sừng; mắc chứng sợ bóng tối (Nyctophobia) nhưng luôn cố tỏ ra dũng cảm trước Kael và Finn.
+  - *Món ăn:* **Sữa Nóng Mật Ong & Bánh Cầu Vồng Bốn Mùa**.
+  - *Sự kiện:* Dũng cảm vượt qua màn đêm cứu cừu non đi lạc; mở khóa **Xưởng Nhuộm Len Sắc Màu**.
+
+### 🏺 Bramble (Thương Nhân Goblin Tiệm 'Hũ Châu Báu')
+* **Vết nứt tâm lý:** Bị trục xuất khỏi Hội Thương Nhân Solaria vì từ chối bán thuốc giả cho dân nghèo; bị gắn mác "goblin phản bội" vì dám giữ lương tâm.
+* **Món ăn ký ức:** **Cháo Yến Mạch Mật Ong**.
+* **Tuyến sự kiện 8 Tim:** Khai trương Chợ Đêm Thứ Bảy; mở khóa các loại hạt giống nhập khẩu và công cụ độc lạ.
+
+### 🌿 Rosemary (Người Giữ Đền Stardust)
+* **Vết nứt tâm lý:** Dryad - hiện thân sống của Cây Sồi Mẹ Oakhaven. Chứng kiến rừng cổ bị Star Blight ăn mòn rễ sâu, sợ rằng khi cây chết thì linh hồn mình cũng tan biến.
+* **Món ăn ký ức:** **Trà Sen Bách Diệp & Hạt Sen Sấy**.
+* **Tuyến sự kiện 8 Tim:** Cùng Rowan thanh tẩy Star Blight tận gốc rễ; mở khóa **Vạc Tịnh Hóa Bụi Sao**.
+
+### 🛡️ Valerius (Hiệp Sĩ Lưu Đày) & 🔮 Morrigan (Phù Thủy Ẩn Dật)
+* **Valerius:** Cựu chỉ huy cận vệ hoàng gia bị vu oan tội phản quốc sau khi vạch trần tham nhũng triều đình; khách trọ bão tuyết chọn ở lại làm Đội Trưởng Dân Quân Oakhaven.
+  - *Món ăn:* **Bít Tết Nướng Than Sồi & Bò Hầm Rượu Vang**.
+  - *Sự kiện:* Khóa huấn luyện phản xạ đỡ đòn (Parry Training) trong chiến đấu hầm mỏ.
+* **Morrigan:** Nữ phù thủy đầm lầy bị cả thế giới xua đuổi vì ngoại hình đáng sợ; bề ngoài gai góc nhưng âm thầm cứu chữa thú rừng.
+  - *Món ăn:* **Trà Bạc Hà Sương Giá & Quả Mọng Rừng**.
+  - *Sự kiện:* Cứu thị trấn khỏi dịch độc; mở khóa **Bàn Điều Chế Thần Dược & Bùa Chú**.
+
+---
+
+## 4. Vương Quốc Lân Cận & Cõi Giới Xa Xôi
+
+### ⚒️ Khaz-Drakor (Đại Đô Thị Người Lùn)
+* **Grimhild (Nữ Hoàng Lò Rèn):** Mẹ nuôi của Boris và Bram, nữ thợ rèn huyền thoại dằn vặt 15 năm vì sự hà khắc đã đẩy hai con ra đi.
+  - *Món ăn:* **Dwarf Ironforge Goulash**. Mở khóa rèn trang bị **Mithril Cổ Đại**.
+* **Cogsworth (Kỹ Sư Hơi Nước):** Dwarf trẻ bị gia tộc tẩy chay vì mê máy móc thay vì đe rèn; người duy nhất giải mã được tiếng Chrono.
+  - *Món ăn:* **Khoai Tây Nướng Bơ Tỏi**. Mở khóa **Tàu Goòng Siêu Tốc & Hệ Thống Tưới Tự Động**.
+* **Ember (Đầu Bếp Kỳ Nhông Lửa):** Đầu bếp kỳ nhông bị cấm cửa ở các kinh đô vì định kiến chủng tộc; đối thủ ẩm thực thân thiện của Rowan.
+  - *Món ăn:* **Thịt Nướng Lửa Địa Ngục**. Mở khóa **Trạm Nướng Magma Cực Hạn**.
+* **Chrono:** Người máy đồng hồ cổ đại còn sót lại từ nền văn minh đã mất, cần chất bôi trơn hoa cúc ấm.
+
+### 🌲 Sylva-Fae (Tán Rừng Tinh Linh Cổ Thụ)
+* **Thistle (Thợ Săn Moth-Folk Đêm):** Người bướm đêm có đôi mắt và cánh sợ ánh sáng mạnh; cô đơn hoạt động ngược nhịp thế giới.
+  - *Món ăn:* **Trà Oải Hương Ngàn Sao**. Mở khóa thu hoạch **Tơ Lụa Phát Quang** cho Elora.
+* **Fern (Thầy Thuốc Cổ Đại 800 Tuổi):** Thầy dạy mù lòa của Sylvan, dùng mạng rễ ngầm cảm nhận vạn vật sau khi mất đôi mắt vì Star Blight 200 năm trước.
+  - *Món ăn:* **Canh Thảo Mộc Búp Sen**. Mở khóa **Thảo Dược Thượng Cổ**.
 * **Elora & Sylvan:** Thợ may mắc bệnh run tay và nhà nghiên cứu thảo mộc lặn lội tìm thuốc chữa cho bạn tri kỷ.
+
+### 🏯 Solaria (Kinh Đô Ánh Sáng)
+* **Iris (Sử Gia Hoàng Gia):** Nữ học giả tóc auburn ôm chồng sách cao quá đầu; đấu tranh giữa kiểm duyệt hoàng cung và khát vọng chép lại sự thật lịch sử.
+  - *Món ăn:* **Trà Bá Tước Earl Grey & Bánh Quy Gừng**. Mở khóa **Bách Khoa Cổ Vật**.
 * **Valen:** Quý tộc ma cà rồng ăn chay sợ mùi tỏi nhưng mê trà đỏ ngọt ngào.
 * **Kassandra:** Phù thủy sao băng lưu vong chổi bay thường cạn ma lực giữa lưng chừng mây.
-* **Chrono:** Người máy đồng hồ cổ đại còn sót lại từ nền văn minh đã mất, cần chất bôi trơn hoa cúc ấm.
-* **Lapis:** Nàng tiên cá lần đầu lên cạn, mê mẩn những mẻ bánh nướng giòn rụm của loài người.
+
+### ✨ Aethelgard (Thiên Giới Biển Mây)
+* **Solace (Linh Thể Hộ Tinh):** Linh thể ánh sao gác cổng thiên giới hàng ngàn năm, đã quên mất bản thân từng là một đầu bếp thời sơ khai; chỉ nhớ lại khi ngửi thấy hương trà sen của Rowan.
+  - *Món ăn:* **Trà Sen An Thần**. Mở khóa cánh cổng bước vào cõi vĩnh hằng gặp lại linh hồn bà ngoại Amalia.
+* **Lapis:** Nàng tiên cá bơi từ Biển Sương Mù ghé thăm các suối ngầm cao nguyên, mê mẩn bánh nướng giòn rụm của loài người.

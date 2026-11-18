@@ -126,11 +126,78 @@ spoiler: false
 * **Marlo:** Self-effacing nightwatchman who sends 90% of his pay to support younger siblings back home, finding his only solace at Rowan's midnight tavern table.
 
 ---
+---
 
-## 3. Wandering Patrons & Distant Visitors
+## 3. Newly Expanded Oakhaven Inhabitants
 
+### 🏛️ Elder Oakwood (Town Mayor)
+* **Psychological Wound:** "Tired Hero" syndrome. Governed and sheltered Oakhaven single-handedly through the Great Blight thirty years ago; now elderly and exhausted, yet terrified that stepping down will cause the frontier town to collapse.
+* **Signature Comfort Dish:** **Whisper Hearth Herbal Tea & Brioche Bread**.
+* **8 Hearts Milestone:** Relinquishes absolute executive duty to establish the democratic Town Council; unlocks the **Town Restoration Upgrade Board**.
+
+### 🪵 Cedar (Master Bear-kin Carpenter)
+* **Psychological Wound:** Banished from his mountain bear-kin clan for refusing battle axes; branded a coward yet steadfast in his conviction that raising a sturdy roof against winter blizzards takes more courage than slaughtering neighbors.
+* **Signature Comfort Dish:** **Sweet Pumpkin & Lotus Potage with Wild Honey**.
+* **8 Hearts Milestone:** Rebuilds the Ancient Timber Viaduct into Whisperwood; unlocks **Home & Hearth Eatery Structural Expansions**.
+
+### 🎶 Wren (Wandering Halfling Bard)
+* **Psychological Wound:** Lost his singing voice for three years following the sack of his homeland; suffers crippling social anxiety and stage fright whenever he is outside his musical trance.
+* **Signature Comfort Dish:** **Wild Berry Shortcake Scone & Chilled Frostberry Brew**.
+* **8 Hearts Milestone:** Debuts 'Lullaby of Oakhaven' at the Harvest Gala; unlocks the **Tavern Ambience Jukebox**.
+
+### 🌾 Hazel (Livestock Matron) & 🐑 Tilly (Little Shepherdess)
+* **Hazel:** Abandoned by her merchant spouse who vanished into metropolitan Solaria; fiercely distrustful of communal aid out of betrayal trauma.
+  - *Comfort Dish:* **Warm Honeyed Cow's Milk & Crispy Wheat Loaf**.
+  - *Milestone:* Founds the Valley Ranching Cooperative; unlocks purchasing cows, chickens, and sheep for dairy, egg, and wool production.
+* **Tilly (Age 10 - Sheep-kin):** Gravely traumatized by a winter wolf attack that sheared one of her horns; battles acute nyctophobia while trying to prove her courage to Kael and Finn.
+  - *Comfort Dish:* **Warm Honeyed Milk & Four-Season Rainbow Cake**.
+  - *Milestone:* Conquers her dread of the dark to rescue an orphaned lamb; unlocks the **Rainbow Wool Dyeing Workshop**.
+
+### 🏺 Bramble (Goblin Provisioner at 'Treasure Urn')
+* **Psychological Wound:** Ostracized by Solaria's Merchant Conclave for refusing to sell tainted tonics to the poor; labeled an outcast by goblins and humans alike for holding to honesty.
+* **Signature Comfort Dish:** **Honeyed Rolled Oat Porridge**.
+* **8 Hearts Milestone:** Launches the Oakhaven Saturday Night Bazaar; unlocks exotic foreign seeds and specialty tools.
+
+### 🌿 Rosemary (Stardust Shrine Keeper)
+* **Psychological Wound:** Dryad — living avatar of Oakhaven's ancient Mother Oak. Watches helplessly as Star Blight rots deep subterranean rootways, dreading the day her consciousness dissolves as the oak withers.
+* **Signature Comfort Dish:** **White-Leaf Lotus Tea & Candied Lotus Seeds**.
+* **8 Hearts Milestone:** Purges primordial Star Blight with Rowan; unlocks the **Stardust Purification Cauldron**.
+
+### 🛡️ Valerius (Exiled Knight) & 🔮 Morrigan (Recluse Hedge Witch)
+* **Valerius:** Former royal guard commander framed for treason after exposing imperial corruption; winter storm guest who settles permanently as Captain of Oakhaven's Guardians.
+  - *Comfort Dish:* **Oak-Charred Iron Steak & Red Wine Beef Stew**.
+  - *Milestone:* Unlocks Combat Parry Footwork Training.
+* **Morrigan:** Solitary swamp witch ostracized worldwide due to superstitious dread; prickly and intimidating outside, but secretly a gentle nurse to wounded woodland wildlife.
+  - *Comfort Dish:* **Frostmint Breeze Tea & Wild Glade Berries**.
+  - *Milestone:* Cures a mysterious valley plague; unlocks the **Alchemical Potion & Enchantment Station**.
+
+---
+
+## 4. Greater Realms & Cosmic Thresholds
+
+### ⚒️ Khaz-Drakor (The Dwarven Megalopolis)
+* **High Smith Grimhild:** Foster mother of Boris and Bram; legendary dwarven matriarch who spent fifteen years hammering away maternal guilt after driving her sons away with rigid strictness.
+  - *Comfort Dish:* **Dwarf Ironforge Goulash**. Unlocks Masterwork **Mithril Smithing**.
+* **Cogsworth (Steam Engineer):** Slender young dwarf ostracized by conservative smiths for pursuing pneumatic valves and clockwork; only one fluent in Chrono's rhythm.
+  - *Comfort Dish:* **Garlic Butter Roasted Spuds**. Unlocks the **Minecart Express & Automatic Sprinklers**.
+* **Ember (Lava Basin Chef):** Energetic fire salamander chef barred from metropolitan culinary guilds due to racial prejudice; Rowan's friendly cooking rival.
+  - *Comfort Dish:* **Netherfire Charbroiled Steak**. Unlocks the **Extreme Heat Magma Grate**.
+* **Chrono:** Ancient clockwork automaton seeking chamomile lubrication to soften millennia-old gears.
+
+### 🌲 Sylva-Fae (The Ancient Canopy)
+* **Thistle (Nocturnal Moth Ranger):** Silver-violet winged moth-folk whose sensitive eyes sting under bright lanterns; lives isolated in twilight canopy hours.
+  - *Comfort Dish:* **Thousand-Star Lavender Infusion**. Unlocks harvesting **Luminescent Silk** for Elora's tailoring.
+* **Fern (Ancient Root Healer - Age 800):** Blind mentor of Sylvan who perceives all forest life through subterranean root mycorrhizae after losing his eyes to Star Blight.
+  - *Comfort Dish:* **Lotus Blossom Root Potage**. Unlocks **Primeval Herbal Formulas**.
 * **Elora & Sylvan:** Tremor-afflicted royal dressmaker and devoted botanist seeking ancient remedies to preserve her artisan hands.
+
+### 🏯 Solaria (The Royal Capital of Light)
+* **Iris (Royal Chronicler):** Auburn-haired scholar balancing precarious towers of tomes; torn between royal imperial censorship and her pledge to record authentic history.
+  - *Comfort Dish:* **Earl Grey Jasmine Tea & Spiced Ginger Biscuits**. Unlocks the **Relic Antiquities Lore Compendium**.
 * **Valen:** Pacifist, vegetarian vampire aristocrat seeking soothing, non-garlic floral infusions.
 * **Kassandra:** Exiled meteor witch traversing atmospheric currents on a broom running low on stardust mana.
-* **Chrono:** Ancient clockwork automaton seeking chamomile lubrication to soften millennia-old gears.
-* **Lapis:** Deep-sea mermaid fascinated by terrestrial warm baked breads.
+
+### ✨ Aethelgard (The Floating Elysium)
+* **Solace (Celestial Gate Guardian):** Radiant astral spirit watching the stardust threshold for millennia; surrendered mortal memories until Rowan's lotus tea re-awakens ancient recollections of having once been a humble baker.
+  - *Comfort Dish:* **Calming Lotus Infusion**. Permanently unseals the Gates of Aethelgard to reunite with Grandmother Amalia's guiding spirit.
+* **Lapis:** Deep-sea mermaid journeying onto dry land, captivated by warm pastries that dissolve on the tongue.
