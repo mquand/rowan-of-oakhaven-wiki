@@ -2651,6 +2651,904 @@
         "fire",
         "eternal"
       ]
+    },
+    {
+      "id": "seed_oak_acorn",
+      "name": "Oakhaven Acorn",
+      "description": "A glossy brown acorn from Oakhaven's ancient oaks. Plant in clear soil to grow a Great Oak for timber or dark oak resin tapping.",
+      "category": "seed",
+      "tags": [
+        "forestry",
+        "seed",
+        "tree",
+        "timber"
+      ],
+      "rarity": "common",
+      "buy_price": 30,
+      "sell_price": 8,
+      "energy": null,
+      "buff": null,
+      "crop_id": "tree_oak"
+    },
+    {
+      "id": "seed_pine_cone",
+      "name": "Alpine Pinecone",
+      "description": "A pinecone fallen from snow-capped ridges. Grows into an Alpine Pine yielding flexible pine lumber and waterproof pine tar.",
+      "category": "seed",
+      "tags": [
+        "forestry",
+        "seed",
+        "tree",
+        "timber"
+      ],
+      "rarity": "common",
+      "buy_price": 30,
+      "sell_price": 8,
+      "energy": null,
+      "buff": null,
+      "crop_id": "tree_pine"
+    },
+    {
+      "id": "seed_maple_seed",
+      "name": "Ember Maple Seed",
+      "description": "Winged maple seeds that glide on autumn breezes. Grows into an Ember Maple for golden maple syrup tapping and rosy lumber.",
+      "category": "seed",
+      "tags": [
+        "forestry",
+        "seed",
+        "tree",
+        "timber"
+      ],
+      "rarity": "common",
+      "buy_price": 35,
+      "sell_price": 10,
+      "energy": null,
+      "buff": null,
+      "crop_id": "tree_maple"
+    },
+    {
+      "id": "seed_birch_catkin",
+      "name": "Silver Birch Catkin",
+      "description": "Fine seed catkin of the silvery birch. Matures into a slender tree yielding light craft timber and waterproof rolled bark.",
+      "category": "seed",
+      "tags": [
+        "forestry",
+        "seed",
+        "tree",
+        "timber"
+      ],
+      "rarity": "common",
+      "buy_price": 30,
+      "sell_price": 8,
+      "energy": null,
+      "buff": null,
+      "crop_id": "tree_birch"
+    },
+    {
+      "id": "seed_willow_cutting",
+      "name": "River Willow Cutting",
+      "description": "Rooted cutting of the weeping river willow. Grows rapidly by water banks, yielding weaving boughs and medicinal fever sap.",
+      "category": "seed",
+      "tags": [
+        "forestry",
+        "seed",
+        "tree",
+        "timber"
+      ],
+      "rarity": "uncommon",
+      "buy_price": 45,
+      "sell_price": 12,
+      "energy": null,
+      "buff": null,
+      "crop_id": "tree_willow"
+    },
+    {
+      "id": "seed_ironwood_pod",
+      "name": "Abyssal Ironwood Seed Pod",
+      "description": "Dense seed pod of the steel-hard abyssal ironwood. Requires an Iron Axe or higher to fell once mature.",
+      "category": "seed",
+      "tags": [
+        "forestry",
+        "seed",
+        "tree",
+        "timber",
+        "rare"
+      ],
+      "rarity": "rare",
+      "buy_price": 150,
+      "sell_price": 40,
+      "energy": null,
+      "buff": null,
+      "crop_id": "tree_ironwood"
+    },
+    {
+      "id": "seed_sapling_apple",
+      "name": "Honey Apple Sapling",
+      "description": "Potted sapling of the legendary Oakhaven honey apple. Takes 28 days in a 3x3 clear space to mature. Bears daily crisp fruit in Autumn.",
+      "category": "seed",
+      "tags": [
+        "orchard",
+        "sapling",
+        "fruit",
+        "autumn"
+      ],
+      "rarity": "uncommon",
+      "buy_price": 900,
+      "sell_price": 220,
+      "energy": null,
+      "buff": null,
+      "crop_id": "fruit_apple"
+    },
+    {
+      "id": "seed_sapling_plum",
+      "name": "Frost Plum Sapling",
+      "description": "Cold-hardy sapling that thrives in sub-zero frost. Takes 28 days to mature, bearing deep red juicy plums every day throughout Winter.",
+      "category": "seed",
+      "tags": [
+        "orchard",
+        "sapling",
+        "fruit",
+        "winter"
+      ],
+      "rarity": "uncommon",
+      "buy_price": 1000,
+      "sell_price": 250,
+      "energy": null,
+      "buff": null,
+      "crop_id": "fruit_plum"
+    },
+    {
+      "id": "seed_sapling_peach",
+      "name": "Blossom Peach Sapling",
+      "description": "Fragrant pink-blossoming peach sapling. Takes 28 days to establish, bearing velvety sweet peaches every morning in Spring.",
+      "category": "seed",
+      "tags": [
+        "orchard",
+        "sapling",
+        "fruit",
+        "spring"
+      ],
+      "rarity": "uncommon",
+      "buy_price": 1100,
+      "sell_price": 275,
+      "energy": null,
+      "buff": null,
+      "crop_id": "fruit_peach"
+    },
+    {
+      "id": "seed_sapling_cherry",
+      "name": "Crimson Cherry Sapling",
+      "description": "Vibrant cherry sapling with magnificent spring blooms. Produces clusters of glossy crimson cherries daily throughout Spring.",
+      "category": "seed",
+      "tags": [
+        "orchard",
+        "sapling",
+        "fruit",
+        "spring"
+      ],
+      "rarity": "uncommon",
+      "buy_price": 950,
+      "sell_price": 240,
+      "energy": null,
+      "buff": null,
+      "crop_id": "fruit_cherry"
+    },
+    {
+      "id": "seed_sapling_walnut",
+      "name": "Oakhaven Walnut Sapling",
+      "description": "Majestic walnut tree sapling. Matures in 28 days to yield rich, protein-dense timber walnuts daily in Autumn.",
+      "category": "seed",
+      "tags": [
+        "orchard",
+        "sapling",
+        "fruit",
+        "autumn"
+      ],
+      "rarity": "uncommon",
+      "buy_price": 1200,
+      "sell_price": 300,
+      "energy": null,
+      "buff": null,
+      "crop_id": "fruit_walnut"
+    },
+    {
+      "id": "seed_sapling_pear",
+      "name": "Misty Pear Sapling",
+      "description": "Crisp mist pear sapling. Matures into an aromatic orchard tree bearing golden, succulent pears daily in Autumn.",
+      "category": "seed",
+      "tags": [
+        "orchard",
+        "sapling",
+        "fruit",
+        "autumn"
+      ],
+      "rarity": "uncommon",
+      "buy_price": 1050,
+      "sell_price": 260,
+      "energy": null,
+      "buff": null,
+      "crop_id": "fruit_pear"
+    },
+    {
+      "id": "seed_sapling_orange",
+      "name": "Ember Orange Sapling",
+      "description": "Sun-loving citrus sapling that soaks up summer heat. Yields sweet, zesty fire oranges every morning throughout Summer.",
+      "category": "seed",
+      "tags": [
+        "orchard",
+        "sapling",
+        "fruit",
+        "summer"
+      ],
+      "rarity": "uncommon",
+      "buy_price": 1000,
+      "sell_price": 250,
+      "energy": null,
+      "buff": null,
+      "crop_id": "fruit_orange"
+    },
+    {
+      "id": "seed_ice_cabbage",
+      "name": "Ice Cabbage Seed",
+      "description": "Crisp cool-weather cabbage seed that thrives in the crisp chills of early Spring.",
+      "category": "seed",
+      "tags": [
+        "farming",
+        "seed",
+        "spring"
+      ],
+      "rarity": "common",
+      "buy_price": 35,
+      "sell_price": 15,
+      "energy": null,
+      "buff": null,
+      "crop_id": "crop_ice_cabbage"
+    },
+    {
+      "id": "seed_fire_tomato",
+      "name": "Fire Tomato Seed",
+      "description": "Summer tomato seed yielding fiery red clusters. Regrows juicy fruits every 4 days after first harvest.",
+      "category": "seed",
+      "tags": [
+        "farming",
+        "seed",
+        "summer",
+        "regrowable"
+      ],
+      "rarity": "common",
+      "buy_price": 50,
+      "sell_price": 20,
+      "energy": null,
+      "buff": null,
+      "crop_id": "crop_fire_tomato"
+    },
+    {
+      "id": "seed_pea_trellis",
+      "name": "Trellis Pea Seed",
+      "description": "Climbing pea vine seed that requires a wood trellis. Yields sweet pods every 3 days throughout Spring.",
+      "category": "seed",
+      "tags": [
+        "farming",
+        "seed",
+        "spring",
+        "trellis",
+        "regrowable"
+      ],
+      "rarity": "common",
+      "buy_price": 60,
+      "sell_price": 25,
+      "energy": null,
+      "buff": null,
+      "crop_id": "crop_pea_trellis"
+    },
+    {
+      "id": "seed_night_grape",
+      "name": "Night Grape Shoot",
+      "description": "Deep purple grapevine shoot trained onto garden trellises. Produces rich wine grapes every 3 days in Autumn.",
+      "category": "seed",
+      "tags": [
+        "farming",
+        "seed",
+        "autumn",
+        "trellis",
+        "regrowable"
+      ],
+      "rarity": "uncommon",
+      "buy_price": 80,
+      "sell_price": 30,
+      "energy": null,
+      "buff": null,
+      "crop_id": "crop_night_grape"
+    },
+    {
+      "id": "seed_sunflower",
+      "name": "Golden Sunflower Seed",
+      "description": "Towering golden bloom seed that soaks in summer and autumn sun. Drops additional seeds upon harvest.",
+      "category": "seed",
+      "tags": [
+        "farming",
+        "seed",
+        "summer",
+        "autumn"
+      ],
+      "rarity": "common",
+      "buy_price": 40,
+      "sell_price": 18,
+      "energy": null,
+      "buff": null,
+      "crop_id": "crop_sunflower"
+    },
+    {
+      "id": "seed_frost_potato",
+      "name": "Frost Potato Sprout",
+      "description": "Hearty winter tuber seed potato that braves subzero soil, producing high-starch baking potatoes.",
+      "category": "seed",
+      "tags": [
+        "farming",
+        "seed",
+        "winter"
+      ],
+      "rarity": "common",
+      "buy_price": 45,
+      "sell_price": 18,
+      "energy": null,
+      "buff": null,
+      "crop_id": "crop_frost_potato"
+    },
+    {
+      "id": "seed_lichen_root",
+      "name": "Glacial Lichen Spores",
+      "description": "Ancient lichen spores adapted to glacial permafrost. Cultivated for invigorating stamina elixirs and teas.",
+      "category": "seed",
+      "tags": [
+        "farming",
+        "seed",
+        "winter"
+      ],
+      "rarity": "uncommon",
+      "buy_price": 55,
+      "sell_price": 22,
+      "energy": null,
+      "buff": null,
+      "crop_id": "crop_lichen_root"
+    },
+    {
+      "id": "seed_frost_beet",
+      "name": "Frost Ruby Beet Seed",
+      "description": "Vibrant ruby beet seed that concentrates deep sugars in freezing winter soil. Perfect for hot tavern borscht.",
+      "category": "seed",
+      "tags": [
+        "farming",
+        "seed",
+        "winter"
+      ],
+      "rarity": "common",
+      "buy_price": 40,
+      "sell_price": 16,
+      "energy": null,
+      "buff": null,
+      "crop_id": "crop_frost_beet"
+    },
+    {
+      "id": "item_firewood",
+      "name": "Dry Firewood Bundle",
+      "description": "Split seasoned firewood bundled with twine. Essential hearth heating fuel for Oakhaven Inn and sauna stoves.",
+      "category": "material",
+      "tags": [
+        "material",
+        "fuel",
+        "restoration",
+        "inn"
+      ],
+      "rarity": "common",
+      "buy_price": 15,
+      "sell_price": 5,
+      "energy": null,
+      "buff": null
+    },
+    {
+      "id": "item_wood_maple",
+      "name": "Ember Maple Timber",
+      "description": "Warm reddish-grained hardwood harvested from Ember Maples. Highly prized for heirloom furniture and lutes.",
+      "category": "material",
+      "tags": [
+        "material",
+        "wood",
+        "crafting",
+        "restoration"
+      ],
+      "rarity": "uncommon",
+      "buy_price": 35,
+      "sell_price": 12,
+      "energy": null,
+      "buff": null
+    },
+    {
+      "id": "item_wood_birch",
+      "name": "Silver Birch Timber",
+      "description": "Lightweight, flexible pale hardwood from Silver Birches. Ideal for bows, tool handles, and storage chests.",
+      "category": "material",
+      "tags": [
+        "material",
+        "wood",
+        "crafting"
+      ],
+      "rarity": "common",
+      "buy_price": 25,
+      "sell_price": 8,
+      "energy": null,
+      "buff": null
+    },
+    {
+      "id": "item_wood_ironwood",
+      "name": "Abyssal Ironwood Timber",
+      "description": "Dense pitch-black timber with steel-like tensile strength. Crucial for deep-mine shaft braces and heavy wagons.",
+      "category": "material",
+      "tags": [
+        "material",
+        "wood",
+        "rare",
+        "restoration"
+      ],
+      "rarity": "rare",
+      "buy_price": 120,
+      "sell_price": 45,
+      "energy": null,
+      "buff": null
+    },
+    {
+      "id": "item_birch_bark",
+      "name": "Birch Bark Roll",
+      "description": "Waterproof silvery papery bark harvested from birch trunks. Used for shingling, long-burning torches, and scrollcraft.",
+      "category": "material",
+      "tags": [
+        "material",
+        "forestry",
+        "crafting"
+      ],
+      "rarity": "common",
+      "buy_price": 20,
+      "sell_price": 6,
+      "energy": null,
+      "buff": null
+    },
+    {
+      "id": "item_oak_resin",
+      "name": "Dark Oak Resin",
+      "description": "Rich aromatic amber-black resin tapped from Great Oaks. Essential for marine caulk and fermentation cask sealants.",
+      "category": "material",
+      "tags": [
+        "material",
+        "tapping",
+        "artisan",
+        "crafting"
+      ],
+      "rarity": "uncommon",
+      "buy_price": 90,
+      "sell_price": 40,
+      "energy": null,
+      "buff": null
+    },
+    {
+      "id": "item_pine_tar",
+      "name": "Alpine Pine Tar",
+      "description": "Pungent viscous resin tapped from Alpine Pines. Protects wood from rotting, seals mine carts, and fuels stormproof flares.",
+      "category": "material",
+      "tags": [
+        "material",
+        "tapping",
+        "artisan",
+        "crafting"
+      ],
+      "rarity": "common",
+      "buy_price": 60,
+      "sell_price": 25,
+      "energy": null,
+      "buff": null
+    },
+    {
+      "id": "item_maple_syrup",
+      "name": "Amber Maple Syrup",
+      "description": "Luscious golden syrup boiled from Ember Maple sap. Famous breakfast pancake topper at Oakhaven Tavern, restoring 75 Energy.",
+      "category": "ingredient",
+      "tags": [
+        "ingredient",
+        "tapping",
+        "sweet",
+        "bakery"
+      ],
+      "rarity": "uncommon",
+      "buy_price": 150,
+      "sell_price": 70,
+      "energy": 75,
+      "buff": "+10% Move Speed for 120s"
+    },
+    {
+      "id": "item_birch_sap",
+      "name": "Pure Birch Sap",
+      "description": "Clear sweet mineral water tapped from Silver Birches in early spring. Cleanses fatigue and fortifies weary travelers.",
+      "category": "ingredient",
+      "tags": [
+        "ingredient",
+        "tapping",
+        "beverage",
+        "inn"
+      ],
+      "rarity": "common",
+      "buy_price": 70,
+      "sell_price": 30,
+      "energy": 50,
+      "buff": null
+    },
+    {
+      "id": "item_willow_sap",
+      "name": "Medicinal Willow Sap",
+      "description": "Bitter curative sap tapped from river willows. Natural febrifuge used for pain relief and frostbite immunity potions.",
+      "category": "ingredient",
+      "tags": [
+        "ingredient",
+        "tapping",
+        "medicine",
+        "alchemy"
+      ],
+      "rarity": "uncommon",
+      "buy_price": 110,
+      "sell_price": 48,
+      "energy": 40,
+      "buff": "Frostbite Immunity for 180s"
+    },
+    {
+      "id": "item_ironwood_oil",
+      "name": "Ironwood Preserving Oil",
+      "description": "Heavy protective oil pressed from abyssal ironwood gum. Coats steel tools and swords to prevent rust and enhance mining durability.",
+      "category": "material",
+      "tags": [
+        "material",
+        "tapping",
+        "crafting",
+        "rare"
+      ],
+      "rarity": "rare",
+      "buy_price": 220,
+      "sell_price": 95,
+      "energy": null,
+      "buff": null
+    },
+    {
+      "id": "item_tree_tapper",
+      "name": "Artisan Tree Tapper",
+      "description": "Carved wooden bucket with a copper spout. Mount onto mature oaks, pines, maples, or willows to automatically collect resin and sap.",
+      "category": "crafted",
+      "tags": [
+        "tool",
+        "artisan",
+        "forestry",
+        "equipment"
+      ],
+      "rarity": "uncommon",
+      "buy_price": 250,
+      "sell_price": 90,
+      "energy": null,
+      "buff": null
+    },
+    {
+      "id": "item_wood_ash",
+      "name": "Wood Ash Growth Powder",
+      "description": "Fine potash ash gathered from hearth ovens. Enhances soil with minerals, speeding field crop maturation by 15%.",
+      "category": "crafted",
+      "tags": [
+        "fertilizer",
+        "farming",
+        "crafting"
+      ],
+      "rarity": "common",
+      "buy_price": 25,
+      "sell_price": 8,
+      "energy": null,
+      "buff": null
+    },
+    {
+      "id": "item_bone_meal",
+      "name": "Starlight Bone Meal",
+      "description": "Pulverized river mollusks and calcified mine fossils. Increases Silver and Gold crop harvest odds by 30%.",
+      "category": "crafted",
+      "tags": [
+        "fertilizer",
+        "farming",
+        "crafting"
+      ],
+      "rarity": "uncommon",
+      "buy_price": 60,
+      "sell_price": 20,
+      "energy": null,
+      "buff": null
+    },
+    {
+      "id": "item_retaining_moss",
+      "name": "Hydrating Moss Mulch",
+      "description": "Spongy wetland peat moss worked into tilled soil. 50% chance plots stay watered overnight without daily labor.",
+      "category": "crafted",
+      "tags": [
+        "fertilizer",
+        "farming",
+        "crafting"
+      ],
+      "rarity": "common",
+      "buy_price": 40,
+      "sell_price": 12,
+      "energy": null,
+      "buff": null
+    },
+    {
+      "id": "item_mushroom_log",
+      "name": "Inoculated Mushroom Log",
+      "description": "Drilled oak log inoculated with mushroom spawn. Keep in cool shade or cellar to yield fresh Wild Mushrooms every 4 days.",
+      "category": "crafted",
+      "tags": [
+        "artisan",
+        "farming",
+        "mushroom"
+      ],
+      "rarity": "uncommon",
+      "buy_price": 180,
+      "sell_price": 65,
+      "energy": null,
+      "buff": null
+    },
+    {
+      "id": "item_oakhaven_apple",
+      "name": "Oakhaven Honey Apple",
+      "description": "Crisp sweet red apples picked from Oakhaven Apple Trees in Autumn. Signature filling for warm tavern fruit pies.",
+      "category": "ingredient",
+      "tags": [
+        "fruit",
+        "orchard",
+        "autumn",
+        "bakery"
+      ],
+      "rarity": "common",
+      "buy_price": 60,
+      "sell_price": 28,
+      "energy": 45,
+      "buff": null
+    },
+    {
+      "id": "item_frost_plum",
+      "name": "Frost Plum",
+      "description": "Deep violet winter plums dusted in glistening frost crystals. Intensely tart-sweet with rich ruby flesh.",
+      "category": "ingredient",
+      "tags": [
+        "fruit",
+        "orchard",
+        "winter",
+        "bakery"
+      ],
+      "rarity": "uncommon",
+      "buy_price": 85,
+      "sell_price": 38,
+      "energy": 50,
+      "buff": "Cold Resistance for 60s"
+    },
+    {
+      "id": "item_blossom_peach",
+      "name": "Blossom Peach",
+      "description": "Velvety fragrant peaches bursting with springtime sweetness. Staple fruit for morning breakfast preserves.",
+      "category": "ingredient",
+      "tags": [
+        "fruit",
+        "orchard",
+        "spring",
+        "sweet"
+      ],
+      "rarity": "uncommon",
+      "buy_price": 90,
+      "sell_price": 42,
+      "energy": 50,
+      "buff": null
+    },
+    {
+      "id": "item_crimson_cherry",
+      "name": "Crimson Cherry",
+      "description": "Glossy ruby twin cherries harvested from Spring cherry trees. Prized filling for celebratory pastry tarts.",
+      "category": "ingredient",
+      "tags": [
+        "fruit",
+        "orchard",
+        "spring",
+        "bakery"
+      ],
+      "rarity": "common",
+      "buy_price": 70,
+      "sell_price": 32,
+      "energy": 40,
+      "buff": null
+    },
+    {
+      "id": "item_walnut",
+      "name": "Oakhaven Walnut",
+      "description": "Robust hard-shelled autumn walnuts. Toasted whole or ground into hearty flour for miners' trail loaves.",
+      "category": "ingredient",
+      "tags": [
+        "fruit",
+        "orchard",
+        "autumn",
+        "nutrition"
+      ],
+      "rarity": "common",
+      "buy_price": 75,
+      "sell_price": 35,
+      "energy": 55,
+      "buff": "+10 Mining Fortitude"
+    },
+    {
+      "id": "item_mist_pear",
+      "name": "Misty Pear",
+      "description": "Juicy golden autumn pears picked on foggy mornings. Poached with mulled wine and wild cinnamon at the tavern.",
+      "category": "ingredient",
+      "tags": [
+        "fruit",
+        "orchard",
+        "autumn",
+        "cooking"
+      ],
+      "rarity": "common",
+      "buy_price": 65,
+      "sell_price": 30,
+      "energy": 45,
+      "buff": null
+    },
+    {
+      "id": "item_ember_orange",
+      "name": "Ember Orange",
+      "description": "Vivid summer oranges packed with vibrant citrus juice. Squeezed fresh for thirsty travelers arriving at the inn.",
+      "category": "ingredient",
+      "tags": [
+        "fruit",
+        "orchard",
+        "summer",
+        "beverage"
+      ],
+      "rarity": "common",
+      "buy_price": 70,
+      "sell_price": 32,
+      "energy": 45,
+      "buff": null
+    },
+    {
+      "id": "item_ice_cabbage",
+      "name": "Crisp Ice Cabbage",
+      "description": "Dense sweet leafy cabbage harvested from early spring plots. Crunchy base for tavern stir-fries and fresh slaws.",
+      "category": "ingredient",
+      "tags": [
+        "vegetable",
+        "farming",
+        "spring",
+        "cooking"
+      ],
+      "rarity": "common",
+      "buy_price": 55,
+      "sell_price": 26,
+      "energy": 30,
+      "buff": null
+    },
+    {
+      "id": "item_fire_tomato",
+      "name": "Juicy Fire Tomato",
+      "description": "Sun-ripened red tomatoes picked from summer vines. Forms the foundation of savory roasted stews and marinara.",
+      "category": "ingredient",
+      "tags": [
+        "vegetable",
+        "farming",
+        "summer",
+        "cooking"
+      ],
+      "rarity": "common",
+      "buy_price": 50,
+      "sell_price": 24,
+      "energy": 25,
+      "buff": null
+    },
+    {
+      "id": "item_pea_pod",
+      "name": "Sweet Pea Pod",
+      "description": "Tender crisp snap peas picked fresh from garden trellises. Sautéed with brown butter for tavern dinner plates.",
+      "category": "ingredient",
+      "tags": [
+        "vegetable",
+        "farming",
+        "spring",
+        "cooking"
+      ],
+      "rarity": "common",
+      "buy_price": 65,
+      "sell_price": 30,
+      "energy": 35,
+      "buff": null
+    },
+    {
+      "id": "item_night_grape",
+      "name": "Midnight Grapes",
+      "description": "Inky moonlit grape clusters picked from autumn vines. Cellar-fermented into Oakhaven's signature vintage wine.",
+      "category": "ingredient",
+      "tags": [
+        "fruit",
+        "farming",
+        "autumn",
+        "artisan"
+      ],
+      "rarity": "uncommon",
+      "buy_price": 90,
+      "sell_price": 44,
+      "energy": 40,
+      "buff": null
+    },
+    {
+      "id": "item_sunflower_seeds",
+      "name": "Toasted Sunflower Seeds",
+      "description": "Hearty nutty seeds harvested from giant sunflowers. Roasted for afternoon tea snacks or pressed for cooking oil.",
+      "category": "ingredient",
+      "tags": [
+        "snack",
+        "farming",
+        "summer",
+        "autumn"
+      ],
+      "rarity": "common",
+      "buy_price": 40,
+      "sell_price": 18,
+      "energy": 20,
+      "buff": null
+    },
+    {
+      "id": "item_frost_potato",
+      "name": "High-Mountain Frost Potato",
+      "description": "Creamy dense potato unearthed from cold mountain loam. Mashed with golden butter for comforting winter meals.",
+      "category": "ingredient",
+      "tags": [
+        "vegetable",
+        "farming",
+        "winter",
+        "cooking"
+      ],
+      "rarity": "common",
+      "buy_price": 60,
+      "sell_price": 28,
+      "energy": 40,
+      "buff": null
+    },
+    {
+      "id": "item_lichen_root",
+      "name": "Glacial Lichen Root",
+      "description": "Spicy medicinal root dug up beneath glacial crusts. Vital restorative for warding off deadly frostbite.",
+      "category": "ingredient",
+      "tags": [
+        "herb",
+        "farming",
+        "winter",
+        "medicine"
+      ],
+      "rarity": "uncommon",
+      "buy_price": 80,
+      "sell_price": 36,
+      "energy": 30,
+      "buff": "+2 Cold Damage Resistance"
+    },
+    {
+      "id": "item_frost_beet",
+      "name": "Frost Ruby Beet",
+      "description": "Earthy gem-like ruby beet harvested from snowy fields. Simmered into restorative winter stews for weary wayfarers.",
+      "category": "ingredient",
+      "tags": [
+        "vegetable",
+        "farming",
+        "winter",
+        "cooking"
+      ],
+      "rarity": "common",
+      "buy_price": 55,
+      "sell_price": 25,
+      "energy": 35,
+      "buff": null
     }
   ]
 }

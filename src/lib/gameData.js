@@ -61,6 +61,7 @@ export function getCharacterById(id, lang = DEFAULT_LOCALE) {
 }
 
 export const getCrops = (lang = DEFAULT_LOCALE) => getCollection('crops.json', 'crops', lang);
+export const getTrees = (lang = DEFAULT_LOCALE) => getCollection('trees.json', 'trees', lang);
 export const getMonsters = (lang = DEFAULT_LOCALE) => getCollection('monsters.json', 'monsters', lang);
 export const getWeapons = (lang = DEFAULT_LOCALE) => getCollection('weapons.json', 'weapons', lang);
 export const getPerks = (lang = DEFAULT_LOCALE) => getCollection('perks.json', 'perks', lang);

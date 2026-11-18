@@ -1,0 +1,398 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-11-18",
+  "trees": [
+    {
+      "id": "tree_oak",
+      "type": "timber",
+      "name": "Oakhaven Great Oak",
+      "sapling_id": "seed_oak_acorn",
+      "growth_days": 24,
+      "clearance": "1x1 (Khuyến nghị 2x2 để cây con không bị cản trở)",
+      "wood_item_id": "item_wood_oak",
+      "wood_yield_range": [
+        12,
+        16
+      ],
+      "bonus_item_id": "item_firewood",
+      "bonus_yield_range": [
+        4,
+        6
+      ],
+      "tapper_supported": true,
+      "tapper_product_id": "item_oak_resin",
+      "tapper_cycle_days": 7,
+      "active_season": "all",
+      "harvest_fruit_id": null,
+      "axe_hits_required": 10,
+      "stump_hits_required": 4,
+      "min_axe_tier": 1,
+      "description": "Ancient oak with dense resilient heartwood resisting rot and heavy impacts. Primary lumber for repairing Oakhaven Bridge, tavern floors, and the Windmill.",
+      "lore": "Following wartime devastation, vast ancient oak groves were charred by dark magic. Replanting fresh acorns symbolizes the resolute resurgence of Oakhaven."
+    },
+    {
+      "id": "tree_pine",
+      "type": "timber",
+      "name": "Alpine Pine",
+      "sapling_id": "seed_pine_cone",
+      "growth_days": 22,
+      "clearance": "1x1",
+      "wood_item_id": "item_wood_pine",
+      "wood_yield_range": [
+        12,
+        16
+      ],
+      "bonus_item_id": "item_firewood",
+      "bonus_yield_range": [
+        3,
+        5
+      ],
+      "tapper_supported": true,
+      "tapper_product_id": "item_pine_tar",
+      "tapper_cycle_days": 5,
+      "active_season": "all",
+      "harvest_fruit_id": null,
+      "axe_hits_required": 8,
+      "stump_hits_required": 3,
+      "min_axe_tier": 1,
+      "description": "Evergreen pine reaching skyward along mountain slopes. Highly elastic grain with natural waterproof resin for boat caulking and mine shoring.",
+      "lore": "Boiled pine pitch once kept hearth torches alight during bitter winter blizzards that severed all supply lines into the valley."
+    },
+    {
+      "id": "tree_maple",
+      "type": "timber",
+      "name": "Ember Maple",
+      "sapling_id": "seed_maple_seed",
+      "growth_days": 24,
+      "clearance": "1x1",
+      "wood_item_id": "item_wood_maple",
+      "wood_yield_range": [
+        10,
+        14
+      ],
+      "bonus_item_id": "item_firewood",
+      "bonus_yield_range": [
+        3,
+        5
+      ],
+      "tapper_supported": true,
+      "tapper_product_id": "item_maple_syrup",
+      "tapper_cycle_days": 9,
+      "active_season": "all",
+      "harvest_fruit_id": null,
+      "axe_hits_required": 9,
+      "stump_hits_required": 4,
+      "min_axe_tier": 1,
+      "description": "Hardwood with glowing rosy streaks. Prized for handcrafting the tavern's main bar, luxury suite furnishings, and fine string instruments.",
+      "lore": "Golden maple syrup serves as Rowan's secret culinary ambassador, sweetening trade pacts with wandering merchants and visiting dignitaries."
+    },
+    {
+      "id": "tree_birch",
+      "type": "timber",
+      "name": "Silver Birch",
+      "sapling_id": "seed_birch_catkin",
+      "growth_days": 20,
+      "clearance": "1x1",
+      "wood_item_id": "item_wood_birch",
+      "wood_yield_range": [
+        10,
+        14
+      ],
+      "bonus_item_id": "item_birch_bark",
+      "bonus_yield_range": [
+        2,
+        4
+      ],
+      "tapper_supported": true,
+      "tapper_product_id": "item_birch_sap",
+      "tapper_cycle_days": 6,
+      "active_season": "all",
+      "harvest_fruit_id": null,
+      "axe_hits_required": 8,
+      "stump_hits_required": 3,
+      "min_axe_tier": 1,
+      "description": "The fastest-growing timber species. Straight pale trunks yield lightweight craft wood, while papery bark repels moisture and makes durable fire-starters.",
+      "lore": "Silvery birch bark was once used by scouting units for waterproof tactical maps and emergency shelter roofs during wartime refuge."
+    },
+    {
+      "id": "tree_willow",
+      "type": "timber",
+      "name": "River Willow",
+      "sapling_id": "seed_willow_cutting",
+      "growth_days": 22,
+      "clearance": "1x1 (Cần trồng ven nước)",
+      "wood_item_id": "item_willow_branch",
+      "wood_yield_range": [
+        14,
+        18
+      ],
+      "bonus_item_id": "item_firewood",
+      "bonus_yield_range": [
+        3,
+        4
+      ],
+      "tapper_supported": true,
+      "tapper_product_id": "item_willow_sap",
+      "tapper_cycle_days": 6,
+      "active_season": "all",
+      "harvest_fruit_id": null,
+      "axe_hits_required": 8,
+      "stump_hits_required": 3,
+      "min_axe_tier": 1,
+      "description": "Graceful weeping tree trailing into calm waters. Pliant boughs weave resilient fish traps, harvest hampers, and nursery cradles.",
+      "lore": "Bitter willow sap carries natural antipyretic qualities, saving hundreds of wounded frontline soldiers in valley field hospitals."
+    },
+    {
+      "id": "tree_ironwood",
+      "type": "timber",
+      "name": "Abyssal Ironwood",
+      "sapling_id": "seed_ironwood_pod",
+      "growth_days": 30,
+      "clearance": "2x2",
+      "wood_item_id": "item_wood_ironwood",
+      "wood_yield_range": [
+        8,
+        12
+      ],
+      "bonus_item_id": "item_ironwood_oil",
+      "bonus_yield_range": [
+        1,
+        2
+      ],
+      "tapper_supported": true,
+      "tapper_product_id": "item_ironwood_oil",
+      "tapper_cycle_days": 10,
+      "active_season": "all",
+      "harvest_fruit_id": null,
+      "axe_hits_required": 16,
+      "stump_hits_required": 6,
+      "min_axe_tier": 2,
+      "description": "Mythic deep-forest timber with dense black grain immune to rot and fire. Extremely difficult to fell; requires an Iron Axe or better.",
+      "lore": "The colossal structural trusses keeping Mine Floor 40 from collapsing were carved from ironwood centuries ago and remain pristine."
+    },
+    {
+      "id": "fruit_apple",
+      "type": "orchard",
+      "name": "Oakhaven Honey Apple Tree",
+      "sapling_id": "seed_sapling_apple",
+      "growth_days": 28,
+      "clearance": "3x3 ô hoàn toàn thông thoáng (8 ô xung quanh không có vật cản)",
+      "wood_item_id": "item_wood_oak",
+      "wood_yield_range": [
+        4,
+        6
+      ],
+      "bonus_item_id": "item_firewood",
+      "bonus_yield_range": [
+        2,
+        3
+      ],
+      "tapper_supported": false,
+      "tapper_product_id": null,
+      "tapper_cycle_days": 0,
+      "active_season": "autumn",
+      "harvest_fruit_id": "item_oakhaven_apple",
+      "axe_hits_required": 8,
+      "stump_hits_required": 3,
+      "min_axe_tier": 1,
+      "description": "Core valley orchard tree maturing in 28 days. Once grown, bears 1 crisp honey apple every Autumn morning (holds up to 3 fruit on branches).",
+      "lore": "Pre-war apple orchards filled thousands of cider barrels shipped to northern realms. Rebuilding the orchard is Maeve's lifelong dream."
+    },
+    {
+      "id": "fruit_lemon",
+      "type": "orchard",
+      "name": "Spark Lemon Tree",
+      "sapling_id": "seed_spark_lemon",
+      "growth_days": 28,
+      "clearance": "3x3 ô thông thoáng",
+      "wood_item_id": "item_wood_pine",
+      "wood_yield_range": [
+        4,
+        6
+      ],
+      "bonus_item_id": "item_firewood",
+      "bonus_yield_range": [
+        2,
+        3
+      ],
+      "tapper_supported": false,
+      "tapper_product_id": null,
+      "tapper_cycle_days": 0,
+      "active_season": "summer",
+      "harvest_fruit_id": "item_spark_lemon",
+      "axe_hits_required": 8,
+      "stump_hits_required": 3,
+      "min_axe_tier": 1,
+      "description": "Sun-worshiping citrus tree bearing glowing yellow lemons that burst with mouth-tingling zest during hot summer days.",
+      "lore": "Travelers trekking over high windy passes head straight for Oakhaven Tavern to quench their thirst with chilled spark lemon tea."
+    },
+    {
+      "id": "fruit_plum",
+      "type": "orchard",
+      "name": "Frost Plum Tree",
+      "sapling_id": "seed_sapling_plum",
+      "growth_days": 28,
+      "clearance": "3x3 ô thông thoáng",
+      "wood_item_id": "item_wood_pine",
+      "wood_yield_range": [
+        4,
+        6
+      ],
+      "bonus_item_id": "item_firewood",
+      "bonus_yield_range": [
+        2,
+        3
+      ],
+      "tapper_supported": false,
+      "tapper_product_id": null,
+      "tapper_cycle_days": 0,
+      "active_season": "winter",
+      "harvest_fruit_id": "item_frost_plum",
+      "axe_hits_required": 8,
+      "stump_hits_required": 3,
+      "min_axe_tier": 1,
+      "description": "Oakhaven's botanical marvel blooming amidst blizzards and bearing frosted violet plums every day throughout Winter.",
+      "lore": "Dried frost plums formed the most valuable emergency rations for border rangers through bitter winter months."
+    },
+    {
+      "id": "fruit_peach",
+      "type": "orchard",
+      "name": "Blossom Peach Tree",
+      "sapling_id": "seed_sapling_peach",
+      "growth_days": 28,
+      "clearance": "3x3 ô thông thoáng",
+      "wood_item_id": "item_wood_oak",
+      "wood_yield_range": [
+        4,
+        6
+      ],
+      "bonus_item_id": "item_firewood",
+      "bonus_yield_range": [
+        2,
+        3
+      ],
+      "tapper_supported": false,
+      "tapper_product_id": null,
+      "tapper_cycle_days": 0,
+      "active_season": "spring",
+      "harvest_fruit_id": "item_blossom_peach",
+      "axe_hits_required": 8,
+      "stump_hits_required": 3,
+      "min_axe_tier": 1,
+      "description": "Velvety peach tree draped in pale pink blossoms. Produces sweet succulent peaches every Spring morning.",
+      "lore": "The first peach sapling planted beside Oakhaven Tavern stood as a beacon welcoming displaced wanderers back to their homeland."
+    },
+    {
+      "id": "fruit_cherry",
+      "type": "orchard",
+      "name": "Crimson Cherry Tree",
+      "sapling_id": "seed_sapling_cherry",
+      "growth_days": 28,
+      "clearance": "3x3 ô thông thoáng",
+      "wood_item_id": "item_wood_oak",
+      "wood_yield_range": [
+        4,
+        6
+      ],
+      "bonus_item_id": "item_firewood",
+      "bonus_yield_range": [
+        2,
+        3
+      ],
+      "tapper_supported": false,
+      "tapper_product_id": null,
+      "tapper_cycle_days": 0,
+      "active_season": "spring",
+      "harvest_fruit_id": "item_crimson_cherry",
+      "axe_hits_required": 8,
+      "stump_hits_required": 3,
+      "min_axe_tier": 1,
+      "description": "Compact prolific fruit tree yielding sparkling ruby cherry clusters each morning throughout Spring.",
+      "lore": "Crimson cherry conserve spooned over warm tavern brioche is Oakhaven's most celebrated breakfast delicacy."
+    },
+    {
+      "id": "fruit_walnut",
+      "type": "orchard",
+      "name": "Oakhaven Walnut Tree",
+      "sapling_id": "seed_sapling_walnut",
+      "growth_days": 28,
+      "clearance": "3x3 ô thông thoáng",
+      "wood_item_id": "item_wood_oak",
+      "wood_yield_range": [
+        5,
+        7
+      ],
+      "bonus_item_id": "item_firewood",
+      "bonus_yield_range": [
+        3,
+        4
+      ],
+      "tapper_supported": false,
+      "tapper_product_id": null,
+      "tapper_cycle_days": 0,
+      "active_season": "autumn",
+      "harvest_fruit_id": "item_walnut",
+      "axe_hits_required": 9,
+      "stump_hits_required": 4,
+      "min_axe_tier": 1,
+      "description": "Long-lived nut tree with sprawling branches. Produces calorie-dense walnuts that store effortlessly through winter.",
+      "lore": "Walnut flour trail loaves remain the staple provision for mine delvers to sustain core body heat in damp tunnels."
+    },
+    {
+      "id": "fruit_pear",
+      "type": "orchard",
+      "name": "Misty Pear Tree",
+      "sapling_id": "seed_sapling_pear",
+      "growth_days": 28,
+      "clearance": "3x3 ô thông thoáng",
+      "wood_item_id": "item_wood_oak",
+      "wood_yield_range": [
+        4,
+        6
+      ],
+      "bonus_item_id": "item_firewood",
+      "bonus_yield_range": [
+        2,
+        3
+      ],
+      "tapper_supported": false,
+      "tapper_product_id": null,
+      "tapper_cycle_days": 0,
+      "active_season": "autumn",
+      "harvest_fruit_id": "item_mist_pear",
+      "axe_hits_required": 8,
+      "stump_hits_required": 3,
+      "min_axe_tier": 1,
+      "description": "Golden pear tree that flourishes in misty valley air, bearing crisp hydrating fruit every Autumn day.",
+      "lore": "Slow-poached misty pears in spiced night wine offer sublime comfort to veterans nursing wartime aches by the hearth."
+    },
+    {
+      "id": "fruit_orange",
+      "type": "orchard",
+      "name": "Ember Orange Tree",
+      "sapling_id": "seed_sapling_orange",
+      "growth_days": 28,
+      "clearance": "3x3 ô thông thoáng",
+      "wood_item_id": "item_wood_pine",
+      "wood_yield_range": [
+        4,
+        6
+      ],
+      "bonus_item_id": "item_firewood",
+      "bonus_yield_range": [
+        2,
+        3
+      ],
+      "tapper_supported": false,
+      "tapper_product_id": null,
+      "tapper_cycle_days": 0,
+      "active_season": "summer",
+      "harvest_fruit_id": "item_ember_orange",
+      "axe_hits_required": 8,
+      "stump_hits_required": 3,
+      "min_axe_tier": 1,
+      "description": "Heavy-bearing citrus tree whose fruit glows with vibrant orange hues, packed with rejuvenating vitamin nectar.",
+      "lore": "Fresh ember orange juice is Rowan's complimentary welcome draught for all refugees crossing the tavern threshold."
+    }
+  ]
+}

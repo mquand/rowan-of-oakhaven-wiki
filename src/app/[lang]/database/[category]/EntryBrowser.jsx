@@ -129,7 +129,7 @@ export default function EntryBrowser({ category, entries, lang = 'vi' }) {
       },
 
       crops: {
-        icon: e => (e.tags?.includes('grain') ? 'grains' : e.tags?.includes('tea') ? 'leaf' : 'plant'),
+        icon: e => (e.tags?.includes('tree') ? 'acorn' : e.tags?.includes('grain') ? 'grains' : e.tags?.includes('tea') ? 'leaf' : 'plant'),
         badge: e => (e.seasons || []).map(s => getSeasonLabel(s, lang)).join(' · '),
         search: e => [e.name, e.description, ...(e.tags || [])],
         facet: {

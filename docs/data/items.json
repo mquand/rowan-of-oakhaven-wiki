@@ -2651,6 +2651,904 @@
         "fire",
         "eternal"
       ]
+    },
+    {
+      "id": "seed_oak_acorn",
+      "name": "Hạt Sồi Oakhaven",
+      "description": "Hạt sồi nâu bóng từ đại thụ Oakhaven. Trồng trên đất trống để mọc thành Cây Sồi Cổ Thụ lấy gỗ hoặc gắn bình trích nhựa sồi đen.",
+      "category": "seed",
+      "tags": [
+        "forestry",
+        "seed",
+        "tree",
+        "timber"
+      ],
+      "rarity": "common",
+      "buy_price": 30,
+      "sell_price": 8,
+      "energy": null,
+      "buff": null,
+      "crop_id": "tree_oak"
+    },
+    {
+      "id": "seed_pine_cone",
+      "name": "Nón Thông Tuyết Sơn",
+      "description": "Nón thông rụng từ rặng thông tuyết. Trồng để lớn thành Cây Thông Dẻo thu hoạch gỗ thông dẻo và hắc nhựa thông chống thấm.",
+      "category": "seed",
+      "tags": [
+        "forestry",
+        "seed",
+        "tree",
+        "timber"
+      ],
+      "rarity": "common",
+      "buy_price": 30,
+      "sell_price": 8,
+      "energy": null,
+      "buff": null,
+      "crop_id": "tree_pine"
+    },
+    {
+      "id": "seed_maple_seed",
+      "name": "Hạt Phong Cánh Chuồn",
+      "description": "Cặp hạt phong có cánh mỏng lượn theo gió mùa thu. Trồng thành Cây Phong Hoàng Kim để trích xuất siro phong ngọt ngào hảo hạng.",
+      "category": "seed",
+      "tags": [
+        "forestry",
+        "seed",
+        "tree",
+        "timber"
+      ],
+      "rarity": "common",
+      "buy_price": 35,
+      "sell_price": 10,
+      "energy": null,
+      "buff": null,
+      "crop_id": "tree_maple"
+    },
+    {
+      "id": "seed_birch_catkin",
+      "name": "Hạt Bông Bạch Dương",
+      "description": "Túi hạt nhỏ mịn của cây bạch dương vỏ bạc. Lớn thành cây thân thẳng cho gỗ nhẹ và vỏ cây cuộn chế tác đồ thủ công.",
+      "category": "seed",
+      "tags": [
+        "forestry",
+        "seed",
+        "tree",
+        "timber"
+      ],
+      "rarity": "common",
+      "buy_price": 30,
+      "sell_price": 8,
+      "energy": null,
+      "buff": null,
+      "crop_id": "tree_birch"
+    },
+    {
+      "id": "seed_willow_cutting",
+      "name": "Cành Chiết Liễu Thủy Ngạn",
+      "description": "Cành non bén rễ của rặng liễu rủ ven sông Oakhaven. Mọc thành cây liễu dẻo dai cung cấp cành đan rổ và nhựa liễu làm thuốc.",
+      "category": "seed",
+      "tags": [
+        "forestry",
+        "seed",
+        "tree",
+        "timber"
+      ],
+      "rarity": "uncommon",
+      "buy_price": 45,
+      "sell_price": 12,
+      "energy": null,
+      "buff": null,
+      "crop_id": "tree_willow"
+    },
+    {
+      "id": "seed_ironwood_pod",
+      "name": "Vỏ Quả Thiết Mộc Hắc Ám",
+      "description": "Vỏ hạt nặng trĩu của giống gỗ đen cứng như thép từ Rừng Sương Mù. Chỉ ríu sắt trở lên mới đốn hạ được thân cây khi trưởng thành.",
+      "category": "seed",
+      "tags": [
+        "forestry",
+        "seed",
+        "tree",
+        "timber",
+        "rare"
+      ],
+      "rarity": "rare",
+      "buy_price": 150,
+      "sell_price": 40,
+      "energy": null,
+      "buff": null,
+      "crop_id": "tree_ironwood"
+    },
+    {
+      "id": "seed_sapling_apple",
+      "name": "Cây Con Táo Sồi Mật",
+      "description": "Bầu cây non giống táo sồi trứ danh. Cần 28 ngày để trưởng thành với không gian 3x3 thông thoáng. Cho quả táo ngọt mỗi ngày trong Mùa Thu.",
+      "category": "seed",
+      "tags": [
+        "orchard",
+        "sapling",
+        "fruit",
+        "autumn"
+      ],
+      "rarity": "uncommon",
+      "buy_price": 900,
+      "sell_price": 220,
+      "energy": null,
+      "buff": null,
+      "crop_id": "fruit_apple"
+    },
+    {
+      "id": "seed_sapling_plum",
+      "name": "Cây Con Mận Tuyết",
+      "description": "Cây con chịu giá rét khắc nghiệt. Cần 28 ngày phát triển, cho quả mận tuyết mọng đỏ ruột thẫm mỗi ngày trong Mùa Đông buốt giá.",
+      "category": "seed",
+      "tags": [
+        "orchard",
+        "sapling",
+        "fruit",
+        "winter"
+      ],
+      "rarity": "uncommon",
+      "buy_price": 1000,
+      "sell_price": 250,
+      "energy": null,
+      "buff": null,
+      "crop_id": "fruit_plum"
+    },
+    {
+      "id": "seed_sapling_peach",
+      "name": "Cây Con Đào Anh Thảo",
+      "description": "Giống đào cánh hồng phấn thơm ngát vùng thung lũng. Cần 28 ngày lớn thành đại thụ, đơm quả mọng nước mỗi sáng Mùa Xuân.",
+      "category": "seed",
+      "tags": [
+        "orchard",
+        "sapling",
+        "fruit",
+        "spring"
+      ],
+      "rarity": "uncommon",
+      "buy_price": 1100,
+      "sell_price": 275,
+      "energy": null,
+      "buff": null,
+      "crop_id": "fruit_peach"
+    },
+    {
+      "id": "seed_sapling_cherry",
+      "name": "Cây Con Anh Đào Đỏ Rực",
+      "description": "Cây giống anh đào đỏ tươi. Nở hoa rực rỡ và cho từng chùm quả mọng đỏ sẫm ngọt lịm mỗi ngày trong suốt Mùa Xuân.",
+      "category": "seed",
+      "tags": [
+        "orchard",
+        "sapling",
+        "fruit",
+        "spring"
+      ],
+      "rarity": "uncommon",
+      "buy_price": 950,
+      "sell_price": 240,
+      "energy": null,
+      "buff": null,
+      "crop_id": "fruit_cherry"
+    },
+    {
+      "id": "seed_sapling_walnut",
+      "name": "Cây Con Óc Chó Rừng",
+      "description": "Cây giống óc chó thân gỗ sừng sững. Cho những quả vỏ cứng bùi béo dồi dào năng lượng mỗi ngày trong Mùa Thu.",
+      "category": "seed",
+      "tags": [
+        "orchard",
+        "sapling",
+        "fruit",
+        "autumn"
+      ],
+      "rarity": "uncommon",
+      "buy_price": 1200,
+      "sell_price": 300,
+      "energy": null,
+      "buff": null,
+      "crop_id": "fruit_walnut"
+    },
+    {
+      "id": "seed_sapling_pear",
+      "name": "Cây Con Lê Sương Muối",
+      "description": "Cây giống lê sương mỏng vỏ mọng nước. Tỏa hương thơm mát và cho quả chín vàng giòn rụm mỗi ngày Mùa Thu.",
+      "category": "seed",
+      "tags": [
+        "orchard",
+        "sapling",
+        "fruit",
+        "autumn"
+      ],
+      "rarity": "uncommon",
+      "buy_price": 1050,
+      "sell_price": 260,
+      "energy": null,
+      "buff": null,
+      "crop_id": "fruit_pear"
+    },
+    {
+      "id": "seed_sapling_orange",
+      "name": "Cây Con Cam Lửa Oakhaven",
+      "description": "Cây giống cam quả tròn căng mọng hấp thụ nắng ấm. Cho quả cam đậm vị ngọt thanh mỗi ngày trong suốt Mùa Hè rực rỡ.",
+      "category": "seed",
+      "tags": [
+        "orchard",
+        "sapling",
+        "fruit",
+        "summer"
+      ],
+      "rarity": "uncommon",
+      "buy_price": 1000,
+      "sell_price": 250,
+      "energy": null,
+      "buff": null,
+      "crop_id": "fruit_orange"
+    },
+    {
+      "id": "seed_ice_cabbage",
+      "name": "Hạt Bắp Cải Băng",
+      "description": "Hạt giống bắp cải lá dày cuộn tròn giòn ngọt, phát triển mạnh trong sương sớm đầu xuân mát lạnh.",
+      "category": "seed",
+      "tags": [
+        "farming",
+        "seed",
+        "spring"
+      ],
+      "rarity": "common",
+      "buy_price": 35,
+      "sell_price": 15,
+      "energy": null,
+      "buff": null,
+      "crop_id": "crop_ice_cabbage"
+    },
+    {
+      "id": "seed_fire_tomato",
+      "name": "Hạt Cà Chua Lửa",
+      "description": "Giống cà chua mùa hè quả đỏ thắm như than hồng. Tự ra quả lại sau mỗi 4 ngày sau lần hái đầu tiên.",
+      "category": "seed",
+      "tags": [
+        "farming",
+        "seed",
+        "summer",
+        "regrowable"
+      ],
+      "rarity": "common",
+      "buy_price": 50,
+      "sell_price": 20,
+      "energy": null,
+      "buff": null,
+      "crop_id": "crop_fire_tomato"
+    },
+    {
+      "id": "seed_pea_trellis",
+      "name": "Hạt Đậu Hà Lan Giàn",
+      "description": "Hạt giống đậu dây leo cần dựng giàn tre cọc gỗ. Cho hạt xanh ngọt bùi, tái sinh liên tục mỗi 3 ngày trong Mùa Xuân.",
+      "category": "seed",
+      "tags": [
+        "farming",
+        "seed",
+        "spring",
+        "trellis",
+        "regrowable"
+      ],
+      "rarity": "common",
+      "buy_price": 60,
+      "sell_price": 25,
+      "energy": null,
+      "buff": null,
+      "crop_id": "crop_pea_trellis"
+    },
+    {
+      "id": "seed_night_grape",
+      "name": "Cành Nho Đêm Giàn Leo",
+      "description": "Cành giống nho tím thẫm leo giàn đón ánh trăng thu. Thu hoạch từng chùm nho mọng nước làm rượu vang quán trọ.",
+      "category": "seed",
+      "tags": [
+        "farming",
+        "seed",
+        "autumn",
+        "trellis",
+        "regrowable"
+      ],
+      "rarity": "uncommon",
+      "buy_price": 80,
+      "sell_price": 30,
+      "energy": null,
+      "buff": null,
+      "crop_id": "crop_night_grape"
+    },
+    {
+      "id": "seed_sunflower",
+      "name": "Hạt Hướng Dương Vàng",
+      "description": "Bông hoa khổng lồ vươn cao đón nắng hạ và thu. Khi thu hoạch rớt thêm nhiều hạt giống mới để tiếp tục gieo trồng.",
+      "category": "seed",
+      "tags": [
+        "farming",
+        "seed",
+        "summer",
+        "autumn"
+      ],
+      "rarity": "common",
+      "buy_price": 40,
+      "sell_price": 18,
+      "energy": null,
+      "buff": null,
+      "crop_id": "crop_sunflower"
+    },
+    {
+      "id": "seed_frost_potato",
+      "name": "Mầm Khoai Tây Tuyết",
+      "description": "Mầm củ khoai giàu tinh bột chịu rét, đào sâu dưới lớp đất phủ tuyết mỏng của Mùa Đông Oakhaven.",
+      "category": "seed",
+      "tags": [
+        "farming",
+        "seed",
+        "winter"
+      ],
+      "rarity": "common",
+      "buy_price": 45,
+      "sell_price": 18,
+      "energy": null,
+      "buff": null,
+      "crop_id": "crop_frost_potato"
+    },
+    {
+      "id": "seed_lichen_root",
+      "name": "Bào Tử Địa Y Lạnh",
+      "description": "Bào tử thảo dược cổ sinh bám rễ trên đất lạnh sương muối Mùa Đông. Dùng làm thuốc bổ phục hồi thể lực thần tốc.",
+      "category": "seed",
+      "tags": [
+        "farming",
+        "seed",
+        "winter"
+      ],
+      "rarity": "uncommon",
+      "buy_price": 55,
+      "sell_price": 22,
+      "energy": null,
+      "buff": null,
+      "crop_id": "crop_lichen_root"
+    },
+    {
+      "id": "seed_frost_beet",
+      "name": "Hạt Củ Dền Băng Ruby",
+      "description": "Hạt củ dền tím đỏ chịu sương giá, cho củ ngọt đậm làm màu thực phẩm tự nhiên và các món súp nóng mùa đông.",
+      "category": "seed",
+      "tags": [
+        "farming",
+        "seed",
+        "winter"
+      ],
+      "rarity": "common",
+      "buy_price": 40,
+      "sell_price": 16,
+      "energy": null,
+      "buff": null,
+      "crop_id": "crop_frost_beet"
+    },
+    {
+      "id": "item_firewood",
+      "name": "Bó Củi Khô Rừng Già",
+      "description": "Bó củi chẻ từ cành cây khô gom nhặt hoặc đốn gỗ. Nhiên liệu sưởi ấm thiết yếu cho lò sưởi Quán Trọ Oakhaven và buồng xông hơi.",
+      "category": "material",
+      "tags": [
+        "material",
+        "fuel",
+        "restoration",
+        "inn"
+      ],
+      "rarity": "common",
+      "buy_price": 15,
+      "sell_price": 5,
+      "energy": null,
+      "buff": null
+    },
+    {
+      "id": "item_wood_maple",
+      "name": "Gỗ Phong Vân Hồng",
+      "description": "Thanh gỗ mịn vân hồng cam ấm áp thu được từ Cây Phong Hoàng Kim. Rất được ưa chuộng làm đồ nội thất cao cấp và nhạc cụ.",
+      "category": "material",
+      "tags": [
+        "material",
+        "wood",
+        "crafting",
+        "restoration"
+      ],
+      "rarity": "uncommon",
+      "buy_price": 35,
+      "sell_price": 12,
+      "energy": null,
+      "buff": null
+    },
+    {
+      "id": "item_wood_birch",
+      "name": "Gỗ Bạch Dương Trắng",
+      "description": "Khúc gỗ dẻo nhẹ, vân gỗ sáng màu từ Cây Bạch Dương Trắng. Thích hợp gia công cung tên, chuôi công cụ và rương chứa đồ.",
+      "category": "material",
+      "tags": [
+        "material",
+        "wood",
+        "crafting"
+      ],
+      "rarity": "common",
+      "buy_price": 25,
+      "sell_price": 8,
+      "energy": null,
+      "buff": null
+    },
+    {
+      "id": "item_wood_ironwood",
+      "name": "Gỗ Thiết Mộc Cương Cáp",
+      "description": "Lõi gỗ đen thẫm nặng trĩu và cứng như thép đúc từ Cây Thiết Mộc Sâu. Vật liệu cốt lõi cho giàn đỡ hầm mỏ tầng sâu và xe kéo cơ giới.",
+      "category": "material",
+      "tags": [
+        "material",
+        "wood",
+        "rare",
+        "restoration"
+      ],
+      "rarity": "rare",
+      "buy_price": 120,
+      "sell_price": 45,
+      "energy": null,
+      "buff": null
+    },
+    {
+      "id": "item_birch_bark",
+      "name": "Vỏ Bạch Dương Cuộn",
+      "description": "Lớp vỏ lụa trắng không thấm nước bóc từ thân cây bạch dương. Dùng lợp mái chống dột, quấn chuốt đuốc thắp sáng và làm giấy chép bí kíp.",
+      "category": "material",
+      "tags": [
+        "material",
+        "forestry",
+        "crafting"
+      ],
+      "rarity": "common",
+      "buy_price": 20,
+      "sell_price": 6,
+      "energy": null,
+      "buff": null
+    },
+    {
+      "id": "item_oak_resin",
+      "name": "Nhựa Sồi Đen Thơm",
+      "description": "Chất nhựa quánh thẫm màu hổ phách trích từ Cây Sồi Cổ Thụ bằng Bình Trích Nhựa. Nguyên liệu tuyệt hảo để nấu keo dán thuyền và thùng lên men.",
+      "category": "material",
+      "tags": [
+        "material",
+        "tapping",
+        "artisan",
+        "crafting"
+      ],
+      "rarity": "uncommon",
+      "buy_price": 90,
+      "sell_price": 40,
+      "energy": null,
+      "buff": null
+    },
+    {
+      "id": "item_pine_tar",
+      "name": "Hắc Nhựa Thông Dẻo",
+      "description": "Nhựa thông dẻo chống thấm nước trích từ Cây Thông Tuyết Sơn. Dùng tráng gầm thuyền, gia cố giàn giáo hầm mỏ và làm đuốc sáng lâu tàn.",
+      "category": "material",
+      "tags": [
+        "material",
+        "tapping",
+        "artisan",
+        "crafting"
+      ],
+      "rarity": "common",
+      "buy_price": 60,
+      "sell_price": 25,
+      "energy": null,
+      "buff": null
+    },
+    {
+      "id": "item_maple_syrup",
+      "name": "Siro Phong Hổ Phách",
+      "description": "Nước mật ngọt ngào sánh óng ánh trích từ Cây Phong Hoàng Kim. Nguyên liệu làm bánh ngọt nức tiếng của Quán Ăn Oakhaven, phục hồi 75 Năng Lượng.",
+      "category": "ingredient",
+      "tags": [
+        "ingredient",
+        "tapping",
+        "sweet",
+        "bakery"
+      ],
+      "rarity": "uncommon",
+      "buy_price": 150,
+      "sell_price": 70,
+      "energy": 75,
+      "buff": "Gia Tăng 10% Tốc Độ Di Chuyển (120s)"
+    },
+    {
+      "id": "item_birch_sap",
+      "name": "Nước Nhựa Bạch Dương Thanh Khiết",
+      "description": "Dòng nhựa trong vắt mát lạnh trích từ Bạch Dương Trắng vào đầu xuân. Vị ngọt dịu nhẹ, thanh lọc cơ thể và giải trừ mệt mỏi sau chuyến thám hiểm.",
+      "category": "ingredient",
+      "tags": [
+        "ingredient",
+        "tapping",
+        "beverage",
+        "inn"
+      ],
+      "rarity": "common",
+      "buy_price": 70,
+      "sell_price": 30,
+      "energy": 50,
+      "buff": null
+    },
+    {
+      "id": "item_willow_sap",
+      "name": "Nhựa Liễu Gai Dược Liệu",
+      "description": "Dịch nhựa đắng chiết xuất từ thân Liễu Gai Thủy Ngạn. Hoạt chất tự nhiên hạ sốt, giảm đau khớp và bào chế thuốc chống rét cho thợ lặn hang sâu.",
+      "category": "ingredient",
+      "tags": [
+        "ingredient",
+        "tapping",
+        "medicine",
+        "alchemy"
+      ],
+      "rarity": "uncommon",
+      "buy_price": 110,
+      "sell_price": 48,
+      "energy": 40,
+      "buff": "Kháng Hiệu Ứng Băng Giá (180s)"
+    },
+    {
+      "id": "item_ironwood_oil",
+      "name": "Dầu Thiết Mộc Chống Gỉ",
+      "description": "Dầu đặc biệt chưng cất từ mủ Thiết Mộc Hắc Ám. Quét lên lưỡi cuốc, rìu và kiếm để chống gỉ sét, tăng 15% độ bền công cụ khai khoáng.",
+      "category": "material",
+      "tags": [
+        "material",
+        "tapping",
+        "crafting",
+        "rare"
+      ],
+      "rarity": "rare",
+      "buy_price": 220,
+      "sell_price": 95,
+      "energy": null,
+      "buff": null
+    },
+    {
+      "id": "item_tree_tapper",
+      "name": "Bình Trích Nhựa Thủ Công",
+      "description": "Bình gỗ có vòi đồng cắm vào thân cây sồi, thông, phong hoặc liễu trưởng thành. Tự động thu thập nhựa và siro định kỳ theo ngày.",
+      "category": "crafted",
+      "tags": [
+        "tool",
+        "artisan",
+        "forestry",
+        "equipment"
+      ],
+      "rarity": "uncommon",
+      "buy_price": 250,
+      "sell_price": 90,
+      "energy": null,
+      "buff": null
+    },
+    {
+      "id": "item_wood_ash",
+      "name": "Tro Bếp Dưỡng Thổ Oakhaven",
+      "description": "Tro mịn gom từ lò nướng củi quán trọ, giàu kali khoáng chất. Bón vào đất cày giúp cây trồng ngắn ngày lớn nhanh hơn 15%.",
+      "category": "crafted",
+      "tags": [
+        "fertilizer",
+        "farming",
+        "crafting"
+      ],
+      "rarity": "common",
+      "buy_price": 25,
+      "sell_price": 8,
+      "energy": null,
+      "buff": null
+    },
+    {
+      "id": "item_bone_meal",
+      "name": "Bột Vỏ Xương Sao Tăng Phẩm",
+      "description": "Hỗn hợp vỏ sò sông và xương sinh vật hầm mỏ nghiền mịn. Bón vào luống đất tăng 30% tỷ lệ thu hoạch nông sản hạng Bạc và Vàng.",
+      "category": "crafted",
+      "tags": [
+        "fertilizer",
+        "farming",
+        "crafting"
+      ],
+      "rarity": "uncommon",
+      "buy_price": 60,
+      "sell_price": 20,
+      "energy": null,
+      "buff": null
+    },
+    {
+      "id": "item_retaining_moss",
+      "name": "Đất Rêu Rừng Giữ Ẩm",
+      "description": "Mùn rêu hút ẩm từ đầm lầy. Trộn vào đất ruộng giúp giữ ẩm với 50% cơ hội đất vẫn đủ nước qua đêm không cần tưới lại sáng hôm sau.",
+      "category": "crafted",
+      "tags": [
+        "fertilizer",
+        "farming",
+        "crafting"
+      ],
+      "rarity": "common",
+      "buy_price": 40,
+      "sell_price": 12,
+      "energy": null,
+      "buff": null
+    },
+    {
+      "id": "item_mushroom_log",
+      "name": "Khúc Gỗ Cấy Nấm Rừng",
+      "description": "Khúc gỗ sồi mục được khoan lỗ cấy meo nấm tươi. Đặt trong bóng râm hoặc hầm đá để thu hoạch Nấm Hương Rừng đều đặn mỗi 4 ngày.",
+      "category": "crafted",
+      "tags": [
+        "artisan",
+        "farming",
+        "mushroom"
+      ],
+      "rarity": "uncommon",
+      "buy_price": 180,
+      "sell_price": 65,
+      "energy": null,
+      "buff": null
+    },
+    {
+      "id": "item_oakhaven_apple",
+      "name": "Táo Sồi Mật Ngọt",
+      "description": "Trái táo đỏ tươi giòn ngọt thu hoạch từ Cây Táo Sồi Mùa Thu. Nguyên liệu chính cho Món Bánh Pie Táo Nóng trứ danh của quán ăn.",
+      "category": "ingredient",
+      "tags": [
+        "fruit",
+        "orchard",
+        "autumn",
+        "bakery"
+      ],
+      "rarity": "common",
+      "buy_price": 60,
+      "sell_price": 28,
+      "energy": 45,
+      "buff": null
+    },
+    {
+      "id": "item_frost_plum",
+      "name": "Mận Băng Tuyết Đậm Vị",
+      "description": "Quả mận vỏ tím thẫm đọng lớp sương băng mỏng manh Mùa Đông. Ruột mận đỏ tươi như rượu vang, vị chua ngọt sâu lắng.",
+      "category": "ingredient",
+      "tags": [
+        "fruit",
+        "orchard",
+        "winter",
+        "bakery"
+      ],
+      "rarity": "uncommon",
+      "buy_price": 85,
+      "sell_price": 38,
+      "energy": 50,
+      "buff": "Kháng Lạnh Mùa Đông (60s)"
+    },
+    {
+      "id": "item_blossom_peach",
+      "name": "Đào Anh Thảo Mọng Nước",
+      "description": "Quả đào da mềm như nhung, cắn ngập vị nước đào ngọt thanh của tiết trời Mùa Xuân Oakhaven. Dùng làm mứt phết bánh mì bữa sáng.",
+      "category": "ingredient",
+      "tags": [
+        "fruit",
+        "orchard",
+        "spring",
+        "sweet"
+      ],
+      "rarity": "uncommon",
+      "buy_price": 90,
+      "sell_price": 42,
+      "energy": 50,
+      "buff": null
+    },
+    {
+      "id": "item_crimson_cherry",
+      "name": "Anh Đào Đỏ Thắm",
+      "description": "Từng đôi quả anh đào đỏ mọng bóng bẩy thu hoạch từ Cây Anh Đào Mùa Xuân. Vị ngọt quyến rũ cho các món bánh tart quý tộc.",
+      "category": "ingredient",
+      "tags": [
+        "fruit",
+        "orchard",
+        "spring",
+        "bakery"
+      ],
+      "rarity": "common",
+      "buy_price": 70,
+      "sell_price": 32,
+      "energy": 40,
+      "buff": null
+    },
+    {
+      "id": "item_walnut",
+      "name": "Quả Óc Chó Rừng Oakhaven",
+      "description": "Hạt quả óc chó vỏ cứng bùi ngậy, nướng giòn hoặc nghiền thành bột dinh dưỡng bổ sung thể lực dồi dào cho dân làng.",
+      "category": "ingredient",
+      "tags": [
+        "fruit",
+        "orchard",
+        "autumn",
+        "nutrition"
+      ],
+      "rarity": "common",
+      "buy_price": 75,
+      "sell_price": 35,
+      "energy": 55,
+      "buff": "+10 Sức Chống Chịu Khi Đào Khoáng"
+    },
+    {
+      "id": "item_mist_pear",
+      "name": "Quả Lê Sương Muối",
+      "description": "Quả lê vàng óng mọng nước của Mùa Thu se lạnh. Thường được đem hầm cùng rượu vang đỏ và vỏ quế rừng tại Quán Ăn Oakhaven.",
+      "category": "ingredient",
+      "tags": [
+        "fruit",
+        "orchard",
+        "autumn",
+        "cooking"
+      ],
+      "rarity": "common",
+      "buy_price": 65,
+      "sell_price": 30,
+      "energy": 45,
+      "buff": null
+    },
+    {
+      "id": "item_ember_orange",
+      "name": "Cam Lửa Nắng Hạ",
+      "description": "Quả cam vỏ vàng cam rực rỡ đượm nắng mùa hè. Vắt nước cam ép tươi mát giải nhiệt cho khách bộ hành tá túc nhà trọ.",
+      "category": "ingredient",
+      "tags": [
+        "fruit",
+        "orchard",
+        "summer",
+        "beverage"
+      ],
+      "rarity": "common",
+      "buy_price": 70,
+      "sell_price": 32,
+      "energy": 45,
+      "buff": null
+    },
+    {
+      "id": "item_ice_cabbage",
+      "name": "Bắp Cải Băng Cuộn Chặt",
+      "description": "Bắp cải lá giòn tan chứa đầy nước ngọt thanh của băng tan Mùa Xuân. Món nền cho các món xào giòn và súp khai vị quán ăn.",
+      "category": "ingredient",
+      "tags": [
+        "vegetable",
+        "farming",
+        "spring",
+        "cooking"
+      ],
+      "rarity": "common",
+      "buy_price": 55,
+      "sell_price": 26,
+      "energy": 30,
+      "buff": null
+    },
+    {
+      "id": "item_fire_tomato",
+      "name": "Cà Chua Lửa Mọng Nước",
+      "description": "Cà chua mọng nước đỏ thắm hái từ giàn cà chua Mùa Hè. Cốt lõi của các loại nước sốt hầm thịt bò và món nướng thơm lừng.",
+      "category": "ingredient",
+      "tags": [
+        "vegetable",
+        "farming",
+        "summer",
+        "cooking"
+      ],
+      "rarity": "common",
+      "buy_price": 50,
+      "sell_price": 24,
+      "energy": 25,
+      "buff": null
+    },
+    {
+      "id": "item_pea_pod",
+      "name": "Vỏ Đậu Hà Lan Ngọt Bùi",
+      "description": "Từng quả đậu xanh nõn nà chứa hạt tròn ngọt hái từ giàn leo Mùa Xuân. Món xào bơ tỏi ưa chuộng của Rowan và dân làng.",
+      "category": "ingredient",
+      "tags": [
+        "vegetable",
+        "farming",
+        "spring",
+        "cooking"
+      ],
+      "rarity": "common",
+      "buy_price": 65,
+      "sell_price": 30,
+      "energy": 35,
+      "buff": null
+    },
+    {
+      "id": "item_night_grape",
+      "name": "Chùm Nho Đêm Tím Thẫm",
+      "description": "Chùm nho tím sẫm óng ánh ánh trăng thu hoạch từ giàn nho Mùa Thu. Nguyên liệu lên men thành Rượu Vang Đêm Oakhaven thượng hạng.",
+      "category": "ingredient",
+      "tags": [
+        "fruit",
+        "farming",
+        "autumn",
+        "artisan"
+      ],
+      "rarity": "uncommon",
+      "buy_price": 90,
+      "sell_price": 44,
+      "energy": 40,
+      "buff": null
+    },
+    {
+      "id": "item_sunflower_seeds",
+      "name": "Hạt Hướng Dương Vàng Sấy",
+      "description": "Hạt hướng dương bùi béo thu hoạch từ đóa hoa hướng dương Mùa Hạ và Thu. Dùng nhâm nhi trà chiều hoặc ép dầu ăn thực vật tinh khiết.",
+      "category": "ingredient",
+      "tags": [
+        "snack",
+        "farming",
+        "summer",
+        "autumn"
+      ],
+      "rarity": "common",
+      "buy_price": 40,
+      "sell_price": 18,
+      "energy": 20,
+      "buff": null
+    },
+    {
+      "id": "item_frost_potato",
+      "name": "Khoai Tây Tuyết Núi Cao",
+      "description": "Củ khoai dẻo bùi đào từ đất lạnh mùa đông. Nghiền nhuyễn với bơ tươi làm khoai tây nghiền sốt kem cho bữa tối nhà trọ ấm áp.",
+      "category": "ingredient",
+      "tags": [
+        "vegetable",
+        "farming",
+        "winter",
+        "cooking"
+      ],
+      "rarity": "common",
+      "buy_price": 60,
+      "sell_price": 28,
+      "energy": 40,
+      "buff": null
+    },
+    {
+      "id": "item_lichen_root",
+      "name": "Rễ Địa Y Băng Giá",
+      "description": "Rễ thảo dược cay nồng thu hoạch giữa băng tuyết. Thành phần quý giá cho các thang thuốc giải độc và trà thảo mộc chống rét.",
+      "category": "ingredient",
+      "tags": [
+        "herb",
+        "farming",
+        "winter",
+        "medicine"
+      ],
+      "rarity": "uncommon",
+      "buy_price": 80,
+      "sell_price": 36,
+      "energy": 30,
+      "buff": "+2 Kháng Sát Thương Băng"
+    },
+    {
+      "id": "item_frost_beet",
+      "name": "Củ Dền Băng Ruby",
+      "description": "Củ dền tròn màu đỏ ngọc ruby thu hoạch vào Mùa Đông. Vị ngọt đậm, dùng nấu súp hầm củ dền ấm bụng cho những lữ khách dầm sương.",
+      "category": "ingredient",
+      "tags": [
+        "vegetable",
+        "farming",
+        "winter",
+        "cooking"
+      ],
+      "rarity": "common",
+      "buy_price": 55,
+      "sell_price": 25,
+      "energy": 35,
+      "buff": null
     }
   ]
 }

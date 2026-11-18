@@ -1,0 +1,398 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-11-18",
+  "trees": [
+    {
+      "id": "tree_oak",
+      "type": "timber",
+      "name": "Cây Sồi Oakhaven",
+      "sapling_id": "seed_oak_acorn",
+      "growth_days": 24,
+      "clearance": "1x1 (Khuyến nghị 2x2 để cây con không bị cản trở)",
+      "wood_item_id": "item_wood_oak",
+      "wood_yield_range": [
+        12,
+        16
+      ],
+      "bonus_item_id": "item_firewood",
+      "bonus_yield_range": [
+        4,
+        6
+      ],
+      "tapper_supported": true,
+      "tapper_product_id": "item_oak_resin",
+      "tapper_cycle_days": 7,
+      "active_season": "all",
+      "harvest_fruit_id": null,
+      "axe_hits_required": 10,
+      "stump_hits_required": 4,
+      "min_axe_tier": 1,
+      "description": "Cây sồi đại thụ có thớ gỗ đanh chắc, chịu lực va đập lớn và kháng mục rữa. Nguồn gỗ cốt lõi để phục hồi cầu đá Oakhaven, sàn nhà trọ và cối xay gió.",
+      "lore": "Sau cuộc chiến tranh tàn phá, nhiều cánh rừng sồi cổ xưa bị thiêu rụi bởi ma thuật hắc ám. Việc gieo lại những hạt sồi non là biểu tượng cho sức sống kiên cường hồi sinh thung lũng."
+    },
+    {
+      "id": "tree_pine",
+      "type": "timber",
+      "name": "Cây Thông Dẻo Tuyết Sơn",
+      "sapling_id": "seed_pine_cone",
+      "growth_days": 22,
+      "clearance": "1x1",
+      "wood_item_id": "item_wood_pine",
+      "wood_yield_range": [
+        12,
+        16
+      ],
+      "bonus_item_id": "item_firewood",
+      "bonus_yield_range": [
+        3,
+        5
+      ],
+      "tapper_supported": true,
+      "tapper_product_id": "item_pine_tar",
+      "tapper_cycle_days": 5,
+      "active_season": "all",
+      "harvest_fruit_id": null,
+      "axe_hits_required": 8,
+      "stump_hits_required": 3,
+      "min_axe_tier": 1,
+      "description": "Cây thông kim vươn thẳng trên sườn núi dốc. Gỗ dẻo dai đàn hồi tốt, nhựa thông có tính kháng nước tự nhiên dùng để xảm thuyền và gia cố giàn hầm mỏ.",
+      "lore": "Nhựa thông đun sôi từng là cứu tinh thắp sáng những đêm đông bão tuyết phong tỏa mọi lối vào thị trấn thời chiến loạn."
+    },
+    {
+      "id": "tree_maple",
+      "type": "timber",
+      "name": "Cây Phong Hoàng Kim",
+      "sapling_id": "seed_maple_seed",
+      "growth_days": 24,
+      "clearance": "1x1",
+      "wood_item_id": "item_wood_maple",
+      "wood_yield_range": [
+        10,
+        14
+      ],
+      "bonus_item_id": "item_firewood",
+      "bonus_yield_range": [
+        3,
+        5
+      ],
+      "tapper_supported": true,
+      "tapper_product_id": "item_maple_syrup",
+      "tapper_cycle_days": 9,
+      "active_season": "all",
+      "harvest_fruit_id": null,
+      "axe_hits_required": 9,
+      "stump_hits_required": 4,
+      "min_axe_tier": 1,
+      "description": "Thân cây cho gỗ vân hồng cam óng ánh, là vật liệu thượng thặng đóng quầy bar nhà trọ, bàn ghế phòng VIP và đàn phong cầm.",
+      "lore": "Siro phong hổ phách là món quà đắt giá mà Rowan thường dùng để chiêu đãi các phái đoàn sứ giả và thương buôn phương xa."
+    },
+    {
+      "id": "tree_birch",
+      "type": "timber",
+      "name": "Cây Bạch Dương Trắng",
+      "sapling_id": "seed_birch_catkin",
+      "growth_days": 20,
+      "clearance": "1x1",
+      "wood_item_id": "item_wood_birch",
+      "wood_yield_range": [
+        10,
+        14
+      ],
+      "bonus_item_id": "item_birch_bark",
+      "bonus_yield_range": [
+        2,
+        4
+      ],
+      "tapper_supported": true,
+      "tapper_product_id": "item_birch_sap",
+      "tapper_cycle_days": 6,
+      "active_season": "all",
+      "harvest_fruit_id": null,
+      "axe_hits_required": 8,
+      "stump_hits_required": 3,
+      "min_axe_tier": 1,
+      "description": "Cây phát triển nhanh nhất trong các loài cây gỗ, thân thẳng tắp cho gỗ nhẹ đóng rương và làm chuôi rìu cuốc. Vỏ cây bóc cuộn chống thấm nước cực tốt.",
+      "lore": "Vỏ bạch dương từng được quân liên minh dùng làm giấy vẽ bản đồ tác chiến và lợp mái tạm bợ trong những năm tháng ly loạn."
+    },
+    {
+      "id": "tree_willow",
+      "type": "timber",
+      "name": "Cây Liễu Gai Thủy Ngạn",
+      "sapling_id": "seed_willow_cutting",
+      "growth_days": 22,
+      "clearance": "1x1 (Cần trồng ven nước)",
+      "wood_item_id": "item_willow_branch",
+      "wood_yield_range": [
+        14,
+        18
+      ],
+      "bonus_item_id": "item_firewood",
+      "bonus_yield_range": [
+        3,
+        4
+      ],
+      "tapper_supported": true,
+      "tapper_product_id": "item_willow_sap",
+      "tapper_cycle_days": 6,
+      "active_season": "all",
+      "harvest_fruit_id": null,
+      "axe_hits_required": 8,
+      "stump_hits_required": 3,
+      "min_axe_tier": 1,
+      "description": "Cây liễu bóng nước rủ cành thướt tha ven sông Oakhaven. Cành liễu gai mềm dẻo không gãy dùng đan rổ đựng cá, giỏ rau và nôi trẻ em.",
+      "lore": "Nhựa liễu đắng chứa dược chất tự nhiên hạ sốt nhanh, là cứu tinh cho những chiến binh bị thương trong trạm y tế dã chiến thung lũng."
+    },
+    {
+      "id": "tree_ironwood",
+      "type": "timber",
+      "name": "Cây Thiết Mộc Hắc Ám",
+      "sapling_id": "seed_ironwood_pod",
+      "growth_days": 30,
+      "clearance": "2x2",
+      "wood_item_id": "item_wood_ironwood",
+      "wood_yield_range": [
+        8,
+        12
+      ],
+      "bonus_item_id": "item_ironwood_oil",
+      "bonus_yield_range": [
+        1,
+        2
+      ],
+      "tapper_supported": true,
+      "tapper_product_id": "item_ironwood_oil",
+      "tapper_cycle_days": 10,
+      "active_season": "all",
+      "harvest_fruit_id": null,
+      "axe_hits_required": 16,
+      "stump_hits_required": 6,
+      "min_axe_tier": 2,
+      "description": "Loài gỗ huyền thoại của rừng sâu, thớ gỗ màu đen tuyền cứng đặc không bén lửa và không bị mối mọt xâm thực. Chỉ có Rìu Sắt trở lên mới chặt được.",
+      "lore": "Các dầm đỡ chống sập tại Tầng 40 hầm mỏ Oakhaven đều được dựng bằng loại gỗ này từ hàng trăm năm trước mà không hề suy suyển."
+    },
+    {
+      "id": "fruit_apple",
+      "type": "orchard",
+      "name": "Cây Táo Sồi Mật",
+      "sapling_id": "seed_sapling_apple",
+      "growth_days": 28,
+      "clearance": "3x3 ô hoàn toàn thông thoáng (8 ô xung quanh không có vật cản)",
+      "wood_item_id": "item_wood_oak",
+      "wood_yield_range": [
+        4,
+        6
+      ],
+      "bonus_item_id": "item_firewood",
+      "bonus_yield_range": [
+        2,
+        3
+      ],
+      "tapper_supported": false,
+      "tapper_product_id": null,
+      "tapper_cycle_days": 0,
+      "active_season": "autumn",
+      "harvest_fruit_id": "item_oakhaven_apple",
+      "axe_hits_required": 8,
+      "stump_hits_required": 3,
+      "min_axe_tier": 1,
+      "description": "Cây ăn quả chủ lực của thung lũng, sinh trưởng 28 ngày. Khi trưởng thành, mỗi sáng Mùa Thu sẽ cho 1 quả táo đỏ mọng giòn ngọt (tối đa treo 3 quả).",
+      "lore": "Vườn táo sồi trước chiến tranh từng cung cấp hàng ngàn thùng rượu táo ủ men cho các phiên chợ phương Bắc. Khôi phục vườn táo là khát vọng lớn nhất của bà quả phụ Maeve."
+    },
+    {
+      "id": "fruit_lemon",
+      "type": "orchard",
+      "name": "Cây Chanh Sét Vàng",
+      "sapling_id": "seed_spark_lemon",
+      "growth_days": 28,
+      "clearance": "3x3 ô thông thoáng",
+      "wood_item_id": "item_wood_pine",
+      "wood_yield_range": [
+        4,
+        6
+      ],
+      "bonus_item_id": "item_firewood",
+      "bonus_yield_range": [
+        2,
+        3
+      ],
+      "tapper_supported": false,
+      "tapper_product_id": null,
+      "tapper_cycle_days": 0,
+      "active_season": "summer",
+      "harvest_fruit_id": "item_spark_lemon",
+      "axe_hits_required": 8,
+      "stump_hits_required": 3,
+      "min_axe_tier": 1,
+      "description": "Cây ăn quả nhiệt đới ưa nắng gắt mùa hè. Cho quả chanh vàng ruột mọng nước, vị chua gắt sảng khoái và kích thích thần kinh.",
+      "lore": "Khách bộ hành vượt qua Đèo Gió lộng luôn ghé quán trọ gọi một ly trà đá chanh sét để xua tan cơn khát cháy họng."
+    },
+    {
+      "id": "fruit_plum",
+      "type": "orchard",
+      "name": "Cây Mận Băng Tuyết",
+      "sapling_id": "seed_sapling_plum",
+      "growth_days": 28,
+      "clearance": "3x3 ô thông thoáng",
+      "wood_item_id": "item_wood_pine",
+      "wood_yield_range": [
+        4,
+        6
+      ],
+      "bonus_item_id": "item_firewood",
+      "bonus_yield_range": [
+        2,
+        3
+      ],
+      "tapper_supported": false,
+      "tapper_product_id": null,
+      "tapper_cycle_days": 0,
+      "active_season": "winter",
+      "harvest_fruit_id": "item_frost_plum",
+      "axe_hits_required": 8,
+      "stump_hits_required": 3,
+      "min_axe_tier": 1,
+      "description": "Kỳ quan thực vật mùa đông của Oakhaven. Cây nở hoa trắng muốt giữa bão tuyết và kết thành quả mận tím thẫm mọng nước suốt 28 ngày Mùa Đông.",
+      "lore": "Quả mận băng sấy khô là lương khô quý giá nhất của các toán hiệp sĩ tuần tra biên cương trong những tháng ngày mùa đông khắc nghiệt."
+    },
+    {
+      "id": "fruit_peach",
+      "type": "orchard",
+      "name": "Cây Đào Anh Thảo",
+      "sapling_id": "seed_sapling_peach",
+      "growth_days": 28,
+      "clearance": "3x3 ô thông thoáng",
+      "wood_item_id": "item_wood_oak",
+      "wood_yield_range": [
+        4,
+        6
+      ],
+      "bonus_item_id": "item_firewood",
+      "bonus_yield_range": [
+        2,
+        3
+      ],
+      "tapper_supported": false,
+      "tapper_product_id": null,
+      "tapper_cycle_days": 0,
+      "active_season": "spring",
+      "harvest_fruit_id": "item_blossom_peach",
+      "axe_hits_required": 8,
+      "stump_hits_required": 3,
+      "min_axe_tier": 1,
+      "description": "Tán hoa hồng đào rực rỡ thu hút ong bướm thụ phấn. Cho những quả đào mềm mịn vỏ nhung chứa mật ngọt thanh thoát vào Mùa Xuân.",
+      "lore": "Cây đào đầu tiên được trồng lại bên hiên Nhà Trọ Oakhaven chính là biểu tượng cho sự đón mừng những vị khách xa trở về quê hương."
+    },
+    {
+      "id": "fruit_cherry",
+      "type": "orchard",
+      "name": "Cây Anh Đào Đỏ Rực",
+      "sapling_id": "seed_sapling_cherry",
+      "growth_days": 28,
+      "clearance": "3x3 ô thông thoáng",
+      "wood_item_id": "item_wood_oak",
+      "wood_yield_range": [
+        4,
+        6
+      ],
+      "bonus_item_id": "item_firewood",
+      "bonus_yield_range": [
+        2,
+        3
+      ],
+      "tapper_supported": false,
+      "tapper_product_id": null,
+      "tapper_cycle_days": 0,
+      "active_season": "spring",
+      "harvest_fruit_id": "item_crimson_cherry",
+      "axe_hits_required": 8,
+      "stump_hits_required": 3,
+      "min_axe_tier": 1,
+      "description": "Cây quả nhỏ xinh nhưng năng suất thụ quả dồi dào, cho từng chùm anh đào đỏ mọng bóng bẩy mỗi ngày suốt Mùa Xuân.",
+      "lore": "Mứt anh đào phết bánh nướng nóng là món điểm tâm sáng được yêu thích hàng đầu tại Quán Trọ Oakhaven."
+    },
+    {
+      "id": "fruit_walnut",
+      "type": "orchard",
+      "name": "Cây Quả Óc Chó Rừng",
+      "sapling_id": "seed_sapling_walnut",
+      "growth_days": 28,
+      "clearance": "3x3 ô thông thoáng",
+      "wood_item_id": "item_wood_oak",
+      "wood_yield_range": [
+        5,
+        7
+      ],
+      "bonus_item_id": "item_firewood",
+      "bonus_yield_range": [
+        3,
+        4
+      ],
+      "tapper_supported": false,
+      "tapper_product_id": null,
+      "tapper_cycle_days": 0,
+      "active_season": "autumn",
+      "harvest_fruit_id": "item_walnut",
+      "axe_hits_required": 9,
+      "stump_hits_required": 4,
+      "min_axe_tier": 1,
+      "description": "Cây ăn hạt lâu năm thân gỗ vững chắc. Cung cấp hạt óc chó bùi ngậy nhiều calo, cất trữ lâu qua mùa đông mà không hư hỏng.",
+      "lore": "Bột hạt óc chó trộn bột mì nướng bánh là khẩu phần ăn bắt buộc của thợ lặn hang sâu để duy trì thân nhiệt và độ bền bỉ."
+    },
+    {
+      "id": "fruit_pear",
+      "type": "orchard",
+      "name": "Cây Lê Sương Muối",
+      "sapling_id": "seed_sapling_pear",
+      "growth_days": 28,
+      "clearance": "3x3 ô thông thoáng",
+      "wood_item_id": "item_wood_oak",
+      "wood_yield_range": [
+        4,
+        6
+      ],
+      "bonus_item_id": "item_firewood",
+      "bonus_yield_range": [
+        2,
+        3
+      ],
+      "tapper_supported": false,
+      "tapper_product_id": null,
+      "tapper_cycle_days": 0,
+      "active_season": "autumn",
+      "harvest_fruit_id": "item_mist_pear",
+      "axe_hits_required": 8,
+      "stump_hits_required": 3,
+      "min_axe_tier": 1,
+      "description": "Cây lê quả vàng giòn mọng nước đượm sương sớm, cho quả đều đặn suốt 28 ngày Mùa Thu.",
+      "lore": "Món lê hầm rượu vang đêm trên lửa than quán trọ là phương thuốc an ủi tâm hồn tuyệt diệu nhất cho những thương binh trở về sau chiến sự."
+    },
+    {
+      "id": "fruit_orange",
+      "type": "orchard",
+      "name": "Cây Cam Lửa Oakhaven",
+      "sapling_id": "seed_sapling_orange",
+      "growth_days": 28,
+      "clearance": "3x3 ô thông thoáng",
+      "wood_item_id": "item_wood_pine",
+      "wood_yield_range": [
+        4,
+        6
+      ],
+      "bonus_item_id": "item_firewood",
+      "bonus_yield_range": [
+        2,
+        3
+      ],
+      "tapper_supported": false,
+      "tapper_product_id": null,
+      "tapper_cycle_days": 0,
+      "active_season": "summer",
+      "harvest_fruit_id": "item_ember_orange",
+      "axe_hits_required": 8,
+      "stump_hits_required": 3,
+      "min_axe_tier": 1,
+      "description": "Cây cam trĩu quả màu cam lửa ấm áp, vắt nước giải khát tăng cường vitamin C và năng lượng.",
+      "lore": "Nước cam lửa vắt tươi là món đồ uống đón chào miễn phí mà Rowan mời mọi người tị nạn khi lần đầu đặt chân vào Nhà Trọ Oakhaven."
+    }
+  ]
+}

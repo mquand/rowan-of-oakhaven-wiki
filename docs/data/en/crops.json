@@ -1,358 +1,978 @@
 {
-  "version": "2.0.0",
-  "updated": "2026-11-17",
+  "version": "2.1.0",
+  "updated": "2026-11-18",
   "crops": [
     {
-      "id": "crop_cai_thia",
-      "name": "Cải Thìa",
-      "season": "spring",
-      "growth_days": 4,
+      "id": "tree_oak",
+      "name": "Oakhaven Great Oak",
+      "seasons": [
+        "spring",
+        "summer",
+        "autumn",
+        "winter"
+      ],
+      "growth_days": 24,
       "regrow_days": 0,
-      "harvest_item_id": "cai_thia",
-      "seed_price": 20,
-      "sell_price": 45,
-      "description": "Rau cải thìa thanh mát xào nấu súp."
+      "seed_item_id": "seed_oak_acorn",
+      "harvest_item_id": "item_wood_oak",
+      "seed_price": 30,
+      "sell_price": 25,
+      "profit_per_day": "~16 Gỗ + Nhựa",
+      "description": "The iconic ancient oak of Oakhaven valley. Sturdy hardwood canopy providing essential construction lumber.",
+      "harvest_note": "Chop down for Oak Wood (12-16) + Firewood. Attach an Artisan Tapper to harvest Dark Oak Resin every 7 days.",
+      "tags": [
+        "tree",
+        "timber",
+        "forestry",
+        "wood",
+        "tapper"
+      ]
     },
     {
-      "id": "crop_khoai_tay",
-      "name": "Khoai Tây",
-      "season": "spring",
+      "id": "tree_pine",
+      "name": "Alpine Pine",
+      "seasons": [
+        "spring",
+        "summer",
+        "autumn",
+        "winter"
+      ],
+      "growth_days": 22,
+      "regrow_days": 0,
+      "seed_item_id": "seed_pine_cone",
+      "harvest_item_id": "item_wood_pine",
+      "seed_price": 30,
+      "sell_price": 22,
+      "profit_per_day": "~16 Gỗ + Nhựa",
+      "description": "Evergreen conifer standing tall against alpine blizzards. Yields flexible timber and aromatic protective pitch.",
+      "harvest_note": "Chop down for Pine Wood (12-16). Attach an Artisan Tapper to harvest Alpine Pine Tar every 5 days.",
+      "tags": [
+        "tree",
+        "timber",
+        "forestry",
+        "wood",
+        "tapper"
+      ]
+    },
+    {
+      "id": "tree_maple",
+      "name": "Ember Maple",
+      "seasons": [
+        "spring",
+        "summer",
+        "autumn",
+        "winter"
+      ],
+      "growth_days": 24,
+      "regrow_days": 0,
+      "seed_item_id": "seed_maple_seed",
+      "harvest_item_id": "item_wood_maple",
+      "seed_price": 35,
+      "sell_price": 35,
+      "profit_per_day": "~70 Vàng/nhựa",
+      "description": "Magnificent maple whose foliage bursts into glowing crimson and amber in autumn. Source of prized tavern pancake syrup.",
+      "harvest_note": "Chop down for Ember Maple Timber. Attach an Artisan Tapper to produce Amber Maple Syrup every 9 days.",
+      "tags": [
+        "tree",
+        "timber",
+        "forestry",
+        "wood",
+        "tapper"
+      ]
+    },
+    {
+      "id": "tree_birch",
+      "name": "Silver Birch",
+      "seasons": [
+        "spring",
+        "summer",
+        "autumn",
+        "winter"
+      ],
+      "growth_days": 20,
+      "regrow_days": 0,
+      "seed_item_id": "seed_birch_catkin",
+      "harvest_item_id": "item_wood_birch",
+      "seed_price": 30,
+      "sell_price": 25,
+      "profit_per_day": "~30 Vàng/nhựa",
+      "description": "Slender silvery-barked tree that grows rapidly. Silky waterproof bark is harvested for crafting and scrolls.",
+      "harvest_note": "Chop down for Silver Birch Timber and Bark Rolls. Tap to collect Pure Birch Sap every 6 days.",
+      "tags": [
+        "tree",
+        "timber",
+        "forestry",
+        "wood",
+        "tapper"
+      ]
+    },
+    {
+      "id": "tree_willow",
+      "name": "River Willow",
+      "seasons": [
+        "spring",
+        "summer",
+        "autumn",
+        "winter"
+      ],
+      "growth_days": 22,
+      "regrow_days": 0,
+      "seed_item_id": "seed_willow_cutting",
+      "harvest_item_id": "item_willow_branch",
+      "seed_price": 45,
+      "sell_price": 20,
+      "profit_per_day": "~48 Vàng/nhựa",
+      "description": "Graceful weeping willow flanking Oakhaven's riverbanks. Flexible boughs weave sturdy baskets; bitter sap eases fever.",
+      "harvest_note": "Harvest for flexible Willow Branches. Tap with an Artisan Tapper for Medicinal Willow Sap every 6 days.",
+      "tags": [
+        "tree",
+        "timber",
+        "forestry",
+        "medicine",
+        "tapper"
+      ]
+    },
+    {
+      "id": "tree_ironwood",
+      "name": "Abyssal Ironwood",
+      "seasons": [
+        "spring",
+        "summer",
+        "autumn",
+        "winter"
+      ],
+      "growth_days": 30,
+      "regrow_days": 0,
+      "seed_item_id": "seed_ironwood_pod",
+      "harvest_item_id": "item_wood_ironwood",
+      "seed_price": 150,
+      "sell_price": 120,
+      "profit_per_day": "~95 Vàng/dầu",
+      "description": "Legendary black timber tree with fibers denser than raw iron. Requires an Iron Axe or superior tool to chop down.",
+      "harvest_note": "Requires Iron Axe+. Yields Abyssal Ironwood Timber. Tap to collect rust-preventing Ironwood Oil every 10 days.",
+      "tags": [
+        "tree",
+        "timber",
+        "forestry",
+        "rare",
+        "tapper"
+      ]
+    },
+    {
+      "id": "fruit_apple",
+      "name": "Oakhaven Honey Apple Tree",
+      "seasons": [
+        "autumn"
+      ],
+      "growth_days": 28,
+      "regrow_days": 1,
+      "seed_item_id": "seed_sapling_apple",
+      "harvest_item_id": "item_oakhaven_apple",
+      "seed_price": 900,
+      "sell_price": 28,
+      "profit_per_day": "28 Vàng/ngày",
+      "description": "Famous heirloom orchard tree. Takes 28 days to mature from sapling with a 3x3 clear radius. Lives permanently without watering.",
+      "harvest_note": "Bears 1 crisp apple every morning throughout Autumn (or year-round in Greenhouse). Quality ages with tree maturity.",
+      "tags": [
+        "tree",
+        "fruit",
+        "orchard",
+        "autumn",
+        "perennial"
+      ]
+    },
+    {
+      "id": "fruit_lemon",
+      "name": "Spark Lemon Tree",
+      "seasons": [
+        "summer"
+      ],
+      "growth_days": 28,
+      "regrow_days": 1,
+      "seed_item_id": "seed_spark_lemon",
+      "harvest_item_id": "item_spark_lemon",
+      "seed_price": 1000,
+      "sell_price": 35,
+      "profit_per_day": "35 Vàng/ngày",
+      "description": "Vibrant citrus tree basking in intense summer sunlight. Yields tangy electrifying lemons that awaken the senses.",
+      "harvest_note": "Requires 3x3 clear space. Produces 1 Spark Lemon daily in Summer. Core ingredient for chilled teas and savory marinades.",
+      "tags": [
+        "tree",
+        "fruit",
+        "orchard",
+        "summer",
+        "perennial"
+      ]
+    },
+    {
+      "id": "fruit_plum",
+      "name": "Frost Plum Tree",
+      "seasons": [
+        "winter"
+      ],
+      "growth_days": 28,
+      "regrow_days": 1,
+      "seed_item_id": "seed_sapling_plum",
+      "harvest_item_id": "item_frost_plum",
+      "seed_price": 1000,
+      "sell_price": 38,
+      "profit_per_day": "38 Vàng/ngày",
+      "description": "Miraculous orchard tree that blossoms and fruits through biting winter blizzards. Yields frosty violet plums with wine-red flesh.",
+      "harvest_note": "Requires 3x3 clearance. Yields 1 Frost Plum daily throughout Winter. Grants temporary winter chill resistance.",
+      "tags": [
+        "tree",
+        "fruit",
+        "orchard",
+        "winter",
+        "perennial"
+      ]
+    },
+    {
+      "id": "fruit_peach",
+      "name": "Blossom Peach Tree",
+      "seasons": [
+        "spring"
+      ],
+      "growth_days": 28,
+      "regrow_days": 1,
+      "seed_item_id": "seed_sapling_peach",
+      "harvest_item_id": "item_blossom_peach",
+      "seed_price": 1100,
+      "sell_price": 42,
+      "profit_per_day": "42 Vàng/ngày",
+      "description": "Fragrant pink-blossomed tree announcing Spring's arrival. Produces velvety sweet peaches bursting with floral nectar.",
+      "harvest_note": "Requires 3x3 clear space. Bears 1 Blossom Peach every morning during Spring. Ideal for morning breakfast preserves.",
+      "tags": [
+        "tree",
+        "fruit",
+        "orchard",
+        "spring",
+        "perennial"
+      ]
+    },
+    {
+      "id": "fruit_cherry",
+      "name": "Crimson Cherry Tree",
+      "seasons": [
+        "spring"
+      ],
+      "growth_days": 28,
+      "regrow_days": 1,
+      "seed_item_id": "seed_sapling_cherry",
+      "harvest_item_id": "item_crimson_cherry",
+      "seed_price": 950,
+      "sell_price": 32,
+      "profit_per_day": "32 Vàng/ngày",
+      "description": "Radiant cherry tree with shimmering crimson fruit clusters. Spring blooms draw wild honeybees across the valley.",
+      "harvest_note": "Requires 3x3 clearance. Yields 1 cluster of sweet cherries every Spring morning. Perfect for tarts and cordials.",
+      "tags": [
+        "tree",
+        "fruit",
+        "orchard",
+        "spring",
+        "perennial"
+      ]
+    },
+    {
+      "id": "fruit_walnut",
+      "name": "Oakhaven Walnut Tree",
+      "seasons": [
+        "autumn"
+      ],
+      "growth_days": 28,
+      "regrow_days": 1,
+      "seed_item_id": "seed_sapling_walnut",
+      "harvest_item_id": "item_walnut",
+      "seed_price": 1200,
+      "sell_price": 35,
+      "profit_per_day": "35 Vàng/ngày",
+      "description": "Spreading walnut tree yielding nutrient-dense, buttery nuts that sustain townsfolk through autumn and winter.",
+      "harvest_note": "Requires 3x3 clearance. Drops hearty walnuts daily in Autumn. Ground into trail meal or roasted for high stamina.",
+      "tags": [
+        "tree",
+        "fruit",
+        "orchard",
+        "autumn",
+        "perennial"
+      ]
+    },
+    {
+      "id": "fruit_pear",
+      "name": "Misty Pear Tree",
+      "seasons": [
+        "autumn"
+      ],
+      "growth_days": 28,
+      "regrow_days": 1,
+      "seed_item_id": "seed_sapling_pear",
+      "harvest_item_id": "item_mist_pear",
+      "seed_price": 1050,
+      "sell_price": 30,
+      "profit_per_day": "30 Vàng/ngày",
+      "description": "Golden pear tree that flourishes in the crisp misty mornings of late autumn. Yields refreshingly crisp fruit.",
+      "harvest_note": "Requires 3x3 clearance. Bears 1 Misty Pear daily in Autumn. Poached in mulled red wine at the tavern.",
+      "tags": [
+        "tree",
+        "fruit",
+        "orchard",
+        "autumn",
+        "perennial"
+      ]
+    },
+    {
+      "id": "fruit_orange",
+      "name": "Ember Orange Tree",
+      "seasons": [
+        "summer"
+      ],
+      "growth_days": 28,
+      "regrow_days": 1,
+      "seed_item_id": "seed_sapling_orange",
+      "harvest_item_id": "item_ember_orange",
+      "seed_price": 1000,
+      "sell_price": 32,
+      "profit_per_day": "32 Vàng/ngày",
+      "description": "Citrus tree laden with glowing amber-orange fruit. Soaks in summer heat to produce rich revitalizing juice.",
+      "harvest_note": "Requires 3x3 clearance. Bears 1 Ember Orange daily in Summer. Squeezed fresh for travelers arriving at the inn.",
+      "tags": [
+        "tree",
+        "fruit",
+        "orchard",
+        "summer",
+        "perennial"
+      ]
+    },
+    {
+      "id": "crop_silver_wheat",
+      "name": "Silver Wheat",
+      "seasons": [
+        "spring",
+        "summer",
+        "autumn"
+      ],
+      "growth_days": 4,
+      "regrow_days": 0,
+      "seed_item_id": "seed_silver_wheat",
+      "harvest_item_id": "item_flour",
+      "seed_price": 15,
+      "sell_price": 30,
+      "profit_per_day": "3.75 Vàng/ngày",
+      "description": "Hardy versatile grain spanning three seasons. Ground at the windmill into Fresh Flour for bakery recipes.",
+      "harvest_note": "Single harvest. Mill at the Windmill to obtain Fresh Flour.",
+      "tags": [
+        "field",
+        "grain",
+        "farming",
+        "spring",
+        "summer",
+        "autumn"
+      ]
+    },
+    {
+      "id": "crop_ice_cabbage",
+      "name": "Crisp Ice Cabbage",
+      "seasons": [
+        "spring"
+      ],
       "growth_days": 6,
       "regrow_days": 0,
-      "harvest_item_id": "khoai_tay",
-      "seed_price": 50,
-      "sell_price": 80,
-      "description": "Khoai tây nhiều tinh bột, tỉ lệ rớt x2 khi thu hoạch."
+      "seed_item_id": "seed_ice_cabbage",
+      "harvest_item_id": "item_ice_cabbage",
+      "seed_price": 35,
+      "sell_price": 55,
+      "profit_per_day": "3.33 Vàng/ngày",
+      "description": "Crisp dense cabbage head that thrives in cool early spring mists, delivering refreshing crunch.",
+      "harvest_note": "Single harvest. Excellent for light tavern broths and crisp slaws.",
+      "tags": [
+        "field",
+        "vegetable",
+        "farming",
+        "spring"
+      ]
     },
     {
-      "id": "crop_dau_tay_tuyet",
-      "name": "Dâu Tây Tuyết",
-      "season": "spring",
-      "growth_days": 8,
-      "regrow_days": 4,
-      "harvest_item_id": "dau_tay_tuyet",
-      "seed_price": 100,
-      "sell_price": 120,
-      "description": "Dâu tuyết mọng đỏ chua ngọt, mọc lại sau 4 ngày."
-    },
-    {
-      "id": "crop_hanh_hoa",
-      "name": "Hành Hoa",
-      "season": "spring",
-      "growth_days": 4,
-      "regrow_days": 0,
-      "harvest_item_id": "hanh_hoa",
-      "seed_price": 15,
+      "id": "crop_spring_wildberry",
+      "name": "Spring Wildberry",
+      "seasons": [
+        "spring"
+      ],
+      "growth_days": 7,
+      "regrow_days": 3,
+      "seed_item_id": "seed_spring_wildberry",
+      "harvest_item_id": "item_spring_wildberry",
+      "seed_price": 60,
       "sell_price": 35,
-      "description": "Hành hoa gia vị nồng nàn cho món xào."
+      "profit_per_day": "9.33 Vàng/ngày",
+      "description": "Sweet-tart red berry bush that continues to fruit every 3 days throughout Spring.",
+      "harvest_note": "Regrows every 3 days. Provides steady recurring profits all Spring.",
+      "tags": [
+        "field",
+        "fruit",
+        "farming",
+        "spring",
+        "regrowable"
+      ]
     },
     {
-      "id": "crop_toi_dai",
-      "name": "Tỏi Dại",
-      "season": "spring",
-      "growth_days": 4,
-      "regrow_days": 0,
-      "harvest_item_id": "toi_dai",
-      "seed_price": 30,
-      "sell_price": 60,
-      "description": "Tỏi rừng cay nồng xua đuổi chướng khí."
-    },
-    {
-      "id": "crop_dau_ha_lan",
-      "name": "Đậu Hà Lan",
-      "season": "spring",
+      "id": "crop_pea_trellis",
+      "name": "Trellis Sweet Pea",
+      "seasons": [
+        "spring"
+      ],
       "growth_days": 10,
       "regrow_days": 3,
-      "harvest_item_id": "dau_ha_lan",
+      "seed_item_id": "seed_pea_trellis",
+      "harvest_item_id": "item_pea_pod",
       "seed_price": 60,
-      "sell_price": 40,
-      "description": "Cây đậu leo giàn cho hạt xanh ngọt."
+      "sell_price": 30,
+      "profit_per_day": "7.5 Vàng/ngày",
+      "description": "Climbing pea vine requiring a wood trellis. Bears plump emerald pods packed with tender sweet peas.",
+      "harvest_note": "Requires trellis post (blocks player path). Regrows sweet pods every 3 days.",
+      "tags": [
+        "field",
+        "vegetable",
+        "farming",
+        "spring",
+        "trellis",
+        "regrowable"
+      ]
     },
     {
-      "id": "crop_bap_cai_som",
-      "name": "Bắp Cải Sớm",
-      "season": "spring",
+      "id": "crop_sen_tea",
+      "name": "Sen Tea Blossom Bush",
+      "seasons": [
+        "spring",
+        "summer"
+      ],
+      "growth_days": 12,
+      "regrow_days": 4,
+      "seed_item_id": "seed_sen_tea",
+      "harvest_item_id": "la_tra_sen",
+      "seed_price": 40,
+      "sell_price": 25,
+      "profit_per_day": "5.0 Vàng/ngày",
+      "description": "Precious perennial tea bush soaked in dawn mist. Produces fragrant lotus-scented tea leaves.",
+      "harvest_note": "Regrows every 4 days across Spring and Summer. Foundation of the tavern's herbal tea menu.",
+      "tags": [
+        "field",
+        "tea",
+        "farming",
+        "spring",
+        "summer",
+        "regrowable"
+      ]
+    },
+    {
+      "id": "crop_sun_daisy",
+      "name": "Sun Daisy",
+      "seasons": [
+        "spring",
+        "summer"
+      ],
+      "growth_days": 5,
+      "regrow_days": 0,
+      "seed_item_id": "seed_sun_daisy",
+      "harvest_item_id": "item_sun_daisy",
+      "seed_price": 20,
+      "sell_price": 38,
+      "profit_per_day": "3.6 Vàng/ngày",
+      "description": "Bright golden daisy petals that absorb radiant warmth. Brewed into calming tea and fine fabric dyes.",
+      "harvest_note": "Single harvest. Key ingredient for Honey Chamomile Tea.",
+      "tags": [
+        "field",
+        "flower",
+        "farming",
+        "spring",
+        "summer"
+      ]
+    },
+    {
+      "id": "crop_sun_corn",
+      "name": "Sun Corn",
+      "seasons": [
+        "summer",
+        "autumn"
+      ],
+      "growth_days": 12,
+      "regrow_days": 4,
+      "seed_item_id": "seed_sun_corn",
+      "harvest_item_id": "item_sun_corn",
+      "seed_price": 80,
+      "sell_price": 45,
+      "profit_per_day": "9.5 Vàng/ngày",
+      "description": "Towering corn stalks with sweet golden kernels. Highly profitable crop spanning Summer and Autumn.",
+      "harvest_note": "Regrows fresh cobs every 4 days through Summer and Autumn without replanting.",
+      "tags": [
+        "field",
+        "grain",
+        "farming",
+        "summer",
+        "autumn",
+        "regrowable"
+      ]
+    },
+    {
+      "id": "crop_fire_tomato",
+      "name": "Juicy Fire Tomato",
+      "seasons": [
+        "summer"
+      ],
+      "growth_days": 10,
+      "regrow_days": 4,
+      "seed_item_id": "seed_fire_tomato",
+      "harvest_item_id": "item_fire_tomato",
+      "seed_price": 50,
+      "sell_price": 24,
+      "profit_per_day": "4.5 Vàng/ngày",
+      "description": "Summer tomato vine bearing deep red savory fruits. Crucial base for savory stews and sauces.",
+      "harvest_note": "Regrows clusters every 4 days after first harvest.",
+      "tags": [
+        "field",
+        "vegetable",
+        "farming",
+        "summer",
+        "regrowable"
+      ]
+    },
+    {
+      "id": "crop_magma_melon",
+      "name": "Magma Melon",
+      "seasons": [
+        "summer"
+      ],
+      "growth_days": 12,
+      "regrow_days": 0,
+      "seed_item_id": "seed_magma_melon",
+      "harvest_item_id": "item_magma_melon",
+      "seed_price": 80,
+      "sell_price": 180,
+      "profit_per_day": "8.33 Vàng/ngày",
+      "description": "Giant melon with glowing red-amber flesh. Packed with refreshing sweetness and intense vitality.",
+      "harvest_note": "Single harvest. 2% chance to merge into a Giant Crop when planted in a 3x3 grid.",
+      "tags": [
+        "field",
+        "fruit",
+        "farming",
+        "summer",
+        "giant"
+      ]
+    },
+    {
+      "id": "crop_honey_cane",
+      "name": "Amber Honey Cane",
+      "seasons": [
+        "summer"
+      ],
+      "growth_days": 7,
+      "regrow_days": 0,
+      "seed_item_id": "seed_honey_cane",
+      "harvest_item_id": "item_honey_cane",
+      "seed_price": 30,
+      "sell_price": 55,
+      "profit_per_day": "3.57 Vàng/ngày",
+      "description": "Sweet purple sugar cane infused with wild honey flavor. Processed into raw sugar for bakery delicacies.",
+      "harvest_note": "Single harvest. Process into Raw Sugar at the artisan station.",
+      "tags": [
+        "field",
+        "sweet",
+        "farming",
+        "summer"
+      ]
+    },
+    {
+      "id": "crop_shadow_carrot",
+      "name": "Shadow Carrot",
+      "seasons": [
+        "summer",
+        "autumn"
+      ],
+      "growth_days": 6,
+      "regrow_days": 0,
+      "seed_item_id": "seed_shadow_carrot",
+      "harvest_item_id": "item_shadow_carrot",
+      "seed_price": 35,
+      "sell_price": 65,
+      "profit_per_day": "5.0 Vàng/ngày",
+      "description": "Dark purple carrot with luminous orange core. Sharpens nocturnal vision inside gloomy mine shafts.",
+      "harvest_note": "Single harvest. Plantable in both Summer and Autumn.",
+      "tags": [
+        "field",
+        "vegetable",
+        "farming",
+        "summer",
+        "autumn"
+      ]
+    },
+    {
+      "id": "crop_whisper_ginger",
+      "name": "Whisper Ginger",
+      "seasons": [
+        "summer"
+      ],
+      "growth_days": 8,
+      "regrow_days": 0,
+      "seed_item_id": "seed_whisper_ginger",
+      "harvest_item_id": "item_whisper_ginger",
+      "seed_price": 45,
+      "sell_price": 85,
+      "profit_per_day": "5.0 Vàng/ngày",
+      "description": "Fiery spicy ginger root that brings comforting heat to cold-weather braises and broths.",
+      "harvest_note": "Single harvest. Essential seasoning for tavern hearty beef stews.",
+      "tags": [
+        "field",
+        "spice",
+        "farming",
+        "summer"
+      ]
+    },
+    {
+      "id": "crop_sunflower",
+      "name": "Golden Sunflower",
+      "seasons": [
+        "summer",
+        "autumn"
+      ],
+      "growth_days": 8,
+      "regrow_days": 0,
+      "seed_item_id": "seed_sunflower",
+      "harvest_item_id": "item_sunflower_seeds",
+      "seed_price": 40,
+      "sell_price": 50,
+      "profit_per_day": "4.5 Vàng/ngày",
+      "description": "Tall cheerful sunflower that drops 1-2 bonus seeds upon harvest for effortless sustained replanting.",
+      "harvest_note": "Harvest drops bonus seeds. Viable throughout Summer and Autumn.",
+      "tags": [
+        "field",
+        "flower",
+        "farming",
+        "summer",
+        "autumn"
+      ]
+    },
+    {
+      "id": "crop_sweet_pumpkin",
+      "name": "Sweet Honey Pumpkin",
+      "seasons": [
+        "autumn"
+      ],
+      "growth_days": 13,
+      "regrow_days": 0,
+      "seed_item_id": "seed_sweet_pumpkin",
+      "harvest_item_id": "item_sweet_pumpkin",
+      "seed_price": 100,
+      "sell_price": 260,
+      "profit_per_day": "12.3 Vàng/ngày",
+      "description": "Massive honey-sweet pumpkin with dense golden flesh. High-value crop celebrating the autumn harvest.",
+      "harvest_note": "Single harvest. 2% chance to become a Giant Pumpkin in 3x3 plots (axe fells 15-20 pumpkins).",
+      "tags": [
+        "field",
+        "vegetable",
+        "farming",
+        "autumn",
+        "giant"
+      ]
+    },
+    {
+      "id": "crop_shadow_rye",
+      "name": "Shadow Rye",
+      "seasons": [
+        "autumn"
+      ],
+      "growth_days": 5,
+      "regrow_days": 0,
+      "seed_item_id": "seed_shadow_rye",
+      "harvest_item_id": "item_shadow_rye",
+      "seed_price": 30,
+      "sell_price": 60,
+      "profit_per_day": "6.0 Vàng/ngày",
+      "description": "Fast-growing dark purple rye adapted to crisp autumn winds. Baked into artisanal rustic rye loaves.",
+      "harvest_note": "Single harvest. Superfast 5-day growth cycle.",
+      "tags": [
+        "field",
+        "grain",
+        "farming",
+        "autumn"
+      ]
+    },
+    {
+      "id": "crop_night_grape",
+      "name": "Trellis Night Grape",
+      "seasons": [
+        "autumn"
+      ],
+      "growth_days": 10,
+      "regrow_days": 3,
+      "seed_item_id": "seed_night_grape",
+      "harvest_item_id": "item_night_grape",
+      "seed_price": 80,
+      "sell_price": 44,
+      "profit_per_day": "8.8 Vàng/ngày",
+      "description": "Moonlit purple grapevines trained onto sturdy trellises. Vintage fruit fermented into tavern reserve wines.",
+      "harvest_note": "Requires trellis post. Regrows succulent clusters every 3 days in Autumn.",
+      "tags": [
+        "field",
+        "fruit",
+        "farming",
+        "autumn",
+        "trellis",
+        "regrowable"
+      ]
+    },
+    {
+      "id": "crop_moonlight_yam",
+      "name": "Moonlight Yam",
+      "seasons": [
+        "autumn"
+      ],
       "growth_days": 9,
       "regrow_days": 0,
-      "harvest_item_id": "bap_cai",
-      "seed_price": 70,
-      "sell_price": 130,
-      "description": "Bắp cải cuộn chặt dày lá mát lành."
-    },
-    {
-      "id": "crop_tra_xanh",
-      "name": "Trà Xanh Búp Non",
-      "season": "spring",
-      "growth_days": 12,
-      "regrow_days": 4,
-      "harvest_item_id": "tra_xanh",
-      "seed_price": 80,
-      "sell_price": 50,
-      "description": "Cây trà búp non hái định kỳ xao khô."
-    },
-    {
-      "id": "crop_ngo_ngot",
-      "name": "Ngô Ngọt",
-      "season": "summer",
-      "growth_days": 14,
-      "regrow_days": 4,
-      "harvest_item_id": "ngo_ngot",
-      "seed_price": 150,
-      "sell_price": 60,
-      "description": "Bắp ngô vàng rực hạt đều, thu hoạch qua cả mùa Thu."
-    },
-    {
-      "id": "crop_ca_chua",
-      "name": "Cà Chua Mọng",
-      "season": "summer",
-      "growth_days": 11,
-      "regrow_days": 4,
-      "harvest_item_id": "ca_chua",
-      "seed_price": 50,
-      "sell_price": 60,
-      "description": "Cà chua mọng nước giàu vitamin."
-    },
-    {
-      "id": "crop_ot_lua",
-      "name": "Ớt Lửa Hầm Ngục",
-      "season": "summer",
-      "growth_days": 5,
-      "regrow_days": 3,
-      "harvest_item_id": "ot_lua",
-      "seed_price": 40,
-      "sell_price": 40,
-      "description": "Ớt đỏ rực cay bỏng lưỡi mang năng lượng lửa."
-    },
-    {
-      "id": "crop_dua_luoi_tinh_van",
-      "name": "Dưa Lưới Tinh Vân",
-      "season": "summer",
-      "growth_days": 12,
-      "regrow_days": 0,
-      "harvest_item_id": "dua_luoi_tinh_van",
-      "seed_price": 100,
-      "sell_price": 300,
-      "description": "Dưa lưới quý tộc vân sáng lấp lánh giá trị cực cao."
-    },
-    {
-      "id": "crop_ca_tim",
-      "name": "Cà Tím Tím Than",
-      "season": "summer",
-      "growth_days": 5,
-      "regrow_days": 0,
-      "harvest_item_id": "ca_tim",
-      "seed_price": 25,
-      "sell_price": 50,
-      "description": "Cà tím thon dài nướng mỡ hành đậm vị."
-    },
-    {
-      "id": "crop_lua_mien",
-      "name": "Lúa Miến Hoàng Kim",
-      "season": "summer",
-      "growth_days": 8,
-      "regrow_days": 0,
-      "harvest_item_id": "lua_mien",
-      "seed_price": 40,
-      "sell_price": 90,
-      "description": "Lúa miến hạt vàng xay làm bột hoặc cơm nấu."
-    },
-    {
-      "id": "crop_mia_duong",
-      "name": "Mía Đường",
-      "season": "summer",
-      "growth_days": 7,
-      "regrow_days": 0,
-      "harvest_item_id": "mia_duong",
-      "seed_price": 30,
-      "sell_price": 75,
-      "description": "Cây mía mọng ngọt ép lấy đường tươi."
-    },
-    {
-      "id": "crop_viet_quat",
-      "name": "Quả Việt Quất",
-      "season": "summer",
-      "growth_days": 13,
-      "regrow_days": 4,
-      "harvest_item_id": "viet_quat",
-      "seed_price": 80,
-      "sell_price": 50,
-      "description": "Bụi việt quất mỗi lần hái được 3 quả."
-    },
-    {
-      "id": "crop_lua_mi_vang",
-      "name": "Lúa Mì Vàng",
-      "season": "autumn",
-      "growth_days": 4,
-      "regrow_days": 0,
-      "harvest_item_id": "bot_mi",
-      "seed_price": 20,
-      "sell_price": 45,
-      "description": "Lúa mì vàng ươm xay bột mì mịn làm bánh."
-    },
-    {
-      "id": "crop_bi_do",
-      "name": "Bí Đỏ Đại Thụ",
-      "season": "autumn",
-      "growth_days": 14,
-      "regrow_days": 0,
-      "harvest_item_id": "bi_do",
-      "seed_price": 100,
-      "sell_price": 320,
-      "description": "Bí đỏ khổng lồ ngọt bùi làm bánh pie và súp."
-    },
-    {
-      "id": "crop_khoai_mon",
-      "name": "Khoai Môn Tro Trấu",
-      "season": "autumn",
-      "growth_days": 10,
-      "regrow_days": 0,
-      "harvest_item_id": "khoai_mon",
-      "seed_price": 60,
-      "sell_price": 140,
-      "description": "Khoai môn dẻo bùi dùng cho các món bánh cúng cầu siêu."
-    },
-    {
-      "id": "crop_nam_sao_tim",
-      "name": "Nấm Sao Tím",
-      "season": "autumn",
-      "growth_days": 7,
-      "regrow_days": 0,
-      "harvest_item_id": "nam_sao_tim",
-      "seed_price": 50,
-      "sell_price": 110,
-      "description": "Nấm phát sáng trong luống râm tăng thị lực hầm mỏ."
-    },
-    {
-      "id": "crop_cu_den_do",
-      "name": "Củ Dền Đỏ",
-      "season": "autumn",
-      "growth_days": 6,
-      "regrow_days": 0,
-      "harvest_item_id": "cu_den_do",
-      "seed_price": 30,
-      "sell_price": 70,
-      "description": "Củ dền đỏ bổ máu cho món hầm tráng kiện."
-    },
-    {
-      "id": "crop_nho_dem",
-      "name": "Nho Đêm",
-      "season": "autumn",
-      "growth_days": 10,
-      "regrow_days": 3,
-      "harvest_item_id": "nho_dem",
-      "seed_price": 60,
-      "sell_price": 45,
-      "description": "Nho tím thẫm ủ rượu vang hầm mỏ."
-    },
-    {
-      "id": "crop_dau_den",
-      "name": "Đậu Đen",
-      "season": "autumn",
-      "growth_days": 8,
-      "regrow_days": 0,
-      "harvest_item_id": "dau_den",
-      "seed_price": 35,
-      "sell_price": 80,
-      "description": "Hạt đậu đen nấu chè và làm nhân bánh chưng."
-    },
-    {
-      "id": "crop_huong_duong",
-      "name": "Hạt Hướng Dương",
-      "season": "autumn",
-      "growth_days": 8,
-      "regrow_days": 0,
-      "harvest_item_id": "huong_duong",
-      "seed_price": 40,
-      "sell_price": 90,
-      "description": "Hoa hướng dương rớt hạt giống khi thu hoạch."
-    },
-    {
-      "id": "crop_cu_cai_dong",
-      "name": "Củ Cải Mùa Đông",
-      "season": "winter",
-      "growth_days": 6,
-      "regrow_days": 0,
-      "harvest_item_id": "cu_cai_dong",
-      "seed_price": 25,
-      "sell_price": 60,
-      "description": "Củ cải trắng ngọt thanh chịu được băng giá."
-    },
-    {
-      "id": "crop_khoai_tuyet",
-      "name": "Khoai Tuyết",
-      "season": "winter",
-      "growth_days": 7,
-      "regrow_days": 0,
-      "harvest_item_id": "khoai_tuyet",
-      "seed_price": 40,
+      "seed_item_id": "seed_moonlight_yam",
+      "harvest_item_id": "item_moonlight_yam",
+      "seed_price": 45,
       "sell_price": 95,
-      "description": "Củ khoai đào dưới lớp băng tuyết dẻo ngọt."
+      "profit_per_day": "5.55 Vàng/ngày",
+      "description": "Silvery-skinned violet sweet potato. Hearth-roasted on open embers for irresistible tavern snacks.",
+      "harvest_note": "Single harvest. Beloved comfort food gift for town residents.",
+      "tags": [
+        "field",
+        "vegetable",
+        "farming",
+        "autumn"
+      ]
     },
     {
-      "id": "crop_re_dia_y",
-      "name": "Rễ Địa Y Lạnh",
-      "season": "winter",
+      "id": "crop_star_lavender",
+      "name": "Star Lavender",
+      "seasons": [
+        "autumn"
+      ],
+      "growth_days": 7,
+      "regrow_days": 0,
+      "seed_item_id": "seed_star_lavender",
+      "harvest_item_id": "oai_huong",
+      "seed_price": 35,
+      "sell_price": 75,
+      "profit_per_day": "5.71 Vàng/ngày",
+      "description": "Fragrant lavender stalks with soothing starlight aroma. Sewn into guestroom pillows and sleep elixirs.",
+      "harvest_note": "Single harvest. Boosts cleanliness and comfort ratings of tavern inn rooms.",
+      "tags": [
+        "field",
+        "flower",
+        "farming",
+        "autumn",
+        "inn"
+      ]
+    },
+    {
+      "id": "crop_frost_turnip",
+      "name": "Frost Turnip",
+      "seasons": [
+        "winter"
+      ],
+      "growth_days": 5,
+      "regrow_days": 0,
+      "seed_item_id": "seed_frost_turnip",
+      "harvest_item_id": "item_frost_turnip",
+      "seed_price": 25,
+      "sell_price": 50,
+      "profit_per_day": "5.0 Vàng/ngày",
+      "description": "Translucent icy turnip that thrives beneath thick winter blankets. Crisp, peppery, and hydrating.",
+      "harvest_note": "Single harvest. Fastest winter cash crop (5-day growth cycle).",
+      "tags": [
+        "field",
+        "vegetable",
+        "farming",
+        "winter"
+      ]
+    },
+    {
+      "id": "crop_frostmint",
+      "name": "Frostmint Herb",
+      "seasons": [
+        "winter"
+      ],
+      "growth_days": 6,
+      "regrow_days": 0,
+      "seed_item_id": "seed_frostmint",
+      "harvest_item_id": "item_frostmint",
+      "seed_price": 30,
+      "sell_price": 65,
+      "profit_per_day": "5.83 Vàng/ngày",
+      "description": "Mint leaves rimmed with glacial frost. Refreshing menthol aroma that revitalizes mind and body.",
+      "harvest_note": "Single harvest. Brewed into steam-inhalation remedies for winter colds.",
+      "tags": [
+        "field",
+        "herb",
+        "farming",
+        "winter"
+      ]
+    },
+    {
+      "id": "crop_frost_potato",
+      "name": "High-Mountain Frost Potato",
+      "seasons": [
+        "winter"
+      ],
+      "growth_days": 7,
+      "regrow_days": 0,
+      "seed_item_id": "seed_frost_potato",
+      "harvest_item_id": "item_frost_potato",
+      "seed_price": 45,
+      "sell_price": 90,
+      "profit_per_day": "6.43 Vàng/ngày",
+      "description": "Hearty starchy potato dug from frozen soil. 25% chance to yield an extra potato upon harvest.",
+      "harvest_note": "Single harvest. Often yields multiple tubers per harvest.",
+      "tags": [
+        "field",
+        "vegetable",
+        "farming",
+        "winter"
+      ]
+    },
+    {
+      "id": "crop_frost_beet",
+      "name": "Frost Ruby Beet",
+      "seasons": [
+        "winter"
+      ],
+      "growth_days": 6,
+      "regrow_days": 0,
+      "seed_item_id": "seed_frost_beet",
+      "harvest_item_id": "item_frost_beet",
+      "seed_price": 40,
+      "sell_price": 80,
+      "profit_per_day": "6.67 Vàng/ngày",
+      "description": "Glistening ruby beet concentrating rich sugars in subzero loam. Makes deep red nourishing borscht.",
+      "harvest_note": "Single harvest. Natural deep red dye for bakery icing and tavern stews.",
+      "tags": [
+        "field",
+        "vegetable",
+        "farming",
+        "winter"
+      ]
+    },
+    {
+      "id": "crop_lichen_root",
+      "name": "Glacial Lichen Root",
+      "seasons": [
+        "winter"
+      ],
       "growth_days": 8,
       "regrow_days": 0,
-      "harvest_item_id": "re_dia_y",
-      "seed_price": 50,
+      "seed_item_id": "seed_lichen_root",
+      "harvest_item_id": "item_lichen_root",
+      "seed_price": 55,
       "sell_price": 120,
-      "description": "Dược liệu kháng hàn hầm canh mùa đông."
+      "profit_per_day": "8.12 Vàng/ngày",
+      "description": "Ancient glacial lichen root harvested beneath hard ice sheets. Prized medicinal herb for resilience draughts.",
+      "harvest_note": "Single harvest. Fetches premium prices from town apothecaries.",
+      "tags": [
+        "field",
+        "herb",
+        "farming",
+        "winter",
+        "medicine"
+      ]
     },
     {
-      "id": "crop_hoa_tuyet_lien",
-      "name": "Hoa Tuyết Liên",
-      "season": "winter",
+      "id": "crop_frost_lotus",
+      "name": "Millennial Frost Lotus",
+      "seasons": [
+        "winter"
+      ],
       "growth_days": 12,
       "regrow_days": 0,
-      "harvest_item_id": "hoa_tuyet_lien",
+      "seed_item_id": "seed_frost_lotus",
+      "harvest_item_id": "item_frost_lotus",
+      "seed_price": 120,
+      "sell_price": 320,
+      "profit_per_day": "16.6 Vàng/ngày",
+      "description": "Crystalline lotus blooming atop thin frozen marsh waters. Legendary winter botanic treasure.",
+      "harvest_note": "Single harvest. Must be planted near water tiles. Highest winter farming profit.",
+      "tags": [
+        "field",
+        "flower",
+        "farming",
+        "winter",
+        "rare"
+      ]
+    },
+    {
+      "id": "crop_sopophorous_bean",
+      "name": "Sopophorous Bean Vine",
+      "seasons": [
+        "spring",
+        "summer",
+        "autumn"
+      ],
+      "growth_days": 11,
+      "regrow_days": 3,
+      "seed_item_id": "seed_sopophorous_bean",
+      "harvest_item_id": "item_sopophorous_bean",
+      "seed_price": 90,
+      "sell_price": 50,
+      "profit_per_day": "10.5 Vàng/ngày",
+      "description": "Mystical silver-podded bean vine yielding luminous seeds that banish weariness through the night.",
+      "harvest_note": "Regrows every 3 days across Spring, Summer, and Autumn. Key alchemy ingredient.",
+      "tags": [
+        "field",
+        "magic",
+        "farming",
+        "spring",
+        "summer",
+        "autumn",
+        "regrowable"
+      ]
+    },
+    {
+      "id": "crop_mandrake",
+      "name": "Mandrake Root",
+      "seasons": [
+        "autumn",
+        "winter"
+      ],
+      "growth_days": 14,
+      "regrow_days": 0,
+      "seed_item_id": "seed_mandrake",
+      "harvest_item_id": "item_mandrake",
       "seed_price": 100,
       "sell_price": 280,
-      "description": "Bông hoa ngọc nở giữa bão tuyết trị độc tuyệt đỉnh."
+      "profit_per_day": "12.8 Vàng/ngày",
+      "description": "Bizarre anthropomorphic root murmuring beneath damp loam. Concentrates primal restorative essence.",
+      "harvest_note": "Single harvest. Thrives in both Autumn and harsh Winter soil.",
+      "tags": [
+        "field",
+        "magic",
+        "farming",
+        "autumn",
+        "winter",
+        "rare"
+      ]
     },
     {
-      "id": "crop_tao_soi",
-      "name": "Cây Táo Sồi",
-      "season": "autumn",
-      "growth_days": 28,
-      "regrow_days": 3,
-      "harvest_item_id": "tao_soi",
-      "seed_price": 500,
-      "sell_price": 80,
-      "description": "Cây ăn quả lâu năm cho trái ngọt giòn mùa Thu."
-    },
-    {
-      "id": "crop_chanh_vang",
-      "name": "Cây Chanh Vàng",
-      "season": "summer",
-      "growth_days": 28,
-      "regrow_days": 3,
-      "harvest_item_id": "chanh_vang",
-      "seed_price": 500,
-      "sell_price": 75,
-      "description": "Cây chanh vàng quả mọng giải nhiệt mùa Hạ."
-    },
-    {
-      "id": "crop_bui_dau_rung",
-      "name": "Bụi Dâu Rừng",
-      "season": "spring",
-      "growth_days": 28,
-      "regrow_days": 3,
-      "harvest_item_id": "dau_rung",
-      "seed_price": 400,
-      "sell_price": 65,
-      "description": "Bụi cây dâu rừng quả mọng mùa Xuân."
-    },
-    {
-      "id": "crop_ot_ma_thuat",
-      "name": "Bụi Ớt Ma Thuật",
-      "season": "all",
-      "growth_days": 28,
-      "regrow_days": 3,
-      "harvest_item_id": "ot_ma_thuat",
-      "seed_price": 800,
-      "sell_price": 150,
-      "description": "Cây ớt ma thuật ra trái quanh năm trong nhà kính."
+      "id": "crop_mushroom_log",
+      "name": "Inoculated Mushroom Log",
+      "seasons": [
+        "spring",
+        "summer",
+        "autumn",
+        "winter"
+      ],
+      "growth_days": 4,
+      "regrow_days": 4,
+      "seed_item_id": "item_mushroom_log",
+      "harvest_item_id": "item_wild_mushroom",
+      "seed_price": 180,
+      "sell_price": 45,
+      "profit_per_day": "11.25 Vàng/ngày",
+      "description": "Shaded timber log inoculated with mushroom spores. Produces fresh woodland mushrooms year-round without watering.",
+      "harvest_note": "Regrows mushrooms every 4 days all four seasons. Chance for Lumina Shrooms if placed in caves.",
+      "tags": [
+        "forestry",
+        "mushroom",
+        "artisan",
+        "perennial"
+      ]
     }
   ]
 }
