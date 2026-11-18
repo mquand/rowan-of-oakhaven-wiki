@@ -9,7 +9,7 @@ spoiler: false
 
 # 🌙 Caverns, Combat Mechanics & Boris's Forge
 
-The subterranean depths of Oakhaven constitute the game's **core action and survival pillar**. All the gold coin reserves amassed from surface farming, cooking, and running the evening tea shop converge toward one paramount purpose: **investing in combat equipment at Boris's Forge**, tempering your arsenal, and delving deep into subterranean strata to cleanse the Star Blight.
+The subterranean depths of Oakhaven constitute the game's **core action and survival pillar**. All the gold coin reserves amassed from surface farming, cooking, and running the evening Hearth Eatery & Tavern converge toward one paramount purpose: **investing in combat equipment at Boris's Forge**, tempering your arsenal, and delving deep into subterranean strata to cleanse the Star Blight.
 
 ---
 
@@ -18,7 +18,7 @@ The subterranean depths of Oakhaven constitute the game's **core action and surv
 ```
                ┌────────────────────────────────────────────────────────┐
                │                     OAKHAVEN TOWN                      │
-               │   (Farmstead • Tea Bakery • Forge • Village Clinic)    │
+               │  (Farmstead • Hearth Eatery • Forge • Village Clinic)  │
                └───────────────┬────────────────────────┬───────────────┘
                                │                        │
                     Mineral Elevator                 Dungeon Rift
@@ -148,9 +148,9 @@ The armory features **23 craftable weapons** divided across 5 combat archetypes 
 Boris's Blacksmith Forge stands on the eastern ridge of Oakhaven Town. It transforms all mined ingots and shopkeeping earnings into combat prowess.
 
 ```
-       [ Tea Shop Gold Coins ] ──┐
-       [ Cavern Smelted Bars ] ──┼──► [ BORIS'S FORGE ] ──► [ UNBREAKABLE REINFORCED ARSENAL ]
-       [ Gems & Monster Loot ] ──┘
+       [ Hearth Eatery Earnings ] ──┐
+       [ Cavern Smelted Bars ] ─────┼──► [ BORIS'S FORGE ] ──► [ UNBREAKABLE REINFORCED ARSENAL ]
+       [ Gems & Monster Loot ] ─────┘
 ```
 
 ### 1. New Weapon Forging
@@ -217,9 +217,9 @@ The cavern entrance at Oakhaven is more than a simple minehead—it serves as **
 3. **💰 Cash-In & Crest Rewards:** Hand in spoils for instant gold coin bounties and **Delver's Crests (`item_delver_crest`)** to build lodge renown.
 4. **🔨 Systemic Reinvestment:**
    * Ores & metal ingots $\rightarrow$ Forge weapon tempering ($+1 \rightarrow +5$) and automated farm sprinklers.
-   * Rare ginseng & herbs $\rightarrow$ Brew vitality restorative teas for subsequent descents.
+   * Rare ginseng & herbs $\rightarrow$ Cook medicinal broth and restorative dishes for subsequent descents.
    * Fish & aquatic oils $\rightarrow$ Refuel exploration lanterns and smoke durable rations.
-   * Nightfall $\rightarrow$ Open the hearthside tea shop to host fellow weary adventurers seeking warm stew and respite.
+   * Nightfall $\rightarrow$ Open the Hearth Eatery & Tavern to host fellow weary adventurers seeking warm stew and respite.
 
 ### The 3 Core Bounty Types
 * **⚔️ Monster Bounties (Knight Marlo):** Hunt cave spiders, blight slimes, or Stratum Warden bosses $\rightarrow$ Substantial gold bounties + Delver's Crests.

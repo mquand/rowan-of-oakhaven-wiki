@@ -8,7 +8,7 @@
       "name": "Thị Trấn Oakhaven (Thung Lũng Bụi Sao)",
       "name_en": "Oakhaven / The Stardust Valley",
       "location_type": "starting_town",
-      "description": "Thị trấn nhỏ nơi Rowan tiếp quản tiệm trà của bà ngoại Amalia — căn nhà gỗ rêu phong bên ngã ba Rừng Thầm Thì, nông trại thảo mộc ven sông sao, cối xay gió sau tiệm, lò rèn Boris và vỉa mỏ pha lê Cây Thần.",
+      "description": "Thị trấn nhỏ nơi Rowan tiếp quản Quán Ăn & Nhà Trọ Oakhaven của bà ngoại Amalia — căn nhà gỗ rêu phong bên ngã ba Rừng Thầm Thì, nông trại thảo mộc ven sông sao, cối xay gió sau quán, lò rèn Boris và vỉa mỏ pha lê Cây Thần.",
       "unlock_condition": "Mở đầu game",
       "notable_npcs": [
         "npc_rowan",
@@ -113,13 +113,13 @@
       "name": "Kinh Đô Ánh Sáng & Vương Cung",
       "name_en": "Solaria — The Royal Capital",
       "location_type": "realm",
-      "description": "Thành phố lát đá cẩm thạch trắng nguy nga, đài phun nước phát quang, tháp chuông ngân vang và quảng trường Vương Cung hoa lệ. Rowan mở chi nhánh tiệm trà thứ 2 tại góc phố hoàng gia.",
+      "description": "Thành phố lát đá cẩm thạch trắng nguy nga, đài phun nước phát quang, tháp chuông ngân vang và quảng trường Vương Cung hoa lệ. Rowan mở chi nhánh Quán Ăn thứ 2 tại góc phố hoàng gia.",
       "unlock_condition": "Đạt Danh Tiếng Cấp 5 & mở khóa tuyến xe ngựa sao",
       "notable_npcs": [
         "npc_valen"
       ],
       "features": [
-        "Chi nhánh tiệm trà hoàng gia",
+        "Chi nhánh Quán Ăn hoàng gia",
         "Đại Hội Trà Đạo",
         "Kỵ sĩ trưởng Valerius",
         "Công chúa Althea",
@@ -154,7 +154,7 @@
         "Tộc Yêu Tinh Rừng",
         "Tiên Hoa Đêm",
         "Tộc Người Bướm Đêm",
-        "Tiệm trà trên ngọn cây",
+        "Quán ăn trên ngọn cây",
         "Mật hoa sương đêm",
         "Phấn hoa sao băng"
       ],

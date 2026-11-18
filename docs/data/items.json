@@ -873,7 +873,7 @@
     {
       "id": "stone_lumina_glow",
       "name": "Đá Phát Sáng Dạ Quang",
-      "description": "Khoáng thạch lân tinh tự nhiên tỏa ánh sáng vàng hổ phách dịu êm không sinh nhiệt, dùng soi sáng hầm ngục và trang hoàng tiệm trà ban đêm.",
+      "description": "Khoáng thạch lân tinh tự nhiên tỏa ánh sáng vàng hổ phách dịu êm không sinh nhiệt, dùng soi sáng hầm ngục và trang hoàng quán ăn ban đêm.",
       "category": "mineral",
       "tags": [
         "mining",
@@ -890,7 +890,7 @@
     {
       "id": "stone_echo_comm",
       "name": "Đá Truyền Âm Vạn Dặm",
-      "description": "Cặp đá cộng hưởng tần số âm thanh, cho phép truyền giọng nói và tiếng chuông tức thì giữa hang mỏ sâu và tiệm trà trên mặt đất.",
+      "description": "Cặp đá cộng hưởng tần số âm thanh, cho phép truyền giọng nói và tiếng chuông tức thì giữa hang mỏ sâu và quán ăn trên mặt đất.",
       "category": "mineral",
       "tags": [
         "mining",
@@ -2104,14 +2104,14 @@
     {
       "id": "item_craft_rustic_table",
       "name": "Bàn Gỗ Sồi Mộc 2 Chỗ",
-      "description": "Bàn gỗ sồi đóng thủ công mộc mạc, kê thêm tại tiệm trà để đón thêm 2 thực khách mỗi đêm.",
+      "description": "Bàn gỗ sồi đóng thủ công mộc mạc, kê thêm tại quán ăn để đón thêm 2 thực khách mỗi đêm.",
       "category": "crafted",
       "rarity": "uncommon",
       "buy_price": null,
       "sell_price": 180,
       "energy": null,
-      "buff": "Đón thêm 2 khách/đêm tại quán trà, tăng doanh thu tiệm",
-      "tags": ["craftable", "teahouse", "furniture", "table"]
+      "buff": "Đón thêm 2 khách/đêm tại quán ăn, tăng doanh thu quán",
+      "tags": ["craftable", "eatery", "furniture", "table"]
     },
     {
       "id": "item_craft_leather_armchair",
@@ -2123,19 +2123,19 @@
       "sell_price": 150,
       "energy": null,
       "buff": "Khách kiên nhẫn chờ món thêm +30% và cộng +10 Cozy Rating",
-      "tags": ["craftable", "teahouse", "furniture", "chair"]
+      "tags": ["craftable", "eatery", "furniture", "chair"]
     },
     {
       "id": "item_craft_showcase_counter",
-      "name": "Tủ Kính Trưng Bày Bánh",
-      "description": "Tủ kính khung đồng bảo quản bánh nướng qua đêm, giữ nguyên độ tươi mới giòn thơm.",
+      "name": "Tủ Kính Trưng Bày Món Ăn",
+      "description": "Tủ kính khung đồng bảo quản món ăn và bánh nướng qua đêm, giữ nguyên độ tươi mới giòn thơm.",
       "category": "crafted",
       "rarity": "rare",
       "buy_price": null,
       "sell_price": 400,
       "energy": null,
-      "buff": "Bảo quản 12 món bánh nướng qua đêm ở chất lượng tươi mới 100%",
-      "tags": ["craftable", "teahouse", "furniture", "showcase"]
+      "buff": "Bảo quản 12 món ăn qua đêm ở chất lượng tươi mới 100%",
+      "tags": ["craftable", "eatery", "furniture", "showcase"]
     },
     {
       "id": "item_craft_corner_hearth",
@@ -2146,8 +2146,8 @@
       "buy_price": null,
       "sell_price": 500,
       "energy": null,
-      "buff": "Tăng +50 Cozy Rating cho tiệm trà, kích hoạt khách tip thêm tiền",
-      "tags": ["craftable", "teahouse", "hearth", "cozy"]
+      "buff": "Tăng +50 Cozy Rating cho quán ăn, kích hoạt khách tip thêm tiền",
+      "tags": ["craftable", "eatery", "hearth", "cozy"]
     },
     {
       "id": "item_craft_willow_fish_trap",

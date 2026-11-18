@@ -13,7 +13,7 @@ spoiler: false
 
 ## Bạn là ai?
 
-Bạn vào vai **Rowan**, thợ thủ công khai hoang kiên cường trở về Thung Lũng Bụi Sao tiếp quản cơ ngơi và tiệm bánh trà của **Bà Ngoại Amalia**. Đồng hành cùng bạn là chú cú lùn **Pip** và chú mèo tam thể **Mallow**, cùng "Quyển Sổ Rách Bí Truyền" của bà. Nhiệm vụ của bạn là gầy dựng nông trang, chinh phục 150 tầng mỏ và duy trì lò sưởi ấm cúng cho thị trấn biên viễn Oakhaven.
+Bạn vào vai **Rowan**, thợ thủ công khai hoang kiên cường trở về Thung Lũng Oakhaven tiếp quản cơ ngơi và Quán Ăn & Nhà Trọ Oakhaven của **Bà Ngoại Amalia**. Đồng hành cùng bạn là chú cú lùn **Pip** và chú mèo tam thể **Mallow**, cùng "Quyển Sổ Rách Bí Truyền" của bà. Nhiệm vụ của bạn là gầy dựng nông trang, chinh phục 150 tầng mỏ và duy trì lò sưởi ấm cúng cho thị trấn biên viễn Oakhaven.
 
 ## Ngày đầu tiên
 

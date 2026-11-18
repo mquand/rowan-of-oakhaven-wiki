@@ -1,0 +1,251 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "version": "1.0.0",
+  "updated": "2026-11-18",
+  "quest_categories": [
+    {
+      "id": "town_help_wanted",
+      "name": "Town Help Wanted Board",
+      "location": "Oakhaven Town Square (In front of Maeve's Town Hall)",
+      "description": "Everyday community requests, lost items, crop supplies, and comfort dishes yielding +100 Friendship Points."
+    },
+    {
+      "id": "delvers_bounty",
+      "name": "Delvers' Lodge Bounty Board",
+      "location": "Cavern Mine Elevator Outpost (Knight Marlo & Bram)",
+      "description": "Monster extermination bounties and perilous deep ore extractions, awarding Delver's Crests and guild rank."
+    },
+    {
+      "id": "eatery_catering",
+      "name": "Hearth Eatery Weekly Catering Orders",
+      "location": "The Hearth Eatery & Tavern (Loft R&D Workbench)",
+      "description": "Large-scale weekly feasts and expedition field rations, granting massive coin revenue and exclusive recipes."
+    }
+  ],
+  "quests": [
+    {
+      "id": "quest_town_01",
+      "category": "town_help_wanted",
+      "title": "Grandmother Maeve's Warm Dinner",
+      "requester_id": "npc_maeve",
+      "requester_name": "Maeve",
+      "season": "spring",
+      "type": "gather",
+      "target_id": "crop_carrot",
+      "target_name": "Sweet Crisp Carrots",
+      "required_amount": 3,
+      "time_limit_days": 2,
+      "description": "My old knee joints are aching too fiercely in this damp wind to bend down in the garden. Could you spare 3 fresh carrots for tonight's stew?",
+      "rewards": {
+        "gold": 120,
+        "relationship_points": 100,
+        "reputation": 20
+      },
+      "dialogue_complete": "Such a thoughtful soul, Rowan! The fragrant earth on these fresh roots reminds me so warmly of dear Amalia."
+    },
+    {
+      "id": "quest_town_02",
+      "category": "town_help_wanted",
+      "title": "Sylvan's Restorative Broth",
+      "requester_id": "npc_sylvan",
+      "requester_name": "Sylvan",
+      "season": "all",
+      "type": "cook",
+      "target_id": "dish_herbal_chicken_stew",
+      "target_name": "Wildwood Herbal Chicken Stew",
+      "required_amount": 1,
+      "time_limit_days": 2,
+      "description": "The chill mist last evening brought back my chest cough; my trembling fingers can barely strike a match. Might the tavern have a hot bowl of liquorice chicken broth to spare?",
+      "rewards": {
+        "gold": 250,
+        "relationship_points": 100,
+        "reputation": 25
+      },
+      "dialogue_complete": "One hot spoonful and warmth flows straight through weary veins. Your kitchen is truly a blessing upon this valley."
+    },
+    {
+      "id": "quest_town_03",
+      "category": "town_help_wanted",
+      "title": "Clara's Lost Botanical Sketchbook",
+      "requester_id": "npc_clara",
+      "requester_name": "Clara",
+      "season": "all",
+      "type": "deliver",
+      "target_id": "item_clara_sketchbook",
+      "target_name": "Vintage Botanical Sketchbook",
+      "required_amount": 1,
+      "time_limit_days": 3,
+      "description": "While sketching dusk near Whisperwood Cascade, a cheeky squirrel snatched my ancestral heraldry book! Please help me find it — the library floor plans are inside...",
+      "rewards": {
+        "gold": 180,
+        "relationship_points": 100,
+        "reputation": 30
+      },
+      "dialogue_complete": "Ah! My sketches! The ink isn't smudged at all! Thank you so very much, Rowan!"
+    },
+    {
+      "id": "quest_town_04",
+      "category": "town_help_wanted",
+      "title": "Post-Storm Bridge Reinforcement",
+      "requester_id": "npc_cedric",
+      "requester_name": "Cedric",
+      "season": "summer",
+      "type": "gather",
+      "target_id": "wood_oak",
+      "target_name": "Mature Oak Timber",
+      "required_amount": 25,
+      "time_limit_days": 2,
+      "description": "Last night's flash storm fractured two support beams on the brook bridge. I urgently need 25 solid oak planks to secure the footings before merchant wagons stall.",
+      "rewards": {
+        "gold": 300,
+        "relationship_points": 100,
+        "reputation": 40
+      },
+      "dialogue_complete": "Sturdy, seasoned timber — Rowan's trademark quality! Oakhaven stays connected thanks to your steady back."
+    },
+    {
+      "id": "quest_town_05",
+      "category": "town_help_wanted",
+      "title": "Linnea's Winter Berry Preserves",
+      "requester_id": "npc_linnea",
+      "requester_name": "Linnea",
+      "season": "autumn",
+      "type": "gather",
+      "target_id": "wild_berry",
+      "target_name": "Ripe Forest Berries",
+      "required_amount": 8,
+      "time_limit_days": 2,
+      "description": "Winter winds are biting early, and my cellar preserve jars are running bare. I need 8 clusters of ripe forest berries to simmer jam for the village youngsters.",
+      "rewards": {
+        "gold": 150,
+        "relationship_points": 100,
+        "reputation": 20
+      },
+      "dialogue_complete": "Rich ruby berries! Drop by the stall this afternoon, Rowan — warm crusty bread with freshly simmered jam awaits you!"
+    },
+    {
+      "id": "quest_delver_01",
+      "category": "delvers_bounty",
+      "title": "Bounty: Deep Crag Cave Spiders",
+      "requester_id": "npc_marlo",
+      "requester_name": "Knight Marlo",
+      "season": "all",
+      "type": "slay",
+      "target_id": "mob_cave_spider",
+      "target_name": "Crag Spiders (Floors 20-39)",
+      "required_amount": 15,
+      "time_limit_days": 3,
+      "description": "Venomous crag spiders have webbed over the ore cart rails on Floor 25, menacing young delvers. Venture deep and eliminate 15 to clear the way.",
+      "rewards": {
+        "gold": 450,
+        "delver_crests": 3,
+        "reputation": 50
+      },
+      "dialogue_complete": "Clean, disciplined blade work, comrade! The lodge honors your valor with these insignia crests."
+    },
+    {
+      "id": "quest_delver_02",
+      "category": "delvers_bounty",
+      "title": "Emergency Delivery: Furnace Coal",
+      "requester_id": "npc_bram",
+      "requester_name": "Bram",
+      "season": "all",
+      "type": "gather",
+      "target_id": "ore_coal",
+      "target_name": "Lump Anthracite Coal",
+      "required_amount": 20,
+      "time_limit_days": 2,
+      "description": "The deep shaft cage is burning through steam coal at double speed. Bring up 20 lumps of dense anthracite from Floor 10+ to keep pressure in the hoist.",
+      "rewards": {
+        "gold": 350,
+        "delver_crests": 2,
+        "relationship_points": 100,
+        "reputation": 35
+      },
+      "dialogue_complete": "Hahaha! High-carbon black gold! The steam pistons are humming again. Tonight's tavern pint is on old Bram!"
+    },
+    {
+      "id": "quest_delver_03",
+      "category": "delvers_bounty",
+      "title": "Herb Procurement: Luminous Fungi",
+      "requester_id": "npc_sylvan",
+      "requester_name": "Sylvan",
+      "season": "all",
+      "type": "gather",
+      "target_id": "herb_lumina_shroom",
+      "target_name": "Luminous Cavern Shrooms (Floor 40+)",
+      "required_amount": 5,
+      "time_limit_days": 3,
+      "description": "Treating deep-strata Blight toxins requires fresh luminous fungus clusters harvested around subterranean pools below Floor 40. True delver territory.",
+      "rewards": {
+        "gold": 500,
+        "delver_crests": 4,
+        "relationship_points": 100,
+        "reputation": 45
+      },
+      "dialogue_complete": "Freshly harvested and gleaming with azure phosphorescence. This antidote batch will save countless rookie miners."
+    },
+    {
+      "id": "quest_delver_04",
+      "category": "delvers_bounty",
+      "title": "Slay Stratum Warden: Blighted Ancient Treant",
+      "requester_id": "npc_marlo",
+      "requester_name": "Knight Marlo",
+      "season": "all",
+      "type": "slay",
+      "target_id": "boss_blighted_treant",
+      "target_name": "Blighted Ancient Treant (Floor 40)",
+      "required_amount": 1,
+      "time_limit_days": 5,
+      "description": "The Floor 40 gatekeeper has awakened. Corrupted roots are choking the underground river. A fearless vanguard is needed to sever its shadowy core.",
+      "rewards": {
+        "gold": 1200,
+        "delver_crests": 10,
+        "reputation": 100
+      },
+      "dialogue_complete": "Incredible... you stood toe-to-toe with the Warden and prevailed! Your name shall be engraved upon the lodge honor roll!"
+    },
+    {
+      "id": "quest_catering_01",
+      "category": "eatery_catering",
+      "title": "Grand Welcome Feast for Garrick's Fleet",
+      "requester_id": "npc_garrick",
+      "requester_name": "Captain Garrick",
+      "season": "all",
+      "type": "cook",
+      "target_id": "dish_seafood_paella",
+      "target_name": "3-Star Saffron Seafood Paella",
+      "required_amount": 8,
+      "time_limit_days": 7,
+      "description": "This Sunday our five merchant caravels drop anchor laden with exotic spices. The famished crews need 8 steaming pans of fragrant saffron seafood paella.",
+      "rewards": {
+        "gold": 2400,
+        "relationship_points": 150,
+        "reputation": 80,
+        "special_reward": "recipe_garrick_spiced_rum"
+      },
+      "dialogue_complete": "By the sea sirens! That sizzling seafood aroma has the deckhands cheering! Here is our caravel's private spiced rum distillation recipe!"
+    },
+    {
+      "id": "quest_catering_02",
+      "category": "eatery_catering",
+      "title": "Subterranean Rescue Expedition Rations",
+      "requester_id": "npc_thorne",
+      "requester_name": "Captain Thorne",
+      "season": "winter",
+      "type": "cook",
+      "target_id": "dish_rye_bacon_ration",
+      "target_name": "Dense Rye & Smoked Bacon Rations",
+      "required_amount": 15,
+      "time_limit_days": 5,
+      "description": "Blizzard conditions have forced our rescue squad into a 72-hour deep cavern search. We need 15 dense, calorie-heavy rations that won't freeze solid in sub-zero drafts.",
+      "rewards": {
+        "gold": 3200,
+        "relationship_points": 150,
+        "reputation": 90,
+        "special_reward": "blueprint_heavy_insulated_backpack"
+      },
+      "dialogue_complete": "Incredible fuel — sustained every rescuer through sub-zero drafts and brought four trapped miners out alive. This heavy insulated pack is yours!"
+    }
+  ]
+}

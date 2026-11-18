@@ -16,15 +16,15 @@ spoiler: false
 
 ## Chu Kỳ Một Ngày
 
-Một ngày trong game kéo dài **12 – 14 phút thực tế** (chuẩn, có thể tùy chỉnh lên 20 phút thư thái trong Cài Đặt). Người chơi tự do sắp xếp lịch trình sinh hoạt giữa nông trang, hầm mỏ và tiệm bánh trà.
+Một ngày trong game kéo dài **12 – 14 phút thực tế** (chuẩn, có thể tùy chỉnh lên 20 phút thư thái trong Cài Đặt). Người chơi tự do sắp xếp lịch trình sinh hoạt giữa nông trang, hầm mỏ và Quán Ăn & Nhà Trọ Oakhaven.
 
 | Khung Giờ Game | Buổi | Thời Lượng | Hoạt Động Gợi Ý |
 | :--- | :--- | :---: | :--- |
 | 06:00 – 08:00 | Bình Minh | 50s | Mở hòm thư, nhận hạt giống Pip mang về |
 | 08:00 – 12:00 | Buổi Sáng | 100s | Làm vườn (tưới, thu hoạch, xay lúa mì) hoặc đi mỏ |
 | 12:00 – 17:00 | Buổi Chiều | 125s | Thăm lò rèn Boris, mua hạt giống, thám hiểm mỏ tầng sâu |
-| 17:00 – 18:00 | Hoàng Hôn | 25s | Uống trà nhận buff, chuẩn bị quầy bếp |
-| 18:00 – 23:00 | Buổi Tối | 250s | **Giờ cao điểm tiệm** — lật biển OPEN đón khách, nghe tâm sự, pha trà thảo mộc |
+| 17:00 – 18:00 | Hoàng Hôn | 25s | Ăn món hồi phục thể lực, chuẩn bị quầy bếp |
+| 18:00 – 23:00 | Buổi Tối | 250s | **Giờ cao điểm quán ăn & nhà trọ** — lật biển OPEN đón khách, nghe tâm sự, phục vụ món nóng ấm bụng |
 | 23:00 – 02:00 | Đêm Khuya | 50s | Máy hát đĩa than, ghim ảnh Polaroid, lên giường |
 | Sau 02:00 | Kiệt sức | — | Nhân vật tự ngủ, sáng dậy 08:00 với 70% thể lực |
 
@@ -96,8 +96,8 @@ Bốn kiểu thời tiết hạt: nắng trong, **mưa rào tự nhiên** (tự 
 ### 🌟 Các Hoạt Động & Sự Kiện Gắn Kết Tăng Điểm Tình Cảm (Bonding Events)
 Không chỉ dựa vào quà tặng, tình cảm giữa Rowan và cư dân Oakhaven tăng trưởng mạnh mẽ qua các tương tác đời sống thường nhật và sự kiện cộng đồng:
 
-1. **Phục vụ trà bánh buổi tối tại quán:**
-   - Khách ghé quán lúc 18:00 – 23:00, nhận đúng món bánh/tách trà đạt **3 Sao** (đúng công thức, căn lửa chuẩn, phục vụ nhanh) $\rightarrow$ Thưởng **+40 đến +60 điểm tình cảm**.
+1. **Phục vụ món ăn ấm bụng buổi tối tại quán:**
+   - Khách ghé quán lúc 18:00 – 23:00, nhận đúng món ăn nóng sốt đạt **3 Sao** (đúng công thức, căn lửa chuẩn, phục vụ nhanh) $\rightarrow$ Thưởng **+40 đến +60 điểm tình cảm**.
    - Phục vụ đúng **Món an ủi ký ức (Comfort Food)** khi khách đang trĩu nặng ưu phiền $\rightarrow$ Thưởng **+100 điểm**.
 2. **Tham gia Lễ Hội & Sự Kiện Mùa (Festival Bonding):**
    - Đêm Hội Bánh Mùa Thu & Lồng Đèn (20 Mùa Thu): Mời NPC cùng thả đèn hoa đăng hoặc cùng nếm bánh thi $\rightarrow$ Tăng **+150 điểm** với người đồng hành và **+30 điểm** thiện cảm toàn thị trấn.

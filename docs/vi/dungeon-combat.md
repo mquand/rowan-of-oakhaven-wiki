@@ -217,9 +217,9 @@ Cửa mỏ Oakhaven không chỉ là nơi thợ đào đá làm việc, mà còn
 3. **💰 Nộp Hợp Đồng Đổi Thưởng:** Nhận ngay tiền Vàng mặt cùng **Huy Hiệu Tiền Đồn (`item_delver_crest`)** để tích lũy danh vọng mạo hiểm giả.
 4. **🔨 Tái Đầu Tư Hệ Thống:**
    * Quặng & phôi kim loại $\rightarrow$ Lò rèn Boris tôi vũ khí ($+1 \rightarrow +5$) và đúc vòi phun nước.
-   * Thảo mộc & sâm quý $\rightarrow$ Pha trà dược thiện tăng thể lực mang theo mỏ.
+   * Thảo mộc & sâm quý $\rightarrow$ Chế biến món ăn dược thiện, súp thuốc tăng thể lực mang theo mỏ.
    * Cá & mỡ cá $\rightarrow$ Thắp đèn lồng thám hiểm và hun khói làm lương khô.
-   * Đêm về $\rightarrow$ Mở cửa tiệm bánh trà phục vụ các mạo hiểm giả ghé sưởi ấm bên lò sưởi đá cuội.
+   * Đêm về $\rightarrow$ Mở cửa Quán Ăn & Nhà Trọ Oakhaven phục vụ các mạo hiểm giả ghé sưởi ấm bên lò sưởi đá cuội.
 
 ### 3 Phân Loại Nhiệm Vụ Khởi Đầu
 * **⚔️ Lệnh Tiễu Phạt (Monster Bounties — Marlo):** Săn lùng bầy nhện đá, bùn hắc hóa, hoặc các Warden Boss mốc tầng $\rightarrow$ Vàng lớn + Huy Hiệu Tiền Đồn.

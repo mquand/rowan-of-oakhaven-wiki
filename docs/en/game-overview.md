@@ -38,7 +38,7 @@ A single in-game day spans approximately **10 to 15 real-time minutes**, allowin
    - *Botanical Farming:* Till soil, plant seeds, water crops (Lotus Tea, Lumiberries, Starlight Lavender), and grind wheat into fresh flour at the windmill.
    - *Mine Exploration:* Venture into cavern depths guided by a firefly lantern, harvesting coal for the hearth and ores to upgrade equipment.
 3. **Twilight (17:00 – 18:00):** Brew yourself a warm cup of herbal tea for stamina buffs and prepare ingredients on the kitchen counter.
-4. **Evening (18:00 – 23:00):** Open the tea shop to visitors, listen to their worries and confidences, and craft custom brews and pastries to soothe their ailments.
+4. **Evening (18:00 – 23:00):** Open the Hearth Eatery & Tavern to visitors, listen to their worries and confidences, and craft hearty dishes and comforting meals to soothe their ailments.
 5. **Night (23:00 – 02:00):** Reforge gear at Boris's forge, play lofi vinyl records, pin Polaroid keepsakes to the corkboard, and rest in bed.
 
 ---

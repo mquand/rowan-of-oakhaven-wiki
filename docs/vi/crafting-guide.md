@@ -9,7 +9,7 @@ spoiler: false
 
 # 🔨 Bàn Chế Tác Thủ Công & 20 Đồ Vật Chế Tạo
 
-Là một thợ thủ công khai hoang tại thị trấn biên viễn Oakhaven, Rowan không thể phụ thuộc hoàn toàn vào thợ rèn Boris hay thợ may Elora cho những nhu yếu phẩm thường nhật. Ngay bên hiên tiệm bánh trà, chiếc **Bàn Chế Tác Thủ Công (Artisan Workbench)** chính là nơi người chơi tự tay cưa gỗ, đan lát, gõ đinh và pha chế 20 loại trang thiết bị sống còn.
+Là một thợ thủ công khai hoang tại thị trấn biên viễn Oakhaven, Rowan không thể phụ thuộc hoàn toàn vào thợ rèn Boris hay thợ may Elora cho những nhu yếu phẩm thường nhật. Ngay bên hiên Quán Ăn & Nhà Trọ Oakhaven, chiếc **Bàn Chế Tác Thủ Công (Artisan Workbench)** chính là nơi người chơi tự tay cưa gỗ, đan lát, gõ đinh và pha chế 20 loại trang thiết bị sống còn.
 
 ---
 
@@ -23,11 +23,11 @@ flowchart LR
     Bench --> Out1["1. Thiết Bị Nông Nghiệp & Chế Biến"]
     Bench --> Out2["2. Dụng Cụ Sinh Tồn Hầm Mỏ"]
     Bench --> Out3["3. Tự Động Hóa Nông Trang"]
-    Bench --> Out4["4. Nội Thất Quán Trà Đêm"]
+    Bench --> Out4["4. Nội Thất Quán Ăn Đêm"]
     Bench --> Out5["5. Dã Ngoại & Bẫy Cá Tự Động"]
 ```
 
-- **Vị trí đặt:** Đặt cố định tại sân sau hoặc cạnh lò sưởi tiệm trà. Tương tác trực tiếp không tốn Thể Lực.
+- **Vị trí đặt:** Đặt cố định tại sân sau hoặc cạnh lò sưởi Quán Ăn & Nhà Trọ. Tương tác trực tiếp không tốn Thể Lực.
 - **Tiến trình mở khóa (Sổ Rách Bà Amalia):**
   - *Giai đoạn đầu:* Chế tạo các vật phẩm cơ bản như hàng rào, đuốc cắm vách đá, giàn phơi thảo mộc và lờ bẫy cá.
   - *Mảnh trang sổ rách:* Khám phá rương ngầm đáy mỏ hoặc giải mã cuộn giấy tại thư viện Clara để mở khóa các công nghệ tự động hóa cao cấp (vòi phun hoàng kim, lò hun khói, bộc phá khai khoáng).
@@ -90,13 +90,13 @@ flowchart LR
 *Tự tay đóng bàn ghế để nâng chỉ số Cozy Rating:*
 
 16. **Bàn Gỗ Sồi Mộc 2 Chỗ (`craft_rustic_table`):** *(30 Gỗ Sồi + 1 Phôi Sắt)*
-    - Kê thêm 1 bàn đón thêm 2 khách/đêm tại quán trà, tăng trực tiếp doanh thu.
+    - Kê thêm 1 bàn đón thêm 2 khách/đêm tại quán ăn, tăng trực tiếp doanh thu.
 17. **Ghế Bành Da Dày Êm Ái (`craft_leather_armchair`):** *(15 Gỗ + 2 Da Thuộc Elora)*
     - Khách ngồi êm ái tăng $+30\%$ thời gian kiên nhẫn chờ món và cộng $+10$ Cozy Rating.
-18. **Tủ Kính Trưng Bày Bánh (`craft_showcase_counter`):** *(40 Gỗ + 4 Thạch Anh + 2 Phôi Đồng)*
-    - Bảo quản 12 món bánh nướng qua đêm ở chất lượng tươi mới $100\%$.
+18. **Tủ Kính Trưng Bày Món Ăn (`craft_showcase_counter`):** *(40 Gỗ + 4 Thạch Anh + 2 Phôi Đồng)*
+    - Bảo quản 12 món ăn qua đêm ở chất lượng tươi mới $100\%$.
 19. **Lò Sưởi Đá Cuội Góc Quán (`craft_corner_hearth`):** *(60 Đá Thô + 10 Đất Sét + 5 Than)*
-    - Trái tim sưởi ấm tiệm trà: Tăng $+50$ Cozy Rating, kích hoạt khách tip thêm tiền vàng.
+    - Trái tim sưởi ấm Quán Ăn & Nhà Trọ: Tăng $+50$ Cozy Rating, kích hoạt khách tip thêm tiền vàng.
 
 ---
 

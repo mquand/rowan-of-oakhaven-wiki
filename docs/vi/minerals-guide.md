@@ -83,8 +83,8 @@ Những loại khoáng vật mang tính chất siêu nhiên, dùng làm nguồn 
 
 Khoáng thạch được người lùn Khaz-Drakor khai thác để vận hành nền cơ khí hơi nước và phục vụ cuộc sống hằng ngày:
 
-- **Đá Phát Sáng Dạ Quang (Lumina Glowstone):** Tỏa ánh sáng vàng hổ phách êm dịu không tỏa nhiệt hay sinh khói. Dùng thắp sáng bàn trà ngoài hiên và gắn lên mũ bảo hộ của Rowan.
-- **Đá Truyền Âm Vạn Dặm (Echo Resonance Stone):** Cặp đá cộng hưởng âm thanh hai chiều. Một viên để tại quầy tiệm trà, một viên Bram mang theo người dưới hầm mỏ để nhận đơn giao trà bánh nóng từ xa.
+- **Đá Phát Sáng Dạ Quang (Lumina Glowstone):** Tỏa ánh sáng vàng hổ phách êm dịu không tỏa nhiệt hay sinh khói. Dùng thắp sáng bàn ăn ngoài hiên và gắn lên mũ bảo hộ của Rowan.
+- **Đá Truyền Âm Vạn Dặm (Echo Resonance Stone):** Cặp đá cộng hưởng âm thanh hai chiều. Một viên để tại quầy Quán Ăn & Nhà Trọ, một viên Bram mang theo người dưới hầm mỏ để nhận đơn giao món nóng từ xa.
 - **Đá Trọng Lực Lơ Lửng (Floatstone):** Triệt tiêu lực hấp dẫn, lơ lửng bồng bềnh giữa không trung. Là bộ phận cốt lõi của xe đẩy quặng tự hành và khinh khí cầu giao hàng.
 - **Đá Trấn Giữ Phong Ấn (Sealing Ward-Stone):** Khắc các cổ tự bảo hộ. Cắm xuống đất để thiết lập khu vực an toàn (Safe Haven) phục hồi Thể Lực ngay giữa tầng mỏ nguy hiểm.
 

@@ -27,7 +27,7 @@ Mọi phép thuật trong Oakhaven bắt nguồn từ **Bụi Sao (Stardust)**. 
 
 ## Năm Đại Vực & Lịch sử
 
-1. **Thung Lũng Oakhaven & Thị Trấn** — khởi đầu, tiệm bánh trà của Bà.
+1. **Thung Lũng Oakhaven & Thị Trấn** — khởi đầu, Quán Ăn & Nhà Trọ Oakhaven của Bà.
 2. **Kinh Đô Hoàng Gia Solaria** — Đại Hội Trà Đạo Toàn Quốc.
 3. **Đại Rừng Yêu Tinh Sylva-Fae** — quê hương Lumi, Cây Thế Giới.
 4. **Đô Thị Ngầm Người Lùn Khaz-Drakor** — lò rèn dung nham.
