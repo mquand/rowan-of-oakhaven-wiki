@@ -307,3 +307,34 @@ Mỗi cư dân Oakhaven không phải NPC rập khuôn vô hồn, mà mang một
 2. **Kệ Trưng Bày Lò Sưởi The Hearth (Trophy Mantle):** Cho phép đặt các kỷ vật độc bản (Cuốc vàng Boris, Nơ cung bạc Valerie, Kiếm gỗ Valerius, Cúp pha lê vực thẳm...) lên lò sưởi, trực tiếp tăng Cozy Rating thu hút khách quý tộc.
 3. **Bảng Thống Kê Sinh Hoạt Đời Thường (Quirky Stats Counter):** Ghi nhận số củ khoai đã nhổ, số lần Colm vác cáng khiêng về giường, số lần bị Barnaby lườm, số tiền nợ chưa đòi được, số củi đã chẻ.
 
+---
+
+## 12. Hệ Thống Bảng Tin Dân Sinh & Đơn Tiếp Tế Cơm Hộp (Town Board, Provision Orders & Freshness Mechanics)
+
+### 12.1. Bản Đồ 2 Bảng Uỷ Thác Cốt Lõi
+- **Bảng Gỗ Trước Hiên Quán The Hearth (The Porch Notice Board):** 
+  - Đặt ngay hiên trước quán ăn The Hearth. Dân làng ghim giấy nhờ vả lặt vặt (nông cụ gỉ sét, củ cải cho heo ăn, nợ môn quán tạp hóa, gỗ khô vá mái nhà dột, thịt xông khói chống rét...).
+  - Làm mới 2 - 3 đơn ngẫu nhiên mỗi sáng Thứ Hai và Thứ Năm. Thời hạn 2 - 3 ngày.
+- **Bảng Tiếp Tế Hiệp Hội Mạo Hiểm (Adventurer's Guild Provision Board):**
+  - Đặt cạnh quầy trực của Hội Trưởng Thorne và Valerie tại trụ sở Hiệp Hội.
+  - Chuyên các hợp đồng cơm hộp viễn chinh phục vụ thợ lặn hồ băng, thợ mỏ bộc phá và toán trinh sát tiền đồn mỏ.
+  - Làm mới đơn lớn vào đầu tuần (Thứ Hai). Thưởng **Huy Hiệu Cứu Viện** đổi trang bị thất lạc (Lost & Found).
+
+### 12.2. Phân Cấp Hộp Đựng Dã Chiến (Expedition Bento Packaging)
+Thức ăn dã chiến được đóng gói tại Bàn Đóng Gói (góc bếp The Hearth) thành 3 cấp:
+1. **Tier 1 - Hộp Gỗ Thông Thô:** 4 Gỗ mềm + 1 Dây bện. Đựng cơm nắm, bánh mì khô, rau luộc. Giữ tươi 2 ngày.
+2. **Tier 2 - Hộp Thiếc Chống Gỉ:** 2 Thỏi Thiếc + 1 Đệm sáp. Đựng súp đặc, thịt hầm, cá áp chảo. Chống va đập hầm mỏ, giữ nóng 3 ngày.
+3. **Tier 3 - Cặp Lồng Giữ Nhiệt Sơn Mài:** 1 Hộp Thiếc + 2 Len Cừu + 1 Dầu Trẩu. Đựng đại tiệc 3 món cho khách quý tộc và toán thám hiểm sâu. Giữ tươi 5 ngày.
+
+### 12.3. Quy Chuẩn Độ Tươi & Nóng Hổi (The Freshness Bonus - Tuyệt Đối Không Thiu Thối)
+- **Quy tắc bất biến:** **Không áp dụng hạn sử dụng làm thối/hỏng thức ăn thành rác**. Trong bối cảnh hậu chiến khan hiếm lương thực, mọi cọng rau củ khoai đều quý giá.
+- **Trạng thái Nóng Hổi (Fresh - Trong vòng 24h từ lúc nấu):**
+  - Bán tại The Hearth: Thực khách khen ngợi, tip thêm **+20% tiền vàng**, tăng nhẹ điểm Cozy.
+  - Giao đơn Bảng tin: Nhận thêm quà vặt của dân làng (vài củ hành, nắm muối hầm, quả rừng).
+  - Ăn khi đi mỏ: Nhận thêm buff phụ ngắn hạn (+5% Tốc độ chạy hoặc hồi 10 Stamina ngay lập tức).
+- **Trạng thái Tiêu Chuẩn (Standard - Sau 24h hoặc qua ngày):**
+  - Đồ ăn nguội đi thành đĩa thức ăn thông thường, **tự động gộp xếp chồng (Stack x99)** vào 1 ô túi đồ (không phân mảnh ô nhớ).
+  - Giữ nguyên 100% chỉ số buff chiến đấu (Công, Thủ, Tốc, Kháng nguyên tố) và bán đúng 100% giá niêm yết.
+- **Nhóm Thực Phẩm Bảo Quản (Preserved Provisions):** Thịt hun khói, phô mai ủ hầm gác mái, lươn sấy khô, bánh quy nướng nứt nham — bản chất khô ráo không bao giờ nguội, chuyên dùng dự trữ thám hiểm 150 tầng mỏ.
+
+

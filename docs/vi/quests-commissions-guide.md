@@ -72,21 +72,43 @@ flowchart TD
 
 ---
 
-### C. Bảng Đơn Cỗ & Tiếp Tế Tuần Của Quán Ăn (Hearth Catering)
-* **Vị trí:** Treo cạnh Bàn Nghiên Cứu & Phát Triển (R&D Desk) tầng gác mái Quán Ăn & Nhà Trọ.
+### C. Bảng Đơn Cỗ & Tiếp Tế Tuần Của Quán Ăn (Hearth Catering & Frontier Bento)
+* **Vị trí:** Treo cạnh Bàn Nghiên Cứu & Phát Triển (R&D Desk) và Quầy đóng gói cơm dã chiến Quán The Hearth.
 * **Thời gian làm mới:** Sáng Thứ Hai đầu tuần lúc 06:00 (Hạn chót 23:00 Chủ Nhật).
 * **Thời hạn:** **7 ngày**.
-* **Đặc điểm:** Yêu cầu số lượng lớn các món ăn đạt chuẩn chất lượng 2 - 3 Sao.
+* **Đặc điểm:** Yêu cầu số lượng lớn các món ăn đạt chuẩn chất lượng 2 - 3 Sao hoặc các Hộp cơm dã chiến (Bento).
 
 | Đơn Hàng Mẫu | Khách Đặt | Mục Tiêu | Phần Thưởng Đặc Quyền |
 | :--- | :--- | :--- | :--- |
 | **Tiệc Đón Đoàn Buôn** | Thuyền trưởng Garrick | 8 Mâm Cơm Rang Hải Sản Nghệ Tây 3 Sao | 2,400g, +150 Tim, **Công thức Rượu Rum Garrick** |
-| **Suất Ăn Cứu Hộ Mỏ** | Đội trưởng Thorne & Valerie | 15 Phần Bánh Mì Đen Kẹp Thịt Xông Khói | 3,200g, +150 Tim, **Bản vẽ Balô Cách Nhiệt** |
+| **Suất Ăn Cứu Hộ Mỏ** | Đội trưởng Thorne & Valerie | 15 Hộp Thiếc Bánh Mì Đen Kẹp Thịt Xông Khói | 3,200g, +150 Tim, **Bản vẽ Balô Cách Nhiệt** |
+| **Tiếp Tế Thợ Lặn Cóng** | Thợ lặn Vael | 5 Hộp Thiếc Súp Bí Đỏ Gừng Củ Nóng Hổi | 1,100g, +120 Tim, **5x Vảy Cá Băng Tầng Ngầm** |
 | **Hội Chợ Bánh Thu** | Dân làng Oakhaven | 20 Bánh Bí Đỏ Quế Nướng 3 Sao | 3,500g, +200 Tim toàn làng, **Tủ Kính Mạ Vàng** |
 
 ---
 
-## 3. Quy Trình Trả Nhiệm Vụ (Turn-In Loop)
+## 3. Hệ Thống Đóng Gói Cơm Hộp Dã Chiến (Expedition Bento) & Quy Chuẩn Độ Tươi
+
+### A. Phân Cấp Hộp Đựng Dã Chiến
+Để vận chuyển đồ ăn xuống mỏ sâu hoặc giao hàng cho các toán tuần tra xa xôi mà không bị nát hay giảm chất lượng:
+* **Hộp Gỗ Thông Thô (Tier 1):** Chế tạo từ *4 Gỗ mềm + 1 Dây bện*. Đựng cơm nắm, bánh mì khô, rau luộc. Giữ tươi 2 ngày.
+* **Hộp Thiếc Chống Gỉ (Tier 2):** Chế tạo từ *2 Thỏi Thiếc + 1 Đệm sáp*. Đựng súp đặc, thịt hầm, cá áp chảo. Chống va đập hầm mỏ, giữ nóng 3 ngày.
+* **Cặp Lồng Giữ Nhiệt Sơn Mài (Tier 3):** Chế tạo từ *1 Hộp Thiếc + 2 Len Cừu + 1 Dầu Trẩu*. Đựng đại tiệc 3 món cho khách quý tộc (Valen de Montfort) và toán thám hiểm sâu. Giữ tươi 5 ngày.
+
+### B. Quy Chuẩn Độ Tươi & Nóng Hổi (Freshness Bonus - Tuyệt Đối Không Thiu Thối)
+* **Quy tắc nhân văn & bối cảnh:** Trò chơi **không áp dụng cơ chế thức ăn thiu thối biến thành rác**. Trong bối cảnh hậu chiến gian khó, từng cọng rau củ khoai đều được trân trọng.
+* **Trạng thái Nóng Hổi (Fresh - Trong 24h từ lúc nấu):**
+  * Bán tại quán The Hearth: Nhận tiền boa thêm **+20% tiền vàng**, tăng điểm Cozy.
+  * Giao đơn bảng tin: Nhận thêm quà vặt của dân làng (vài củ hành, quả rừng dại, nắm muối khoáng).
+  * Ăn khi chiến đấu mỏ: Nhận thêm buff phụ ngắn hạn (+5% Tốc chạy hoặc hồi 10 Stamina tức thì).
+* **Trạng thái Tiêu Chuẩn (Standard - Sau 24h hoặc qua ngày):**
+  * Đồ ăn nguội đi thành đĩa thức ăn bình thường, **tự động gộp xếp chồng (Stack x99)** vào 1 ô túi đồ (không gây phân mảnh rương đồ).
+  * Giữ nguyên 100% chỉ số buff chiến đấu (Công, Thủ, Tốc, Kháng nguyên tố) và bán đúng 100% giá niêm yết.
+* **Thực Phẩm Bảo Quản (Preserved Provisions):** Thịt xông khói, phô mai ủ hầm, lươn sấy khô, bánh quy hạt dẻ — bản chất khô ráo không bao giờ nguội, chuyên dùng dự trữ thám hiểm mỏ 150 tầng.
+
+---
+
+## 4. Quy Trình Trả Nhiệm Vụ (Turn-In Loop)
 
 Người chơi có 2 phương thức giao nộp:
 
@@ -100,7 +122,8 @@ Người chơi có 2 phương thức giao nộp:
 
 ---
 
-## 4. Quy Tắc Cân Bằng & Chống Kẹt Tiến Trình (Smart Progression Guard)
+## 5. Quy Tắc Cân Bằng & Chống Kẹt Tiến Trình (Smart Progression Guard)
 
 * **Tự động thích ứng cấp độ:** Hệ thống chỉ rút thẻ nhiệm vụ tương ứng với độ sâu tầng mỏ và cấp công cụ hiện tại của người chơi. Nếu chưa mở tầng 40 mỏ, bảng tin sẽ không bao giờ xuất hiện quái vật hay khoáng thạch tầng 40+.
 * **Không phạt hủy bỏ:** Nếu không kịp hoàn thành trong thời hạn, nhiệm vụ sẽ nhẹ nhàng hết hạn và gỡ xuống mà không trừ tiền vàng hay điểm tim của người chơi.
+
