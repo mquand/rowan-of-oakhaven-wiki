@@ -64,14 +64,24 @@ Rowan sở hữu không gian sống hoàn toàn riêng biệt nằm trên tầng
 
 ---
 
-## 4. Hệ Thống Chiến Đấu Hầm Mỏ & Quái Vật (100% Pure Action RPG Combat)
+## 4. Hệ Thống Hầm Ngục Mỏ Cổ Vô Tận & Chiến Đấu (The Infinite Mine-Dungeon & Action RPG Combat)
 
-> **NGUYÊN TẮC:** Hầm mỏ và Di tích cổ là **chiến trường sinh tử thuần túy**. Quái vật mang tính thù địch (Hostile), cực kỳ hung dữ và tấn công lập tức khi thấy người chơi. **Tuyệt đối không có cơ chế xoa dịu hay dâng đồ ăn cho quái vật trong hầm ngục.** 
+> **NGUYÊN TẮC CỐT LÕI:** Hầm mỏ và Dungeon **GỘP LÀM 1 THỂ THỐNG NHẤT** mang tên **Hầm Ngục Mỏ Cổ Vô Tận (The Infinite Mine-Dungeon)**. Đây là **chiến trường sinh tử thuần túy**. Quái vật mang tính thù địch (Hostile), cực kỳ hung dữ và tấn công lập tức khi thấy người chơi. **Tuyệt đối không có cơ chế xoa dịu hay dâng đồ ăn cho quái vật trong hầm ngục.** 
 > Thức ăn 55 món được sử dụng làm **buff chỉ số chiến đấu cho chính Rowan** (Công, Thủ, Tốc độ, Kháng nguyên tố, Hồi máu tức thì) để tiêu diệt kẻ thù!
 
-### 4.1. Cơ Chế Chinh Phục Hầm Mỏ (Soul-Knight Style Dungeon Flow)
-- **150 Tầng Hầm Mỏ chia làm 4 đới địa chất:** Mỗi tầng bao gồm các phòng hang nối tiếp nhau.
+### 4.1. Cơ Chế Chinh Phục Hầm Mỏ (Soul-Knight Style Dungeon Flow & Endless Abyss)
+- **Cấu Trúc Hầm Ngục Thống Nhất:**
+  - **Tầng 1–150 (Chiến Dịch Cốt Truyện):** Chia làm 4 đới địa chất chính nối tiếp nhau. Mỗi tầng bao gồm các phòng hang kết nối qua cửa đá phong ấn.
+  - **Tầng 151+ (Vực Thẳm Vô Tận - The Infinite Abyss):** Không giới hạn tầng mỏ (Endless), độ khó tăng tiến liên tục, quái vật đột biến tinh anh mang thuộc tính ngẫu nhiên, tỉ lệ rơi quặng hiếm và ngọc tinh linh tối thượng cao nhất dành cho lối chơi hardcore endgame.
 - **Dọn sạch phòng:** Bước vào phòng đá, cửa sau lập tức khóa chặt $\rightarrow$ Tiêu diệt toàn bộ quái vật trong phòng để cửa thông tầng tiếp theo mở ra và nhận rương tài nguyên.
+- **Quy Tắc Sinh Tử — "Mất Đồ Là Mất Đồ" (Permanent Loss on Defeat):**
+  - Khi Rowan kiệt sức (HP = 0) trong hầm mỏ: Cậu phụ tá Colm dùng cáng kéo Rowan về Trạm Xá để bảo toàn tính mạng (tránh permadeath/xóa file save).
+  - Người chơi bị trừ tiền viện phí cấp cứu điều trị chấn thương.
+  - **Toàn bộ khoáng sản, vật phẩm và chiến lợi phẩm thu thập trong lượt thám hiểm đó rơi lại dưới lòng đất và MẤT VĨNH VIỄN.**
+  - **Tuyệt đối không có cơ chế cứu hộ miễn phí 100%, không giảm giá chuộc đồ, không giữ an toàn hành trang.** Người chơi phải luôn tính toán lượng máu và chủ động dùng Dây Thừng Thoát Hiểm (Escape Rope) hoặc Cửa Dịch Chuyển để rút lui an toàn.
+- **Quy Tắc Cư Dân Mặt Đất & Chạm Trán Ngẫu Nhiên Trong Mỏ (Surface-Only NPCs & Mine Encounters):**
+  - **100% NPC đều sinh sống cố định tại thị trấn, điền trang hoặc các lán trại trên MẶT ĐẤT.** Không có NPC nào dựng lều định cư lâu dài trong hầm ngục.
+  - **Chạm trán ngẫu nhiên:** Trong quá trình đào mỏ, Rowan thỉnh thoảng có thể bắt gặp một số NPC đang làm công việc dã ngoại ngắn hạn (Bram đang gõ mạch quặng sâu, Lão Gomer thử nghiệm mìn phá đá, Thợ lặn Vael khảo sát hồ nước ngầm, Hiệp sĩ Hester tìm nhặt mảnh thép vụn, Hội trưởng Thorne thị sát phong ấn). Đây là các sự kiện chạm trán gia tăng chiều sâu thế giới (flavor encounters), không biến hầm mỏ thành khu dân cư.
 - **Chiến Đấu Nhịp Độ Nhanh (Hack & Slash):**
   - Kết hợp vung vũ khí cận chiến (Kiếm chém nhanh 3 nhịp, Liềm quét hình bán nguyệt rộng AoE, Búa tạ đập chấn động vỡ giáp).
   - Tấn công tầm xa bằng Pháp trượng ma thuật hoặc ném Bom lửa.
@@ -197,7 +207,7 @@ Thế giới game mở rộng dựa trên **Khôi Phục Đại Công Trình Th�
 ### 9.2. Dãy Phòng Trọ Áp Mái & Nhân Sự Điền Trang (The Bunkhouse & Staff)
 - **Cơ chế Phòng Trọ Áp Mái:** Có 3 đến 5 phòng cho khách thám hiểm vãng lai, thương nhân thuê qua đêm.
 - **Bác Quản Gia Barnaby:** Tự động thu tiền trọ (Passive Rent) mỗi sáng Thứ Hai, kê khai sổ sách lời lỗ hòm xuất khẩu, đàm phán giảm chi phí nâng cấp công trình.
-- **Cậu Phụ Tá Colm:** Chẻ củi đầy hộc bếp, xay lúa mì thành bột mịn, gom trứng sữa vào kho lạnh, vót sẵn đuốc dã ngoại và cứu hộ mỏ sâu an toàn (không mất đồ khi ngất).
+- **Cậu Phụ Tá Colm:** Chẻ củi đầy hộc bếp, xay lúa mì thành bột mịn, gom trứng sữa vào kho lạnh, vót sẵn đuốc dã ngoại. Khi Rowan kiệt sức trong hầm mỏ, Colm dùng cáng khiêng về Trạm Xá/giường ngủ để cứu mạng (nhưng toàn bộ vật phẩm thu thập trong lượt đi mỏ rơi mất vĩnh viễn theo nguyên tắc "mất đồ là mất đồ").
 
 ### 9.3. Đầu Tư Thương Mại & Tái Thiết Thị Trấn
 - Bảng Nhiệm Vụ Hiệp Hội & Bảng Tái Thiết Thị Trấn: Đóng góp vật liệu sửa Cối Xay Gió, Đèn Đường, Trạm Xá.
@@ -211,39 +221,44 @@ Thế giới game mở rộng dựa trên **Khôi Phục Đại Công Trình Th�
 ### 10.1. Triết Lý Xây Dựng: "Vết Nứt Đời Thực & Sự Ấm Áp Mộc Mạc"
 Mỗi cư dân Oakhaven không phải NPC rập khuôn vô hồn, mà mang một **vết nứt đời thực mộc mạc**: gánh nặng mưu sinh sau chiến tranh, chuột cắn mùa màng, đau khớp khi trời lạnh, nợ tiền quán rượu hay nỗi hoang mang của kẻ tha hương. Mâm cơm nóng và ổ bánh nướng giòn rụm của Rowan là cầu nối gắn kết, giải quyết những khó khăn cơm áo gạo tiền rất cụ thể.
 
-### 10.2. Mạng Lưới 51 Nhân Vật & Vết Thương Đời Thực
-1. **Rowan (Chủ Điền Trang, Master Cook & Thợ Săn Mỏ):** Người trẻ kiệt quệ (burnout) trốn chạy cuộc sống vô cảm kinh đô, mang hội chứng kẻ giả mạo (Imposter Syndrome). Tự tay làm chủ 100% căn bếp 55 món, vừa cuốc đất khai hoang vừa săn quặng 150 tầng mỏ.
+### 10.2. Mạng Lưới 51 Nhân Vật Tiêu Biểu & Vết Thương Đời Thực
+1. **Rowan (Chủ Điền Trang, Master Cook & Thợ Săn Mỏ):** Người trẻ kiệt quệ (burnout) trốn chạy cuộc sống vô cảm kinh đô, mang hội chứng kẻ giả mạo (Imposter Syndrome). Tự tay làm chủ 100% căn bếp 55 món, vừa cuốc đất khai hoang vừa săn quặng trong Hầm Ngục Mỏ Cổ Vô Tận.
 2. **Bác Quản Gia Barnaby (Quản Gia Sổ Sách & Dãy Phòng Trọ):** Cựu thủ kho quân nhu giải ngũ nghèo túng, sợ mình thành gánh nặng thừa thãi; quản lý phòng trọ áp mái, thu tiền trọ tự động, dự báo thị trường sốt giá và quản lý két sắt điền trang sinh lãi 3%/tuần.
-3. **Cậu Phụ Tá Colm (Hậu Cần, Sơ Chế & Cứu Hộ Mỏ Sâu):** Trẻ mồ côi làm thuê bị quịt lương, được Rowan cứu ở Tầng 15 mỏ; chẻ củi, xay bột mì, gom sữa trứng tự động, cứu nạn mỏ sâu giữ nguyên 100% trang bị quặng quý.
+3. **Cậu Phụ Tá Colm (Hậu Cần, Sơ Chế & Chuyển Cứu Khẩn Cấp):** Trẻ mồ côi làm thuê bị quịt lương, được Rowan cứu ở Tầng 15 mỏ; chẻ củi, xay bột mì, gom sữa trứng tự động; phụ trách cáng cứu hộ đưa Rowan về giường khi kiệt sức (mất đồ nhặt trong chuyến đi, không có cứu đồ free).
 4. **Bà Ngoại Amalia (Di sản & Linh hồn dẫn lối):** Biểu tượng người phụ nữ gom yêu thương vào mâm cơm. Từng ở lại cứu thị trấn trong nạn đói. Lời dặn: *"Nấu ăn là để người ta có sức sống sót và tiếp tục vững vàng ngày mai."*
 5. **Cặp Anh Em Nhà Lùn Boris & Bram Barnaby (Mâu Thuẫn Anh Em Ruột):**
    - *Boris (Thợ rèn):* Dằn vặt 10 năm sau vụ sập mỏ khiến em trai Bram tàn tật; bao bọc thái quá vì sợ mất em.
-   - *Bram (Thợ mỏ tầng sâu):* Tự ái vì bị xem là kẻ phế nhân thương hại; liều mạng xuống mỏ sâu chứng minh giá trị.
+   - *Bram (Thợ mỏ tầng sâu):* Tự ái vì bị xem là kẻ phế nhân thương hại; liều mạng xuống mỏ sâu chứng minh giá trị (thỉnh thoảng Rowan bắt gặp Bram đang đào quặng ở các tầng mỏ).
    - *Hàn gắn (8 Tim):* Nồi súp bò củ dền *Dwarf Ironforge Goulash* và bức thư di sản của người mẹ mở khóa **Trạm Tinh Luyện Cao Cấp** (rút ngắn thời gian đúc quặng, tăng tỷ lệ ngọc quý).
 6. **Bà Cụ Maeve & Cậu Bé Bán Diêm Kael (Tình Thân Không Cùng Máu Mủ):**
    - *Bà Maeve:* Người làm vườn già thoái hóa khớp nặng, nén đau chắt chiu từng đồng tiền thuốc để dành cho tương lai của Kael.
    - *Kael:* Trẻ mồ côi từng bán diêm co ro trong bão tuyết, sợ bị bỏ rơi lần nữa nên làm việc kiệt sức để chứng minh bản thân hữu ích.
    - *Hàn gắn (8 Tim):* *Súp Bí Đỏ Hạt Sen* và bánh sinh nhật bảy màu; Kael tiếp quản và mở khóa **Vườn Ươm Cây Giống Bốn Mùa**.
-7. **Hiệp Hội Mạo Hiểm: Hội Trưởng Thorne & Điều Phối Viên Valerie (Dư Chấn Chiến Trường PTSD):**
-   - *Thorne:* Cựu chỉ huy cấm vệ quân mang chân giả, mất 18 đồng đội dưới hầm sâu; lập trạm cứu hộ thề "không bỏ rơi ai trong bóng tối".
-   - *Valerie:* Cung thủ bắn tỉa giải ngũ vì mất thính lực một bên tai và chứng sợ tiếng nổ lớn (PTSD); quản lý kho đồ thất lạc (Lost & Found).
-   - *Hàn gắn (8 Tim):* Cơm hộp dã chiến tiếp tế và *Súp Nấm Tuyết Sườn Non*; giảm 50% phí cứu nạn và mở khóa **Đội Biệt Kích Cứu Hộ Hầm Sâu**.
+7. **Hiệp Hội Mạo Hiểm: Hội Trưởng Thorne & Điều Phối Viên Valerie:**
+   - *Thorne:* Cựu chỉ huy cấm vệ quân mang chân giả, mất 18 đồng đội dưới hầm sâu; quản lý Bảng Treo Thưởng Săn Quái (Bounties) & Giấy Phép/Ấn Triện Thông Hành Đới Mỏ (Clearance Seals).
+   - *Valerie:* Cung thủ bắn tỉa giải ngũ vì mất thính lực một bên tai và chứng sợ tiếng nổ lớn (PTSD); quản lý Quầy Tiếp Tân và Quầy Mua Lại (Buyback Shop) cho đồ đạc người chơi lỡ tay bán nhầm trong ngày (không phải chuộc đồ mất trong mỏ).
+   - *Hàn gắn (8 Tim):* Cơm hộp dã chiến tiếp tế và *Súp Nấm Tuyết Sườn Non*; mở khóa **Bảng Săn Boss Tinh Anh & Hợp Đồng Thưởng Quặng Quý Hiệp Hội**.
 8. **Cha Con Đài Thiên Văn: Giáo Sư Orion & Thủ Thư Clara (Chăm Sóc Cha Già Sa Sút Trí Nhớ):**
    - *Giáo sư Orion:* Mắc chứng sa sút trí tuệ (Alzheimer), tuyệt vọng thức trắng đêm tìm vì sao mang tên người vợ quá cố Elise trước khi trí nhớ tan biến.
    - *Clara:* Kiệt sức vì chăm cha già (Caregiver Burnout), xé nát thư trúng tuyển đại học danh giá kinh đô để ở lại Oakhaven phụng dưỡng cha.
    - *Hàn gắn (8 Tim):* *Bánh Tart Việt Quất Tinh Cầu* và Trà Bá Tước Hoa Nhài; Thư viện mở khóa **Kho Lưu Trữ Công Thức Cổ Đại**.
-9. **Thuyền Trưởng Garrick & Cậu Bé Finn:** Lão hoa tiêu già mù màu mặc cảm "khúc gỗ mục mắc cạn" và đứa cháu trai ngày đêm câu cá sao gom tiền chuộc lại chiếc la bàn báu vật cho ông.
+9. **Thuyền Trưởng Garrick & Cậu Bé Finn (Vùng Bến Cảng Ven Biển):** Lão hoa tiêu già mù màu mặc cảm "khúc gỗ mục mắc cạn" và đứa cháu trai ngày đêm câu cá sao gom tiền chuộc lại chiếc la bàn báu vật cho ông.
 10. **Lumi (Tinh Linh Cáo Tuyết Kemomimi-Elf):** Sinh linh lai bị cả người thú và tinh linh xa lánh; tìm thấy sự an toàn tuyệt đối bên tách *Trà Sen An Thần* và chiếc bánh bột gạo hấp của Rowan.
-11. **Aurelia (Dược Sĩ) & Marlo (Hiệp Sĩ Ca Đêm):** Aurelia trăn trở lý tưởng y đức trước nghèo đói; Marlo hy sinh giấc ngủ và sức khỏe gửi 90% lương về quê nuôi 4 đứa em thơ.
-12. **Lão Silas & Con Lừa Già (Khách Trọ The Hearth):** Lái buôn xe lừa bán hạt giống và gia vị hiếm phương xa; ký hợp đồng cung ứng hàng tuần ở 8 Tim.
-13. **Hiệp Sĩ Hester (Khách Trọ Góc Khuất):** Cựu kỵ sĩ đào ngũ trốn chui trốn nhủi; gia cố giáp trụ (+10 DEF) và trao lại Thanh Kiếm Kỵ Sĩ Bỏ Rơi ở 8 Tim.
-14. **Cô Thợ Dệt Mae (Khách Trọ Mùa Đông):** Thu mua lông cừu giá cao +30%; tặng Khung Dệt Len Điền Trang tự động ở 4 Tim.
-15. **Lão Gomer "Thuốc Nổ" (Trạm Nghỉ Tầng 60):** Lão thợ nổ người lùn điếc đặc; bán bom mỏ tự chế và tặng Máy Khoan Hơi Nước cầm tay ở 8 Tim.
-16. **Thợ Lặn Vael (Hồ Ngầm Tầng 90):** Thợ lặn săn cá mù và cổ vật ngầm; mở lối bơi ngầm nối tầng 90 ra sông ngoài ở 8 Tim.
-17. **Bà Rowena "Tro Than" (Chòi Than Rừng Sâu):** Cung cấp Than Rừng Già cháy x3 thời gian; mở khóa Lò Nung Than Tro Trấu cao cấp ở 8 Tim.
-18. **Lão Tad "Bẫy Lươn" (Ngư Dân Đầm Lầy):** Tặng Đó Tre Bắt Cá Tự Động; tặng Cần Câu Trúc Ngàn Năm tăng 25% tốc độ câu ở 8 Tim.
-19. **Cậu Bé Milo (Quậy Phá & Trinh Sát):** Hái quả rụng và chỉ điểm bụi dâu rừng bí mật; lập Đội Thám Tử Nhí canh chừng thú rừng ở 8 Tim.
-20. **Bé Hạt Dẻ Cora (Nhặt Đá Cuội Đợi Cha):** Tặng Vòng Tay Đá Cuội (+5% né đòn); mở khóa tính năng sơn màu tường nhà điền trang ở 6 Tim; tin báo cha bình an trở về đoàn tụ ở 8 Tim.
+11. **Aurelia (Dược Sĩ) & Marlo (Cảnh Vệ Ca Đêm):**
+   - *Aurelia:* Dược sĩ trạm xá, gánh nặng y đức trước cảnh bệnh nhân nghèo không đủ tiền mua thuốc giảm đau.
+   - *Marlo:* Cảnh vệ ca đêm bảo vệ cổng làng Oakhaven, trung thực và kiệt sức vì thức trắng tuần tra xua đuổi dã thú; chắt chiu 90% lương gửi về quê nuôi đàn em.
+12. **Lão Silas & Con Lừa Già (Thương Nhân Du Mục - Khách Trọ The Hearth):** Lái buôn xe lừa bán hạt giống và gia vị hiếm phương xa; ký hợp đồng cung ứng hàng tuần ở 8 Tim.
+13. **Võ Sư Valerius (Võ Đường Đèo Núi Mặt Đất):** Cựu Đội trưởng Huấn luyện Vệ binh Hoàng gia bị lưu đày; mở võ đường trên đèo núi mặt đất dạy kỹ thuật Đỡ Đòn Phản Công (Parry) và thế thủ cận chiến; truyền dạy tuyệt kỹ phản đòn ở 8 Tim.
+14. **Hiệp Sĩ Hester (Khách Trọ Áp Mái The Hearth):** Cựu kỵ sĩ thuộc cấp của Valerius lưu lạc tha hương; tá túc tại phòng áp mái, làm thợ mài giáp/rèn dã chiến giúp sửa chữa độ bền trang bị và gia cố giáp thô (+DEF).
+15. **Valen de Montfort (Quý Tộc Lưu Vong Bệnh Máu Hiếm - Phòng Trọ Lầu 2 The Hearth):** Quý tộc lưu vong từ Solaria mắc chứng bệnh thiếu máu bẩm sinh và sợ ánh nắng mặt trời gay gắt; tá túc tại phòng kín The Hearth; cảm kích các món canh súp bổ máu và thuốc hãm thảo dược của Rowan; tặng bản thảo cổ và công thức chế tác trang sức gia truyền Solaria ở 8 Tim.
+16. **Cô Thợ Dệt Mae (Khách Trọ The Hearth):** Nghệ nhân dệt du mục và thợ mộc nội thất; cung cấp giường nệm ấm áp, đồ gỗ thô và nhận hoàn thiện sơn màu nội thất gia dụng trọn gói; tặng Khung Dệt Len Điền Trang tự động ở 8 Tim.
+17. **Lão Gomer (Khai Thác Đá & Kho Thuốc Nổ Cửa Hầm Mỏ - Mặt Đất):** Chuyên gia thuốc nổ người lùn điếc đặc; bán thuốc nổ mỏ đá và tặng Máy Khoan Hơi Nước cầm tay ở 8 Tim (thỉnh thoảng Rowan bắt gặp lão tại các tầng đá cứng hầm mỏ để bộc phá).
+18. **Thợ Lặn Vael (Trại Lặn Hồ Băng Chân Núi - Mặt Đất):** Thợ lặn khoáng thể và thợ săn thủy quái mỏ; trại lặn ở hồ băng chân núi lộ thiên (Mặt Đất); thỉnh thoảng khảo sát các hồ ngầm trong mỏ; tặng Bộ Đồ Lặn Hơi Nước ở 8 Tim.
+19. **Bà Rowena "Tro Than" (Chòi Than Rừng Sâu):** Cung cấp Than Rừng Già cháy x3 thời gian; mở khóa Lò Nung Than Tro Trấu cao cấp ở 8 Tim.
+20. **Lão Tad "Bẫy Lươn" (Ngư Dân Đầm Lầy Lau Sậy):** Tặng Đó Tre Bắt Cá Tự Động; tặng Cần Câu Trúc Ngàn Năm tăng 25% tốc độ câu ở 8 Tim.
+21. **Cậu Bé Milo (Quậy Phá & Trinh Sát Bìa Rừng):** Hái quả rụng và chỉ điểm bụi dâu rừng bí mật; lập Đội Thám Tử Nhí canh chừng thú hoang phá hoại mùa màng ở 8 Tim.
+22. **Bé Hạt Dẻ Cora (Nhặt Sỏi Cuội & Hái Dâu Bờ Suối Đợi Cha):** Bé gái mồ côi mẹ, ngày ngày nhặt sỏi đá cuội ven suối và hái dâu dại ngóng tin cha là người lính viễn chinh; tặng Rowan Vòng Đá Cuội May Mắn (+5% né đòn); ở 8 Tim nhận thư cha bình an xuất ngũ trở về.
+23. **Rosemary (Người Giữ Đền Cổ Oakhaven - Bìa Rừng Thầm Thì):** Người phụ nữ trầm mặc chăm sóc Bàn Thờ Cổ Đại; hướng dẫn Rowan nghi thức nấu các món đại tiệc thanh lọc khói độc miasma và tro tàn chiến tranh để giải phóng đất hoang.
 
 ### 10.3. Cơ Chế Bữa Ăn Kết Nối Tối (The Nightly Hearthside Service)
 - Mỗi tối cư dân ghé Điền trang mang theo tâm trạng và khúc mắc đời thường.

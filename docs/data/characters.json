@@ -1071,10 +1071,10 @@
     {
       "id": "npc_marlo",
       "name": "Marlo",
-      "role": "Hiệp Sĩ Cảnh Vệ Ca Đêm & Trị An Quán Ăn",
+      "role": "Cảnh Vệ Ca Đêm & Trị An Thị Trấn Oakhaven",
       "location": "Cổng Làng & Điểm Gác Đêm",
       "species": "Human",
-      "description": "Hiệp sĩ cảnh vệ trung thành bảo vệ giấc ngủ của thị trấn trong những ca trực đêm dài dằng dặc giữa gió tuyết.",
+      "description": "Dân quân địa phương cần mẫn tuần tra cổng làng và đường phố Oakhaven ban đêm. Xua đuổi lợn rừng phá rào vườn, bắt trộm gà và giữ trật tự quán rượu lúc khuya muộn.",
       "favorite_items": [
         "dish_spicy_ginger_stew",
         "bread_miner_sourdough",
@@ -1085,7 +1085,7 @@
       "schedule": "07:00 - 17:00: Vận hành cối xay gió Oakhaven xay bột mì",
       "real_world_wound": "Gánh nặng kinh tế nuôi 4 đứa em nghèo; sự cô đơn buốt giá của những ca trực thâu đêm giữa sương muối.",
       "comfort_dish": "dish_spicy_ginger_stew",
-      "heart_event_summary": "Giảm 50% tỉ lệ mất trộm ngoài hiên khi Rowan đi vắng ở 4 Tim; bảo vệ an ninh tuyệt đối (miễn nhiễm trộm cắp 100%) tại 8 Tim."
+      "heart_event_summary": "Giảm 50% tỉ lệ thú rừng xâm nhập phá hoại vườn ở 4 Tim; bảo vệ trị an tuyệt đối cho thị trấn và điền trang tại 8 Tim."
     },
     {
       "id": "npc_aurelia",
@@ -1107,21 +1107,21 @@
     },
     {
       "id": "npc_valen",
-      "name": "Valen",
-      "role": "Quý Tộc Ma Cà Rồng Ăn Chay (Khách VIP Lầu 2 & Tiệc Đêm)",
-      "location": "Lâu Đài Pháp Thuật",
-      "species": "Vampire (Ma Cà Rồng)",
-      "description": "Quý tộc ma cà rồng ăn chay, sợ mùi tỏi nhưng mê những ly trà ngọt lịm. Thường ghé tiệm vào ban đêm để tránh ánh mặt trời.",
+      "name": "Valen de Montfort",
+      "role": "Quý Tộc Lưu Vong Bệnh Máu Hiếm (Khách Trọ Lầu 2 The Hearth)",
+      "location": "Phòng Trọ Lầu 2 The Hearth (Dãy Phòng Kín)",
+      "species": "Human (Quý Tộc Lưu Vong Solaria)",
+      "description": "Quý tộc danh gia vọng tộc Solaria mắc chứng thiếu máu di truyền mãn tính, da dẻ trắng bợt và sợ ánh nắng gắt. Trốn chạy cuộc thanh trừng cung đình, chàng thuê phòng kín lầu 2 The Hearth sống ẩn dật, cần rượu quả mọng đậm đặc và canh thảo dược của Rowan để duy trì sức khỏe.",
       "favorite_items": [
         "tra_dau_bang_tuyet",
         "dau_rung"
       ],
-      "quote": "Mùi tỏi nướng bánh mì của tiệm bay sang tận lâu đài làm ta chóng mặt... Làm ơn cho ta một ly trà đỏ thẫm ngọt lịm để trấn tĩnh quý tộc!",
+      "quote": "Đừng nhìn vẻ nhợt nhạt này mà thương hại. Máu trong huyết quản ta có thể suy yếu, nhưng danh dự của dòng họ Montfort chưa từng khuất phục.",
       "birthday": "Ngày 10 Mùa Đông",
-      "schedule": "Ngày: Nghỉ ngơi trong lâu đài cổ; Đêm: Ghé quán ăn thưởng trà đỏ nóng",
-      "real_world_wound": "Bị gia tộc ma cà rồng quý tộc ruồng bỏ vì chọn lối sống ăn chay; cô độc chống chọi với bản năng để giữ gìn nhân tính.",
-      "comfort_dish": "tra_dau_bang_tuyet",
-      "heart_event_summary": "Mở đơn hàng tráng miệng và rượu vang thảo mộc nửa đêm với giá gấp đôi ở 4 Tim; ký hợp đồng tiệc đêm Lâu Đài Cổ tại 8 Tim."
+      "schedule": "Ban ngày: Nghỉ ngơi trong phòng trọ áp mái đóng kín rèm; Chiều muộn: Xuống sảnh The Hearth thưởng thức rượu quả mọng; Nửa đêm: Đọc sách và viết thư từ ngoại giao",
+      "real_world_wound": "Mắc căn bệnh huyết khí nan y bị gia tộc kinh đô ghẻ lạnh, trơ trọi sau cuộc thanh trừng chính trị; luôn khao khát được đối xử như một con người bình thường thay vì một kẻ bệnh tật.",
+      "comfort_dish": "ruou_trai_cay_len_men",
+      "heart_event_summary": "Mở đơn đặt hàng rượu quả mọng và canh bổ huyết giá gấp đôi ở 4 Tim; ký khế ước thương mại ngoại giao kinh đô tại 8 Tim."
     },
     {
       "id": "npc_kassandra",
@@ -1180,7 +1180,7 @@
     {
       "id": "npc_thorne",
       "name": "Guildmaster Thorne",
-      "role": "Hội Trưởng Hiệp Hội Mạo Hiểm (Đội Cứu Nạn Mỏ Sâu)",
+      "role": "Hội Trưởng Hiệp Hội Mạo Hiểm (Bảng Săn Quái & Giấy Phép Đới Mỏ)",
       "location": "Đại Sảnh Hiệp Hội Mạo Hiểm",
       "species": "Human (Cựu Chỉ Huy Chiến Binh)",
       "description": "Cựu sĩ quan cấm vệ quân mang chân giả bằng sắt. Mất 18 đồng đội dưới hầm sâu, ông lập ra Đội Cứu Nạn với lời thề: 'Quyết không bỏ lại bất kỳ ai trong bóng tối'.",
@@ -1194,7 +1194,7 @@
       "schedule": "08:00 - 22:00: Trực bàn chỉ huy Hiệp Hội Mạo Hiểm; Đêm: Tuần tra cửa hang mỏ",
       "real_world_wound": "Ám ảnh tội lỗi của người sống sót (Survivor's Guilt) sau khi mất cả tiểu đội trinh sát dưới hầm 150 tầng.",
       "comfort_dish": "dish_spicy_ginger_stew",
-      "heart_event_summary": "Mở bảng Bounty săn quái ở 4 Tim; điều phối Đội Cứu nạn Hầm mỏ giảm 50% chi phí cứu hộ khi ngất xỉu tại 8 Tim.",
+      "heart_event_summary": "Mở Bảng Bounty săn quái vật mỏ sâu nhận thưởng vàng ở 4 Tim; cấp Giấy Phép Mỏ Sâu (Clearance Seals) mở khóa thang máy vượt đới và Cổng Vực Thẳm Vô Tận tại 8 Tim.",
       "gift_preferences": {
         "loved": [
           "dui_rung_hun_khoi_da_chien",
@@ -1267,7 +1267,7 @@
     {
       "id": "npc_valerie",
       "name": "Điều Phối Viên Valerie",
-      "role": "Người Quản Lý Đồ Thất Lạc (Lost & Found)",
+      "role": "Người Quản Lý Quầy Đồ Thất Lạc & Mua Lại (Buyback Shop)",
       "location": "Quầy Tiếp Tân Hiệp Hội Mạo Hiểm",
       "species": "Human (Cựu Cung Thủ Thiện Xạ)",
       "description": "Nữ thiện xạ giải ngũ vì mất thính lực một bên tai và chứng sợ tiếng nổ lớn (PTSD). Tỉ mỉ lập hồ sơ cứu nạn và thu hồi hành lý rơi rớt cho mạo hiểm giả.",
@@ -1281,7 +1281,7 @@
       "schedule": "08:00 - 20:00: Quản lý quầy đồ thất lạc tại Hiệp Hội Mạo Hiểm; 20:30: Ăn tối tại Quán Ăn Rowan",
       "real_world_wound": "Hội chứng sang chấn tiếng nổ chiến trường (PTSD) và mất thính lực; giấu mình sau bàn giấy phân loại đồ thất lạc.",
       "comfort_dish": "dish_sweet_pumpkin_potage",
-      "heart_event_summary": "Mở dịch vụ tìm kiếm trang bị rơi vãi ở 4 Tim; thu hồi 100% đồ đạc bằng cách tiếp tế cơm hộp tại 8 Tim.",
+      "heart_event_summary": "Mở Quầy mua lại trang bị người chơi lỡ tay bán nhầm cho các cửa hàng trong thị trấn ở 4 Tim; dịch vụ tìm lại các công cụ quan trọng bị đánh rơi ngoài mặt đất tại 8 Tim.",
       "gift_preferences": {
         "loved": [
           "sup_cu_den_do_dai_ngan",
@@ -1705,9 +1705,9 @@
       "id": "npc_rosemary",
       "name": "Rosemary",
       "role": "Người Giữ Đền Cổ Oakhaven (Bàn Thờ Cổ Đại)",
-      "location": "Miếu Thờ Stardust — Bìa Rừng Thầm Thì",
+      "location": "Đền Thờ Cổ Oakhaven — Bìa Rừng Thầm Thì",
       "species": "Dryad (Tinh Linh Cây Sồi Mẹ)",
-      "description": "Thiếu nữ điềm tĩnh với mái tóc dài xanh rêu có hoa non mọc lẫn, mắt màu hổ phách. Là hiện thân của cây sồi cổ bảo hộ thung lũng Oakhaven.",
+      "description": "Nữ tu sĩ gắn bó với Cây Sồi Cổ Thụ, canh giữ Đền Thờ Cổ Oakhaven. Người gìn giữ nghi lễ dâng lễ vật cầu siêu thanh tẩy khí độc miasma sau chiến tranh.",
       "favorite_items": [
         "tra_sen_bach_diep",
         "seed_star_lavender",
@@ -1716,9 +1716,9 @@
       "quote": "Mỗi khi một thân cây trong rừng chết vì Blight... tôi cảm thấy như ai đó cắt đi một ngón tay của mình.",
       "birthday": "Ngày 2 Mùa Xuân",
       "schedule": "Toàn thời gian: Trông nom miếu cổ và gốc Sồi Mẹ bìa rừng",
-      "real_world_wound": "Nỗi đau chứng kiến thiên nhiên bị Star Blight ăn mòn; sợ rằng khi cây sồi mẹ khô héo, sự tồn tại của bản thân cũng tan biến.",
+      "real_world_wound": "Nỗi đau chứng kiến thiên nhiên bị khí độc miasma và tro tàn chiến tranh ăn mòn; sợ rằng khi cây sồi mẹ khô héo, cội nguồn Oakhaven cũng tan biến.",
       "comfort_dish": "tra_sen_bach_diep",
-      "heart_event_summary": "Mở nước thanh tẩy ở 4 Tim; cùng Rowan tổ chức Đại lễ Cầu siêu thanh tẩy miasma đất hoang và mở khóa Bàn Thờ Cổ Đại (Ancient Memorial Altars) tại 8 Tim.",
+      "heart_event_summary": "Mở nước thánh thanh tẩy ở 4 Tim; cùng Rowan tổ chức Đại lễ Cầu siêu thanh tẩy miasma đất hoang và giải phóng Bàn Thờ Cổ Đại tại 8 Tim.",
       "gift_preferences": {
         "loved": [
           "tra_sen_bach_diep",
@@ -2208,8 +2208,8 @@
     {
       "id": "npc_valerius",
       "name": "Valerius",
-      "role": "Hiệp Sĩ Lưu Đày (Huấn Luyện Viên Võ Thuật)",
-      "location": "Lang Thang / Oakhaven",
+      "role": "Cựu Kỵ Sĩ Hoàng Gia Lưu Đày (Võ Đường Đèo Núi)",
+      "location": "Võ Đường Đèo Núi Oakhaven (Mặt Đất)",
       "species": "Human (Cựu Chỉ Huy Cận Vệ Hoàng Gia)",
       "description": "Cựu hiệp sĩ hoàng gia với vết sẹo chéo sống mũi, giáp bạc cũ sờn và phong thái quý tộc lạnh lùng. Từng là khách trú bão tại Quán Ăn trước khi định cư bảo vệ Oakhaven.",
       "favorite_items": [
@@ -2222,7 +2222,7 @@
       "schedule": "06:00 - 18:00: Huấn luyện dân quân và canh gác cổng thành phía Bắc",
       "real_world_wound": "Bị vu oan phản quốc và trục xuất khỏi Solaria vì phát hiện tham nhũng triều đình; vết thương danh dự và sự cay đắng của kẻ trung kiên bị phản bội.",
       "comfort_dish": "bit_tet_nuong_than_soi",
-      "heart_event_summary": "Gác cổng ban ngày; mở Võ đường huấn luyện kỹ năng Đỡ Đòn (Parry) ở 4 Tim và Master Parry ở 8 Tim.",
+      "heart_event_summary": "Huấn luyện kỹ thuật Đỡ Đòn Phản Công (Parry) ở 4 Tim; Master Parry và tăng 20% tốc độ hồi thể lực chiến đấu tại 8 Tim; tha thứ cho cựu cấp dưới Hester.",
       "gift_preferences": {
         "loved": [
           "bit_tet_nuong_than_soi",
@@ -2584,7 +2584,7 @@
     {
       "id": "npc_colm",
       "name": "Cậu Phụ Tá Colm",
-      "role": "Phụ Tá Hậu Cần, Sơ Chế Nguyên Liệu & Cứu Hộ Hầm Mỏ",
+      "role": "Phụ Tá Hậu Cần, Sơ Chế Nguyên Liệu & Chuyển Cứu Khẩn Cấp",
       "location": "Điền Trang The Hearth (Sân Sau & Xưởng Chế Tác)",
       "species": "Human (Phu Đập Đá Mồ Côi)",
       "description": "Thanh niên to con khỏe khoắn mồ côi thời chiến, bắp tay cuồn cuộn dính mùn cưa và tro than. Được Rowan cứu mạng tại Tầng 15 Hầm Mỏ, xin về phụ việc nặng nhọc: chẻ củi đốt lò, xay bột mì, nhặt trứng sữa và cứu hộ khẩn cấp.",
@@ -2598,7 +2598,7 @@
       "schedule": "Sáng sớm: Chẻ củi sân sau, chất đầy hộc bếp; 09:00: Xay bột mì, nhặt trứng, vắt sữa dê; Chiều: Vót đuốc và mài cuốc dã ngoại; Tối: Quét dọn chuồng trại",
       "real_world_wound": "Mất gia đình trong chiến loạn, sống vạ vật làm thuê làm mướn bị chủ quịt lương; luôn khao khát một mái ấm thực sự và người tin tưởng mình.",
       "comfort_dish": "thit_nuong_lua_dia_nguc",
-      "heart_event_summary": "Tặng ba lô dã chiến tăng 6 ô chứa đồ (2 Tim); tự động xay bột mì & gom sữa trứng (4 Tim); cứu hộ hầm mỏ không bị mất đồ (6 Tim); rương tiếp tế khẩn cấp tại Tầng 50 và 100 (8 Tim).",
+      "heart_event_summary": "Tặng ba lô dã chiến tăng 6 ô chứa đồ (2 Tim); tự động xay bột mì & gom sữa trứng (4 Tim); khi Rowan ngất xỉu trong mỏ, Colm vác cáng đưa về giường ngủ an toàn (mất đồ rơi mỏ vẫn giữ nguyên) (6 Tim); đặt rương tiếp tế củi khô và đuốc dã ngoại tại nhà (8 Tim).",
       "gift_preferences": {
         "loved": [
           "thit_nuong_lua_dia_nguc",
@@ -2750,7 +2750,7 @@
     {
       "id": "npc_hester",
       "name": "Hiệp Sĩ Hester",
-      "role": "Cựu Kỵ Sĩ Ẩn Danh & Phục Chế Giáp Trụ Quân Dụng",
+      "role": "Cựu Kỵ Sĩ Ẩn Danh & Chuyên Gia Bảo Trì Giáp Trụ",
       "location": "Phòng Trọ Áp Mái The Hearth (Phòng Góc Khuất)",
       "species": "Human (Cựu Kỵ Sĩ)",
       "description": "Người lính đào ngũ mang áo choàng rách trùm kín mặt, sống lặng lẽ trong phòng trọ áp mái. Sợ người lạ gõ cửa nhưng có tay nghề phục chế giáp trụ quân dụng đỉnh cao.",
@@ -2764,7 +2764,7 @@
       "schedule": "Ban ngày: Ẩn mình trong phòng trọ áp mái sửa giáp; Nửa đêm: Đi dạo một mình quanh hồ nước",
       "real_world_wound": "Mặc cảm tội lỗi chiến tranh khi chứng kiến đồng đội thảm sát thường dân; chọn đào ngũ và sống trong nỗi ám ảnh bị truy lùng.",
       "comfort_dish": "bit_tet_nuong_than_soi",
-      "heart_event_summary": "Dạy kỹ năng gia cố giáp trụ tăng 10 DEF (2 Tim); phục chế giáp kỵ sĩ hoàng gia cũ (4 Tim); giải tỏa nỗi ám ảnh đào ngũ (6 Tim); trao lại Thanh Kiếm Kỵ Sĩ Bỏ Rơi huyền thoại (8 Tim).",
+      "heart_event_summary": "Dạy kỹ năng gia cố giáp trụ tăng 10 DEF (2 Tim); phục chế độ bền vũ khí và giáp trụ không bị nứt vỡ (4 Tim); hóa giải quá khứ với cựu chỉ huy Valerius (6 Tim); trao lại Thanh Kiếm Kỵ Sĩ Bỏ Rơi huyền thoại (8 Tim).",
       "gift_preferences": {
         "loved": [
           "bit_tet_nuong_than_soi",
@@ -2823,7 +2823,7 @@
     {
       "id": "npc_mae",
       "name": "Cô Thợ Dệt Mae",
-      "role": "Thợ Dệt Len Du Mục & Nhuộm Vải Bốn Mùa",
+      "role": "Nghệ Nhân Dệt Du Mục & Nội Thất Gia Dụng Hoàn Thiện",
       "location": "Phòng Trọ The Hearth / Bên Lò Sưởi",
       "species": "Human (Nghệ Nhân Dệt Du Mục)",
       "description": "Cô gái du mục quàng khăn len đỏ ấm áp, chỉ ghé thung lũng vào mùa Thu và Đông. Ngồi đan len bên lò sưởi, thu mua lông cừu lông dê của điền trang với giá cao.",
@@ -2837,7 +2837,7 @@
       "schedule": "Mùa Thu - Mùa Đông: Ngồi dệt len bên lò sưởi The Hearth; Mùa Xuân - Mùa Hạ: Du hành vượt thảo nguyên",
       "real_world_wound": "Cả gia tộc du mục bị phân tán sau chiến tranh; cô đi khắp các miền đất dệt chăn ấm để tìm lại tin tức người thân.",
       "comfort_dish": "tra_thao_moc_rung",
-      "heart_event_summary": "Thu mua lông cừu lông dê giá cao +30% (2 Tim); tặng Khung Dệt Len Điền Trang tự động (4 Tim); may Áo Len Dệt Kép chống rét mùa đông (6 Tim); mở khóa bộ sưu tập thảm trang trí phòng thủ công (8 Tim).",
+      "heart_event_summary": "Thu mua lông cừu lông dê giá cao +30% (2 Tim); tặng Khung Dệt Len Điền Trang tự động (4 Tim); bán các bộ chăn ga đệm ấm dệt hoàn thiện cho phòng trọ áp mái (6 Tim); mở khóa bộ sưu tập thảm trang trí và ghế nệm thủ công (8 Tim).",
       "gift_preferences": {
         "loved": [
           "tra_thao_moc_rung",
@@ -2897,7 +2897,7 @@
       "id": "npc_gomer",
       "name": "Lão Gomer",
       "role": "Chuyên Gia Thuốc Nổ & Thợ Phá Đá Tầng Sâu",
-      "location": "Trạm Nghỉ Tầng 60 Hầm Mỏ",
+      "location": "Lán Trại Khai Thác Đá & Kho Thuốc Nổ Cửa Hầm Mỏ (Mặt Đất)",
       "species": "Dwarf (Thợ Nổ Mìn Râu Khét)",
       "description": "Lão người lùn cắm lều ở Tầng 60, râu tóc khét lẹt mùn than, hai tai điếc đặc vì nổ mìn nhiều năm. Bán thuốc nổ và chỉ điểm vách đá nứt có mạch quặng ngầm.",
       "favorite_items": [
@@ -2907,10 +2907,10 @@
       ],
       "quote": "HẢ?! NÓI TO LÊN! TAI TAO ĐIẾC TỪ NĂM NỔ SẬP CÁI HẦM SỐ TÁM RỒI! CẦN THUỐC NỔ HAY CẦN GÌ?!",
       "birthday": "Ngày 18 Mùa Hè",
-      "schedule": "Toàn thời gian: Trực tại Trạm Nghỉ Tầng 60 Hầm Mỏ nhồi thuốc súng và thử ngòi nổ",
+      "schedule": "Ban ngày: Nhồi thuốc súng và bán bom tại Lán trại Cửa mỏ; Thi thoảng: Xuống kiểm tra mạch nổ đá tầng nông; Tối: Ngồi uống rượu bên đống lửa lán trại",
       "real_world_wound": "Tai nạn sập hầm cướp đi thính lực và khiến lão bị đuổi khỏi bang hội thợ mỏ; lão sống bám dưới mỏ vì chỉ có tiếng nổ mới khiến lão cảm thấy mình còn sống.",
       "comfort_dish": "ruou_trai_cay_len_men",
-      "heart_event_summary": "Bán Bom Mỏ Tự Chế giá rẻ (2 Tim); dạy công thức chế tạo Bom Phá Đá Khổng Lồ (4 Tim); chỉ điểm mạch quặng vàng ẩn tầng 60-80 (6H); tặng Máy Khoan Hơi Nước cầm tay (8 Tim).",
+      "heart_event_summary": "Bán Bom Mỏ Tự Chế giá rẻ tại cửa mỏ (2 Tim); dạy công thức chế tạo Bom Phá Đá Khổng Lồ (4 Tim); chỉ điểm mạch quặng vàng ngầm (6 Tim); tặng Máy Khoan Hơi Nước cầm tay (8 Tim).",
       "gift_preferences": {
         "loved": [
           "ore_coal",
@@ -2970,7 +2970,7 @@
       "id": "npc_vael",
       "name": "Thợ Lặn Vael",
       "role": "Thợ Lặn Khoáng Thể & Thợ Săn Thủy Quái Mỏ",
-      "location": "Trạm Nghỉ Tầng 90 Hầm Mỏ (Bờ Hồ Ngầm)",
+      "location": "Trại Lặn Hồ Băng Chân Núi Lộ Thiên (Mặt Đất)",
       "species": "Human (Thợ Lặn Hồ Ngầm)",
       "description": "Thợ lặn lầm lì trong bộ đồ da cá kín mít, chuyên lặn xuống các hồ nước ngầm áp suất cao ở tầng 90 để mò cổ vật và bắt các loài cá mù quý hiếm.",
       "favorite_items": [
@@ -2980,10 +2980,10 @@
       ],
       "quote": "Dưới đáy hồ ngầm sâu nghìn mét không có ánh sáng, chỉ có sự tĩnh lặng... và những đôi mắt lấp lánh nhìn chằm chằm vào cậu.",
       "birthday": "Ngày 7 Mùa Đông",
-      "schedule": "Toàn thời gian: Lặn ngụp săn cá và khoáng thạch tại Hồ Ngầm Tầng 90",
+      "schedule": "Ban ngày: Cắm trại bên bờ hồ băng chân núi, phân loại rong rêu; Thi thoảng: Lặn thám hiểm suối ngầm; Tối: Phơi cá khô và bảo trì đồ lặn",
       "real_world_wound": "Từng chứng kiến cả đội lặn bị thủy quái nuốt chửng dưới vực sâu; sống khép kín và mang nỗi ám ảnh về bóng tối đáy nước.",
       "comfort_dish": "ruou_trai_cay_len_men",
-      "heart_event_summary": "Bán Ủng Lội Nước Sâu kháng trượt (2 Tim); dạy công thức Mồi Câu Dạ Quang thu hút cá cổ đại (4 Tim); bán Ngọc Trai Phát Quang kháng độc miasma (6 Tim); mở lối ngầm nối hồ tầng 90 ra sông ngoài (8 Tim).",
+      "heart_event_summary": "Bán Ủng Lội Nước Sâu chống trượt (2 Tim); dạy công thức Mồi Câu Dạ Quang thu hút cá cổ đại (4 Tim); bán Ngọc Trai Phát Quang kháng độc miasma (6 Tim); mở lối lặn ngầm từ hồ chân núi ra sông ngoài (8 Tim).",
       "gift_preferences": {
         "loved": [
           "da_tinh_the",
@@ -3261,7 +3261,7 @@
     {
       "id": "npc_cora",
       "name": "Bé Hạt Dẻ Cora",
-      "role": "Cô Bé Nhặt Đá Cuội & Nghệ Thuật Nhuộm Màu Tự Nhiên",
+      "role": "Bé Hạt Dẻ Bờ Suối (Nhặt Đá Cuội & Hái Dâu Dại Đợi Cha)",
       "location": "Bờ Suối Oakhaven / Hiên Thư Viện",
       "species": "Human (Bé Gái Biên Viễn)",
       "description": "Cô bé nhút nhát có cha là người lính chưa trở về sau chiến tranh. Hay đi lang thang nhặt sỏi cuội nhiều màu xâu vòng tay, biết cách nghiền khoáng thạch làm bột màu nhuộm rực rỡ.",
@@ -3275,7 +3275,7 @@
       "schedule": "Sáng: Đi dọc bờ suối nhặt đá cuội ngũ sắc; Chiều: Ngồi hiên thư viện xâu vòng; Tối: Về căn nhà nhỏ cùng mẹ",
       "real_world_wound": "Nỗi nhớ thương người cha bặt vô âm tín nơi tiền tuyến; cô bé tin rằng nếu xâu đủ một nghìn viên sỏi đẹp thì cha sẽ bình an trở về.",
       "comfort_dish": "tra_thao_moc_rung",
-      "heart_event_summary": "Tặng Vòng Tay Đá Cuội may mắn tăng 5% né đòn (2 Tim); dạy công thức nghiền bột màu tự nhiên sơn hàng rào (4 Tim); mở khóa tính năng đổi màu sơn tường điền trang (6 Tim); tin báo cha còn sống trở về đoàn tụ tại The Hearth (8 Tim).",
+      "heart_event_summary": "Tặng Vòng Tay Đá Cuội may mắn tăng 5% né đòn (2 Tim); chỉ điểm các hốc cá bống và bụi dâu dại bí mật ven suối (4 Tim); phụ Rowan nhặt quả rụng bờ suối (6 Tim); tin báo người cha bình an trở về đoàn tụ tại The Hearth (8 Tim).",
       "gift_preferences": {
         "loved": [
           "da_tinh_the",

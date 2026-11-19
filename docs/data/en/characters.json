@@ -1071,10 +1071,10 @@
     {
       "id": "npc_marlo",
       "name": "Marlo",
-      "role": "Nightwatch Sentinel & Eatery Security",
+      "role": "Night Watchman & Town Guard of Oakhaven",
       "location": "Town Gates & Night Patrol",
       "species": "Human",
-      "description": "Steadfast town guard keeping watch through long, freezing snowy nights while Oakhaven slumbers peacefully.",
+      "description": "A dependable local militia watchman patrolling Oakhaven's boundary gates by night. Drives off raiding wild boars, catches stray thieves, and keeps the peace around late-night tavern patrons.",
       "favorite_items": [
         "dish_spicy_ginger_stew",
         "bread_miner_sourdough",
@@ -1085,7 +1085,7 @@
       "schedule": "07:00 - 17:00: Operating Oakhaven windmill grinding flour",
       "real_world_wound": "Supports 4 impoverished siblings back home; endures frozen nocturnal vigils in solitude.",
       "comfort_dish": "dish_spicy_ginger_stew",
-      "heart_event_summary": "Reduces Honor Stand theft rate by 50% at 4 Hearts; grants 100% nighttime theft immunity for the eatery at 8 Hearts."
+      "heart_event_summary": "Reduces wild beast fence breaches by 50% at 4 Hearts; guarantees absolute nighttime security for town and homestead at 8 Hearts."
     },
     {
       "id": "npc_aurelia",
@@ -1107,21 +1107,21 @@
     },
     {
       "id": "npc_valen",
-      "name": "Valen",
-      "role": "Vegetarian Vampire Noble (VIP Inn Guest & Midnight Banquets)",
-      "location": "Sorcerer's Citadel",
-      "species": "Vampire",
-      "description": "A refined vegetarian vampire aristocrat; terrified of garlic but utterly enchanted by ruby-red sweet berry infusions. Visits only after dusk.",
+      "name": "Valen de Montfort",
+      "role": "Exiled Noble with Chronic Blood Affliction (2nd Floor Hearth Guest)",
+      "location": "The Hearth Upper Floor (Secluded Chamber)",
+      "species": "Human (Exiled Solarian Aristocrat)",
+      "description": "A highborn Solarian aristocrat suffering from a chronic hereditary blood ailment, pale and sensitive to harsh sunlight. Fleeing court purges, he rents a secluded chamber on the upper floor of The Hearth, relying on Rowan's rich berry cordials and herbal broths to sustain his failing health.",
       "favorite_items": [
         "tra_dau_bang_tuyet",
         "dau_rung"
       ],
-      "quote": "The aroma of garlic bread from your shop drifted all the way to my parapet and made me faint... Please, a goblet of crimson sweet tea to restore my poise!",
+      "quote": "Do not mistake my pallor for frailty. The blood in my veins may falter, but Montfort honor has never bowed to circumstance.",
       "birthday": "Winter 10",
-      "schedule": "Day: Resting in ancient keep; Night: Visiting tavern for hot red tea",
-      "real_world_wound": "Cast out by vampire aristocracy for adopting a vegetarian lifestyle; struggles alone against primal instincts to protect humanity.",
-      "comfort_dish": "tra_dau_bang_tuyet",
-      "heart_event_summary": "Orders double-priced midnight dessert banquets and herbal wine at 4 Hearts; signs the Ancient Castle Midnight Feast Contract at 8 Hearts."
+      "schedule": "Daytime: Rests in his curtained upper chamber; Late afternoon: Sips fermented berry cordials downstairs; Midnight: Reads scholarly tomes and drafts diplomatic letters",
+      "real_world_wound": "Ostracized by royal high society due to a chronic hereditary ailment, left isolated following political purges; craves being treated as an ordinary person rather than a morbid curiosity.",
+      "comfort_dish": "ruou_trai_cay_len_men",
+      "heart_event_summary": "Places double-priced custom orders for restorative berry cordials at 4 Hearts; signs prestigious royal court trade charter at 8 Hearts."
     },
     {
       "id": "npc_kassandra",
@@ -1180,7 +1180,7 @@
     {
       "id": "npc_thorne",
       "name": "Guildmaster Thorne",
-      "role": "Guildmaster Thorne (Deep Mine Rescue Team)",
+      "role": "Adventurers' Guildmaster (Bounty Board & Deep Mine Seals)",
       "location": "Adventurer's Guild Hall",
       "species": "Human (Veteran Vanguard Commander)",
       "description": "Decorated royal guard captain bearing an iron leg prosthesis. Having lost 18 comrades in deep subterranean vaults, he established the Rescue Outpost with a binding oath: 'No one is left behind in the dark.'",
@@ -1194,7 +1194,7 @@
       "schedule": "08:00 - 22:00: Commanding guild hall operations; Night: Inspecting mine barricades",
       "real_world_wound": "Haunted by severe Survivor's Guilt after his 18-soldier platoon perished in the Sunken Necropolis.",
       "comfort_dish": "dish_spicy_ginger_stew",
-      "heart_event_summary": "Opens Monster Bounty Board at 4 Hearts; leads emergency rescue squad reducing fainting hospital fees by 50% at 8 Hearts.",
+      "heart_event_summary": "Opens Deep Mine Monster Bounty Board with generous gold rewards at 4 Hearts; issues Deep Mine Clearance Seals unlocking cross-zone elevators and the Infinite Abyss Gate at 8 Hearts.",
       "gift_preferences": {
         "loved": [
           "dui_rung_hun_khoi_da_chien",
@@ -1267,7 +1267,7 @@
     {
       "id": "npc_valerie",
       "name": "Dispatcher Valerie",
-      "role": "Lost & Found Custodian (Item Recovery)",
+      "role": "Town Buyback & Lost Property Coordinator",
       "location": "Adventurer's Guild Reception",
       "species": "Human (Retired Marksman)",
       "description": "Former sharpshooter who suffered unilateral hearing damage and acoustic blast PTSD. Meticulously logs rescue reports and coordinates gear retrieval for injured miners.",
@@ -1281,7 +1281,7 @@
       "schedule": "08:00 - 20:00: Managing lost items desk; 20:30: Dining at Rowan's Hearth Eatery",
       "real_world_wound": "Suffers from acoustic blast PTSD and partial deafness, finding solace in quiet administrative paperwork.",
       "comfort_dish": "dish_sweet_pumpkin_potage",
-      "heart_event_summary": "Unlocks Lost & Found retrieval service at 4 Hearts; recovers 100% dropped gear via ration supply drops at 8 Hearts.",
+      "heart_event_summary": "Opens the Town Buyback Counter for items accidentally sold to merchants within 3 days at 4 Hearts; recovers misplaced essential tools dropped on the surface at 8 Hearts.",
       "gift_preferences": {
         "loved": [
           "sup_cu_den_do_dai_ngan",
@@ -1705,9 +1705,9 @@
       "id": "npc_rosemary",
       "name": "Rosemary",
       "role": "Ancient Oakhaven Shrine Keeper (Memorial Altars)",
-      "location": "Stardust Shrine — Whisperwood Glade",
+      "location": "Ancient Oakhaven Shrine — Whisperwood Verge",
       "species": "Dryad (Mother Oak Avatar)",
-      "description": "Serene dryad disguised in linen robes, bearing forest-moss braids interwoven with budding white blossoms. Living avatar of Oakhaven's ancient mother oak.",
+      "description": "A devoted shrine-keeper bound to the Mother Oak, guarding the Ancient Shrine of Oakhaven. Preserves the sacred memorial purification rites to cleanse post-war battlefield miasma.",
       "favorite_items": [
         "tra_sen_bach_diep",
         "seed_star_lavender",
@@ -1716,9 +1716,9 @@
       "quote": "Every time an ancient timber in the glade perishes to Star Blight... I feel as though someone has severed one of my own fingers.",
       "birthday": "Spring 2",
       "schedule": "All day: Guarding the sacred stardust shrine and ancient roots",
-      "real_world_wound": "Agonized by Star Blight corrupting deep subterranean root systems; terrified that if the mother tree withers, her consciousness will dissolve.",
+      "real_world_wound": "Grief of witnessing ancient roots corroded by war miasma and burning ash; terrified that when the Mother Oak withers, Oakhaven's soul will fade into oblivion.",
       "comfort_dish": "tra_sen_bach_diep",
-      "heart_event_summary": "Supplies purification water at 4 Hearts; performs the Great Memorial Feast with Rowan to purge miasma and unlocks Ancient Memorial Altars at 8 Hearts.",
+      "heart_event_summary": "Dispenses blessed purification springwater at 4 Hearts; conducts the Grand Memorial Purification Feast unsealing the Ancient Memorial Altars at 8 Hearts.",
       "gift_preferences": {
         "loved": [
           "tra_sen_bach_diep",
@@ -2208,8 +2208,8 @@
     {
       "id": "npc_valerius",
       "name": "Valerius",
-      "role": "Exiled Knight (Combat & Parry Trainer)",
-      "location": "Vagabond / Oakhaven Watch",
+      "role": "Exiled Royal Knight Instructor (Mountain Pass Dojo)",
+      "location": "Mountain Pass Dojo (Surface)",
       "species": "Human (Former Royal Guard Commander)",
       "description": "Stoic disgraced commander bearing a saber scar across his nose, battered silver armor, and an air of aristocratic dignity. Settles permanently to defend Oakhaven.",
       "favorite_items": [
@@ -2222,7 +2222,7 @@
       "schedule": "06:00 - 18:00: Drilling town militia and patrolling the North Valley Gate",
       "real_world_wound": "Falsely framed for treason and banished from Solaria after uncovering ministerial corruption; deeply embittered by betrayal yet unshakably honorable.",
       "comfort_dish": "bit_tet_nuong_than_soi",
-      "heart_event_summary": "Guards town gates by day; opens Combat Dojo teaching Rowan Shield Parry at 4 Hearts and Master Parry Counter at 8 Hearts.",
+      "heart_event_summary": "Trains combat counter-parry techniques at 4 Hearts; grants Master Parry and +20% stamina recovery at 8 Hearts; forgives former subordinate Hester.",
       "gift_preferences": {
         "loved": [
           "bit_tet_nuong_than_soi",
@@ -2584,7 +2584,7 @@
     {
       "id": "npc_colm",
       "name": "Colm",
-      "role": "Homestead Hand, Logistics & Deep Mine Rescue",
+      "role": "Homestead Logistics, Prep Hand & Emergency Bed Return",
       "location": "The Hearth Homestead (Backyard & Workshop)",
       "species": "Human (Orphaned Quarry Hand)",
       "description": "A sturdy, hardworking orphaned youth with sawdust and soot on his arms. Rescued by Rowan from a rockfall at Floor 15 of the Mines; now loyally handles heavy estate chores: chopping firewood, milling flour, collecting dairy, and emergency rescue.",
@@ -2598,7 +2598,7 @@
       "schedule": "Early: Chops pine logs, fills kitchen racks; 09:00: Mills flour, collects eggs/milk; Afternoon: Carves torches & sharpens pickaxes; Evening: Cleans pens & workshop",
       "real_world_wound": "Lost his family during the war, exploited as cheap quarry labor without pay; craves a real home and someone who genuinely trusts him.",
       "comfort_dish": "thit_nuong_lua_dia_nguc",
-      "heart_event_summary": "Gifts sturdy adventurer backpack (+6 inventory slots) (2H); automates flour milling & barn collection (4H); mine rescue guarantee saving all loot (6H); emergency supply chests at Floors 50 & 100 (8H).",
+      "heart_event_summary": "Gifts sturdy adventurer backpack (+6 slots) (2H); automates flour milling and dairy collection (4H); when Rowan faints in the mine, hauls her safely to bed (dropped items remain lost) (6H); stashes dry firewood and delve torches at the homestead (8H).",
       "gift_preferences": {
         "loved": [
           "thit_nuong_lua_dia_nguc",
@@ -2750,7 +2750,7 @@
     {
       "id": "npc_hester",
       "name": "Hester",
-      "role": "Exiled Hedge Knight & Armor Restoration Specialist",
+      "role": "Reclusive Former Knight & Armor Maintenance Specialist",
       "location": "The Hearth Attic Bunkhouse (Corner Loft)",
       "species": "Human (Former Knight)",
       "description": "A cloaked, reclusive deserter hiding beneath a tattered cowl in the corner attic loft. Avoids strangers, yet possesses peerless mastery in restoring heavy military plate armor.",
@@ -2764,7 +2764,7 @@
       "schedule": "Daytime: Secreted away in the attic loft mending armor; Midnight: Solitary walks beside the estate pond",
       "real_world_wound": "Crushing survivor's guilt after witnessing comrades massacre non-combatants; deserted in horror, living with the constant paranoia of bounty hunters.",
       "comfort_dish": "bit_tet_nuong_than_soi",
-      "heart_event_summary": "Teaches armor reinforcement (+10 DEF) (2H); restores antique knightly harness (4H); opens up about desertion trauma (6H); bequeaths legendary Forsaken Knight's Blade (8H).",
+      "heart_event_summary": "Teaches armor reinforcement (+10 DEF) at 2 Hearts; restores weapon and armor durability against cracking at 4 Hearts; reconciles with former commander Valerius at 6 Hearts; bequeaths legendary Forsaken Knight's Blade at 8 Hearts.",
       "gift_preferences": {
         "loved": [
           "bit_tet_nuong_than_soi",
@@ -2823,7 +2823,7 @@
     {
       "id": "npc_mae",
       "name": "Mae",
-      "role": "Nomadic Wool Weaver & Seasonal Cloth Dyer",
+      "role": "Nomadic Weaver & Finished Home Furnishings Artisan",
       "location": "The Hearth Fireplace & Bunkhouse",
       "species": "Human (Nomadic Artisan)",
       "description": "A warm-hearted nomadic weaver wrapped in hand-spun scarlet wool, visiting Oakhaven during autumn and winter. Buys homestead fleeces and goat down at premium rates.",
@@ -2837,7 +2837,7 @@
       "schedule": "Fall & Winter: Knits beside The Hearth fireplace; Spring & Summer: Migrates across northern highland pastures",
       "real_world_wound": "Her nomadic clan was scattered and separated during the border conflicts; journeys across wilderness valleys weaving wool while searching for kin.",
       "comfort_dish": "tra_thao_moc_rung",
-      "heart_event_summary": "Buys wool and down at +30% price (2H); gifts automated Homestead Weaving Loom (4H); knits insulated frost-resistant wool sweaters (6H); unlocks handcrafted tapestries collection (8H).",
+      "heart_event_summary": "Buys raw wool and down at +30% price (2H); gifts automated Homestead Loom (4H); sells finished dyed bedding and quilts for bunkhouse rooms (6H); unlocks handcrafted upholstery and tapestries collection (8H).",
       "gift_preferences": {
         "loved": [
           "tra_thao_moc_rung",
@@ -2897,7 +2897,7 @@
       "id": "npc_gomer",
       "name": "Old Gomer",
       "role": "Demolitions Expert & Deep Mine Blaster",
-      "location": "Mine Floor 60 Outpost Shelter",
+      "location": "Surface Quarry & Mine Entrance Powder Magazine",
       "species": "Dwarf (Soot-Bearded Blaster)",
       "description": "A stubborn dwarf living in a canvas lean-to at Floor 60 of the mines, his beard singed black by black powder. Deeply deaf from decades of underground blasts, he sells mining charges and points out unstable ore veins.",
       "favorite_items": [
@@ -2907,10 +2907,10 @@
       ],
       "quote": "EH?! SPEAK UP, LAD! LOST ME EARS WHEN TUNNEL EIGHT CAVED IN THIRTY YEARS BACK! YOU NEED BLASTING POWDER OR WHAT?!",
       "birthday": "Summer 18",
-      "schedule": "Full-time: Mans Floor 60 mine shelter, tamping copper blasting charges and checking fuses",
+      "schedule": "Daytime: Packs gunpowder casings and sells charges at surface quarry camp; Occasionally: Inspects shallow blast sites; Night: Drinks moonshine by camp braziers",
       "real_world_wound": "Deafened in a catastrophic shaft collapse and cast out of the miners' guild; clings to the deep shafts because explosions are the only sound he still feels in his chest.",
       "comfort_dish": "ruou_trai_cay_len_men",
-      "heart_event_summary": "Sells discount Blasting Charges (2H); teaches recipe for Mega Rock Blasting Bomb (4H); reveals hidden gold veins on Floors 60-80 (6H); gifts handheld Steam Core Drill (8H).",
+      "heart_event_summary": "Sells discount Blasting Charges at the surface entrance (2H); teaches recipe for Mega Rock Blasting Bomb (4H); reveals hidden gold veins (6H); gifts handheld Steam Core Drill (8H).",
       "gift_preferences": {
         "loved": [
           "ore_coal",
@@ -2970,7 +2970,7 @@
       "id": "npc_vael",
       "name": "Vael",
       "role": "Subterranean Diver & Cave Fisher",
-      "location": "Mine Floor 90 Submerged Basin",
+      "location": "Mountain Glacier Lake Shore Camp (Surface)",
       "species": "Human (Underground Diver)",
       "description": "A reticent diver in a vulcanized fish-skin drysuit, exploring high-pressure flooded shafts at Floor 90 to retrieve ancient artifacts and rare blind subterranean fauna.",
       "favorite_items": [
@@ -2980,10 +2980,10 @@
       ],
       "quote": "A thousand fathoms below the mountain, there is no dawn. Only absolute stillness... and bioluminescent eyes staring back through the black.",
       "birthday": "Winter 7",
-      "schedule": "Full-time: Dives the abyss and catches luminous fish at the Floor 90 Sunken Basin",
+      "schedule": "Daytime: Camps by the surface glacial lake sorting lichen; Occasionally: Dives subterranean fissures; Night: Salt-cures fish and repairs diving valves",
       "real_world_wound": "Watched his entire salvage crew swallowed by an abyssal trench creature; withdrawn and gripped by the dread of deep water, yet unable to abandon it.",
       "comfort_dish": "ruou_trai_cay_len_men",
-      "heart_event_summary": "Sells Anti-Slip Deep Diving Boots (2H); teaches recipe for Luminous Abyss Bait (4H); sells Miasma-Resistant Glow Pearls (6H); opens flooded shortcut between Floor 90 and the town river (8H).",
+      "heart_event_summary": "Sells Anti-Slip Deep Diving Boots (2H); teaches Luminous Abyss Bait recipe (4H); sells Miasma-Resistant Glow Pearls (6H); opens submerged diving link between mountain lake and river (8H).",
       "gift_preferences": {
         "loved": [
           "da_tinh_the",
@@ -3261,7 +3261,7 @@
     {
       "id": "npc_cora",
       "name": "Little Cora",
-      "role": "Pebble Collector & Natural Pigment Artist",
+      "role": "Stream Pebble Gatherer & Wild Forager",
       "location": "Oakhaven Stream Bank / Library Porch",
       "species": "Human (Frontier Child)",
       "description": "A shy, soft-spoken little girl whose father never returned from the front lines. Spends quiet hours collecting polished pebbles to thread onto cords, expertly grinding colored minerals into brilliant natural fence paint.",
@@ -3275,7 +3275,7 @@
       "schedule": "Morning: Forages polished pebbles along stream gravel bars; Afternoon: Strings cord necklaces on the library porch; Evening: Helps her mother cook",
       "real_world_wound": "Grieving a father declared missing in action; clings to the quiet childish belief that stringing a thousand colored pebbles will guide him safely home.",
       "comfort_dish": "tra_thao_moc_rung",
-      "heart_event_summary": "Gifts Lucky Pebble Bracelet (+5% dodge chance) (2H); teaches natural mineral pigment recipes (4H); unlocks homestead fence and wall repainting customization (6H); heartwarming reunion when news confirms her father survived and returns to The Hearth (8H).",
+      "heart_event_summary": "Gifts Lucky Pebble Bracelet (+5% dodge) (2H); marks secret stream berry patches and gudgeon holes (4H); helps gather windfalls along stream banks (6H); joyful reunion when her father returns safely to The Hearth (8H).",
       "gift_preferences": {
         "loved": [
           "da_tinh_the",

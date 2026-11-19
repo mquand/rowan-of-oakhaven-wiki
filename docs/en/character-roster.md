@@ -34,8 +34,8 @@ spoiler: false
   - *6 Hearts:* Provides daily Market Price Forecasts, signaling which crops or minerals are currently surging in market demand.
   - *8 Hearts (Homestead Vault):* Automates town fund savings yielding 3% weekly interest and automatically requisitions winter firewood reserves.
 
-### 🪓 Colm (Homestead Hand, Logistics & Deep Mine Rescue)
-* **Role:** Handles heavy chores, woodcutting, flour milling, dairy collection, and emergency mine rescue. Uses the Adult Male Rig.
+### 🪓 Colm (Homestead Logistics, Prep Hand & Emergency Bed Return)
+* **Role:** Handles heavy chores, woodcutting, flour milling, dairy collection, and stretcher carry. Uses the Adult Male Rig.
 * **Grounded Background:** War orphan blessed with great physical strength but awkward hands; worked as an exploited quarry laborer before getting pinned by a rockfall on Mine Floor 15.
 * **How to Unlock:** Rowan rescues Colm from Floor 15 and nurses him back to health with a warm meal. Overcome with gratitude, Colm offers his brawn to the homestead in exchange for a workshop cot and daily meals.
 * **Everyday Quirks:** Muscular arms coated in sawdust and soot, hollow-legged appetite, blunt-spoken but fiercely loyal; hopeless at cooking (once blew up a cast-iron pot boiling eggs), but will fell fifty logs or carry a rescue stretcher without hesitation; loves sharing warm crusty bread with Rowan at dusk.
@@ -43,8 +43,8 @@ spoiler: false
   - *Default:* Keeps the kitchen firewood racks stacked with seasoned timber; leaves 5 freshly whittled delve torches at the doorway each morning.
   - *2 Hearts:* Crafts Rowan an Adventurer's Backpack expansion (+6 mine inventory slots).
   - *4 Hearts (Automated Prep):* Automatically mills harvested wheat into fine flour and collects daily coop eggs and goat milk into cold storage.
-  - *6 Hearts (Mine Rescue Guarantee):* If Rowan falls in combat anywhere in the 150 mine floors, Colm races down with a stretcher to haul her home safely $\rightarrow$ retains 100% of equipment and rare ores without item loss.
-  - *8 Hearts (Deep Delve Cache):* Stashes emergency supply chests (healing salves, flares, mining bombs) at safe-floor shelters (Floors 50 & 100).
+  - *6 Hearts (Emergency Bed Return):* When Rowan faints or collapses deep in the mines, Colm hauls her safely to bed (preventing open exposure / save corruption), but **dropped mine items remain permanently lost per the 'lost is lost' rule**.
+  - *8 Hearts (Homestead Delve Cache):* Keeps an emergency yard cache of dry firewood, delve torches, and whetstones ready by the gate.
 
 ### 🦉 Pip (Pygmy Owl Messenger)
 * **Role:** Static morning mail courier & rare seed forager.
@@ -103,14 +103,14 @@ spoiler: false
 > **Real-world Theme:** Post-Traumatic Stress Disorder (PTSD), survivor's guilt, and finding a renewed sense of purpose.
 
 * **Guildmaster Thorne (Age 50):**
-  - *Psychological Wound:* Veteran vanguard captain bearing an iron prosthetic leg. Fifteen years ago, a catastrophic command error in the Sunken Necropolis wiped out his entire 18-soldier scouting squad. He founded the Oakhaven Rescue Outpost with a binding oath: *"No one is ever left behind in the dark."*
+  - *Psychological Wound:* Veteran vanguard captain bearing an iron prosthetic leg. Fifteen years ago, a catastrophic command error in deep shafts wiped out his entire 18-soldier scouting squad. He founded the Oakhaven Adventurers' Guild to coordinate monster contracts and defend the valley.
   - *Signature Comfort Dish:* **Campfire Spiced Jerky Stew**.
-* **Dispatcher Valerie (Age 32 - Lost & Found Counter):**
-  - *Psychological Wound:* Retired sharpshooter who suffered permanent unilateral hearing loss and severe acoustic shock (PTSD) from high-explosive ordnance. Meticulously catalogs lost adventurer belongings behind a quiet desk, secretly hoping to recover relics of fallen comrades.
+* **Dispatcher Valerie (Age 32 - Town Buyback Counter):**
+  - *Psychological Wound:* Retired sharpshooter who suffered permanent unilateral hearing loss and severe acoustic shock (PTSD). Hides behind a quiet desk managing town ledgers and keeping inventory of items villagers sold by mistake.
   - *Signature Comfort Dish:* **Snow Fungus & Pork Rib Broth**.
 * **Heart Events Arc:**
-  - *4 Hearts:* Thorne stands silently in the rain before the Ancient Memorial Altar at the forest edge on the anniversary of his lost battalion; unlocks the **Valley Monster Bounty Board**.
-  - *8 Hearts (Healing the Survivors):* Rowan cooks a nutritious frontline feast. Thorne and Valerie finally release the ghosts of their past, reducing rescue penalties by 50% and unlocking the **Deep-Mine Rescue Strike Force** (recovering 100% dropped gear via ration drops).
+  - *4 Hearts:* Unlocks the **Valley & Deep Mine Monster Bounty Board** (Thorne); opens the **Town Buyback Counter** recovering items sold by mistake within 3 days (Valerie).
+  - *8 Hearts (Abyssal Clearance):* Rowan serves a frontline campaign feast; Thorne grants **Deep Mine Clearance Seals** unlocking cross-zone elevators and the Infinite Abyss Gate (151+); Valerie provides surface recovery service for dropped essential tools (pickaxe, axe, rod).
 
 ---
 
@@ -197,15 +197,15 @@ spoiler: false
 * **8 Hearts Milestone:** Launches the Oakhaven Saturday Night Bazaar; unlocks exotic foreign seeds and specialty tools.
 
 ### 🌿 Rosemary (Ancient Oakhaven Shrine Keeper / Memorial Altars)
-* **Psychological Wound:** Dryad — living avatar of Oakhaven's ancient Mother Oak. Watches helplessly as Blighted War Miasma rots deep subterranean rootways, dreading the day her consciousness dissolves as the oak withers.
+* **Psychological Wound:** Devoted shrine-keeper bound to the Mother Oak, guarding the Ancient Shrine of Oakhaven. Watches as war miasma and scorched ash corrode deep rootways, dreading that Oakhaven's soul will dissolve if the oak withers.
 * **Signature Comfort Dish:** **White-Leaf Lotus Tea & Candied Lotus Seeds**.
-* **8 Hearts Milestone:** Performs the Great Memorial Feast with Rowan to purge ancient miasma; unlocks **Ancient Memorial Altars** and purifies blighted wastelands.
+* **8 Hearts Milestone:** Performs the Great Memorial Feast with Rowan to purge battlefield miasma; unseals **Ancient Memorial Altars** and purifies blighted lands.
 
-### 🛡️ Valerius (Exiled Knight) & 🔮 Morrigan (Recluse Hedge Witch)
-* **Valerius:** Former royal guard commander framed for treason after exposing imperial corruption; winter storm guest who settles permanently as Captain of Oakhaven's Guardians.
+### 🛡️ Valerius (Exiled Royal Knight Instructor) & 🔮 Morrigan (Recluse Hedge Witch)
+* **Valerius:** Former royal guard commander framed for treason after exposing imperial corruption; runs the **Mountain Pass Combat Dojo** on the valley surface.
   - *Comfort Dish:* **Oak-Charred Iron Steak & Red Wine Beef Stew**.
-  - *Gameplay Mechanic:* Guards town gates by day; opens **Combat Dojo** teaching Rowan Shield Parry at 4 Hearts and Master Parry Counter at 8 Hearts.
-* **Morrigan:** Solitary swamp witch ostracized worldwide due to superstitious dread; prickly and intimidating outside, but secretly a gentle nurse to wounded woodland wildlife.
+  - *Gameplay Mechanic:* Trains Rowan in **Shield Parry** at 4 Hearts and Master Parry Counter (+20% stamina recovery) at 8 Hearts; forgives former subordinate Hester.
+* **Morrigan:** Solitary swamp witch ostracized worldwide due to superstitious dread; prickly outside, but secretly a gentle healer to wounded wildlife.
   - *Comfort Dish:* **Frostmint Breeze Tea & Wild Glade Berries**.
   - *Gameplay Mechanic:* Concocts weapon-coating monster toxins at 4 Hearts; unlocks **Critical Strike Elixir** and permanent Miasma Antidote at 8 Hearts.
 
@@ -213,19 +213,19 @@ spoiler: false
 
 ## 4. Greater Realms & Cosmic Thresholds
 
-### ⚒️ Khaz-Drakor (The Dwarven Megalopolis)
+### ⚒️ Khaz-Drakor (Highland Dwarven Territory)
 * **High Smith Grimhild:** Foster mother of Boris and Bram; legendary dwarven matriarch who spent fifteen years hammering away maternal guilt after driving her sons away with rigid strictness.
   - *Comfort Dish:* **Dwarf Ironforge Goulash**. Unlocks Masterwork **Mithril Smithing** at 8 Hearts.
 * **Cogsworth (Steam Engineer):** Slender young dwarf ostracized by conservative smiths for pursuing pneumatic valves and clockwork; only one fluent in Chrono's rhythm.
   - *Comfort Dish:* **Garlic Butter Roasted Spuds**. Crafts **Automated Field Sprinklers** at 4 Hearts; completes the **Minecart Express** ore transport rail system at 8 Hearts.
-* **Ember (Lava Basin Chef):** Energetic fire salamander chef barred from metropolitan culinary guilds due to racial prejudice; Rowan's friendly cooking rival.
+* **Ember (Highland Salamander Chef):** Energetic fire salamander chef barred from metropolitan culinary guilds due to racial prejudice; Rowan's friendly cooking rival.
   - *Comfort Dish:* **Netherfire Charbroiled Steak**. Exchanges fire spices at 4 Hearts; transfers the superheated **Extreme Heat Magma Grate** at 8 Hearts.
 * **Chrono (Ancient Clockwork Automaton):** Operates the town bell to signal meal hours and displays buff countdown timers on HUD at 4 Hearts; bell resonance boosts tavern revenue by 20% at 8 Hearts.
 
 ### 🌲 Sylva-Fae (The Ancient Canopy)
 * **Thistle (Nocturnal Moth Ranger):** Silver-violet winged moth-folk whose sensitive eyes sting under bright lanterns; lives isolated in twilight canopy hours.
   - *Comfort Dish:* **Thousand-Star Lavender Infusion**. Gathers **Luminescent Silk** at 4 Hearts and **Golden Silk** at 8 Hearts for Elora.
-* **Fern (Ancient Root Healer - Age 800):** Blind mentor of Sylvan who perceives all forest life through subterranean root mycorrhizae after losing his eyes to Blighted War Miasma.
+* **Fern (Ancient Root Healer - Age 800):** Blind mentor of Sylvan who perceives all forest life through subterranean root mycorrhizae after losing his eyes to wartime miasma.
   - *Comfort Dish:* **Lotus Blossom Root Potage**. Teaches **Primeval Herbal Codex** recipes at 6 Hearts; guides permanent soil miasma purification rites at 8 Hearts.
 * **Elora & Sylvan:** Tremor-afflicted royal dressmaker and devoted botanist seeking ancient remedies to preserve her artisan hands.
   - *Elora:* Weaves **Expanded Adventurer Pouch (+12 slots)** at 4 Hearts; tailors the **Eternal Winter Gala Robe** at 8 Hearts.
@@ -234,7 +234,8 @@ spoiler: false
 ### 🏯 Solaria (The Royal Capital of Light)
 * **Iris (Royal Chronicler):** Auburn-haired scholar balancing precarious towers of tomes; torn between royal imperial censorship and her pledge to record authentic history.
   - *Comfort Dish:* **Earl Grey Jasmine Tea & Spiced Ginger Biscuits**. Opens **Deep Mine Relic Appraisal** at 4 Hearts; completes the **Valley Historical Museum** at 8 Hearts.
-* **Valen (Vegetarian Vampire Noble):** VIP 2nd-floor inn resident; orders double-priced midnight dessert banquets and herbal wine at 4 Hearts; signs the Ancient Castle Midnight Feast Contract at 8 Hearts.
+* **Valen de Montfort (Exiled Noble with Blood Ailment):** Highborn Solarian aristocrat fleeing court purges, renting a secluded upper chamber at The Hearth; afflicted with chronic hereditary anemia.
+  - *Comfort Dish:* **Fermented Wild Berry Cordial**. Custom-orders double-priced berry tonics at 4 Hearts; signs prestigious royal court diplomatic charter at 8 Hearts.
 * **Kassandra (Wind Witch in Exile):** Opens **Sky Express 2-Hour Inter-Realm Air Delivery** at 4 Hearts; gifts Rowan the **Enchanted Flying Broom** at 8 Hearts.
 
 ### ✨ Aethelgard (The Floating Elysium)
@@ -244,37 +245,37 @@ spoiler: false
 
 ---
 
-## 5. Frontier Guests, Miners & Wilderness Specialists
+## 5. Frontier Guests, Surface Mine Entrance & Wilderness Specialists
 
 ### 🧳 The Hearth Attic Bunkhouse Boarders
 * **Silas (Donkey Peddler):** Wiry itinerant trader accompanied by his stubborn old pack-donkey, boarding Thursday through Saturday.
   - *Real-world Wound:* Lost his entire caravan during the war; scrapes by in his elderly years accompanied only by his faithful beast.
   - *Comfort Dish:* **Brioche Bread & Spiced Cider**. 15% discount on exotic wares at 2 Hearts; signs weekly wholesale supply contract at 8 Hearts.
-* **Hester (Exiled Hedge Knight):** Deserter hiding beneath a tattered cowl in the corner attic loft; expert military armorsmith.
+* **Hester (Exiled Former Knight):** Deserter hiding beneath a tattered cowl in the corner attic loft; former subordinate of Valerius at Solaria.
   - *Real-world Wound:* Crushing survivor's guilt over battlefield civilian massacres; lives in fear of military bounty hunters.
-  - *Comfort Dish:* **Charcoal Oak Steak**. Teaches armor reinforcement (+10 DEF) at 2 Hearts; bequeaths legendary Forsaken Knight's Blade at 8 Hearts.
-* **Mae (Nomadic Weaver):** Visits during autumn and winter, spinning fleece beside the hearth.
+  - *Comfort Dish:* **Charcoal Oak Steak**. Teaches armor reinforcement (+10 DEF) at 2 Hearts; restores weapon and armor durability against cracking at 4 Hearts; reconciles with Valerius at 6 Hearts; bequeaths legendary Forsaken Knight's Blade at 8 Hearts.
+* **Mae (Nomadic Weaver & Home Furnishings Artisan):** Visits during autumn and winter, spinning fleece and crafting bedding beside the hearth.
   - *Real-world Wound:* Scattered clan displaced by war; wanders frontier valleys weaving warm cloaks while searching for lost kin.
-  - *Comfort Dish:* **Wildwood Herbal Tea**. Buys wool/down at +30% price at 2 Hearts; gifts automated Homestead Loom at 4 Hearts; unlocks artisan tapestries at 8 Hearts.
+  - *Comfort Dish:* **Wildwood Herbal Tea**. Buys wool/down at +30% price at 2 Hearts; gifts automated Homestead Loom at 4 Hearts; sells finished dyed bedding and handcrafted tapestries at 8 Hearts.
 
-### ⛏️ Deep Mine Outpost Specialists (Floors 60 & 90)
-* **Old Gomer (Floor 60 Blaster):** Soot-covered, stone-deaf dwarven demolitions veteran camping at Floor 60.
-  - *Real-world Wound:* Deafened in a tunnel collapse and discarded by the guild; stays underground because explosions are the only sound he still feels.
-  - *Comfort Dish:* **Spiced Firefruit Liquor**. Sells discount Blasting Charges at 2 Hearts; reveals hidden gold veins at 6 Hearts; gifts Steam Core Drill at 8 Hearts.
-* **Vael (Floor 90 Deep Diver):** Reticent diver in a vulcanized fish-skin drysuit exploring high-pressure flooded rifts.
+### ⛏️ Surface Quarry & Mine Entrance Camps (Surface)
+* **Old Gomer (Surface Quarry Blaster):** Soot-covered, stone-deaf dwarven demolitions veteran camping by the surface mine entrance powder magazine; occasionally visits shallow shafts.
+  - *Real-world Wound:* Deafened in a tunnel collapse and discarded by the guild; stays at the quarry entrance packing explosives.
+  - *Comfort Dish:* **Spiced Firefruit Liquor**. Sells discount Blasting Charges at the surface camp at 2 Hearts; reveals hidden gold veins at 6 Hearts; gifts Steam Core Drill at 8 Hearts.
+* **Vael (Glacier Lake Shore Diver):** Camps beside the surface glacial lake sorting lichen; occasionally explores subterranean streams for luminous fish.
   - *Real-world Wound:* Traumatized after watching his entire salvage crew dragged into abyssal rifts.
-  - *Comfort Dish:* **Fermented Fruit Wine & Cavefish Roast**. Sells Anti-Slip Deep Diving Boots at 2 Hearts; opens flooded shortcut linking Floor 90 to the river at 8 Hearts.
+  - *Comfort Dish:* **Fermented Fruit Wine & Cavefish Roast**. Sells Anti-Slip Deep Diving Boots at 2 Hearts; opens submerged diving shortcut linking mountain lake to the river at 8 Hearts.
 
 ### 🌲 Forest, Marsh & Town Life
 * **Rowena (Forest Charcoal Burner):** Weathered woods-woman living in a smoke-wreathed woodland kiln shanty.
   - *Real-world Wound:* Lost husband and son to the war; retreated into deep woods to find quiet in hearth-smoke.
   - *Comfort Dish:* **Warm Oven Loaf**. Supplies x3 Duration Heartwood Charcoal at 2 Hearts; unlocks Master Ash-Retort Smelting Furnace at 8 Hearts.
-* **Old Tad (Swamp Fisher):** Toothless, bog-seasoned marsh dweller living aboard a mossy flat-bottomed skiff.
+* **Old Tad (Swamp Fisher):** Toothless, bog-seasoned marsh dweller living aboard a mossy flat-bottomed skiff on the eastern wetlands.
   - *Real-world Wound:* Lowland village flooded when downstream dam blew; now lives as a solitary marsh forager.
   - *Comfort Dish:* **Hellfire Roast Meat & Cider**. Gifts Automated Bamboo Weir Trap at 2 Hearts; gifts Thousand-Year Bamboo Rod (+25% fishing speed) at 8 Hearts.
 * **Milo (Town Rascal & Blackberry Scout):** Rowdiest boy in town, balancing atop stone walls eyeing apples.
   - *Real-world Wound:* Neglected by parents struggling to rebuild post-war lives; acts out to feel seen by adults.
   - *Comfort Dish:* **Honeyed Buns**. Stops stealing fruit and gathers windfalls at 2 Hearts; marks secret berry groves at 4 Hearts; forms Junior Scout Watch at 8 Hearts.
-* **Little Cora (Pebble Collector & Pigment Artist):** Shy little girl collecting polished stream gravel while awaiting her soldier father.
+* **Little Cora (Stream Pebble Gatherer & Wild Forager):** Shy little girl gathering polished pebbles and wild berries along stream banks while awaiting her soldier father.
   - *Real-world Wound:* Missing-in-action father; clings to the belief that stringing a thousand stones will guide him home.
-  - *Comfort Dish:* **Lotus Herbal Tea**. Gifts Lucky Pebble Bracelet (+5% dodge) at 2 Hearts; unlocks homestead wall repainting customization at 6 Hearts; heartwarming reunion when her father returns safely to The Hearth at 8 Hearts.
+  - *Comfort Dish:* **Lotus Herbal Tea**. Gifts Lucky Pebble Bracelet (+5% dodge) at 2 Hearts; marks secret stream berry patches and fish holes at 4 Hearts; joyful reunion when her father returns safely to The Hearth at 8 Hearts.

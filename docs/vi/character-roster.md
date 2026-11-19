@@ -34,8 +34,8 @@ spoiler: false
   - *6 Tim:* Đặt báo cáo dự báo thị trường lên bàn: thông báo trước nông sản/khoáng sản nào đang sốt giá để bán kiếm lời.
   - *8 Tim (Két Sắt Điền Trang):* Tự động gửi tiền nhàn rỗi vào quỹ trấn sinh lãi 3%/tuần; tự trích tiền mua củi dự trữ mùa đông.
 
-### 🪓 Cậu Phụ Tá Colm (Hậu Cần, Sơ Chế Nguyên Liệu & Cứu Hộ Mỏ Sâu)
-* **Vai trò:** Phụ tá hậu cần, chẻ củi, xay bột mì, nhặt trứng sữa và cứu hộ khẩn cấp hầm mỏ. Dùng khung xương Nam Trưởng Thành (Adult Male Rig).
+### 🪓 Cậu Phụ Tá Colm (Hậu Cần, Sơ Chế Nguyên Liệu & Chuyển Cứu Khẩn Cấp)
+* **Vai trò:** Phụ tá hậu cần, chẻ củi, xay bột mì, nhặt trứng sữa và vác cáng cứu nạn. Dùng khung xương Nam Trưởng Thành (Adult Male Rig).
 * **Nguồn gốc đời thực:** Trẻ mồ côi thời chiến, tính tình thật thà như đếm, có sức vác đá ngàn cân nhưng tay chân vụng về; từng bị chủ quịt lương và bị sập đá kẹt chân ở Tầng 15 hầm mỏ.
 * **Cách mở khóa:** Rowan cứu Colm tại Tầng 15 mỏ và cho cậu 1 món ăn ấm bụng. Cảm kích ơn cứu mạng, Colm xin về điền trang phụ việc nặng để đổi lấy chỗ ngủ ở xưởng và cơm ngày 3 bữa.
 * **Tính nết đời thường:** Bắp tay cuồn cuộn dính mùn cưa và tro than, ăn khỏe như hạm, nói năng bỗ bã; vụng về không biết nấu ăn (từng làm nổ nồi luộc trứng) nhưng bảo chẻ 50 khúc củi hay vác cáng cứu người thì làm loáng một cái; rất khoái được Rowan cho ăn ké bánh mì nướng giòn cuối ngày.
@@ -43,8 +43,8 @@ spoiler: false
   - *Mặc định:* Luôn giữ cho hộc củi cạnh lò nướng đầy ắp củi khô; vót sẵn 5 cây đuốc mỏ đặt ở cửa ra vào mỗi sáng cho Rowan.
   - *2 Tim:* Khâu tặng Rowan chiếc Ba Lô Dã Ngoại tăng thêm 6 ô chứa đồ trong hầm mỏ.
   - *4 Tim (Tự Động Sơ Chế):* Tự động xay lúa mì thành bột mịn; tự thu nhặt trứng gà và vắt sữa dê bỏ vào kho lạnh.
-  - *6 Tim (Bảo Hiểm Hầm Mỏ):* Nếu Rowan bị quái vật đánh gục ở bất kỳ tầng mỏ nào, Colm sẽ lao xuống vác cáng cứu về nhà an toàn $\rightarrow$ giữ lại 100% trang bị và quặng quý, không bị mất đồ.
-  - *8 Tim (Rương Tiếp Tế Tầng Sâu):* Đặt sẵn rương cứu hộ khẩn cấp (thuốc hồi máu, đuốc sáng, bom phá đá) tại các tầng nghỉ (Tầng 50 và 100).
+  - *6 Tim (Vác Cáng Về Giường An Toàn):* Nếu Rowan kiệt sức/ngất xỉu dưới mỏ sâu, Colm lao xuống khiêng cáng đưa về giường ngủ an toàn (tránh ngất lộ thiên/xóa save), nhưng **đồ rơi mất dưới mỏ vẫn bị mất hoàn toàn theo luật game "mất đồ là mất đồ"**.
+  - *8 Tim (Rương Tiếp Tế Dã Ngoại):* Đặt sẵn rương tiếp tế củi khô, đuốc sáng và đá mài ngay tại sân điền trang trước mỗi chuyến đi mỏ.
 
 ### 🦉 Pip (Chú Cú Lùn Đưa Thư)
 * **Vai trò:** Bạn đồng hành đưa thư & hạt giống sáng sớm.
@@ -103,14 +103,14 @@ spoiler: false
 > **Chủ đề đời thực:** Dư chấn chiến trường (PTSD), mặc cảm tội lỗi của người sống sót (Survivor's Guilt) và sự tìm lại lý do tồn tại.
 
 * **Guildmaster Thorne (50 tuổi - Hội Trưởng Hiệp Hội):**
-  - *Vết nứt tâm lý:* Cựu chỉ huy cấm vệ quân mang chân giả. Mười lăm năm trước, một phán đoán sai lầm trong hầm sâu đã khiến cả tiểu đội 18 người của ông hy sinh. Ông lập ra Đội Cứu Nạn Oakhaven với lời thề danh dự: *"Quyết không bỏ lại bất kỳ ai trong bóng tối."*
+  - *Vết nứt tâm lý:* Cựu chỉ huy cấm vệ quân mang chân giả. Mười lăm năm trước, một phán đoán sai lầm trong hầm sâu đã khiến cả tiểu đội 18 người của ông hy sinh. Ông lập ra Hiệp Hội Mạo Hiểm quản lý hợp đồng săn quái để bảo vệ thung lũng.
   - *Món ăn kết nối:* **Thịt Khô Quân Lương Tẩm Rượu Cay**.
-* **Valerie (32 tuổi - Người Trực Quầy Đồ Thất Lạc Lost & Found):**
-  - *Vết nứt tâm lý:* Cựu cung thủ thiện xạ giải ngũ vì mất thính lực một bên tai sau tiếng nổ lớn chấn động. Cô mắc chứng sợ tiếng vang lớn (PTSD), giấu mình sau bàn giấy phân loại đồ thất lạc của mạo hiểm giả.
+* **Valerie (32 tuổi - Quản Lý Quầy Đồ Thất Lạc & Mua Lại Buyback Shop):**
+  - *Vết nứt tâm lý:* Cựu cung thủ thiện xạ giải ngũ vì mất thính lực một bên tai sau tiếng nổ lớn chấn động (PTSD). Giấu mình sau bàn giấy phân loại chứng từ và lưu giữ đồ đạc dân làng lỡ tay bán nhầm.
   - *Món ăn kết nối:* **Súp Nấm Tuyết Sườn Non**.
 * **Tuyến Sự Kiện Trái Tim:**
-  - *4 Tim:* Thorne đứng lặng hàng giờ trước Bàn Thờ Cổ Tưởng Niệm ngoài bìa rừng trong ngày giỗ đồng đội; mở khóa **Bảng Bounty Săn Quái Vật Thung Lũng**.
-  - *8 Tim (Chữa Lành Người Sống Sót):* Rowan nấu mâm cơm tiếp tế chiến trường; Thorne và Valerie trút bỏ được gánh nặng quá khứ. Mở khóa **Đội Biệt Kích Cứu Hộ Hầm Sâu** (giảm 50% phí cứu nạn và bảo toàn 100% trang bị rơi vãi bằng cơm hộp tiếp tế).
+  - *4 Tim:* Mở khóa **Bảng Bounty Săn Quái Vật Thung Lũng & Hầm Sâu** (Thorne); mở **Quầy Mua Lại Đồ Bán Nhầm (Buyback)** trong 3 ngày (Valerie).
+  - *8 Tim (Giấy Phép Vực Thẳm):* Rowan nấu mâm cơm dã chiến; Thorne trao **Giấy Phép Mỏ Sâu (Clearance Seals)** mở khóa thang máy vượt đới và Cổng Vực Thẳm Vô Tận (151+); Valerie mở dịch vụ tìm lại dụng cụ quan trọng (cuốc, rìu, cần câu) bị rơi vãi trên mặt đất.
 
 ---
 
@@ -197,15 +197,15 @@ spoiler: false
 * **Tuyến sự kiện 8 Tim:** Khai trương Chợ Đêm Thứ Bảy; mở khóa các loại hạt giống nhập khẩu và công cụ độc lạ.
 
 ### 🌿 Rosemary (Người Giữ Đền Cổ Oakhaven / Bàn Thờ Cổ Đại)
-* **Vết nứt tâm lý:** Dryad - hiện thân sống của Cây Sồi Mẹ Oakhaven. Chứng kiến rừng cổ bị Khí Độc Chiến Tranh và sương mù ăn mòn rễ sâu, sợ rằng khi cây chết thì linh hồn mình cũng tan biến.
+* **Vết nứt tâm lý:** Nữ tu sĩ gắn bó với Cây Sồi Cổ Thụ, canh giữ Đền Thờ Cổ Oakhaven. Chứng kiến rừng cổ bị khí độc miasma và tro tàn chiến tranh ăn mòn rễ sâu, sợ rằng khi cây mẹ khô héo, cội nguồn Oakhaven cũng tan biến.
 * **Món ăn ký ức:** **Trà Sen Bách Diệp & Hạt Sen Sấy**.
 * **Tuyến sự kiện 8 Tim:** Cùng Rowan dâng đại tiệc thanh tẩy Bàn Thờ Cổ; mở khóa **Bàn Thờ Cổ Đại (Ancient Memorial Altars)** và giải phóng đất hoang.
 
-### 🛡️ Valerius (Hiệp Sĩ Lưu Đày) & 🔮 Morrigan (Phù Thủy Ẩn Dật)
-* **Valerius:** Cựu chỉ huy cận vệ hoàng gia bị vu oan tội phản quốc sau khi vạch trần tham nhũng triều đình; khách trọ bão tuyết chọn ở lại làm Đội Trưởng Dân Quân Oakhaven.
+### 🛡️ Valerius (Cựu Kỵ Sĩ Hoàng Gia Lưu Đày) & 🔮 Morrigan (Phù Thủy Ẩn Dật)
+* **Valerius:** Cựu chỉ huy cận vệ hoàng gia Solaria bị vu oan phản quốc; lập **Võ Đường Đèo Núi** ở rìa mặt đất thung lũng.
   - *Món ăn:* **Bít Tết Nướng Than Sồi & Bò Hầm Rượu Vang**.
-  - *Cơ chế Gameplay:* Gác cổng ban ngày; mở **Võ Đường Huấn Luyện Chiến Đấu** dạy kỹ năng Đỡ Đòn Phản Công (Parry) ở 4 Tim và Master Parry ở 8 Tim.
-* **Morrigan:** Nữ phù thủy đầm lầy bị cả thế giới xua đuổi vì ngoại hình đáng sợ; bề ngoài gai góc nhưng âm thầm cứu chữa thú rừng.
+  - *Cơ chế Gameplay:* Huấn luyện kỹ thuật **Đỡ Đòn Phản Công (Parry)** ở 4 Tim; Master Parry và tăng 20% tốc độ hồi thể lực ở 8 Tim; mở lòng tha thứ cho cấp dưới cũ Hester.
+* **Morrigan:** Nữ phù thủy đầm lầy bị cả thế giới xua đuổi vì ngoại hình hắc ám; bề ngoài gai góc nhưng âm thầm cứu chữa thú rừng.
   - *Món ăn:* **Trà Bạc Hà Sương Giá & Quả Mọng Rừng**.
   - *Cơ chế Gameplay:* Bào chế **Độc Dược Tẩm Vũ Khí** mỏ sâu ở 4 Tim; mở khóa công thức **Thần Dược Cường Hóa Bạo Kích** và thuốc giải độc miasma ở 8 Tim.
 
@@ -213,12 +213,12 @@ spoiler: false
 
 ## 4. Vương Quốc Lân Cận & Cõi Giới Xa Xôi
 
-### ⚒️ Khaz-Drakor (Đại Đô Thị Người Lùn)
+### ⚒️ Khaz-Drakor (Đại Đô Thị Miền Núi Cao)
 * **Grimhild (Nữ Hoàng Lò Rèn):** Mẹ nuôi của Boris và Bram, nữ thợ rèn huyền thoại dằn vặt 15 năm vì sự hà khắc đã đẩy hai con ra đi.
   - *Món ăn:* **Dwarf Ironforge Goulash**. Mở khóa rèn trang bị **Mithril Cổ Đại** ở 8 Tim.
 * **Cogsworth (Kỹ Sư Hơi Nước):** Dwarf trẻ bị gia tộc tẩy chay vì mê máy móc thay vì đe rèn; người duy nhất giải mã được tiếng Chrono.
   - *Món ăn:* **Khoai Tây Nướng Bơ Tỏi**. Chế tạo **Vòi Tưới Tự Động** ở 4 Tim; mở khóa **Tuyến Xe Goong Minecart Express** ở 8 Tim.
-* **Ember (Đầu Bếp Kỳ Nhông Lửa):** Đầu bếp kỳ nhông bị cấm cửa ở các kinh đô vì định kiến chủng tộc; đối thủ ẩm thực thân thiện của Rowan.
+* **Ember (Đầu Bếp Kỳ Nhông Núi):** Đầu bếp kỳ nhông bị cấm cửa ở các kinh đô vì định kiến chủng tộc; đối thủ ẩm thực thân thiện của Rowan.
   - *Món ăn:* **Thịt Nướng Lửa Địa Ngục**. Giao lưu gia vị lửa ở 4 Tim; chuyển giao **Trạm Nướng Lửa Magma Cực Hạn** ở 8 Tim.
 * **Chrono:** Người máy đồng hồ cổ đại còn sót lại từ nền văn minh đã mất. Vận hành **Tháp Chuông Thị Trấn** báo giờ ăn và hiển thị đồng hồ đếm ngược buff trên HUD ở 4 Tim; chuông ngân tăng 20% doanh thu quán tại 8 Tim.
 
@@ -234,47 +234,48 @@ spoiler: false
 ### 🏯 Solaria (Kinh Đô Ánh Sáng)
 * **Iris (Sử Gia Hoàng Gia):** Nữ học giả tóc auburn ôm chồng sách cao quá đầu; đấu tranh giữa kiểm duyệt hoàng cung và khát vọng chép lại sự thật lịch sử.
   - *Món ăn:* **Trà Bá Tước Earl Grey & Bánh Quy Gừng**. Mở dịch vụ **Giám Định Cổ Vật Mỏ Sâu** ở 4 Tim; hoàn thiện **Viện Bảo Tàng Lịch Sử Thung Lũng** ở 8 Tim.
-* **Valen (Quý Tộc Ma Cà Rồng Ăn Chay):** Khách VIP thuê phòng lầu 2; đặt tiệc tráng miệng và rượu vang thảo mộc nửa đêm với giá gấp đôi ở 4 Tim; mở hợp đồng tiệc đêm Lâu Đài Cổ ở 8 Tim.
+* **Valen de Montfort (Quý Tộc Lưu Vong Bệnh Máu Hiếm):** Quý tộc Solaria lánh nạn triều đình, thuê phòng kín lầu 2 The Hearth; mắc chứng bệnh huyết khí mãn tính.
+  - *Món ăn:* **Rượu Quả Mọng Lên Men Đậm Đặc**. Đặt các mẻ rượu bổ huyết giá gấp đôi ở 4 Tim; ký khế ước ngoại giao kinh đô tại 8 Tim.
 * **Kassandra (Phù Thủy Gió Lưu Vong):** Mở dịch vụ **Sky Express Chuyển Phát Hỏa Tốc** nguyên liệu liên 5 đại vực trong 2 giờ ở 4 Tim; tặng Rowan **Chổi Bay Tốc Hành** ở 8 Tim.
 
 ### ✨ Aethelgard (Thiên Giới Biển Mây)
 * **Solace (Linh Thể Hộ Tinh):** Linh thể ánh sao gác cổng thiên giới hàng ngàn năm, đã quên mất bản thân từng là một đầu bếp thời sơ khai; chỉ nhớ lại khi ngửi thấy hương trà sen của Rowan.
   - *Món ăn:* **Trà Sen An Thần**. Hồi phục ký ức cổ xưa và mở khóa vĩnh viễn **Cổng Trời Aethelgard** liên kết 5 đại vực tại 8 Tim.
-* **Lapis (Nàng Tiên Cá Hồ Ngầm):** Bơi từ Biển Sương Mù ghé thăm các suối ngầm cao nguyên; giao thương muối khoáng pha lê ở 4 Tim và cung cấp ngọc trai phát quang kháng độc ở 8 Tim.
+* **Lapis (Nàng Tiên Cá Vịnh Sương Mù):** Bơi từ Biển Sương Mù ghé thăm các con lạch ven thung lũng; giao thương muối khoáng pha lê ở 4 Tim và cung cấp ngọc trai phát quang kháng độc ở 8 Tim.
 
 ---
 
-## 5. Khách Trọ, Thợ Mỏ Tầng Sâu & Cư Dân Biên Viễn (Frontier Guests & Specialists)
+## 5. Khách Trọ, Cửa Hầm Mỏ & Cư Dân Biên Viễn (Frontier Guests & Specialists)
 
 ### 🧳 Dãy Phòng Trọ Áp Mái The Hearth
 * **Lão Silas (Lái Buôn Xe Lừa):** Lão lái buôn gầy nhẳng cùng con lừa già hay dở chứng, thuê phòng trọ The Hearth từ Thứ Năm đến Thứ Bảy. Mở rương bán các loại hạt giống lạ và gia vị quý từ phương xa.
   - *Vết nứt:* Mất trắng đoàn buôn thời chiến, bươn chải tuổi già cùng con lừa trung thành.
   - *Món ăn:* **Bánh Mì Brioche Men Bơ & Rượu Táo Ấm**. Giảm 15% giá hàng hiếm ở 2 Tim; ký hợp đồng cung ứng định kỳ hàng tuần cho điền trang ở 8 Tim.
-* **Hiệp Sĩ Hester (Cựu Kỵ Sĩ Ẩn Danh):** Lính đào ngũ trùm áo choàng kín mít trong phòng trọ góc khuất; mang tay nghề phục chế giáp trụ quân dụng đỉnh cao.
+* **Hiệp Sĩ Hester (Cựu Kỵ Sĩ Ẩn Danh):** Lính đào ngũ trùm áo choàng kín mít trong phòng trọ góc khuất; từng là cấp dưới của Valerius tại Solaria.
   - *Vết nứt:* Mặc cảm tội lỗi chiến tranh khi chứng kiến thảm sát; luôn sống trong nỗi sợ bị truy nã.
-  - *Món ăn:* **Bít Tết Nướng Than Sồi**. Gia cố giáp trụ (+10 DEF) ở 2 Tim; trao lại Thanh Kiếm Kỵ Sĩ Bỏ Rơi huyền thoại ở 8 Tim.
-* **Cô Thợ Dệt Mae (Thợ Dệt Du Mục):** Ghé thung lũng vào mùa Thu và Đông, ngồi đan len bên lò sưởi The Hearth.
+  - *Món ăn:* **Bít Tết Nướng Than Sồi**. Gia cố giáp trụ (+10 DEF) ở 2 Tim; phục chế độ bền vũ khí và giáp trụ ở 4 Tim; hóa giải quá khứ với Valerius ở 6 Tim; trao lại Thanh Kiếm Kỵ Sĩ Bỏ Rơi ở 8 Tim.
+* **Cô Thợ Dệt Mae (Nghệ Nhân Nội Thất Du Mục):** Ghé thung lũng vào mùa Thu và Đông, ngồi đan dệt bên lò sưởi The Hearth.
   - *Vết nứt:* Gia tộc du mục ly tán sau chiến loạn; đi khắp nơi dệt áo ấm tìm kiếm tung tích người thân.
-  - *Món ăn:* **Trà Thảo Mộc Rừng & Quả Mọng**. Thu mua lông cừu giá cao +30% ở 2 Tim; tặng Khung Dệt Len Điền Trang tự động ở 4 Tim; mở khóa bộ sưu tập thảm thủ công ở 8 Tim.
+  - *Món ăn:* **Trà Thảo Mộc Rừng & Quả Mọng**. Thu mua lông cừu giá cao +30% ở 2 Tim; tặng Khung Dệt Len tự động ở 4 Tim; cung cấp trọn gói chăn ga đệm ấm và thảm len hoàn thiện cho phòng trọ ở 8 Tim.
 
-### ⛏️ Trạm Nghỉ Hầm Mỏ Tầng Sâu (Tầng 60 & 90)
-* **Lão Gomer "Thuốc Nổ" (Chuyên Gia Nổ Mìn Tầng 60):** Lão thợ nổ người lùn tai điếc đặc, râu tóc cháy khét mùn than, cắm trại tại Trạm Nghỉ Tầng 60.
-  - *Vết nứt:* Điếc tai sau tai nạn sập hầm, bị trục xuất khỏi bang hội mỏ; bám trụ dưới lòng đất vì chỉ có tiếng nổ mới khiến lão thấy mình còn sống.
+### ⛏️ Cửa Hầm Mỏ & Hẻm Đá Mặt Đất (Mặt Đất)
+* **Lão Gomer "Thuốc Nổ" (Kho Thuốc Nổ Cửa Hầm Mỏ):** Lão thợ nổ người lùn tai điếc đặc, râu tóc cháy khét mùn than, cắm lều tại Lán trại Cửa Mỏ trên mặt đất; thi thoảng vào các tầng nông kiểm tra mạch đá.
+  - *Vết nứt:* Điếc tai sau tai nạn sập hầm, bị trục xuất khỏi bang hội mỏ; bám trụ cửa mỏ nhồi thuốc nổ mưu sinh.
   - *Món ăn:* **Rượu Trái Cây Lên Men Cay**. Bán Bom Mỏ Tự Chế giá rẻ ở 2 Tim; chỉ mạch quặng vàng ngầm ở 6 Tim; tặng Máy Khoan Hơi Nước cầm tay ở 8 Tim.
-* **Thợ Lặn Vael (Thợ Lặn Hồ Ngầm Tầng 90):** Thợ lặn lầm lì trong bộ đồ da cá kín mít, chuyên lặn xuống các hồ nước ngầm áp suất cao mò cổ vật và bắt cá mù dạ quang.
+* **Thợ Lặn Vael (Trại Lặn Hồ Băng Chân Núi):** Cắm trại bên bờ hồ băng chân núi lộ thiên, mặc đồ da cá kín mít; thi thoảng lặn xuống các nhánh suối ngầm săn cá mù dạ quang.
   - *Vết nứt:* Ám ảnh tột cùng sau khi toàn bộ đội lặn bị quái thú vực sâu nuốt chửng.
-  - *Món ăn:* **Rượu Trái Cây Lên Men & Cá Cổ Đại Nướng**. Bán Ủng Lội Nước Sâu chống trượt ở 2 Tim; mở lối ngầm nối hồ tầng 90 ra sông ngoài ở 8 Tim.
+  - *Món ăn:* **Rượu Trái Cây Lên Men & Cá Cổ Đại Nướng**. Bán Ủng Lội Nước Sâu chống trượt ở 2 Tim; mở lối lặn ngầm nối hồ chân núi ra sông ngoài ở 8 Tim.
 
 ### 🌲 Rừng Rậm, Đầm Lầy & Thị Trấn
 * **Bà Rowena "Tro Than" (Bà Đốt Than Rừng Sâu):** Sống trong chòi đốt than ở bìa Rừng Thầm Thì, mặt mũi lúc nào cũng quẹt nhọ nồi đen sì.
   - *Vết nứt:* Mất chồng con trong chiến tranh biên viễn; trốn vào rừng làm bạn với khói than để quên quá khứ.
   - *Món ăn:* **Bánh Mì Nướng Nóng**. Cung cấp Than Rừng Già cháy x3 thời gian ở 2 Tim; mở khóa Lò Nung Than Tro Trấu cao cấp ở 8 Tim.
-* **Lão Tad "Bẫy Lươn" (Lão Ngư Dân Đầm Lầy):** Lão già sống trên thuyền nan mục nát, răng sún, người tanh nồng mùi bùn ven đầm lầy phía Đông.
+* **Lão Tad "Bẫy Lươn" (Lão Ngư Dân Đầm Lầy):** Lão già sống trên thuyền nan mục nát ven đầm lầy phía Đông, răng sún, người tanh nồng mùi bùn.
   - *Vết nứt:* Quê nhà bị lũ cuốn trôi sau khi vỡ đập chiến tranh; phiêu dạt về đầm lầy sống đời cô độc.
   - *Món ăn:* **Thịt Nướng Lửa Địa Ngục & Rượu Cay**. Tặng Đó Tre Bắt Cá Tự Động ở 2 Tim; tặng Cần Câu Trúc Ngàn Năm tăng 25% tốc độ câu ở 8 Tim.
 * **Cậu Bé Milo (Chuyên Gia Trộm Táo & Trinh Sát):** Đứa trẻ nghịch ngợm nhất trấn, chuyên trèo tường rào rình trộm dâu tây và táo của điền trang.
   - *Vết nứt:* Cha mẹ bận bươn chải bỏ bê; quậy phá để được người lớn chú ý.
   - *Món ăn:* **Bánh Nướng Mật Ong**. Giúp nhặt quả rụng ở 2 Tim; chỉ các bụi quả mọng bí mật ở 4 Tim; lập Đội Thám Tử Nhí báo tin thú hoang ở 8 Tim.
-* **Bé Hạt Dẻ Cora (Cô Bé Nhặt Đá Cuội & Nhuộm Màu):** Cô bé nhút nhát nhặt đá cuội ngũ sắc ven suối xâu vòng tay, đợi cha đi lính trở về.
-  - *Vết nứt:* Thương nhớ người cha mất tích nơi tiền tuyến; tin rằng xâu đủ 1,000 viên đá đẹp thì cha sẽ về.
-  - *Món ăn:* **Trà Thảo Mộc Búp Sen**. Tặng Vòng Tay Đá Cuội may mắn (+5% né đòn) ở 2 Tim; mở khóa tính năng sơn đổi màu tường nhà điền trang ở 6 Tim; tin báo cha bình an trở về đoàn tụ tại The Hearth ở 8 Tim.
+* **Bé Hạt Dẻ Cora (Bé Hái Dâu & Nhặt Đá Bờ Suối):** Cô bé nhút nhát lang thang nhặt đá cuội và hái dâu dại ven bờ suối, chờ đợi người cha đi lính chưa về.
+  - *Vết nứt:* Thương nhớ người cha bặt vô âm tín nơi tiền tuyến; tin rằng xâu đủ 1,000 viên đá đẹp thì cha sẽ bình an trở về.
+  - *Món ăn:* **Trà Thảo Mộc Búp Sen**. Tặng Vòng Tay Đá Cuội may mắn (+5% né đòn) ở 2 Tim; chỉ điểm các hốc cá bống và bụi dâu dại ở 4 Tim; tin báo cha bình an trở về đoàn tụ tại The Hearth ở 8 Tim.

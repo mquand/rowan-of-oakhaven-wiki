@@ -10,6 +10,9 @@
 >    - **Quy tắc Asset thực tế:** Luôn bám sát bài toán khả thi pixel art 2D Godot (phân cấp 3 tầng nhân vật Tier 1 Core, Tier 2 Dịch vụ, Tier 3 Quần chúng; dùng chung body rigs & emote bubbles, tránh phình to asset).
 >    - **Quy tắc Chống Văn Mẫu ChatGPT:** Cấm văn sáo rỗng, sến súa, tự sự self-help triết lý "chữa lành/hàn gắn tâm hồn". Nhân vật phải mộc mạc, thực tế, có tật xấu đời thường (cơm áo gạo tiền, đau nhức khớp, cằn nhằn, bảo thủ). Dark Cozy thể hiện qua hành động cụ thể, không dùng văn mẫu giáo điều.
 > 6. **Đường dẫn luôn tương đối từ gốc repo** (`docs/...`, `src/...`). Tuyệt đối không hardcode đường dẫn tuyệt đối (`file:///Users/...`, `D:\...`, `C:\...`).
+> 7. **Quy Tắc Báo Cáo Sự Cố & Chống Để User Chờ Lâu (Mandatory Proactive Reporting & Zero Silent Stalling):**
+>    - Khi thực thi bất kỳ lệnh build, kiểm thử, script hoặc tác vụ nào: nếu lệnh **chạy không được, thất bại, phát sinh lỗi, bị treo/chậm bất thường (hang/stall) hoặc kéo dài quá lâu (quá 30 giây mà không tiến triển rõ rệt)**, Agent **BẮT BUỘC PHẢI DỪNG LẠI VÀ BÁO CÁO NGAY CHO USER**.
+>    - **TUYỆT ĐỐI CẤM** im lặng chờ đợi lệnh chạy nền vô định, cấm để mặc màn hình hoặc bắt user phải chờ đợi sốt ruột mà không có cập nhật rõ ràng. Phải phân tích ngay nguyên nhân gây nghẽn, báo cáo trung thực và đề xuất giải pháp xử lý.
 
 ---
 
