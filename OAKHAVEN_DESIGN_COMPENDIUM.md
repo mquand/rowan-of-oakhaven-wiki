@@ -337,4 +337,39 @@ Thức ăn dã chiến được đóng gói tại Bàn Đóng Gói (góc bếp T
   - Giữ nguyên 100% chỉ số buff chiến đấu (Công, Thủ, Tốc, Kháng nguyên tố) và bán đúng 100% giá niêm yết.
 - **Nhóm Thực Phẩm Bảo Quản (Preserved Provisions):** Thịt hun khói, phô mai ủ hầm gác mái, lươn sấy khô, bánh quy nướng nứt nham — bản chất khô ráo không bao giờ nguội, chuyên dùng dự trữ thám hiểm 150 tầng mỏ.
 
+### 12.4. Hệ Sinh Thái Nhiệm Vụ Đa Tầng (Layered Quest Ecosystem) & Mở Khóa Độc Bản
+Nhằm kiến tạo chiều sâu gameplay và triệt tiêu lối mòn "chạy việc vặt nhạt nhẽo" (fetch quests), hệ thống nhiệm vụ được phân thành **5 Phân Loại Trọng Tâm**, nơi các nhiệm vụ khó mở khóa trực tiếp các **Thành Tựu Ẩn**, **Công Thức Thất Truyền**, **Bản Vẽ Cơ Khí**, **Kỷ Vật Ba Lô Thụ Động (Passive Relics)** và **Đồ Trang Trí Nội Thất Tăng Điểm Ấm Cúng (Cozy Rating)**:
+
+1. **Nhánh Thường Nhật & Tương Trợ Dân Sinh (Routine Errands):** 
+   - Đơn lặt vặt của 51 cư dân đăng tải vào Thứ Hai và Thứ Năm trên Bảng Gỗ Hiên Quán The Hearth.
+   - Thù lao: Vàng tiêu vặt (50g - 250g), điểm thân mật (+100 Tim), hạt giống rau mùa vụ, rau củ gia vị phụ.
+2. **Nhánh Môi Trường Khắc Nghiệt & Cứu Hộ Dã Ngoại (Hazard & Frontier Survival):** 
+   - Kích hoạt vào ngày bão tuyết, mưa lũ, sương mù độc hoặc sự cố sập vách mỏ tầng sâu. Yêu cầu giao hộp cơm Bento nóng hổi trước giờ giới nghiêm hoặc giải cứu nạn nhân mắc kẹt.
+   - Phần thưởng: Kỷ vật chống rét, áo choàng dã chiến, bản vẽ balo cách nhiệt, thành tựu ẩn.
+3. **Nhánh Chuỗi Khúc Mắc Lâu Năm & Hóa Giải Quá Khứ (Grounded Multi-Stage Narrative Questlines):** 
+   - Các chuỗi nhiệm vụ 3 giai đoạn khai thác góc khuất tâm lý hậu chiến mộc mạc của các cặp nhân vật (Boris & Bram mâu thuẫn xưởng rèn mộc; Hester & Valerius về lời thề vệ binh danh dự; Valen de Montfort trốn chạy tai mắt Solaria...).
+   - Phần thưởng: Bàn chế tác cơ khí liên hoàn, bàn cờ gỗ sồi tăng Cozy Rating, công thức quý tộc Solaria.
+4. **Nhánh Tiễu Phạt Thợ Săn Tinh Anh & Trảm Warden Kèm Ràng Buộc (Tactical Warden & Cavern Bounties):** 
+   - Niêm yết tại Bảng Tiền Đồn Mỏ. Hạ gục Boss Warden Tầng 30, 70, 110, 150 với điều kiện chiến thuật nghiêm ngặt (Master Parry 15 lần, không dùng bình thuốc Maeve, chỉ dựa vào buff đồ ăn Bento, hoàn thành trong thời gian thanh miasma dưới 50%).
+   - Phần thưởng: Huy Hiệu Cứu Viện, Đầu lâu quái vật tinh anh trưng bày lò sưởi (+Cozy Rating), danh hiệu hồ sơ độc bản.
+5. **Nhánh Đại Lễ Cầu Siêu & Giải Phóng Đất Hoang (Ancient Altar Cleansing & Land Reclamation):** 
+   - Người Giữ Đền Rosemary chủ trì tại 4 Bàn Thờ Cổ Đại (4 mùa Xuân - Hạ - Thu - Đông). Nấu mâm đại tiệc thanh lọc 5 món chuẩn 3 Sao dâng lên bệ thờ lúc nửa đêm và chống đỡ đợt linh hồn chiến trận thức tỉnh.
+   - Phần thưởng: Thanh tẩy vĩnh viễn bãi chiến trường tro tàn thành **Vườn Thảo Dược Vĩnh Cửu** (cây trồng không héo úa theo mùa), Lư hương đồng cổ đại (+Tối đa Cozy Rating), Công thức Trà Tẩy Trần Ngàn Năm.
+
+### 12.5. Danh Mục Nhiệm Vụ Khó Điển Hình & Ma Trận Phần Thưởng Mở Khóa Độc Quyền
+
+| Mã & Tên Nhiệm Vụ | NPC Giao | Điều Kiện Thử Thách Khắc Nghiệt | Phần Thưởng Độc Quyền Mở Khóa |
+| :--- | :--- | :--- | :--- |
+| **Q-HAZ-01: Bát Canh Bão Tuyết Lên Đèo** | Hiệp Sĩ Hester | Giao 1 Cặp lồng sơn mài *Súp Bí Đỏ Gừng Củ* lên chòi đèo tuyết lúc 20:00 - 23:00 đêm bão tuyết; không để ngất vì cóng lạnh. | 🏆 Thành tựu ẩn: `ACH_BLIZZARD_RUNNER` *(Người Vượt Bão Tuyết)*<br/>🧿 Kỷ vật: *Khăn Len Cũ Của Hester* (giảm 50% tụt Stamina khi làm việc dưới mưa tuyết)<br/>🛋️ Trang trí: *Bản Đồ Hành Quân Cổ* (+10 Cozy). |
+| **Q-HAZ-02: Khí Độc Đáy Hồ Băng** | Thợ Lặn Vael | Lặn đáy hồ mỏ tầng 85 thu thập 3 Băng Tinh Ngàn Năm trong lúc thanh miasma dâng cao; không dùng bình thở dự phòng. | 🏆 Thành tựu ẩn: `ACH_DEEP_DIVER` *(Thợ Lặn Vực Sâu)*<br/>📜 Bản vẽ: *Bộ Lọc Hơi Nước Mỏ Sâu* (miễn nhiễm miasma 5 phút)<br/>🛋️ Trang trí: *Vỏ Ốc Băng Phát Quang* (+12 Cozy). |
+| **Q-HAZ-03: Sập Vách Hầm Lò Đêm** | Lão Gomer | Vận chuyển 15 Cơm Nắm Nướng Mỡ Hành (Hộp Thiếc) cứu viện toán thợ mỏ mắc kẹt tầng 45 trong vòng 1 ngày. | 🏆 Thành tựu ẩn: `ACH_MINE_SAVIOR` *(Cứu Tinh Thợ Mỏ)*<br/>📜 Bản vẽ: *Máy Khoan Hơi Nước Cầm Tay Gomer* (đào đá nhanh x2, -50% Stamina)<br/>💰 800g + 10x Thuốc Nổ Bộc Phá. |
+| **Q-LORE-01: Lò Rèn & Thước Gỗ (Boris & Bram)** | Boris & Bram | Tìm lại *Bản Vẽ Xưởng Rèn Liên Hoàn Thất Lạc* tại Tầng 65 mỏ; phục vụ món *Bánh Mì Nướng Men Rượu Táo* cho cả hai tại The Hearth. | 🏆 Thành tựu ẩn: `ACH_ANVIL_AND_TIMBER` *(Lò Rèn Cùng Thước Gỗ)*<br/>📜 Bản vẽ: *Bàn Chế Tác Cơ Khí Liên Hoàn* (-20% nguyên liệu rèn/gỗ)<br/>🛋️ Trang trí: *Bàn Cờ Gỗ Sồi Của Hai Lão Già* (+15 Cozy). |
+| **Q-LORE-02: Bóng Đêm Hoàng Tộc Solaria** | Valen de Montfort | Nấu *Súp Bổ Máu Củ Dền Thảo Mộc 3 Sao* trong Cặp lồng sơn mài; lén giao lên phòng kín lầu 2 sau 23:00; né tránh lính tuần tra. | 🏆 Thành tựu ẩn: `ACH_SOLARIA_SHADOW` *(Bóng Đêm Solaria)*<br/>📜 Công thức gia truyền: *Súp Bổ Máu Solaria* (Hồi 100 HP, +20% Kháng Vật Lý)<br/>🛋️ Trang trí: *Bộ Dao Nĩa Bạc Hoàng Triều* (+20 Cozy, hút khách sang). |
+| **Q-LORE-03: Chiếc Cúc Áo Người Lính Cũ** | Bé Cora | Lặn mò ven suối tìm chiếc Cúc Áo Bạc Quân Đội của cha Cora bị lũ cuốn; làm 1 đĩa Bánh Quy Hạt Phỉ an ủi bé. | 🏆 Thành tựu ẩn: `ACH_PROMISE_BY_STREAM` *(Lời Hứa Bờ Suối)*<br/>🧿 Kỷ vật: *Vòng Đá Cuội Bảy Màu May Mắn* (+5% Tỉ lệ Né đòn vĩnh viễn)<br/>🛋️ Trang trí: *Bức Tranh Bờ Suối Vẽ Tay Của Cora* (+10% khách tip thêm). |
+| **Q-LORE-04: Sổ Môn Không Thể Xóa** | Bác Barnaby | Đòi lại 1,200g nợ mua rượu cũ từ 3 khách trọ quịt nợ dạt ra bìa rừng; hoặc tự bù tiền nếu thương hại họ. | 🏆 Thành tựu ẩn: `ACH_DEBT_COLLECTOR` *(Tay Hòm Chìa Khóa)*<br/>🧿 Kỷ vật: *Sổ Ghi Nợ Bọc Da Của Barnaby* (xem trước biến động giá nông sản/quặng ngày mai)<br/>💰 Barnaby chia 30% tiền nợ thu hồi. |
+| **Q-HUNT-01: Bức Tường Thép Trước Warden Bọ** | Hiệp Sĩ Hester | Tiêu diệt Warden Bọ Hung Tầng 80 với điều kiện thực hiện tối thiểu 12 lần Master Parry chuẩn xác; HP không tụt dưới 80%. | 🏆 Thành tựu ẩn: `ACH_PARRY_MASTER` *(Bậc Thầy Đỡ Đòn)*<br/>🛋️ Trang trí: *Đầu Lâu Warden Bọ Hung Mạ Vàng* (treo tường The Hearth, +15% tip từ thợ mỏ)<br/>⚔️ Danh hiệu: *"Bức Tường Thép Oakhaven"*. |
+| **Q-HUNT-02: Bữa Tiệc Sinh Tồn Dung Nham** | Hội Trưởng Thorne | Quét sạch 3 tầng Đới Dung Nham (71-73) không dùng bình thuốc Maeve; chỉ sống sót bằng buff từ Cơm hộp dã chiến mang theo. | 🏆 Thành tựu ẩn: `ACH_IRON_STOMACH` *(Sinh Tồn Ẩm Thực)*<br/>📜 Bản vẽ: *Ba Lô Cách Nhiệt Dã Ngoại* (+8 ô chứa đồ, giữ thức ăn tươi gấp đôi)<br/>🏅 15x Huy Hiệu Cứu Viện. |
+| **Q-ALTAR-01: Khúc Ca Cầu Siêu Tiết Xuân Phân** | Rosemary | Nấu mâm đại tiệc 5 món Xuân (Cải thìa xào nấm sao, Canh củ sen tuyết...) dâng Bàn Thờ Cổ lúc nửa đêm; trảm 3 đợt Hồn Ma Miasma. | 🏆 Thành tựu ẩn: `ACH_ASHES_TO_BLOOM` *(Hóa Giải Tro Tàn)*<br/>🌱 Mở khóa: *Vườn Thảo Dược Vĩnh Cửu Bìa Rừng* (trồng thảo mộc quanh năm)<br/>🛋️ Trang trí: *Lư Hương Đồng Bàn Thờ Cổ* (+25 Cozy Rating, max cấp). |
+
+
 

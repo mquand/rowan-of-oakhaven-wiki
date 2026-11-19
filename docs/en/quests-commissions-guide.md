@@ -108,7 +108,36 @@ To safely transport prepared meals into deep mine shafts or distant frontier che
 
 ---
 
-## 4. Turn-In Options
+## 4. Layered Quest Ecosystem & Exclusive Unlocks
+
+To eliminate boring fetch quests and provide genuine roleplay immersion, the commission system expands into **5 Focused Archetypes**, where high-difficulty assignments unlock **Secret Achievements**, **Lost Recipes**, **Machinery Blueprints**, **Passive Relics**, and **Cozy Tavern Furniture**:
+
+1. **Routine Errands & Neighborhood Aid:** Daily chores from 51 villagers posted Mondays & Thursdays at The Porch Notice Board. Rewards: Pocket gold (50g - 250g), +100 Friendship Points, seasonal seeds, fresh produce.
+2. **Hazard & Frontier Survival:** Rush hot Bento packs to mountain lookouts during blizzards, dive glacial lakes for frost crystals, provide emergency rations for mine cave-ins. Rewards: Cold-weather relics, insulated rucksacks, secret achievements.
+3. **Grounded Multi-Stage Narrative Questlines:** 3-stage personal storylines resolving long-standing post-war grudges (Boris & Bram's joint workshop schism, Valen de Montfort's exile evasion, Barnaby's tavern debt recovery). Rewards: Combined forge-carpentry workbench, oak chessboards, Solarian silver dining sets (+Cozy Rating).
+4. **Tactical Warden & Cavern Bounties:** Floor 30, 70, 110, 150 Warden hunts with strict tactical constraints (12 Master Parries, no healing flasks, sole reliance on food buffs, under 50% miasma threshold). Rewards: Trophy skulls for the tavern mantle, prestigious player titles.
+5. **Ancient Altar Cleansing & Land Reclamation:** Rosemary's seasonal rituals across 4 Ancient Altars. Cook 5-course 3-Star banquets offered at midnight, fighting off restless battle spirits. Rewards: Permanent **Perpetual Herb Garden**, Ancient Bronze Censer (+Max Cozy Rating), Lost Thousand-Year Purifying Tea recipe.
+
+---
+
+### Exemplary High-Tier Commissions & Exclusive Unlocks
+
+| ID & Quest Name | Client | Severe Tactical Constraints | Exclusive Unlocks |
+| :--- | :--- | :--- | :--- |
+| **Q-HAZ-01: Blizzard Soup Run** | Knight Hester | Deliver 1 Lacquered Tiffin of *Piping-hot Ginger Squash Stew* to the mountain crest between 20:00 - 23:00 in a blizzard without collapsing. | 🏆 Secret Achievement: `ACH_BLIZZARD_RUNNER`<br/>🧿 Relic: *Hester's Threadbare Wool Scarf* (-50% Stamina drain during snowstorms)<br/>🛋️ Decor: *Ancient Campaign Map* (+10 Cozy). |
+| **Q-HAZ-02: Glacial Chasm Fumes** | Diver Vael | Dive to Floor 85 submerged caverns for 3 Glacial Crystals while miasma rises; no spare breathing bladders. | 🏆 Secret Achievement: `ACH_DEEP_DIVER`<br/>📜 Blueprint: *Deep-Mine Steam Filter* (5 min miasma immunity)<br/>🛋️ Decor: *Luminescent Glacial Conch* (+12 Cozy). |
+| **Q-HAZ-03: Midnight Cave-In Rescue** | Miner Gomer | Rush 15 Tin Boxes of Scallion Grilled Rice Balls to rescue 4 trapped miners on Floor 45 within 24 hours. | 🏆 Secret Achievement: `ACH_MINE_SAVIOR`<br/>📜 Blueprint: *Gomer's Steam Jackhammer* (2x mining speed, -50% Stamina)<br/>💰 800g + 10x Blasting Charges. |
+| **Q-LORE-01: Anvil & Timber (Boris & Bram)** | Boris & Bram | Recover lost blueprints from Floor 65; serve *Apple-Cider Toast* to both grumpy veterans at The Hearth simultaneously. | 🏆 Secret Achievement: `ACH_ANVIL_AND_TIMBER`<br/>📜 Blueprint: *Integrated Forge-Carpentry Bench* (-20% crafting costs)<br/>🛋️ Decor: *Veterans' Oak Chess Table* (+15 Cozy). |
+| **Q-LORE-02: Shadow of Solaria** | Valen de Montfort | Cook 3-Star *Solarian Beetroot Stew* in a Lacquered Tiffin; sneak into 2nd-floor private suite past 23:00 avoiding guards. | 🏆 Secret Achievement: `ACH_SOLARIA_SHADOW`<br/>📜 Lost Recipe: *Solarian Restorative Broth* (+100 HP, +20% Phys Resist)<br/>🛋️ Decor: *Imperial Silver Cutlery Set* (+20 Cozy, attracts nobles). |
+| **Q-LORE-03: The Soldier's Lost Button** | Little Cora | Dredge stream bank for her late father's silver insignia button lost to spring floods; bake Hazelnut Shortbread to comfort her. | 🏆 Secret Achievement: `ACH_PROMISE_BY_STREAM`<br/>🧿 Relic: *Seven-Color River Stone Charm* (+5% permanent Dodge Rate)<br/>🛋️ Decor: *Cora's Crayon River Drawing* (+10% patron tip frequency). |
+| **Q-LORE-04: The Permanent Ledger** | Barnaby | Reclaim 1,200g in tab arrears from 3 deadbeat squatters at forest edge; or pay out-of-pocket out of pity. | 🏆 Secret Achievement: `ACH_DEBT_COLLECTOR`<br/>🧿 Relic: *Barnaby's Leatherbound Ledger* (previews tomorrow's market prices)<br/>💰 Barnaby shares 30% collected gold. |
+| **Q-HUNT-01: Iron Bulwark vs. Rhinoceros Warden** | Knight Hester | Slay Floor 80 Rhinoceros Beetle Warden performing at least 12 timed Master Parries; finish with HP above 80%. | 🏆 Secret Achievement: `ACH_PARRY_MASTER`<br/>🛋️ Decor: *Gilded Warden Beetle Skull* (+15% delver tips at tavern)<br/>⚔️ Title: *"Oakhaven's Iron Bulwark"*. |
+| **Q-HUNT-02: Volcanic Survival Feast** | Guildmaster Thorne | Clear 3 consecutive Magma Cavern floors (71-73) with zero healing potions; survive purely on packed Bento food buffs. | 🏆 Secret Achievement: `ACH_IRON_STOMACH`<br/>📜 Blueprint: *Insulated Expedition Rucksack* (+8 slots, doubles freshness)<br/>🏅 15x Delver Rescue Insignias. |
+| **Q-ALTAR-01: Vernal Cleansing Hymn** | Rosemary | Cook 5-course Spring Cleansing Feast (Bok choy stir-fry, Lotus root soup); offer at midnight and vanquish 3 miasma spirit waves. | 🏆 Secret Achievement: `ACH_ASHES_TO_BLOOM`<br/>🌱 Unlock: *Perpetual Grove Field* (grow year-round herbs)<br/>🛋️ Decor: *Ancient Altar Bronze Censer* (+25 Cozy Rating, maximum tier). |
+
+---
+
+## 5. Turn-In Options
 
 Players have two delivery options:
 
@@ -122,7 +151,8 @@ Players have two delivery options:
 
 ---
 
-## 5. Smart Progression Guard
+## 6. Smart Progression Guard
 
 * **Contextual Gating:** Bulletins never demand resources or monsters beyond the player's current unlocked cavern stratum or tool tier (e.g., iron ore contracts will never appear before Floor 40 is reached).
 * **Penalty-Free Expiration:** Missed or expired commissions vanish harmlessly without deducting gold, points, or reputation.
+
