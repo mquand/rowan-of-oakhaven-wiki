@@ -85,19 +85,22 @@
           "level": 2,
           "title": "Morning Chirps at the Post",
           "description": "Pip delivers morning letters and nudges Rowan's hand affectionately on the porch.",
-          "reward_unlock": "Pip automatically delivers wild Whispering Forest seeds into the mailbox each dawn."
+          "reward_unlock": "Pip automatically delivers wild Whispering Forest seeds into the mailbox each dawn.",
+          "event_type": "mail"
         },
         {
           "level": 4,
           "title": "A Warm Straw Nest",
           "description": "Rowan crafts a warm straw nest under the eaves to shelter Pip from winter blizzards.",
-          "reward_unlock": "Increases Pip's chance of bringing back rare botanical seeds by 25%."
+          "reward_unlock": "Increases Pip's chance of bringing back rare botanical seeds by 25%.",
+          "event_type": "tavern_dialogue"
         },
         {
           "level": 8,
           "title": "Emissary of the Whispering Woods",
           "description": "Pip guides Rowan along a hidden shortcut into the sacred Grove of Botanicals.",
-          "reward_unlock": "Unlocks a permanent walking shortcut to the Sacred Botanical Grove and wild bee hives."
+          "reward_unlock": "Unlocks a permanent walking shortcut to the Sacred Botanical Grove and wild bee hives.",
+          "event_type": "cutscene"
         }
       ]
     },
@@ -143,13 +146,15 @@
           "level": 2,
           "title": "Ash Cushion by the Hearth",
           "description": "Mallow curls up beside the bakery oven, purring lazily after a warm fish dinner.",
-          "reward_unlock": "Passive 'Lucky Hearth' buff: Reduces cooking burn rate by 15%."
+          "reward_unlock": "Passive 'Lucky Hearth' buff: Reduces cooking burn rate by 15%.",
+          "event_type": "mail"
         },
         {
           "level": 6,
           "title": "Morning Foraging Feline",
           "description": "Mallow strolls around the farmstead and drags fresh morning herbs onto the front porch.",
-          "reward_unlock": "Increases customer gold tips by 10%; Mallow leaves foraged herbs on the porch each morning."
+          "reward_unlock": "Increases customer gold tips by 10%; Mallow leaves foraged herbs on the porch each morning.",
+          "event_type": "tavern_dialogue"
         }
       ]
     },
@@ -228,31 +233,36 @@
           "level": 2,
           "title": "Shadow Beneath the Old Maple",
           "description": "Lumi hides timidly behind an old maple; Rowan sits quietly on the moss and shares steamed rice cakes.",
-          "reward_unlock": "Unlocks family recipe: Steamed Coconut Rice Cakes."
+          "reward_unlock": "Unlocks family recipe: Steamed Coconut Rice Cakes.",
+          "event_type": "mail"
         },
         {
           "level": 4,
           "title": "Whispers of the Fox Ears",
           "description": "Lumi listens to underground springs and forest canopies to forecast seasonal shifts.",
-          "reward_unlock": "Accurately predicts rare herb and mushroom spawns based on weather and moon cycles."
+          "reward_unlock": "Accurately predicts rare herb and mushroom spawns based on weather and moon cycles.",
+          "event_type": "tavern_dialogue"
         },
         {
           "level": 6,
           "title": "Drying the Red Scarf",
           "description": "Sheltering from rain inside The Hearth, Lumi shares the pain of being shunned as a hybrid fox-elf.",
-          "reward_unlock": "Gifts Rowan family-recipe Hundred-Petal Lotus Tea infused with natural blossoms."
+          "reward_unlock": "Gifts Rowan family-recipe Hundred-Petal Lotus Tea infused with natural blossoms.",
+          "event_type": "tavern_dialogue"
         },
         {
           "level": 8,
           "title": "Path into the Deep Forest Shrine",
           "description": "Trusting Rowan completely, Lumi unbinds the thorn ward leading into the deep sanctum.",
-          "reward_unlock": "Guides Rowan into Deep Forest Shrine to gather Luminescent Mushrooms and Ancient Herbs."
+          "reward_unlock": "Guides Rowan into Deep Forest Shrine to gather Luminescent Mushrooms and Ancient Herbs.",
+          "event_type": "cutscene"
         },
         {
           "level": 10,
           "title": "Snowy Forest Vow",
           "description": "Lumi gifts Rowan a twin-woven Red Wool Scarf by Moonlit Lake; pledging lifelong companionship.",
-          "reward_unlock": "Romantic Bond unlocked; Lumi moves into the attic chamber of The Hearth."
+          "reward_unlock": "Romantic Bond unlocked; Lumi moves into the attic chamber of The Hearth.",
+          "event_type": "cutscene"
         }
       ]
     },
@@ -410,25 +420,29 @@
           "level": 2,
           "title": "The Grumbling Hammer",
           "description": "Boris hammers furiously after an argument with Bram, grumbling about his brother's reckless pride.",
-          "reward_unlock": "Unlocks tool upgrades to Copper and Iron tiers at the Smithy."
+          "reward_unlock": "Unlocks tool upgrades to Copper and Iron tiers at the Smithy.",
+          "event_type": "mail"
         },
         {
           "level": 4,
           "title": "Cinnamon Rolls for Aching Shoulders",
           "description": "Exhausted from smithing, Boris warms up as Rowan brings fresh hot cinnamon rolls to the forge.",
-          "reward_unlock": "Reduces coal consumption by 20% during metal ingot smelting."
+          "reward_unlock": "Reduces coal consumption by 20% during metal ingot smelting.",
+          "event_type": "tavern_dialogue"
         },
         {
           "level": 6,
           "title": "Tears in the Ale",
           "description": "Drunk at the tavern, Boris weeps as he confesses his terror of losing his crippled brother to the mines.",
-          "reward_unlock": "Gifts Rowan a reinforced pickaxe mold resistant to stone chipping."
+          "reward_unlock": "Gifts Rowan a reinforced pickaxe mold resistant to stone chipping.",
+          "event_type": "tavern_dialogue"
         },
         {
           "level": 8,
           "title": "Mother's Ironforge Goulash",
           "description": "Both brothers share their mother's ancestral beef goulash, healing ten years of bitter estrangement.",
-          "reward_unlock": "Unlocks Advanced Smelting Station (halves smelting time, boosts gem yield)."
+          "reward_unlock": "Unlocks Advanced Smelting Station (halves smelting time, boosts gem yield).",
+          "event_type": "cutscene"
         }
       ]
     },
@@ -552,25 +566,29 @@
           "level": 2,
           "title": "Winter Joint Aches",
           "description": "Stiffened by arthritis, Granny Maeve receives chamomile tea and herbal balm from Rowan.",
-          "reward_unlock": "Sells standard seasonal crop seeds for all 4 seasons."
+          "reward_unlock": "Sells standard seasonal crop seeds for all 4 seasons.",
+          "event_type": "mail"
         },
         {
           "level": 4,
           "title": "Securing the Trellis in the Storm",
           "description": "High winds snap bean trellises; Maeve, Kael, and Rowan work together in the rain to protect the beds.",
-          "reward_unlock": "Unlocks Four-Season Nursery (basic greenhouse to grow out-of-season vegetables)."
+          "reward_unlock": "Unlocks Four-Season Nursery (basic greenhouse to grow out-of-season vegetables).",
+          "event_type": "tavern_dialogue"
         },
         {
           "level": 6,
           "title": "Summer Midday Heatstroke",
           "description": "Maeve faints in the field; Kael rushes to Rowan for cooling herbal broths and shade.",
-          "reward_unlock": "Expands greenhouse perimeter with 12 additional tillable soil tiles."
+          "reward_unlock": "Expands greenhouse perimeter with 12 additional tillable soil tiles.",
+          "event_type": "tavern_dialogue"
         },
         {
           "level": 8,
           "title": "A Grandmother's Legacy",
           "description": "Maeve passes her ancestral pruning shears to Kael, at peace knowing the orphan boy has found family.",
-          "reward_unlock": "Grants a permanent 30% discount on all seed purchases in Oakhaven."
+          "reward_unlock": "Grants a permanent 30% discount on all seed purchases in Oakhaven.",
+          "event_type": "cutscene"
         }
       ]
     },
@@ -680,25 +698,29 @@
           "level": 2,
           "title": "Seeds Dropped in the Mud",
           "description": "Kael weeps by the ditch fearing he'll be discarded as useless; Rowan gently washes the seeds with him.",
-          "reward_unlock": "Kael gifts Rowan a pouch of wild spring wildflower seeds."
+          "reward_unlock": "Kael gifts Rowan a pouch of wild spring wildflower seeds.",
+          "event_type": "mail"
         },
         {
           "level": 4,
           "title": "Weaving Baskets for Medicine",
           "description": "Kael stays up weaving turnip baskets to earn medicine money for Granny Maeve.",
-          "reward_unlock": "Kael helps weed and water farmstead garden beds 2 days a week."
+          "reward_unlock": "Kael helps weed and water farmstead garden beds 2 days a week.",
+          "event_type": "tavern_dialogue"
         },
         {
           "level": 6,
           "title": "Nightmares of the Matchstick Nights",
           "description": "Trauma of freezing in capital blizzards resurfaces; Rowan serves a steaming bowl of sweet pumpkin stew.",
-          "reward_unlock": "Unlocks comforting culinary recipe: Heart-Warming Pumpkin Potage."
+          "reward_unlock": "Unlocks comforting culinary recipe: Heart-Warming Pumpkin Potage.",
+          "event_type": "tavern_dialogue"
         },
         {
           "level": 8,
           "title": "The Savings Ledger in Kael's Name",
           "description": "Kael finds Maeve's secret savings ledger meant for his apprenticeship, crying in her embrace.",
-          "reward_unlock": "Unlocks Automated Four-Season Seed Nursery & Breeding Station."
+          "reward_unlock": "Unlocks Automated Four-Season Seed Nursery & Breeding Station.",
+          "event_type": "cutscene"
         }
       ]
     },
@@ -742,19 +764,22 @@
           "level": 2,
           "title": "First Page of the Old Recipe Book",
           "description": "Rowan finds grandmother's diary page taped beneath the heirloom cast iron skillet.",
-          "reward_unlock": "Unlocks original heritage recipe: Forest Salted Rice Balls."
+          "reward_unlock": "Unlocks original heritage recipe: Forest Salted Rice Balls.",
+          "event_type": "mail"
         },
         {
           "level": 4,
           "title": "The Unquenched Flame",
           "description": "Amalia's spirit lingers gently in the warm chimney smoke on quiet winter evenings.",
-          "reward_unlock": "Permanently increases cooking speed by 10% and reduces stove firewood usage."
+          "reward_unlock": "Permanently increases cooking speed by 10% and reduces stove firewood usage.",
+          "event_type": "tavern_dialogue"
         },
         {
           "level": 8,
           "title": "The Hearth Legacy of Oakhaven",
           "description": "Rowan fully revitalizes the tavern; Amalia smiles peacefully before dissolving into fragrant aroma.",
-          "reward_unlock": "Grants 'Oakhaven Head Chef' title and unlocks Memorial Soul Banquet recipe."
+          "reward_unlock": "Grants 'Oakhaven Head Chef' title and unlocks Memorial Soul Banquet recipe.",
+          "event_type": "cutscene"
         }
       ]
     },
@@ -869,25 +894,29 @@
           "level": 2,
           "title": "Solitary Drink by the River",
           "description": "Bram drinks alone on the gravel bank, bitter at being treated as a helpless invalid.",
-          "reward_unlock": "Gifts Rowan Upper Mine Survey Map (Floors 1-20)."
+          "reward_unlock": "Gifts Rowan Upper Mine Survey Map (Floors 1-20).",
+          "event_type": "mail"
         },
         {
           "level": 4,
           "title": "Cold Cavern at Floor 20",
           "description": "Bitten by mine rats in dark shafts, Bram gets patched up as Rowan shares crispy dry bread.",
-          "reward_unlock": "Deep Vein Guidance (boosts rare ore spawn rate by 15%)."
+          "reward_unlock": "Deep Vein Guidance (boosts rare ore spawn rate by 15%).",
+          "event_type": "tavern_dialogue"
         },
         {
           "level": 6,
           "title": "Mother's Old Tin Box",
           "description": "Rowan rappels down a Floor 40 fissure to recover the heirloom tin box left by their mother.",
-          "reward_unlock": "Bram gifts an expertly sharpened Veteran Steel Pickaxe."
+          "reward_unlock": "Bram gifts an expertly sharpened Veteran Steel Pickaxe.",
+          "event_type": "tavern_dialogue"
         },
         {
           "level": 8,
           "title": "A Miner's Handshake",
           "description": "Drinks with brother Boris at The Hearth, standing tall as an independent miner of pride.",
-          "reward_unlock": "Unlocks Mine Elevator Waypoint Shortcuts across deep expedition biomes."
+          "reward_unlock": "Unlocks Mine Elevator Waypoint Shortcuts across deep expedition biomes.",
+          "event_type": "cutscene"
         }
       ]
     },
@@ -973,25 +1002,29 @@
           "level": 2,
           "title": "Cart Wheel in the Mud",
           "description": "Penny's pastry cart sinks into a mud rut; Rowan wedges timber under the axle to free it.",
-          "reward_unlock": "10% discount on pastries at her square cart."
+          "reward_unlock": "10% discount on pastries at her square cart.",
+          "event_type": "mail"
         },
         {
           "level": 4,
           "title": "The Fresh Pine Pastry Cart",
           "description": "Penny rebuilds her cart with pine planks, proudly serving hot pastries to miners.",
-          "reward_unlock": "Inaugurates Oakhaven Square Pastry Cart service."
+          "reward_unlock": "Inaugurates Oakhaven Square Pastry Cart service.",
+          "event_type": "tavern_dialogue"
         },
         {
           "level": 6,
           "title": "Blistered Wrists",
           "description": "Burned by hot baking trays, Penny gets treated by Rowan who finishes baking the berry batch.",
-          "reward_unlock": "Unlocks exclusive dessert recipe: Chilled Snowberry Tart."
+          "reward_unlock": "Unlocks exclusive dessert recipe: Chilled Snowberry Tart.",
+          "event_type": "tavern_dialogue"
         },
         {
           "level": 8,
           "title": "Standing on Her Own Feet",
           "description": "Financially self-reliant before uncles Boris and Bram, she launches town lunchbox logistics.",
-          "reward_unlock": "Automated Bento & Meal Delivery Service to distant work sites and mineheads."
+          "reward_unlock": "Automated Bento & Meal Delivery Service to distant work sites and mineheads.",
+          "event_type": "cutscene"
         }
       ]
     },
@@ -1082,25 +1115,29 @@
           "level": 2,
           "title": "Barefoot in the Morning Mist",
           "description": "Wandering barefoot after losing keys in morning fog, Orion is guided home safely by Rowan.",
-          "reward_unlock": "Gifts Rowan an antique Quartz Lens aiding night exploration."
+          "reward_unlock": "Gifts Rowan an antique Quartz Lens aiding night exploration.",
+          "event_type": "mail"
         },
         {
           "level": 4,
           "title": "Trajectory of the Miasma Cloud",
           "description": "Orion plots toxic mountain fog currents blowing down from northern gorges.",
-          "reward_unlock": "Unlocks 3-Day Weather Forecast Bulletin (warns of blizzards, acid rain, full moons)."
+          "reward_unlock": "Unlocks 3-Day Weather Forecast Bulletin (warns of blizzards, acid rain, full moons).",
+          "event_type": "tavern_dialogue"
         },
         {
           "level": 6,
           "title": "Constellation Elise",
           "description": "Mistaking Rowan for his late wife Elise, he whispers an unkept promise to watch meteor showers.",
-          "reward_unlock": "Gifts Celestial Almanac mapping optimal planting cycles."
+          "reward_unlock": "Gifts Celestial Almanac mapping optimal planting cycles.",
+          "event_type": "tavern_dialogue"
         },
         {
           "level": 8,
           "title": "Mother's Eternal Star",
           "description": "Before memories fade, he and Clara finish the star chart honoring Elise.",
-          "reward_unlock": "Activates recurring Falling Star Shower Events (harvest surface crystal ores)."
+          "reward_unlock": "Activates recurring Falling Star Shower Events (harvest surface crystal ores).",
+          "event_type": "cutscene"
         }
       ]
     },
@@ -1196,31 +1233,36 @@
           "level": 2,
           "title": "Tears Behind the Bookshelves",
           "description": "Rowan finds Clara weeping behind book stacks from caregiver exhaustion; offers butter biscuits and tea.",
-          "reward_unlock": "Grants access to historical Valley lore and archives in the Library."
+          "reward_unlock": "Grants access to historical Valley lore and archives in the Library.",
+          "event_type": "mail"
         },
         {
           "level": 4,
           "title": "Restoring Ancient Manuscripts",
           "description": "Dusting library shelves, Rowan and Clara carefully press mildewed ancient mine scrolls.",
-          "reward_unlock": "Unlocks Deciphering Ancient Texts & Mine Inscriptions service."
+          "reward_unlock": "Unlocks Deciphering Ancient Texts & Mine Inscriptions service.",
+          "event_type": "tavern_dialogue"
         },
         {
           "level": 6,
           "title": "The Torn Admission Letter",
           "description": "She reveals tearing up her capital academy acceptance letter to stay and care for her father.",
-          "reward_unlock": "Gifts Antique Valley Map marking freshwater wells across the terrain."
+          "reward_unlock": "Gifts Antique Valley Map marking freshwater wells across the terrain.",
+          "event_type": "tavern_dialogue"
         },
         {
           "level": 8,
           "title": "The Valley's Ancient Archives",
           "description": "Finding peace seeing her father serene, she embraces her calling by the tavern hearth.",
-          "reward_unlock": "Ancient Recipe Archive unlocked (grants 5 heritage bakery formulas)."
+          "reward_unlock": "Ancient Recipe Archive unlocked (grants 5 heritage bakery formulas).",
+          "event_type": "cutscene"
         },
         {
           "level": 10,
           "title": "Promise by the Reading Desk",
           "description": "Clara gifts a handcrafted leather journal, pledging lifelong devotion by the fireside.",
-          "reward_unlock": "Romantic Bond unlocked; Clara moves into The Hearth's attic suite."
+          "reward_unlock": "Romantic Bond unlocked; Clara moves into The Hearth's attic suite.",
+          "event_type": "cutscene"
         }
       ]
     },
@@ -1315,25 +1357,29 @@
           "level": 2,
           "title": "Beached Driftwood",
           "description": "Garrick curses rotten timber sold by swindlers, feeling like useless beached driftwood.",
-          "reward_unlock": "Unlocks lakeside bait and heavy-duty fishing line depot."
+          "reward_unlock": "Unlocks lakeside bait and heavy-duty fishing line depot.",
+          "event_type": "mail"
         },
         {
           "level": 4,
           "title": "Mist Lake Ferry Route",
           "description": "Hoisting patched canvas, he tests the first cargo run across foggy bays.",
-          "reward_unlock": "Unlocks Lakeside Cargo Dock connecting regional shipments."
+          "reward_unlock": "Unlocks Lakeside Cargo Dock connecting regional shipments.",
+          "event_type": "tavern_dialogue"
         },
         {
           "level": 6,
           "title": "Colorblind Starboard Eye",
           "description": "Reveals his right eye lost color vision during naval wrecks, making depth navigation treacherous.",
-          "reward_unlock": "Gifts Veteran Naval Spyglass."
+          "reward_unlock": "Gifts Veteran Naval Spyglass.",
+          "event_type": "tavern_dialogue"
         },
         {
           "level": 8,
           "title": "Sailing into Cloud Seas",
           "description": "Together with grandson Finn, they restore the expedition sloop, sailing proud once more.",
-          "reward_unlock": "Opens Cloud Sea Shipping Route importing exotic spices and deep sea fish."
+          "reward_unlock": "Opens Cloud Sea Shipping Route importing exotic spices and deep sea fish.",
+          "event_type": "cutscene"
         }
       ]
     },
@@ -1419,25 +1465,29 @@
           "level": 2,
           "title": "Snapped Bamboo Pole",
           "description": "His bamboo pole snaps on a big bite; Rowan whittles a sturdy hardwood grip with lead sinkers.",
-          "reward_unlock": "Gifts Rowan a tin of river crickets bait."
+          "reward_unlock": "Gifts Rowan a tin of river crickets bait.",
+          "event_type": "mail"
         },
         {
           "level": 4,
           "title": "Night Hunt in Subterranean Lakes",
           "description": "Invites Rowan into flooded cavern grottoes hunting blind luminescent trout.",
-          "reward_unlock": "Unlocks Fiberglass Rod & Advanced Angling Minigame."
+          "reward_unlock": "Unlocks Fiberglass Rod & Advanced Angling Minigame.",
+          "event_type": "tavern_dialogue"
         },
         {
           "level": 6,
           "title": "The Pawned Silver Compass",
           "description": "Saves enough copper coins to redeem his grandfather's silver compass pawned for family medicine.",
-          "reward_unlock": "Gifts Luminous Night Bobber aiding nocturnal fishing."
+          "reward_unlock": "Gifts Luminous Night Bobber aiding nocturnal fishing.",
+          "event_type": "tavern_dialogue"
         },
         {
           "level": 8,
           "title": "Dishes that Illuminate Caverns",
           "description": "Delivers glowing deep-lake fish to Rowan to concoct Bioluminescent buff recipes.",
-          "reward_unlock": "Guaranteed Luminescent Fish Supply for night-vision cavern culinary dishes."
+          "reward_unlock": "Guaranteed Luminescent Fish Supply for night-vision cavern culinary dishes.",
+          "event_type": "cutscene"
         }
       ]
     },
@@ -1484,19 +1534,22 @@
           "level": 2,
           "title": "Trembling Needles",
           "description": "Hand tremors disrupt her delicate stitching; Rowan brings soothing herbal tea and steadies the fabric.",
-          "reward_unlock": "Offers basic clothing mending and tailoring at modest rates."
+          "reward_unlock": "Offers basic clothing mending and tailoring at modest rates.",
+          "event_type": "mail"
         },
         {
           "level": 4,
           "title": "Sylva Expedition Satchel",
           "description": "Tailors an expanded travel pack for Rowan using forest linen and treated buckskin.",
-          "reward_unlock": "Expands Inventory Satchel capacity (+12 mining slots)."
+          "reward_unlock": "Expands Inventory Satchel capacity (+12 mining slots).",
+          "event_type": "tavern_dialogue"
         },
         {
           "level": 8,
           "title": "The Ever-Warm Gala Cloak",
           "description": "Her tremors cured by Sylvan's remedies, she weaves Thistle's Golden Silk into a masterpiece.",
-          "reward_unlock": "Gifts Eternal Frost-Resistant Gala Cloak (complete immunity to winter freeze)."
+          "reward_unlock": "Gifts Eternal Frost-Resistant Gala Cloak (complete immunity to winter freeze).",
+          "event_type": "cutscene"
         }
       ]
     },
@@ -1544,19 +1597,22 @@
           "level": 2,
           "title": "Withering Herb Cuttings",
           "description": "His medicinal plot dries out from dropped water tables; Rowan digs an irrigation furrow from the brook.",
-          "reward_unlock": "Gifts botanical fertilizer boosting harvest yields by 10%."
+          "reward_unlock": "Gifts botanical fertilizer boosting harvest yields by 10%.",
+          "event_type": "mail"
         },
         {
           "level": 4,
           "title": "The Distillation Laboratory",
           "description": "Assembles glassware retorts to extract culinary essential oils and spice concentrates.",
-          "reward_unlock": "Unlocks Essential Oils & Aromatics Extraction Station (+50% dish buff duration)."
+          "reward_unlock": "Unlocks Essential Oils & Aromatics Extraction Station (+50% dish buff duration).",
+          "event_type": "tavern_dialogue"
         },
         {
           "level": 8,
           "title": "The Millennial Root Remedy",
           "description": "Successfully harvests ancient roots curing Elora's tremors, forever grateful to Rowan.",
-          "reward_unlock": "Harvests Millennial Taproots for permanent stamina restoration remedies."
+          "reward_unlock": "Harvests Millennial Taproots for permanent stamina restoration remedies.",
+          "event_type": "cutscene"
         }
       ]
     },
@@ -1604,31 +1660,36 @@
           "level": 2,
           "title": "Shivering Night Watch",
           "description": "Standing guard on sub-zero ramparts with an empty stomach, Marlo is warmed by Rowan's salted rice balls.",
-          "reward_unlock": "Reduces wild predator nuisance around farmstead fences by 10%."
+          "reward_unlock": "Reduces wild predator nuisance around farmstead fences by 10%.",
+          "event_type": "mail"
         },
         {
           "level": 4,
           "title": "Prowling Beast Tracks",
           "description": "Tracks mine badgers gnawing grain sacks; reinforces perimeter barriers alongside Rowan.",
-          "reward_unlock": "Night Patrol Security (reduces outdoor honor stand theft risks by 50%)."
+          "reward_unlock": "Night Patrol Security (reduces outdoor honor stand theft risks by 50%).",
+          "event_type": "tavern_dialogue"
         },
         {
           "level": 6,
           "title": "Letters from Younger Siblings",
           "description": "Weeps behind watchtower walls upon reading that his 4 siblings attend school thanks to his sent pay.",
-          "reward_unlock": "Gifts Rowan Reinforced Veteran Leather Brigandine."
+          "reward_unlock": "Gifts Rowan Reinforced Veteran Leather Brigandine.",
+          "event_type": "tavern_dialogue"
         },
         {
           "level": 8,
           "title": "Captain of the Night Guard",
           "description": "Appointed Night Patrol Captain, securing peace for every hearth in Oakhaven.",
-          "reward_unlock": "100% immunity to theft across The Hearth and honor produce stands."
+          "reward_unlock": "100% immunity to theft across The Hearth and honor produce stands.",
+          "event_type": "cutscene"
         },
         {
           "level": 10,
           "title": "Peace Behind the Village Gate",
           "description": "Hands Rowan his brass sentry whistle, promising lifelong protection by the fireside.",
-          "reward_unlock": "Romantic Bond unlocked; Marlo moves in to protect the homestead."
+          "reward_unlock": "Romantic Bond unlocked; Marlo moves in to protect the homestead.",
+          "event_type": "cutscene"
         }
       ]
     },
@@ -1675,31 +1736,36 @@
           "level": 2,
           "title": "Midnight Restorative Broth",
           "description": "Grinding herbs late for destitute patients, exhausted from medical debt, she shares herbal tonics.",
-          "reward_unlock": "Prepares Restorative Broth soothing back fatigue and restoring stamina."
+          "reward_unlock": "Prepares Restorative Broth soothing back fatigue and restoring stamina.",
+          "event_type": "mail"
         },
         {
           "level": 4,
           "title": "Winter Frost Epidemic",
           "description": "Distributes steaming eucalyptus infusions to poor households during biting freezes with Rowan.",
-          "reward_unlock": "Opens clinic dispensary selling burn balms and affordable stamina salves."
+          "reward_unlock": "Opens clinic dispensary selling burn balms and affordable stamina salves.",
+          "event_type": "tavern_dialogue"
         },
         {
           "level": 6,
           "title": "Flight from the Capital",
           "description": "Recounts fleeing Solaria's imperial infirmary after witnessing destitute patients turned away to die.",
-          "reward_unlock": "Gifts Field Medical Trauma Kit stemming bleeding inside dungeon shafts."
+          "reward_unlock": "Gifts Field Medical Trauma Kit stemming bleeding inside dungeon shafts.",
+          "event_type": "tavern_dialogue"
         },
         {
           "level": 8,
           "title": "Community Herbal Sanctuary",
           "description": "Establishes a public medicinal garden at the clinic providing free tonics to the frontier.",
-          "reward_unlock": "50% discount on clinic healing and doubles potency of restorative broths."
+          "reward_unlock": "50% discount on clinic healing and doubles potency of restorative broths.",
+          "event_type": "cutscene"
         },
         {
           "level": 10,
           "title": "Warmth of Fragrant Herbs",
           "description": "Exchanges a blessed herbal sachet by the hearth, pledging lifelong devotion and healing.",
-          "reward_unlock": "Romantic Bond unlocked; Aurelia moves into The Hearth's attic suite."
+          "reward_unlock": "Romantic Bond unlocked; Aurelia moves into The Hearth's attic suite.",
+          "event_type": "cutscene"
         }
       ]
     },
@@ -1746,31 +1812,36 @@
           "level": 2,
           "title": "Anemic Seizure in the Shaded Room",
           "description": "Seized by chronic blood spasms in room 2, he is nursed with beetroot soup as Rowan draws velvet sun drapes.",
-          "reward_unlock": "Grants access to 2nd-floor VIP quarters of The Hearth."
+          "reward_unlock": "Grants access to 2nd-floor VIP quarters of The Hearth.",
+          "event_type": "mail"
         },
         {
           "level": 4,
           "title": "Midnight Feast Commissions",
           "description": "Books a permanent VIP lodging contract, ordering nocturnal dessert platters at double gold payment.",
-          "reward_unlock": "Unlocks High-End Midnight Catering Orders paying 2x standard gold."
+          "reward_unlock": "Unlocks High-End Midnight Catering Orders paying 2x standard gold.",
+          "event_type": "tavern_dialogue"
         },
         {
           "level": 6,
           "title": "Chilling Relapse",
           "description": "Feverish from sudden cold snaps, Valen is stabilized by Rowan's warm herbal infusions.",
-          "reward_unlock": "Gifts Engraved Solarian Royal Silver Chalice."
+          "reward_unlock": "Gifts Engraved Solarian Royal Silver Chalice.",
+          "event_type": "tavern_dialogue"
         },
         {
           "level": 8,
           "title": "Pact of the Exiled Noble",
           "description": "Deeply touched by Rowan's lack of prejudice, he bequeaths royal metallurgical manuscripts.",
-          "reward_unlock": "Solarian Ancient Codices & crafting formulas for frost-warding talismans."
+          "reward_unlock": "Solarian Ancient Codices & crafting formulas for frost-warding talismans.",
+          "event_type": "cutscene"
         },
         {
           "level": 10,
           "title": "Montfort Bloodstone Signet",
           "description": "Bestows the ancestral Montfort Bloodstone signet ring by the hearth, pledging eternal companionship.",
-          "reward_unlock": "Romantic Bond unlocked; Valen permanently joins Rowan's household."
+          "reward_unlock": "Romantic Bond unlocked; Valen permanently joins Rowan's household.",
+          "event_type": "cutscene"
         }
       ]
     },
@@ -1817,19 +1888,22 @@
           "level": 2,
           "title": "Blizzard Forced Landing",
           "description": "Her broom tail ices over and crashes on the hillside; Rowan kindles a fire and shares warm buns.",
-          "reward_unlock": "10% discount on urgent postal logistics."
+          "reward_unlock": "10% discount on urgent postal logistics.",
+          "event_type": "mail"
         },
         {
           "level": 4,
           "title": "Sky Express Airfreight Route",
           "description": "Inaugurates inter-realm flight pathways across mountain ranges.",
-          "reward_unlock": "Sky Express Service: Order regional specialty ingredients delivered within 2 hours."
+          "reward_unlock": "Sky Express Service: Order regional specialty ingredients delivered within 2 hours.",
+          "event_type": "tavern_dialogue"
         },
         {
           "level": 8,
           "title": "Personal Courier Broom for Rowan",
           "description": "Customizes a high-velocity courier broom gifted to Rowan in deep appreciation.",
-          "reward_unlock": "Gifts Courier Flying Broom (+50% travel velocity across exterior maps)."
+          "reward_unlock": "Gifts Courier Flying Broom (+50% travel velocity across exterior maps).",
+          "event_type": "cutscene"
         }
       ]
     },
@@ -1876,13 +1950,15 @@
           "level": 4,
           "title": "Gears in Synchronized Motion",
           "description": "Rowan lubricates the clocktower mechanism with purified grease, restoring ancient tick-tock cadence.",
-          "reward_unlock": "Displays exact Food Buff Countdown Timers on player HUD."
+          "reward_unlock": "Displays exact Food Buff Countdown Timers on player HUD.",
+          "event_type": "tavern_dialogue"
         },
         {
           "level": 8,
           "title": "Resonant Golden Chimes",
           "description": "Chimes sound at noon and dusk, beckoning townsfolk into The Hearth for warm suppers.",
-          "reward_unlock": "Belfry chime increases daily diner tavern revenue by 20%."
+          "reward_unlock": "Belfry chime increases daily diner tavern revenue by 20%.",
+          "event_type": "cutscene"
         }
       ]
     },
@@ -1929,13 +2005,15 @@
           "level": 4,
           "title": "Guided by Subterranean Tides",
           "description": "Swims through underground estuaries into Oakhaven's lake basin bringing pure crystalline sea salt.",
-          "reward_unlock": "Opens trade in Crystal Sea Salt and rare abyssal minerals."
+          "reward_unlock": "Opens trade in Crystal Sea Salt and rare abyssal minerals.",
+          "event_type": "tavern_dialogue"
         },
         {
           "level": 8,
           "title": "Pearls of the Silent Trench",
           "description": "Bestows a millennial luminescent sea pearl gathered from glacial ocean trenches.",
-          "reward_unlock": "Supplies Luminescent Poison-Warding Pearls for deep dungeon expedition amulets."
+          "reward_unlock": "Supplies Luminescent Poison-Warding Pearls for deep dungeon expedition amulets.",
+          "event_type": "cutscene"
         }
       ]
     },
@@ -2031,25 +2109,29 @@
           "level": 2,
           "title": "Snapped Wooden Peg",
           "description": "His peg leg pin snaps at the minehead; Rowan carries him to the guildhall and carves a sturdy oak pin.",
-          "reward_unlock": "10% discount on all Adventurer Guild services."
+          "reward_unlock": "10% discount on all Adventurer Guild services.",
+          "event_type": "mail"
         },
         {
           "level": 4,
           "title": "Dungeon Expedition Charts",
           "description": "Presents charts of the 150-floor labyrinth, detailing abyssal horrors in lower chambers.",
-          "reward_unlock": "Unlocks Monster Bounty Board & Clearance Seals for upper biomes."
+          "reward_unlock": "Unlocks Monster Bounty Board & Clearance Seals for upper biomes.",
+          "event_type": "tavern_dialogue"
         },
         {
           "level": 6,
           "title": "Eighteen Incense Sticks in the Rain",
           "description": "Stands mourning his 18 fallen vanguard comrades; Rowan quietly shares smoked rations and warm wine.",
-          "reward_unlock": "Gifts Antique Guild Commander's Trophy."
+          "reward_unlock": "Gifts Antique Guild Commander's Trophy.",
+          "event_type": "tavern_dialogue"
         },
         {
           "level": 8,
           "title": "Seal of the Infinite Abyss",
           "description": "Bestows his command blade, trusting Rowan has the mettle to face the infinite deep.",
-          "reward_unlock": "Grants Infinite Abyss License (Floors 151+) & Express Boss Elevator Pass."
+          "reward_unlock": "Grants Infinite Abyss License (Floors 151+) & Express Boss Elevator Pass.",
+          "event_type": "cutscene"
         }
       ]
     },
@@ -2135,31 +2217,36 @@
           "level": 2,
           "title": "Thunder Claps & Dropped Files",
           "description": "Startled into panic by thunder, she drops her ledger; Rowan shields her and gathers the papers.",
-          "reward_unlock": "Gifts Rowan an antique birchwood shortbow."
+          "reward_unlock": "Gifts Rowan an antique birchwood shortbow.",
+          "event_type": "mail"
         },
         {
           "level": 4,
           "title": "Town Lost & Found Registry",
           "description": "Organizes misplaced village goods sold mistakenly to shops during daily rush hours.",
-          "reward_unlock": "Unlocks Buyback Shop allowing retrieval of accidentally sold items on that day."
+          "reward_unlock": "Unlocks Buyback Shop allowing retrieval of accidentally sold items on that day.",
+          "event_type": "tavern_dialogue"
         },
         {
           "level": 6,
           "title": "Reading Lips in the Winter Chill",
           "description": "With ear trauma worsening in cold drafts, she receives fleece earmuffs hand-knit by Rowan.",
-          "reward_unlock": "Gifts Foraging Radar Map for surface dropped goods."
+          "reward_unlock": "Gifts Foraging Radar Map for surface dropped goods.",
+          "event_type": "tavern_dialogue"
         },
         {
           "level": 8,
           "title": "Reclaiming Archer's Composure",
           "description": "Overcomes noise trauma from artillery concussions, finding purpose at her station.",
-          "reward_unlock": "Unlocks Surface Lost Tool Recovery Service (for dropped pickaxes, axes, hoes)."
+          "reward_unlock": "Unlocks Surface Lost Tool Recovery Service (for dropped pickaxes, axes, hoes).",
+          "event_type": "cutscene"
         },
         {
           "level": 10,
           "title": "Silver Bowstring Ribbon",
           "description": "Ties a silver bowstring ribbon onto Rowan's wrist by the stream, pledging lifelong fidelity.",
-          "reward_unlock": "Romantic Bond unlocked; Valerie moves into The Hearth's attic suite."
+          "reward_unlock": "Romantic Bond unlocked; Valerie moves into The Hearth's attic suite.",
+          "event_type": "cutscene"
         }
       ]
     },
@@ -2240,13 +2327,15 @@
           "level": 4,
           "title": "Town Reconstruction Blueprints",
           "description": "Surveys war-damaged riverside mills and roads with Rowan to map rebuilding priorities.",
-          "reward_unlock": "Unlocks Oakhaven Town Board Reconstruction Projects (12 public restoration feats)."
+          "reward_unlock": "Unlocks Oakhaven Town Board Reconstruction Projects (12 public restoration feats).",
+          "event_type": "tavern_dialogue"
         },
         {
           "level": 8,
           "title": "Passing the Mantle of Stewardship",
           "description": "Yields autocratic burden to establish an elected Town Council for self-governance.",
-          "reward_unlock": "Fully completes all 12 public community restoration works."
+          "reward_unlock": "Fully completes all 12 public community restoration works.",
+          "event_type": "cutscene"
         }
       ]
     },
@@ -2327,25 +2416,29 @@
           "level": 2,
           "title": "Splinter in the Claws",
           "description": "A massive pine splinter lodges in his paw while hewing rafters; Rowan pulls it and applies salve.",
-          "reward_unlock": "Reduces lumber requirements for buildings by 10%."
+          "reward_unlock": "Reduces lumber requirements for buildings by 10%.",
+          "event_type": "mail"
         },
         {
           "level": 4,
           "title": "Framing the New Kitchen",
           "description": "Handsaws fresh pine beams to craft expanding dining benches for The Hearth.",
-          "reward_unlock": "Unlocks Tavern Kitchen Upgrades & Dining Expansion service."
+          "reward_unlock": "Unlocks Tavern Kitchen Upgrades & Dining Expansion service.",
+          "event_type": "tavern_dialogue"
         },
         {
           "level": 6,
           "title": "Pain of the Exiled Bear",
           "description": "Shares the sorrow of being cast out of northern bear clans for refusing to wield slaughter axes in war.",
-          "reward_unlock": "Gifts Ancient Carving Adze heirloom."
+          "reward_unlock": "Gifts Ancient Carving Adze heirloom.",
+          "event_type": "tavern_dialogue"
         },
         {
           "level": 8,
           "title": "The Old Timber Bridge to Whispering Woods",
           "description": "Fells fallen pines with Rowan to rebuild the Great Wooden Bridge crossing into Whispering Woods.",
-          "reward_unlock": "Unlocks walking shortcut to Deep Woods and Advanced Carpentry Workshop."
+          "reward_unlock": "Unlocks walking shortcut to Deep Woods and Advanced Carpentry Workshop.",
+          "event_type": "cutscene"
         }
       ]
     },
@@ -2426,13 +2519,15 @@
           "level": 4,
           "title": "Corner Mandolin Melodies",
           "description": "Overcoming stage fright, Wren strums soothing mandolin ballads in the cozy tavern corner.",
-          "reward_unlock": "Gifts Tavern Melody Music Box (+15% diner satisfaction buff)."
+          "reward_unlock": "Gifts Tavern Melody Music Box (+15% diner satisfaction buff).",
+          "event_type": "tavern_dialogue"
         },
         {
           "level": 8,
           "title": "Ballad of the Winter Hearth",
           "description": "Performs original ballad 'Lullaby of Oakhaven' dispelling the biting frost of deep winter.",
-          "reward_unlock": "Regular Friday evening performances boosting diner visits and revenue by 20%."
+          "reward_unlock": "Regular Friday evening performances boosting diner visits and revenue by 20%.",
+          "event_type": "cutscene"
         }
       ]
     },
@@ -2513,25 +2608,29 @@
           "level": 2,
           "title": "The Chilled Milk Cow",
           "description": "Stays up all night keeping a sick dairy cow warm; Rowan arrives with warm bran mash.",
-          "reward_unlock": "Sells fresh farm milk and eggs every morning."
+          "reward_unlock": "Sells fresh farm milk and eggs every morning.",
+          "event_type": "mail"
         },
         {
           "level": 4,
           "title": "Inaugurating the Livestock Barns",
           "description": "Repairs paddock fences, welcoming the valley's first healthy herd in years.",
-          "reward_unlock": "Sells calves, lambs, chicks, and four-season livestock feed."
+          "reward_unlock": "Sells calves, lambs, chicks, and four-season livestock feed.",
+          "event_type": "tavern_dialogue"
         },
         {
           "level": 6,
           "title": "A Heart Betrayed",
           "description": "Confides how her former partner absconded with their life savings with a capital trade caravan.",
-          "reward_unlock": "Gifts Heirloom Probiotic Milk Fermentation Keg."
+          "reward_unlock": "Gifts Heirloom Probiotic Milk Fermentation Keg.",
+          "event_type": "tavern_dialogue"
         },
         {
           "level": 8,
           "title": "Valley Dairy Cooperative",
           "description": "Unites with neighbors to establish a sustainable livestock cooperative for Oakhaven.",
-          "reward_unlock": "Gifts Farmstead Artisanal Cheese Press & Butter Churn."
+          "reward_unlock": "Gifts Farmstead Artisanal Cheese Press & Butter Churn.",
+          "event_type": "cutscene"
         }
       ]
     },
@@ -2612,25 +2711,29 @@
           "level": 2,
           "title": "Stoned Out of the Square",
           "description": "Chased with stones due to goblin stereotypes; Rowan welcomes him inside for hot oatmeal.",
-          "reward_unlock": "10% discount at his Treasure Jar stall."
+          "reward_unlock": "10% discount at his Treasure Jar stall.",
+          "event_type": "mail"
         },
         {
           "level": 4,
           "title": "The Treasure Jar Stall",
           "description": "Sets up a curious trinket stall on the tavern porch selling rare finds from distant realms.",
-          "reward_unlock": "Opens general trading for imported rare seed packets."
+          "reward_unlock": "Opens general trading for imported rare seed packets.",
+          "event_type": "tavern_dialogue"
         },
         {
           "level": 6,
           "title": "The Outcast's Conscience",
           "description": "Confesses he was expelled from Solaria's trade cartel for whistleblowing on counterfeit medicine shipments.",
-          "reward_unlock": "Gifts Precision Brass Jeweler's Balance."
+          "reward_unlock": "Gifts Precision Brass Jeweler's Balance.",
+          "event_type": "tavern_dialogue"
         },
         {
           "level": 8,
           "title": "VIP Saturday Night Market",
           "description": "Launches the Saturday Night Bazaar bringing fair contraband and specialty wares to Oakhaven.",
-          "reward_unlock": "Unlocks VIP Saturday Night Market with exotic masterwork tools and ores."
+          "reward_unlock": "Unlocks VIP Saturday Night Market with exotic masterwork tools and ores.",
+          "event_type": "cutscene"
         }
       ]
     },
@@ -2711,25 +2814,29 @@
           "level": 2,
           "title": "Hands Uprooting Toxic Brambles",
           "description": "Bleeding as she pulls miasma-corrupted thorns around the shrine, she is bandaged with warm lotus tea.",
-          "reward_unlock": "Gifts Holy Herb Sprigs mitigating toxic mine gases."
+          "reward_unlock": "Gifts Holy Herb Sprigs mitigating toxic mine gases.",
+          "event_type": "mail"
         },
         {
           "level": 4,
           "title": "Cracks on the Ancient Altar",
           "description": "Points out battle scars along the stone altar etched by ancient chemical fires.",
-          "reward_unlock": "Unlocks Purification Herbal Water recipe."
+          "reward_unlock": "Unlocks Purification Herbal Water recipe.",
+          "event_type": "tavern_dialogue"
         },
         {
           "level": 6,
           "title": "Graveyard of the Unnamed",
           "description": "Reveals that Oakhaven's valley was once a forgotten battlefield holding thousands of fallen soldiers.",
-          "reward_unlock": "Gifts Purifying Bronze Chime repelling vengeful wraiths."
+          "reward_unlock": "Gifts Purifying Bronze Chime repelling vengeful wraiths.",
+          "event_type": "tavern_dialogue"
         },
         {
           "level": 8,
           "title": "Grand Memorial Soul Banquet",
           "description": "Prepares the five-dish Memorial Banquet with Rowan, cleansing lingering miasma from the earth forever.",
-          "reward_unlock": "Ancient Memorial Altar fully purified; unlocks reclaimed wilderness soils."
+          "reward_unlock": "Ancient Memorial Altar fully purified; unlocks reclaimed wilderness soils.",
+          "event_type": "cutscene"
         }
       ]
     },
@@ -2810,19 +2917,22 @@
           "level": 2,
           "title": "The Lamb with the Torn Ear",
           "description": "Weeps searching for a lost lamb caught in thorn bushes; Rowan frees the animal unharmed.",
-          "reward_unlock": "Tilly gifts a bundle of ultra-soft virgin fleece."
+          "reward_unlock": "Tilly gifts a bundle of ultra-soft virgin fleece.",
+          "event_type": "mail"
         },
         {
           "level": 4,
           "title": "Berry-Dyed Fleece Experiments",
           "description": "Boils wild berry skins to dye wool soft pink and lavender alongside Rowan.",
-          "reward_unlock": "Opens raw wool and natural spun yarn counter."
+          "reward_unlock": "Opens raw wool and natural spun yarn counter.",
+          "event_type": "tavern_dialogue"
         },
         {
           "level": 8,
           "title": "Overcoming the Midnight Marsh",
           "description": "Conquers her fear of the dark, herding the flock safely across misty marshlands alone.",
-          "reward_unlock": "Unlocks Rainbow Wool Dye Works (crafts tavern table linens boosting tip buffs)."
+          "reward_unlock": "Unlocks Rainbow Wool Dye Works (crafts tavern table linens boosting tip buffs).",
+          "event_type": "cutscene"
         }
       ]
     },
@@ -2903,13 +3013,15 @@
           "level": 4,
           "title": "Fires of Khaz-Drakor",
           "description": "Stokes mountain royal blast furnaces, teaching Rowan how to maintain intense metallurgical heat.",
-          "reward_unlock": "Supplies heavy alloy ingots for heat-resistant combat gear."
+          "reward_unlock": "Supplies heavy alloy ingots for heat-resistant combat gear.",
+          "event_type": "tavern_dialogue"
         },
         {
           "level": 8,
           "title": "Forgiveness After 15 Years",
           "description": "Makes peace with the departure of sons Boris and Bram, passing down royal smithing techniques.",
-          "reward_unlock": "Transfers Ancient Mithril Alloy Equipment crafting knowledge."
+          "reward_unlock": "Transfers Ancient Mithril Alloy Equipment crafting knowledge.",
+          "event_type": "cutscene"
         }
       ]
     },
@@ -2990,13 +3102,15 @@
           "level": 4,
           "title": "Automated Hydraulic Sprinklers",
           "description": "Assembles copper pressure valves to automate crop irrigation without stamina cost.",
-          "reward_unlock": "Crafts Automated Irrigation Sprinkler Network for the farmstead."
+          "reward_unlock": "Crafts Automated Irrigation Sprinkler Network for the farmstead.",
+          "event_type": "tavern_dialogue"
         },
         {
           "level": 8,
           "title": "Restoring the Minecart Rails",
           "description": "Welds severed tracks and sparks an antique steam locomotive connecting key nodes.",
-          "reward_unlock": "Unlocks Minecart Express Network for rapid transit across valley biomes."
+          "reward_unlock": "Unlocks Minecart Express Network for rapid transit across valley biomes.",
+          "event_type": "cutscene"
         }
       ]
     },
@@ -3077,13 +3191,15 @@
           "level": 4,
           "title": "Fiery Volcanic Spices",
           "description": "Cooks over open embers with Rowan, sharing secrets of fermenting subterranean volcanic chili.",
-          "reward_unlock": "Supplies Volcanic Spices granting +20% Critical Strike Damage buffs."
+          "reward_unlock": "Supplies Volcanic Spices granting +20% Critical Strike Damage buffs.",
+          "event_type": "tavern_dialogue"
         },
         {
           "level": 8,
           "title": "The Extreme Magma Stove",
           "description": "Transfers his extreme-heat volcanic stone griddle to The Hearth's tavern kitchen.",
-          "reward_unlock": "Unlocks Extreme Magma Grilling Station at The Hearth."
+          "reward_unlock": "Unlocks Extreme Magma Grilling Station at The Hearth.",
+          "event_type": "cutscene"
         }
       ]
     },
@@ -3164,13 +3280,15 @@
           "level": 4,
           "title": "Harvest Beneath the Amber Moon",
           "description": "Scales giant Sylva canopies under the moon, harvesting rare luminescent cocoons.",
-          "reward_unlock": "Supplies Luminescent Silk for frost-resistant adventuring attire."
+          "reward_unlock": "Supplies Luminescent Silk for frost-resistant adventuring attire.",
+          "event_type": "tavern_dialogue"
         },
         {
           "level": 8,
           "title": "The Millennial Blossom",
           "description": "Captures pure moonlight on ancient canopy crowns, gathering royal golden silk threads.",
-          "reward_unlock": "Supplies Golden Silk for cloaks granting complete status debuff immunity."
+          "reward_unlock": "Supplies Golden Silk for cloaks granting complete status debuff immunity.",
+          "event_type": "cutscene"
         }
       ]
     },
@@ -3251,13 +3369,15 @@
           "level": 6,
           "title": "Resurgence of the Root Network",
           "description": "Touches subterranean root fibers with sightless hands, sensing clean aquifers reviving below.",
-          "reward_unlock": "Teaches Ancient Herbarium formulas healing deep trauma."
+          "reward_unlock": "Teaches Ancient Herbarium formulas healing deep trauma.",
+          "event_type": "tavern_dialogue"
         },
         {
           "level": 8,
           "title": "Purification Rite of Ancestral Soil",
           "description": "Directs Rowan through the final rites banishing chemical war blight forever.",
-          "reward_unlock": "Permanently boosts all Oakhaven crop yields by 25% across the valley."
+          "reward_unlock": "Permanently boosts all Oakhaven crop yields by 25% across the valley.",
+          "event_type": "cutscene"
         }
       ]
     },
@@ -3338,25 +3458,29 @@
           "level": 2,
           "title": "Stances Amid the Blizzard",
           "description": "Training sword forms in freezing gale passes; Rowan brings steaming beef goulash to warm his hands.",
-          "reward_unlock": "Opens path to Mountain Pass Dojo (Surface)."
+          "reward_unlock": "Opens path to Mountain Pass Dojo (Surface).",
+          "event_type": "mail"
         },
         {
           "level": 4,
           "title": "Surface Mountain Pass Dojo",
           "description": "Assesses Rowan's pickaxe and shortsword footing, training disciplined defensive guards.",
-          "reward_unlock": "Trains combat Parry and Quick Dodge combat mechanics."
+          "reward_unlock": "Trains combat Parry and Quick Dodge combat mechanics.",
+          "event_type": "tavern_dialogue"
         },
         {
           "level": 6,
           "title": "Torn Bounty Posters",
           "description": "Bitterly recalls his former subordinate Hester who vanished after false treason charges in Solaria.",
-          "reward_unlock": "Gifts Knight Gauntlets boosting melee swing speed by 10%."
+          "reward_unlock": "Gifts Knight Gauntlets boosting melee swing speed by 10%.",
+          "event_type": "tavern_dialogue"
         },
         {
           "level": 8,
           "title": "Master Parry Mastery",
           "description": "Reconciles with Hester at The Hearth; imparts master combat techniques to Rowan.",
-          "reward_unlock": "Master Parry (widens parry window and grants +20% stamina recovery upon successful deflection)."
+          "reward_unlock": "Master Parry (widens parry window and grants +20% stamina recovery upon successful deflection).",
+          "event_type": "cutscene"
         }
       ]
     },
@@ -3437,25 +3561,29 @@
           "level": 2,
           "title": "Mending a Raven's Wing",
           "description": "Found splinting a raven in briar marshes; Rowan steadies the bird while she binds the feathers.",
-          "reward_unlock": "Gifts Luminous Powder warding off swamp predators."
+          "reward_unlock": "Gifts Luminous Powder warding off swamp predators.",
+          "event_type": "mail"
         },
         {
           "level": 4,
           "title": "Deep Mine Poison Alchemy",
           "description": "Formulates fungal venom to crack chitin carapaces of deep-shaft monstrosities.",
-          "reward_unlock": "Unlocks Weapon Poison Coating Table (adds damage-over-time poison to weapons)."
+          "reward_unlock": "Unlocks Weapon Poison Coating Table (adds damage-over-time poison to weapons).",
+          "event_type": "tavern_dialogue"
         },
         {
           "level": 6,
           "title": "Miasma Fungal Poisoning",
           "description": "Afflicted by spores while foraging; Rowan rushes remedies and mint tea to break the fever.",
-          "reward_unlock": "Gifts Insulated Vacuum Flask resisting poison saturation."
+          "reward_unlock": "Gifts Insulated Vacuum Flask resisting poison saturation.",
+          "event_type": "tavern_dialogue"
         },
         {
           "level": 8,
           "title": "Elixirs of Devastation",
           "description": "Transfers secret alchemical arts distilled from apex dungeon beast venoms.",
-          "reward_unlock": "Unlocks Critical Strike Potions & Instant Miasma Antidote formulas."
+          "reward_unlock": "Unlocks Critical Strike Potions & Instant Miasma Antidote formulas.",
+          "event_type": "cutscene"
         }
       ]
     },
@@ -3536,13 +3664,15 @@
           "level": 4,
           "title": "Deep Cavern Relic Compendium",
           "description": "Appraises terracotta shards and ore specimens excavated from subterranean depths.",
-          "reward_unlock": "Unlocks Relic Appraisal & Mineral Encyclopedia archives."
+          "reward_unlock": "Unlocks Relic Appraisal & Mineral Encyclopedia archives.",
+          "event_type": "tavern_dialogue"
         },
         {
           "level": 8,
           "title": "Oakhaven History Museum",
           "description": "Completes the historical chronicles of the valley, opening a public heritage wing.",
-          "reward_unlock": "Inaugurates Oakhaven Museum (donating full sets yields permanent stat bonuses)."
+          "reward_unlock": "Inaugurates Oakhaven Museum (donating full sets yields permanent stat bonuses).",
+          "event_type": "cutscene"
         }
       ]
     },
@@ -3623,7 +3753,8 @@
           "level": 8,
           "title": "Memory of the Primordial Cook",
           "description": "Regains ancient memories over Rowan's fragrant lotus feast, throwing wide the skyward portal.",
-          "reward_unlock": "Permanently opens Skyward Gate of Aethelgard connecting all five great realms."
+          "reward_unlock": "Permanently opens Skyward Gate of Aethelgard connecting all five great realms.",
+          "event_type": "cutscene"
         }
       ]
     },
@@ -3719,25 +3850,29 @@
           "level": 2,
           "title": "Muddy Boots on Polished Oak",
           "description": "Grumbling about floor mud, Barnaby confides fears of becoming a useless discarded elder.",
-          "reward_unlock": "Negotiates 10% lumber and stone cost reduction for farmstead upgrades."
+          "reward_unlock": "Negotiates 10% lumber and stone cost reduction for farmstead upgrades.",
+          "event_type": "mail"
         },
         {
           "level": 4,
           "title": "The Lodger Ledger",
           "description": "Stays up late balancing accounts after unpaying guests skip out, reorganizing lodging intake.",
-          "reward_unlock": "Expands 2 additional attic boarding rooms, doubling guest capacity and passive rent."
+          "reward_unlock": "Expands 2 additional attic boarding rooms, doubling guest capacity and passive rent.",
+          "event_type": "tavern_dialogue"
         },
         {
           "level": 6,
           "title": "Rainy Hip Aches",
           "description": "Nursed with hot congee and warming oils by Rowan as hip joint inflammation flares in the storm.",
-          "reward_unlock": "Weekly Market Forecast: Flags hot demand commodities for high-margin sales."
+          "reward_unlock": "Weekly Market Forecast: Flags hot demand commodities for high-margin sales.",
+          "event_type": "tavern_dialogue"
         },
         {
           "level": 8,
           "title": "The Secure Estate Vault",
           "description": "Proudly considers Rowan kin, taking charge of estate finances with unyielding devotion.",
-          "reward_unlock": "Estate Strongbox automatically invests surplus gold at 3%/week and stocks winter firewood."
+          "reward_unlock": "Estate Strongbox automatically invests surplus gold at 3%/week and stocks winter firewood.",
+          "event_type": "cutscene"
         }
       ]
     },
@@ -3838,25 +3973,29 @@
           "level": 2,
           "title": "The Exploding Egg Pot",
           "description": "Clumsily overcooks and bursts boiling eggs, cowering in fear of firing until Rowan reassures him.",
-          "reward_unlock": "Stitches an Expedition Backpack adding +6 cavern inventory slots."
+          "reward_unlock": "Stitches an Expedition Backpack adding +6 cavern inventory slots.",
+          "event_type": "mail"
         },
         {
           "level": 4,
           "title": "Handcrafted Flour Mill",
           "description": "Builds a sturdy stone flour mill in the courtyard through honest sweat.",
-          "reward_unlock": "Automates wheat milling and gathers dairy/eggs into cold storage every morning."
+          "reward_unlock": "Automates wheat milling and gathers dairy/eggs into cold storage every morning.",
+          "event_type": "tavern_dialogue"
         },
         {
           "level": 6,
           "title": "Memories of Shaft 15",
           "description": "Relives the horror of being pinned under cave-ins at floor 15 and abandoned by unpaid bosses.",
-          "reward_unlock": "Emergency Stretcher Rescue: Carries fainting Rowan home to bed (expedition loot lost per rules)."
+          "reward_unlock": "Emergency Stretcher Rescue: Carries fainting Rowan home to bed (expedition loot lost per rules).",
+          "event_type": "tavern_dialogue"
         },
         {
           "level": 8,
           "title": "The Porch Supply Chest",
           "description": "Pledges his strength to protect the estate, calling it his first true home.",
-          "reward_unlock": "Expedition Supply Chest stocked daily with firewood, torches, and whetstones."
+          "reward_unlock": "Expedition Supply Chest stocked daily with firewood, torches, and whetstones.",
+          "event_type": "cutscene"
         }
       ]
     },
@@ -3937,19 +4076,22 @@
           "level": 2,
           "title": "The Stubborn Old Donkey",
           "description": "His stubborn mule sits stubborn in the gateway; Rowan coaxes it with carrots and crusty bread.",
-          "reward_unlock": "15% discount on all caravan inventory."
+          "reward_unlock": "15% discount on all caravan inventory.",
+          "event_type": "mail"
         },
         {
           "level": 4,
           "title": "The Nomad Trunk",
           "description": "Unlocks strange trunks from Thursday to Saturday by the porch of The Hearth.",
-          "reward_unlock": "Stocks exclusive foreign spices and rare imported seed strains."
+          "reward_unlock": "Stocks exclusive foreign spices and rare imported seed strains.",
+          "event_type": "tavern_dialogue"
         },
         {
           "level": 8,
           "title": "Weekly Supply Charter",
           "description": "Picks The Hearth as his permanent haven to rest his faithful mule in old age.",
-          "reward_unlock": "Weekly Delivery Charter automatically stocking exotic goods into estate larders."
+          "reward_unlock": "Weekly Delivery Charter automatically stocking exotic goods into estate larders.",
+          "event_type": "cutscene"
         }
       ]
     },
@@ -4030,31 +4172,36 @@
           "level": 2,
           "title": "Midnight Anvil Clatter",
           "description": "Huddled in the attic hammering armor plates late at night; Rowan brings roast steak to ease tension.",
-          "reward_unlock": "Reinforces coarse armor plating (+10 DEF) on worn gear."
+          "reward_unlock": "Reinforces coarse armor plating (+10 DEF) on worn gear.",
+          "event_type": "mail"
         },
         {
           "level": 4,
           "title": "Restoring Gear Durability",
           "description": "Offers field repairs on chipped swords and dented plates straight out of her attic room.",
-          "reward_unlock": "Affordable Field Durability Repair service for weapons and armor."
+          "reward_unlock": "Affordable Field Durability Repair service for weapons and armor.",
+          "event_type": "tavern_dialogue"
         },
         {
           "level": 6,
           "title": "Shadow of the Former Mentor",
           "description": "Spots Valerius entering the tavern; panics and prepares to flee into the night over desertion guilt.",
-          "reward_unlock": "Gifts Royal Blade Whetstone Oil preventing rust."
+          "reward_unlock": "Gifts Royal Blade Whetstone Oil preventing rust.",
+          "event_type": "tavern_dialogue"
         },
         {
           "level": 8,
           "title": "Casting Aside the Mask of Guilt",
           "description": "Bows before Valerius seeking atonement, embraced and forgiven by her old captain.",
-          "reward_unlock": "Bestows Forsaken Royal Knight Broadsword (heavy combat weapon)."
+          "reward_unlock": "Bestows Forsaken Royal Knight Broadsword (heavy combat weapon).",
+          "event_type": "cutscene"
         },
         {
           "level": 10,
           "title": "No More Running",
           "description": "Hester pulls down her travel cowl, offering a knightly amulet and pledging life beside Rowan.",
-          "reward_unlock": "Romantic Bond unlocked; Hester permanently pledges her blade to the estate."
+          "reward_unlock": "Romantic Bond unlocked; Hester permanently pledges her blade to the estate.",
+          "event_type": "cutscene"
         }
       ]
     },
@@ -4135,19 +4282,22 @@
           "level": 2,
           "title": "Natural Maple Varnish",
           "description": "Shares traditional recipes boiling maple resin into weatherproofing varnish for rough furniture.",
-          "reward_unlock": "Purchases farmstead raw fleece at +30% premium prices."
+          "reward_unlock": "Purchases farmstead raw fleece at +30% premium prices.",
+          "event_type": "mail"
         },
         {
           "level": 4,
           "title": "Refurnishing the Guest Rooms",
           "description": "Carpenters new pine bedframes and warm quilts for The Hearth's boarding lofts.",
-          "reward_unlock": "Sells Complete Rough Timber Furniture & Natural Painting Finishes packages."
+          "reward_unlock": "Sells Complete Rough Timber Furniture & Natural Painting Finishes packages.",
+          "event_type": "tavern_dialogue"
         },
         {
           "level": 8,
           "title": "Nomad Clan Loom",
           "description": "Presents Rowan with an heirloom spinning rig as a lasting token of nomad gratitude.",
-          "reward_unlock": "Gifts Automated Farmstead Weaving Loom & luxury wool quilts (+cozy rating)."
+          "reward_unlock": "Gifts Automated Farmstead Weaving Loom & luxury wool quilts (+cozy rating).",
+          "event_type": "cutscene"
         }
       ]
     },
@@ -4228,19 +4378,22 @@
           "level": 2,
           "title": "Bellows of the Deaf Blaster",
           "description": "Deafened by blasting powder, he shouts like thunder; Rowan converses via slate chalkboard.",
-          "reward_unlock": "Sells Craft Dynamite at discount rates for clearing rubble."
+          "reward_unlock": "Sells Craft Dynamite at discount rates for clearing rubble.",
+          "event_type": "mail"
         },
         {
           "level": 4,
           "title": "Minehead Gas Pocket Survey",
           "description": "Alerts Rowan to unstable fault fissures and noxious gas veins around upper shafts.",
-          "reward_unlock": "Sells Heavy Bore Explosives demolishing giant obstructive boulders."
+          "reward_unlock": "Sells Heavy Bore Explosives demolishing giant obstructive boulders.",
+          "event_type": "tavern_dialogue"
         },
         {
           "level": 8,
           "title": "Compact Steam Rock Drill",
           "description": "Finalizes a steam-powered mini rock drill engine, presenting it to Rowan.",
-          "reward_unlock": "Gifts Handheld Steam Drill (mines 3x3 ore clusters in cavern deeps)."
+          "reward_unlock": "Gifts Handheld Steam Drill (mines 3x3 ore clusters in cavern deeps).",
+          "event_type": "cutscene"
         }
       ]
     },
@@ -4321,19 +4474,22 @@
           "level": 2,
           "title": "Frostbitten Ankles at the Lake",
           "description": "Shivering by mountain tarn campfires with numb feet, he is treated to hot spirits and woolen socks.",
-          "reward_unlock": "Sells Fishskin Boots with anti-slip traction on frozen floors."
+          "reward_unlock": "Sells Fishskin Boots with anti-slip traction on frozen floors.",
+          "event_type": "mail"
         },
         {
           "level": 4,
           "title": "Subterranean Aquifer Fissures",
           "description": "Surveys underwater cave tunnels linking the mountain tarn into flooded mine grottoes.",
-          "reward_unlock": "Opens submerged diving shortcut from mountain lake into Oakhaven's outer rivers."
+          "reward_unlock": "Opens submerged diving shortcut from mountain lake into Oakhaven's outer rivers.",
+          "event_type": "tavern_dialogue"
         },
         {
           "level": 8,
           "title": "Conquering the Abyssal Ghost",
           "description": "Overcomes survivor guilt after losing his dive team, gifting reinforced diving apparatus.",
-          "reward_unlock": "Gifts Reinforced Steam Diving Suit (permits crossing deep waters in sunken caverns)."
+          "reward_unlock": "Gifts Reinforced Steam Diving Suit (permits crossing deep waters in sunken caverns).",
+          "event_type": "cutscene"
         }
       ]
     },
@@ -4414,19 +4570,22 @@
           "level": 2,
           "title": "Eye-Stinging Charcoal Smoke",
           "description": "Blinded by thick kiln soot, her stinging eyes are flushed with sterile herb water by Rowan.",
-          "reward_unlock": "Gifts Rowan 10 seasoned kiln-fired oak charcoal lumps."
+          "reward_unlock": "Gifts Rowan 10 seasoned kiln-fired oak charcoal lumps.",
+          "event_type": "mail"
         },
         {
           "level": 4,
           "title": "Fueling The Hearth's Ovens",
           "description": "Contracts high-heat charcoal supplies for the tavern bakery and village smithy.",
-          "reward_unlock": "Sells Dense Kiln Charcoal (burns 3x longer in bakery ovens and forge smelters)."
+          "reward_unlock": "Sells Dense Kiln Charcoal (burns 3x longer in bakery ovens and forge smelters).",
+          "event_type": "tavern_dialogue"
         },
         {
           "level": 8,
           "title": "Stepping Out of the Soot Shack",
           "description": "Healing from the grief of losing husband and son in war, she visits the tavern for communal suppers.",
-          "reward_unlock": "Shares Advanced Smokeless Husk Kiln blueprints with the farmstead."
+          "reward_unlock": "Shares Advanced Smokeless Husk Kiln blueprints with the farmstead.",
+          "event_type": "cutscene"
         }
       ]
     },
@@ -4507,19 +4666,22 @@
           "level": 2,
           "title": "The Leaking Skiff",
           "description": "His reed skiff springs a leak; Rowan wades through muck to haul it ashore and seal it with pine pitch.",
-          "reward_unlock": "Gifts a tin of marsh mudworms for catfish angling."
+          "reward_unlock": "Gifts a tin of marsh mudworms for catfish angling.",
+          "event_type": "mail"
         },
         {
           "level": 4,
           "title": "Marshland Fish Traps",
           "description": "Instructs Rowan in weaving bamboo funnel pots to trap eels along slow marsh creeks.",
-          "reward_unlock": "Crafting formula for Automated Bamboo Fish & Eel Traps."
+          "reward_unlock": "Crafting formula for Automated Bamboo Fish & Eel Traps.",
+          "event_type": "tavern_dialogue"
         },
         {
           "level": 8,
           "title": "Revival of the Reeds",
           "description": "Beholding the cleansed marshlands, he beams toothlessly and yields his heirloom cane rod.",
-          "reward_unlock": "Bestows Ancestral Thousand-Year Bamboo Rod (+25% bite and reel velocity)."
+          "reward_unlock": "Bestows Ancestral Thousand-Year Bamboo Rod (+25% bite and reel velocity).",
+          "event_type": "cutscene"
         }
       ]
     },
@@ -4600,19 +4762,22 @@
           "level": 2,
           "title": "Dangling on the Paling Fence",
           "description": "Caught stealing strawberries, dangling upside down by torn trousers; Rowan unhooks and mends them.",
-          "reward_unlock": "Gifts Rowan 5 wild forest berry seeds."
+          "reward_unlock": "Gifts Rowan 5 wild forest berry seeds.",
+          "event_type": "mail"
         },
         {
           "level": 4,
           "title": "Secret Berry Thickets",
           "description": "Leads Rowan to concealed wild hives and cliffside raspberry thickets.",
-          "reward_unlock": "Automatically gathers fallen orchard fruit 2 days a week."
+          "reward_unlock": "Automatically gathers fallen orchard fruit 2 days a week.",
+          "event_type": "tavern_dialogue"
         },
         {
           "level": 8,
           "title": "Junior Forest Scouts",
           "description": "Proudly pinned as Junior Scout, keeping mischievous eyes peeled for wild farm invaders.",
-          "reward_unlock": "Junior Scout Network alerts player 1 day in advance of wild beast crop incursions."
+          "reward_unlock": "Junior Scout Network alerts player 1 day in advance of wild beast crop incursions.",
+          "event_type": "cutscene"
         }
       ]
     },
@@ -4693,19 +4858,22 @@
           "level": 2,
           "title": "A Thousand Stones for Father",
           "description": "Gathers freezing river pebbles in jars waiting for her soldier father; Rowan warms her hands with a scarf.",
-          "reward_unlock": "Gifts River Pebble Bracelet (+5% Dodge Chance in combat)."
+          "reward_unlock": "Gifts River Pebble Bracelet (+5% Dodge Chance in combat).",
+          "event_type": "mail"
         },
         {
           "level": 4,
           "title": "The Clear Brook Goby Eddy",
           "description": "Shows Rowan a crystal eddy beneath river willows teaming with darting sweetfish.",
-          "reward_unlock": "Unlocks Secret Brook Angling Spot rich in rare freshwater fish."
+          "reward_unlock": "Unlocks Secret Brook Angling Spot rich in rare freshwater fish.",
+          "event_type": "tavern_dialogue"
         },
         {
           "level": 8,
           "title": "The Letter of Safe Return",
           "description": "Receives word her father has been discharged safely; they reunite in tearful joy beside The Hearth.",
-          "reward_unlock": "Cora bestows the family's lucky River Jade talisman."
+          "reward_unlock": "Cora bestows the family's lucky River Jade talisman.",
+          "event_type": "cutscene"
         }
       ]
     }

@@ -85,19 +85,22 @@
           "level": 2,
           "title": "Tiếng Kêu Lảnh Lót Buổi Sớm",
           "description": "Pip ngậm thư chào buổi sáng và dụi đầu vào tay Rowan trước hiên nhà.",
-          "reward_unlock": "Pip tự động mang hạt giống hoang dã Rừng Thầm Thì vào hòm thư mỗi sớm."
+          "reward_unlock": "Pip tự động mang hạt giống hoang dã Rừng Thầm Thì vào hòm thư mỗi sớm.",
+          "event_type": "mail"
         },
         {
           "level": 4,
           "title": "Chiếc Tổ Rơm Dưới Mái Hiên",
           "description": "Rowan lót tổ rơm khô ấm áp dưới mái hiên cho Pip trú bão tuyết.",
-          "reward_unlock": "Tăng 25% tỷ lệ Pip mang về hạt giống quý hiếm từ rừng sâu."
+          "reward_unlock": "Tăng 25% tỷ lệ Pip mang về hạt giống quý hiếm từ rừng sâu.",
+          "event_type": "tavern_dialogue"
         },
         {
           "level": 8,
           "title": "Sứ Giả Rừng Thầm Thì",
           "description": "Pip bay lượn dẫn đường chỉ cho Rowan lối tắt an toàn sang Rừng Thần Thảo Mộc.",
-          "reward_unlock": "Mở lối tắt đi bộ sang Rừng Thần Thảo Mộc và khu tổ ong rừng."
+          "reward_unlock": "Mở lối tắt đi bộ sang Rừng Thần Thảo Mộc và khu tổ ong rừng.",
+          "event_type": "cutscene"
         }
       ]
     },
@@ -143,13 +146,15 @@
           "level": 2,
           "title": "Chiếc Nệm Tro Bên Lò Sưởi",
           "description": "Mallow cuộn tròn cạnh lò nướng bánh, phát ra tiếng gừ gừ thư thái sau bữa cá nướng.",
-          "reward_unlock": "Buff thụ động 'Mèo May Mắn': Giảm 15% tỷ lệ cháy khét món ăn khi nấu nướng."
+          "reward_unlock": "Buff thụ động 'Mèo May Mắn': Giảm 15% tỷ lệ cháy khét món ăn khi nấu nướng.",
+          "event_type": "mail"
         },
         {
           "level": 6,
           "title": "Mèo Lười Nhặt Quà Sớm",
           "description": "Mallow đi dạo quanh sân và tha vào hiên những nhánh thảo mộc tươi rụng trong đêm.",
-          "reward_unlock": "Tăng 10% tiền tip vàng của khách dùng bữa; Mallow nhặt thảo mộc rụng mang vào hiên mỗi sớm."
+          "reward_unlock": "Tăng 10% tiền tip vàng của khách dùng bữa; Mallow nhặt thảo mộc rụng mang vào hiên mỗi sớm.",
+          "event_type": "tavern_dialogue"
         }
       ]
     },
@@ -228,31 +233,36 @@
           "level": 2,
           "title": "Bóng Dáng Dưới Gốc Phong Già",
           "description": "Lumi rụt rè nấp sau gốc cây; Rowan ngồi im lặng trên thảm rêu chia nửa chiếc bánh gạo hấp.",
-          "reward_unlock": "Mở công thức bánh truyền thống: Bánh Bột Gạo Hấp Nước Cốt Dừa."
+          "reward_unlock": "Mở công thức bánh truyền thống: Bánh Bột Gạo Hấp Nước Cốt Dừa.",
+          "event_type": "mail"
         },
         {
           "level": 4,
           "title": "Tiếng Gió Thì Thầm Của Đôi Tai Cáo",
           "description": "Lumi lắng nghe tiếng suối ngầm và nhịp thở của cây rừng dự báo thời tiết chuyển mùa.",
-          "reward_unlock": "Dự báo chính xác vị trí thảo dược và nấm quý xuất hiện trong rừng theo chu kỳ trăng."
+          "reward_unlock": "Dự báo chính xác vị trí thảo dược và nấm quý xuất hiện trong rừng theo chu kỳ trăng.",
+          "event_type": "tavern_dialogue"
         },
         {
           "level": 6,
           "title": "Chiếc Khăn Len Đỏ Hong Khô",
           "description": "Trú mưa tại The Hearth, Lumi giãi bày mặc cảm bị xa lánh vì là dị chủng lai giữa cáo và tinh linh.",
-          "reward_unlock": "Tặng Rowan gói Trà Sen Bách Diệp gia truyền ướp hương hoa tự nhiên."
+          "reward_unlock": "Tặng Rowan gói Trà Sen Bách Diệp gia truyền ướp hương hoa tự nhiên.",
+          "event_type": "tavern_dialogue"
         },
         {
           "level": 8,
           "title": "Lối Vào Đền Rừng Sâu",
           "description": "Hoàn toàn tin tưởng Rowan, Lumi mở phong ấn cành gai dẫn đường vào nơi linh thiêng của rừng.",
-          "reward_unlock": "Dẫn đường mở lối vào Đền Rừng Sâu thu hoạch Nấm Phát Quang và Dị Thảo Cổ Thụ."
+          "reward_unlock": "Dẫn đường mở lối vào Đền Rừng Sâu thu hoạch Nấm Phát Quang và Dị Thảo Cổ Thụ.",
+          "event_type": "cutscene"
         },
         {
           "level": 10,
           "title": "Lời Hẹn Ước Dưới Rừng Tuyết",
           "description": "Lumi trao Rowan chiếc Khăn Len Đỏ đan đôi bên bờ Hồ Trăng; hẹn ước gắn bó sẻ chia mái ấm.",
-          "reward_unlock": "Đính ước tri kỷ; Lumi chuyển về ở cùng tại gian phòng áp mái The Hearth."
+          "reward_unlock": "Đính ước tri kỷ; Lumi chuyển về ở cùng tại gian phòng áp mái The Hearth.",
+          "event_type": "cutscene"
         }
       ]
     },
@@ -410,25 +420,29 @@
           "level": 2,
           "title": "Tiếng Búa Cằn Nhằn",
           "description": "Boris đập búa chan chát và cãi vã với em trai Bram; cằn nhằn về sự bướng bỉnh liều lĩnh của em.",
-          "reward_unlock": "Mở dịch vụ nâng cấp nông cụ lên cấp Đồng và Sắt."
+          "reward_unlock": "Mở dịch vụ nâng cấp nông cụ lên cấp Đồng và Sắt.",
+          "event_type": "mail"
         },
         {
           "level": 4,
           "title": "Bánh Quế Giảm Đau Lưng",
           "description": "Boris đau lưng rã rời sau ngày dài quai búa; Rowan mang ổ bánh cuộn quế ấm nóng sang lò rèn.",
-          "reward_unlock": "Giảm 20% lượng than đá tiêu hao khi tinh luyện phôi kim loại tại Lò Rèn."
+          "reward_unlock": "Giảm 20% lượng than đá tiêu hao khi tinh luyện phôi kim loại tại Lò Rèn.",
+          "event_type": "tavern_dialogue"
         },
         {
           "level": 6,
           "title": "Nước Mắt Trong Cơn Say",
           "description": "Say rượu tại quán, Boris khóc nấc thú nhận nỗi sợ mất người em trai duy nhất sau vụ sập mỏ 10 năm trước.",
-          "reward_unlock": "Tặng Rowan khuôn đúc búa phá đá gia cố chống mẻ cạnh."
+          "reward_unlock": "Tặng Rowan khuôn đúc búa phá đá gia cố chống mẻ cạnh.",
+          "event_type": "tavern_dialogue"
         },
         {
           "level": 8,
           "title": "Nồi Súp Goulash Mẹ Nấu",
           "description": "Hai anh em cùng ăn nồi súp bò củ dền gia truyền, hóa giải hận thù và hiểu lầm đè nặng suốt một thập kỷ.",
-          "reward_unlock": "Mở khóa Trạm Tinh Luyện Cao Cấp (rút ngắn x2 thời gian đúc quặng, tăng tỷ lệ ngọc quý)."
+          "reward_unlock": "Mở khóa Trạm Tinh Luyện Cao Cấp (rút ngắn x2 thời gian đúc quặng, tăng tỷ lệ ngọc quý).",
+          "event_type": "cutscene"
         }
       ]
     },
@@ -552,25 +566,29 @@
           "level": 2,
           "title": "Khớp Gối Mùa Đông",
           "description": "Khớp gối bà sưng tấy khi mùa đông đến; Rowan đun ấm trà hoa cúc và xoa bóp cao thảo mộc cho bà.",
-          "reward_unlock": "Bán đầy đủ các loại hạt giống nông sản thông thường theo 4 mùa."
+          "reward_unlock": "Bán đầy đủ các loại hạt giống nông sản thông thường theo 4 mùa.",
+          "event_type": "mail"
         },
         {
           "level": 4,
           "title": "Căng Bạt Tránh Giông",
           "description": "Bão giông quật gãy giàn đậu; hai bà cháu cùng Rowan chằng chống luống rau trong mưa gió.",
-          "reward_unlock": "Mở khóa Vườn Ươm Rau Củ Bốn Mùa (nhà kính cơ bản ngoài sân trồng rau trái mùa)."
+          "reward_unlock": "Mở khóa Vườn Ươm Rau Củ Bốn Mùa (nhà kính cơ bản ngoài sân trồng rau trái mùa).",
+          "event_type": "tavern_dialogue"
         },
         {
           "level": 6,
           "title": "Cơn Say Nắng Trưa Hè",
           "description": "Bà ngất xỉu giữa vườn trưa hè; Kael hoảng loạn chạy đi tìm Rowan mang thuốc xông cứu bà.",
-          "reward_unlock": "Mở rộng thêm 12 ô đất trồng rau củ quanh khuôn viên nhà kính."
+          "reward_unlock": "Mở rộng thêm 12 ô đất trồng rau củ quanh khuôn viên nhà kính.",
+          "event_type": "tavern_dialogue"
         },
         {
           "level": 8,
           "title": "Di Nguyện Của Người Bà",
           "description": "Bà trao chiếc kéo tỉa cành gia truyền cho Kael, mãn nguyện nhìn cậu bé mồ côi nay đã biết tự lập.",
-          "reward_unlock": "Giảm 30% giá mua mọi loại hạt giống cây trồng tại thung lũng Oakhaven."
+          "reward_unlock": "Giảm 30% giá mua mọi loại hạt giống cây trồng tại thung lũng Oakhaven.",
+          "event_type": "cutscene"
         }
       ]
     },
@@ -680,25 +698,29 @@
           "level": 2,
           "title": "Gói Hạt Giống Rơi Xuống Bùn",
           "description": "Kael khóc thút thít bên mương vì làm rơi gói hạt; sợ bị coi là vô dụng đuổi đi; Rowan cùng rửa sạch hạt.",
-          "reward_unlock": "Kael nhặt tặng Rowan 1 túi hạt giống hoa dại mùa xuân."
+          "reward_unlock": "Kael nhặt tặng Rowan 1 túi hạt giống hoa dại mùa xuân.",
+          "event_type": "mail"
         },
         {
           "level": 4,
           "title": "Đan Giỏ Kiếm Tiền Thuốc",
           "description": "Kael thức khuya đan giỏ tre đựng củ cải để dành tiền mua thuốc cho bà Maeve.",
-          "reward_unlock": "Kael nhận phụ giúp nhổ cỏ dại và tưới luống hoa điền trang 2 ngày/tuần."
+          "reward_unlock": "Kael nhận phụ giúp nhổ cỏ dại và tưới luống hoa điền trang 2 ngày/tuần.",
+          "event_type": "tavern_dialogue"
         },
         {
           "level": 6,
           "title": "Ác Mộng Đêm Bán Diêm",
           "description": "Cơn ác mộng co ro giữa bão tuyết kinh đô ùa về; Rowan nấu cho bát súp bí đỏ hạt sen nóng bốc khói.",
-          "reward_unlock": "Tặng công thức món ăn dinh dưỡng: Súp Bí Đỏ Dưỡng Tâm."
+          "reward_unlock": "Tặng công thức món ăn dinh dưỡng: Súp Bí Đỏ Dưỡng Tâm.",
+          "event_type": "tavern_dialogue"
         },
         {
           "level": 8,
           "title": "Cuốn Sổ Tiết Kiệm Ghi Tên Kael",
           "description": "Kael phát hiện cuốn sổ bà Maeve chắt chiu tiền thuốc dành cho mình; ôm chầm lấy bà khóc nức nở.",
-          "reward_unlock": "Mở khóa Trạm Nhân Giống & Ghép Cây Bốn Mùa Tự Động (nhân bản hạt giống hiếm)."
+          "reward_unlock": "Mở khóa Trạm Nhân Giống & Ghép Cây Bốn Mùa Tự Động (nhân bản hạt giống hiếm).",
+          "event_type": "cutscene"
         }
       ]
     },
@@ -742,19 +764,22 @@
           "level": 2,
           "title": "Trang Đầu Sổ Bếp Cũ",
           "description": "Rowan tìm thấy trang nhật ký của bà dán sau đáy chảo gang gia truyền.",
-          "reward_unlock": "Mở công thức nguyên bản: Cơm Nắm Muối Rừng."
+          "reward_unlock": "Mở công thức nguyên bản: Cơm Nắm Muối Rừng.",
+          "event_type": "mail"
         },
         {
           "level": 4,
           "title": "Ngọn Lửa Không Tắt",
           "description": "Linh hồn bà Amalia hiện diện ấm áp trong khói bếp lò sưởi mỗi đêm đông.",
-          "reward_unlock": "Tăng vĩnh viễn 10% tốc độ nấu nướng và giảm tiêu hao củi lò."
+          "reward_unlock": "Tăng vĩnh viễn 10% tốc độ nấu nướng và giảm tiêu hao củi lò.",
+          "event_type": "tavern_dialogue"
         },
         {
           "level": 8,
           "title": "Di Sản Bếp Lửa Oakhaven",
           "description": "Rowan phục hồi hoàn chỉnh căn bếp; bà mỉm cười thanh thản tan biến vào làn khói thơm.",
-          "reward_unlock": "Nhận danh hiệu 'Bếp Trưởng Oakhaven' & mở công thức Yến Tiệc Cầu Siêu Anh Hồn."
+          "reward_unlock": "Nhận danh hiệu 'Bếp Trưởng Oakhaven' & mở công thức Yến Tiệc Cầu Siêu Anh Hồn.",
+          "event_type": "cutscene"
         }
       ]
     },
@@ -869,25 +894,29 @@
           "level": 2,
           "title": "Chén Rượu Bờ Sông",
           "description": "Bram ngồi uống rượu một mình bên bờ sông, uất ức vì bị coi là phế nhân cần thương hại.",
-          "reward_unlock": "Tặng Rowan Bản Đồ Khảo Sát Tầng Nông Hầm Mỏ (Tầng 1-20)."
+          "reward_unlock": "Tặng Rowan Bản Đồ Khảo Sát Tầng Nông Hầm Mỏ (Tầng 1-20).",
+          "event_type": "mail"
         },
         {
           "level": 4,
           "title": "Hang Lạnh Tầng 20",
           "description": "Bị chuột mỏ cắn chân trong hang tối; Rowan băng bó và chia sẻ mẩu bánh mì khô nướng giòn.",
-          "reward_unlock": "Chỉ Dẫn Mạch Quặng Tầng Sâu (tăng 15% tỷ lệ xuất hiện vỉa quặng hiếm)."
+          "reward_unlock": "Chỉ Dẫn Mạch Quặng Tầng Sâu (tăng 15% tỷ lệ xuất hiện vỉa quặng hiếm).",
+          "event_type": "tavern_dialogue"
         },
         {
           "level": 6,
           "title": "Chiếc Hộp Thiếc Của Mẹ",
           "description": "Rowan đu dây xuống khe nứt tầng 40 lấy lại chiếc hộp thiếc kỷ vật người mẹ để lại cho hai anh em.",
-          "reward_unlock": "Bram trao tặng chiếc Cuốc Thợ Mỏ Thép Cũ đã mài bén."
+          "reward_unlock": "Bram trao tặng chiếc Cuốc Thợ Mỏ Thép Cũ đã mài bén.",
+          "event_type": "tavern_dialogue"
         },
         {
           "level": 8,
           "title": "Cái Bắt Tay Của Người Thợ Mỏ",
           "description": "Cùng anh trai Boris nâng chén tại The Hearth, tự hào làm việc độc lập chứng minh giá trị bản thân.",
-          "reward_unlock": "Mở khóa Thang Máy Vượt Tầng Hầm Mỏ (mở lối tắt đến các trạm đới an toàn)."
+          "reward_unlock": "Mở khóa Thang Máy Vượt Tầng Hầm Mỏ (mở lối tắt đến các trạm đới an toàn).",
+          "event_type": "cutscene"
         }
       ]
     },
@@ -973,25 +1002,29 @@
           "level": 2,
           "title": "Bánh Xe Lún Bùn",
           "description": "Xe kéo bánh ngọt bị sụp rãnh bùn; Rowan phụ đẩy xe và kê đá giữ thăng bằng trục bánh.",
-          "reward_unlock": "Giảm 10% giá mua bánh ngọt tại xe đẩy quảng trường."
+          "reward_unlock": "Giảm 10% giá mua bánh ngọt tại xe đẩy quảng trường.",
+          "event_type": "mail"
         },
         {
           "level": 4,
           "title": "Quầy Bánh Xe Kéo Mới",
           "description": "Tự tay đóng quầy bánh mới bằng gỗ thông thung lũng, rạng rỡ chào đón thợ mỏ và dân làng.",
-          "reward_unlock": "Khai trương Quầy Bánh Ngọt Xe Kéo tại Quảng Trường Oakhaven."
+          "reward_unlock": "Khai trương Quầy Bánh Ngọt Xe Kéo tại Quảng Trường Oakhaven.",
+          "event_type": "tavern_dialogue"
         },
         {
           "level": 6,
           "title": "Bỏng Rộp Cổ Tay",
           "description": "Bị bỏng mẻ bánh nóng; Rowan bôi thuốc mỡ thảo mộc và nướng phụ mẻ bánh dâu rừng.",
-          "reward_unlock": "Mở công thức tráng miệng độc quyền: Tart Dâu Tuyết Lạnh."
+          "reward_unlock": "Mở công thức tráng miệng độc quyền: Tart Dâu Tuyết Lạnh.",
+          "event_type": "tavern_dialogue"
         },
         {
           "level": 8,
           "title": "Tự Lập Bằng Đôi Bàn Tay",
           "description": "Tự hào độc lập tài chính trước hai người chú Boris và Bram; mở rộng phân phối cơm hộp.",
-          "reward_unlock": "Hệ Thống Delivery Giao Cơm Hộp Tận Nơi cho thợ mỏ và dân làm việc xa quán."
+          "reward_unlock": "Hệ Thống Delivery Giao Cơm Hộp Tận Nơi cho thợ mỏ và dân làm việc xa quán.",
+          "event_type": "cutscene"
         }
       ]
     },
@@ -1082,25 +1115,29 @@
           "level": 2,
           "title": "Chân Trần Trong Sương Sớm",
           "description": "Quên chìa khóa đi lạc giữa sương mù sớm; Rowan dắt ông về nhà và đun ấm nước ngâm chân thảo dược.",
-          "reward_unlock": "Tặng Rowan Thấu Kính Thạch Anh cũ hỗ trợ quan sát ban đêm."
+          "reward_unlock": "Tặng Rowan Thấu Kính Thạch Anh cũ hỗ trợ quan sát ban đêm.",
+          "event_type": "mail"
         },
         {
           "level": 4,
           "title": "Bản Đồ Mây Sương Độc",
           "description": "Phác họa quỹ đạo các đám mây sương độc miasma từ hẻm núi tràn về thung lũng.",
-          "reward_unlock": "Mở Bản Tin Dự Báo Khí Tượng 3 Ngày (báo trước bão tuyết, mưa axit, đêm trăng rằm)."
+          "reward_unlock": "Mở Bản Tin Dự Báo Khí Tượng 3 Ngày (báo trước bão tuyết, mưa axit, đêm trăng rằm).",
+          "event_type": "tavern_dialogue"
         },
         {
           "level": 6,
           "title": "Chòm Sao Elise",
           "description": "Nhầm lẫn Rowan với người vợ quá cố Elise, nghẹn ngào nhắc lại lời hứa ngắm sao băng cùng bà.",
-          "reward_unlock": "Tặng bản phác thảo Chòm Sao Bách Thảo hướng dẫn thời vụ gieo trồng."
+          "reward_unlock": "Tặng bản phác thảo Chòm Sao Bách Thảo hướng dẫn thời vụ gieo trồng.",
+          "event_type": "tavern_dialogue"
         },
         {
           "level": 8,
           "title": "Ánh Sao Vĩnh Cửu Của Người Mẹ",
           "description": "Trước khi trí nhớ tan biến, ông cùng con gái Clara vẽ xong bản đồ sao mang tên người vợ quá cố.",
-          "reward_unlock": "Kích hoạt định kỳ sự kiện Đêm Sao Băng Rơi (thu thập khoáng thạch bề mặt thung lũng)."
+          "reward_unlock": "Kích hoạt định kỳ sự kiện Đêm Sao Băng Rơi (thu thập khoáng thạch bề mặt thung lũng).",
+          "event_type": "cutscene"
         }
       ]
     },
@@ -1196,31 +1233,36 @@
           "level": 2,
           "title": "Nước Mắt Sau Kệ Sách",
           "description": "Bắt gặp Clara gục đầu khóc sau kệ sách vì kiệt sức chăm cha; Rowan mang bánh quy bơ và ấm trà nóng.",
-          "reward_unlock": "Mở quyền tra cứu sách cổ và văn hóa dân gian thung lũng tại Thư Viện."
+          "reward_unlock": "Mở quyền tra cứu sách cổ và văn hóa dân gian thung lũng tại Thư Viện.",
+          "event_type": "mail"
         },
         {
           "level": 4,
           "title": "Phục Chế Bản Thảo Cổ",
           "description": "Dọn dẹp bụi bặm thư viện, cẩn thận ép lại các trang sách mốc meo ghi chép hầm mỏ cổ xưa.",
-          "reward_unlock": "Mở dịch vụ Giải Mã Văn Tự & Thư Tịch Cổ Hầm Mỏ."
+          "reward_unlock": "Mở dịch vụ Giải Mã Văn Tự & Thư Tịch Cổ Hầm Mỏ.",
+          "event_type": "tavern_dialogue"
         },
         {
           "level": 6,
           "title": "Lá Thư Trúng Tuyển Xé Đôi",
           "description": "Thú nhận nỗi đau xé nát thư trúng tuyển kinh đô để ở lại Oakhaven vì không nỡ bỏ rơi cha già.",
-          "reward_unlock": "Tặng Rowan Bản Đồ Cổ Oakhaven chỉ điểm các giếng nước ngọt trong thung lũng."
+          "reward_unlock": "Tặng Rowan Bản Đồ Cổ Oakhaven chỉ điểm các giếng nước ngọt trong thung lũng.",
+          "event_type": "tavern_dialogue"
         },
         {
           "level": 8,
           "title": "Kho Sách Cổ Của Thung Lũng",
           "description": "Nhìn cha mỉm cười thanh thản, tìm lại niềm vui với trang sách thung lũng bên bếp lửa The Hearth.",
-          "reward_unlock": "Kho Lưu Trữ Công Thức Cổ Đại (mở khóa 5 công thức bánh nướng truyền thống)."
+          "reward_unlock": "Kho Lưu Trữ Công Thức Cổ Đại (mở khóa 5 công thức bánh nướng truyền thống).",
+          "event_type": "cutscene"
         },
         {
           "level": 10,
           "title": "Hẹn Ước Bên Bàn Đọc",
           "description": "Clara tặng Rowan cuốn sổ tay bìa da do chính tay cô đóng; lời hẹn ước gắn kết bên bếp lửa.",
-          "reward_unlock": "Kết duyên tri kỷ; Clara dọn về sống chung tại phòng áp mái The Hearth."
+          "reward_unlock": "Kết duyên tri kỷ; Clara dọn về sống chung tại phòng áp mái The Hearth.",
+          "event_type": "cutscene"
         }
       ]
     },
@@ -1315,25 +1357,29 @@
           "level": 2,
           "title": "Khúc Gỗ Mục Mắc Cạn",
           "description": "Garrick cằn nhằn về mớ gỗ mục mua nhầm vá đáy thuyền, mặc cảm mình vô dụng mắc cạn bờ hồ.",
-          "reward_unlock": "Mở bến cá ven hồ bán mồi câu và cước cá chịu lực."
+          "reward_unlock": "Mở bến cá ven hồ bán mồi câu và cước cá chịu lực.",
+          "event_type": "mail"
         },
         {
           "level": 4,
           "title": "Tuyến Thuyền Hồ Sương Mù",
           "description": "Căng cánh buồm vá thử nghiệm chuyến thuyền đầu tiên chở nông sản qua vịnh hồ sương mù.",
-          "reward_unlock": "Mở Bến Thuyền Chở Hàng Bờ Hồ kết nối thông thương hàng hóa."
+          "reward_unlock": "Mở Bến Thuyền Chở Hàng Bờ Hồ kết nối thông thương hàng hóa.",
+          "event_type": "tavern_dialogue"
         },
         {
           "level": 6,
           "title": "Mắt Phải Mù Màu",
           "description": "Tiết lộ mắt phải mù màu sau tai nạn biển sâu, không còn nhìn rõ đá ngầm và luồng lạch nước sâu.",
-          "reward_unlock": "Tặng Rowan Ống Nhòm Thủy Thủ Hải Quân Solaria."
+          "reward_unlock": "Tặng Rowan Ống Nhòm Thủy Thủ Hải Quân Solaria.",
+          "event_type": "tavern_dialogue"
         },
         {
           "level": 8,
           "title": "Căng Buồm Ra Biển Mây",
           "description": "Cùng cháu trai Finn sửa xong con tàu viễn chinh, tự hào vươn buồm ra vùng biển lớn.",
-          "reward_unlock": "Khai thông Tuyến Hàng Hải Biển Mây nhập khẩu gia vị và cá lạ độc quyền."
+          "reward_unlock": "Khai thông Tuyến Hàng Hải Biển Mây nhập khẩu gia vị và cá lạ độc quyền.",
+          "event_type": "cutscene"
         }
       ]
     },
@@ -1419,25 +1465,29 @@
           "level": 2,
           "title": "Cần Câu Trúc Gãy Đôi",
           "description": "Cần câu trúc bị gãy khi cắn cá to; Rowan gọt lại cán cần câu mới và buộc thêm chì câu.",
-          "reward_unlock": "Tặng Rowan hộp mồi dế đất câu cá suối."
+          "reward_unlock": "Tặng Rowan hộp mồi dế đất câu cá suối.",
+          "event_type": "mail"
         },
         {
           "level": 4,
           "title": "Đi Săn Đêm Hồ Ngầm",
           "description": "Rủ Rowan lặn lội xuống hồ ngầm hầm mỏ săn các loài cá mù phát quang kỳ ảo.",
-          "reward_unlock": "Mở Cần Câu Cá Sợi Thủy Tinh & Minigame Câu Cá Nâng Cao."
+          "reward_unlock": "Mở Cần Câu Cá Sợi Thủy Tinh & Minigame Câu Cá Nâng Cao.",
+          "event_type": "tavern_dialogue"
         },
         {
           "level": 6,
           "title": "Chiếc La Bàn Cầm Cố",
           "description": "Gom đủ từng đồng tiền lẻ chuộc lại La Bàn Bạc Cổ mà ông nội từng phải cầm cố lấy tiền chữa bệnh cho cha.",
-          "reward_unlock": "Tặng Rowan Phao Câu Dạ Quang giúp câu cá đêm dễ dàng."
+          "reward_unlock": "Tặng Rowan Phao Câu Dạ Quang giúp câu cá đêm dễ dàng.",
+          "event_type": "tavern_dialogue"
         },
         {
           "level": 8,
           "title": "Món Ăn Soi Sáng Hang Tối",
           "description": "Mang cá phát quang về cho Rowan nấu thử nghiệm các món ăn ban hiệu ứng Dạ Quang.",
-          "reward_unlock": "Cung cấp nguồn Cá Phát Quang Ổn Định làm nguyên liệu món buff Dạ Quang soi sáng mỏ sâu."
+          "reward_unlock": "Cung cấp nguồn Cá Phát Quang Ổn Định làm nguyên liệu món buff Dạ Quang soi sáng mỏ sâu.",
+          "event_type": "cutscene"
         }
       ]
     },
@@ -1484,19 +1534,22 @@
           "level": 2,
           "title": "Bàn Tay Run Rẩy",
           "description": "Cơn run tay cản trở đường kim mũi chỉ; Rowan mang trà an thần sang và giữ hộ cuộn lụa mỏng.",
-          "reward_unlock": "Nhận vá túi và sửa trang phục thô sơ với giá ưu đãi."
+          "reward_unlock": "Nhận vá túi và sửa trang phục thô sơ với giá ưu đãi.",
+          "event_type": "mail"
         },
         {
           "level": 4,
           "title": "Túi Đeo Dã Ngoại Sylva",
           "description": "May riêng cho Rowan chiếc ba lô dã ngoại mở rộng bằng da hươu và sợi lanh rừng.",
-          "reward_unlock": "Nâng cấp Túi Hành Trang Mở Rộng (+12 ô chứa đồ trong hầm mỏ)."
+          "reward_unlock": "Nâng cấp Túi Hành Trang Mở Rộng (+12 ô chứa đồ trong hầm mỏ).",
+          "event_type": "tavern_dialogue"
         },
         {
           "level": 8,
           "title": "Áo Choàng Dạ Hội Chống Rét",
           "description": "Nhờ thuốc của Sylvan chữa khỏi run tay, cô dệt nên kiệt tác áo ấm từ Tơ Hoàng Kim của Thistle.",
-          "reward_unlock": "Tặng Áo Choàng Dạ Hội Chống Rét Vĩnh Cửu (miễn nhiễm rét buốt mùa đông)."
+          "reward_unlock": "Tặng Áo Choàng Dạ Hội Chống Rét Vĩnh Cửu (miễn nhiễm rét buốt mùa đông).",
+          "event_type": "cutscene"
         }
       ]
     },
@@ -1544,19 +1597,22 @@
           "level": 2,
           "title": "Mẫu Thảo Mộc Úa Tàn",
           "description": "Vườn thuốc bị cạn nước ngầm khô héo; Rowan cùng đào mương tưới dẫn nước suối ngọt về vườn.",
-          "reward_unlock": "Tặng Rowan phân bón thảo dược tăng 10% năng suất cây trồng."
+          "reward_unlock": "Tặng Rowan phân bón thảo dược tăng 10% năng suất cây trồng.",
+          "event_type": "mail"
         },
         {
           "level": 4,
           "title": "Phòng Thí Nghiệm Chưng Cất",
           "description": "Lắp đặt bình chưng cất thủy tinh, nghiên cứu cách chiết xuất tinh dầu thảo mộc cho món ăn.",
-          "reward_unlock": "Mở Trạm Chiết Xuất Tinh Dầu & Hương Liệu (tăng 50% thời gian buff món ăn)."
+          "reward_unlock": "Mở Trạm Chiết Xuất Tinh Dầu & Hương Liệu (tăng 50% thời gian buff món ăn).",
+          "event_type": "tavern_dialogue"
         },
         {
           "level": 8,
           "title": "Rễ Cây Ngàn Năm Thần Bí",
           "description": "Thu hoạch thành công vị thuốc quý cứu chữa chứng run tay cho Elora; cảm kích tấm lòng Rowan.",
-          "reward_unlock": "Khai thác Rễ Cây Ngàn Năm phục chế thể lực vĩnh viễn và chữa lành thương tật."
+          "reward_unlock": "Khai thác Rễ Cây Ngàn Năm phục chế thể lực vĩnh viễn và chữa lành thương tật.",
+          "event_type": "cutscene"
         }
       ]
     },
@@ -1604,31 +1660,36 @@
           "level": 2,
           "title": "Gác Đêm Run Rẩy",
           "description": "Đứng gác run rẩy trong đêm lạnh âm độ, bụng đói cồn cào; Rowan mang cơm nắm muối rừng và nước ấm sang.",
-          "reward_unlock": "Giảm 10% tỷ lệ bị thú dữ quấy phá quanh hàng rào điền trang."
+          "reward_unlock": "Giảm 10% tỷ lệ bị thú dữ quấy phá quanh hàng rào điền trang.",
+          "event_type": "mail"
         },
         {
           "level": 4,
           "title": "Dấu Chân Thú Rình Mò",
           "description": "Phát hiện lửng mỏ cắn rách bao lúa mì kho hàng; cùng Rowan rào chắn lại bờ giậu thị trấn.",
-          "reward_unlock": "Mở dịch vụ Trị An Đêm (giảm 50% nguy cơ mất trộm ở quầy tự phục vụ ngoài hiên)."
+          "reward_unlock": "Mở dịch vụ Trị An Đêm (giảm 50% nguy cơ mất trộm ở quầy tự phục vụ ngoài hiên).",
+          "event_type": "tavern_dialogue"
         },
         {
           "level": 6,
           "title": "Lá Thư Nuôi Đàn Em Thơ",
           "description": "Marlo đứng khóc sau bức tường gác khi nhận thư báo tin 4 đứa em đều được đến trường nhờ tiền anh chắt chiu.",
-          "reward_unlock": "Tặng Rowan chiếc Áo Giáp Da Cũ gia cố đinh sắt dã chiến."
+          "reward_unlock": "Tặng Rowan chiếc Áo Giáp Da Cũ gia cố đinh sắt dã chiến.",
+          "event_type": "tavern_dialogue"
         },
         {
           "level": 8,
           "title": "Đội Trưởng Tuần Tra Oakhaven",
           "description": "Được thị trấn tin cậy bổ nhiệm làm Đội trưởng Tuần tra Đêm, bảo vệ an bình cho từng giấc ngủ.",
-          "reward_unlock": "Miễn nhiễm 100% trộm cắp tại Điền trang và Quán The Hearth."
+          "reward_unlock": "Miễn nhiễm 100% trộm cắp tại Điền trang và Quán The Hearth.",
+          "event_type": "cutscene"
         },
         {
           "level": 10,
           "title": "Bình Yên Sau Cổng Làng",
           "description": "Marlo trao Rowan chiếc còi gác kỷ niệm; lời hẹn ước che chở cho nhau qua mọi giông bão cuộc đời.",
-          "reward_unlock": "Kết duyên tri kỷ; Marlo dọn về The Hearth và hỗ trợ canh gác trang trại."
+          "reward_unlock": "Kết duyên tri kỷ; Marlo dọn về The Hearth và hỗ trợ canh gác trang trại.",
+          "event_type": "cutscene"
         }
       ]
     },
@@ -1675,31 +1736,36 @@
           "level": 2,
           "title": "Canh Dưỡng Sinh Nửa Đêm",
           "description": "Thao thức đêm nghiền thuốc nam chăm sóc bệnh nhân nghèo, kiệt sức vì lo tiền thuốc men.",
-          "reward_unlock": "Nấu Canh Dưỡng Sinh giảm đau lưng khớp và phục hồi nhanh thể lực cho Rowan."
+          "reward_unlock": "Nấu Canh Dưỡng Sinh giảm đau lưng khớp và phục hồi nhanh thể lực cho Rowan.",
+          "event_type": "mail"
         },
         {
           "level": 4,
           "title": "Dịch Cúm Mùa Đông",
           "description": "Cùng Rowan hái lá xông phát cho từng nhà nghèo trong đợt rét hại cắt da cắt thịt.",
-          "reward_unlock": "Mở quầy bán thuốc hồi phục thể lực và cao dán trị bỏng giá rẻ."
+          "reward_unlock": "Mở quầy bán thuốc hồi phục thể lực và cao dán trị bỏng giá rẻ.",
+          "event_type": "tavern_dialogue"
         },
         {
           "level": 6,
           "title": "Bỏ Chạy Khỏi Kinh Đô",
           "description": "Tâm sự nỗi day dứt khi thấy bệnh viện Solaria từ chối cấp cứu người nghèo không có vàng đặt cọc.",
-          "reward_unlock": "Tặng Rowan Hộp Thuốc Cứu Thương Dã Ngoại chống xuất huyết khi đi mỏ."
+          "reward_unlock": "Tặng Rowan Hộp Thuốc Cứu Thương Dã Ngoại chống xuất huyết khi đi mỏ.",
+          "event_type": "tavern_dialogue"
         },
         {
           "level": 8,
           "title": "Vườn Dược Liệu Cộng Đồng",
           "description": "Xây dựng vườn thuốc nam công cộng tại trạm xá, mang thuốc men miễn phí đến cho người nghèo.",
-          "reward_unlock": "Giảm 50% chi phí y tế và tăng gấp đôi hiệu lực các thang thuốc dưỡng sinh."
+          "reward_unlock": "Giảm 50% chi phí y tế và tăng gấp đôi hiệu lực các thang thuốc dưỡng sinh.",
+          "event_type": "cutscene"
         },
         {
           "level": 10,
           "title": "Hương Thảo Mộc Ấm Lòng",
           "description": "Aurelia trao tặng chiếc túi thơm dược thảo ước hẹn; lời thề che chở chữa lành bên bếp lửa The Hearth.",
-          "reward_unlock": "Kết duyên tri kỷ; Aurelia dọn về sống chung tại phòng áp mái The Hearth."
+          "reward_unlock": "Kết duyên tri kỷ; Aurelia dọn về sống chung tại phòng áp mái The Hearth.",
+          "event_type": "cutscene"
         }
       ]
     },
@@ -1746,31 +1812,36 @@
           "level": 2,
           "title": "Cơn Co Thắt Thiếu Máu",
           "description": "Phát cơn co thắt thiếu máu trong phòng kín lầu 2; Rowan mang súp củ dền đỏ bổ huyết và kéo kín rèm che nắng.",
-          "reward_unlock": "Mở lối vào phòng VIP lầu 2 The Hearth."
+          "reward_unlock": "Mở lối vào phòng VIP lầu 2 The Hearth.",
+          "event_type": "mail"
         },
         {
           "level": 4,
           "title": "Đơn Tiệc Đêm Thượng Hạng",
           "description": "Thuê phòng VIP dài hạn, đặt các món tráng miệng thượng hạng và rượu hoa quả nửa đêm thanh toán giá gấp đôi.",
-          "reward_unlock": "Mở các Đơn Hàng Ẩm Thực Đêm Cao Cấp thanh toán x2 giá trị vàng."
+          "reward_unlock": "Mở các Đơn Hàng Ẩm Thực Đêm Cao Cấp thanh toán x2 giá trị vàng.",
+          "event_type": "tavern_dialogue"
         },
         {
           "level": 6,
           "title": "Chứng Bệnh Máu Tái Phát",
           "description": "Thời tiết chuyển lạnh buốt, Valen phát sốt run rẩy; Rowan sắc thuốc hãm thảo dược ấm giữ huyết nhiệt.",
-          "reward_unlock": "Tặng Rowan chiếc Chén Bạc Chạm Khắc Hoàng Gia Solaria."
+          "reward_unlock": "Tặng Rowan chiếc Chén Bạc Chạm Khắc Hoàng Gia Solaria.",
+          "event_type": "tavern_dialogue"
         },
         {
           "level": 8,
           "title": "Khế Ước Quý Tộc Lưu Vong",
           "description": "Cảm phục sự chân thành không kỳ thị của Rowan, trao lại tài liệu nghiên cứu luyện kim hoàng gia.",
-          "reward_unlock": "Bản Thảo Cổ Solaria & công thức chế tác ngọc bội kháng lạnh mùa đông."
+          "reward_unlock": "Bản Thảo Cổ Solaria & công thức chế tác ngọc bội kháng lạnh mùa đông.",
+          "event_type": "cutscene"
         },
         {
           "level": 10,
           "title": "Chiếc Nhẫn Huyết Ngọc Gia Tộc",
           "description": "Valen trao chiếc nhẫn huyết ngọc Montfort bên lò sưởi đêm khuya; lời thề tri kỷ bảo bọc nhau trọn đời.",
-          "reward_unlock": "Kết duyên tri kỷ; Valen chính thức ở lại Oakhaven xây dựng gia đình cùng Rowan."
+          "reward_unlock": "Kết duyên tri kỷ; Valen chính thức ở lại Oakhaven xây dựng gia đình cùng Rowan.",
+          "event_type": "cutscene"
         }
       ]
     },
@@ -1817,19 +1888,22 @@
           "level": 2,
           "title": "Đường Bay Trong Bão Tuyết",
           "description": "Chổi bay bị đóng băng đuôi rơi xuống sườn đồi; Rowan đốt lửa sưởi ấm chổi và mời bánh nướng nóng.",
-          "reward_unlock": "Giảm 10% phí vận chuyển bưu phẩm khẩn cấp."
+          "reward_unlock": "Giảm 10% phí vận chuyển bưu phẩm khẩn cấp.",
+          "event_type": "mail"
         },
         {
           "level": 4,
           "title": "Đường Bay Hỏa Tốc Sky Express",
           "description": "Thiết lập tuyến chuyển phát hàng không liên vùng giữa các đại vực xa xôi.",
-          "reward_unlock": "Dịch vụ Sky Express: Đặt mua nguyên liệu đặc sản 5 đại vực giao trong 2 giờ."
+          "reward_unlock": "Dịch vụ Sky Express: Đặt mua nguyên liệu đặc sản 5 đại vực giao trong 2 giờ.",
+          "event_type": "tavern_dialogue"
         },
         {
           "level": 8,
           "title": "Chiếc Chổi Tốc Hành Tặng Rowan",
           "description": "Tự tay cải tiến chổi bay tốc độ cao trao tặng Rowan như lời cảm ơn sâu sắc.",
-          "reward_unlock": "Tặng Chổi Bay Tốc Hành (+50% tốc độ di chuyển trên bản đồ thế giới)."
+          "reward_unlock": "Tặng Chổi Bay Tốc Hành (+50% tốc độ di chuyển trên bản đồ thế giới).",
+          "event_type": "cutscene"
         }
       ]
     },
@@ -1876,13 +1950,15 @@
           "level": 4,
           "title": "Bánh Răng Khớp Nối Hoạt Động",
           "description": "Rowan tra dầu mỡ tinh chế vào ổ trục tháp chuông, khôi phục tiếng tích tắc chuẩn xác của cỗ máy cổ.",
-          "reward_unlock": "Hiển thị Đồng Hồ Đếm Ngược Buff Thức Ăn Chính Xác Trên Màn Hình HUD."
+          "reward_unlock": "Hiển thị Đồng Hồ Đếm Ngược Buff Thức Ăn Chính Xác Trên Màn Hình HUD.",
+          "event_type": "tavern_dialogue"
         },
         {
           "level": 8,
           "title": "Hồi Chuông Hoàng Kim Ngân Vang",
           "description": "Chuông tháp đồng hồ ngân vang báo giờ ăn trưa và tối, thu hút khách ghé quán đông đúc.",
-          "reward_unlock": "Chuông ngân giờ ăn tăng 20% doanh thu khách dùng bữa tại Quán The Hearth."
+          "reward_unlock": "Chuông ngân giờ ăn tăng 20% doanh thu khách dùng bữa tại Quán The Hearth.",
+          "event_type": "cutscene"
         }
       ]
     },
@@ -1929,13 +2005,15 @@
           "level": 4,
           "title": "Luồng Nước Ngầm Đưa Lối",
           "description": "Bơi từ vịnh sương mù theo lạch nước ngầm ghé thăm bến hồ Oakhaven mang theo muối biển tinh khiết.",
-          "reward_unlock": "Mở giao thương Muối Khoáng Pha Lê và khoáng chất biển sâu hiếm có."
+          "reward_unlock": "Mở giao thương Muối Khoáng Pha Lê và khoáng chất biển sâu hiếm có.",
+          "event_type": "tavern_dialogue"
         },
         {
           "level": 8,
           "title": "Ngọc Trai Sáng Đáy Sâu",
           "description": "Trao tặng Rowan viên ngọc trai phát quang tích tụ nghìn năm dưới đáy biển lạnh.",
-          "reward_unlock": "Cung ứng Ngọc Trai Phát Quang Kháng Độc dùng chế tác bùa hộ mệnh thám hiểm mỏ sâu."
+          "reward_unlock": "Cung ứng Ngọc Trai Phát Quang Kháng Độc dùng chế tác bùa hộ mệnh thám hiểm mỏ sâu.",
+          "event_type": "cutscene"
         }
       ]
     },
@@ -2031,25 +2109,29 @@
           "level": 2,
           "title": "Chân Gỗ Gãy Chốt",
           "description": "Chân gỗ bị gãy chốt khi thị sát cửa mỏ; Rowan cõng ông về trạm cứu hộ và đóng lại chốt gỗ sồi mới.",
-          "reward_unlock": "Giảm 10% phí dịch vụ và thủ tục tại Hiệp Hội Mạo Hiểm."
+          "reward_unlock": "Giảm 10% phí dịch vụ và thủ tục tại Hiệp Hội Mạo Hiểm.",
+          "event_type": "mail"
         },
         {
           "level": 4,
           "title": "Bản Đồ Thám Hiểm Hầm Ngục",
           "description": "Bàn giao hồ sơ địa hình 150 tầng mỏ và cảnh báo sự khốc liệt của các tầng quái vật đới sâu.",
-          "reward_unlock": "Mở Bảng Săn Tiền Thưởng Quái Vật (Bounties) & Cấp Ấn Triện Thông Hành đới nông."
+          "reward_unlock": "Mở Bảng Săn Tiền Thưởng Quái Vật (Bounties) & Cấp Ấn Triện Thông Hành đới nông.",
+          "event_type": "tavern_dialogue"
         },
         {
           "level": 6,
           "title": "Mười Tám Nén Nhang Chiều Mưa",
           "description": "Đứng lặng trước bia tưởng niệm 18 đồng đội hy sinh dưới vực thẳm; Rowan mang thịt khô và bình rượu ấm ra cùng ngồi.",
-          "reward_unlock": "Tặng Rowan Chiếc Cúp Chỉ Huy Cũ mạ vàng."
+          "reward_unlock": "Tặng Rowan Chiếc Cúp Chỉ Huy Cũ mạ vàng.",
+          "event_type": "tavern_dialogue"
         },
         {
           "level": 8,
           "title": "Ấn Triện Vực Thẳm Vô Tận",
           "description": "Trao lại thanh gươm chỉ huy cũ, tin tưởng Rowan đủ bản lĩnh chinh phục vực sâu thẳm nhất.",
-          "reward_unlock": "Cấp Giấy Phép Mỏ Sâu Vực Thẳm 151+ & Thang Máy Tốc Hành tới Cổng Trùm."
+          "reward_unlock": "Cấp Giấy Phép Mỏ Sâu Vực Thẳm 151+ & Thang Máy Tốc Hành tới Cổng Trùm.",
+          "event_type": "cutscene"
         }
       ]
     },
@@ -2135,31 +2217,36 @@
           "level": 2,
           "title": "Tiếng Nổ Làm Rơi Hồ Sơ",
           "description": "Giật mình hoảng loạn làm rơi hồ sơ khi có tiếng sấm sét; Rowan che chắn và nhặt giấy tờ giúp.",
-          "reward_unlock": "Tặng Rowan chiếc cung tên gỗ bạch dương cũ."
+          "reward_unlock": "Tặng Rowan chiếc cung tên gỗ bạch dương cũ.",
+          "event_type": "mail"
         },
         {
           "level": 4,
           "title": "Kho Đồ Thất Lạc Thị Trấn",
           "description": "Sắp xếp kho lưu trữ chứng từ và vật dụng dân làng bán nhầm trong ngày.",
-          "reward_unlock": "Mở Quầy Mua Lại Đồ Bán Nhầm (Buyback Shop) cho phép chuộc lại vật phẩm bán nhầm."
+          "reward_unlock": "Mở Quầy Mua Lại Đồ Bán Nhầm (Buyback Shop) cho phép chuộc lại vật phẩm bán nhầm.",
+          "event_type": "tavern_dialogue"
         },
         {
           "level": 6,
           "title": "Tập Đọc Khẩu Hình Miệng",
           "description": "Mất thính lực tăng nặng khi trời lạnh giá; Rowan đan tặng bịt tai len cừu ấm áp.",
-          "reward_unlock": "Tặng Rowan Bản Đồ Thu Gom Đồ Rơi Vãi quanh thung lũng."
+          "reward_unlock": "Tặng Rowan Bản Đồ Thu Gom Đồ Rơi Vãi quanh thung lũng.",
+          "event_type": "tavern_dialogue"
         },
         {
           "level": 8,
           "title": "Tìm Lại Bản Lĩnh Xạ Thủ",
           "description": "Vượt qua bóng ma hoảng loạn tiếng động thời chiến, tìm lại sự tự tin bên quầy tiếp tân.",
-          "reward_unlock": "Mở dịch vụ Tìm Kiếm Dụng Cụ Rơi Vãi Trên Mặt Đất (cuốc, rìu, xẻng)."
+          "reward_unlock": "Mở dịch vụ Tìm Kiếm Dụng Cụ Rơi Vãi Trên Mặt Đất (cuốc, rìu, xẻng).",
+          "event_type": "cutscene"
         },
         {
           "level": 10,
           "title": "Nơ Tên Bạc Trao Tay",
           "description": "Valerie trao chiếc nơ dây cung bằng bạc đính ước dưới rặng sồi già ven suối; hẹn ước trọn đời.",
-          "reward_unlock": "Kết duyên tri kỷ; Valerie dọn về sống chung tại phòng áp mái The Hearth."
+          "reward_unlock": "Kết duyên tri kỷ; Valerie dọn về sống chung tại phòng áp mái The Hearth.",
+          "event_type": "cutscene"
         }
       ]
     },
@@ -2240,13 +2327,15 @@
           "level": 4,
           "title": "Bản Vẽ Quy Hoạch Thị Trấn",
           "description": "Cùng Rowan kiểm tra các công trình đổ nát sau chiến tranh tại quảng trường và bờ sông.",
-          "reward_unlock": "Mở Bảng Dự Án Tái Thiết Oakhaven (Town Board) phục hồi 12 công trình hoang tàn."
+          "reward_unlock": "Mở Bảng Dự Án Tái Thiết Oakhaven (Town Board) phục hồi 12 công trình hoang tàn.",
+          "event_type": "tavern_dialogue"
         },
         {
           "level": 8,
           "title": "Chuyển Giao Trách Nhiệm",
           "description": "Buông bỏ quyền lực độc nhiệm để thành lập Hội Đồng Cư Dân tự quản Oakhaven.",
-          "reward_unlock": "Hoàn thành khôi phục toàn bộ 12 công trình công cộng của thị trấn."
+          "reward_unlock": "Hoàn thành khôi phục toàn bộ 12 công trình công cộng của thị trấn.",
+          "event_type": "cutscene"
         }
       ]
     },
@@ -2327,25 +2416,29 @@
           "level": 2,
           "title": "Dằm Gỗ Đâm Móng Vuốt",
           "description": "Bị dằm gỗ lớn đâm sâu vào vuốt khi đục xà nhà; Rowan nhổ dằm và băng bó vết thương cho Cedar.",
-          "reward_unlock": "Giảm 10% lượng gỗ khi sửa chữa và cơi nới nhà cửa."
+          "reward_unlock": "Giảm 10% lượng gỗ khi sửa chữa và cơi nới nhà cửa.",
+          "event_type": "mail"
         },
         {
           "level": 4,
           "title": "Dựng Khung Gian Bếp Mới",
           "description": "Tự tay đốn thông cưa xà đóng mới quầy bar và bàn ghế cho Quán Ăn The Hearth.",
-          "reward_unlock": "Mở dịch vụ Nâng Cấp Gian Bếp & Mở Rộng Sức Chứa Quán Ăn."
+          "reward_unlock": "Mở dịch vụ Nâng Cấp Gian Bếp & Mở Rộng Sức Chứa Quán Ăn.",
+          "event_type": "tavern_dialogue"
         },
         {
           "level": 6,
           "title": "Nỗi Đau Kẻ Bị Xua Đuổi",
           "description": "Kể về lý do bị bộ tộc gấu núi trục xuất vì từ chối cầm rìu chém giết đồng loại thời chiến.",
-          "reward_unlock": "Tặng Rowan Cây Búa Đẽo Gỗ Cổ Thụ gia bảo."
+          "reward_unlock": "Tặng Rowan Cây Búa Đẽo Gỗ Cổ Thụ gia bảo.",
+          "event_type": "tavern_dialogue"
         },
         {
           "level": 8,
           "title": "Cây Cầu Gỗ Sang Rừng Thầm Thì",
           "description": "Cùng Rowan đốn thông già bắc lại Cầu Gỗ Cổ nối thẳng sang Rừng Thầm Thì.",
-          "reward_unlock": "Mở lối tắt đi bộ sang Rừng Sâu và nâng cấp xưởng mộc chế tác đồ gỗ."
+          "reward_unlock": "Mở lối tắt đi bộ sang Rừng Sâu và nâng cấp xưởng mộc chế tác đồ gỗ.",
+          "event_type": "cutscene"
         }
       ]
     },
@@ -2426,13 +2519,15 @@
           "level": 4,
           "title": "Tiếng Đàn Góc Quán",
           "description": "Vượt qua nỗi sợ đám đông, ngồi góc quán gảy khúc mandolin êm đềm ru khách ăn.",
-          "reward_unlock": "Tặng Hộp Nhạc Giai Điệu Quán Ăn (buff +15% mức độ hài lòng của khách)."
+          "reward_unlock": "Tặng Hộp Nhạc Giai Điệu Quán Ăn (buff +15% mức độ hài lòng của khách).",
+          "event_type": "tavern_dialogue"
         },
         {
           "level": 8,
           "title": "Khúc Hát Bếp Lửa Đêm Đông",
           "description": "Trình diễn bài hát nguyên bản 'Lullaby of Oakhaven' xua tan giá rét mùa đông.",
-          "reward_unlock": "Biểu diễn định kỳ tối thứ Sáu tăng 20% lượng khách và doanh thu quán."
+          "reward_unlock": "Biểu diễn định kỳ tối thứ Sáu tăng 20% lượng khách và doanh thu quán.",
+          "event_type": "cutscene"
         }
       ]
     },
@@ -2513,25 +2608,29 @@
           "level": 2,
           "title": "Con Bò Trúng Gió",
           "description": "Thức trắng đêm hơ lửa sưởi ấm con bò sữa trúng gió; Rowan mang nước cám ấm sang phụ.",
-          "reward_unlock": "Mở bán sữa tươi nguyên chất và trứng gà sạch mỗi sáng."
+          "reward_unlock": "Mở bán sữa tươi nguyên chất và trứng gà sạch mỗi sáng.",
+          "event_type": "mail"
         },
         {
           "level": 4,
           "title": "Khai Trương Trại Gia Súc",
           "description": "Đóng lại hàng rào chuồng trại, đón lứa vật nuôi đầu tiên về thung lũng Oakhaven.",
-          "reward_unlock": "Mở bán bò giống, cừu, gà và thức ăn chăn nuôi 4 mùa."
+          "reward_unlock": "Mở bán bò giống, cừu, gà và thức ăn chăn nuôi 4 mùa.",
+          "event_type": "tavern_dialogue"
         },
         {
           "level": 6,
           "title": "Nỗi Đau Người Từng Bị Phụ Bạc",
           "description": "Kể về bạn đời ôm tiền tiết kiệm bỏ đi theo đoàn buôn kinh đô khiến bà đóng chặt lòng.",
-          "reward_unlock": "Tặng Rowan Thùng Ủ Sữa Men Vi Sinh gia truyền."
+          "reward_unlock": "Tặng Rowan Thùng Ủ Sữa Men Vi Sinh gia truyền.",
+          "event_type": "tavern_dialogue"
         },
         {
           "level": 8,
           "title": "Hợp Tác Xã Chăn Nuôi Thung Lũng",
           "description": "Gắn kết cùng dân làng khôi phục nguồn cung cấp thực phẩm chăn nuôi bền vững.",
-          "reward_unlock": "Tặng Máy Làm Phô Mai & Máy Tách Bơ Gia Đình cho điền trang."
+          "reward_unlock": "Tặng Máy Làm Phô Mai & Máy Tách Bơ Gia Đình cho điền trang.",
+          "event_type": "cutscene"
         }
       ]
     },
@@ -2612,25 +2711,29 @@
           "level": 2,
           "title": "Bị Ném Đá Đuổi Khỏi Phố",
           "description": "Bị ném đá đuổi vì định kiến goblin trộm cắp; Rowan mời vào The Hearth ăn bát cháo nóng.",
-          "reward_unlock": "Giảm 10% giá mua hàng tại Tiệm Hũ Châu Báu."
+          "reward_unlock": "Giảm 10% giá mua hàng tại Tiệm Hũ Châu Báu.",
+          "event_type": "mail"
         },
         {
           "level": 4,
           "title": "Tiệm Hũ Châu Báu",
           "description": "Mở sạp hàng nhỏ ngoài hiên tiệm bán các món đồ lạ thu gom từ khắp các vương quốc.",
-          "reward_unlock": "Mở tiệm tạp hóa mua bán túi hạt giống ngoại lai hiếm."
+          "reward_unlock": "Mở tiệm tạp hóa mua bán túi hạt giống ngoại lai hiếm.",
+          "event_type": "tavern_dialogue"
         },
         {
           "level": 6,
           "title": "Lương Tâm Của Kẻ Bị Trục Xuất",
           "description": "Thú nhận bị trục xuất khỏi nghiệp đoàn Solaria vì dám tố cáo lô thuốc giả cứu trợ cho người nghèo.",
-          "reward_unlock": "Tặng Rowan chiếc Cân Tiểu Ly Bằng Đồng Thau cân vàng chuẩn xác."
+          "reward_unlock": "Tặng Rowan chiếc Cân Tiểu Ly Bằng Đồng Thau cân vàng chuẩn xác.",
+          "event_type": "tavern_dialogue"
         },
         {
           "level": 8,
           "title": "Chợ Đêm Thứ Bảy VIP",
           "description": "Khai trương Chợ Đêm Thứ Bảy, quy tụ các thương nhân ngầm với nguồn hàng chất lượng.",
-          "reward_unlock": "Chợ Đêm Thứ Bảy VIP bán công cụ độc bản và quặng quý phương xa."
+          "reward_unlock": "Chợ Đêm Thứ Bảy VIP bán công cụ độc bản và quặng quý phương xa.",
+          "event_type": "cutscene"
         }
       ]
     },
@@ -2711,25 +2814,29 @@
           "level": 2,
           "title": "Bàn Tay Nhổ Rễ Độc",
           "description": "Bàn tay trầy xước rướm máu khi nhổ rễ cây nhiễm sương độc miasma; Rowan rửa vết thương và đun trà sen ấm.",
-          "reward_unlock": "Tặng Rowan Bó Cỏ Thánh Thảo làm dịu khí độc hầm mỏ."
+          "reward_unlock": "Tặng Rowan Bó Cỏ Thánh Thảo làm dịu khí độc hầm mỏ.",
+          "event_type": "mail"
         },
         {
           "level": 4,
           "title": "Vết Nứt Bàn Thờ Cổ",
           "description": "Chỉ cho Rowan xem các vết nứt phong ấn trên Bàn Thờ Cổ Đại do khói độc chiến tranh ăn mòn.",
-          "reward_unlock": "Mở công thức nấu Nước Thánh Thảo Mộc Thanh Tẩy."
+          "reward_unlock": "Mở công thức nấu Nước Thánh Thảo Mộc Thanh Tẩy.",
+          "event_type": "tavern_dialogue"
         },
         {
           "level": 6,
           "title": "Mảnh Đất Chiến Tranh Xưa",
           "description": "Tiết lộ thung lũng Oakhaven từng là chiến trường đẫm máu chôn vùi hàng ngàn sinh linh vô danh.",
-          "reward_unlock": "Tặng Rowan Chiếc Chuông Đồng Thanh Tẩy xua đuổi oán khí mỏ sâu."
+          "reward_unlock": "Tặng Rowan Chiếc Chuông Đồng Thanh Tẩy xua đuổi oán khí mỏ sâu.",
+          "event_type": "tavern_dialogue"
         },
         {
           "level": 8,
           "title": "Đại Lễ Cầu Siêu Anh Hồn",
           "description": "Cùng Rowan dâng đại tiệc thanh tẩy Bàn Thờ Cổ Đại, xua tan hoàn toàn tro tàn và sương độc.",
-          "reward_unlock": "Bàn Thờ Cổ Đại mở phong ấn hoàn toàn; giải phóng toàn bộ đất hoang hóa quanh thung lũng."
+          "reward_unlock": "Bàn Thờ Cổ Đại mở phong ấn hoàn toàn; giải phóng toàn bộ đất hoang hóa quanh thung lũng.",
+          "event_type": "cutscene"
         }
       ]
     },
@@ -2810,19 +2917,22 @@
           "level": 2,
           "title": "Con Cừu Sứt Tai",
           "description": "Ngồi khóc tìm con cừu non sứt tai mắc kẹt trong bụi gai; Rowan gỡ gai cứu cừu non an toàn.",
-          "reward_unlock": "Tilly tặng cuộn len cừu trắng mềm mại."
+          "reward_unlock": "Tilly tặng cuộn len cừu trắng mềm mại.",
+          "event_type": "mail"
         },
         {
           "level": 4,
           "title": "Nhuộm Len Bằng Quả Mọng",
           "description": "Thử nghiệm nấu vỏ quả mọng lấy màu nhuộm len hồng và tím cùng Rowan ngoài sân.",
-          "reward_unlock": "Mở quầy bán len cừu thô và sợi dệt tự nhiên giá rẻ."
+          "reward_unlock": "Mở quầy bán len cừu thô và sợi dệt tự nhiên giá rẻ.",
+          "event_type": "tavern_dialogue"
         },
         {
           "level": 8,
           "title": "Vượt Qua Bóng Tối Rừng Đêm",
           "description": "Vượt qua chứng sợ bóng tối, tự mình dũng cảm lùa đàn cừu an toàn vượt qua đầm lầy.",
-          "reward_unlock": "Mở khóa Xưởng Nhuộm Len Ngũ Sắc (may khăn trải bàn tăng buff tiền tip quán)."
+          "reward_unlock": "Mở khóa Xưởng Nhuộm Len Ngũ Sắc (may khăn trải bàn tăng buff tiền tip quán).",
+          "event_type": "cutscene"
         }
       ]
     },
@@ -2903,13 +3013,15 @@
           "level": 4,
           "title": "Ngọn Lửa Lò Rèn Khaz-Drakor",
           "description": "Mở lò nướng nhiệt cao hoàng gia miền núi, chỉ dẫn Rowan cách giữ nhiệt than cốc.",
-          "reward_unlock": "Cung ứng phôi hợp kim đúc giáp nặng và vũ khí chống nhiệt."
+          "reward_unlock": "Cung ứng phôi hợp kim đúc giáp nặng và vũ khí chống nhiệt.",
+          "event_type": "tavern_dialogue"
         },
         {
           "level": 8,
           "title": "Hóa Giải Nỗi Đau 15 Năm",
           "description": "Tha thứ cho sự ra đi của hai con Boris và Bram; truyền lại bí kíp lò rèn hoàng tộc cho Oakhaven.",
-          "reward_unlock": "Chuyển giao công thức Đúc Trang Bị Hợp Kim Mithril Cổ Đại."
+          "reward_unlock": "Chuyển giao công thức Đúc Trang Bị Hợp Kim Mithril Cổ Đại.",
+          "event_type": "cutscene"
         }
       ]
     },
@@ -2990,13 +3102,15 @@
           "level": 4,
           "title": "Piston Thủy Lực Tự Động",
           "description": "Lắp ráp van áp lực và ống đồng dẫn nước tưới ruộng tự động không tốn thể lực.",
-          "reward_unlock": "Chế tạo Hệ Thống Vòi Phun Tưới Cây Tự Động cho vườn điền trang."
+          "reward_unlock": "Chế tạo Hệ Thống Vòi Phun Tưới Cây Tự Động cho vườn điền trang.",
+          "event_type": "tavern_dialogue"
         },
         {
           "level": 8,
           "title": "Phục Hồi Đường Ray Xe Goong",
           "description": "Hàn lại các đoạn ray mỏ cổ hoen gỉ, kích hoạt đầu máy hơi nước chở hàng tốc hành.",
-          "reward_unlock": "Mở khóa Tuyến Xe Goong Minecart Express di chuyển siêu tốc giữa các phân khu thung lũng."
+          "reward_unlock": "Mở khóa Tuyến Xe Goong Minecart Express di chuyển siêu tốc giữa các phân khu thung lũng.",
+          "event_type": "cutscene"
         }
       ]
     },
@@ -3077,13 +3191,15 @@
           "level": 4,
           "title": "Gia Vị Núi Lửa Cay Xè",
           "description": "Giao lưu tài nghệ nấu nướng bên bếp lửa đỏ; truyền cho Rowan bí kíp ủ ớt núi lửa.",
-          "reward_unlock": "Cung cấp Gia Vị Cay Núi Lửa tăng 20% sát thương bạo kích khi chiến đấu."
+          "reward_unlock": "Cung cấp Gia Vị Cay Núi Lửa tăng 20% sát thương bạo kích khi chiến đấu.",
+          "event_type": "tavern_dialogue"
         },
         {
           "level": 8,
           "title": "Bếp Lửa Magma Cực Hạn",
           "description": "Tự tay chuyển giao cỗ bếp nướng đá magma chịu nhiệt cực hạn cho gian bếp The Hearth.",
-          "reward_unlock": "Mở khóa Trạm Nướng Lửa Magma Cực Hạn tại bếp The Hearth."
+          "reward_unlock": "Mở khóa Trạm Nướng Lửa Magma Cực Hạn tại bếp The Hearth.",
+          "event_type": "cutscene"
         }
       ]
     },
@@ -3164,13 +3280,15 @@
           "level": 4,
           "title": "Thu Hoạch Dưới Trăng Vàng",
           "description": "Leo ngọn đại thụ Sylva trong đêm trăng thanh, thu hoạch kén tơ phát quang quý hiếm.",
-          "reward_unlock": "Cung cấp Tơ Dạ Quang may trang phục chống chịu đới lạnh."
+          "reward_unlock": "Cung cấp Tơ Dạ Quang may trang phục chống chịu đới lạnh.",
+          "event_type": "tavern_dialogue"
         },
         {
           "level": 8,
           "title": "Hoa Ngàn Năm Nở Rộ",
           "description": "Đón ánh trăng thuần khiết trên tán rừng cổ, thu hái sợi tơ vàng hoàng tộc.",
-          "reward_unlock": "Cung cấp Tơ Hoàng Kim may áo choàng kháng mọi hiệu ứng bất lợi."
+          "reward_unlock": "Cung cấp Tơ Hoàng Kim may áo choàng kháng mọi hiệu ứng bất lợi.",
+          "event_type": "cutscene"
         }
       ]
     },
@@ -3251,13 +3369,15 @@
           "level": 6,
           "title": "Mạng Rễ Ngầm Hồi Sinh",
           "description": "Dùng bàn tay mù lòa chạm vào rễ cây cổ, cảm nhận mạch nước ngọt ngào hồi sinh dưới đất sâu.",
-          "reward_unlock": "Truyền dạy Dược Điển Cổ Thụ với các bài thuốc thượng cổ chữa trị chấn thương."
+          "reward_unlock": "Truyền dạy Dược Điển Cổ Thụ với các bài thuốc thượng cổ chữa trị chấn thương.",
+          "event_type": "tavern_dialogue"
         },
         {
           "level": 8,
           "title": "Nghi Thức Thanh Tẩy Đất Tổ",
           "description": "Hướng dẫn Rowan hoàn thành nghi thức thanh lọc tàn tích ô uế của cuộc chiến tranh cổ xưa.",
-          "reward_unlock": "Đất đai thung lũng tăng vĩnh viễn 25% năng suất cây trồng toàn cõi Oakhaven."
+          "reward_unlock": "Đất đai thung lũng tăng vĩnh viễn 25% năng suất cây trồng toàn cõi Oakhaven.",
+          "event_type": "cutscene"
         }
       ]
     },
@@ -3338,25 +3458,29 @@
           "level": 2,
           "title": "Thế Tấn Giữa Bão Tuyết",
           "description": "Đứng thế tấn luyện kiếm giữa bão tuyết trên đèo; bàn tay nứt nẻ; Rowan mang bát thịt bò hầm nóng lên đèo.",
-          "reward_unlock": "Mở lối lên Võ Đường Đèo Núi Mặt Đất."
+          "reward_unlock": "Mở lối lên Võ Đường Đèo Núi Mặt Đất.",
+          "event_type": "mail"
         },
         {
           "level": 4,
           "title": "Võ Đường Đèo Núi Mặt Đất",
           "description": "Đánh giá kỹ năng dùng cuốc và đoản kiếm của Rowan; hướng dẫn thế thủ căn bản.",
-          "reward_unlock": "Huấn luyện kỹ thuật Đỡ Đòn Phản Công (Parry) và Lướt Né (Dodge)."
+          "reward_unlock": "Huấn luyện kỹ thuật Đỡ Đòn Phản Công (Parry) và Lướt Né (Dodge).",
+          "event_type": "tavern_dialogue"
         },
         {
           "level": 6,
           "title": "Lá Thư Truy Nã Cũ",
           "description": "Chua xót nhắc về thuộc cấp Hester từng biến mất không dấu vết sau án oan phản quốc Solaria.",
-          "reward_unlock": "Tặng Rowan Bao Tay Da Kỵ Sĩ tăng 10% tốc độ vung vũ khí."
+          "reward_unlock": "Tặng Rowan Bao Tay Da Kỵ Sĩ tăng 10% tốc độ vung vũ khí.",
+          "event_type": "tavern_dialogue"
         },
         {
           "level": 8,
           "title": "Tuyệt Kỹ Master Parry",
           "description": "Hóa giải khúc mắc với Hester tại The Hearth; truyền dạy tuyệt kỹ đỡ đòn đỉnh cao cho Rowan.",
-          "reward_unlock": "Master Parry (tăng thời gian căn đòn + tăng 20% tốc độ hồi thể lực khi đỡ trúng)."
+          "reward_unlock": "Master Parry (tăng thời gian căn đòn + tăng 20% tốc độ hồi thể lực khi đỡ trúng).",
+          "event_type": "cutscene"
         }
       ]
     },
@@ -3437,25 +3561,29 @@
           "level": 2,
           "title": "Cứu Quạ Đen Gãy Cánh",
           "description": "Gặp Morrigan đang băng bó vết thương cho quạ đen giữa đầm lầy gai; Rowan giữ quạ giúp cô bôi thuốc.",
-          "reward_unlock": "Tặng Rowan Bột Huỳnh Quang xua đuổi quái vật đầm lầy."
+          "reward_unlock": "Tặng Rowan Bột Huỳnh Quang xua đuổi quái vật đầm lầy.",
+          "event_type": "mail"
         },
         {
           "level": 4,
           "title": "Bàn Độc Dược Mỏ Sâu",
           "description": "Bào chế các loại độc dược từ nấm mốc đầm lầy để khắc chế lớp vỏ cứng của quái mỏ sâu.",
-          "reward_unlock": "Mở bàn chế tác Độc Dược Tẩm Vũ Khí (gây sát thương độc theo thời gian lên quái mỏ)."
+          "reward_unlock": "Mở bàn chế tác Độc Dược Tẩm Vũ Khí (gây sát thương độc theo thời gian lên quái mỏ).",
+          "event_type": "tavern_dialogue"
         },
         {
           "level": 6,
           "title": "Ngộ Độc Sương Miasma",
           "description": "Trúng độc khi hái nấm rừng sâu; Rowan mang thuốc giải và trà bạc hà thanh nhiệt cứu sống kịp thời.",
-          "reward_unlock": "Tặng Rowan Chiếc Bình Thủy Tinh Giữ Nhiệt chống ngấm độc."
+          "reward_unlock": "Tặng Rowan Chiếc Bình Thủy Tinh Giữ Nhiệt chống ngấm độc.",
+          "event_type": "tavern_dialogue"
         },
         {
           "level": 8,
           "title": "Thần Dược Bạo Kích",
           "description": "Truyền dạy công thức bí truyền chiết xuất từ độc tố quái vật chúa hầm ngục.",
-          "reward_unlock": "Mở công thức Thần Dược Cường Hóa Bạo Kích và Thuốc Giải Độc Miasma Cấp Tốc."
+          "reward_unlock": "Mở công thức Thần Dược Cường Hóa Bạo Kích và Thuốc Giải Độc Miasma Cấp Tốc.",
+          "event_type": "cutscene"
         }
       ]
     },
@@ -3536,13 +3664,15 @@
           "level": 4,
           "title": "Bách Khoa Cổ Vật Mỏ Sâu",
           "description": "Phân loại và giám định các mảnh gốm và quặng cổ khai quật từ các tầng hầm mỏ sâu.",
-          "reward_unlock": "Mở dịch vụ Giám Định Cổ Vật Mỏ Sâu & Bách Khoa Toàn Thư Khoáng Thạch."
+          "reward_unlock": "Mở dịch vụ Giám Định Cổ Vật Mỏ Sâu & Bách Khoa Toàn Thư Khoáng Thạch.",
+          "event_type": "tavern_dialogue"
         },
         {
           "level": 8,
           "title": "Viện Bảo Tàng Lịch Sử Oakhaven",
           "description": "Hoàn thành công trình nghiên cứu lịch sử thung lũng, mở cửa trưng bày di sản cho du khách.",
-          "reward_unlock": "Khai trương Viện Bảo Tàng Oakhaven (trưng bày bộ sưu tập hoàn chỉnh nhận thưởng vĩnh viễn)."
+          "reward_unlock": "Khai trương Viện Bảo Tàng Oakhaven (trưng bày bộ sưu tập hoàn chỉnh nhận thưởng vĩnh viễn).",
+          "event_type": "cutscene"
         }
       ]
     },
@@ -3623,7 +3753,8 @@
           "level": 8,
           "title": "Ký Ức Người Đầu Bếp Sơ Khai",
           "description": "Hồi phục hoàn toàn ký ức cổ sơ bên mâm cơm sen thanh khiết của Rowan; mở toang cổng trời.",
-          "reward_unlock": "Mở khóa vĩnh viễn Cổng Trời Aethelgard kết nối tự do toàn bộ 5 đại vực."
+          "reward_unlock": "Mở khóa vĩnh viễn Cổng Trời Aethelgard kết nối tự do toàn bộ 5 đại vực.",
+          "event_type": "cutscene"
         }
       ]
     },
@@ -3719,25 +3850,29 @@
           "level": 2,
           "title": "Ủng Dính Bùn Trên Sàn Gỗ",
           "description": "Cằn nhằn về vết bùn đất trên sàn; giãi bày nỗi lo tuổi già vô dụng bị lãng quên.",
-          "reward_unlock": "Đàm phán giảm 10% chi phí gỗ và đá khi nâng cấp công trình điền trang."
+          "reward_unlock": "Đàm phán giảm 10% chi phí gỗ và đá khi nâng cấp công trình điền trang.",
+          "event_type": "mail"
         },
         {
           "level": 4,
           "title": "Sổ Thu Chi Khách Trọ",
           "description": "Sổ sách thất thoát do khách trọ quịt tiền; Barnaby thức đêm lập lại hệ thống sổ thu chi mới.",
-          "reward_unlock": "Cơi nới thêm 2 phòng trọ áp mái mới, tăng gấp đôi lượng khách thuê và doanh thu."
+          "reward_unlock": "Cơi nới thêm 2 phòng trọ áp mái mới, tăng gấp đôi lượng khách thuê và doanh thu.",
+          "event_type": "tavern_dialogue"
         },
         {
           "level": 6,
           "title": "Đau Khớp Hông Đêm Mưa",
           "description": "Cơn đau khớp hông tái phát; Rowan nấu cháo nóng và xoa bóp dầu cho bác bên lò sưởi.",
-          "reward_unlock": "Báo cáo thị trường: Đặt thông báo nông sản/khoáng sản nào đang sốt giá lên bàn mỗi tuần."
+          "reward_unlock": "Báo cáo thị trường: Đặt thông báo nông sản/khoáng sản nào đang sốt giá lên bàn mỗi tuần.",
+          "event_type": "tavern_dialogue"
         },
         {
           "level": 8,
           "title": "Két Sắt Điền Trang An Toàn",
           "description": "Tự hào xem Rowan như con cháu trong nhà; toàn tâm toàn ý quản lý cơ nghiệp vững vàng.",
-          "reward_unlock": "Két Sắt Điền Trang tự động trích quỹ sinh lãi 3%/tuần và tự mua củi dự trữ mùa đông."
+          "reward_unlock": "Két Sắt Điền Trang tự động trích quỹ sinh lãi 3%/tuần và tự mua củi dự trữ mùa đông.",
+          "event_type": "cutscene"
         }
       ]
     },
@@ -3838,25 +3973,29 @@
           "level": 2,
           "title": "Nồi Trứng Luộc Nổ Banh",
           "description": "Tay chân vụng về làm nổ nồi luộc trứng; sợ bị đuổi việc co ro một góc sân; Rowan dỗ dành.",
-          "reward_unlock": "Khâu tặng Rowan Ba Lô Dã Ngoại tăng thêm 6 ô chứa đồ trong hầm mỏ."
+          "reward_unlock": "Khâu tặng Rowan Ba Lô Dã Ngoại tăng thêm 6 ô chứa đồ trong hầm mỏ.",
+          "event_type": "mail"
         },
         {
           "level": 4,
           "title": "Cối Xay Bột Tự Đóng",
           "description": "Tự tay đóng cối xay lúa mì ngoài sân, cần cù làm lụng chuộc lại những vụng về.",
-          "reward_unlock": "Tự động xay lúa mì thành bột mịn và tự gom trứng sữa vào kho lạnh mỗi sáng."
+          "reward_unlock": "Tự động xay lúa mì thành bột mịn và tự gom trứng sữa vào kho lạnh mỗi sáng.",
+          "event_type": "tavern_dialogue"
         },
         {
           "level": 6,
           "title": "Ký Ức Tầng 15 Mỏ",
           "description": "Kể về ký ức kinh hoàng bị sập đá kẹt chân ở Tầng 15 mỏ và bị chủ quịt lương bỏ đói.",
-          "reward_unlock": "Cáng Cứu Hộ An Toàn: Lao xuống mỏ khiêng Rowan về giường khi kiệt sức (vẫn mất đồ theo luật)."
+          "reward_unlock": "Cáng Cứu Hộ An Toàn: Lao xuống mỏ khiêng Rowan về giường khi kiệt sức (vẫn mất đồ theo luật).",
+          "event_type": "tavern_dialogue"
         },
         {
           "level": 8,
           "title": "Rương Tiếp Tế Trước Hiên",
           "description": "Nguyện gắn bó cả đời bảo vệ điền trang, xem nơi đây là mái ấm thực sự duy nhất.",
-          "reward_unlock": "Rương Tiếp Tế Dã Ngoại chuẩn bị sẵn củi khô, đuốc sáng và đá mài trước hiên mỗi sáng."
+          "reward_unlock": "Rương Tiếp Tế Dã Ngoại chuẩn bị sẵn củi khô, đuốc sáng và đá mài trước hiên mỗi sáng.",
+          "event_type": "cutscene"
         }
       ]
     },
@@ -3937,19 +4076,22 @@
           "level": 2,
           "title": "Con Lừa Dở Chứng",
           "description": "Con lừa già dở chứng nằm lì giữa cổng điền trang; Rowan cho củ cà rốt và mẩu bánh mì nướng dỗ dành.",
-          "reward_unlock": "Giảm 15% giá mua các loại hàng hóa hiếm trên xe lừa."
+          "reward_unlock": "Giảm 15% giá mua các loại hàng hóa hiếm trên xe lừa.",
+          "event_type": "mail"
         },
         {
           "level": 4,
           "title": "Rương Hàng Du Mục",
           "description": "Mở rương hàng độc lạ từ thứ Năm đến thứ Bảy bên hiên quán The Hearth.",
-          "reward_unlock": "Bán các loại gia vị ngoại quốc và hạt giống hiếm độc quyền."
+          "reward_unlock": "Bán các loại gia vị ngoại quốc và hạt giống hiếm độc quyền.",
+          "event_type": "tavern_dialogue"
         },
         {
           "level": 8,
           "title": "Hợp Đồng Cung Ứng Hàng Tuần",
           "description": "Chọn The Hearth làm trạm dừng chân cố định cho con lừa già nghỉ ngơi tuổi xế chiều.",
-          "reward_unlock": "Ký hợp đồng cung ứng định kỳ hàng tuần tự động giao nguyên liệu ngoại lai vào kho."
+          "reward_unlock": "Ký hợp đồng cung ứng định kỳ hàng tuần tự động giao nguyên liệu ngoại lai vào kho.",
+          "event_type": "cutscene"
         }
       ]
     },
@@ -4030,31 +4172,36 @@
           "level": 2,
           "title": "Tiếng Búa Mài Giáp Nửa Đêm",
           "description": "Giấu mình trong phòng trọ áp mái lúi húi đập búa mài giáp gây ồn; Rowan mang đĩa thịt nướng lên chia sẻ.",
-          "reward_unlock": "Gia cố giáp thô (+10 DEF) cho áo giáp đang mặc."
+          "reward_unlock": "Gia cố giáp thô (+10 DEF) cho áo giáp đang mặc.",
+          "event_type": "mail"
         },
         {
           "level": 4,
           "title": "Phục Chế Độ Bền Trang Bị",
           "description": "Nhận sửa chữa giáp trụ và vũ khí mẻ cạnh sau chuyến đi mỏ ngay tại phòng áp mái.",
-          "reward_unlock": "Dịch vụ Sửa Chữa Độ Bền Trang Bị Thực Chiến giá rẻ."
+          "reward_unlock": "Dịch vụ Sửa Chữa Độ Bền Trang Bị Thực Chiến giá rẻ.",
+          "event_type": "tavern_dialogue"
         },
         {
           "level": 6,
           "title": "Bóng Dáng Người Thầy Cũ",
           "description": "Bắt gặp Valerius ghé quán ăn; Hester hoảng loạn định gom đồ bỏ trốn trong đêm vì mặc cảm đào ngũ.",
-          "reward_unlock": "Tặng Rowan Dầu Mài Kiếm Hoàng Gia giúp vũ khí không bị rỉ sét."
+          "reward_unlock": "Tặng Rowan Dầu Mài Kiếm Hoàng Gia giúp vũ khí không bị rỉ sét.",
+          "event_type": "tavern_dialogue"
         },
         {
           "level": 8,
           "title": "Cởi Bỏ Mặt Nạ Tội Lỗi",
           "description": "Quỳ gối xin lỗi Valerius tại The Hearth và được nâng dậy tha thứ, giải thoát khỏi ám ảnh quá khứ.",
-          "reward_unlock": "Trao tặng Thanh Kiếm Kỵ Sĩ Hoàng Gia Bỏ Rơi (vũ khí cận chiến hạng nặng)."
+          "reward_unlock": "Trao tặng Thanh Kiếm Kỵ Sĩ Hoàng Gia Bỏ Rơi (vũ khí cận chiến hạng nặng).",
+          "event_type": "cutscene"
         },
         {
           "level": 10,
           "title": "Lời Hứa Không Còn Trốn Chạy",
           "description": "Hester tháo bỏ áo trùm đầu trao cho Rowan kỷ vật hộ mệnh; hẹn ước đồng hành bên lò sưởi.",
-          "reward_unlock": "Kết duyên tri kỷ; Hester chính thức ở lại thung lũng bảo vệ điền trang."
+          "reward_unlock": "Kết duyên tri kỷ; Hester chính thức ở lại thung lũng bảo vệ điền trang.",
+          "event_type": "cutscene"
         }
       ]
     },
@@ -4135,19 +4282,22 @@
           "level": 2,
           "title": "Sơn Vecni Tự Nhiên",
           "description": "Chia sẻ công thức nấu nhựa cây phong quét sơn bóng đồ gỗ thô bền đẹp qua mưa gió.",
-          "reward_unlock": "Thu mua lông cừu thô của điền trang với giá cao +30%."
+          "reward_unlock": "Thu mua lông cừu thô của điền trang với giá cao +30%.",
+          "event_type": "mail"
         },
         {
           "level": 4,
           "title": "Sửa Lại Giường Nệm Quán Ăn",
           "description": "Đóng lại giường gỗ và thay nệm ấm áp mới cho dãy phòng trọ áp mái The Hearth.",
-          "reward_unlock": "Bán trọn gói Bộ Đồ Gỗ & Dịch Vụ Sơn Màu Hoàn Thiện Nội Thất Điền Trang."
+          "reward_unlock": "Bán trọn gói Bộ Đồ Gỗ & Dịch Vụ Sơn Màu Hoàn Thiện Nội Thất Điền Trang.",
+          "event_type": "tavern_dialogue"
         },
         {
           "level": 8,
           "title": "Khung Dệt Len Gia Tộc Du Mục",
           "description": "Tặng Rowan món quà kỷ niệm của gia đình du mục sau chuyến dừng chân dài ngày.",
-          "reward_unlock": "Tặng Khung Dệt Len Tự Động Điền Trang & chăn lông cừu cao cấp (+cozy rating)."
+          "reward_unlock": "Tặng Khung Dệt Len Tự Động Điền Trang & chăn lông cừu cao cấp (+cozy rating).",
+          "event_type": "cutscene"
         }
       ]
     },
@@ -4228,19 +4378,22 @@
           "level": 2,
           "title": "Tiếng Quát Của Lão Điếc",
           "description": "Tai điếc đặc do nổ mìn, nói to như sấm trong lán cửa mỏ; Rowan viết phấn lên bảng đá trao đổi.",
-          "reward_unlock": "Bán Bom Mỏ Tự Chế giá rẻ phá vách đá tầng nông."
+          "reward_unlock": "Bán Bom Mỏ Tự Chế giá rẻ phá vách đá tầng nông.",
+          "event_type": "mail"
         },
         {
           "level": 4,
           "title": "Khảo Sát Túi Khí Cửa Mỏ",
           "description": "Cảnh báo Rowan về các túi khí độc và khe nứt sụt lún quanh khu vực cửa hầm mỏ.",
-          "reward_unlock": "Bán Bom Khoan Đá Hạng Nặng phá các tảng cự thạch cản đường."
+          "reward_unlock": "Bán Bom Khoan Đá Hạng Nặng phá các tảng cự thạch cản đường.",
+          "event_type": "tavern_dialogue"
         },
         {
           "level": 8,
           "title": "Động Cơ Phá Đá Cầm Tay",
           "description": "Chế tạo thành công động cơ phá đá mini chạy bằng hơi nước chuyển giao cho Rowan.",
-          "reward_unlock": "Tặng Máy Khoan Hơi Nước Cầm Tay (khai khoáng diện tích 3×3 trong mỏ sâu)."
+          "reward_unlock": "Tặng Máy Khoan Hơi Nước Cầm Tay (khai khoáng diện tích 3×3 trong mỏ sâu).",
+          "event_type": "cutscene"
         }
       ]
     },
@@ -4321,19 +4474,22 @@
           "level": 2,
           "title": "Đôi Chân Tê Cóng Bờ Hồ",
           "description": "Ngồi co ro bên đống lửa trại hồ băng chân núi, chân tê cóng; Rowan mang bình rượu cay và đôi ủng len sang.",
-          "reward_unlock": "Bán Ủng Da Cá Đi Mỏ Chống Trượt Băng."
+          "reward_unlock": "Bán Ủng Da Cá Đi Mỏ Chống Trượt Băng.",
+          "event_type": "mail"
         },
         {
           "level": 4,
           "title": "Mạch Nước Ngầm Thông Hang Mỏ",
           "description": "Khảo sát các mạch nước ngầm nối hồ chân núi vào các hồ hang động ngầm trong hầm mỏ.",
-          "reward_unlock": "Mở lối tắt lặn ngầm nối hồ chân núi ra sông ngoài thị trấn Oakhaven."
+          "reward_unlock": "Mở lối tắt lặn ngầm nối hồ chân núi ra sông ngoài thị trấn Oakhaven.",
+          "event_type": "tavern_dialogue"
         },
         {
           "level": 8,
           "title": "Vượt Qua Bóng Ma Vực Sâu",
           "description": "Vượt qua nỗi ám ảnh sau tai nạn lặn năm xưa, tặng bộ đồ lặn hơi nước gia cố cho Rowan.",
-          "reward_unlock": "Tặng Bộ Đồ Lặn Hơi Nước Gia Cố (cho phép bơi qua các vùng nước sâu trong hang ngầm)."
+          "reward_unlock": "Tặng Bộ Đồ Lặn Hơi Nước Gia Cố (cho phép bơi qua các vùng nước sâu trong hang ngầm).",
+          "event_type": "cutscene"
         }
       ]
     },
@@ -4414,19 +4570,22 @@
           "level": 2,
           "title": "Khói Cay Xè Mí Mắt",
           "description": "Khói lò hầm than bốc mù mịt làm bỏng rát mí mắt; Rowan rửa mắt và đắp khăn thảo dược ẩm cho bà.",
-          "reward_unlock": "Tặng Rowan 10 khúc than rừng già hầm kín."
+          "reward_unlock": "Tặng Rowan 10 khúc than rừng già hầm kín.",
+          "event_type": "mail"
         },
         {
           "level": 4,
           "title": "Nhiên Liệu Lò Nướng The Hearth",
           "description": "Cung ứng đều đặn than gỗ sồi già đượm nhiệt cho lò nướng bánh và lò rèn thị trấn.",
-          "reward_unlock": "Bán Than Rừng Già Hầm Kín (cháy x3 thời gian trong lò bánh và lò rèn)."
+          "reward_unlock": "Bán Than Rừng Già Hầm Kín (cháy x3 thời gian trong lò bánh và lò rèn).",
+          "event_type": "tavern_dialogue"
         },
         {
           "level": 8,
           "title": "Rời Bỏ Chòi Than Ẩn Dật",
           "description": "Nguôi ngoai nỗi đau mất chồng con thời chiến, thường xuyên về quán dùng bữa cơm ấm cùng xóm làng.",
-          "reward_unlock": "Chuyển giao kỹ thuật Lò Nung Than Tro Trấu Khép Kín Cao Cấp cho điền trang."
+          "reward_unlock": "Chuyển giao kỹ thuật Lò Nung Than Tro Trấu Khép Kín Cao Cấp cho điền trang.",
+          "event_type": "cutscene"
         }
       ]
     },
@@ -4507,19 +4666,22 @@
           "level": 2,
           "title": "Thuyền Nan Thủng Đáy",
           "description": "Thuyền nan bị bục ván rỉ nước; Rowan cùng lội bùn kéo thuyền lên bãi sậy trét nhựa trám lại.",
-          "reward_unlock": "Tặng Rowan hộp mồi giun bùn đầm lầy câu cá da trơn."
+          "reward_unlock": "Tặng Rowan hộp mồi giun bùn đầm lầy câu cá da trơn.",
+          "event_type": "mail"
         },
         {
           "level": 4,
           "title": "Bẫy Thủy Sản Ven Đầm",
           "description": "Hướng dẫn kỹ thuật đan đó tre bẫy lươn cá ven các con lạch bùn nước chảy chậm.",
-          "reward_unlock": "Tặng công thức chế tạo Đó Tre Bắt Cá & Lươn Tự Động ven sông suối."
+          "reward_unlock": "Tặng công thức chế tạo Đó Tre Bắt Cá & Lươn Tự Động ven sông suối.",
+          "event_type": "tavern_dialogue"
         },
         {
           "level": 8,
           "title": "Mảnh Đất Sậy Hồi Sinh",
           "description": "Chứng kiến đầm lầy ô nhiễm được giải phóng, cười rạng rỡ trao chiếc cần câu tổ truyền cho Rowan.",
-          "reward_unlock": "Trao tặng Cần Câu Trúc Ngàn Năm Cổ Truyền (+25% tốc độ giật cá hiếm)."
+          "reward_unlock": "Trao tặng Cần Câu Trúc Ngàn Năm Cổ Truyền (+25% tốc độ giật cá hiếm).",
+          "event_type": "cutscene"
         }
       ]
     },
@@ -4600,19 +4762,22 @@
           "level": 2,
           "title": "Treo Tòn Ten Trên Rào",
           "description": "Trèo rào trộm dâu tây bị rách đũng quần treo mắc trên cọc; Rowan gỡ xuống và khâu vá lại quần cho cậu.",
-          "reward_unlock": "Tặng Rowan 5 hạt giống dâu dại rừng."
+          "reward_unlock": "Tặng Rowan 5 hạt giống dâu dại rừng.",
+          "event_type": "mail"
         },
         {
           "level": 4,
           "title": "Bụi Quả Mọng Bí Mật",
           "description": "Dẫn Rowan đi chỉ tổ ong mật và những bụi dâu rừng chín mọng giấu kín sau vách đá.",
-          "reward_unlock": "Tự động gom quả rụng quanh điền trang 2 ngày/tuần."
+          "reward_unlock": "Tự động gom quả rụng quanh điền trang 2 ngày/tuần.",
+          "event_type": "tavern_dialogue"
         },
         {
           "level": 8,
           "title": "Đội Thám Tử Nhí Bìa Rừng",
           "description": "Được giao trọng trách làm trinh sát nhí, tự hào đeo huy hiệu tuần tra bảo vệ nông trại.",
-          "reward_unlock": "Lập Đội Thám Tử Nhí tuần tra báo trước thú rừng quấy phá mùa màng sớm 1 ngày."
+          "reward_unlock": "Lập Đội Thám Tử Nhí tuần tra báo trước thú rừng quấy phá mùa màng sớm 1 ngày.",
+          "event_type": "cutscene"
         }
       ]
     },
@@ -4693,19 +4858,22 @@
           "level": 2,
           "title": "Một Ngàn Viên Đá Đợi Cha",
           "description": "Ngồi bệt bên suối nhặt sỏi cuội lạnh cóng cho vào hũ; Rowan xoa ấm tay và quàng khăn ấm cho bé.",
-          "reward_unlock": "Tặng Vòng Tay Đá Cuội Suối (+5% tỷ lệ né đòn khi chiến đấu)."
+          "reward_unlock": "Tặng Vòng Tay Đá Cuội Suối (+5% tỷ lệ né đòn khi chiến đấu).",
+          "event_type": "mail"
         },
         {
           "level": 4,
           "title": "Hốc Cá Bống Ven Suối",
           "description": "Dẫn Rowan ra hốc đá trong vắt ven suối chỉ cho đàn cá bống bơi lội dưới làn nước trong xanh.",
-          "reward_unlock": "Mở vị trí câu cá suối bí mật với nhiều loài cá nước ngọt đặc sản."
+          "reward_unlock": "Mở vị trí câu cá suối bí mật với nhiều loài cá nước ngọt đặc sản.",
+          "event_type": "tavern_dialogue"
         },
         {
           "level": 8,
           "title": "Lá Thư Đoàn Tụ",
           "description": "Nhận được thư báo tin cha xuất ngũ bình an trở về; hai cha con ôm chầm lấy nhau bên The Hearth.",
-          "reward_unlock": "Cora tặng Rowan Viên Ngọc Thạch Suối gia bảo gia đình mang lại may mắn."
+          "reward_unlock": "Cora tặng Rowan Viên Ngọc Thạch Suối gia bảo gia đình mang lại may mắn.",
+          "event_type": "cutscene"
         }
       ]
     }

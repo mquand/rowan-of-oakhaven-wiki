@@ -84,9 +84,16 @@ export default function CharacterCard({ char, lang, iconName, dict, isEn }) {
             <div style={{ display: 'flex', flexDirection: 'column', gap: '8px', marginTop: '8px' }}>
               {char.heart_events.map((evt, idx) => (
                 <div key={`${char.id}-evt-${idx}`} style={{ padding: '6px 8px', background: 'rgba(0,0,0,0.25)', borderRadius: '4px', borderLeft: '2px solid #ffd043' }}>
-                  <div style={{ display: 'flex', alignItems: 'center', gap: '6px', marginBottom: '2px' }}>
-                    <span style={{ color: '#ff6b81', fontWeight: 'bold', fontSize: '11px' }}>{evt.level} ❤️</span>
-                    <strong style={{ fontSize: '12px', color: '#ffd043' }}>{evt.title}</strong>
+                  <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: '2px' }}>
+                    <div style={{ display: 'flex', alignItems: 'center', gap: '6px' }}>
+                      <span style={{ color: '#ff6b81', fontWeight: 'bold', fontSize: '11px' }}>{evt.level} ❤️</span>
+                      <strong style={{ fontSize: '12px', color: '#ffd043' }}>{evt.title}</strong>
+                    </div>
+                    {evt.event_type && (
+                      <span style={{ fontSize: '10px', padding: '1px 5px', borderRadius: '3px', background: evt.event_type === 'cutscene' ? 'rgba(235, 77, 75, 0.2)' : evt.event_type === 'tavern_dialogue' ? 'rgba(240, 147, 43, 0.2)' : 'rgba(106, 176, 76, 0.2)', color: evt.event_type === 'cutscene' ? '#ff7979' : evt.event_type === 'tavern_dialogue' ? '#f6e58d' : '#badc58', border: '1px solid currentColor' }}>
+                        {evt.event_type === 'cutscene' ? (isEn ? '🎬 Cutscene' : '🎬 Hoạt cảnh') : evt.event_type === 'tavern_dialogue' ? (isEn ? '🍲 Hearth Chat' : '🍲 Bàn ăn') : (isEn ? '📬 Morning Mail' : '📬 Thư tay')}
+                      </span>
+                    )}
                   </div>
                   <p style={{ margin: '0 0 4px 0', fontSize: '11px', color: '#e0e0e0', lineHeight: '1.4' }}>{evt.description}</p>
                   <div style={{ fontSize: '11px', color: '#7bed9f' }}>

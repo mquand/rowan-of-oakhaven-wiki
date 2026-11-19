@@ -267,6 +267,18 @@ Mỗi cư dân Oakhaven không phải NPC rập khuôn vô hồn, mà mang một
   - Kích hoạt các đoạn độc thoại mộc mạc, giải tỏa gánh nặng tâm lý.
   - Sau sự kiện 8 Tim, nhân vật sẽ tặng Rowan công thức gia truyền hoặc mở khóa tiện ích dịch vụ vĩnh viễn cho thị trấn.
 
+### 10.4. Kiến Trúc Tam Phân Sự Kiện Trái Tim (3-Tier Event Delivery Architecture)
+Để giải quyết bài toán khả thi sản xuất (Asset Feasibility) và chống phình to khối lượng công việc (Asset Creep), toàn bộ 168 mốc sự kiện tim của 51 nhân vật được phân định rõ ràng thành 3 cấp độ thể hiện kỹ thuật:
+1. **Cấp C (~50% - Thư Tay Sớm Của Cú Pip):**
+   - *Áp dụng:* Đa số mốc 2 Tim và các nhân vật Tier 3 ở xa.
+   - *Cơ chế:* Sáng sớm, Cú Pip ngậm thư nhét vào hòm thư trước hiên nhà. Thư tay viết mộc mạc, kèm quà tặng (túi hạt giống, mở rộng ô ba lô, công thức sơ chế, giảm giá mua hàng). Chi phí asset = 0, tạo nhịp sinh hoạt mở thư mỗi sớm rất ấm cúng.
+2. **Cấp B (~35% - Tâm Sự Bàn Ăn Ca Tối The Hearth):**
+   - *Áp dụng:* Đa số mốc 4 Tim và 6 Tim.
+   - *Cơ chế:* Tận dụng vòng lặp mở quán tối có sẵn. NPC ghé The Hearth ngồi vào bàn quen thuộc, trên đầu hiện bong bóng `[!]`. Rowan bê món ăn lại phục vụ, mở ra đoạn hội thoại tại chỗ (Dialogue Box) kết hợp Bong bóng biểu cảm 16×16 (Emote Bubbles). Nói xong mở khóa tiện ích (Võ đường, Vườn ươm, Bảng săn quái, Trị an ca đêm...). Chi phí asset = 0.
+3. **Cấp A (~15% - Cutscene Hoạt Cảnh Đỉnh Cao):**
+   - *Áp dụng:* Chỉ khoảng 15 – 20 sự kiện đỉnh cao trong toàn bộ game (mốc 8 Tim hóa giải bi kịch quá khứ và 10 Tim kết duyên).
+   - *Cơ chế:* Diễn ra tại các bối cảnh quen thuộc (quán The Hearth, Lò rèn Boris, Bàn Thờ Cổ Đại), khóa điều khiển tạm thời 30 giây để thoại chạy tự động, tạo khoảnh khắc cảm xúc thăng hoa lắng đọng.
+
 ---
 
 ## 11. Hệ Thống Thành Tựu Steam, Thử Thách Kỹ Năng & Tab Hồ Sơ In-Game (Steam Achievements, Tactical Trials & Player Profile)
