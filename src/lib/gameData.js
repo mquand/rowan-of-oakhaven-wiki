@@ -66,6 +66,7 @@ export const getMonsters = (lang = DEFAULT_LOCALE) => getCollection('monsters.js
 export const getWeapons = (lang = DEFAULT_LOCALE) => getCollection('weapons.json', 'weapons', lang);
 export const getPerks = (lang = DEFAULT_LOCALE) => getCollection('perks.json', 'perks', lang);
 export const getLocations = (lang = DEFAULT_LOCALE) => getCollection('locations.json', 'locations', lang);
+export const getAchievements = (lang = DEFAULT_LOCALE) => getCollection('achievements.json', 'achievements', lang);
 
 export function getCharactersWhoLoveItem(itemId, lang = DEFAULT_LOCALE) {
   const characters = getCharacters(lang);

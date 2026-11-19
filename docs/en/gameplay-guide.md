@@ -76,3 +76,29 @@ Bring cavern ores and gold to Boris to upgrade tools across 4 tiers (Wood/Rusty 
 - Hold `Shift` to sprint (`180 px/s`), tap `Space` to dash once unlocked.
 - The `carry` pose lifts harvested items above Rowan's head; cozy sitting chairs next to NPCs are fully supported.
 - Crafting stations (tea brewing, pastry kneading) open **intimate tactile close-up interfaces** — allowing realistic manual gestures.
+
+---
+
+## Farmstead Ledger, Player Profile Tab & Steam Achievements
+
+Press `J` or `Tab` to open the **Farmstead Ledger**. The very first tab is the **Player Profile Tab**:
+
+1. **1:1 Steamworks API Synchronization:**
+   - 50 standard Steamworks achievements (`ACH_*`) unlock simultaneously across Steam and your local in-game save.
+   - When playing offline or DRM-free, all achievements continue to track and unlock seamlessly within your in-game Profile.
+2. **7 Core Achievement Categories:**
+   - *The Hearth & Culinary (7):* Master 55 recipes, serve comforting foods, host Valen's midnight banquets.
+   - *Mine-Dungeon & Combat (6):* Defeat 4 Warden Bosses, mine vast veins, blast boulders with Gomer's dynamite.
+   - *Tactical Trials - Moderate Hard (6):* 15 consecutive Master Parries, descend 30 floors with 2 rations, reach Floor 180 of Infinite Abyss, defeat bosses with >90% HP, traverse magma caverns without health potions.
+   - *Four-Season Harvest (6):* 32 botanical crops, automated sprinklers, 5-star livestock, 15 fish species.
+   - *Heart Bonds & Healing (6):* 2 Hearts with all 51 NPCs, reconcile family and veterans, 10-Heart marriage vows.
+   - *Restoration & Remembrance (5):* Complete 12 Town Board works, cleanse the Ancient Memorial Altar, reopen 5 foreign realms.
+   - *Quirky & Secrets (14 hidden achievements):* Exploding eggs with Colm, Milo snagged on the fence, Barnaby's clean floor fury, pushing Silas's immovable mule, fainting on Floor 149, Tad's marsh moonshine, Mallow's sleepy disdain, Gomer's deafening blasts, mushroom hallucinations...
+3. **In-Game Interactive Mechanics:**
+   - **Active Title System:** Equip unlocked titles (Master of the Hearth, Kitchen Demolitionist, Ironclad Sentinel...), prompting reactive greetings from townsfolk.
+   - **Hearthside Trophy Mantle:** Display bespoke keepsakes (Boris's golden pickaxe, Valerie's silver bowstring, Valerius's sparring blade...) to boost Tavern Cozy Rating.
+   - **Grounded Life Statistics:** Track potatoes harvested, times carried home on Colm's stretcher, times glared at by Barnaby for muddy boots, and uncollected tavern bar tabs.
+
+---
+
+*Source: `design/game-master-data-specs.md` & `OAKHAVEN_DESIGN_COMPENDIUM.md`.*

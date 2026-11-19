@@ -130,4 +130,26 @@ Mang quặng mỏ + vàng đến lò rèn để nâng cấp 4 cấp (Gỗ/Rỉ �
 
 ---
 
-*Nguồn: `design/game-master-data-specs.md` & `design/gdd/stardust.md` trong repo game.*
+## Sổ Tay Điền Trang, Tab Hồ Sơ & Hệ Thống Thành Tựu Steam
+
+Bấm phím `J` hoặc `Tab` để mở **Sổ Tay Điền Trang (Farmstead Ledger)**. Ngay tại trang đầu tiên là **Tab Hồ Sơ (Player Profile)**:
+
+1. **Đồng Bộ Song Hành 1:1 Với Steamworks API:**
+   - 50 thành tựu chuẩn Steamworks (`ACH_*`) mở khóa đồng thời trên cả Steam và lưu vào file save trong game.
+   - Khi chơi ngoại tuyến (offline / DRM-free), game vẫn theo dõi tiến độ và mở khóa đầy đủ trong Tab Hồ Sơ.
+2. **7 Danh Mục Thành Tựu Cốt Lõi:**
+   - *Bếp Lửa & Ẩm Thực (7):* 55 công thức ẩm thực, phục vụ món an ủi Comfort Dish, tiệc đêm Valen.
+   - *Hầm Mỏ & Chiến Đấu (6):* Chinh phục 4 Trùm Giám Ngục, khai mỏ quy mô lớn.
+   - *Thử Thách Kỹ Năng - Độ Hard Vừa (6):* 15 lần Master Parry hoàn hảo, vượt 30 tầng hầm mỏ với 2 hộp cơm, tầng 180 Vực Thẳm Vô Tận, hạ trùm HP > 90%, vượt đới dung nham không dùng bình máu.
+   - *Đồng Xanh & Mùa Màng (6):* 32 loại cây trồng, cơ khí hóa vòi phun, gia súc 5 sao, 15 loài cá.
+   - *Tri Kỷ & Hàn Gắn (6):* Mốc 2 Tim toàn bộ 51 NPC, hóa giải mâu thuẫn gia đình và cựu binh, kết duyên 10 Tim.
+   - *Tái Thiết & Cầu Siêu (5):* 12 công trình Town Board, Đại Tiệc Cầu Siêu Bàn Thờ Cổ Đại, khai thông 5 đại vực.
+   - *Dị Biệt & Hài Hước (14 thành tựu ẩn):* Nồi trứng phát hỏa cùng Colm, Milo mắc kẹt hàng rào dâu tây, Barnaby cằn nhằn vì ủng bùn, đẩy lừa Silas 3 phút không nhúc nhích, ngất xỉu rớt sạch đồ ở Tầng 149 sát phòng trùm, say rượu đầm lầy của Lão Tad, Mallow ngủ phớt lờ vuốt ve, ù tai cạnh bom mỏ Gomer, ăn nấm phát quang bị ảo giác tím...
+3. **Tính Năng Tương Tác Trong Game:**
+   - **Gắn Danh Hiệu (Active Title):** Người chơi tự chọn danh hiệu hiển thị (Bếp Trưởng Oakhaven, Kẻ Nổ Bếp, Bậc Thầy Đỡ Đòn...), NPC sẽ phản ứng và chào Rowan bằng danh hiệu đó.
+   - **Kệ Trưng Bày Lò Sưởi (Trophy Mantle):** Trưng bày các kỷ vật độc bản (Cuốc vàng Boris, Nơ cung bạc Valerie, Kiếm gỗ Valerius...) để tăng điểm Cozy Rating thu hút khách VIP.
+   - **Bảng Thống Kê Sinh Hoạt Đời Thường:** Ghi lại số củ khoai đã đào, số lần Colm khiêng về giường, số lần Barnaby lườm vì ủng bẩn, số củi đã chẻ.
+
+---
+
+*Nguồn: `design/game-master-data-specs.md` & `OAKHAVEN_DESIGN_COMPENDIUM.md`.*
