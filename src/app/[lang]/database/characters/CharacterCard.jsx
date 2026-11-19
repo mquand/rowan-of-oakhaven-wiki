@@ -59,8 +59,45 @@ export default function CharacterCard({ char, lang, iconName, dict, isEn }) {
         </div>
       )}
 
-      {/* Heart Event Summary */}
-      {char.heart_event_summary && (
+      {/* Multi-Tier Heart Events Timeline */}
+      {char.heart_events && char.heart_events.length > 0 ? (
+        <div className={styles.heartMilestoneBox}>
+          <div 
+            className={styles.heartMilestoneHeader} 
+            style={{ cursor: 'pointer', display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}
+            onClick={() => setShowHeartSpoiler(prev => !prev)}
+          >
+            <div style={{ display: 'flex', alignItems: 'center', gap: '6px' }}>
+              <Icon name="heart" size={12} />
+              <span>{isEn ? `Heart Events (${char.heart_events.length} Milestones)` : `Tuyến Sự Kiện Trái Tim (${char.heart_events.length} Mốc)`}</span>
+            </div>
+            <span style={{ fontSize: '11px', textTransform: 'none', color: '#ffcf40', cursor: 'pointer' }}>
+              {showHeartSpoiler ? (isEn ? '▲ Hide' : '▲ Thu gọn') : (isEn ? '▼ View All' : '▼ Xem chi tiết')}
+            </span>
+          </div>
+
+          {!showHeartSpoiler && char.heart_event_summary && (
+            <p className={styles.heartMilestoneText}>{char.heart_event_summary}</p>
+          )}
+
+          {showHeartSpoiler && (
+            <div style={{ display: 'flex', flexDirection: 'column', gap: '8px', marginTop: '8px' }}>
+              {char.heart_events.map((evt, idx) => (
+                <div key={`${char.id}-evt-${idx}`} style={{ padding: '6px 8px', background: 'rgba(0,0,0,0.25)', borderRadius: '4px', borderLeft: '2px solid #ffd043' }}>
+                  <div style={{ display: 'flex', alignItems: 'center', gap: '6px', marginBottom: '2px' }}>
+                    <span style={{ color: '#ff6b81', fontWeight: 'bold', fontSize: '11px' }}>{evt.level} ❤️</span>
+                    <strong style={{ fontSize: '12px', color: '#ffd043' }}>{evt.title}</strong>
+                  </div>
+                  <p style={{ margin: '0 0 4px 0', fontSize: '11px', color: '#e0e0e0', lineHeight: '1.4' }}>{evt.description}</p>
+                  <div style={{ fontSize: '11px', color: '#7bed9f' }}>
+                    <strong>{isEn ? 'Reward:' : 'Phần thưởng:'}</strong> {evt.reward_unlock}
+                  </div>
+                </div>
+              ))}
+            </div>
+          )}
+        </div>
+      ) : char.heart_event_summary ? (
         <div className={styles.heartMilestoneBox}>
           <div className={styles.heartMilestoneHeader}>
             <Icon name="sparkle" size={12} />
@@ -68,7 +105,7 @@ export default function CharacterCard({ char, lang, iconName, dict, isEn }) {
           </div>
           <p className={styles.heartMilestoneText}>{char.heart_event_summary}</p>
         </div>
-      )}
+      ) : null}
 
       <p className={styles.charBio}>{char.description}</p>
 

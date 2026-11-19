@@ -20,7 +20,29 @@
       "schedule": "Morning & Afternoon: Tending homestead & delving the 150-floor mine; Evening: Firing the ovens at the hearth",
       "real_world_wound": "Burnout and Imposter Syndrome after fleeing urban exploitation; haunted by fear of failing Amalia's legacy.",
       "comfort_dish": "dish_moonlight_creamy_risotto",
-      "heart_event_summary": "Reclaims self-worth through honest farm labor, 150-floor mine exploration, and serving 55 comforting hot meals to healing frontier townsfolk."
+      "heart_event_summary": "Reclaims self-worth through honest farm labor, 150-floor mine exploration, and serving 55 comforting hot meals to healing frontier townsfolk.",
+      "gift_preferences": {
+        "loved": [
+          "tra_sen_bach_diep",
+          "item_bread_brioche",
+          "sup_cu_den_do_dai_ngan"
+        ],
+        "liked": [
+          "dau_rung",
+          "mat_ong",
+          "item_flour",
+          "com_nam_muoi_rung"
+        ],
+        "disliked": [
+          "ore_coal",
+          "thit_nuong_lua_dia_nguc"
+        ],
+        "hated": [
+          "drop_prism_jelly",
+          "ruou_trai_cay_len_men"
+        ]
+      },
+      "heart_events": []
     },
     {
       "id": "pet_pip",
@@ -38,7 +60,46 @@
       "schedule": "Dawn: Delivers seeds to mailbox; Afternoon: Perches on porch",
       "real_world_wound": "A loyal familiar who never abandons the mailbox, eagerly watching for town mail.",
       "comfort_dish": "mat_ong",
-      "heart_event_summary": "Faithful morning companion; brings rare wild seeds from the Whispering Forest glade to Rowan's mailbox every dawn."
+      "heart_event_summary": "Faithful morning companion; brings rare wild seeds from the Whispering Forest glade to Rowan's mailbox every dawn.",
+      "gift_preferences": {
+        "loved": [
+          "seed_sen_tea",
+          "mat_ong"
+        ],
+        "liked": [
+          "dau_rung",
+          "seed_lumiberry",
+          "seed_silver_wheat"
+        ],
+        "disliked": [
+          "ore_coal",
+          "item_stone_brick"
+        ],
+        "hated": [
+          "thit_nuong_lua_dia_nguc",
+          "ruou_trai_cay_len_men"
+        ]
+      },
+      "heart_events": [
+        {
+          "level": 2,
+          "title": "Morning Chirps at the Post",
+          "description": "Pip delivers morning letters and nudges Rowan's hand affectionately on the porch.",
+          "reward_unlock": "Pip automatically delivers wild Whispering Forest seeds into the mailbox each dawn."
+        },
+        {
+          "level": 4,
+          "title": "A Warm Straw Nest",
+          "description": "Rowan crafts a warm straw nest under the eaves to shelter Pip from winter blizzards.",
+          "reward_unlock": "Increases Pip's chance of bringing back rare botanical seeds by 25%."
+        },
+        {
+          "level": 8,
+          "title": "Emissary of the Whispering Woods",
+          "description": "Pip guides Rowan along a hidden shortcut into the sacred Grove of Botanicals.",
+          "reward_unlock": "Unlocks a permanent walking shortcut to the Sacred Botanical Grove and wild bee hives."
+        }
+      ]
     },
     {
       "id": "pet_mallow",
@@ -57,7 +118,40 @@
       "schedule": "All day: Lounging warmly by the brick oven or timber counter",
       "real_world_wound": "A stray rescue haunted by rain-storm abandonment, finding warmth beside the dining tavern fire.",
       "comfort_dish": "item_butter",
-      "heart_event_summary": "Activates passive \"Lucky Hearth\" buff when sleeping by the eatery fireplace: reduces dish burn rate by 15% and increases patron tip gold by 10%."
+      "heart_event_summary": "Activates passive \"Lucky Hearth\" buff when sleeping by the eatery fireplace: reduces dish burn rate by 15% and increases patron tip gold by 10%.",
+      "gift_preferences": {
+        "loved": [
+          "item_butter",
+          "ca_suoi_nuong_muoi_ot"
+        ],
+        "liked": [
+          "dau_rung",
+          "drop_moon_berry",
+          "sua_bo_nong_mat_ong"
+        ],
+        "disliked": [
+          "item_tea_sen_an_than",
+          "ore_coal"
+        ],
+        "hated": [
+          "drop_crystal_sea_salt",
+          "ruou_trai_cay_len_men"
+        ]
+      },
+      "heart_events": [
+        {
+          "level": 2,
+          "title": "Ash Cushion by the Hearth",
+          "description": "Mallow curls up beside the bakery oven, purring lazily after a warm fish dinner.",
+          "reward_unlock": "Passive 'Lucky Hearth' buff: Reduces cooking burn rate by 15%."
+        },
+        {
+          "level": 6,
+          "title": "Morning Foraging Feline",
+          "description": "Mallow strolls around the farmstead and drags fresh morning herbs onto the front porch.",
+          "reward_unlock": "Increases customer gold tips by 10%; Mallow leaves foraged herbs on the porch each morning."
+        }
+      ]
     },
     {
       "id": "npc_lumi",
@@ -82,8 +176,9 @@
           "dau_rung"
         ],
         "liked": [
-          "oai_huong",
+          "item_tea_sen_an_than",
           "mat_ong",
+          "drop_moon_berry",
           "banh_deo_trang_ram_hoa_buoi"
         ],
         "disliked": [
@@ -127,7 +222,39 @@
             }
           ]
         }
-      }
+      },
+      "heart_events": [
+        {
+          "level": 2,
+          "title": "Shadow Beneath the Old Maple",
+          "description": "Lumi hides timidly behind an old maple; Rowan sits quietly on the moss and shares steamed rice cakes.",
+          "reward_unlock": "Unlocks family recipe: Steamed Coconut Rice Cakes."
+        },
+        {
+          "level": 4,
+          "title": "Whispers of the Fox Ears",
+          "description": "Lumi listens to underground springs and forest canopies to forecast seasonal shifts.",
+          "reward_unlock": "Accurately predicts rare herb and mushroom spawns based on weather and moon cycles."
+        },
+        {
+          "level": 6,
+          "title": "Drying the Red Scarf",
+          "description": "Sheltering from rain inside The Hearth, Lumi shares the pain of being shunned as a hybrid fox-elf.",
+          "reward_unlock": "Gifts Rowan family-recipe Hundred-Petal Lotus Tea infused with natural blossoms."
+        },
+        {
+          "level": 8,
+          "title": "Path into the Deep Forest Shrine",
+          "description": "Trusting Rowan completely, Lumi unbinds the thorn ward leading into the deep sanctum.",
+          "reward_unlock": "Guides Rowan into Deep Forest Shrine to gather Luminescent Mushrooms and Ancient Herbs."
+        },
+        {
+          "level": 10,
+          "title": "Snowy Forest Vow",
+          "description": "Lumi gifts Rowan a twin-woven Red Wool Scarf by Moonlit Lake; pledging lifelong companionship.",
+          "reward_unlock": "Romantic Bond unlocked; Lumi moves into the attic chamber of The Hearth."
+        }
+      ]
     },
     {
       "id": "npc_boris",
@@ -149,7 +276,7 @@
       "heart_event_summary": "Unlocks iron farm tool smithing at 4 Hearts; reconciles 10-year feud with brother Bram and unlocks the Advanced Refining Forge at 8 Hearts.",
       "gift_preferences": {
         "loved": [
-          "banh_pie_tao_que_lo_dat",
+          "item_pastry_cinnamon_roll",
           "bo_ham_ruou_vang_mo",
           "ore_gold"
         ],
@@ -164,8 +291,8 @@
           "nuoc_ep_dua_luoi_bang_gia"
         ],
         "hated": [
-          "bot_sao",
-          "drop_crystal_sea_salt"
+          "thit_nuong_lua_dia_nguc",
+          "drop_prism_jelly"
         ]
       },
       "schedules": {
@@ -277,7 +404,33 @@
             }
           ]
         }
-      }
+      },
+      "heart_events": [
+        {
+          "level": 2,
+          "title": "The Grumbling Hammer",
+          "description": "Boris hammers furiously after an argument with Bram, grumbling about his brother's reckless pride.",
+          "reward_unlock": "Unlocks tool upgrades to Copper and Iron tiers at the Smithy."
+        },
+        {
+          "level": 4,
+          "title": "Cinnamon Rolls for Aching Shoulders",
+          "description": "Exhausted from smithing, Boris warms up as Rowan brings fresh hot cinnamon rolls to the forge.",
+          "reward_unlock": "Reduces coal consumption by 20% during metal ingot smelting."
+        },
+        {
+          "level": 6,
+          "title": "Tears in the Ale",
+          "description": "Drunk at the tavern, Boris weeps as he confesses his terror of losing his crippled brother to the mines.",
+          "reward_unlock": "Gifts Rowan a reinforced pickaxe mold resistant to stone chipping."
+        },
+        {
+          "level": 8,
+          "title": "Mother's Ironforge Goulash",
+          "description": "Both brothers share their mother's ancestral beef goulash, healing ten years of bitter estrangement.",
+          "reward_unlock": "Unlocks Advanced Smelting Station (halves smelting time, boosts gem yield)."
+        }
+      ]
     },
     {
       "id": "npc_maeve",
@@ -299,22 +452,22 @@
       "heart_event_summary": "Unlocks the Four-Seasons Nursery (basic greenhouse) at 4 Hearts; rests easy seeing Kael blossom and passes down master gardening wisdom at 8 Hearts.",
       "gift_preferences": {
         "loved": [
-          "bi_do_nuong_pho_mai_deo",
-          "tra_sen_bach_diep",
-          "seed_sen_tea"
+          "item_dish_sweet_pumpkin_potage",
+          "seed_sen_tea",
+          "tra_sen_bach_diep"
         ],
         "liked": [
-          "seed_sun_daisy",
-          "seed_silver_wheat",
-          "mat_ong",
-          "dau_rung"
+          "item_flour",
+          "dau_rung",
+          "sua_bo_nong_mat_ong",
+          "banh_quy_gung_giu_am"
         ],
         "disliked": [
           "bit_tet_nuong_than_soi",
-          "lau_ca_cay_ham_nguc"
+          "ore_coal"
         ],
         "hated": [
-          "ore_coal",
+          "thit_nuong_lua_dia_nguc",
           "drop_prism_jelly"
         ]
       },
@@ -393,7 +546,33 @@
             }
           ]
         }
-      }
+      },
+      "heart_events": [
+        {
+          "level": 2,
+          "title": "Winter Joint Aches",
+          "description": "Stiffened by arthritis, Granny Maeve receives chamomile tea and herbal balm from Rowan.",
+          "reward_unlock": "Sells standard seasonal crop seeds for all 4 seasons."
+        },
+        {
+          "level": 4,
+          "title": "Securing the Trellis in the Storm",
+          "description": "High winds snap bean trellises; Maeve, Kael, and Rowan work together in the rain to protect the beds.",
+          "reward_unlock": "Unlocks Four-Season Nursery (basic greenhouse to grow out-of-season vegetables)."
+        },
+        {
+          "level": 6,
+          "title": "Summer Midday Heatstroke",
+          "description": "Maeve faints in the field; Kael rushes to Rowan for cooling herbal broths and shade.",
+          "reward_unlock": "Expands greenhouse perimeter with 12 additional tillable soil tiles."
+        },
+        {
+          "level": 8,
+          "title": "A Grandmother's Legacy",
+          "description": "Maeve passes her ancestral pruning shears to Kael, at peace knowing the orphan boy has found family.",
+          "reward_unlock": "Grants a permanent 30% discount on all seed purchases in Oakhaven."
+        }
+      ]
     },
     {
       "id": "npc_kael",
@@ -415,18 +594,18 @@
       "heart_event_summary": "Receives rare heirloom seeds at 4 Hearts; upgrades the Automated Plant Propagation Station at 8 Hearts after healing the fear of abandonment.",
       "gift_preferences": {
         "loved": [
-          "xoi_hat_sen_nuoc_cot_dua",
           "banh_cau_vong_4_mua",
-          "mat_ong"
+          "mat_ong",
+          "item_pastry_scone_berry"
         ],
         "liked": [
+          "item_pastry_cinnamon_roll",
+          "item_wood_pine",
           "dau_rung",
-          "com_nam_muoi_rung",
-          "bap_xao_bo_cay",
-          "item_sugar"
+          "com_nam_muoi_rung"
         ],
         "disliked": [
-          "canh_thao_moc_bup_sen",
+          "canh_chua_ca_suoi_cay",
           "ore_coal"
         ],
         "hated": [
@@ -495,7 +674,33 @@
             }
           ]
         }
-      }
+      },
+      "heart_events": [
+        {
+          "level": 2,
+          "title": "Seeds Dropped in the Mud",
+          "description": "Kael weeps by the ditch fearing he'll be discarded as useless; Rowan gently washes the seeds with him.",
+          "reward_unlock": "Kael gifts Rowan a pouch of wild spring wildflower seeds."
+        },
+        {
+          "level": 4,
+          "title": "Weaving Baskets for Medicine",
+          "description": "Kael stays up weaving turnip baskets to earn medicine money for Granny Maeve.",
+          "reward_unlock": "Kael helps weed and water farmstead garden beds 2 days a week."
+        },
+        {
+          "level": 6,
+          "title": "Nightmares of the Matchstick Nights",
+          "description": "Trauma of freezing in capital blizzards resurfaces; Rowan serves a steaming bowl of sweet pumpkin stew.",
+          "reward_unlock": "Unlocks comforting culinary recipe: Heart-Warming Pumpkin Potage."
+        },
+        {
+          "level": 8,
+          "title": "The Savings Ledger in Kael's Name",
+          "description": "Kael finds Maeve's secret savings ledger meant for his apprenticeship, crying in her embrace.",
+          "reward_unlock": "Unlocks Automated Four-Season Seed Nursery & Breeding Station."
+        }
+      ]
     },
     {
       "id": "npc_amalia",
@@ -513,7 +718,45 @@
       "schedule": "Present in grimoire margins, cherished memories, and dreams",
       "real_world_wound": "Sacrificed her own health during famine years to keep the frontier settlement fed and alive.",
       "comfort_dish": "tra_sen_an_than",
-      "heart_event_summary": "Guides Rowan through 55 heirloom recipes and the healing philosophy: \"Cooking is to make others feel worthy of living and being loved.\""
+      "heart_event_summary": "Guides Rowan through 55 heirloom recipes and the healing philosophy: \"Cooking is to make others feel worthy of living and being loved.\"",
+      "gift_preferences": {
+        "loved": [
+          "tra_sen_bach_diep",
+          "xoi_hat_sen_nuoc_cot_dua",
+          "item_bread_brioche"
+        ],
+        "liked": [
+          "mat_ong",
+          "dau_rung",
+          "item_flour"
+        ],
+        "disliked": [
+          "ruou_trai_cay_len_men"
+        ],
+        "hated": [
+          "thit_nuong_lua_dia_nguc"
+        ]
+      },
+      "heart_events": [
+        {
+          "level": 2,
+          "title": "First Page of the Old Recipe Book",
+          "description": "Rowan finds grandmother's diary page taped beneath the heirloom cast iron skillet.",
+          "reward_unlock": "Unlocks original heritage recipe: Forest Salted Rice Balls."
+        },
+        {
+          "level": 4,
+          "title": "The Unquenched Flame",
+          "description": "Amalia's spirit lingers gently in the warm chimney smoke on quiet winter evenings.",
+          "reward_unlock": "Permanently increases cooking speed by 10% and reduces stove firewood usage."
+        },
+        {
+          "level": 8,
+          "title": "The Hearth Legacy of Oakhaven",
+          "description": "Rowan fully revitalizes the tavern; Amalia smiles peacefully before dissolving into fragrant aroma.",
+          "reward_unlock": "Grants 'Oakhaven Head Chef' title and unlocks Memorial Soul Banquet recipe."
+        }
+      ]
     },
     {
       "id": "npc_bram",
@@ -535,23 +778,23 @@
       "heart_event_summary": "Points out deep subterranean mineral veins at 4 Hearts; partners with brother Boris to unlock the Advanced Refining Forge at 8 Hearts.",
       "gift_preferences": {
         "loved": [
-          "banh_mi_den_dai_han",
-          "sup_cu_den_do_dai_ngan",
-          "gem_amethyst"
+          "item_dish_miner_potato_stew",
+          "banh_mi_lua_mi_gion",
+          "ore_iron"
         ],
         "liked": [
           "ore_coal",
-          "ore_iron",
-          "da_tinh_the",
+          "ore_copper",
+          "item_stone_brick",
           "khoai_tay_nuong_bo_toi"
         ],
         "disliked": [
-          "banh_deo_trang_ram_hoa_buoi",
-          "sua_bo_nong_mat_ong"
+          "salad_trai_cay_mua_ha",
+          "banh_tart_viet_quat_bui_sao"
         ],
         "hated": [
-          "ruou_trai_cay_len_men",
-          "drop_golden_pollen"
+          "drop_prism_jelly",
+          "tra_sen_bach_diep"
         ]
       },
       "schedules": {
@@ -620,7 +863,33 @@
             }
           ]
         }
-      }
+      },
+      "heart_events": [
+        {
+          "level": 2,
+          "title": "Solitary Drink by the River",
+          "description": "Bram drinks alone on the gravel bank, bitter at being treated as a helpless invalid.",
+          "reward_unlock": "Gifts Rowan Upper Mine Survey Map (Floors 1-20)."
+        },
+        {
+          "level": 4,
+          "title": "Cold Cavern at Floor 20",
+          "description": "Bitten by mine rats in dark shafts, Bram gets patched up as Rowan shares crispy dry bread.",
+          "reward_unlock": "Deep Vein Guidance (boosts rare ore spawn rate by 15%)."
+        },
+        {
+          "level": 6,
+          "title": "Mother's Old Tin Box",
+          "description": "Rowan rappels down a Floor 40 fissure to recover the heirloom tin box left by their mother.",
+          "reward_unlock": "Bram gifts an expertly sharpened Veteran Steel Pickaxe."
+        },
+        {
+          "level": 8,
+          "title": "A Miner's Handshake",
+          "description": "Drinks with brother Boris at The Hearth, standing tall as an independent miner of pride.",
+          "reward_unlock": "Unlocks Mine Elevator Waypoint Shortcuts across deep expedition biomes."
+        }
+      ]
     },
     {
       "id": "npc_penny",
@@ -642,22 +911,23 @@
       "heart_event_summary": "Opens Plaza Pastry Rolling Cart at 4 Hearts; operates the Town Hot Meal Delivery service to courier meals to miners and villagers at 8 Hearts.",
       "gift_preferences": {
         "loved": [
-          "tart_dau_tuyet_lanh",
-          "banh_cau_vong_4_mua",
-          "dau_rung"
+          "banh_xop_dau_rung",
+          "item_tea_dau_bang_tuyet",
+          "item_flour"
         ],
         "liked": [
-          "banh_mi_lua_mi_gion",
+          "item_butter",
           "mat_ong",
-          "item_butter"
+          "dau_rung",
+          "item_pastry_scone_berry"
         ],
         "disliked": [
-          "bo_ham_ruou_vang_mo",
+          "canh_chua_ca_suoi_cay",
           "ore_coal"
         ],
         "hated": [
-          "ruou_trai_cay_len_men",
-          "bit_tet_nuong_than_soi"
+          "thit_nuong_lua_dia_nguc",
+          "ruou_trai_cay_len_men"
         ]
       },
       "schedules": {
@@ -697,7 +967,33 @@
             }
           ]
         }
-      }
+      },
+      "heart_events": [
+        {
+          "level": 2,
+          "title": "Cart Wheel in the Mud",
+          "description": "Penny's pastry cart sinks into a mud rut; Rowan wedges timber under the axle to free it.",
+          "reward_unlock": "10% discount on pastries at her square cart."
+        },
+        {
+          "level": 4,
+          "title": "The Fresh Pine Pastry Cart",
+          "description": "Penny rebuilds her cart with pine planks, proudly serving hot pastries to miners.",
+          "reward_unlock": "Inaugurates Oakhaven Square Pastry Cart service."
+        },
+        {
+          "level": 6,
+          "title": "Blistered Wrists",
+          "description": "Burned by hot baking trays, Penny gets treated by Rowan who finishes baking the berry batch.",
+          "reward_unlock": "Unlocks exclusive dessert recipe: Chilled Snowberry Tart."
+        },
+        {
+          "level": 8,
+          "title": "Standing on Her Own Feet",
+          "description": "Financially self-reliant before uncles Boris and Bram, she launches town lunchbox logistics.",
+          "reward_unlock": "Automated Bento & Meal Delivery Service to distant work sites and mineheads."
+        }
+      ]
     },
     {
       "id": "npc_orion",
@@ -720,21 +1016,22 @@
       "gift_preferences": {
         "loved": [
           "banh_tart_viet_quat_bui_sao",
-          "da_tinh_the",
+          "item_tea_sen_an_than",
           "gem_sapphire"
         ],
         "liked": [
-          "tra_sen_bach_diep",
-          "chao_yen_mach_mat_ong",
+          "drop_moon_berry",
+          "mat_ong",
+          "item_pastry_scone_berry",
           "gem_amethyst"
         ],
         "disliked": [
           "thit_nuong_lua_dia_nguc",
-          "lap_xuong_tieu_den_mo_da"
+          "bap_xao_bo_cay"
         ],
         "hated": [
-          "ore_coal",
-          "canh_chua_ca_suoi_cay"
+          "ruou_trai_cay_len_men",
+          "ore_coal"
         ]
       },
       "schedules": {
@@ -779,7 +1076,33 @@
             }
           ]
         }
-      }
+      },
+      "heart_events": [
+        {
+          "level": 2,
+          "title": "Barefoot in the Morning Mist",
+          "description": "Wandering barefoot after losing keys in morning fog, Orion is guided home safely by Rowan.",
+          "reward_unlock": "Gifts Rowan an antique Quartz Lens aiding night exploration."
+        },
+        {
+          "level": 4,
+          "title": "Trajectory of the Miasma Cloud",
+          "description": "Orion plots toxic mountain fog currents blowing down from northern gorges.",
+          "reward_unlock": "Unlocks 3-Day Weather Forecast Bulletin (warns of blizzards, acid rain, full moons)."
+        },
+        {
+          "level": 6,
+          "title": "Constellation Elise",
+          "description": "Mistaking Rowan for his late wife Elise, he whispers an unkept promise to watch meteor showers.",
+          "reward_unlock": "Gifts Celestial Almanac mapping optimal planting cycles."
+        },
+        {
+          "level": 8,
+          "title": "Mother's Eternal Star",
+          "description": "Before memories fade, he and Clara finish the star chart honoring Elise.",
+          "reward_unlock": "Activates recurring Falling Star Shower Events (harvest surface crystal ores)."
+        }
+      ]
     },
     {
       "id": "npc_clara",
@@ -801,21 +1124,22 @@
       "heart_event_summary": "Deciphers ancient texts at 4 Hearts; bequeaths the heirloom valley classic dessert recipe codex at 8 Hearts.",
       "gift_preferences": {
         "loved": [
+          "item_pastry_scone_berry",
           "tra_sen_bach_diep",
-          "banh_quy_gung_giu_am",
-          "oai_huong"
+          "item_bread_brioche"
         ],
         "liked": [
-          "banh_mi_lua_mi_gion",
+          "dau_rung",
           "mat_ong",
-          "seed_star_lavender"
+          "gem_amethyst",
+          "banh_quy_gung_giu_am"
         ],
         "disliked": [
-          "thit_nuong_lua_dia_nguc",
-          "lau_ca_cay_ham_nguc"
+          "ore_coal",
+          "thit_nuong_lua_dia_nguc"
         ],
         "hated": [
-          "ore_coal",
+          "ruou_trai_cay_len_men",
           "drop_prism_jelly"
         ]
       },
@@ -866,7 +1190,39 @@
             }
           ]
         }
-      }
+      },
+      "heart_events": [
+        {
+          "level": 2,
+          "title": "Tears Behind the Bookshelves",
+          "description": "Rowan finds Clara weeping behind book stacks from caregiver exhaustion; offers butter biscuits and tea.",
+          "reward_unlock": "Grants access to historical Valley lore and archives in the Library."
+        },
+        {
+          "level": 4,
+          "title": "Restoring Ancient Manuscripts",
+          "description": "Dusting library shelves, Rowan and Clara carefully press mildewed ancient mine scrolls.",
+          "reward_unlock": "Unlocks Deciphering Ancient Texts & Mine Inscriptions service."
+        },
+        {
+          "level": 6,
+          "title": "The Torn Admission Letter",
+          "description": "She reveals tearing up her capital academy acceptance letter to stay and care for her father.",
+          "reward_unlock": "Gifts Antique Valley Map marking freshwater wells across the terrain."
+        },
+        {
+          "level": 8,
+          "title": "The Valley's Ancient Archives",
+          "description": "Finding peace seeing her father serene, she embraces her calling by the tavern hearth.",
+          "reward_unlock": "Ancient Recipe Archive unlocked (grants 5 heritage bakery formulas)."
+        },
+        {
+          "level": 10,
+          "title": "Promise by the Reading Desk",
+          "description": "Clara gifts a handcrafted leather journal, pledging lifelong devotion by the fireside.",
+          "reward_unlock": "Romantic Bond unlocked; Clara moves into The Hearth's attic suite."
+        }
+      ]
     },
     {
       "id": "npc_garrick",
@@ -890,20 +1246,21 @@
         "loved": [
           "ca_suoi_nuong_muoi_ot",
           "ruou_trai_cay_len_men",
-          "drop_crystal_sea_salt"
+          "gem_sapphire"
         ],
         "liked": [
+          "item_wood_pine",
+          "drop_crystal_sea_salt",
           "com_nam_muoi_rung",
-          "bit_tet_nuong_than_soi",
-          "ore_gold"
+          "ore_iron"
         ],
         "disliked": [
-          "banh_cau_vong_4_mua",
-          "sua_bo_nong_mat_ong"
+          "banh_tart_viet_quat_bui_sao",
+          "dau_rung"
         ],
         "hated": [
-          "bot_sao",
-          "banh_deo_trang_ram_hoa_buoi"
+          "item_flour",
+          "item_pastry_scone_berry"
         ]
       },
       "schedules": {
@@ -952,7 +1309,33 @@
             }
           ]
         }
-      }
+      },
+      "heart_events": [
+        {
+          "level": 2,
+          "title": "Beached Driftwood",
+          "description": "Garrick curses rotten timber sold by swindlers, feeling like useless beached driftwood.",
+          "reward_unlock": "Unlocks lakeside bait and heavy-duty fishing line depot."
+        },
+        {
+          "level": 4,
+          "title": "Mist Lake Ferry Route",
+          "description": "Hoisting patched canvas, he tests the first cargo run across foggy bays.",
+          "reward_unlock": "Unlocks Lakeside Cargo Dock connecting regional shipments."
+        },
+        {
+          "level": 6,
+          "title": "Colorblind Starboard Eye",
+          "description": "Reveals his right eye lost color vision during naval wrecks, making depth navigation treacherous.",
+          "reward_unlock": "Gifts Veteran Naval Spyglass."
+        },
+        {
+          "level": 8,
+          "title": "Sailing into Cloud Seas",
+          "description": "Together with grandson Finn, they restore the expedition sloop, sailing proud once more.",
+          "reward_unlock": "Opens Cloud Sea Shipping Route importing exotic spices and deep sea fish."
+        }
+      ]
     },
     {
       "id": "npc_finn",
@@ -974,18 +1357,19 @@
       "heart_event_summary": "Unlocks Fishing Rod & Lake Minigame at 4 Hearts; supplies bioluminescent fish for night-vision recipes in deep mines at 8 Hearts.",
       "gift_preferences": {
         "loved": [
-          "nuoc_ep_dua_luoi_bang_gia",
-          "banh_quy_gung_giu_am",
-          "da_tinh_the"
+          "ca_suoi_nuong_muoi_ot",
+          "banh_xop_dau_rung",
+          "drop_moon_berry"
         ],
         "liked": [
           "dau_rung",
-          "com_nam_muoi_rung",
-          "bap_xao_bo_cay"
+          "mat_ong",
+          "ore_copper",
+          "com_nam_muoi_rung"
         ],
         "disliked": [
-          "canh_thao_moc_bup_sen",
-          "bo_ham_ruou_vang_mo"
+          "item_tea_sen_an_than",
+          "canh_thao_moc_bup_sen"
         ],
         "hated": [
           "ruou_trai_cay_len_men",
@@ -1029,7 +1413,33 @@
             }
           ]
         }
-      }
+      },
+      "heart_events": [
+        {
+          "level": 2,
+          "title": "Snapped Bamboo Pole",
+          "description": "His bamboo pole snaps on a big bite; Rowan whittles a sturdy hardwood grip with lead sinkers.",
+          "reward_unlock": "Gifts Rowan a tin of river crickets bait."
+        },
+        {
+          "level": 4,
+          "title": "Night Hunt in Subterranean Lakes",
+          "description": "Invites Rowan into flooded cavern grottoes hunting blind luminescent trout.",
+          "reward_unlock": "Unlocks Fiberglass Rod & Advanced Angling Minigame."
+        },
+        {
+          "level": 6,
+          "title": "The Pawned Silver Compass",
+          "description": "Saves enough copper coins to redeem his grandfather's silver compass pawned for family medicine.",
+          "reward_unlock": "Gifts Luminous Night Bobber aiding nocturnal fishing."
+        },
+        {
+          "level": 8,
+          "title": "Dishes that Illuminate Caverns",
+          "description": "Delivers glowing deep-lake fish to Rowan to concoct Bioluminescent buff recipes.",
+          "reward_unlock": "Guaranteed Luminescent Fish Supply for night-vision cavern culinary dishes."
+        }
+      ]
     },
     {
       "id": "npc_elora",
@@ -1047,7 +1457,48 @@
       "schedule": "All day: Tending Sylva-Fae canopy silk greenhouse",
       "real_world_wound": "Joint tremor syndrome in her fingers after decades of nonstop needlework; fears losing her craft and disappointing beloved companions.",
       "comfort_dish": "tra_oai_huong_ngan_sao",
-      "heart_event_summary": "Weaves Expanded Adventurer Pouch (+12 slots) at 4 Hearts; tailors the Eternal Winter Gala Robe for Rowan using Thistle's silk at 8 Hearts."
+      "heart_event_summary": "Weaves Expanded Adventurer Pouch (+12 slots) at 4 Hearts; tailors the Eternal Winter Gala Robe for Rowan using Thistle's silk at 8 Hearts.",
+      "gift_preferences": {
+        "loved": [
+          "item_tea_oai_huong_ngan_sao",
+          "item_pastry_scone_berry",
+          "gem_sapphire"
+        ],
+        "liked": [
+          "dau_rung",
+          "mat_ong",
+          "banh_mi_lua_mi_gion",
+          "item_flour"
+        ],
+        "disliked": [
+          "ore_coal",
+          "thit_nuong_lua_dia_nguc"
+        ],
+        "hated": [
+          "ruou_trai_cay_len_men",
+          "drop_prism_jelly"
+        ]
+      },
+      "heart_events": [
+        {
+          "level": 2,
+          "title": "Trembling Needles",
+          "description": "Hand tremors disrupt her delicate stitching; Rowan brings soothing herbal tea and steadies the fabric.",
+          "reward_unlock": "Offers basic clothing mending and tailoring at modest rates."
+        },
+        {
+          "level": 4,
+          "title": "Sylva Expedition Satchel",
+          "description": "Tailors an expanded travel pack for Rowan using forest linen and treated buckskin.",
+          "reward_unlock": "Expands Inventory Satchel capacity (+12 mining slots)."
+        },
+        {
+          "level": 8,
+          "title": "The Ever-Warm Gala Cloak",
+          "description": "Her tremors cured by Sylvan's remedies, she weaves Thistle's Golden Silk into a masterpiece.",
+          "reward_unlock": "Gifts Eternal Frost-Resistant Gala Cloak (complete immunity to winter freeze)."
+        }
+      ]
     },
     {
       "id": "npc_sylvan",
@@ -1066,7 +1517,48 @@
       "schedule": "Afternoon & Evening: Patrolling Sylva-Fae ancient boughs",
       "real_world_wound": "Haunted by his inability to heal Mentor Fern blind eyes; constantly torments himself for lacking deeper botanical knowledge.",
       "comfort_dish": "tea_sylvan_night_infusion",
-      "heart_event_summary": "Opens Herbal Essential Oil Extractor to enhance dish buff stats at 4 Hearts; harvests rare Millennial Roots at 8 Hearts."
+      "heart_event_summary": "Opens Herbal Essential Oil Extractor to enhance dish buff stats at 4 Hearts; harvests rare Millennial Roots at 8 Hearts.",
+      "gift_preferences": {
+        "loved": [
+          "canh_thao_moc_bup_sen",
+          "tra_sen_bach_diep",
+          "seed_sen_tea"
+        ],
+        "liked": [
+          "item_tea_sen_an_than",
+          "mat_ong",
+          "drop_moon_berry",
+          "dau_rung"
+        ],
+        "disliked": [
+          "ore_coal",
+          "bit_tet_nuong_than_soi"
+        ],
+        "hated": [
+          "thit_nuong_lua_dia_nguc",
+          "ruou_trai_cay_len_men"
+        ]
+      },
+      "heart_events": [
+        {
+          "level": 2,
+          "title": "Withering Herb Cuttings",
+          "description": "His medicinal plot dries out from dropped water tables; Rowan digs an irrigation furrow from the brook.",
+          "reward_unlock": "Gifts botanical fertilizer boosting harvest yields by 10%."
+        },
+        {
+          "level": 4,
+          "title": "The Distillation Laboratory",
+          "description": "Assembles glassware retorts to extract culinary essential oils and spice concentrates.",
+          "reward_unlock": "Unlocks Essential Oils & Aromatics Extraction Station (+50% dish buff duration)."
+        },
+        {
+          "level": 8,
+          "title": "The Millennial Root Remedy",
+          "description": "Successfully harvests ancient roots curing Elora's tremors, forever grateful to Rowan.",
+          "reward_unlock": "Harvests Millennial Taproots for permanent stamina restoration remedies."
+        }
+      ]
     },
     {
       "id": "npc_marlo",
@@ -1085,7 +1577,60 @@
       "schedule": "07:00 - 17:00: Operating Oakhaven windmill grinding flour",
       "real_world_wound": "Supports 4 impoverished siblings back home; endures frozen nocturnal vigils in solitude.",
       "comfort_dish": "dish_spicy_ginger_stew",
-      "heart_event_summary": "Reduces wild beast fence breaches by 50% at 4 Hearts; guarantees absolute nighttime security for town and homestead at 8 Hearts."
+      "heart_event_summary": "Reduces wild beast fence breaches by 50% at 4 Hearts; guarantees absolute nighttime security for town and homestead at 8 Hearts.",
+      "gift_preferences": {
+        "loved": [
+          "com_nam_muoi_rung",
+          "thit_nuong_lua_dia_nguc",
+          "ore_iron"
+        ],
+        "liked": [
+          "banh_mi_lua_mi_gion",
+          "khoai_tay_nuong_bo_toi",
+          "ore_coal",
+          "dui_rung_hun_khoi_da_chien"
+        ],
+        "disliked": [
+          "item_tea_sen_an_than",
+          "salad_trai_cay_mua_ha"
+        ],
+        "hated": [
+          "ruou_trai_cay_len_men",
+          "drop_prism_jelly"
+        ]
+      },
+      "heart_events": [
+        {
+          "level": 2,
+          "title": "Shivering Night Watch",
+          "description": "Standing guard on sub-zero ramparts with an empty stomach, Marlo is warmed by Rowan's salted rice balls.",
+          "reward_unlock": "Reduces wild predator nuisance around farmstead fences by 10%."
+        },
+        {
+          "level": 4,
+          "title": "Prowling Beast Tracks",
+          "description": "Tracks mine badgers gnawing grain sacks; reinforces perimeter barriers alongside Rowan.",
+          "reward_unlock": "Night Patrol Security (reduces outdoor honor stand theft risks by 50%)."
+        },
+        {
+          "level": 6,
+          "title": "Letters from Younger Siblings",
+          "description": "Weeps behind watchtower walls upon reading that his 4 siblings attend school thanks to his sent pay.",
+          "reward_unlock": "Gifts Rowan Reinforced Veteran Leather Brigandine."
+        },
+        {
+          "level": 8,
+          "title": "Captain of the Night Guard",
+          "description": "Appointed Night Patrol Captain, securing peace for every hearth in Oakhaven.",
+          "reward_unlock": "100% immunity to theft across The Hearth and honor produce stands."
+        },
+        {
+          "level": 10,
+          "title": "Peace Behind the Village Gate",
+          "description": "Hands Rowan his brass sentry whistle, promising lifelong protection by the fireside.",
+          "reward_unlock": "Romantic Bond unlocked; Marlo moves in to protect the homestead."
+        }
+      ]
     },
     {
       "id": "npc_aurelia",
@@ -1103,7 +1648,60 @@
       "schedule": "Morning: Honeybee apiary; Afternoon: Delivering fresh honey to shop",
       "real_world_wound": "Disgusted by commercial medicine prioritizing nobles; struggles with poverty-driven medical shortages.",
       "comfort_dish": "tra_oai_huong_ngan_sao",
-      "heart_event_summary": "Brews Vitality Healing Broth to relieve chronic pain at 2 Hearts; supplies deep-wound salves and stamina tonics at 6 Hearts."
+      "heart_event_summary": "Brews Vitality Healing Broth to relieve chronic pain at 2 Hearts; supplies deep-wound salves and stamina tonics at 6 Hearts.",
+      "gift_preferences": {
+        "loved": [
+          "canh_thao_moc_bup_sen",
+          "tra_sen_bach_diep",
+          "gem_amethyst"
+        ],
+        "liked": [
+          "item_tea_sen_an_than",
+          "mat_ong",
+          "item_flour",
+          "dau_rung"
+        ],
+        "disliked": [
+          "bit_tet_nuong_than_soi",
+          "ore_coal"
+        ],
+        "hated": [
+          "thit_nuong_lua_dia_nguc",
+          "ruou_trai_cay_len_men"
+        ]
+      },
+      "heart_events": [
+        {
+          "level": 2,
+          "title": "Midnight Restorative Broth",
+          "description": "Grinding herbs late for destitute patients, exhausted from medical debt, she shares herbal tonics.",
+          "reward_unlock": "Prepares Restorative Broth soothing back fatigue and restoring stamina."
+        },
+        {
+          "level": 4,
+          "title": "Winter Frost Epidemic",
+          "description": "Distributes steaming eucalyptus infusions to poor households during biting freezes with Rowan.",
+          "reward_unlock": "Opens clinic dispensary selling burn balms and affordable stamina salves."
+        },
+        {
+          "level": 6,
+          "title": "Flight from the Capital",
+          "description": "Recounts fleeing Solaria's imperial infirmary after witnessing destitute patients turned away to die.",
+          "reward_unlock": "Gifts Field Medical Trauma Kit stemming bleeding inside dungeon shafts."
+        },
+        {
+          "level": 8,
+          "title": "Community Herbal Sanctuary",
+          "description": "Establishes a public medicinal garden at the clinic providing free tonics to the frontier.",
+          "reward_unlock": "50% discount on clinic healing and doubles potency of restorative broths."
+        },
+        {
+          "level": 10,
+          "title": "Warmth of Fragrant Herbs",
+          "description": "Exchanges a blessed herbal sachet by the hearth, pledging lifelong devotion and healing.",
+          "reward_unlock": "Romantic Bond unlocked; Aurelia moves into The Hearth's attic suite."
+        }
+      ]
     },
     {
       "id": "npc_valen",
@@ -1121,7 +1719,60 @@
       "schedule": "Daytime: Rests in his curtained upper chamber; Late afternoon: Sips fermented berry cordials downstairs; Midnight: Reads scholarly tomes and drafts diplomatic letters",
       "real_world_wound": "Ostracized by royal high society due to a chronic hereditary ailment, left isolated following political purges; craves being treated as an ordinary person rather than a morbid curiosity.",
       "comfort_dish": "ruou_trai_cay_len_men",
-      "heart_event_summary": "Places double-priced custom orders for restorative berry cordials at 4 Hearts; signs prestigious royal court trade charter at 8 Hearts."
+      "heart_event_summary": "Places double-priced custom orders for restorative berry cordials at 4 Hearts; signs prestigious royal court trade charter at 8 Hearts.",
+      "gift_preferences": {
+        "loved": [
+          "ruou_trai_cay_len_men",
+          "sup_cu_den_do_dai_ngan",
+          "gem_ruby"
+        ],
+        "liked": [
+          "drop_moon_berry",
+          "gem_amethyst",
+          "bo_ham_ruou_vang_mo",
+          "item_bread_brioche"
+        ],
+        "disliked": [
+          "khoai_tay_nuong_bo_toi",
+          "bap_xao_bo_cay"
+        ],
+        "hated": [
+          "ore_coal",
+          "thit_nuong_lua_dia_nguc"
+        ]
+      },
+      "heart_events": [
+        {
+          "level": 2,
+          "title": "Anemic Seizure in the Shaded Room",
+          "description": "Seized by chronic blood spasms in room 2, he is nursed with beetroot soup as Rowan draws velvet sun drapes.",
+          "reward_unlock": "Grants access to 2nd-floor VIP quarters of The Hearth."
+        },
+        {
+          "level": 4,
+          "title": "Midnight Feast Commissions",
+          "description": "Books a permanent VIP lodging contract, ordering nocturnal dessert platters at double gold payment.",
+          "reward_unlock": "Unlocks High-End Midnight Catering Orders paying 2x standard gold."
+        },
+        {
+          "level": 6,
+          "title": "Chilling Relapse",
+          "description": "Feverish from sudden cold snaps, Valen is stabilized by Rowan's warm herbal infusions.",
+          "reward_unlock": "Gifts Engraved Solarian Royal Silver Chalice."
+        },
+        {
+          "level": 8,
+          "title": "Pact of the Exiled Noble",
+          "description": "Deeply touched by Rowan's lack of prejudice, he bequeaths royal metallurgical manuscripts.",
+          "reward_unlock": "Solarian Ancient Codices & crafting formulas for frost-warding talismans."
+        },
+        {
+          "level": 10,
+          "title": "Montfort Bloodstone Signet",
+          "description": "Bestows the ancestral Montfort Bloodstone signet ring by the hearth, pledging eternal companionship.",
+          "reward_unlock": "Romantic Bond unlocked; Valen permanently joins Rowan's household."
+        }
+      ]
     },
     {
       "id": "npc_kassandra",
@@ -1139,7 +1790,48 @@
       "schedule": "Wandering through cloud layers and gathering starlight dew",
       "real_world_wound": "Exiled by the Solarian Mages Council for researching commoner folk magic; wanders across cloud realms with a broom running out of mana.",
       "comfort_dish": "tra_sen_an_than",
-      "heart_event_summary": "Opens Sky Express 2-hour inter-realm ingredient air delivery at 4 Hearts; gifts Rowan the Enchanted Flying Broom at 8 Hearts."
+      "heart_event_summary": "Opens Sky Express 2-hour inter-realm ingredient air delivery at 4 Hearts; gifts Rowan the Enchanted Flying Broom at 8 Hearts.",
+      "gift_preferences": {
+        "loved": [
+          "banh_tart_viet_quat_bui_sao",
+          "item_tea_dau_bang_tuyet",
+          "gem_ruby"
+        ],
+        "liked": [
+          "dau_rung",
+          "drop_moon_berry",
+          "mat_ong",
+          "item_bread_brioche"
+        ],
+        "disliked": [
+          "ore_coal",
+          "thit_nuong_lua_dia_nguc"
+        ],
+        "hated": [
+          "ruou_trai_cay_len_men",
+          "drop_prism_jelly"
+        ]
+      },
+      "heart_events": [
+        {
+          "level": 2,
+          "title": "Blizzard Forced Landing",
+          "description": "Her broom tail ices over and crashes on the hillside; Rowan kindles a fire and shares warm buns.",
+          "reward_unlock": "10% discount on urgent postal logistics."
+        },
+        {
+          "level": 4,
+          "title": "Sky Express Airfreight Route",
+          "description": "Inaugurates inter-realm flight pathways across mountain ranges.",
+          "reward_unlock": "Sky Express Service: Order regional specialty ingredients delivered within 2 hours."
+        },
+        {
+          "level": 8,
+          "title": "Personal Courier Broom for Rowan",
+          "description": "Customizes a high-velocity courier broom gifted to Rowan in deep appreciation.",
+          "reward_unlock": "Gifts Courier Flying Broom (+50% travel velocity across exterior maps)."
+        }
+      ]
     },
     {
       "id": "npc_chrono",
@@ -1157,7 +1849,42 @@
       "schedule": "Tending the perpetual clockwork waterwheels in Khaz-Drakor",
       "real_world_wound": "Ancient memory modules fragmented across millennia; fears the day mainspring unwinds forever and lost civilisation memories fade.",
       "comfort_dish": "khoai_tay_nuong_bo_toi",
-      "heart_event_summary": "Operates town bell to signal meal hours and displays buff countdown timers on HUD at 4 Hearts; bell resonance boosts tavern revenue by 20% at 8 Hearts."
+      "heart_event_summary": "Operates town bell to signal meal hours and displays buff countdown timers on HUD at 4 Hearts; bell resonance boosts tavern revenue by 20% at 8 Hearts.",
+      "gift_preferences": {
+        "loved": [
+          "drop_prism_jelly",
+          "gem_sapphire",
+          "ore_gold"
+        ],
+        "liked": [
+          "ore_iron",
+          "ore_copper",
+          "ore_coal",
+          "drop_crystal_sea_salt"
+        ],
+        "disliked": [
+          "item_flour",
+          "dau_rung"
+        ],
+        "hated": [
+          "thit_nuong_lua_dia_nguc",
+          "canh_chua_ca_suoi_cay"
+        ]
+      },
+      "heart_events": [
+        {
+          "level": 4,
+          "title": "Gears in Synchronized Motion",
+          "description": "Rowan lubricates the clocktower mechanism with purified grease, restoring ancient tick-tock cadence.",
+          "reward_unlock": "Displays exact Food Buff Countdown Timers on player HUD."
+        },
+        {
+          "level": 8,
+          "title": "Resonant Golden Chimes",
+          "description": "Chimes sound at noon and dusk, beckoning townsfolk into The Hearth for warm suppers.",
+          "reward_unlock": "Belfry chime increases daily diner tavern revenue by 20%."
+        }
+      ]
     },
     {
       "id": "npc_lapis",
@@ -1175,7 +1902,42 @@
       "schedule": "Swimming through misty highland springs and underground lakes",
       "real_world_wound": "Profound isolation in silent sea trenches and deep curiosity about terrestrial warmth; fears rejection as a sea-dweller.",
       "comfort_dish": "pastry_berry_shortcake",
-      "heart_event_summary": "Trades cloud lake crystal sea salts at 4 Hearts; supplies glowing pearls to craft poison-resistant jewelry at 8 Hearts."
+      "heart_event_summary": "Trades cloud lake crystal sea salts at 4 Hearts; supplies glowing pearls to craft poison-resistant jewelry at 8 Hearts.",
+      "gift_preferences": {
+        "loved": [
+          "drop_crystal_sea_salt",
+          "gem_sapphire",
+          "ca_suoi_nuong_muoi_ot"
+        ],
+        "liked": [
+          "gem_amethyst",
+          "drop_prism_jelly",
+          "drop_moon_berry",
+          "com_nam_muoi_rung"
+        ],
+        "disliked": [
+          "ore_coal",
+          "thit_nuong_lua_dia_nguc"
+        ],
+        "hated": [
+          "ruou_trai_cay_len_men",
+          "bit_tet_nuong_than_soi"
+        ]
+      },
+      "heart_events": [
+        {
+          "level": 4,
+          "title": "Guided by Subterranean Tides",
+          "description": "Swims through underground estuaries into Oakhaven's lake basin bringing pure crystalline sea salt.",
+          "reward_unlock": "Opens trade in Crystal Sea Salt and rare abyssal minerals."
+        },
+        {
+          "level": 8,
+          "title": "Pearls of the Silent Trench",
+          "description": "Bestows a millennial luminescent sea pearl gathered from glacial ocean trenches.",
+          "reward_unlock": "Supplies Luminescent Poison-Warding Pearls for deep dungeon expedition amulets."
+        }
+      ]
     },
     {
       "id": "npc_thorne",
@@ -1198,21 +1960,22 @@
       "gift_preferences": {
         "loved": [
           "dui_rung_hun_khoi_da_chien",
-          "bit_tet_nuong_than_soi",
+          "bo_ham_ruou_vang_mo",
           "ore_gold"
         ],
         "liked": [
-          "thit_xong_khoi_cui_go_soi",
           "ore_iron",
-          "bo_ham_ruou_vang_mo"
+          "ore_coal",
+          "com_nam_muoi_rung",
+          "banh_mi_lua_mi_gion"
         ],
         "disliked": [
-          "banh_cau_vong_4_mua",
-          "nuoc_mia_ep_gung_am"
+          "banh_tart_viet_quat_bui_sao",
+          "dau_rung"
         ],
         "hated": [
-          "bot_sao",
-          "banh_deo_trang_ram_hoa_buoi"
+          "item_pastry_scone_berry",
+          "drop_prism_jelly"
         ]
       },
       "schedules": {
@@ -1262,7 +2025,33 @@
             }
           ]
         }
-      }
+      },
+      "heart_events": [
+        {
+          "level": 2,
+          "title": "Snapped Wooden Peg",
+          "description": "His peg leg pin snaps at the minehead; Rowan carries him to the guildhall and carves a sturdy oak pin.",
+          "reward_unlock": "10% discount on all Adventurer Guild services."
+        },
+        {
+          "level": 4,
+          "title": "Dungeon Expedition Charts",
+          "description": "Presents charts of the 150-floor labyrinth, detailing abyssal horrors in lower chambers.",
+          "reward_unlock": "Unlocks Monster Bounty Board & Clearance Seals for upper biomes."
+        },
+        {
+          "level": 6,
+          "title": "Eighteen Incense Sticks in the Rain",
+          "description": "Stands mourning his 18 fallen vanguard comrades; Rowan quietly shares smoked rations and warm wine.",
+          "reward_unlock": "Gifts Antique Guild Commander's Trophy."
+        },
+        {
+          "level": 8,
+          "title": "Seal of the Infinite Abyss",
+          "description": "Bestows his command blade, trusting Rowan has the mettle to face the infinite deep.",
+          "reward_unlock": "Grants Infinite Abyss License (Floors 151+) & Express Boss Elevator Pass."
+        }
+      ]
     },
     {
       "id": "npc_valerie",
@@ -1284,21 +2073,22 @@
       "heart_event_summary": "Opens the Town Buyback Counter for items accidentally sold to merchants within 3 days at 4 Hearts; recovers misplaced essential tools dropped on the surface at 8 Hearts.",
       "gift_preferences": {
         "loved": [
-          "sup_cu_den_do_dai_ngan",
-          "tra_sen_bach_diep",
-          "oai_huong"
+          "item_dish_wild_forest_mushroom_soup",
+          "gem_amethyst",
+          "item_tea_sen_an_than"
         ],
         "liked": [
+          "item_flour",
+          "dau_rung",
           "banh_mi_lua_mi_gion",
-          "salad_trai_cay_mua_ha",
-          "da_tinh_the"
+          "mat_ong"
         ],
         "disliked": [
-          "thit_nuong_lua_dia_nguc",
-          "lau_ca_cay_ham_nguc"
+          "ore_coal",
+          "thit_nuong_lua_dia_nguc"
         ],
         "hated": [
-          "ore_coal",
+          "ruou_trai_cay_len_men",
           "drop_prism_jelly"
         ]
       },
@@ -1339,7 +2129,39 @@
             }
           ]
         }
-      }
+      },
+      "heart_events": [
+        {
+          "level": 2,
+          "title": "Thunder Claps & Dropped Files",
+          "description": "Startled into panic by thunder, she drops her ledger; Rowan shields her and gathers the papers.",
+          "reward_unlock": "Gifts Rowan an antique birchwood shortbow."
+        },
+        {
+          "level": 4,
+          "title": "Town Lost & Found Registry",
+          "description": "Organizes misplaced village goods sold mistakenly to shops during daily rush hours.",
+          "reward_unlock": "Unlocks Buyback Shop allowing retrieval of accidentally sold items on that day."
+        },
+        {
+          "level": 6,
+          "title": "Reading Lips in the Winter Chill",
+          "description": "With ear trauma worsening in cold drafts, she receives fleece earmuffs hand-knit by Rowan.",
+          "reward_unlock": "Gifts Foraging Radar Map for surface dropped goods."
+        },
+        {
+          "level": 8,
+          "title": "Reclaiming Archer's Composure",
+          "description": "Overcomes noise trauma from artillery concussions, finding purpose at her station.",
+          "reward_unlock": "Unlocks Surface Lost Tool Recovery Service (for dropped pickaxes, axes, hoes)."
+        },
+        {
+          "level": 10,
+          "title": "Silver Bowstring Ribbon",
+          "description": "Ties a silver bowstring ribbon onto Rowan's wrist by the stream, pledging lifelong fidelity.",
+          "reward_unlock": "Romantic Bond unlocked; Valerie moves into The Hearth's attic suite."
+        }
+      ]
     },
     {
       "id": "npc_elder_oak",
@@ -1361,21 +2183,22 @@
       "heart_event_summary": "Oversees the 12-Project Town Board restoration; honors Rowan with the Valley Pioneer Monument at 8 Hearts.",
       "gift_preferences": {
         "loved": [
-          "tea_whisper_hearth",
-          "banh_pie_tao_que_lo_dat",
-          "ore_gold"
+          "item_bread_brioche",
+          "item_tea_sen_an_than",
+          "item_wood_oak"
         ],
         "liked": [
+          "item_dish_sweet_pumpkin_potage",
           "mat_ong",
           "banh_mi_lua_mi_gion",
-          "la_tra_sen"
+          "com_nam_muoi_rung"
         ],
         "disliked": [
-          "lau_ca_cay_ham_nguc",
-          "nuoc_ep_dua_luoi_bang_gia"
+          "thit_nuong_lua_dia_nguc",
+          "bap_xao_bo_cay"
         ],
         "hated": [
-          "ore_coal",
+          "ruou_trai_cay_len_men",
           "drop_prism_jelly"
         ]
       },
@@ -1411,7 +2234,21 @@
             }
           ]
         }
-      }
+      },
+      "heart_events": [
+        {
+          "level": 4,
+          "title": "Town Reconstruction Blueprints",
+          "description": "Surveys war-damaged riverside mills and roads with Rowan to map rebuilding priorities.",
+          "reward_unlock": "Unlocks Oakhaven Town Board Reconstruction Projects (12 public restoration feats)."
+        },
+        {
+          "level": 8,
+          "title": "Passing the Mantle of Stewardship",
+          "description": "Yields autocratic burden to establish an elected Town Council for self-governance.",
+          "reward_unlock": "Fully completes all 12 public community restoration works."
+        }
+      ]
     },
     {
       "id": "npc_cedar",
@@ -1433,22 +2270,23 @@
       "heart_event_summary": "Expands Eatery dining floor at 2 Hearts; rebuilds the Ancient Wooden Bridge connecting to the deep forest at 6 Hearts.",
       "gift_preferences": {
         "loved": [
-          "dish_sweet_pumpkin_potage",
+          "sup_nam_sao_am_bung",
           "mat_ong",
-          "banh_cau_vong_4_mua"
+          "item_wood_oak"
         ],
         "liked": [
-          "dau_rung",
-          "khoai_tay_nuong_bo_toi",
-          "item_butter"
+          "item_wood_pine",
+          "banh_mi_lua_mi_gion",
+          "ore_iron",
+          "item_stone_brick"
         ],
         "disliked": [
-          "ruou_trai_cay_len_men",
-          "ore_coal"
+          "thit_nuong_lua_dia_nguc",
+          "canh_chua_ca_suoi_cay"
         ],
         "hated": [
-          "bot_sao",
-          "drop_crystal_sea_salt"
+          "drop_prism_jelly",
+          "ruou_trai_cay_len_men"
         ]
       },
       "schedules": {
@@ -1483,7 +2321,33 @@
             }
           ]
         }
-      }
+      },
+      "heart_events": [
+        {
+          "level": 2,
+          "title": "Splinter in the Claws",
+          "description": "A massive pine splinter lodges in his paw while hewing rafters; Rowan pulls it and applies salve.",
+          "reward_unlock": "Reduces lumber requirements for buildings by 10%."
+        },
+        {
+          "level": 4,
+          "title": "Framing the New Kitchen",
+          "description": "Handsaws fresh pine beams to craft expanding dining benches for The Hearth.",
+          "reward_unlock": "Unlocks Tavern Kitchen Upgrades & Dining Expansion service."
+        },
+        {
+          "level": 6,
+          "title": "Pain of the Exiled Bear",
+          "description": "Shares the sorrow of being cast out of northern bear clans for refusing to wield slaughter axes in war.",
+          "reward_unlock": "Gifts Ancient Carving Adze heirloom."
+        },
+        {
+          "level": 8,
+          "title": "The Old Timber Bridge to Whispering Woods",
+          "description": "Fells fallen pines with Rowan to rebuild the Great Wooden Bridge crossing into Whispering Woods.",
+          "reward_unlock": "Unlocks walking shortcut to Deep Woods and Advanced Carpentry Workshop."
+        }
+      ]
     },
     {
       "id": "npc_wren",
@@ -1505,22 +2369,23 @@
       "heart_event_summary": "Performs acoustic mandolin at the eatery; unlocks Tavern Music Box at 4 Hearts and Grand Concert boosting patron joy at 8 Hearts.",
       "gift_preferences": {
         "loved": [
-          "pastry_scone_berry",
-          "tart_dau_tuyet_lanh",
-          "da_tinh_the"
+          "item_pastry_scone_berry",
+          "item_tea_dau_bang_tuyet",
+          "mat_ong"
         ],
         "liked": [
           "dau_rung",
-          "mat_ong",
-          "banh_quy_gung_giu_am"
+          "item_bread_brioche",
+          "banh_xop_dau_rung",
+          "drop_moon_berry"
         ],
         "disliked": [
-          "thit_nuong_lua_dia_nguc",
-          "ore_coal"
+          "ore_coal",
+          "thit_nuong_lua_dia_nguc"
         ],
         "hated": [
-          "bit_tet_nuong_than_soi",
-          "lau_ca_cay_ham_nguc"
+          "ruou_trai_cay_len_men",
+          "drop_prism_jelly"
         ]
       },
       "schedules": {
@@ -1555,7 +2420,21 @@
             }
           ]
         }
-      }
+      },
+      "heart_events": [
+        {
+          "level": 4,
+          "title": "Corner Mandolin Melodies",
+          "description": "Overcoming stage fright, Wren strums soothing mandolin ballads in the cozy tavern corner.",
+          "reward_unlock": "Gifts Tavern Melody Music Box (+15% diner satisfaction buff)."
+        },
+        {
+          "level": 8,
+          "title": "Ballad of the Winter Hearth",
+          "description": "Performs original ballad 'Lullaby of Oakhaven' dispelling the biting frost of deep winter.",
+          "reward_unlock": "Regular Friday evening performances boosting diner visits and revenue by 20%."
+        }
+      ]
     },
     {
       "id": "npc_hazel",
@@ -1578,21 +2457,22 @@
       "gift_preferences": {
         "loved": [
           "sua_bo_nong_mat_ong",
-          "banh_pie_tao_que_lo_dat",
-          "bap_xao_bo_cay"
+          "banh_mi_lua_mi_gion",
+          "item_butter"
         ],
         "liked": [
-          "khoai_tay_nuong_bo_toi",
-          "seed_silver_wheat",
-          "dau_rung"
+          "item_flour",
+          "dau_rung",
+          "chao_yen_mach_mat_ong",
+          "mat_ong"
         ],
         "disliked": [
-          "ruou_trai_cay_len_men",
+          "thit_xong_khoi_cui_go_soi",
           "ore_coal"
         ],
         "hated": [
           "drop_prism_jelly",
-          "bot_sao"
+          "thit_nuong_lua_dia_nguc"
         ]
       },
       "schedules": {
@@ -1627,7 +2507,33 @@
             }
           ]
         }
-      }
+      },
+      "heart_events": [
+        {
+          "level": 2,
+          "title": "The Chilled Milk Cow",
+          "description": "Stays up all night keeping a sick dairy cow warm; Rowan arrives with warm bran mash.",
+          "reward_unlock": "Sells fresh farm milk and eggs every morning."
+        },
+        {
+          "level": 4,
+          "title": "Inaugurating the Livestock Barns",
+          "description": "Repairs paddock fences, welcoming the valley's first healthy herd in years.",
+          "reward_unlock": "Sells calves, lambs, chicks, and four-season livestock feed."
+        },
+        {
+          "level": 6,
+          "title": "A Heart Betrayed",
+          "description": "Confides how her former partner absconded with their life savings with a capital trade caravan.",
+          "reward_unlock": "Gifts Heirloom Probiotic Milk Fermentation Keg."
+        },
+        {
+          "level": 8,
+          "title": "Valley Dairy Cooperative",
+          "description": "Unites with neighbors to establish a sustainable livestock cooperative for Oakhaven.",
+          "reward_unlock": "Gifts Farmstead Artisanal Cheese Press & Butter Churn."
+        }
+      ]
     },
     {
       "id": "npc_bramble",
@@ -1651,20 +2557,21 @@
         "loved": [
           "chao_yen_mach_mat_ong",
           "ore_gold",
-          "gem_sapphire"
+          "gem_ruby"
         ],
         "liked": [
-          "da_tinh_the",
-          "mat_ong",
+          "ore_iron",
+          "ore_copper",
+          "item_wood_pine",
           "banh_mi_lua_mi_gion"
         ],
         "disliked": [
-          "canh_thao_moc_bup_sen",
-          "tra_sen_an_than"
+          "dau_rung",
+          "item_tea_sen_an_than"
         ],
         "hated": [
-          "ore_coal",
-          "drop_prism_jelly"
+          "drop_prism_jelly",
+          "thit_nuong_lua_dia_nguc"
         ]
       },
       "schedules": {
@@ -1699,7 +2606,33 @@
             }
           ]
         }
-      }
+      },
+      "heart_events": [
+        {
+          "level": 2,
+          "title": "Stoned Out of the Square",
+          "description": "Chased with stones due to goblin stereotypes; Rowan welcomes him inside for hot oatmeal.",
+          "reward_unlock": "10% discount at his Treasure Jar stall."
+        },
+        {
+          "level": 4,
+          "title": "The Treasure Jar Stall",
+          "description": "Sets up a curious trinket stall on the tavern porch selling rare finds from distant realms.",
+          "reward_unlock": "Opens general trading for imported rare seed packets."
+        },
+        {
+          "level": 6,
+          "title": "The Outcast's Conscience",
+          "description": "Confesses he was expelled from Solaria's trade cartel for whistleblowing on counterfeit medicine shipments.",
+          "reward_unlock": "Gifts Precision Brass Jeweler's Balance."
+        },
+        {
+          "level": 8,
+          "title": "VIP Saturday Night Market",
+          "description": "Launches the Saturday Night Bazaar bringing fair contraband and specialty wares to Oakhaven.",
+          "reward_unlock": "Unlocks VIP Saturday Night Market with exotic masterwork tools and ores."
+        }
+      ]
     },
     {
       "id": "npc_rosemary",
@@ -1722,21 +2655,22 @@
       "gift_preferences": {
         "loved": [
           "tra_sen_bach_diep",
-          "seed_sen_tea",
-          "seed_star_lavender"
+          "xoi_hat_sen_nuoc_cot_dua",
+          "gem_amethyst"
         ],
         "liked": [
+          "item_tea_sen_an_than",
+          "mat_ong",
           "dau_rung",
-          "oai_huong",
-          "mat_ong"
+          "item_wood_oak"
         ],
         "disliked": [
           "thit_nuong_lua_dia_nguc",
-          "bit_tet_nuong_than_soi"
+          "ore_coal"
         ],
         "hated": [
-          "ore_coal",
-          "lap_xuong_tieu_den_mo_da"
+          "ruou_trai_cay_len_men",
+          "drop_prism_jelly"
         ]
       },
       "schedules": {
@@ -1771,7 +2705,33 @@
             }
           ]
         }
-      }
+      },
+      "heart_events": [
+        {
+          "level": 2,
+          "title": "Hands Uprooting Toxic Brambles",
+          "description": "Bleeding as she pulls miasma-corrupted thorns around the shrine, she is bandaged with warm lotus tea.",
+          "reward_unlock": "Gifts Holy Herb Sprigs mitigating toxic mine gases."
+        },
+        {
+          "level": 4,
+          "title": "Cracks on the Ancient Altar",
+          "description": "Points out battle scars along the stone altar etched by ancient chemical fires.",
+          "reward_unlock": "Unlocks Purification Herbal Water recipe."
+        },
+        {
+          "level": 6,
+          "title": "Graveyard of the Unnamed",
+          "description": "Reveals that Oakhaven's valley was once a forgotten battlefield holding thousands of fallen soldiers.",
+          "reward_unlock": "Gifts Purifying Bronze Chime repelling vengeful wraiths."
+        },
+        {
+          "level": 8,
+          "title": "Grand Memorial Soul Banquet",
+          "description": "Prepares the five-dish Memorial Banquet with Rowan, cleansing lingering miasma from the earth forever.",
+          "reward_unlock": "Ancient Memorial Altar fully purified; unlocks reclaimed wilderness soils."
+        }
+      ]
     },
     {
       "id": "npc_tilly",
@@ -1795,16 +2755,17 @@
         "loved": [
           "banh_cau_vong_4_mua",
           "sua_bo_nong_mat_ong",
-          "tart_dau_tuyet_lanh"
+          "dau_rung"
         ],
         "liked": [
-          "dau_rung",
           "mat_ong",
-          "item_sugar"
+          "item_pastry_scone_berry",
+          "banh_xop_dau_rung",
+          "drop_moon_berry"
         ],
         "disliked": [
-          "canh_thao_moc_bup_sen",
-          "ore_coal"
+          "ore_coal",
+          "thit_nuong_lua_dia_nguc"
         ],
         "hated": [
           "ruou_trai_cay_len_men",
@@ -1843,7 +2804,27 @@
             }
           ]
         }
-      }
+      },
+      "heart_events": [
+        {
+          "level": 2,
+          "title": "The Lamb with the Torn Ear",
+          "description": "Weeps searching for a lost lamb caught in thorn bushes; Rowan frees the animal unharmed.",
+          "reward_unlock": "Tilly gifts a bundle of ultra-soft virgin fleece."
+        },
+        {
+          "level": 4,
+          "title": "Berry-Dyed Fleece Experiments",
+          "description": "Boils wild berry skins to dye wool soft pink and lavender alongside Rowan.",
+          "reward_unlock": "Opens raw wool and natural spun yarn counter."
+        },
+        {
+          "level": 8,
+          "title": "Overcoming the Midnight Marsh",
+          "description": "Conquers her fear of the dark, herding the flock safely across misty marshlands alone.",
+          "reward_unlock": "Unlocks Rainbow Wool Dye Works (crafts tavern table linens boosting tip buffs)."
+        }
+      ]
     },
     {
       "id": "npc_grimhild",
@@ -1865,22 +2846,23 @@
       "heart_event_summary": "Teaches heavy alloy casting at 6 Hearts; unlocks legendary Mithril weapons and armor smithing at 8 Hearts.",
       "gift_preferences": {
         "loved": [
-          "dish_dwarf_ironforge_goulash",
-          "banh_pie_tao_que_lo_dat",
-          "ore_gold"
+          "bo_ham_ruou_vang_mo",
+          "ore_gold",
+          "gem_ruby"
         ],
         "liked": [
           "ore_iron",
-          "ore_copper",
-          "banh_mi_den_dai_han"
+          "ore_coal",
+          "bit_tet_nuong_than_soi",
+          "banh_mi_lua_mi_gion"
         ],
         "disliked": [
-          "salad_trai_cay_mua_ha",
-          "nuoc_ep_dua_luoi_bang_gia"
+          "banh_tart_viet_quat_bui_sao",
+          "dau_rung"
         ],
         "hated": [
-          "drop_crystal_sea_salt",
-          "bot_sao"
+          "item_tea_sen_an_than",
+          "drop_prism_jelly"
         ]
       },
       "schedules": {
@@ -1915,7 +2897,21 @@
             }
           ]
         }
-      }
+      },
+      "heart_events": [
+        {
+          "level": 4,
+          "title": "Fires of Khaz-Drakor",
+          "description": "Stokes mountain royal blast furnaces, teaching Rowan how to maintain intense metallurgical heat.",
+          "reward_unlock": "Supplies heavy alloy ingots for heat-resistant combat gear."
+        },
+        {
+          "level": 8,
+          "title": "Forgiveness After 15 Years",
+          "description": "Makes peace with the departure of sons Boris and Bram, passing down royal smithing techniques.",
+          "reward_unlock": "Transfers Ancient Mithril Alloy Equipment crafting knowledge."
+        }
+      ]
     },
     {
       "id": "npc_cogsworth",
@@ -1938,20 +2934,21 @@
       "gift_preferences": {
         "loved": [
           "khoai_tay_nuong_bo_toi",
-          "da_tinh_the",
-          "gem_amethyst"
+          "drop_prism_jelly",
+          "ore_iron"
         ],
         "liked": [
-          "ore_iron",
           "ore_copper",
-          "ore_coal"
+          "ore_coal",
+          "item_wood_pine",
+          "banh_mi_lua_mi_gion"
         ],
         "disliked": [
-          "banh_deo_trang_ram_hoa_buoi",
-          "sua_bo_nong_mat_ong"
+          "item_flour",
+          "dau_rung"
         ],
         "hated": [
-          "drop_golden_pollen",
+          "thit_nuong_lua_dia_nguc",
           "ruou_trai_cay_len_men"
         ]
       },
@@ -1987,7 +2984,21 @@
             }
           ]
         }
-      }
+      },
+      "heart_events": [
+        {
+          "level": 4,
+          "title": "Automated Hydraulic Sprinklers",
+          "description": "Assembles copper pressure valves to automate crop irrigation without stamina cost.",
+          "reward_unlock": "Crafts Automated Irrigation Sprinkler Network for the farmstead."
+        },
+        {
+          "level": 8,
+          "title": "Restoring the Minecart Rails",
+          "description": "Welds severed tracks and sparks an antique steam locomotive connecting key nodes.",
+          "reward_unlock": "Unlocks Minecart Express Network for rapid transit across valley biomes."
+        }
+      ]
     },
     {
       "id": "npc_ember",
@@ -2010,21 +3021,22 @@
       "gift_preferences": {
         "loved": [
           "thit_nuong_lua_dia_nguc",
-          "bit_tet_nuong_than_soi",
-          "drop_crystal_sea_salt"
-        ],
-        "liked": [
           "bap_xao_bo_cay",
-          "ca_suoi_nuong_muoi_ot",
           "ore_coal"
         ],
+        "liked": [
+          "dui_rung_hun_khoi_da_chien",
+          "bit_tet_nuong_than_soi",
+          "ore_iron",
+          "com_nam_muoi_rung"
+        ],
         "disliked": [
-          "nuoc_ep_dua_luoi_bang_gia",
-          "tart_dau_tuyet_lanh"
+          "item_tea_sen_an_than",
+          "salad_trai_cay_mua_ha"
         ],
         "hated": [
-          "tra_dau_bang_tuyet",
-          "tra_sen_an_than"
+          "drop_crystal_sea_salt",
+          "drop_prism_jelly"
         ]
       },
       "schedules": {
@@ -2059,7 +3071,21 @@
             }
           ]
         }
-      }
+      },
+      "heart_events": [
+        {
+          "level": 4,
+          "title": "Fiery Volcanic Spices",
+          "description": "Cooks over open embers with Rowan, sharing secrets of fermenting subterranean volcanic chili.",
+          "reward_unlock": "Supplies Volcanic Spices granting +20% Critical Strike Damage buffs."
+        },
+        {
+          "level": 8,
+          "title": "The Extreme Magma Stove",
+          "description": "Transfers his extreme-heat volcanic stone griddle to The Hearth's tavern kitchen.",
+          "reward_unlock": "Unlocks Extreme Magma Grilling Station at The Hearth."
+        }
+      ]
     },
     {
       "id": "npc_thistle",
@@ -2081,22 +3107,23 @@
       "heart_event_summary": "Patrols canopy boughs at night; gathers Luminescent Silk at 4 Hearts and Golden Silks for seamstress Elora at 8 Hearts.",
       "gift_preferences": {
         "loved": [
-          "tra_oai_huong_ngan_sao",
-          "drop_golden_pollen",
-          "seed_star_lavender"
+          "item_tea_oai_huong_ngan_sao",
+          "drop_moon_berry",
+          "gem_amethyst"
         ],
         "liked": [
-          "oai_huong",
           "dau_rung",
-          "mat_ong"
+          "mat_ong",
+          "banh_xop_dau_rung",
+          "item_pastry_scone_berry"
         ],
         "disliked": [
-          "thit_nuong_lua_dia_nguc",
-          "ore_coal"
+          "ore_coal",
+          "thit_nuong_lua_dia_nguc"
         ],
         "hated": [
-          "bit_tet_nuong_than_soi",
-          "ruou_trai_cay_len_men"
+          "ruou_trai_cay_len_men",
+          "bit_tet_nuong_than_soi"
         ]
       },
       "schedules": {
@@ -2131,7 +3158,21 @@
             }
           ]
         }
-      }
+      },
+      "heart_events": [
+        {
+          "level": 4,
+          "title": "Harvest Beneath the Amber Moon",
+          "description": "Scales giant Sylva canopies under the moon, harvesting rare luminescent cocoons.",
+          "reward_unlock": "Supplies Luminescent Silk for frost-resistant adventuring attire."
+        },
+        {
+          "level": 8,
+          "title": "The Millennial Blossom",
+          "description": "Captures pure moonlight on ancient canopy crowns, gathering royal golden silk threads.",
+          "reward_unlock": "Supplies Golden Silk for cloaks granting complete status debuff immunity."
+        }
+      ]
     },
     {
       "id": "npc_fern",
@@ -2155,20 +3196,21 @@
         "loved": [
           "canh_thao_moc_bup_sen",
           "tra_sen_bach_diep",
-          "seed_sen_tea"
+          "gem_amethyst"
         ],
         "liked": [
-          "la_tra_sen",
-          "oai_huong",
-          "mat_ong"
+          "item_tea_sen_an_than",
+          "seed_sen_tea",
+          "mat_ong",
+          "item_wood_oak"
         ],
         "disliked": [
-          "thit_nuong_lua_dia_nguc",
-          "bit_tet_nuong_than_soi"
+          "ore_coal",
+          "thit_nuong_lua_dia_nguc"
         ],
         "hated": [
-          "ore_coal",
-          "lap_xuong_tieu_den_mo_da"
+          "ruou_trai_cay_len_men",
+          "drop_prism_jelly"
         ]
       },
       "schedules": {
@@ -2203,7 +3245,21 @@
             }
           ]
         }
-      }
+      },
+      "heart_events": [
+        {
+          "level": 6,
+          "title": "Resurgence of the Root Network",
+          "description": "Touches subterranean root fibers with sightless hands, sensing clean aquifers reviving below.",
+          "reward_unlock": "Teaches Ancient Herbarium formulas healing deep trauma."
+        },
+        {
+          "level": 8,
+          "title": "Purification Rite of Ancestral Soil",
+          "description": "Directs Rowan through the final rites banishing chemical war blight forever.",
+          "reward_unlock": "Permanently boosts all Oakhaven crop yields by 25% across the valley."
+        }
+      ]
     },
     {
       "id": "npc_valerius",
@@ -2230,17 +3286,18 @@
           "ore_gold"
         ],
         "liked": [
+          "ore_iron",
           "banh_mi_lua_mi_gion",
-          "ruou_trai_cay_len_men",
-          "ore_iron"
+          "khoai_tay_nuong_bo_toi",
+          "item_wood_oak"
         ],
         "disliked": [
-          "banh_cau_vong_4_mua",
-          "sua_bo_nong_mat_ong"
+          "banh_tart_viet_quat_bui_sao",
+          "dau_rung"
         ],
         "hated": [
-          "bot_sao",
-          "banh_deo_trang_ram_hoa_buoi"
+          "ruou_trai_cay_len_men",
+          "drop_prism_jelly"
         ]
       },
       "schedules": {
@@ -2275,7 +3332,33 @@
             }
           ]
         }
-      }
+      },
+      "heart_events": [
+        {
+          "level": 2,
+          "title": "Stances Amid the Blizzard",
+          "description": "Training sword forms in freezing gale passes; Rowan brings steaming beef goulash to warm his hands.",
+          "reward_unlock": "Opens path to Mountain Pass Dojo (Surface)."
+        },
+        {
+          "level": 4,
+          "title": "Surface Mountain Pass Dojo",
+          "description": "Assesses Rowan's pickaxe and shortsword footing, training disciplined defensive guards.",
+          "reward_unlock": "Trains combat Parry and Quick Dodge combat mechanics."
+        },
+        {
+          "level": 6,
+          "title": "Torn Bounty Posters",
+          "description": "Bitterly recalls his former subordinate Hester who vanished after false treason charges in Solaria.",
+          "reward_unlock": "Gifts Knight Gauntlets boosting melee swing speed by 10%."
+        },
+        {
+          "level": 8,
+          "title": "Master Parry Mastery",
+          "description": "Reconciles with Hester at The Hearth; imparts master combat techniques to Rowan.",
+          "reward_unlock": "Master Parry (widens parry window and grants +20% stamina recovery upon successful deflection)."
+        }
+      ]
     },
     {
       "id": "npc_morrigan",
@@ -2297,22 +3380,23 @@
       "heart_event_summary": "Concocts weapon-coating monster toxins at 4 Hearts; unlocks Critical Strike Elixir and Miasma Antidote at 8 Hearts.",
       "gift_preferences": {
         "loved": [
-          "tea_frostmint_breeze",
-          "da_tinh_the",
-          "dau_rung"
+          "tra_bac_ha_suong_gia",
+          "gem_amethyst",
+          "drop_prism_jelly"
         ],
         "liked": [
-          "mat_ong",
-          "oai_huong",
-          "item_wild_mushroom"
+          "dau_rung",
+          "drop_moon_berry",
+          "ore_coal",
+          "gem_ruby"
         ],
         "disliked": [
-          "banh_cau_vong_4_mua",
-          "thit_nuong_lua_dia_nguc"
+          "item_bread_brioche",
+          "banh_tart_viet_quat_bui_sao"
         ],
         "hated": [
-          "ore_coal",
-          "bit_tet_nuong_than_soi"
+          "ruou_trai_cay_len_men",
+          "mat_ong"
         ]
       },
       "schedules": {
@@ -2347,7 +3431,33 @@
             }
           ]
         }
-      }
+      },
+      "heart_events": [
+        {
+          "level": 2,
+          "title": "Mending a Raven's Wing",
+          "description": "Found splinting a raven in briar marshes; Rowan steadies the bird while she binds the feathers.",
+          "reward_unlock": "Gifts Luminous Powder warding off swamp predators."
+        },
+        {
+          "level": 4,
+          "title": "Deep Mine Poison Alchemy",
+          "description": "Formulates fungal venom to crack chitin carapaces of deep-shaft monstrosities.",
+          "reward_unlock": "Unlocks Weapon Poison Coating Table (adds damage-over-time poison to weapons)."
+        },
+        {
+          "level": 6,
+          "title": "Miasma Fungal Poisoning",
+          "description": "Afflicted by spores while foraging; Rowan rushes remedies and mint tea to break the fever.",
+          "reward_unlock": "Gifts Insulated Vacuum Flask resisting poison saturation."
+        },
+        {
+          "level": 8,
+          "title": "Elixirs of Devastation",
+          "description": "Transfers secret alchemical arts distilled from apex dungeon beast venoms.",
+          "reward_unlock": "Unlocks Critical Strike Potions & Instant Miasma Antidote formulas."
+        }
+      ]
     },
     {
       "id": "npc_iris",
@@ -2369,22 +3479,23 @@
       "heart_event_summary": "Opens Deep Mine Relic Appraisal service at 4 Hearts; completes the Valley Historical Museum at 8 Hearts.",
       "gift_preferences": {
         "loved": [
-          "tea_earl_grey_clara",
-          "banh_quy_gung_giu_am",
-          "tra_sen_bach_diep"
+          "tra_sen_bach_diep",
+          "item_bread_brioche",
+          "gem_amethyst"
         ],
         "liked": [
+          "dau_rung",
           "mat_ong",
-          "banh_mi_lua_mi_gion",
-          "la_tra_sen"
+          "gem_sapphire",
+          "banh_quy_gung_giu_am"
         ],
         "disliked": [
-          "thit_nuong_lua_dia_nguc",
-          "ore_coal"
+          "ore_coal",
+          "thit_nuong_lua_dia_nguc"
         ],
         "hated": [
-          "bit_tet_nuong_than_soi",
-          "lau_ca_cay_ham_nguc"
+          "ruou_trai_cay_len_men",
+          "drop_prism_jelly"
         ]
       },
       "schedules": {
@@ -2419,7 +3530,21 @@
             }
           ]
         }
-      }
+      },
+      "heart_events": [
+        {
+          "level": 4,
+          "title": "Deep Cavern Relic Compendium",
+          "description": "Appraises terracotta shards and ore specimens excavated from subterranean depths.",
+          "reward_unlock": "Unlocks Relic Appraisal & Mineral Encyclopedia archives."
+        },
+        {
+          "level": 8,
+          "title": "Oakhaven History Museum",
+          "description": "Completes the historical chronicles of the valley, opening a public heritage wing.",
+          "reward_unlock": "Inaugurates Oakhaven Museum (donating full sets yields permanent stat bonuses)."
+        }
+      ]
     },
     {
       "id": "npc_solace",
@@ -2441,22 +3566,23 @@
       "heart_event_summary": "Recovers ancient primordial memories; permanently unseals the Aethelgard Skygate linking all 5 realms at 8 Hearts.",
       "gift_preferences": {
         "loved": [
-          "tra_sen_an_than",
           "tra_sen_bach_diep",
-          "da_tinh_the"
+          "xoi_hat_sen_nuoc_cot_dua",
+          "drop_prism_jelly"
         ],
         "liked": [
+          "drop_moon_berry",
           "gem_sapphire",
-          "gem_amethyst",
-          "drop_golden_pollen"
+          "item_tea_sen_an_than",
+          "mat_ong"
         ],
         "disliked": [
           "thit_nuong_lua_dia_nguc",
           "ore_coal"
         ],
         "hated": [
-          "bit_tet_nuong_than_soi",
-          "ruou_trai_cay_len_men"
+          "ruou_trai_cay_len_men",
+          "bit_tet_nuong_than_soi"
         ]
       },
       "schedules": {
@@ -2491,7 +3617,15 @@
             }
           ]
         }
-      }
+      },
+      "heart_events": [
+        {
+          "level": 8,
+          "title": "Memory of the Primordial Cook",
+          "description": "Regains ancient memories over Rowan's fragrant lotus feast, throwing wide the skyward portal.",
+          "reward_unlock": "Permanently opens Skyward Gate of Aethelgard connecting all five great realms."
+        }
+      ]
     },
     {
       "id": "npc_barnaby",
@@ -2513,23 +3647,23 @@
       "heart_event_summary": "Automates lodging rent collection; -10% building upgrade costs (2H); unlocks 2 new attic guest rooms (4H); market price forecast ledger (6H); homestead vault yielding 3% weekly interest (8H).",
       "gift_preferences": {
         "loved": [
-          "tra_thao_moc_rung",
-          "bread_brioche",
-          "ruou_trai_cay_len_men"
+          "item_bread_brioche",
+          "item_tea_sen_an_than",
+          "ore_gold"
         ],
         "liked": [
+          "item_wood_oak",
           "ore_iron",
-          "wood_pine",
-          "qua_mong_rung"
+          "item_flour",
+          "banh_mi_lua_mi_gion"
         ],
         "disliked": [
-          "rac_ruoi",
-          "co_dai",
-          "bun_dat"
+          "dau_rung",
+          "drop_prism_jelly"
         ],
         "hated": [
-          "mon_an_hong",
-          "ca_uon"
+          "ore_coal",
+          "thit_nuong_lua_dia_nguc"
         ]
       },
       "schedules": {
@@ -2579,7 +3713,33 @@
             }
           ]
         }
-      }
+      },
+      "heart_events": [
+        {
+          "level": 2,
+          "title": "Muddy Boots on Polished Oak",
+          "description": "Grumbling about floor mud, Barnaby confides fears of becoming a useless discarded elder.",
+          "reward_unlock": "Negotiates 10% lumber and stone cost reduction for farmstead upgrades."
+        },
+        {
+          "level": 4,
+          "title": "The Lodger Ledger",
+          "description": "Stays up late balancing accounts after unpaying guests skip out, reorganizing lodging intake.",
+          "reward_unlock": "Expands 2 additional attic boarding rooms, doubling guest capacity and passive rent."
+        },
+        {
+          "level": 6,
+          "title": "Rainy Hip Aches",
+          "description": "Nursed with hot congee and warming oils by Rowan as hip joint inflammation flares in the storm.",
+          "reward_unlock": "Weekly Market Forecast: Flags hot demand commodities for high-margin sales."
+        },
+        {
+          "level": 8,
+          "title": "The Secure Estate Vault",
+          "description": "Proudly considers Rowan kin, taking charge of estate finances with unyielding devotion.",
+          "reward_unlock": "Estate Strongbox automatically invests surplus gold at 3%/week and stocks winter firewood."
+        }
+      ]
     },
     {
       "id": "npc_colm",
@@ -2601,23 +3761,23 @@
       "heart_event_summary": "Gifts sturdy adventurer backpack (+6 slots) (2H); automates flour milling and dairy collection (4H); when Rowan faints in the mine, hauls her safely to bed (dropped items remain lost) (6H); stashes dry firewood and delve torches at the homestead (8H).",
       "gift_preferences": {
         "loved": [
-          "thit_nuong_lua_dia_nguc",
-          "bit_tet_nuong_than_soi",
-          "ore_iron"
+          "item_dish_miner_potato_stew",
+          "com_nam_muoi_rung",
+          "item_wood_pine"
         ],
         "liked": [
-          "ore_copper",
-          "wood_hardwood",
-          "bread_brioche"
+          "ore_coal",
+          "banh_mi_lua_mi_gion",
+          "item_stone_brick",
+          "khoai_tay_nuong_bo_toi"
         ],
         "disliked": [
-          "tra_sen_an_than",
-          "rau_cai_luoc",
-          "sach_cu"
+          "item_pastry_scone_berry",
+          "dau_rung"
         ],
         "hated": [
-          "rac_ruoi",
-          "thuoc_doc"
+          "thit_nuong_lua_dia_nguc",
+          "drop_prism_jelly"
         ]
       },
       "schedules": {
@@ -2672,7 +3832,33 @@
             }
           ]
         }
-      }
+      },
+      "heart_events": [
+        {
+          "level": 2,
+          "title": "The Exploding Egg Pot",
+          "description": "Clumsily overcooks and bursts boiling eggs, cowering in fear of firing until Rowan reassures him.",
+          "reward_unlock": "Stitches an Expedition Backpack adding +6 cavern inventory slots."
+        },
+        {
+          "level": 4,
+          "title": "Handcrafted Flour Mill",
+          "description": "Builds a sturdy stone flour mill in the courtyard through honest sweat.",
+          "reward_unlock": "Automates wheat milling and gathers dairy/eggs into cold storage every morning."
+        },
+        {
+          "level": 6,
+          "title": "Memories of Shaft 15",
+          "description": "Relives the horror of being pinned under cave-ins at floor 15 and abandoned by unpaid bosses.",
+          "reward_unlock": "Emergency Stretcher Rescue: Carries fainting Rowan home to bed (expedition loot lost per rules)."
+        },
+        {
+          "level": 8,
+          "title": "The Porch Supply Chest",
+          "description": "Pledges his strength to protect the estate, calling it his first true home.",
+          "reward_unlock": "Expedition Supply Chest stocked daily with firewood, torches, and whetstones."
+        }
+      ]
     },
     {
       "id": "npc_silas",
@@ -2694,23 +3880,23 @@
       "heart_event_summary": "15% discount on exotic wares (2H); sells rare foreign spice seeds (4H); delivers rumors and news from beyond the mountain pass (6H); signs weekly wholesale supply contract for the homestead (8H).",
       "gift_preferences": {
         "loved": [
+          "item_bread_brioche",
           "ruou_trai_cay_len_men",
-          "bread_brioche",
           "ore_gold"
         ],
         "liked": [
-          "qua_mong_rung",
-          "wood_hardwood",
+          "item_wood_pine",
+          "com_nam_muoi_rung",
+          "banh_mi_lua_mi_gion",
           "ore_iron"
         ],
         "disliked": [
-          "co_dai",
-          "rac_ruoi",
-          "mon_an_hong"
+          "dau_rung",
+          "drop_prism_jelly"
         ],
         "hated": [
-          "thuoc_doc",
-          "bun_dat"
+          "ore_coal",
+          "thit_nuong_lua_dia_nguc"
         ]
       },
       "schedules": {
@@ -2745,7 +3931,27 @@
             }
           ]
         }
-      }
+      },
+      "heart_events": [
+        {
+          "level": 2,
+          "title": "The Stubborn Old Donkey",
+          "description": "His stubborn mule sits stubborn in the gateway; Rowan coaxes it with carrots and crusty bread.",
+          "reward_unlock": "15% discount on all caravan inventory."
+        },
+        {
+          "level": 4,
+          "title": "The Nomad Trunk",
+          "description": "Unlocks strange trunks from Thursday to Saturday by the porch of The Hearth.",
+          "reward_unlock": "Stocks exclusive foreign spices and rare imported seed strains."
+        },
+        {
+          "level": 8,
+          "title": "Weekly Supply Charter",
+          "description": "Picks The Hearth as his permanent haven to rest his faithful mule in old age.",
+          "reward_unlock": "Weekly Delivery Charter automatically stocking exotic goods into estate larders."
+        }
+      ]
     },
     {
       "id": "npc_hester",
@@ -2768,22 +3974,22 @@
       "gift_preferences": {
         "loved": [
           "bit_tet_nuong_than_soi",
-          "thit_nuong_lua_dia_nguc",
-          "ore_iron"
+          "ore_iron",
+          "item_wood_oak"
         ],
         "liked": [
-          "wood_hardwood",
           "ore_coal",
-          "bread_brioche"
+          "khoai_tay_nuong_bo_toi",
+          "banh_mi_lua_mi_gion",
+          "ore_copper"
         ],
         "disliked": [
-          "tra_sen_an_than",
-          "hoa_tuyet_lien",
-          "rac_ruoi"
+          "banh_tart_viet_quat_bui_sao",
+          "dau_rung"
         ],
         "hated": [
-          "co_quyen_luc",
-          "mon_an_hong"
+          "ruou_trai_cay_len_men",
+          "drop_prism_jelly"
         ]
       },
       "schedules": {
@@ -2818,7 +4024,39 @@
             }
           ]
         }
-      }
+      },
+      "heart_events": [
+        {
+          "level": 2,
+          "title": "Midnight Anvil Clatter",
+          "description": "Huddled in the attic hammering armor plates late at night; Rowan brings roast steak to ease tension.",
+          "reward_unlock": "Reinforces coarse armor plating (+10 DEF) on worn gear."
+        },
+        {
+          "level": 4,
+          "title": "Restoring Gear Durability",
+          "description": "Offers field repairs on chipped swords and dented plates straight out of her attic room.",
+          "reward_unlock": "Affordable Field Durability Repair service for weapons and armor."
+        },
+        {
+          "level": 6,
+          "title": "Shadow of the Former Mentor",
+          "description": "Spots Valerius entering the tavern; panics and prepares to flee into the night over desertion guilt.",
+          "reward_unlock": "Gifts Royal Blade Whetstone Oil preventing rust."
+        },
+        {
+          "level": 8,
+          "title": "Casting Aside the Mask of Guilt",
+          "description": "Bows before Valerius seeking atonement, embraced and forgiven by her old captain.",
+          "reward_unlock": "Bestows Forsaken Royal Knight Broadsword (heavy combat weapon)."
+        },
+        {
+          "level": 10,
+          "title": "No More Running",
+          "description": "Hester pulls down her travel cowl, offering a knightly amulet and pledging life beside Rowan.",
+          "reward_unlock": "Romantic Bond unlocked; Hester permanently pledges her blade to the estate."
+        }
+      ]
     },
     {
       "id": "npc_mae",
@@ -2840,23 +4078,23 @@
       "heart_event_summary": "Buys raw wool and down at +30% price (2H); gifts automated Homestead Loom (4H); sells finished dyed bedding and quilts for bunkhouse rooms (6H); unlocks handcrafted upholstery and tapestries collection (8H).",
       "gift_preferences": {
         "loved": [
-          "tra_thao_moc_rung",
-          "qua_mong_rung",
-          "mat_ong"
+          "canh_thao_moc_bup_sen",
+          "item_wood_oak",
+          "item_butter"
         ],
         "liked": [
-          "wood_pine",
-          "bread_brioche",
-          "hoa_tuyet_lien"
+          "item_wood_pine",
+          "dau_rung",
+          "mat_ong",
+          "banh_mi_lua_mi_gion"
         ],
         "disliked": [
           "ore_coal",
-          "rac_ruoi",
-          "bun_dat"
+          "thit_nuong_lua_dia_nguc"
         ],
         "hated": [
-          "thuoc_doc",
-          "mon_an_hong"
+          "drop_prism_jelly",
+          "ruou_trai_cay_len_men"
         ]
       },
       "schedules": {
@@ -2891,7 +4129,27 @@
             }
           ]
         }
-      }
+      },
+      "heart_events": [
+        {
+          "level": 2,
+          "title": "Natural Maple Varnish",
+          "description": "Shares traditional recipes boiling maple resin into weatherproofing varnish for rough furniture.",
+          "reward_unlock": "Purchases farmstead raw fleece at +30% premium prices."
+        },
+        {
+          "level": 4,
+          "title": "Refurnishing the Guest Rooms",
+          "description": "Carpenters new pine bedframes and warm quilts for The Hearth's boarding lofts.",
+          "reward_unlock": "Sells Complete Rough Timber Furniture & Natural Painting Finishes packages."
+        },
+        {
+          "level": 8,
+          "title": "Nomad Clan Loom",
+          "description": "Presents Rowan with an heirloom spinning rig as a lasting token of nomad gratitude.",
+          "reward_unlock": "Gifts Automated Farmstead Weaving Loom & luxury wool quilts (+cozy rating)."
+        }
+      ]
     },
     {
       "id": "npc_gomer",
@@ -2913,23 +4171,23 @@
       "heart_event_summary": "Sells discount Blasting Charges at the surface entrance (2H); teaches recipe for Mega Rock Blasting Bomb (4H); reveals hidden gold veins (6H); gifts handheld Steam Core Drill (8H).",
       "gift_preferences": {
         "loved": [
+          "ruou_trai_cay_len_men",
           "ore_coal",
-          "ore_iron",
-          "ruou_trai_cay_len_men"
+          "ore_iron"
         ],
         "liked": [
           "ore_copper",
-          "bit_tet_nuong_than_soi",
-          "thit_nuong_lua_dia_nguc"
+          "ore_gold",
+          "com_nam_muoi_rung",
+          "dui_rung_hun_khoi_da_chien"
         ],
         "disliked": [
-          "tra_sen_an_than",
-          "sach_cu",
-          "hoa_tuyet_lien"
+          "banh_tart_viet_quat_bui_sao",
+          "dau_rung"
         ],
         "hated": [
-          "rac_ruoi",
-          "mon_an_hong"
+          "drop_prism_jelly",
+          "item_tea_sen_an_than"
         ]
       },
       "schedules": {
@@ -2964,7 +4222,27 @@
             }
           ]
         }
-      }
+      },
+      "heart_events": [
+        {
+          "level": 2,
+          "title": "Bellows of the Deaf Blaster",
+          "description": "Deafened by blasting powder, he shouts like thunder; Rowan converses via slate chalkboard.",
+          "reward_unlock": "Sells Craft Dynamite at discount rates for clearing rubble."
+        },
+        {
+          "level": 4,
+          "title": "Minehead Gas Pocket Survey",
+          "description": "Alerts Rowan to unstable fault fissures and noxious gas veins around upper shafts.",
+          "reward_unlock": "Sells Heavy Bore Explosives demolishing giant obstructive boulders."
+        },
+        {
+          "level": 8,
+          "title": "Compact Steam Rock Drill",
+          "description": "Finalizes a steam-powered mini rock drill engine, presenting it to Rowan.",
+          "reward_unlock": "Gifts Handheld Steam Drill (mines 3x3 ore clusters in cavern deeps)."
+        }
+      ]
     },
     {
       "id": "npc_vael",
@@ -2986,23 +4264,23 @@
       "heart_event_summary": "Sells Anti-Slip Deep Diving Boots (2H); teaches Luminous Abyss Bait recipe (4H); sells Miasma-Resistant Glow Pearls (6H); opens submerged diving link between mountain lake and river (8H).",
       "gift_preferences": {
         "loved": [
-          "da_tinh_the",
-          "gem_sapphire",
-          "ruou_trai_cay_len_men"
+          "ca_suoi_nuong_muoi_ot",
+          "ruou_trai_cay_len_men",
+          "gem_sapphire"
         ],
         "liked": [
-          "ore_gold",
-          "bread_brioche",
-          "mat_ong"
+          "drop_crystal_sea_salt",
+          "com_nam_muoi_rung",
+          "ore_iron",
+          "item_wood_pine"
         ],
         "disliked": [
-          "rac_ruoi",
-          "co_dai",
-          "thuoc_doc"
+          "banh_xop_dau_rung",
+          "dau_rung"
         ],
         "hated": [
-          "mon_an_hong",
-          "bun_dat"
+          "drop_prism_jelly",
+          "item_tea_sen_an_than"
         ]
       },
       "schedules": {
@@ -3037,7 +4315,27 @@
             }
           ]
         }
-      }
+      },
+      "heart_events": [
+        {
+          "level": 2,
+          "title": "Frostbitten Ankles at the Lake",
+          "description": "Shivering by mountain tarn campfires with numb feet, he is treated to hot spirits and woolen socks.",
+          "reward_unlock": "Sells Fishskin Boots with anti-slip traction on frozen floors."
+        },
+        {
+          "level": 4,
+          "title": "Subterranean Aquifer Fissures",
+          "description": "Surveys underwater cave tunnels linking the mountain tarn into flooded mine grottoes.",
+          "reward_unlock": "Opens submerged diving shortcut from mountain lake into Oakhaven's outer rivers."
+        },
+        {
+          "level": 8,
+          "title": "Conquering the Abyssal Ghost",
+          "description": "Overcomes survivor guilt after losing his dive team, gifting reinforced diving apparatus.",
+          "reward_unlock": "Gifts Reinforced Steam Diving Suit (permits crossing deep waters in sunken caverns)."
+        }
+      ]
     },
     {
       "id": "npc_rowena",
@@ -3059,23 +4357,23 @@
       "heart_event_summary": "Supplies x3 Duration Heartwood Charcoal (2H); teaches Smokeless Earthen Kiln design (4H); -20% coal required for smelting ingots (6H); unlocks Master Ash-Retort Smelting Furnace (8H).",
       "gift_preferences": {
         "loved": [
-          "wood_pine",
-          "wood_hardwood",
-          "bread_brioche"
+          "banh_mi_lua_mi_gion",
+          "ore_coal",
+          "item_wood_oak"
         ],
         "liked": [
-          "ore_coal",
-          "qua_mong_rung",
+          "item_wood_pine",
+          "khoai_tay_nuong_bo_toi",
+          "com_nam_muoi_rung",
           "mat_ong"
         ],
         "disliked": [
-          "rac_ruoi",
-          "co_dai",
-          "hoa_tuyet_lien"
+          "banh_tart_viet_quat_bui_sao",
+          "dau_rung"
         ],
         "hated": [
-          "thuoc_doc",
-          "mon_an_hong"
+          "drop_prism_jelly",
+          "ruou_trai_cay_len_men"
         ]
       },
       "schedules": {
@@ -3110,7 +4408,27 @@
             }
           ]
         }
-      }
+      },
+      "heart_events": [
+        {
+          "level": 2,
+          "title": "Eye-Stinging Charcoal Smoke",
+          "description": "Blinded by thick kiln soot, her stinging eyes are flushed with sterile herb water by Rowan.",
+          "reward_unlock": "Gifts Rowan 10 seasoned kiln-fired oak charcoal lumps."
+        },
+        {
+          "level": 4,
+          "title": "Fueling The Hearth's Ovens",
+          "description": "Contracts high-heat charcoal supplies for the tavern bakery and village smithy.",
+          "reward_unlock": "Sells Dense Kiln Charcoal (burns 3x longer in bakery ovens and forge smelters)."
+        },
+        {
+          "level": 8,
+          "title": "Stepping Out of the Soot Shack",
+          "description": "Healing from the grief of losing husband and son in war, she visits the tavern for communal suppers.",
+          "reward_unlock": "Shares Advanced Smokeless Husk Kiln blueprints with the farmstead."
+        }
+      ]
     },
     {
       "id": "npc_tad",
@@ -3132,23 +4450,23 @@
       "heart_event_summary": "Gifts Automated Bamboo Weir Trap (2H); teaches Marsh Bait Dough recipe (4H); reveals prime marsh holes for Golden Eels (6H); gifts Thousand-Year Bamboo Rod (+25% fishing bite speed) (8H).",
       "gift_preferences": {
         "loved": [
-          "ruou_trai_cay_len_men",
           "thit_nuong_lua_dia_nguc",
-          "wood_pine"
+          "ruou_trai_cay_len_men",
+          "ca_suoi_nuong_muoi_ot"
         ],
         "liked": [
+          "com_nam_muoi_rung",
+          "item_wood_pine",
           "ore_iron",
-          "bread_brioche",
-          "qua_mong_rung"
+          "mat_ong"
         ],
         "disliked": [
-          "sach_cu",
-          "rac_ruoi",
-          "hoa_tuyet_lien"
+          "item_tea_sen_an_than",
+          "dau_rung"
         ],
         "hated": [
-          "thuoc_doc",
-          "mon_an_hong"
+          "drop_prism_jelly",
+          "banh_tart_viet_quat_bui_sao"
         ]
       },
       "schedules": {
@@ -3183,7 +4501,27 @@
             }
           ]
         }
-      }
+      },
+      "heart_events": [
+        {
+          "level": 2,
+          "title": "The Leaking Skiff",
+          "description": "His reed skiff springs a leak; Rowan wades through muck to haul it ashore and seal it with pine pitch.",
+          "reward_unlock": "Gifts a tin of marsh mudworms for catfish angling."
+        },
+        {
+          "level": 4,
+          "title": "Marshland Fish Traps",
+          "description": "Instructs Rowan in weaving bamboo funnel pots to trap eels along slow marsh creeks.",
+          "reward_unlock": "Crafting formula for Automated Bamboo Fish & Eel Traps."
+        },
+        {
+          "level": 8,
+          "title": "Revival of the Reeds",
+          "description": "Beholding the cleansed marshlands, he beams toothlessly and yields his heirloom cane rod.",
+          "reward_unlock": "Bestows Ancestral Thousand-Year Bamboo Rod (+25% bite and reel velocity)."
+        }
+      ]
     },
     {
       "id": "npc_milo",
@@ -3205,23 +4543,23 @@
       "heart_event_summary": "Stops stealing fruit and gathers windfalls for Rowan (2H); marks secret forest berry groves on your map (4H); delivers rare wild honeycomb (6H); organizes the Junior Scout Watch warning of wild boars (8H).",
       "gift_preferences": {
         "loved": [
-          "qua_mong_rung",
-          "bread_brioche",
+          "banh_xop_dau_rung",
+          "dau_rung",
           "mat_ong"
         ],
         "liked": [
-          "wood_pine",
-          "da_tinh_the",
-          "bit_tet_nuong_than_soi"
+          "item_pastry_scone_berry",
+          "banh_cau_vong_4_mua",
+          "item_wood_pine",
+          "drop_moon_berry"
         ],
         "disliked": [
-          "sach_cu",
-          "rau_cai_luoc",
-          "tra_den_dam"
+          "item_tea_sen_an_than",
+          "canh_thao_moc_bup_sen"
         ],
         "hated": [
-          "rac_ruoi",
-          "mon_an_hong"
+          "ruou_trai_cay_len_men",
+          "ore_coal"
         ]
       },
       "schedules": {
@@ -3256,7 +4594,27 @@
             }
           ]
         }
-      }
+      },
+      "heart_events": [
+        {
+          "level": 2,
+          "title": "Dangling on the Paling Fence",
+          "description": "Caught stealing strawberries, dangling upside down by torn trousers; Rowan unhooks and mends them.",
+          "reward_unlock": "Gifts Rowan 5 wild forest berry seeds."
+        },
+        {
+          "level": 4,
+          "title": "Secret Berry Thickets",
+          "description": "Leads Rowan to concealed wild hives and cliffside raspberry thickets.",
+          "reward_unlock": "Automatically gathers fallen orchard fruit 2 days a week."
+        },
+        {
+          "level": 8,
+          "title": "Junior Forest Scouts",
+          "description": "Proudly pinned as Junior Scout, keeping mischievous eyes peeled for wild farm invaders.",
+          "reward_unlock": "Junior Scout Network alerts player 1 day in advance of wild beast crop incursions."
+        }
+      ]
     },
     {
       "id": "npc_cora",
@@ -3278,23 +4636,23 @@
       "heart_event_summary": "Gifts Lucky Pebble Bracelet (+5% dodge) (2H); marks secret stream berry patches and gudgeon holes (4H); helps gather windfalls along stream banks (6H); joyful reunion when her father returns safely to The Hearth (8H).",
       "gift_preferences": {
         "loved": [
-          "da_tinh_the",
-          "gem_amethyst",
-          "tra_thao_moc_rung"
+          "canh_thao_moc_bup_sen",
+          "banh_xop_dau_rung",
+          "gem_amethyst"
         ],
         "liked": [
-          "qua_mong_rung",
-          "bread_brioche",
-          "hoa_tuyet_lien"
+          "dau_rung",
+          "mat_ong",
+          "drop_moon_berry",
+          "banh_cau_vong_4_mua"
         ],
         "disliked": [
-          "rac_ruoi",
           "ore_coal",
-          "thuoc_doc"
+          "thit_nuong_lua_dia_nguc"
         ],
         "hated": [
-          "mon_an_hong",
-          "bun_dat"
+          "ruou_trai_cay_len_men",
+          "drop_prism_jelly"
         ]
       },
       "schedules": {
@@ -3329,7 +4687,27 @@
             }
           ]
         }
-      }
+      },
+      "heart_events": [
+        {
+          "level": 2,
+          "title": "A Thousand Stones for Father",
+          "description": "Gathers freezing river pebbles in jars waiting for her soldier father; Rowan warms her hands with a scarf.",
+          "reward_unlock": "Gifts River Pebble Bracelet (+5% Dodge Chance in combat)."
+        },
+        {
+          "level": 4,
+          "title": "The Clear Brook Goby Eddy",
+          "description": "Shows Rowan a crystal eddy beneath river willows teaming with darting sweetfish.",
+          "reward_unlock": "Unlocks Secret Brook Angling Spot rich in rare freshwater fish."
+        },
+        {
+          "level": 8,
+          "title": "The Letter of Safe Return",
+          "description": "Receives word her father has been discharged safely; they reunite in tearful joy beside The Hearth.",
+          "reward_unlock": "Cora bestows the family's lucky River Jade talisman."
+        }
+      ]
     }
   ]
 }
