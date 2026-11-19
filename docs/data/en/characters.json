@@ -1044,7 +1044,10 @@
       ],
       "quote": "My fingertips sting from stitching gala robes with silver needles all day... Is there a jasmine blend that eases weary hands?",
       "birthday": "Spring 5",
-      "schedule": "All day: Tending Sylva-Fae canopy silk greenhouse"
+      "schedule": "All day: Tending Sylva-Fae canopy silk greenhouse",
+      "real_world_wound": "Joint tremor syndrome in her fingers after decades of nonstop needlework; fears losing her craft and disappointing beloved companions.",
+      "comfort_dish": "tra_oai_huong_ngan_sao",
+      "heart_event_summary": "Rowan and Sylvan collaborate to forage soothing herbs; unlocks warm winter artisan attire."
     },
     {
       "id": "npc_sylvan",
@@ -1060,7 +1063,10 @@
       ],
       "quote": "Poisonous mist hangs dense over the woods tonight... I brought you millennium roots, would you trade a warming earthy brew for them?",
       "birthday": "Spring 24",
-      "schedule": "Afternoon & Evening: Patrolling Sylva-Fae ancient boughs"
+      "schedule": "Afternoon & Evening: Patrolling Sylva-Fae ancient boughs",
+      "real_world_wound": "Haunted by his inability to heal Mentor Fern blind eyes; constantly torments himself for lacking deeper botanical knowledge.",
+      "comfort_dish": "tea_sylvan_night_infusion",
+      "heart_event_summary": "Rowan helps Sylvan harvest rare cliffside herbs; unlocks Natural Essential Oil Distillation Station."
     },
     {
       "id": "npc_marlo",
@@ -1084,7 +1090,7 @@
     {
       "id": "npc_aurelia",
       "name": "Aurelia",
-      "role": "Disillusioned Town Physician",
+      "role": "Town Apothecary",
       "location": "Oakhaven Clinic",
       "species": "Human",
       "description": "Caring town healer running the dispensary clinic. Believes wholesome teas heal spirits far deeper than bitter salves alone.",
@@ -1093,7 +1099,7 @@
         "mat_ong"
       ],
       "quote": "Potions only close surface wounds... Townspeople need your warm herbal teas to soothe their deeper quiet sorrows.",
-      "birthday": "Summer 21",
+      "birthday": "Summer 22",
       "schedule": "Morning: Honeybee apiary; Afternoon: Delivering fresh honey to shop",
       "real_world_wound": "Disgusted by commercial medicine prioritizing nobles; struggles with poverty-driven medical shortages.",
       "comfort_dish": "tra_oai_huong_ngan_sao",
@@ -1112,7 +1118,10 @@
       ],
       "quote": "The aroma of garlic bread from your shop drifted all the way to my parapet and made me faint... Please, a goblet of crimson sweet tea to restore my poise!",
       "birthday": "Winter 10",
-      "schedule": "Patrolling the marble plaza of Solaria Capital of Light"
+      "schedule": "Day: Resting in ancient keep; Night: Visiting tavern for hot red tea",
+      "real_world_wound": "Cast out by vampire aristocracy for adopting a vegetarian lifestyle; struggles alone against primal instincts to protect humanity.",
+      "comfort_dish": "tra_dau_bang_tuyet",
+      "heart_event_summary": "Rowan bakes crimson berry pastries mimicking blood sweetness; unlocks Midnight Tea Gatherings at Ancient Keep."
     },
     {
       "id": "npc_kassandra",
@@ -1126,8 +1135,11 @@
         "gem_sapphire"
       ],
       "quote": "My broomstick is running low on arcane ether mid-cloud... Do you have a tea infused with canopy night dew to replenish my spells?",
-      "birthday": "Autumn 8",
-      "schedule": "Managing merchant expeditions in Solaria Capital"
+      "birthday": "Autumn 9",
+      "schedule": "Wandering through cloud layers and gathering starlight dew",
+      "real_world_wound": "Exiled by the Solarian Mages Council for researching commoner folk magic; wanders across cloud realms with a broom running out of mana.",
+      "comfort_dish": "tra_sen_an_than",
+      "heart_event_summary": "Rowan delivers hot restorative meals; unlocks Swift Sky Broom Delivery Service."
     },
     {
       "id": "npc_chrono",
@@ -1142,7 +1154,10 @@
       ],
       "quote": "Tick-tock... Left chest gear mechanism grinding... Requesting 200ml warm floral lubricant with chamomile essence... Tick-tock...",
       "birthday": "Winter 27",
-      "schedule": "Tending the perpetual clockwork waterwheels in Khaz-Drakor"
+      "schedule": "Tending the perpetual clockwork waterwheels in Khaz-Drakor",
+      "real_world_wound": "Ancient memory modules fragmented across millennia; fears the day mainspring unwinds forever and lost civilisation memories fade.",
+      "comfort_dish": "khoai_tay_nuong_bo_toi",
+      "heart_event_summary": "Cogsworth and Rowan brew chamomile lubricant and wind the perpetual mainspring; unlocks Town Clock Chime System."
     },
     {
       "id": "npc_lapis",
@@ -1157,7 +1172,10 @@
       ],
       "quote": "Down in the deep ocean, everything is perpetually soggy... Tasting hot, crispy pastries that melt away like sweet foam is sheer wonder!",
       "birthday": "Summer 17",
-      "schedule": "Prospecting deep crystal caverns in the Khaz-Drakor mines"
+      "schedule": "Swimming through misty highland springs and underground lakes",
+      "real_world_wound": "Profound isolation in silent sea trenches and deep curiosity about terrestrial warmth; fears rejection as a sea-dweller.",
+      "comfort_dish": "pastry_berry_shortcake",
+      "heart_event_summary": "Rowan delivers crisp buttery pastries to misty lakeside; unlocks Mist Sea Pearl and Crystal Salt trading."
     },
     {
       "id": "npc_thorne",
@@ -1249,7 +1267,7 @@
     {
       "id": "npc_valerie",
       "name": "Dispatcher Valerie",
-      "role": "Lost & Found Custodian & Guild Registrar",
+      "role": "Lost & Found Custodian",
       "location": "Adventurer's Guild Reception",
       "species": "Human (Retired Marksman)",
       "description": "Former sharpshooter who suffered unilateral hearing damage and acoustic blast PTSD. Meticulously logs rescue reports and coordinates gear retrieval for injured miners.",
@@ -1328,7 +1346,7 @@
       "name": "Elder Oakwood",
       "role": "Town Mayor of Oakhaven",
       "location": "Oakhaven Town Hall",
-      "species": "Human (Veteran Vanguard)",
+      "species": "Human (Veteran Adventurer)",
       "description": "Silver-haired elder with a resonant voice, leaning upon an antique runic oak staff. Steadfastly sheltered the town through the Great Blight 20 years ago.",
       "favorite_items": [
         "tea_whisper_hearth",
@@ -1696,7 +1714,7 @@
         "dau_rung"
       ],
       "quote": "Every time an ancient timber in the glade perishes to Star Blight... I feel as though someone has severed one of my own fingers.",
-      "birthday": "Spring 1",
+      "birthday": "Spring 2",
       "schedule": "All day: Guarding the sacred stardust shrine and ancient roots",
       "real_world_wound": "Agonized by Star Blight corrupting deep subterranean root systems; terrified that if the mother tree withers, her consciousness will dissolve.",
       "comfort_dish": "tra_sen_bach_diep",
@@ -1901,7 +1919,7 @@
     },
     {
       "id": "npc_cogsworth",
-      "name": "Cogsworth",
+      "name": "Engineer Cogsworth",
       "role": "Steam Engineer",
       "location": "Underground Steam Workshop",
       "species": "Dwarf",
@@ -2272,10 +2290,10 @@
         "da_tinh_the"
       ],
       "quote": "You want me gone? No need to yell; I'm accustomed to it. ...Just let me finish bandaging this fox kit outside my door first.",
-      "birthday": "Autumn 31",
+      "birthday": "Autumn 27",
       "schedule": "All day: Marshland Hermitage; Blizzard nights: Lodging at the Hearth Eatery",
       "real_world_wound": "Shunned and vilified throughout civilized realms due to superstitious fear of her appearance; isolates herself to preemptively ward off rejection.",
-      "comfort_dish": "tea_frostmint_breeze",
+      "comfort_dish": "item_tea_frostmint_breeze",
       "heart_event_summary": "At 8 Hearts: Rescues the valley from a lethal plague and receives townwide gratitude; unlocks the Potion & Enchantment Brewing Table.",
       "gift_preferences": {
         "loved": [

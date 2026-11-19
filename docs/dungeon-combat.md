@@ -35,7 +35,7 @@ Thế giới lòng đất của Oakhaven là trụ cột **hành động & sinh 
 ```
 
 1. **Hang Mỏ Oakhaven (The 150-Floor Mines):**
-   * Tiến trình cố định gồm **150 tầng mỏ**, phân bố thành 5 đới địa chất (Đất mềm tầng 1–20, Mỏ đồng tầng 21–50, Vực quặng sắt tầng 51–80, Đới hoàng kim tầng 81–110, Vực dung nham & hắc diện thạch tầng 111–140, và Đáy mỏ Tinh Tú tầng 141–150).
+   * Tiến trình cố định gồm **150 tầng mỏ**, phân bố thành 6 đới địa chất (Đất mềm tầng 1–20, Mỏ đồng tầng 21–50, Vực quặng sắt tầng 51–80, Đới hoàng kim tầng 81–110, Vực dung nham & hắc diện thạch tầng 111–140, và Đáy mỏ Tinh Tú tầng 141–150).
    * **Thang máy cơ giới:** Tự động mở khóa trạm dừng mỗi 5 tầng mỏ (5, 10, 15... 150), cho phép di chuyển tức thời giữa mặt đất và tầng đã khai phá.
    * **Warden Boss mốc:** Canh giữ tại các mốc tầng 30, 60, 90, 120 và 150. Đánh bại Warden sẽ mở khóa bản vẽ rèn đúc mới của Boris và lối đi sang đới kế tiếp.
 
@@ -207,8 +207,30 @@ Khi người chơi chuyển sang vũ khí bậc cao hơn, các vũ khí cũ khô
 
 ---
 
+## 6. Tiền Đồn Mạo Hiểm Giả & Bảng Hợp Đồng Thợ Lặn Mỏ (The Delvers' Lodge & Bounty Commissions)
+
+Cửa mỏ Oakhaven không chỉ là nơi thợ đào đá làm việc, mà còn là **Tiền Đồn Khai Phá (Delvers' Lodge)** do **Hiệp sĩ Marlo** và **Bác thợ mỏ Bram** quản lý. Đây là điểm tập kết của các Mạo Hiểm Giả / Thợ Lặn Mỏ tự do trước khi dấn thân xuống lòng đất 150 tầng.
+
+### Vòng Lặp Khép Kín 4 Bước (The 4-Step Delver Loop)
+1. **📜 Nhận Hợp Đồng (Bounty Board):** Xem bảng nhiệm vụ trước cửa mỏ mỗi sáng (tiễu phạt quái vật Blight, tìm quặng thô cho Boris, hoặc hái sâm thảo dược cho Sylvan).
+2. **⛏️ Lặn Mỏ & Thu Thập:** Dùng thang máy mỏ xuống tầng mục tiêu, săn quái, đập đá khai quặng và bắt cá hồ ngầm.
+3. **💰 Nộp Hợp Đồng Đổi Thưởng:** Nhận ngay tiền Vàng mặt cùng **Huy Hiệu Tiền Đồn (`item_delver_crest`)** để tích lũy danh vọng mạo hiểm giả.
+4. **🔨 Tái Đầu Tư Hệ Thống:**
+   * Quặng & phôi kim loại $\rightarrow$ Lò rèn Boris tôi vũ khí ($+1 \rightarrow +5$) và đúc vòi phun nước.
+   * Thảo mộc & sâm quý $\rightarrow$ Chế biến món ăn dược thiện, súp thuốc tăng thể lực mang theo mỏ.
+   * Cá & mỡ cá $\rightarrow$ Thắp đèn lồng thám hiểm và hun khói làm lương khô.
+   * Đêm về $\rightarrow$ Mở cửa Quán Ăn & Nhà Trọ Oakhaven phục vụ các mạo hiểm giả ghé sưởi ấm bên lò sưởi đá cuội.
+
+### 3 Phân Loại Nhiệm Vụ Khởi Đầu
+* **⚔️ Lệnh Tiễu Phạt (Monster Bounties — Marlo):** Săn lùng bầy nhện đá, bùn hắc hóa, hoặc các Warden Boss mốc tầng $\rightarrow$ Vàng lớn + Huy Hiệu Tiền Đồn.
+* **⛏️ Cung Ứng Khoáng Sản (Supply Orders — Bram & Boris):** Đào than đá, quặng sắt, đá thô $\rightarrow$ Vàng nhanh + Vé giảm giá thang máy mỏ.
+* **🌿 Thu Hái Dược Liệu Đáy Vực (Underground Foraging — Sylvan):** Hái nấm phát quang, sâm dung nham tầng sâu $\rightarrow$ Đan dược hộ mệnh và thuốc giải độc.
+
+---
+
 👉 Xem thêm cơ sở dữ liệu liên quan:
 * [Kho Vũ Khí & Trang Bị](/database/weapons)
 * [Sổ Quái Vật & Boss](/database/monsters)
 * [Khoáng Sản & Đá Quý Mỏ](/wiki/minerals-guide)
 * [Cẩm Nang Ẩm Thực & Hồi Thể Lực](/wiki/cooking-recipes-guide)
+* [Hướng Dẫn Bàn Chế Tác Thủ Công](/wiki/crafting-guide)

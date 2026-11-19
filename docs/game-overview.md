@@ -1,5 +1,5 @@
 ---
-title: "Game Overview"
+title: "Tổng Quan Trò Chơi"
 status: public
 audience: public
 updated: 2026-11-17
@@ -7,72 +7,72 @@ tags: [overview, pitch, core-loop, features, eatery, tavern]
 spoiler: false
 ---
 
-# 🍲 Rowan of Oakhaven — Game Overview
+# 🍲 Rowan of Oakhaven — Tổng Quan Trò Chơi
 
-> **Genre:** Dark Pixel Action RPG · Eatery & 4-Season Farming · 150-Floor Pure Combat Mine · Post-War Purification  
-> **Platform:** PC (Steam, 16:9 Landscape) & Mobile-Ready  
-> **Art Style:** 2D Dark Pixel Art (Navy/Purple palette, warm orange cooking fire, starlight gleams)  
-
----
-
-## 1. Narrative & Post-War Setting
-
-### 1.1. Tragedy & New Beginnings
-War took both of Rowan's parents on the continental frontlines. Raised by their grandmother beside the warmth of an old stove, Rowan's fondest memories are rooted in hearty, warm meals that kept the chill of war away.
-
-When the war ended, Grandmother passed away from old age and exhaustion. Carrying her heirloom recipe journal, Rowan sets out alone for the frontier valley of **Oakhaven** to heal and rebuild life from scratch.
-
-**Pip the Owl** perches quietly atop the roof eaves or mailbox to deliver morning notices and mail. Pip does not follow Rowan around, eliminating pathfinding clutter.
-
-### 1.2. The Role of Cooking
-Rebuilding the dusty hearth at Oakhaven serves three core purposes:
-1. **Survival & Combat Buffs:** High-stat buffs (ATK, DEF, Speed, Mining, Elemental Resist, Instant Heal) consumed before and during fierce dungeon combat.
-2. **Eatery & Inn Revenue:** Serving takeaway and dine-in patrons, plus renting upstairs rooms to travellers.
-3. **Memorial Cleansing:** Offering traditional festive dishes at Ancient Altars scattered across the battlefield ruins to purify troubled soldier spirits and reclaim black arable farmland.
+> **Thể loại:** Dark Pixel Action RPG · Quán Ăn & Nông Trại 4 Mùa · Hầm Mỏ 150 Tầng Thuần Combat · Cầu Siêu Hậu Chiến  
+> **Nền tảng:** PC (Steam, 16:9 Landscape) & Mobile-Ready  
+> **Phong cách nghệ thuật:** 2D Dark Pixel Art (bảng màu đêm lạnh navy/tím, ánh lửa cam từ bếp nấu & ánh sáng tinh tú)  
 
 ---
 
-## 2. The Daily 4-Pillar Loop
+## 1. Giới Thiệu Cốt Truyện & Vết Thương Hậu Chiến
 
-A typical in-game day spans **10–15 minutes of real time**:
+### 1.1. Bối cảnh mất mát
+Chiến tranh tàn khốc nổ ra ở kinh thành đại lục cướp đi sinh mạng của cả cha và mẹ Rowan. Lớn lên trong vòng tay gầy gò của Bà, ký ức tuổi thơ duy nhất đem lại cảm giác bình yên cho Rowan chính là hơi ấm từ gian bếp củi của Bà và mùi thức ăn ấm nóng xua đi khói bụi chiến tranh.
+
+Khi chiến loạn vừa dứt, người bà kính yêu cũng qua đời vì tuổi già và kiệt sức. Mang trái tim vụn vỡ nhưng kiên cường, Rowan rời bỏ quê hương đổ nát, mang theo cuốn sổ công thức nấu ăn của Bà, tìm đến thung lũng sương mù ven rừng **Oakhaven** để bắt đầu lại cuộc đời từ hai bàn tay trắng.
+
+Chú chim cú lùn **Pip** chỉ đậu tĩnh trên mái nhà hoặc cành cây sân trước, làm nhiệm vụ ngậm thư/nhiệm vụ dân làng buổi sáng mà không đi theo Rowan gây phiền phức khi di chuyển.
+
+### 1.2. Ý nghĩa của Bếp Nấu & Món Ăn
+Rowan tự tay dọn dẹp căn nhà hoang đổ nát ở Oakhaven, thắp lại ngọn lửa đầu tiên trong gian bếp cũ. Thức ăn tại Oakhaven mang 3 ý nghĩa thiết thực:
+1. **Lương thực sinh tồn & Buff chiến đấu:** Hồi phục HP/Stamina và ban các buff chỉ số cực mạnh (Công, Thủ, Tốc độ, Kháng đòn, Đào mỏ) khi lao vào chém quái hầm mỏ sâu.
+2. **Kinh tế Quán Ăn & Nhà Trọ:** Bán cho dân làng và du khách ghé quán kiếm Vàng tái thiết thung lũng.
+3. **Cầu siêu thanh tẩy:** Dâng món ăn truyền thống lên các Bàn Thờ Cổ Tưởng Niệm dọc chiến trường xưa để siêu thoát linh hồn binh sĩ ngã xuống và hồi sinh đất đai chết chóc.
+
+---
+
+## 2. Vòng Lặp Trải Nghiệm Một Ngày (The 4-Pillar Loop)
+
+Một ngày trong game kéo dài khoảng **10 – 15 phút thời gian thực**:
 
 ```
-[DAWN (06:00 - 08:00)] 
-  └── Read mail from Pip on the roof; collect morning room rental revenue.
-[DAYTIME (08:00 - 15:00)]
-  ├── Farm: Water, harvest 32 seasonal crops, cultivate irrigated rice paddies.
-  └── Expedition: Descend 150-floor PURE COMBAT mine, slay monsters, mine 5 ore tiers, defeat Wardens; visit Adventurer's Guild for Lost & Found recovery.
-[EVENING (17:00 - 23:00)]
-  └── Open Oakhaven Eatery [OPEN]: Cook 55 dishes for takeaway and seated guests.
-[NIGHT (23:00 - 02:00)]
-  └── Retreat to Rowan's private attic loft: R&D new recipes, manage wardrobe, sleep to save.
+[BÌNH MINH (06:00 - 08:00)] 
+  └── Đọc thư tay, nhận hạt giống từ cú Pip trên mái nhà; thu tiền phòng trọ tầng 2.
+[BUỔI SÁNG & TRƯA (08:00 - 15:00)]
+  ├── Nông trại: Tưới nước, thu hoạch 32 cây trồng 4 mùa & canh tác ruộng bậc thang lúa nước.
+  └── Thám hiểm: Xuống Hầm Mỏ 150 tầng THUẦN COMBAT chặt chém quái, khai thác 5 cấp quặng, trảm Boss; ghé Hiệp Hội Mạo Hiểm nhận bounty và chuộc đồ Lost & Found.
+[CHIỀU TỐI & BAN ĐÊM (17:00 - 23:00)]
+  └── Mở Quán Ăn Oakhaven [OPEN]: Nấu 55 món ăn phục vụ khách mang đi (Takeaway) và khách ngồi bàn (Dine-in).
+[ĐÊM KHUYA (23:00 - 02:00)]
+  └── Lên tầng gác mái nhà riêng nghiên cứu công thức R&D, chỉnh trang tủ đồ thời trang, lên giường ngủ lưu dữ liệu.
 ```
 
 ---
 
-## 3. Core Mechanics
+## 3. Hệ Thống Tính Năng Chuẩn Mực
 
-1. **HP & Stamina + Adventurer's Guild Lost & Found:**
-   - Activities consume Stamina; monster hits deplete HP.
-   - Fainting results in rescue by the **Adventurer's Guild**, medical bill penalty, and dropping 1–4 items.
-   - Speak with Guildmaster Thorne at the Adventurer's Guild to recover lost items via Gold or Expedition Supply Rations.
-2. **Pure Action RPG Combat (No Monster Soothing):**
-   - 150 floors of brutal hack-and-slash combat across 4 geological zones: Room locks $\rightarrow$ defeat all hostile monsters $\rightarrow$ door opens + chest drops.
-   - Spirit Lantern reveals stealth enemies in the dark.
-   - 55 culinary dishes serve as Rowan's personal combat stat boosters.
-3. **32 Seasonal Crops & Automation:**
-   - 32 crops spanning Spring, Summer, Autumn, Winter, plus perennials.
-   - Automated sprinklers in 3 tiers (Copper 4-tile, Iron 8-tile, Stardust 24-tile) and scarecrows.
-4. **Unique Oakhaven Map Expansions:**
-   - 1. Highland Aqueduct (Unlocks Irrigated Rice Paddies & Riverboat).
-   - 2. Elder Tree & Grand Cleansing Feast (Dispels toxic miasma to unlock Sacred Grove).
-   - 3. Ancient Sky-Tram (Ascends Wolf-Fang Peak for Stardust ore & hot springs).
-   - 4. Central Railway Station (Brings continental tourists and traveling chefs to the inn).
-   - 5. Sunken Necropolis (Weekly procedural endless dungeon post-floor 150).
-5. **Gear, Ring Fusion & Soul Gem Socketing:**
-   - Standard equipment: Head, Shirt/Armor, Pants, Boots, 2 Rings, Backpack.
-   - Ring Fusion at Floor 100 combines two rings into one.
-   - 5 Soul Essences permanently socketed (no unsocketing tedium).
-6. **Rowan's Private Loft & Upstairs Inn:**
-   - Private living quarters: Bed, R&D recipe experimentation table, wardrobe mirror, fermentation cellar.
-   - 3–5 guest rooms upstairs for passive morning rental income and breakfast demand.
+1. **HP & Stamina Chuẩn Stardew + Thu Hồi Đồ Tại Hiệp Hội Mạo Hiểm:**
+   - Hoạt động tiêu hao Stamina; trúng đòn quái giảm HP.
+   - Ngất xỉu $\rightarrow$ Đội tuần tra của **Hiệp Hội Mạo Hiểm** đưa về Trạm Xá, trừ tiền viện phí và ngẫu nhiên rơi mất 1-4 món đồ trong Balo.
+   - Đến **Hiệp Hội Mạo Hiểm Oakhaven** gặp Hội Trưởng Thorne để chuộc lại đồ bằng Vàng hoặc đổi bằng Cơm Hộp Viễn Chinh.
+2. **Chiến Đấu Hầm Mỏ Thuần Túy (100% Pure Action RPG Combat):**
+   - Hầm mỏ 150 tầng là chiến trường sinh tử: Quái vật cực kỳ hung hãn, chém giết dọn sạch phòng để mở cửa đi tiếp. **Tuyệt đối không có cơ chế xoa dịu quái.**
+   - Thức ăn (55 món) dùng để Rowan tự ăn buff chiến đấu bản thân (Công, Thủ, Tốc, Kháng đòn).
+   - Đèn Lồng Bão Đom Đóm soi rọi quái tàng hình trong bóng tối.
+3. **Nông Nghiệp 32 Cây Trồng & Tự Động Hóa:**
+   - 32 loại cây trồng phân bổ đều 4 mùa (Xuân, Hạ, Thu, Đông) và cây lâu năm.
+   - Vòi phun tự động 3 cấp (Đồng 4 ô, Sắt 8 ô, Bụi Sao 24 ô), bù nhìn rơm bảo vệ mùa màng.
+4. **Mở Rộng Bản Đồ Độc Bản Oakhaven (Không Rập Khuôn Stardew):**
+   - 1. Kênh Thủy Lợi Thượng Nguồn (Ruộng Bậc Thang Lúa Nước & Bến Thuyền Nan).
+   - 2. Cây Thần Ngàn Năm & Đại Lễ Tẩy Trần (Xua tan sương độc, mở Rừng Thần Thảo Mộc).
+   - 3. Tuyến Cáp Treo Mỏ Khai Nguyên (Lên Đỉnh Răng Sói, Mỏ Bụi Sao, Suối Nước Nóng).
+   - 4. Ga Đường Sắt Trung Tâm (Đón du khách và đầu bếp quốc tế thuê trọ tầng 2).
+   - 5. Cổ Đô Cấm Địa Lòng Đất Sunken Necropolis (Hầm ngục vô tận hậu tầng 150).
+5. **Trang Bị Chuẩn Mực, Chế Tác Nhẫn & Ngọc Ma Thuật:**
+   - Slot trang phục: Mũ, Áo, Quần, Giày, 2 Khe Đeo Nhẫn, Balo.
+   - Hợp nhất 2 nhẫn thành 1 (Ring Fusion) tại Tầng 100 mỏ.
+   - 5 Ngọc Tinh Linh (Hỏa, Hàn, Lôi, Huyết, Hộ Mệnh) khảm cố định vĩnh viễn (không tháo ngọc rườm rà).
+6. **Không Gian Nhà Riêng & Tuyến Nhà Trọ Tầng Lầu:**
+   - Gác mái nhà riêng của Rowan: Giường ngủ nâng cấp, bàn nghiên cứu R&D, tủ đồ thời trang, hầm ủ men/rượu.
+   - Cho thuê 3-5 phòng ngủ trên lầu Quán Ăn cho du khách và đoàn buôn, tự động thu tiền phòng mỗi sáng.

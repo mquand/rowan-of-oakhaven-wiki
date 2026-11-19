@@ -160,9 +160,9 @@ spoiler: false
 * **Tuyến sự kiện 8 Tim:** Khai trương Chợ Đêm Thứ Bảy; mở khóa các loại hạt giống nhập khẩu và công cụ độc lạ.
 
 ### 🌿 Rosemary (Người Giữ Đền Stardust)
-* **Vết nứt tâm lý:** Dryad - hiện thân sống của Cây Sồi Mẹ Oakhaven. Chứng kiến rừng cổ bị Star Blight ăn mòn rễ sâu, sợ rằng khi cây chết thì linh hồn mình cũng tan biến.
+* **Vết nứt tâm lý:** Dryad - hiện thân sống của Cây Sồi Mẹ Oakhaven. Chứng kiến rừng cổ bị Khí Độc Chiến Tranh và sương mù ăn mòn rễ sâu, sợ rằng khi cây chết thì linh hồn mình cũng tan biến.
 * **Món ăn ký ức:** **Trà Sen Bách Diệp & Hạt Sen Sấy**.
-* **Tuyến sự kiện 8 Tim:** Cùng Rowan thanh tẩy Star Blight tận gốc rễ; mở khóa **Vạc Tịnh Hóa Bụi Sao**.
+* **Tuyến sự kiện 8 Tim:** Cùng Rowan dâng đại tiệc thanh tẩy Bàn Thờ Cổ; mở khóa **Vạc Tịnh Hóa Thảo Mộc Rừng Cổ**.
 
 ### 🛡️ Valerius (Hiệp Sĩ Lưu Đày) & 🔮 Morrigan (Phù Thủy Ẩn Dật)
 * **Valerius:** Cựu chỉ huy cận vệ hoàng gia bị vu oan tội phản quốc sau khi vạch trần tham nhũng triều đình; khách trọ bão tuyết chọn ở lại làm Đội Trưởng Dân Quân Oakhaven.
@@ -188,7 +188,7 @@ spoiler: false
 ### 🌲 Sylva-Fae (Tán Rừng Tinh Linh Cổ Thụ)
 * **Thistle (Thợ Săn Moth-Folk Đêm):** Người bướm đêm có đôi mắt và cánh sợ ánh sáng mạnh; cô đơn hoạt động ngược nhịp thế giới.
   - *Món ăn:* **Trà Oải Hương Ngàn Sao**. Mở khóa thu hoạch **Tơ Lụa Phát Quang** cho Elora.
-* **Fern (Thầy Thuốc Cổ Đại 800 Tuổi):** Thầy dạy mù lòa của Sylvan, dùng mạng rễ ngầm cảm nhận vạn vật sau khi mất đôi mắt vì Star Blight 200 năm trước.
+* **Fern (Thầy Thuốc Cổ Đại 800 Tuổi):** Thầy dạy mù lòa của Sylvan, dùng mạng rễ ngầm cảm nhận vạn vật sau khi mất đôi mắt khi đơn độc bảo vệ rừng thiêng khỏi độc tố chiến tranh cổ đại.
   - *Món ăn:* **Canh Thảo Mộc Búp Sen**. Mở khóa **Thảo Dược Thượng Cổ**.
 * **Elora & Sylvan:** Thợ may mắc bệnh run tay và nhà nghiên cứu thảo mộc lặn lội tìm thuốc chữa cho bạn tri kỷ.
 

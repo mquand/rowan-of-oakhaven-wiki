@@ -159,9 +159,9 @@ spoiler: false
 * **8 Hearts Milestone:** Launches the Oakhaven Saturday Night Bazaar; unlocks exotic foreign seeds and specialty tools.
 
 ### 🌿 Rosemary (Stardust Shrine Keeper)
-* **Psychological Wound:** Dryad — living avatar of Oakhaven's ancient Mother Oak. Watches helplessly as Star Blight rots deep subterranean rootways, dreading the day her consciousness dissolves as the oak withers.
+* **Psychological Wound:** Dryad — living avatar of Oakhaven's ancient Mother Oak. Watches helplessly as Blighted War Miasma rots deep subterranean rootways, dreading the day her consciousness dissolves as the oak withers.
 * **Signature Comfort Dish:** **White-Leaf Lotus Tea & Candied Lotus Seeds**.
-* **8 Hearts Milestone:** Purges primordial Star Blight with Rowan; unlocks the **Stardust Purification Cauldron**.
+* **8 Hearts Milestone:** Purges primordial Blighted War Miasma with Rowan; unlocks the **Stardust Purification Cauldron**.
 
 ### 🛡️ Valerius (Exiled Knight) & 🔮 Morrigan (Recluse Hedge Witch)
 * **Valerius:** Former royal guard commander framed for treason after exposing imperial corruption; winter storm guest who settles permanently as Captain of Oakhaven's Guardians.
@@ -187,7 +187,7 @@ spoiler: false
 ### 🌲 Sylva-Fae (The Ancient Canopy)
 * **Thistle (Nocturnal Moth Ranger):** Silver-violet winged moth-folk whose sensitive eyes sting under bright lanterns; lives isolated in twilight canopy hours.
   - *Comfort Dish:* **Thousand-Star Lavender Infusion**. Unlocks harvesting **Luminescent Silk** for Elora's tailoring.
-* **Fern (Ancient Root Healer - Age 800):** Blind mentor of Sylvan who perceives all forest life through subterranean root mycorrhizae after losing his eyes to Star Blight.
+* **Fern (Ancient Root Healer - Age 800):** Blind mentor of Sylvan who perceives all forest life through subterranean root mycorrhizae after losing his eyes to Blighted War Miasma.
   - *Comfort Dish:* **Lotus Blossom Root Potage**. Unlocks **Primeval Herbal Formulas**.
 * **Elora & Sylvan:** Tremor-afflicted royal dressmaker and devoted botanist seeking ancient remedies to preserve her artisan hands.
 

@@ -61,8 +61,8 @@ Thế giới của Rowan of Oakhaven trải dài qua **5 Vương Quốc** (Realm
 **Đặc trưng:** Cây cổ thụ ngàn năm, ánh sáng lân tinh, chợ thảo dược, suối tiên phục hồi  
 **Cư dân:** Yêu tinh cung thủ, tiên dược sư, nàng tiên cá suối  
 
-### 🏯 Realm 4 — Imperial City (Kinh Đô Hoàng Gia)
-**Mô tả:** Kinh đô hoa lệ của đế chế phù thủy, nơi Rowan từng học tại Viện Phép Thuật Hoàng Gia. Chính trị phức tạp, cơ hội thương mại lớn.  
+### 🏯 Realm 4 — Imperial City (Kinh Đô Hoàng Gia Solaria)
+**Mô tả:** Kinh đô tráng lệ lát đá cẩm thạch trắng, trung tâm quyền lực và thương mại xa hoa nơi Rowan từng từ chối cuộc sống học giả cung đình để trở về biên viễn Oakhaven. Chính trị phức tạp, cơ hội giao thương lớn.  
 **Đặc trưng:** Tháp phép thuật, chợ phù thủy, thư viện bí mật, đấu trường pha chế  
 **Cư dân:** Phù thủy quý tộc, học giả, thương nhân đặc sản  
 

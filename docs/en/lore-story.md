@@ -1,40 +1,50 @@
 ---
-title: "The Lore & Secret of Stardust"
-status: draft
+title: "Post-War Lore & Human Depths of Oakhaven"
+status: published
 audience: public
-updated: 2026-11-12
-tags: [story, lore, prologue, spoiler]
+updated: 2026-11-19
+tags: [story, lore, prologue, post-war, healing, spoiler]
 spoiler: true
 ---
 
-# ✨ The Lore & Secret of Stardust
+# ✨ Post-War Lore & Human Depths of Oakhaven
 
-> ⚠️ *Spoiler Warning: This chronicle details significant narrative lore. Read if you have completed the prologue or do not mind story reveals.*
+> ⚠️ *Spoiler Warning: This chronicle details significant narrative lore and psychological themes. Read only if you do not mind story reveals.*
 
-## The Prologue: "A Spring with Grandmother"
+---
 
-The game opens with an evocative cinematic prologue — living peaceful, sun-dappled days alongside **Grandmother Amalia**:
+## 1. Family Tragedy & Rowan's Departure
 
-- **Day 1:** Grandmother leads young Rowan into the dew-drenched garden, teaching her how to turn soil and plant starlight lotus seeds.
-- **Day 2:** Spring rain beats softly against windowpanes while the hearth crackles — Grandmother teaches dough kneading and star-cookie baking; Boris stops by with kind words.
-- **The Final Meteor Night:** Rocking quietly in her wicker chair beneath shooting stars, Grandmother entrusts Rowan with her "Tattered Secret Grimoire".
-- **The Following Dawn:** The wicker chair sits empty — Grandmother has peacefully passed in her sleep. The entire valley releases river lanterns to honor her memory.
-- **Summer 1:** Rowan ties Grandmother's linen apron around her waist and flips the sign to `[OPEN]` — her true journey begins.
+- **Wartime Devastation:** A devastating continental war claimed the lives of Rowan's parents during her early childhood. Rowan grew up under the frail yet protective wings of **Grandmother Amalia**, nurtured by the warm hearth of an old country kitchen.
+- **Imperial Burnout:** Coming of age, Rowan journeyed to the imperial capital Solaria seeking a modern future, only to be crushed by its heartless industrial grind — where living souls were treated merely as replaceable gears.
+- **The Passing of Grandmother:** Receiving word that Grandmother had passed away from winter exhaustion, Rowan collapsed in grief. Refusing to suffocate any longer in the superficial metropolis, Rowan packed her modest belongings, took her grandmother's grease-stained cookbook, and returned to the frontier valley of **Oakhaven** to start anew with bare hands.
 
-## Stardust & The Dark Corruption
+---
 
-All magic coursing through Oakhaven originates from celestial **Stardust**. When unhealed sorrows and bitter grief fester across centuries, Stardust undergoes **Star Blight**, twisting subterranean flora and fauna into hostile monsters. Rowan's mission is to delve into treacherous dungeon depths, quarry precious minerals, forge upgraded weaponry at Boris's anvil, and run the bakery & cafe economy to rebuild Oakhaven Town.
+## 2. The Living Hearth & The Healing Meal
 
-## The Five Realms in Realm Lore
+In Oakhaven, Grandmother's abandoned tavern kitchen was cold and gray with ash. Rowan swept the hearthstones, sparked the first flame, and revived **The Hearth Eatery & Tavern**:
 
-1. **Oakhaven Valley & Town** — Rowan's ancestral starting point, Grandmother's bakery & cafe hearth.
-2. **The Royal Capital of Light Solaria** — Host of the Grand National Tea Tournament.
-3. **The Ancient Canopy Sylva-Fae** — Lumi's homeland, sheltering the celestial World Tree.
-4. **The Dwarven Megalopolis Khaz-Drakor** — Roaring geothermal lava forges and ancestral halls.
-5. **The Floating Elysium Aethelgard** — Cloud isles, the Tree of Longevity, where **Grandmother's guiding spirit rests**.
+1. **Sustenance & Dungeon Combat:** Wholesome meals provide stamina and crucial combat buffs (Attack, Defense, Movement Speed, Damage Resistance) when braving the perilous 150-floor mine.
+2. **Mending Community & Healing Real-World Trauma:** Each resident of Oakhaven carries profound post-war and life wounds (the stubborn feud between dwarf brothers Boris and Bram, Professor Orion's advancing dementia, Clara's caregiver burnout, Guildmaster Thorne's survivor guilt...). Rowan's cooking dissolves their guarded defenses, paving the way for reconciliation and quiet healing.
+3. **Purification Feasts at Ancient Altars:** Across abandoned battlegrounds, Rowan prepares solemn memorial offerings at **Ancient Memorial Altars** to lay fallen soldiers to rest, purifying lands of lingering blighted miasma and reclaiming wilderness for regrowth.
 
-## The Narrative Climax
+---
 
-Upon reaching celestial Aethelgard, Rowan offers Grandmother a perfected cup of the ancient ancestral tea — unlocking the honored title "Master of Eternal Stardust". Healing the world's deep wounds ultimately restores quiet harmony and peace to Rowan's own soul.
+## 3. The Five Realms of Oakhaven
 
-👉 Inhabitants: [Character Roster](/en/wiki/character-roster) · Atlas: [World Overview](/en/wiki/world-overview)
+The world progressively expands through engineering projects and trade pacts:
+
+1. **Oakhaven Valley & Town:** The starting hearth, home to the Eatery & Tavern, Boris's Forge, 4-season farmland, and the entrance to the 150-floor Mine.
+2. **The Dwarven Megalopolis Khaz-Drakor:** A subterranean empire powered by geothermal vents, steam engines, and master metalcraft.
+3. **The Ancient Canopy Sylva-Fae:** A thousand-year-old primordial forest inhabited by Moth-folk and ancient elves, guarding elder herbs and deep roots.
+4. **The Imperial Capital Solaria:** A sunlit, marble city masked by strict historical censorship, severe class divisions, and political decay.
+5. **The Cloud Realm Aethelgard:** A mythical archipelago drifting above the sky, where celestial spirits dwell and Grandmother Amalia's soul rests in serene peace.
+
+---
+
+## 4. The Narrative Climax: Bridging Past and Future
+
+At the heights of Aethelgard, Rowan lovingly re-creates Grandmother Amalia's signature dish. This moment signifies not only Rowan's triumph over imposter syndrome into a true culinary artisan, but also the realization of life's deepest purpose: *to live is to nurture, comfort, and love.*
+
+👉 See also: [40-Character Roster](/en/wiki/character-roster) · [World Overview](/en/wiki/world-overview) · [55 Eatery Recipes](/en/wiki/cooking-recipes-guide)

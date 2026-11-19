@@ -1,3 +1,13 @@
+# ⚠️ QUY TẮC BẮT BUỘC CHO AI AGENT (MANDATORY AGENT RULE)
+
+> **LUÔN ĐỌC GUIDE TRƯỚC KHI SỬA BẤT KỲ FILE NÀO (ALWAYS READ GUIDES BEFORE MODIFYING ANY FILES):**  
+> Trước khi thực hiện bất kỳ chỉnh sửa nội dung wiki, dữ liệu JSON nhân vật/địa điểm/vật phẩm, hoặc giao diện UI:
+> 1. Agent **BẮT BUỘC PHẢI ĐỌC** các tài liệu guide liên quan trong `docs/vi/` hoặc `docs/en/` (ví dụ: `lore-story.md`, `character-roster.md`, `gameplay-guide.md`).
+> 2. Đọc **[HUONG-DAN-SU-DUNG.md](file:///Users/macbook/Downloads/Rowan/rowan-of-oakhaven/HUONG-DAN-SU-DUNG.md) - Mục 7 (Bản đồ tài liệu)** bên repository game để đối chiếu tính nhất quán.
+> 3. Tuyệt đối tuân thủ định vị canon hiện tại: Quán Ăn & Nhà Trọ Oakhaven (Hearth Eatery & Tavern), 40 NPC với vết thương tâm lý đời thực, bối cảnh hậu chiến.
+
+---
+
 <!-- BEGIN:nextjs-agent-rules -->
 
 ## This is NOT the Next.js you know

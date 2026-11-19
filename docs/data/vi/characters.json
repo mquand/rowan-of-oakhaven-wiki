@@ -1044,7 +1044,10 @@
       ],
       "quote": "Ngón tay tôi kim châm buốt nhức vì dệt áo choàng dạ hội... Có loại trà nào hương nhài thoang thoảng làm dịu đôi bàn tay này không?",
       "birthday": "Ngày 5 Mùa Xuân",
-      "schedule": "Cả ngày: Trông nom nhà kính cổ tích Rừng Yêu Tinh Sylva-Fae"
+      "schedule": "Cả ngày: Trông nom nhà kính cổ tích Rừng Yêu Tinh Sylva-Fae",
+      "real_world_wound": "Hội chứng run tay sau nhiều năm kim chỉ không nghỉ; sợ mất đi đôi tay khéo léo và không thể dệt trang phục cho bạn bè.",
+      "comfort_dish": "tra_oai_huong_ngan_sao",
+      "heart_event_summary": "Rowan và Sylvan hợp sức tìm thảo dược giảm đau khớp; mở khóa các bộ trang phục giữ ấm mùa đông."
     },
     {
       "id": "npc_sylvan",
@@ -1060,7 +1063,10 @@
       ],
       "quote": "Rừng sâu đêm nay sương độc giăng dày... Ta mang cho cô ít rễ cây ngàn năm, đổi lấy tách trà trầm ấm bụng được chứ?",
       "birthday": "Ngày 24 Mùa Xuân",
-      "schedule": "Chiều & Tối: Tuần tra tán cây cổ thụ Sylva-Fae"
+      "schedule": "Chiều & Tối: Tuần tra tán cây cổ thụ Sylva-Fae",
+      "real_world_wound": "Ám ảnh thất bại vì không chữa khỏi đôi mắt mù của sư phụ Fern; luôn dằn vặt bản thân nghiên cứu chưa đủ sâu.",
+      "comfort_dish": "tea_sylvan_night_infusion",
+      "heart_event_summary": "Rowan cùng Sylvan thu hoạch thảo dược quý hiếm trên vách đá; mở khóa trạm chiết xuất tinh dầu tự nhiên."
     },
     {
       "id": "npc_marlo",
@@ -1093,7 +1099,7 @@
         "mat_ong"
       ],
       "quote": "Thuốc thang chỉ chữa được vết thương ngoài da... Người dân thị trấn cần những tách trà ấm của cô bé để xoa dịu nỗi muộn phiền hơn.",
-      "birthday": "Ngày 21 Mùa Hạ",
+      "birthday": "Ngày 22 Mùa Hạ",
       "schedule": "Sáng: Vườn ong mật Oakhaven; Chiều: Giao mật ong tươi cho tiệm",
       "real_world_wound": "Thất vọng trước sự thương mại hóa vô nhân đạo của ngành y kinh đô; trăn trở trước nghèo đói vùng biên viễn.",
       "comfort_dish": "tra_oai_huong_ngan_sao",
@@ -1112,7 +1118,10 @@
       ],
       "quote": "Mùi tỏi nướng bánh mì của tiệm bay sang tận lâu đài làm ta chóng mặt... Làm ơn cho ta một ly trà đỏ thẫm ngọt lịm để trấn tĩnh quý tộc!",
       "birthday": "Ngày 10 Mùa Đông",
-      "schedule": "Tuần tra quảng trường cẩm thạch Kinh Đô Ánh Sáng Solaria"
+      "schedule": "Ngày: Nghỉ ngơi trong lâu đài cổ; Đêm: Ghé quán ăn thưởng trà đỏ nóng",
+      "real_world_wound": "Bị gia tộc ma cà rồng quý tộc ruồng bỏ vì chọn lối sống ăn chay; cô độc chống chọi với bản năng để giữ gìn nhân tính.",
+      "comfort_dish": "tra_dau_bang_tuyet",
+      "heart_event_summary": "Rowan sáng chế các món tráng miệng đỏ mọng giả máu nhưng ngọt ngào; mở khóa trà tiệc đêm tại Lâu Đài Cổ."
     },
     {
       "id": "npc_kassandra",
@@ -1126,8 +1135,11 @@
         "gem_sapphire"
       ],
       "quote": "Chổi bay của ta sắp cạn ma lực giữa lưng chừng mây... Ngươi có loại trà nào hái từ sương đêm ngọn cây cổ thụ để ta nạp lại phép thuật không?",
-      "birthday": "Ngày 8 Mùa Thu",
-      "schedule": "Điều hành thương hội trù phú tại Kinh Đô Solaria"
+      "birthday": "Ngày 9 Mùa Thu",
+      "schedule": "Chu du lưng chừng mây, thu thập sương sớm trên các tầng cao",
+      "real_world_wound": "Bị Hội Pháp Sư Solaria trục xuất vì nghiên cứu ma pháp thứ dân; phiêu bạt lưu vong với chổi bay thường cạn kiệt ma lực.",
+      "comfort_dish": "tra_sen_an_than",
+      "heart_event_summary": "Rowan tiếp tế bữa ăn ấm nóng giúp Kassandra hồi phục pháp lực; mở khóa dịch vụ chuyển phát nhanh bằng chổi bay."
     },
     {
       "id": "npc_chrono",
@@ -1142,7 +1154,10 @@
       ],
       "quote": "Tích tắc... Bánh răng ngực trái đang phát ra tiếng kẹt kẹt... Cần bổ sung 200ml chất lỏng bôi trơn ấm nóng hương hoa cúc... Tích tắc...",
       "birthday": "Ngày 27 Mùa Đông",
-      "schedule": "Bên guồng máy đồng hồ vĩnh cửu tại Đô Thị Ngầm Khaz-Drakor"
+      "schedule": "Bên guồng máy đồng hồ vĩnh cửu tại Đô Thị Ngầm Khaz-Drakor",
+      "real_world_wound": "Bộ nhớ cổ xưa bị phân mảnh qua nghìn năm; lo sợ một ngày dây cót dừng lại vĩnh viễn và ký ức nền văn minh cũ sẽ tan biến.",
+      "comfort_dish": "khoai_tay_nuong_bo_toi",
+      "heart_event_summary": "Cogsworth và Rowan chế tạo dầu bôi trơn hoa cúc và lên dây cót vĩnh cửu; mở khóa hệ thống chuông báo giờ thị trấn."
     },
     {
       "id": "npc_lapis",
@@ -1157,7 +1172,10 @@
       ],
       "quote": "Dưới đáy biển cái gì cũng ướt sũng... Lần đầu tiên em được nếm chiếc bánh nướng giòn rụm tan trong miệng thế này, diệu kỳ quá đi!",
       "birthday": "Ngày 17 Mùa Hạ",
-      "schedule": "Khai thác tinh thể sâu trong lòng mỏ Khaz-Drakor"
+      "schedule": "Bơi lội giữa các hồ ngầm và suối nước nóng trên cao nguyên",
+      "real_world_wound": "Nỗi cô đơn dưới đáy biển sâu vắng lặng và sự tò mò vô tận về thế giới trên cạn; sợ bị kỳ thị vì là người cá.",
+      "comfort_dish": "pastry_berry_shortcake",
+      "heart_event_summary": "Rowan mang những đĩa bánh nướng giòn rụm ra bờ hồ cho Lapis; mở khóa giao thương ngọc trai và muối pha lê biển sương mù."
     },
     {
       "id": "npc_thorne",
@@ -1696,7 +1714,7 @@
         "dau_rung"
       ],
       "quote": "Mỗi khi một thân cây trong rừng chết vì Blight... tôi cảm thấy như ai đó cắt đi một ngón tay của mình.",
-      "birthday": "Ngày 1 Mùa Xuân",
+      "birthday": "Ngày 2 Mùa Xuân",
       "schedule": "Toàn thời gian: Trông nom miếu cổ và gốc Sồi Mẹ bìa rừng",
       "real_world_wound": "Nỗi đau chứng kiến thiên nhiên bị Star Blight ăn mòn; sợ rằng khi cây sồi mẹ khô héo, sự tồn tại của bản thân cũng tan biến.",
       "comfort_dish": "tra_sen_bach_diep",
@@ -2272,10 +2290,10 @@
         "da_tinh_the"
       ],
       "quote": "Các ngươi muốn ta đi à? Khỏi cần đuổi. Ta quen rồi. ...Nhưng con cáo bị thương ngoài cửa lều, để ta băng bó nó đã rồi đi.",
-      "birthday": "Ngày 31 Mùa Thu",
+      "birthday": "Ngày 27 Mùa Thu",
       "schedule": "Toàn thời gian: Lều Phù Thủy Đầm Lầy Tây; Đêm bão tuyết: Ghé Quán Ăn",
       "real_world_wound": "Bị kỳ thị và xua đuổi khắp nơi vì ngoại hình phù thủy hắc ám; tự cô lập để không ai có cơ hội làm tổn thương mình thêm nữa.",
-      "comfort_dish": "tea_frostmint_breeze",
+      "comfort_dish": "item_tea_frostmint_breeze",
       "heart_event_summary": "Tại 8 Tim: Cứu thị trấn khỏi đợt dịch độc và lần đầu nhận được lời cảm ơn chân thành; mở khóa Bàn Pha Chế Độc Dược & Thần Dược.",
       "gift_preferences": {
         "loved": [
