@@ -6,7 +6,10 @@
 > 2. Đọc **[OAKHAVEN_DESIGN_COMPENDIUM.md](./OAKHAVEN_DESIGN_COMPENDIUM.md)** để đối chiếu thông số chuẩn mực thiết kế (40 nhân vật, 55 công thức ẩm thực, 32 cây trồng, 150 tầng mỏ, 23 vũ khí, 5 địa danh).
 > 3. Khi cần đối chiếu tài liệu game engine gốc, tra cứu sang repository game: **`../rowan-of-oakhaven/HUONG-DAN-SU-DUNG.md` (Mục 7: Bản đồ tài liệu)** và **`../rowan-of-oakhaven/design/game-brief.md`**.
 > 4. Tuyệt đối tuân thủ định vị canon: Quán Ăn & Nhà Trọ Oakhaven (Hearth Eatery & Tavern), 40 NPC mang vết thương tâm lý đời thực, bối cảnh hậu chiến Solaria, hầm mỏ 150 tầng thuần Action RPG. Cấm sử dụng các thuật ngữ cũ đã bị loại bỏ (như dỗ dành quái bằng trà, tiệm trà bụi sao).
-> 5. **Đường dẫn luôn tương đối từ gốc repo** (`docs/...`, `src/...`). Tuyệt đối không hardcode đường dẫn tuyệt đối (`file:///Users/...`, `D:\...`, `C:\...`).
+> 5. **Hai quy tắc bắt buộc khi brainstorm & thiết kế (BẮT BUỘC):**
+>    - **Quy tắc Asset thực tế:** Luôn bám sát bài toán khả thi pixel art 2D Godot (phân cấp 3 tầng nhân vật Tier 1 Core, Tier 2 Dịch vụ, Tier 3 Quần chúng; dùng chung body rigs & emote bubbles, tránh phình to asset).
+>    - **Quy tắc Chống Văn Mẫu ChatGPT:** Cấm văn sáo rỗng, sến súa, tự sự self-help triết lý "chữa lành/hàn gắn tâm hồn". Nhân vật phải mộc mạc, thực tế, có tật xấu đời thường (cơm áo gạo tiền, đau nhức khớp, cằn nhằn, bảo thủ). Dark Cozy thể hiện qua hành động cụ thể, không dùng văn mẫu giáo điều.
+> 6. **Đường dẫn luôn tương đối từ gốc repo** (`docs/...`, `src/...`). Tuyệt đối không hardcode đường dẫn tuyệt đối (`file:///Users/...`, `D:\...`, `C:\...`).
 
 ---
 
@@ -53,6 +56,14 @@ Repository này hoạt động ở chế độ đa ngôn ngữ (`vi` và `en`). 
 - **Đối chiếu Design Compendium gốc (BẮT BUỘC):** Khi đối chiếu, sửa đổi hoặc thêm mới bất kỳ thành phần nào (nhân vật, cây trồng, khoáng sản, công thức món ăn, vũ khí, địa danh), BẮT BUỘC phải kiểm tra tài liệu chuẩn [OAKHAVEN_DESIGN_COMPENDIUM.md](./OAKHAVEN_DESIGN_COMPENDIUM.md).
 - **Rà soát điểm phụ thuộc:** Dùng `grep` tìm tất cả consumer/call-sites trước khi sửa. Sửa component phải kiểm tra cả `.module.scss` đi kèm.
 - **Phân biệt Server vs Client:** File có `'use client'` CẤM import `fs`, `path`, hoặc module Node.js.
+
+---
+
+## Quy chuẩn Viết Nội Dung & Lore Wiki (Anti-AI Cliché & Grounded Tone)
+
+- **Cấm văn sáo rỗng ChatGPT:** Tuyệt đối không dùng văn mẫu triết lý tâm lý học sến súa (*"chữa lành tâm hồn", "hàn gắn vết thương sâu kín", "ánh lên tia hy vọng", "tâm chấn cảm xúc"*).
+- **Mộc mạc & Đời thực:** Nhân vật và cốt truyện phải có gai góc, tật xấu đời thường, gắn liền với lo toan cơm áo gạo tiền, mùa màng, nhà dột, chuột cắn lúa, nợ quán, tính khí bộc trực/cộc cằn.
+- **Tiết kiệm Asset:** Bám sát cấu trúc 3 tầng NPC (Tier 1 Core 8-10, Tier 2 Dịch vụ 12-15, Tier 3 Quần chúng 15-18), không đặt ra các yêu cầu sprite/animation bất khả thi cho đội ngũ artist.
 
 ---
 

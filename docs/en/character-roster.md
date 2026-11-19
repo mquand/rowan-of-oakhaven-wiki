@@ -7,32 +7,57 @@ tags: [characters, npcs, lore, rowan, oakhaven, heart-events, narrative]
 spoiler: false
 ---
 
-# 👥 Character Roster, Real-world Lore & Heart Events
+# 👥 Character Roster, Real-world Lore & Heart Events (42 Characters)
 
 > **Game:** Rowan of Oakhaven  
-> **Narrative Philosophy:** Every inhabitant of Oakhaven is far more than a flat stereotype. Each carries a **real-world psychological wound**: the exhausting burden of caring for a dementia-stricken elder, unexpressed brotherly love trapped behind masculine stubbornness, the lingering survivor's guilt of wartime veterans, or an orphan's terror of abandonment. The hearty meals Rowan cooks at the Hearth Eatery serve as the emotional bridge that unlocks their vulnerabilities and initiates profound healing.
+> **Narrative Philosophy & Living Homestead:** Inhabitants of Oakhaven carry **grounded, everyday real-world struggles**: post-war scarcity, ruined crops from pests, cold-weather joint pain, unpaid tavern debts, or the disorientation of the displaced. The Hearth Homestead, with its crackling stone oven, warm crusty loaves, and steaming pots of stew, serves as the unpretentious sanctuary where neighbors find relief and solve tangible bread-and-butter difficulties together.
 
 ---
 
-## 1. Protagonist & Cherished Companions
+## 1. The Hearth Homestead Crew
 
-### 🌸 Rowan (Hearthkeeper & Frontier Delver)
-* **Role:** Player-controlled protagonist.
-* **Background:** A weary survivor of metropolitan burnout from the industrial capital of Solaria, where human beings were reduced to disposable cogs. Inheriting her late grandmother Amalia's weathered cottage, Rowan begins with empty hands: tilling stubborn soil, battling lethal horrors across 150 treacherous mine floors, and lighting the kitchen fire each night to nourish her frontier community.
-* **Inner Conflict:** Imposter Syndrome — haunted by the dread that she is merely running away from failure and unworthy of her grandmother's towering culinary legacy.
+### 🌸 Rowan (Homestead Master, Master Cook & Frontier Delver)
+* **Role:** Player-controlled protagonist. Full gameplay freedom: cultivate 32 crops, explore 150 action-packed mine floors, or forage and fish wild waterways.
+* **Master of the Kitchen:** Rowan maintains 100% ownership over all 55 cooking recipes. Food functions as vital expedition buffs and passive income sold via the honor pantry and shipping bin.
+* **Background:** Weary survivor of burnout from the industrial capital of Solaria. Inheriting Grandmother Amalia's overgrown, stony homestead, Rowan starts from scratch to rebuild a thriving frontier life.
+* **Inner Conflict:** Imposter Syndrome — wrestling with the fear of inadequacy while restoring her ancestral homestead.
+
+### 📜 Barnaby (Estate Steward & Lodging Caretaker)
+* **Role:** Manages the attic bunkhouse, estate cashbox, and shipping ledger. Uses the Old Man Rig.
+* **Grounded Background:** Aging Solarian military quartermaster discharged after the war. With his hometown devastated, he drifted to Oakhaven working as a poorly paid scribe, enduring poverty and the haunting terror of being an obsolete elder discarded by society.
+* **How to Unlock:** Repair the leaky roof and the upstairs bunkhouse. Rowan hires Barnaby as estate steward in exchange for a warm room and three daily hot meals.
+* **Everyday Quirks:** Wire-rimmed spectacles tied with cord, clutching a battered leather ledger; obsessively hates mess and mud (scolding Rowan whenever muddy mining boots step inside); drinks bitter dregs of black tea at 05:30 and obsessively recounts copper coin stacks before bed.
+* **Heart Events & Utility:**
+  - *Default:* Automatically collects weekly guest lodging rent (Passive Rent) every Monday morning; leaves daily profit/loss ledger on Rowan's study desk.
+  - *2 Hearts:* Negotiates 10% timber and stone cost reductions on all homestead building upgrades.
+  - *4 Hearts:* Plans the expansion of 2 additional attic guest rooms, doubling lodging capacity and passive rental income.
+  - *6 Hearts:* Provides daily Market Price Forecasts, signaling which crops or minerals are currently surging in market demand.
+  - *8 Hearts (Homestead Vault):* Automates town fund savings yielding 3% weekly interest and automatically requisitions winter firewood reserves.
+
+### 🪓 Colm (Homestead Hand, Logistics & Deep Mine Rescue)
+* **Role:** Handles heavy chores, woodcutting, flour milling, dairy collection, and emergency mine rescue. Uses the Adult Male Rig.
+* **Grounded Background:** War orphan blessed with great physical strength but awkward hands; worked as an exploited quarry laborer before getting pinned by a rockfall on Mine Floor 15.
+* **How to Unlock:** Rowan rescues Colm from Floor 15 and nurses him back to health with a warm meal. Overcome with gratitude, Colm offers his brawn to the homestead in exchange for a workshop cot and daily meals.
+* **Everyday Quirks:** Muscular arms coated in sawdust and soot, hollow-legged appetite, blunt-spoken but fiercely loyal; hopeless at cooking (once blew up a cast-iron pot boiling eggs), but will fell fifty logs or carry a rescue stretcher without hesitation; loves sharing warm crusty bread with Rowan at dusk.
+* **Heart Events & Utility:**
+  - *Default:* Keeps the kitchen firewood racks stacked with seasoned timber; leaves 5 freshly whittled delve torches at the doorway each morning.
+  - *2 Hearts:* Crafts Rowan an Adventurer's Backpack expansion (+6 mine inventory slots).
+  - *4 Hearts (Automated Prep):* Automatically mills harvested wheat into fine flour and collects daily coop eggs and goat milk into cold storage.
+  - *6 Hearts (Mine Rescue Guarantee):* If Rowan falls in combat anywhere in the 150 mine floors, Colm races down with a stretcher to haul her home safely $\rightarrow$ retains 100% of equipment and rare ores without item loss.
+  - *8 Hearts (Deep Delve Cache):* Stashes emergency supply chests (healing salves, flares, mining bombs) at safe-floor shelters (Floors 50 & 100).
 
 ### 🦉 Pip (Pygmy Owl Messenger)
 * **Role:** Static morning mail courier & rare seed forager.
 * **Behavior:** Perches loyally on the mailbox post at dawn. Does not follow Rowan into the wilderness. Delivers letters, town bulletin notices, and mysterious wild seeds gathered from the Whisperwood glades.
 
 ### 🐱 Mallow (Calico Hearth Familiar)
-* **Role:** Eatery guardian & cozy companion.
-* **Gameplay Mechanic (Lucky Hearth Buff):** When curled up asleep beside the tavern fireplace, activates the passive *"Lucky Hearth"* buff: reduces dish burning probability by 15% and increases dining patron gold tips by 10%.
-* **Behavior:** Sought shelter beside the tavern hearth during a stormy gale and claimed it as home. Naps peacefully on the wooden counter and rubs affectionately against dining patrons.
+* **Role:** Homestead familiar & fireplace companion.
+* **Gameplay Mechanic (Lucky Hearth Buff):** When curled up asleep beside the homestead fireplace, activates the passive *"Lucky Hearth"* buff: reduces dish burning probability by 15% and increases patron gold tips by 10%.
+* **Behavior:** Sought shelter beside the hearth during a stormy gale and claimed it as home. Naps peacefully on the counter and rubs affectionately against lodging guests.
 
 ### 👵 Grandmother Amalia (Guiding Legacy & Spirit)
 * **Role:** Late culinary artisan whose handwritten grimoire guides Rowan.
-* **Core Philosophy:** *"Cooking is not about showing off technical virtuosity; it is about making the soul who eats your meal feel that they are worthy of living and being loved."*
+* **Core Philosophy:** *"Cooking is not about showing off technical virtuosity; it is about sustaining the living so they have the strength to stand tall again tomorrow."*
 
 ---
 

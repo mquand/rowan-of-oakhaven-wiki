@@ -2492,6 +2492,187 @@
           ]
         }
       }
+    },
+    {
+      "id": "npc_barnaby",
+      "name": "Bác Quản Gia Barnaby",
+      "role": "Quản Gia Sổ Sách & Nhà Trọ Điền Trang",
+      "location": "Điền Trang The Hearth (Bàn Làm Việc & Phòng Trọ Áp Mái)",
+      "species": "Human (Cựu Thủ Kho Quân Nhu)",
+      "description": "Cựu thủ kho quân nhu Solaria già nua, mắt đeo kính lão buộc dây dù, tay luôn cắp cuốn sổ da sứt góc. Được Rowan thuê về quản lý dãy phòng trọ áp mái, hòm xuất khẩu và sổ sách chi tiêu của Điền trang.",
+      "favorite_items": [
+        "tra_thao_moc_rung",
+        "bread_brioche",
+        "ruou_trai_cay_len_men"
+      ],
+      "quote": "Cậu chủ lại mang nửa cái hầm mỏ về nhà rồi đấy! Đi chùi ủng vào cái thảm rơm ngoài cửa mau lên rồi hẵng bước vào.",
+      "birthday": "Ngày 24 Mùa Thu",
+      "schedule": "Sáng sớm: Pha trà đen, quét dọn phòng trọ; 08:00: Kê khai sổ sách hòm xuất khẩu; Chiều: Đón khách thuê phòng; Tối: Đếm tiền và khóa cổng",
+      "real_world_wound": "Chiến tranh phá hủy toàn bộ tài sản quê hương; nỗi đau thất nghiệp của người già neo đơn sợ mình trở thành gánh nặng thừa thãi của xã hội.",
+      "comfort_dish": "tra_thao_moc_rung",
+      "heart_event_summary": "Tự động thu tiền phòng trọ; giảm 10% chi phí vật tư nâng cấp điền trang (2 Tim); mở thêm 2 phòng trọ áp mái mới (4 Tim); bản tin dự báo thị trường nông sản sốt giá (6 Tim); két sắt điền trang sinh lãi 3%/tuần (8 Tim).",
+      "gift_preferences": {
+        "loved": [
+          "tra_thao_moc_rung",
+          "bread_brioche",
+          "ruou_trai_cay_len_men"
+        ],
+        "liked": [
+          "ore_iron",
+          "wood_pine",
+          "qua_mong_rung"
+        ],
+        "disliked": [
+          "rac_ruoi",
+          "co_dai",
+          "bun_dat"
+        ],
+        "hated": [
+          "mon_an_hong",
+          "ca_uon"
+        ]
+      },
+      "schedules": {
+        "default": {
+          "sunny": [
+            {
+              "time": "05:30",
+              "location": "Góc Bếp The Hearth",
+              "activity": "Pha một ấm trà đen đặc cặn và ngồi đếm lại cọc tiền xu"
+            },
+            {
+              "time": "08:00",
+              "location": "Bàn Làm Việc Điền Trang",
+              "activity": "Ghi chép sổ sách thu chi từ hòm xuất khẩu tối qua"
+            },
+            {
+              "time": "13:00",
+              "location": "Dãy Phòng Trọ Áp Mái",
+              "activity": "Dọn dẹp chăn chiếu và kiểm tra khóa cửa phòng trọ"
+            },
+            {
+              "time": "17:00",
+              "location": "Hiên Trước The Hearth",
+              "activity": "Đón khách thương buôn vãng lai vào thuê phòng trọ qua đêm"
+            },
+            {
+              "time": "22:00",
+              "location": "Cửa Chính Điền Trang",
+              "activity": "Khóa chốt cổng cẩn thận và thắp đèn lồng đêm"
+            }
+          ],
+          "rainy": [
+            {
+              "time": "07:00",
+              "location": "Bàn Làm Việc Điền Trang",
+              "activity": "Kê lại danh mục vật tư cần sửa chữa mái dột ngày mưa"
+            },
+            {
+              "time": "14:00",
+              "location": "Góc Lò Sưởi The Hearth",
+              "activity": "Nhâm nhi trà nóng, lau kính lão và đọc sổ địa bạ"
+            },
+            {
+              "time": "20:00",
+              "location": "Dãy Phòng Trọ Áp Mái",
+              "activity": "Kiểm tra xem phòng khách thuê có bị tạt nước mưa không"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "npc_colm",
+      "name": "Cậu Phụ Tá Colm",
+      "role": "Phụ Tá Hậu Cần, Sơ Chế Nguyên Liệu & Cứu Hộ Hầm Mỏ",
+      "location": "Điền Trang The Hearth (Sân Sau & Xưởng Chế Tác)",
+      "species": "Human (Phu Đập Đá Mồ Côi)",
+      "description": "Thanh niên to con khỏe khoắn mồ côi thời chiến, bắp tay cuồn cuộn dính mùn cưa và tro than. Được Rowan cứu mạng tại Tầng 15 Hầm Mỏ, xin về phụ việc nặng nhọc: chẻ củi đốt lò, xay bột mì, nhặt trứng sữa và cứu hộ khẩn cấp.",
+      "favorite_items": [
+        "thit_nuong_lua_dia_nguc",
+        "bit_tet_nuong_than_soi",
+        "ore_iron"
+      ],
+      "quote": "Bảo em nấu ăn thì em làm nổ nồi gang mất, nhưng bảo em chẻ 50 khúc củi hay vác anh từ đáy mỏ lên thì cứ để em lo!",
+      "birthday": "Ngày 8 Mùa Hè",
+      "schedule": "Sáng sớm: Chẻ củi sân sau, chất đầy hộc bếp; 09:00: Xay bột mì, nhặt trứng, vắt sữa dê; Chiều: Vót đuốc và mài cuốc dã ngoại; Tối: Quét dọn chuồng trại",
+      "real_world_wound": "Mất gia đình trong chiến loạn, sống vạ vật làm thuê làm mướn bị chủ quịt lương; luôn khao khát một mái ấm thực sự và người tin tưởng mình.",
+      "comfort_dish": "thit_nuong_lua_dia_nguc",
+      "heart_event_summary": "Tặng ba lô dã chiến tăng 6 ô chứa đồ (2 Tim); tự động xay bột mì & gom sữa trứng (4 Tim); cứu hộ hầm mỏ không bị mất đồ (6 Tim); rương tiếp tế khẩn cấp tại Tầng 50 và 100 (8 Tim).",
+      "gift_preferences": {
+        "loved": [
+          "thit_nuong_lua_dia_nguc",
+          "bit_tet_nuong_than_soi",
+          "ore_iron"
+        ],
+        "liked": [
+          "ore_copper",
+          "wood_hardwood",
+          "bread_brioche"
+        ],
+        "disliked": [
+          "tra_sen_an_than",
+          "rau_cai_luoc",
+          "sach_cu"
+        ],
+        "hated": [
+          "rac_ruoi",
+          "thuoc_doc"
+        ]
+      },
+      "schedules": {
+        "default": {
+          "sunny": [
+            {
+              "time": "06:00",
+              "location": "Sân Sau The Hearth",
+              "activity": "Bổ củi gỗ thông chan chát và xếp gọn vào giá củi cạnh bếp"
+            },
+            {
+              "time": "09:00",
+              "location": "Cối Xay & Kho Thóc",
+              "activity": "Vác lúa mì vào cối đá xay thành bột mịn cho Rowan nấu ăn"
+            },
+            {
+              "time": "13:00",
+              "location": "Xưởng Chế Tác Ngoài Sân",
+              "activity": "Vót đuốc mỏ dã ngoại và mài sắc lưỡi cuốc đặt lên bàn tiếp tế"
+            },
+            {
+              "time": "18:00",
+              "location": "Bàn Ăn Gian Bếp The Hearth",
+              "activity": "Ăn ngấu nghiến đĩa thịt hầm nóng hổi cùng Rowan"
+            },
+            {
+              "time": "21:00",
+              "location": "Chuồng Dê & Cừu Điền Trang",
+              "activity": "Kiểm tra rơm lót chuồng và chốt then cài trước khi đi ngủ"
+            }
+          ],
+          "rainy": [
+            {
+              "time": "07:00",
+              "location": "Hiên Sau Nhà Kho",
+              "activity": "Chẻ củi dưới mái che hiên để củi không bị ẩm nước mưa"
+            },
+            {
+              "time": "11:00",
+              "location": "Kho Thóc Điền Trang",
+              "activity": "Kiểm tra bao bột mì và đậy nắp thùng ngâm ngô"
+            },
+            {
+              "time": "16:00",
+              "location": "Xưởng Cơ Khí",
+              "activity": "Bôi dầu mỡ chống gỉ sét cho các khớp bàn đe và dụng cụ"
+            },
+            {
+              "time": "20:00",
+              "location": "Bếp Lò Sưởi The Hearth",
+              "activity": "Ngồi sưởi ấm, phụ Rowan bê nồi gang vào góc chạn"
+            }
+          ]
+        }
+      }
     }
   ]
 }

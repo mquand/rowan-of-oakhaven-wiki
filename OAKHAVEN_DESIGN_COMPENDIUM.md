@@ -186,17 +186,18 @@ Thế giới game mở rộng dựa trên **Khôi Phục Đại Công Trình Th�
 
 ---
 
-## 9. Kinh Doanh Quán Ăn, Nhà Trọ Tầng 2 & Khế Ước Thương Mại
+## 9. Đại Bản Doanh Điền Trang Oakhaven (The Frontier Homestead), Nhà Trọ Áp Mái & Lối Chơi Tự Do
 
-### 9.1. Quán Ăn Oakhaven (The Hearth Eatery)
-- Lật biển `[OPEN] / [CLOSED]` tự do mỗi ngày.
-- **Khách Mua Mang Đi (Takeaway):** Ghé quầy mua đồ ăn nhanh đóng gói sẵn, thanh toán tiền tươi tức thì.
-- **Khách Ngồi Ăn Tại Bàn (Dine-in):** Thực khách ngồi gọi món phức tạp, trả thêm tiền tip và chia sẻ thông tin manh mối vùng đất.
+### 9.1. Tự Do Lối Chơi Tuyệt Đối (Player Freedom Sandbox)
+- **Không Gò Bó Giờ Giấc (No Mandatory Shifts):** Rowan không bị xích chân vào ca làm việc chạy bàn (không áp lực Diner Dash). Người chơi hoàn toàn tự do phân bổ thời gian: cày 150 tầng mỏ, canh tác 32 giống cây, câu cá ven sông hồ, hoặc chế tác máy móc.
+- **Quyền Làm Chủ Căn Bếp (Master of the Kitchen):** Rowan sở hữu và làm chủ 100% việc sáng tạo 55 món ăn. Thức ăn phục vụ 2 mục đích chính:
+  1. **Lương thực dã ngoại & Buff chiến đấu:** Mang theo ba lô để hồi máu, tăng công, tăng thủ, kháng độc khi khám phá mỏ sâu.
+  2. **Bán buôn thụ động (Passive Sales):** Thức ăn thừa được đặt lên **Quầy Tự Phục Vụ (Honor Pantry)** hoặc quẳng vào **Hòm Xuất Khẩu (Shipping Bin)** trước cổng. Tiền tự động cộng vào túi mà người chơi không cần đứng bưng bê.
 
-### 9.2. Dịch Vụ Cho Thuê Phòng Trọ (The Hearth Inn)
-- Tầng 2 có 3 đến 5 phòng cho khách vãng lai, thương nhân hoặc hiệp sĩ lữ hành thuê trọ qua đêm.
-- Tự động cộng tiền phòng vào ví mỗi sáng lúc 6:00 AM.
-- Khách thuê trọ sẽ xuống ăn điểm tâm sáng tại quán với giá tiền gấp 1.5 lần thực khách thông thường.
+### 9.2. Dãy Phòng Trọ Áp Mái & Nhân Sự Điền Trang (The Bunkhouse & Staff)
+- **Cơ chế Phòng Trọ Áp Mái:** Có 3 đến 5 phòng cho khách thám hiểm vãng lai, thương nhân thuê qua đêm.
+- **Bác Quản Gia Barnaby:** Tự động thu tiền trọ (Passive Rent) mỗi sáng Thứ Hai, kê khai sổ sách lời lỗ hòm xuất khẩu, đàm phán giảm chi phí nâng cấp công trình.
+- **Cậu Phụ Tá Colm:** Chẻ củi đầy hộc bếp, xay lúa mì thành bột mịn, gom trứng sữa vào kho lạnh, vót sẵn đuốc dã ngoại và cứu hộ mỏ sâu an toàn (không mất đồ khi ngất).
 
 ### 9.3. Đầu Tư Thương Mại & Tái Thiết Thị Trấn
 - Bảng Nhiệm Vụ Hiệp Hội & Bảng Tái Thiết Thị Trấn: Đóng góp vật liệu sửa Cối Xay Gió, Đèn Đường, Trạm Xá.
@@ -205,37 +206,39 @@ Thế giới game mở rộng dựa trên **Khôi Phục Đại Công Trình Th�
 
 ---
 
-## 10. Hồ Sơ Tâm Lý, Chiều Sâu Nhân Vật & Tuyến Nhiệm Vụ Trái Tim (NPC Narrative Lore & Heart Events)
+## 10. Hồ Sơ Tâm Lý, Chiều Sâu 42 Nhân Vật & Tuyến Nhiệm Vụ Trái Tim (NPC Narrative Lore & Heart Events)
 
-### 10.1. Triết Lý Xây Dựng: "Vết Nứt Đời Thực & Hơi Ấm Gian Bếp"
-Mỗi cư dân Oakhaven không phải NPC rập khuôn vô hồn, mà mang một **vết nứt tâm lý đời thực** (Real-world trauma & flaw): gánh nặng phụng dưỡng cha mẹ già sa sút trí nhớ, bất đồng ngôn ngữ tình cảm giữa hai anh em ruột, mặc cảm tội lỗi của cựu binh sống sót, hay nỗi cô đơn của đứa trẻ mồ côi sợ bị vứt bỏ. Món ăn Rowan nấu là chìa khóa mở khóa tâm can họ.
+### 10.1. Triết Lý Xây Dựng: "Vết Nứt Đời Thực & Sự Ấm Áp Mộc Mạc"
+Mỗi cư dân Oakhaven không phải NPC rập khuôn vô hồn, mà mang một **vết nứt đời thực mộc mạc**: gánh nặng mưu sinh sau chiến tranh, chuột cắn mùa màng, đau khớp khi trời lạnh, nợ tiền quán rượu hay nỗi hoang mang của kẻ tha hương. Mâm cơm nóng và ổ bánh nướng giòn rụm của Rowan là cầu nối gắn kết, giải quyết những khó khăn cơm áo gạo tiền rất cụ thể.
 
-### 10.2. Mạng Lưới Nhân Vật & Vết Thương Đời Thực
-1. **Rowan (Chủ Tiệm & Thợ Lặn Mỏ):** Người trẻ kiệt quệ (burnout) trốn chạy cuộc sống tư bản vô cảm kinh đô, mang hội chứng kẻ giả mạo (Imposter Syndrome) trước di sản của người bà. Trưởng thành qua từng nhát cuốc khai hoang và ngọn lửa lò bếp.
-2. **Bà Ngoại Amalia (Di sản & Linh hồn dẫn lối):** Biểu tượng người phụ nữ gom yêu thương vào mâm cơm. Từng ở lại cứu thị trấn trong nạn đói. Lời dặn: *"Nấu ăn là để người ta cảm thấy mình xứng đáng được sống và được yêu thương."*
-3. **Cặp Anh Em Nhà Lùn Boris & Bram Barnaby (Mâu Thuẫn Anh Em Ruột):**
+### 10.2. Mạng Lưới 42 Nhân Vật & Vết Thương Đời Thực
+1. **Rowan (Chủ Điền Trang, Master Cook & Thợ Săn Mỏ):** Người trẻ kiệt quệ (burnout) trốn chạy cuộc sống vô cảm kinh đô, mang hội chứng kẻ giả mạo (Imposter Syndrome). Tự tay làm chủ 100% căn bếp 55 món, vừa cuốc đất khai hoang vừa săn quặng 150 tầng mỏ.
+2. **Bác Quản Gia Barnaby (Quản Gia Sổ Sách & Dãy Phòng Trọ):** Cựu thủ kho quân nhu giải ngũ nghèo túng, sợ mình thành gánh nặng thừa thãi; quản lý phòng trọ áp mái, thu tiền trọ tự động, dự báo thị trường sốt giá và quản lý két sắt điền trang sinh lãi 3%/tuần.
+3. **Cậu Phụ Tá Colm (Hậu Cần, Sơ Chế & Cứu Hộ Mỏ Sâu):** Trẻ mồ côi làm thuê bị quịt lương, được Rowan cứu ở Tầng 15 mỏ; chẻ củi, xay bột mì, gom sữa trứng tự động, cứu nạn mỏ sâu giữ nguyên 100% trang bị quặng quý.
+4. **Bà Ngoại Amalia (Di sản & Linh hồn dẫn lối):** Biểu tượng người phụ nữ gom yêu thương vào mâm cơm. Từng ở lại cứu thị trấn trong nạn đói. Lời dặn: *"Nấu ăn là để người ta có sức sống sót và tiếp tục vững vàng ngày mai."*
+5. **Cặp Anh Em Nhà Lùn Boris & Bram Barnaby (Mâu Thuẫn Anh Em Ruột):**
    - *Boris (Thợ rèn):* Dằn vặt 10 năm sau vụ sập mỏ khiến em trai Bram tàn tật; bao bọc thái quá vì sợ mất em.
    - *Bram (Thợ mỏ tầng sâu):* Tự ái vì bị xem là kẻ phế nhân thương hại; liều mạng xuống mỏ sâu chứng minh giá trị.
    - *Hàn gắn (8 Tim):* Nồi súp bò củ dền *Dwarf Ironforge Goulash* và bức thư di sản của người mẹ mở khóa **Trạm Tinh Luyện Cao Cấp** (rút ngắn thời gian đúc quặng, tăng tỷ lệ ngọc quý).
-4. **Bà Cụ Maeve & Cậu Bé Bán Diêm Kael (Tình Thân Không Cùng Máu Mủ):**
+6. **Bà Cụ Maeve & Cậu Bé Bán Diêm Kael (Tình Thân Không Cùng Máu Mủ):**
    - *Bà Maeve:* Người làm vườn già thoái hóa khớp nặng, nén đau chắt chiu từng đồng tiền thuốc để dành cho tương lai của Kael.
    - *Kael:* Trẻ mồ côi từng bán diêm co ro trong bão tuyết, sợ bị bỏ rơi lần nữa nên làm việc kiệt sức để chứng minh bản thân hữu ích.
    - *Hàn gắn (8 Tim):* *Súp Bí Đỏ Hạt Sen* và bánh sinh nhật bảy màu; Kael tiếp quản và mở khóa **Vườn Ươm Cây Giống Bốn Mùa**.
-5. **Hiệp Hội Mạo Hiểm: Hội Trưởng Thorne & Điều Phối Viên Valerie (Dư Chấn Chiến Trường PTSD):**
+7. **Hiệp Hội Mạo Hiểm: Hội Trưởng Thorne & Điều Phối Viên Valerie (Dư Chấn Chiến Trường PTSD):**
    - *Thorne:* Cựu chỉ huy cấm vệ quân mang chân giả, mất 18 đồng đội dưới hầm sâu; lập trạm cứu hộ thề "không bỏ rơi ai trong bóng tối".
    - *Valerie:* Cung thủ bắn tỉa giải ngũ vì mất thính lực một bên tai và chứng sợ tiếng nổ lớn (PTSD); quản lý kho đồ thất lạc (Lost & Found).
    - *Hàn gắn (8 Tim):* Cơm hộp dã chiến tiếp tế và *Súp Nấm Tuyết Sườn Non*; giảm 50% phí cứu nạn và mở khóa **Đội Biệt Kích Cứu Hộ Hầm Sâu**.
-6. **Cha Con Đài Thiên Văn: Giáo Sư Orion & Thủ Thư Clara (Chăm Sóc Cha Già Sa Sút Trí Nhớ):**
+8. **Cha Con Đài Thiên Văn: Giáo Sư Orion & Thủ Thư Clara (Chăm Sóc Cha Già Sa Sút Trí Nhớ):**
    - *Giáo sư Orion:* Mắc chứng sa sút trí tuệ (Alzheimer), tuyệt vọng thức trắng đêm tìm vì sao mang tên người vợ quá cố Elise trước khi trí nhớ tan biến.
    - *Clara:* Kiệt sức vì chăm cha già (Caregiver Burnout), xé nát thư trúng tuyển đại học danh giá kinh đô để ở lại Oakhaven phụng dưỡng cha.
    - *Hàn gắn (8 Tim):* *Bánh Tart Việt Quất Tinh Cầu* và Trà Bá Tước Hoa Nhài; Thư viện mở khóa **Kho Lưu Trữ Công Thức Cổ Đại**.
-7. **Thuyền Trưởng Garrick & Cậu Bé Finn:** Lão hoa tiêu già mù màu mặc cảm "khúc gỗ mục mắc cạn" và đứa cháu trai ngày đêm câu cá sao gom tiền chuộc lại chiếc la bàn báu vật cho ông.
-8. **Lumi (Tinh Linh Cáo Tuyết Kemomimi-Elf):** Sinh linh lai bị cả người thú và tinh linh xa lánh; tìm thấy sự an toàn tuyệt đối bên tách *Trà Sen An Thần* và chiếc bánh bột gạo hấp của Rowan.
-9. **Aurelia (Dược Sĩ) & Marlo (Hiệp Sĩ Ca Đêm):** Aurelia trăn trở lý tưởng y đức trước nghèo đói; Marlo hy sinh giấc ngủ và sức khỏe gửi 90% lương về quê nuôi 4 đứa em thơ.
+9. **Thuyền Trưởng Garrick & Cậu Bé Finn:** Lão hoa tiêu già mù màu mặc cảm "khúc gỗ mục mắc cạn" và đứa cháu trai ngày đêm câu cá sao gom tiền chuộc lại chiếc la bàn báu vật cho ông.
+10. **Lumi (Tinh Linh Cáo Tuyết Kemomimi-Elf):** Sinh linh lai bị cả người thú và tinh linh xa lánh; tìm thấy sự an toàn tuyệt đối bên tách *Trà Sen An Thần* và chiếc bánh bột gạo hấp của Rowan.
+11. **Aurelia (Dược Sĩ) & Marlo (Hiệp Sĩ Ca Đêm):** Aurelia trăn trở lý tưởng y đức trước nghèo đói; Marlo hy sinh giấc ngủ và sức khỏe gửi 90% lương về quê nuôi 4 đứa em thơ.
 
-### 10.3. Cơ Chế Bữa Ăn Chữa Lành Tối (The Nightly Hearthside Service)
-- Mỗi tối cư dân ghé tiệm ăn mang theo tâm trạng và khúc mắc riêng.
-- Nếu Rowan phục vụ đúng món ăn "Ký ức & Chữa lành" phù hợp tâm trạng của họ:
+### 10.3. Cơ Chế Bữa Ăn Kết Nối Tối (The Nightly Hearthside Service)
+- Mỗi tối cư dân ghé Điền trang mang theo tâm trạng và khúc mắc đời thường.
+- Nếu Rowan phục vụ đúng món ăn "Ký ức & Đồng điệu" phù hợp tâm trạng của họ:
   - Điểm thân mật tăng gấp 3 lần.
-  - Kích hoạt các đoạn độc thoại tâm sự chạm đáy cảm xúc.
+  - Kích hoạt các đoạn độc thoại mộc mạc, giải tỏa gánh nặng tâm lý.
   - Sau sự kiện 8 Tim, nhân vật sẽ tặng Rowan công thức gia truyền hoặc mở khóa tiện ích dịch vụ vĩnh viễn cho thị trấn.

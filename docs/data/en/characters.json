@@ -2492,6 +2492,187 @@
           ]
         }
       }
+    },
+    {
+      "id": "npc_barnaby",
+      "name": "Barnaby",
+      "role": "Estate Steward & Lodging Caretaker",
+      "location": "The Hearth Homestead (Desk & Bunkhouse)",
+      "species": "Human (Former Quartermaster)",
+      "description": "An aging, meticulous retired Solarian military quartermaster with wire-rimmed spectacles tied with cord, carrying a worn leather ledger. Hired by Rowan to manage the attic bunkhouse, shipping ledger, and estate finances.",
+      "favorite_items": [
+        "tra_thao_moc_rung",
+        "bread_brioche",
+        "ruou_trai_cay_len_men"
+      ],
+      "quote": "Master Rowan, you have dragged half the mine indoors again! Wipe your boots on the straw mat before stepping inside.",
+      "birthday": "Fall 24",
+      "schedule": "Early: Brews dark tea, cleans bunkhouse; 08:00: Balances shipping ledger; Afternoon: Welcomes travelers; Evening: Counts coins and locks gates",
+      "real_world_wound": "War destroyed his ancestral home; the painful isolation of an aging veteran fearing he is obsolete and an unwelcome burden.",
+      "comfort_dish": "tra_thao_moc_rung",
+      "heart_event_summary": "Automates lodging rent collection; -10% building upgrade costs (2H); unlocks 2 new attic guest rooms (4H); market price forecast ledger (6H); homestead vault yielding 3% weekly interest (8H).",
+      "gift_preferences": {
+        "loved": [
+          "tra_thao_moc_rung",
+          "bread_brioche",
+          "ruou_trai_cay_len_men"
+        ],
+        "liked": [
+          "ore_iron",
+          "wood_pine",
+          "qua_mong_rung"
+        ],
+        "disliked": [
+          "rac_ruoi",
+          "co_dai",
+          "bun_dat"
+        ],
+        "hated": [
+          "mon_an_hong",
+          "ca_uon"
+        ]
+      },
+      "schedules": {
+        "default": {
+          "sunny": [
+            {
+              "time": "05:30",
+              "location": "The Hearth Kitchen",
+              "activity": "Brews a pot of bitter black tea and recounts copper coin stacks"
+            },
+            {
+              "time": "08:00",
+              "location": "Homestead Study Desk",
+              "activity": "Logs daily revenues and export receipts from last night's shipment"
+            },
+            {
+              "time": "13:00",
+              "location": "Attic Bunkhouse",
+              "activity": "Tidies traveler linens and inspects bedroom door latches"
+            },
+            {
+              "time": "17:00",
+              "location": "The Hearth Front Porch",
+              "activity": "Welcomes traveling merchants and miners checking in for the night"
+            },
+            {
+              "time": "22:00",
+              "location": "Homestead Main Gate",
+              "activity": "Locks the heavy timber gate and trims night lanterns"
+            }
+          ],
+          "rainy": [
+            {
+              "time": "07:00",
+              "location": "Homestead Study Desk",
+              "activity": "Drafts emergency requisition list for roof leaks on rainy days"
+            },
+            {
+              "time": "14:00",
+              "location": "Great Hearthstone Nook",
+              "activity": "Sips hot tea by the fire, polishes spectacles, and reads land registers"
+            },
+            {
+              "time": "20:00",
+              "location": "Attic Bunkhouse",
+              "activity": "Checks upstairs rooms to ensure rain isn't seeping through shingles"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "npc_colm",
+      "name": "Colm",
+      "role": "Homestead Hand, Logistics & Deep Mine Rescue",
+      "location": "The Hearth Homestead (Backyard & Workshop)",
+      "species": "Human (Orphaned Quarry Hand)",
+      "description": "A sturdy, hardworking orphaned youth with sawdust and soot on his arms. Rescued by Rowan from a rockfall at Floor 15 of the Mines; now loyally handles heavy estate chores: chopping firewood, milling flour, collecting dairy, and emergency rescue.",
+      "favorite_items": [
+        "thit_nuong_lua_dia_nguc",
+        "bit_tet_nuong_than_soi",
+        "ore_iron"
+      ],
+      "quote": "Ask me to cook and I'll blow up the cast-iron pot, but tell me to chop fifty logs or haul you out of the mines, and I'm your man!",
+      "birthday": "Summer 8",
+      "schedule": "Early: Chops pine logs, fills kitchen racks; 09:00: Mills flour, collects eggs/milk; Afternoon: Carves torches & sharpens pickaxes; Evening: Cleans pens & workshop",
+      "real_world_wound": "Lost his family during the war, exploited as cheap quarry labor without pay; craves a real home and someone who genuinely trusts him.",
+      "comfort_dish": "thit_nuong_lua_dia_nguc",
+      "heart_event_summary": "Gifts sturdy adventurer backpack (+6 inventory slots) (2H); automates flour milling & barn collection (4H); mine rescue guarantee saving all loot (6H); emergency supply chests at Floors 50 & 100 (8H).",
+      "gift_preferences": {
+        "loved": [
+          "thit_nuong_lua_dia_nguc",
+          "bit_tet_nuong_than_soi",
+          "ore_iron"
+        ],
+        "liked": [
+          "ore_copper",
+          "wood_hardwood",
+          "bread_brioche"
+        ],
+        "disliked": [
+          "tra_sen_an_than",
+          "rau_cai_luoc",
+          "sach_cu"
+        ],
+        "hated": [
+          "rac_ruoi",
+          "thuoc_doc"
+        ]
+      },
+      "schedules": {
+        "default": {
+          "sunny": [
+            {
+              "time": "06:00",
+              "location": "Homestead Backyard",
+              "activity": "Chops pine logs vigorously and stacks them beside the hearth oven"
+            },
+            {
+              "time": "09:00",
+              "location": "Millstone & Granary",
+              "activity": "Grinds wheat into fine flour sacks for Rowan's kitchen"
+            },
+            {
+              "time": "13:00",
+              "location": "Outdoor Workshop",
+              "activity": "Carves delve torches and sharpens pickaxes on the whetstone"
+            },
+            {
+              "time": "18:00",
+              "location": "The Hearth Kitchen Table",
+              "activity": "Devours hearty hot stew and warm bread alongside Rowan"
+            },
+            {
+              "time": "21:00",
+              "location": "Homestead Livestock Barn",
+              "activity": "Layers clean straw in animal pens and secures barn latch before bed"
+            }
+          ],
+          "rainy": [
+            {
+              "time": "07:00",
+              "location": "Shed Porch Overhang",
+              "activity": "Chops wood under shelter so logs remain dry and ready"
+            },
+            {
+              "time": "11:00",
+              "location": "Granary Loft",
+              "activity": "Inspects grain bags and seals fermenting corn barrels"
+            },
+            {
+              "time": "16:00",
+              "location": "Tool Workshop",
+              "activity": "Oils iron hinges, anvil joints, and farming tools against rust"
+            },
+            {
+              "time": "20:00",
+              "location": "The Great Hearth",
+              "activity": "Warms by the fire, helping Rowan stow heavy cast-iron pots"
+            }
+          ]
+        }
+      }
     }
   ]
 }

@@ -7,33 +7,57 @@ tags: [characters, npcs, lore, rowan, oakhaven, heart-events, narrative]
 spoiler: false
 ---
 
-# 👥 Dàn Nhân Vật, Cốt Truyện Đời Thực & Tuyến Sự Kiện Oakhaven
+# 👥 Dàn Nhân Vật, Cốt Truyện Đời Thực & Tuyến Sự Kiện Oakhaven (42 Nhân Vật)
 
 > **Game:** Rowan of Oakhaven  
-> **Triết lý nhân vật:** Mỗi cư dân Oakhaven không phải NPC rập khuôn vô hồn, mà mang một **vết nứt tâm lý đời thực** (Real-world trauma): gánh nặng phụng dưỡng cha mẹ già sa sút trí nhớ, bất đồng ngôn ngữ tình cảm giữa hai anh em ruột, mặc cảm tội lỗi của cựu binh sống sót, hay nỗi sợ bị bỏ rơi của đứa trẻ mồ côi. Ẩm thực mà Rowan nấu mỗi tối tại Quán Ăn chính là chìa khóa tháo gỡ phòng vệ và chữa lành vết thương lòng của họ.
+> **Triết lý nhân vật & Không gian sống:** Mỗi cư dân Oakhaven không phải NPC rập khuôn vô hồn, mà mang một **vết nứt đời thực mộc mạc**: gánh nặng mưu sinh sau chiến tranh, chuột cắn mùa màng, đau khớp khi trời lạnh, nợ tiền quán rượu hay nỗi hoang mang của kẻ tha hương. Đại Bản Doanh Điền Trang The Hearth cùng những mẻ bánh nướng giòn rụm và nồi súp nóng của Rowan chính là điểm tựa tự do kết nối họ, giải quyết những khó khăn cơm áo gạo tiền rất cụ thể.
 
 ---
 
-## 1. Nhân Vật Chính & Bạn Đồng Hành
+## 1. Gia Đình Điền Trang The Hearth (Homestead Crew)
 
-### 🌸 Rowan (Chủ Quán Ăn & Thợ Lặn Mỏ Oakhaven)
-* **Vai trò:** Nhân vật chính điều khiển bởi người chơi.
-* **Nguồn gốc đời thực:** Một người trẻ kiệt quệ (Burnout) nơi kinh đô công nghiệp Solaria — nơi con người bị xem như bánh răng vô hồn. Trở về Oakhaven tiếp quản căn nhà gỗ hoang phế và cuốn sổ nấu ăn ám khói của bà ngoại Amalia.
-* **Xung đột nội tâm:** Hội chứng kẻ giả mạo (Imposter Syndrome) — luôn sợ mình không xứng đáng với di sản của bà, sợ mình là kẻ hèn nhát chạy trốn thực tại.
-* **Hành trình:** Bắt đầu từ hai bàn tay trắng: vừa gieo hạt cuốc đất, vừa cầm vũ khí xông pha 150 tầng mỏ hiểm nguy, tối về lại nhóm lửa phục vụ mâm cơm ấm bụng cho bà con lối xóm.
+### 🌸 Rowan (Chủ Điền Trang, Master Cook & Thợ Săn Mỏ Oakhaven)
+* **Vai trò:** Nhân vật chính điều khiển bởi người chơi. Tự do lựa chọn lối chơi: làm nông trang 32 cây trồng, đào bới 150 tầng mỏ, hoặc câu cá dã ngoại.
+* **Quyền làm chủ căn bếp:** Rowan là người làm chủ 100% căn bếp (55 công thức). Thức ăn dùng để lấy buff thám hiểm hầm mỏ hoặc bán buôn thụ động qua hòm xuất khẩu và quầy tự phục vụ.
+* **Nguồn gốc đời thực:** Người trẻ kiệt quệ (Burnout) nơi kinh đô công nghiệp Solaria. Trở về Oakhaven tiếp quản căn nhà gỗ hoang phế và mảnh đất đầy sỏi đá của bà Amalia.
+* **Xung đột nội tâm:** Hội chứng kẻ giả mạo (Imposter Syndrome) — sợ mình không đủ sức gầy dựng lại cơ nghiệp hoang tàn của gia đình.
+
+### 📜 Bác Quản Gia Barnaby (Quản Gia Sổ Sách & Dãy Phòng Trọ Áp Mái)
+* **Vai trò:** Cai quản dãy phòng trọ áp mái, hòm tiền và thống kê sổ sách xuất khẩu của Điền trang. Dùng khung xương Người Già (Old Man Rig).
+* **Nguồn gốc đời thực:** Cựu thủ kho quân nhu Solaria giải ngũ sau chiến tranh. Quê nhà bị tàn phá, ông lưu lạc đến Oakhaven làm thợ chép sổ thuê, sống trong cảnh túng quẫn và nỗi sợ tuổi già vô dụng bị xã hội bỏ rơi.
+* **Cách mở khóa:** Sửa xong mái nhà dột và dãy phòng trọ trên gác mái. Rowan thuê Barnaby về làm quản gia, đổi lại một căn phòng ấm và cơm ngày 3 bữa.
+* **Tính nết đời thường:** Đeo kính lão buộc dây dù, tay luôn cắp cuốn sổ da sứt góc; cực kỳ ghét bẩn (cằn nhằn mỗi khi Rowan vác ủng dính bùn vào nhà); nghiện uống trà đen đặc cặn lúc 5h sáng và thích ngồi đếm lại từng cọc tiền xu cho ngay ngắn.
+* **Tuyến Sự Kiện Trái Tim (Heart Events):**
+  - *Mặc định:* Tự động thu tiền thuê phòng trọ (Passive Rent) của khách vãng lai mỗi sáng Thứ Hai; lập bảng kê khai thu chi trên bàn làm việc mỗi sáng.
+  - *2 Tim:* Đàm phán giảm 10% chi phí gỗ và đá khi nâng cấp công trình điền trang.
+  - *4 Tim:* Hướng dẫn cơi nới thêm 2 phòng trọ áp mái mới, tăng gấp đôi lượng khách thuê và doanh thu thụ động.
+  - *6 Tim:* Đặt báo cáo dự báo thị trường lên bàn: thông báo trước nông sản/khoáng sản nào đang sốt giá để bán kiếm lời.
+  - *8 Tim (Két Sắt Điền Trang):* Tự động gửi tiền nhàn rỗi vào quỹ trấn sinh lãi 3%/tuần; tự trích tiền mua củi dự trữ mùa đông.
+
+### 🪓 Cậu Phụ Tá Colm (Hậu Cần, Sơ Chế Nguyên Liệu & Cứu Hộ Mỏ Sâu)
+* **Vai trò:** Phụ tá hậu cần, chẻ củi, xay bột mì, nhặt trứng sữa và cứu hộ khẩn cấp hầm mỏ. Dùng khung xương Nam Trưởng Thành (Adult Male Rig).
+* **Nguồn gốc đời thực:** Trẻ mồ côi thời chiến, tính tình thật thà như đếm, có sức vác đá ngàn cân nhưng tay chân vụng về; từng bị chủ quịt lương và bị sập đá kẹt chân ở Tầng 15 hầm mỏ.
+* **Cách mở khóa:** Rowan cứu Colm tại Tầng 15 mỏ và cho cậu 1 món ăn ấm bụng. Cảm kích ơn cứu mạng, Colm xin về điền trang phụ việc nặng để đổi lấy chỗ ngủ ở xưởng và cơm ngày 3 bữa.
+* **Tính nết đời thường:** Bắp tay cuồn cuộn dính mùn cưa và tro than, ăn khỏe như hạm, nói năng bỗ bã; vụng về không biết nấu ăn (từng làm nổ nồi luộc trứng) nhưng bảo chẻ 50 khúc củi hay vác cáng cứu người thì làm loáng một cái; rất khoái được Rowan cho ăn ké bánh mì nướng giòn cuối ngày.
+* **Tuyến Sự Kiện Trái Tim (Heart Events):**
+  - *Mặc định:* Luôn giữ cho hộc củi cạnh lò nướng đầy ắp củi khô; vót sẵn 5 cây đuốc mỏ đặt ở cửa ra vào mỗi sáng cho Rowan.
+  - *2 Tim:* Khâu tặng Rowan chiếc Ba Lô Dã Ngoại tăng thêm 6 ô chứa đồ trong hầm mỏ.
+  - *4 Tim (Tự Động Sơ Chế):* Tự động xay lúa mì thành bột mịn; tự thu nhặt trứng gà và vắt sữa dê bỏ vào kho lạnh.
+  - *6 Tim (Bảo Hiểm Hầm Mỏ):* Nếu Rowan bị quái vật đánh gục ở bất kỳ tầng mỏ nào, Colm sẽ lao xuống vác cáng cứu về nhà an toàn $\rightarrow$ giữ lại 100% trang bị và quặng quý, không bị mất đồ.
+  - *8 Tim (Rương Tiếp Tế Tầng Sâu):* Đặt sẵn rương cứu hộ khẩn cấp (thuốc hồi máu, đuốc sáng, bom phá đá) tại các tầng nghỉ (Tầng 50 và 100).
 
 ### 🦉 Pip (Chú Cú Lùn Đưa Thư)
 * **Vai trò:** Bạn đồng hành đưa thư & hạt giống sáng sớm.
 * **Đặc tính:** Đậu cố định tại cọc thư trước hiên nhà, không bám theo người chơi ngoài map. Mỗi sáng ngậm các bức thư tâm tình của dân làng và hạt giống hiếm từ Rừng Thầm Thì.
 
 ### 🐱 Mallow (Chú Mèo Tam Thể)
-* **Vai trò:** Mèo giữ quán & sưởi ấm tâm hồn.
-* **Cơ chế Gameplay (Lucky Hearth Buff):** Khi Mallow ngủ cuộn tròn bên lò sưởi Quán Ăn, kích hoạt buff thụ động *"Mèo May Mắn"*: giảm 15% tỉ lệ cháy khét món ăn khi nấu nướng và tăng 10% tiền tip vàng của khách dùng bữa tại quán.
-* **Đặc tính:** Chú mèo đi lạc trú mưa rồi ở lại luôn bên lò sưởi tiệm ăn. Thích nằm ngủ lười trên quầy bar và dụi đầu vào chân khách ngồi ăn tối.
+* **Vai trò:** Mèo giữ quán & buff may mắn bên lò sưởi.
+* **Cơ chế Gameplay (Lucky Hearth Buff):** Khi Mallow ngủ cuộn tròn bên lò sưởi Điền Trang, kích hoạt buff thụ động *"Mèo May Mắn"*: giảm 15% tỉ lệ cháy khét món ăn khi nấu nướng và tăng 10% tiền tip vàng của khách dùng bữa tại quầy.
+* **Đặc tính:** Chú mèo đi lạc trú mưa rồi ở lại luôn bên lò sưởi. Thích nằm ngủ lười trên quầy bar và dụi đầu vào chân khách trọ.
 
 ### 👵 Bà Ngoại Amalia (Di Sản & Linh Hồn Dẫn Lối)
-* **Vai trò:** Cố nghệ nhân ẩm thực, người để lại cuốn sổ bí truyền.
-* **Triết lý sống:** *"Nấu ăn không phải để phô diễn kỹ nghệ, mà là để người ăn cảm thấy họ xứng đáng được sống sót và được yêu thương."*
+* **Vai trò:** Cố nghệ nhân ẩm thực, người để lại khu điền trang và cuốn sổ bí truyền.
+* **Triết lý sống:** *"Nấu ăn không phải để phô diễn kỹ nghệ, mà là để người ăn có đủ sức sống sót và tiếp tục vững vàng ngày mai."*
 
 ---
 
