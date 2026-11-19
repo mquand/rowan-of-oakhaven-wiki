@@ -28,6 +28,7 @@ spoiler: false
 
 ### 🐱 Mallow (Chú Mèo Tam Thể)
 * **Vai trò:** Mèo giữ quán & sưởi ấm tâm hồn.
+* **Cơ chế Gameplay (Lucky Hearth Buff):** Khi Mallow ngủ cuộn tròn bên lò sưởi Quán Ăn, kích hoạt buff thụ động *"Mèo May Mắn"*: giảm 15% tỉ lệ cháy khét món ăn khi nấu nướng và tăng 10% tiền tip vàng của khách dùng bữa tại quán.
 * **Đặc tính:** Chú mèo đi lạc trú mưa rồi ở lại luôn bên lò sưởi tiệm ăn. Thích nằm ngủ lười trên quầy bar và dụi đầu vào chân khách ngồi ăn tối.
 
 ### 👵 Bà Ngoại Amalia (Di Sản & Linh Hồn Dẫn Lối)
@@ -51,7 +52,7 @@ spoiler: false
   - *Món ăn ký ức:* **Bánh Mì Men Chua & Súp Khoai Rễ Cây**.
 * **Tuyến Sự Kiện Trái Tim (Heart Events):**
   - *2 Tim:* Tiếng cãi vã nảy lửa bên lò rèn; Boris giằng lấy cuốc chim của Bram, Bram giận dữ bỏ đi uống rượu một mình bên bờ sông.
-  - *4 Tim:* Rowan bắt gặp Bram ngồi bóp chân run rẩy trong hang lạnh Tầng 20, nghe ông tâm sự về 3 ngày tuyệt vọng dưới đống đổ nát năm xưa.
+  - *4 Tim:* Rowan bắt gặp Bram ngồi bóp chân run rẩy trong hang lạnh Tầng 20, nghe ông tâm sự về 3 ngày tuyệt vọng dưới đống đổ nát năm xưa; mở khóa **Chỉ Dẫn Mạch Quặng Tầng Sâu**.
   - *6 Tim:* Penny nhờ Rowan tìm chiếc hộp thiếc cũ chứa công thức Goulash của người mẹ và bức thư dặn dò hai anh em phải nương tựa nhau.
   - *8 Tim (Bữa Cơm Hòa Giải):* Rowan nấu nồi Goulash gia truyền mời hai anh em đến Quán Ăn. Hai người đàn ông lùn râu ria cúi đầu khóc nấc, hóa giải mâu thuẫn 10 năm. Mở khóa **Trạm Tinh Luyện Cao Cấp**.
 
@@ -68,8 +69,9 @@ spoiler: false
   - *Món ăn kết nối:* **Bánh Sinh Nhật Tinh Linh Bảy Màu** (Kael chưa từng biết sinh nhật thật của mình).
 * **Tuyến Sự Kiện Trái Tim:**
   - *3 Tim:* Kael khóc nức nở bên bờ sông vì làm rơi gói hạt giống xuống bùn; Rowan cùng cậu rửa sạch hạt và nấu cho cậu bát súp nóng.
+  - *4 Tim (Vườn Ươm Cơ Bản):* Bà Maeve trao cho Rowan chìa khóa **Vườn Ươm Bốn Mùa (Nhà kính cơ bản)** để trồng nông sản trái mùa.
   - *6 Tim (Đêm Bão Tuyết):* Bà Maeve ngất xỉu vì cơn đau tim; Kael chạy băng qua bão tuyết đập cửa quán ăn của Rowan cầu cứu.
-  - *8 Tim (Cuốn Sổ Tiết Kiệm):* Kael phát hiện cuốn sổ tiết kiệm bà Maeve dành dụm cho mình; hai bà cháu ôm nhau khóc. Mở khóa **Vườn Ươm Cây Giống Bốn Mùa**.
+  - *8 Tim (Trạm Nhân Giống Tự Động):* Kael phát hiện cuốn sổ tiết kiệm bà Maeve dành dụm cho mình; hai bà cháu ôm nhau khóc. Mở khóa **Trạm Nhân Giống & Ghép Cây Bốn Mùa Tự Động**.
 
 ---
 
@@ -83,8 +85,8 @@ spoiler: false
   - *Vết nứt tâm lý:* Cựu cung thủ thiện xạ giải ngũ vì mất thính lực một bên tai sau tiếng nổ lớn chấn động. Cô mắc chứng sợ tiếng vang lớn (PTSD), giấu mình sau bàn giấy phân loại đồ thất lạc của mạo hiểm giả.
   - *Món ăn kết nối:* **Súp Nấm Tuyết Sườn Non**.
 * **Tuyến Sự Kiện Trái Tim:**
-  - *4 Tim:* Thorne đứng lặng hàng giờ trước Bàn Thờ Cổ Tưởng Niệm ngoài bìa rừng trong ngày giỗ đồng đội.
-  - *8 Tim (Chữa Lành Người Sống Sót):* Rowan nấu mâm cơm tiếp tế chiến trường; Thorne và Valerie trút bỏ được gánh nặng quá khứ. Mở khóa **Đội Biệt Kích Cứu Hộ Hầm Sâu** (giảm 50% phí cứu nạn và bảo toàn trang bị khi ngất xỉu).
+  - *4 Tim:* Thorne đứng lặng hàng giờ trước Bàn Thờ Cổ Tưởng Niệm ngoài bìa rừng trong ngày giỗ đồng đội; mở khóa **Bảng Bounty Săn Quái Vật Thung Lũng**.
+  - *8 Tim (Chữa Lành Người Sống Sót):* Rowan nấu mâm cơm tiếp tế chiến trường; Thorne và Valerie trút bỏ được gánh nặng quá khứ. Mở khóa **Đội Biệt Kích Cứu Hộ Hầm Sâu** (giảm 50% phí cứu nạn và bảo toàn 100% trang bị rơi vãi bằng cơm hộp tiếp tế).
 
 ---
 
@@ -94,37 +96,48 @@ spoiler: false
 * **Giáo Sư Orion (68 tuổi):**
   - *Vết nứt tâm lý:* Mắc chứng sa sút trí tuệ tuổi già. Ông quên tên mọi người trong làng, quên ăn quên ngủ, nhưng tuyệt vọng thức trắng đêm bên kính viễn vọng để tìm kiếm vì sao mang tên người vợ quá cố Elise trước khi trí nhớ hoàn toàn biến mất.
   - *Món ăn kết nối:* **Bánh Tart Việt Quất Tinh Cầu**.
+  - *Cơ chế Gameplay:* Cung cấp **Bản Tin Dự Báo Khí Tượng 3 Ngày** tại 4 Tim (cảnh báo trước bão tuyết, mưa axit); kích hoạt **Đêm Sao Băng** thu thập khoáng thạch bề mặt tại 8 Tim.
 * **Clara (24 tuổi - Thủ Thư):**
   - *Vết nứt tâm lý:* Từng trúng tuyển học bổng kinh đô nhưng phải xé thư để ở lại Oakhaven chăm cha già. Clara vừa thương cha vừa cảm thấy tuổi xuân của mình đang chết dần trong bốn bức tường thư viện.
   - *Món ăn kết nối:* **Trà Bá Tước Earl Grey Hoa Nhài & Bánh Quy Bơ**.
 * **Tuyến Sự Kiện Trái Tim:**
-  - *4 Tim:* Orion đi lạc trong sương mù đêm vì ngỡ thấy bóng dáng vợ; Clara hoảng loạn đi tìm trong nước mắt.
+  - *4 Tim:* Orion đi lạc trong sương mù đêm vì ngỡ thấy bóng dáng vợ; Clara hoảng loạn đi tìm trong nước mắt; mở khóa dịch vụ **Giải Mã Thư Tịch & Sách Cổ**.
   - *8 Tim (Bản Đồ Ký Ức):* Rowan cùng Clara vẽ lại bản đồ chòm sao Elise; Orion rơi nước mắt nhận ra con gái và nắm chặt tay Clara xin lỗi. Mở khóa **Kho Lưu Trữ Công Thức Cổ Đại** tại Thư viện.
 
 ---
 
 ### ⚓ Thuyền Trưởng Garrick & 🎣 Cậu Bé Finn
 * **Garrick (70 tuổi):** Lão thủy thủ mù màu, cảm giác mình là khúc gỗ mục vô dụng mắc cạn bên bờ hồ Oakhaven.
+  - *Cơ chế Gameplay:* Mở **Bến Thuyền Chở Hàng Hồ Sương Mù** ở 4 Tim; khai thông **Tuyến Hàng Hải Biển Mây** nhập khẩu gia vị và nguyên liệu hiếm ở 8 Tim.
 * **Finn (12 tuổi):** Cậu bé câu cá đêm ngày gom từng đồng lẻ để chuộc lại chiếc La Bàn Bạc Cổ mà ông nội từng phải cầm cố lấy tiền chữa bệnh cho cha cậu.
+  - *Cơ chế Gameplay:* Mở **Cần Câu Cá & Minigame Hồ Ngầm** ở 4 Tim; cung cấp **Cá Phát Quang** làm nguyên liệu nấu các món ăn ban hiệu ứng Dạ Quang soi sáng hầm mỏ ở 8 Tim.
 * **Món ăn:** **Cá Hồi Nướng Sốt Thảo Mộc Rừng & Trà Bạc Hà**.
 
 ---
 
 ### 🌿 Lumi (Tinh Linh Cáo Tuyết Kemomimi-Elf)
 * **Vết nứt tâm lý:** Dị chủng lai giữa Cáo Tuyết và Tinh Linh; bị cả hai cộng đồng xua đuổi. Nhút nhát, sợ đám đông nhưng khao khát hơi ấm mái ấm gia đình.
+* **Cơ chế Gameplay (Dẫn Đường Rừng Thầm Thì):**
+  - *4 Tim:* Đôi tai cáo nhạy bén giúp dự báo chính xác vị trí thảo dược và nấm quý xuất hiện theo thời tiết/chu kỳ trăng.
+  - *8 Tim:* Dẫn đường Rowan vào sâu **Đền Rừng Thầm Thì** thu hoạch nấm phát quang và dị thảo cổ thụ.
 * **Món ăn:** **Trà Sen An Thần & Bánh Bột Gạo Hấp Nước Cốt Dừa**.
 
 ---
 
 ### 🧺 Penny (Cô Bé Bán Bánh Dạo)
 * **Vết nứt tâm lý:** Mồ côi cha mẹ, lớn lên dưới sự nuôi nấng vụng về của hai người chú Boris và Bram. Khao khát tự lập mở tiệm bánh xe kéo riêng.
+* **Cơ chế Gameplay (Takeaway & Delivery):**
+  - *4 Tim:* Khai trương **Quầy Bánh Ngọt Xe Kéo** tại Quảng Trường Chợ Oakhaven.
+  - *8 Tim:* Vận hành **Hệ Thống Delivery Giao Cơm Hộp Tận Nơi**, giúp Rowan phân phối các suất ăn nóng cho thợ mỏ và dân làng đang làm việc xa quán.
 * **Món ăn:** **Bánh Xốp Dâu Rừng & Trà Dâu Băng Tuyết**.
 
 ---
 
 ### 🩺 Aurelia (Dược Sĩ) & ⚔️ Marlo (Hiệp Sĩ Ca Đêm)
 * **Aurelia:** Rời bỏ kinh đô vì bất mãn giới y khoa thương mại hóa; trăn trở trước nỗi đau nghèo đói của người bệnh.
+  - *Cơ chế Gameplay:* Nấu **Canh Dưỡng Sinh** giảm đau nhức cho dân làng ở 2 Tim; cung cấp thuốc bôi hồi phục thể lực và chữa lành thương tật ở 6 Tim.
 * **Marlo:** Người lính gác thầm lặng trong đêm lạnh, gửi 90% lương về quê nuôi đàn em thơ; quán ăn của Rowan là điểm tựa ấm áp duy nhất của anh.
+  - *Cơ chế Gameplay (Trị An Ca Đêm):* Tuần tra ca đêm, bảo vệ Quán Ăn và "Quầy Danh Dự" ngoài hiên không bị mất trộm khi Rowan đi mỏ vắng nhà (giảm 50% mất trộm ở 4 Tim, miễn nhiễm 100% ở 8 Tim).
 
 ---
 ---
@@ -159,18 +172,18 @@ spoiler: false
 * **Món ăn ký ức:** **Cháo Yến Mạch Mật Ong**.
 * **Tuyến sự kiện 8 Tim:** Khai trương Chợ Đêm Thứ Bảy; mở khóa các loại hạt giống nhập khẩu và công cụ độc lạ.
 
-### 🌿 Rosemary (Người Giữ Đền Stardust)
+### 🌿 Rosemary (Người Giữ Đền Cổ Oakhaven / Bàn Thờ Cổ Đại)
 * **Vết nứt tâm lý:** Dryad - hiện thân sống của Cây Sồi Mẹ Oakhaven. Chứng kiến rừng cổ bị Khí Độc Chiến Tranh và sương mù ăn mòn rễ sâu, sợ rằng khi cây chết thì linh hồn mình cũng tan biến.
 * **Món ăn ký ức:** **Trà Sen Bách Diệp & Hạt Sen Sấy**.
-* **Tuyến sự kiện 8 Tim:** Cùng Rowan dâng đại tiệc thanh tẩy Bàn Thờ Cổ; mở khóa **Vạc Tịnh Hóa Thảo Mộc Rừng Cổ**.
+* **Tuyến sự kiện 8 Tim:** Cùng Rowan dâng đại tiệc thanh tẩy Bàn Thờ Cổ; mở khóa **Bàn Thờ Cổ Đại (Ancient Memorial Altars)** và giải phóng đất hoang.
 
 ### 🛡️ Valerius (Hiệp Sĩ Lưu Đày) & 🔮 Morrigan (Phù Thủy Ẩn Dật)
 * **Valerius:** Cựu chỉ huy cận vệ hoàng gia bị vu oan tội phản quốc sau khi vạch trần tham nhũng triều đình; khách trọ bão tuyết chọn ở lại làm Đội Trưởng Dân Quân Oakhaven.
   - *Món ăn:* **Bít Tết Nướng Than Sồi & Bò Hầm Rượu Vang**.
-  - *Sự kiện:* Khóa huấn luyện phản xạ đỡ đòn (Parry Training) trong chiến đấu hầm mỏ.
+  - *Cơ chế Gameplay:* Gác cổng ban ngày; mở **Võ Đường Huấn Luyện Chiến Đấu** dạy kỹ năng Đỡ Đòn Phản Công (Parry) ở 4 Tim và Master Parry ở 8 Tim.
 * **Morrigan:** Nữ phù thủy đầm lầy bị cả thế giới xua đuổi vì ngoại hình đáng sợ; bề ngoài gai góc nhưng âm thầm cứu chữa thú rừng.
   - *Món ăn:* **Trà Bạc Hà Sương Giá & Quả Mọng Rừng**.
-  - *Sự kiện:* Cứu thị trấn khỏi dịch độc; mở khóa **Bàn Điều Chế Thần Dược & Bùa Chú**.
+  - *Cơ chế Gameplay:* Bào chế **Độc Dược Tẩm Vũ Khí** mỏ sâu ở 4 Tim; mở khóa công thức **Thần Dược Cường Hóa Bạo Kích** và thuốc giải độc miasma ở 8 Tim.
 
 ---
 
@@ -178,27 +191,29 @@ spoiler: false
 
 ### ⚒️ Khaz-Drakor (Đại Đô Thị Người Lùn)
 * **Grimhild (Nữ Hoàng Lò Rèn):** Mẹ nuôi của Boris và Bram, nữ thợ rèn huyền thoại dằn vặt 15 năm vì sự hà khắc đã đẩy hai con ra đi.
-  - *Món ăn:* **Dwarf Ironforge Goulash**. Mở khóa rèn trang bị **Mithril Cổ Đại**.
+  - *Món ăn:* **Dwarf Ironforge Goulash**. Mở khóa rèn trang bị **Mithril Cổ Đại** ở 8 Tim.
 * **Cogsworth (Kỹ Sư Hơi Nước):** Dwarf trẻ bị gia tộc tẩy chay vì mê máy móc thay vì đe rèn; người duy nhất giải mã được tiếng Chrono.
-  - *Món ăn:* **Khoai Tây Nướng Bơ Tỏi**. Mở khóa **Tàu Goòng Siêu Tốc & Hệ Thống Tưới Tự Động**.
+  - *Món ăn:* **Khoai Tây Nướng Bơ Tỏi**. Chế tạo **Vòi Tưới Tự Động** ở 4 Tim; mở khóa **Tuyến Xe Goong Minecart Express** ở 8 Tim.
 * **Ember (Đầu Bếp Kỳ Nhông Lửa):** Đầu bếp kỳ nhông bị cấm cửa ở các kinh đô vì định kiến chủng tộc; đối thủ ẩm thực thân thiện của Rowan.
-  - *Món ăn:* **Thịt Nướng Lửa Địa Ngục**. Mở khóa **Trạm Nướng Magma Cực Hạn**.
-* **Chrono:** Người máy đồng hồ cổ đại còn sót lại từ nền văn minh đã mất, cần chất bôi trơn hoa cúc ấm.
+  - *Món ăn:* **Thịt Nướng Lửa Địa Ngục**. Giao lưu gia vị lửa ở 4 Tim; chuyển giao **Trạm Nướng Lửa Magma Cực Hạn** ở 8 Tim.
+* **Chrono:** Người máy đồng hồ cổ đại còn sót lại từ nền văn minh đã mất. Vận hành **Tháp Chuông Thị Trấn** báo giờ ăn và hiển thị đồng hồ đếm ngược buff trên HUD ở 4 Tim; chuông ngân tăng 20% doanh thu quán tại 8 Tim.
 
 ### 🌲 Sylva-Fae (Tán Rừng Tinh Linh Cổ Thụ)
 * **Thistle (Thợ Săn Moth-Folk Đêm):** Người bướm đêm có đôi mắt và cánh sợ ánh sáng mạnh; cô đơn hoạt động ngược nhịp thế giới.
-  - *Món ăn:* **Trà Oải Hương Ngàn Sao**. Mở khóa thu hoạch **Tơ Lụa Phát Quang** cho Elora.
+  - *Món ăn:* **Trà Oải Hương Ngàn Sao**. Cung cấp **Tơ Dạ Quang** ở 4 Tim và **Tơ Hoàng Kim** ở 8 Tim cho Elora.
 * **Fern (Thầy Thuốc Cổ Đại 800 Tuổi):** Thầy dạy mù lòa của Sylvan, dùng mạng rễ ngầm cảm nhận vạn vật sau khi mất đôi mắt khi đơn độc bảo vệ rừng thiêng khỏi độc tố chiến tranh cổ đại.
-  - *Món ăn:* **Canh Thảo Mộc Búp Sen**. Mở khóa **Thảo Dược Thượng Cổ**.
+  - *Món ăn:* **Canh Thảo Mộc Búp Sen**. Truyền dạy **Dược Điển Cổ Thụ** ở 6 Tim; hướng dẫn nghi thức thanh tẩy ô uế đất đai vĩnh viễn ở 8 Tim.
 * **Elora & Sylvan:** Thợ may mắc bệnh run tay và nhà nghiên cứu thảo mộc lặn lội tìm thuốc chữa cho bạn tri kỷ.
+  - *Elora:* Dệt **Túi Hành Trang Mở Rộng (+12 ô)** ở 4 Tim; may **Áo Choàng Dạ Hội Chống Rét Vĩnh Cửu** ở 8 Tim.
+  - *Sylvan:* Mở **Trạm Chiết Xuất Tinh Dầu Thảo Mộc** ở 4 Tim; thu hoạch **Rễ Cây Ngàn Năm** ở 8 Tim.
 
 ### 🏯 Solaria (Kinh Đô Ánh Sáng)
 * **Iris (Sử Gia Hoàng Gia):** Nữ học giả tóc auburn ôm chồng sách cao quá đầu; đấu tranh giữa kiểm duyệt hoàng cung và khát vọng chép lại sự thật lịch sử.
-  - *Món ăn:* **Trà Bá Tước Earl Grey & Bánh Quy Gừng**. Mở khóa **Bách Khoa Cổ Vật**.
-* **Valen:** Quý tộc ma cà rồng ăn chay sợ mùi tỏi nhưng mê trà đỏ ngọt ngào.
-* **Kassandra:** Phù thủy sao băng lưu vong chổi bay thường cạn ma lực giữa lưng chừng mây.
+  - *Món ăn:* **Trà Bá Tước Earl Grey & Bánh Quy Gừng**. Mở dịch vụ **Giám Định Cổ Vật Mỏ Sâu** ở 4 Tim; hoàn thiện **Viện Bảo Tàng Lịch Sử Thung Lũng** ở 8 Tim.
+* **Valen (Quý Tộc Ma Cà Rồng Ăn Chay):** Khách VIP thuê phòng lầu 2; đặt tiệc tráng miệng và rượu vang thảo mộc nửa đêm với giá gấp đôi ở 4 Tim; mở hợp đồng tiệc đêm Lâu Đài Cổ ở 8 Tim.
+* **Kassandra (Phù Thủy Gió Lưu Vong):** Mở dịch vụ **Sky Express Chuyển Phát Hỏa Tốc** nguyên liệu liên 5 đại vực trong 2 giờ ở 4 Tim; tặng Rowan **Chổi Bay Tốc Hành** ở 8 Tim.
 
 ### ✨ Aethelgard (Thiên Giới Biển Mây)
 * **Solace (Linh Thể Hộ Tinh):** Linh thể ánh sao gác cổng thiên giới hàng ngàn năm, đã quên mất bản thân từng là một đầu bếp thời sơ khai; chỉ nhớ lại khi ngửi thấy hương trà sen của Rowan.
-  - *Món ăn:* **Trà Sen An Thần**. Mở khóa cánh cổng bước vào cõi vĩnh hằng gặp lại linh hồn bà ngoại Amalia.
-* **Lapis:** Nàng tiên cá bơi từ Biển Sương Mù ghé thăm các suối ngầm cao nguyên, mê mẩn bánh nướng giòn rụm của loài người.
+  - *Món ăn:* **Trà Sen An Thần**. Hồi phục ký ức cổ xưa và mở khóa vĩnh viễn **Cổng Trời Aethelgard** liên kết 5 đại vực tại 8 Tim.
+* **Lapis (Nàng Tiên Cá Hồ Ngầm):** Bơi từ Biển Sương Mù ghé thăm các suối ngầm cao nguyên; giao thương muối khoáng pha lê ở 4 Tim và cung cấp ngọc trai phát quang kháng độc ở 8 Tim.

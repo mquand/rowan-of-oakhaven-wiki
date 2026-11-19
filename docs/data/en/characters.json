@@ -6,7 +6,7 @@
     {
       "id": "npc_rowan",
       "name": "Rowan",
-      "role": "Hearthkeeper & Frontier Delver of Oakhaven",
+      "role": "Hearthkeeper, Farmer & Mine Delver of Oakhaven",
       "location": "The Hearth Eatery & Inn",
       "species": "Human (Frontier Artisan)",
       "description": "Resilient frontier artisan and keeper of Oakhaven's hearth. Equal parts capable farmer, deep-mine delver, and baker who keeps the wood stove roaring each night for a rugged frontier town.",
@@ -20,12 +20,12 @@
       "schedule": "Morning & Afternoon: Tending homestead & delving the 150-floor mine; Evening: Firing the ovens at the hearth",
       "real_world_wound": "Burnout and Imposter Syndrome after fleeing urban exploitation; haunted by fear of failing Amalia's legacy.",
       "comfort_dish": "dish_moonlight_creamy_risotto",
-      "heart_event_summary": "Reclaims self-worth through honest farm labor, perilous mine exploration, and the warmth of the evening kitchen."
+      "heart_event_summary": "Reclaims self-worth through honest farm labor, 150-floor mine exploration, and serving 55 comforting hot meals to healing frontier townsfolk."
     },
     {
       "id": "pet_pip",
       "name": "Pip",
-      "role": "Pygmy Owl Messenger & Botanical Forager",
+      "role": "Pygmy Owl Messenger & Botanical Seed Forager",
       "location": "Front Porch Mailbox Post",
       "species": "Pygmy Magic Owl",
       "description": "A plump, intelligent little owl who brings mysterious botanical seeds back to your mailbox every morning.",
@@ -38,12 +38,12 @@
       "schedule": "Dawn: Delivers seeds to mailbox; Afternoon: Perches on porch",
       "real_world_wound": "A loyal familiar who never abandons the mailbox, eagerly watching for town mail.",
       "comfort_dish": "mat_ong",
-      "heart_event_summary": "Perches faithfully each morning to deliver rare seeds gathered from the Whisperwood glade."
+      "heart_event_summary": "Faithful morning companion; brings rare wild seeds from the Whispering Forest glade to Rowan's mailbox every dawn."
     },
     {
       "id": "pet_mallow",
       "name": "Mallow",
-      "role": "Hearth Familiar & Mascot",
+      "role": "Hearth Cat & \"Lucky Hearth\" Passive Buff",
       "location": "Hearth Eatery Fireplace",
       "species": "Calico Familiar",
       "description": "A round calico cat who sheltered in the shop during a thunderstorm and never left; loves slumbering near warm lanterns.",
@@ -57,12 +57,12 @@
       "schedule": "All day: Lounging warmly by the brick oven or timber counter",
       "real_world_wound": "A stray rescue haunted by rain-storm abandonment, finding warmth beside the dining tavern fire.",
       "comfort_dish": "item_butter",
-      "heart_event_summary": "Warms tired feet of nocturnal patrons and sleeps lazily on the wooden dining bar."
+      "heart_event_summary": "Activates passive \"Lucky Hearth\" buff when sleeping by the eatery fireplace: reduces dish burn rate by 15% and increases patron tip gold by 10%."
     },
     {
       "id": "npc_lumi",
       "name": "Lumi",
-      "role": "Whisperwood Kemomimi-Elf Spirit",
+      "role": "Whispering Forest Guide (Snow Fox Kemomimi-Elf)",
       "location": "Whisperwood / Hearth Eatery",
       "species": "Kemomimi-Elf (Snow Fox & Glade Fae)",
       "description": "Unique Kemomimi-Elf spirit featuring fluffy white fox ears atop jade twin-tails, pointed elven ears, and a soft crimson knitted scarf.",
@@ -74,7 +74,7 @@
       "schedule": "Afternoon: Strolls through Whisperwood; Evening: Quiet corner at the eatery",
       "real_world_wound": "Hybrid outcast shunned by both fae and beastfolk; yearns for warmth yet dreads hostility.",
       "comfort_dish": "tra_sen_an_than",
-      "heart_event_summary": "Finds a loving, safe sanctuary beside Rowan's tavern kitchen hearth.",
+      "heart_event_summary": "Forecasts rare botanical herbs by weather at 4 Hearts; unlocks the hidden path to the Deep Forest Shrine to gather luminescent fungi at 8 Hearts.",
       "gift_preferences": {
         "loved": [
           "tra_sen_bach_diep",
@@ -132,7 +132,7 @@
     {
       "id": "npc_boris",
       "name": "Boris Barnaby",
-      "role": "Master Blacksmith",
+      "role": "Master Town Blacksmith (Forging & Refining)",
       "location": "Oakhaven Forge",
       "species": "Dwarf",
       "description": "Stout, hardy dwarven smith with twin-braided russet beard and an ash-stained leather apron from years at the anvil.",
@@ -146,7 +146,7 @@
       "schedule": "07:00 - 18:00: At the forge anvil; 19:00: Cinnamon rolls at the eatery",
       "real_world_wound": "Tormented by a 10-year-old mine collapse that crippled Bram; overprotective to a fault out of terror.",
       "comfort_dish": "dish_dwarf_ironforge_goulash",
-      "heart_event_summary": "Reconciles 10 years of estrangement after sharing family goulash at 8 Hearts; unlocks Advanced Refining Forge.",
+      "heart_event_summary": "Unlocks iron farm tool smithing at 4 Hearts; reconciles 10-year feud with brother Bram and unlocks the Advanced Refining Forge at 8 Hearts.",
       "gift_preferences": {
         "loved": [
           "banh_pie_tao_que_lo_dat",
@@ -282,7 +282,7 @@
     {
       "id": "npc_maeve",
       "name": "Maeve",
-      "role": "Elder Herb Cultivator",
+      "role": "Elder Herb Cultivator (Four-Seasons Greenhouse)",
       "location": "Homestead & Town Square",
       "species": "Human",
       "description": "Gentle elder herbalist with silver hair pinned in a low bun and a spring-embroidered kerchief; foster grandmother to Kael.",
@@ -296,7 +296,7 @@
       "schedule": "06:00 - 17:00: Selling seeds in Town Square; Evening: Strolling riverside",
       "real_world_wound": "Debilitating joint degeneration; fears dying and leaving orphaned Kael alone in a harsh world.",
       "comfort_dish": "dish_sweet_pumpkin_potage",
-      "heart_event_summary": "Rescued during a midnight winter storm; safely bequeaths the Four-Seasons Nursery at 8 Hearts.",
+      "heart_event_summary": "Unlocks the Four-Seasons Nursery (basic greenhouse) at 4 Hearts; rests easy seeing Kael blossom and passes down master gardening wisdom at 8 Hearts.",
       "gift_preferences": {
         "loved": [
           "bi_do_nuong_pho_mai_deo",
@@ -398,7 +398,7 @@
     {
       "id": "npc_kael",
       "name": "Kael",
-      "role": "Apprentice Match Vendor",
+      "role": "Apprentice Match Vendor (Automated Plant Nursery)",
       "location": "Riverbank & Eatery",
       "species": "Human",
       "description": "An orphaned boy with a pointed wool cap, patchworked winter coat, and bright curious eyes; Maeve's beloved ward.",
@@ -412,7 +412,7 @@
       "schedule": "Morning: Practice yard; Evening: Sipping cold berry tea",
       "real_world_wound": "Acute abandonment trauma; overworks himself in freezing gales out of terror of being discarded.",
       "comfort_dish": "cake_fairy_birthday",
-      "heart_event_summary": "Discovers Maeve's secret apprenticeship fund; blossoms into the town's young nursery keeper at 8 Hearts.",
+      "heart_event_summary": "Receives rare heirloom seeds at 4 Hearts; upgrades the Automated Plant Propagation Station at 8 Hearts after healing the fear of abandonment.",
       "gift_preferences": {
         "loved": [
           "xoi_hat_sen_nuoc_cot_dua",
@@ -500,7 +500,7 @@
     {
       "id": "npc_amalia",
       "name": "Grandmother Amalia",
-      "role": "Late Culinary Artisan / Guiding Spirit",
+      "role": "Late Culinary Artisan (Guiding Spirit)",
       "location": "Secret Recipe Grimoire & Memories",
       "species": "Human (Guiding Spirit)",
       "description": "Rowan's late grandmother, legendary tea crafter whose warmth lives on through annotated grimoire margins and fond memory.",
@@ -513,12 +513,12 @@
       "schedule": "Present in grimoire margins, cherished memories, and dreams",
       "real_world_wound": "Sacrificed her own health during famine years to keep the frontier settlement fed and alive.",
       "comfort_dish": "tra_sen_an_than",
-      "heart_event_summary": "Philosophy: 'Cooking is to make others feel worthy of living and being loved.'"
+      "heart_event_summary": "Guides Rowan through 55 heirloom recipes and the healing philosophy: \"Cooking is to make others feel worthy of living and being loved.\""
     },
     {
       "id": "npc_bram",
       "name": "Bram",
-      "role": "Deep Mine Forager",
+      "role": "Deep Mine Forager (Vein Scout)",
       "location": "Oakhaven Mine Entrance",
       "species": "Dwarf",
       "description": "Veteran miner prospecting the deepest mine levels; Boris's younger brother. Gruff and argumentative, but fiercely devoted to family.",
@@ -532,7 +532,7 @@
       "schedule": "08:00 - 17:00: Mine shafts entrance; Evening: Arguing at Boris's forge",
       "real_world_wound": "Pride wounded by brotherly pity; dives into lethal depths to prove he is still a whole, capable man.",
       "comfort_dish": "bread_miner_sourdough",
-      "heart_event_summary": "Acknowledges brother's love at 8 Hearts; pairs with Boris to forge legendary mastercraft picks.",
+      "heart_event_summary": "Points out deep subterranean mineral veins at 4 Hearts; partners with brother Boris to unlock the Advanced Refining Forge at 8 Hearts.",
       "gift_preferences": {
         "loved": [
           "banh_mi_den_dai_han",
@@ -625,7 +625,7 @@
     {
       "id": "npc_penny",
       "name": "Penny",
-      "role": "Itinerant Pastry Courier",
+      "role": "Pastry Courier & Hot Meal Delivery Service",
       "location": "Town Market Square",
       "species": "Human",
       "description": "Energetic, nimble pastry seller; niece of Boris and Bram. Quick-witted, cheerful, and always inventing eccentric new baked goods.",
@@ -639,7 +639,7 @@
       "schedule": "08:00 - 16:00: Postal run; 18:00: Dropping letters off at the eatery",
       "real_world_wound": "Orphaned niece raised by bachelor dwarven uncles; dreams of running an independent mobile bakery cart.",
       "comfort_dish": "pastry_berry_shortcake",
-      "heart_event_summary": "Receives a custom-crafted rolling pastry cart from Boris and Bram at 8 Hearts.",
+      "heart_event_summary": "Opens Plaza Pastry Rolling Cart at 4 Hearts; operates the Town Hot Meal Delivery service to courier meals to miners and villagers at 8 Hearts.",
       "gift_preferences": {
         "loved": [
           "tart_dau_tuyet_lanh",
@@ -702,7 +702,7 @@
     {
       "id": "npc_orion",
       "name": "Professor Orion",
-      "role": "Insomniac Astrologer",
+      "role": "Astronomer & Meteorological Forecaster",
       "location": "Hilltop Observatory",
       "species": "Human",
       "description": "Astronomer stationed atop the hill observatory; Clara's father. Absentminded and so captivated by constellations that he forgets meals.",
@@ -716,7 +716,7 @@
       "schedule": "Night: Stargazing at Observatory; Morning: Napping in library",
       "real_world_wound": "Progressive dementia (Alzheimer's); desperately stays awake to spot his late wife's star before memory fades.",
       "comfort_dish": "pastry_berry_shortcake",
-      "heart_event_summary": "Reconstructs Elise's star map with Clara at 8 Hearts, cherishing fleeting lucid clarity.",
+      "heart_event_summary": "Provides 2-day advance forecasts of anomalous weather (blizzards, miasma acid rain) at 4 Hearts; triggers the Meteor Shower Event yielding surface crystals at 8 Hearts.",
       "gift_preferences": {
         "loved": [
           "banh_tart_viet_quat_bui_sao",
@@ -784,7 +784,7 @@
     {
       "id": "npc_clara",
       "name": "Clara",
-      "role": "Head Town Librarian",
+      "role": "Head Town Librarian (Ancient Archives Custodian)",
       "location": "Oakhaven Library",
       "species": "Human",
       "description": "Meticulous curator of Oakhaven's archives; Orion's daughter. Organized, caring, and constantly reminding her father to take care of himself.",
@@ -798,7 +798,7 @@
       "schedule": "08:00 - 17:00: Library and dispensary; Evening: Calming lavender tea",
       "real_world_wound": "Caregiver burnout; tore up a royal scholarship to care for her ailing father, mourning lost youth.",
       "comfort_dish": "tea_earl_grey_clara",
-      "heart_event_summary": "Finds emotional balance and unseals the Ancient Recipe Archives in the library at 8 Hearts.",
+      "heart_event_summary": "Deciphers ancient texts at 4 Hearts; bequeaths the heirloom valley classic dessert recipe codex at 8 Hearts.",
       "gift_preferences": {
         "loved": [
           "tra_sen_bach_diep",
@@ -871,7 +871,7 @@
     {
       "id": "npc_garrick",
       "name": "Captain Garrick",
-      "role": "Retired Sky-Sailor",
+      "role": "Retired Sky-Sailor (Lake Maritime Commerce)",
       "location": "Mist Lake Pier",
       "species": "Human",
       "description": "Weathered sea captain who has hung up his oars; Finn's grandfather. Delights in recounting tales of uncharted celestial islands.",
@@ -885,7 +885,7 @@
       "schedule": "Sunday Morning: Anchoring his nautilus vessel by the pier market",
       "real_world_wound": "Color-blind and arthritic; agonizes over feeling like beached driftwood stripped of purpose.",
       "comfort_dish": "dish_magma_seafood_paella",
-      "heart_event_summary": "Passes maritime dreams to Finn and invests in opening new lake trading routes.",
+      "heart_event_summary": "Opens Mist Lake cargo boat dock at 4 Hearts; clears the maritime trade route to import exotic spices at 8 Hearts.",
       "gift_preferences": {
         "loved": [
           "ca_suoi_nuong_muoi_ot",
@@ -957,7 +957,7 @@
     {
       "id": "npc_finn",
       "name": "Finn",
-      "role": "Star Fisher Boy",
+      "role": "Fisher Boy & Underground Lake Forager",
       "location": "Mist Lake Shore",
       "species": "Human",
       "description": "Spirited boy who fishes along mountain streams and misty lakes; Garrick's grandson. Fascinated by luminous aquatic fauna.",
@@ -971,7 +971,7 @@
       "schedule": "06:00 - 18:00: Angling by the starlight brook; Evening: Warming by tavern hearth",
       "real_world_wound": "Fishes tirelessly to buy back the ancestral Silver Compass Garrick pawned for family medicine.",
       "comfort_dish": "item_tea_frostmint_breeze",
-      "heart_event_summary": "Recovers the heirloom compass and trains as Oakhaven's next adventurous navigator.",
+      "heart_event_summary": "Unlocks Fishing Rod & Lake Minigame at 4 Hearts; supplies bioluminescent fish for night-vision recipes in deep mines at 8 Hearts.",
       "gift_preferences": {
         "loved": [
           "nuoc_ep_dua_luoi_bang_gia",
@@ -1034,7 +1034,7 @@
     {
       "id": "npc_elora",
       "name": "Elora",
-      "role": "Gala Robe Seamstress",
+      "role": "Gala Robe Seamstress (Cold-Resistance Garments)",
       "location": "Sylva-Fae Glade (Evening Visitor)",
       "species": "Elf",
       "description": "Graceful seamstress tailoring moonlight velvet robes; Sylvan's kindred spirit. Her fingers ache from days of meticulous silver needlework.",
@@ -1047,12 +1047,12 @@
       "schedule": "All day: Tending Sylva-Fae canopy silk greenhouse",
       "real_world_wound": "Joint tremor syndrome in her fingers after decades of nonstop needlework; fears losing her craft and disappointing beloved companions.",
       "comfort_dish": "tra_oai_huong_ngan_sao",
-      "heart_event_summary": "Rowan and Sylvan collaborate to forage soothing herbs; unlocks warm winter artisan attire."
+      "heart_event_summary": "Weaves Expanded Adventurer Pouch (+12 slots) at 4 Hearts; tailors the Eternal Winter Gala Robe for Rowan using Thistle's silk at 8 Hearts."
     },
     {
       "id": "npc_sylvan",
       "name": "Sylvan",
-      "role": "Monocle Master Herbalist",
+      "role": "Monocle Botanist (Essential Oil Extraction)",
       "location": "Sylva-Fae Glade",
       "species": "Human",
       "description": "Monocled botanical researcher from the elven woods; Elora's confidant. Frequently trades ancient roots for grounding, hearty teas.",
@@ -1066,12 +1066,12 @@
       "schedule": "Afternoon & Evening: Patrolling Sylva-Fae ancient boughs",
       "real_world_wound": "Haunted by his inability to heal Mentor Fern blind eyes; constantly torments himself for lacking deeper botanical knowledge.",
       "comfort_dish": "tea_sylvan_night_infusion",
-      "heart_event_summary": "Rowan helps Sylvan harvest rare cliffside herbs; unlocks Natural Essential Oil Distillation Station."
+      "heart_event_summary": "Opens Herbal Essential Oil Extractor to enhance dish buff stats at 4 Hearts; harvests rare Millennial Roots at 8 Hearts."
     },
     {
       "id": "npc_marlo",
       "name": "Marlo",
-      "role": "Nightwatch Sentinel",
+      "role": "Nightwatch Sentinel & Eatery Security",
       "location": "Town Gates & Night Patrol",
       "species": "Human",
       "description": "Steadfast town guard keeping watch through long, freezing snowy nights while Oakhaven slumbers peacefully.",
@@ -1085,12 +1085,12 @@
       "schedule": "07:00 - 17:00: Operating Oakhaven windmill grinding flour",
       "real_world_wound": "Supports 4 impoverished siblings back home; endures frozen nocturnal vigils in solitude.",
       "comfort_dish": "dish_spicy_ginger_stew",
-      "heart_event_summary": "Discovers family warmth and silent honor at Rowan's late-night hearth table."
+      "heart_event_summary": "Reduces Honor Stand theft rate by 50% at 4 Hearts; grants 100% nighttime theft immunity for the eatery at 8 Hearts."
     },
     {
       "id": "npc_aurelia",
       "name": "Aurelia",
-      "role": "Town Apothecary",
+      "role": "Town Apothecary (Vitality Broths & Therapy)",
       "location": "Oakhaven Clinic",
       "species": "Human",
       "description": "Caring town healer running the dispensary clinic. Believes wholesome teas heal spirits far deeper than bitter salves alone.",
@@ -1103,12 +1103,12 @@
       "schedule": "Morning: Honeybee apiary; Afternoon: Delivering fresh honey to shop",
       "real_world_wound": "Disgusted by commercial medicine prioritizing nobles; struggles with poverty-driven medical shortages.",
       "comfort_dish": "tra_oai_huong_ngan_sao",
-      "heart_event_summary": "Reclaims humanitarian purpose and collaborates with Rowan on therapeutic culinary tonics."
+      "heart_event_summary": "Brews Vitality Healing Broth to relieve chronic pain at 2 Hearts; supplies deep-wound salves and stamina tonics at 6 Hearts."
     },
     {
       "id": "npc_valen",
       "name": "Valen",
-      "role": "Vegetarian Vampire Noble",
+      "role": "Vegetarian Vampire Noble (VIP Inn Guest & Midnight Banquets)",
       "location": "Sorcerer's Citadel",
       "species": "Vampire",
       "description": "A refined vegetarian vampire aristocrat; terrified of garlic but utterly enchanted by ruby-red sweet berry infusions. Visits only after dusk.",
@@ -1121,12 +1121,12 @@
       "schedule": "Day: Resting in ancient keep; Night: Visiting tavern for hot red tea",
       "real_world_wound": "Cast out by vampire aristocracy for adopting a vegetarian lifestyle; struggles alone against primal instincts to protect humanity.",
       "comfort_dish": "tra_dau_bang_tuyet",
-      "heart_event_summary": "Rowan bakes crimson berry pastries mimicking blood sweetness; unlocks Midnight Tea Gatherings at Ancient Keep."
+      "heart_event_summary": "Orders double-priced midnight dessert banquets and herbal wine at 4 Hearts; signs the Ancient Castle Midnight Feast Contract at 8 Hearts."
     },
     {
       "id": "npc_kassandra",
       "name": "Kassandra",
-      "role": "Exiled Meteor Sorceress",
+      "role": "Wind Witch (Sky Express Rapid Air Courier)",
       "location": "Sky Realm Vagabond",
       "species": "Human (Sorceress)",
       "description": "Nomadic comet sorceress drifting through cloud currents; her enchanted broomstick frequently runs low on mana mid-flight.",
@@ -1139,12 +1139,12 @@
       "schedule": "Wandering through cloud layers and gathering starlight dew",
       "real_world_wound": "Exiled by the Solarian Mages Council for researching commoner folk magic; wanders across cloud realms with a broom running out of mana.",
       "comfort_dish": "tra_sen_an_than",
-      "heart_event_summary": "Rowan delivers hot restorative meals; unlocks Swift Sky Broom Delivery Service."
+      "heart_event_summary": "Opens Sky Express 2-hour inter-realm ingredient air delivery at 4 Hearts; gifts Rowan the Enchanted Flying Broom at 8 Hearts."
     },
     {
       "id": "npc_chrono",
       "name": "Chrono",
-      "role": "Ancient Clockwork Automaton",
+      "role": "Ancient Clockwork Automaton (Town Clocktower & Weekly Calendar)",
       "location": "Underground Dwarven Megalopolis",
       "species": "Android (Automaton)",
       "description": "Clockwork relic remaining from a lost civilization; speaks with a rhythmic tick-tock cadence and needs periodic chamomile oil lubrication.",
@@ -1157,12 +1157,12 @@
       "schedule": "Tending the perpetual clockwork waterwheels in Khaz-Drakor",
       "real_world_wound": "Ancient memory modules fragmented across millennia; fears the day mainspring unwinds forever and lost civilisation memories fade.",
       "comfort_dish": "khoai_tay_nuong_bo_toi",
-      "heart_event_summary": "Cogsworth and Rowan brew chamomile lubricant and wind the perpetual mainspring; unlocks Town Clock Chime System."
+      "heart_event_summary": "Operates town bell to signal meal hours and displays buff countdown timers on HUD at 4 Hearts; bell resonance boosts tavern revenue by 20% at 8 Hearts."
     },
     {
       "id": "npc_lapis",
       "name": "Lapis",
-      "role": "Air-Bubble Mermaid",
+      "role": "Subterranean Mermaid (Pearl & Mineral Merchant)",
       "location": "Mist Sea",
       "species": "Mermaid",
       "description": "A buoyant mermaid journeying onto dry land for the first time, delightfully captivated by warm pastries that dissolve on the tongue.",
@@ -1175,12 +1175,12 @@
       "schedule": "Swimming through misty highland springs and underground lakes",
       "real_world_wound": "Profound isolation in silent sea trenches and deep curiosity about terrestrial warmth; fears rejection as a sea-dweller.",
       "comfort_dish": "pastry_berry_shortcake",
-      "heart_event_summary": "Rowan delivers crisp buttery pastries to misty lakeside; unlocks Mist Sea Pearl and Crystal Salt trading."
+      "heart_event_summary": "Trades cloud lake crystal sea salts at 4 Hearts; supplies glowing pearls to craft poison-resistant jewelry at 8 Hearts."
     },
     {
       "id": "npc_thorne",
       "name": "Guildmaster Thorne",
-      "role": "Master of the Adventurer's Guild",
+      "role": "Guildmaster Thorne (Deep Mine Rescue Team)",
       "location": "Adventurer's Guild Hall",
       "species": "Human (Veteran Vanguard Commander)",
       "description": "Decorated royal guard captain bearing an iron leg prosthesis. Having lost 18 comrades in deep subterranean vaults, he established the Rescue Outpost with a binding oath: 'No one is left behind in the dark.'",
@@ -1194,7 +1194,7 @@
       "schedule": "08:00 - 22:00: Commanding guild hall operations; Night: Inspecting mine barricades",
       "real_world_wound": "Haunted by severe Survivor's Guilt after his 18-soldier platoon perished in the Sunken Necropolis.",
       "comfort_dish": "dish_spicy_ginger_stew",
-      "heart_event_summary": "Releases past ghosts at 8 Hearts; mobilizes the Deep-Mine Rescue Strike Force, halving rescue penalties.",
+      "heart_event_summary": "Opens Monster Bounty Board at 4 Hearts; leads emergency rescue squad reducing fainting hospital fees by 50% at 8 Hearts.",
       "gift_preferences": {
         "loved": [
           "dui_rung_hun_khoi_da_chien",
@@ -1267,7 +1267,7 @@
     {
       "id": "npc_valerie",
       "name": "Dispatcher Valerie",
-      "role": "Lost & Found Custodian",
+      "role": "Lost & Found Custodian (Item Recovery)",
       "location": "Adventurer's Guild Reception",
       "species": "Human (Retired Marksman)",
       "description": "Former sharpshooter who suffered unilateral hearing damage and acoustic blast PTSD. Meticulously logs rescue reports and coordinates gear retrieval for injured miners.",
@@ -1281,7 +1281,7 @@
       "schedule": "08:00 - 20:00: Managing lost items desk; 20:30: Dining at Rowan's Hearth Eatery",
       "real_world_wound": "Suffers from acoustic blast PTSD and partial deafness, finding solace in quiet administrative paperwork.",
       "comfort_dish": "dish_sweet_pumpkin_potage",
-      "heart_event_summary": "Finds calm assurance at 8 Hearts; accepts Expedition Rations to recover lost equipment without fee.",
+      "heart_event_summary": "Unlocks Lost & Found retrieval service at 4 Hearts; recovers 100% dropped gear via ration supply drops at 8 Hearts.",
       "gift_preferences": {
         "loved": [
           "sup_cu_den_do_dai_ngan",
@@ -1344,7 +1344,7 @@
     {
       "id": "npc_elder_oak",
       "name": "Elder Oakwood",
-      "role": "Town Mayor of Oakhaven",
+      "role": "Town Mayor of Oakhaven (Valley Restoration)",
       "location": "Oakhaven Town Hall",
       "species": "Human (Veteran Adventurer)",
       "description": "Silver-haired elder with a resonant voice, leaning upon an antique runic oak staff. Steadfastly sheltered the town through the Great Blight 20 years ago.",
@@ -1358,7 +1358,7 @@
       "schedule": "08:00 - 16:00: Town Hall; Evening: Resting at the Hearth Eatery",
       "real_world_wound": "Tired Hero syndrome; bore the crushing mantle of sole communal leadership for three decades, terrified of catastrophic failure if he lets go.",
       "comfort_dish": "tea_whisper_hearth",
-      "heart_event_summary": "At 8 Hearts: Yields executive authority to a collective Town Council; unlocks the Town Restoration Upgrade Board.",
+      "heart_event_summary": "Oversees the 12-Project Town Board restoration; honors Rowan with the Valley Pioneer Monument at 8 Hearts.",
       "gift_preferences": {
         "loved": [
           "tea_whisper_hearth",
@@ -1416,7 +1416,7 @@
     {
       "id": "npc_cedar",
       "name": "Cedar",
-      "role": "Master Carpenter & Builder",
+      "role": "Master Carpenter & Builder (Brown Bear Beastfolk)",
       "location": "Oakhaven Carpenter Workshop",
       "species": "Beastfolk (Ursine Bear-kin)",
       "description": "Burly, kindhearted brown bear-kin carpenter whose weathered paws craft breathtaking timber joinery. A quiet artisan whose deep laughter rattles the shop rafters.",
@@ -1430,7 +1430,7 @@
       "schedule": "07:00 - 17:00: Carpenter Workshop; 18:30: Hearth Eatery",
       "real_world_wound": "Exiled from his native mountain clan for pacifism; branded a coward yet steadfast in his conviction that creation triumphs over ruin.",
       "comfort_dish": "dish_sweet_pumpkin_potage",
-      "heart_event_summary": "At 8 Hearts: Reconstructs the Old Timber Viaduct into Whisperwood; unlocks Home & Eatery Structural Expansion projects.",
+      "heart_event_summary": "Expands Eatery dining floor at 2 Hearts; rebuilds the Ancient Wooden Bridge connecting to the deep forest at 6 Hearts.",
       "gift_preferences": {
         "loved": [
           "dish_sweet_pumpkin_potage",
@@ -1488,7 +1488,7 @@
     {
       "id": "npc_wren",
       "name": "Wren",
-      "role": "Wandering Halfling Bard",
+      "role": "Wandering Halfling Bard (Tavern Troupe)",
       "location": "Town Square & Hearth Eatery",
       "species": "Halfling",
       "description": "Nimble halfling clad in a forest-green feathered beret, carrying a cherished antique mandolin. Sings like a dawn thrush yet turns crimson with stage fright offstage.",
@@ -1502,7 +1502,7 @@
       "schedule": "Afternoon: Riverside rehearsal; Evening: Performing at the Hearth Eatery",
       "real_world_wound": "Suffered acute aphonia for three years following the destruction of his homeland; afflicted by severe social anxiety and performance dread.",
       "comfort_dish": "pastry_scone_berry",
-      "heart_event_summary": "At 8 Hearts: Debuts the full 'Lullaby of Oakhaven' at the Harvest Festival; unlocks the Tavern Ambience Music Jukebox.",
+      "heart_event_summary": "Performs acoustic mandolin at the eatery; unlocks Tavern Music Box at 4 Hearts and Grand Concert boosting patron joy at 8 Hearts.",
       "gift_preferences": {
         "loved": [
           "pastry_scone_berry",
@@ -1560,7 +1560,7 @@
     {
       "id": "npc_hazel",
       "name": "Hazel",
-      "role": "Rancher & Livestock Matron",
+      "role": "Rancher & Livestock Matron (Dairy & Flocks)",
       "location": "Southern Pastures",
       "species": "Human",
       "description": "Sun-bronzed rancher with an amber ponytail and practical denim overalls. Runs the sprawling dairy and sheep pastures single-handedly with rugged pride.",
@@ -1574,7 +1574,7 @@
       "schedule": "06:00 - 18:00: Southern Pastures and barn operations",
       "real_world_wound": "Abandoned by a merchant spouse who vanished into metropolitan Solaria; fiercely guards her autonomy and spurns assistance out of betrayal trauma.",
       "comfort_dish": "sua_bo_nong_mat_ong",
-      "heart_event_summary": "At 8 Hearts: Accepts town community support to establish the Valley Ranching Cooperative; unlocks purchasing barn livestock and dairy stock.",
+      "heart_event_summary": "Opens cattle and sheep purchasing at 4 Hearts; supplies the Artisan Butter & Cheese Churner at 6 Hearts.",
       "gift_preferences": {
         "loved": [
           "sua_bo_nong_mat_ong",
@@ -1632,7 +1632,7 @@
     {
       "id": "npc_bramble",
       "name": "Bramble",
-      "role": "General Provisioner",
+      "role": "General Provisioner (Saturday Night Market)",
       "location": "Bramble's Treasure Urn Shop",
       "species": "Goblin",
       "description": "Small, olive-skinned goblin in round spectacles and a tartan vest. Keeps exact abacus ledgers and hoards antique buttons, but conducts strictly honorable commerce.",
@@ -1646,7 +1646,7 @@
       "schedule": "08:00 - 18:00: General Store; Saturday Evenings: Night Bazaar",
       "real_world_wound": "Exiled from Solaria's Merchant Conclave for blowing the whistle on counterfeit elixirs; branded a traitor to both goblin kind and wealthy guildmasters.",
       "comfort_dish": "chao_yen_mach_mat_ong",
-      "heart_event_summary": "At 8 Hearts: Establishes the Oakhaven Saturday Night Bazaar; unlocks exotic import crop seeds and rare tool attachments.",
+      "heart_event_summary": "Opens antique curio provisions at 4 Hearts; exclusively hosts the Saturday Night Market with exotic seed pouches at 8 Hearts.",
       "gift_preferences": {
         "loved": [
           "chao_yen_mach_mat_ong",
@@ -1704,7 +1704,7 @@
     {
       "id": "npc_rosemary",
       "name": "Rosemary",
-      "role": "Stardust Shrine Keeper",
+      "role": "Ancient Oakhaven Shrine Keeper (Memorial Altars)",
       "location": "Stardust Shrine — Whisperwood Glade",
       "species": "Dryad (Mother Oak Avatar)",
       "description": "Serene dryad disguised in linen robes, bearing forest-moss braids interwoven with budding white blossoms. Living avatar of Oakhaven's ancient mother oak.",
@@ -1718,7 +1718,7 @@
       "schedule": "All day: Guarding the sacred stardust shrine and ancient roots",
       "real_world_wound": "Agonized by Star Blight corrupting deep subterranean root systems; terrified that if the mother tree withers, her consciousness will dissolve.",
       "comfort_dish": "tra_sen_bach_diep",
-      "heart_event_summary": "At 8 Hearts: Reveals her true dryad essence and purges the root blight; unlocks the Stardust Purification Cauldron.",
+      "heart_event_summary": "Supplies purification water at 4 Hearts; performs the Great Memorial Feast with Rowan to purge miasma and unlocks Ancient Memorial Altars at 8 Hearts.",
       "gift_preferences": {
         "loved": [
           "tra_sen_bach_diep",
@@ -1776,7 +1776,7 @@
     {
       "id": "npc_tilly",
       "name": "Tilly",
-      "role": "Little Shepherdess",
+      "role": "Little Shepherdess (Five-Color Wool Dyeing)",
       "location": "Southern Pastures",
       "species": "Beastfolk (Ovine Sheep-kin)",
       "description": "Spirited 10-year-old sheep-kin girl with curling horns (one chipped short from past trauma) and fluffy cream-white curls. Loves stargazing and often dozes in haystacks.",
@@ -1790,7 +1790,7 @@
       "schedule": "Morning: Herding yearling lambs; Afternoon: Playing with Kael and Finn",
       "real_world_wound": "Suffers severe nyctophobia and post-traumatic anxiety following an old winter wolf attack; longs to appear brave before her peers.",
       "comfort_dish": "sua_bo_nong_mat_ong",
-      "heart_event_summary": "At 8 Hearts: Conquers her terror of the dark to rescue an orphaned lamb; unlocks the Rainbow Wool Dyeing Workshop.",
+      "heart_event_summary": "Supplies raw fleece wool at 4 Hearts; opens Wool Dyeing Workshop to craft cozy tablecloths granting tavern buffs at 6 Hearts.",
       "gift_preferences": {
         "loved": [
           "banh_cau_vong_4_mua",
@@ -1862,7 +1862,7 @@
       "schedule": "All day: Pounding enchanted metal at the Royal Forge of Khaz-Drakor",
       "real_world_wound": "Haunted by the memory of driving Boris and Bram away with unrelenting severity; maternal remorse buried deep behind deafening anvil strikes.",
       "comfort_dish": "dish_dwarf_ironforge_goulash",
-      "heart_event_summary": "At 8 Hearts: Tearfully reconciles with Boris and Bram at Oakhaven; unlocks Masterwork Mithril Weapon & Armor smithing.",
+      "heart_event_summary": "Teaches heavy alloy casting at 6 Hearts; unlocks legendary Mithril weapons and armor smithing at 8 Hearts.",
       "gift_preferences": {
         "loved": [
           "dish_dwarf_ironforge_goulash",
@@ -1920,7 +1920,7 @@
     {
       "id": "npc_cogsworth",
       "name": "Engineer Cogsworth",
-      "role": "Steam Engineer",
+      "role": "Steam Engineer (Steam & Rail Mechanics)",
       "location": "Underground Steam Workshop",
       "species": "Dwarf",
       "description": "Slender young dwarf sporting crooked brass goggles and grease-smeared overalls. Intrigued by gears and clockwork, and the only soul capable of deciphering Chrono's cadence.",
@@ -1934,7 +1934,7 @@
       "schedule": "08:00 - 18:00: Repairing pneumatic valves and minecart lines",
       "real_world_wound": "Ostracized by conservative dwarven clans for pursuing steam engineering over traditional blacksmithy; struggling with profound intellectual alienation.",
       "comfort_dish": "khoai_tay_nuong_bo_toi",
-      "heart_event_summary": "At 8 Hearts: Restores the subterranean Minecart Express network; unlocks Automated Sprinkler & Hopper blueprints for farming.",
+      "heart_event_summary": "Crafts Automated Field Sprinklers at 4 Hearts; completes the Minecart Express ore transportation rail system at 8 Hearts.",
       "gift_preferences": {
         "loved": [
           "khoai_tay_nuong_bo_toi",
@@ -1992,7 +1992,7 @@
     {
       "id": "npc_ember",
       "name": "Ember",
-      "role": "Lava Roaster Chef",
+      "role": "Lava Roaster Chef (Magma Roasting Station)",
       "location": "Lava Basin Eatery — Khaz-Drakor",
       "species": "Beastfolk (Fire Salamander)",
       "description": "Energetic fire salamander chef with orange-black patterns and an ember-tipped tail, wearing a charred chef's apron. Roasts directly over geothermal magma; Rowan's friendly cooking rival.",
@@ -2006,7 +2006,7 @@
       "schedule": "10:00 - 22:00: Cooking at the Khaz-Drakor Lava Basin Eatery",
       "real_world_wound": "Barred from surface culinary guilds due to deep prejudice against fire-breathing beastfolk; longs for genuine recognition of his gastronomic artistry.",
       "comfort_dish": "thit_nuong_lua_dia_nguc",
-      "heart_event_summary": "At 8 Hearts: Engages Rowan in an exhilarating harvest cook-off; unlocks the Magma Forge Cooking Station and superheated recipes.",
+      "heart_event_summary": "Friendly culinary rival; exchanges fire spices at 4 Hearts and hands over the superheated Magma Roasting Station at 8 Hearts.",
       "gift_preferences": {
         "loved": [
           "thit_nuong_lua_dia_nguc",
@@ -2064,7 +2064,7 @@
     {
       "id": "npc_thistle",
       "name": "Thistle",
-      "role": "Nocturnal Moth Ranger",
+      "role": "Nocturnal Moth Ranger (Luminescent Silk)",
       "location": "Canopy Boughs of Sylva-Fae",
       "species": "Moth-Folk",
       "description": "Lithe moth-folk with silver-violet wings dusted with bioluminescent scales, feathery antennae, and a snowy down collar. Patrols canopy treetops and harvests star-dew.",
@@ -2078,7 +2078,7 @@
       "schedule": "20:00 - 05:00: Patrolling Sylva-Fae canopy; Day: Slumbering in silk cocoon",
       "real_world_wound": "Suffers photic hypersensitivity from blinding glare; isolated by living entirely inverted nocturnal hours from the rest of the world.",
       "comfort_dish": "tra_oai_huong_ngan_sao",
-      "heart_event_summary": "At 8 Hearts: Guides Rowan into the Moonlit Moth Sanctuary; unlocks harvesting Luminescent Silk for Elora's haute tailoring.",
+      "heart_event_summary": "Patrols canopy boughs at night; gathers Luminescent Silk at 4 Hearts and Golden Silks for seamstress Elora at 8 Hearts.",
       "gift_preferences": {
         "loved": [
           "tra_oai_huong_ngan_sao",
@@ -2136,7 +2136,7 @@
     {
       "id": "npc_fern",
       "name": "Fern",
-      "role": "Ancient Root Healer",
+      "role": "Ancient Root Healer (Primeval Herbal Codex)",
       "location": "Root Sanctum — Deep Sylva-Fae",
       "species": "Elf (800-year-old Elder)",
       "description": "Blind ancient elf with flowing silver hair braided with dried roots, sensing all life through the subterranean root network. Sylvan's esteemed former mentor.",
@@ -2150,7 +2150,7 @@
       "schedule": "All day: Meditating within the deep Root Sanctum of Sylva-Fae",
       "real_world_wound": "Blinded during a solitary stand against primordial Star Blight two centuries ago; bears enduring guilt over failing to save the entire forest.",
       "comfort_dish": "canh_thao_moc_bup_sen",
-      "heart_event_summary": "At 8 Hearts: Imparts the ancient art of culinary purification; unlocks Primeval Herbal Remedies for terminal ailments.",
+      "heart_event_summary": "Teaches Primeval Herbal Codex recipes at 6 Hearts; guides permanent soil miasma purification rites at 8 Hearts.",
       "gift_preferences": {
         "loved": [
           "canh_thao_moc_bup_sen",
@@ -2208,7 +2208,7 @@
     {
       "id": "npc_valerius",
       "name": "Valerius",
-      "role": "Exiled Knight",
+      "role": "Exiled Knight (Combat & Parry Trainer)",
       "location": "Vagabond / Oakhaven Watch",
       "species": "Human (Former Royal Guard Commander)",
       "description": "Stoic disgraced commander bearing a saber scar across his nose, battered silver armor, and an air of aristocratic dignity. Settles permanently to defend Oakhaven.",
@@ -2222,7 +2222,7 @@
       "schedule": "06:00 - 18:00: Drilling town militia and patrolling the North Valley Gate",
       "real_world_wound": "Falsely framed for treason and banished from Solaria after uncovering ministerial corruption; deeply embittered by betrayal yet unshakably honorable.",
       "comfort_dish": "bit_tet_nuong_than_soi",
-      "heart_event_summary": "At 8 Hearts: Vindicated of all false charges and named Captain of Oakhaven's Guardians; unlocks Combat Parry Training.",
+      "heart_event_summary": "Guards town gates by day; opens Combat Dojo teaching Rowan Shield Parry at 4 Hearts and Master Parry Counter at 8 Hearts.",
       "gift_preferences": {
         "loved": [
           "bit_tet_nuong_than_soi",
@@ -2280,7 +2280,7 @@
     {
       "id": "npc_morrigan",
       "name": "Morrigan",
-      "role": "Recluse Hedge Witch",
+      "role": "Recluse Hedge Witch (Toxicology & Deep Alchemy)",
       "location": "Western Marshes of Oakhaven",
       "species": "Human (Ancient Hedge Witch)",
       "description": "Enigmatic marsh witch with raven-black tresses, violet gaze, and a pet crow perched on her shoulder. Gruff and spooky on the surface, but secretly nurse to wounded forest beasts.",
@@ -2294,7 +2294,7 @@
       "schedule": "All day: Marshland Hermitage; Blizzard nights: Lodging at the Hearth Eatery",
       "real_world_wound": "Shunned and vilified throughout civilized realms due to superstitious fear of her appearance; isolates herself to preemptively ward off rejection.",
       "comfort_dish": "item_tea_frostmint_breeze",
-      "heart_event_summary": "At 8 Hearts: Rescues the valley from a lethal plague and receives townwide gratitude; unlocks the Potion & Enchantment Brewing Table.",
+      "heart_event_summary": "Concocts weapon-coating monster toxins at 4 Hearts; unlocks Critical Strike Elixir and Miasma Antidote at 8 Hearts.",
       "gift_preferences": {
         "loved": [
           "tea_frostmint_breeze",
@@ -2352,7 +2352,7 @@
     {
       "id": "npc_iris",
       "name": "Iris",
-      "role": "Royal Chronicler",
+      "role": "Royal Chronicler (Relic Appraiser)",
       "location": "Solaria Archives / Oakhaven",
       "species": "Human",
       "description": "Bright, earnest scholar with a bouncy auburn bob and round spectacles, constantly balancing towering stacks of antique tomes. Passionate about authentic history.",
@@ -2366,7 +2366,7 @@
       "schedule": "08:00 - 17:00: Archival research at the Oakhaven Library with Clara",
       "real_world_wound": "Grew up stifled beneath rigid imperial censorship; torn between court loyalty and an unquenchable devotion to truthful historical documentation.",
       "comfort_dish": "tea_earl_grey_clara",
-      "heart_event_summary": "At 8 Hearts: Publishes 'The Unvarnished Chronicles of Oakhaven'; unlocks the Relic Artifact Lore Compendium.",
+      "heart_event_summary": "Opens Deep Mine Relic Appraisal service at 4 Hearts; completes the Valley Historical Museum at 8 Hearts.",
       "gift_preferences": {
         "loved": [
           "tea_earl_grey_clara",
@@ -2424,7 +2424,7 @@
     {
       "id": "npc_solace",
       "name": "Solace",
-      "role": "Celestial Gate Guardian",
+      "role": "Celestial Gate Guardian (Aethelgard Skygate)",
       "location": "Celestial Gates of Aethelgard",
       "species": "Celestial Spirit",
       "description": "Luminous astral being hovering softly above the sea of clouds in Aethelgard. Ancient guardian who surrendered mortal identity to watch over the stardust threshold.",
@@ -2438,7 +2438,7 @@
       "schedule": "All day: Guarding the celestial threshold of Aethelgard",
       "real_world_wound": "Millennia of solitary celestial duty; the quiet tragedy of forgotten mortality and yearning for restful peace.",
       "comfort_dish": "tra_sen_an_than",
-      "heart_event_summary": "At 8 Hearts: Reclaims fading memories of once having been an ancient mortal baker; permanently unseals Aethelgard's gates to mortals.",
+      "heart_event_summary": "Recovers ancient primordial memories; permanently unseals the Aethelgard Skygate linking all 5 realms at 8 Hearts.",
       "gift_preferences": {
         "loved": [
           "tra_sen_an_than",

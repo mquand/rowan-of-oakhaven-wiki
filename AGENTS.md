@@ -2,9 +2,11 @@
 
 > **LUÔN ĐỌC GUIDE TRƯỚC KHI SỬA BẤT KỲ FILE NÀO (ALWAYS READ GUIDES BEFORE MODIFYING ANY FILES):**  
 > Trước khi thực hiện bất kỳ chỉnh sửa nội dung wiki, dữ liệu JSON nhân vật/địa điểm/vật phẩm, hoặc giao diện UI:
-> 1. Agent **BẮT BUỘC PHẢI ĐỌC** các tài liệu guide liên quan trong `docs/vi/` hoặc `docs/en/` (ví dụ: `lore-story.md`, `character-roster.md`, `gameplay-guide.md`).
-> 2. Đọc **[HUONG-DAN-SU-DUNG.md](file:///Users/macbook/Downloads/Rowan/rowan-of-oakhaven/HUONG-DAN-SU-DUNG.md) - Mục 7 (Bản đồ tài liệu)** bên repository game để đối chiếu tính nhất quán.
-> 3. Tuyệt đối tuân thủ định vị canon hiện tại: Quán Ăn & Nhà Trọ Oakhaven (Hearth Eatery & Tavern), 40 NPC với vết thương tâm lý đời thực, bối cảnh hậu chiến.
+> 1. Agent **BẮT BUỘC PHẢI ĐỌC** tài liệu **[AI_GUIDELINES.md](./AI_GUIDELINES.md)** trong thư mục gốc wiki — đây là cẩm nang quy chuẩn bắt buộc nhằm loại bỏ triệt để 3 lỗi: Sửa thiếu, Xót file và Bỏ qua kiểm chứng.
+> 2. Đọc **[OAKHAVEN_DESIGN_COMPENDIUM.md](./OAKHAVEN_DESIGN_COMPENDIUM.md)** để đối chiếu thông số chuẩn mực thiết kế (40 nhân vật, 55 công thức ẩm thực, 32 cây trồng, 150 tầng mỏ, 23 vũ khí, 5 địa danh).
+> 3. Khi cần đối chiếu tài liệu game engine gốc, tra cứu sang repository game: **`../rowan-of-oakhaven/HUONG-DAN-SU-DUNG.md` (Mục 7: Bản đồ tài liệu)** và **`../rowan-of-oakhaven/design/game-brief.md`**.
+> 4. Tuyệt đối tuân thủ định vị canon: Quán Ăn & Nhà Trọ Oakhaven (Hearth Eatery & Tavern), 40 NPC mang vết thương tâm lý đời thực, bối cảnh hậu chiến Solaria, hầm mỏ 150 tầng thuần Action RPG. Cấm sử dụng các thuật ngữ cũ đã bị loại bỏ (như dỗ dành quái bằng trà, tiệm trà bụi sao).
+> 5. **Đường dẫn luôn tương đối từ gốc repo** (`docs/...`, `src/...`). Tuyệt đối không hardcode đường dẫn tuyệt đối (`file:///Users/...`, `D:\...`, `C:\...`).
 
 ---
 
@@ -18,27 +20,44 @@ This block is written and re-added by `next dev` — verify at `node_modules/nex
 
 <!-- END:nextjs-agent-rules -->
 
-## Design rules — BẮT BUỘC (mandatory)
+## Design rules — BẮT BUỘC (Mandatory)
 
 Mọi thay đổi UI của wiki này PHẢI theo phong cách **Dark Cozy Pixel Art** của game Rowan of Oakhaven. Không dùng phong cách SaaS/landing page generic.
 
-- **Pixel là bắt buộc:** font pixel (`var(--font-pixel)` / `$font-pixel` — Pixelify Sans) cho logo, tiêu đề display, số liệu, nhãn trang trí; chỉ dùng cho text không dấu/ASCII. Body dùng Manrope (`var(--font-sans)` / `$font-sans`).
-- **Khung góc pixel:** card, panel, khung nội dung phải có class `pixel-frame` (đã định nghĩa trong `src/styles/globals.scss`).
-- **Icon:** chỉ dùng `<Icon name="..." />` từ `src/components/Icon.jsx` (bộ icon Phosphor inline SVG). TUYỆT ĐỐI không dùng emoji làm icon UI.
-- **Màu:** nền phẳng xanh đêm tím (`$color-night-*`), một accent vàng hổ phách (`$color-amber-*`). Không gradient nền, không gradient button — gradient chỉ cho phép trên text hero.
-- **Nút bấm kiểu game:** nền đặc + `box-shadow` cứng đáy, hover nhấc lên, active nhấn xuống.
-- **Tokens:** spacing chỉ dùng thang `$sp-*`, radius `$radius-*`, motion curve `$ease-out` — định nghĩa trong `src/styles/_variables.scss`. Font size theo type scale (12/14/16/18/20/24/30/36/48/60px).
-- **Texture:** sao pixel và ornament kim cương làm bằng SVG data-uri hoặc CSS, không ảnh nặng.
-- **Tài liệu tham chiếu:** design skills bắt buộc đọc trước khi sửa UI nằm trong `.agents/skills/` (`redesign-existing-projects`, `landing-page-design`).
+- **Pixel là bắt buộc:** Font pixel (`var(--font-pixel)` / `$font-pixel` — Pixelify Sans) cho logo, tiêu đề display, số liệu, nhãn trang trí; chỉ dùng cho text không dấu/ASCII. Body dùng Manrope (`var(--font-sans)` / `$font-sans`).
+- **Khung góc pixel:** Card, panel, khung nội dung phải có class `pixel-frame` (đã định nghĩa trong `src/styles/globals.scss`).
+- **Icon:** Chỉ dùng `<Icon name="..." />` từ `src/components/Icon.jsx` (bộ icon Phosphor inline SVG). TUYỆT ĐỐI không dùng emoji làm icon UI.
+- **Màu sắc:** Nền phẳng xanh đêm tím (`$color-night-*`), một accent vàng hổ phách (`$color-amber-*`). Không gradient nền, không gradient button — gradient chỉ cho phép trên text hero.
+- **Nút bấm kiểu game:** Nền đặc + `box-shadow` cứng đáy, hover nhấc lên, active nhấn xuống.
+- **Tokens:** Spacing chỉ dùng thang `$sp-*`, radius `$radius-*`, motion curve `$ease-out` — định nghĩa trong `src/styles/_variables.scss`. Font size theo type scale (12/14/16/18/20/24/30/36/48/60px).
+- **Texture:** Sao pixel và ornament kim cương làm bằng SVG data-uri hoặc CSS, không dùng ảnh nặng.
 
-## Quy chuẩn đọc, sửa file & kiểm tra code — BẮT BUỘC (mandatory)
+---
 
-Mọi AI khi làm việc trong repository này PHẢI đọc và tuân thủ nghiêm ngặt tài liệu [AI_GUIDELINES.md](./AI_GUIDELINES.md) để tránh **sửa thiếu**, **xót file** và **bỏ qua kiểm chứng**:
+## Quy chuẩn song ngữ & Dữ liệu — BẮT BUỘC 100% (Bilingual Parity)
+
+Repository này hoạt động ở chế độ đa ngôn ngữ (`vi` và `en`). Mọi cập nhật dữ liệu hoặc tài liệu PHẢI đồng bộ đầy đủ:
+
+- **Dữ liệu JSON:** Sửa `docs/data/vi/<file>.json` $\rightarrow$ **BẮT BUỘC** cập nhật tương ứng vào `docs/data/en/<file>.json` và file fallback `docs/data/<file>.json`.
+- **Tài liệu Markdown:** Thêm/sửa `docs/vi/<doc>.md` $\rightarrow$ **BẮT BUỘC** cập nhật tại `docs/en/<doc>.md` và file fallback `docs/<doc>.md`.
+- **Từ điển giao diện:** Thêm nhãn mới tại `src/lib/i18n/dictionaries/vi.js` $\rightarrow$ **BẮT BUỘC** thêm nhãn đó vào `src/lib/i18n/dictionaries/en.js`.
+- **Hằng số & nhãn:** Thêm enum/label mới phải đăng ký vào `src/lib/constants.js`.
+- **Frontmatter Markdown:** Giữ đúng các trường chuẩn: `title`, `status`, `audience`, `updated`, `tags`, `spoiler`.
+
+---
+
+## Quy chuẩn code & Kiến trúc (Robust Architecture)
 
 - **Không dùng placeholder:** CẤM TUYỆT ĐỐI viết `// ... rest of code`, `/* giữ nguyên */`, `// TODO`. Viết code hoàn chỉnh 100%.
 - **Đọc kỹ trước khi sửa:** Luôn dùng `read_file` đọc toàn bộ file trước khi gọi `edit_file` hoặc `write_file`. Cấm đoán mò cấu trúc file.
-- **Đối chiếu Design Compendium gốc (BẮT BUỘC):** Khi đối chiếu, sửa đổi hoặc thêm mới bất kỳ thành phần nào (nhân vật, cây trồng, khoáng sản, công thức món ăn, vũ khí, địa danh), BẮT BUỘC phải mở và kiểm tra tài liệu thiết kế chuẩn [OAKHAVEN_DESIGN_COMPENDIUM.md](./OAKHAVEN_DESIGN_COMPENDIUM.md). Mọi thông số đưa vào code/database PHẢI nhất quán 100% với Compendium, và khi mở rộng hệ thống PHẢI cập nhật đồng bộ ngược lại vào Compendium này.
-- **Quy tắc song ngữ (Bilingual):** Mọi thay đổi dữ liệu hoặc UI PHẢI đồng bộ CẢ HAI ngôn ngữ `vi` và `en` (`docs/data/vi/` + `docs/data/en/`, `docs/vi/` + `docs/en/`, `dictionaries/vi.js` + `dictionaries/en.js`).
+- **Đối chiếu Design Compendium gốc (BẮT BUỘC):** Khi đối chiếu, sửa đổi hoặc thêm mới bất kỳ thành phần nào (nhân vật, cây trồng, khoáng sản, công thức món ăn, vũ khí, địa danh), BẮT BUỘC phải kiểm tra tài liệu chuẩn [OAKHAVEN_DESIGN_COMPENDIUM.md](./OAKHAVEN_DESIGN_COMPENDIUM.md).
 - **Rà soát điểm phụ thuộc:** Dùng `grep` tìm tất cả consumer/call-sites trước khi sửa. Sửa component phải kiểm tra cả `.module.scss` đi kèm.
 - **Phân biệt Server vs Client:** File có `'use client'` CẤM import `fs`, `path`, hoặc module Node.js.
-- **Kiểm chứng bắt buộc:** Trước khi báo cáo hoàn thành, BẮT BUỘC phải chạy `npm run build` (phải đạt 0 error, 0 warning) và kiểm tra `git status` xác nhận cây thư mục sạch sẽ.
+
+---
+
+## Kiểm chứng bắt buộc trước khi hoàn thành (Verification)
+
+Trước khi kết thúc lượt phản hồi hoặc commit thay đổi:
+1. **Kiểm tra biên dịch:** BẮT BUỘC chạy `npm run build` (phải đạt 0 error, 0 warning; layout, static routes, dynamic routes và SSG đều hợp lệ).
+2. **Kiểm tra cây thư mục:** Chạy `git status` xác nhận không có file rác hoặc file thừa bị bỏ xót.
