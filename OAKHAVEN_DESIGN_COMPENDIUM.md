@@ -371,5 +371,46 @@ Nhằm kiến tạo chiều sâu gameplay và triệt tiêu lối mòn "chạy v
 | **Q-HUNT-02: Bữa Tiệc Sinh Tồn Dung Nham** | Hội Trưởng Thorne | Quét sạch 3 tầng Đới Dung Nham (71-73) không dùng bình thuốc Maeve; chỉ sống sót bằng buff từ Cơm hộp dã chiến mang theo. | 🏆 Thành tựu ẩn: `ACH_IRON_STOMACH` *(Sinh Tồn Ẩm Thực)*<br/>📜 Bản vẽ: *Ba Lô Cách Nhiệt Dã Ngoại* (+8 ô chứa đồ, giữ thức ăn tươi gấp đôi)<br/>🏅 15x Huy Hiệu Cứu Viện. |
 | **Q-ALTAR-01: Khúc Ca Cầu Siêu Tiết Xuân Phân** | Rosemary | Nấu mâm đại tiệc 5 món Xuân (Cải thìa xào nấm sao, Canh củ sen tuyết...) dâng Bàn Thờ Cổ lúc nửa đêm; trảm 3 đợt Hồn Ma Miasma. | 🏆 Thành tựu ẩn: `ACH_ASHES_TO_BLOOM` *(Hóa Giải Tro Tàn)*<br/>🌱 Mở khóa: *Vườn Thảo Dược Vĩnh Cửu Bìa Rừng* (trồng thảo mộc quanh năm)<br/>🛋️ Trang trí: *Lư Hương Đồng Bàn Thờ Cổ* (+25 Cozy Rating, max cấp). |
 
+---
+
+## 13. Hệ Thống Đại Lễ Hội Đa Vùng Đất, Khách Phương Xa & Chợ Phiên Sưu Tầm (Regional Festivals, Outlander Merchants & Pop-up Street Stalls)
+
+### 13.1. Bản Sắc 4 Đại Lễ Hội Theo 4 Vùng Đất
+Lễ hội không chỉ gói gọn trong quảng trường Oakhaven mà mở rộng ra 4 vùng địa lý mang đậm dấu ấn sinh tồn và văn hóa hậu chiến:
+
+1. **Mùa Xuân (Ngày 15) - Đại Lễ Cầu Siêu & Chợ Cổ Rừng Thầm Thì (Bìa Rừng Đền Cổ):**
+   - *Vùng đất:* Bìa Rừng Thầm Thì & Bàn Thờ Cổ Đại (nơi Rosemary trông coi).
+   - *Bản sắc:* Tâm linh, tưởng niệm tử sĩ viễn chinh, dọn dẹp cống ngầm xả lũ và tẩy uế khí độc miasma.
+   - *Khách phương xa:* Tu sĩ viễn xứ, thảo dược sư rừng già, học giả khảo cổ Iris giải mã văn tự cổ.
+   - *Hàng độc quyền / Sưu tập:* *Hạt Giống Trà Sen Tuyết*, *Bào Tử Nấm Phát Quang*, *Dao Bạc Cắt Rễ Thảo Dược* (thu hoạch thảo mộc luôn 2-3 Sao), *Lư Hương Gốm Khói Mây* (+15 Cozy).
+2. **Mùa Hạ (Ngày 18) - Hội Chợ Nước & Đêm Đèn Lồng Bờ Suối (Bến Cảng Bờ Hồ & Đầm Lầy):**
+   - *Vùng đất:* Bến Cảng Hồ Nước Ngọt nối liền Đầm Lầy Lau Sậy (khu vực Thợ lặn Vael & Lão Tad).
+   - *Bản sắc:* Phóng khoáng, mùi muối biển và cá nướng; tôn vinh thợ lặn mỏ băng và đoàn thủy thủ đại dương.
+   - *Khách phương xa:* Đoàn thuyền buôn 3 cột buồm của Thuyền Trưởng Garrick cập bến mang theo thương nhân quần đảo san hô phía Nam.
+   - *Hàng độc quyền / Sưu tập:* *Hạt Giống Dưa Lưới Tinh Vân*, *Bụi Ớt Quỷ Biển Đỏ*, *Cần Câu Trúc Biển Sâu Garrick* (+30% cự ly quăng mồi), *Mỏ Neo Đồng Rỉ Sét*, *Bình Nuôi Đom Đóm Phát Quang* (+15 Cozy).
+3. **Mùa Thu (Ngày 20) - Hội Đấu Xảo Giao Thương & Chợ Đường Sắt Kinh Đô (Quảng Trường & Ga Đường Sắt):**
+   - *Vùng đất:* Quảng trường Oakhaven nối liền Ga Tuyến Đường Sắt Trung Tâm (sau khi khôi phục).
+   - *Bản sắc:* Kinh tế bùng nổ, đón các đoàn tàu hỏa từ Kinh Đô Solaria và các thành bang cơ khí. Quý tộc, đầu bếp thượng lưu và nhà buôn công nghiệp đổ về.
+   - *Khách phương xa:* Đoàn quý tộc Solaria, Giám khảo ẩm thực hoàng gia, Đoàn buôn xe lừa của Lão Silas.
+   - *Hàng độc quyền / Sưu tập:* *Giống Nho Đêm Solaria*, *Hạt Giống Củ Dền Cung Đình*, *Bản Vẽ Máy Gieo Hạt Hơi Nước*, *Đồng Hồ Bỏ Túi Mạ Vàng* (chỉnh tốc độ thời gian), *Thảm Lông Dệt Tay Thủ Đô*, *Bộ Dao Nĩa Bạc Hoàng Triều* (+20 Cozy).
+4. **Mùa Đông (Ngày 28) - Đêm Lửa Trại Đỉnh Răng Sói & Đại Tiệc Giao Thừa (Đỉnh Núi Tuyết & The Hearth):**
+   - *Vùng đất:* Ban ngày tại Trạm Cáp Treo Đỉnh Răng Sói & Suối Nước Nóng; Đêm rút về Đại sảnh Quán The Hearth.
+   - *Bản sắc:* Sinh tồn băng giá, ngày hội của phường thợ mỏ người lùn, thợ săn tuyết và khách lưu lạc không chốn về.
+   - *Khách phương xa:* Phường thợ nung đá người lùn phía Bắc, toán lính trinh sát biên giới.
+   - *Hàng độc quyền / Sưu tập:* *Hạt Giống Hoa Tuyết Liên*, *Rễ Địa Y Lạnh*, *Cuốc Chim Bọc Đá Băng Cực Hạn* (đập vỡ quặng Tinh Tú 1 phát), *Tấm Da Gấu Tuyết Trắng Khổng Lồ*, *Nồi Lẩu Bách Vị Giữa Quán* (+Tối đa Cozy Rating).
+
+### 13.2. Cơ Chế Kinh Doanh Của Rowan: Sạp Ẩm Thực Lưu Động (Pop-up Street Stall)
+- Vào mỗi ngày lễ hội, Rowan dựng **Sạp Lưu Động Ngoài Trời** tại khu vực tổ chức:
+  - Menu lễ hội: Nấu các món ăn đường phố ăn nhanh (Thịt xiên nướng than, Bánh bao hấp nóng, Trà thảo mộc đóng chai, Bánh quy giòn).
+  - Doanh số bán ra tăng gấp 3 - 4 lần ngày thường từ cả dân làng lẫn khách du lịch phương xa.
+  - Khách thanh toán bằng **Tiền Vàng** kèm **Tem Phiếu Hội Chợ (Festival Tokens)**.
+- **Quy tắc đổi đồ hiếm:** Các thương nhân phương xa (Silas, Garrick, thợ buôn Solaria) chỉ chấp nhận đổi các Hạt giống ngoại lai, Công cụ độc bản và Đồ nội thất Cozy bằng *Tem Phiếu Hội Chợ* mà Rowan tích lũy được!
+
+### 13.3. Tối Ưu Asset Đồ Họa Cho Lễ Hội (Zero Asset Creep)
+- **Bản đồ:** Tái sử dụng 100% các vùng đất có sẵn trong game (Đền cổ, Ga tàu, Bến hồ, Đỉnh núi), chỉ bật layer tilemap lều bạt sự kiện tĩnh (`festival_props.png`).
+- **Khách phương xa (NPC Tier 3):** Tận dụng khung xương chung (Body Rigs) và đổi bảng màu (Palette Swap) cho trang phục (mũ thủy thủ, áo choàng tuyết, áo dạ hội).
+- **Vật phẩm sưu tập:** Sử dụng item icon 16×16 và sprite nội thất tĩnh 32×32 đặt tại The Hearth.
+
+
 
 
