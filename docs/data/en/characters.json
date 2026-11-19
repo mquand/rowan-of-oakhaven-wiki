@@ -2673,6 +2673,663 @@
           ]
         }
       }
+    },
+    {
+      "id": "npc_silas",
+      "name": "Silas",
+      "role": "Donkey Peddler & Exotic Goods Merchant",
+      "location": "The Hearth Attic Bunkhouse / Front Porch",
+      "species": "Human (Traveling Merchant)",
+      "description": "A wiry itinerant trader accompanied by a notoriously stubborn old donkey. Boards at The Hearth on weekends, unlatching battered wooden trunks of rare spice seeds and distant curiosities.",
+      "favorite_items": [
+        "ruou_trai_cay_len_men",
+        "bread_brioche",
+        "ore_gold"
+      ],
+      "quote": "My donkey may be foul-tempered and smell of ditchwater, but the wares strapped to his pack-frame would make capital nobles weep.",
+      "birthday": "Spring 14",
+      "schedule": "Thursday - Saturday: Boards at The Hearth selling exotic goods; Sunday: Hits the road with his laden pack-donkey",
+      "real_world_wound": "Lost his merchant caravan and fortune during the wartime border raids; now scrapes by in his elderly years accompanied solely by an old donkey.",
+      "comfort_dish": "bread_brioche",
+      "heart_event_summary": "15% discount on exotic wares (2H); sells rare foreign spice seeds (4H); delivers rumors and news from beyond the mountain pass (6H); signs weekly wholesale supply contract for the homestead (8H).",
+      "gift_preferences": {
+        "loved": [
+          "ruou_trai_cay_len_men",
+          "bread_brioche",
+          "ore_gold"
+        ],
+        "liked": [
+          "qua_mong_rung",
+          "wood_hardwood",
+          "ore_iron"
+        ],
+        "disliked": [
+          "co_dai",
+          "rac_ruoi",
+          "mon_an_hong"
+        ],
+        "hated": [
+          "thuoc_doc",
+          "bun_dat"
+        ]
+      },
+      "schedules": {
+        "default": {
+          "sunny": [
+            {
+              "time": "07:00",
+              "location": "Donkey Stable Behind The Hearth",
+              "activity": "Feeds dry meadow hay to his stubborn old donkey and brushes its burrs"
+            },
+            {
+              "time": "09:00",
+              "location": "The Hearth Front Porch",
+              "activity": "Flings open cedar trade trunks displaying foreign seeds and spices"
+            },
+            {
+              "time": "18:00",
+              "location": "The Hearth Kitchen Nook",
+              "activity": "Sips warm spiced cider and recounts stories of distant frontier passes"
+            }
+          ],
+          "rainy": [
+            {
+              "time": "08:00",
+              "location": "Attic Bunkhouse",
+              "activity": "Checks waterproof canvas wraps on dry goods and mends burlap bags"
+            },
+            {
+              "time": "15:00",
+              "location": "Great Hearthstone Nook",
+              "activity": "Dries boots by the fireplace, tallies spice seed packets, and plans travel routes"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "npc_hester",
+      "name": "Hester",
+      "role": "Exiled Hedge Knight & Armor Restoration Specialist",
+      "location": "The Hearth Attic Bunkhouse (Corner Loft)",
+      "species": "Human (Former Knight)",
+      "description": "A cloaked, reclusive deserter hiding beneath a tattered cowl in the corner attic loft. Avoids strangers, yet possesses peerless mastery in restoring heavy military plate armor.",
+      "favorite_items": [
+        "bit_tet_nuong_than_soi",
+        "thit_nuong_lua_dia_nguc",
+        "ore_iron"
+      ],
+      "quote": "Never ask which crest I fought for. Beneath churned mud and spilled blood, every banner looks identical.",
+      "birthday": "Winter 3",
+      "schedule": "Daytime: Secreted away in the attic loft mending armor; Midnight: Solitary walks beside the estate pond",
+      "real_world_wound": "Crushing survivor's guilt after witnessing comrades massacre non-combatants; deserted in horror, living with the constant paranoia of bounty hunters.",
+      "comfort_dish": "bit_tet_nuong_than_soi",
+      "heart_event_summary": "Teaches armor reinforcement (+10 DEF) (2H); restores antique knightly harness (4H); opens up about desertion trauma (6H); bequeaths legendary Forsaken Knight's Blade (8H).",
+      "gift_preferences": {
+        "loved": [
+          "bit_tet_nuong_than_soi",
+          "thit_nuong_lua_dia_nguc",
+          "ore_iron"
+        ],
+        "liked": [
+          "wood_hardwood",
+          "ore_coal",
+          "bread_brioche"
+        ],
+        "disliked": [
+          "tra_sen_an_than",
+          "hoa_tuyet_lien",
+          "rac_ruoi"
+        ],
+        "hated": [
+          "co_quyen_luc",
+          "mon_an_hong"
+        ]
+      },
+      "schedules": {
+        "default": {
+          "sunny": [
+            {
+              "time": "08:00",
+              "location": "The Hearth Attic Bunkhouse",
+              "activity": "Hammers gently on a miniature anvil, reshaping dented steel pauldrons"
+            },
+            {
+              "time": "14:00",
+              "location": "Corner Attic Window",
+              "activity": "Gazes quietly through cracked cedar shakes toward distant jagged ridges"
+            },
+            {
+              "time": "23:00",
+              "location": "Western Homestead Pond",
+              "activity": "Walks through cool nighttime shadows savoring unbroken quiet"
+            }
+          ],
+          "rainy": [
+            {
+              "time": "09:00",
+              "location": "The Hearth Attic Bunkhouse",
+              "activity": "Oils plate gauntlets and replaces rotted leather harness straps"
+            },
+            {
+              "time": "19:00",
+              "location": "The Hearth Loft Stairway",
+              "activity": "Silently accepts a steaming bowl of stew from Rowan before returning to his room"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "npc_mae",
+      "name": "Mae",
+      "role": "Nomadic Wool Weaver & Seasonal Cloth Dyer",
+      "location": "The Hearth Fireplace & Bunkhouse",
+      "species": "Human (Nomadic Artisan)",
+      "description": "A warm-hearted nomadic weaver wrapped in hand-spun scarlet wool, visiting Oakhaven during autumn and winter. Buys homestead fleeces and goat down at premium rates.",
+      "favorite_items": [
+        "tra_thao_moc_rung",
+        "qua_mong_rung",
+        "mat_ong"
+      ],
+      "quote": "Biting frontier frost is nothing when you have a double-woven wool blanket and a roasted potato straight from the hearth.",
+      "birthday": "Fall 20",
+      "schedule": "Fall & Winter: Knits beside The Hearth fireplace; Spring & Summer: Migrates across northern highland pastures",
+      "real_world_wound": "Her nomadic clan was scattered and separated during the border conflicts; journeys across wilderness valleys weaving wool while searching for kin.",
+      "comfort_dish": "tra_thao_moc_rung",
+      "heart_event_summary": "Buys wool and down at +30% price (2H); gifts automated Homestead Weaving Loom (4H); knits insulated frost-resistant wool sweaters (6H); unlocks handcrafted tapestries collection (8H).",
+      "gift_preferences": {
+        "loved": [
+          "tra_thao_moc_rung",
+          "qua_mong_rung",
+          "mat_ong"
+        ],
+        "liked": [
+          "wood_pine",
+          "bread_brioche",
+          "hoa_tuyet_lien"
+        ],
+        "disliked": [
+          "ore_coal",
+          "rac_ruoi",
+          "bun_dat"
+        ],
+        "hated": [
+          "thuoc_doc",
+          "mon_an_hong"
+        ]
+      },
+      "schedules": {
+        "default": {
+          "sunny": [
+            {
+              "time": "08:00",
+              "location": "The Hearth Sunny Porch",
+              "activity": "Hangs skeins of fresh wool steeped in berry and bark dyes to dry"
+            },
+            {
+              "time": "13:00",
+              "location": "Great Hearthstone Nook",
+              "activity": "Swiftly knits wool scarves and heavy winter cloaks for townspeople"
+            },
+            {
+              "time": "19:00",
+              "location": "Tavern Tea Table",
+              "activity": "Sips wildflower honey tea while listening to travelers discuss pass conditions"
+            }
+          ],
+          "rainy": [
+            {
+              "time": "08:30",
+              "location": "Great Hearthstone Nook",
+              "activity": "Spins bobbins of raw fleece by the crackling flame"
+            },
+            {
+              "time": "16:00",
+              "location": "Attic Bunkhouse",
+              "activity": "Folds thick, double-loomed woolen blankets into cedar storage chests"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "npc_gomer",
+      "name": "Old Gomer",
+      "role": "Demolitions Expert & Deep Mine Blaster",
+      "location": "Mine Floor 60 Outpost Shelter",
+      "species": "Dwarf (Soot-Bearded Blaster)",
+      "description": "A stubborn dwarf living in a canvas lean-to at Floor 60 of the mines, his beard singed black by black powder. Deeply deaf from decades of underground blasts, he sells mining charges and points out unstable ore veins.",
+      "favorite_items": [
+        "ore_coal",
+        "ore_iron",
+        "ruou_trai_cay_len_men"
+      ],
+      "quote": "EH?! SPEAK UP, LAD! LOST ME EARS WHEN TUNNEL EIGHT CAVED IN THIRTY YEARS BACK! YOU NEED BLASTING POWDER OR WHAT?!",
+      "birthday": "Summer 18",
+      "schedule": "Full-time: Mans Floor 60 mine shelter, tamping copper blasting charges and checking fuses",
+      "real_world_wound": "Deafened in a catastrophic shaft collapse and cast out of the miners' guild; clings to the deep shafts because explosions are the only sound he still feels in his chest.",
+      "comfort_dish": "ruou_trai_cay_len_men",
+      "heart_event_summary": "Sells discount Blasting Charges (2H); teaches recipe for Mega Rock Blasting Bomb (4H); reveals hidden gold veins on Floors 60-80 (6H); gifts handheld Steam Core Drill (8H).",
+      "gift_preferences": {
+        "loved": [
+          "ore_coal",
+          "ore_iron",
+          "ruou_trai_cay_len_men"
+        ],
+        "liked": [
+          "ore_copper",
+          "bit_tet_nuong_than_soi",
+          "thit_nuong_lua_dia_nguc"
+        ],
+        "disliked": [
+          "tra_sen_an_than",
+          "sach_cu",
+          "hoa_tuyet_lien"
+        ],
+        "hated": [
+          "rac_ruoi",
+          "mon_an_hong"
+        ]
+      },
+      "schedules": {
+        "default": {
+          "sunny": [
+            {
+              "time": "06:00",
+              "location": "Mine Floor 60 Outpost",
+              "activity": "Crushes sulfur and hardwood charcoal into heavy copper casings"
+            },
+            {
+              "time": "12:00",
+              "location": "Floor 62 Rock Face",
+              "activity": "Fires blasting cord, shattering granite to breach rich ore pockets"
+            },
+            {
+              "time": "19:00",
+              "location": "Floor 60 Camp Lean-to",
+              "activity": "Swigs potent moonshine straight from the bottle and tunes friction primers"
+            }
+          ],
+          "rainy": [
+            {
+              "time": "08:00",
+              "location": "Floor 60 Camp Lean-to",
+              "activity": "Dips blasting fuses in tallow wax to seal them against groundwater seepage"
+            },
+            {
+              "time": "16:00",
+              "location": "Floor 60 Mine Outpost",
+              "activity": "Taps rock walls with a ball-peen hammer listening for hollow hidden caverns"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "npc_vael",
+      "name": "Vael",
+      "role": "Subterranean Diver & Cave Fisher",
+      "location": "Mine Floor 90 Submerged Basin",
+      "species": "Human (Underground Diver)",
+      "description": "A reticent diver in a vulcanized fish-skin drysuit, exploring high-pressure flooded shafts at Floor 90 to retrieve ancient artifacts and rare blind subterranean fauna.",
+      "favorite_items": [
+        "da_tinh_the",
+        "gem_sapphire",
+        "ruou_trai_cay_len_men"
+      ],
+      "quote": "A thousand fathoms below the mountain, there is no dawn. Only absolute stillness... and bioluminescent eyes staring back through the black.",
+      "birthday": "Winter 7",
+      "schedule": "Full-time: Dives the abyss and catches luminous fish at the Floor 90 Sunken Basin",
+      "real_world_wound": "Watched his entire salvage crew swallowed by an abyssal trench creature; withdrawn and gripped by the dread of deep water, yet unable to abandon it.",
+      "comfort_dish": "ruou_trai_cay_len_men",
+      "heart_event_summary": "Sells Anti-Slip Deep Diving Boots (2H); teaches recipe for Luminous Abyss Bait (4H); sells Miasma-Resistant Glow Pearls (6H); opens flooded shortcut between Floor 90 and the town river (8H).",
+      "gift_preferences": {
+        "loved": [
+          "da_tinh_the",
+          "gem_sapphire",
+          "ruou_trai_cay_len_men"
+        ],
+        "liked": [
+          "ore_gold",
+          "bread_brioche",
+          "mat_ong"
+        ],
+        "disliked": [
+          "rac_ruoi",
+          "co_dai",
+          "thuoc_doc"
+        ],
+        "hated": [
+          "mon_an_hong",
+          "bun_dat"
+        ]
+      },
+      "schedules": {
+        "default": {
+          "sunny": [
+            {
+              "time": "06:00",
+              "location": "Floor 90 Lake Shore",
+              "activity": "Calibrates air bladder valves on his deep-sea diving helmet"
+            },
+            {
+              "time": "11:00",
+              "location": "Floor 90 Sunken Rift",
+              "activity": "Dives into ink-black depths dredging gem geodes and fossilized nautiloids"
+            },
+            {
+              "time": "18:00",
+              "location": "Floor 90 Shoreline Lean-to",
+              "activity": "Hangs glowing blind cavefish on salt-curing drying lines"
+            }
+          ],
+          "rainy": [
+            {
+              "time": "09:00",
+              "location": "Floor 90 Shoreline Lean-to",
+              "activity": "Patches air-hose seals with tree sap and copper wire"
+            },
+            {
+              "time": "17:00",
+              "location": "Floor 90 Lake Shore",
+              "activity": "Monitors surging groundwater surges feeding from highland storm drainage"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "npc_rowena",
+      "name": "Rowena",
+      "role": "Forest Charcoal Burner & Fuel Specialist",
+      "location": "Charcoal Kiln, Whispering Forest Edge",
+      "species": "Human (Charcoal Burner)",
+      "description": "An old woods-woman living alone in a smoke-wreathed woodland shanty, soot permanently ground into her weathered face. Produces dense heartwood charcoal that burns three times longer than standard coal.",
+      "favorite_items": [
+        "wood_pine",
+        "wood_hardwood",
+        "bread_brioche"
+      ],
+      "quote": "Town brats call me a soot-hag, but without my kilns their fingers would turn blue before the first hard freeze.",
+      "birthday": "Fall 29",
+      "schedule": "Daytime: Stacks timber mounds and tends slow-smoldering clay kilns; Evening: Roasts roots beside her kiln shanty",
+      "real_world_wound": "Lost her husband and son in the frontier garrison defense; retreated into dense woods to find solace in hearth-smoke away from painful memories.",
+      "comfort_dish": "bread_brioche",
+      "heart_event_summary": "Supplies x3 Duration Heartwood Charcoal (2H); teaches Smokeless Earthen Kiln design (4H); -20% coal required for smelting ingots (6H); unlocks Master Ash-Retort Smelting Furnace (8H).",
+      "gift_preferences": {
+        "loved": [
+          "wood_pine",
+          "wood_hardwood",
+          "bread_brioche"
+        ],
+        "liked": [
+          "ore_coal",
+          "qua_mong_rung",
+          "mat_ong"
+        ],
+        "disliked": [
+          "rac_ruoi",
+          "co_dai",
+          "hoa_tuyet_lien"
+        ],
+        "hated": [
+          "thuoc_doc",
+          "mon_an_hong"
+        ]
+      },
+      "schedules": {
+        "default": {
+          "sunny": [
+            {
+              "time": "06:00",
+              "location": "Whispering Forest Edge",
+              "activity": "Chops dried pine rounds, stacking them into conical earthen kiln mounds"
+            },
+            {
+              "time": "10:00",
+              "location": "Clay Smoldering Kiln",
+              "activity": "Packs river clay over kiln vents, regulating slow smoldering airflow"
+            },
+            {
+              "time": "17:00",
+              "location": "Charcoal Kiln Shed",
+              "activity": "Unpacks glistening jet-black lump charcoal into coarse burlap sacks"
+            }
+          ],
+          "rainy": [
+            {
+              "time": "08:00",
+              "location": "Charcoal Kiln Shed",
+              "activity": "Lashes heavy waxed canvas over charcoal stores against autumn downpours"
+            },
+            {
+              "time": "15:00",
+              "location": "Kiln Shanty Hearth",
+              "activity": "Pulls ash-roasted potatoes from the coals and sips cool well water"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "npc_tad",
+      "name": "Old Tad",
+      "role": "Swamp Fisher & Bamboo Trap Maker",
+      "location": "East Marsh Moored Skiff",
+      "species": "Human (Marsh Fisher)",
+      "description": "A toothless, sun-baked marsh dweller living aboard a mossy, flat-bottomed skiff, smelling perpetually of bog-mud and catfish. Master of weaving bamboo fish-baskets and setting passive weir traps.",
+      "favorite_items": [
+        "ruou_trai_cay_len_men",
+        "thit_nuong_lua_dia_nguc",
+        "wood_pine"
+      ],
+      "quote": "An eel possesses sharper wit than half the town. If you want him in your basket, your patience had better outlast the silt.",
+      "birthday": "Summer 11",
+      "schedule": "Daytime: Weaves bamboo traps and wades reed-beds checking eel pots; Night: Casts drift nets across marsh waters",
+      "real_world_wound": "His lowland home was ruined when downstream floodgates were blown during the retreat; now drifts solo across forgotten swamp shallows.",
+      "comfort_dish": "thit_nuong_lua_dia_nguc",
+      "heart_event_summary": "Gifts Automated Bamboo Weir Trap (2H); teaches Marsh Bait Dough recipe (4H); reveals prime marsh holes for Golden Eels (6H); gifts Thousand-Year Bamboo Rod (+25% fishing bite speed) (8H).",
+      "gift_preferences": {
+        "loved": [
+          "ruou_trai_cay_len_men",
+          "thit_nuong_lua_dia_nguc",
+          "wood_pine"
+        ],
+        "liked": [
+          "ore_iron",
+          "bread_brioche",
+          "qua_mong_rung"
+        ],
+        "disliked": [
+          "sach_cu",
+          "rac_ruoi",
+          "hoa_tuyet_lien"
+        ],
+        "hated": [
+          "thuoc_doc",
+          "mon_an_hong"
+        ]
+      },
+      "schedules": {
+        "default": {
+          "sunny": [
+            {
+              "time": "06:00",
+              "location": "Marsh Skiff Deck",
+              "activity": "Splits green river cane with a curved knife to weave eel cylinders"
+            },
+            {
+              "time": "12:00",
+              "location": "Muddy Reed Channels",
+              "activity": "Wades waist-deep placing baited tube traps into cattail roots"
+            },
+            {
+              "time": "18:00",
+              "location": "Skiff Bow",
+              "activity": "Puffs a pipe of cured wild marshleaf and takes a pull of strong cider"
+            }
+          ],
+          "rainy": [
+            {
+              "time": "07:30",
+              "location": "Arched Skiff Cabin",
+              "activity": "Mends woven throw-nets for high-water catfish runs"
+            },
+            {
+              "time": "16:00",
+              "location": "Marsh Landing Jetty",
+              "activity": "Hauls wriggling baskets of fat channel catfish from the weir"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "npc_milo",
+      "name": "Milo",
+      "role": "Town Rascal & Blackberry Scout",
+      "location": "Homestead Orchard Fence / Town Square",
+      "species": "Human (Mischievous Child)",
+      "description": "The rowdiest scamp in Oakhaven, constantly spotted balancing atop orchard stone walls eyeing Rowan's ripe apples and strawberries. If befriended with warm treats, he becomes a nimble woodland scout for hidden forage.",
+      "favorite_items": [
+        "qua_mong_rung",
+        "bread_brioche",
+        "mat_ong"
+      ],
+      "quote": "I swear on my slingshot I only climbed that apple branch to rescue a lost moth! Give me a chunk of that hot crusty loaf and I'll show you where the truffles grow!",
+      "birthday": "Spring 5",
+      "schedule": "Morning: Escapes Clara's lessons at the library; Afternoon: Scopes out fruit orchard fence lines; Evening: Slingshot pebble contests with friends",
+      "real_world_wound": "His parents are exhausted struggling to rebuild their livelihoods after the war, leaving him largely unattended; acts out to feel seen and valued by adults.",
+      "comfort_dish": "bread_brioche",
+      "heart_event_summary": "Stops stealing fruit and gathers windfalls for Rowan (2H); marks secret forest berry groves on your map (4H); delivers rare wild honeycomb (6H); organizes the Junior Scout Watch warning of wild boars (8H).",
+      "gift_preferences": {
+        "loved": [
+          "qua_mong_rung",
+          "bread_brioche",
+          "mat_ong"
+        ],
+        "liked": [
+          "wood_pine",
+          "da_tinh_the",
+          "bit_tet_nuong_than_soi"
+        ],
+        "disliked": [
+          "sach_cu",
+          "rau_cai_luoc",
+          "tra_den_dam"
+        ],
+        "hated": [
+          "rac_ruoi",
+          "mon_an_hong"
+        ]
+      },
+      "schedules": {
+        "default": {
+          "sunny": [
+            {
+              "time": "08:00",
+              "location": "Library Front Steps",
+              "activity": "Fidgets with smooth river pebbles and folds parchment gliders"
+            },
+            {
+              "time": "14:00",
+              "location": "Homestead Orchard Wall",
+              "activity": "Hides in hazel bushes scouting sun-blushed apples"
+            },
+            {
+              "time": "17:00",
+              "location": "Town Square Well",
+              "activity": "Shoots acorn targets with a wooden slingshot alongside local kids"
+            }
+          ],
+          "rainy": [
+            {
+              "time": "09:00",
+              "location": "General Store Porch",
+              "activity": "Diverts roof rain puddles with sticks into miniature mud canals"
+            },
+            {
+              "time": "15:00",
+              "location": "Penny's Bakery Counter",
+              "activity": "Lingers inhaling cinnamon bun aromas hoping for day-old crusts"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "npc_cora",
+      "name": "Little Cora",
+      "role": "Pebble Collector & Natural Pigment Artist",
+      "location": "Oakhaven Stream Bank / Library Porch",
+      "species": "Human (Frontier Child)",
+      "description": "A shy, soft-spoken little girl whose father never returned from the front lines. Spends quiet hours collecting polished pebbles to thread onto cords, expertly grinding colored minerals into brilliant natural fence paint.",
+      "favorite_items": [
+        "da_tinh_the",
+        "gem_amethyst",
+        "tra_thao_moc_rung"
+      ],
+      "quote": "Every stone in the creek has its own quiet color. I keep the prettiest ones tucked in my basket for when Father walks up the lane...",
+      "birthday": "Summer 16",
+      "schedule": "Morning: Forages polished pebbles along stream gravel bars; Afternoon: Strings cord necklaces on the library porch; Evening: Helps her mother cook",
+      "real_world_wound": "Grieving a father declared missing in action; clings to the quiet childish belief that stringing a thousand colored pebbles will guide him safely home.",
+      "comfort_dish": "tra_thao_moc_rung",
+      "heart_event_summary": "Gifts Lucky Pebble Bracelet (+5% dodge chance) (2H); teaches natural mineral pigment recipes (4H); unlocks homestead fence and wall repainting customization (6H); heartwarming reunion when news confirms her father survived and returns to The Hearth (8H).",
+      "gift_preferences": {
+        "loved": [
+          "da_tinh_the",
+          "gem_amethyst",
+          "tra_thao_moc_rung"
+        ],
+        "liked": [
+          "qua_mong_rung",
+          "bread_brioche",
+          "hoa_tuyet_lien"
+        ],
+        "disliked": [
+          "rac_ruoi",
+          "ore_coal",
+          "thuoc_doc"
+        ],
+        "hated": [
+          "mon_an_hong",
+          "bun_dat"
+        ]
+      },
+      "schedules": {
+        "default": {
+          "sunny": [
+            {
+              "time": "08:00",
+              "location": "Oakhaven Stream Bank",
+              "activity": "Wades the shallows gathering gleaming banded quartz pebbles into her woven basket"
+            },
+            {
+              "time": "13:00",
+              "location": "Library Steps",
+              "activity": "Carefully threads drilled river stones onto waxed hemp cords"
+            },
+            {
+              "time": "18:00",
+              "location": "Edge Cottage",
+              "activity": "Helps her mother stir wild root broth and tucks her stone basket under her pillow"
+            }
+          ],
+          "rainy": [
+            {
+              "time": "09:00",
+              "location": "Library Rear Porch",
+              "activity": "Grinds chalky mineral shale in a stone mortar into bright paint pigments"
+            },
+            {
+              "time": "16:00",
+              "location": "Edge Cottage",
+              "activity": "Paints a chimney-smoke cabin onto a split cedar shingle"
+            }
+          ]
+        }
+      }
     }
   ]
 }

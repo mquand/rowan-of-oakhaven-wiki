@@ -7,7 +7,7 @@ tags: [characters, npcs, lore, rowan, oakhaven, heart-events, narrative]
 spoiler: false
 ---
 
-# 👥 Character Roster, Real-world Lore & Heart Events (42 Characters)
+# 👥 Character Roster, Real-world Lore & Heart Events (51 Characters)
 
 > **Game:** Rowan of Oakhaven  
 > **Narrative Philosophy & Living Homestead:** Inhabitants of Oakhaven carry **grounded, everyday real-world struggles**: post-war scarcity, ruined crops from pests, cold-weather joint pain, unpaid tavern debts, or the disorientation of the displaced. The Hearth Homestead, with its crackling stone oven, warm crusty loaves, and steaming pots of stew, serves as the unpretentious sanctuary where neighbors find relief and solve tangible bread-and-butter difficulties together.
@@ -241,4 +241,40 @@ spoiler: false
 * **Solace (Celestial Gate Guardian):** Radiant astral spirit watching the celestial threshold for millennia; surrendered mortal memories until Rowan's lotus tea re-awakens ancient recollections of having once been a humble baker.
   - *Comfort Dish:* **Calming Lotus Infusion**. Permanently unseals the **Gates of Aethelgard** linking all 5 realms at 8 Hearts.
 * **Lapis (Subterranean Mermaid):** Trades cloud lake crystal sea salts at 4 Hearts; supplies glowing pearls to craft poison-resistant jewelry at 8 Hearts.
-* **Lapis:** Deep-sea mermaid journeying onto dry land, captivated by warm pastries that dissolve on the tongue.
+
+---
+
+## 5. Frontier Guests, Miners & Wilderness Specialists
+
+### 🧳 The Hearth Attic Bunkhouse Boarders
+* **Silas (Donkey Peddler):** Wiry itinerant trader accompanied by his stubborn old pack-donkey, boarding Thursday through Saturday.
+  - *Real-world Wound:* Lost his entire caravan during the war; scrapes by in his elderly years accompanied only by his faithful beast.
+  - *Comfort Dish:* **Brioche Bread & Spiced Cider**. 15% discount on exotic wares at 2 Hearts; signs weekly wholesale supply contract at 8 Hearts.
+* **Hester (Exiled Hedge Knight):** Deserter hiding beneath a tattered cowl in the corner attic loft; expert military armorsmith.
+  - *Real-world Wound:* Crushing survivor's guilt over battlefield civilian massacres; lives in fear of military bounty hunters.
+  - *Comfort Dish:* **Charcoal Oak Steak**. Teaches armor reinforcement (+10 DEF) at 2 Hearts; bequeaths legendary Forsaken Knight's Blade at 8 Hearts.
+* **Mae (Nomadic Weaver):** Visits during autumn and winter, spinning fleece beside the hearth.
+  - *Real-world Wound:* Scattered clan displaced by war; wanders frontier valleys weaving warm cloaks while searching for lost kin.
+  - *Comfort Dish:* **Wildwood Herbal Tea**. Buys wool/down at +30% price at 2 Hearts; gifts automated Homestead Loom at 4 Hearts; unlocks artisan tapestries at 8 Hearts.
+
+### ⛏️ Deep Mine Outpost Specialists (Floors 60 & 90)
+* **Old Gomer (Floor 60 Blaster):** Soot-covered, stone-deaf dwarven demolitions veteran camping at Floor 60.
+  - *Real-world Wound:* Deafened in a tunnel collapse and discarded by the guild; stays underground because explosions are the only sound he still feels.
+  - *Comfort Dish:* **Spiced Firefruit Liquor**. Sells discount Blasting Charges at 2 Hearts; reveals hidden gold veins at 6 Hearts; gifts Steam Core Drill at 8 Hearts.
+* **Vael (Floor 90 Deep Diver):** Reticent diver in a vulcanized fish-skin drysuit exploring high-pressure flooded rifts.
+  - *Real-world Wound:* Traumatized after watching his entire salvage crew dragged into abyssal rifts.
+  - *Comfort Dish:* **Fermented Fruit Wine & Cavefish Roast**. Sells Anti-Slip Deep Diving Boots at 2 Hearts; opens flooded shortcut linking Floor 90 to the river at 8 Hearts.
+
+### 🌲 Forest, Marsh & Town Life
+* **Rowena (Forest Charcoal Burner):** Weathered woods-woman living in a smoke-wreathed woodland kiln shanty.
+  - *Real-world Wound:* Lost husband and son to the war; retreated into deep woods to find quiet in hearth-smoke.
+  - *Comfort Dish:* **Warm Oven Loaf**. Supplies x3 Duration Heartwood Charcoal at 2 Hearts; unlocks Master Ash-Retort Smelting Furnace at 8 Hearts.
+* **Old Tad (Swamp Fisher):** Toothless, bog-seasoned marsh dweller living aboard a mossy flat-bottomed skiff.
+  - *Real-world Wound:* Lowland village flooded when downstream dam blew; now lives as a solitary marsh forager.
+  - *Comfort Dish:* **Hellfire Roast Meat & Cider**. Gifts Automated Bamboo Weir Trap at 2 Hearts; gifts Thousand-Year Bamboo Rod (+25% fishing speed) at 8 Hearts.
+* **Milo (Town Rascal & Blackberry Scout):** Rowdiest boy in town, balancing atop stone walls eyeing apples.
+  - *Real-world Wound:* Neglected by parents struggling to rebuild post-war lives; acts out to feel seen by adults.
+  - *Comfort Dish:* **Honeyed Buns**. Stops stealing fruit and gathers windfalls at 2 Hearts; marks secret berry groves at 4 Hearts; forms Junior Scout Watch at 8 Hearts.
+* **Little Cora (Pebble Collector & Pigment Artist):** Shy little girl collecting polished stream gravel while awaiting her soldier father.
+  - *Real-world Wound:* Missing-in-action father; clings to the belief that stringing a thousand stones will guide him home.
+  - *Comfort Dish:* **Lotus Herbal Tea**. Gifts Lucky Pebble Bracelet (+5% dodge) at 2 Hearts; unlocks homestead wall repainting customization at 6 Hearts; heartwarming reunion when her father returns safely to The Hearth at 8 Hearts.

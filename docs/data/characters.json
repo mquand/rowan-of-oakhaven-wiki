@@ -2673,6 +2673,663 @@
           ]
         }
       }
+    },
+    {
+      "id": "npc_silas",
+      "name": "Lão Silas",
+      "role": "Lái Buôn Xe Lừa & Hàng Hiếm Phương Xa",
+      "location": "Phòng Trọ Áp Mái The Hearth / Hiên Trước",
+      "species": "Human (Thương Nhân Lưu Động)",
+      "description": "Lão lái buôn gầy nhẳng với con lừa già dở chứng. Thuê phòng trọ The Hearth vào cuối tuần, mở rương bán các loại hạt giống lạ và gia vị quý từ kinh đô phương xa.",
+      "favorite_items": [
+        "ruou_trai_cay_len_men",
+        "bread_brioche",
+        "ore_gold"
+      ],
+      "quote": "Con lừa của tôi tuy khó tính và hôi rình, nhưng hàng hóa trong sọt của nó thì cả kinh đô cũng phải thèm thuồng.",
+      "birthday": "Ngày 14 Mùa Xuân",
+      "schedule": "Thứ Năm - Thứ Bảy: Ở trọ The Hearth, bày bán hàng hiếm; Chủ Nhật: Đánh xe lừa đi buôn chuyến mới",
+      "real_world_wound": "Từng phá sản mất trắng đoàn buôn thời chiến; nay chỉ còn một mình cùng con lừa già lặn lội mưu sinh tuổi xế chiều.",
+      "comfort_dish": "bread_brioche",
+      "heart_event_summary": "Giảm 15% giá hàng hiếm (2 Tim); bán các loại hạt giống gia vị phương xa (4 Tim); mang tin tức thời cuộc ngoài thung lũng (6 Tim); ký hợp đồng cung ứng định kỳ hàng tuần cho điền trang (8 Tim).",
+      "gift_preferences": {
+        "loved": [
+          "ruou_trai_cay_len_men",
+          "bread_brioche",
+          "ore_gold"
+        ],
+        "liked": [
+          "qua_mong_rung",
+          "wood_hardwood",
+          "ore_iron"
+        ],
+        "disliked": [
+          "co_dai",
+          "rac_ruoi",
+          "mon_an_hong"
+        ],
+        "hated": [
+          "thuoc_doc",
+          "bun_dat"
+        ]
+      },
+      "schedules": {
+        "default": {
+          "sunny": [
+            {
+              "time": "07:00",
+              "location": "Chuồng Lừa Sau The Hearth",
+              "activity": "Cho con lừa già ăn cỏ khô và chải lông cho nó"
+            },
+            {
+              "time": "09:00",
+              "location": "Hiên Trước The Hearth",
+              "activity": "Mở rương gỗ bày bán gia vị hiếm và hạt giống phương xa"
+            },
+            {
+              "time": "18:00",
+              "location": "Gian Bếp The Hearth",
+              "activity": "Nhâm nhi ly rượu táo ấm và chia sẻ chuyện buôn chuyến"
+            }
+          ],
+          "rainy": [
+            {
+              "time": "08:00",
+              "location": "Phòng Trọ Áp Mái",
+              "activity": "Kiểm tra hòm đồ khô chống ẩm và khâu lại bao tải hàng"
+            },
+            {
+              "time": "15:00",
+              "location": "Góc Lò Sưởi The Hearth",
+              "activity": "Ngồi sưởi ấm, đếm lại số hạt giống và ghi sổ lộ trình"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "npc_hester",
+      "name": "Hiệp Sĩ Hester",
+      "role": "Cựu Kỵ Sĩ Ẩn Danh & Phục Chế Giáp Trụ Quân Dụng",
+      "location": "Phòng Trọ Áp Mái The Hearth (Phòng Góc Khuất)",
+      "species": "Human (Cựu Kỵ Sĩ)",
+      "description": "Người lính đào ngũ mang áo choàng rách trùm kín mặt, sống lặng lẽ trong phòng trọ áp mái. Sợ người lạ gõ cửa nhưng có tay nghề phục chế giáp trụ quân dụng đỉnh cao.",
+      "favorite_items": [
+        "bit_tet_nuong_than_soi",
+        "thit_nuong_lua_dia_nguc",
+        "ore_iron"
+      ],
+      "quote": "Đừng hỏi tôi từng chiến đấu cho phe nào. Dưới lớp bùn đất và máu, mọi màu cờ đều giống nhau cả thôi.",
+      "birthday": "Ngày 3 Mùa Đông",
+      "schedule": "Ban ngày: Ẩn mình trong phòng trọ áp mái sửa giáp; Nửa đêm: Đi dạo một mình quanh hồ nước",
+      "real_world_wound": "Mặc cảm tội lỗi chiến tranh khi chứng kiến đồng đội thảm sát thường dân; chọn đào ngũ và sống trong nỗi ám ảnh bị truy lùng.",
+      "comfort_dish": "bit_tet_nuong_than_soi",
+      "heart_event_summary": "Dạy kỹ năng gia cố giáp trụ tăng 10 DEF (2 Tim); phục chế giáp kỵ sĩ hoàng gia cũ (4 Tim); giải tỏa nỗi ám ảnh đào ngũ (6 Tim); trao lại Thanh Kiếm Kỵ Sĩ Bỏ Rơi huyền thoại (8 Tim).",
+      "gift_preferences": {
+        "loved": [
+          "bit_tet_nuong_than_soi",
+          "thit_nuong_lua_dia_nguc",
+          "ore_iron"
+        ],
+        "liked": [
+          "wood_hardwood",
+          "ore_coal",
+          "bread_brioche"
+        ],
+        "disliked": [
+          "tra_sen_an_than",
+          "hoa_tuyet_lien",
+          "rac_ruoi"
+        ],
+        "hated": [
+          "co_quyen_luc",
+          "mon_an_hong"
+        ]
+      },
+      "schedules": {
+        "default": {
+          "sunny": [
+            {
+              "time": "08:00",
+              "location": "Phòng Trọ Áp Mái The Hearth",
+              "activity": "Mài đe sắt nhỏ và phục chế các tấm thép giáp vai"
+            },
+            {
+              "time": "14:00",
+              "location": "Góc Phòng Áp Mái",
+              "activity": "Tĩnh lặng nhìn qua khe cửa sổ ra dãy núi phía xa"
+            },
+            {
+              "time": "23:00",
+              "location": "Bờ Hồ Phía Tây Điền Trang",
+              "activity": "Đi dạo trong bóng đêm hít thở không khí tự do"
+            }
+          ],
+          "rainy": [
+            {
+              "time": "09:00",
+              "location": "Phòng Trọ Áp Mái The Hearth",
+              "activity": "Tra dầu chống gỉ vào găng tay sắt và dây nịt da"
+            },
+            {
+              "time": "19:00",
+              "location": "Cầu Thang Gỗ The Hearth",
+              "activity": "Nhận đĩa cơm nóng từ Rowan rồi lặng lẽ lui về phòng"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "npc_mae",
+      "name": "Cô Thợ Dệt Mae",
+      "role": "Thợ Dệt Len Du Mục & Nhuộm Vải Bốn Mùa",
+      "location": "Phòng Trọ The Hearth / Bên Lò Sưởi",
+      "species": "Human (Nghệ Nhân Dệt Du Mục)",
+      "description": "Cô gái du mục quàng khăn len đỏ ấm áp, chỉ ghé thung lũng vào mùa Thu và Đông. Ngồi đan len bên lò sưởi, thu mua lông cừu lông dê của điền trang với giá cao.",
+      "favorite_items": [
+        "tra_thao_moc_rung",
+        "qua_mong_rung",
+        "mat_ong"
+      ],
+      "quote": "Mùa đông lạnh cắt da ở biên ải sẽ chẳng là gì nếu cậu có một tấm chăn len dệt kép dày dặn và một củ khoai nướng nóng.",
+      "birthday": "Ngày 20 Mùa Thu",
+      "schedule": "Mùa Thu - Mùa Đông: Ngồi dệt len bên lò sưởi The Hearth; Mùa Xuân - Mùa Hạ: Du hành vượt thảo nguyên",
+      "real_world_wound": "Cả gia tộc du mục bị phân tán sau chiến tranh; cô đi khắp các miền đất dệt chăn ấm để tìm lại tin tức người thân.",
+      "comfort_dish": "tra_thao_moc_rung",
+      "heart_event_summary": "Thu mua lông cừu lông dê giá cao +30% (2 Tim); tặng Khung Dệt Len Điền Trang tự động (4 Tim); may Áo Len Dệt Kép chống rét mùa đông (6 Tim); mở khóa bộ sưu tập thảm trang trí phòng thủ công (8 Tim).",
+      "gift_preferences": {
+        "loved": [
+          "tra_thao_moc_rung",
+          "qua_mong_rung",
+          "mat_ong"
+        ],
+        "liked": [
+          "wood_pine",
+          "bread_brioche",
+          "hoa_tuyet_lien"
+        ],
+        "disliked": [
+          "ore_coal",
+          "rac_ruoi",
+          "bun_dat"
+        ],
+        "hated": [
+          "thuoc_doc",
+          "mon_an_hong"
+        ]
+      },
+      "schedules": {
+        "default": {
+          "sunny": [
+            {
+              "time": "08:00",
+              "location": "Hiên Nắng The Hearth",
+              "activity": "Phơi các cuộn len mới nhuộm màu quả mọng tự nhiên"
+            },
+            {
+              "time": "13:00",
+              "location": "Góc Lò Sưởi The Hearth",
+              "activity": "Thoăn thoắt đan khăn len và áo ấm cho cư dân thị trấn"
+            },
+            {
+              "time": "19:00",
+              "location": "Bàn Trà The Hearth",
+              "activity": "Nhâm nhi trà mật ong ấm và nghe khách trọ kể chuyện đường xa"
+            }
+          ],
+          "rainy": [
+            {
+              "time": "08:30",
+              "location": "Góc Lò Sưởi The Hearth",
+              "activity": "Quấn các ống chỉ len nhiều màu bên ngọn lửa ấm"
+            },
+            {
+              "time": "16:00",
+              "location": "Phòng Trọ Áp Mái",
+              "activity": "Xếp gọn các tấm chăn len dày vào hòm gỗ"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "npc_gomer",
+      "name": "Lão Gomer",
+      "role": "Chuyên Gia Thuốc Nổ & Thợ Phá Đá Tầng Sâu",
+      "location": "Trạm Nghỉ Tầng 60 Hầm Mỏ",
+      "species": "Dwarf (Thợ Nổ Mìn Râu Khét)",
+      "description": "Lão người lùn cắm lều ở Tầng 60, râu tóc khét lẹt mùn than, hai tai điếc đặc vì nổ mìn nhiều năm. Bán thuốc nổ và chỉ điểm vách đá nứt có mạch quặng ngầm.",
+      "favorite_items": [
+        "ore_coal",
+        "ore_iron",
+        "ruou_trai_cay_len_men"
+      ],
+      "quote": "HẢ?! NÓI TO LÊN! TAI TAO ĐIẾC TỪ NĂM NỔ SẬP CÁI HẦM SỐ TÁM RỒI! CẦN THUỐC NỔ HAY CẦN GÌ?!",
+      "birthday": "Ngày 18 Mùa Hè",
+      "schedule": "Toàn thời gian: Trực tại Trạm Nghỉ Tầng 60 Hầm Mỏ nhồi thuốc súng và thử ngòi nổ",
+      "real_world_wound": "Tai nạn sập hầm cướp đi thính lực và khiến lão bị đuổi khỏi bang hội thợ mỏ; lão sống bám dưới mỏ vì chỉ có tiếng nổ mới khiến lão cảm thấy mình còn sống.",
+      "comfort_dish": "ruou_trai_cay_len_men",
+      "heart_event_summary": "Bán Bom Mỏ Tự Chế giá rẻ (2 Tim); dạy công thức chế tạo Bom Phá Đá Khổng Lồ (4 Tim); chỉ điểm mạch quặng vàng ẩn tầng 60-80 (6H); tặng Máy Khoan Hơi Nước cầm tay (8 Tim).",
+      "gift_preferences": {
+        "loved": [
+          "ore_coal",
+          "ore_iron",
+          "ruou_trai_cay_len_men"
+        ],
+        "liked": [
+          "ore_copper",
+          "bit_tet_nuong_than_soi",
+          "thit_nuong_lua_dia_nguc"
+        ],
+        "disliked": [
+          "tra_sen_an_than",
+          "sach_cu",
+          "hoa_tuyet_lien"
+        ],
+        "hated": [
+          "rac_ruoi",
+          "mon_an_hong"
+        ]
+      },
+      "schedules": {
+        "default": {
+          "sunny": [
+            {
+              "time": "06:00",
+              "location": "Trạm Nghỉ Tầng 60 Hầm Mỏ",
+              "activity": "Nghiền diêm sinh và than củi nhồi vào các vỏ ống đồng"
+            },
+            {
+              "time": "12:00",
+              "location": "Vách Đá Tầng 62",
+              "activity": "Châm ngòi nổ phá đá mở đường thông mạch khoáng sản"
+            },
+            {
+              "time": "19:00",
+              "location": "Lều Trại Tầng 60",
+              "activity": "Tu ừng ực chai rượu mạnh và lau chùi kíp nổ"
+            }
+          ],
+          "rainy": [
+            {
+              "time": "08:00",
+              "location": "Lều Trại Tầng 60",
+              "activity": "Bọc sáp chống ẩm cho ngòi nổ để không bị xịt khi đánh mìn"
+            },
+            {
+              "time": "16:00",
+              "location": "Trạm Nghỉ Tầng 60",
+              "activity": "Gõ búa vào vách đá lắng nghe tiếng vang tìm hang rỗng ngầm"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "npc_vael",
+      "name": "Thợ Lặn Vael",
+      "role": "Thợ Lặn Khoáng Thể & Thợ Săn Thủy Quái Mỏ",
+      "location": "Trạm Nghỉ Tầng 90 Hầm Mỏ (Bờ Hồ Ngầm)",
+      "species": "Human (Thợ Lặn Hồ Ngầm)",
+      "description": "Thợ lặn lầm lì trong bộ đồ da cá kín mít, chuyên lặn xuống các hồ nước ngầm áp suất cao ở tầng 90 để mò cổ vật và bắt các loài cá mù quý hiếm.",
+      "favorite_items": [
+        "da_tinh_the",
+        "gem_sapphire",
+        "ruou_trai_cay_len_men"
+      ],
+      "quote": "Dưới đáy hồ ngầm sâu nghìn mét không có ánh sáng, chỉ có sự tĩnh lặng... và những đôi mắt lấp lánh nhìn chằm chằm vào cậu.",
+      "birthday": "Ngày 7 Mùa Đông",
+      "schedule": "Toàn thời gian: Lặn ngụp săn cá và khoáng thạch tại Hồ Ngầm Tầng 90",
+      "real_world_wound": "Từng chứng kiến cả đội lặn bị thủy quái nuốt chửng dưới vực sâu; sống khép kín và mang nỗi ám ảnh về bóng tối đáy nước.",
+      "comfort_dish": "ruou_trai_cay_len_men",
+      "heart_event_summary": "Bán Ủng Lội Nước Sâu kháng trượt (2 Tim); dạy công thức Mồi Câu Dạ Quang thu hút cá cổ đại (4 Tim); bán Ngọc Trai Phát Quang kháng độc miasma (6 Tim); mở lối ngầm nối hồ tầng 90 ra sông ngoài (8 Tim).",
+      "gift_preferences": {
+        "loved": [
+          "da_tinh_the",
+          "gem_sapphire",
+          "ruou_trai_cay_len_men"
+        ],
+        "liked": [
+          "ore_gold",
+          "bread_brioche",
+          "mat_ong"
+        ],
+        "disliked": [
+          "rac_ruoi",
+          "co_dai",
+          "thuoc_doc"
+        ],
+        "hated": [
+          "mon_an_hong",
+          "bun_dat"
+        ]
+      },
+      "schedules": {
+        "default": {
+          "sunny": [
+            {
+              "time": "06:00",
+              "location": "Bờ Hồ Ngầm Tầng 90",
+              "activity": "Kiểm tra van khí của bộ đồ lặn da cá voi ngầm"
+            },
+            {
+              "time": "11:00",
+              "location": "Vực Nước Sâu Tầng 90",
+              "activity": "Lặn xuống đáy hồ mò tìm quặng đá quý và vỏ ốc cổ đại"
+            },
+            {
+              "time": "18:00",
+              "location": "Lều Bạt Ven Hồ Ngầm",
+              "activity": "Móc cá mù dạ quang lên giàn phơi muối"
+            }
+          ],
+          "rainy": [
+            {
+              "time": "09:00",
+              "location": "Lều Bạt Ven Hồ Ngầm",
+              "activity": "Khâu vá lại các mối nối cao su của ống thở lặn"
+            },
+            {
+              "time": "17:00",
+              "location": "Bờ Hồ Ngầm Tầng 90",
+              "activity": "Quan sát mực nước dâng trào từ mạch suối ngầm cao nguyên"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "npc_rowena",
+      "name": "Bà Rowena",
+      "role": "Thợ Đốt Than Rừng Già & Tinh Luyện Nhiên Liệu",
+      "location": "Chòi Than Rừng Thầm Thì",
+      "species": "Human (Bà Lão Đốt Than)",
+      "description": "Bà lão sống một mình trong chòi đốt than ở bìa Rừng Thầm Thì, mặt mũi lúc nào cũng quẹt nhọ nồi đen sì. Cung cấp than củi rừng già cháy lâu gấp 3 lần than thường.",
+      "favorite_items": [
+        "wood_pine",
+        "wood_hardwood",
+        "bread_brioche"
+      ],
+      "quote": "Lũ trẻ trong trấn sợ mặt tao đen như quỷ, nhưng không có than của tao thì cả mùa đông chúng nó ôm nhau run cầm cập.",
+      "birthday": "Ngày 29 Mùa Thu",
+      "schedule": "Ban ngày: Chặt củi và canh gác các hầm ủ than khói mù mịt trong rừng; Tối: Ngồi bên chòi nướng khoai",
+      "real_world_wound": "Mất chồng và con trai trong cuộc chiến bảo vệ biên ải; lánh đời vào rừng sâu làm bạn với khói than để trốn tránh ký ức đau buồn.",
+      "comfort_dish": "bread_brioche",
+      "heart_event_summary": "Cung cấp Than Rừng Già cháy x3 thời gian (2 Tim); dạy kỹ thuật Lò Ủ Than Kín Khói (4 Tim); giảm 20% lượng than cần nung thỏi kim loại (6 Tim); mở khóa Lò Nung Than Tro Trấu cao cấp (8 Tim).",
+      "gift_preferences": {
+        "loved": [
+          "wood_pine",
+          "wood_hardwood",
+          "bread_brioche"
+        ],
+        "liked": [
+          "ore_coal",
+          "qua_mong_rung",
+          "mat_ong"
+        ],
+        "disliked": [
+          "rac_ruoi",
+          "co_dai",
+          "hoa_tuyet_lien"
+        ],
+        "hated": [
+          "thuoc_doc",
+          "mon_an_hong"
+        ]
+      },
+      "schedules": {
+        "default": {
+          "sunny": [
+            {
+              "time": "06:00",
+              "location": "Bìa Rừng Thầm Thì",
+              "activity": "Chặt các cành gỗ thông khô xếp thành đống hình nón"
+            },
+            {
+              "time": "10:00",
+              "location": "Hầm Than Đất Sét",
+              "activity": "Đắp bùn kín miệng lò và nhóm lửa ủ than âm ỉ"
+            },
+            {
+              "time": "17:00",
+              "location": "Chòi Than Rừng",
+              "activity": "Dỡ than chín đen bóng ra bao tải gai"
+            }
+          ],
+          "rainy": [
+            {
+              "time": "08:00",
+              "location": "Chòi Than Rừng",
+              "activity": "Che bạt giữ cho các bao than củi không bị ngấm nước mưa"
+            },
+            {
+              "time": "15:00",
+              "location": "Bếp Than Chòi Lá",
+              "activity": "Nướng củ khoai tro và thổi nguội nhấp ngụm nước suối"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "npc_tad",
+      "name": "Lão Tad",
+      "role": "Lão Ngư Dân Đầm Lầy & Chế Tác Đó Tre Bắt Cá",
+      "location": "Thuyền Nan Đầm Lầy Phía Đông",
+      "species": "Human (Lão Ngư Đầm Lầy)",
+      "description": "Lão già sống trên chiếc thuyền nan mục nát, răng sún, người tanh nồng mùi bùn. Bậc thầy bẫy lươn, bẫy trê và chế tạo ngư cụ tự động bằng tre nứa.",
+      "favorite_items": [
+        "ruou_trai_cay_len_men",
+        "thit_nuong_lua_dia_nguc",
+        "wood_pine"
+      ],
+      "quote": "Con lươn nó khôn hơn con người nhiều. Muốn bắt được nó, lòng mày phải kiên nhẫn như đống bùn dưới đáy.",
+      "birthday": "Ngày 11 Mùa Hạ",
+      "schedule": "Ban ngày: Đan đó tre và cắm cọc bẫy lươn ven đầm lầy; Tối: Chèo thuyền nan ra hồ giăng lưới",
+      "real_world_wound": "Quê nhà ở đồng bằng bị ngập mặn sau khi đập nước thời chiến bị phá hủy; lão phiêu bạt về đầm lầy sống đời cô độc không gia đình.",
+      "comfort_dish": "thit_nuong_lua_dia_nguc",
+      "heart_event_summary": "Tặng Đó Tre Bắt Cá Tự Động (2 Tim); dạy công thức Mồi Bột Ngô Dụ Cá Nước Lợ (4 Tim); chỉ điểm đầm lầy săn Lươn Vàng Hoàng Kim (6 Tim); tặng Cần Câu Trúc Ngàn Năm tăng 25% tốc độ giật cá (8 Tim).",
+      "gift_preferences": {
+        "loved": [
+          "ruou_trai_cay_len_men",
+          "thit_nuong_lua_dia_nguc",
+          "wood_pine"
+        ],
+        "liked": [
+          "ore_iron",
+          "bread_brioche",
+          "qua_mong_rung"
+        ],
+        "disliked": [
+          "sach_cu",
+          "rac_ruoi",
+          "hoa_tuyet_lien"
+        ],
+        "hated": [
+          "thuoc_doc",
+          "mon_an_hong"
+        ]
+      },
+      "schedules": {
+        "default": {
+          "sunny": [
+            {
+              "time": "06:00",
+              "location": "Thuyền Nan Đầm Lầy",
+              "activity": "Vót các nan tre dẻo chuẩn bị đan lồng bẫy lươn mới"
+            },
+            {
+              "time": "12:00",
+              "location": "Rạch Bùn Ven Đầm Lầy",
+              "activity": "Lội bùn cắm các ống trúm lươn dọc theo bờ sậy"
+            },
+            {
+              "time": "18:00",
+              "location": "Mũi Thuyền Nan",
+              "activity": "Ngồi rít tẩu thuốc lá dại và nhấp hớp rượu cay"
+            }
+          ],
+          "rainy": [
+            {
+              "time": "07:30",
+              "location": "Khoang Thuyền Mui Vòm",
+              "activity": "Đan lưới dù đánh bắt cá rô đồng mùa nước nổi"
+            },
+            {
+              "time": "16:00",
+              "location": "Bến Nước Đầm Lầy",
+              "activity": "Thu gom các mẻ cá trê béo ngậy mắc trong đó tre"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "npc_milo",
+      "name": "Cậu Bé Milo",
+      "role": "Chuyên Gia Trộm Táo & Trinh Sát Bụi Rậm",
+      "location": "Hàng Rào Điền Trang / Quảng Trường Thị Trấn",
+      "species": "Human (Đứa Trẻ Nghịch Ngợm)",
+      "description": "Cậu bé quậy phá nhất thung lũng, chuyên trèo rào rình trộm dâu tây và táo của điền trang. Nếu được đối xử tốt, cậu bé sẽ trở thành trinh sát chỉ điểm kho báu rừng sâu cho Rowan.",
+      "favorite_items": [
+        "qua_mong_rung",
+        "bread_brioche",
+        "mat_ong"
+      ],
+      "quote": "Em thề là em chỉ trèo lên cây táo để cứu con bướm thôi! Cho em một mẩu bánh nướng kia rồi em chỉ chỗ hái nấm cục cho!",
+      "birthday": "Ngày 5 Mùa Xuân",
+      "schedule": "Sáng: Đi học ở thư viện Clara; Chiều: Rình rập leo rào trộm quả ở rìa Điền trang; Tối: Bắn chim sẻ cùng đám bạn",
+      "real_world_wound": "Cha mẹ mải bươn chải kiếm sống sau chiến tranh bỏ bê con cái; Milo nghịch ngợm quậy phá chỉ để thu hút sự chú ý của người lớn.",
+      "comfort_dish": "bread_brioche",
+      "heart_event_summary": "Không trộm táo nữa mà đổi thành phụ nhặt quả rụng (2 Tim); chỉ điểm các bụi dâu rừng bí mật trong thung lũng (4 Tim); mang tặng tổ ong rừng hiếm (6 Tim); lập Đội Thám Tử Nhí báo tin thú hoang vào vườn (8 Tim).",
+      "gift_preferences": {
+        "loved": [
+          "qua_mong_rung",
+          "bread_brioche",
+          "mat_ong"
+        ],
+        "liked": [
+          "wood_pine",
+          "da_tinh_the",
+          "bit_tet_nuong_than_soi"
+        ],
+        "disliked": [
+          "sach_cu",
+          "rau_cai_luoc",
+          "tra_den_dam"
+        ],
+        "hated": [
+          "rac_ruoi",
+          "mon_an_hong"
+        ]
+      },
+      "schedules": {
+        "default": {
+          "sunny": [
+            {
+              "time": "08:00",
+              "location": "Bậc Thềm Thư Viện",
+              "activity": "Ngồi nghịch sỏi và lén gấp máy bay giấy ném bạn"
+            },
+            {
+              "time": "14:00",
+              "location": "Hàng Rào Vườn Táo Điền Trang",
+              "activity": "Nấp sau bụi rậm nhòm trộm những quả táo chín mọng"
+            },
+            {
+              "time": "17:00",
+              "location": "Quảng Trường Thị Trấn",
+              "activity": "Bắn súng cao su thi tài nhặt hạt sồi cùng lũ trẻ"
+            }
+          ],
+          "rainy": [
+            {
+              "time": "09:00",
+              "location": "Hiên Cửa Hàng Tạp Hóa",
+              "activity": "Nghịch bong bóng nước mưa chảy từ máng xối mái nhà"
+            },
+            {
+              "time": "15:00",
+              "location": "Góc Quầy Bánh Penny",
+              "activity": "Đứng hít hà mùi bánh nướng thơm lừng chờ vụn bánh"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "npc_cora",
+      "name": "Bé Hạt Dẻ Cora",
+      "role": "Cô Bé Nhặt Đá Cuội & Nghệ Thuật Nhuộm Màu Tự Nhiên",
+      "location": "Bờ Suối Oakhaven / Hiên Thư Viện",
+      "species": "Human (Bé Gái Biên Viễn)",
+      "description": "Cô bé nhút nhát có cha là người lính chưa trở về sau chiến tranh. Hay đi lang thang nhặt sỏi cuội nhiều màu xâu vòng tay, biết cách nghiền khoáng thạch làm bột màu nhuộm rực rỡ.",
+      "favorite_items": [
+        "da_tinh_the",
+        "gem_amethyst",
+        "tra_thao_moc_rung"
+      ],
+      "quote": "Mỗi viên sỏi dưới suối đều có một màu riêng. Em để dành những viên đá đẹp nhất này để ngày cha về làm quà cho cha...",
+      "birthday": "Ngày 16 Mùa Hạ",
+      "schedule": "Sáng: Đi dọc bờ suối nhặt đá cuội ngũ sắc; Chiều: Ngồi hiên thư viện xâu vòng; Tối: Về căn nhà nhỏ cùng mẹ",
+      "real_world_wound": "Nỗi nhớ thương người cha bặt vô âm tín nơi tiền tuyến; cô bé tin rằng nếu xâu đủ một nghìn viên sỏi đẹp thì cha sẽ bình an trở về.",
+      "comfort_dish": "tra_thao_moc_rung",
+      "heart_event_summary": "Tặng Vòng Tay Đá Cuội may mắn tăng 5% né đòn (2 Tim); dạy công thức nghiền bột màu tự nhiên sơn hàng rào (4 Tim); mở khóa tính năng đổi màu sơn tường điền trang (6 Tim); tin báo cha còn sống trở về đoàn tụ tại The Hearth (8 Tim).",
+      "gift_preferences": {
+        "loved": [
+          "da_tinh_the",
+          "gem_amethyst",
+          "tra_thao_moc_rung"
+        ],
+        "liked": [
+          "qua_mong_rung",
+          "bread_brioche",
+          "hoa_tuyet_lien"
+        ],
+        "disliked": [
+          "rac_ruoi",
+          "ore_coal",
+          "thuoc_doc"
+        ],
+        "hated": [
+          "mon_an_hong",
+          "bun_dat"
+        ]
+      },
+      "schedules": {
+        "default": {
+          "sunny": [
+            {
+              "time": "08:00",
+              "location": "Bãi Sỏi Bờ Suối Oakhaven",
+              "activity": "Cúi nhặt những viên đá cuội lấp lánh bỏ vào giỏ cói"
+            },
+            {
+              "time": "13:00",
+              "location": "Bậc Thềm Thư Viện Oakhaven",
+              "activity": "Dùng dây dù xâu từng viên đá cuội thành chuỗi vòng tay"
+            },
+            {
+              "time": "18:00",
+              "location": "Căn Nhà Gỗ Ven Rìa Thị Trấn",
+              "activity": "Phụ mẹ nấu canh rau rừng và cất giỏ đá vào góc giường"
+            }
+          ],
+          "rainy": [
+            {
+              "time": "09:00",
+              "location": "Hiên Sau Thư Viện",
+              "activity": "Lấy cối đá nhỏ nghiền các mẩu khoáng thạch vụn thành bột màu"
+            },
+            {
+              "time": "16:00",
+              "location": "Căn Nhà Gỗ Ven Rìa Thị Trấn",
+              "activity": "Vẽ hình ngôi nhà có khói lam chiều lên mẩu gỗ sồi"
+            }
+          ]
+        }
+      }
     }
   ]
 }

@@ -206,12 +206,12 @@ Thế giới game mở rộng dựa trên **Khôi Phục Đại Công Trình Th�
 
 ---
 
-## 10. Hồ Sơ Tâm Lý, Chiều Sâu 42 Nhân Vật & Tuyến Nhiệm Vụ Trái Tim (NPC Narrative Lore & Heart Events)
+## 10. Hồ Sơ Tâm Lý, Chiều Sâu 51 Nhân Vật & Tuyến Nhiệm Vụ Trái Tim (NPC Narrative Lore & Heart Events)
 
 ### 10.1. Triết Lý Xây Dựng: "Vết Nứt Đời Thực & Sự Ấm Áp Mộc Mạc"
 Mỗi cư dân Oakhaven không phải NPC rập khuôn vô hồn, mà mang một **vết nứt đời thực mộc mạc**: gánh nặng mưu sinh sau chiến tranh, chuột cắn mùa màng, đau khớp khi trời lạnh, nợ tiền quán rượu hay nỗi hoang mang của kẻ tha hương. Mâm cơm nóng và ổ bánh nướng giòn rụm của Rowan là cầu nối gắn kết, giải quyết những khó khăn cơm áo gạo tiền rất cụ thể.
 
-### 10.2. Mạng Lưới 42 Nhân Vật & Vết Thương Đời Thực
+### 10.2. Mạng Lưới 51 Nhân Vật & Vết Thương Đời Thực
 1. **Rowan (Chủ Điền Trang, Master Cook & Thợ Săn Mỏ):** Người trẻ kiệt quệ (burnout) trốn chạy cuộc sống vô cảm kinh đô, mang hội chứng kẻ giả mạo (Imposter Syndrome). Tự tay làm chủ 100% căn bếp 55 món, vừa cuốc đất khai hoang vừa săn quặng 150 tầng mỏ.
 2. **Bác Quản Gia Barnaby (Quản Gia Sổ Sách & Dãy Phòng Trọ):** Cựu thủ kho quân nhu giải ngũ nghèo túng, sợ mình thành gánh nặng thừa thãi; quản lý phòng trọ áp mái, thu tiền trọ tự động, dự báo thị trường sốt giá và quản lý két sắt điền trang sinh lãi 3%/tuần.
 3. **Cậu Phụ Tá Colm (Hậu Cần, Sơ Chế & Cứu Hộ Mỏ Sâu):** Trẻ mồ côi làm thuê bị quịt lương, được Rowan cứu ở Tầng 15 mỏ; chẻ củi, xay bột mì, gom sữa trứng tự động, cứu nạn mỏ sâu giữ nguyên 100% trang bị quặng quý.
@@ -235,6 +235,15 @@ Mỗi cư dân Oakhaven không phải NPC rập khuôn vô hồn, mà mang một
 9. **Thuyền Trưởng Garrick & Cậu Bé Finn:** Lão hoa tiêu già mù màu mặc cảm "khúc gỗ mục mắc cạn" và đứa cháu trai ngày đêm câu cá sao gom tiền chuộc lại chiếc la bàn báu vật cho ông.
 10. **Lumi (Tinh Linh Cáo Tuyết Kemomimi-Elf):** Sinh linh lai bị cả người thú và tinh linh xa lánh; tìm thấy sự an toàn tuyệt đối bên tách *Trà Sen An Thần* và chiếc bánh bột gạo hấp của Rowan.
 11. **Aurelia (Dược Sĩ) & Marlo (Hiệp Sĩ Ca Đêm):** Aurelia trăn trở lý tưởng y đức trước nghèo đói; Marlo hy sinh giấc ngủ và sức khỏe gửi 90% lương về quê nuôi 4 đứa em thơ.
+12. **Lão Silas & Con Lừa Già (Khách Trọ The Hearth):** Lái buôn xe lừa bán hạt giống và gia vị hiếm phương xa; ký hợp đồng cung ứng hàng tuần ở 8 Tim.
+13. **Hiệp Sĩ Hester (Khách Trọ Góc Khuất):** Cựu kỵ sĩ đào ngũ trốn chui trốn nhủi; gia cố giáp trụ (+10 DEF) và trao lại Thanh Kiếm Kỵ Sĩ Bỏ Rơi ở 8 Tim.
+14. **Cô Thợ Dệt Mae (Khách Trọ Mùa Đông):** Thu mua lông cừu giá cao +30%; tặng Khung Dệt Len Điền Trang tự động ở 4 Tim.
+15. **Lão Gomer "Thuốc Nổ" (Trạm Nghỉ Tầng 60):** Lão thợ nổ người lùn điếc đặc; bán bom mỏ tự chế và tặng Máy Khoan Hơi Nước cầm tay ở 8 Tim.
+16. **Thợ Lặn Vael (Hồ Ngầm Tầng 90):** Thợ lặn săn cá mù và cổ vật ngầm; mở lối bơi ngầm nối tầng 90 ra sông ngoài ở 8 Tim.
+17. **Bà Rowena "Tro Than" (Chòi Than Rừng Sâu):** Cung cấp Than Rừng Già cháy x3 thời gian; mở khóa Lò Nung Than Tro Trấu cao cấp ở 8 Tim.
+18. **Lão Tad "Bẫy Lươn" (Ngư Dân Đầm Lầy):** Tặng Đó Tre Bắt Cá Tự Động; tặng Cần Câu Trúc Ngàn Năm tăng 25% tốc độ câu ở 8 Tim.
+19. **Cậu Bé Milo (Quậy Phá & Trinh Sát):** Hái quả rụng và chỉ điểm bụi dâu rừng bí mật; lập Đội Thám Tử Nhí canh chừng thú rừng ở 8 Tim.
+20. **Bé Hạt Dẻ Cora (Nhặt Đá Cuội Đợi Cha):** Tặng Vòng Tay Đá Cuội (+5% né đòn); mở khóa tính năng sơn màu tường nhà điền trang ở 6 Tim; tin báo cha bình an trở về đoàn tụ ở 8 Tim.
 
 ### 10.3. Cơ Chế Bữa Ăn Kết Nối Tối (The Nightly Hearthside Service)
 - Mỗi tối cư dân ghé Điền trang mang theo tâm trạng và khúc mắc đời thường.

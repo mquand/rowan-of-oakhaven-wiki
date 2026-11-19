@@ -7,7 +7,7 @@ tags: [characters, npcs, lore, rowan, oakhaven, heart-events, narrative]
 spoiler: false
 ---
 
-# 👥 Dàn Nhân Vật, Cốt Truyện Đời Thực & Tuyến Sự Kiện Oakhaven (42 Nhân Vật)
+# 👥 Dàn Nhân Vật, Cốt Truyện Đời Thực & Tuyến Sự Kiện Oakhaven (51 Nhân Vật)
 
 > **Game:** Rowan of Oakhaven  
 > **Triết lý nhân vật & Không gian sống:** Mỗi cư dân Oakhaven không phải NPC rập khuôn vô hồn, mà mang một **vết nứt đời thực mộc mạc**: gánh nặng mưu sinh sau chiến tranh, chuột cắn mùa màng, đau khớp khi trời lạnh, nợ tiền quán rượu hay nỗi hoang mang của kẻ tha hương. Đại Bản Doanh Điền Trang The Hearth cùng những mẻ bánh nướng giòn rụm và nồi súp nóng của Rowan chính là điểm tựa tự do kết nối họ, giải quyết những khó khăn cơm áo gạo tiền rất cụ thể.
@@ -241,3 +241,40 @@ spoiler: false
 * **Solace (Linh Thể Hộ Tinh):** Linh thể ánh sao gác cổng thiên giới hàng ngàn năm, đã quên mất bản thân từng là một đầu bếp thời sơ khai; chỉ nhớ lại khi ngửi thấy hương trà sen của Rowan.
   - *Món ăn:* **Trà Sen An Thần**. Hồi phục ký ức cổ xưa và mở khóa vĩnh viễn **Cổng Trời Aethelgard** liên kết 5 đại vực tại 8 Tim.
 * **Lapis (Nàng Tiên Cá Hồ Ngầm):** Bơi từ Biển Sương Mù ghé thăm các suối ngầm cao nguyên; giao thương muối khoáng pha lê ở 4 Tim và cung cấp ngọc trai phát quang kháng độc ở 8 Tim.
+
+---
+
+## 5. Khách Trọ, Thợ Mỏ Tầng Sâu & Cư Dân Biên Viễn (Frontier Guests & Specialists)
+
+### 🧳 Dãy Phòng Trọ Áp Mái The Hearth
+* **Lão Silas (Lái Buôn Xe Lừa):** Lão lái buôn gầy nhẳng cùng con lừa già hay dở chứng, thuê phòng trọ The Hearth từ Thứ Năm đến Thứ Bảy. Mở rương bán các loại hạt giống lạ và gia vị quý từ phương xa.
+  - *Vết nứt:* Mất trắng đoàn buôn thời chiến, bươn chải tuổi già cùng con lừa trung thành.
+  - *Món ăn:* **Bánh Mì Brioche Men Bơ & Rượu Táo Ấm**. Giảm 15% giá hàng hiếm ở 2 Tim; ký hợp đồng cung ứng định kỳ hàng tuần cho điền trang ở 8 Tim.
+* **Hiệp Sĩ Hester (Cựu Kỵ Sĩ Ẩn Danh):** Lính đào ngũ trùm áo choàng kín mít trong phòng trọ góc khuất; mang tay nghề phục chế giáp trụ quân dụng đỉnh cao.
+  - *Vết nứt:* Mặc cảm tội lỗi chiến tranh khi chứng kiến thảm sát; luôn sống trong nỗi sợ bị truy nã.
+  - *Món ăn:* **Bít Tết Nướng Than Sồi**. Gia cố giáp trụ (+10 DEF) ở 2 Tim; trao lại Thanh Kiếm Kỵ Sĩ Bỏ Rơi huyền thoại ở 8 Tim.
+* **Cô Thợ Dệt Mae (Thợ Dệt Du Mục):** Ghé thung lũng vào mùa Thu và Đông, ngồi đan len bên lò sưởi The Hearth.
+  - *Vết nứt:* Gia tộc du mục ly tán sau chiến loạn; đi khắp nơi dệt áo ấm tìm kiếm tung tích người thân.
+  - *Món ăn:* **Trà Thảo Mộc Rừng & Quả Mọng**. Thu mua lông cừu giá cao +30% ở 2 Tim; tặng Khung Dệt Len Điền Trang tự động ở 4 Tim; mở khóa bộ sưu tập thảm thủ công ở 8 Tim.
+
+### ⛏️ Trạm Nghỉ Hầm Mỏ Tầng Sâu (Tầng 60 & 90)
+* **Lão Gomer "Thuốc Nổ" (Chuyên Gia Nổ Mìn Tầng 60):** Lão thợ nổ người lùn tai điếc đặc, râu tóc cháy khét mùn than, cắm trại tại Trạm Nghỉ Tầng 60.
+  - *Vết nứt:* Điếc tai sau tai nạn sập hầm, bị trục xuất khỏi bang hội mỏ; bám trụ dưới lòng đất vì chỉ có tiếng nổ mới khiến lão thấy mình còn sống.
+  - *Món ăn:* **Rượu Trái Cây Lên Men Cay**. Bán Bom Mỏ Tự Chế giá rẻ ở 2 Tim; chỉ mạch quặng vàng ngầm ở 6 Tim; tặng Máy Khoan Hơi Nước cầm tay ở 8 Tim.
+* **Thợ Lặn Vael (Thợ Lặn Hồ Ngầm Tầng 90):** Thợ lặn lầm lì trong bộ đồ da cá kín mít, chuyên lặn xuống các hồ nước ngầm áp suất cao mò cổ vật và bắt cá mù dạ quang.
+  - *Vết nứt:* Ám ảnh tột cùng sau khi toàn bộ đội lặn bị quái thú vực sâu nuốt chửng.
+  - *Món ăn:* **Rượu Trái Cây Lên Men & Cá Cổ Đại Nướng**. Bán Ủng Lội Nước Sâu chống trượt ở 2 Tim; mở lối ngầm nối hồ tầng 90 ra sông ngoài ở 8 Tim.
+
+### 🌲 Rừng Rậm, Đầm Lầy & Thị Trấn
+* **Bà Rowena "Tro Than" (Bà Đốt Than Rừng Sâu):** Sống trong chòi đốt than ở bìa Rừng Thầm Thì, mặt mũi lúc nào cũng quẹt nhọ nồi đen sì.
+  - *Vết nứt:* Mất chồng con trong chiến tranh biên viễn; trốn vào rừng làm bạn với khói than để quên quá khứ.
+  - *Món ăn:* **Bánh Mì Nướng Nóng**. Cung cấp Than Rừng Già cháy x3 thời gian ở 2 Tim; mở khóa Lò Nung Than Tro Trấu cao cấp ở 8 Tim.
+* **Lão Tad "Bẫy Lươn" (Lão Ngư Dân Đầm Lầy):** Lão già sống trên thuyền nan mục nát, răng sún, người tanh nồng mùi bùn ven đầm lầy phía Đông.
+  - *Vết nứt:* Quê nhà bị lũ cuốn trôi sau khi vỡ đập chiến tranh; phiêu dạt về đầm lầy sống đời cô độc.
+  - *Món ăn:* **Thịt Nướng Lửa Địa Ngục & Rượu Cay**. Tặng Đó Tre Bắt Cá Tự Động ở 2 Tim; tặng Cần Câu Trúc Ngàn Năm tăng 25% tốc độ câu ở 8 Tim.
+* **Cậu Bé Milo (Chuyên Gia Trộm Táo & Trinh Sát):** Đứa trẻ nghịch ngợm nhất trấn, chuyên trèo tường rào rình trộm dâu tây và táo của điền trang.
+  - *Vết nứt:* Cha mẹ bận bươn chải bỏ bê; quậy phá để được người lớn chú ý.
+  - *Món ăn:* **Bánh Nướng Mật Ong**. Giúp nhặt quả rụng ở 2 Tim; chỉ các bụi quả mọng bí mật ở 4 Tim; lập Đội Thám Tử Nhí báo tin thú hoang ở 8 Tim.
+* **Bé Hạt Dẻ Cora (Cô Bé Nhặt Đá Cuội & Nhuộm Màu):** Cô bé nhút nhát nhặt đá cuội ngũ sắc ven suối xâu vòng tay, đợi cha đi lính trở về.
+  - *Vết nứt:* Thương nhớ người cha mất tích nơi tiền tuyến; tin rằng xâu đủ 1,000 viên đá đẹp thì cha sẽ về.
+  - *Món ăn:* **Trà Thảo Mộc Búp Sen**. Tặng Vòng Tay Đá Cuội may mắn (+5% né đòn) ở 2 Tim; mở khóa tính năng sơn đổi màu tường nhà điền trang ở 6 Tim; tin báo cha bình an trở về đoàn tụ tại The Hearth ở 8 Tim.
