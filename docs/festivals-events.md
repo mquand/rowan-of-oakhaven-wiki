@@ -9,7 +9,7 @@ spoiler: false
 
 # 🏮 Lễ Hội & Sự Kiện Oakhaven (Đa Vùng Đất & Chợ Phiên Sưu Tầm)
 
-Thung lũng Oakhaven sống động và ấm áp theo từng nhịp thở của 4 mùa trong năm (). Lễ hội không chỉ là ngày hội làng nội bộ mà là **dịp giao thương bùng nổ của toàn đại lục**, quy tụ **51 cư dân địa phương cùng các đoàn thương nhân phương xa, quý tộc lưu vong, thợ săn mỏ và thủy thủ viễn dương**.
+Thung lũng Oakhaven sống động và ấm áp theo từng nhịp thở của 4 mùa trong năm (). Lễ hội không chỉ là ngày hội làng nội bộ mà là **phiên chợ hội tụ dân làng cùng các đoàn buôn viễn xứ**, quy tụ **51 cư dân địa phương cùng các đoàn thương nhân phương xa, quý tộc lưu vong, thợ săn mỏ và thủy thủ viễn dương**.
 
 Để tránh tình trạng quá tải thời gian trong ngày lễ và bẫy phình to tính năng (Feature Creep) cho solo dev, mỗi ngày lễ hội cấp cho người chơi **2 Vé Hoạt Động (Activity Points)** để tham gia trọn vẹn **đúng 2 hoạt động chính** (buổi sáng và buổi chiều/tối) cùng **1 Sạp ẩm thực lưu động**.
 
@@ -21,7 +21,7 @@ Lễ hội diễn ra luân phiên tại **4 vùng đất đặc trưng** mang đ
 
 * **Thời gian:** , Ngày 15 Mùa Xuân.
 * **Địa bàn tổ chức:** Khu Đền Cổ Bìa Rừng Thầm Thì & Trục Kênh Thủy Lợi thượng nguồn.
-* **Bản sắc văn hóa:** Trầm mặc, huyền bí, linh thiêng. Dân làng cùng nhau cầu nguyện cho linh hồn tử sĩ viễn chinh an nghỉ, nạo vét kênh mương dẫn nước ngọt về đồng lúa và dâng cỗ thanh tẩy làn sương độc miasma.
+* **Bản sắc văn hóa:** Trầm lắng, tưởng niệm tử sĩ và dọn dẹp cống mương sau mùa đông. Dân làng cùng nhau cầu nguyện cho linh hồn tử sĩ viễn chinh an nghỉ, nạo vét kênh mương dẫn nước ngọt về đồng lúa và dâng cỗ thanh tẩy làn sương độc miasma.
 * **Khách phương xa & Gian hàng vãng lai:**
   - *Đoàn tu sĩ & Thảo dược sư viễn xứ:* Ghé đền dâng hương, mang theo những túi hạt giống hoa màu rừng sâu.
   - *Sạp giải mã khảo cổ của Iris & Người Giữ Đền Rosemary:* Bày bán hương trầm và đổi cổ vật lấy nông sản.
@@ -70,7 +70,7 @@ Lễ hội diễn ra luân phiên tại **4 vùng đất đặc trưng** mang đ
 
 * **Thời gian:** , Ngày 20 Mùa Thu.
 * **Địa bàn tổ chức:** Quảng Trường Oakhaven nối liền Ga Tuyến Đường Sắt Trung Tâm.
-* **Bản sắc văn hóa:** Kinh tế bùng nổ, rực rỡ và phồn hoa nhất trong năm. Oakhaven đón chuyến tàu hỏa đặc biệt chở giới quý tộc, giám khảo ẩm thực và thương nhân công nghiệp từ Kinh Đô Solaria.
+* **Bản sắc văn hóa:** Phiên chợ nhộn nhịp nhất vụ Thu khi có chuyến tàu hàng Solaria ghé ga. Oakhaven đón chuyến tàu hỏa đặc biệt chở giới quý tộc, giám khảo ẩm thực và thương nhân công nghiệp từ Kinh Đô Solaria.
 * **Khách phương xa & Gian hàng vãng lai:**
   - *Đoàn tàu hỏa Kinh Đô Solaria:* Các thương gia cơ khí, đầu bếp cung đình và giám khảo ẩm thực.
   - *Cỗ xe thổ mộ của Lão Silas & Con Lừa Già:* Bày bán gia vị sa mạc và thảm dệt du mục.
@@ -93,7 +93,7 @@ Lễ hội diễn ra luân phiên tại **4 vùng đất đặc trưng** mang đ
 
 * **Thời gian:**  sáng hôm sau (26:00), Ngày 28 Mùa Đông.
 * **Địa bàn tổ chức:** Ban ngày tại **Trạm Cáp Treo Đỉnh Núi Răng Sói & Suối Nước Nóng**; Ban đêm rút về **Đại sảnh Quán The Hearth**.
-* **Bản sắc văn hóa:** Băng giá khắc nghiệt nhưng ấm áp tình người. Ngày hội của thợ săn tuyết, lính biên phòng, thợ mỏ người lùn và những kẻ tha hương tìm về hơi ấm gia đình.
+* **Bản sắc văn hóa:** Đêm đông buốt giá nhưng đỏ lửa quây quần. Ngày hội của thợ săn tuyết, lính biên phòng, thợ mỏ người lùn và những kẻ tha hương tìm về hơi ấm gia đình.
 * **Khách phương xa & Gian hàng vãng lai:**
   - *Phường thợ mỏ người lùn từ rặng núi tuyết phía Bắc:* Xuống núi uống rượu mạnh, bán quặng thô quý.
   - *Toán lính trinh sát biên giới:* Về quán The Hearth tránh bão tuyết và ăn lẩu nóng.
