@@ -32,16 +32,21 @@ flowchart TD
 - **Thanh Máu (HP Bar - Khởi điểm 100):**
   - Máu giảm khi trúng đòn tấn công của quái vật hoặc bẫy hầm ngục. Chạm 0 $\rightarrow$ Gục ngã tại trận.
 
-### 2.2. Cơ Chế Rơi Đồ Khi Ngất Xỉu & Dịch Vụ Thu Hồi Tại Hiệp Hội Mạo Hiểm (Lost & Found)
-- **Khi Rowan ngất xỉu (cạn HP trong hầm mỏ hoặc cạn Stamina lúc 2:00 AM):**
-  - Đội tuần tra cứu nạn của **Hiệp Hội Mạo Hiểm Oakhaven** (dưới quyền Hội Trưởng Thorne) sẽ đưa Rowan về giường hoặc Trạm y tế của Dược sĩ Maeve.
-  - Bị trừ 10% tiền mặt hiện có (tối đa 1,000g viện phí và phí cứu nạn).
-  - **Mất đồ ngẫu nhiên:** Rơi mất từ 1 đến 4 món đồ đang chứa trong Balo (stack quặng, vật liệu, hoặc vũ khí chưa cất rương).
-- **Dịch Vụ Thu Hồi Đồ Thất Lạc Tại Hiệp Hội Mạo Hiểm (Adventurer's Guild Counter):**
-  - Người chơi ghé bàn trực của Hội Trưởng Thorne hoặc Điều phối viên Valerie để xem biên bản giải cứu và danh sách đồ vật đánh rơi.
-  - Có 2 cách để chuộc lại đồ:
-    1. **Trả Vàng:** Chi trả khoản tiền tương ứng với giá trị món đồ để mạo hiểm giả đi gom về.
-    2. **Đổi Bằng Đồ Ăn Tiếp Tế (Cơm Hộp Viễn Chinh):** Nấu các phần thức ăn dã chiến theo yêu cầu của Hiệp Hội để nhận **Huy Hiệu Cứu Viện** đổi lại trang bị thất lạc miễn phí.
+### 2.2. Cơ Chế Phạt Ngất Xỉu & Dịch Vụ Thu Hồi Tại Hiệp Hội Mạo Hiểm (Rescue & Lost & Found)
+Phân định rõ rệt giữa hai trường hợp kiệt sức trên mặt đất và gục ngã dưới hầm mỏ:
+
+1. **Ngất Xỉu Trên Mặt Đất (Cạn Stamina hoặc quá 02:00 AM):**
+   - **Cậu phụ tá Colm** phát hiện và vác cáng khiêng Rowan về giường ngủ tại The Hearth.
+   - Bị trừ 10% tiền mặt hiện có (tối đa 1,000g viện phí chi trả cho Trạm Y Tế của **Dược Sĩ Aurelia**).
+   - **Bảo toàn trang bị & túi đồ:** Hoàn toàn **KHÔNG mất bất kỳ món đồ nào** trong ba lô hay nông sản vừa thu hoạch.
+2. **Gục Ngã Trong Hầm Ngục Mỏ Cổ 150 Tầng (Cạn HP do quái vật hoặc bẫy):**
+   - Đội cứu nạn của **Hiệp Hội Mạo Hiểm (dưới quyền Hội Trưởng Thorne)** khẩn cấp kéo Rowan về Trạm Y Tế của **Dược Sĩ Aurelia**.
+   - Bị trừ 10% tiền mặt (tối đa 1,000g phí cứu hộ và điều trị).
+   - **Mất mát chiến lợi phẩm (Permanent Loss - Mất đồ là mất đồ):** Rơi mất vĩnh viễn toàn bộ quặng thô, đá quý, thịt quái và vật liệu nhặt được trong chuyến đi mỏ hôm đó.
+   - **Bảo vệ Trang bị & Công cụ chính (Tools & Weapons Guard):** Vũ khí chính, giáp trụ và nông cụ không bao giờ bị xóa vĩnh viễn, nhưng sẽ bị rơi lại tại hiện trường. Đội tuần tra đưa về bàn **Đồ Thất Lạc (Lost & Found)** của Hiệp Hội Mạo Hiểm do Thorne và Valerie quản lý:
+     - Cách 1: **Trả Vàng chuộc đồ:** Chi trả khoản tiền tương ứng với giá trị món đồ.
+     - Cách 2: **Đổi Bằng Cơm Hộp Tiếp Tế (Expedition Bento):** Nấu các phần thức ăn dã chiến theo đơn uỷ thác của Hiệp Hội để nhận **Huy Hiệu Cứu Viện** đổi lại vũ khí/công cụ miễn phí.
+
 
 ---
 
@@ -198,16 +203,22 @@ Thế giới game mở rộng dựa trên **Khôi Phục Đại Công Trình Th�
 
 ## 9. Đại Bản Doanh Điền Trang Oakhaven (The Frontier Homestead), Nhà Trọ Áp Mái & Lối Chơi Tự Do
 
-### 9.1. Tự Do Lối Chơi Tuyệt Đối (Player Freedom Sandbox)
+### 9.1. Tự Do Lối Chơi Tuyệt Đối & Cơ Chế Quán Kết Hợp (Hybrid Sandbox Loop)
 - **Không Gò Bó Giờ Giấc (No Mandatory Shifts):** Rowan không bị xích chân vào ca làm việc chạy bàn (không áp lực Diner Dash). Người chơi hoàn toàn tự do phân bổ thời gian: cày 150 tầng mỏ, canh tác 32 giống cây, câu cá ven sông hồ, hoặc chế tác máy móc.
 - **Quyền Làm Chủ Căn Bếp (Master of the Kitchen):** Rowan sở hữu và làm chủ 100% việc sáng tạo 55 món ăn. Thức ăn phục vụ 2 mục đích chính:
   1. **Lương thực dã ngoại & Buff chiến đấu:** Mang theo ba lô để hồi máu, tăng công, tăng thủ, kháng độc khi khám phá mỏ sâu.
-  2. **Bán buôn thụ động (Passive Sales):** Thức ăn thừa được đặt lên **Quầy Tự Phục Vụ (Honor Pantry)** hoặc quẳng vào **Hòm Xuất Khẩu (Shipping Bin)** trước cổng. Tiền tự động cộng vào túi mà người chơi không cần đứng bưng bê.
+  2. **Bán buôn thụ động (Passive Sales):** Thức ăn đặt lên **Quầy Tự Phục Vụ (Honor Pantry)** hoặc quẳng vào **Hòm Xuất Khẩu (Shipping Bin)** trước cổng. Tiền tự động cộng vào túi qua sổ sách thống kê của Bác Quản Gia Barnaby.
+- **Dịch Vụ Ca Tối Tùy Chọn (Optional Evening Hearthside Service):**
+  - Từ 18:00 đến 22:00 mỗi tối, cư dân địa phương và khách trọ ghé The Hearth ngồi vào các bàn quen thuộc.
+  - **Nếu Rowan có mặt tại quán:** Trực tiếp bưng bê món ăn "Ký ức & Đồng điệu" phục vụ khách để nhận thêm **+20% Tiền Boa (Tip)** và kích hoạt các đoạn đối thoại tâm sự sâu lắng (**Heart Events Cấp B**).
+  - **Nếu Rowan vắng mặt (bận đi mỏ, câu cá đêm):** Bác Quản Gia Barnaby và Cậu Phụ Tá Colm sẽ tự động vận hành quầy cơ bản, **người chơi hoàn toàn không bị phạt hay trừ điểm uy tín**.
+
 
 ### 9.2. Dãy Phòng Trọ Áp Mái & Nhân Sự Điền Trang (The Bunkhouse & Staff)
 - **Cơ chế Phòng Trọ Áp Mái:** Có 3 đến 5 phòng cho khách thám hiểm vãng lai, thương nhân thuê qua đêm.
-- **Bác Quản Gia Barnaby:** Tự động thu tiền trọ (Passive Rent) mỗi sáng Thứ Hai, kê khai sổ sách lời lỗ hòm xuất khẩu, đàm phán giảm chi phí nâng cấp công trình.
-- **Cậu Phụ Tá Colm:** Chẻ củi đầy hộc bếp, xay lúa mì thành bột mịn, gom trứng sữa vào kho lạnh, vót sẵn đuốc dã ngoại. Khi Rowan kiệt sức trong hầm mỏ, Colm dùng cáng khiêng về Trạm Xá/giường ngủ để cứu mạng (nhưng toàn bộ vật phẩm thu thập trong lượt đi mỏ rơi mất vĩnh viễn theo nguyên tắc "mất đồ là mất đồ").
+- **Bác Quản Gia Barnaby:** Cựu thủ kho quân nhu Solaria giải ngũ; quản lý dãy phòng trọ áp mái, tự động thu tiền trọ (Passive Rent) mỗi sáng Thứ Hai, kê khai sổ sách lời lỗ hòm xuất khẩu, đàm phán giảm chi phí nâng cấp công trình.
+- **Cậu Phụ Tá Colm:** Chẻ củi đầy hộc bếp, xay lúa mì thành bột mịn, gom trứng sữa vào kho lạnh, vót sẵn đuốc dã ngoại. Khi Rowan kiệt sức/ngất xỉu trên mặt đất, Colm dùng cáng khiêng về giường ngủ The Hearth an toàn.
+
 
 ### 9.3. Đầu Tư Thương Mại & Tái Thiết Thị Trấn
 - Bảng Nhiệm Vụ Hiệp Hội & Bảng Tái Thiết Thị Trấn: Đóng góp vật liệu sửa Cối Xay Gió, Đèn Đường, Trạm Xá.
@@ -311,31 +322,34 @@ Mỗi cư dân Oakhaven không phải NPC rập khuôn vô hồn, mà mang một
 
 ## 12. Hệ Thống Bảng Tin Dân Sinh & Đơn Tiếp Tế Cơm Hộp (Town Board, Provision Orders & Freshness Mechanics)
 
-### 12.1. Bản Đồ 2 Bảng Uỷ Thác Cốt Lõi
-- **Bảng Gỗ Trước Hiên Quán The Hearth (The Porch Notice Board):** 
-  - Đặt ngay hiên trước quán ăn The Hearth. Dân làng ghim giấy nhờ vả lặt vặt (nông cụ gỉ sét, củ cải cho heo ăn, nợ môn quán tạp hóa, gỗ khô vá mái nhà dột, thịt xông khói chống rét...).
-  - Làm mới 2 - 3 đơn ngẫu nhiên mỗi sáng Thứ Hai và Thứ Năm. Thời hạn 2 - 3 ngày.
-- **Bảng Tiếp Tế Hiệp Hội Mạo Hiểm (Adventurer's Guild Provision Board):**
-  - Đặt cạnh quầy trực của Hội Trưởng Thorne và Valerie tại trụ sở Hiệp Hội.
-  - Chuyên các hợp đồng cơm hộp viễn chinh phục vụ thợ lặn hồ băng, thợ mỏ bộc phá và toán trinh sát tiền đồn mỏ.
-  - Làm mới đơn lớn vào đầu tuần (Thứ Hai). Thưởng **Huy Hiệu Cứu Viện** đổi trang bị thất lạc (Lost & Found).
+### 12.1. Bản Đồ Mạng Lưới 3 Bảng Uỷ Thác Cốt Lõi
+1. **Bảng Gỗ Trước Hiên Quán The Hearth (The Porch Notice Board):** 
+   - Đặt ngay hiên trước quán ăn The Hearth. Dân làng ghim giấy nhờ vả lặt vặt sinh hoạt (nông cụ gỉ sét, củ cải cho heo ăn, nợ môn quán tạp hóa, gỗ khô vá mái nhà dột, thịt xông khói chống rét...).
+   - Làm mới 2 - 3 đơn ngẫu nhiên mỗi sáng Thứ Hai và Thứ Năm. Thời hạn 2 - 3 ngày.
+2. **Bảng Tiền Đồn Mỏ & Hiệp Hội Mạo Hiểm (Adventurer's Guild Provision & Bounty Board):**
+   - Đặt tại trụ sở Hiệp Hội Mạo Hiểm cạnh cửa thang máy mỏ do Hội Trưởng Thorne và Valerie quản lý.
+   - Chuyên các hợp đồng cơm hộp viễn chinh tiếp tế cho thợ lặn hồ băng, thợ mỏ bộc phá, lệnh tiễu phạt quái Blight và săn Boss Warden. Thưởng **Huy Hiệu Cứu Viện** đổi lại vũ khí/trang bị thất lạc (Lost & Found).
+3. **Bảng Tái Thiết Thị Trấn Oakhaven (Town Restoration Board):**
+   - Đặt tại Quảng Trường Trung Tâm trước Tòa Thị Chính do Thị Trưởng Oakwood chủ trì.
+   - Nơi toàn bộ cộng đồng chung tay đóng góp vật tư, nông sản và ngân khố để khôi phục các Đại Công Trình (Kênh Thủy Lợi, Tuyến Cáp Treo, Tuyến Đường Sắt Trung Tâm).
 
-### 12.2. Phân Cấp Hộp Đựng Dã Chiến (Expedition Bento Packaging)
-Thức ăn dã chiến được đóng gói tại Bàn Đóng Gói (góc bếp The Hearth) thành 3 cấp:
-1. **Tier 1 - Hộp Gỗ Thông Thô:** 4 Gỗ mềm + 1 Dây bện. Đựng cơm nắm, bánh mì khô, rau luộc. Giữ tươi 2 ngày.
-2. **Tier 2 - Hộp Thiếc Chống Gỉ:** 2 Thỏi Thiếc + 1 Đệm sáp. Đựng súp đặc, thịt hầm, cá áp chảo. Chống va đập hầm mỏ, giữ nóng 3 ngày.
-3. **Tier 3 - Cặp Lồng Giữ Nhiệt Sơn Mài:** 1 Hộp Thiếc + 2 Len Cừu + 1 Dầu Trẩu. Đựng đại tiệc 3 món cho khách quý tộc và toán thám hiểm sâu. Giữ tươi 5 ngày.
+### 12.2. Phân Cấp Hộp Đựng Dã Chiến & Kéo Dài Độ Tươi (Expedition Bento Packaging)
+Thức ăn dã chiến được đóng gói tại Bàn Đóng Gói (góc bếp The Hearth) thành 3 cấp. Hộp Bento có công năng đặc biệt là **kéo dài thời gian Nóng Hổi (Freshness Bonus)** trước khi thức ăn nguội thành trạng thái Tiêu Chuẩn:
+1. **Tier 1 - Hộp Gỗ Thông Thô:** Chế tạo từ *4 Gỗ mềm + 1 Dây bện*. Đựng cơm nắm, bánh mì khô, rau luộc. **Kéo dài trạng thái Nóng Hổi (Fresh Bonus) trong 48 Giờ (2 ngày)**.
+2. **Tier 2 - Hộp Thiếc Chống Gỉ:** Chế tạo từ *2 Thỏi Thiếc + 1 Đệm sáp*. Đựng súp đặc, thịt hầm, cá áp chảo. Chống va đập hầm mỏ, **kéo dài trạng thái Nóng Hổi trong 72 Giờ (3 ngày)**.
+3. **Tier 3 - Cặp Lồng Giữ Nhiệt Sơn Mài:** Chế tạo từ *1 Hộp Thiếc + 2 Len Cừu + 1 Dầu Trẩu*. Đựng đại tiệc 3 món cho khách quý tộc và toán thám hiểm sâu. **Kéo dài trạng thái Nóng Hổi trong 120 Giờ (5 ngày)**.
 
 ### 12.3. Quy Chuẩn Độ Tươi & Nóng Hổi (The Freshness Bonus - Tuyệt Đối Không Thiu Thối)
 - **Quy tắc bất biến:** **Không áp dụng hạn sử dụng làm thối/hỏng thức ăn thành rác**. Trong bối cảnh hậu chiến khan hiếm lương thực, mọi cọng rau củ khoai đều quý giá.
-- **Trạng thái Nóng Hổi (Fresh - Trong vòng 24h từ lúc nấu):**
+- **Trạng thái Nóng Hổi (Fresh - Trong vòng 24h nếu để ngoài, hoặc kéo dài theo cấp Hộp Bento):**
   - Bán tại The Hearth: Thực khách khen ngợi, tip thêm **+20% tiền vàng**, tăng nhẹ điểm Cozy.
   - Giao đơn Bảng tin: Nhận thêm quà vặt của dân làng (vài củ hành, nắm muối hầm, quả rừng).
   - Ăn khi đi mỏ: Nhận thêm buff phụ ngắn hạn (+5% Tốc độ chạy hoặc hồi 10 Stamina ngay lập tức).
-- **Trạng thái Tiêu Chuẩn (Standard - Sau 24h hoặc qua ngày):**
+- **Trạng thái Tiêu Chuẩn (Standard - Sau khi hết thời gian giữ nhiệt của hộp hoặc sau 24h):**
   - Đồ ăn nguội đi thành đĩa thức ăn thông thường, **tự động gộp xếp chồng (Stack x99)** vào 1 ô túi đồ (không phân mảnh ô nhớ).
   - Giữ nguyên 100% chỉ số buff chiến đấu (Công, Thủ, Tốc, Kháng nguyên tố) và bán đúng 100% giá niêm yết.
 - **Nhóm Thực Phẩm Bảo Quản (Preserved Provisions):** Thịt hun khói, phô mai ủ hầm gác mái, lươn sấy khô, bánh quy nướng nứt nham — bản chất khô ráo không bao giờ nguội, chuyên dùng dự trữ thám hiểm 150 tầng mỏ.
+
 
 ### 12.4. Hệ Sinh Thái Nhiệm Vụ Đa Tầng (Layered Quest Ecosystem) & Mở Khóa Độc Bản
 Nhằm kiến tạo chiều sâu gameplay và triệt tiêu lối mòn "chạy việc vặt nhạt nhẽo" (fetch quests), hệ thống nhiệm vụ được phân thành **5 Phân Loại Trọng Tâm**, nơi các nhiệm vụ khó mở khóa trực tiếp các **Thành Tựu Ẩn**, **Công Thức Thất Truyền**, **Bản Vẽ Cơ Khí**, **Kỷ Vật Ba Lô Thụ Động (Passive Relics)** và **Đồ Trang Trí Nội Thất Tăng Điểm Ấm Cúng (Cozy Rating)**:
@@ -350,7 +364,7 @@ Nhằm kiến tạo chiều sâu gameplay và triệt tiêu lối mòn "chạy v
    - Các chuỗi nhiệm vụ 3 giai đoạn khai thác góc khuất tâm lý hậu chiến mộc mạc của các cặp nhân vật (Boris & Bram mâu thuẫn xưởng rèn mộc; Hester & Valerius về lời thề vệ binh danh dự; Valen de Montfort trốn chạy tai mắt Solaria...).
    - Phần thưởng: Bàn chế tác cơ khí liên hoàn, bàn cờ gỗ sồi tăng Cozy Rating, công thức quý tộc Solaria.
 4. **Nhánh Tiễu Phạt Thợ Săn Tinh Anh & Trảm Warden Kèm Ràng Buộc (Tactical Warden & Cavern Bounties):** 
-   - Niêm yết tại Bảng Tiền Đồn Mỏ. Hạ gục Boss Warden Tầng 30, 70, 110, 150 với điều kiện chiến thuật nghiêm ngặt (Master Parry 15 lần, không dùng bình thuốc Maeve, chỉ dựa vào buff đồ ăn Bento, hoàn thành trong thời gian thanh miasma dưới 50%).
+   - Niêm yết tại Bảng Tiền Đồn Mỏ. Hạ gục Boss Warden Tầng 30, 70, 110, 150 với điều kiện chiến thuật nghiêm ngặt (Master Parry 15 lần, không dùng bình thuốc Aurelia, chỉ dựa vào buff đồ ăn Bento, hoàn thành trong thời gian thanh miasma dưới 50%).
    - Phần thưởng: Huy Hiệu Cứu Viện, Đầu lâu quái vật tinh anh trưng bày lò sưởi (+Cozy Rating), danh hiệu hồ sơ độc bản.
 5. **Nhánh Đại Lễ Cầu Siêu & Giải Phóng Đất Hoang (Ancient Altar Cleansing & Land Reclamation):** 
    - Người Giữ Đền Rosemary chủ trì tại 4 Bàn Thờ Cổ Đại (4 mùa Xuân - Hạ - Thu - Đông). Nấu mâm đại tiệc thanh lọc 5 món chuẩn 3 Sao dâng lên bệ thờ lúc nửa đêm và chống đỡ đợt linh hồn chiến trận thức tỉnh.
@@ -368,7 +382,7 @@ Nhằm kiến tạo chiều sâu gameplay và triệt tiêu lối mòn "chạy v
 | **Q-LORE-03: Chiếc Cúc Áo Người Lính Cũ** | Bé Cora | Lặn mò ven suối tìm chiếc Cúc Áo Bạc Quân Đội của cha Cora bị lũ cuốn; làm 1 đĩa Bánh Quy Hạt Phỉ an ủi bé. | 🏆 Thành tựu ẩn: `ACH_PROMISE_BY_STREAM` *(Lời Hứa Bờ Suối)*<br/>🧿 Kỷ vật: *Vòng Đá Cuội Bảy Màu May Mắn* (+5% Tỉ lệ Né đòn vĩnh viễn)<br/>🛋️ Trang trí: *Bức Tranh Bờ Suối Vẽ Tay Của Cora* (+10% khách tip thêm). |
 | **Q-LORE-04: Sổ Môn Không Thể Xóa** | Bác Barnaby | Đòi lại 1,200g nợ mua rượu cũ từ 3 khách trọ quịt nợ dạt ra bìa rừng; hoặc tự bù tiền nếu thương hại họ. | 🏆 Thành tựu ẩn: `ACH_DEBT_COLLECTOR` *(Tay Hòm Chìa Khóa)*<br/>🧿 Kỷ vật: *Sổ Ghi Nợ Bọc Da Của Barnaby* (xem trước biến động giá nông sản/quặng ngày mai)<br/>💰 Barnaby chia 30% tiền nợ thu hồi. |
 | **Q-HUNT-01: Bức Tường Thép Trước Warden Bọ** | Hiệp Sĩ Hester | Tiêu diệt Warden Bọ Hung Tầng 80 với điều kiện thực hiện tối thiểu 12 lần Master Parry chuẩn xác; HP không tụt dưới 80%. | 🏆 Thành tựu ẩn: `ACH_PARRY_MASTER` *(Bậc Thầy Đỡ Đòn)*<br/>🛋️ Trang trí: *Đầu Lâu Warden Bọ Hung Mạ Vàng* (treo tường The Hearth, +15% tip từ thợ mỏ)<br/>⚔️ Danh hiệu: *"Bức Tường Thép Oakhaven"*. |
-| **Q-HUNT-02: Bữa Tiệc Sinh Tồn Dung Nham** | Hội Trưởng Thorne | Quét sạch 3 tầng Đới Dung Nham (71-73) không dùng bình thuốc Maeve; chỉ sống sót bằng buff từ Cơm hộp dã chiến mang theo. | 🏆 Thành tựu ẩn: `ACH_IRON_STOMACH` *(Sinh Tồn Ẩm Thực)*<br/>📜 Bản vẽ: *Ba Lô Cách Nhiệt Dã Ngoại* (+8 ô chứa đồ, giữ thức ăn tươi gấp đôi)<br/>🏅 15x Huy Hiệu Cứu Viện. |
+| **Q-HUNT-02: Bữa Tiệc Sinh Tồn Dung Nham** | Hội Trưởng Thorne | Quét sạch 3 tầng Đới Dung Nham (71-73) không dùng bình thuốc Aurelia; chỉ sống sót bằng buff từ Cơm hộp dã chiến mang theo. | 🏆 Thành tựu ẩn: `ACH_IRON_STOMACH` *(Sinh Tồn Ẩm Thực)*<br/>📜 Bản vẽ: *Ba Lô Cách Nhiệt Dã Ngoại* (+8 ô chứa đồ, giữ thức ăn tươi gấp đôi)<br/>🏅 15x Huy Hiệu Cứu Viện. |
 | **Q-ALTAR-01: Khúc Ca Cầu Siêu Tiết Xuân Phân** | Rosemary | Nấu mâm đại tiệc 5 món Xuân (Cải thìa xào nấm sao, Canh củ sen tuyết...) dâng Bàn Thờ Cổ lúc nửa đêm; trảm 3 đợt Hồn Ma Miasma. | 🏆 Thành tựu ẩn: `ACH_ASHES_TO_BLOOM` *(Hóa Giải Tro Tàn)*<br/>🌱 Mở khóa: *Vườn Thảo Dược Vĩnh Cửu Bìa Rừng* (trồng thảo mộc quanh năm)<br/>🛋️ Trang trí: *Lư Hương Đồng Bàn Thờ Cổ* (+25 Cozy Rating, max cấp). |
 
 ---

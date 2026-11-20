@@ -4,57 +4,58 @@ Hệ thống **Nhiệm Vụ Uỷ Thác** trong *Rowan of Oakhaven* kết nối 3
 
 ---
 
-## 1. Bản Đồ 3 Bảng Uỷ Thác Tại Oakhaven
+## 1. Bản Đồ Mạng Lưới 3 Bảng Uỷ Thác Tại Oakhaven
 
 ```mermaid
 flowchart TD
     Player["🧑 Rowan (Người chơi)"]
     
-    subgraph S1["1. Quảng Trường Thị Trấn"]
-        Board1["📋 Bảng Thông Báo Dân Sinh (Town Help Wanted)<br/>Maeve, Clara, Sylvan, Cedric, Linnea"]
+    subgraph S1["1. Bảng Hiên Quán The Hearth"]
+        Board1["📋 Bảng Dân Sinh & Tiếp Tế (The Porch Board)<br/>Việc vặt 51 cư dân, Đơn Bento tuần"]
     end
 
-    subgraph S2["2. Tiền Đồn Mỏ Oakhaven"]
-        Board2["⚔️ Bảng Tiền Đồn Thợ Lặn Mỏ (Delvers' Lodge)<br/>Hiệp Sĩ Marlo & Bác Thợ Mỏ Bram"]
+    subgraph S2["2. Tiền Đồn Mỏ / Hiệp Hội Mạo Hiểm"]
+        Board2["⚔️ Bảng Tiền Đồn Mỏ & Săn Quái (Guild Board)<br/>Thorne, Valerie, Bram, Vael, Gomer<br/>+ Quầy Đồ Thất Lạc (Lost & Found)"]
     end
 
-    subgraph S3["3. Quán Ăn & Nhà Trọ Oakhaven"]
-        Board3["🍲 Bảng Đơn Cỗ & Tiếp Tế Tuần (Hearth Catering)<br/>Garrick, Thorne, Valerie, Lễ Hội Mùa"]
+    subgraph S3["3. Tòa Thị Chính Quảng Trường"]
+        Board3["🏛️ Bảng Tái Thiết Thị Trấn (Town Restoration Board)<br/>Thị Trưởng Oakwood, Đại công trình hạ tầng"]
     end
 
-    Player -->|Mỗi Sáng 06:00| Board1
-    Player -->|Trước Khi Xuống Mỏ| Board2
-    Player -->|Sáng Thứ Hai Đầu Tuần| Board3
+    Player -->|Mỗi Sáng Thứ Hai & Thứ Năm| Board1
+    Player -->|Trước Khi Xuống 150 Tầng Mỏ| Board2
+    Player -->|Đóng Góp Vật Tư Đại Công Trình| Board3
 
-    Board1 -->|Hoàn Thành| R1["❤️ +100 Điểm Tim NPC<br/>💰 Tiền Vàng Dân Sinh<br/>🌟 Danh Vọng Thị Trấn"]
-    Board2 -->|Hoàn Thành| R2["🏅 Huy Hiệu Tiền Đồn (Delver Crests)<br/>💰 Vàng Tiễu Phạt Lớn<br/>⚔️ Nâng Hạng Thợ Lặn Mỏ"]
-    Board3 -->|Hoàn Thành| R3["💰 Doanh Thu Khủng (1k-4k Gold)<br/>📜 Công Thức Nấu Ăn Cổ Truyền<br/>🛋️ Bản Vẽ Nội Thất Quán"]
+    Board1 -->|Hoàn Thành| R1["❤️ +100 Điểm Tim NPC<br/>💰 Tiền Vàng Dân Sinh<br/>🎁 Quà vặt & Hạt giống"]
+    Board2 -->|Hoàn Thành| R2["🏅 Huy Hiệu Cứu Viện (Delver Crests)<br/>💰 Vàng Tiễu Phạt Lớn<br/>🛡️ Chuộc Vũ Khí Thất Lạc"]
+    Board3 -->|Hoàn Thành| R3["🌟 Khơi Thông Kênh Nước, Cáp Treo, Ga Đường Sắt<br/>📈 Tăng Trưởng Toàn Diện Thung Lũng"]
 ```
 
 ---
 
 ## 2. Chi Tiết Từng Bảng Nhiệm Vụ
 
-### A. Bảng Thông Báo Thị Trấn (Town Help Wanted)
-* **Vị trí:** Trước Tòa Thị Chính Maeve và Bưu Điện Cú Pip tại Quảng trường trung tâm.
-* **Thời gian làm mới:** 06:00 mỗi sáng (xuất hiện 1 – 2 lá đơn dán mới).
-* **Thời hạn:** **2 ngày** kể từ lúc đăng bài.
-* **Ý nghĩa cốt lõi:** Là nguồn tích lũy điểm tình cảm khổng lồ (+100 điểm/nhiệm vụ) giúp người chơi tiến tới mốc 8 Tim (3,200 điểm) mà không bị phụ thuộc hoàn toàn vào giới hạn tặng quà (1 quà/ngày, 2 quà/tuần).
+### A. Bảng Dân Sinh Hiên Quán The Hearth (The Porch Help Wanted)
+* **Vị trí:** Ngay trước hiên Quán Ăn & Nhà Trọ The Hearth.
+* **Thời gian làm mới:** 06:00 mỗi sáng Thứ Hai và Thứ Năm (xuất hiện 2 – 3 lá đơn mới).
+* **Thời hạn:** **2 – 3 ngày** kể từ lúc đăng bài.
+* **Ý nghĩa cốt lõi:** Nguồn tích lũy điểm tình cảm khổng lồ (+100 điểm/nhiệm vụ) giúp tiến tới mốc 8 Tim (3,200 điểm) mà không bị phụ thuộc vào giới hạn tặng quà tuần.
 
 | Phân Loại | Người Giao Thường Gặp | Mục Tiêu Mẫu | Phần Thưởng |
 | :--- | :--- | :--- | :--- |
-| **Nông sản mùa** | Maeve, Linnea | 3 Cà rốt mùa xuân, 5 Quả mọng rừng | 100 - 150g, **+100 Tim** |
-| **Món ăn ấm lòng** | Sylvan, Lyra | 1 Súp gà thảo mộc nóng sốt | 200 - 300g, **+100 Tim** |
-| **Tìm đồ thất lạc** | Clara, Penny, Finn | Sổ phác thảo, kính lão, con quay | 150 - 200g, **+100 Tim** |
-| **Vật tư gia cố** | Cedric, Elora | 20 Gỗ sồi, 10 Đá cuội gia cố bờ kè | 250 - 350g, **+100 Tim** |
+| **Nông sản mùa** | Bà Maeve, Linnea | 3 Cà rốt mùa xuân, 5 Quả mọng rừng | 100 - 150g, **+100 Tim** |
+| **Món ăn ấm lòng** | Aurelia, Sylvan | 1 Súp gà thảo mộc nóng sốt | 200 - 300g, **+100 Tim** |
+| **Tìm đồ thất lạc** | Clara, Penny, Cora | Sổ phác thảo, kính lão, con quay | 150 - 200g, **+100 Tim** |
+| **Vật tư gia cố** | Bram, Cedric | 20 Gỗ sồi, 10 Đá cuội gia cố bờ kè | 250 - 350g, **+100 Tim** |
 
 ---
 
-### B. Bảng Hợp Đồng Tiền Đồn Mỏ (The Delvers' Lodge Bounties)
-* **Vị trí:** Trước lồng Thang Máy Mỏ 150 tầng do Hiệp sĩ Marlo và Bram quản lý.
+### B. Bảng Tiền Đồn Mỏ & Hiệp Hội Mạo Hiểm (Adventurer's Guild Bounties & Lost & Found)
+* **Vị trí:** Trụ sở Hiệp Hội Mạo Hiểm cạnh thang máy mỏ do Hội Trưởng Thorne và Valerie quản lý.
 * **Thời gian làm mới:** Hằng ngày lúc 06:00 (tối đa 3 hợp đồng khả dụng cùng lúc).
 * **Thời hạn:** **3 ngày** hoặc kéo dài đến khi Boss/Quái bị tiêu diệt.
-* **Tiền tệ đặc biệt:** **Huy Hiệu Tiền Đồn (`item_delver_crest`)**.
+* **Tiền tệ đặc biệt:** **Huy Hiệu Cứu Viện (`item_delver_crest`)**. Dùng để chuộc lại vũ khí/công cụ đánh rơi khi gục ngã dưới mỏ tại bàn Lost & Found.
+
 
 | Loại Hợp Đồng | Yêu Cầu Mục Tiêu | Phần Thưởng Tiêu Biểu |
 | :--- | :--- | :--- |
@@ -89,22 +90,23 @@ flowchart TD
 
 ## 3. Hệ Thống Đóng Gói Cơm Hộp Dã Chiến (Expedition Bento) & Quy Chuẩn Độ Tươi
 
-### A. Phân Cấp Hộp Đựng Dã Chiến
-Để vận chuyển đồ ăn xuống mỏ sâu hoặc giao hàng cho các toán tuần tra xa xôi mà không bị nát hay giảm chất lượng:
-* **Hộp Gỗ Thông Thô (Tier 1):** Chế tạo từ *4 Gỗ mềm + 1 Dây bện*. Đựng cơm nắm, bánh mì khô, rau luộc. Giữ tươi 2 ngày.
-* **Hộp Thiếc Chống Gỉ (Tier 2):** Chế tạo từ *2 Thỏi Thiếc + 1 Đệm sáp*. Đựng súp đặc, thịt hầm, cá áp chảo. Chống va đập hầm mỏ, giữ nóng 3 ngày.
-* **Cặp Lồng Giữ Nhiệt Sơn Mài (Tier 3):** Chế tạo từ *1 Hộp Thiếc + 2 Len Cừu + 1 Dầu Trẩu*. Đựng đại tiệc 3 món cho khách quý tộc (Valen de Montfort) và toán thám hiểm sâu. Giữ tươi 5 ngày.
+### A. Phân Cấp Hộp Đựng Dã Chiến & Kéo Dài Độ Tươi (Freshness Extension)
+Để vận chuyển đồ ăn xuống mỏ sâu hoặc giao hàng cho các toán tuần tra xa xôi mà không bị nát hay giảm chất lượng, hộp Bento có công năng đặc biệt là **kéo dài thời gian Nóng Hổi (Freshness Bonus)**:
+* **Hộp Gỗ Thông Thô (Tier 1):** Chế tạo từ *4 Gỗ mềm + 1 Dây bện*. Đựng cơm nắm, bánh mì khô, rau luộc. **Kéo dài trạng thái Nóng Hổi trong 48 Giờ (2 ngày)**.
+* **Hộp Thiếc Chống Gỉ (Tier 2):** Chế tạo từ *2 Thỏi Thiếc + 1 Đệm sáp*. Đựng súp đặc, thịt hầm, cá áp chảo. Chống va đập hầm mỏ, **kéo dài trạng thái Nóng Hổi trong 72 Giờ (3 ngày)**.
+* **Cặp Lồng Giữ Nhiệt Sơn Mài (Tier 3):** Chế tạo từ *1 Hộp Thiếc + 2 Len Cừu + 1 Dầu Trẩu*. Đựng đại tiệc 3 món cho khách quý tộc (Valen de Montfort) và toán thám hiểm sâu. **Kéo dài trạng thái Nóng Hổi trong 120 Giờ (5 ngày)**.
 
 ### B. Quy Chuẩn Độ Tươi & Nóng Hổi (Freshness Bonus - Tuyệt Đối Không Thiu Thối)
 * **Quy tắc nhân văn & bối cảnh:** Trò chơi **không áp dụng cơ chế thức ăn thiu thối biến thành rác**. Trong bối cảnh hậu chiến gian khó, từng cọng rau củ khoai đều được trân trọng.
-* **Trạng thái Nóng Hổi (Fresh - Trong 24h từ lúc nấu):**
+* **Trạng thái Nóng Hổi (Fresh - Trong 24h nếu để ngoài, hoặc kéo dài theo cấp Hộp Bento):**
   * Bán tại quán The Hearth: Nhận tiền boa thêm **+20% tiền vàng**, tăng điểm Cozy.
   * Giao đơn bảng tin: Nhận thêm quà vặt của dân làng (vài củ hành, quả rừng dại, nắm muối khoáng).
   * Ăn khi chiến đấu mỏ: Nhận thêm buff phụ ngắn hạn (+5% Tốc chạy hoặc hồi 10 Stamina tức thì).
-* **Trạng thái Tiêu Chuẩn (Standard - Sau 24h hoặc qua ngày):**
+* **Trạng thái Tiêu Chuẩn (Standard - Sau khi hết thời gian giữ nhiệt của hộp hoặc sau 24h):**
   * Đồ ăn nguội đi thành đĩa thức ăn bình thường, **tự động gộp xếp chồng (Stack x99)** vào 1 ô túi đồ (không gây phân mảnh rương đồ).
   * Giữ nguyên 100% chỉ số buff chiến đấu (Công, Thủ, Tốc, Kháng nguyên tố) và bán đúng 100% giá niêm yết.
 * **Thực Phẩm Bảo Quản (Preserved Provisions):** Thịt xông khói, phô mai ủ hầm, lươn sấy khô, bánh quy hạt dẻ — bản chất khô ráo không bao giờ nguội, chuyên dùng dự trữ thám hiểm mỏ 150 tầng.
+
 
 ---
 

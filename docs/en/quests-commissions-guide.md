@@ -10,51 +10,51 @@ The **Help Wanted & Commission System** in *Rowan of Oakhaven* anchors the game'
 flowchart TD
     Player["🧑 Rowan (Player)"]
     
-    subgraph S1["1. Town Square Noticeboard"]
-        Board1["📋 Town Help Wanted Board<br/>Maeve, Clara, Sylvan, Cedric, Linnea"]
+    subgraph S1["1. The Porch Bulletin at The Hearth"]
+        Board1["📋 The Porch Help Wanted Board<br/>51 villagers' daily chores, Weekly Bento catering"]
     end
 
-    subgraph S2["2. Delvers' Lodge Outpost"]
-        Board2["⚔️ Delvers' Bounty Board<br/>Knight Marlo & Mine Foreman Bram"]
+    subgraph S2["2. Delvers' Lodge & Guild Outpost"]
+        Board2["⚔️ Delvers' Bounty Board<br/>Thorne, Valerie, Bram, Vael, Gomer<br/>+ Lost & Found Gear Recovery"]
     end
 
-    subgraph S3["3. The Hearth Eatery & Tavern"]
-        Board3["🍲 Weekly Hearth Catering Orders<br/>Garrick, Thorne, Valerie, Festivals"]
+    subgraph S3["3. Town Square Municipal Hall"]
+        Board3["🏛️ Town Restoration Board<br/>Mayor Oakwood, Civic Infrastructure Projects"]
     end
 
-    Player -->|Every Dawn at 06:00| Board1
-    Player -->|Prior to Mine Descent| Board2
-    Player -->|Every Monday Morning| Board3
+    Player -->|Monday & Thursday Dawn| Board1
+    Player -->|Prior to Cavern Descent| Board2
+    Player -->|Restoration Contributions| Board3
 
-    Board1 -->|Fulfill| R1["❤️ +100 NPC Friendship Points<br/>💰 Modest Living Gold<br/>🌟 Town Renown"]
-    Board2 -->|Fulfill| R2["🏅 Delver's Crest Insignias<br/>💰 Lucrative Combat Bounties<br/>⚔️ Delver Guild Ranking"]
-    Board3 -->|Fulfill| R3["💰 Massive Gold (1k - 4k)<br/>📜 Ancestral Secret Recipes<br/>🛋️ Tavern Furniture Blueprints"]
+    Board1 -->|Fulfill| R1["❤️ +100 NPC Friendship Points<br/>💰 Modest Living Gold<br/>🎁 Foraged Extras & Seeds"]
+    Board2 -->|Fulfill| R2["🏅 Delver Rescue Insignias<br/>💰 Lucrative Combat Bounties<br/>🛡️ Recover Dropped Weapons"]
+    Board3 -->|Fulfill| R3["🌟 Aqueduct, Sky-Tram, Central Rail Line<br/>📈 Valley-wide Prosperity"]
 ```
 
 ---
 
 ## 2. Noticeboard Breakdown
 
-### A. Town Help Wanted Board
-* **Location:** Town Square, flanked by Maeve's Town Hall and Pip's Mailbox Post.
-* **Refresh Schedule:** Dawn 06:00 daily (1 – 2 new postings generated).
-* **Expiration:** **2 Days** from bulletin posting.
-* **Core Function:** Grants **+100 Friendship Points** per completed quest, bypassing weekly gift limits (1/day, 2/week) and accelerating the 8-Heart milestone (3,200 points).
+### A. The Porch Help Wanted Board
+* **Location:** Directly outside the front porch of The Hearth Eatery & Tavern.
+* **Refresh Schedule:** Dawn 06:00 every Monday and Thursday (2 – 3 new bulletins).
+* **Expiration:** **2 – 3 Days** from bulletin posting.
+* **Core Function:** Grants **+100 Friendship Points** per completed quest, accelerating the 8-Heart milestone (3,200 points) without gift limits.
 
 | Category | Typical Requester | Example Objective | Rewards |
 | :--- | :--- | :--- | :--- |
-| **Seasonal Produce** | Maeve, Linnea | 3 Spring Carrots, 5 Wild Berries | 100 - 150g, **+100 Heart Pts** |
-| **Comfort Dishes** | Sylvan, Lyra | 1 Piping-hot Herbal Chicken Stew | 200 - 300g, **+100 Heart Pts** |
-| **Lost & Found** | Clara, Penny, Finn | Lost sketchbook, reading glasses, wooden top | 150 - 200g, **+100 Heart Pts** |
-| **Civic Repairs** | Cedric, Elora | 25 Oak Timber, 10 River Cobblestones | 250 - 350g, **+100 Heart Pts** |
+| **Seasonal Produce** | Elder Maeve, Linnea | 3 Spring Carrots, 5 Wild Berries | 100 - 150g, **+100 Heart Pts** |
+| **Comfort Dishes** | Aurelia, Sylvan | 1 Piping-hot Herbal Chicken Stew | 200 - 300g, **+100 Heart Pts** |
+| **Lost & Found** | Clara, Penny, Cora | Lost sketchbook, reading glasses, wooden top | 150 - 200g, **+100 Heart Pts** |
+| **Civic Repairs** | Bram, Cedric | 25 Oak Timber, 10 River Cobblestones | 250 - 350g, **+100 Heart Pts** |
 
 ---
 
-### B. Delvers' Lodge Bounty Board
-* **Location:** Outpost station preceding the 150-Floor Mine Elevator, overseen by Knight Marlo and Bram.
+### B. Delvers' Guild Bounty Board & Lost & Found Counter
+* **Location:** Outpost station preceding the 150-Floor Mine Elevator, overseen by Guildmaster Thorne and Coordinator Valerie.
 * **Refresh Schedule:** Dawn 06:00 daily (up to 3 active contracts concurrently).
 * **Expiration:** **3 Days** (or indefinite until target Boss/Monster is felled).
-* **Unique Currency:** **Delver's Crests (`item_delver_crest`)**.
+* **Unique Currency:** **Delver Rescue Insignias (`item_delver_crest`)**, used to redeem tools/weapons dropped in the deep mine at the Lost & Found counter.
 
 | Contract Type | Target Objectives | Typical Rewards |
 | :--- | :--- | :--- |
@@ -89,22 +89,23 @@ flowchart TD
 
 ## 3. Expedition Bento Packaging & The Freshness Bonus System
 
-### A. Bento Box Tiers
-To safely transport prepared meals into deep mine shafts or distant frontier checkpoints without crushing or quality loss:
-* **Tier 1 - Rough Pine Box:** Crafted with *4 Softwood + 1 Braided Twine*. Holds rice balls, dried hardtack, steamed greens. Retains freshness for 2 days.
-* **Tier 2 - Rustproof Tin Canister:** Crafted with *2 Tin Ingots + 1 Wax Seal*. Holds thick stews, pot roasts, pan-seared fish. Shock-resistant against mine hazards, retains heat for 3 days.
-* **Tier 3 - Lacquered Thermal Tiffin:** Crafted with *1 Tin Canister + 2 Sheep Wool + 1 Tung Oil*. Holds a complete 3-course banquet for aristocrats (such as Valen de Montfort) or deep-delve expeditions. Retains pristine warmth for 5 days.
+### A. Bento Box Tiers & Freshness Extension
+To safely transport prepared meals into deep mine shafts or distant frontier checkpoints without crushing or quality loss, Bento packing specifically **extends the duration of the Piping-Hot Freshness Bonus**:
+* **Tier 1 - Rough Pine Box:** Crafted with *4 Softwood + 1 Braided Twine*. Holds rice balls, dried hardtack, steamed greens. **Extends Freshness Bonus to 48 Hours (2 Days)**.
+* **Tier 2 - Rustproof Tin Canister:** Crafted with *2 Tin Ingots + 1 Wax Seal*. Holds thick stews, pot roasts, pan-seared fish. Shock-resistant against mine hazards, **extends Freshness Bonus to 72 Hours (3 Days)**.
+* **Tier 3 - Lacquered Thermal Tiffin:** Crafted with *1 Tin Canister + 2 Sheep Wool + 1 Tung Oil*. Holds a complete 3-course banquet for aristocrats (such as Valen de Montfort) or deep-delve expeditions. **Extends Freshness Bonus to 120 Hours (5 Days)**.
 
 ### B. The Freshness Bonus (Absolute Zero Food Spoilage)
 * **Grounded Post-War Principle:** The game **never implements food rot or spoilage into worthless trash**. In a post-war frontier where every grain counts, throwing away cooked meals is unthinkable.
-* **Piping-Hot / Fresh Status (Within 24 Hours of Cooking):**
+* **Piping-Hot / Fresh Status (Within 24 Hours unstored, or extended by Bento Box Tiers):**
   * Tavern Service: Patrons praise the hot meal, tipping **+20% bonus gold** and slightly boosting Tavern Cozy Rating.
   * Noticeboard Turn-in: Townsfolk include complimentary foraging extras (spare wild onions, foraging berries, mineral salt pinches).
   * Mine Delving: Grants an instantaneous micro-buff (+5% Movement Speed or +10 Stamina restore).
-* **Standard Status (After 24 Hours or Overnight):**
+* **Standard Status (After Bento insulation lapses or past 24 Hours):**
   * Meals cool into standard, hearty rations. **Automatically stacks up to x99** in a single inventory slot (zero inventory bloat).
   * Retains 100% of core combat buffs (ATK, DEF, Speed, Resistances) and sells for full base catalog price.
 * **Preserved Provisions:** Smoked ham, cellar-aged cheese, sun-dried marsh eels, scorched hazelnut cookies — dry foods that never cool or lose quality, designed specifically for long 150-floor delve prep.
+
 
 ---
 
