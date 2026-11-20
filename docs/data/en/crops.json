@@ -17,7 +17,7 @@
       "harvest_item_id": "item_wood_oak",
       "seed_price": 30,
       "sell_price": 25,
-      "profit_per_day": "~16 Gỗ + Nhựa",
+      "profit_per_day": "~16 Wood + Oak Resin (7 days)",
       "description": "The iconic ancient oak of Oakhaven valley. Sturdy hardwood canopy providing essential construction lumber.",
       "harvest_note": "Chop down for Oak Wood (12-16) + Firewood. Attach an Artisan Tapper to harvest Dark Oak Resin every 7 days.",
       "tags": [
@@ -43,7 +43,7 @@
       "harvest_item_id": "item_wood_pine",
       "seed_price": 30,
       "sell_price": 22,
-      "profit_per_day": "~16 Gỗ + Nhựa",
+      "profit_per_day": "~16 Wood + Pine Tar (5 days)",
       "description": "Evergreen conifer standing tall against alpine blizzards. Yields flexible timber and aromatic protective pitch.",
       "harvest_note": "Chop down for Pine Wood (12-16). Attach an Artisan Tapper to harvest Alpine Pine Tar every 5 days.",
       "tags": [
@@ -69,7 +69,7 @@
       "harvest_item_id": "item_wood_maple",
       "seed_price": 35,
       "sell_price": 35,
-      "profit_per_day": "~70 Vàng/nhựa",
+      "profit_per_day": "~14 Wood + Maple Syrup (9 days)",
       "description": "Magnificent maple whose foliage bursts into glowing crimson and amber in autumn. Source of prized tavern pancake syrup.",
       "harvest_note": "Chop down for Ember Maple Timber. Attach an Artisan Tapper to produce Amber Maple Syrup every 9 days.",
       "tags": [
@@ -95,7 +95,7 @@
       "harvest_item_id": "item_wood_birch",
       "seed_price": 30,
       "sell_price": 25,
-      "profit_per_day": "~30 Vàng/nhựa",
+      "profit_per_day": "~14 Wood + Birch Sap (6 days)",
       "description": "Slender silvery-barked tree that grows rapidly. Silky waterproof bark is harvested for crafting and scrolls.",
       "harvest_note": "Chop down for Silver Birch Timber and Bark Rolls. Tap to collect Pure Birch Sap every 6 days.",
       "tags": [
@@ -121,7 +121,7 @@
       "harvest_item_id": "item_willow_branch",
       "seed_price": 45,
       "sell_price": 20,
-      "profit_per_day": "~48 Vàng/nhựa",
+      "profit_per_day": "~18 Branches + Willow Sap (6 days)",
       "description": "Graceful weeping willow flanking Oakhaven's riverbanks. Flexible boughs weave sturdy baskets; bitter sap eases fever.",
       "harvest_note": "Harvest for flexible Willow Branches. Tap with an Artisan Tapper for Medicinal Willow Sap every 6 days.",
       "tags": [
@@ -147,7 +147,7 @@
       "harvest_item_id": "item_wood_ironwood",
       "seed_price": 150,
       "sell_price": 120,
-      "profit_per_day": "~95 Vàng/dầu",
+      "profit_per_day": "~12 Ironwood + Oil (10 days)",
       "description": "Legendary black timber tree with fibers denser than raw iron. Requires an Iron Axe or superior tool to chop down.",
       "harvest_note": "Requires Iron Axe+. Yields Abyssal Ironwood Timber. Tap to collect rust-preventing Ironwood Oil every 10 days.",
       "tags": [
@@ -170,7 +170,7 @@
       "harvest_item_id": "item_oakhaven_apple",
       "seed_price": 900,
       "sell_price": 28,
-      "profit_per_day": "28 Vàng/ngày",
+      "profit_per_day": "28 Gold/day (Autumn)",
       "description": "Famous heirloom orchard tree. Takes 28 days to mature from sapling with a 3x3 clear radius. Lives permanently without watering.",
       "harvest_note": "Bears 1 crisp apple every morning throughout Autumn (or year-round in Greenhouse). Quality ages with tree maturity.",
       "tags": [
@@ -193,7 +193,7 @@
       "harvest_item_id": "item_spark_lemon",
       "seed_price": 1000,
       "sell_price": 35,
-      "profit_per_day": "35 Vàng/ngày",
+      "profit_per_day": "35 Gold/day (Summer)",
       "description": "Vibrant citrus tree basking in intense summer sunlight. Yields tangy electrifying lemons that awaken the senses.",
       "harvest_note": "Requires 3x3 clear space. Produces 1 Spark Lemon daily in Summer. Core ingredient for chilled teas and savory marinades.",
       "tags": [
@@ -216,7 +216,7 @@
       "harvest_item_id": "item_frost_plum",
       "seed_price": 1000,
       "sell_price": 38,
-      "profit_per_day": "38 Vàng/ngày",
+      "profit_per_day": "38 Gold/day (Winter)",
       "description": "Miraculous orchard tree that blossoms and fruits through biting winter blizzards. Yields frosty violet plums with wine-red flesh.",
       "harvest_note": "Requires 3x3 clearance. Yields 1 Frost Plum daily throughout Winter. Grants temporary winter chill resistance.",
       "tags": [
@@ -239,7 +239,7 @@
       "harvest_item_id": "item_blossom_peach",
       "seed_price": 1100,
       "sell_price": 42,
-      "profit_per_day": "42 Vàng/ngày",
+      "profit_per_day": "42 Gold/day (Spring)",
       "description": "Fragrant pink-blossomed tree announcing Spring's arrival. Produces velvety sweet peaches bursting with floral nectar.",
       "harvest_note": "Requires 3x3 clear space. Bears 1 Blossom Peach every morning during Spring. Ideal for morning breakfast preserves.",
       "tags": [
@@ -262,7 +262,7 @@
       "harvest_item_id": "item_crimson_cherry",
       "seed_price": 950,
       "sell_price": 32,
-      "profit_per_day": "32 Vàng/ngày",
+      "profit_per_day": "32 Gold/day (Spring)",
       "description": "Radiant cherry tree with shimmering crimson fruit clusters. Spring blooms draw wild honeybees across the valley.",
       "harvest_note": "Requires 3x3 clearance. Yields 1 cluster of sweet cherries every Spring morning. Perfect for tarts and cordials.",
       "tags": [
@@ -285,7 +285,7 @@
       "harvest_item_id": "item_walnut",
       "seed_price": 1200,
       "sell_price": 35,
-      "profit_per_day": "35 Vàng/ngày",
+      "profit_per_day": "35 Gold/day (Autumn)",
       "description": "Spreading walnut tree yielding nutrient-dense, buttery nuts that sustain townsfolk through autumn and winter.",
       "harvest_note": "Requires 3x3 clearance. Drops hearty walnuts daily in Autumn. Ground into trail meal or roasted for high stamina.",
       "tags": [
@@ -308,7 +308,7 @@
       "harvest_item_id": "item_mist_pear",
       "seed_price": 1050,
       "sell_price": 30,
-      "profit_per_day": "30 Vàng/ngày",
+      "profit_per_day": "30 Gold/day (Autumn)",
       "description": "Golden pear tree that flourishes in the crisp misty mornings of late autumn. Yields refreshingly crisp fruit.",
       "harvest_note": "Requires 3x3 clearance. Bears 1 Misty Pear daily in Autumn. Poached in mulled red wine at the tavern.",
       "tags": [
@@ -331,7 +331,7 @@
       "harvest_item_id": "item_ember_orange",
       "seed_price": 1000,
       "sell_price": 32,
-      "profit_per_day": "32 Vàng/ngày",
+      "profit_per_day": "32 Gold/day (Summer)",
       "description": "Citrus tree laden with glowing amber-orange fruit. Soaks in summer heat to produce rich revitalizing juice.",
       "harvest_note": "Requires 3x3 clearance. Bears 1 Ember Orange daily in Summer. Squeezed fresh for travelers arriving at the inn.",
       "tags": [
@@ -356,7 +356,7 @@
       "harvest_item_id": "item_flour",
       "seed_price": 15,
       "sell_price": 30,
-      "profit_per_day": "3.75 Vàng/ngày",
+      "profit_per_day": "3.75 Gold/day",
       "description": "Hardy versatile grain spanning three seasons. Ground at the windmill into Fresh Flour for bakery recipes.",
       "harvest_note": "Single harvest. Mill at the Windmill to obtain Fresh Flour.",
       "tags": [
@@ -380,7 +380,7 @@
       "harvest_item_id": "item_ice_cabbage",
       "seed_price": 35,
       "sell_price": 55,
-      "profit_per_day": "3.33 Vàng/ngày",
+      "profit_per_day": "3.33 Gold/day",
       "description": "Crisp dense cabbage head that thrives in cool early spring mists, delivering refreshing crunch.",
       "harvest_note": "Single harvest. Excellent for light tavern broths and crisp slaws.",
       "tags": [
@@ -402,7 +402,7 @@
       "harvest_item_id": "item_spring_wildberry",
       "seed_price": 60,
       "sell_price": 35,
-      "profit_per_day": "9.33 Vàng/ngày",
+      "profit_per_day": "7.86 Gold/day (8 harvests/season)",
       "description": "Sweet-tart red berry bush that continues to fruit every 3 days throughout Spring.",
       "harvest_note": "Regrows every 3 days. Provides steady recurring profits all Spring.",
       "tags": [
@@ -425,7 +425,7 @@
       "harvest_item_id": "item_pea_pod",
       "seed_price": 60,
       "sell_price": 30,
-      "profit_per_day": "7.5 Vàng/ngày",
+      "profit_per_day": "5.36 Gold/day (7 harvests/season)",
       "description": "Climbing pea vine requiring a wood trellis. Bears plump emerald pods packed with tender sweet peas.",
       "harvest_note": "Requires trellis post (blocks player path). Regrows sweet pods every 3 days.",
       "tags": [
@@ -450,7 +450,7 @@
       "harvest_item_id": "la_tra_sen",
       "seed_price": 40,
       "sell_price": 25,
-      "profit_per_day": "5.0 Vàng/ngày",
+      "profit_per_day": "3.04 Gold/day (5 harvests/season)",
       "description": "Precious perennial tea bush soaked in dawn mist. Produces fragrant lotus-scented tea leaves.",
       "harvest_note": "Regrows every 4 days across Spring and Summer. Foundation of the tavern's herbal tea menu.",
       "tags": [
@@ -475,7 +475,7 @@
       "harvest_item_id": "item_sun_daisy",
       "seed_price": 20,
       "sell_price": 38,
-      "profit_per_day": "3.6 Vàng/ngày",
+      "profit_per_day": "3.60 Gold/day",
       "description": "Bright golden daisy petals that absorb radiant warmth. Brewed into calming tea and fine fabric dyes.",
       "harvest_note": "Single harvest. Key ingredient for Honey Chamomile Tea.",
       "tags": [
@@ -499,7 +499,7 @@
       "harvest_item_id": "item_sun_corn",
       "seed_price": 80,
       "sell_price": 45,
-      "profit_per_day": "9.5 Vàng/ngày",
+      "profit_per_day": "8.21 Gold/day (Summer & Autumn)",
       "description": "Towering corn stalks with sweet golden kernels. Highly profitable crop spanning Summer and Autumn.",
       "harvest_note": "Regrows fresh cobs every 4 days through Summer and Autumn without replanting.",
       "tags": [
@@ -523,7 +523,7 @@
       "harvest_item_id": "item_fire_tomato",
       "seed_price": 50,
       "sell_price": 24,
-      "profit_per_day": "4.5 Vàng/ngày",
+      "profit_per_day": "2.50 Gold/day (5 harvests/season)",
       "description": "Summer tomato vine bearing deep red savory fruits. Crucial base for savory stews and sauces.",
       "harvest_note": "Regrows clusters every 4 days after first harvest.",
       "tags": [
@@ -546,7 +546,7 @@
       "harvest_item_id": "item_magma_melon",
       "seed_price": 80,
       "sell_price": 180,
-      "profit_per_day": "8.33 Vàng/ngày",
+      "profit_per_day": "8.33 Gold/day",
       "description": "Giant melon with glowing red-amber flesh. Packed with refreshing sweetness and intense vitality.",
       "harvest_note": "Single harvest. 2% chance to merge into a Giant Crop when planted in a 3x3 grid.",
       "tags": [
@@ -569,7 +569,7 @@
       "harvest_item_id": "item_honey_cane",
       "seed_price": 30,
       "sell_price": 55,
-      "profit_per_day": "3.57 Vàng/ngày",
+      "profit_per_day": "3.57 Gold/day",
       "description": "Sweet purple sugar cane infused with wild honey flavor. Processed into raw sugar for bakery delicacies.",
       "harvest_note": "Single harvest. Process into Raw Sugar at the artisan station.",
       "tags": [
@@ -592,7 +592,7 @@
       "harvest_item_id": "item_shadow_carrot",
       "seed_price": 35,
       "sell_price": 65,
-      "profit_per_day": "5.0 Vàng/ngày",
+      "profit_per_day": "5.00 Gold/day",
       "description": "Dark purple carrot with luminous orange core. Sharpens nocturnal vision inside gloomy mine shafts.",
       "harvest_note": "Single harvest. Plantable in both Summer and Autumn.",
       "tags": [
@@ -615,7 +615,7 @@
       "harvest_item_id": "item_whisper_ginger",
       "seed_price": 45,
       "sell_price": 85,
-      "profit_per_day": "5.0 Vàng/ngày",
+      "profit_per_day": "5.00 Gold/day",
       "description": "Fiery spicy ginger root that brings comforting heat to cold-weather braises and broths.",
       "harvest_note": "Single harvest. Essential seasoning for tavern hearty beef stews.",
       "tags": [
@@ -638,7 +638,7 @@
       "harvest_item_id": "item_sunflower_seeds",
       "seed_price": 40,
       "sell_price": 50,
-      "profit_per_day": "4.5 Vàng/ngày",
+      "profit_per_day": "~6.25 Gold/day (includes seed drop)",
       "description": "Tall cheerful sunflower that drops 1-2 bonus seeds upon harvest for effortless sustained replanting.",
       "harvest_note": "Harvest drops bonus seeds. Viable throughout Summer and Autumn.",
       "tags": [
@@ -661,7 +661,7 @@
       "harvest_item_id": "item_sweet_pumpkin",
       "seed_price": 100,
       "sell_price": 260,
-      "profit_per_day": "12.3 Vàng/ngày",
+      "profit_per_day": "12.31 Gold/day",
       "description": "Massive honey-sweet pumpkin with dense golden flesh. High-value crop celebrating the autumn harvest.",
       "harvest_note": "Single harvest. 2% chance to become a Giant Pumpkin in 3x3 plots (axe fells 15-20 pumpkins).",
       "tags": [
@@ -684,7 +684,7 @@
       "harvest_item_id": "item_shadow_rye",
       "seed_price": 30,
       "sell_price": 60,
-      "profit_per_day": "6.0 Vàng/ngày",
+      "profit_per_day": "6.00 Gold/day",
       "description": "Fast-growing dark purple rye adapted to crisp autumn winds. Baked into artisanal rustic rye loaves.",
       "harvest_note": "Single harvest. Superfast 5-day growth cycle.",
       "tags": [
@@ -706,7 +706,7 @@
       "harvest_item_id": "item_night_grape",
       "seed_price": 80,
       "sell_price": 44,
-      "profit_per_day": "8.8 Vàng/ngày",
+      "profit_per_day": "8.14 Gold/day (7 harvests/season)",
       "description": "Moonlit purple grapevines trained onto sturdy trellises. Vintage fruit fermented into tavern reserve wines.",
       "harvest_note": "Requires trellis post. Regrows succulent clusters every 3 days in Autumn.",
       "tags": [
@@ -730,7 +730,7 @@
       "harvest_item_id": "item_moonlight_yam",
       "seed_price": 45,
       "sell_price": 95,
-      "profit_per_day": "5.55 Vàng/ngày",
+      "profit_per_day": "5.56 Gold/day",
       "description": "Silvery-skinned violet sweet potato. Hearth-roasted on open embers for irresistible tavern snacks.",
       "harvest_note": "Single harvest. Beloved comfort food gift for town residents.",
       "tags": [
@@ -742,7 +742,7 @@
     },
     {
       "id": "crop_star_lavender",
-      "name": "Star Lavender",
+      "name": "Misty Lavender",
       "seasons": [
         "autumn"
       ],
@@ -752,8 +752,8 @@
       "harvest_item_id": "oai_huong",
       "seed_price": 35,
       "sell_price": 75,
-      "profit_per_day": "5.71 Vàng/ngày",
-      "description": "Fragrant lavender stalks with soothing starlight aroma. Sewn into guestroom pillows and sleep elixirs.",
+      "profit_per_day": "5.71 Gold/day",
+      "description": "Fragrant purple lavender blooms from misty hillsides, dried for soothing herbal tea and refreshing inn pillows.",
       "harvest_note": "Single harvest. Boosts cleanliness and comfort ratings of tavern inn rooms.",
       "tags": [
         "field",
@@ -775,7 +775,7 @@
       "harvest_item_id": "item_frost_turnip",
       "seed_price": 25,
       "sell_price": 50,
-      "profit_per_day": "5.0 Vàng/ngày",
+      "profit_per_day": "5.00 Gold/day",
       "description": "Translucent icy turnip that thrives beneath thick winter blankets. Crisp, peppery, and hydrating.",
       "harvest_note": "Single harvest. Fastest winter cash crop (5-day growth cycle).",
       "tags": [
@@ -797,7 +797,7 @@
       "harvest_item_id": "item_frostmint",
       "seed_price": 30,
       "sell_price": 65,
-      "profit_per_day": "5.83 Vàng/ngày",
+      "profit_per_day": "5.83 Gold/day",
       "description": "Mint leaves rimmed with glacial frost. Refreshing menthol aroma that revitalizes mind and body.",
       "harvest_note": "Single harvest. Brewed into steam-inhalation remedies for winter colds.",
       "tags": [
@@ -819,7 +819,7 @@
       "harvest_item_id": "item_frost_potato",
       "seed_price": 45,
       "sell_price": 90,
-      "profit_per_day": "6.43 Vàng/ngày",
+      "profit_per_day": "~8.04 Gold/day (includes 25% extra yield)",
       "description": "Hearty starchy potato dug from frozen soil. 25% chance to yield an extra potato upon harvest.",
       "harvest_note": "Single harvest. Often yields multiple tubers per harvest.",
       "tags": [
@@ -841,7 +841,7 @@
       "harvest_item_id": "item_frost_beet",
       "seed_price": 40,
       "sell_price": 80,
-      "profit_per_day": "6.67 Vàng/ngày",
+      "profit_per_day": "6.67 Gold/day",
       "description": "Glistening ruby beet concentrating rich sugars in subzero loam. Makes deep red nourishing borscht.",
       "harvest_note": "Single harvest. Natural deep red dye for bakery icing and tavern stews.",
       "tags": [
@@ -863,7 +863,7 @@
       "harvest_item_id": "item_lichen_root",
       "seed_price": 55,
       "sell_price": 120,
-      "profit_per_day": "8.12 Vàng/ngày",
+      "profit_per_day": "8.12 Gold/day",
       "description": "Ancient glacial lichen root harvested beneath hard ice sheets. Prized medicinal herb for resilience draughts.",
       "harvest_note": "Single harvest. Fetches premium prices from town apothecaries.",
       "tags": [
@@ -886,7 +886,7 @@
       "harvest_item_id": "item_frost_lotus",
       "seed_price": 120,
       "sell_price": 320,
-      "profit_per_day": "16.6 Vàng/ngày",
+      "profit_per_day": "16.67 Gold/day",
       "description": "Crystalline lotus blooming atop thin frozen marsh waters. Legendary winter botanic treasure.",
       "harvest_note": "Single harvest. Must be planted near water tiles. Highest winter farming profit.",
       "tags": [
@@ -911,7 +911,7 @@
       "harvest_item_id": "item_sopophorous_bean",
       "seed_price": 90,
       "sell_price": 50,
-      "profit_per_day": "10.5 Vàng/ngày",
+      "profit_per_day": "13.81 Gold/day (Spring, Summer & Autumn)",
       "description": "Mystical silver-podded bean vine yielding luminous seeds that banish weariness through the night.",
       "harvest_note": "Regrows every 3 days across Spring, Summer, and Autumn. Key alchemy ingredient.",
       "tags": [
@@ -937,7 +937,7 @@
       "harvest_item_id": "item_mandrake",
       "seed_price": 100,
       "sell_price": 280,
-      "profit_per_day": "12.8 Vàng/ngày",
+      "profit_per_day": "12.86 Gold/day",
       "description": "Bizarre anthropomorphic root murmuring beneath damp loam. Concentrates primal restorative essence.",
       "harvest_note": "Single harvest. Thrives in both Autumn and harsh Winter soil.",
       "tags": [
@@ -964,7 +964,7 @@
       "harvest_item_id": "item_wild_mushroom",
       "seed_price": 180,
       "sell_price": 45,
-      "profit_per_day": "11.25 Vàng/ngày",
+      "profit_per_day": "11.25 Gold/day (Year-round production)",
       "description": "Shaded timber log inoculated with mushroom spores. Produces fresh woodland mushrooms year-round without watering.",
       "harvest_note": "Regrows mushrooms every 4 days all four seasons. Chance for Lumina Shrooms if placed in caves.",
       "tags": [

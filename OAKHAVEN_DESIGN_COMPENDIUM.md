@@ -169,24 +169,81 @@ Thế giới game mở rộng dựa trên **Khôi Phục Đại Công Trình Th�
 
 ---
 
-## 7. Nông Trại 32 Cây Trồng & Tự Động Hóa
+## 7. Nông Trại 41 Loài Thực Vật Canh Tác (27 Hoa Màu + 14 Cây Gỗ) & Tự Động Hóa
 
-### 7.1. Phân Bổ 32 Cây Trồng Theo Mùa
-- **Mùa Xuân (8):** Cải thìa (4 ngày), Khoai tây (6 ngày, tỉ lệ x2), Dâu tuyết (8 ngày, mọc lại sau 4 ngày), Hành hoa (4 ngày), Tỏi dại (4 ngày), Đậu hà lan (10 ngày, mọc giàn), Bắp cải sớm (9 ngày), Trà xanh búp non (12 ngày, hái định kỳ).
-- **Mùa Hạ (8):** Ngô ngọt (14 ngày, xuyên 2 mùa Hạ-Thu), Cà chua mọng (11 ngày, mọc lại 4 ngày), Ớt lửa (5 ngày, mọc lại 3 ngày), Dưa lưới tinh vân (12 ngày), Cà tím (5 ngày), Lúa miến hoàng kim (8 ngày, xay làm gạo/bột), Mía đường (7 ngày, ép mật), Việt quất (13 ngày, mọc lại 4 ngày, hái 3 quả/lần).
-- **Mùa Thu (8):** Lúa mì vàng (4 ngày), Bí đỏ khổng lồ (14 ngày), Khoai môn tro trấu (10 ngày), Nấm sao tím (7 ngày, cần che mát), Củ dền đỏ (6 ngày), Nho đêm (10 ngày, mọc giàn), Đậu đen (8 ngày), Hạt hướng dương (8 ngày).
-- **Mùa Đông (4):** Củ cải mùa đông (6 ngày), Khoai tuyết (7 ngày), Rễ địa y lạnh (8 ngày), Hoa tuyết liên (12 ngày).
-- **Cây Lâu Năm (4):** Cây Táo Sồi (Thu), Cây Chanh Vàng (Hạ), Bụi Dâu Rừng (Xuân), Bụi Ớt Ma Thuật (Quanh năm trong nhà kính).
+### 7.1. Phân Bổ 27 Hoa Màu Theo Vụ (Seasonal Field Crops)
+Chu kỳ canh tác: Cuốc đất $\rightarrow$ Gieo hạt $\rightarrow$ Tưới nước mỗi sáng $\rightarrow$ Thu hoạch. Cây không được tưới sẽ ngừng lớn nhưng không bị khô héo.
 
-### 7.2. Tự Động Hóa Nông Trại
-- **Vòi Phun Tưới Tự Động (Sprinklers):**
-  - *Vòi Đồng:* Tưới 4 ô chữ thập lúc 6:00 AM mỗi ngày.
-  - *Vòi Sắt:* Tưới 8 ô xung quanh (khung 3x3).
-  - *Vòi Bụi Sao:* Tưới 24 ô xung quanh (khung 5x5).
-- **Bù Nhìn Đuổi Chim (Scarecrows):**
-  - Bù nhìn rơm: Bảo vệ bán kính 8 ô xung quanh khỏi chim ăn hạt.
-  - Bù nhìn ma thuật: Bảo vệ toàn nông trại và tự gom nông sản rụng.
-- **Nhà Tá Điền Phụ (Farmhands):** Thuê dân làng rảnh việc tự động gặt nông sản vào thùng xuất xưởng.
+1. **Mùa Xuân (7 cây):**
+   - **Lúa Mì Bạc (`crop_silver_wheat` - 4 ngày):** Giá hạt 15g, bán 30g (**3.75 Vàng/ngày**). Xay bột mì tươi làm bánh mì dã chiến. Trồng được cả Xuân, Hạ, Thu.
+   - **Bắp Cải Băng (`crop_ice_cabbage` - 6 ngày):** Giá hạt 35g, bán 55g (**3.33 Vàng/ngày**). Lá giòn ngọt mát; nấu súp thanh vị và muối chua dự trữ đông.
+   - **Dâu Rừng Mùa Xuân (`crop_spring_wildberry` - 7 ngày, tái sinh 3 ngày):** Giá hạt 60g, bán 35g (**7.86 Vàng/ngày**, 8 đợt/vụ). Quả mọng đỏ ngọt thanh; làm mứt và bánh nướng.
+   - **Đậu Hà Lan Giàn Leo (`crop_pea_trellis` - 10 ngày, tái sinh 3 ngày):** Giá hạt 60g, bán 30g (**5.36 Vàng/ngày**, 7 đợt/vụ). Dây leo cọc giàn (không đi xuyên qua được); hạt ngọt bùi cho món cơm rang.
+   - **Búp Trà Sen Oakhaven (`crop_sen_tea` - 12 ngày, tái sinh 4 ngày):** Giá hạt 40g, bán 25g (**3.04 Vàng/ngày**, 5 đợt/mùa). Sprout suốt Xuân & Hạ; đọt non xao khô pha trà an thần phục hồi Stamina.
+   - **Hoa Cúc Mặt Trời (`crop_sun_daisy` - 5 ngày):** Giá hạt 20g, bán 38g (**3.60 Vàng/ngày**). Hãm trà cúc mật ong hạ hỏa và làm thuốc nhuộm vải rèm.
+   - **Đậu Thao Thức Cổ Sinh (`crop_sopophorous_bean` - 11 ngày, tái sinh 3 ngày):** Giá hạt 90g, bán 50g (**13.81 Vàng/ngày**, xuyên 3 mùa Xuân-Hạ-Thu, 25 đợt). Tinh dầu chống ngủ gục khi đi mỏ đêm.
+
+2. **Mùa Hạ (7 cây):**
+   - **Bắp Ngô Ánh Dương (`crop_sun_corn` - 12 ngày, tái sinh 4 ngày):** Giá hạt 80g, bán 45g (**8.21 Vàng/ngày**, xuyên 2 mùa Hạ-Thu, 12 đợt). Bắp luộc bơ tỏi, nấu súp ngô kem dã chiến.
+   - **Cà Chua Lửa Mọng Nước (`crop_fire_tomato` - 10 ngày, tái sinh 4 ngày):** Giá hạt 50g, bán 24g (**2.50 Vàng/ngày**, 5 đợt/vụ). Xào làm sốt cà chua thịt băm, súp hải sản chua cay.
+   - **Dưa Hấu Dung Nham (`crop_magma_melon` - 12 ngày):** Giá hạt 80g, bán 180g (**8.33 Vàng/ngày**). Ruột đỏ ấm nồng; có 2% cơ hội hợp nhất thành Dưa Hấu Khổng Lồ khi trồng cụm $3\times3$.
+   - **Mía Mật Ong Hổ Phách (`crop_honey_cane` - 7 ngày):** Giá hạt 30g, bán 55g (**3.57 Vàng/ngày**). Ép lấy Đường Mía Thô tinh khiết làm nguyên liệu nướng bánh ngọt.
+   - **Hắc Cà Rốt Mắt Mèo (`crop_shadow_carrot` - 6 ngày):** Giá hạt 35g, bán 65g (**5.00 Vàng/ngày**). Vỏ tím ruột cam dạ quang; tăng thị lực ban đêm hầm mỏ. Trồng cả Hè và Thu.
+   - **Hỏa Khương Rừng Thầm Thì (`crop_whisper_ginger` - 8 ngày):** Giá hạt 45g, bán 85g (**5.00 Vàng/ngày**). Gừng cay nồng đậm vị; khử tanh cá nướng bờ suối và nấu canh gừng ấm dạ dày.
+   - **Hoa Hướng Dương Vàng (`crop_sunflower` - 8 ngày):** Giá hạt 40g, bán 50g (**~6.25 Vàng/ngày** tính cả hạt). Khi gặt rơi thêm 1-2 Túi Hạt giống miễn phí (tiết kiệm 40-80g hạt).
+
+3. **Mùa Thu (6 cây):**
+   - **Bí Ngô Mật Khổng Lồ (`crop_sweet_pumpkin` - 13 ngày):** Giá hạt 100g, bán 260g (**12.31 Vàng/ngày**). Vua kinh tế mùa thu; nấu súp bí đỏ hạt sen ấm; có cơ hội hóa Bí Ngô Khổng Lồ $3\times3$.
+   - **Hắc Mạch Đêm Rừng (`crop_shadow_rye` - 5 ngày):** Giá hạt 30g, bán 60g (**6.00 Vàng/ngày**). Ngũ cốc lớn nhanh; xay bột nướng bánh mì lúa mạch đen dã chiến cho thợ mỏ.
+   - **Nho Đêm Giàn Leo (`crop_night_grape` - 10 ngày, tái sinh 3 ngày):** Giá hạt 80g, bán 44g (**8.14 Vàng/ngày**, 7 đợt/vụ). Dây leo cọc giàn; ủ men thùng sồi thành Rượu Vang Đêm Oakhaven.
+   - **Khoai Lang Nguyệt Quang (`crop_moonlight_yam` - 9 ngày):** Giá hạt 45g, bán 95g (**5.56 Vàng/ngày**). Vỏ ánh bạc ruột tím; nướng tro bếp lùi than hồng phục vụ ca tối quán The Hearth.
+   - **Oải Hương Đồi Sương (`crop_star_lavender` - 7 ngày):** Giá hạt 35g, bán 75g (**5.71 Vàng/ngày**). Hoa tím ngát hương triền đồi; sấy khô lót gối phòng trọ lầu 2 và hãm trà an thần.
+   - **Củ Mandrake Nhân Sâm (`crop_mandrake` - 14 ngày):** Giá hạt 100g, bán 280g (**12.86 Vàng/ngày**). Trồng cả Thu và Đông; hầm canh gà sâm tăng tối đa kháng cự và sinh mệnh.
+
+4. **Mùa Đông (6 cây):**
+   - **Bạch Ngọc Củ Cải (`crop_frost_turnip` - 5 ngày):** Giá hạt 25g, bán 50g (**5.00 Vàng/ngày**). Củ cải trắng muốt giòn tan lớn nhanh trong tuyết; hầm canh xương ấm ngày rét buốt.
+   - **Bạc Hà Băng Giá (`crop_frostmint` - 6 ngày):** Giá hạt 30g, bán 65g (**5.83 Vàng/ngày**). Viền tinh thể băng; pha trà giải cảm mùa đông và chế kẹo the mát cho lữ khách.
+   - **Khoai Tây Tuyết Núi Cao (`crop_frost_potato` - 7 ngày):** Giá hạt 45g, bán 90g (**~8.04 Vàng/ngày** kèm 25% củ phụ). Nghiền tỏi bơ cho đĩa bít-tết thợ rèn Boris.
+   - **Củ Dền Băng Ruby (`crop_frost_beet` - 6 ngày):** Giá hạt 40g, bán 80g (**6.67 Vàng/ngày**). Tạo màu đỏ thắm cho súp borscht và bánh nướng lễ hội.
+   - **Rễ Địa Y Băng Giá (`crop_lichen_root` - 8 ngày):** Giá hạt 55g, bán 120g (**8.12 Vàng/ngày**). Rễ cổ sinh bám kẽ đá; nấu cao thảo dược bồi bổ thể lực cho thương binh.
+   - **Sen Băng Tuyết Ngàn Năm (`crop_frost_lotus` - 12 ngày):** Giá hạt 120g, bán 320g (**16.67 Vàng/ngày**). Đóa sen pha lê trên mặt hồ đóng băng mỏng; kỷ lục doanh thu mùa đông.
+
+5. **Canh Tác 4 Mùa Đặc Thù (1 mô hình):**
+   - **Khúc Gỗ Cấy Nấm Rừng (`crop_mushroom_log`):** Chế tác 1 lần (180g: Gỗ Mục + Meo Nấm). Cho nấm hương tự nhiên mỗi 4 ngày quanh năm 4 mùa mà không cần tưới nước (**11.25 Vàng/ngày**, 28 đợt/năm = 1,260 Vàng doanh thu ròng). 10% đột biến ra Nấm Huỳnh Quang Mỏ Sâu trong hang tối ẩm.
+
+### 7.2. Danh Mục 14 Cây Thân Gỗ & Vườn Cây Ăn Quả (Timber & Orchard Trees)
+
+1. **6 Loài Cây Lâm Nghiệp Lấy Gỗ & Trích Nhựa (Silviculture Trees):**
+   - Phát triển từ hạt con trong 20–30 ngày trên mọi ô đất trống, không cần tưới nước:
+   - **Cây Sồi Oakhaven (`tree_oak` - 24d):** 12–16 Gỗ Sồi Già + Củi Khô. Gắn bình trích nhựa thu **Nhựa Sồi Đen Thơm** mỗi 7 ngày (thùng ủ men, sửa Cầu Đá).
+   - **Cây Thông Dẻo Tuyết Sơn (`tree_pine` - 22d):** 12–16 Gỗ Thông Dẻo. Gắn bình trích nhựa thu **Hắc Nhựa Thông Dẻo** mỗi 5 ngày (chống thấm ghe thuyền, đuốc hầm mỏ).
+   - **Cây Phong Hoàng Kim (`tree_maple` - 24d):** 10–14 Gỗ Phong Vân Hồng. Gắn bình trích nhựa thu **Siro Phong Hổ Phách** mỗi 9 ngày (bánh kếp quán trọ, bàn ăn VIP).
+   - **Cây Bạch Dương Trắng (`tree_birch` - 20d):** 10–14 Gỗ Bạch Dương + Vỏ Cuộn. Trích **Nước Nhựa Bạch Dương** mỗi 6 ngày (đóng rương chứa đồ).
+   - **Cây Liễu Gai Thủy Ngạn (`tree_willow` - 22d):** 14–18 Cành Liễu Gai dẻo dai. Trích **Nhựa Liễu Dược Liệu** mỗi 6 ngày (giỏ bẫy cá, thuốc hạ sốt).
+   - **Cây Thiết Mộc Hắc Ám (`tree_ironwood` - 30d):** Yêu cầu Rìu Sắt trở lên (16 nhát). Thu 8–12 Gỗ Thiết Mộc. Trích **Dầu Thiết Mộc Chống Gỉ** mỗi 10 ngày (gia cố dầm mỏ Tầng Sâu).
+
+2. **8 Loài Cây Ăn Quả Lâu Năm (Perennial Fruit Orchards - Không gian $3\times3$):**
+   - Cần 28 ngày lớn từ cây con, 8 ô xung quanh phải hoàn toàn thông thoáng. Cho quả mỗi ngày trong mùa tương ứng (28 quả/vụ):
+   - **Cây Táo Sồi Mật (`fruit_apple`):** Mùa Thu — Táo đỏ giòn ngọt (**28 Vàng/ngày**); nướng bánh pie và ủ rượu táo.
+   - **Cây Chanh Sét Vàng (`fruit_lemon`):** Mùa Hạ — Quả chua thanh thơm ngát (**35 Vàng/ngày**); pha nước chanh dã chiến và sốt cá.
+   - **Cây Mận Băng Tuyết (`fruit_plum`):** Mùa Đông — Quả tím giòn ngọt chịu rét (**38 Vàng/ngày**); ủ rượu mận hâm nóng mùa đông.
+   - **Cây Đào Anh Thảo (`fruit_peach`):** Mùa Xuân — Quả mọng thịt hồng mềm ngọt (**42 Vàng/ngày**); làm bánh mousse đào tráng miệng.
+   - **Cây Anh Đào Đỏ Rực (`fruit_cherry`):** Mùa Xuân — Quả đỏ tươi mọng nước (**32 Vàng/ngày**); làm mứt anh đào và bánh tart.
+   - **Cây Quả Óc Chó Rừng (`fruit_walnut`):** Mùa Thu — Hạt bùi béo ngậy (**35 Vàng/ngày**); làm bánh quy dinh dưỡng cho thợ mỏ.
+   - **Cây Lê Sương Muối (`fruit_pear`):** Mùa Thu — Lê giòn ngọt đượm sương (**30 Vàng/ngày**); hầm rượu vang lửa than làm dịu cơn ho khan buốt giá.
+   - **Cây Cam Lửa Oakhaven (`fruit_orange`):** Mùa Hạ — Cam mọng nước giàu vitamin (**32 Vàng/ngày**); ép nước cam tươi giải nhiệt.
+
+### 7.3. Tự Động Hóa Nông Trại & Thổ Nhưỡng
+- **Vòi Phun Tưới Tự Động (Sprinklers):** Tự động tưới đất lúc 06:00 AM mỗi sáng:
+  - *Vòi Đồng:* Tưới 4 ô chữ thập liền kề (1 Thỏi Đồng + 1 Quặng Sắt).
+  - *Vòi Sắt:* Tưới 8 ô xung quanh khung $3\times3$ (1 Thỏi Sắt + 1 Thỏi Đồng).
+  - *Vòi Hư Không (Void Sprinkler):* Tưới 24 ô xung quanh khung $5\times5$ (1 Thỏi Void + 1 Thạch Anh Tím).
+- **Bù Nhìn Đuổi Chim (Scarecrows):** Bảo vệ bán kính 8 ô xung quanh khỏi chim rừng mổ hạt giống.
+- **Phân Bón Tự Nhiên:**
+  - *Tro Bếp Oakhaven (`item_wood_ash`):* Lấy từ tro lò than bếp, rút ngắn 15% thời gian sinh trưởng.
+  - *Bột Xương Hang Mỏ (`item_bone_meal`):* Nghiền từ xương quái vật mỏ, tăng 30% tỷ lệ nông sản Bạc/Vàng.
+  - *Mùn Rêu Giữ Ẩm (`item_retaining_moss`):* Giúp đất có 50% cơ hội giữ ẩm qua đêm, không cần tưới lại hôm sau.
+- **Nhà Kính Cổ Đại (Ancient Greenhouse):** Sau khi phục hồi, cho phép trồng toàn bộ 27 hoa màu và 8 cây ăn quả quanh năm bất chấp bão tuyết mùa đông.
 
 ---
 

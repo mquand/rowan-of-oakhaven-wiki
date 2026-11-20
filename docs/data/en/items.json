@@ -60,8 +60,8 @@
     },
     {
       "id": "seed_star_lavender",
-      "name": "Starlight Lavender Seeds",
-      "description": "Lavender flowers that release a soothing fragrance under starry skies; renowned for restful properties.",
+      "name": "Misty Lavender Seeds",
+      "description": "Lavender seeds acclimated to misty hillside soil, yielding fragrant purple stalks for relaxing guestrooms and herbal teas.",
       "category": "seed",
       "tags": [
         "farming",
@@ -650,7 +650,7 @@
     {
       "id": "item_pastry_crystal_tart",
       "name": "Starlight Crystal Tart",
-      "description": "Grand royal dessert baked with premium flour and shimmering amethyst crystal jelly, dusted with sweet sparkling stardust.",
+      "description": "Crispy tart baked from premium flour and shimmering crystal fruit jam, topped with fine crystalline sugar crunch.",
       "category": "bakery",
       "rarity": "rare",
       "buy_price": null,
@@ -839,7 +839,7 @@
     {
       "id": "stone_warpstone",
       "name": "Corrupted Warpstone",
-      "description": "An unstable shard poisoned by fallen stardust, venting violet vapors that mutate underground fauna and destabilize minerals.",
+      "description": "Corrupted stone radiating deep abyss miasma, mutating surrounding rock veins and repelling common insects.",
       "category": "mineral",
       "tags": [
         "mining",
@@ -2026,7 +2026,7 @@
     {
       "id": "item_craft_blast_powder",
       "name": "Miner's Blast Powder",
-      "description": "Concentrated explosive mineral dust packet that shatters stubborn boulders and compact vein clusters instantly.",
+      "description": "Mining explosive pack mixed with powdered coal and brimstone, shattering boulders and hard ore veins instantly.",
       "category": "crafted",
       "rarity": "uncommon",
       "buy_price": null,

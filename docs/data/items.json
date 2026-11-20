@@ -60,8 +60,8 @@
     },
     {
       "id": "seed_star_lavender",
-      "name": "Hạt Oải Hương Sao",
-      "description": "Hoa oải hương tỏa hương thơm ngát dưới ánh sao, có công dụng an thần.",
+      "name": "Hạt Oải Hương Đồi Sương",
+      "description": "Hạt giống oải hương ưa sương lạnh triền đồi, đơm hoa tím thơm ngát dùng xông phòng thư giãn và ru giấc ngủ khách trọ.",
       "category": "seed",
       "tags": [
         "farming",
@@ -650,7 +650,7 @@
     {
       "id": "item_pastry_crystal_tart",
       "name": "Bánh Tart Pha Lê Sao",
-      "description": "Kiệt tác tráng miệng hoàng triều nướng từ bột mì thượng hạng và thạch anh tím óng ả, phủ bụi sao li ti giòn tan như kẹo đường ma thuật.",
+      "description": "Bánh tart nướng từ bột mì thượng hạng và mứt thạch quả óng ả, phủ lớp đường phèn hạt ngọc giòn tan.",
       "category": "bakery",
       "rarity": "rare",
       "buy_price": null,
@@ -839,7 +839,7 @@
     {
       "id": "stone_warpstone",
       "name": "Thạch Biến Dị Hắc Hóa",
-      "description": "Khối đá nhiễm bụi sao hắc ám rỉ khói độc tím thẫm, làm đột biến sinh vật và biến đổi cấu trúc khoáng vật ngầm.",
+      "description": "Khối đá nhiễm chướng khí hắc ám vực thẳm rỉ khói tím thẫm, làm biến đổi cấu trúc khoáng vật và xua đuổi côn trùng thường.",
       "category": "mineral",
       "tags": [
         "mining",
@@ -2026,7 +2026,7 @@
     {
       "id": "item_craft_blast_powder",
       "name": "Bộc Phá Thợ Mỏ",
-      "description": "Gói thuốc nổ khoáng thạch trộn bột sao, nổ phá tan tảng đá lớn và quặng cứng trong chớp mắt.",
+      "description": "Gói thuốc nổ khoáng thạch trộn bột than đá và diêm sinh, nổ phá tan tảng đá lớn và quặng cứng trong chớp mắt.",
       "category": "crafted",
       "rarity": "uncommon",
       "buy_price": null,

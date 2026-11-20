@@ -1,109 +1,136 @@
 ---
 title: "Four-Season Crops & Farm Automation"
-status: draft
+status: public
 audience: public
-updated: 2026-11-13
-tags: [farming, crops, seasons, automation, bakery, tea]
+updated: 2026-11-20
+tags: [farming, crops, trees, seasons, automation, eatery]
 spoiler: false
 ---
 
 # 🌾 Four-Season Crops & Farm Automation Compendium
 
-The farmstead of Oakhaven Valley is not merely where Rowan toils for gold—it is the beating heart supplying fresh botanicals to the Oakhaven Bakery & Cafe. Unlike mundane farming sims, agriculture in Oakhaven operates across strict seasonal cycles, integrated with **heartwarming community employment and magical irrigation systems** that free up your schedule for deep-mine expeditions and evening teahouse stories.
+The farmstead of Oakhaven Valley is the essential supply line for The Hearth Eatery & Tavern kitchen, providing fresh sustenance for a post-war community in recovery. The agricultural system features **41 canonical plant species**, strictly categorized into:
+- **27 Seasonal Field Crops**: Tilled and watered daily on plowed soil, featuring single-harvest staples, wooden trellis vines, and multi-harvest regrowable perennials.
+- **14 Perennial Trees & Orchards**: 6 massive silviculture timber species for lumber & tapper resin + 8 fruit tree varieties adhering to a strict $3\times3$ clear-space rule for permanent daily yields.
 
 ---
 
-## 1. Seasonal Cycles & Soil Management
+## 1. Soil Management, Water Systems & Automation
 
-Each year in Oakhaven consists of **4 seasons (Spring, Summer, Autumn, Winter)**, spanning **28 days each**:
+### Basic Cultivation Loop
+1. **Soil Preparation:** Till soil plots using the Pickaxe/Hoe (`is_tilled = true`).
+2. **Sowing Seeds:** Plant seeds purchased from Maeve's Nursery or harvested from wild groves.
+3. **Daily Irrigation:** Water every morning via Watering Can or automated sprinklers. Crops left unwatered halt growth for that day without withering.
+4. **Harvesting:** Harvest by hand, or chop giant crop clusters with an axe.
 
-- **Seasonal Rotation:** Most crops strictly flourish in their designated season. On the dawn of a new season, out-of-season plants wither away (except perennial staples like Silver Wheat or Star Lavender).
-- **Farming Loop:** Till soil ($-2$ Stamina) $\rightarrow$ Plant seed $\rightarrow$ Water each morning ($-1$ Stamina/tile) $\rightarrow$ Harvest ($-1$ Stamina).
-- **Windmill Milling:** Bring $1$ bundle of wheat or dark rye to the windmill behind the teahouse; in just $5$ seconds, mill out $2$ sacks of fresh baking flour.
+### Automated Sprinkler Irrigation Systems
+Sprinklers automatically water surrounding crops at **06:00 AM** daily, freeing up Stamina and hours for deep dungeon delves:
+- **Copper Sprinkler:** Waters 4 adjacent cross tiles (North, South, East, West). Forged from 1 Copper Bar + 1 Iron Ore.
+- **Iron Sprinkler:** Waters 8 surrounding tiles ($3\times3$ grid). Forged from 1 Iron Bar + 1 Copper Bar.
+- **Void Sprinkler:** Waters 24 surrounding tiles ($5\times5$ area minus center). Forged from 1 Void Bar (Deep Mine Floors 141+) + 1 Amethyst Shard.
 
-> [!TIP]
-> **Arcane Greenhouse:** Once repaired alongside Boris the blacksmith, socketing a **Fire Ruby** and **Luminous Sunstone** allows Rowan to cultivate any crop year-round, unhindered by winter blizzards!
-
----
-
-## 2. Twenty Signature Crops Across Four Seasons
-
-Each season features 5 characteristic crops, satisfying the 4 culinary needs: flours for bread, sweet tubers for fillings, calming tea herbs, and fragrant pastry blooms.
-
-### 🌸 Spring (Budding & Purification)
-| Crop | Growth | Regrow? | Culinary Application |
-| :--- | :---: | :---: | :--- |
-| **Snow Lotus Tea** *(Búp Trà Sen)* | 4 days | **Yes (2d)** | Base lotus tea leaves for soothing grief and calming weary minds. |
-| **Silver Wheat** *(Lúa Mì Bạc)* | 4 days | No | Milled into Fresh Flour for fluffy brioche and flaky pie crusts. |
-| **Sun Daisy** *(Hoa Cúc Mặt Trời)* | 3 days | No | Brewed into **Solar Sun Tea**: grants $+25\%$ tilling and mining speed. |
-| **Spring Wildberry** *(Dâu Rừng)* | 5 days | **Yes (3d)** | Simmered into fragrant preserves for buttery morning scones. |
-| **Shadow Cat-Eye Carrot** *(Hắc Cà Rốt)* | 4 days | No | Spiced carrot cake; grants Cat Eye night vision in dark mines. |
+### Crop Protection & Natural Fertilizers
+- **Straw Scarecrow:** Shields an 8-tile radius against forest crows stealing planted seeds.
+- **Oakhaven Wood Ash (`item_wood_ash`):** Recovered from kitchen hearth embers; speeds crop maturation by 15%.
+- **Dungeon Bone Meal (`item_bone_meal`):** Ground beast bones from mine depths; increases Silver/Gold harvest quality rates by 30%.
+- **Retaining Moss Mulch (`item_retaining_moss`):** Blended wetland moss giving a 50% chance for soil to remain watered overnight.
 
 ---
 
-### ☀️ Summer (Blazing Sun & Chilled Fruits)
-| Crop | Growth | Regrow? | Culinary Application |
-| :--- | :---: | :---: | :--- |
-| **Sun-Corn** *(Bắp Ngô Ánh Dương)* | 6 days | **Yes (3d)** | Pops into crunchy **Cosmic Popcorn** for outdoor evening gatherings. |
-| **Lumiberry** *(Dâu Tuyết Dạ Quang)* | 5 days | **Yes (3d)** | Brewed into **Snowberry Frost Tea**; increases movement speed by $15\%$. |
-| **Spark-Lemon** *(Chanh Sét)* | 7 days | **Yes (4d)** | Baked into **Electric Lemon Meringue**: $+40\%$ running and work speed. |
-| **Frostmint** *(Bạc Hà Băng Giá)* | 3 days | **Yes (2d)** | Icy mint candies; instantly chills body temperature to prevent heatstroke. |
-| **Magma Melon** *(Dưa Hấu Lửa)* | 8 days | No | Baked into **Molten Lava Tarts**; fizzy warm melon pulp slakes thirst. |
+## 2. Catalog of 27 Seasonal Field Crops
+
+### 🌸 A. Spring (7 Field Crops)
+| Crop | Growth | Regrowth | Seed Cost | Sell Price | Daily Profit | Culinary & Valley Usage |
+| :--- | :---: | :---: | :---: | :---: | :---: | :--- |
+| **Silver Wheat** (*Lúa Mì Bạc*) | 4 days | Single | 15g | 30g | **3.75 Gold/day** | Milled at the Windmill into Fresh Flour for hearth loaves and rations. Plantable in Spring, Summer, Autumn. |
+| **Ice Cabbage** (*Bắp Cải Băng*) | 6 days | Single | 35g | 55g | **3.33 Gold/day** | Crisp, tightly wrapped heads thriving in morning frost; essential for clear broths and pickled reserves. |
+| **Wild Strawberry** (*Dâu Rừng Mùa Xuân*) | 7 days | **3 days** | 60g | 35g | **7.86 Gold/day** (8 harvests) | Juicy berries yielding 8 harvest waves across Spring; cooked into preserves for flaky croissants. |
+| **Pea Pod** (*Đậu Hà Lan Giàn Leo*) | 10 days | **3 days** | 60g | 30g | **5.36 Gold/day** (7 harvests) | Wooden trellis vine (impassable); sweet pods for vegetable fried rice and beet broth. |
+| **Oakhaven Lotus Tea** (*Búp Trà Sen Oakhaven*) | 12 days | **4 days** | 40g | 25g | **3.04 Gold/day** (5 harvests) | Perennial tea shrub sprouting in Spring & Summer; delicate tips dried for restorative calming tea blends. |
+| **Sun Daisy** (*Hoa Cúc Mặt Trời*) | 5 days | Single | 20g | 38g | **3.60 Gold/day** | Bright golden blossoms brewed into soothing herbal infusions and boiled into natural yellow fabric dye. |
+| **Sopophorous Bean** (*Đậu Thao Thức Cổ Sinh*) | 11 days | **3 days** | 90g | 50g | **13.81 Gold/day** (3 seasons) | Ancient perennial vine yielding across Spring, Summer, and Autumn (25 harvests); bean oil wards off drowsiness. |
 
 ---
 
-### 🍂 Autumn (Golden Harvest & Festival Pastries)
-| Crop | Growth | Regrow? | Culinary Application |
-| :--- | :---: | :---: | :--- |
-| **Sweet Honey Pumpkin** *(Bí Ngô)* | 8 days | No | Baked into **Autumn Pumpkin Pies** for the Lantern Gala; pumpkin soups. |
-| **Shadow Forest Rye** *(Hắc Mạch)* | 5 days | No | Stoneground flour for **Miner's Sourdough**: $-50\%$ stamina mining drain. |
-| **Star Lavender** *(Oải Hương Sao)* | 6 days | **Yes (3d)** | Brewed into **Thousand Stars Lavender Tea**: best-selling calming infusion. |
-| **Moonlight Sweet Yam** *(Khoai Lang)* | 6 days | No | Coal-roasted syrupy yams: dense, caramelized comfort street food. |
-| **Amber Honey-Cane** *(Mía Mật Ong)* | 7 days | **Yes (3d)** | Pressed into pure golden caramel glaze for gleaming festival pastries. |
+### ☀️ B. Summer (7 Field Crops)
+| Crop | Growth | Regrowth | Seed Cost | Sell Price | Daily Profit | Culinary & Valley Usage |
+| :--- | :---: | :---: | :---: | :---: | :---: | :--- |
+| **Sun Corn** (*Bắp Ngô Ánh Dương*) | 12 days | **4 days** | 80g | 45g | **8.21 Gold/day** (2 seasons) | Tall stalks persisting through Autumn (12 harvests); roasted with garlic butter and stewed in corn chowder. |
+| **Fire Tomato** (*Cà Chua Lửa Mọng Nước*) | 10 days | **4 days** | 50g | 24g | **2.50 Gold/day** (5 harvests) | Crimson vines producing juicy fruit; simmered into meat sauces, spicy seafood stews, and savory marinades. |
+| **Magma Melon** (*Dưa Hấu Dung Nham*) | 12 days | Single | 80g | 180g | **8.33 Gold/day** | Massive melons with warming reddish-orange flesh; 2% chance to fuse into a Giant Melon in $3\times3$ plots. |
+| **Honey Cane** (*Mía Mật Ong Hổ Phách*) | 7 days | Single | 30g | 55g | **3.57 Gold/day** | Deep-purple sugar stalks pressed into Raw Cane Sugar for tavern baking. |
+| **Shadow Carrot** (*Hắc Cà Rốt Mắt Mèo*) | 6 days | Single | 35g | 65g | **5.00 Gold/day** | Dark purple skin with bioluminescent orange core; enhances night vision in deep mines. Grows in Summer & Autumn. |
+| **Whisper Ginger** (*Hỏa Khương Rừng Thầm Thì*) | 8 days | Single | 45g | 85g | **5.00 Gold/day** | Pungent warm root; removes fishiness from trout skewers and warms cold guests during storms. |
+| **Sunflower** (*Hoa Hướng Dương Vàng*) | 8 days | Single | 40g | 50g | **~6.25 Gold/day** (with seeds) | Harvest drops 1–2 bonus seed packets (saving 40–80g); pressed for culinary cooking oil. |
 
 ---
 
-### ❄️ Winter (Glacial Frost & Mystic Roots)
-| Crop | Growth | Regrow? | Culinary Application |
-| :--- | :---: | :---: | :--- |
-| **Whisper Ginger** *(Hỏa Khương)* | 5 days | No | Simmered into **Whisper Hearth Tea**: restores warmth, grants chill immunity. |
-| **Frost Turnip** *(Bạch Ngọc Củ Cải)* | 4 days | No | Lucid crisp turnip simmered into rich mineral broths for miners. |
-| **Sopophorous Bean** *(Đậu Thao Thức)* | 7 days | **Yes (4d)** | Baked into **Lullaby Biscuits**: permanently cures Professor Orion's insomnia. |
-| **Shrieking Mandrake** *(Mandrake)* | 9 days | No | *(Earmuffs required)* Elixir tarts: restores $100\%$ Stamina immediately. |
-| **Frost-Lotus Bloom** *(Sen Băng)* | 6 days | No | Whipped into cryogenic frosting for Faerie Birthday Cakes. |
+### 🍂 C. Autumn (6 Field Crops)
+| Crop | Growth | Regrowth | Seed Cost | Sell Price | Daily Profit | Culinary & Valley Usage |
+| :--- | :---: | :---: | :---: | :---: | :---: | :--- |
+| **Sweet Pumpkin** (*Bí Ngô Mật Khổng Lồ*) | 13 days | Single | 100g | 260g | **12.31 Gold/day** | Autumn cash king; baked into honey pumpkin pies and cream soups; 2% chance to become a Giant Pumpkin. |
+| **Shadow Rye** (*Hắc Mạch Đêm Rừng*) | 5 days | Single | 30g | 60g | **6.00 Gold/day** | Fast-growing dark grain; milled into coarse flour for dense miner bread loaves. |
+| **Night Grape** (*Nho Đêm Giàn Leo*) | 10 days | **3 days** | 80g | 44g | **8.14 Gold/day** (7 harvests) | Heavy dark clusters requiring trellises; fermented in oak casks into rich Oakhaven Vintage Red Wine. |
+| **Moonlight Yam** (*Khoai Lang Nguyệt Quang*) | 9 days | Single | 45g | 95g | **5.56 Gold/day** | Silver-skinned tubers with sweet violet flesh; coal-roasted on tavern hearth stones. |
+| **Misty Lavender** (*Oải Hương Đồi Sương*) | 7 days | Single | 35g | 75g | **5.71 Gold/day** | Fragrant purple stalks from misty ridges; sewn into tavern pillows to boost lodging comfort scores. |
+| **Mandrake Root** (*Củ Mandrake Nhân Sâm*) | 14 days | Single | 100g | 280g | **12.86 Gold/day** | Prized humanoid root plantable in Autumn & Winter; stewed into vigor-restoring boss combat broths. |
 
 ---
 
-## 3. Four Farm Irrigation Automation Systems
-
-As your garden expands, you no longer need to exhaust Stamina every sunrise thanks to four progressive automation solutions:
-
-### 👦 1. Employing Little Kael (40 Gold/day)
-- Sign a seasonal chores contract with young Kael at the town square.
-- At **06:30 sharp** every morning, Kael cheerfully arrives with wooden pails to water every outdoor plot before Rowan awakens.
-- This employment enables Kael to provide warm bread for Grandmother Maeve and attend library lessons with Clara. Friendship increases weekly!
-
-### ☁️ 2. Magic Rain-Cloud Sprinkler
-- An adorable sentient cloud hovering atop wooden garden stakes.
-- **Crafting Recipe:** $1$ Crystal Ice Shard + $1$ Starlight Water Flask + $3$ Pip's Down Feathers.
-- **Effect:** Showers a $3 \times 3$ plot (8 adjacent tiles) with gentle mist at 06:00. Crops watered by clouds gain $+10\%$ chance to produce Golden produce.
-
-### ⚙️ 3. Khaz-Drakor Steam-Sprinkler
-- Brass dwarven machinery hooked up to subterranean aquifers.
-- **Forge Recipe (Boris):** $5$ Copper Bars + $2$ Coal Ore + $1$ Raw Mana Stone.
-- **Effect:** Rotates continuously, misting an entire $3 \times 3$ plot each sunrise without requiring manual fuel refills.
-
-### ⛈️ 4. Forest Rain Totem
-- Ideal for prolonged multi-day dungeon runs.
-- Burned before sleep: the following morning, gentle thunder rolls in and a **rejuvenating all-day rain shower** drenches all outdoor crops across the valley.
+### ❄️ D. Winter (6 Field Crops)
+| Crop | Growth | Regrowth | Seed Cost | Sell Price | Daily Profit | Culinary & Valley Usage |
+| :--- | :---: | :---: | :---: | :---: | :---: | :--- |
+| **Frost Turnip** (*Bạch Ngọc Củ Cải*) | 5 days | Single | 25g | 50g | **5.00 Gold/day** | Fast-growing snowy tubers; simmered with wild boar bone broth during bitter cold snaps. |
+| **Frostmint** (*Bạc Hà Băng Giá*) | 6 days | Single | 30g | 65g | **5.83 Gold/day** | Ice-rimmed aromatic leaves; brewed into herbal decongestants and invigorating mint pastilles. |
+| **Frost Potato** (*Khoai Tây Tuyết Núi Cao*) | 7 days | Single | 45g | 90g | **~8.04 Gold/day** (with 25% extra) | Hearty mountain potatoes; mashed with butter and garlic for blacksmith Boris's favorite side dish. |
+| **Frost Beet** (*Củ Dền Băng Ruby*) | 6 days | Single | 40g | 80g | **6.67 Gold/day** | Ruby-red roots rich in concentrated sugars; gives deep crimson coloring to holiday stews and pastries. |
+| **Lichen Root** (*Rễ Địa Y Băng Giá*) | 8 days | Single | 55g | 120g | **8.12 Gold/day** | Ancient subterranean lichen roots; refined into immune-boosting cold resistance tonics. |
+| **Frost Lotus** (*Sen Băng Tuyết Ngàn Năm*) | 12 days | Single | 120g | 320g | **16.67 Gold/day** | Rare crystalline water lilies growing on semi-frozen shorelines; winter economic record yield. |
 
 ---
 
-## 4. Featured Culinary Pastries & Herbal Teas
+### 🪵 E. Four-Season Specialty Cultivation (1 Model)
+- **Mushroom Cultivation Log (`crop_mushroom_log`):**
+  - One-time crafting investment (180g cost: Dead Wood + Spores).
+  - Harvests wild mushrooms every **4 days year-round across all 4 seasons** with zero watering required.
+  - Generates steady revenue: **11.25 Gold/day** (28 harvests/year = 1,260 Gold net annual revenue).
+  - 10% chance to mutate into rare Lumina Cave Shrooms when placed in damp cellar spots.
 
-- 🍞 **Miner's Shadow Sourdough:** Shadow Rye Sheaf + Coal Ore. $-50\%$ Stamina consumption when mining for 5 minutes.
-- 🍋 **Electric Lemon Meringue Tart:** Fresh Flour + Spark-Lemon + Amber Honey-Cane. $+40\%$ running and crafting speed for 4 minutes.
-- 🫖 **Whisper Hearth Tea:** Lotus Tea Leaf + Whisper Ginger + Amber Honey-Cane. Restores 45 Stamina with complete chill immunity.
-- 🫐 **Lumiberry Butter Scone:** Fresh Flour + Lumiberry + Wild Honey. Iconic breakfast treat of Oakhaven.
+---
 
-👉 Explore detailed catalog entries: [Crops Database](/database/crops) · [Items & Seeds](/database/items) · [Cooking & Baking Recipes](/database/recipes)
+## 3. Catalog of 14 Perennial Trees & Orchards
+
+### 🌲 A. 6 Silviculture Timber Species
+Saplings mature in 20–30 days on any clear unplowed tile with no daily watering required:
+1. **Oakhaven Great Oak (`tree_oak` - 24d):** Yields 12–16 Aged Oak Logs + Firewood. Tapper produces **Dark Oak Resin** every 7 days (fermentation casks, bridge repairs).
+2. **Alpine Pine (`tree_pine` - 22d):** Yields 12–16 Alpine Pine Logs. Tapper produces **Pine Tar** every 5 days (boat hull waterproofing, mine torches).
+3. **Ember Maple (`tree_maple` - 24d):** Yields 10–14 Ember Maple Lumber. Tapper produces **Amber Maple Syrup** every 9 days (inn pancakes, VIP tables).
+4. **Silver Birch (`tree_birch` - 20d):** Yields 10–14 Silver Birch Logs + Bark Strips. Tapper produces **Birch Sap** every 6 days (storage chests).
+5. **River Willow (`tree_willow` - 22d):** Yields 14–18 Flexible Willow Branches. Tapper produces **Willow Sap** every 6 days (fish traps, fever tea).
+6. **Abyssal Ironwood (`tree_ironwood` - 30d):** Requires Iron Axe or better (16 chops). Yields 8–12 Dense Ironwood. Tapper produces **Anti-Rust Ironwood Oil** every 10 days (deep mine timbers).
+
+### 🍎 B. 8 Perennial Fruit Orchards ($3\times3$ Clear Footprint)
+Requires 28 days to mature from saplings, needing the 8 surrounding tiles completely clear of debris. Once mature, produces 1 fruit daily throughout their active season (28 fruit per season):
+1. **Honey Oak Apple Tree (`fruit_apple`):** Autumn — Crisp honeyed apples (**28 Gold/day**); baked into tavern pies and apple cider.
+2. **Volt Lemon Tree (`fruit_lemon`):** Summer — Zesty citrus (**35 Gold/day**); mixed into thirst-quenching lemonades and fish sauces.
+3. **Frost Plum Tree (`fruit_plum`):** Winter — Cold-hardy sweet plums (**38 Gold/day**); distilled into spiced plum brandy.
+4. **Primrose Peach Tree (`fruit_peach`):** Spring — Tender pink peaches (**42 Gold/day**); whipped into delicate fruit mousses.
+5. **Crimson Cherry Tree (`fruit_cherry`):** Spring — Juicy tart cherries (**32 Gold/day**); baked into tarts and glazes.
+6. **Wild Walnut Tree (`fruit_walnut`):** Autumn — Rich savory nuts (**35 Gold/day**); crushed into nutrient bars for miners.
+7. **Frost Pear Tree (`fruit_pear`):** Autumn — Sweet crisp pears (**30 Gold/day**); poached in mulled wine to soothe winter coughs.
+8. **Fire Orange Tree (`fruit_orange`):** Summer — Vibrant sweet oranges (**32 Gold/day**); freshly squeezed breakfast juices.
+
+---
+
+## 4. Strategic Crop Planning & Economic Guidelines
+
+1. **Year 1 Spring:**
+   - Devote 60% of tilled land to **Silver Wheat** to maintain steady flour for bakery bread orders.
+   - Plant 1 row of **Wild Strawberry** (8 harvests) and 1 row of **Pea Pods** for dependable passive income every 3 days.
+2. **Year 1 Summer:**
+   - Plant **Sun Corn** on Summer Day 1: it survives continuously through Autumn (56 days), minimizing re-planting costs.
+   - Cultivate a $3\times3$ grid of **Magma Melons** to fish for Giant Melons.
+3. **Year 1 Autumn:**
+   - Reinvest savings into **Sweet Pumpkins** (leading profit at 12.31 Gold/day) to fund high-tier tool upgrades before winter freezes.
+4. **Year 1 Winter:**
+   - Do not leave fields idle! Rapidly rotate **Frost Turnips** (5-day turnaround) and plant shoreline **Frost Lotus** for substantial year-end profits.
