@@ -283,9 +283,13 @@ Mỗi cư dân Oakhaven không phải NPC rập khuôn vô hồn, mà mang một
 1. **Cấp C (~50% - Thư Tay Sớm Của Cú Pip):**
    - *Áp dụng:* Đa số mốc 2 Tim và các nhân vật Tier 3 ở xa.
    - *Cơ chế:* Sáng sớm, Cú Pip ngậm thư nhét vào hòm thư trước hiên nhà. Thư tay viết mộc mạc, kèm quà tặng (túi hạt giống, mở rộng ô ba lô, công thức sơ chế, giảm giá mua hàng). Chi phí asset = 0, tạo nhịp sinh hoạt mở thư mỗi sớm rất ấm cúng.
-2. **Cấp B (~35% - Tâm Sự Bàn Ăn Ca Tối The Hearth):**
+2. **Cấp B (~35% - Tương Tác Đời Thường Đa Địa Điểm & Thời Tiết - Dynamic World Encounters):**
    - *Áp dụng:* Đa số mốc 4 Tim và 6 Tim.
-   - *Cơ chế:* Tận dụng vòng lặp mở quán tối có sẵn. NPC ghé The Hearth ngồi vào bàn quen thuộc, trên đầu hiện bong bóng `[!]`. Rowan bê món ăn lại phục vụ, mở ra đoạn hội thoại tại chỗ (Dialogue Box) kết hợp Bong bóng biểu cảm 16×16 (Emote Bubbles). Nói xong mở khóa tiện ích (Võ đường, Vườn ươm, Bảng săn quái, Trị an ca đêm...). Chi phí asset = 0.
+   - *Cơ chế đa không gian (Phá vỡ sự rập khuôn chỉ gặp ở quán):*
+     * **~30% Sự kiện diễn ra tại The Hearth:** Gắn liền với ăn uống ca tối, khách thuê trọ lầu 2 (Valen de Montfort), hoặc tiệc rượu đêm (Boris & Bram).
+     * **~70% Sự kiện diễn ra ngoài thế giới thực (6 Địa bàn mở):** Bắt gặp tự nhiên khi Rowan di chuyển và làm việc: giữa luống rau mùa đông sáng sớm (Bà Maeve nhức khớp), bậc đá cửa mỏ giờ trưa nắng (Bram tháo chân giả gọt lại), dốc đèo núi tuyết chiều mưa rào (Hester tái phát sẹo chiến trường), bến thuyền đầm lầy sương mù (Vael trồi lên sau ca lặn), chòi gác cổng làng đêm giông (Marlo hoảng loạn vì bóng ma chiến tranh).
+   - *Điều kiện kích hoạt 4 chiều:* Gắn liền với Mốc Tim, Địa Điểm, Khung Giờ (Sáng/Trưa/Chiều/Đêm), và Thời Tiết/Mùa.
+   - *Thể hiện kỹ thuật:* Đối thoại tại chỗ (Dialogue Box) kết hợp Bong bóng biểu cảm 16x16 (Emote Bubbles); chi phí vẽ asset = 0 (tận dụng map và vị trí đứng sẵn có của NPC).
 3. **Cấp A (~15% - Cutscene Hoạt Cảnh Đỉnh Cao):**
    - *Áp dụng:* Chỉ khoảng 15 – 20 sự kiện đỉnh cao trong toàn bộ game (mốc 8 Tim hóa giải bi kịch quá khứ và 10 Tim kết duyên).
    - *Cơ chế:* Diễn ra tại các bối cảnh quen thuộc (quán The Hearth, Lò rèn Boris, Bàn Thờ Cổ Đại), khóa điều khiển tạm thời 30 giây để thoại chạy tự động, tạo khoảnh khắc cảm xúc thăng hoa lắng đọng.
