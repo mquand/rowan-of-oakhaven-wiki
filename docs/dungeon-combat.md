@@ -1,230 +1,172 @@
 ---
-title: "Hầm Ngục, Cơ Chế Chiến Đấu & Lò Rèn Boris"
+title: "Hầm Ngục Mỏ Cổ Vô Tận, Cơ Chế Chiến Đấu & Lò Rèn Boris"
 status: stable
 audience: public
-updated: 2026-11-14
+updated: 2026-11-20
 tags: [dungeon, combat, monsters, weapons, mining, forge, boris]
 spoiler: false
 ---
 
-# 🌙 Hầm Ngục, Cơ Chế Chiến Đấu & Lò Rèn Boris
+# ⚔️ Hầm Ngục Mỏ Cổ Vô Tận, Cơ Chế Chiến Đấu & Lò Rèn Boris
 
-Thế giới lòng đất của Oakhaven là trụ cột **hành động & sinh tồn cốt lõi** trong trò chơi. Toàn bộ tiền vàng tích lũy từ việc làm nông, nấu ăn và bán trà bánh trên mặt đất đều hướng tới mục tiêu tối thượng: **đầu tư trang bị chiến đấu tại Lò rèn Boris**, tôi luyện vũ khí và khai phá sâu vào lòng đất để giải mã thảm họa ô nhiễm Tinh Tú (Star Blight).
+Thế giới lòng đất của Oakhaven là trụ cột **hành động & sinh tồn cốt lõi** trong trò chơi, kết hợp giữa **ĐI MỎ KHÁM PHÁ (Stardew Valley)** và **HÀNH ĐỘNG DỌN PHÒNG (Soul Knight)**. Toàn bộ tiền vàng tích lũy từ làm nông và kinh doanh tại **Quán Ăn & Nhà Trọ Oakhaven (The Hearth)** đều hướng tới mục tiêu: đầu tư trang bị chiến đấu tại Lò rèn Boris, tôi luyện vũ khí và khai phá 150 tầng mỏ cổ để giải phóng đất đai thung lũng khỏi lời nguyền chiến tranh.
 
 ---
 
-## 1. Cấu Trúc Hai Phân Khu Lòng Đất
+## 1. Cấu Trúc Hầm Ngục Thống Nhất (The Infinite Mine-Dungeon)
+
+> **NGUYÊN TẮC CỐT LÕI:** Hầm mỏ và Dungeon **GỘP LÀM 1 THỂ THỐNG NHẤT** mang tên **Hầm Ngục Mỏ Cổ Vô Tận (The Infinite Mine-Dungeon)**. Đây là chiến trường sinh tử thuần túy.
 
 ```
                ┌────────────────────────────────────────────────────────┐
                │                  THỊ TRẤN OAKHAVEN                     │
-               │   (Nông trại • Bếp trà bánh • Lò rèn • Trạm y tế)      │
-               └───────────────┬────────────────────────┬───────────────┘
-                               │                        │
-             Thang máy khoáng sản              Lối vào Hầm ngục
-                               ▼                        ▼
-               ┌────────────────────────┐  ┌────────────────────────────┐
-               │   HANG MỎ OAKHAVEN     │  │   HẦM NGỤC STAR BLIGHT     │
-               │    (150 TẦNG CỐ ĐỊNH)  │  │  (ROGUELIKE PROCEDURAL)    │
-               │                        │  │                            │
-               │ • Thang máy mỗi 5 tầng │  │ • Phòng sinh ngẫu nhiên    │
-               │ • Khai thác 17 quặng   │  │ • 12 Biome biến đổi        │
-               │ • Đụng độ Boss mốc     │  │ • Thử thách sinh tồn cao   │
-               │ • Tầng 150: Khaz-Drakor│  │ • Mảnh vỡ & Cổ vật Tinh Tú │
-               └────────────────────────┘  └────────────────────────────┘
+               │   (Nông trại • Quán The Hearth • Lò rèn • Trạm y tế)   │
+               └──────────────────────────┬─────────────────────────────┘
+                                          │
+                                 Cửa Hầm Mỏ Oakhaven
+                                          ▼
+               ┌────────────────────────────────────────────────────────┐
+               │       HẦM NGỤC MỎ CỔ VÔ TẬN (THE INFINITE MINES)       │
+               ├────────────────────────────────────────────────────────┤
+               │ • TẦNG 1–150 (CHIẾN DỊCH CỐT TRUYỆN QUA 4 ĐỚI ĐỊA CHẤT)│
+               │   - Đới 1 (1–30): Đầm Than Bùn & Mỏ Đồng Cũ (Boss 30)  │
+               │   - Đới 2 (31–70): Lò Rèn Cổ Khaz-Drakor (Boss 70)     │
+               │   - Đới 3 (71–110): Hang Rễ Sâu & Rừng Nấm (Boss 110)  │
+               │   - Đới 4 (111–150): Vực Thẳm Cổ Vật & Di Tích (Boss 150)│
+               │ • TẦNG 151+ (VỰC THẲM VÔ TẬN - ENDLESS ABYSS HARDCORE) │
+               │ • Thang máy cơ giới lưu mốc vĩnh viễn mỗi 5 tầng       │
+               │ • Cửa Mỏ: Bàn thờ Tổ Mẫu chọn 1 trong 3 Phước Lành     │
+               │ • Mốc 5 tầng: Tích lũy & Đổi Buff dã ngoại (Max 4 slot) │
+               └────────────────────────────────────────────────────────┘
 ```
-
-1. **Hang Mỏ Oakhaven (The 150-Floor Mines):**
-   * Tiến trình cố định gồm **150 tầng mỏ**, phân bố thành 6 đới địa chất (Đất mềm tầng 1–20, Mỏ đồng tầng 21–50, Vực quặng sắt tầng 51–80, Đới hoàng kim tầng 81–110, Vực dung nham & hắc diện thạch tầng 111–140, và Đáy mỏ Tinh Tú tầng 141–150).
-   * **Thang máy cơ giới:** Tự động mở khóa trạm dừng mỗi 5 tầng mỏ (5, 10, 15... 150), cho phép di chuyển tức thời giữa mặt đất và tầng đã khai phá.
-   * **Warden Boss mốc:** Canh giữ tại các mốc tầng 30, 60, 90, 120 và 150. Đánh bại Warden sẽ mở khóa bản vẽ rèn đúc mới của Boris và lối đi sang đới kế tiếp.
-
-2. **Hầm Ngục Hư Không (Star Blight Roguelike Dungeon):**
-   * Hệ thống phòng ốc sinh ngẫu nhiên (Procedural Generation) trải rộng qua **12 Biome** huyền bí.
-   * Càng đi sâu, mật độ quái vật hắc hóa càng dày đặc, bẫy cơ quan tinh vi hơn nhưng bù lại sẽ rơi các giọt nguyên liệu huyền thoại: *Lõi Tinh Tú (`item_starlight_core`)*, *Kim Cương (`gem_diamond`)* và mảnh cổ ngữ.
 
 ---
 
-## 2. Cơ Chế Chiến Đấu ARPG Thời Gian Thực
+## 2. Dòng Chảy Phòng Kiểu Soul Knight & Khai Khoáng Stardew
 
-### Thanh Thể Lực Hợp Nhất (Stamina-as-Life)
-Trong *Rowan of Oakhaven*, nhân vật **không có thanh máu đỏ (HP) riêng biệt**. 
-* **Thể lực (Stamina) chính là Sinh lực:** Mọi hành vi vung vũ khí, dùng chiêu thức, hoặc nhận sát thương từ quái vật/bẫy gai đều trừ trực tiếp vào thanh Thể lực.
-* **Cạn Thể lực = Gục ngã (Collapse):** Khi Thể lực tụt về 0, Rowan kiệt sức ngất lịm và được các Tinh linh Rừng hoặc Boris dìu về Trạm y tế của Maeve.
-* **Cộng hưởng Sinh tồn từ Ẩm thực:** Do không có bình thuốc máu màu đỏ thông thường, **các món ăn ninh hầm, bánh nướng nóng và ấm trà mang theo** chính là nguồn hồi sinh lực trực tiếp. Uống một ngụm Trà Lửa Ấm hay ăn một bát Súp Hầm Củ Cải Thợ Mỏ sẽ lập tức bơm đầy Thể lực và tăng giáp phòng ngự.
+### 2.1. Dòng Chảy 1 Phòng Hầm Mỏ (Room Flow)
+Mỗi tầng mỏ gồm **3 đến 5 khoang phòng đá kết nối** trên bản đồ ô lưới (Mini-map kiểu Soul Knight):
 
-```
-       [ Đòn đánh quái / Va bẫy ] ──┐
-                                     ▼
-       [ Vung vũ khí / Lướt né  ] ──► [ THANH THỂ LỰC (STAMINA) ] ◄── [ Ăn Súp & Bánh / Uống Trà ]
-                                     │
-                                     ▼ (Nếu chạm mốc 0)
-                            [ GỤC NGÃ & VỀ TRẠM XÁ ]
-```
+1. **Khóa phòng tử chiến (`Room Lockdown`):** Bước vào phòng, cửa sau lập tức sập xuống khóa chặt, đèn vách chuyển sang **ĐỎ**. Quái vật tràn ra tấn công theo 2 đợt.
+2. **Giao chiến nhịp độ nhanh:** 
+   * Người chơi mang theo **2 Slot Vũ Khí** chuyển đổi nhanh bằng phím `Q` (Kiếm chém + Nỏ tầm xa, hoặc Búa đập + Trượng).
+   * **Thanh Giáp Hộ Mệnh (Ward Shield):** Hấp thụ 30–50 sát thương đầu tiên; nếu không dính đòn trong 3 giây, Giáp tự hồi đầy, giúp bảo vệ thanh Thể Lực (HP).
+3. **Quét sạch phòng (`Room Cleared!`):** Đèn chuyển **XANH LỤC**, cửa mở sang phòng tiếp theo, **Rương Tài Nguyên** trồi lên giữa sàn.
+4. **Pha khai khoáng tò mò (Stardew Mining Phase):** Phòng an toàn tuyệt đối, người chơi thong thả vung Cuốc chim đập đá cuội, thu thập than và tìm mạch quặng.
 
-### Kỹ Năng Lướt Né (Stardust Dash) & Bất Tử Nhất Thời (i-Frames)
-* **Kích hoạt:** Phím `Space` (hoặc nút né chuyên dụng trên tay cầm).
-* **Hiệu ứng:** Tiêu hao **12 Thể lực**, lướt nhanh 2.5 ô để lại một vệt tàn ảnh bụi sao lung linh.
-* **Khung hình bất tử (i-Frames):** Trong **0.25 giây đầu** của cú lướt, Rowan hoàn toàn miễn nhiễm với mọi nguồn sát thương (kể cả tia laser, cầu lửa hay đòn dậm chấn động của Boss).
-
-### Phản Đòn Hoàn Hảo (Perfect Parry) & Phá Vỡ Thế Thủ
-* **Áp dụng cho:** Các vũ khí có độ cứng cáp (Kiếm Bản Rộng, Kiếm Hiệp Sĩ, Búa Chiến).
-* **Thao tác:** Giơ thế thủ ngay trước khoảnh khắc đòn tấn công của quái chạm vào người trong khung thời gian 0.2s.
-* **Kết quả:**
-  * Hoàn toàn triệt tiêu sát thương nhận vào.
-  * Hồi phục ngay lập tức **+15 Thể lực**.
-  * Làm choáng (Stun) quái vật trong 2.0 giây, kích hoạt trạng thái hở sườn để tung đòn trảm quyết.
-
-### Cơ Chế Ánh Sáng Đèn Lồng (Lantern Darkness Mechanic)
-* Các tầng hang sâu từ tầng 30 trở đi hoàn toàn chìm trong bóng tối dày đặc.
-* Quái vật ẩn mình trong bóng tối sẽ tàng hình hoặc tăng 50% tốc độ di chuyển.
-* **Đèn Lồng Đom Đóm (Firefly Lantern):** Bắt buộc phải mang bên hông hoặc cầm tay để tỏa vòng sáng xua tan bóng tối, làm hiện hình điểm yếu của quái vật và phát hiện các bẫy hố sụp.
+### 2.2. Cơ Chế Đập Đá Ra Quặng & Kép Thoát Tầng (Curiosity-Driven Mining)
+* **Xác suất đập từng tảng đá thường:**
+  * $60\%$: Đá vụn xây chuồng trại.
+  * $20\%$: Than đá đốt lò.
+  * $12\%$: Quặng kim loại theo đới (Đồng, Sắt, Vàng, Mithril).
+  * $5\%$: Trứng khoáng thạch (**Geode**) mang về Boris đập cổ vật.
+  * $3\%$: Làm lộ ra **Bậc Thang Đá** thông tầng.
+* **Cơ chế kép thoát tầng (Dual-Trigger):**
+  * *Nhánh Đào Đá:* Xác suất rơi thang tăng dần theo số đá đã đập: $3\% + (\text{May Mắn} \times 1\%) + (1 / \text{Số đá còn lại})$ $\rightarrow$ Chống kẹt tầng tuyệt đối.
+  * *Nhánh Diệt Quái:* Khi tiêu diệt con quái cuối cùng trên tầng, nếu chưa có thang, **100% Bậc Thang sẽ trồi lên ngay dưới chân quái**!
 
 ---
 
-## 3. Năm Hệ Vũ Khí Oakhaven (The 5 Weapon Archetypes)
+## 3. Hệ Thống Chọn & Đổi Buff Dã Ngoại (Expedition Boons)
 
-Hệ thống vũ khí gồm **23 món vũ khí** được chia đều qua 5 phân hệ chiến đấu và 6 bậc khoáng sản:
+Lấy cảm hứng từ hệ thống Perk của *Soul Knight*, người chơi sẽ tự xây dựng một "Dungeon Build" linh hoạt cho từng chuyến thám hiểm:
 
-```
-  ┌────────────────────────────────────────────────────────────────────────┐
-  │                           5 HỆ VŨ KHÍ OAKHAVEN                         │
-  ├──────────────────┬─────────────────┬──────────────────┬────────────────┤
-  │ Hệ Vũ Khí        │ Tốc Độ / Tầm    │ Khắc Chế Quái    │ Tác Dụng Khác  │
-  ├──────────────────┼─────────────────┼──────────────────┼────────────────┤
-  │ 🗡️ Kiếm & Đoản Đao│ Nhanh (2.2-3.8) │ Quái linh hoạt   │ Chém bụi gai,  │
-  │   (Melee Blade)  │ Tầm 1.2 - 1.5 ô │ Đỡ đòn & Parry   │ dây leo hang   │
-  ├──────────────────┼─────────────────┼──────────────────┼────────────────┤
-  │ 🌾 Liềm Runic    │ Nhanh vừa (1.4) │ Quái bầy, rết đá │ Gặt vạt lúa mì,│
-  │   (Scythe)       │ Bán nguyệt 2.5ô │ Hút lại Thể lực  │ thảo mộc 3-5 ô │
-  ├──────────────────┼─────────────────┼──────────────────┼────────────────┤
-  │ 🔨 Búa Tạ & Chùy │ Chậm (0.7-1.1)  │ Quái bọc thép đá │ Đập vỡ khối đá │
-  │   (Warhammer)    │ Chấn động 2.4 ô │ Phá vỡ giáp vỏ   │ & quặng cực lớn│
-  ├──────────────────┼─────────────────┼──────────────────┼────────────────┤
-  │ 🏹 Cung & Nỏ     │ Bắn xa (1.2-2.5)│ Quái bay, nhện trần│ Bắn công tắc  │
-  │   (Crossbow)     │ Tầm 5.0 - 8.0 ô │ Bắn xuyên mục tiêu│ vách đá xa     │
-  ├──────────────────┼─────────────────┼──────────────────┼────────────────┤
-  │ ✨ Trượng Tinh Tú│ Bắn phép (1.3-2)│ Quái bóng tối    │ Soi sáng hầm,  │
-  │   (Magic Staff)  │ Tầm 4.5 - 7.5 ô │ Thanh tẩy hắc hóa│ xua tan sương độc│
-  └──────────────────┴─────────────────┴──────────────────┴────────────────┘
-```
-
-### Danh Sách 6 Bậc Tiến Cấp Vũ Khí (Weapon Tiers)
-
-1. **Bậc 1 — Gỗ Sồi Khởi Đầu (Tầng 1–20):**
-   * *Kiếm Gỗ Huấn Luyện (`wooden_training_sword`):* ATK 6, tốc độ 2.2 nhịp/s.
-   * *Liềm Làm Nông Cũ (`rusty_farm_scythe`):* ATK 8, quét bán nguyệt 2.0 ô.
-   * *Búa Đá Thợ Mỏ (`miner_stone_mallet`):* ATK 12, đập vỡ đá cuội.
-   * *Cung Săn Oakhaven (`hunter_shortbow`):* ATK 10, tầm xa 5.0 ô.
-   * *Đũa Phép Gỗ Sơ Cấp (`apprentice_wood_wand`):* ATK 9, bắn đốm sáng nhỏ.
-2. **Bậc 2 — Đồng Đỏ Đúc Lửa (Tầng 21–50):**
-   * *Kiếm Bản Rộng Đồng Đỏ (`copper_broadsword`):* ATK 14, quét 360 độ Trảm Phong.
-   * *Chùy Gai Đồng Đỏ (`copper_spiked_mace`):* ATK 22, nghiền nát vỏ bọ cánh cứng.
-3. **Bậc 3 — Sắt Thép Rèn Oakhaven (Tầng 51–80):**
-   * *Kiếm Thép Rèn Oakhaven (`iron_knight_blade`):* ATK 24, phản đòn 150% sát thương.
-   * *Liềm Ma Thuật (`mystic_scythe`):* ATK 28, tạo lốc xoáy gom quái.
-   * *Gậy Quấy Trà Khổng Lồ (`whisk_hammer`):* ATK 38, sóng chấn động làm chậm quái 50%.
-   * *Nỏ Cơ Giới Bánh Răng (`clockwork_iron_crossbow`):* ATK 26, bắn liền 3 mũi thép xuyên thấu.
-   * *Đèn Lồng Bão Đom Đóm (`spirit_lantern`):* ATK 25, hào quang đom đóm hộ thể.
-4. **Bậc 4 — Hoàng Kim & Ngân Nguyệt (Tầng 81–110):**
-   * *Kiếm Liễu Thái Dương (`sunburst_rapier`):* ATK 35, đâm cực nhanh, kích hoạt hiệu ứng Cháy.
-   * *Lưỡi Hái Ngân Nguyệt (`silver_moon_scythe`):* ATK 42, hồi 3 Thể lực cho mỗi quái hạ gục.
-   * *Nỏ Bắn Tỉa Kim Quang (`golden_solar_arbalest`):* ATK 44, tầm bắn 8 ô làm mù quái bóng tối.
-5. **Bậc 5 — Hỏa Sơn & Hắc Diện Thạch (Tầng 111–140):**
-   * *Kiếm Lửa Hắc Diện Thạch (`obsidian_flame_saber`):* ATK 50, tạo cột dung nham hất tung quái.
-   * *Búa Tạ Nham Thạch (`magma_crag_warhammer`):* ATK 62, rạch nứt đất phun trào nham thạch 4 ô.
-   * *Trượng Hỏa Sơn Dung Nham (`volcanic_fire_rod`):* ATK 54, dựng tường lửa tròn chặn quái 6s.
-6. **Bậc 6 — Tinh Vân Hư Không Tối Thượng (Tầng 141–150 & Star Blight Dungeon):**
-   * *Kiếm Pha Lê Sao (`starlight_blade`):* ATK 68, tốc độ 3.8 nhịp/s, bắn 5 phi kiếm sao truy tìm.
-   * *Lưỡi Hái Hư Không Tinh Tú (`astral_void_reaper`):* ATK 74, trảm sát quái thường dưới 25% sinh lực.
-   * *Búa Tinh Vân Thần Tượng (`titan_stellar_crusher`):* ATK 92, đòn giáng thiên thạch uy lực vô song.
-   * *Nỏ Liên Thanh Hư Không (`starblight_void_repeater`):* ATK 65, gọi mưa tên sao diện tích 4x4 ô.
-   * *Pháp Trượng Tinh Tú Khởi Nguyên (`primordial_starlight_staff`):* ATK 76, nổ Siêu Tân Tinh thanh tẩy toàn màn hình.
+* **Tại Cửa Mỏ (Tầng 1):** Bàn thờ Tổ Mẫu Amalia xuất hiện **3 Chúc phúc ngẫu nhiên theo ngày** $\rightarrow$ Người chơi chọn 1 Buff khởi đầu (không thể đổi lại trong ngày).
+* **Mỗi mốc 5 tầng (Tầng 5, 10, 15, 20...):**
+  * Kích hoạt Thang máy mở ra Bàn thờ Tổ Mẫu.
+  * Xuất hiện **3 Chúc phúc ngẫu nhiên mới** để tích lũy tối đa **4 Slot Buff**.
+  * Khi đã đủ 4 slot, người chơi có thể chọn **ĐỔI (Swap)** 1 buff cũ lấy 1 buff mới phù hợp với đới địa chất tiếp theo (ví dụ: đổi Kháng Bùn Lầy lấy Kháng Lửa Dung Nham).
+* **Reset tự nhiên:** Toàn bộ Phước Lành là tạm thời. Khi Rowan trở về mặt đất ngủ qua đêm, các buff sẽ thanh tẩy để hôm sau bắt đầu một hành trình ngẫu nhiên mới.
 
 ---
 
-## 4. Hệ Thống Lò Rèn Boris (Boris's Forge System)
+## 4. Cơ Chế Sinh Tồn: Dây Thừng, Mimic, Hố Sụt & Giới Nghiêm
 
-Cửa tiệm Lò rèn của Boris tọa lạc ở phía Đông thị trấn Oakhaven. Đây là nơi biến đổi toàn bộ khoáng sản bạn cuốc được và tiền vàng bạn kiếm được thành sức mạnh chiến đấu thuần túy.
-
-```
-       [ Tiền Vàng từ Quán Trà ] ──┐
-       [ Phôi Kim Loại từ Hang ] ──┼──► [ LÒ RÈN BORIS ] ──► [ VŨ KHÍ CƯỜNG HÓA VỮNG VÀNG ]
-       [ Đá Quý & Giọt Quái    ] ──┘
-```
-
-### 1. Rèn Vũ Khí Mới (New Weapon Forging)
-* Mỗi khi Rowan vượt qua một mốc tầng mỏ (Tầng 20, 50, 80, 110, 140, 150), Boris sẽ mở khóa bản vẽ vũ khí tương ứng.
-* Yêu cầu: Phôi kim loại (`bar_copper`, `bar_iron`, `bar_gold`, `bar_silver`) + Than đá + Phí chế tác bằng Vàng.
-
-### 2. Cường Hóa Tôi Thép (+1 đến +5)
-* Mỗi vũ khí có thể tôi luyện tối đa **5 cấp cường hóa** ($+1, +2, +3, +4, +5$).
-* **Chỉ số gia tăng:** Mỗi cấp $+1$ tăng **$+10\%$ Sát thương cơ bản (ATK)** và **$+5\%$ Tốc độ vung đòn**.
-* **Nguyên tắc nhân văn (Dark Cozy Principle):**
-  > [!IMPORTANT]
-  > Tại Lò rèn Boris, **tỉ lệ cường hóa LUÔN LUÔN LÀ 100% THÀNH CÔNG**. Không bao giờ có cơ chế xịt trang bị, không tụt cấp và tuyệt đối không gãy nát vũ khí. Thử thách của trò chơi nằm ở kỹ năng né đòn và đọc hành vi quái vật trong hầm ngục, không nằm ở sự may rủi cờ bạc.
-
-| Cấp Cường Hóa | Sát Thương Gia Tăng | Tốc Độ Gia Tăng | Nguyên Liệu Yêu Cầu |
-| :--- | :--- | :--- | :--- |
-| **Vũ khí Gốc (+0)** | $100\%$ ATK | Chuẩn | Vũ khí rèn ban đầu |
-| **Tôi Thép (+1)** | $+10\%$ ATK | $+5\%$ Tốc độ | 2 Phôi cùng bậc + 2 Than đá + 300g |
-| **Tôi Thép (+2)** | $+20\%$ ATK | $+10\%$ Tốc độ | 4 Phôi cùng bậc + 4 Than đá + 800g |
-| **Tôi Thép (+3)** | $+30\%$ ATK | $+15\%$ Tốc độ | 6 Phôi cùng bậc + 6 Than đá + 1,800g |
-| **Tôi Thép (+4)** | $+40\%$ ATK | $+20\%$ Tốc độ | 8 Phôi cùng bậc + 8 Than đá + 3,500g |
-| **Tôi Thép (+5 Max)** | $+50\%$ ATK | $+25\%$ Tốc độ | 10 Phôi cùng bậc + 1 Tinh thể quái + 7,000g |
-
-### 3. Khảm Ấn Ngọc Cổ Ngữ (Runic Gem Infusion)
-Mỗi vũ khí từ Bậc 2 trở lên đều sở hữu **1 ổ khảm ngọc cổ ngữ** trên chuôi kiếm/cán búa. Đem đá quý khai thác được đến gặp Boris để khảm hiệu ứng nguyên tố vĩnh viễn:
-
-* 🔴 **Hồng Ngọc (Ruby):** Kích hoạt **Hỏa Thiêu (Burn)** — Đòn đánh đốt cháy kẻ địch, gây sát thương duy trì trong 4 giây.
-* 🔵 **Lam Ngọc (Sapphire):** Kích hoạt **Hàn Băng (Frostbite)** — Giảm $40\%$ tốc độ di chuyển và đòn đánh của quái vật.
-* 🟢 **Ngọc Lục Bảo (Emerald):** Kích hoạt **Bào Tử Độc (Poison Spore)** — Xác suất phóng thích đám mây độc tính khi đánh trúng.
-* 💎 **Kim Cương (Diamond):** Kích hoạt **Chí Mạng Sắc Bén (Critical Edge)** — Tăng vĩnh viễn **$+20\%$ Tỉ lệ đòn đánh chí mạng (x2 sát thương)**.
-* 🟣 **Thạch Anh Tím (Amethyst):** Kích hoạt **Hấp Thu Linh Lực (Stamina Siphon)** — Giảm **$25\%$ Thể lực tiêu hao** cho mọi đòn đánh của vũ khí này.
-* 🟡 **Hoàng Ngọc (Topaz):** Kích hoạt **Trọng Kích Đẩy Lùi (Impact Surge)** — Tăng $+35\%$ lực đánh văng quái vật (Knockback) và phá vỡ thế thủ nhanh hơn.
-
-### 4. Tái Chế Nấu Chảy Phế Liệu (Scrap Salvage)
-Khi người chơi chuyển sang vũ khí bậc cao hơn, các vũ khí cũ không còn sử dụng có thể đưa vào Lò luyện của Boris để nấu chảy:
-* Hoàn lại **$60\%$ số phôi kim loại** đã từng dùng để rèn món đồ đó.
-* Tháo rời và **trả lại 100% viên đá quý** đã khảm vào ổ rune mà không làm vỡ ngọc.
+1. **Rương Kho Báu & Cú Lừa Mimic (75% Thật / 25% Mimic):**
+   * Trong hầm mỏ, $75\%$ rương là thật; **$25\%$ là Cua Ẩn Sĩ Mimic** bật nắp ngoác miệng cắn nuốt! Người chơi tinh ý có thể quan sát nắp rương thở phập phồng nhẹ trước khi mở. Diệt Mimic luôn rơi ra **Thịt Càng Cua Hoàng Đế** béo ngậy.
+   * *Rương Mốc (Tầng 10, 20, 40, 50, 60...):* Luôn là **100% Rương Thật**.
+2. **Dây Thừng Thoát Hiểm (Escape Rope):** Chế tạo từ 10 Sợi Gai Dại hoặc mua từ Bác Bram (150g). Đứng yên 3 giây kích hoạt kéo thẳng Rowan lên mặt đất, **bảo toàn 100% quặng và chiến lợi phẩm trong túi** khi cạn máu ở tầng lỡ cỡ.
+3. **Ống Thông Gió Rơi Tầng (Ventilation Shafts):** Đập đá thường có $1\%$ xác suất sập hố sụt cũ. Nhảy xuống giúp **rơi cóc 3–8 tầng** nhưng bị mất 15–30 HP.
+4. **Giới Nghiêm Mỏ 02:00 Đêm:** Quá 02:00 đêm chưa rời mỏ, Rowan ngất lịm vì kiệt sức $\rightarrow$ Colm kéo cáng về trạm xá, trừ 10% vàng viện phí, hôm sau thức dậy lúc 08:00 sáng.
+5. **Hình Phạt Khi Gục Ngã (HP = 0):** Toàn bộ khoáng sản và chiến lợi phẩm thu thập trong chuyến đi đó **bị rơi lại dưới mỏ mất vĩnh viễn** (vũ khí và trang bị trên người vẫn giữ nguyên).
 
 ---
 
-## 5. Luật Lệ Thám Hiểm & Mức Độ Trừng Phạt (Stakes & Death Mechanics)
+## 5. Danh Mục 4 Đới Địa Chất & 4 Warden Boss
 
-Để giữ đúng tinh thần **Dark Cozy Pixel Art** — vừa có sự căng thẳng hồi hộp khi lặn sâu vào lòng đất, vừa ấm áp và không trừng phạt tàn khốc:
+```mermaid
+flowchart TD
+    D1["ĐỚI 1: ĐẦM THAN BÙN & MỎ ĐỒNG (Tầng 1–30)<br/>Quái: Nấm đi bộ, Quạ mù mỏ thép, Chó ngục mù"] --> B1["TẦNG 30: Golem Hơi Nước Chiến Hào (The Steam Colossus)"]
+    B1 --> D2["ĐỚI 2: LÒ RÈN CỔ KHAZ-DRAKOR (Tầng 31–70)<br/>Quái: Cockatrice, Bọ cạp nham thạch, Lính thiêu than"]
+    D2 --> B2["TẦNG 70: Hỏa Long Hồ Đúc Khaz-Drakor (The Slag Fire Dragon)"]
+    B2 --> D3["ĐỚI 3: HANG RỄ SÂU & RỪNG NẤM (Tầng 71–110)<br/>Quái: Mandrake hét, Kền kền nhại giọng, Đỉa hút tủy"]
+    D3 --> B3["TẦNG 110: Mộc Thần Rễ Treo Cổ (The Blighted Hangman Oak)"]
+    B3 --> D4["ĐỚI 4: VỰC THẲM CỔ VẬT & DI TÍCH (Tầng 111–150)<br/>Quái: Giáp sống nhuyễn thể, Dực quỷ gương, Dị thể soi bóng"]
+    D4 --> B4["TẦNG 150: Tướng Soái Phong Ấn Khaz-Drakor (Ancient Vault Warden)"]
+    B4 --> Endless["TẦNG 151+: VỰC THẲM VÔ TẬN (ENDLESS ABYSS)"]
+```
 
-1. **Khóa Phòng Tử Chiến (Lockdown Chambers):**
-   * Khi bước vào một số mật thất đặc biệt, các cửa đá sẽ sập xuống khóa kín.
-   * Tiêu diệt toàn bộ đợt quái vật hung hãn $\rightarrow$ Cửa đá tự động nâng lên, rương báu xuất hiện ở giữa phòng.
-2. **Đền Thờ Tổ Mẫu Amalia (Grandmother's Shrines):**
-   * Xuất hiện ngẫu nhiên mỗi 10 tầng mỏ hoặc giữa các phòng hầm ngục.
-   * Cho phép chọn 1 trong 3 lời chúc phúc tạm thời cho chuyến thám hiểm đó (ví dụ: *Tăng 15% tốc độ chạy, Hồi 5 Thể lực khi đập vỡ đá, Miễn nhiễm bẫy gai*).
-3. **Khi Rowan Gục Ngã Trong Hầm Mỏ (Defeat Mechanics):**
-   * Bạn **KHÔNG BAO GIỜ mất vĩnh viễn nhân vật (No Permadeath)**.
-   * Bạn **GIỮ NGUYÊN 100%**: Tất cả vũ khí trang bị, tiền vàng trong túi, bản vẽ đã mở khóa và các hòm đồ đã cất an toàn trên mặt đất.
-   * Bạn **CHỈ ĐÁNH RƠI**: Khoảng $30\%$ lượng quặng thô và thảo mộc dã ngoại vừa thu nhặt được trong lần lặn mỏ đó (Boris hoặc Maeve có thể tìm lại giúp bạn một phần vào ngày hôm sau tại quầy Thất lạc).
+* **Tầng 30 — Golem Hơi Nước Chiến Hào (`the_steam_colossus`):** Cỗ xe ủi mỏ răng cưa rỉ máu; dậm chấn động sập trần hang. Điểm yếu: Van xả hơi sau lưng vừa mở sau cú dậm. Rơi **Bánh Răng Khổng Lồ** (nâng cấp Bếp Rowan) và **Muối Khoáng Đáy Lò** (nướng thịt giữ nhiệt 120h).
+* **Tầng 70 — Hỏa Long Hồ Đúc (`the_slag_fire_dragon`):** Rồng lửa khổng lồ bơi dưới rãnh xỉ sắt; vảy chuyển đỏ cam trước khi phun 3 cầu lửa. Rơi **Thịt Bắp Đuôi Rồng** (nấu Lẩu Rồng buff x2 Sát thương 8 phút) và **Mỡ Rồng** mở khóa **Đèn Bão Mỡ Rồng** soi sáng x3.
+* **Tầng 110 — Mộc Thần Rễ Treo Cổ (`the_blighted_hangman_oak`):** Gốc cổ thụ cắm rễ vào mồ chôn cũ; rễ quấn chân, hoa xả phấn mờ màn hình. Rơi **Lõi Gỗ Thiêng Runic** rèn Trượng Bậc 5 và **Quả Sồi Vàng Cổ Đại** nướng Bánh Tổ Mẫu Amalia.
+* **Tầng 150 — Tướng Soái Phong Ấn Khaz-Drakor (`ancient_vault_warden`):** Vị tướng cổ đại nói tiếng người lạnh lùng; 3 Phase chiến đấu tàn khốc. Rơi **Mảnh Trái Tim Cổ Ngữ** hoàn thành cốt truyện Hầm Mỏ và mở cổng **Endless Abyss (Tầng 151+)**.
 
 ---
 
-## 6. Tiền Đồn Mạo Hiểm Giả & Bảng Hợp Đồng Thợ Lặn Mỏ (The Delvers' Lodge & Bounty Commissions)
+## 6. Hệ Thống Lò Rèn Boris & 4 Cấp Geode
 
-Cửa mỏ Oakhaven không chỉ là nơi thợ đào đá làm việc, mà còn là **Tiền Đồn Khai Phá (Delvers' Lodge)** do **Hiệp sĩ Marlo** và **Bác thợ mỏ Bram** quản lý. Đây là điểm tập kết của các Mạo Hiểm Giả / Thợ Lặn Mỏ tự do trước khi dấn thân xuống lòng đất 150 tầng.
+Cửa tiệm Lò rèn Boris phía Đông thị trấn biến đổi khoáng sản thành sức mạnh chiến đấu:
 
-### Vòng Lặp Khép Kín 4 Bước (The 4-Step Delver Loop)
-1. **📜 Nhận Hợp Đồng (Bounty Board):** Xem bảng nhiệm vụ trước cửa mỏ mỗi sáng (tiễu phạt quái vật Blight, tìm quặng thô cho Boris, hoặc hái sâm thảo dược cho Sylvan).
-2. **⛏️ Lặn Mỏ & Thu Thập:** Dùng thang máy mỏ xuống tầng mục tiêu, săn quái, đập đá khai quặng và bắt cá hồ ngầm.
-3. **💰 Nộp Hợp Đồng Đổi Thưởng:** Nhận ngay tiền Vàng mặt cùng **Huy Hiệu Tiền Đồn (`item_delver_crest`)** để tích lũy danh vọng mạo hiểm giả.
-4. **🔨 Tái Đầu Tư Hệ Thống:**
-   * Quặng & phôi kim loại $\rightarrow$ Lò rèn Boris tôi vũ khí ($+1 \rightarrow +5$) và đúc vòi phun nước.
-   * Thảo mộc & sâm quý $\rightarrow$ Chế biến món ăn dược thiện, súp thuốc tăng thể lực mang theo mỏ.
-   * Cá & mỡ cá $\rightarrow$ Thắp đèn lồng thám hiểm và hun khói làm lương khô.
-   * Đêm về $\rightarrow$ Mở cửa Quán Ăn & Nhà Trọ Oakhaven phục vụ các mạo hiểm giả ghé sưởi ấm bên lò sưởi đá cuội.
+### 1. Tôi Thép Vũ Khí (+1 đến +5)
+* Mỗi vũ khí có thể tôi luyện tối đa **5 cấp (+1 đến +5)**. Mỗi cấp $+1$ tăng **$+10\%$ Sát thương** và **$+5\%$ Tốc độ vung đòn**.
+* **Nguyên tắc nhân văn:** Tỉ lệ tôi luyện **LUÔN LUÔN 100% THÀNH CÔNG**, không bao giờ xịt hay vỡ đồ.
 
-### 3 Phân Loại Nhiệm Vụ Khởi Đầu
-* **⚔️ Lệnh Tiễu Phạt (Monster Bounties — Marlo):** Săn lùng bầy nhện đá, bùn hắc hóa, hoặc các Warden Boss mốc tầng $\rightarrow$ Vàng lớn + Huy Hiệu Tiền Đồn.
-* **⛏️ Cung Ứng Khoáng Sản (Supply Orders — Bram & Boris):** Đào than đá, quặng sắt, đá thô $\rightarrow$ Vàng nhanh + Vé giảm giá thang máy mỏ.
-* **🌿 Thu Hái Dược Liệu Đáy Vực (Underground Foraging — Sylvan):** Hái nấm phát quang, sâm dung nham tầng sâu $\rightarrow$ Đan dược hộ mệnh và thuốc giải độc.
+### 2. Khảm Ấn Ngọc Cổ Ngữ Vĩnh Viễn
+* Mỗi vũ khí từ Bậc 2 trở lên sở hữu **1 ổ khảm ngọc**. Đã khảm là **vĩnh viễn, không thể tháo rời** (muốn dùng ngọc khác cần rèn vũ khí mới):
+  * 🔴 **Hồng Ngọc (Ruby):** Kích hoạt **Hỏa Thiêu (Burn)** — Đốt cháy kẻ địch trong 4 giây.
+  * 🔵 **Lam Ngọc (Sapphire):** Kích hoạt **Hàn Băng (Frostbite)** — Giảm 40% tốc độ di chuyển và đòn đánh của quái.
+  * 🟢 **Ngọc Lục Bảo (Emerald):** Kích hoạt **Bào Tử Độc (Poison)** — Phóng đám mây độc tính khi đánh trúng.
+  * 💎 **Kim Cương (Diamond):** Kích hoạt **Chí Mạng (Critical)** — Tăng vĩnh viễn $+20\%$ Tỉ lệ đòn chí mạng.
+
+### 3. Đập 4 Cấp Trứng Khoáng Thạch (Geode Cracking)
+Boris đập trứng với chi phí **25 vàng/lần**:
+* **Geode Thường (Đới 1):** Rơi Thạch anh, Đồng thô, Muối biển tinh thể, Cổ vật mũi tên đá cũ.
+* **Geode Băng & Lửa (Đới 2):** Rơi Hồng Ngọc, Thỏi Sắt, Mảnh hóa thạch sinh vật cổ, Bột ớt dung nham.
+* **Geode Tinh Thể (Đới 3):** Rơi Lam Ngọc, Ngọc Lục Bảo, Bột gia vị mỏ, Cổ vật huy hiệu chiến binh.
+* **Geode Hư Không / Thần Thoại (Đới 4):** Rơi Kim Cương, Mảnh Cầu Vồng (Prismatic Shard), Hạt giống ngầm cổ đại, Thỏi Mithril.
+
+---
+
+## 7. Ẩm Thực Bếp The Hearth Phục Vụ Đi Mỏ Thực Tế
+
+```
+[ QUY TẮC ĂN UỐNG ĐI MỎ ]
+• Tối đa 2 Buff cùng lúc: 1 Món Ăn Chính (Cơm Bento/Súp) + 1 Đồ Uống (Trà/Nước Ép)
+• Thời lượng: 8 phút thời gian thực hoặc trọn vẹn 5 Tầng mỏ
+• Ăn món mới cùng nhóm sẽ Ghi Đè, không cộng dồn quá đà
+```
+
+* 🍀 **May Mắn Đào Mỏ (+2 Luck):** *Càng Cua Mimic Nướng Muối* $\rightarrow$ Tăng mạnh tỉ lệ rơi quặng hiếm & Geode.
+* ⛏️ **Tốc Độ Cuốc Đá (+25% Mining Speed):** *Súp Nấm Đi Bộ Hầm Bơ Tỏi* $\rightarrow$ Vung cuốc nhanh như chớp.
+* 👟 **Tốc Độ Di Chuyển (+20% Move Speed):** *Trà Bạc Hà Núi Đá* $\rightarrow$ Chạy nhanh né đòn và lướt qua bẫy chông.
+* ⚔️ **Sức Mạnh Tấn Công (+20 ATK):** *Thịt Ức Cockatrice Rán Giòn* $\rightarrow$ Hạ quái nhanh hơn 2 nhịp chém.
+* 🛡️ **Phòng Ngự Giáp (+30 DEF):** *Sườn Cừu Rừng Hun Khói Bento* $\rightarrow$ Giảm sát thương khi bị quái cắn lén.
+* 🔥 **Kháng Lửa Dung Nham (+60% Lava Resist):** *Đuôi Bọ Cạp Nham Thạch Nướng Đá Nóng*.
+* 🩸 **Hồi Phục Khẩn Cấp (+100% HP & Stamina):** *Canh Gà Hầm Củ Mandrake*.
+* 👑 **Buff Toàn Diện (Sức Mạnh x2, Tốc Độ +15%, May Mắn +3):** *Lẩu Thịt Đuôi Hỏa Long Đại Bổ*.
+
+---
+
+## 8. Sổ Tay Tiễu Phạt Tiền Đồn (Delvers' Hunt Ledger)
+*(Chỉ tiêu 30–50 con tại Bảng Hợp Đồng của Hiệp sĩ Marlo & Bác thợ mỏ Bram)*
+
+1. **Bầy Nấm Đi Bộ & Thực Vật:** Diệt 40 con $\rightarrow$ Thưởng `Bùa Hộ Mệnh Giải Độc` (Giảm 70% thời gian dính độc).
+2. **Cua Ẩn Sĩ & Bẫy Mimic:** Diệt 30 con $\rightarrow$ Thưởng `Búa Cạy Càng Vàng` (Tăng 25% sát thương lên quái vỏ cứng).
+3. **Kẻ Ăn Xác Bay & Cockatrice:** Diệt 50 con $\rightarrow$ Thưởng `Kính Thợ Mỏ Dạ Quang` (Tăng 20% tầm nhìn bóng tối).
+4. **Bọ Cạp Xỉ Than & Chân Khớp:** Diệt 35 con $\rightarrow$ Thưởng `Găng Tay Da Dày` (Kháng bỏng rát dung nham).
+5. **Thú Săn Mồi & Chó Ngục:** Diệt 30 con $\rightarrow$ Thưởng `Giày Đinh Thợ Mỏ` (Miễn nhiễm trượt chân & hất tung).
+6. **Xác Lính Chiến Hào & Giáp Sống:** Diệt 45 tên $\rightarrow$ Thưởng `Nhẫn Hút Giáp Ảo` (Kết liễu quái hồi $+4$ Giáp Hộ Mệnh).
+7. **Trảm Quyết Toàn Bộ 4 Warden Boss (4/4):** Thưởng `Khế Ước Thợ Rèn Boris` (Giảm vĩnh viễn 30% chi phí tôi luyện vũ khí).
 
 ---
 

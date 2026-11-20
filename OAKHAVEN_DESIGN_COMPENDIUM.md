@@ -95,30 +95,40 @@ Rowan sở hữu không gian sống hoàn toàn riêng biệt nằm trên tầng
   - Chiếu sáng các căn phòng tối đen như mực.
   - Một số quái vật ẩn mình trong bóng đêm chỉ có thể bị phát hiện và dính sát thương khi bước vào quầng sáng của Đèn Lồng.
 
-### 4.2. Danh Mục Quái Vật 4 Đới Địa Chất
+### 4.2. Danh Mục 4 Đới Địa Chất & Quái Vật Hậu Chiến
 
-| Đới Địa Chất & Tầng | Tên Quái Vật | Kiểu Tấn Công & Pattern | Điểm Yếu & Khắc Chế | Chiến Lợi Phẩm Rơi (Loot) |
+| Đới Địa Chất & Tầng | Tên Quái Vật & ID | Kiểu Tấn Công & Pattern Tells | Khắc Chế & Lợi Thế (+25%) | Chiến Lợi Phẩm Ẩm Thực & Rèn Đúc |
 |:---|:---|:---|:---|:---|
-| **Đới 1: Mỏ Khai Thác Cũ**<br/>*(Tầng 1–30)* | **Ấm Trà Quỷ Ám** *(Poltergeist Kettle)* | Bay lơ lửng, phun tia nước sôi cay nồng gây bỏng nhẹ liên tục. | Dễ bị gián đoạn đòn khi ăn chém cận chiến. | Đồng phế liệu, Dầu thực vật cô đặc. |
-| | **Bọ Tinh Thể Ám Tối** *(Dark Crystal Scarab)* | Bò nhanh bám tường, phóng mảnh vụn thạch anh nhọn hoắt. | Mai cứng, yếu trước sát thương búa tạ và bom. | Thạch anh đen, Mảnh giáp bọ. |
-| | **Slime Thạch Gai** *(Spiky Slime)* | Nhảy cao bổ nhào dập đất làm chậm người chơi, phân tách khi chết. | Vũ khí quét rộng (Liềm AoE). | `Thạch Tinh Thể Đổi Màu` (nguyên liệu nấu ăn). |
-| | **Dơi Cắn Trộm** *(Glow-Wing Bat)* | Bay lượn zíc-zắc khó đoán, lao thẳng vào mặt hút máu. | Đứng yên canh chém chuẩn nhịp tiếp cận. | Cánh dơi dạ quang, `Quả Mọng Ánh Trăng`. |
-| | **Cua Đá Mai Cứng** *(Crystal Rock Crab)* | Ngụy trang tảng đá, bất ngờ kẹp đôi gây choáng và phản đòn. | Dùng Cuốc chim hoặc Bom lật ngửa mai. | `Muối Biển Tinh Thể`, Mai cua cứng. |
-| **Đới 2: Lò Luyện Cổ Khaz-Drakor**<br/>*(Tầng 31–70)* | **Người Máy Lò Hơi** *(Furnace Cog-Automaton)* | Bụng đỏ rực phun cột lửa xoay tròn 360 độ và quạt khói độc. | Bị làm chậm bởi đòn tấn công hàn băng. | `Bánh Răng Vàng Ròng`, Than cốc cao cấp. |
-| | **Ốc Sên Quặng Dung Nham** *(Magma Magnesnail)* | Vỏ nam châm nóng chảy hút giật vũ khí sắt của người chơi, để lại vệt nham thạch rực lửa trên sàn. | Đánh từ tầm xa bằng Pháp trượng/Cung. | `Thỏi Đồng Nung`, Kim cương đỏ thô. |
-| | **Chuột Chũi Thợ Khoan Cơ Khí** *(Steam-Mole Driller)* | Độn thổ dưới lòng đất, trồi lên bất ngờ hất tung đá và gây choáng. | Đặt bom ngay tại vị trí mặt đất rung chuyển. | Linh kiện cơ khí cổ, Mũi khoan hợp kim. |
-| **Đới 3: Rừng Sâu Cổ Tích Sylva-Fae**<br/>*(Tầng 71–110)* | **Rễ Cây U Uất** *(Gloom-Root Strangler)* | Rễ cây đen ngòm vươn dài từ đất quấn chân Rowan, chóp hoa bắn gai độc làm mờ màn hình. | Rìu chiến hoặc vũ khí chém có khảm ngọc Lửa. | Rễ thảo mộc quý, Tinh chất gỗ sồi. |
-| | **Bướm Đêm Nghiện Mật** *(Nectar Phantasm Moth)* | Bay tầm cao, thả bột phấn hoa gây mê ngủ và lao xuống cướp máu. | Đèn Lồng Đom Đóm làm chói mắt rơi xuống đất. | `Phấn Hoa Ánh Kim`, Cánh bướm phát quang. |
-| | **Mộc Tinh Tinh Nghịch** *(Bramble Puck)* | Yêu tinh rêu chạy cực nhanh, ném quả nổ bùn lầy làm bẩn và chậm 60% tốc độ. | Áp sát nhanh bằng phím Lướt Dash. | Bùn sao giàu dưỡng chất, Hạt giống quý. |
-| **Đới 4: Cung Điện Ánh Sao Solaria**<br/>*(Tầng 111–150)* | **Bộ Giáp Kỵ Sĩ Vô Hồn** *(Astral Hollow Knight)* | Bộ giáp cẩm thạch trắng vung đại kiếm chém ra sóng pha lê bay thẳng xuyên phòng. | Lướt ra sau lưng chém đòn chí mạng khi hắn vung kiếm. | Mảnh giáp cẩm thạch, Lõi hộ mệnh cổ. |
-| | **Cổ Thư Phản Phệ** *(Grimoire Mimic)* | Sách phép có răng nhọn bay lượn trên không, bắn chùm tia ma thuật tự tìm mục tiêu. | Chém gián đoạn phép thuật lúc sách mở trang. | Mực ma thuật, Trang sách công thức cổ. |
-| | **Quạ Gương Thiên Văn** *(Mirror-Glass Raven)* | Quạ cánh gương vỡ phản chiếu ánh sáng làm mù mắt và phản lại 50% sát thương tầm xa. | Bắt buộc phải áp sát đánh cận chiến. | Mảnh gương sao, Lông vũ lấp lánh. |
+| **Đới 1: Đầm Than Bùn & Mỏ Đồng Cũ**<br/>*(Tầng 1–30)* | **Nấm Đi Bộ Than Bùn** *(walking_peat_mushroom)* | Đi lủi thủi 2 chân, mũ nấm phập phồng xả bào tử cay mắt. | Liềm chém quét rộng đứt chân. | `Chân Nấm Đi Bộ` (xào bơ tỏi), Bào tử men rượu. |
+| | **Cua Rương Gỗ Mimic** *(wooden_chest_mimic)* | 25% ngụy trang hòm gỗ cũ, nắp thở phập phồng trước khi cắn nuốt. | Búa Tạ đập vỡ vỏ rương. | `Thịt Càng Cua Mimic`, Bản lề sắt cho Boris. |
+| | **Quạ Mù Mỏ Thép** *(iron_beaked_carrion_crow)* | Kêu éc éc rồi lao bổ mổ liên tục từ trần hang. | Kiếm chém đón đầu nhịp bổ. | `Thịt Đùi Quạ Hun Khói`, Mỏ đồng rỉ. |
+| | **Chó Săn Ngục Mù Mắt** *(blind_trench_hound)* | Mù mắt, tai thính, lao cắn theo tiếng cuốc mỏ. | Ném đá cuội đánh lạc hướng. | `Sườn Thú Ngầm`, Nanh dao găm. |
+| | **Xác Lính Cuốc Đá** *(trench_miner_ghoul)* | Giơ cuốc chim gãy lên cao 1s trước khi bổ mạnh. | Lướt né, chém sau lưng. | Bình toong rượu cũ, Quặng Đồng. |
+| | **Vong Hồn Chiến Hào** *(trench_murmur_phantom)* | Tạo sương mù, giả tiếng còi hiệu chiến tranh cũ để hút thể lực. | Rọi Đèn Lồng xua ảo ảnh. | `Kỷ Vật Binh Sĩ Rỉ Sét` (cầu siêu Bàn Thờ Cổ Đại). |
+| **Đới 2: Lò Luyện Cổ Khaz-Drakor**<br/>*(Tầng 31–70)* | **Khối Xỉ Sắt Sôi Sục** *(boiling_slag_slime)* | Khối quặng xỉ sủi bọt khí ga trước khi bắn tóe magma. | Đòn Băng làm đông cứng xỉ. | Mỡ khoáng chiên giòn, Quặng Sắt. |
+| | **Cua Nồi Đồng Nung Chảy** *(cauldron_crab)* | Càng gõ cheng cheng vào nồi phản đòn kiếm trực diện. | Nỏ bắn khe mắt hoặc Búa Tạ. | `Thịt Cua Nồi Đồng`, Thỏi Đồng Đỏ. |
+| | **Cockatrice Chiến Hào** *(trench_cockatrice)* | Mắt đỏ rực 0.5s trước khi phóng tia nhìn tê cứng (-30% tốc). | Parry cú mổ đầu hoặc lướt né. | `Thịt Ức Gà Đá Rán Giòn` (+20 ATK), Lông đuôi tên. |
+| | **Bọ Cạp Xỉ Than Khổng Lồ** *(magma_scythe_scorpion)* | Đập càng rầm rầm trước khi phóng kim độc lửa từ đuôi. | Lướt né, chặt đứt đốt đuôi. | `Thịt Đuôi Bọ Cạp Nướng` (Kháng Lửa 60%), Gai rèn. |
+| | **Lính Thiêu Hóa Than** *(charred_pyre_sentry)* | Gõ chuôi kiếm vào khiên 2 nhịp trước khi chém lửa. | Parry nhịp gõ thứ 2 (0.4s). | Giáp sắt tôi nhiệt, Than cốc. |
+| | **Chuột Chũi Lưỡi Cưa** *(saw_mouthed_gouger)* | Mặt đất rung chuyển trước khi trồi lên xoay cưa sắt. | Đặt bom nổ ngay điểm đất nứt. | Thịt thú nạc, Mũi khoan hợp kim. |
+| **Đới 3: Hang Rễ Sâu & Rừng Nấm Độc**<br/>*(Tầng 71–110)* | **Củ Mandrake Hét Ra Lửa** *(shrieking_mandrake_root)* | Nằm ẩn dưới rễ; cuốc trúng trồi lên rú tiếng thét gây choáng. | Lướt né tức thì khi nghe tiếng rít. | `Củ Mandrake Ngàn Năm` (hồi 100% HP & Stamina). |
+| | **Cua Rễ Gai Hắc Ám** *(brier_shelled_crab)* | Rễ quấn quanh thân cọ xát trước khi quắp chân kéo lê. | Khảm Hỏa đốt cháy lớp vỏ rễ. | Gạch cua rêu rừng, Gai rễ cổ thụ. |
+| | **Kền Kền Nhại Giọng** *(mocking_harpy_crow)* | Rụng lông tơi tả, nhại tiếng người rên rỉ trước khi bổ nhào. | Đèn Lồng Đom Đóm làm chói mắt. | `Cánh Chim Hầm Hạt Dẻ`, Móng vuốt đoản đao. |
+| | **Đỉa Khổng Lồ Hút Tủy** *(marrow_leech)* | Miệng tròn co thắt 1s trước khi ngoạm chặt rút máu. | Đuốc lửa hoặc Búa đập nát miệng. | Dịch nhớt đỉa làm đông thạch tráng miệng. |
+| | **Tử Sĩ Mặt Nạ Khí Độc** *(gas_mask_revenant)* | Thở phì phò qua mặt nạ vỡ, tỏa khói độc xanh bóp nghẹt phổi. | Đòn chém gió hoặc Nỏ bắn từ xa. | Màng lọc than hoạt tính, Quặng Vàng. |
+| | **Chó Bới Mộ Sâu** *(grave_stalker_jackal)* | Răng nanh phát quang, lao chồm cắn xé theo tiếng động. | Rọi Đèn Lồng phá tàng hình. | Gân thú dai bền, Da thú thuộc. |
+| **Đới 4: Vực Thẳm Cổ Vật & Di Tích Chìm**<br/>*(Tầng 111–150)* | **Hoa Hỗn Mang Vực Thẳm** *(chaos_abyssal_flower)* | Hoa tím nở trên vách cẩm thạch, cánh rung tỏa phấn ru ngủ. | Bắn tên lửa từ xa đốt cháy hoa. | `Nhụy Hoa Hỗn Mang Lên Men` (siro bánh nướng). |
+| | **Mimic Rương Vàng Hoàng Kim** *(golden_king_mimic)* | Hòm vàng nạm ngọc, càng to nghiền giáp sắt, kháng bắn tỉa. | Lướt ra sau lưng trảm đòn chí mạng. | `Trứng Cua Vàng Vương Giả`, Vàng thỏi. |
+| | **Dực Quỷ Xương Gương** *(shattered_bone_gargoyle)* | Cánh gắn mảnh gương vỡ, chém sóng xung kích phản đòn tầm xa. | Bắt buộc áp sát đánh bằng Búa Tạ. | `Tủy Cánh Linh Thú Nướng` (+10 Max Stamina). |
+| | **Giáp Sống Bầy Nhuyễn Thể** *(living_armor_mollusk)* | Giáp cẩm thạch rỗng chứa bầy sò điều khiển; gõ khiên 2 nhịp. | Parry nhát chém nhịp 2, đập vỡ giáp. | `Thịt Sò Nhuyễn Thể` (Súp nghêu +50% Giáp). |
+| | **Cự Trùng Vết Nứt Hư Không** *(abyssal_trench_worm)* | Sâu đất há miệng đầy răng kim cương hút nuốt tài nguyên. | Bắn bom nổ vào họng khi há miệng. | Túi khoáng thạch trong bụng, Kim cương thô. |
+| | **Dị Thể Soi Bóng** *(the_abyssal_mirror_shifter)* | Bản sao bóng tối của chính Rowan; sao chép đúng vũ khí & combo. | Khắc chế lối đánh bằng vũ khí phụ. | `Mảnh Gương Vực Thẳm Cổ Đại` (rèn phản đòn). |
 
 ### 4.3. Đấu Trường Thủ Vệ (Warden Boss Fights)
-- Tầng 30: **Golem Máy Hơi Nước Bất Bại (The Steam Colossus)** — Triệu hồi cột khói ngạt và dậm đất rung chuyển cả tầng mỏ.
-- Tầng 70: **Hỏa Long Nham Thạch (Magma Behemoth)** — Bơi trong bể dung nham, phun mưa cầu lửa khắp phòng đá.
-- Tầng 110: **Đại Thư Viện Trưởng Cổ Đại (Arch-Librarian Phantom)** — Tạo phân thân ma thuật và bẫy sách rực sáng.
-- Tầng 150: **Thủ Vệ Tinh Tú Khaz-Drakor (Aether Void Sentinel)** — Boss tối thượng sở hữu 3 giai đoạn chiến đấu, kiểm tra toàn bộ kỹ năng vũ khí và chuẩn bị buff thức ăn của người chơi.
+- Tầng 30: **Golem Hơi Nước Chiến Hào (The Steam Colossus)** — Cỗ xe ủi mỏ răng cưa rỉ máu; dậm chấn động sập trần hang. Điểm yếu: Van xả hơi sau lưng. Rơi *Bánh Răng Khổng Lồ* (nâng cấp Bếp) và *Muối Khoáng Đáy Lò* (bento giữ nhiệt 120h).
+- Tầng 70: **Hỏa Long Hồ Đúc Khaz-Drakor (The Slag Fire Dragon)** — Rồng lửa khổng lồ bơi dưới rãnh xỉ; vảy chuyển đỏ cam trước khi phun 3 cầu lửa. Rơi *Thịt Bắp Đuôi Rồng* (Lẩu Rồng buff x2 ATK) và *Mỡ Rồng* (mở khóa Đèn Bão Mỡ Rồng soi sáng x3).
+- Tầng 110: **Mộc Thần Rễ Treo Cổ (The Blighted Hangman Oak)** — Gốc cổ thụ ngầm cắm rễ vào mồ chôn cũ; rễ quấn chân, hoa xả phấn mờ màn hình. Rơi *Lõi Gỗ Thiêng Runic* và *Quả Sồi Vàng Cổ Đại* (Bánh Tổ Mẫu miễn nhiễm độc 24h).
+- Tầng 150: **Tướng Soái Phong Ấn Khaz-Drakor (Ancient Vault Warden)** — Vị tướng cổ đại nói tiếng người lạnh lùng; 3 Phase chiến đấu tàn khốc. Rơi *Mảnh Trái Tim Cổ Ngữ* (hoàn thành Campaign) và mở cổng **Endless Abyss (Tầng 151+)**.
 
 ---
 
@@ -129,10 +139,10 @@ Rowan sở hữu không gian sống hoàn toàn riêng biệt nằm trên tầng
 2. **Quặng Sắt (Iron Ore) & Thỏi Sắt:** Tầng 31–70. Rèn trang bị cấp 2, Bếp nướng, Vòi tưới 8 ô.
 3. **Quặng Vàng (Gold Ore) & Thỏi Vàng:** Tầng 71–110. Chế tạo máy móc tự động, Vòi tưới cao cấp, Đồ trang sức.
 4. **Quặng Mithril (Mithril Ore) & Thỏi Mithril:** Tầng 111–140. Kim loại nhẹ sắc bén, kháng phép thuật.
-5. **Quặng Bụi Sao (Aetherium / Void Ore) & Thỏi Bụi Sao:** Tầng 141–150+. Rèn vũ khí tối thượng và Vòi tưới 24 ô.
+5. **Quặng Hư Không (Void Ore) & Thỏi Void:** Tầng 141–150+. Rèn vũ khí tối thượng Bậc 6 và Vòi tưới 24 ô.
 
 ### 5.2. Đá Quý & Trứng Khoáng Thạch (Geodes)
-- **Trứng Khoáng Thạch (Geode):** Thu thập khi đập đá hầm mỏ (Geode Thường, Geode Băng, Geode Dung Nham, Geode Tinh Tú). Mang đến Lò rèn Boris để đập mở khóa cổ vật, đá quý và muối khoáng ẩm thực.
+- **Trứng Khoáng Thạch (Geode):** Thu thập khi đập đá hầm mỏ (Geode Thường, Geode Băng & Lửa, Geode Tinh Thể, Geode Hư Không). Mang đến Lò rèn Boris đập (25g/lần) để mở khóa cổ vật, đá quý và muối khoáng ẩm thực.
 - **Đá Quý:** Hồng Ngọc, Lam Ngọc, Ngọc Lục Bảo, Hoàng Ngọc, Thạch Anh Tím, Kim Cương, Mảnh Cầu Vồng (Prismatic Shard).
 
 ### 5.3. 5 Loại Ngọc Tinh Linh Khảm Vĩnh Viễn (Soul Essences)
