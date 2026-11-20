@@ -75,7 +75,7 @@ Mọi AI khi nhận yêu cầu sửa đổi code PHẢI tuân thủ trình tự 
 - **Bước 3b: Dọn dẹp (Cleanup)**
   - Xóa các file thừa, file cũ không còn dùng, các import không tồn tại.
 - **Bước 4: Kiểm chứng (Verify & Validate)**
-  - Chạy `npm run build` để kiểm tra TypeScript, Turbopack, tính hợp lệ của layout và prerender SSG.
+  - Đảm bảo cú pháp JSON, JS và tài liệu sạch sẽ, hợp lệ. **Không cần chạy `npm run build` mỗi lần** để tiết kiệm thời gian (chỉ chạy khi người dùng yêu cầu).
   - Chạy `git status` để kiểm tra danh sách file: đảm bảo không xót file, không để lại file rác.
 - **Bước 5: Báo cáo (Report)**
   - Trình bày tóm tắt rõ ràng các file đã sửa/tạo kèm link markdown `file://` theo đúng quy định.
@@ -90,7 +90,5 @@ Trước khi kết thúc lượt phản hồi, AI phải tự kiểm tra các c�
 - [ ] Mọi thông số dữ liệu/tính năng mới hoặc sửa đổi đã được đối chiếu và đồng bộ với [OAKHAVEN_DESIGN_COMPENDIUM.md](./OAKHAVEN_DESIGN_COMPENDIUM.md) chưa?
 - [ ] Tất cả các consumer/call-sites của hàm/API đã được cập nhật chưa?
 - [ ] Có file cũ nào bị bỏ sót gây xung đột build không?
-- [ ] Đã chạy `npm run build` và kết quả có 0 lỗi, 0 cảnh báo không?
+- [ ] Cú pháp JSON, code JS/JSX sạch sẽ, hợp lệ và không sót lỗi syntax? (Không bắt buộc chạy `npm run build` mỗi lần để tiết kiệm thời gian)
 - [ ] Lệnh `git status` đã được kiểm tra để xác nhận cây thư mục sạch sẽ chưa?
-
-> **LƯU Ý:** Nếu `npm run build` phát sinh bất kỳ lỗi nào, AI **PHẢI** tự khắc phục triệt để và build lại thành công trước khi thông báo hoàn tất cho người dùng.

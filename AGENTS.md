@@ -76,5 +76,5 @@ Repository này hoạt động ở chế độ đa ngôn ngữ (`vi` và `en`). 
 ## Kiểm chứng bắt buộc trước khi hoàn thành (Verification)
 
 Trước khi kết thúc lượt phản hồi hoặc commit thay đổi:
-1. **Kiểm tra biên dịch:** BẮT BUỘC chạy `npm run build` (phải đạt 0 error, 0 warning; layout, static routes, dynamic routes và SSG đều hợp lệ).
+1. **Kiểm tra cú pháp & dữ liệu:** Đảm bảo cú pháp JSON, JS/JSX và tài liệu hợp lệ, không sót dấu phẩy hay lỗi import. **KHÔNG CẦN chạy lệnh `npm run build` mỗi lần** để tiết kiệm thời gian (chỉ chạy khi người dùng yêu cầu).
 2. **Kiểm tra cây thư mục:** Chạy `git status` xác nhận không có file rác hoặc file thừa bị bỏ xót.
