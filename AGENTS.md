@@ -64,7 +64,10 @@ Repository này hoạt động ở chế độ đa ngôn ngữ (`vi` và `en`). 
 
 ## Quy chuẩn Viết Nội Dung & Lore Wiki (Anti-AI Cliché & Grounded Tone)
 
-- **Cấm văn sáo rỗng ChatGPT:** Tuyệt đối không dùng văn mẫu triết lý tâm lý học sến súa (*"chữa lành tâm hồn", "hàn gắn vết thương sâu kín", "ánh lên tia hy vọng", "tâm chấn cảm xúc"*).
+- **Cấm văn sáo rỗng ChatGPT & Quy trình tự soát AI-Slop (Mandatory Anti-AI-Slop Review):**
+  * Tuyệt đối không dùng văn mẫu triết lý tâm lý học sến súa (*"chữa lành tâm hồn", "hàn gắn vết thương sâu kín", "ánh lên tia hy vọng", "tâm chấn cảm xúc", "mỉm cười thanh thản", "ôm chầm khóc nức nở"*).
+  * Không dùng từ ngữ thổi phồng đao to búa lớn: tránh biến chợ làng thung lũng thành *"giao thương bùng nổ của toàn đại lục"*, *"kinh tế chấn động"*.
+  * **BẮT BUỘC RÀ SOÁT KHI TẠO NỘI DUNG MỚI:** Trước khi lưu hoặc commit bất kỳ tài liệu/dữ liệu hội thoại/mô tả nào, Agent bắt buộc phải tự review: *Nội dung này có mùi AI-Slop không? Có sến không? Có đời thường mộc mạc chưa?* Nếu có mùi AI, phải sửa ngay thành ngôn từ dân dã, chân thực.
 - **Mộc mạc & Đời thực:** Nhân vật và cốt truyện phải có gai góc, tật xấu đời thường, gắn liền với lo toan cơm áo gạo tiền, mùa màng, nhà dột, chuột cắn lúa, nợ quán, tính khí bộc trực/cộc cằn.
 - **Tiết kiệm Asset:** Bám sát cấu trúc 3 tầng NPC (Tier 1 Core 8-10, Tier 2 Dịch vụ 12-15, Tier 3 Quần chúng 15-18), không đặt ra các yêu cầu sprite/animation bất khả thi cho đội ngũ artist.
 
