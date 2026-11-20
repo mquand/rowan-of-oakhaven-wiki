@@ -7,122 +7,122 @@ tags: [events, festivals, calendar, market, hearth-events, regional-fairs]
 spoiler: false
 ---
 
-# 🏮 Oakhaven Festivals & Events (Regional Fairs & Pop-up Markets)
+# 🏮 Oakhaven Festivals & Regional Gathering Fairs
 
-The valley of Oakhaven breathes with life across four distinct seasons (`4 seasons × 28 days = 112 days`). Festivals are not mere village gatherings; they are **continental trade milestones** uniting **51 local townsfolk with outlander merchant caravans, exiled aristocrats, rugged delvers, and deep-sea voyagers**.
+The valley of Oakhaven breathes alongside the rhythm of the 4 seasons (). Festivals are not merely internal village celebrations, but **regional trade summits** bringing together **51 local residents, outlander merchant caravans, exiled nobility, mine delvers, and ocean navigators**.
 
-Festivals rotate across **4 distinct geographical realms**, capturing the spirit of postwar frontier survival and cultural reclamation.
+To avoid in-game daily overload and prevent feature creep for a solo developer, each festival day grants the player **2 Activity Points (Tickets)** to enjoy **exactly 2 core activities** (morning & afternoon/evening) along with the **Pop-up Street Food Stall**.
 
----
-
-## 🌸 1. Vernal Cleansing & Ancient Grove Fair (Spring 15)
-
-* **Time:** `08:00 – 23:00`, Spring 15.
-* **Realm Location:** Ancient Altar at Whispering Woods Edge & Highland Aqueduct Headwaters.
-* **Significance:** A solemn, mystical ceremony commemorating fallen soldiers, dredging irrigation culverts for paddy irrigation, and cleansing toxic miasma.
-* **Outlander Merchants & Guests:**
-  - *Itinerant Herbalists & Monks:* Visiting the altar to offer incense and trade deep-forest seeds.
-  - *Rosemary's Altar Stall & Iris's Archaeology Counter:* Trading archaic incenses and ancient relics for fresh harvest produce.
-* **Key Activities & Minigames:**
-  1. **Ancient Altar Banquet Offering:** Offer a 5-course 3-Star cleansing feast (Snow lotus potage, steamed forest mushrooms, salted bamboo rice).
-  2. **Aqueduct Sluice Dredging:** Smash obstructive granite boulders with picks or Gomer's blasting charges before midday.
-  3. **Tea Service for Elders:** Rowan serves steaming Snow Lotus tea to Maeve, Silas, and town elders beside the blooming plum trees.
-* **Exclusive Collectible Stalls (Traded for Festival Tokens):**
-  - 🌱 **Rare Seeds:** *Snow Lotus Tea Seeds* (12-day growth, perennial yields), *Luminescent Spore Stems*.
-  - 🛠️ **Unique Tools:** *Silver Herb Cleaver* (herb forage yields are guaranteed 2-3 Stars).
-  - 🛋️ **Tavern Cozy Furniture:** *Ancient Bronze Grove Windchime* (+12 Cozy), *Whispering Incense Censer*.
-* **Rewards & Unlocks:**
-  - 🔓 **Terraced Rice Paddy Reclamation:** Permanently clears the canal flow, unlocking summer rice farming.
-  - 🏆 **Secret Achievement:** `ACH_CANAL_CLEANSER`.
+Festivals rotate across **4 characteristic regional hubs**, reflecting the post-war survival atmosphere of Oakhaven.
 
 ---
 
-## ☀️ 2. Frontier Waters Gala & Stream Lantern Night (Summer 18)
+## 🌸 1. Requiem Rite & Whispering Woods Ancient Fair (Spring 15)
 
-* **Time:** `09:00 – 24:00`, Summer 18.
-* **Realm Location:** Oakhaven Lake Wharf & Reed Marshlands (Vael & Old Tad's domain).
-* **Significance:** Brimming with maritime vitality, sea salt, grilled fish, and aged rum. Celebrating glacial cave divers, marsh fishermen, and oceanic voyagers.
-* **Outlander Merchants & Guests:**
-  - *Captain Garrick's 3-Masted Flagship:* Mooring with full expeditionary crew and Southern Coral Archipelago merchants.
-  - *Island Coral Traders:* Pitching silk tents selling pearls, tortoise carapaces, and exotic spices.
-  - *Diver Vael & Old Tad's Fresh Catch Grill:* Plumes of savory marsh catfish smoke filling the cove.
-* **Key Activities & Minigames:**
-  1. **Master Parry Sparring Ring:** Step into the wooden arena with Master Valerius and Knight Hester; parry mechanical training dummies for 60 seconds.
-  2. **Smelting & Granite Cleaving:** Race against Boris and Gomer to crack 5 dense granite boulders.
-  3. **Firefly Boat Ride (From 19:30):** Invite a 4+ Heart companion to row across lantern-lit waters, setting adrift wish lanterns into the night.
-* **Exclusive Collectible Stalls (Traded for Festival Tokens):**
-  - 🌱 **Rare Seeds:** *Nebula Melon Seeds* (lucrative cash crop), *Hellfire Sea Chili Bushes*.
-  - 🛠️ **Unique Tools:** *Garrick's Deep-Trench Bamboo Rod* (+30% cast range), *Steel Crab Trap Pots*.
-  - 🛋️ **Tavern Cozy Furniture:** *Luminescent Firefly Terrarium* (+15 Cozy), *Weathered Galleon Anchor*.
-* **Rewards & Unlocks:**
-  - 🛡️ **Honorary Vanguard Insignia:** Permanently reduces equipment durability degradation by **15%** in the 150-floor mine.
-  - 🏆 **Secret Achievement:** `ACH_RIVER_ROMANCE` (Row with an 8+ Heart soulmate).
+* **Time:** , Spring 15.
+* **Location:** Ancient Altar Clearing on the Whispering Woods Edge & Headwater Canal.
+* **Cultural Atmosphere:** Solemn, mystical, sacred. Commemorating fallen expedition soldiers, clearing canal blockages, and purifying lingering miasma.
+* **2 Core Activities (1 Activity Ticket each):**
+  1. **Headwater Megalith Canal Dredging (Morning):** Break boulders choking the waterway before 12:00.
+     - *Basic Tier (Break 2 boulders):* Temporarily unblocks freshwater flow.
+     - *Master Tier (Clear all 5 boulders):* Permanently restores freshwater irrigation, unlocking Paddy Rice farming in Summer + 50 Fair Tokens.
+     - *Safety Net:* If missed or failed, the Town Restoration Board (unlocked Week 1 Spring at Town Hall) posts a quest requiring 30 Hardwood + 20 Stone for Boris and Gomer to clear in 3 days.
+  2. **Ancient Altar Offering Ceremony (Afternoon/Evening):** Present a 3-course purification feast (Snow Lotus Soup, Bamboo Salt Rice, Steamed Wild Forest Mushrooms) to dispel lingering miasma. Grants **+40 Fair Tokens** and a seasonal blessing.
+* **Exclusive Fair Booth (Fair Tokens):**
+  - 🌱 **Seeds:** *Snow Lotus Tea Seed* (high-yield perennial crop; not a story progression blocker), *Bioluminescent Spores*.
+  - 🛠️ **Tools:** *Silver Rooting Knife* (herb forages guaranteed 2-3 Stars).
+  - 🛋️ **Hearth Cozy Decor:** *Ancient Woods Wind Chime* (+12 Cozy), *Ceramic Cloud Censer*.
+* **Rewards & Achievements:**
+  - 🔓 **Terrace Land Reclamation:** Restores freshwater flow for Summer crops.
+  - 🏆 **Achievement:** .
 
 ---
 
-## 🍂 3. Grand Imperial Expo & Central Rail Fair (Autumn 20)
+## ☀️ 2. Water Fair & Streamside Lantern Night (Summer 18)
 
-* **Time:** `10:00 – 24:00`, Autumn 20.
-* **Realm Location:** Oakhaven Central Plaza connected to the restored Central Railway Terminal.
-* **Significance:** Economic zenith of the year. Oakhaven welcomes luxury locomotives from the Imperial Capital of Solaria carrying aristocrats, imperial culinary judges, and industrial syndicates.
-* **Outlander Merchants & Guests:**
-  - *Solarian Capital Express Train:* Imperial court chefs, clockwork engineers, and gourmet judges.
-  - *Old Silas & His Pack Mule:* Laden with desert spices and nomadic woven rugs.
-  - *Barnaby's Giant Produce Auction:* Bidding on 3x3 mega pumpkins and prize winter radishes.
-  - *Valen de Montfort:* Descending to the plaza in tailored Solarian finery to receive diplomatic emissaries.
-* **Key Activities & Minigames:**
-  1. **Autumn Culinary Contest:** Enter 3 prepared signature courses (appetizer, main, dessert) judged on freshness, star tier, and flame technique.
-  2. **Giant Produce Bidding:** Sell giant crops for massive gold sums.
-  3. **Tavern Autumn Hospitality:** Throw open The Hearth's double doors, handing free warm pumpkin pasties to laborers and orphans.
-* **Exclusive Collectible Stalls (Traded for Festival Tokens):**
-  - 🌱 **Rare Seeds:** *Solarian Night Grape Vine Stocks* (oak-barrel vintage wine), *Imperial Red Beetroot Seeds*.
-  - 🛠️ **Unique Tools:** *Steam Precision Seeder Blueprint*, *Solarian Gold Pocket Watch*.
-  - 🛋️ **Tavern Cozy Furniture:** *Imperial Silver Cutlery Set* (+20 Cozy, attracts affluent patrons), *Metropolitan Hand-Woven Rug*, *Autumn Symphony Phonograph Disc*.
-* **Rewards & Unlocks:**
-  - 💰 **Master Chef Privileges:** Permanently increases menu selling prices by **+15%** at The Hearth.
-  - 🏆 **Secret Achievement:** `ACH_GOLDEN_LADLE` (Score 300/300 in the Culinary Contest).
+* **Time:** , Summer 18.
+* **Location:** Oakhaven Lake Pier & Reed Marshes (Vael & Old Tad's dock).
+* **Cultural Atmosphere:** Vibrant, seafaring, filled with the aroma of charcoal-grilled fish and spiced rum. Celebrating ice-mine divers and deep-sea navigators.
+* **2 Core Activities (1 Activity Ticket each):**
+  1. **Master Parry Arena Challenge (Afternoon):** Step onto the wooden ring with Valerius & Hester to parry mechanical training dummies for 60s.
+     - *Novice Class (1.0s generous window):* Accessible to all players. Reward: **Bronze Delver Crest (−5% mine weapon durability loss)** + 30 Tokens.
+     - *Master Class (Requires Valerius 8 Hearts):* Strict 0.2s parry window. Reward: **Gold Delver Crest (−15% mine weapon durability loss)** + 60 Tokens. *(Can re-challenge in Year 2 to upgrade).*
+  2. **Streamside Lantern Night (From 19:30):** Row a wooden skiff into the firefly-lit lake to float lanterns (+40 Tokens).
+     - *With Companion (4+ Hearts):* Triggers an intimate dialogue scene (+80 Hearts).
+     - *Without 4 Hearts:* Rowan can invite **Maeve or Old Silas** to listen to pre-war lore (+50 Elder Hearts, bonus seeds), or **row alone in peaceful contemplation** gaining the *Peaceful Soul Buff* (+30 Max Stamina, +10% Speed next day).
+* **Exclusive Fair Booth (Fair Tokens):**
+  - 🌱 **Seeds:** *Nebula Melon Seeds*, *Sea Devil Pepper Bush*.
+  - 🛠️ **Tools:** *Garrick's Deep-Sea Bamboo Rod* (+30% cast range), *Steel Crab Trap*.
+  - 🛋️ **Hearth Cozy Decor:** *Luminescent Firefly Jar* (+15 Cozy), *Ancient Bronze Anchor*.
+* **Rewards & Achievements:**
+  - 🛡️ **Delver Crest:** Permanent reduction of weapon wear in mines.
+  - 🏆 **Achievement:** .
 
 ---
 
-## ❄️ 4. Wolf-Fang Campfire & Solstice Hearth Gathering (Winter 28)
+## 🍂 3. Grand Trade Expo & Capital Railway Fair (Autumn 20)
 
-* **Time:** `12:00 – 02:00` dawn, Winter 28 (Year-End Vigil).
-* **Realm Location:** Daytime at **Wolf-Fang Peak Sky-Tram Station & Thermal Springs**; Nighttime withdrawal into **The Hearth Great Hall**.
-* **Significance:** Bitter alpine frost tempered by profound human warmth. Uniting dwarven delve clans, alpine rangers, and wanderers seeking home.
-* **Outlander Merchants & Guests:**
-  - *Northern Dwarven Quarry Guild:* Descending from snowbound peaks to drink dark ale and trade uncut raw gemstones.
-  - *Frontier Border Patrol Scouts:* Seeking refuge from mountain blizzards inside The Hearth.
-  - *Knight Hester & Master Valerius:* Running an open snow-sparring dojo.
-* **Key Activities & Minigames:**
-  1. **The Grand Communal Pot (Bách Vị Stew):** Rowan oversees a massive iron cauldron boiling at the tavern's hearth. Every resident contributes home-cured rations (Boris brings salt pork, Tad brings dried eel, Maeve brings frost turnips).
-  2. **Midnight Fireside Confessions:** At 23:00, all grudges fade. Boris and Bram clink pewter steins after a decade of silence; Valen sits beside sooty miners.
-  3. **Pip's New Year Seed Blessing:** Pip swoops across the roof rafters, dropping lucky spring seed packets into Rowan's hands.
-* **Exclusive Collectible Stalls (Traded for Festival Tokens):**
-  - 🌱 **Rare Seeds:** *Snow Lotus Flower Seeds* (grows only on glacial frost), *Arctic Tundra Lichen*.
-  - 🛠️ **Unique Tools:** *Glacial Pickaxe* (cracks Starlight ore veins in a single strike).
-  - 🛋️ **Tavern Cozy Furniture:** *Giant White Snow-Bear Pelt* (+25 Cozy), *Alpine Thermal Cast-Iron Dutch Oven*.
-* **Rewards & Unlocks:**
-  - 📖 **Culinary Heritage:** Unlocks **Amalia's Imperial Ledger Vol. 2**.
-  - ❤️ **Village Harmony:** **+150 Friendship Points** with all 51 residents.
-  - 🏆 **Secret Achievement:** `ACH_SOLSTICE_HEARTH`.
+* **Time:** , Autumn 20.
+* **Location:** Town Square & Central Railway Terminal.
+* **Cultural Atmosphere:** Economic boom and grand celebration. Special Solaria capital trains bring nobility, culinary critics, and industrial merchants.
+* **2 Core Activities (1 Activity Ticket each):**
+  1. **Culinary Exhibition Contest (Afternoon):** Rowan submits 3 signature dishes evaluated on Freshness and ingredient Star rating.
+     - *Basic Tier (100–199 pts):* Unlocks permanent **+4% Main Course selling price** at The Hearth + 30 Tokens.
+     - *Master Tier (200+ pts - 1st Place):* Unlocks permanent **+8% Main Course selling price** + 60 Tokens. *(Can re-challenge in Year 2).*
+  2. **Giant Produce Judging & Auction (Morning):** Place 3x3 giant produce on the judging pedestal for gold rewards and trophy (+40 Tokens).
+* **Exclusive Fair Booth (Fair Tokens):**
+  - 🌱 **Seeds:** *Solaria Night Grape*, *Imperial Beet Seed*.
+  - 🛠️ **Tools:** *Steam Seed Drill Blueprint*, *Gilded Solaria Pocket Watch*.
+  - 🛋️ **Hearth Cozy Decor:** *Imperial Silver Cutlery Set* (+20 Cozy), *Handwoven Capital Fur Rug*.
+* **Rewards & Achievements:**
+  - 💰 **Head Chef Privilege:** Permanent price bonus on main courses.
+  - 🏆 **Achievement:** .
 
 ---
 
-## 🍳 5. Rowan's Festival Enterprise: The Pop-up Street Stall
+## ❄️ 4. Wolf-Tooth Campfire & Solstice Hearth Feast (Winter 28)
 
-During every seasonal festival, Rowan deploys an **Outdoor Pop-up Food Stall** at the event hub:
-1. **Takeaway Street Menu:** Skewered charred game, steamed meat buns, bottled hot herbal infusions, roasted hazelnut shortbread.
-2. **Tripled Foot Traffic:** 51 townsfolk and dozens of outlander visitors queue up, generating massive gold profits.
-3. **Festival Tokens:** Customers pay in both Gold and **Festival Tokens**. Rowan trades these tokens for rare outlander seeds, blueprints, and cozy furniture from distant merchants!
+* **Time:**  next morning (26:00), Winter 28.
+* **Location:** Wolf-Tooth Peak Cableway Station (day) & The Hearth Main Hall (night).
+* **Cultural Atmosphere:** Biting cold outside, warming community within. Welcoming northern dwarven miners, border scouts, and lone wanderers.
+* **2 Core Activities (1 Activity Ticket each):**
+  1. **The Communal Pot (Mandatory 3 Ingredient Slots):** Rowan contributes to the giant iron cauldron:
+     - *Slot 1:* Staple Starch (Rice / Potato / Corn / Pumpkin).
+     - *Slot 2:* Protein (Mine Beast Meat / Lake Ice Cod / Meat Shroom).
+     - *Slot 3:* Herb Broth or *Amalia's Heirloom Fermented Paste* (found in the wine cellar chest after reaching Cozy 30 and clearing the basement).
+     - *Fixed Reward:* Unlocks **Grandma Amalia's Heirloom Recipe Book Vol. 2** + 50 Tokens. *(Safety net: if missed, Clara retrieves it from the snow next morning for 300g retrieval fee).*
+     - *Differentiated Affection:* +20 to +80 base town affection, plus **+50 bonus affection for NPCs whose favorite dish uses matching ingredients**. If capped, points freeze at milestone with prompt to unlock tavern evening dialogue, and surplus converts to honey/cookies.
+  2. **Solstice Fireside Midnight Talk (From 23:00):** Communal cider toast reconciling past year conflicts (+40 Tokens).
+* **Exclusive Fair Booth (Fair Tokens):**
+  - 🌱 **Seeds:** *Snow Lotus Flower Seed*, *Cold Lichen Root*.
+  - 🛠️ **Tools:** *Permafrost Pickaxe* (one-hit breaking astral ore).
+  - 🛋️ **Hearth Cozy Decor:** *Giant White Bear Fur* (+25 Cozy), *Expedition Heat-Retaining Pot*.
+* **Rewards & Achievements:**
+  - 📖 **Culinary Archive:** Recipe Book Vol. 2.
+  - ❤️ **Communal Bond:** Community affection boost and evening dialogue triggers.
+  - 🏆 **Achievement:** .
+
+---
+
+## 🍳 5. Pop-up Street Stall & Economic Balance
+
+During festivals, Rowan operates an **Outdoor Pop-up Stall**:
+1. **Quick Takeout Menu:** Street snacks (Charcoal skewers, Steamed buns, Bottled herbal tea, Cookies). Year 1 insulated carrier capacity: 60 servings. Pitch fee: 50g (Year 1), 150g (Year 2+).
+2. **Staffing Rules:**
+   - *Rowan Solo:* **100% Gold revenue** + **1 Fair Token per serving sold**. Net profit ~1,150g (balanced at ~2.3x normal daily revenue of 350g–600g).
+   - *Hire Youth (Kael or Penny - 50g fee):* Yields **60% Gold revenue** and **0 Fair Tokens** (prevents stall-farming exploits).
+3. **Oakhaven Fair Tokens Economy:**
+   - Single **Unified Token Type** across all 4 seasons (~560 Tokens max/year).
+   - Accessible **Town Souvenir Locker at Town Hall** open year-round () to spend tokens.
+   - **Annual Audit & Conversion:** Precisely at **26:00 (02:00 AM next day)** on Winter 28. Surplus tokens convert to Gold at  (max ~2,800g non-inflationary), delivered to mailbox on **Spring 01 morning**.
+   - Missed exclusive items appear at Garrick's Sunday Boat starting **Year 2 at 2.5x Gold price**.
 
 ---
 
 ## ⚓ 6. Weekly Recurring Events
 
-### ⛵ Garrick's Sunday Lakeshore Market
-* **Schedule:** `07:00 – 17:00` every Sunday at Oakhaven Harbor Wharf.
-* **Cargo:** Deep-sea king crab, Arctic cod, rare ocean culinary seasonings, and antique Lo-fi vinyl records for the tavern phonograph.
+### ⛵ Garrick's Sunday Lake Market (Sundays)
+* **Time:**  Sundays at Lake Pier. Deep-sea delicacies, premium spices, vintage records. From Year 2, sells past festival items at 2.5x gold price.
 
-### 🔨 Wednesday Forge Rest & Civic Maintenance
-* **Schedule:** All day Wednesday town-wide.
-* **Features:** Boris cools forge fires for furnace maintenance; Clara's Library hosts free reading hours for children; Maeve discounts vegetable seeds by 10%.
+### 🔨 Wednesday Forge Shutdown & Rest Day (Wednesdays)
+* **Time:** All day Wednesday. Boris cools the forge; Clara's library opens free reading sessions; Maeve offers 10% discount on crop seeds (capped at 20 packets/type/week).

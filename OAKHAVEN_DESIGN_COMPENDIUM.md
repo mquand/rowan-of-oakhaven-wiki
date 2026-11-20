@@ -389,42 +389,58 @@ Nhằm kiến tạo chiều sâu gameplay và triệt tiêu lối mòn "chạy v
 
 ## 13. Hệ Thống Đại Lễ Hội Đa Vùng Đất, Khách Phương Xa & Chợ Phiên Sưu Tầm (Regional Festivals, Outlander Merchants & Pop-up Street Stalls)
 
-### 13.1. Bản Sắc 4 Đại Lễ Hội Theo 4 Vùng Đất
-Lễ hội không chỉ gói gọn trong quảng trường Oakhaven mà mở rộng ra 4 vùng địa lý mang đậm dấu ấn sinh tồn và văn hóa hậu chiến:
+### 13.1. Bản Sắc 4 Đại Lễ Hội & Tinh Gọn 2 Hoạt Động Cốt Lõi Mỗi Mùa (Solo-Dev Scope)
+Để tránh phình to tính năng (Feature Creep) và quá tải thời gian trong ngày lễ, mỗi lễ hội được chuẩn hóa thành **đúng 2 hoạt động chính** (tái sử dụng 100% vòng lặp cơ bản: đập đá, nấu ăn, đỡ đòn, đối thoại) + **1 Sạp ẩm thực lưu động**. Người chơi được cấp **2 Vé Hoạt Động (Activity Points)** trong ngày, vừa đủ để trải nghiệm trọn vẹn 100% nội dung (Vé 1 ca sáng, Vé 2 ca chiều/tối):
 
 1. **Mùa Xuân (Ngày 15) - Đại Lễ Cầu Siêu & Chợ Cổ Rừng Thầm Thì (Bìa Rừng Đền Cổ):**
-   - *Vùng đất:* Bìa Rừng Thầm Thì & Bàn Thờ Cổ Đại (nơi Rosemary trông coi).
-   - *Bản sắc:* Tâm linh, tưởng niệm tử sĩ viễn chinh, dọn dẹp cống ngầm xả lũ và tẩy uế khí độc miasma.
-   - *Khách phương xa:* Tu sĩ viễn xứ, thảo dược sư rừng già, học giả khảo cổ Iris giải mã văn tự cổ.
-   - *Hàng độc quyền / Sưu tập:* *Hạt Giống Trà Sen Tuyết*, *Bào Tử Nấm Phát Quang*, *Dao Bạc Cắt Rễ Thảo Dược* (thu hoạch thảo mộc luôn 2-3 Sao), *Lư Hương Gốm Khói Mây* (+15 Cozy).
-2. **Mùa Hạ (Ngày 18) - Hội Chợ Nước & Đêm Đèn Lồng Bờ Suối (Bến Cảng Bờ Hồ & Đầm Lầy):**
-   - *Vùng đất:* Bến Cảng Hồ Nước Ngọt nối liền Đầm Lầy Lau Sậy (khu vực Thợ lặn Vael & Lão Tad).
-   - *Bản sắc:* Phóng khoáng, mùi muối biển và cá nướng; tôn vinh thợ lặn mỏ băng và đoàn thủy thủ đại dương.
-   - *Khách phương xa:* Đoàn thuyền buôn 3 cột buồm của Thuyền Trưởng Garrick cập bến mang theo thương nhân quần đảo san hô phía Nam.
-   - *Hàng độc quyền / Sưu tập:* *Hạt Giống Dưa Lưới Tinh Vân*, *Bụi Ớt Quỷ Biển Đỏ*, *Cần Câu Trúc Biển Sâu Garrick* (+30% cự ly quăng mồi), *Mỏ Neo Đồng Rỉ Sét*, *Bình Nuôi Đom Đóm Phát Quang* (+15 Cozy).
-3. **Mùa Thu (Ngày 20) - Hội Đấu Xảo Giao Thương & Chợ Đường Sắt Kinh Đô (Quảng Trường & Ga Đường Sắt):**
-   - *Vùng đất:* Quảng trường Oakhaven nối liền Ga Tuyến Đường Sắt Trung Tâm (sau khi khôi phục).
-   - *Bản sắc:* Kinh tế bùng nổ, đón các đoàn tàu hỏa từ Kinh Đô Solaria và các thành bang cơ khí. Quý tộc, đầu bếp thượng lưu và nhà buôn công nghiệp đổ về.
-   - *Khách phương xa:* Đoàn quý tộc Solaria, Giám khảo ẩm thực hoàng gia, Đoàn buôn xe lừa của Lão Silas.
-   - *Hàng độc quyền / Sưu tập:* *Giống Nho Đêm Solaria*, *Hạt Giống Củ Dền Cung Đình*, *Bản Vẽ Máy Gieo Hạt Hơi Nước*, *Đồng Hồ Bỏ Túi Mạ Vàng* (chỉnh tốc độ thời gian), *Thảm Lông Dệt Tay Thủ Đô*, *Bộ Dao Nĩa Bạc Hoàng Triều* (+20 Cozy).
-4. **Mùa Đông (Ngày 28) - Đêm Lửa Trại Đỉnh Răng Sói & Đại Tiệc Giao Thừa (Đỉnh Núi Tuyết & The Hearth):**
-   - *Vùng đất:* Ban ngày tại Trạm Cáp Treo Đỉnh Răng Sói & Suối Nước Nóng; Đêm rút về Đại sảnh Quán The Hearth.
-   - *Bản sắc:* Sinh tồn băng giá, ngày hội của phường thợ mỏ người lùn, thợ săn tuyết và khách lưu lạc không chốn về.
-   - *Khách phương xa:* Phường thợ nung đá người lùn phía Bắc, toán lính trinh sát biên giới.
-   - *Hàng độc quyền / Sưu tập:* *Hạt Giống Hoa Tuyết Liên*, *Rễ Địa Y Lạnh*, *Cuốc Chim Bọc Đá Băng Cực Hạn* (đập vỡ quặng Tinh Tú 1 phát), *Tấm Da Gấu Tuyết Trắng Khổng Lồ*, *Nồi Lẩu Bách Vị Giữa Quán* (+Tối đa Cozy Rating).
+   - *Vùng đất:* Bìa Rừng Thầm Thì & Bàn Thờ Cổ Đại (Rosemary trông coi).
+   - *Bản sắc:* Tâm linh, tưởng niệm tử sĩ viễn chinh, nạo vét kênh mương dẫn nước ngọt và tẩy uế khí độc miasma.
+   - *2 Hoạt động cốt lõi:*
+     1. **Hội Đập Cự Thạch Nạo Mương:** Dùng cuốc/bom đập đá nghẽn dòng nước. Phân bậc: Đập 2 đá mở tạm kênh; đập sạch 5 đá mở vĩnh viễn dòng nước ngọt + 50 Tem. *(Đường lùi: Bảng Tái Thiết mở ngay Tuần 1 mùa Xuân, nộp 30 Gỗ + 20 Đá mỏ để Boris nạo sau 3 ngày nếu lỡ lễ).*
+     2. **Dâng Mâm Cỗ Thanh Tẩy Bàn Thờ Cổ:** Dâng mâm cỗ 3 món (Canh củ sen, Cơm lam, Nấm rừng) nhận +40 Tem Phiếu hợp tác.
+   - *Khách phương xa:* Tu sĩ viễn xứ, thảo dược sư rừng già, sạp khảo cổ Iris.
+   - *Hàng sưu tập Tem Phiếu:* *Hạt Giống Trà Sen Tuyết* (cây thâm canh cao sản, không phải blocker), *Bào Tử Nấm Phát Quang*, *Dao Bạc Cắt Rễ Thảo Dược*, *Chuông Gió Đồng Cổ* (+12 Cozy).
 
-### 13.2. Cơ Chế Kinh Doanh Của Rowan: Sạp Ẩm Thực Lưu Động (Pop-up Street Stall)
-- Vào mỗi ngày lễ hội, Rowan dựng **Sạp Lưu Động Ngoài Trời** tại khu vực tổ chức:
-  - Menu lễ hội: Nấu các món ăn đường phố ăn nhanh (Thịt xiên nướng than, Bánh bao hấp nóng, Trà thảo mộc đóng chai, Bánh quy giòn).
-  - Doanh số bán ra tăng gấp 3 - 4 lần ngày thường từ cả dân làng lẫn khách du lịch phương xa.
-  - Khách thanh toán bằng **Tiền Vàng** kèm **Tem Phiếu Hội Chợ (Festival Tokens)**.
-- **Quy tắc đổi đồ hiếm:** Các thương nhân phương xa (Silas, Garrick, thợ buôn Solaria) chỉ chấp nhận đổi các Hạt giống ngoại lai, Công cụ độc bản và Đồ nội thất Cozy bằng *Tem Phiếu Hội Chợ* mà Rowan tích lũy được!
+2. **Mùa Hạ (Ngày 18) - Hội Chợ Nước & Đêm Đèn Lồng Bờ Suối (Bến Cảng Bờ Hồ & Đầm Lầy):**
+   - *Vùng đất:* Bến Cảng Hồ Nước Ngọt nối liền Đầm Lầy Lau Sậy (khu vực Vael & Lão Tad).
+   - *Bản sắc:* Phóng khoáng, mùi cá nướng và rượu rum; tôn vinh thợ lặn mỏ băng và đoàn thủy thủ đại dương.
+   - *2 Hoạt động cốt lõi:*
+     1. **Võ Đài Thử Thách Đỡ Đòn (Parry Challenge):** Đứng lôi đài cùng Valerius & Hester. Phân bậc rõ rệt: Cấp Tân Binh (Novice - cửa sổ canh 1.0s) nhận **Huy Hiệu Đồng (−5% độ hao mòn vũ khí mỏ)**; Cấp Bậc Thầy (Master - 8 Tim) nâng cấp lên **Huy Hiệu Vàng (−15% độ hao mòn)**.
+     2. **Đêm Thả Thuyền Đèn Bờ Suối (19:30):** Chèo thuyền nan ra hồ ngắm đom đóm (+40 Tem). Nếu chưa có tri kỷ 4 Tim, Rowan có thể đi cùng Bô lão (Bà Maeve / Lão Silas) kể chuyện xưa (+tình thân, hạt giống hiếm) hoặc tự thả thuyền một mình (nhận Buff Tâm Hồn Tĩnh Lặng: +30 Stamina, +10% tốc chạy hôm sau).
+   - *Khách phương xa:* Đoàn thuyền buôn 3 cột buồm của Thuyền Trưởng Garrick & lái buôn san hô Nam Hải.
+   - *Hàng sưu tập Tem Phiếu:* *Hạt Giống Dưa Lưới Tinh Vân*, *Bụi Ớt Quỷ Biển Đỏ*, *Cần Câu Trúc Biển Sâu Garrick*, *Bình Nuôi Đom Đóm* (+15 Cozy).
+
+3. **Mùa Thu (Ngày 20) - Hội Đấu Xảo Giao Thương & Chợ Đường Sắt Kinh Đô (Quảng Trường & Ga Tàu):**
+   - *Vùng đất:* Quảng trường Oakhaven nối liền Ga Tuyến Đường Sắt Trung Tâm.
+   - *Bản sắc:* Kinh tế bùng nổ, đón các đoàn tàu hỏa từ Kinh Đô Solaria và các thành bang cơ khí.
+   - *2 Hoạt động cốt lõi:*
+     1. **Cuộc Thi Đấu Xảo Ẩm Thực (Culinary Contest):** Tranh tài món ăn chấm theo Độ Tươi (Freshness) và Sao nguyên liệu. Phân bậc: Đạt 100-199 điểm nhận **+4% Giá bán món chính vĩnh viễn**; Đạt giải Nhất (200+ điểm) nhận **+8% Giá bán món chính vĩnh viễn** (năm sau thi lại để nâng cấp).
+     2. **Hội Đấu Giá Nông Sản Khổng Lồ:** Đặt củ quả 3x3 lên bục chấm điểm quy đổi hàng nghìn vàng và nhận cúp danh dự.
+   - *Khách phương xa:* Đoàn tàu hỏa Solaria, quý tộc, thương nhân xe lừa Lão Silas.
+   - *Hàng sưu tập Tem Phiếu:* *Giống Nho Đêm Solaria*, *Hạt Giống Củ Dền Cung Đình*, *Bản Vẽ Máy Gieo Hạt Hơi Nước*, *Bộ Dao Nĩa Bạc Hoàng Triều* (+20 Cozy).
+
+4. **Mùa Đông (Ngày 28) - Đêm Lửa Trại Đỉnh Răng Sói & Đại Tiệc Giao Thừa (Đỉnh Núi Tuyết & The Hearth):**
+   - *Vùng đất:* Ban ngày tại Trạm Cáp Treo Đỉnh Răng Sói; Đêm rút về Đại sảnh Quán The Hearth.
+   - *Bản sắc:* Sinh tồn băng giá ấm áp tình người; hội ngộ thợ mỏ người lùn tuyết, lính biên phòng và kẻ tha hương.
+   - *2 Hoạt động cốt lõi:*
+     1. **Nồi Lẩu Bách Vị Đại Ngàn (3 Ô Nguyên Liệu):** Rowan bắt buộc đóng góp đủ 3 nhóm (Ô 1 Tinh bột + Ô 2 Protein + Ô 3 Thảo mộc/Men ủ). Góp đủ nhận ngay **Sổ Tay Công Thức Bà Amalia Tập 2** (nếu bỏ lỡ, sáng hôm sau Clara nhặt được gửi vào hòm thư với phí chuộc 300g). Điểm thân mật phân tầng: +20 đến +80 điểm nền cả làng, và **+50 điểm riêng cho NPC có món ăn ưa thích trùng nguyên liệu trong nồi**. Nếu chạm trần tim, điểm dừng lại hiện thông báo mở khóa tâm sự và đổi điểm dư thành quà mật ong/bánh quy.
+     2. **Tâm Sự Bên Lò Sưởi Giao Thừa (23:00):** Cùng toàn bộ cư dân nâng chén rượu táo, hàn gắn ân oán năm cũ (+40 Tem hợp tác).
+   - *Khách phương xa:* Phường thợ nung đá người lùn Bắc Cực, lính trinh sát biên giới.
+   - *Hàng sưu tập Tem Phiếu:* *Hạt Giống Hoa Tuyết Liên*, *Rễ Địa Y Lạnh*, *Cuốc Chim Bọc Đá Băng Cực Hạn*, *Tấm Da Gấu Tuyết* (+25 Cozy).
+
+### 13.2. Cơ Chế Kinh Doanh Của Rowan: Sạp Ẩm Thực Lưu Động (Pop-up Street Stall) & Cân Bằng Kinh Tế
+- **Vận hành sạp lưu động:**
+  - Menu bán nhanh mang đi (Xiên nướng than, Bánh bao hấp, Trà thảo mộc, Bánh quy).
+  - Tự Rowan đứng bán: Nhận 100% doanh thu vàng + 1 Tem Phiếu/đĩa. Sức chứa khay giữ nhiệt Năm 1 tối đa 60 đĩa. Phí mặt bằng 50g (Năm 1), doanh thu ròng ~1.150g (gấp ~2.3 lần ngày thường 350g-600g, cân bằng kinh tế).
+  - Nhờ trẻ nhỏ trông sạp (Kael / Penny - phí 50g): Chỉ đạt **60% doanh thu** và **0 Tem Phiếu** (chống lạm dụng để ăn gian hoạt động).
+- **Quy chuẩn Tiền tệ Tem Phiếu Hội Chợ (Fair Tokens):**
+  - Dùng **1 loại Tem Phiếu chung** xuyên suốt 4 mùa. Tối đa kiếm được ~560 Tem/năm.
+  - Mở **Tủ Đồ Lưu Niệm tại sảnh Tòa Thị Chính** quanh năm để tiêu tem tích lũy.
+  - Chốt sổ thu hồi vào đúng **26:00 (tức 02:00 sáng hôm sau)** đêm 28 Mùa Đông. Cú Pip gửi thư quy đổi tiền vàng (, tối đa ~2.800g không lạm phát) vào hòm thư **Sáng ngày 01 Mùa Xuân**.
+  - Các mặt hàng độc quyền nếu bỏ lỡ sẽ được Thuyền buôn Garrick bán lại từ **Năm 2** với giá bằng vàng **gấp 2.5 lần** (giữ vững giá trị cày cuốc).
 
 ### 13.3. Tối Ưu Asset Đồ Họa Cho Lễ Hội (Zero Asset Creep)
-- **Bản đồ:** Tái sử dụng 100% các vùng đất có sẵn trong game (Đền cổ, Ga tàu, Bến hồ, Đỉnh núi), chỉ bật layer tilemap lều bạt sự kiện tĩnh (`festival_props.png`).
-- **Khách phương xa (NPC Tier 3):** Tận dụng khung xương chung (Body Rigs) và đổi bảng màu (Palette Swap) cho trang phục (mũ thủy thủ, áo choàng tuyết, áo dạ hội).
+- **Bản đồ:** Tái sử dụng 100% các vùng đất có sẵn trong game (Đền cổ, Ga tàu, Bến hồ, Đỉnh núi), chỉ bật layer tilemap lều bạt sự kiện tĩnh ().
+- **Khách phương xa (NPC Tier 3):** Tận dụng khung xương chung (Body Rigs) và đổi bảng màu (Palette Swap) cho trang phục.
 - **Vật phẩm sưu tập:** Sử dụng item icon 16×16 và sprite nội thất tĩnh 32×32 đặt tại The Hearth.
-
-
-
 
