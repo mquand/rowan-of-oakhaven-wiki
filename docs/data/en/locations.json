@@ -1,14 +1,14 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "version": "1.0.0",
-  "updated": "2026-11-12",
+  "updated": "2026-11-20",
   "locations": [
     {
       "id": "oakhaven",
-      "name": "Oakhaven Town (The Stardust Valley)",
-      "name_en": "Oakhaven / The Stardust Valley",
+      "name": "Oakhaven Town (Oak Valley)",
+      "name_en": "Oakhaven / The Oak Valley",
       "location_type": "starting_town",
-      "description": "The cozy hamlet where Rowan inherits Grandmother Amalia's Hearth Eatery & Tavern — a moss-shingled timber home by the Whisperwood crossroads, riverside herbal plots, a vintage windmill, Boris's forge, and the 150-floor crystal mines.",
+      "description": "Small town where Rowan inherits The Hearth Eatery & Tavern from grandmother Amalia — mossy timber house by Whispering Woods, herb farm by Lumina River, Boris's forge, and the Sacred Tree mine vein.",
       "unlock_condition": "Available from game prologue",
       "notable_npcs": [
         "npc_rowan",
@@ -308,39 +308,39 @@
       ]
     },
     {
-      "id": "aethelgard",
-      "name": "Aethelgard — The Floating Elysium",
-      "name_en": "Aethelgard — The Floating Elysium",
-      "location_type": "realm",
-      "description": "Floating celestial isles suspended above an iridescent sea of clouds, illuminated by dancing auroras. The cosmic birthplace of Stardust and the resting sanctuary of Grandmother Amalia's guiding spirit.",
-      "unlock_condition": "Unlocked at the story's emotional climax",
+      "id": "ancient_altar",
+      "name": "The Ancient Memorial Altar",
+      "name_en": "The Ancient Memorial Altar",
+      "location_type": "sacred_site",
+      "description": "Ancient mossy stone altar deep within Whispering Woods, where solemn memorial rituals with hearth cooking and war relics release blighted miasma, pacify fallen souls, and purify the land.",
+      "unlock_condition": "Explore Whispering Woods & Complete Chapter 1",
       "notable_npcs": [
-        "npc_amalia",
-        "npc_solace"
+        "npc_rowan",
+        "npc_aurelia",
+        "npc_thorne"
       ],
       "features": [
-        "Tree of Celestial Constellations",
-        "Tree of Longevity",
-        "Cloud-Winged Light Guardian",
-        "Aurora Starlight Stag",
-        "Celestial Nectar Tea"
+        "Runic Stone Altar",
+        "Stone Censer",
+        "Post-War Memorial Monument",
+        "Mine Entrance"
       ],
       "tags": [
-        "elysium",
-        "floating",
-        "finale",
-        "spiritual"
+        "sacred",
+        "memorial",
+        "ritual",
+        "altar"
       ],
       "npcs": [
         {
-          "id": "npc_amalia",
-          "name": "Grandmother Amalia",
-          "role": "Master Tea Artisan / Guiding Spirit"
+          "id": "npc_thorne",
+          "name": "Guildmaster Thorne",
+          "role": "Guildmaster & Altar Keeper"
         },
         {
-          "id": "npc_solace",
-          "name": "Solace",
-          "role": "Celestial Gate Guardian / Linh Thể Hộ Tinh"
+          "id": "npc_aurelia",
+          "name": "Apothecary Aurelia",
+          "role": "Ritual Herbalist"
         }
       ]
     }

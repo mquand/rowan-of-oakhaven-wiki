@@ -286,20 +286,20 @@
     },
     {
       "id": "bot_sao",
-      "name": "Bột Sao",
-      "description": "Bột kim tinh cầu lấp lánh — nguyên liệu phép (Crystal) thêm hiệu ứng huyền ảo cho trà.",
+      "name": "Bột Mì Tươi Oakhaven",
+      "description": "Bột mì xay mịn từ lúa mì bạc thung lũng, nguyên liệu cốt lõi nhào bột nướng bánh.",
       "category": "ingredient",
       "tags": [
-        "tea",
+        "baking",
         "ingredient",
-        "crystal",
-        "magic"
+        "flour",
+        "hearth"
       ],
-      "rarity": "rare",
-      "buy_price": 120,
-      "sell_price": 75,
+      "rarity": "common",
+      "buy_price": 20,
+      "sell_price": 12,
       "energy": null,
-      "buff": "Bụi ma thuật lấp lánh"
+      "buff": "Nguyên liệu làm bánh"
     },
     {
       "id": "item_stone",

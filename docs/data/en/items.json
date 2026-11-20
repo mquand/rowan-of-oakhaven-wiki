@@ -286,20 +286,20 @@
     },
     {
       "id": "bot_sao",
-      "name": "Stardust Powder",
-      "description": "Glittering celestial powder — rare magical catalyst adding otherworldly blessings to brews.",
+      "name": "Fresh Flour",
+      "description": "Finely milled flour ground from silver wheat, essential for hearth bread baking.",
       "category": "ingredient",
       "tags": [
-        "tea",
+        "baking",
         "ingredient",
-        "crystal",
-        "magic"
+        "flour",
+        "hearth"
       ],
-      "rarity": "rare",
-      "buy_price": 120,
-      "sell_price": 75,
+      "rarity": "common",
+      "buy_price": 20,
+      "sell_price": 12,
       "energy": null,
-      "buff": "Shimmering magical dust"
+      "buff": "Baking staple"
     },
     {
       "id": "item_stone",

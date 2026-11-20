@@ -1,14 +1,14 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "version": "1.0.0",
-  "updated": "2026-11-12",
+  "updated": "2026-11-20",
   "locations": [
     {
       "id": "oakhaven",
-      "name": "Thị Trấn Oakhaven (Thung Lũng Bụi Sao)",
-      "name_en": "Oakhaven / The Stardust Valley",
+      "name": "Thị Trấn Oakhaven (Thung Lũng Sồi)",
+      "name_en": "Oakhaven / The Oak Valley",
       "location_type": "starting_town",
-      "description": "Thị trấn nhỏ nơi Rowan tiếp quản Quán Ăn & Nhà Trọ Oakhaven của bà ngoại Amalia — căn nhà gỗ rêu phong bên ngã ba Rừng Thầm Thì, nông trại thảo mộc ven sông sao, cối xay gió sau quán, lò rèn Boris và vỉa mỏ pha lê Cây Thần.",
+      "description": "Thị trấn nhỏ nơi Rowan tiếp quản Quán Ăn & Nhà Trọ Oakhaven của bà Amalia — căn nhà gỗ rêu phong bên ngã ba Rừng Thầm Thì, nông trại thảo mộc ven sông Lumina, cối xay gió sau quán, lò rèn Boris và vỉa mỏ Cây Thần.",
       "unlock_condition": "Mở đầu game",
       "notable_npcs": [
         "npc_rowan",
@@ -308,39 +308,39 @@
       ]
     },
     {
-      "id": "aethelgard",
-      "name": "Cõi Địa Đàng Bụi Sao",
-      "name_en": "Aethelgard — The Floating Elysium",
-      "location_type": "realm",
-      "description": "Quần thể đảo bay lơ lửng giữa biển mây ngập ánh sao dạ quang, nơi bắt nguồn dòng sông ánh sáng và truyền thuyết Khởi Nguyên Bụi Sao. Nơi an nghỉ của linh hồn Bà Ngoại.",
-      "unlock_condition": "Mở ở đỉnh cao cốt truyện",
+      "id": "ancient_altar",
+      "name": "Bàn Thờ Cổ Đại Thung Lũng Oakhaven",
+      "name_en": "The Ancient Memorial Altar",
+      "location_type": "sacred_site",
+      "description": "Bàn thờ đá rêu phong nằm sâu trong Rừng Thầm Thì, nơi cử hành nghi thức Cầu siêu trang nghiêm bằng ẩm thực bếp ấm và kỷ vật chiến tranh để giải phóng chướng khí, xoa dịu vong hồn tử sĩ và thanh tẩy đất hoang sau đại chiến.",
+      "unlock_condition": "Khám phá Rừng Thầm Thì & Hoàn thành Chương 1",
       "notable_npcs": [
-        "npc_amalia",
-        "npc_solace"
+        "npc_rowan",
+        "npc_aurelia",
+        "npc_thorne"
       ],
       "features": [
-        "Cây Tinh Tú Thần Linh",
-        "Cây Trường Sinh",
-        "Hộ vệ Ánh Sáng Cánh Mây",
-        "Hươu Cực Quang Tinh Tú",
-        "Trà Tinh Tú"
+        "Bệ Thờ Cổ Ngữ",
+        "Bát Hương Đá",
+        "Khu Tưởng Niệm Chiến Binh Hậu Chiến",
+        "Lối Vào Hầm Mỏ"
       ],
       "tags": [
-        "elysium",
-        "floating",
-        "finale",
-        "spiritual"
+        "sacred",
+        "memorial",
+        "ritual",
+        "altar"
       ],
       "npcs": [
         {
-          "id": "npc_amalia",
-          "name": "Bà Ngoại Amalia",
-          "role": "Cố Nghệ Nhân Trà Bánh / Linh Hồn Dẫn Lối"
+          "id": "npc_thorne",
+          "name": "Hội Trưởng Thorne",
+          "role": "Thủ Lĩnh Hiệp Hội & Người Trông Coi Đền"
         },
         {
-          "id": "npc_solace",
-          "name": "Solace",
-          "role": "Celestial Gate Guardian / Linh Thể Hộ Tinh"
+          "id": "npc_aurelia",
+          "name": "Dược Sĩ Aurelia",
+          "role": "Thảo Dược Sư Nghi Lễ"
         }
       ]
     }
