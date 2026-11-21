@@ -388,6 +388,20 @@ Mỗi cư dân Oakhaven không phải NPC rập khuôn vô hồn, mà mang một
    - *Áp dụng:* Chỉ khoảng 15 – 20 sự kiện đỉnh cao trong toàn bộ game (mốc 8 Tim hóa giải bi kịch quá khứ và 10 Tim kết duyên).
    - *Cơ chế:* Diễn ra tại các bối cảnh quen thuộc (quán The Hearth, Lò rèn Boris, Bàn Thờ Cổ Đại), khóa điều khiển tạm thời 30 giây để thoại chạy tự động, tạo khoảnh khắc cảm xúc thăng hoa lắng đọng.
 
+### 10.5. 4 Thực Thể Thế Giới & Khách Niên Kỷ (World & Event Entities)
+Tách biệt khỏi 47 NPC thường trú, thế giới vận hành thêm 4 thực thể đặc thù cho các dịp lễ hội và khám phá hầm mỏ:
+1. **👑 Bá Tước Thẩm Định Lord Julian (Royal Culinary Critic):** Xuất hiện Ngày 20 Mùa Thu tại Quảng Trường chấm thi Vua Đầu Bếp; món đạt 3–5 sao trao Cúp Vàng (+15% giá bán món ăn) và Sắc phong Quán Ăn Hoàng Gia.
+2. **🐢 Linh Quy Rêu Phong Cụ Mỏ (Old Moss Tortoise):** Đầm nước ngầm Tầng 35 Hầm Mỏ; thả 3 củ quả thanh đạm đánh thức cụ rùa làm Trạm Dịch Chuyển Tức Thời Tầng 1–35 và nhả Mai Rùa Hóa Thạch (chế Khiên chống đẩy lùi).
+3. **🕯️ Yêu Tinh Chợ Đen Grib (Smuggler Goblin Grib):** Góc hầm sụp tối đen Tầng 65 Hầm Mỏ; sợ ánh sáng; đổi bánh mì nướng lấy Quặng Iridium, Chìa Khóa Rương Cổ và Hạt Giống Hư Không.
+4. **🎈 Đoàn Buôn Khí Cầu Biển Mây (Sky Caravan of Zephyr):** Đỉnh đồi Tháp Thiên Văn đúng Đêm 28 Mùa Đông (Giao Thừa Bếp Lửa); bán Hạt Giống Thần Thoại 4 Mùa, Đĩa Than Lo-fi hiếm và Ngọc Bội May Mắn Đào Mỏ (+50% tỷ lệ quặng).
+
+### 10.6. Cơ Chế Di Cư Nội Vùng Oakhaven (Strict Anti-Island Policy)
+Không sao chép cơ chế đảo xa tách biệt; 100% sự chuyển dịch nơi cư trú diễn ra trong thung lũng khi Quán Ăn The Hearth phát triển và tình cảm nhân vật thăng hoa:
+- **Kael (`npc_kael`):** Mốc 6 Tim & nhiệm vụ *"Mái Ấm Cho Hạt Mầm"*, dọn từ túp lều rách ven sông buốt giá về căn gác xép gỗ ấm áp cạnh Vườn Ươm của Bà Maeve; phụ trách Trạm Nhân Giống Cây Bốn Mùa.
+- **Valen (`npc_valen`):** Mốc 8 Tim & chữa khỏi bệnh thiếu máu, mua đứt phòng lầu 2 The Hearth, mở rộng Hầm Rượu Vang và bảo trợ tài chính lâu dài.
+- **Lumi (`npc_lumi`):** Mốc 6 Tim, vượt qua nỗi sợ dị chủng lai, dọn về căn nhà nhỏ đầu làng và phụ việc bên lò sưởi The Hearth mỗi tối.
+- **Hester & Valerius (`npc_hester`, `npc_valerius`):** Mốc 8 Tim qua Dự Án Tái Thiết của Trưởng Lão Oakwood, cùng mở Trạm Bảo An & Võ Đường ngay trung tâm thị trấn.
+
 ---
 
 ## 11. Hệ Thống Thành Tựu Steam, Thử Thách Kỹ Năng & Tab Hồ Sơ In-Game (Steam Achievements, Tactical Trials & Player Profile)

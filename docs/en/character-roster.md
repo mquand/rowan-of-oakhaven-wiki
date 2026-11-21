@@ -279,3 +279,34 @@ spoiler: false
 * **Little Cora (Stream Pebble Gatherer & Wild Forager):** Shy little girl gathering polished pebbles and wild berries along stream banks while awaiting her soldier father.
   - *Real-world Wound:* Missing-in-action father; clings to the belief that stringing a thousand stones will guide him home.
   - *Comfort Dish:* **Lotus Herbal Tea**. Gifts Lucky Pebble Bracelet (+5% dodge) at 2 Hearts; marks secret stream berry patches and fish holes at 4 Hearts; joyful reunion when her father returns safely to The Hearth at 8 Hearts.
+
+---
+
+## 6. World Entities & Annual VIP Guests (World & Event Entities)
+
+Separate from the 47 permanent town and regional residents, these 4 entities govern seasonal festivals and hidden dungeon exploration:
+
+* **👑 Count Julian (Royal Culinary Critic):**
+  - *Appearance:* Autumn 20 annually at Oakhaven Town Square (Autumn Harvest Cooking Gala & Master Chef Contest).
+  - *Mechanic:* Judges the player's 3-course pastry and soup banquet. Achieving 3–5 stars awards the **Autumn Golden Chef Trophy** (+15% permanent sell price on all tavern dishes) and grants the Royal Eatery Charter.
+* **🐢 Ancient Moss-Back Tortoise (Subterranean Colossus):**
+  - *Location:* Subterranean Lagoon at Floor 35 of the Mine (Stratum 2 Magma Veins).
+  - *Mechanic:* Cast 3 surface-grown vegetarian crops (Sweet Pumpkin, Frost Beet, Lotus Bud) into the pool to awaken the guardian. Functions as an instant Shortcut Elevator linking Floor 1 and Floor 35, and yields the **Fossilized Shell Core** for knockback-immune bulwarks.
+* **🕯️ Grib the Shadow Smuggler (Underground Goblin Merchant):**
+  - *Location:* Collapsed Hollow on Floor 65 (Stratum 2/3 Transition).
+  - *Mechanic:* Light the darkened fissure with an Everburning Torch and share warm hearth bread with this light-fearing goblin. Unlocks the **Black Market Vault** selling Iridium ore, ancient chest keys, and waterless Void Seeds.
+* **🎈 Cloudsea Sky Caravan (Solstice Airship Merchant):**
+  - *Appearance:* Orion's Observatory Peak on Winter 28 (Year-End Hearth Vigil).
+  - *Mechanic:* Moored for exactly 24 hours on New Year's Eve, offering Mythic All-Season Seeds, rare Lo-fi vinyl records, and the Prospector's Lodestone Amulet (+50% rare gem rate).
+
+---
+
+## 7. Oakhaven Internal Relocation System
+
+Rowan of Oakhaven does not use disconnected island or off-map colonies; every relocation occurs naturally within the contiguous valley as The Hearth Eatery is restored and heart bonds deepen:
+
+* **Kael (`npc_kael`):** At 6 Hearts & completion of *"A Hearth for Sprouts"*, moves from his freezing riverside lean-to into a cozy timber loft beside Maeve's Four-Season Greenhouse, becoming the valley's dedicated Seed Station caretaker.
+* **Valen de Montfort (`npc_valen`):** At 8 Hearts & curing his blood affliction with Vitality Potage, purchases The Hearth's 2nd-floor VIP suite permanently, financing an expansive Wine Cellar expansion and securing permanent financial patronage.
+* **Lumi (`npc_lumi`):** At 6 Hearts, overcomes exile trauma, moves into a small cottage at the forest verge, and attends The Hearth nightly as a beloved regular helping Rowan foresee mountain herbs.
+* **Hester & Valerius (`npc_hester`, `npc_valerius`):** At 8 Hearts through Town Board reconstruction projects, establish the official Oakhaven Defense Post & Mountain Dojo in the town center, guarding the valley with martial pride.
+

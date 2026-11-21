@@ -1037,8 +1037,8 @@
       "buff": "+2 May mắn, +1 Tốc độ"
     },
     {
-      "id": "banh_tart_viet_quat_bui_sao",
-      "name": "Bánh Tart Việt Quất Bụi Sao",
+      "id": "banh_tart_viet_quat_dai_ngan",
+      "name": "Bánh Tart Việt Quất Đại Ngàn",
       "station": "kitchen_oven",
       "ingredients": [
         {
@@ -1174,8 +1174,8 @@
       "buff": "Đòn đánh đánh kèm hiệu ứng Thiêu Đốt kẻ địch"
     },
     {
-      "id": "sup_yen_bui_sao_than_thoai",
-      "name": "Súp Yến Bụi Sao Thần Thoại",
+      "id": "sup_yen_pha_le_thung_lung",
+      "name": "Súp Yến Pha Lê Thung Lũng",
       "station": "kitchen_pot",
       "ingredients": [
         {

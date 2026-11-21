@@ -279,3 +279,34 @@ spoiler: false
 * **Bé Hạt Dẻ Cora (Bé Hái Dâu & Nhặt Đá Bờ Suối):** Cô bé nhút nhát lang thang nhặt đá cuội và hái dâu dại ven bờ suối, chờ đợi người cha đi lính chưa về.
   - *Vết nứt:* Thương nhớ người cha bặt vô âm tín nơi tiền tuyến; tin rằng xâu đủ 1,000 viên đá đẹp thì cha sẽ bình an trở về.
   - *Món ăn:* **Trà Thảo Mộc Búp Sen**. Tặng Vòng Tay Đá Cuội may mắn (+5% né đòn) ở 2 Tim; chỉ điểm các hốc cá bống và bụi dâu dại ở 4 Tim; tin báo cha bình an trở về đoàn tụ tại The Hearth ở 8 Tim.
+
+---
+
+## 6. Thực Thể Thế Giới & Khách Niên Kỷ (World & Event Entities)
+
+Không tính vào danh sách 47 cư dân xã hội thường trú, 4 thực thể này vận hành như các cơ chế khám phá thế giới và sự kiện văn hóa hàng năm:
+
+* **👑 Bá Tước Thẩm Định Lord Julian (Royal Culinary Critic):**
+  - *Thời điểm xuất hiện:* Ngày 20 Mùa Thu hàng năm tại Quảng Trường Oakhaven (Lễ Hội Ẩm Thực Mùa Gặt & Cuộc Thi Vua Đầu Bếp).
+  - *Cơ chế:* Nếm và chấm điểm 3 món dự thi của người chơi. Đạt chuẩn 3–5 sao sẽ trao tặng **Cúp Vàng Đầu Bếp Mùa Thu** (tăng vĩnh viễn 15% giá bán mọi món ăn tại The Hearth) và sắc phong danh hiệu Quán Ăn Hoàng Gia.
+* **🐢 Linh Quy Rêu Phong Cụ Mỏ (Old Moss Tortoise):**
+  - *Vị trí:* Đầm nước ngầm Tầng 35 Hầm Mỏ (Đới 2 Dung Nham).
+  - *Cơ chế:* Thả xuống hồ 3 loại củ quả thanh đạm (Bí ngô ngọt, Củ cải tuyết, Búp trà sen) để đánh thức cụ rùa. Cụ rùa hóa thành **Trạm Dịch Chuyển Tức Thời** thông giữa Tầng 1 và Tầng 35, đồng thời nhả ra **Mai Rùa Hóa Thạch** chế tạo Khiên Cự Lực chống đẩy lùi.
+* **🕯️ Yêu Tinh Chợ Đen Grib (Smuggler Goblin Grib):**
+  - *Vị trí:* Góc hầm sụp tối đen Tầng 65 Hầm Mỏ (Đới 2/3).
+  - *Cơ chế:* Soi sáng góc tường nứt bằng đuốc sáng và chia sẻ bánh mì nóng cho chú Goblin nhút nhát sợ ánh sáng mặt trời. Mở khóa **Cửa Hàng Bóng Đêm** bán Quặng Iridium, Chìa Khóa Rương Cổ và Hạt Giống Hư Không.
+* **🎈 Đoàn Buôn Khí Cầu Biển Mây (Sky Caravan of Zephyr):**
+  - *Thời điểm xuất hiện:* Đỉnh đồi Tháp Thiên Văn vào đúng Đêm 28 Mùa Đông (Đêm Giao Thừa Bếp Lửa).
+  - *Cơ chế:* Bán các vật phẩm quý hiếm duy nhất trong năm: Hạt Giống Thần Thoại 4 Mùa, Đĩa Than Lo-fi cổ và Ngọc Bội May Mắn Đào Mỏ (+50% tỷ lệ quặng hiếm).
+
+---
+
+## 7. Cơ Chế Di Cư Nội Vùng Oakhaven (Internal Relocation Logic)
+
+Thế giới game không dùng cơ chế "đảo xa" hay bản đồ tách biệt, mà sự chuyển dịch diễn ra 100% trong thung lũng dựa trên tiến trình tình cảm và sự phục hưng của Quán Ăn *The Hearth*:
+
+* **Cậu Bé Kael (`npc_kael`):** Mốc 6 Tim & Hoàn thành nhiệm vụ *"Mái Ấm Cho Hạt Mầm"*, dọn từ túp lều rách ven sông buốt giá về căn gác xép gỗ ấm áp cạnh Vườn Ươm của Bà Maeve. Trở thành người phụ trách Trạm Nhân Giống Cây Bốn Mùa.
+* **Quý Tộc Lưu Vong Valen (`npc_valen`):** Mốc 8 Tim & Chữa khỏi bệnh thiếu máu bằng Canh Dược Dưỡng Sinh, Valen mua đứt phòng lầu 2 The Hearth, đầu tư mở rộng Hầm Rượu Vang và bảo trợ tài chính lâu dài cho thung lũng.
+* **Tinh Linh Cáo Tuyết Lumi (`npc_lumi`):** Mốc 6 Tim, vượt qua nỗi sợ dị chủng lai, dọn về căn nhà nhỏ đầu làng và trở thành người phụ việc thân thiết bên lò sưởi The Hearth.
+* **Hester & Valerius (`npc_hester`, `npc_valerius`):** Mốc 8 Tim trong Dự Án Tái Thiết của Trưởng Lão Oakwood, cùng mở Trạm Bảo An & Võ Đường ngay trung tâm thị trấn, trở thành lá chắn vững chắc cho thung lũng.
+
