@@ -109,7 +109,7 @@
       "name_en": "Starlight Blade",
       "weapon_type": "melee",
       "tier": 6,
-      "description": "Luminescent crystal blade with a fluid 3-hit rhythm, leaving a trail of shimmering stardust. The third strike shatters hard rocks and pierces void armor.",
+      "description": "Luminescent crystal blade with a fluid 3-hit rhythm, leaving a trail of shimmering starlight. The third strike shatters hard rocks and pierces void armor.",
       "upgrade_path": "Pinnacle Tier: Forged at Boris's Forge with a Starlight Core",
       "tags": [
         "sword",
@@ -368,7 +368,7 @@
       "name_en": "Starblight Void Repeater",
       "weapon_type": "ranged",
       "tier": 6,
-      "description": "Pinnacle ranged weapon requiring no mundane ammo; condenses void stardust into barrages of self-propelling explosive bolts.",
+      "description": "Pinnacle ranged weapon requiring no mundane ammo; condenses void starlight into barrages of self-propelling explosive bolts.",
       "upgrade_path": "Pinnacle Tier: Forged at Boris's Forge with a Starlight Core",
       "tags": [
         "crossbow",
@@ -378,7 +378,7 @@
       "base_atk": 65,
       "attack_speed": "Rapid (2.5 bolts/s)",
       "reach": "Ranged (7.0 tiles)",
-      "special_effect": "Consumes no mundane bolts; manifests stardust shards that explode on impact.",
+      "special_effect": "Consumes no mundane bolts; manifests starlight shards that explode on impact.",
       "runic_skill": "Starlight Barrage: Calls down a celestial rain of star arrows across a 4x4 tile area.",
       "materials_needed": "1 Starlight Core + 6 Silver Bars + 3 Diamonds + 24,000 Gold at Boris's Forge"
     },

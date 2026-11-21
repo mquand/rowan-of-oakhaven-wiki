@@ -74,14 +74,14 @@ Trong *Rowan of Oakhaven*, nấu ăn tại **Quán Ăn Oakhaven (The Hearth Eate
 | 42 | **Ốc Nướng Bơ Tiêu Đen** | Ốc suối, Bơ, Hạt tiêu | +85 HP / +120 Stamina | +20% Tầm nhặt đồ hút vật phẩm |
 | 43 | **Cơm Thố Sườn Hấp Nấm** | Gạo miến, Sườn heo, Nấm | +160 HP / +210 Stamina | +2 Tấn công, +2 Đào mỏ, +1 Tốc độ |
 | 44 | **Bánh Pie Táo Quế Lò Đất** | Táo sồi, Bột mì, Quế rừng | +110 HP / +160 Stamina | +2 May mắn, +1 Tốc độ |
-| 45 | **Bánh Tart Việt Quất Bụi Sao**| Quả việt quất, Bột, Đường | +120 HP / +170 Stamina | Tự phát sáng quanh người trong hang tối |
+| 45 | **Bánh Tart Việt Quất Đại Ngàn**| Quả việt quất, Bột, Đường | +120 HP / +170 Stamina | Tự phát sáng quanh người trong hang tối |
 | 46 | **Đùi Rừng Hun Khói Dã Chiến**| Thịt thú rừng, Muối, Cỏ xạ hương| +170 HP / +220 Stamina| +4 Tấn công khi chiến đấu trong hầm ngục |
 | 47 | **Lẩu Thập Cẩm Bách Vị** | Thịt, Cá, Rau củ, Nấm quý | +250 HP / +350 Stamina | +3 Toàn bộ chỉ số (Tấn công, Thủ, Tốc, Mỏ) |
 | 48 | **Bánh Mì Đen Đại Hàn** | Lúa mạch đen, Men lạnh | +130 HP / +190 Stamina | Tăng gấp đôi giáp khi HP dưới 30% |
 | 49 | **Cơm Lam Ống Tre Muối Mè** | Nếp thơm, Vừng mè, Ống tre | +100 HP / +150 Stamina | +1 Đào mỏ, +1 Phòng thủ |
 | 50 | **Gà Hầm Sâm Rừng Đá** | Thịt gà, Sâm rừng quý | +220 HP / +300 Stamina | Tăng vĩnh viễn +5 Max Stamina (ăn tối đa 5 lần) |
 | 51 | **Thịt Nướng Lửa Địa Ngục** | Thịt bò, Ớt ma thuật, Tinh thể lửa| +200 HP / +240 Stamina| Đòn đánh đánh kèm hiệu ứng Thiêu Đốt kẻ địch |
-| 52 | **Súp Yến Bụi Sao Thần Thoại**| Yến rừng, Tinh thể bụi sao | +300 HP / +400 Stamina | Hồi sinh 1 lần ngay lập tức nếu bị hết máu |
+| 52 | **Súp Yến Pha Lê Thung Lũng**| Yến rừng, Tinh thể bụi sao | +300 HP / +400 Stamina | Hồi sinh 1 lần ngay lập tức nếu bị hết máu |
 | 53 | **Bánh Ngũ Cốc Đại Lục** | 5 loại ngũ cốc thu hoạch | +150 HP / +220 Stamina | Tăng 20% lượng kinh nghiệm kỹ năng nhận được |
 | 54 | **Bánh Cầu Vồng 4 Mùa** | Trái cây đủ 4 mùa, Bơ, Trứng | +250 HP / +300 Stamina | Tăng 50% giá bán toàn bộ nông sản trong ngày |
 | 55 | **Yến Tiệc Cầu Siêu Anh Hồn**| Hoa sen, Nếp quý, Mật ong, Trầm | +350 HP / +500 Stamina | *[Món Thanh Tẩy Tối Thượng]*: Siêu thoát toàn bộ linh hồn trong 1 khu vực |

@@ -62,7 +62,7 @@ A single in-game day spans approximately **10 to 15 real-time minutes**, allowin
 | :-: | :--- | :--- |
 | **1** | **Freeform Grimoire Experimentation** | Freely combine crops, herbs, and crystalline minerals to discover new recipes. |
 | **2** | **Mallow the Familiar & Pip the Owl** | Calico cat Mallow naps by the hearth; Pip scours the forest canopy for rare seeds. |
-| **3** | **Enchanted Pastry Effects** | Patrons who taste magical pastries glow softly, sprout rabbit ears, or exhale stardust. |
+| **3** | **Enchanted Pastry Effects** | Patrons who taste magical pastries glow softly, sprout rabbit ears, or exhale soft starlight. |
 | **4** | **Vintage Phonograph** | Unearth lost vinyl records in the mines to play gentle Lo-fi tunes in the tea salon. |
 | **5** | **Polaroid Keepsake Wall** | Snap milestone portraits with villagers and pin them to your shop's memory wall. |
 | **6** | **Self-Brewed Stamina Buffs** | Treat yourself to your own creations to boost movement speed and withstand mine chills. |

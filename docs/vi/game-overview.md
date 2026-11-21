@@ -60,14 +60,14 @@ Một ngày trong game kéo dài khoảng **10 – 15 phút thời gian thực**
    - Hầm mỏ 150 tầng là chiến trường sinh tử: Quái vật cực kỳ hung hãn, chém giết dọn sạch phòng để mở cửa đi tiếp. **Tuyệt đối không có cơ chế xoa dịu quái.**
    - Thức ăn (55 món) dùng để Rowan tự ăn buff chiến đấu bản thân (Công, Thủ, Tốc, Kháng đòn).
    - Đèn Lồng Bão Đom Đóm soi rọi quái tàng hình trong bóng tối.
-3. **Nông Nghiệp 32 Cây Trồng & Tự Động Hóa:**
-   - 32 loại cây trồng phân bổ đều 4 mùa (Xuân, Hạ, Thu, Đông) và cây lâu năm.
-   - Vòi phun tự động 3 cấp (Đồng 4 ô, Sắt 8 ô, Bụi Sao 24 ô), bù nhìn rơm bảo vệ mùa màng.
+3. **Nông Nghiệp 41 Loài Cây Canh Tác (27 Hoa Màu + 14 Thân Gỗ) & Tự Động Hóa:**
+   - 41 loài cây canh tác phân bổ đều 4 mùa (Xuân, Hạ, Thu, Đông) và cây lâu năm.
+   - Vòi phun tự động 3 cấp (Đồng 4 ô, Sắt 8 ô, Hơi Nước Khaz-Drakor 24 ô), bù nhìn rơm bảo vệ mùa màng.
 4. **Mở Rộng Bản Đồ Độc Bản Oakhaven (Không Rập Khuôn Stardew):**
    - 1. Kênh Thủy Lợi Thượng Nguồn (Ruộng Bậc Thang Lúa Nước & Bến Thuyền Nan).
-   - 2. Cây Thần Ngàn Năm & Đại Lễ Tẩy Trần (Xua tan sương độc, mở Rừng Thần Thảo Mộc).
-   - 3. Tuyến Cáp Treo Mỏ Khai Nguyên (Lên Đỉnh Răng Sói, Mỏ Bụi Sao, Suối Nước Nóng).
-   - 4. Ga Đường Sắt Trung Tâm (Đón du khách và đầu bếp quốc tế thuê trọ tầng 2).
+   - 2. Cây Thần Ngàn Năm & Đại Lễ Tẩy Trần (Xua tan chướng khí miasma, mở Rừng Thần Thảo Mộc).
+   - 3. Tuyến Cáp Treo Mỏ Khai Nguyên (Lên Đỉnh Răng Sói, Mỏ Khai Nguyên, Suối Nước Nóng).
+   - 4. Ga Đường Sắt Trung Tâm (Đón du khách và thương nhân đại lục thuê trọ tầng 2).
    - 5. Cổ Đô Cấm Địa Lòng Đất Sunken Necropolis (Hầm ngục vô tận hậu tầng 150).
 5. **Trang Bị Chuẩn Mực, Chế Tác Nhẫn & Ngọc Ma Thuật:**
    - Slot trang phục: Mũ, Áo, Quần, Giày, 2 Khe Đeo Nhẫn, Balo.

@@ -143,7 +143,7 @@
         {
           "id": "npc_rosemary",
           "name": "Rosemary",
-          "role": "Stardust Shrine Keeper / Người Giữ Đền"
+          "role": "Ancient Altar Keeper / Người Giữ Đền"
         },
         {
           "id": "npc_tilly",
@@ -218,7 +218,7 @@
         "Moth-Folk Weavers",
         "Canopy Treetop Tea Bar",
         "Night-Dew Flower Nectar",
-        "Meteor Stardust Pollen"
+        "Meteor Starlight Pollen"
       ],
       "tags": [
         "forest",

@@ -5,10 +5,10 @@
   "perks": [
     {
       "id": "star_dash",
-      "name": "Stardust Dash",
+      "name": "Astral Dash",
       "branch": "exploration",
-      "description": "Press Space to perform a rapid dash leaving a trail of stardust — dodging monster attacks and traversing mines swiftly.",
-      "unlock_hint": "Restore Chapter I of Grandma's Grimoire (Requires 3 Stardust Powder + 5 Crystal Gems)",
+      "description": "Press Space to perform a rapid dash leaving a trail of starlight — dodging monster attacks and traversing mines swiftly.",
+      "unlock_hint": "Restore Chapter I of Grandma's Grimoire (Requires 3 Star Crystal Powder + 5 Crystal Gems)",
       "tags": [
         "movement",
         "dodge",

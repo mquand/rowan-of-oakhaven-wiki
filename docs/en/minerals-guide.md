@@ -69,7 +69,7 @@ Supernatural minerals that supply power to the arcane realm, alchemical circles,
 - **Applications:** Handed to Boris to forge the Mithril Pickaxe (breaks standard boulders in a single strike) and the Arcane Scythe.
 
 ### ☣️ Corrupted Warpstone *(Thạch Biến Dị Hắc Hóa)*
-- **Depth:** Floors 76–100, dropped by Stardust Abyssal fiends.
+- **Depth:** Floors 76–100, dropped by Void Abyssal fiends.
 - **Traits:** Seeps foul violet vapors that mutate subterranean critters and corrupt vegetation.
 - **Applications:** Delivered to Apothecary Aurelia to synthesize mutation antidotes; serves as a volatile alchemical reagent.
 
@@ -123,10 +123,10 @@ Minerals harnessed by Khaz-Drakor engineers to power steam mechanics and improve
 
 In Rowan's delicate hands, minerals transcend industrial smelting to become the soul of mystic tea ceremonies:
 
-- 🍵 **Moonlight Dew Tea:** Lotus Tea Leaves + Moonstone + Stardust Powder. Grants $+30\%$ nocturnal Stamina regeneration and unlocks intimate dialogue confessions from night patrons.
+- 🍵 **Moonlight Dew Tea:** Lotus Tea Leaves + Moonstone + Star Crystal Powder. Grants $+30\%$ nocturnal Stamina regeneration and unlocks intimate dialogue confessions from night patrons.
 - 🥧 **Deepwood Emerald Tart:** Fresh Flour + Life Emerald + Wild Honey. Permanently boosts $+40$ Max Stamina for 5 minutes and doubles natural vitality recuperation.
 - 💎 **Diamond Purified Tea:** Lotus Tea Leaves + Diamond of Purity + Starlight Lavender. Purges all toxins and hexes, conferring absolute immunity to shadow damage for 4 minutes.
 - 🫐 **Snowberry Frost Tea:** Wild Forest Berry + Crystal Ice Shard. Refreshing instant chill; grants $+15\%$ walking speed.
-- ⭐ **Star Crystal Tart:** Flour + Amethyst + Stardust Powder. Glows with ethereal purple dust; increases rare ore vein discovery chances by $+25\%$.
+- ⭐ **Star Crystal Tart:** Flour + Amethyst + Star Crystal Powder. Glows with ethereal purple dust; increases rare ore vein discovery chances by $+25\%$.
 
 👉 Browse full catalog entries: [Items Database](/database/items) · [Tea & Baking Recipes](/database/recipes)

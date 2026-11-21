@@ -65,11 +65,11 @@ Những loại khoáng vật mang tính chất siêu nhiên, dùng làm nguồn 
 
 ### 🛡️ Quặng Hắc Thiết Thần Thoại (Mithril Ore)
 - **Vị trí:** Tầng 76–100, vỉa khoáng sản sâu nhất.
-- **Đặc tính:** Kim loại màu tím bạc lấp lánh bụi sao, nhẹ như bông nhưng cứng hơn thép tôi, dẫn truyền ma lực tuyệt hảo.
+- **Đặc tính:** Kim loại màu tím bạc lấp lánh ánh sao, nhẹ như bông nhưng cứng hơn thép tôi, dẫn truyền ma lực tuyệt hảo.
 - **Ứng dụng:** Giao cho Boris rèn Cuốc Mithril (đập vỡ đá chỉ bằng 1 nhát gõ) và Lưỡi Hái Ma Thuật gặt trọn cụm thảo mộc.
 
 ### ☣️ Thạch Biến Dị Hắc Hóa (Corrupted Warpstone)
-- **Vị trí:** Tầng 76–100, rơi ra từ quái vật Bụi Sao Hắc Hóa.
+- **Vị trí:** Tầng 76–100, rơi ra từ quái vật Hư Không Hắc Hóa.
 - **Đặc tính:** Rỉ khói độc tím thẫm, làm biến dị sinh vật và làm tha hóa cây cỏ xung quanh.
 - **Ứng dụng:** Giao cho Dược sĩ Aurelia nghiên cứu huyết thanh giải độc biến dị; làm thuốc thử giả kim thuật.
 

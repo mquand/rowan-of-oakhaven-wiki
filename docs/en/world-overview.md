@@ -33,7 +33,7 @@ The world of Rowan of Oakhaven unfolds across **Five Great Realms**, each posses
 ┌────────┴────────┐   ┌──────────┴──────────┐   ┌───────┴────────┐
 │  REALM 2:       │   │  REALM 1: OAKHAVEN  │   │  REALM 3:      │
 │  DWARF KINGDOM  │   │  (Central Hamlet)   │   │  ELVEN FOREST  │
-│  Khaz-Drakor    │───│  Stardust Valley    │───│  Sylva-Fae Glade│
+│  Khaz-Drakor    │───│  Oakhaven Valley    │───│  Sylva-Fae Glade│
 └─────────────────┘   └──────────┬──────────┘   └────────────────┘
                                  │
                     ┌────────────┴────────────┐

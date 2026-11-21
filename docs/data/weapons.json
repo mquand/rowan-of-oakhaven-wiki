@@ -109,7 +109,7 @@
       "name_en": "Starlight Blade",
       "weapon_type": "melee",
       "tier": 6,
-      "description": "Thanh kiếm pha lê phát sáng — đòn đánh nhanh 3 nhịp, chém ra vệt bụi sao lấp lánh. Nhát chém thứ 3 làm vỡ vụn các tảng đá cứng và xuyên giáp hư không.",
+      "description": "Thanh kiếm pha lê phát sáng — đòn đánh nhanh 3 nhịp, chém ra vệt tinh tú lấp lánh. Nhát chém thứ 3 làm vỡ vụn các tảng đá cứng và xuyên giáp hư không.",
       "upgrade_path": "Bậc tối thượng: Rèn tại Lò Boris với Lõi Tinh Tú",
       "tags": [
         "sword",
@@ -119,8 +119,8 @@
       "base_atk": 68,
       "attack_speed": "Cực nhanh (3.8 nhịp/s)",
       "reach": "Cận chiến (1.4 ô)",
-      "special_effect": "Nhát chém thứ 3 tạo sóng bụi sao làm vỡ vụn đá cứng và xuyên giáp quái vật hư không.",
-      "runic_skill": "Bụi Sao Thác Đổ: Phóng ra 5 phi kiếm bụi sao tự động truy tìm mục tiêu.",
+      "special_effect": "Nhát chém thứ 3 tạo sóng tinh tú làm vỡ vụn đá cứng và xuyên giáp quái vật hư không.",
+      "runic_skill": "Tinh Tú Thác Đổ: Phóng ra 5 phi kiếm tinh tú tự động truy tìm mục tiêu.",
       "materials_needed": "1 Lõi Tinh Tú + 4 Kim Cương + 20,000 Vàng tại Lò rèn Boris"
     },
     {
@@ -378,7 +378,7 @@
       "base_atk": 65,
       "attack_speed": "Rất nhanh (2.5 phát/s)",
       "reach": "Tầm xa (7.0 ô)",
-      "special_effect": "Không tốn tên thường; tự ngưng tụ bụi sao thành các mũi tiễn hư không phát nổ khi chạm mục tiêu.",
+      "special_effect": "Không tốn tên thường; tự ngưng tụ tinh tú thành các mũi tiễn hư không phát nổ khi chạm mục tiêu.",
       "runic_skill": "Mưa Tên Tinh Tú: Trút cơn mưa tên sao từ trên cao xuống quét sạch diện tích 4x4 ô.",
       "materials_needed": "1 Lõi Tinh Tú + 6 Phôi Bạc + 3 Kim Cương + 24,000 Vàng tại Lò rèn Boris"
     },

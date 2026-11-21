@@ -60,9 +60,9 @@ export default {
       {
         id: 'rowan',
         name: 'Rowan',
-        role: 'Chủ tiệm trà bánh Oakhaven',
+        role: 'Chủ Quán Ăn & Nhà Trọ The Hearth',
         species: 'Con người',
-        desc: 'Kế thừa tiệm trà bánh của bà ngoại Amalia, chăm sóc vườn thảo mộc và pha chế bánh trà mỗi tối.',
+        desc: 'Kế thừa Quán Ăn & Nhà Trọ của bà ngoại Amalia, canh tác nông nghiệp, săn quặng 150 tầng mỏ và nhóm lò nấu 55 món ấm lòng mỗi tối.',
       },
       {
         id: 'pip',
@@ -119,13 +119,13 @@ export default {
     searchDocPlaceholder: 'Tìm kiếm tài liệu...',
     starterFeaturedBadge: 'Người mới',
     starterFeaturedTitle: 'Hướng dẫn khởi đầu — 7 ngày đầu tại Oakhaven',
-    starterFeaturedDesc: 'Hướng dẫn từng bước giúp bạn dọn dẹp trang trại, gieo trồng thảo mộc, gặp gỡ cư dân và mở tiệm trà bánh buổi tối đầu tiên.',
+    starterFeaturedDesc: 'Hướng dẫn từng bước giúp bạn dọn dẹp trang trại, gieo trồng thảo mộc, gặp gỡ cư dân và mở Quán Ăn & Nhà Trọ The Hearth buổi tối đầu tiên.',
     starterAction: 'Bắt đầu đọc hướng dẫn',
     starterSteps: [
       'Dọn nông trại & nhặt củi than',
       'Gieo hạt mầm thảo mộc đầu tiên',
       'Gặp thợ rèn Boris & dân làng',
-      'Mở tiệm trà bánh Oakhaven buổi tối',
+      'Mở Quán Ăn The Hearth buổi tối',
     ],
     difficultyDefault: 'Hướng dẫn',
     groups: {
@@ -137,16 +137,16 @@ export default {
     docDescriptions: {
       'game-overview': 'Tổng quan tựa game: giới thiệu cốt truyện mở đầu, chu kỳ ngày đêm và các tính năng cốt lõi.',
       'getting-started': 'Hướng dẫn 7 ngày đầu: dọn dẹp nông trại, làm quen cư dân và quản lý thể lực.',
-      'gameplay-guide': 'Chi tiết nhịp sinh hoạt một ngày: làm vườn, thám hiểm hang mỏ và pha chế trà bánh.',
+      'gameplay-guide': 'Chi tiết nhịp sinh hoạt một ngày: làm vườn, thám hiểm hang mỏ và nấu ăn tại Quán Ăn The Hearth.',
       'farming-crops-guide': 'Cẩm nang cây trồng 4 mùa: 20 giống cây đặc trưng, công thức làm bánh và 4 giải pháp tưới tự động.',
       'cooking-recipes-guide': 'Nghệ thuật ẩm thực Oakhaven: công thức pha trà, nướng bánh đá, món hầm thợ mỏ và lương khô thám hiểm.',
       'calendar-seasons': 'Chu kỳ 4 mùa trong năm (Xuân, Hạ, Thu, Đông), thời tiết đặc biệt và lịch gieo trồng.',
       'festivals-events': 'Các lễ hội truyền thống theo mùa: Hội thả đèn, Chợ hoa xuân, Đêm bánh nướng và Trăng rằm.',
       'world-overview': 'Bản đồ các khu vực: Thị trấn Oakhaven, Lò Rèn Boris, Rừng Tinh Linh và Địa Đàng Cực Quang.',
       'character-roster': 'Hồ sơ các cư dân thị trấn Oakhaven: nghề nghiệp, lịch trình và quà tặng yêu thích.',
-      'dungeon-combat': 'Cơ chế thám hiểm hang mỏ 150 tầng, 5 hệ vũ khí, hệ thống Lò rèn Boris và chiến thuật thanh tẩy ô nhiễm Star Blight.',
+      'dungeon-combat': 'Cơ chế thám hiểm hang mỏ 150 tầng, 5 hệ vũ khí, hệ thống Lò rèn Boris và chiến thuật thanh tẩy chướng khí Miasma.',
       'minerals-guide': 'Bách khoa khoáng thạch: đá quý huyền thoại, ma thạch hư cấu, đá Magitech và ứng dụng ẩm thực.',
-      'lore-story': 'Truyền thuyết thế giới: nguồn gốc Bụi Sao, di sản của người Bà Amalia và bí ẩn hắc hóa.',
+      'lore-story': 'Truyền thuyết thế giới: lịch sử Thung Lũng Oakhaven, di sản Bà Amalia và Bàn Thờ Cổ Đại.',
     },
     readingTimes: {
       'getting-started': 5,
