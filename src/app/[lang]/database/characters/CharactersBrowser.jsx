@@ -10,7 +10,7 @@ import { DEFAULT_LOCALE } from '../../../../lib/i18n/config';
 import { getDictionary } from '../../../../lib/i18n/getDictionary';
 import CharacterCard from './CharacterCard';
 
-const SHOP_IDS = ['npc_rowan', 'pet_pip', 'pet_mallow', 'npc_amalia'];
+const SHOP_IDS = ['pet_pip', 'pet_mallow', 'npc_amalia'];
 
 function groupOf(char) {
   if (SHOP_IDS.includes(char.id)) return 'shop';

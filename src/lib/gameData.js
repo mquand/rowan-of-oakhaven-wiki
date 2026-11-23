@@ -56,8 +56,26 @@ export function getCharacters(lang = DEFAULT_LOCALE) {
   return getCollection('characters.json', 'characters', lang);
 }
 
+export function getProtagonist(lang = DEFAULT_LOCALE) {
+  const filePath = resolveDataFilePath('characters.json', lang);
+  if (!fs.existsSync(filePath)) return null;
+  try {
+    const raw = fs.readFileSync(filePath, 'utf8');
+    const json = JSON.parse(raw);
+    return json.protagonist || null;
+  } catch (err) {
+    return null;
+  }
+}
+
 export function getCharacterById(id, lang = DEFAULT_LOCALE) {
-  return getCharacters(lang).find(c => c.id === id) || null;
+  const found = getCharacters(lang).find(c => c.id === id);
+  if (found) return found;
+  const protag = getProtagonist(lang);
+  if (protag && (protag.id === id || id === 'rowan' || id === 'npc_rowan' || id === 'player_rowan')) {
+    return protag;
+  }
+  return null;
 }
 
 export const getCrops = (lang = DEFAULT_LOCALE) => getCollection('crops.json', 'crops', lang);

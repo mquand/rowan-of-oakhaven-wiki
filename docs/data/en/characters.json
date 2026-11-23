@@ -4,48 +4,6 @@
   "updated": "2026-11-12",
   "characters": [
     {
-      "id": "npc_rowan",
-      "name": "Rowan",
-      "role": "Hearthkeeper, Farmer & Mine Delver of Oakhaven",
-      "location": "The Hearth Eatery & Inn",
-      "species": "Human (Frontier Artisan)",
-      "description": "Resilient frontier artisan and keeper of Oakhaven's hearth. Equal parts capable farmer, deep-mine delver, and baker who keeps the wood stove roaring each night for a rugged frontier town.",
-      "favorite_items": [
-        "item_tea_sen_an_than",
-        "item_bread_brioche",
-        "item_dish_moonlight_creamy_risotto"
-      ],
-      "quote": "These hands swing heavy pickaxes in the deep dark, yet know how to knead warm dough to banish the winter frost.",
-      "birthday": "Spring 1",
-      "schedule": "Morning & Afternoon: Tending homestead & delving the 150-floor mine; Evening: Firing the ovens at the hearth",
-      "real_world_wound": "Burnout and Imposter Syndrome after fleeing urban exploitation; haunted by fear of failing Amalia's legacy.",
-      "comfort_dish": "item_dish_moonlight_creamy_risotto",
-      "heart_event_summary": "Reclaims self-worth through honest farm labor, 150-floor mine exploration, and serving 55 comforting hot meals to healing frontier townsfolk.",
-      "gift_preferences": {
-        "loved": [
-          "tra_sen_bach_diep",
-          "item_bread_brioche",
-          "sup_cu_den_do_dai_ngan"
-        ],
-        "liked": [
-          "dau_rung",
-          "mat_ong",
-          "item_flour",
-          "com_nam_muoi_rung"
-        ],
-        "disliked": [
-          "ore_coal",
-          "thit_nuong_lua_dia_nguc"
-        ],
-        "hated": [
-          "drop_prism_jelly",
-          "ruou_trai_cay_len_men"
-        ]
-      },
-      "heart_events": [],
-      "avatar": "/images/characters/npc_rowan.png"
-    },
-    {
       "id": "pet_pip",
       "name": "Pip",
       "role": "Pygmy Owl Messenger & Botanical Seed Forager",
@@ -4928,5 +4886,46 @@
       ],
       "avatar": "/images/characters/npc_cora.png"
     }
-  ]
+  ],
+  "protagonist": {
+    "id": "npc_rowan",
+    "name": "Rowan",
+    "role": "Hearthkeeper, Farmer & Mine Delver of Oakhaven",
+    "location": "The Hearth Eatery & Inn",
+    "species": "Human (Frontier Artisan)",
+    "description": "Resilient frontier artisan and keeper of Oakhaven's hearth. Equal parts capable farmer, deep-mine delver, and baker who keeps the wood stove roaring each night for a rugged frontier town.",
+    "favorite_items": [
+      "item_tea_sen_an_than",
+      "item_bread_brioche",
+      "item_dish_moonlight_creamy_risotto"
+    ],
+    "quote": "These hands swing heavy pickaxes in the deep dark, yet know how to knead warm dough to banish the winter frost.",
+    "birthday": "Spring 1",
+    "schedule": "Morning & Afternoon: Tending homestead & delving the 150-floor mine; Evening: Firing the ovens at the hearth",
+    "real_world_wound": "Burnout and Imposter Syndrome after fleeing urban exploitation; haunted by fear of failing Amalia's legacy.",
+    "comfort_dish": "item_dish_moonlight_creamy_risotto",
+    "heart_event_summary": "Reclaims self-worth through honest farm labor, 150-floor mine exploration, and serving 55 comforting hot meals to healing frontier townsfolk.",
+    "gift_preferences": {
+      "loved": [
+        "tra_sen_bach_diep",
+        "item_bread_brioche",
+        "sup_cu_den_do_dai_ngan"
+      ],
+      "liked": [
+        "dau_rung",
+        "mat_ong",
+        "item_flour",
+        "com_nam_muoi_rung"
+      ],
+      "disliked": [
+        "ore_coal",
+        "thit_nuong_lua_dia_nguc"
+      ],
+      "hated": [
+        "drop_prism_jelly",
+        "ruou_trai_cay_len_men"
+      ]
+    },
+    "heart_events": []
+  }
 }
