@@ -2,6 +2,7 @@ import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import styles from './ItemDetail.module.scss';
 import Icon from '../../../../../components/Icon';
+import CharacterPortrait from '../../../../../components/CharacterPortrait';
 import {
   getItems,
   getItemById,
@@ -278,7 +279,13 @@ export default async function ItemDetailPage({ params }) {
                     className={styles.characterMiniCard}
                   >
                     <div className={styles.charAvatar}>
-                      <Icon name="users" size={18} />
+                      <CharacterPortrait
+                        id={char.id}
+                        name={char.name}
+                        size={32}
+                        frameless
+                        fallbackIcon="users"
+                      />
                     </div>
                     <div className={styles.charInfo}>
                       <div className={styles.charName}>{char.name}</div>

@@ -42,7 +42,8 @@
           "ruou_trai_cay_len_men"
         ]
       },
-      "heart_events": []
+      "heart_events": [],
+      "avatar": "/images/characters/npc_rowan.png"
     },
     {
       "id": "pet_pip",
@@ -102,7 +103,8 @@
           "reward_unlock": "Unlocks a permanent walking shortcut to the Sacred Botanical Grove and wild bee hives.",
           "event_type": "cutscene"
         }
-      ]
+      ],
+      "avatar": "/images/characters/pet_pip.png"
     },
     {
       "id": "pet_mallow",
@@ -156,7 +158,8 @@
           "reward_unlock": "Increases customer gold tips by 10%; Mallow leaves foraged herbs on the porch each morning.",
           "event_type": "tavern_dialogue"
         }
-      ]
+      ],
+      "avatar": "/images/characters/pet_mallow.png"
     },
     {
       "id": "npc_lumi",
@@ -264,7 +267,8 @@
           "reward_unlock": "Romantic Bond unlocked; Lumi moves into the attic chamber of The Hearth.",
           "event_type": "cutscene"
         }
-      ]
+      ],
+      "avatar": "/images/characters/npc_lumi.png"
     },
     {
       "id": "npc_boris",
@@ -444,7 +448,8 @@
           "reward_unlock": "Unlocks Advanced Smelting Station (halves smelting time, boosts gem yield).",
           "event_type": "cutscene"
         }
-      ]
+      ],
+      "avatar": "/images/characters/npc_boris.png"
     },
     {
       "id": "npc_maeve",
@@ -590,7 +595,8 @@
           "reward_unlock": "Grants a permanent 30% discount on all seed purchases in Oakhaven.",
           "event_type": "cutscene"
         }
-      ]
+      ],
+      "avatar": "/images/characters/npc_maeve.png"
     },
     {
       "id": "npc_kael",
@@ -722,7 +728,8 @@
           "reward_unlock": "Unlocks Automated Four-Season Seed Nursery & Breeding Station.",
           "event_type": "cutscene"
         }
-      ]
+      ],
+      "avatar": "/images/characters/npc_kael.png"
     },
     {
       "id": "npc_amalia",
@@ -781,7 +788,8 @@
           "reward_unlock": "Grants 'Oakhaven Head Chef' title and unlocks Memorial Soul Banquet recipe.",
           "event_type": "cutscene"
         }
-      ]
+      ],
+      "avatar": "/images/characters/npc_amalia.png"
     },
     {
       "id": "npc_bram",
@@ -918,7 +926,8 @@
           "reward_unlock": "Unlocks Mine Elevator Waypoint Shortcuts across deep expedition biomes.",
           "event_type": "cutscene"
         }
-      ]
+      ],
+      "avatar": "/images/characters/npc_bram.png"
     },
     {
       "id": "npc_penny",
@@ -1026,7 +1035,8 @@
           "reward_unlock": "Automated Bento & Meal Delivery Service to distant work sites and mineheads.",
           "event_type": "cutscene"
         }
-      ]
+      ],
+      "avatar": "/images/characters/npc_penny.png"
     },
     {
       "id": "npc_orion",
@@ -1139,7 +1149,8 @@
           "reward_unlock": "Activates recurring Falling Star Shower Events (harvest surface crystal ores).",
           "event_type": "cutscene"
         }
-      ]
+      ],
+      "avatar": "/images/characters/npc_orion.png"
     },
     {
       "id": "npc_clara",
@@ -1264,7 +1275,8 @@
           "reward_unlock": "Romantic Bond unlocked; Clara moves into The Hearth's attic suite.",
           "event_type": "cutscene"
         }
-      ]
+      ],
+      "avatar": "/images/characters/npc_clara.png"
     },
     {
       "id": "npc_garrick",
@@ -1381,7 +1393,8 @@
           "reward_unlock": "Opens Cloud Sea Shipping Route importing exotic spices and deep sea fish.",
           "event_type": "cutscene"
         }
-      ]
+      ],
+      "avatar": "/images/characters/npc_garrick.png"
     },
     {
       "id": "npc_finn",
@@ -1489,7 +1502,8 @@
           "reward_unlock": "Guaranteed Luminescent Fish Supply for night-vision cavern culinary dishes.",
           "event_type": "cutscene"
         }
-      ]
+      ],
+      "avatar": "/images/characters/npc_finn.png"
     },
     {
       "id": "npc_elora",
@@ -1551,7 +1565,8 @@
           "reward_unlock": "Gifts Eternal Frost-Resistant Gala Cloak (complete immunity to winter freeze).",
           "event_type": "cutscene"
         }
-      ]
+      ],
+      "avatar": "/images/characters/npc_elora.png"
     },
     {
       "id": "npc_sylvan",
@@ -1614,7 +1629,8 @@
           "reward_unlock": "Harvests Millennial Taproots for permanent stamina restoration remedies.",
           "event_type": "cutscene"
         }
-      ]
+      ],
+      "avatar": "/images/characters/npc_sylvan.png"
     },
     {
       "id": "npc_marlo",
@@ -1691,7 +1707,8 @@
           "reward_unlock": "Romantic Bond unlocked; Marlo moves in to protect the homestead.",
           "event_type": "cutscene"
         }
-      ]
+      ],
+      "avatar": "/images/characters/npc_marlo.png"
     },
     {
       "id": "npc_aurelia",
@@ -1767,7 +1784,8 @@
           "reward_unlock": "Romantic Bond unlocked; Aurelia moves into The Hearth's attic suite.",
           "event_type": "cutscene"
         }
-      ]
+      ],
+      "avatar": "/images/characters/npc_aurelia.png"
     },
     {
       "id": "npc_valen",
@@ -1843,7 +1861,8 @@
           "reward_unlock": "Romantic Bond unlocked; Valen permanently joins Rowan's household.",
           "event_type": "cutscene"
         }
-      ]
+      ],
+      "avatar": "/images/characters/npc_valen.png"
     },
     {
       "id": "npc_kassandra",
@@ -1905,7 +1924,8 @@
           "reward_unlock": "Gifts Courier Flying Broom (+50% travel velocity across exterior maps).",
           "event_type": "cutscene"
         }
-      ]
+      ],
+      "avatar": "/images/characters/npc_kassandra.png"
     },
     {
       "id": "npc_chrono",
@@ -1960,7 +1980,8 @@
           "reward_unlock": "Belfry chime increases daily diner tavern revenue by 20%.",
           "event_type": "cutscene"
         }
-      ]
+      ],
+      "avatar": "/images/characters/npc_chrono.png"
     },
     {
       "id": "npc_lapis",
@@ -2015,7 +2036,8 @@
           "reward_unlock": "Supplies Luminescent Poison-Warding Pearls for deep dungeon expedition amulets.",
           "event_type": "cutscene"
         }
-      ]
+      ],
+      "avatar": "/images/characters/npc_lapis.png"
     },
     {
       "id": "npc_thorne",
@@ -2133,7 +2155,8 @@
           "reward_unlock": "Grants Infinite Abyss License (Floors 151+) & Express Boss Elevator Pass.",
           "event_type": "cutscene"
         }
-      ]
+      ],
+      "avatar": "/images/characters/npc_thorne.png"
     },
     {
       "id": "npc_valerie",
@@ -2248,7 +2271,8 @@
           "reward_unlock": "Romantic Bond unlocked; Valerie moves into The Hearth's attic suite.",
           "event_type": "cutscene"
         }
-      ]
+      ],
+      "avatar": "/images/characters/npc_valerie.png"
     },
     {
       "id": "npc_elder_oak",
@@ -2337,7 +2361,8 @@
           "reward_unlock": "Fully completes all 12 public community restoration works.",
           "event_type": "cutscene"
         }
-      ]
+      ],
+      "avatar": "/images/characters/npc_elder_oak.png"
     },
     {
       "id": "npc_cedar",
@@ -2440,7 +2465,8 @@
           "reward_unlock": "Unlocks walking shortcut to Deep Woods and Advanced Carpentry Workshop.",
           "event_type": "cutscene"
         }
-      ]
+      ],
+      "avatar": "/images/characters/npc_cedar.png"
     },
     {
       "id": "npc_wren",
@@ -2529,7 +2555,8 @@
           "reward_unlock": "Regular Friday evening performances boosting diner visits and revenue by 20%.",
           "event_type": "cutscene"
         }
-      ]
+      ],
+      "avatar": "/images/characters/npc_wren.png"
     },
     {
       "id": "npc_hazel",
@@ -2632,7 +2659,8 @@
           "reward_unlock": "Gifts Farmstead Artisanal Cheese Press & Butter Churn.",
           "event_type": "cutscene"
         }
-      ]
+      ],
+      "avatar": "/images/characters/npc_hazel.png"
     },
     {
       "id": "npc_bramble",
@@ -2735,7 +2763,8 @@
           "reward_unlock": "Unlocks VIP Saturday Night Market with exotic masterwork tools and ores.",
           "event_type": "cutscene"
         }
-      ]
+      ],
+      "avatar": "/images/characters/npc_bramble.png"
     },
     {
       "id": "npc_rosemary",
@@ -2838,7 +2867,8 @@
           "reward_unlock": "Ancient Memorial Altar fully purified; unlocks reclaimed wilderness soils.",
           "event_type": "cutscene"
         }
-      ]
+      ],
+      "avatar": "/images/characters/npc_rosemary.png"
     },
     {
       "id": "npc_tilly",
@@ -2934,7 +2964,8 @@
           "reward_unlock": "Unlocks Rainbow Wool Dye Works (crafts tavern table linens boosting tip buffs).",
           "event_type": "cutscene"
         }
-      ]
+      ],
+      "avatar": "/images/characters/npc_tilly.png"
     },
     {
       "id": "npc_grimhild",
@@ -3023,7 +3054,8 @@
           "reward_unlock": "Transfers Ancient Mithril Alloy Equipment crafting knowledge.",
           "event_type": "cutscene"
         }
-      ]
+      ],
+      "avatar": "/images/characters/npc_grimhild.png"
     },
     {
       "id": "npc_cogsworth",
@@ -3112,7 +3144,8 @@
           "reward_unlock": "Unlocks Minecart Express Network for rapid transit across valley biomes.",
           "event_type": "cutscene"
         }
-      ]
+      ],
+      "avatar": "/images/characters/npc_cogsworth.png"
     },
     {
       "id": "npc_ember",
@@ -3201,7 +3234,8 @@
           "reward_unlock": "Unlocks Extreme Magma Grilling Station at The Hearth.",
           "event_type": "cutscene"
         }
-      ]
+      ],
+      "avatar": "/images/characters/npc_ember.png"
     },
     {
       "id": "npc_thistle",
@@ -3290,7 +3324,8 @@
           "reward_unlock": "Supplies Golden Silk for cloaks granting complete status debuff immunity.",
           "event_type": "cutscene"
         }
-      ]
+      ],
+      "avatar": "/images/characters/npc_thistle.png"
     },
     {
       "id": "npc_fern",
@@ -3379,7 +3414,8 @@
           "reward_unlock": "Permanently boosts all Oakhaven crop yields by 25% across the valley.",
           "event_type": "cutscene"
         }
-      ]
+      ],
+      "avatar": "/images/characters/npc_fern.png"
     },
     {
       "id": "npc_valerius",
@@ -3482,7 +3518,8 @@
           "reward_unlock": "Master Parry (widens parry window and grants +20% stamina recovery upon successful deflection).",
           "event_type": "cutscene"
         }
-      ]
+      ],
+      "avatar": "/images/characters/npc_valerius.png"
     },
     {
       "id": "npc_morrigan",
@@ -3585,7 +3622,8 @@
           "reward_unlock": "Unlocks Critical Strike Potions & Instant Miasma Antidote formulas.",
           "event_type": "cutscene"
         }
-      ]
+      ],
+      "avatar": "/images/characters/npc_morrigan.png"
     },
     {
       "id": "npc_iris",
@@ -3674,7 +3712,8 @@
           "reward_unlock": "Inaugurates Oakhaven Museum (donating full sets yields permanent stat bonuses).",
           "event_type": "cutscene"
         }
-      ]
+      ],
+      "avatar": "/images/characters/npc_iris.png"
     },
     {
       "id": "npc_solace",
@@ -3756,7 +3795,8 @@
           "reward_unlock": "Permanently opens Skyward Gate of Aethelgard connecting all five great realms.",
           "event_type": "cutscene"
         }
-      ]
+      ],
+      "avatar": "/images/characters/npc_solace.png"
     },
     {
       "id": "npc_barnaby",
@@ -3874,7 +3914,8 @@
           "reward_unlock": "Estate Strongbox automatically invests surplus gold at 3%/week and stocks winter firewood.",
           "event_type": "cutscene"
         }
-      ]
+      ],
+      "avatar": "/images/characters/npc_barnaby.png"
     },
     {
       "id": "npc_colm",
@@ -3997,7 +4038,8 @@
           "reward_unlock": "Expedition Supply Chest stocked daily with firewood, torches, and whetstones.",
           "event_type": "cutscene"
         }
-      ]
+      ],
+      "avatar": "/images/characters/npc_colm.png"
     },
     {
       "id": "npc_silas",
@@ -4093,7 +4135,8 @@
           "reward_unlock": "Weekly Delivery Charter automatically stocking exotic goods into estate larders.",
           "event_type": "cutscene"
         }
-      ]
+      ],
+      "avatar": "/images/characters/npc_silas.png"
     },
     {
       "id": "npc_hester",
@@ -4203,7 +4246,8 @@
           "reward_unlock": "Romantic Bond unlocked; Hester permanently pledges her blade to the estate.",
           "event_type": "cutscene"
         }
-      ]
+      ],
+      "avatar": "/images/characters/npc_hester.png"
     },
     {
       "id": "npc_mae",
@@ -4299,7 +4343,8 @@
           "reward_unlock": "Gifts Automated Farmstead Weaving Loom & luxury wool quilts (+cozy rating).",
           "event_type": "cutscene"
         }
-      ]
+      ],
+      "avatar": "/images/characters/npc_mae.png"
     },
     {
       "id": "npc_gomer",
@@ -4395,7 +4440,8 @@
           "reward_unlock": "Gifts Handheld Steam Drill (mines 3x3 ore clusters in cavern deeps).",
           "event_type": "cutscene"
         }
-      ]
+      ],
+      "avatar": "/images/characters/npc_gomer.png"
     },
     {
       "id": "npc_vael",
@@ -4491,7 +4537,8 @@
           "reward_unlock": "Gifts Reinforced Steam Diving Suit (permits crossing deep waters in sunken caverns).",
           "event_type": "cutscene"
         }
-      ]
+      ],
+      "avatar": "/images/characters/npc_vael.png"
     },
     {
       "id": "npc_rowena",
@@ -4587,7 +4634,8 @@
           "reward_unlock": "Shares Advanced Smokeless Husk Kiln blueprints with the farmstead.",
           "event_type": "cutscene"
         }
-      ]
+      ],
+      "avatar": "/images/characters/npc_rowena.png"
     },
     {
       "id": "npc_tad",
@@ -4683,7 +4731,8 @@
           "reward_unlock": "Bestows Ancestral Thousand-Year Bamboo Rod (+25% bite and reel velocity).",
           "event_type": "cutscene"
         }
-      ]
+      ],
+      "avatar": "/images/characters/npc_tad.png"
     },
     {
       "id": "npc_milo",
@@ -4779,7 +4828,8 @@
           "reward_unlock": "Junior Scout Network alerts player 1 day in advance of wild beast crop incursions.",
           "event_type": "cutscene"
         }
-      ]
+      ],
+      "avatar": "/images/characters/npc_milo.png"
     },
     {
       "id": "npc_cora",
@@ -4875,7 +4925,8 @@
           "reward_unlock": "Cora bestows the family's lucky River Jade talisman.",
           "event_type": "cutscene"
         }
-      ]
+      ],
+      "avatar": "/images/characters/npc_cora.png"
     }
   ]
 }

@@ -3,6 +3,7 @@
 import { useMemo, useState } from 'react';
 import Link from 'next/link';
 import Icon from '../../../../components/Icon';
+import CharacterPortrait from '../../../../components/CharacterPortrait';
 import styles from '../Database.module.scss';
 import { lookupGift } from '../../../../lib/itemLookup';
 import { DEFAULT_LOCALE } from '../../../../lib/i18n/config';
@@ -214,7 +215,13 @@ export default function CharactersBrowser({ characters, lang = DEFAULT_LOCALE })
                   <tr key={char.id}>
                     <td className={styles.iconCell}>
                       <div className={styles.iconWrap}>
-                        <Icon name={iconName} size={20} />
+                        <CharacterPortrait
+                          id={char.id}
+                          name={char.name}
+                          size={32}
+                          frameless
+                          fallbackIcon={iconName}
+                        />
                       </div>
                     </td>
                     <td className={styles.nameCell}>

@@ -3,6 +3,7 @@
 import { useState } from 'react';
 import Link from 'next/link';
 import Icon from '../../../../components/Icon';
+import CharacterPortrait from '../../../../components/CharacterPortrait';
 import styles from '../Database.module.scss';
 import { lookupGift } from '../../../../lib/itemLookup';
 
@@ -23,7 +24,13 @@ export default function CharacterCard({ char, lang, iconName, dict, isEn }) {
     <article className={`${styles.characterCard} pixel-frame`}>
       <div className={styles.cardTop}>
         <div className={styles.avatarSlot}>
-          <Icon name={iconName} size={30} />
+          <CharacterPortrait
+            id={char.id}
+            name={char.name}
+            size={52}
+            frameless
+            fallbackIcon={iconName}
+          />
         </div>
         <div className={styles.cardIdentity}>
           <h2 className={styles.charName}>{char.name}</h2>

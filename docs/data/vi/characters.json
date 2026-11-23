@@ -42,7 +42,8 @@
           "ruou_trai_cay_len_men"
         ]
       },
-      "heart_events": []
+      "heart_events": [],
+      "avatar": "/images/characters/npc_rowan.png"
     },
     {
       "id": "pet_pip",
@@ -102,7 +103,8 @@
           "reward_unlock": "Mở lối tắt đi bộ sang Rừng Thần Thảo Mộc và khu tổ ong rừng.",
           "event_type": "cutscene"
         }
-      ]
+      ],
+      "avatar": "/images/characters/pet_pip.png"
     },
     {
       "id": "pet_mallow",
@@ -156,7 +158,8 @@
           "reward_unlock": "Tăng 10% tiền tip vàng của khách dùng bữa; Mallow nhặt thảo mộc rụng mang vào hiên mỗi sớm.",
           "event_type": "tavern_dialogue"
         }
-      ]
+      ],
+      "avatar": "/images/characters/pet_mallow.png"
     },
     {
       "id": "npc_lumi",
@@ -264,7 +267,8 @@
           "reward_unlock": "Đính ước tri kỷ; Lumi chuyển về ở cùng tại gian phòng áp mái The Hearth.",
           "event_type": "cutscene"
         }
-      ]
+      ],
+      "avatar": "/images/characters/npc_lumi.png"
     },
     {
       "id": "npc_boris",
@@ -444,7 +448,8 @@
           "reward_unlock": "Mở khóa Trạm Tinh Luyện Cao Cấp (rút ngắn x2 thời gian đúc quặng, tăng tỷ lệ ngọc quý).",
           "event_type": "cutscene"
         }
-      ]
+      ],
+      "avatar": "/images/characters/npc_boris.png"
     },
     {
       "id": "npc_maeve",
@@ -590,7 +595,8 @@
           "reward_unlock": "Giảm 30% giá mua mọi loại hạt giống cây trồng tại thung lũng Oakhaven.",
           "event_type": "cutscene"
         }
-      ]
+      ],
+      "avatar": "/images/characters/npc_maeve.png"
     },
     {
       "id": "npc_kael",
@@ -722,7 +728,8 @@
           "reward_unlock": "Mở khóa Trạm Nhân Giống & Ghép Cây Bốn Mùa Tự Động (nhân bản hạt giống hiếm).",
           "event_type": "cutscene"
         }
-      ]
+      ],
+      "avatar": "/images/characters/npc_kael.png"
     },
     {
       "id": "npc_amalia",
@@ -781,7 +788,8 @@
           "reward_unlock": "Nhận danh hiệu 'Bếp Trưởng Oakhaven' & mở công thức Yến Tiệc Cầu Siêu Anh Hồn.",
           "event_type": "cutscene"
         }
-      ]
+      ],
+      "avatar": "/images/characters/npc_amalia.png"
     },
     {
       "id": "npc_bram",
@@ -918,7 +926,8 @@
           "reward_unlock": "Mở khóa Thang Máy Vượt Tầng Hầm Mỏ (mở lối tắt đến các trạm đới an toàn).",
           "event_type": "cutscene"
         }
-      ]
+      ],
+      "avatar": "/images/characters/npc_bram.png"
     },
     {
       "id": "npc_penny",
@@ -1026,7 +1035,8 @@
           "reward_unlock": "Hệ Thống Delivery Giao Cơm Hộp Tận Nơi cho thợ mỏ và dân làm việc xa quán.",
           "event_type": "cutscene"
         }
-      ]
+      ],
+      "avatar": "/images/characters/npc_penny.png"
     },
     {
       "id": "npc_orion",
@@ -1139,7 +1149,8 @@
           "reward_unlock": "Kích hoạt định kỳ sự kiện Đêm Sao Băng Rơi (thu thập khoáng thạch bề mặt thung lũng).",
           "event_type": "cutscene"
         }
-      ]
+      ],
+      "avatar": "/images/characters/npc_orion.png"
     },
     {
       "id": "npc_clara",
@@ -1264,7 +1275,8 @@
           "reward_unlock": "Kết duyên tri kỷ; Clara dọn về sống chung tại phòng áp mái The Hearth.",
           "event_type": "cutscene"
         }
-      ]
+      ],
+      "avatar": "/images/characters/npc_clara.png"
     },
     {
       "id": "npc_garrick",
@@ -1381,7 +1393,8 @@
           "reward_unlock": "Khai thông Tuyến Hàng Hải Biển Mây nhập khẩu gia vị và cá lạ độc quyền.",
           "event_type": "cutscene"
         }
-      ]
+      ],
+      "avatar": "/images/characters/npc_garrick.png"
     },
     {
       "id": "npc_finn",
@@ -1489,7 +1502,8 @@
           "reward_unlock": "Cung cấp nguồn Cá Phát Quang Ổn Định làm nguyên liệu món buff Dạ Quang soi sáng mỏ sâu.",
           "event_type": "cutscene"
         }
-      ]
+      ],
+      "avatar": "/images/characters/npc_finn.png"
     },
     {
       "id": "npc_elora",
@@ -1551,7 +1565,8 @@
           "reward_unlock": "Tặng Áo Choàng Dạ Hội Chống Rét Vĩnh Cửu (miễn nhiễm rét buốt mùa đông).",
           "event_type": "cutscene"
         }
-      ]
+      ],
+      "avatar": "/images/characters/npc_elora.png"
     },
     {
       "id": "npc_sylvan",
@@ -1614,7 +1629,8 @@
           "reward_unlock": "Khai thác Rễ Cây Ngàn Năm phục chế thể lực vĩnh viễn và chữa lành thương tật.",
           "event_type": "cutscene"
         }
-      ]
+      ],
+      "avatar": "/images/characters/npc_sylvan.png"
     },
     {
       "id": "npc_marlo",
@@ -1691,7 +1707,8 @@
           "reward_unlock": "Kết duyên tri kỷ; Marlo dọn về The Hearth và hỗ trợ canh gác trang trại.",
           "event_type": "cutscene"
         }
-      ]
+      ],
+      "avatar": "/images/characters/npc_marlo.png"
     },
     {
       "id": "npc_aurelia",
@@ -1767,7 +1784,8 @@
           "reward_unlock": "Kết duyên tri kỷ; Aurelia dọn về sống chung tại phòng áp mái The Hearth.",
           "event_type": "cutscene"
         }
-      ]
+      ],
+      "avatar": "/images/characters/npc_aurelia.png"
     },
     {
       "id": "npc_valen",
@@ -1843,7 +1861,8 @@
           "reward_unlock": "Kết duyên tri kỷ; Valen chính thức ở lại Oakhaven xây dựng gia đình cùng Rowan.",
           "event_type": "cutscene"
         }
-      ]
+      ],
+      "avatar": "/images/characters/npc_valen.png"
     },
     {
       "id": "npc_kassandra",
@@ -1905,7 +1924,8 @@
           "reward_unlock": "Tặng Chổi Bay Tốc Hành (+50% tốc độ di chuyển trên bản đồ thế giới).",
           "event_type": "cutscene"
         }
-      ]
+      ],
+      "avatar": "/images/characters/npc_kassandra.png"
     },
     {
       "id": "npc_chrono",
@@ -1960,7 +1980,8 @@
           "reward_unlock": "Chuông ngân giờ ăn tăng 20% doanh thu khách dùng bữa tại Quán The Hearth.",
           "event_type": "cutscene"
         }
-      ]
+      ],
+      "avatar": "/images/characters/npc_chrono.png"
     },
     {
       "id": "npc_lapis",
@@ -2015,7 +2036,8 @@
           "reward_unlock": "Cung ứng Ngọc Trai Phát Quang Kháng Độc dùng chế tác bùa hộ mệnh thám hiểm mỏ sâu.",
           "event_type": "cutscene"
         }
-      ]
+      ],
+      "avatar": "/images/characters/npc_lapis.png"
     },
     {
       "id": "npc_thorne",
@@ -2133,7 +2155,8 @@
           "reward_unlock": "Cấp Giấy Phép Mỏ Sâu Vực Thẳm 151+ & Thang Máy Tốc Hành tới Cổng Trùm.",
           "event_type": "cutscene"
         }
-      ]
+      ],
+      "avatar": "/images/characters/npc_thorne.png"
     },
     {
       "id": "npc_valerie",
@@ -2248,7 +2271,8 @@
           "reward_unlock": "Kết duyên tri kỷ; Valerie dọn về sống chung tại phòng áp mái The Hearth.",
           "event_type": "cutscene"
         }
-      ]
+      ],
+      "avatar": "/images/characters/npc_valerie.png"
     },
     {
       "id": "npc_elder_oak",
@@ -2337,7 +2361,8 @@
           "reward_unlock": "Hoàn thành khôi phục toàn bộ 12 công trình công cộng của thị trấn.",
           "event_type": "cutscene"
         }
-      ]
+      ],
+      "avatar": "/images/characters/npc_elder_oak.png"
     },
     {
       "id": "npc_cedar",
@@ -2440,7 +2465,8 @@
           "reward_unlock": "Mở lối tắt đi bộ sang Rừng Sâu và nâng cấp xưởng mộc chế tác đồ gỗ.",
           "event_type": "cutscene"
         }
-      ]
+      ],
+      "avatar": "/images/characters/npc_cedar.png"
     },
     {
       "id": "npc_wren",
@@ -2529,7 +2555,8 @@
           "reward_unlock": "Biểu diễn định kỳ tối thứ Sáu tăng 20% lượng khách và doanh thu quán.",
           "event_type": "cutscene"
         }
-      ]
+      ],
+      "avatar": "/images/characters/npc_wren.png"
     },
     {
       "id": "npc_hazel",
@@ -2632,7 +2659,8 @@
           "reward_unlock": "Tặng Máy Làm Phô Mai & Máy Tách Bơ Gia Đình cho điền trang.",
           "event_type": "cutscene"
         }
-      ]
+      ],
+      "avatar": "/images/characters/npc_hazel.png"
     },
     {
       "id": "npc_bramble",
@@ -2735,7 +2763,8 @@
           "reward_unlock": "Chợ Đêm Thứ Bảy VIP bán công cụ độc bản và quặng quý phương xa.",
           "event_type": "cutscene"
         }
-      ]
+      ],
+      "avatar": "/images/characters/npc_bramble.png"
     },
     {
       "id": "npc_rosemary",
@@ -2838,7 +2867,8 @@
           "reward_unlock": "Bàn Thờ Cổ Đại mở phong ấn hoàn toàn; giải phóng toàn bộ đất hoang hóa quanh thung lũng.",
           "event_type": "cutscene"
         }
-      ]
+      ],
+      "avatar": "/images/characters/npc_rosemary.png"
     },
     {
       "id": "npc_tilly",
@@ -2934,7 +2964,8 @@
           "reward_unlock": "Mở khóa Xưởng Nhuộm Len Ngũ Sắc (may khăn trải bàn tăng buff tiền tip quán).",
           "event_type": "cutscene"
         }
-      ]
+      ],
+      "avatar": "/images/characters/npc_tilly.png"
     },
     {
       "id": "npc_grimhild",
@@ -3023,7 +3054,8 @@
           "reward_unlock": "Chuyển giao công thức Đúc Trang Bị Hợp Kim Mithril Cổ Đại.",
           "event_type": "cutscene"
         }
-      ]
+      ],
+      "avatar": "/images/characters/npc_grimhild.png"
     },
     {
       "id": "npc_cogsworth",
@@ -3112,7 +3144,8 @@
           "reward_unlock": "Mở khóa Tuyến Xe Goong Minecart Express di chuyển siêu tốc giữa các phân khu thung lũng.",
           "event_type": "cutscene"
         }
-      ]
+      ],
+      "avatar": "/images/characters/npc_cogsworth.png"
     },
     {
       "id": "npc_ember",
@@ -3201,7 +3234,8 @@
           "reward_unlock": "Mở khóa Trạm Nướng Lửa Magma Cực Hạn tại bếp The Hearth.",
           "event_type": "cutscene"
         }
-      ]
+      ],
+      "avatar": "/images/characters/npc_ember.png"
     },
     {
       "id": "npc_thistle",
@@ -3290,7 +3324,8 @@
           "reward_unlock": "Cung cấp Tơ Hoàng Kim may áo choàng kháng mọi hiệu ứng bất lợi.",
           "event_type": "cutscene"
         }
-      ]
+      ],
+      "avatar": "/images/characters/npc_thistle.png"
     },
     {
       "id": "npc_fern",
@@ -3379,7 +3414,8 @@
           "reward_unlock": "Đất đai thung lũng tăng vĩnh viễn 25% năng suất cây trồng toàn cõi Oakhaven.",
           "event_type": "cutscene"
         }
-      ]
+      ],
+      "avatar": "/images/characters/npc_fern.png"
     },
     {
       "id": "npc_valerius",
@@ -3482,7 +3518,8 @@
           "reward_unlock": "Master Parry (tăng thời gian căn đòn + tăng 20% tốc độ hồi thể lực khi đỡ trúng).",
           "event_type": "cutscene"
         }
-      ]
+      ],
+      "avatar": "/images/characters/npc_valerius.png"
     },
     {
       "id": "npc_morrigan",
@@ -3585,7 +3622,8 @@
           "reward_unlock": "Mở công thức Thần Dược Cường Hóa Bạo Kích và Thuốc Giải Độc Miasma Cấp Tốc.",
           "event_type": "cutscene"
         }
-      ]
+      ],
+      "avatar": "/images/characters/npc_morrigan.png"
     },
     {
       "id": "npc_iris",
@@ -3674,7 +3712,8 @@
           "reward_unlock": "Khai trương Viện Bảo Tàng Oakhaven (trưng bày bộ sưu tập hoàn chỉnh nhận thưởng vĩnh viễn).",
           "event_type": "cutscene"
         }
-      ]
+      ],
+      "avatar": "/images/characters/npc_iris.png"
     },
     {
       "id": "npc_solace",
@@ -3756,7 +3795,8 @@
           "reward_unlock": "Mở khóa vĩnh viễn Cổng Trời Aethelgard kết nối tự do toàn bộ 5 đại vực.",
           "event_type": "cutscene"
         }
-      ]
+      ],
+      "avatar": "/images/characters/npc_solace.png"
     },
     {
       "id": "npc_barnaby",
@@ -3874,7 +3914,8 @@
           "reward_unlock": "Két Sắt Điền Trang tự động trích quỹ sinh lãi 3%/tuần và tự mua củi dự trữ mùa đông.",
           "event_type": "cutscene"
         }
-      ]
+      ],
+      "avatar": "/images/characters/npc_barnaby.png"
     },
     {
       "id": "npc_colm",
@@ -3997,7 +4038,8 @@
           "reward_unlock": "Rương Tiếp Tế Dã Ngoại chuẩn bị sẵn củi khô, đuốc sáng và đá mài trước hiên mỗi sáng.",
           "event_type": "cutscene"
         }
-      ]
+      ],
+      "avatar": "/images/characters/npc_colm.png"
     },
     {
       "id": "npc_silas",
@@ -4093,7 +4135,8 @@
           "reward_unlock": "Ký hợp đồng cung ứng định kỳ hàng tuần tự động giao nguyên liệu ngoại lai vào kho.",
           "event_type": "cutscene"
         }
-      ]
+      ],
+      "avatar": "/images/characters/npc_silas.png"
     },
     {
       "id": "npc_hester",
@@ -4203,7 +4246,8 @@
           "reward_unlock": "Kết duyên tri kỷ; Hester chính thức ở lại thung lũng bảo vệ điền trang.",
           "event_type": "cutscene"
         }
-      ]
+      ],
+      "avatar": "/images/characters/npc_hester.png"
     },
     {
       "id": "npc_mae",
@@ -4299,7 +4343,8 @@
           "reward_unlock": "Tặng Khung Dệt Len Tự Động Điền Trang & chăn lông cừu cao cấp (+cozy rating).",
           "event_type": "cutscene"
         }
-      ]
+      ],
+      "avatar": "/images/characters/npc_mae.png"
     },
     {
       "id": "npc_gomer",
@@ -4395,7 +4440,8 @@
           "reward_unlock": "Tặng Máy Khoan Hơi Nước Cầm Tay (khai khoáng diện tích 3×3 trong mỏ sâu).",
           "event_type": "cutscene"
         }
-      ]
+      ],
+      "avatar": "/images/characters/npc_gomer.png"
     },
     {
       "id": "npc_vael",
@@ -4491,7 +4537,8 @@
           "reward_unlock": "Tặng Bộ Đồ Lặn Hơi Nước Gia Cố (cho phép bơi qua các vùng nước sâu trong hang ngầm).",
           "event_type": "cutscene"
         }
-      ]
+      ],
+      "avatar": "/images/characters/npc_vael.png"
     },
     {
       "id": "npc_rowena",
@@ -4587,7 +4634,8 @@
           "reward_unlock": "Chuyển giao kỹ thuật Lò Nung Than Tro Trấu Khép Kín Cao Cấp cho điền trang.",
           "event_type": "cutscene"
         }
-      ]
+      ],
+      "avatar": "/images/characters/npc_rowena.png"
     },
     {
       "id": "npc_tad",
@@ -4683,7 +4731,8 @@
           "reward_unlock": "Trao tặng Cần Câu Trúc Ngàn Năm Cổ Truyền (+25% tốc độ giật cá hiếm).",
           "event_type": "cutscene"
         }
-      ]
+      ],
+      "avatar": "/images/characters/npc_tad.png"
     },
     {
       "id": "npc_milo",
@@ -4779,7 +4828,8 @@
           "reward_unlock": "Lập Đội Thám Tử Nhí tuần tra báo trước thú rừng quấy phá mùa màng sớm 1 ngày.",
           "event_type": "cutscene"
         }
-      ]
+      ],
+      "avatar": "/images/characters/npc_milo.png"
     },
     {
       "id": "npc_cora",
@@ -4875,7 +4925,8 @@
           "reward_unlock": "Cora tặng Rowan Viên Ngọc Thạch Suối gia bảo gia đình mang lại may mắn.",
           "event_type": "cutscene"
         }
-      ]
+      ],
+      "avatar": "/images/characters/npc_cora.png"
     }
   ]
 }

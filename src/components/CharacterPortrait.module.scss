@@ -13,10 +13,17 @@
   flex-shrink: 0;
   overflow: hidden;
 
-  svg {
+  &.frameless {
+    background: transparent;
+    border: none;
+    box-shadow: none;
+  }
+
+  img, svg {
     display: block;
     width: 100%;
     height: 100%;
+    object-fit: contain;
     shape-rendering: crispEdges;
     image-rendering: pixelated;
   }
