@@ -372,21 +372,18 @@ Mỗi cư dân Oakhaven không phải NPC rập khuôn vô hồn, mà mang một
   - Kích hoạt các đoạn độc thoại mộc mạc, giải tỏa gánh nặng tâm lý.
   - Sau sự kiện 8 Tim, nhân vật sẽ tặng Rowan công thức gia truyền hoặc mở khóa tiện ích dịch vụ vĩnh viễn cho thị trấn.
 
-### 10.4. Kiến Trúc Tam Phân Sự Kiện Trái Tim (3-Tier Event Delivery Architecture)
-Để giải quyết bài toán khả thi sản xuất (Asset Feasibility) và chống phình to khối lượng công việc (Asset Creep), toàn bộ 168 mốc sự kiện tim của 51 nhân vật được phân định rõ ràng thành 3 cấp độ thể hiện kỹ thuật:
-1. **Cấp C (~50% - Thư Tay Sớm Của Cú Pip):**
-   - *Áp dụng:* Đa số mốc 2 Tim và các nhân vật Tier 3 ở xa.
-   - *Cơ chế:* Sáng sớm, Cú Pip ngậm thư nhét vào hòm thư trước hiên nhà. Thư tay viết mộc mạc, kèm quà tặng (túi hạt giống, mở rộng ô ba lô, công thức sơ chế, giảm giá mua hàng). Chi phí asset = 0, tạo nhịp sinh hoạt mở thư mỗi sớm rất ấm cúng.
-2. **Cấp B (~35% - Tương Tác Đời Thường Đa Địa Điểm & Thời Tiết - Dynamic World Encounters):**
-   - *Áp dụng:* Đa số mốc 4 Tim và 6 Tim.
-   - *Cơ chế đa không gian (Phá vỡ sự rập khuôn chỉ gặp ở quán):*
-     * **~30% Sự kiện diễn ra tại The Hearth:** Gắn liền với ăn uống ca tối, khách thuê trọ lầu 2 (Valen de Montfort), hoặc tiệc rượu đêm (Boris & Bram).
-     * **~70% Sự kiện diễn ra ngoài thế giới thực (6 Địa bàn mở):** Bắt gặp tự nhiên khi Rowan di chuyển và làm việc: giữa luống rau mùa đông sáng sớm (Bà Maeve nhức khớp), bậc đá cửa mỏ giờ trưa nắng (Bram tháo chân giả gọt lại), dốc đèo núi tuyết chiều mưa rào (Hester tái phát sẹo chiến trường), bến thuyền đầm lầy sương mù (Vael trồi lên sau ca lặn), chòi gác cổng làng đêm giông (Marlo hoảng loạn vì bóng ma chiến tranh).
-   - *Điều kiện kích hoạt 4 chiều:* Gắn liền với Mốc Tim, Địa Điểm, Khung Giờ (Sáng/Trưa/Chiều/Đêm), và Thời Tiết/Mùa.
-   - *Thể hiện kỹ thuật:* Đối thoại tại chỗ (Dialogue Box) kết hợp Bong bóng biểu cảm 16x16 (Emote Bubbles); chi phí vẽ asset = 0 (tận dụng map và vị trí đứng sẵn có của NPC).
-3. **Cấp A (~15% - Cutscene Hoạt Cảnh Đỉnh Cao):**
-   - *Áp dụng:* Chỉ khoảng 15 – 20 sự kiện đỉnh cao trong toàn bộ game (mốc 8 Tim hóa giải bi kịch quá khứ và 10 Tim kết duyên).
-   - *Cơ chế:* Diễn ra tại các bối cảnh quen thuộc (quán The Hearth, Lò rèn Boris, Bàn Thờ Cổ Đại), khóa điều khiển tạm thời 30 giây để thoại chạy tự động, tạo khoảnh khắc cảm xúc thăng hoa lắng đọng.
+### 10.4. Kiến Trúc 51 Cảnh Diễn Khoảnh Khắc Vàng & Bộ Sưu Tập Ảnh Polaroid (51 Signature Milestone Scenes)
+Để giải quyết bài toán khả thi sản xuất (Asset Feasibility) và đảm bảo sự công bằng, trọn vẹn cho toàn bộ cư dân thung lũng, hệ thống tình cảm vận hành trên nguyên tắc:
+* **Giao diện đồng nhất 8 Tim (8 Hearts Cap):** Toàn bộ 51 nhân vật đều có thanh tiến trình 8 Tim trên UI Sổ Dân Làng để người chơi tự do kết bạn, tặng quà và đạt thành tựu toàn diện.
+* **Tạm gác cơ chế Kết Hôn (Romance Postponed):** Loại bỏ áp lực hẹn hò/kết hôn phức tạp, dồn 100% nguồn lực vào **Tình Thân Cộng Đồng, Sự Gắn Kết & Chữa Lành Hậu Chiến (Community Bonds & Healing)**.
+* **Mỗi nhân vật đều có ĐÚNG 1 CẢNH DIỄN KHOẢNH KHẮC VÀNG (1 Signature Milestone Scene):**
+  - Không có "NPC rác" hay NPC bị bỏ rơi; bất kỳ ai khi đạt tới mốc đỉnh cao của họ đều kích hoạt 1 hoạt cảnh In-Engine giàu cảm xúc.
+  - Sau khi hoàn thành cảnh diễn, người chơi mở khóa **1 Bức Ảnh Kỷ Niệm Polaroid 16-bit** để treo lên **Bức Tường Kỷ Niệm (Memory Wall)** tại phòng áp mái The Hearth cùng **1 Kỷ Vật Đời Người (Passive Relic)**.
+* **3 Tầng Phân Bổ Mốc Xuất Hiện Cảnh Diễn (In-Engine Scenes):**
+  1. **Tầng 1 (Tier 1 - 14 NPC Nòng Cốt Cốt Truyện):** Cảnh diễn diễn ra ở **Mốc 8 Tim** (Thời lượng 45 – 60s, hóa giải bi kịch quá khứ sâu lắng nhất).
+  2. **Tầng 2 (Tier 2 - 16 NPC Trụ Cột Đời Sống & Dịch Vụ):** Cảnh diễn diễn ra ở **Mốc 6 Tim** (Thời lượng 30 – 40s, đồng lòng mở công trình/tiện ích lớn).
+  3. **Tầng 3 (Tier 3 - 21 NPC Khách Trọ, Dân Rìa Làng & Trẻ Em):** Cảnh diễn diễn ra ở **Mốc 4 Tim** (Thời lượng 20 – 30s, khoảnh khắc đời thường mộc mạc, một nụ cười ấm áp hay bát canh nóng).
+* *(Xem danh mục chi tiết 51 Cảnh Diễn và 51 Tấm Ảnh Polaroid tại `docs/ideas/brainstorm-expansion-notes.md`).*
 
 ### 10.5. 4 Thực Thể Thế Giới & Khách Niên Kỷ (World & Event Entities)
 Tách biệt khỏi 47 NPC thường trú, thế giới vận hành thêm 4 thực thể đặc thù cho các dịp lễ hội và khám phá hầm mỏ:
