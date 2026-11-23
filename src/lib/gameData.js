@@ -10,12 +10,12 @@ function resolveDataFilePath(fileName, lang = DEFAULT_LOCALE) {
   if (fs.existsSync(langPath)) return langPath;
   const viPath = path.join(BASE_DATA_DIR, 'vi', fileName);
   if (fs.existsSync(viPath)) return viPath;
-  return path.join(BASE_DATA_DIR, fileName);
+  return null;
 }
 
 function getCollection(fileName, key, lang = DEFAULT_LOCALE) {
   const filePath = resolveDataFilePath(fileName, lang);
-  if (!fs.existsSync(filePath)) return [];
+  if (!filePath || !fs.existsSync(filePath)) return [];
   try {
     const raw = fs.readFileSync(filePath, 'utf8');
     const json = JSON.parse(raw);

@@ -9,9 +9,7 @@ const BASE_DOCS_DIR = path.join(process.cwd(), 'docs');
 function getDocsDir(lang = DEFAULT_LOCALE) {
   const langDir = path.join(BASE_DOCS_DIR, lang);
   if (fs.existsSync(langDir)) return langDir;
-  const viDir = path.join(BASE_DOCS_DIR, 'vi');
-  if (fs.existsSync(viDir)) return viDir;
-  return BASE_DOCS_DIR;
+  return path.join(BASE_DOCS_DIR, 'vi');
 }
 
 // YAML có thể trả về Date; chuẩn hóa thành chuỗi ISO ngắn (YYYY-MM-DD)
@@ -50,9 +48,6 @@ export async function getDocBySlug(slug, lang = DEFAULT_LOCALE) {
   let fullPath = path.join(BASE_DOCS_DIR, lang, `${slug}.md`);
   if (!fs.existsSync(fullPath)) {
     fullPath = path.join(BASE_DOCS_DIR, 'vi', `${slug}.md`);
-  }
-  if (!fs.existsSync(fullPath)) {
-    fullPath = path.join(BASE_DOCS_DIR, `${slug}.md`);
   }
   if (!fs.existsSync(fullPath)) return null;
 
