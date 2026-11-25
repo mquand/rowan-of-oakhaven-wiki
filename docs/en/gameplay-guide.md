@@ -90,7 +90,7 @@ Press `J` or `Tab` to open the **Farmstead Ledger**. The very first tab is the *
    - *The Hearth & Culinary (7):* Master 55 recipes, serve comforting foods, host Valen's midnight banquets.
    - *Mine-Dungeon & Combat (6):* Defeat 4 Warden Bosses, mine vast veins, blast boulders with Gomer's dynamite.
    - *Tactical Trials - Moderate Hard (6):* 15 consecutive Master Parries, descend 30 floors with 2 rations, reach Floor 180 of Infinite Abyss, defeat bosses with >90% HP, traverse magma caverns without health potions.
-   - *Four-Season Harvest (6):* 32 botanical crops, automated sprinklers, 5-star livestock, 15 fish species.
+   - *Four-Season Harvest (6):* 41 cultivated species (27 seasonal crops + 14 timber & orchard trees), automated sprinklers, 5-star livestock, 15 fish species.
    - *Heart Bonds & Healing (6):* 2 Hearts with all residents, reconcile family and veterans, complete all 51 Milestone Scenes & Memory Wall Polaroids.
    - *Restoration & Remembrance (5):* Complete 12 Town Board works, cleanse the Ancient Memorial Altar, reopen 5 foreign realms.
    - *Quirky & Secrets (14 hidden achievements):* Exploding eggs with Colm, Milo snagged on the fence, Barnaby's clean floor fury, pushing Silas's immovable mule, fainting on Floor 149, Tad's marsh moonshine, Mallow's sleepy disdain, Gomer's deafening blasts, mushroom hallucinations...

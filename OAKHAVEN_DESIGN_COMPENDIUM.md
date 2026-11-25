@@ -285,7 +285,7 @@ Chu kỳ canh tác: Cuốc đất $\rightarrow$ Gieo hạt $\rightarrow$ Tưới
 
 ### 8.2. Danh Sách 55 Món Ẩm Thực & Bảng Buff Thực Chiến
 
-*(Chi tiết đầy đủ 55 món ăn với nguyên liệu, trạm chế biến, giá bán và buff chỉ số xem chi tiết tại [cooking-recipes-guide.md](file:///D:/Dev-game/rowan-of-oakhaven-wiki/docs/cooking-recipes-guide.md))*
+*(Chi tiết đầy đủ 55 món ăn với nguyên liệu, trạm chế biến, giá bán và buff chỉ số xem chi tiết tại [cooking-recipes-guide.md](../rowan-of-oakhaven-wiki/docs/vi/cooking-recipes-guide.md))*
 
 * **Nhóm Buff Tấn Công (ATK Boost):** Bò bít tết sốt tiêu đen (+25% ATK), Cơm chiên hải sản cay (+15% ATK, +10% Crit), Thịt xiên nướng than hồng (+12% ATK).
 * **Nhóm Buff Phòng Ngự (DEF Boost):** Súp nấm rễ cây dày (+10 DEF, Kháng Choáng), Bánh mì thợ mỏ nướng giòn (+8 DEF, +20 Kháng gai nhọn), Khoai tây nghiền bơ tỏi (+5 DEF).

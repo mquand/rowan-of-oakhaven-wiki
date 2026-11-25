@@ -29,7 +29,7 @@ Bạn vào vai **Rowan**, người trẻ dũng cảm rời bỏ guồng quay cô
 
 | Thời điểm | Hoạt động đề xuất |
 | :--- | :--- |
-| **Sáng (06:00 - 12:00)** | Nhận thư Pip, chăm sóc nông trại (32 loại cây trồng 4 mùa), thu hoạch nông sản, cho gia súc ăn. |
+| **Sáng (06:00 - 12:00)** | Nhận thư Pip, chăm sóc nông trại (41 loài cây canh tác 4 mùa), thu hoạch nông sản, cho gia súc ăn. |
 | **Trưa & Chiều (12:00 - 18:00)** | Xuống Mỏ Khai Nguyên 150 tầng (chặt chém quái, đào quặng), hoặc câu cá bên hồ, thu thập thảo dược trong rừng. |
 | **Tối (18:00 - 23:00)** | Mở Quán Ăn phục vụ khách mang đi (Takeaway) và khách ngồi bàn (Dine-in), trò chuyện nâng tim cư dân. |
 | **Đêm (23:00 - 02:00)** | Cho thuê phòng trọ lầu 2, thử nghiệm công thức món mới tại Bàn R&D gác mái, lên giường ngủ lưu game. |
