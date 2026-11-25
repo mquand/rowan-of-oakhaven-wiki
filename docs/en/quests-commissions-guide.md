@@ -80,10 +80,10 @@ flowchart TD
 
 | Sample Order | Client | Objectives | Exclusive Rewards |
 | :--- | :--- | :--- | :--- |
-| **Fleet Banquet** | Captain Garrick | 8 Servings 3-Star Saffron Seafood Paella | 2,400g, +150 Pts, **Garrick's Spiced Rum Recipe** |
-| **Mine Rescue Rations** | Captain Thorne & Valerie | 15 Tin Canisters of Dense Rye & Smoked Bacon | 3,200g, +150 Pts, **Insulated Pack Blueprint** |
-| **Chilled Delver Supply** | Diver Vael | 5 Tin Canisters of Piping-hot Ginger Squash Soup | 1,100g, +120 Pts, **5x Subterranean Glacial Fish Scales** |
-| **Autumn Pie Gala** | Oakhaven Villagers | 20 Golden Cinnamon Pumpkin Pies | 3,500g, +200 Village Pts, **Gilded Display Counter** |
+| **Fleet Banquet** | Captain Garrick | 8 Servings 3-Star Grand Saffron Seafood Paella | 2,400g, +150 Pts, **Garrick's Spiced Rum Recipe** |
+| **Mine Rescue Rations** | Captain Thorne & Valerie | 15 Iron Canisters of Cassava & Dark-Rye Hearth Loaf | 3,200g, +150 Pts, **Insulated Pack Blueprint** |
+| **Chilled Delver Supply** | Diver Vael | 5 Iron Canisters of Piping-hot Creamy Mushroom & Turnip Soup | 1,100g, +120 Pts, **5x Subterranean Glacial Fish Scales** |
+| **Autumn Pie Gala** | Oakhaven Villagers | 20 Hearth-Baked Apple Fig Pies | 3,500g, +200 Village Pts, **Oak Showcase Counter** |
 
 ---
 
@@ -92,8 +92,8 @@ flowchart TD
 ### A. Bento Box Tiers & Freshness Extension
 To safely transport prepared meals into deep mine shafts or distant frontier checkpoints without crushing or quality loss, Bento packing specifically **extends the duration of the Piping-Hot Freshness Bonus**:
 * **Tier 1 - Rough Pine Box:** Crafted with *4 Softwood + 1 Braided Twine*. Holds rice balls, dried hardtack, steamed greens. **Extends Freshness Bonus to 48 Hours (2 Days)**.
-* **Tier 2 - Rustproof Tin Canister:** Crafted with *2 Tin Ingots + 1 Wax Seal*. Holds thick stews, pot roasts, pan-seared fish. Shock-resistant against mine hazards, **extends Freshness Bonus to 72 Hours (3 Days)**.
-* **Tier 3 - Lacquered Thermal Tiffin:** Crafted with *1 Tin Canister + 2 Sheep Wool + 1 Tung Oil*. Holds a complete 3-course banquet for aristocrats (such as Valen de Montfort) or deep-delve expeditions. **Extends Freshness Bonus to 120 Hours (5 Days)**.
+* **Tier 2 - Rustproof Iron Canister:** Crafted with *1 Iron Bar + 1 Copper Bar + 1 Wax Seal*. Holds thick stews, pot roasts, pan-seared fish. Shock-resistant against mine hazards, **extends Freshness Bonus to 72 Hours (3 Days)**.
+* **Tier 3 - Lacquered Thermal Tiffin:** Crafted with *1 Iron Canister + 2 Sheep Wool + 1 Ironwood Oil (`item_ironwood_oil`)*. Holds a complete 3-course banquet for aristocrats (such as Valen de Montfort) or deep-delve expeditions. **Extends Freshness Bonus to 120 Hours (5 Days)**.
 
 ### B. The Freshness Bonus (Absolute Zero Food Spoilage)
 * **Grounded Post-War Principle:** The game **never implements food rot or spoilage into worthless trash**. In a post-war frontier where every grain counts, throwing away cooked meals is unthinkable.

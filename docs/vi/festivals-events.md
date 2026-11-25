@@ -33,8 +33,8 @@ Hệ thống lễ hội của Oakhaven không giới hạn cứng ở 4 ngày/n�
 * **Địa điểm:** Bến Hồ Oakhaven & Tháp Thiên Văn.
 * **Không khí:** Lễ hội *Hanabi* rực rỡ — Lão **Gomer** (thợ mìn) và **Orion** (nhà thiên văn) chế pháo hoa từ bột khoáng thạch hầm mỏ.
 * **Hoạt động chính:**
-  1. **Chợ Đêm & Tùy Chỉnh Pháo Hoa:** Ban ngày dạo sạp đồ nướng xiên que, vớt cá vàng/đom đóm, rút quẻ đầu mùa. Trước 19:00 có thể đưa cho Gomer **quặng hiếm** (Vàng, Mithril, Pha Lê Tím, Bụi Sao) để đổi màu sắc và hình dạng pháo hoa (bông hoa, sao băng, rồng lửa).
-  2. **20:00 Ngắm Pháo Hoa Mặt Hồ:** Chọn 1 NPC thân thiết (hoặc ngồi cùng nhóm bạn) trên cầu gỗ xem pháo hoa phản chiếu xuống mặt nước. Sáng hôm sau quanh bờ hồ rơi rải rác **Mảnh Pháo Hoa / Bụi Sao** để nhặt.
+  1. **Chợ Đêm & Tùy Chỉnh Pháo Hoa:** Ban ngày dạo sạp đồ nướng xiên que, vớt cá vàng/đom đóm, rút quẻ đầu mùa. Trước 19:00 có thể đưa cho Gomer **quặng hiếm** (Vàng, Mithril, Pha Lê Tím, Đá Phát Sáng) để đổi màu sắc và hình dạng pháo hoa (bông hoa, sao băng, rồng lửa).
+  2. **20:00 Ngắm Pháo Hoa Mặt Hồ:** Chọn 1 NPC thân thiết (hoặc ngồi cùng nhóm bạn) trên cầu gỗ xem pháo hoa phản chiếu xuống mặt nước. Sáng hôm sau quanh bờ hồ rơi rải rác **Mảnh Pháo Hoa / Đá Đom Đóm** để nhặt.
 
 ### 🎃 3. Đêm Hội Mặt Nạ & Đèn Bí Ngô (12 Mùa Thu — Thứ Sáu)
 * **Địa điểm:** Quảng Trường Oakhaven & Sân The Hearth.
@@ -59,7 +59,7 @@ Hệ thống lễ hội của Oakhaven không giới hạn cứng ở 4 ngày/n�
 2. **Mở Rừng Thảo Mộc (Vùng 3 — Rừng Vĩnh Cửu) → Đêm Nguyệt Thực & Chợ Giả Kim Rừng Sâu *(06 Mùa Hạ — Thứ Bảy)*:**
    - Thầy thuốc, nhà giả kim và người xem bói dựng lều dưới tán cây phát sáng: bán thuốc buff dị biệt đi mỏ, xem bói Tarot dự đoán vận may cả mùa, đổi nguyên liệu quái lấy công thức bí ẩn; tối cùng **Thả Đèn Trời (Sky Lanterns)**.
 3. **Mở Cáp Treo (Vùng 4 — Đỉnh Răng Sói) → Chợ Sương Mù & Suối Nước Nóng *(12 Mùa Đông — Thứ Sáu)*:**
-   - Đón thợ mỏ vùng cao và lính gác đèo xuống trao đổi quặng hiếm, rượu gừng cay; ngâm **Suối Nước Nóng Pha Thảo Dược & Gừng** nhận buff **+Max Stamina & Kháng lạnh suốt phần còn lại của Mùa Đông**.
+   - Đón thợ mỏ vùng cao và lính gác đèo xuống trao đổi quặng hiếm, rượu gừng cay; ngâm **Suối Nước Nóng Pha Thảo Dược & Gừng** nhận **Phúc Lợi Mùa Đông (`+15 Max Stamina & -25% ST Lạnh` suốt phần còn lại của Mùa Đông, không chiếm 5 Ô Buff)**.
 4. **Mở Tuyến Đường Sắt (Vùng 5 — Vương Đô Solaria) → Đại Tiệc Hoàng Gia & Lôi Đài Vương Đô *(25 Mùa Thu — Thứ Năm)*:**
    - Bắt chuyến tàu sáng lên **Quảng Trường Cổng Thành Solaria**:
      - **Cuộc Thi Vua Đầu Bếp Hoàng Gia:** Nấu món 5 sao cho **Lord Julian** chấm điểm; đạt 3–5 sao nhận Cúp Vàng và **+15% giá bán món ăn vĩnh viễn**.

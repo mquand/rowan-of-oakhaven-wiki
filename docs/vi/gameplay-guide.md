@@ -100,7 +100,7 @@ Không chỉ dựa vào quà tặng, tình cảm giữa Rowan và cư dân Oakha
    - Khách ghé quán lúc 18:00 – 23:00, nhận đúng món ăn nóng sốt đạt **3 Sao** (đúng công thức, căn lửa chuẩn, phục vụ nhanh) $\rightarrow$ Thưởng **+40 đến +60 điểm tình cảm**.
    - Phục vụ đúng **Món an ủi ký ức (Comfort Food)** khi khách đang trĩu nặng ưu phiền $\rightarrow$ Thưởng **+100 điểm**.
 2. **Tham gia Lễ Hội & Sự Kiện Mùa (Festival Bonding):**
-   - Đêm Hội Bánh Mùa Thu & Lồng Đèn (20 Mùa Thu): Mời NPC cùng thả đèn hoa đăng hoặc cùng nếm bánh thi $\rightarrow$ Tăng **+150 điểm** với người đồng hành và **+30 điểm** thiện cảm toàn thị trấn.
+   - Đêm Pháo Hoa Bờ Hồ (19 Mùa Hạ) hoặc Đêm Hội Mặt Nạ & Đèn Bí Ngô (12 Mùa Thu): Mời NPC ngắm pháo hoa hoặc phát bánh kẹo hóa trang cho lũ trẻ $\rightarrow$ Tăng **+80 đến +150 điểm** với người đồng hành và **+30 điểm** thiện cảm toàn thị trấn.
    - Hội Chợ Thuyền Buôn Garrick (Chủ Nhật): Tiếp đón đoàn buôn và hỗ trợ dân làng khuân vác $\rightarrow$ Tăng điểm gắn kết cộng đồng.
 3. **Hoàn thành Nhiệm Vụ Bảng Tin Hiệp Hội (Help Wanted Board Quests):**
    - Giúp Boris đem than đá, giúp bà Maeve tìm hạt giống thất lạc, giúp Clara dọn sách $\rightarrow$ Ngoài tiền công, nhận ngay **+100 điểm tình cảm**.
@@ -123,7 +123,7 @@ Mang quặng mỏ + vàng đến lò rèn để nâng cấp 4 cấp (Gỗ/Rỉ �
 
 ## Vận Động & Hành Động
 
-- Di chuyển 4 hướng; đi bộ là animation duy nhất — tăng tốc bằng **trà buff tốc độ** và lướt Bụi Sao.
+- Di chuyển 4 hướng; đi bộ là animation duy nhất — tăng tốc bằng **món ăn buff tốc độ** và kỹ năng **Lướt Nhanh Thạch Anh (`Quartz Dash`)**.
 - Phím `Shift` chạy (`180 px/s`), phím `Space` lướt khi đã mở perk.
 - Tư thế `carry` giơ món đồ lên đỉnh đầu; ngồi ghế trò chuyện cạnh NPC được hỗ trợ.
 - Tương tác trạm (pha trà, nướng bánh) mở **màn hình cận cảnh** — tự tay thao tác thủ công chân thực.

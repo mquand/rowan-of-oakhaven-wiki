@@ -287,7 +287,7 @@ spoiler: false
 Separate from the 47 permanent town and regional residents, these 4 entities govern seasonal festivals and hidden dungeon exploration:
 
 * **👑 Count Julian (Royal Culinary Critic):**
-  - *Appearance:* Autumn 20 annually at Oakhaven Town Square (Autumn Harvest Cooking Gala & Master Chef Contest).
+  - *Appearance:* Autumn 25 annually at **Solaria Gate Square** (Royal Banquet & Master Chef Contest — unlocked upon restoring the Railway).
   - *Mechanic:* Judges the player's 3-course pastry and soup banquet. Achieving 3–5 stars awards the **Autumn Golden Chef Trophy** (+15% permanent sell price on all tavern dishes) and grants the Royal Eatery Charter.
 * **🐢 Ancient Moss-Back Tortoise (Subterranean Colossus):**
   - *Location:* Subterranean Lagoon at Floor 35 of the Mine (Stratum 2 Magma Veins).

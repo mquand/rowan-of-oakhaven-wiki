@@ -287,7 +287,7 @@ spoiler: false
 Không tính vào danh sách 47 cư dân xã hội thường trú, 4 thực thể này vận hành như các cơ chế khám phá thế giới và sự kiện văn hóa hàng năm:
 
 * **👑 Bá Tước Thẩm Định Lord Julian (Royal Culinary Critic):**
-  - *Thời điểm xuất hiện:* Ngày 20 Mùa Thu hàng năm tại Quảng Trường Oakhaven (Lễ Hội Ẩm Thực Mùa Gặt & Cuộc Thi Vua Đầu Bếp).
+  - *Thời điểm xuất hiện:* Ngày 25 Mùa Thu hàng năm tại **Quảng Trường Cổng Thành Solaria** (Đại Tiệc Hoàng Gia & Cuộc Thi Vua Đầu Bếp — mở khóa khi thông Tuyến Đường Sắt).
   - *Cơ chế:* Nếm và chấm điểm 3 món dự thi của người chơi. Đạt chuẩn 3–5 sao sẽ trao tặng **Cúp Vàng Đầu Bếp Mùa Thu** (tăng vĩnh viễn 15% giá bán mọi món ăn tại The Hearth) và sắc phong danh hiệu Quán Ăn Hoàng Gia.
 * **🐢 Linh Quy Rêu Phong Cụ Mỏ (Old Moss Tortoise):**
   - *Vị trí:* Đầm nước ngầm Tầng 35 Hầm Mỏ (Đới 2 Dung Nham).

@@ -56,7 +56,7 @@ A full calendar year comprises **112 days** (`4 seasons × 28 days`). Each seaso
 
 Four diurnal lighting transitions: **Dawn** (rosy amber mist) → **Midday** (warm sunlight) → **Twilight** (deep purple and amber hearth) → **Night** (magical indigo, paper lanterns light up automatically).
 
-Four enchanted particle weather patterns: clear skies, **stardust rain** (irrigates the entire garden), **night mist** rolling over the lake, and **autumn leaf swirls**.
+Five grounded weather patterns: clear skies, **rain** (auto-irrigates all outdoor garden plots), **foggy mist** rolling over the lake, **autumn gale**, and **blizzards**.
 
 ---
 
@@ -72,10 +72,10 @@ Bring cavern ores and gold to Boris to upgrade tools across 4 tiers (Wood/Rusty 
 
 ## Movement & Tactile Interactivity
 
-- 4-directional navigation; clean walking animation — accelerated via **tea speed buffs** and the Stardust Dash perk.
+- 4-directional navigation; clean walking animation — accelerated via **food speed buffs** and the **Quartz Dash** perk.
 - Hold `Shift` to sprint (`180 px/s`), tap `Space` to dash once unlocked.
 - The `carry` pose lifts harvested items above Rowan's head; cozy sitting chairs next to NPCs are fully supported.
-- Crafting stations (tea brewing, pastry kneading) open **intimate tactile close-up interfaces** — allowing realistic manual gestures.
+- Cooking stations (hearth pot, skillet, oven, grill, steamer) open **tactile culinary close-up interfaces** — allowing direct ingredient prep and heat timing.
 
 ---
 

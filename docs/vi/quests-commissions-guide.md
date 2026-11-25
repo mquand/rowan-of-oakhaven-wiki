@@ -81,10 +81,10 @@ flowchart TD
 
 | Đơn Hàng Mẫu | Khách Đặt | Mục Tiêu | Phần Thưởng Đặc Quyền |
 | :--- | :--- | :--- | :--- |
-| **Tiệc Đón Đoàn Buôn** | Thuyền trưởng Garrick | 8 Mâm Cơm Rang Hải Sản Nghệ Tây 3 Sao | 2,400g, +150 Tim, **Công thức Rượu Rum Garrick** |
-| **Suất Ăn Cứu Hộ Mỏ** | Đội trưởng Thorne & Valerie | 15 Hộp Thiếc Bánh Mì Đen Kẹp Thịt Xông Khói | 3,200g, +150 Tim, **Bản vẽ Balô Cách Nhiệt** |
-| **Tiếp Tế Thợ Lặn Cóng** | Thợ lặn Vael | 5 Hộp Thiếc Súp Bí Đỏ Gừng Củ Nóng Hổi | 1,100g, +120 Tim, **5x Vảy Cá Băng Tầng Ngầm** |
-| **Hội Chợ Bánh Thu** | Dân làng Oakhaven | 20 Bánh Bí Đỏ Quế Nướng 3 Sao | 3,500g, +200 Tim toàn làng, **Tủ Kính Mạ Vàng** |
+| **Tiệc Đón Đoàn Buôn** | Thuyền trưởng Garrick | 8 Cơm Chảo Paella Hải Sản Nghệ Tây 3 Sao | 2,400g, +150 Tim, **Công thức Rượu Rum Garrick** |
+| **Suất Ăn Cứu Hộ Mỏ** | Đội trưởng Thorne & Valerie | 15 Hộp Sắt Bánh Ngũ Cốc Sắn Dây Hắc Mạch | 3,200g, +150 Tim, **Bản vẽ Balô Cách Nhiệt** |
+| **Tiếp Tế Thợ Lặn Cóng** | Thợ lặn Vael | 5 Hộp Sắt Súp Kem Nấm Củ Cải Nóng Hổi | 1,100g, +120 Tim, **5x Vảy Cá Băng Tầng Ngầm** |
+| **Hội Chợ Bánh Thu** | Dân làng Oakhaven | 20 Bánh Pie Táo Sung Quế Lò Đất 3 Sao | 3,500g, +200 Tim toàn làng, **Tủ Kính Trưng Bày** |
 
 ---
 
@@ -93,8 +93,8 @@ flowchart TD
 ### A. Phân Cấp Hộp Đựng Dã Chiến & Kéo Dài Độ Tươi (Freshness Extension)
 Để vận chuyển đồ ăn xuống mỏ sâu hoặc giao hàng cho các toán tuần tra xa xôi mà không bị nát hay giảm chất lượng, hộp Bento có công năng đặc biệt là **kéo dài thời gian Nóng Hổi (Freshness Bonus)**:
 * **Hộp Gỗ Thông Thô (Tier 1):** Chế tạo từ *4 Gỗ mềm + 1 Dây bện*. Đựng cơm nắm, bánh mì khô, rau luộc. **Kéo dài trạng thái Nóng Hổi trong 48 Giờ (2 ngày)**.
-* **Hộp Thiếc Chống Gỉ (Tier 2):** Chế tạo từ *2 Thỏi Thiếc + 1 Đệm sáp*. Đựng súp đặc, thịt hầm, cá áp chảo. Chống va đập hầm mỏ, **kéo dài trạng thái Nóng Hổi trong 72 Giờ (3 ngày)**.
-* **Cặp Lồng Giữ Nhiệt Sơn Mài (Tier 3):** Chế tạo từ *1 Hộp Thiếc + 2 Len Cừu + 1 Dầu Trẩu*. Đựng đại tiệc 3 món cho khách quý tộc (Valen de Montfort) và toán thám hiểm sâu. **Kéo dài trạng thái Nóng Hổi trong 120 Giờ (5 ngày)**.
+* **Hộp Sắt Chống Gỉ (Tier 2):** Chế tạo từ *1 Thỏi Sắt + 1 Thỏi Đồng + 1 Đệm sáp*. Đựng súp đặc, thịt hầm, cá áp chảo. Chống va đập hầm mỏ, **kéo dài trạng thái Nóng Hổi trong 72 Giờ (3 ngày)**.
+* **Cặp Lồng Giữ Nhiệt Sơn Mài (Tier 3):** Chế tạo từ *1 Hộp Sắt + 2 Len Cừu + 1 Dầu Thiết Mộc (`item_ironwood_oil`)*. Đựng đại tiệc 3 món cho khách quý tộc (Valen de Montfort) và toán thám hiểm sâu. **Kéo dài trạng thái Nóng Hổi trong 120 Giờ (5 ngày)**.
 
 ### B. Quy Chuẩn Độ Tươi & Nóng Hổi (Freshness Bonus - Tuyệt Đối Không Thiu Thối)
 * **Quy tắc nhân văn & bối cảnh:** Trò chơi **không áp dụng cơ chế thức ăn thiu thối biến thành rác**. Trong bối cảnh hậu chiến gian khó, từng cọng rau củ khoai đều được trân trọng.
@@ -135,7 +135,7 @@ Nhằm gia tăng chiều sâu thực chiến và tính nhập vai, hệ thống 
 | **Q-LORE-04: Sổ Môn Không Thể Xóa** | Bác Barnaby | Đòi lại 1,200g nợ mua rượu cũ từ 3 khách trọ quịt nợ dạt ra bìa rừng; hoặc tự bù tiền nếu thương hại họ. | 🏆 Thành tựu ẩn: `ACH_DEBT_COLLECTOR` *(Tay Hòm Chìa Khóa)*<br/>🧿 Kỷ vật: *Sổ Ghi Nợ Bọc Da Của Barnaby* (xem trước biến động giá nông sản/quặng ngày mai)<br/>💰 Barnaby chia 30% tiền nợ thu hồi. |
 | **Q-HUNT-01: Bức Tường Thép Trước Hỏa Long** | Hiệp Sĩ Hester | Tiêu diệt Hỏa Long Hồ Đúc Tầng 70 với điều kiện thực hiện tối thiểu 12 lần Master Parry chuẩn xác; HP không tụt dưới 80%. | 🏆 Thành tựu ẩn: `ACH_PARRY_MASTER` *(Bậc Thầy Đỡ Đòn)*<br/>🛋️ Trang trí: *Giáp Vảy Hỏa Long Mạ Vàng* (treo tường The Hearth, +15% tip từ thợ mỏ)<br/>⚔️ Danh hiệu: *"Bức Tường Thép Oakhaven"*. |
 | **Q-HUNT-02: Bữa Tiệc Sinh Tồn Dung Nham** | Hội Trưởng Thorne | Quét sạch 3 tầng Hồ Luyện Kim (61-63) không dùng bình thuốc Aurelia; chỉ sống sót bằng buff từ Cơm hộp dã chiến mang theo. | 🏆 Thành tựu ẩn: `ACH_IRON_STOMACH` *(Sinh Tồn Ẩm Thực)*<br/>📜 Bản vẽ: *Ba Lô Cách Nhiệt Dã Ngoại* (+8 ô chứa đồ, giữ thức ăn tươi gấp đôi)<br/>🏅 15x Huy Hiệu Cứu Viện. |
-| **Q-ALTAR-01: Khúc Ca Cầu Siêu Tiết Xuân Phân** | Rosemary | Nấu mâm đại tiệc 5 món Xuân (Cải thìa xào nấm sao, Canh củ sen tuyết...) dâng Bàn Thờ Cổ lúc nửa đêm; trảm 3 đợt Hồn Ma Miasma. | 🏆 Thành tựu ẩn: `ACH_ASHES_TO_BLOOM` *(Hóa Giải Tro Tàn)*<br/>🌱 Mở khóa: *Vườn Thảo Dược Vĩnh Cửu Bìa Rừng* (trồng thảo mộc quanh năm)<br/>🛋️ Trang trí: *Lư Hương Đồng Bàn Thờ Cổ* (+25 Cozy Rating, max cấp). |
+| **Q-ALTAR-01: Khúc Ca Cầu Siêu Tiết Xuân Phân** | Rosemary | Nấu mâm đại tiệc 5 món Xuân (*Canh Atisô Ngó Sen, Cơm Lam Ống Tre, Đại Yến Bàn Thờ Cổ...*) dâng Bàn Thờ Cổ lúc nửa đêm; trảm 3 đợt Hồn Ma Miasma. | 🏆 Thành tựu ẩn: `ACH_ASHES_TO_BLOOM` *(Hóa Giải Tro Tàn)*<br/>🌱 Mở khóa: *Vườn Thảo Dược Vĩnh Cửu Bìa Rừng* (trồng thảo mộc quanh năm)<br/>🛋️ Trang trí: *Lư Hương Đồng Bàn Thờ Cổ* (+25 Cozy Rating, max cấp). |
 
 ---
 

@@ -33,8 +33,8 @@ Oakhaven's festival calendar is not capped at 4 fixed days per year. Instead, it
 * **Location:** Oakhaven Lake Pier & Observatory Hill.
 * **Atmosphere:** A vibrant *Hanabi* celebration — Miner **Gomer** and Astronomer **Orion** craft fireworks from mine crystal powder.
 * **Main Activities:**
-  1. **Night Market & Custom Fireworks:** Enjoy grilled skewers, goldfish/firefly scooping, and fortune slips by day. Before 19:00, give Gomer **rare ores** (Gold, Mithril, Purple Crystal, Stardust) to customize firework colors and patterns (flowers, shooting stars, fire dragons).
-  2. **20:00 Lakeside Fireworks:** Pick a close NPC (or sit with friends) on the wooden pier to watch fireworks reflect across the water. Next morning, **Firework Shards / Stardust** wash up along the shore.
+  1. **Night Market & Custom Fireworks:** Enjoy grilled skewers, goldfish/firefly scooping, and fortune slips by day. Before 19:00, give Gomer **rare ores** (Gold, Mithril, Amethyst, Glowstone) to customize firework colors and patterns (flowers, shooting stars, fire dragons).
+  2. **20:00 Lakeside Fireworks:** Pick a close NPC (or sit with friends) on the wooden pier to watch fireworks reflect across the water. Next morning, **Firework Shards / Glow-Quartz** wash up along the shore.
 
 ### 🎃 3. Harvest Masquerade & Pumpkin Lantern Night (Autumn 12 — Friday)
 * **Location:** Oakhaven Town Square & The Hearth Courtyard.
@@ -59,7 +59,7 @@ Oakhaven's festival calendar is not capped at 4 fixed days per year. Instead, it
 2. **Herb Forest Unlocked (Region 3 — Eternal Forest) → Eclipse Night & Arcane Alchemy Market *(Summer 06 — Saturday)*:**
    - Herbalists, alchemists, and fortune-tellers set up glowing stalls: buy unusual mine buff potions, draw Tarot cards for seasonal luck, trade monster drops for hidden recipes, and release **Sky Lanterns** at night.
 3. **Cableway Unlocked (Region 4 — Wolf-Tooth Peak) → Mist Market & Hot Springs *(Winter 12 — Friday)*:**
-   - Trade rare ores and spiced ginger wine with highland miners and border scouts; soak in the **Herbal & Ginger Hot Springs** for **+Max Stamina & Cold-Resistance buffs lasting the rest of Winter**.
+   - Trade rare ores and spiced ginger wine with highland miners and border scouts; soak in the **Herbal & Ginger Hot Springs** for a **Seasonal Blessing (`+15 Max Stamina & -25% Cold Damage` lasting the rest of Winter, separate from the 5 Combat Buff Slots)**.
 4. **Railway Unlocked (Region 5 — Solaria Capital) → Royal Banquet & Capital Arena *(Autumn 25 — Thursday)*:**
    - Take the morning train with villagers (`Barnaby`, `Clara`, `Lumi`...) to **Solaria Gate Square**:
      - **Royal Master Chef Contest:** Cook 5-star dishes for **Lord Julian**; 3–5 stars award the Golden Trophy and a permanent **+15% dish selling price**.

@@ -429,7 +429,7 @@ Không sao chép cơ chế đảo xa tách biệt; 100% sự chuyển dịch nơ
    - *Hành Trang Tối Giản:* Xuống liên tục 30 tầng chỉ mang 2 hộp cơm và 1 ngọn đuốc.
    - *Bước Vào Hư Vô:* Đặt chân xuống Tầng 180 của Vực Thẳm Vô Tận (151+).
    - *Thân Thủ Phi Phàm:* Hạ gục Boss mà HP không tụt dưới 90%.
-   - *Sinh Tồn Ẩm Thực:* Vượt Đới Dung Nham (71-110) không dùng thuốc hồi máu, chỉ sống sót nhờ buff đồ ăn.
+   - *Sinh Tồn Ẩm Thực:* Vượt Đới Dung Nham (31-70) không dùng thuốc hồi máu, chỉ sống sót nhờ buff đồ ăn.
    - *Chạy Đua Sương Độc:* Vét sạch quặng trên một tầng mỏ hiểm trở và thoát hiểm trước khi thanh miasma đạt 100%.
 4. **Đồng Xanh & Mùa Màng (Farming & Husbandry - 6 Thành tựu):** Thu hoạch trọn vẹn 92 loài thực vật 4 mùa & vùng đặc biệt (62 hoa màu & đặc hữu + 23 gỗ/quả + 7 hoa cảnh), tự động hóa vòi phun và nhân giống, gia súc 5 sao, câu đủ 15 loài cá, củ khổng lồ 3x3, giữ thể lực trên 10% từ 06:00 đến 23:00.
 5. **Tri Kỷ & Hàn Gắn (Heart Bonds - 6 Thành tựu):** 2 Tim với toàn bộ cư dân, hóa giải Boris & Bram, hóa giải Kael & Maeve, tha thứ Hester & Valerius, 8 Tim với 30 cư dân, Trọn Vẹn Ký Ức (hoàn thành đủ 51 Cảnh Diễn Khoảnh Khắc Vàng & Tường Ảnh Polaroid).
@@ -460,7 +460,7 @@ Không sao chép cơ chế đảo xa tách biệt; 100% sự chuyển dịch nơ
 Thức ăn dã chiến được đóng gói tại Bàn Đóng Gói (góc bếp The Hearth) thành 3 cấp. Hộp Bento có công năng đặc biệt là **kéo dài thời gian Nóng Hổi (Freshness Bonus)** trước khi thức ăn nguội thành trạng thái Tiêu Chuẩn:
 1. **Tier 1 - Hộp Gỗ Thông Thô:** Chế tạo từ *4 Gỗ mềm + 1 Dây bện*. Đựng cơm nắm, bánh mì khô, rau luộc. **Kéo dài trạng thái Nóng Hổi (Fresh Bonus) trong 48 Giờ (2 ngày)**.
 2. **Tier 2 - Hộp Thiếc Chống Gỉ:** Chế tạo từ *1 Thỏi Sắt + 1 Thỏi Đồng + 1 Đệm sáp*. Đựng súp đặc, thịt hầm, cá áp chảo. Chống va đập hầm mỏ, **kéo dài trạng thái Nóng Hổi trong 72 Giờ (3 ngày)**.
-3. **Tier 3 - Cặp Lồng Giữ Nhiệt Sơn Mài:** Chế tạo từ *1 Hộp Thiếc + 2 Len Cừu + 1 Dầu Trẩu*. Đựng đại tiệc 3 món cho khách quý tộc và toán thám hiểm sâu. **Kéo dài trạng thái Nóng Hổi trong 120 Giờ (5 ngày)**.
+3. **Tier 3 - Cặp Lồng Giữ Nhiệt Sơn Mài:** Chế tạo từ *1 Hộp Thiếc + 2 Len Cừu + 1 Dầu Thiết Mộc (`item_ironwood_oil`)*. Đựng đại tiệc 3 món cho khách quý tộc và toán thám hiểm sâu. **Kéo dài trạng thái Nóng Hổi trong 120 Giờ (5 ngày)**.
 
 ### 12.3. Quy Chuẩn Độ Tươi & Nóng Hổi (The Freshness Bonus - Tuyệt Đối Không Thiu Thối)
 - **Quy tắc bất biến:** **Không áp dụng hạn sử dụng làm thối/hỏng thức ăn thành rác**. Trong bối cảnh hậu chiến khan hiếm lương thực, mọi cọng rau củ khoai đều quý giá.
@@ -506,7 +506,7 @@ Nhằm kiến tạo chiều sâu gameplay và triệt tiêu lối mòn "chạy v
 | **Q-LORE-04: Sổ Môn Không Thể Xóa** | Bác Barnaby | Đòi lại 1,200g nợ mua rượu cũ từ 3 khách trọ quịt nợ dạt ra bìa rừng; hoặc tự bù tiền nếu thương hại họ. | 🏆 Thành tựu ẩn: `ACH_DEBT_COLLECTOR` *(Tay Hòm Chìa Khóa)*<br/>🧿 Kỷ vật: *Sổ Ghi Nợ Bọc Da Của Barnaby* (xem trước biến động giá nông sản/quặng ngày mai)<br/>💰 Barnaby chia 30% tiền nợ thu hồi. |
 | **Q-HUNT-01: Bức Tường Thép Trước Hỏa Long** | Hiệp Sĩ Hester | Tiêu diệt Hỏa Long Hồ Đúc Tầng 70 với điều kiện thực hiện tối thiểu 12 lần Master Parry chuẩn xác; HP không tụt dưới 80%. | 🏆 Thành tựu ẩn: `ACH_PARRY_MASTER` *(Bậc Thầy Đỡ Đòn)*<br/>🛋️ Trang trí: *Giáp Vảy Hỏa Long Mạ Vàng* (treo tường The Hearth, +15% tip từ thợ mỏ)<br/>⚔️ Danh hiệu: *"Bức Tường Thép Oakhaven"*. |
 | **Q-HUNT-02: Bữa Tiệc Sinh Tồn Dung Nham** | Hội Trưởng Thorne | Quét sạch 3 tầng Hồ Luyện Kim (61-63) không dùng bình thuốc Aurelia; chỉ sống sót bằng buff từ Cơm hộp dã chiến mang theo. | 🏆 Thành tựu ẩn: `ACH_IRON_STOMACH` *(Sinh Tồn Ẩm Thực)*<br/>📜 Bản vẽ: *Ba Lô Cách Nhiệt Dã Ngoại* (+8 ô chứa đồ, giữ thức ăn tươi gấp đôi)<br/>🏅 15x Huy Hiệu Cứu Viện. |
-| **Q-ALTAR-01: Khúc Ca Cầu Siêu Tiết Xuân Phân** | Rosemary | Nấu mâm đại tiệc 5 món Xuân (Cải thìa xào nấm sao, Canh củ sen tuyết...) dâng Bàn Thờ Cổ lúc nửa đêm; trảm 3 đợt Hồn Ma Miasma. | 🏆 Thành tựu ẩn: `ACH_ASHES_TO_BLOOM` *(Hóa Giải Tro Tàn)*<br/>🌱 Mở khóa: *Vườn Thảo Dược Vĩnh Cửu Bìa Rừng* (trồng thảo mộc quanh năm)<br/>🛋️ Trang trí: *Lư Hương Đồng Bàn Thờ Cổ* (+25 Cozy Rating, max cấp). |
+| **Q-ALTAR-01: Khúc Ca Cầu Siêu Tiết Xuân Phân** | Rosemary | Nấu mâm đại tiệc 5 món Xuân (*Canh Atisô Ngó Sen, Cơm Lam Ống Tre, Đại Yến Bàn Thờ Cổ...*) dâng Bàn Thờ Cổ lúc nửa đêm; trảm 3 đợt Hồn Ma Miasma. | 🏆 Thành tựu ẩn: `ACH_ASHES_TO_BLOOM` *(Hóa Giải Tro Tàn)*<br/>🌱 Mở khóa: *Vườn Thảo Dược Vĩnh Cửu Bìa Rừng* (trồng thảo mộc quanh năm)<br/>🛋️ Trang trí: *Lư Hương Đồng Bàn Thờ Cổ* (+25 Cozy Rating, max cấp). |
 
 ---
 
@@ -532,8 +532,8 @@ Không giới hạn cứng 4 lễ hội/năm. Hệ thống lễ hội mở rộn
 2. **Mùa Hạ (Ngày 19 — Thứ Sáu) — Đêm Pháo Hoa Bờ Hồ & Chợ Đêm Mùa Hạ *(Bến Hồ & Tháp Thiên Văn)*:**
    - *Không khí:* Lễ hội *Hanabi* rực rỡ giữa thung lũng — Lão **Gomer** (thợ mìn) và **Orion** (nhà thiên văn) phối hợp chế pháo hoa từ bột khoáng thạch hầm mỏ.
    - *Hoạt động:*
-     1. **Chợ Đêm & Tùy Chỉnh Pháo Hoa:** Ban ngày dạo sạp đồ nướng xiên que, vớt cá vàng/đom đóm, rút quẻ đầu mùa. Trước 19:00 có thể đưa cho Gomer **quặng hiếm** (Vàng, Mithril, Pha Lê Tím, Bụi Sao) để đổi màu sắc và hình dạng pháo hoa (bông hoa, sao băng, rồng lửa).
-     2. **20:00 Ngắm Pháo Hoa Mặt Hồ:** Rowan chọn 1 NPC thân thiết (hoặc ngồi cùng nhóm bạn) trên cầu gỗ bờ hồ xem màn pháo hoa phản chiếu xuống mặt nước. Sáng hôm sau quanh bờ hồ rơi rải rác **Mảnh Pháo Hoa / Bụi Sao** để nhặt.
+     1. **Chợ Đêm & Tùy Chỉnh Pháo Hoa:** Ban ngày dạo sạp đồ nướng xiên que, vớt cá vàng/đom đóm, rút quẻ đầu mùa. Trước 19:00 có thể đưa cho Gomer **quặng hiếm** (Vàng, Mithril, Pha Lê Tím, Đá Phát Sáng) để đổi màu sắc và hình dạng pháo hoa (bông hoa, sao băng, rồng lửa).
+     2. **20:00 Ngắm Pháo Hoa Mặt Hồ:** Rowan chọn 1 NPC thân thiết (hoặc ngồi cùng nhóm bạn) trên cầu gỗ bờ hồ xem màn pháo hoa phản chiếu xuống mặt nước. Sáng hôm sau quanh bờ hồ rơi rải rác **Mảnh Pháo Hoa / Đá Đom Đóm** để nhặt.
 
 3. **Mùa Thu (Ngày 12 — Thứ Sáu) — Đêm Hội Mặt Nạ & Đèn Bí Ngô *(Quảng Trường Oakhaven)*:**
    - *Không khí:* Đêm *Harvest Masquerade* đậm chất Dark Cozy — thị trấn tắt bớt đèn thường, thắp đèn bí ngô cam ấm dọc ngõ, bà con đeo mặt nạ gỗ/vải kể chuyện ma bên đống lửa.
@@ -554,7 +554,7 @@ Không giới hạn cứng 4 lễ hội/năm. Hệ thống lễ hội mở rộn
 2. **Mở Rừng Thảo Mộc (Vùng 3 — Rừng Vĩnh Cửu) → Đêm Nguyệt Thực & Chợ Giả Kim Rừng Sâu *(Ngày 06 Mùa Hạ — Thứ Bảy)*:**
    - Khi sương mù độc đã tan, các thầy thuốc, nhà giả kim và người xem bói dựng lều dưới tán cây phát sáng: bán thuốc buff dị biệt đi mỏ, xem bói Tarot dự đoán vận may rơi đồ cả mùa, đổi nguyên liệu quái lấy công thức bí ẩn; tối cùng **Thả Đèn Trời (Sky Lanterns)**.
 3. **Mở Cáp Treo (Vùng 4 — Đỉnh Răng Sói) → Chợ Sương Mù & Suối Nước Nóng *(Ngày 12 Mùa Đông — Thứ Sáu)*:**
-   - Đón thợ mỏ vùng cao và lính gác đèo xuống trao đổi quặng hiếm, rượu gừng cay; ngâm **Suối Nước Nóng Pha Thảo Dược & Gừng** nhận buff **+Max Stamina & Kháng lạnh suốt phần còn lại của Mùa Đông** (khác biệt với suối nóng hồi thể lực tức thời ngày thường).
+   - Đón thợ mỏ vùng cao và lính gác đèo xuống trao đổi quặng hiếm, rượu gừng cay; ngâm **Suối Nước Nóng Pha Thảo Dược & Gừng** nhận **Phúc Lợi Mùa Đông (Seasonal Blessing: +15 Max Stamina & -25% ST Lạnh suốt phần còn lại của Mùa Đông, không chiếm 5 Ô Buff chiến đấu)**.
 4. **Mở Tuyến Đường Sắt (Vùng 5 — Vương Đô Solaria) → Đại Tiệc Hoàng Gia & Lôi Đài Vương Đô *(Ngày 25 Mùa Thu — Thứ Năm)*:**
    - Rowan cùng một số dân làng (`Barnaby`, `Clara`, `Lumi`...) bắt chuyến tàu sáng lên **Quảng Trường Cổng Thành Solaria** *(1 khu chợ cổng thành gọn nhẹ, không dựng cả kinh đô)*.
    - **Cuộc Thi Vua Đầu Bếp Hoàng Gia:** Rowan nấu món 5 sao từ nông sản + nguyên liệu hầm mỏ cho **Lord Julian** chấm điểm; đạt 3–5 sao nhận Cúp Vàng và **+15% giá bán món ăn vĩnh viễn** (đồng bộ Mục 10.5).
