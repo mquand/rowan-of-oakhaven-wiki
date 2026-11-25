@@ -61,7 +61,7 @@
         "Cuts foot travel time to Garrick's caravel wharf by 60%",
         "Unlocks riverside otter shoals for freshwater pearl foraging"
       ],
-      "celebration_dish": "food_ca_suoi_nuong_muoi_ot",
+      "celebration_dish": "food_chili_lime_grilled_stream_carp",
       "celebration_dish_name": "Chili-Lime Grilled Stream Carp"
     },
     {
@@ -100,7 +100,7 @@
         "Automatically mills grain overnight at a 1:2 grain-to-flour ratio",
         "Confers +30 Cozy Rating across farmsteads as the vanes spin again"
       ],
-      "celebration_dish": "food_banh_mi_lua_mi_gion",
+      "celebration_dish": "food_crusty_hearth_sourdough",
       "celebration_dish_name": "Crusty Hearth Sourdough"
     },
     {
@@ -139,7 +139,7 @@
         "Instantly refills watering cans with zero stamina expenditure",
         "Crops planted within a 5-tile radius grow 15% faster"
       ],
-      "celebration_dish": "food_tra_sen_bach_diep",
+      "celebration_dish": "food_sun_daisy_lotus_herbal_tea",
       "celebration_dish_name": "Sun-Daisy & Lotus Herbal Tea"
     },
     {
@@ -183,7 +183,7 @@
         "Enables Avian Expeditions to forage rare foreign seeds across distant realms",
         "Pip delivers correspondence and trade manifests one hour earlier each dawn"
       ],
-      "celebration_dish": "food_tart_dau_tuyet_lanh",
+      "celebration_dish": "food_berry_cherry_vanilla_tart",
       "celebration_dish_name": "Berry, Cherry & Vanilla Tart"
     },
     {
@@ -227,7 +227,7 @@
         "Automated magnetic carts ferry excavated cavern ores directly to Boris's forge bin",
         "Completely eliminates mineral inventory clogging during deep descents"
       ],
-      "celebration_dish": "food_bo_ham_ruou_vang_mo",
+      "celebration_dish": "food_night_wine_beef_bourguignon",
       "celebration_dish_name": "Night-Wine Beef Bourguignon"
     },
     {
@@ -271,7 +271,7 @@
         "Safe haven bunk preventing exhaustion penalties when foraging past midnight",
         "Field workbench to repair axes and tools on site"
       ],
-      "celebration_dish": "food_ga_ham_sam_rung_da",
+      "celebration_dish": "food_mandrake_snow_maca_poultry_broth",
       "celebration_dish_name": "Mandrake & Snow-Maca Poultry Broth"
     },
     {
@@ -310,7 +310,7 @@
         "Provides 100% accurate 3-day weather forecasts on morning bulletin posts",
         "Advance storm warning allows stoking tavern hearths for Stormbound Strangers"
       ],
-      "celebration_dish": "food_bit_tet_nuong_than_soi",
+      "celebration_dish": "food_garlic_rosemary_seared_steak",
       "celebration_dish_name": "Garlic-Rosemary Seared Steak"
     },
     {
@@ -354,7 +354,7 @@
         "Clones deep cavern lumina mushrooms and magma ginseng on the surface",
         "Sylvan offers remedies and invigorating broths at a 50% community discount"
       ],
-      "celebration_dish": "food_sup_nam_sao_am_bung",
+      "celebration_dish": "food_creamy_mushroom_turnip_soup",
       "celebration_dish_name": "Creamy Mushroom & Turnip Soup"
     },
     {
@@ -398,7 +398,7 @@
         "Garrick docks a magnificent 3-masted flagship every Sunday dawn",
         "Doubles available southern spices and foreign tailoring textiles"
       ],
-      "celebration_dish": "food_xoi_hat_sen_nuoc_cot_dua",
+      "celebration_dish": "food_grand_saffron_seafood_paella",
       "celebration_dish_name": "Grand Saffron Seafood Paella"
     },
     {
@@ -442,7 +442,7 @@
         "Unlocks Ancient Blueprint Decryption for Royal-tier weapon forging",
         "Clara teaches village youngsters each morning, elevating town morale"
       ],
-      "celebration_dish": "food_banh_tart_viet_quat_dai_ngan",
+      "celebration_dish": "food_blackberry_gold_kiwi_tart",
       "celebration_dish_name": "Blackberry & Gold Kiwi Tart"
     },
     {
@@ -481,7 +481,7 @@
         "Restores 40 eastern farm plots into Sacred Arable Land",
         "Crops sown here never wither and boast a guaranteed 100% 3-Star harvest rate"
       ],
-      "celebration_dish": "food_yen_tiec_cau_sieu_anh_hon",
+      "celebration_dish": "food_grand_solaria_memorial_feast",
       "celebration_dish_name": "Grand Solaria Memorial Feast"
     },
     {
@@ -521,7 +521,7 @@
         "Unlocks the grand Winter Hearth Gala Festival (Winter 28)",
         "Bestows the crowning title: Restorer of Oakhaven"
       ],
-      "celebration_dish": "food_banh_cau_vong_4_mua",
+      "celebration_dish": "food_four_season_turban_orchard_cake",
       "celebration_dish_name": "Four-Season Turban Orchard Cake"
     }
   ]

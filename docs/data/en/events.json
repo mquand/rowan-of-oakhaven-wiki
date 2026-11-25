@@ -27,7 +27,7 @@
         "Spring soil moisture buff & +50 to +90 Fair Tokens",
         "Rare spring seeds"
       ],
-      "special_food": "food_canh_thao_moc_bup_sen"
+      "special_food": "food_artichoke_lotus_cleansing_broth"
     },
     {
       "id": "fest_terrace_skiff",
@@ -47,7 +47,7 @@
         "High-grade paddy rice & snow lotus seeds",
         "Fair Tokens & Skiff Race Trophy"
       ],
-      "special_food": "food_com_lam_ong_tre_muoi_me"
+      "special_food": "food_bamboo_roasted_rice_shoots"
     },
     {
       "id": "fest_arcane_eclipse",
@@ -68,7 +68,7 @@
         "Alchemy Elixirs & Hidden Recipes",
         "Seasonal Luck Buff"
       ],
-      "special_food": "food_tra_sen_bach_diep"
+      "special_food": "food_sun_daisy_lotus_herbal_tea"
     },
     {
       "id": "fest_summer_fireworks",
@@ -89,7 +89,7 @@
         "Collect washed-up Firework Shards / Glow-Quartz along the shore next morning",
         "+80 friendship points with your fireworks companion"
       ],
-      "special_food": "food_dui_rung_hun_khoi_da_chien"
+      "special_food": "food_bay_laurel_smoked_pork_haunch"
     },
     {
       "id": "fest_autumn_masquerade",
@@ -110,7 +110,7 @@
         "Major friendship boost with village kids & lucky charms",
         "24h playful transformation effects & pumpkin decor"
       ],
-      "special_food": "food_bi_do_nuong_pho_mai_deo"
+      "special_food": "food_cheesy_baked_sweet_pumpkin"
     },
     {
       "id": "fest_solaria_royal_fair",
@@ -131,7 +131,7 @@
         "Royal Golden Trophy (permanent +15% dish selling price)",
         "Arena Champion Trophy, Rare Weapons or Soul Gems"
       ],
-      "special_food": "food_xoi_hat_sen_nuoc_cot_dua"
+      "special_food": "food_grand_saffron_seafood_paella"
     },
     {
       "id": "fest_wolf_tooth_mist",
@@ -151,7 +151,7 @@
         "Winter Seasonal Blessing (+15 Max Stamina & -25% Cold Damage for rest of Winter; outside 5 Buff Slots)",
         "Rare Ores & Fair Tokens"
       ],
-      "special_food": "food_ga_ham_sam_rung_da"
+      "special_food": "food_mandrake_snow_maca_poultry_broth"
     },
     {
       "id": "fest_winter_hotpot",
@@ -172,7 +172,7 @@
         "Grandma Amalia's Recipe Book Vol. 2 (Year 1) or Golden Spices (Year 2+)",
         "+20 to +80 town-wide friendship (+50 bonus for matching NPC favorites)"
       ],
-      "special_food": "food_lau_thap_cam_bach_vi"
+      "special_food": "food_oakhaven_salsify_yam_grand_hotpot"
     }
   ],
   "recurring_events": [

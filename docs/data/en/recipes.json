@@ -3,7 +3,7 @@
   "updated": "2026-11-25",
   "recipes": [
     {
-      "id": "com_nam_muoi_rung",
+      "id": "sea_salted_rice_ball",
       "name": "Sea-Salted Rice Ball (Onigiri)",
       "station": "kitchen_pot",
       "ingredients": [
@@ -18,13 +18,13 @@
           "quantity": 1
         }
       ],
-      "result_item_id": "food_com_nam_muoi_rung",
+      "result_item_id": "food_sea_salted_rice_ball",
       "hp": 30,
       "stamina": 50,
       "buff": "No buff (Starter Ration)"
     },
     {
-      "id": "trung_op_la_thao_moc",
+      "id": "scallion_herb_omelet",
       "name": "Scallion Herb Omelet",
       "station": "kitchen_pan",
       "ingredients": [
@@ -39,13 +39,13 @@
           "quantity": 1
         }
       ],
-      "result_item_id": "food_trung_op_la_thao_moc",
+      "result_item_id": "food_scallion_herb_omelet",
       "hp": 40,
       "stamina": 70,
       "buff": "+1 Move Speed"
     },
     {
-      "id": "khoai_tay_nuong_bo_toi",
+      "id": "garlic_buttered_roasted_potato",
       "name": "Garlic-Buttered Roasted Potato",
       "station": "kitchen_oven",
       "ingredients": [
@@ -65,13 +65,13 @@
           "quantity": 1
         }
       ],
-      "result_item_id": "food_khoai_tay_nuong_bo_toi",
+      "result_item_id": "food_garlic_buttered_roasted_potato",
       "hp": 60,
       "stamina": 90,
       "buff": "+1 Defense"
     },
     {
-      "id": "banh_mi_lua_mi_gion",
+      "id": "crusty_hearth_sourdough",
       "name": "Crusty Hearth Sourdough",
       "station": "kitchen_oven",
       "ingredients": [
@@ -86,13 +86,13 @@
           "quantity": 1
         }
       ],
-      "result_item_id": "food_banh_mi_lua_mi_gion",
+      "result_item_id": "food_crusty_hearth_sourdough",
       "hp": 50,
       "stamina": 80,
       "buff": "-10% Farming Stamina Cost"
     },
     {
-      "id": "sup_nam_sao_am_bung",
+      "id": "creamy_mushroom_turnip_soup",
       "name": "Creamy Mushroom & Turnip Soup",
       "station": "kitchen_pot",
       "ingredients": [
@@ -112,13 +112,13 @@
           "quantity": 1
         }
       ],
-      "result_item_id": "food_sup_nam_sao_am_bung",
+      "result_item_id": "food_creamy_mushroom_turnip_soup",
       "hp": 70,
       "stamina": 110,
       "buff": "+2 Mining Efficiency"
     },
     {
-      "id": "ca_suoi_nuong_muoi_ot",
+      "id": "chili_lime_grilled_stream_carp",
       "name": "Chili-Lime Grilled Stream Carp",
       "station": "kitchen_grill",
       "ingredients": [
@@ -138,13 +138,13 @@
           "quantity": 1
         }
       ],
-      "result_item_id": "food_ca_suoi_nuong_muoi_ot",
+      "result_item_id": "food_chili_lime_grilled_stream_carp",
       "hp": 80,
       "stamina": 100,
       "buff": "+1 Melee Attack"
     },
     {
-      "id": "bap_xao_bo_cay",
+      "id": "avocado_jicama_corn_taco",
       "name": "Avocado & Jícama Corn Taco",
       "station": "kitchen_pan",
       "ingredients": [
@@ -169,13 +169,13 @@
           "quantity": 1
         }
       ],
-      "result_item_id": "food_bap_xao_bo_cay",
+      "result_item_id": "food_avocado_jicama_corn_taco",
       "hp": 85,
       "stamina": 110,
       "buff": "+1 Speed, +1 Attack"
     },
     {
-      "id": "chao_yen_mach_mat_ong",
+      "id": "honeyed_shadow_rye_porridge",
       "name": "Honeyed Shadow Rye Porridge",
       "station": "kitchen_pot",
       "ingredients": [
@@ -185,18 +185,18 @@
           "quantity": 1
         },
         {
-          "id": "mat_ong",
+          "id": "wild_honey",
           "name": "Wild Honey",
           "quantity": 1
         }
       ],
-      "result_item_id": "food_chao_yen_mach_mat_ong",
+      "result_item_id": "food_honeyed_shadow_rye_porridge",
       "hp": 85,
       "stamina": 140,
       "buff": "+2 Stamina/sec Regen"
     },
     {
-      "id": "rau_cu_ham_thap_cam",
+      "id": "jicama_cabbage_harvest_stew",
       "name": "Jícama & Cabbage Harvest Stew",
       "station": "kitchen_pot",
       "ingredients": [
@@ -216,13 +216,13 @@
           "quantity": 1
         }
       ],
-      "result_item_id": "food_rau_cu_ham_thap_cam",
+      "result_item_id": "food_jicama_cabbage_harvest_stew",
       "hp": 90,
       "stamina": 130,
       "buff": "+2 Defense"
     },
     {
-      "id": "banh_xeo_hanh_hoa_gion",
+      "id": "crispy_valley_savory_crepe",
       "name": "Crispy Valley Savory Crepe (Banh Xeo)",
       "station": "kitchen_pan",
       "ingredients": [
@@ -247,13 +247,13 @@
           "quantity": 1
         }
       ],
-      "result_item_id": "food_banh_xeo_hanh_hoa_gion",
+      "result_item_id": "food_crispy_valley_savory_crepe",
       "hp": 95,
       "stamina": 125,
       "buff": "+15% Attack Speed"
     },
     {
-      "id": "bo_ham_ruou_vang_mo",
+      "id": "night_wine_beef_bourguignon",
       "name": "Night-Wine Beef Bourguignon",
       "station": "kitchen_pot",
       "ingredients": [
@@ -273,13 +273,13 @@
           "quantity": 1
         }
       ],
-      "result_item_id": "food_bo_ham_ruou_vang_mo",
+      "result_item_id": "food_night_wine_beef_bourguignon",
       "hp": 135,
       "stamina": 180,
       "buff": "+3 Attack, +20 Max HP (Temp)"
     },
     {
-      "id": "bit_tet_nuong_than_soi",
+      "id": "garlic_rosemary_seared_steak",
       "name": "Garlic-Rosemary Seared Steak",
       "station": "kitchen_grill",
       "ingredients": [
@@ -299,13 +299,13 @@
           "quantity": 1
         }
       ],
-      "result_item_id": "food_bit_tet_nuong_than_soi",
+      "result_item_id": "food_garlic_rosemary_seared_steak",
       "hp": 140,
       "stamina": 170,
       "buff": "+4 Attack"
     },
     {
-      "id": "ga_quay_mat_ong_hoa_rung",
+      "id": "fire_orange_honey_roast_chicken",
       "name": "Fire-Orange Honey Roast Chicken",
       "station": "kitchen_oven",
       "ingredients": [
@@ -320,18 +320,18 @@
           "quantity": 1
         },
         {
-          "id": "mat_ong",
+          "id": "wild_honey",
           "name": "Wild Honey",
           "quantity": 1
         }
       ],
-      "result_item_id": "food_ga_quay_mat_ong_hoa_rung",
+      "result_item_id": "food_fire_orange_honey_roast_chicken",
       "hp": 125,
       "stamina": 170,
       "buff": "+2 Attack, +1 Speed"
     },
     {
-      "id": "suon_nuong_xot_man_ngot",
+      "id": "plum_cranberry_glazed_ribs",
       "name": "Plum & Cranberry Glazed Ribs",
       "station": "kitchen_grill",
       "ingredients": [
@@ -351,13 +351,13 @@
           "quantity": 1
         }
       ],
-      "result_item_id": "food_suon_nuong_xot_man_ngot",
+      "result_item_id": "food_plum_cranberry_glazed_ribs",
       "hp": 135,
       "stamina": 180,
       "buff": "+2 Attack, +2 Defense"
     },
     {
-      "id": "banh_mi_thit_ham_pho_mai",
+      "id": "melted_cheese_beef_gratin",
       "name": "Melted Cheese & Beef Gratin Melt",
       "station": "kitchen_oven",
       "ingredients": [
@@ -377,13 +377,13 @@
           "quantity": 1
         }
       ],
-      "result_item_id": "food_banh_mi_thit_ham_pho_mai",
+      "result_item_id": "food_melted_cheese_beef_gratin",
       "hp": 120,
       "stamina": 155,
       "buff": "+3 Defense, -50% Stun Duration"
     },
     {
-      "id": "canh_chua_ca_suoi_cay",
+      "id": "solaria_saffron_fish_bouillabaisse",
       "name": "Solaria Saffron Fish Bouillabaisse",
       "station": "kitchen_pot",
       "ingredients": [
@@ -403,13 +403,13 @@
           "quantity": 1
         }
       ],
-      "result_item_id": "food_canh_chua_ca_suoi_cay",
+      "result_item_id": "food_solaria_saffron_fish_bouillabaisse",
       "hp": 115,
       "stamina": 155,
       "buff": "-25% Heat & Poison Damage"
     },
     {
-      "id": "muc_ham_hanh_toi",
+      "id": "mediterranean_garlic_olive_squid",
       "name": "Mediterranean Garlic-Olive Squid",
       "station": "kitchen_pan",
       "ingredients": [
@@ -429,13 +429,13 @@
           "quantity": 1
         }
       ],
-      "result_item_id": "food_muc_ham_hanh_toi",
+      "result_item_id": "food_mediterranean_garlic_olive_squid",
       "hp": 110,
       "stamina": 150,
       "buff": "+2 Mining Luck"
     },
     {
-      "id": "com_chien_hai_san_dam_vi",
+      "id": "valley_harvest_bibimbap_bowl",
       "name": "Valley Harvest Bibimbap Bowl",
       "station": "kitchen_pan",
       "ingredients": [
@@ -460,13 +460,13 @@
           "quantity": 1
         }
       ],
-      "result_item_id": "food_com_chien_hai_san_dam_vi",
+      "result_item_id": "food_valley_harvest_bibimbap_bowl",
       "hp": 130,
       "stamina": 170,
       "buff": "+2 Mining, +1 Attack"
     },
     {
-      "id": "sup_tom_hum_sua_beo",
+      "id": "velvet_freshwater_shrimp_bisque",
       "name": "Velvet Freshwater Shrimp Bisque",
       "station": "kitchen_pot",
       "ingredients": [
@@ -486,13 +486,13 @@
           "quantity": 1
         }
       ],
-      "result_item_id": "food_sup_tom_hum_sua_beo",
+      "result_item_id": "food_velvet_freshwater_shrimp_bisque",
       "hp": 140,
       "stamina": 185,
       "buff": "+3 Defense, +2 Luck"
     },
     {
-      "id": "lau_ca_cay_ham_nguc",
+      "id": "khaz_drakor_fiery_fish_hotpot",
       "name": "Khaz-Drakor Fiery Fish Hotpot",
       "station": "kitchen_pot",
       "ingredients": [
@@ -512,13 +512,13 @@
           "quantity": 1
         }
       ],
-      "result_item_id": "food_lau_ca_cay_ham_nguc",
+      "result_item_id": "food_khaz_drakor_fiery_fish_hotpot",
       "hp": 145,
       "stamina": 190,
       "buff": "+3 Attack, +2 Mining"
     },
     {
-      "id": "tart_dau_tuyet_lanh",
+      "id": "berry_cherry_vanilla_tart",
       "name": "Berry, Cherry & Vanilla Tart",
       "station": "kitchen_oven",
       "ingredients": [
@@ -538,13 +538,13 @@
           "quantity": 1
         }
       ],
-      "result_item_id": "food_tart_dau_tuyet_lanh",
+      "result_item_id": "food_berry_cherry_vanilla_tart",
       "hp": 75,
       "stamina": 110,
       "buff": "+1 Move Speed, +15% Resting Stamina Regen"
     },
     {
-      "id": "pho_bo_thung_lung",
+      "id": "oakhaven_herbal_beef_pho",
       "name": "Oakhaven Herbal Beef Pho",
       "station": "kitchen_pot",
       "ingredients": [
@@ -574,13 +574,13 @@
           "quantity": 1
         }
       ],
-      "result_item_id": "food_pho_bo_thung_lung",
+      "result_item_id": "food_oakhaven_herbal_beef_pho",
       "hp": 155,
       "stamina": 205,
       "buff": "+3 Attack, +2 Speed, -30% Cold Damage"
     },
     {
-      "id": "salad_trai_cay_mua_ha",
+      "id": "summer_melon_kiwano_mint_salad",
       "name": "Summer Melon, Kiwano & Mint Salad",
       "station": "kitchen_pot",
       "ingredients": [
@@ -600,13 +600,13 @@
           "quantity": 1
         }
       ],
-      "result_item_id": "food_salad_trai_cay_mua_ha",
+      "result_item_id": "food_summer_melon_kiwano_mint_salad",
       "hp": 65,
       "stamina": 135,
       "buff": "+1 Move Speed, -25% Heat & Fire Damage"
     },
     {
-      "id": "bi_do_nuong_pho_mai_deo",
+      "id": "cheesy_baked_sweet_pumpkin",
       "name": "Cheesy Baked Sweet Pumpkin",
       "station": "kitchen_oven",
       "ingredients": [
@@ -621,13 +621,13 @@
           "quantity": 1
         }
       ],
-      "result_item_id": "food_bi_do_nuong_pho_mai_deo",
+      "result_item_id": "food_cheesy_baked_sweet_pumpkin",
       "hp": 110,
       "stamina": 160,
       "buff": "+3 Defense"
     },
     {
-      "id": "banh_quy_gung_giu_am",
+      "id": "walnut_chufa_trail_cookies",
       "name": "Walnut & Chufa Trail Cookies",
       "station": "kitchen_oven",
       "ingredients": [
@@ -647,13 +647,13 @@
           "quantity": 1
         }
       ],
-      "result_item_id": "food_banh_quy_gung_giu_am",
+      "result_item_id": "food_walnut_chufa_trail_cookies",
       "hp": 70,
       "stamina": 100,
       "buff": "-40% Frost Slow Effect"
     },
     {
-      "id": "thit_xong_khoi_cui_go_soi",
+      "id": "baked_pork_cheese_eggplant",
       "name": "Baked Pork & Cheese Eggplant",
       "station": "kitchen_oven",
       "ingredients": [
@@ -673,13 +673,13 @@
           "quantity": 1
         }
       ],
-      "result_item_id": "food_thit_xong_khoi_cui_go_soi",
+      "result_item_id": "food_baked_pork_cheese_eggplant",
       "hp": 120,
       "stamina": 160,
       "buff": "+2 Attack, +25 Max Stamina (Temp)"
     },
     {
-      "id": "lap_xuong_tieu_den_mo_da",
+      "id": "black_pepper_smoked_sausage",
       "name": "Black-Pepper Onion Smoked Sausage",
       "station": "kitchen_grill",
       "ingredients": [
@@ -699,13 +699,13 @@
           "quantity": 1
         }
       ],
-      "result_item_id": "food_lap_xuong_tieu_den_mo_da",
+      "result_item_id": "food_black_pepper_smoked_sausage",
       "hp": 120,
       "stamina": 150,
       "buff": "+15% Critical Hit Rate"
     },
     {
-      "id": "mi_soi_tuoi_xao_nam_cay",
+      "id": "truffle_miso_egg_ramen",
       "name": "Truffle Miso & Egg Ramen",
       "station": "kitchen_pot",
       "ingredients": [
@@ -730,13 +730,13 @@
           "quantity": 1
         }
       ],
-      "result_item_id": "food_mi_soi_tuoi_xao_nam_cay",
+      "result_item_id": "food_truffle_miso_egg_ramen",
       "hp": 135,
       "stamina": 180,
       "buff": "+2 Speed, +2 Mining"
     },
     {
-      "id": "banh_kep_trung_xuc_xich",
+      "id": "avocado_egg_hearth_toast",
       "name": "Avocado & Egg Hearth Toast",
       "station": "kitchen_pan",
       "ingredients": [
@@ -756,13 +756,13 @@
           "quantity": 1
         }
       ],
-      "result_item_id": "food_banh_kep_trung_xuc_xich",
+      "result_item_id": "food_avocado_egg_hearth_toast",
       "hp": 110,
       "stamina": 150,
       "buff": "+2 Farming Tool Speed"
     },
     {
-      "id": "sup_cu_den_do_dai_ngan",
+      "id": "highland_ruby_beet_borscht",
       "name": "Highland Ruby Beet Borscht",
       "station": "kitchen_pot",
       "ingredients": [
@@ -782,13 +782,13 @@
           "quantity": 1
         }
       ],
-      "result_item_id": "food_sup_cu_den_do_dai_ngan",
+      "result_item_id": "food_highland_ruby_beet_borscht",
       "hp": 95,
       "stamina": 135,
       "buff": "+20 Max HP (Temp), Regen 1 HP per 5s"
     },
     {
-      "id": "banh_khoai_mon_tro_trau",
+      "id": "hearth_steamed_ash_taro_cake",
       "name": "Hearth-Steamed Ash Taro Cake",
       "station": "kitchen_steamer",
       "ingredients": [
@@ -808,13 +808,13 @@
           "quantity": 1
         }
       ],
-      "result_item_id": "food_banh_khoai_mon_tro_trau",
+      "result_item_id": "food_hearth_steamed_ash_taro_cake",
       "hp": 90,
       "stamina": 140,
       "buff": "+1 Defense, -20% Miasma Buildup [Altar Offering Tier 1]"
     },
     {
-      "id": "xoi_hat_sen_nuoc_cot_dua",
+      "id": "grand_saffron_seafood_paella",
       "name": "Grand Saffron Seafood Paella",
       "station": "kitchen_pan",
       "ingredients": [
@@ -839,13 +839,13 @@
           "quantity": 1
         }
       ],
-      "result_item_id": "food_xoi_hat_sen_nuoc_cot_dua",
+      "result_item_id": "food_grand_saffron_seafood_paella",
       "hp": 130,
       "stamina": 175,
       "buff": "+2 Luck, +1 Speed [Altar Offering Tier 2]"
     },
     {
-      "id": "banh_chung_lua_rung",
+      "id": "baked_andean_oca_beef_empanada",
       "name": "Baked Andean Oca & Beef Empanada",
       "station": "kitchen_oven",
       "ingredients": [
@@ -870,13 +870,13 @@
           "quantity": 1
         }
       ],
-      "result_item_id": "food_banh_chung_lua_rung",
+      "result_item_id": "food_baked_andean_oca_beef_empanada",
       "hp": 150,
       "stamina": 195,
       "buff": "+3 Defense, +3 Attack, +25 Max HP (Temp)"
     },
     {
-      "id": "canh_thao_moc_bup_sen",
+      "id": "artichoke_lotus_cleansing_broth",
       "name": "Artichoke & Lotus Cleansing Broth",
       "station": "kitchen_pot",
       "ingredients": [
@@ -891,13 +891,13 @@
           "quantity": 1
         }
       ],
-      "result_item_id": "food_canh_thao_moc_bup_sen",
+      "result_item_id": "food_artichoke_lotus_cleansing_broth",
       "hp": 100,
       "stamina": 150,
       "buff": "-30% Poison Damage & Miasma Buildup"
     },
     {
-      "id": "banh_deo_trang_ram_hoa_buoi",
+      "id": "apricot_honey_fig_poultry_tagine",
       "name": "Apricot & Honey-Fig Poultry Tagine",
       "station": "kitchen_pot",
       "ingredients": [
@@ -922,18 +922,18 @@
           "quantity": 1
         }
       ],
-      "result_item_id": "food_banh_deo_trang_ram_hoa_buoi",
+      "result_item_id": "food_apricot_honey_fig_poultry_tagine",
       "hp": 125,
       "stamina": 170,
       "buff": "+2 Luck, +10% Bonus Crop Yield"
     },
     {
-      "id": "tra_sen_bach_diep",
+      "id": "sun_daisy_lotus_herbal_tea",
       "name": "Sun-Daisy & Lotus Herbal Tea",
       "station": "kitchen_pot",
       "ingredients": [
         {
-          "id": "la_tra_sen",
+          "id": "lotus_tea_leaves",
           "name": "Lotus Tea Leaves",
           "quantity": 1
         },
@@ -948,13 +948,13 @@
           "quantity": 1
         }
       ],
-      "result_item_id": "food_tra_sen_bach_diep",
+      "result_item_id": "food_sun_daisy_lotus_herbal_tea",
       "hp": 40,
       "stamina": 150,
       "buff": "-20% Tool Stamina Drain"
     },
     {
-      "id": "nuoc_mia_ep_gung_am",
+      "id": "hot_highland_milk_coffee",
       "name": "Hot Highland Milk Coffee",
       "station": "kitchen_pot",
       "ingredients": [
@@ -974,13 +974,13 @@
           "quantity": 1
         }
       ],
-      "result_item_id": "food_nuoc_mia_ep_gung_am",
+      "result_item_id": "food_hot_highland_milk_coffee",
       "hp": 50,
       "stamina": 120,
       "buff": "+2 Move Speed"
     },
     {
-      "id": "sua_bo_nong_mat_ong",
+      "id": "winter_chestnut_hot_chocolate",
       "name": "Winter Chestnut Hot Chocolate",
       "station": "kitchen_pot",
       "ingredients": [
@@ -1000,13 +1000,13 @@
           "quantity": 1
         }
       ],
-      "result_item_id": "food_sua_bo_nong_mat_ong",
+      "result_item_id": "food_winter_chestnut_hot_chocolate",
       "hp": 60,
       "stamina": 125,
       "buff": "+30 Max Stamina (Temp), -25% Cold Damage"
     },
     {
-      "id": "ruou_trai_cay_len_men",
+      "id": "craft_hops_lichen_pear_brew",
       "name": "Craft Hops & Lichen-Pear Brew",
       "station": "kitchen_pot",
       "ingredients": [
@@ -1026,13 +1026,13 @@
           "quantity": 1
         }
       ],
-      "result_item_id": "food_ruou_trai_cay_len_men",
+      "result_item_id": "food_craft_hops_lichen_pear_brew",
       "hp": 95,
       "stamina": 100,
       "buff": "+4 Attack (-10% Mine Light Radius)"
     },
     {
-      "id": "nuoc_ep_dua_luoi_bang_gia",
+      "id": "chilled_pomegranate_mint_juice",
       "name": "Chilled Pomegranate Mint Juice",
       "station": "kitchen_pot",
       "ingredients": [
@@ -1047,13 +1047,13 @@
           "quantity": 1
         }
       ],
-      "result_item_id": "food_nuoc_ep_dua_luoi_bang_gia",
+      "result_item_id": "food_chilled_pomegranate_mint_juice",
       "hp": 70,
       "stamina": 130,
       "buff": "-35% Fire & Lava Damage, -50% Burn Duration"
     },
     {
-      "id": "phi_le_ca_ngu_nuong_rom",
+      "id": "garlic_asparagus_seared_tuna",
       "name": "Garlic-Asparagus Seared Tuna",
       "station": "kitchen_grill",
       "ingredients": [
@@ -1073,13 +1073,13 @@
           "quantity": 1
         }
       ],
-      "result_item_id": "food_phi_le_ca_ngu_nuong_rom",
+      "result_item_id": "food_garlic_asparagus_seared_tuna",
       "hp": 130,
       "stamina": 170,
       "buff": "+3 Mining, +2 Attack"
     },
     {
-      "id": "oc_nuong_bo_tieu_den",
+      "id": "pepper_butter_lake_escargot",
       "name": "Pepper-Butter Lake Escargot",
       "station": "kitchen_grill",
       "ingredients": [
@@ -1099,13 +1099,13 @@
           "quantity": 1
         }
       ],
-      "result_item_id": "food_oc_nuong_bo_tieu_den",
+      "result_item_id": "food_pepper_butter_lake_escargot",
       "hp": 85,
       "stamina": 120,
       "buff": "+10% Dodge Chance, +1 Fishing Skill"
     },
     {
-      "id": "com_tho_suon_hap_nam",
+      "id": "sylva_fae_ube_vanilla_tart",
       "name": "Sylva-Fae Ube & Vanilla Tart",
       "station": "kitchen_oven",
       "ingredients": [
@@ -1130,13 +1130,13 @@
           "quantity": 1
         }
       ],
-      "result_item_id": "food_com_tho_suon_hap_nam",
+      "result_item_id": "food_sylva_fae_ube_vanilla_tart",
       "hp": 125,
       "stamina": 170,
       "buff": "+2 Speed, +2 Luck"
     },
     {
-      "id": "banh_pie_tao_que_lo_dat",
+      "id": "hearth_baked_apple_fig_pie",
       "name": "Hearth-Baked Apple Fig Pie",
       "station": "kitchen_oven",
       "ingredients": [
@@ -1156,13 +1156,13 @@
           "quantity": 1
         }
       ],
-      "result_item_id": "food_banh_pie_tao_que_lo_dat",
+      "result_item_id": "food_hearth_baked_apple_fig_pie",
       "hp": 110,
       "stamina": 160,
       "buff": "+2 Luck, +1 Speed"
     },
     {
-      "id": "banh_tart_viet_quat_dai_ngan",
+      "id": "blackberry_gold_kiwi_tart",
       "name": "Blackberry & Gold Kiwi Tart",
       "station": "kitchen_oven",
       "ingredients": [
@@ -1182,13 +1182,13 @@
           "quantity": 1
         }
       ],
-      "result_item_id": "food_banh_tart_viet_quat_dai_ngan",
+      "result_item_id": "food_blackberry_gold_kiwi_tart",
       "hp": 110,
       "stamina": 155,
       "buff": "+10% Crit Rate, +1 Move Speed"
     },
     {
-      "id": "dui_rung_hun_khoi_da_chien",
+      "id": "bay_laurel_smoked_pork_haunch",
       "name": "Bay-Laurel Smoked Pork Haunch",
       "station": "kitchen_grill",
       "ingredients": [
@@ -1208,13 +1208,13 @@
           "quantity": 1
         }
       ],
-      "result_item_id": "food_dui_rung_hun_khoi_da_chien",
+      "result_item_id": "food_bay_laurel_smoked_pork_haunch",
       "hp": 145,
       "stamina": 185,
       "buff": "+4 Attack, +1 Defense"
     },
     {
-      "id": "lau_thap_cam_bach_vi",
+      "id": "oakhaven_salsify_yam_grand_hotpot",
       "name": "Oakhaven Salsify & Yam Grand Hotpot",
       "station": "kitchen_pot",
       "ingredients": [
@@ -1234,13 +1234,13 @@
           "quantity": 1
         }
       ],
-      "result_item_id": "food_lau_thap_cam_bach_vi",
+      "result_item_id": "food_oakhaven_salsify_yam_grand_hotpot",
       "hp": 165,
       "stamina": 210,
       "buff": "+3 Attack, +3 Defense, -30% Cold Damage"
     },
     {
-      "id": "banh_mi_kep_thap_cam",
+      "id": "oakhaven_roast_pork_banh_mi",
       "name": "Oakhaven Roast Pork Banh Mi",
       "station": "kitchen_oven",
       "ingredients": [
@@ -1270,13 +1270,13 @@
           "quantity": 1
         }
       ],
-      "result_item_id": "food_banh_mi_kep_thap_cam",
+      "result_item_id": "food_oakhaven_roast_pork_banh_mi",
       "hp": 140,
       "stamina": 190,
       "buff": "+2 Speed, +2 Defense, +1 Luck"
     },
     {
-      "id": "com_lam_ong_tre_muoi_me",
+      "id": "bamboo_roasted_rice_shoots",
       "name": "Bamboo-Roasted Rice & Shoots",
       "station": "kitchen_grill",
       "ingredients": [
@@ -1296,13 +1296,13 @@
           "quantity": 1
         }
       ],
-      "result_item_id": "food_com_lam_ong_tre_muoi_me",
+      "result_item_id": "food_bamboo_roasted_rice_shoots",
       "hp": 100,
       "stamina": 150,
       "buff": "+1 Mining, +1 Defense"
     },
     {
-      "id": "ga_ham_sam_rung_da",
+      "id": "mandrake_snow_maca_poultry_broth",
       "name": "Mandrake & Snow-Maca Poultry Broth",
       "station": "kitchen_pot",
       "ingredients": [
@@ -1322,13 +1322,13 @@
           "quantity": 1
         }
       ],
-      "result_item_id": "food_ga_ham_sam_rung_da",
+      "result_item_id": "food_mandrake_snow_maca_poultry_broth",
       "hp": 150,
       "stamina": 200,
       "buff": "+45 Max Stamina (Temp), +2 Defense"
     },
     {
-      "id": "thit_nuong_lua_dia_nguc",
+      "id": "fiery_chili_ginger_grilled_beef",
       "name": "Fiery Chili-Ginger Grilled Beef",
       "station": "kitchen_grill",
       "ingredients": [
@@ -1348,13 +1348,13 @@
           "quantity": 1
         }
       ],
-      "result_item_id": "food_thit_nuong_lua_dia_nguc",
+      "result_item_id": "food_fiery_chili_ginger_grilled_beef",
       "hp": 150,
       "stamina": 195,
       "buff": "+4 Attack, +10% Attack Speed"
     },
     {
-      "id": "sup_yen_pha_le_thung_lung",
+      "id": "snow_lotus_glow_fern_soup",
       "name": "Snow-Lotus & Glow-Fern Soup",
       "station": "kitchen_pot",
       "ingredients": [
@@ -1369,18 +1369,18 @@
           "quantity": 1
         },
         {
-          "id": "mat_ong",
+          "id": "wild_honey",
           "name": "Wild Honey",
           "quantity": 1
         }
       ],
-      "result_item_id": "food_sup_yen_pha_le_thung_lung",
+      "result_item_id": "food_snow_lotus_glow_fern_soup",
       "hp": 170,
       "stamina": 220,
       "buff": "+3 Defense, +30 Max HP (Temp), -30% Cold & Stun"
     },
     {
-      "id": "banh_ngu_coc_dai_luc",
+      "id": "cassava_dark_rye_hearth_loaf",
       "name": "Cassava & Dark-Rye Hearth Loaf",
       "station": "kitchen_oven",
       "ingredients": [
@@ -1400,13 +1400,13 @@
           "quantity": 1
         }
       ],
-      "result_item_id": "food_banh_ngu_coc_dai_luc",
+      "result_item_id": "food_cassava_dark_rye_hearth_loaf",
       "hp": 130,
       "stamina": 180,
       "buff": "-15% Overall Stamina Drain, +1 Mining"
     },
     {
-      "id": "banh_cau_vong_4_mua",
+      "id": "four_season_turban_orchard_cake",
       "name": "Four-Season Turban Orchard Cake",
       "station": "kitchen_oven",
       "ingredients": [
@@ -1431,13 +1431,13 @@
           "quantity": 1
         }
       ],
-      "result_item_id": "food_banh_cau_vong_4_mua",
+      "result_item_id": "food_four_season_turban_orchard_cake",
       "hp": 160,
       "stamina": 200,
       "buff": "+2 Speed, +2 Luck, -15% Action Stamina Cost"
     },
     {
-      "id": "yen_tiec_cau_sieu_anh_hon",
+      "id": "grand_solaria_memorial_feast",
       "name": "Grand Solaria Memorial Feast",
       "station": "kitchen_pot",
       "ingredients": [
@@ -1462,7 +1462,7 @@
           "quantity": 1
         }
       ],
-      "result_item_id": "food_yen_tiec_cau_sieu_anh_hon",
+      "result_item_id": "food_grand_solaria_memorial_feast",
       "hp": 180,
       "stamina": 240,
       "buff": "+4 Attack, +4 Defense, -35% Miasma Buildup [Grand Altar Offering]"

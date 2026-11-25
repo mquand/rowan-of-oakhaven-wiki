@@ -12,21 +12,21 @@
       "description": "Chú cú tròn xoe, thông minh, mang hạt mầm kỳ lạ từ rừng sâu về hòm thư mỗi sớm.",
       "favorite_items": [
         "seed_sen_tea",
-        "mat_ong"
+        "wild_honey"
       ],
       "quote": "Hú... cú... *nghiêng đầu chớp mắt*",
       "birthday": "Ngày 12 Mùa Thu",
       "schedule": "Sáng sớm: Mang hạt giống về hòm thư; Chiều: Đậu hiên tiệm",
       "real_world_wound": "Chú cú trung thành không bao giờ rời bỏ cọc thư, chờ đợi từng phong thư của dân làng.",
-      "comfort_dish": "mat_ong",
+      "comfort_dish": "wild_honey",
       "heart_event_summary": "Người bạn đồng hành trung thành; mang hạt giống hoang dã Rừng Thầm Thì vào hòm thư mỗi sớm.",
       "gift_preferences": {
         "loved": [
           "seed_sen_tea",
-          "mat_ong"
+          "wild_honey"
         ],
         "liked": [
-          "dau_rung",
+          "wild_berry",
           "seed_lumiberry",
           "seed_silver_wheat"
         ],
@@ -35,8 +35,8 @@
           "item_stone_brick"
         ],
         "hated": [
-          "thit_nuong_lua_dia_nguc",
-          "ruou_trai_cay_len_men"
+          "fiery_chili_ginger_grilled_beef",
+          "craft_hops_lichen_pear_brew"
         ]
       },
       "heart_events": [
@@ -73,7 +73,7 @@
       "description": "Chú mèo tam thể tròn xoe đến tiệm trú mưa rồi ở lại luôn, thích ngủ nướng bên đèn dầu.",
       "favorite_items": [
         "item_butter",
-        "dau_rung",
+        "wild_berry",
         "item_wild_mushroom"
       ],
       "quote": "Meo... *gừ gừ thư thái*",
@@ -85,20 +85,20 @@
       "gift_preferences": {
         "loved": [
           "item_butter",
-          "ca_suoi_nuong_muoi_ot"
+          "chili_lime_grilled_stream_carp"
         ],
         "liked": [
-          "dau_rung",
+          "wild_berry",
           "drop_moon_berry",
-          "sua_bo_nong_mat_ong"
+          "winter_chestnut_hot_chocolate"
         ],
         "disliked": [
-          "item_tea_sen_an_than",
+          "item_tea_calming_lotus",
           "ore_coal"
         ],
         "hated": [
           "drop_crystal_sea_salt",
-          "ruou_trai_cay_len_men"
+          "craft_hops_lichen_pear_brew"
         ]
       },
       "heart_events": [
@@ -127,33 +127,33 @@
       "species": "Kemomimi-Elf (Cáo Tuyết & Tinh Linh)",
       "description": "Tinh Linh dạng Kemomimi-Elf độc bản — 2 tai cáo tuyết trắng xù trên đỉnh đầu + 2 tai nhọn tinh linh, tóc xanh ngọc bích twin-tails, khăn len đỏ.",
       "favorite_items": [
-        "item_tea_sen_an_than"
+        "item_tea_calming_lotus"
       ],
       "quote": "Tiếng gió rít ngoài rừng đêm nay làm tai tôi ù đi... có thứ gì thanh mát làm lòng tôi dịu lại không?",
       "birthday": "Ngày 7 Mùa Xuân",
       "schedule": "Chiều: Đi dạo Rừng Thầm Thì; Tối: Ngồi góc yên tĩnh quán ăn",
       "real_world_wound": "Dị chủng lai bị cả hai giới người thú và tinh linh xa lánh; sợ bị kỳ thị và xua đuổi.",
-      "comfort_dish": "item_tea_sen_an_than",
+      "comfort_dish": "item_tea_calming_lotus",
       "heart_event_summary": "Lắng nghe thảo mộc hiếm trong Rừng Thầm Thì theo thời tiết ở 4 Tim; mở lối dẫn đường vào Đền Rừng Sâu hái nấm phát quang ở 8 Tim.",
       "gift_preferences": {
         "loved": [
-          "tra_sen_bach_diep",
-          "xoi_hat_sen_nuoc_cot_dua",
-          "dau_rung"
+          "sun_daisy_lotus_herbal_tea",
+          "grand_saffron_seafood_paella",
+          "wild_berry"
         ],
         "liked": [
-          "item_tea_sen_an_than",
-          "mat_ong",
+          "item_tea_calming_lotus",
+          "wild_honey",
           "drop_moon_berry",
-          "banh_deo_trang_ram_hoa_buoi"
+          "apricot_honey_fig_poultry_tagine"
         ],
         "disliked": [
-          "thit_nuong_lua_dia_nguc",
+          "fiery_chili_ginger_grilled_beef",
           "ore_coal"
         ],
         "hated": [
-          "bit_tet_nuong_than_soi",
-          "ruou_trai_cay_len_men"
+          "garlic_rosemary_seared_steak",
+          "craft_hops_lichen_pear_brew"
         ]
       },
       "schedules": {
@@ -242,21 +242,21 @@
       "gift_preferences": {
         "loved": [
           "item_pastry_cinnamon_roll",
-          "bo_ham_ruou_vang_mo",
+          "night_wine_beef_bourguignon",
           "ore_gold"
         ],
         "liked": [
-          "banh_mi_lua_mi_gion",
+          "crusty_hearth_sourdough",
           "ore_iron",
           "ore_copper",
           "ore_coal"
         ],
         "disliked": [
-          "salad_trai_cay_mua_ha",
-          "nuoc_ep_dua_luoi_bang_gia"
+          "summer_melon_kiwano_mint_salad",
+          "chilled_pomegranate_mint_juice"
         ],
         "hated": [
-          "thit_nuong_lua_dia_nguc",
+          "fiery_chili_ginger_grilled_beef",
           "drop_prism_jelly"
         ]
       },
@@ -430,20 +430,20 @@
         "loved": [
           "item_dish_sweet_pumpkin_potage",
           "seed_sen_tea",
-          "tra_sen_bach_diep"
+          "sun_daisy_lotus_herbal_tea"
         ],
         "liked": [
           "item_flour",
-          "dau_rung",
-          "sua_bo_nong_mat_ong",
-          "banh_quy_gung_giu_am"
+          "wild_berry",
+          "winter_chestnut_hot_chocolate",
+          "walnut_chufa_trail_cookies"
         ],
         "disliked": [
-          "bit_tet_nuong_than_soi",
+          "garlic_rosemary_seared_steak",
           "ore_coal"
         ],
         "hated": [
-          "thit_nuong_lua_dia_nguc",
+          "fiery_chili_ginger_grilled_beef",
           "drop_prism_jelly"
         ]
       },
@@ -570,7 +570,7 @@
       "favorite_items": [
         "item_cake_fairy_birthday",
         "item_dish_sweet_pumpkin_potage",
-        "dau_rung"
+        "wild_berry"
       ],
       "quote": "Bà Maeve dạo này hay đau nhức chân... Cháu muốn đổi hộp diêm lấy một tách trà gừng cho bà, cháu còn thiếu mấy đồng ạ?",
       "birthday": "Ngày 22 Mùa Hạ",
@@ -580,23 +580,23 @@
       "heart_event_summary": "Nhận hạt mầm quý ở 4 Tim; nâng cấp Trạm Nhân Giống & Ghép Cây Bốn Mùa Tự Động tại 8 Tim sau khi hai bà cháu hóa giải nỗi sợ chia lìa.",
       "gift_preferences": {
         "loved": [
-          "banh_cau_vong_4_mua",
-          "mat_ong",
+          "four_season_turban_orchard_cake",
+          "wild_honey",
           "item_pastry_scone_berry"
         ],
         "liked": [
           "item_pastry_cinnamon_roll",
           "item_wood_pine",
-          "dau_rung",
-          "com_nam_muoi_rung"
+          "wild_berry",
+          "sea_salted_rice_ball"
         ],
         "disliked": [
-          "canh_chua_ca_suoi_cay",
+          "solaria_saffron_fish_bouillabaisse",
           "ore_coal"
         ],
         "hated": [
-          "ruou_trai_cay_len_men",
-          "bit_tet_nuong_than_soi"
+          "craft_hops_lichen_pear_brew",
+          "garlic_rosemary_seared_steak"
         ]
       },
       "schedules": {
@@ -705,31 +705,31 @@
       "species": "Human (Linh Hồn)",
       "description": "Bà ngoại của Rowan, cố nghệ nhân trà bánh đã khuất. Hình bóng bà hiện về qua những trang sổ tay ghi chú tỉ mỉ và lời khuyên dịu dàng trong ký ức của Rowan.",
       "favorite_items": [
-        "la_tra_sen",
+        "lotus_tea_leaves",
         "item_flour"
       ],
       "quote": "Phép thuật đích thực không ở đâu xa, nó nằm trong sự nâng niu từng búp trà và từng mẩu bánh con nướng cho người khác.",
       "birthday": "Ngày 28 Mùa Đông",
       "schedule": "Hiện diện trong ký ức, trang sổ rách và giấc mơ của Rowan",
       "real_world_wound": "Từng ở lại cứu cả thị trấn trong nạn đói dù phải đánh đổi sinh mạng vì kiệt sức.",
-      "comfort_dish": "item_tea_sen_an_than",
+      "comfort_dish": "item_tea_calming_lotus",
       "heart_event_summary": "Dẫn dắt Rowan qua 55 công thức ẩm thực gia truyền và triết lý: \"Nấu nướng là để người khác cảm thấy xứng đáng được sống và được yêu thương.\"",
       "gift_preferences": {
         "loved": [
-          "tra_sen_bach_diep",
-          "xoi_hat_sen_nuoc_cot_dua",
+          "sun_daisy_lotus_herbal_tea",
+          "grand_saffron_seafood_paella",
           "item_bread_brioche"
         ],
         "liked": [
-          "mat_ong",
-          "dau_rung",
+          "wild_honey",
+          "wild_berry",
           "item_flour"
         ],
         "disliked": [
-          "ruou_trai_cay_len_men"
+          "craft_hops_lichen_pear_brew"
         ],
         "hated": [
-          "thit_nuong_lua_dia_nguc"
+          "fiery_chili_ginger_grilled_beef"
         ]
       },
       "heart_events": [
@@ -778,22 +778,22 @@
       "gift_preferences": {
         "loved": [
           "item_dish_miner_potato_stew",
-          "banh_mi_lua_mi_gion",
+          "crusty_hearth_sourdough",
           "ore_iron"
         ],
         "liked": [
           "ore_coal",
           "ore_copper",
           "item_stone_brick",
-          "khoai_tay_nuong_bo_toi"
+          "garlic_buttered_roasted_potato"
         ],
         "disliked": [
-          "salad_trai_cay_mua_ha",
-          "banh_tart_viet_quat_dai_ngan"
+          "summer_melon_kiwano_mint_salad",
+          "blackberry_gold_kiwi_tart"
         ],
         "hated": [
           "drop_prism_jelly",
-          "tra_sen_bach_diep"
+          "sun_daisy_lotus_herbal_tea"
         ]
       },
       "schedules": {
@@ -916,22 +916,22 @@
       "gift_preferences": {
         "loved": [
           "item_pastry_scone_berry",
-          "item_tea_dau_bang_tuyet",
+          "item_tea_glacial_berry",
           "item_flour"
         ],
         "liked": [
           "item_butter",
-          "mat_ong",
-          "dau_rung",
+          "wild_honey",
+          "wild_berry",
           "item_pastry_scone_berry"
         ],
         "disliked": [
-          "canh_chua_ca_suoi_cay",
+          "solaria_saffron_fish_bouillabaisse",
           "ore_coal"
         ],
         "hated": [
-          "thit_nuong_lua_dia_nguc",
-          "ruou_trai_cay_len_men"
+          "fiery_chili_ginger_grilled_beef",
+          "craft_hops_lichen_pear_brew"
         ]
       },
       "schedules": {
@@ -1013,7 +1013,7 @@
       "description": "Nhà thiên văn học làm việc tại đài quan sát trên đồi cao, cha của Clara. Đãng trí, mải mê nghiên cứu các chòm sao đến mức quên ăn mất ngủ.",
       "favorite_items": [
         "item_tea_sun_daisy_honey",
-        "bot_sao",
+        "star_flour",
         "gem_amethyst"
       ],
       "quote": "Chòm sao Thiên Nga vừa dịch chuyển 3 độ... Mắt ta mờ đi rồi, cho ta thứ gì giúp não bộ ngưng tính toán trong 2 tiếng được không?",
@@ -1024,22 +1024,22 @@
       "heart_event_summary": "Dự báo trước 2 ngày các hình thái thời tiết dị thường (bão tuyết, mưa axit miasma) ở 4 Tim; mở khóa sự kiện Đêm Sao Băng mang lại tinh thể khoáng thạch tại 8 Tim.",
       "gift_preferences": {
         "loved": [
-          "banh_tart_viet_quat_dai_ngan",
-          "item_tea_sen_an_than",
+          "blackberry_gold_kiwi_tart",
+          "item_tea_calming_lotus",
           "gem_sapphire"
         ],
         "liked": [
           "drop_moon_berry",
-          "mat_ong",
+          "wild_honey",
           "item_pastry_scone_berry",
           "gem_amethyst"
         ],
         "disliked": [
-          "thit_nuong_lua_dia_nguc",
-          "bap_xao_bo_cay"
+          "fiery_chili_ginger_grilled_beef",
+          "avocado_jicama_corn_taco"
         ],
         "hated": [
-          "ruou_trai_cay_len_men",
+          "craft_hops_lichen_pear_brew",
           "ore_coal"
         ]
       },
@@ -1127,8 +1127,8 @@
       "description": "Người trông coi thư viện Oakhaven, con gái giáo sư Orion. Ngăn nắp, chu đáo, luôn phải nhắc nhở cha mình chăm sóc bản thân.",
       "favorite_items": [
         "item_tea_earl_grey_clara",
-        "item_tea_oai_huong_ngan_sao",
-        "la_tra_sen"
+        "item_tea_thousand_stars_lavender",
+        "lotus_tea_leaves"
       ],
       "quote": "Cha tôi lại trốn trên tháp thiên văn 2 ngày không chịu ăn... Bạn pha cho tôi một bình trà cúc lớn để tôi mang lên bắt ông ấy uống nhé!",
       "birthday": "Ngày 16 Mùa Xuân",
@@ -1139,21 +1139,21 @@
       "gift_preferences": {
         "loved": [
           "item_pastry_scone_berry",
-          "tra_sen_bach_diep",
+          "sun_daisy_lotus_herbal_tea",
           "item_bread_brioche"
         ],
         "liked": [
-          "dau_rung",
-          "mat_ong",
+          "wild_berry",
+          "wild_honey",
           "gem_amethyst",
-          "banh_quy_gung_giu_am"
+          "walnut_chufa_trail_cookies"
         ],
         "disliked": [
           "ore_coal",
-          "thit_nuong_lua_dia_nguc"
+          "fiery_chili_ginger_grilled_beef"
         ],
         "hated": [
-          "ruou_trai_cay_len_men",
+          "craft_hops_lichen_pear_brew",
           "drop_prism_jelly"
         ]
       },
@@ -1250,30 +1250,30 @@
       "description": "Lão thuyền trưởng già đã gác mái chèo, ông nội của chú bé Finn. Thích kể chuyện phiêu lưu ngoài biển mây xa xôi cho khách nghe.",
       "favorite_items": [
         "item_tea_magma_spiced_chai",
-        "item_tea_anh_duong",
+        "item_tea_solar_dawn",
         "drop_crystal_sea_salt"
       ],
       "quote": "Gió từ thung lũng mang mùi biển khơi ngày xưa... Cho lão già này một tách trà đậm vị quế, nghe lão kể về hòn đảo lơ lửng ngoài mây nào.",
       "birthday": "Ngày 2 Mùa Hạ",
       "schedule": "Sáng Chủ Nhật: Cập bến thuyền vỏ ốc tại cầu cảng Chợ Phiên",
       "real_world_wound": "Mù màu và thấp khớp nặng; mặc cảm bản thân là thanh gỗ mục vô dụng mắc cạn nơi đất liền.",
-      "comfort_dish": "thit_nuong_lua_dia_nguc",
+      "comfort_dish": "fiery_chili_ginger_grilled_beef",
       "heart_event_summary": "Mở bến thuyền chở hàng trên hồ sương mù ở 4 Tim; khai thông tuyến hàng hải biển mây nhập khẩu gia vị lạ tại 8 Tim.",
       "gift_preferences": {
         "loved": [
-          "ca_suoi_nuong_muoi_ot",
-          "ruou_trai_cay_len_men",
+          "chili_lime_grilled_stream_carp",
+          "craft_hops_lichen_pear_brew",
           "gem_sapphire"
         ],
         "liked": [
           "item_wood_pine",
           "drop_crystal_sea_salt",
-          "com_nam_muoi_rung",
+          "sea_salted_rice_ball",
           "ore_iron"
         ],
         "disliked": [
-          "banh_tart_viet_quat_dai_ngan",
-          "dau_rung"
+          "blackberry_gold_kiwi_tart",
+          "wild_berry"
         ],
         "hated": [
           "item_flour",
@@ -1372,7 +1372,7 @@
       "description": "Cậu bé câu cá bên bờ suối và hồ sương mù, cháu nội của Thuyền Trưởng Garrick. Tò mò, thích khám phá các loài cá phát sáng kỳ lạ.",
       "favorite_items": [
         "item_tea_frostmint_breeze",
-        "dau_rung",
+        "wild_berry",
         "drop_prism_jelly"
       ],
       "quote": "Hôm nay em câu được con cá phát sáng bảy màu to đùng! Ông Garrick bảo mang sang biếu quán ăn để đổi một đĩa súp ấm nóng!",
@@ -1383,22 +1383,22 @@
       "heart_event_summary": "Mở Cần câu & Minigame câu cá hồ ngầm ở 4 Tim; cung cấp cá phát quang chế biến món ăn buff dạ quang soi sáng mỏ sâu ở 8 Tim.",
       "gift_preferences": {
         "loved": [
-          "ca_suoi_nuong_muoi_ot",
+          "chili_lime_grilled_stream_carp",
           "item_pastry_scone_berry",
           "drop_moon_berry"
         ],
         "liked": [
-          "dau_rung",
-          "mat_ong",
+          "wild_berry",
+          "wild_honey",
           "ore_copper",
-          "com_nam_muoi_rung"
+          "sea_salted_rice_ball"
         ],
         "disliked": [
-          "item_tea_sen_an_than",
-          "canh_thao_moc_bup_sen"
+          "item_tea_calming_lotus",
+          "artichoke_lotus_cleansing_broth"
         ],
         "hated": [
-          "ruou_trai_cay_len_men",
+          "craft_hops_lichen_pear_brew",
           "ore_coal"
         ]
       },
@@ -1481,32 +1481,32 @@
       "description": "Thợ may áo choàng dạ hội thanh lịch, bạn tri kỷ của nhà thảo mộc Sylvan. Đôi tay kim châm hay mỏi nhức vì dệt váy cho khách.",
       "favorite_items": [
         "drop_golden_pollen",
-        "oai_huong"
+        "starlight_lavender"
       ],
       "quote": "Ngón tay tôi kim châm buốt nhức vì dệt áo choàng dạ hội... Có loại trà nào hương nhài thoang thoảng làm dịu đôi bàn tay này không?",
       "birthday": "Ngày 5 Mùa Xuân",
       "schedule": "Cả ngày: Trông nom nhà kính cổ tích Rừng Yêu Tinh Sylva-Fae",
       "real_world_wound": "Hội chứng run tay sau nhiều năm kim chỉ không nghỉ; sợ mất đi đôi tay khéo léo và không thể dệt trang phục cho bạn bè.",
-      "comfort_dish": "item_tea_oai_huong_ngan_sao",
+      "comfort_dish": "item_tea_thousand_stars_lavender",
       "heart_event_summary": "Dệt Túi Hành Trang Mở Rộng (+12 ô) ở 4 Tim; may Áo Choàng Dạ Hội Chống Rét Vĩnh Cửu cho Rowan từ tơ của Thistle ở 8 Tim.",
       "gift_preferences": {
         "loved": [
-          "item_tea_oai_huong_ngan_sao",
+          "item_tea_thousand_stars_lavender",
           "item_pastry_scone_berry",
           "gem_sapphire"
         ],
         "liked": [
-          "dau_rung",
-          "mat_ong",
-          "banh_mi_lua_mi_gion",
+          "wild_berry",
+          "wild_honey",
+          "crusty_hearth_sourdough",
           "item_flour"
         ],
         "disliked": [
           "ore_coal",
-          "thit_nuong_lua_dia_nguc"
+          "fiery_chili_ginger_grilled_beef"
         ],
         "hated": [
-          "ruou_trai_cay_len_men",
+          "craft_hops_lichen_pear_brew",
           "drop_prism_jelly"
         ]
       },
@@ -1550,7 +1550,7 @@
       "favorite_items": [
         "item_tea_sylvan_night_infusion",
         "seed_star_lavender",
-        "la_tra_sen"
+        "lotus_tea_leaves"
       ],
       "quote": "Rừng sâu đêm nay sương độc giăng dày... Ta mang cho cô ít rễ cây ngàn năm, đổi lấy tách trà trầm ấm bụng được chứ?",
       "birthday": "Ngày 24 Mùa Xuân",
@@ -1560,23 +1560,23 @@
       "heart_event_summary": "Mở Trạm Chiết Xuất Tinh Dầu Thảo Mộc tăng chỉ số buff món ăn ở 4 Tim; cung cấp Rễ Cây Ngàn Năm quý hiếm ở 8 Tim.",
       "gift_preferences": {
         "loved": [
-          "canh_thao_moc_bup_sen",
-          "tra_sen_bach_diep",
+          "artichoke_lotus_cleansing_broth",
+          "sun_daisy_lotus_herbal_tea",
           "seed_sen_tea"
         ],
         "liked": [
-          "item_tea_sen_an_than",
-          "mat_ong",
+          "item_tea_calming_lotus",
+          "wild_honey",
           "drop_moon_berry",
-          "dau_rung"
+          "wild_berry"
         ],
         "disliked": [
           "ore_coal",
-          "bit_tet_nuong_than_soi"
+          "garlic_rosemary_seared_steak"
         ],
         "hated": [
-          "thit_nuong_lua_dia_nguc",
-          "ruou_trai_cay_len_men"
+          "fiery_chili_ginger_grilled_beef",
+          "craft_hops_lichen_pear_brew"
         ]
       },
       "heart_events": [
@@ -1624,22 +1624,22 @@
       "heart_event_summary": "Giảm 50% tỉ lệ thú rừng xâm nhập phá hoại vườn ở 4 Tim; bảo vệ trị an tuyệt đối cho thị trấn và điền trang tại 8 Tim.",
       "gift_preferences": {
         "loved": [
-          "com_nam_muoi_rung",
-          "thit_nuong_lua_dia_nguc",
+          "sea_salted_rice_ball",
+          "fiery_chili_ginger_grilled_beef",
           "ore_iron"
         ],
         "liked": [
-          "banh_mi_lua_mi_gion",
-          "khoai_tay_nuong_bo_toi",
+          "crusty_hearth_sourdough",
+          "garlic_buttered_roasted_potato",
           "ore_coal",
-          "dui_rung_hun_khoi_da_chien"
+          "bay_laurel_smoked_pork_haunch"
         ],
         "disliked": [
-          "item_tea_sen_an_than",
-          "salad_trai_cay_mua_ha"
+          "item_tea_calming_lotus",
+          "summer_melon_kiwano_mint_salad"
         ],
         "hated": [
-          "ruou_trai_cay_len_men",
+          "craft_hops_lichen_pear_brew",
           "drop_prism_jelly"
         ]
       },
@@ -1683,34 +1683,34 @@
       "species": "Human",
       "description": "Dược sư Oakhaven điều hành trạm xá chăm sóc cư dân. Tin rằng bữa cơm nóng và trà thảo mộc của quán The Hearth giúp bà con lấy lại sức.",
       "favorite_items": [
-        "oai_huong",
-        "mat_ong"
+        "starlight_lavender",
+        "wild_honey"
       ],
       "quote": "Thuốc thang chỉ chữa được vết thương ngoài da... Người dân thị trấn cần những bát canh nóng và ấm trà thảo mộc ở quán để ấm bụng và đỡ nhức mỏi hơn.",
       "birthday": "Ngày 22 Mùa Hạ",
       "schedule": "Sáng: Vườn ong mật Oakhaven; Chiều: Giao mật ong tươi cho tiệm",
       "real_world_wound": "Thất vọng trước sự thương mại hóa vô nhân đạo của ngành y kinh đô; trăn trở trước nghèo đói vùng biên viễn.",
-      "comfort_dish": "item_tea_oai_huong_ngan_sao",
+      "comfort_dish": "item_tea_thousand_stars_lavender",
       "heart_event_summary": "Nấu Canh Dưỡng Sinh giảm đau nhức cho dân làng ở 2 Tim; cung cấp thuốc bôi hồi phục thể lực và trị liệu thương tật ở 6 Tim.",
       "gift_preferences": {
         "loved": [
-          "canh_thao_moc_bup_sen",
-          "tra_sen_bach_diep",
+          "artichoke_lotus_cleansing_broth",
+          "sun_daisy_lotus_herbal_tea",
           "gem_amethyst"
         ],
         "liked": [
-          "item_tea_sen_an_than",
-          "mat_ong",
+          "item_tea_calming_lotus",
+          "wild_honey",
           "item_flour",
-          "dau_rung"
+          "wild_berry"
         ],
         "disliked": [
-          "bit_tet_nuong_than_soi",
+          "garlic_rosemary_seared_steak",
           "ore_coal"
         ],
         "hated": [
-          "thit_nuong_lua_dia_nguc",
-          "ruou_trai_cay_len_men"
+          "fiery_chili_ginger_grilled_beef",
+          "craft_hops_lichen_pear_brew"
         ]
       },
       "heart_events": [
@@ -1757,34 +1757,34 @@
       "species": "Human (Quý Tộc Lưu Vong Solaria)",
       "description": "Quý tộc danh gia vọng tộc Solaria mắc chứng thiếu máu di truyền mãn tính, da dẻ trắng bợt và sợ ánh nắng gắt. Trốn chạy cuộc thanh trừng cung đình, chàng thuê phòng kín lầu 2 The Hearth sống ẩn dật, cần rượu quả mọng đậm đặc và canh thảo dược của Rowan để duy trì sức khỏe.",
       "favorite_items": [
-        "item_tea_dau_bang_tuyet",
-        "dau_rung"
+        "item_tea_glacial_berry",
+        "wild_berry"
       ],
       "quote": "Đừng nhìn vẻ nhợt nhạt này mà thương hại. Máu trong huyết quản ta có thể suy yếu, nhưng danh dự của dòng họ Montfort chưa từng khuất phục.",
       "birthday": "Ngày 10 Mùa Đông",
       "schedule": "Ban ngày: Nghỉ ngơi trong phòng trọ áp mái đóng kín rèm; Chiều muộn: Xuống sảnh The Hearth thưởng thức rượu quả mọng; Nửa đêm: Đọc sách và viết thư từ ngoại giao",
       "real_world_wound": "Mắc căn bệnh huyết khí nan y bị gia tộc kinh đô ghẻ lạnh, trơ trọi sau cuộc thanh trừng chính trị; luôn khao khát được đối xử như một con người bình thường thay vì một kẻ bệnh tật.",
-      "comfort_dish": "ruou_trai_cay_len_men",
+      "comfort_dish": "craft_hops_lichen_pear_brew",
       "heart_event_summary": "Mở đơn đặt hàng rượu quả mọng và canh bổ huyết giá gấp đôi ở 4 Tim; ký khế ước thương mại ngoại giao kinh đô tại 8 Tim.",
       "gift_preferences": {
         "loved": [
-          "ruou_trai_cay_len_men",
-          "sup_cu_den_do_dai_ngan",
+          "craft_hops_lichen_pear_brew",
+          "highland_ruby_beet_borscht",
           "gem_ruby"
         ],
         "liked": [
           "drop_moon_berry",
           "gem_amethyst",
-          "bo_ham_ruou_vang_mo",
+          "night_wine_beef_bourguignon",
           "item_bread_brioche"
         ],
         "disliked": [
-          "khoai_tay_nuong_bo_toi",
-          "bap_xao_bo_cay"
+          "garlic_buttered_roasted_potato",
+          "avocado_jicama_corn_taco"
         ],
         "hated": [
           "ore_coal",
-          "thit_nuong_lua_dia_nguc"
+          "fiery_chili_ginger_grilled_beef"
         ]
       },
       "heart_events": [
@@ -1830,33 +1830,33 @@
       "species": "Human (Phù Thủy)",
       "description": "Phù thủy sao băng lưu vong phiêu bạt khắp các tầng trời, ngựa chổi thường cạn ma lực giữa lưng chừng mây.",
       "favorite_items": [
-        "bot_sao",
+        "star_flour",
         "gem_sapphire"
       ],
       "quote": "Chổi bay của ta sắp cạn ma lực giữa lưng chừng mây... Ngươi có loại trà nào hái từ sương đêm ngọn cây cổ thụ để ta nạp lại phép thuật không?",
       "birthday": "Ngày 9 Mùa Thu",
       "schedule": "Chu du lưng chừng mây, thu thập sương sớm trên các tầng cao",
       "real_world_wound": "Bị Hội Pháp Sư Solaria trục xuất vì nghiên cứu ma pháp thứ dân; phiêu bạt lưu vong với chổi bay thường cạn kiệt ma lực.",
-      "comfort_dish": "item_tea_sen_an_than",
+      "comfort_dish": "item_tea_calming_lotus",
       "heart_event_summary": "Mở dịch vụ Sky Express chuyển phát nhanh nguyên liệu giữa 5 đại vực trong 2 giờ ở 4 Tim; tặng Rowan Chổi Bay Tốc Hành tại 8 Tim.",
       "gift_preferences": {
         "loved": [
-          "banh_tart_viet_quat_dai_ngan",
-          "item_tea_dau_bang_tuyet",
+          "blackberry_gold_kiwi_tart",
+          "item_tea_glacial_berry",
           "gem_ruby"
         ],
         "liked": [
-          "dau_rung",
+          "wild_berry",
           "drop_moon_berry",
-          "mat_ong",
+          "wild_honey",
           "item_bread_brioche"
         ],
         "disliked": [
           "ore_coal",
-          "thit_nuong_lua_dia_nguc"
+          "fiery_chili_ginger_grilled_beef"
         ],
         "hated": [
-          "ruou_trai_cay_len_men",
+          "craft_hops_lichen_pear_brew",
           "drop_prism_jelly"
         ]
       },
@@ -1894,13 +1894,13 @@
       "description": "Người máy đồng hồ cổ đại còn sót lại từ một nền văn minh đã mất, nói chuyện theo nhịp tích tắc và cần chất bôi trơn bánh răng định kỳ.",
       "favorite_items": [
         "ore_gold",
-        "da_tinh_the"
+        "crystal_shard"
       ],
       "quote": "Tích tắc... Bánh răng ngực trái đang phát ra tiếng kẹt kẹt... Cần bổ sung 200ml chất lỏng bôi trơn ấm nóng hương hoa cúc... Tích tắc...",
       "birthday": "Ngày 27 Mùa Đông",
       "schedule": "Bên guồng máy đồng hồ vĩnh cửu tại Đô Thị Ngầm Khaz-Drakor",
       "real_world_wound": "Bộ nhớ cổ xưa bị phân mảnh qua nghìn năm; lo sợ một ngày dây cót dừng lại vĩnh viễn và ký ức nền văn minh cũ sẽ tan biến.",
-      "comfort_dish": "khoai_tay_nuong_bo_toi",
+      "comfort_dish": "garlic_buttered_roasted_potato",
       "heart_event_summary": "Vận hành Tháp chuông thị trấn báo giờ ăn và hiển thị đồng hồ thời gian hiệu lực buff trên HUD ở 4 Tim; chuông ngân tăng 20% doanh thu quán tại 8 Tim.",
       "gift_preferences": {
         "loved": [
@@ -1916,11 +1916,11 @@
         ],
         "disliked": [
           "item_flour",
-          "dau_rung"
+          "wild_berry"
         ],
         "hated": [
-          "thit_nuong_lua_dia_nguc",
-          "canh_chua_ca_suoi_cay"
+          "fiery_chili_ginger_grilled_beef",
+          "solaria_saffron_fish_bouillabaisse"
         ]
       },
       "heart_events": [
@@ -1962,21 +1962,21 @@
         "loved": [
           "drop_crystal_sea_salt",
           "gem_sapphire",
-          "ca_suoi_nuong_muoi_ot"
+          "chili_lime_grilled_stream_carp"
         ],
         "liked": [
           "gem_amethyst",
           "drop_prism_jelly",
           "drop_moon_berry",
-          "com_nam_muoi_rung"
+          "sea_salted_rice_ball"
         ],
         "disliked": [
           "ore_coal",
-          "thit_nuong_lua_dia_nguc"
+          "fiery_chili_ginger_grilled_beef"
         ],
         "hated": [
-          "ruou_trai_cay_len_men",
-          "bit_tet_nuong_than_soi"
+          "craft_hops_lichen_pear_brew",
+          "garlic_rosemary_seared_steak"
         ]
       },
       "heart_events": [
@@ -2020,19 +2020,19 @@
       "heart_event_summary": "Mở Bảng Bounty săn quái vật mỏ sâu nhận thưởng vàng ở 4 Tim; cấp Giấy Phép Mỏ Sâu (Clearance Seals) mở khóa thang máy vượt đới và Cổng Vực Thẳm Vô Tận tại 8 Tim.",
       "gift_preferences": {
         "loved": [
-          "dui_rung_hun_khoi_da_chien",
-          "bo_ham_ruou_vang_mo",
+          "bay_laurel_smoked_pork_haunch",
+          "night_wine_beef_bourguignon",
           "ore_gold"
         ],
         "liked": [
           "ore_iron",
           "ore_coal",
-          "com_nam_muoi_rung",
-          "banh_mi_lua_mi_gion"
+          "sea_salted_rice_ball",
+          "crusty_hearth_sourdough"
         ],
         "disliked": [
-          "banh_tart_viet_quat_dai_ngan",
-          "dau_rung"
+          "blackberry_gold_kiwi_tart",
+          "wild_berry"
         ],
         "hated": [
           "item_pastry_scone_berry",
@@ -2144,20 +2144,20 @@
         "loved": [
           "item_dish_wild_forest_mushroom_soup",
           "gem_amethyst",
-          "item_tea_sen_an_than"
+          "item_tea_calming_lotus"
         ],
         "liked": [
           "item_flour",
-          "dau_rung",
-          "banh_mi_lua_mi_gion",
-          "mat_ong"
+          "wild_berry",
+          "crusty_hearth_sourdough",
+          "wild_honey"
         ],
         "disliked": [
           "ore_coal",
-          "thit_nuong_lua_dia_nguc"
+          "fiery_chili_ginger_grilled_beef"
         ],
         "hated": [
-          "ruou_trai_cay_len_men",
+          "craft_hops_lichen_pear_brew",
           "drop_prism_jelly"
         ]
       },
@@ -2241,7 +2241,7 @@
       "favorite_items": [
         "item_tea_whisper_hearth",
         "item_bread_brioche",
-        "mat_ong"
+        "wild_honey"
       ],
       "quote": "Lão giữ thị trấn này 30 năm bằng lưng gánh chịu và đầu gối run rẩy... Lão mệt lắm rồi, nhưng buông tay thì ai gánh?",
       "birthday": "Ngày 20 Mùa Đông",
@@ -2252,21 +2252,21 @@
       "gift_preferences": {
         "loved": [
           "item_bread_brioche",
-          "item_tea_sen_an_than",
+          "item_tea_calming_lotus",
           "item_wood_oak"
         ],
         "liked": [
           "item_dish_sweet_pumpkin_potage",
-          "mat_ong",
-          "banh_mi_lua_mi_gion",
-          "com_nam_muoi_rung"
+          "wild_honey",
+          "crusty_hearth_sourdough",
+          "sea_salted_rice_ball"
         ],
         "disliked": [
-          "thit_nuong_lua_dia_nguc",
-          "bap_xao_bo_cay"
+          "fiery_chili_ginger_grilled_beef",
+          "avocado_jicama_corn_taco"
         ],
         "hated": [
-          "ruou_trai_cay_len_men",
+          "craft_hops_lichen_pear_brew",
           "drop_prism_jelly"
         ]
       },
@@ -2330,8 +2330,8 @@
       "description": "Thợ mộc gấu nâu to lớn hiền lành, bàn tay thô ráp chạm khắc tinh xảo. Nói ít, làm nhiều, mỗi khi cười thì cả xưởng rung lên.",
       "favorite_items": [
         "item_dish_sweet_pumpkin_potage",
-        "mat_ong",
-        "food_banh_mi_lua_mi_gion"
+        "wild_honey",
+        "food_crusty_hearth_sourdough"
       ],
       "quote": "Người ta bảo tôi hèn vì không chịu đánh nhau... Nhưng xây một mái nhà qua mùa đông bão tuyết, cần dũng khí hơn vung gươm nhiều.",
       "birthday": "Ngày 8 Mùa Thu",
@@ -2341,23 +2341,23 @@
       "heart_event_summary": "Mở rộng mặt bằng Quán Ăn ở 2 Tim; dựng Cầu Gỗ Cổ nối sang rừng sâu ở 6 Tim.",
       "gift_preferences": {
         "loved": [
-          "sup_nam_sao_am_bung",
-          "mat_ong",
+          "creamy_mushroom_turnip_soup",
+          "wild_honey",
           "item_wood_oak"
         ],
         "liked": [
           "item_wood_pine",
-          "banh_mi_lua_mi_gion",
+          "crusty_hearth_sourdough",
           "ore_iron",
           "item_stone_brick"
         ],
         "disliked": [
-          "thit_nuong_lua_dia_nguc",
-          "canh_chua_ca_suoi_cay"
+          "fiery_chili_ginger_grilled_beef",
+          "solaria_saffron_fish_bouillabaisse"
         ],
         "hated": [
           "drop_prism_jelly",
-          "ruou_trai_cay_len_men"
+          "craft_hops_lichen_pear_brew"
         ]
       },
       "schedules": {
@@ -2440,8 +2440,8 @@
       "description": "Halfling nhỏ nhắn với cây đàn mandolin cũ kỹ và chiếc mũ nồi xanh lá. Giọng hát trong veo lay động lòng người nhưng ngoài sân khấu lại vô cùng nhút nhát.",
       "favorite_items": [
         "item_pastry_scone_berry",
-        "item_tea_dau_bang_tuyet",
-        "dau_rung"
+        "item_tea_glacial_berry",
+        "wild_berry"
       ],
       "quote": "T-tôi hát được thôi mà... chỉ là... khi mọi người nhìn tôi ngoài sân khấu thì cổ họng tôi thắt lại...",
       "birthday": "Ngày 14 Mùa Xuân",
@@ -2452,21 +2452,21 @@
       "gift_preferences": {
         "loved": [
           "item_pastry_scone_berry",
-          "item_tea_dau_bang_tuyet",
-          "mat_ong"
+          "item_tea_glacial_berry",
+          "wild_honey"
         ],
         "liked": [
-          "dau_rung",
+          "wild_berry",
           "item_bread_brioche",
           "item_pastry_scone_berry",
           "drop_moon_berry"
         ],
         "disliked": [
           "ore_coal",
-          "thit_nuong_lua_dia_nguc"
+          "fiery_chili_ginger_grilled_beef"
         ],
         "hated": [
-          "ruou_trai_cay_len_men",
+          "craft_hops_lichen_pear_brew",
           "drop_prism_jelly"
         ]
       },
@@ -2529,35 +2529,35 @@
       "species": "Human",
       "description": "Nữ nông dân tóc hạt dẻ buộc cao, da rám nắng khỏe mạnh. Tự mình gánh vác cả trang trại gia súc với nụ cười rắn rỏi nhưng ánh mắt phảng phất nỗi buồn.",
       "favorite_items": [
-        "food_sua_bo_nong_mat_ong",
-        "food_banh_mi_lua_mi_gion",
-        "food_khoai_tay_nuong_bo_toi"
+        "food_winter_chestnut_hot_chocolate",
+        "food_crusty_hearth_sourdough",
+        "food_garlic_buttered_roasted_potato"
       ],
       "quote": "Mấy con bò sáng nay không chịu ăn cỏ... Chắc chúng nhớ người cũ. Tôi thì không nhớ đâu. Thật đấy.",
       "birthday": "Ngày 3 Mùa Hạ",
       "schedule": "06:00 - 18:00: Chăm sóc đàn gia súc đồng cỏ phía Nam",
       "real_world_wound": "Bị bạn đời bội ước bỏ đi theo đoàn buôn kinh đô; sợ mở lòng và từ chối mọi sự giúp đỡ vì sợ bị phản bội lần nữa.",
-      "comfort_dish": "sua_bo_nong_mat_ong",
+      "comfort_dish": "winter_chestnut_hot_chocolate",
       "heart_event_summary": "Mở mua bán gia súc (bò, cừu) ở 4 Tim; cung cấp máy ủ bơ phô mai cao cấp ở 6 Tim.",
       "gift_preferences": {
         "loved": [
-          "sua_bo_nong_mat_ong",
-          "banh_mi_lua_mi_gion",
+          "winter_chestnut_hot_chocolate",
+          "crusty_hearth_sourdough",
           "item_butter"
         ],
         "liked": [
           "item_flour",
-          "dau_rung",
-          "chao_yen_mach_mat_ong",
-          "mat_ong"
+          "wild_berry",
+          "honeyed_shadow_rye_porridge",
+          "wild_honey"
         ],
         "disliked": [
-          "thit_xong_khoi_cui_go_soi",
+          "baked_pork_cheese_eggplant",
           "ore_coal"
         ],
         "hated": [
           "drop_prism_jelly",
-          "thit_nuong_lua_dia_nguc"
+          "fiery_chili_ginger_grilled_beef"
         ]
       },
       "schedules": {
@@ -2639,19 +2639,19 @@
       "species": "Goblin (Yêu Tinh Xanh)",
       "description": "Goblin xanh da olive nhỏ thó đeo kính lão tròn và áo vest sọc đỏ. Luôn tính toán tỉ mỉ nhưng bán hàng rất trung thực, thích sưu tầm nút áo kỳ lạ.",
       "favorite_items": [
-        "food_chao_yen_mach_mat_ong",
+        "food_honeyed_shadow_rye_porridge",
         "ore_gold",
-        "da_tinh_the"
+        "crystal_shard"
       ],
       "quote": "Lãi một xu trên nỗi đau người khác? Thà nghèo còn hơn. Bramble tuy là goblin nhưng Bramble có cái tâm, nghe chưa!",
       "birthday": "Ngày 29 Mùa Thu",
       "schedule": "08:00 - 18:00: Quầy Tạp Hóa Quảng Trường; Tối thứ Bảy: Chợ Đêm",
       "real_world_wound": "Bị trục xuất khỏi Hội Thương Nhân Solaria vì từ chối bán thuốc giả; bị gắn mác kẻ phản bội vì giữ vững lương tâm.",
-      "comfort_dish": "chao_yen_mach_mat_ong",
+      "comfort_dish": "honeyed_shadow_rye_porridge",
       "heart_event_summary": "Mở quầy tạp hóa đồ cổ ở 4 Tim; độc quyền tổ chức phiên Chợ Đêm Thứ Bảy bán túi hạt giống cao cấp ở 8 Tim.",
       "gift_preferences": {
         "loved": [
-          "chao_yen_mach_mat_ong",
+          "honeyed_shadow_rye_porridge",
           "ore_gold",
           "gem_ruby"
         ],
@@ -2659,15 +2659,15 @@
           "ore_iron",
           "ore_copper",
           "item_wood_pine",
-          "banh_mi_lua_mi_gion"
+          "crusty_hearth_sourdough"
         ],
         "disliked": [
-          "dau_rung",
-          "item_tea_sen_an_than"
+          "wild_berry",
+          "item_tea_calming_lotus"
         ],
         "hated": [
           "drop_prism_jelly",
-          "thit_nuong_lua_dia_nguc"
+          "fiery_chili_ginger_grilled_beef"
         ]
       },
       "schedules": {
@@ -2748,34 +2748,34 @@
       "species": "Dryad (Tinh Linh Cây Sồi Mẹ)",
       "description": "Nữ tu sĩ gắn bó với Cây Sồi Cổ Thụ, canh giữ Đền Thờ Cổ Oakhaven. Người gìn giữ nghi lễ dâng lễ vật cầu siêu thanh tẩy khí độc miasma sau chiến tranh.",
       "favorite_items": [
-        "food_tra_sen_bach_diep",
+        "food_sun_daisy_lotus_herbal_tea",
         "seed_star_lavender",
-        "dau_rung"
+        "wild_berry"
       ],
       "quote": "Mỗi khi một thân cây trong rừng chết vì Blight... tôi cảm thấy như ai đó cắt đi một ngón tay của mình.",
       "birthday": "Ngày 2 Mùa Xuân",
       "schedule": "Toàn thời gian: Trông nom miếu cổ và gốc Sồi Mẹ bìa rừng",
       "real_world_wound": "Nỗi đau chứng kiến thiên nhiên bị khí độc miasma và tro tàn chiến tranh ăn mòn; sợ rằng khi cây sồi mẹ khô héo, cội nguồn Oakhaven cũng tan biến.",
-      "comfort_dish": "tra_sen_bach_diep",
+      "comfort_dish": "sun_daisy_lotus_herbal_tea",
       "heart_event_summary": "Mở nước thánh thanh tẩy ở 4 Tim; cùng Rowan tổ chức Đại lễ Cầu siêu thanh tẩy miasma đất hoang và giải phóng Bàn Thờ Cổ Đại tại 8 Tim.",
       "gift_preferences": {
         "loved": [
-          "tra_sen_bach_diep",
-          "xoi_hat_sen_nuoc_cot_dua",
+          "sun_daisy_lotus_herbal_tea",
+          "grand_saffron_seafood_paella",
           "gem_amethyst"
         ],
         "liked": [
-          "item_tea_sen_an_than",
-          "mat_ong",
-          "dau_rung",
+          "item_tea_calming_lotus",
+          "wild_honey",
+          "wild_berry",
           "item_wood_oak"
         ],
         "disliked": [
-          "thit_nuong_lua_dia_nguc",
+          "fiery_chili_ginger_grilled_beef",
           "ore_coal"
         ],
         "hated": [
-          "ruou_trai_cay_len_men",
+          "craft_hops_lichen_pear_brew",
           "drop_prism_jelly"
         ]
       },
@@ -2852,35 +2852,35 @@
       "species": "Beastfolk (Cừu Nhân Hình)",
       "description": "Cô bé 10 tuổi với đôi sừng cừu cuộn tròn (một bên ngắn do sẹo cũ), tóc xoăn bồng bềnh trắng kem. Phụ Hazel chăn cừu, thích ngắm sao và hay ngủ gật giữa đồng cỏ.",
       "favorite_items": [
-        "food_sua_bo_nong_mat_ong",
-        "food_banh_cau_vong_4_mua",
-        "dau_rung"
+        "food_winter_chestnut_hot_chocolate",
+        "food_four_season_turban_orchard_cake",
+        "wild_berry"
       ],
       "quote": "Kael và Finn nói ban đêm trong rừng có đom đóm đẹp lắm... Tilly cũng muốn đi xem nhưng... trời tối quá...",
       "birthday": "Ngày 15 Mùa Xuân",
       "schedule": "Sáng: Chăn đàn cừu non; Chiều: Chơi cùng Kael và Finn",
       "real_world_wound": "Mắc chứng sợ bóng tối và sang chấn sau vụ sói tấn công làm gãy sừng; khao khát dũng cảm như các bạn đồng trang lứa.",
-      "comfort_dish": "sua_bo_nong_mat_ong",
+      "comfort_dish": "winter_chestnut_hot_chocolate",
       "heart_event_summary": "Cung cấp len cừu thô ở 4 Tim; mở Xưởng Nhuộm Len may khăn trải bàn buff ấm cúng cho Quán Ăn ở 6 Tim.",
       "gift_preferences": {
         "loved": [
-          "banh_cau_vong_4_mua",
-          "sua_bo_nong_mat_ong",
-          "dau_rung"
+          "four_season_turban_orchard_cake",
+          "winter_chestnut_hot_chocolate",
+          "wild_berry"
         ],
         "liked": [
-          "mat_ong",
+          "wild_honey",
           "item_pastry_scone_berry",
           "item_pastry_scone_berry",
           "drop_moon_berry"
         ],
         "disliked": [
           "ore_coal",
-          "thit_nuong_lua_dia_nguc"
+          "fiery_chili_ginger_grilled_beef"
         ],
         "hated": [
-          "ruou_trai_cay_len_men",
-          "bit_tet_nuong_than_soi"
+          "craft_hops_lichen_pear_brew",
+          "garlic_rosemary_seared_steak"
         ]
       },
       "schedules": {
@@ -2956,7 +2956,7 @@
       "favorite_items": [
         "item_dish_dwarf_ironforge_goulash",
         "ore_gold",
-        "food_banh_pie_tao_que_lo_dat"
+        "food_hearth_baked_apple_fig_pie"
       ],
       "quote": "Lão thợ rèn già này đã đập hàng vạn thanh kiếm... nhưng chưa bao giờ biết rèn lại trái tim tan vỡ của chính mình.",
       "birthday": "Ngày 5 Mùa Đông",
@@ -2966,22 +2966,22 @@
       "heart_event_summary": "Truyền dạy kỹ thuật đúc hợp kim cứng ở 6 Tim; mở khóa công thức chế tác vũ khí và áo giáp Mithril ở 8 Tim.",
       "gift_preferences": {
         "loved": [
-          "bo_ham_ruou_vang_mo",
+          "night_wine_beef_bourguignon",
           "ore_gold",
           "gem_ruby"
         ],
         "liked": [
           "ore_iron",
           "ore_coal",
-          "bit_tet_nuong_than_soi",
-          "banh_mi_lua_mi_gion"
+          "garlic_rosemary_seared_steak",
+          "crusty_hearth_sourdough"
         ],
         "disliked": [
-          "banh_tart_viet_quat_dai_ngan",
-          "dau_rung"
+          "blackberry_gold_kiwi_tart",
+          "wild_berry"
         ],
         "hated": [
-          "item_tea_sen_an_than",
+          "item_tea_calming_lotus",
           "drop_prism_jelly"
         ]
       },
@@ -3044,19 +3044,19 @@
       "species": "Dwarf (Người Lùn)",
       "description": "Dwarf trẻ tuổi gầy gò đeo kính bảo hộ lệch trán, áo dính đầy dầu máy. Say mê bánh răng và hơi nước, là người duy nhất giải mã được tiếng tích tắc của Chrono.",
       "favorite_items": [
-        "food_khoai_tay_nuong_bo_toi",
-        "da_tinh_the",
+        "food_garlic_buttered_roasted_potato",
+        "crystal_shard",
         "ore_iron"
       ],
       "quote": "Các bô lão bảo tôi đang xúc phạm tổ tiên... Nhưng nếu tổ tiên đã từng chế tạo ra Chrono, thì chính họ cũng là kỹ sư chứ đâu chỉ thợ rèn!",
       "birthday": "Ngày 12 Mùa Hạ",
       "schedule": "08:00 - 18:00: Sửa chữa đường ray xe goòng và van hơi nước",
       "real_world_wound": "Bị gia tộc dwarf bài xích vì đam mê máy móc thay vì nghề rèn truyền thống; cảm giác lạc lõng giữa xã hội bảo thủ.",
-      "comfort_dish": "khoai_tay_nuong_bo_toi",
+      "comfort_dish": "garlic_buttered_roasted_potato",
       "heart_event_summary": "Chế tạo Vòi Tưới Tự Động ở 4 Tim; hoàn thiện Tuyến Xe Goong Minecart Express vận chuyển khoáng thạch ở 8 Tim.",
       "gift_preferences": {
         "loved": [
-          "khoai_tay_nuong_bo_toi",
+          "garlic_buttered_roasted_potato",
           "drop_prism_jelly",
           "ore_iron"
         ],
@@ -3064,15 +3064,15 @@
           "ore_copper",
           "ore_coal",
           "item_wood_pine",
-          "banh_mi_lua_mi_gion"
+          "crusty_hearth_sourdough"
         ],
         "disliked": [
           "item_flour",
-          "dau_rung"
+          "wild_berry"
         ],
         "hated": [
-          "thit_nuong_lua_dia_nguc",
-          "ruou_trai_cay_len_men"
+          "fiery_chili_ginger_grilled_beef",
+          "craft_hops_lichen_pear_brew"
         ]
       },
       "schedules": {
@@ -3134,31 +3134,31 @@
       "species": "Beastfolk (Kỳ Nhông Lửa Nhân Hình)",
       "description": "Kỳ nhông lửa da cam sọc đen với chiếc đuôi luôn tỏa nhiệt, đeo tạp dề chef viền cháy. Nấu ăn trực tiếp bằng hơi nóng dung nham, đối thủ ẩm thực thân thiện của Rowan.",
       "favorite_items": [
-        "food_thit_nuong_lua_dia_nguc",
-        "food_bap_xao_bo_cay",
+        "food_fiery_chili_ginger_grilled_beef",
+        "food_avocado_jicama_corn_taco",
         "drop_crystal_sea_salt"
       ],
       "quote": "Người trên mặt đất sợ lửa của tôi... Nhưng ngọn lửa nướng chín miếng thịt nuôi no bụng người ta — có gì đáng sợ đâu?",
       "birthday": "Ngày 21 Mùa Hạ",
       "schedule": "10:00 - 22:00: Nấu nướng tại Quán Ăn Dung Nham Khaz-Drakor",
       "real_world_wound": "Bị xua đuổi khỏi các kinh đô ẩm thực vì chủng tộc bò sát lửa bị định kiến là nguy hiểm; khao khát được công nhận tài năng ẩm thực chân chính.",
-      "comfort_dish": "thit_nuong_lua_dia_nguc",
+      "comfort_dish": "fiery_chili_ginger_grilled_beef",
       "heart_event_summary": "Đối thủ ẩm thực thân thiện; giao lưu gia vị lửa ở 4 Tim và chuyển giao Trạm Nướng Lửa Magma siêu nhiệt ở 8 Tim.",
       "gift_preferences": {
         "loved": [
-          "thit_nuong_lua_dia_nguc",
-          "bap_xao_bo_cay",
+          "fiery_chili_ginger_grilled_beef",
+          "avocado_jicama_corn_taco",
           "ore_coal"
         ],
         "liked": [
-          "dui_rung_hun_khoi_da_chien",
-          "bit_tet_nuong_than_soi",
+          "bay_laurel_smoked_pork_haunch",
+          "garlic_rosemary_seared_steak",
           "ore_iron",
-          "com_nam_muoi_rung"
+          "sea_salted_rice_ball"
         ],
         "disliked": [
-          "item_tea_sen_an_than",
-          "salad_trai_cay_mua_ha"
+          "item_tea_calming_lotus",
+          "summer_melon_kiwano_mint_salad"
         ],
         "hated": [
           "drop_crystal_sea_salt",
@@ -3224,35 +3224,35 @@
       "species": "Moth-Folk (Người Bướm Đêm)",
       "description": "Moth-folk với đôi cánh tím bạc phủ vảy lân tinh, râu xúc giác nhạy cảm và cổ lông trắng mịn. Chuyên tuần tra tán cây ban đêm và hái nụ hoa phát quang.",
       "favorite_items": [
-        "item_tea_oai_huong_ngan_sao",
+        "item_tea_thousand_stars_lavender",
         "drop_golden_pollen",
-        "oai_huong"
+        "starlight_lavender"
       ],
       "quote": "Ánh đèn thành phố... đau lắm... Nhưng ánh trăng qua kẽ lá thì dịu dàng như lời ru của mẹ.",
       "birthday": "Ngày 28 Mùa Thu",
       "schedule": "20:00 - 05:00: Tuần tra tán cây Sylva-Fae; Ban ngày: Ngủ trong tổ kén",
       "real_world_wound": "Đôi mắt và cánh bị tổn thương bởi ánh sáng chói; cô đơn vì hoạt động ngược nhịp sinh học với thế giới.",
-      "comfort_dish": "item_tea_oai_huong_ngan_sao",
+      "comfort_dish": "item_tea_thousand_stars_lavender",
       "heart_event_summary": "Tuần tra tán rừng ban đêm; cung cấp Tơ Dạ Quang ở 4 Tim và Tơ Hoàng Kim cho thợ may Elora ở 8 Tim.",
       "gift_preferences": {
         "loved": [
-          "item_tea_oai_huong_ngan_sao",
+          "item_tea_thousand_stars_lavender",
           "drop_moon_berry",
           "gem_amethyst"
         ],
         "liked": [
-          "dau_rung",
-          "mat_ong",
+          "wild_berry",
+          "wild_honey",
           "item_pastry_scone_berry",
           "item_pastry_scone_berry"
         ],
         "disliked": [
           "ore_coal",
-          "thit_nuong_lua_dia_nguc"
+          "fiery_chili_ginger_grilled_beef"
         ],
         "hated": [
-          "ruou_trai_cay_len_men",
-          "bit_tet_nuong_than_soi"
+          "craft_hops_lichen_pear_brew",
+          "garlic_rosemary_seared_steak"
         ]
       },
       "schedules": {
@@ -3314,34 +3314,34 @@
       "species": "Elf (Tinh Linh 800 Tuổi)",
       "description": "Elf cổ xưa mù lòa với mái tóc bạc dài lẫn rễ cây khô, dùng mạng rễ dưới lòng đất làm 'đôi mắt' cảm nhận vạn vật. Thầy dạy cũ của Sylvan.",
       "favorite_items": [
-        "food_canh_thao_moc_bup_sen",
-        "la_tra_sen",
+        "food_artichoke_lotus_cleansing_broth",
+        "lotus_tea_leaves",
         "seed_sen_tea"
       ],
       "quote": "Ta đã mất đôi mắt cho Blight 200 năm trước... Nhưng qua mạng rễ dưới chân, ta vẫn 'nhìn' thấy từng giọt sương trên cánh hoa.",
       "birthday": "Ngày 1 Mùa Thu",
       "schedule": "Toàn thời gian: Tĩnh tọa tại Lều Rễ Cây Sylva-Fae sâu",
       "real_world_wound": "Mất đi đôi mắt khi đơn độc ngăn chặn Star Blight cổ đại 200 năm trước; mang mặc cảm tội lỗi vì không cứu được trọn vẹn khu rừng.",
-      "comfort_dish": "canh_thao_moc_bup_sen",
+      "comfort_dish": "artichoke_lotus_cleansing_broth",
       "heart_event_summary": "Truyền dạy Dược Điển Cổ Thụ ở 6 Tim; hướng dẫn nghi thức thanh tẩy ô uế đất đai vĩnh viễn ở 8 Tim.",
       "gift_preferences": {
         "loved": [
-          "canh_thao_moc_bup_sen",
-          "tra_sen_bach_diep",
+          "artichoke_lotus_cleansing_broth",
+          "sun_daisy_lotus_herbal_tea",
           "gem_amethyst"
         ],
         "liked": [
-          "item_tea_sen_an_than",
+          "item_tea_calming_lotus",
           "seed_sen_tea",
-          "mat_ong",
+          "wild_honey",
           "item_wood_oak"
         ],
         "disliked": [
           "ore_coal",
-          "thit_nuong_lua_dia_nguc"
+          "fiery_chili_ginger_grilled_beef"
         ],
         "hated": [
-          "ruou_trai_cay_len_men",
+          "craft_hops_lichen_pear_brew",
           "drop_prism_jelly"
         ]
       },
@@ -3407,33 +3407,33 @@
       "species": "Human (Cựu Chỉ Huy Cận Vệ Hoàng Gia)",
       "description": "Cựu hiệp sĩ hoàng gia với vết sẹo chéo sống mũi, giáp bạc cũ sờn và phong thái quý tộc lạnh lùng. Từng là khách trú bão tại Quán Ăn trước khi định cư bảo vệ Oakhaven.",
       "favorite_items": [
-        "food_bit_tet_nuong_than_soi",
-        "food_ruou_trai_cay_len_men"
+        "food_garlic_rosemary_seared_steak",
+        "food_craft_hops_lichen_pear_brew"
       ],
       "quote": "Lòng trung thành của ta dành cho lẽ phải, không phải ngai vàng. Nếu điều đó là phản quốc... thì ta chấp nhận mang tiếng.",
       "birthday": "Ngày 7 Mùa Đông",
       "schedule": "06:00 - 18:00: Huấn luyện dân quân và canh gác cổng thành phía Bắc",
       "real_world_wound": "Bị vu oan phản quốc và trục xuất khỏi Solaria vì phát hiện tham nhũng triều đình; vết thương danh dự và sự cay đắng của kẻ trung kiên bị phản bội.",
-      "comfort_dish": "bit_tet_nuong_than_soi",
+      "comfort_dish": "garlic_rosemary_seared_steak",
       "heart_event_summary": "Huấn luyện kỹ thuật Đỡ Đòn Phản Công (Parry) ở 4 Tim; Master Parry và tăng 20% tốc độ hồi thể lực chiến đấu tại 8 Tim; tha thứ cho cựu cấp dưới Hester.",
       "gift_preferences": {
         "loved": [
-          "bit_tet_nuong_than_soi",
-          "bo_ham_ruou_vang_mo",
+          "garlic_rosemary_seared_steak",
+          "night_wine_beef_bourguignon",
           "ore_gold"
         ],
         "liked": [
           "ore_iron",
-          "banh_mi_lua_mi_gion",
-          "khoai_tay_nuong_bo_toi",
+          "crusty_hearth_sourdough",
+          "garlic_buttered_roasted_potato",
           "item_wood_oak"
         ],
         "disliked": [
-          "banh_tart_viet_quat_dai_ngan",
-          "dau_rung"
+          "blackberry_gold_kiwi_tart",
+          "wild_berry"
         ],
         "hated": [
-          "ruou_trai_cay_len_men",
+          "craft_hops_lichen_pear_brew",
           "drop_prism_jelly"
         ]
       },
@@ -3515,8 +3515,8 @@
       "description": "Phù thủy trung niên bí ẩn với áo choàng đen, mắt tím huyền ảo và chú quạ cưng đậu trên vai. Bên ngoài lạnh lùng nhưng thực chất âm thầm chữa bệnh cho thú rừng bị thương.",
       "favorite_items": [
         "item_tea_frostmint_breeze",
-        "dau_rung",
-        "da_tinh_the"
+        "wild_berry",
+        "crystal_shard"
       ],
       "quote": "Các ngươi muốn ta đi à? Khỏi cần đuổi. Ta quen rồi. ...Nhưng con cáo bị thương ngoài cửa lều, để ta băng bó nó đã rồi đi.",
       "birthday": "Ngày 27 Mùa Thu",
@@ -3531,18 +3531,18 @@
           "drop_prism_jelly"
         ],
         "liked": [
-          "dau_rung",
+          "wild_berry",
           "drop_moon_berry",
           "ore_coal",
           "gem_ruby"
         ],
         "disliked": [
           "item_bread_brioche",
-          "banh_tart_viet_quat_dai_ngan"
+          "blackberry_gold_kiwi_tart"
         ],
         "hated": [
-          "ruou_trai_cay_len_men",
-          "mat_ong"
+          "craft_hops_lichen_pear_brew",
+          "wild_honey"
         ]
       },
       "schedules": {
@@ -3623,8 +3623,8 @@
       "description": "Sử gia trẻ trung đầy nhiệt huyết với mái tóc auburn ngắn, kính tròn và luôn ôm chồng sách cao quá đầu. Khao khát chép lại sự thật lịch sử không thiên vị quyền lực.",
       "favorite_items": [
         "item_tea_earl_grey_clara",
-        "food_banh_quy_gung_giu_am",
-        "item_tea_sen_an_than"
+        "food_walnut_chufa_trail_cookies",
+        "item_tea_calming_lotus"
       ],
       "quote": "Cung đình bảo tôi viết rằng Oakhaven chỉ là làng quê vô danh... Nhưng tôi đã thấy vết tích nền văn minh cổ đại dưới mỗi viên đá lát đường ở đây!",
       "birthday": "Ngày 10 Mùa Xuân",
@@ -3634,22 +3634,22 @@
       "heart_event_summary": "Mở dịch vụ Giám định Cổ vật mỏ sâu ở 4 Tim; hoàn thiện Viện Bảo Tàng Lịch Sử Thung Lũng ở 8 Tim.",
       "gift_preferences": {
         "loved": [
-          "tra_sen_bach_diep",
+          "sun_daisy_lotus_herbal_tea",
           "item_bread_brioche",
           "gem_amethyst"
         ],
         "liked": [
-          "dau_rung",
-          "mat_ong",
+          "wild_berry",
+          "wild_honey",
           "gem_sapphire",
-          "banh_quy_gung_giu_am"
+          "walnut_chufa_trail_cookies"
         ],
         "disliked": [
           "ore_coal",
-          "thit_nuong_lua_dia_nguc"
+          "fiery_chili_ginger_grilled_beef"
         ],
         "hated": [
-          "ruou_trai_cay_len_men",
+          "craft_hops_lichen_pear_brew",
           "drop_prism_jelly"
         ]
       },
@@ -3712,35 +3712,35 @@
       "species": "Celestial Spirit (Linh Thể Ánh Sao)",
       "description": "Linh thể ánh sao thuần khiết lơ lửng giữa biển mây Aethelgard. Người gác cổng cổ xưa đã lãng quên danh tính bản thân qua hàng ngàn năm cô độc.",
       "favorite_items": [
-        "item_tea_sen_an_than",
-        "da_tinh_the",
+        "item_tea_calming_lotus",
+        "crystal_shard",
         "gem_sapphire"
       ],
       "quote": "Ta đã quên... tên mình... nhưng mùi hương trà sen này... ai đó từng pha cho ta uống... rất lâu rồi... rất... ấm...",
       "birthday": "Vô Tận (Chưa xác định)",
       "schedule": "Toàn thời gian: Canh giữ Ngưỡng Cửa Thiên Giới Aethelgard",
       "real_world_wound": "Sự cô đơn tột cùng kéo dài thiên niên kỷ; nỗi đau của sự lãng quên nguồn cội và khao khát được một lần an nghỉ bình yên.",
-      "comfort_dish": "item_tea_sen_an_than",
+      "comfort_dish": "item_tea_calming_lotus",
       "heart_event_summary": "Hồi phục ký ức cổ xưa; mở khóa vĩnh viễn Cổng Trời Aethelgard liên kết 5 đại vực tại 8 Tim.",
       "gift_preferences": {
         "loved": [
-          "tra_sen_bach_diep",
-          "xoi_hat_sen_nuoc_cot_dua",
+          "sun_daisy_lotus_herbal_tea",
+          "grand_saffron_seafood_paella",
           "drop_prism_jelly"
         ],
         "liked": [
           "drop_moon_berry",
           "gem_sapphire",
-          "item_tea_sen_an_than",
-          "mat_ong"
+          "item_tea_calming_lotus",
+          "wild_honey"
         ],
         "disliked": [
-          "thit_nuong_lua_dia_nguc",
+          "fiery_chili_ginger_grilled_beef",
           "ore_coal"
         ],
         "hated": [
-          "ruou_trai_cay_len_men",
-          "bit_tet_nuong_than_soi"
+          "craft_hops_lichen_pear_brew",
+          "garlic_rosemary_seared_steak"
         ]
       },
       "schedules": {
@@ -3795,35 +3795,35 @@
       "species": "Human (Cựu Thủ Kho Quân Nhu)",
       "description": "Cựu thủ kho quân nhu Solaria già nua, mắt đeo kính lão buộc dây dù, tay luôn cắp cuốn sổ da sứt góc. Được Rowan thuê về quản lý dãy phòng trọ áp mái, hòm xuất khẩu và sổ sách chi tiêu của Điền trang.",
       "favorite_items": [
-        "food_canh_thao_moc_bup_sen",
+        "food_artichoke_lotus_cleansing_broth",
         "item_bread_brioche",
-        "food_ruou_trai_cay_len_men"
+        "food_craft_hops_lichen_pear_brew"
       ],
       "quote": "Cậu chủ lại mang nửa cái hầm mỏ về nhà rồi đấy! Đi chùi ủng vào cái thảm rơm ngoài cửa mau lên rồi hẵng bước vào.",
       "birthday": "Ngày 24 Mùa Thu",
       "schedule": "Sáng sớm: Pha trà đen, quét dọn phòng trọ; 08:00: Kê khai sổ sách hòm xuất khẩu; Chiều: Đón khách thuê phòng; Tối: Đếm tiền và khóa cổng",
       "real_world_wound": "Chiến tranh phá hủy toàn bộ tài sản quê hương; nỗi đau thất nghiệp của người già neo đơn sợ mình trở thành gánh nặng thừa thãi của xã hội.",
-      "comfort_dish": "canh_thao_moc_bup_sen",
+      "comfort_dish": "artichoke_lotus_cleansing_broth",
       "heart_event_summary": "Tự động thu tiền phòng trọ; giảm 10% chi phí vật tư nâng cấp điền trang (2 Tim); mở thêm 2 phòng trọ áp mái mới (4 Tim); bản tin dự báo thị trường nông sản sốt giá (6 Tim); két sắt điền trang sinh lãi 3%/tuần (8 Tim).",
       "gift_preferences": {
         "loved": [
           "item_bread_brioche",
-          "item_tea_sen_an_than",
+          "item_tea_calming_lotus",
           "ore_gold"
         ],
         "liked": [
           "item_wood_oak",
           "ore_iron",
           "item_flour",
-          "banh_mi_lua_mi_gion"
+          "crusty_hearth_sourdough"
         ],
         "disliked": [
-          "dau_rung",
+          "wild_berry",
           "drop_prism_jelly"
         ],
         "hated": [
           "ore_coal",
-          "thit_nuong_lua_dia_nguc"
+          "fiery_chili_ginger_grilled_beef"
         ]
       },
       "schedules": {
@@ -3914,34 +3914,34 @@
       "species": "Human (Phu Đập Đá Mồ Côi)",
       "description": "Thanh niên to con khỏe khoắn mồ côi thời chiến, bắp tay cuồn cuộn dính mùn cưa và tro than. Được Rowan cứu mạng tại Tầng 15 Hầm Mỏ, xin về phụ việc nặng nhọc: chẻ củi đốt lò, xay bột mì, nhặt trứng sữa và cứu hộ khẩn cấp.",
       "favorite_items": [
-        "food_thit_nuong_lua_dia_nguc",
-        "food_bit_tet_nuong_than_soi",
+        "food_fiery_chili_ginger_grilled_beef",
+        "food_garlic_rosemary_seared_steak",
         "ore_iron"
       ],
       "quote": "Bảo em nấu ăn thì em làm nổ nồi gang mất, nhưng bảo em chẻ 50 khúc củi hay vác anh từ đáy mỏ lên thì cứ để em lo!",
       "birthday": "Ngày 8 Mùa Hè",
       "schedule": "Sáng sớm: Chẻ củi sân sau, chất đầy hộc bếp; 09:00: Xay bột mì, nhặt trứng, vắt sữa dê; Chiều: Vót đuốc và mài cuốc dã ngoại; Tối: Quét dọn chuồng trại",
       "real_world_wound": "Mất gia đình trong chiến loạn, sống vạ vật làm thuê làm mướn bị chủ quịt lương; luôn khao khát một mái ấm thực sự và người tin tưởng mình.",
-      "comfort_dish": "thit_nuong_lua_dia_nguc",
+      "comfort_dish": "fiery_chili_ginger_grilled_beef",
       "heart_event_summary": "Tặng ba lô dã chiến tăng 6 ô chứa đồ (2 Tim); tự động xay bột mì & gom sữa trứng (4 Tim); khi Rowan ngất xỉu trong mỏ, Colm vác cáng đưa về giường ngủ an toàn (mất đồ rơi mỏ vẫn giữ nguyên) (6 Tim); đặt rương tiếp tế củi khô và đuốc dã ngoại tại nhà (8 Tim).",
       "gift_preferences": {
         "loved": [
           "item_dish_miner_potato_stew",
-          "com_nam_muoi_rung",
+          "sea_salted_rice_ball",
           "item_wood_pine"
         ],
         "liked": [
           "ore_coal",
-          "banh_mi_lua_mi_gion",
+          "crusty_hearth_sourdough",
           "item_stone_brick",
-          "khoai_tay_nuong_bo_toi"
+          "garlic_buttered_roasted_potato"
         ],
         "disliked": [
           "item_pastry_scone_berry",
-          "dau_rung"
+          "wild_berry"
         ],
         "hated": [
-          "thit_nuong_lua_dia_nguc",
+          "fiery_chili_ginger_grilled_beef",
           "drop_prism_jelly"
         ]
       },
@@ -4038,35 +4038,35 @@
       "species": "Human (Thương Nhân Lưu Động)",
       "description": "Lão lái buôn gầy nhẳng với con lừa già dở chứng. Thuê phòng trọ The Hearth vào cuối tuần, mở rương bán các loại hạt giống lạ và gia vị quý từ kinh đô phương xa.",
       "favorite_items": [
-        "food_ruou_trai_cay_len_men",
-        "food_banh_mi_lua_mi_gion",
+        "food_craft_hops_lichen_pear_brew",
+        "food_crusty_hearth_sourdough",
         "ore_gold"
       ],
       "quote": "Con lừa của tôi tuy khó tính và hôi rình, nhưng hàng hóa trong sọt của nó thì cả kinh đô cũng phải thèm thuồng.",
       "birthday": "Ngày 14 Mùa Xuân",
       "schedule": "Thứ Năm - Thứ Bảy: Ở trọ The Hearth, bày bán hàng hiếm; Chủ Nhật: Đánh xe lừa đi buôn chuyến mới",
       "real_world_wound": "Từng phá sản mất trắng đoàn buôn thời chiến; nay chỉ còn một mình cùng con lừa già lặn lội mưu sinh tuổi xế chiều.",
-      "comfort_dish": "food_banh_mi_lua_mi_gion",
+      "comfort_dish": "food_crusty_hearth_sourdough",
       "heart_event_summary": "Giảm 15% giá hàng hiếm (2 Tim); bán các loại hạt giống gia vị phương xa (4 Tim); mang tin tức thời cuộc ngoài thung lũng (6 Tim); ký hợp đồng cung ứng định kỳ hàng tuần cho điền trang (8 Tim).",
       "gift_preferences": {
         "loved": [
           "item_bread_brioche",
-          "ruou_trai_cay_len_men",
+          "craft_hops_lichen_pear_brew",
           "ore_gold"
         ],
         "liked": [
           "item_wood_pine",
-          "com_nam_muoi_rung",
-          "banh_mi_lua_mi_gion",
+          "sea_salted_rice_ball",
+          "crusty_hearth_sourdough",
           "ore_iron"
         ],
         "disliked": [
-          "dau_rung",
+          "wild_berry",
           "drop_prism_jelly"
         ],
         "hated": [
           "ore_coal",
-          "thit_nuong_lua_dia_nguc"
+          "fiery_chili_ginger_grilled_beef"
         ]
       },
       "schedules": {
@@ -4139,34 +4139,34 @@
       "species": "Human (Cựu Kỵ Sĩ)",
       "description": "Người lính đào ngũ mang áo choàng rách trùm kín mặt, sống lặng lẽ trong phòng trọ áp mái. Sợ người lạ gõ cửa nhưng có tay nghề phục chế giáp trụ quân dụng đỉnh cao.",
       "favorite_items": [
-        "food_bit_tet_nuong_than_soi",
-        "food_thit_nuong_lua_dia_nguc",
+        "food_garlic_rosemary_seared_steak",
+        "food_fiery_chili_ginger_grilled_beef",
         "ore_iron"
       ],
       "quote": "Đừng hỏi tôi từng chiến đấu cho phe nào. Dưới lớp bùn đất và máu, mọi màu cờ đều giống nhau cả thôi.",
       "birthday": "Ngày 3 Mùa Đông",
       "schedule": "Ban ngày: Ẩn mình trong phòng trọ áp mái sửa giáp; Nửa đêm: Đi dạo một mình quanh hồ nước",
       "real_world_wound": "Mặc cảm tội lỗi chiến tranh khi chứng kiến đồng đội thảm sát thường dân; chọn đào ngũ và sống trong nỗi ám ảnh bị truy lùng.",
-      "comfort_dish": "bit_tet_nuong_than_soi",
+      "comfort_dish": "garlic_rosemary_seared_steak",
       "heart_event_summary": "Dạy kỹ năng gia cố giáp trụ tăng 10 DEF (2 Tim); phục chế độ bền vũ khí và giáp trụ không bị nứt vỡ (4 Tim); hóa giải quá khứ với cựu chỉ huy Valerius (6 Tim); trao lại Thanh Kiếm Kỵ Sĩ Bỏ Rơi huyền thoại (8 Tim).",
       "gift_preferences": {
         "loved": [
-          "bit_tet_nuong_than_soi",
+          "garlic_rosemary_seared_steak",
           "ore_iron",
           "item_wood_oak"
         ],
         "liked": [
           "ore_coal",
-          "khoai_tay_nuong_bo_toi",
-          "banh_mi_lua_mi_gion",
+          "garlic_buttered_roasted_potato",
+          "crusty_hearth_sourdough",
           "ore_copper"
         ],
         "disliked": [
-          "banh_tart_viet_quat_dai_ngan",
-          "dau_rung"
+          "blackberry_gold_kiwi_tart",
+          "wild_berry"
         ],
         "hated": [
-          "ruou_trai_cay_len_men",
+          "craft_hops_lichen_pear_brew",
           "drop_prism_jelly"
         ]
       },
@@ -4247,35 +4247,35 @@
       "species": "Human (Nghệ Nhân Dệt Du Mục)",
       "description": "Cô gái du mục quàng khăn len đỏ ấm áp, chỉ ghé thung lũng vào mùa Thu và Đông. Ngồi đan len bên lò sưởi, thu mua lông cừu lông dê của điền trang với giá cao.",
       "favorite_items": [
-        "food_canh_thao_moc_bup_sen",
-        "dau_rung",
-        "mat_ong"
+        "food_artichoke_lotus_cleansing_broth",
+        "wild_berry",
+        "wild_honey"
       ],
       "quote": "Mùa đông lạnh cắt da ở biên ải sẽ chẳng là gì nếu cậu có một tấm chăn len dệt kép dày dặn và một củ khoai nướng nóng.",
       "birthday": "Ngày 20 Mùa Thu",
       "schedule": "Mùa Thu - Mùa Đông: Ngồi dệt len bên lò sưởi The Hearth; Mùa Xuân - Mùa Hạ: Du hành vượt thảo nguyên",
       "real_world_wound": "Cả gia tộc du mục bị phân tán sau chiến tranh; cô đi khắp các miền đất dệt chăn ấm để tìm lại tin tức người thân.",
-      "comfort_dish": "canh_thao_moc_bup_sen",
+      "comfort_dish": "artichoke_lotus_cleansing_broth",
       "heart_event_summary": "Thu mua lông cừu lông dê giá cao +30% (2 Tim); tặng Khung Dệt Len Điền Trang tự động (4 Tim); bán các bộ chăn ga đệm ấm dệt hoàn thiện cho phòng trọ áp mái (6 Tim); mở khóa bộ sưu tập thảm trang trí và ghế nệm thủ công (8 Tim).",
       "gift_preferences": {
         "loved": [
-          "canh_thao_moc_bup_sen",
+          "artichoke_lotus_cleansing_broth",
           "item_wood_oak",
           "item_butter"
         ],
         "liked": [
           "item_wood_pine",
-          "dau_rung",
-          "mat_ong",
-          "banh_mi_lua_mi_gion"
+          "wild_berry",
+          "wild_honey",
+          "crusty_hearth_sourdough"
         ],
         "disliked": [
           "ore_coal",
-          "thit_nuong_lua_dia_nguc"
+          "fiery_chili_ginger_grilled_beef"
         ],
         "hated": [
           "drop_prism_jelly",
-          "ruou_trai_cay_len_men"
+          "craft_hops_lichen_pear_brew"
         ]
       },
       "schedules": {
@@ -4350,33 +4350,33 @@
       "favorite_items": [
         "ore_coal",
         "ore_iron",
-        "food_ruou_trai_cay_len_men"
+        "food_craft_hops_lichen_pear_brew"
       ],
       "quote": "HẢ?! NÓI TO LÊN! TAI TAO ĐIẾC TỪ NĂM NỔ SẬP CÁI HẦM SỐ TÁM RỒI! CẦN THUỐC NỔ HAY CẦN GÌ?!",
       "birthday": "Ngày 18 Mùa Hè",
       "schedule": "Ban ngày: Nhồi thuốc súng và bán bom tại Lán trại Cửa mỏ; Thi thoảng: Xuống kiểm tra mạch nổ đá tầng nông; Tối: Ngồi uống rượu bên đống lửa lán trại",
       "real_world_wound": "Tai nạn sập hầm cướp đi thính lực và khiến lão bị đuổi khỏi bang hội thợ mỏ; lão sống bám dưới mỏ vì chỉ có tiếng nổ mới khiến lão cảm thấy mình còn sống.",
-      "comfort_dish": "ruou_trai_cay_len_men",
+      "comfort_dish": "craft_hops_lichen_pear_brew",
       "heart_event_summary": "Bán Bom Mỏ Tự Chế giá rẻ tại cửa mỏ (2 Tim); dạy công thức chế tạo Bom Phá Đá Khổng Lồ (4 Tim); chỉ điểm mạch quặng vàng ngầm (6 Tim); tặng Máy Khoan Hơi Nước cầm tay (8 Tim).",
       "gift_preferences": {
         "loved": [
-          "ruou_trai_cay_len_men",
+          "craft_hops_lichen_pear_brew",
           "ore_coal",
           "ore_iron"
         ],
         "liked": [
           "ore_copper",
           "ore_gold",
-          "com_nam_muoi_rung",
-          "dui_rung_hun_khoi_da_chien"
+          "sea_salted_rice_ball",
+          "bay_laurel_smoked_pork_haunch"
         ],
         "disliked": [
-          "banh_tart_viet_quat_dai_ngan",
-          "dau_rung"
+          "blackberry_gold_kiwi_tart",
+          "wild_berry"
         ],
         "hated": [
           "drop_prism_jelly",
-          "item_tea_sen_an_than"
+          "item_tea_calming_lotus"
         ]
       },
       "schedules": {
@@ -4450,35 +4450,35 @@
       "species": "Human (Thợ Lặn Hồ Ngầm)",
       "description": "Thợ lặn lầm lì trong bộ đồ da cá kín mít, chuyên lặn xuống các hồ nước ngầm áp suất cao ở tầng 90 để mò cổ vật và bắt các loài cá mù quý hiếm.",
       "favorite_items": [
-        "da_tinh_the",
+        "crystal_shard",
         "gem_sapphire",
-        "food_ruou_trai_cay_len_men"
+        "food_craft_hops_lichen_pear_brew"
       ],
       "quote": "Dưới đáy hồ ngầm sâu nghìn mét không có ánh sáng, chỉ có sự tĩnh lặng... và những đôi mắt lấp lánh nhìn chằm chằm vào cậu.",
       "birthday": "Ngày 7 Mùa Đông",
       "schedule": "Ban ngày: Cắm trại bên bờ hồ băng chân núi, phân loại rong rêu; Thi thoảng: Lặn thám hiểm suối ngầm; Tối: Phơi cá khô và bảo trì đồ lặn",
       "real_world_wound": "Từng chứng kiến cả đội lặn bị thủy quái nuốt chửng dưới vực sâu; sống khép kín và mang nỗi ám ảnh về bóng tối đáy nước.",
-      "comfort_dish": "ruou_trai_cay_len_men",
+      "comfort_dish": "craft_hops_lichen_pear_brew",
       "heart_event_summary": "Bán Ủng Lội Nước Sâu chống trượt (2 Tim); dạy công thức Mồi Câu Dạ Quang thu hút cá cổ đại (4 Tim); bán Ngọc Trai Phát Quang kháng độc miasma (6 Tim); mở lối lặn ngầm từ hồ chân núi ra sông ngoài (8 Tim).",
       "gift_preferences": {
         "loved": [
-          "ca_suoi_nuong_muoi_ot",
-          "ruou_trai_cay_len_men",
+          "chili_lime_grilled_stream_carp",
+          "craft_hops_lichen_pear_brew",
           "gem_sapphire"
         ],
         "liked": [
           "drop_crystal_sea_salt",
-          "com_nam_muoi_rung",
+          "sea_salted_rice_ball",
           "ore_iron",
           "item_wood_pine"
         ],
         "disliked": [
           "item_pastry_scone_berry",
-          "dau_rung"
+          "wild_berry"
         ],
         "hated": [
           "drop_prism_jelly",
-          "item_tea_sen_an_than"
+          "item_tea_calming_lotus"
         ]
       },
       "schedules": {
@@ -4563,23 +4563,23 @@
       "heart_event_summary": "Cung cấp Than Rừng Già cháy x3 thời gian (2 Tim); dạy kỹ thuật Lò Ủ Than Kín Khói (4 Tim); giảm 20% lượng than cần nung thỏi kim loại (6 Tim); mở khóa Lò Nung Than Tro Trấu cao cấp (8 Tim).",
       "gift_preferences": {
         "loved": [
-          "banh_mi_lua_mi_gion",
+          "crusty_hearth_sourdough",
           "ore_coal",
           "item_wood_oak"
         ],
         "liked": [
           "item_wood_pine",
-          "khoai_tay_nuong_bo_toi",
-          "com_nam_muoi_rung",
-          "mat_ong"
+          "garlic_buttered_roasted_potato",
+          "sea_salted_rice_ball",
+          "wild_honey"
         ],
         "disliked": [
-          "banh_tart_viet_quat_dai_ngan",
-          "dau_rung"
+          "blackberry_gold_kiwi_tart",
+          "wild_berry"
         ],
         "hated": [
           "drop_prism_jelly",
-          "ruou_trai_cay_len_men"
+          "craft_hops_lichen_pear_brew"
         ]
       },
       "schedules": {
@@ -4653,35 +4653,35 @@
       "species": "Human (Lão Ngư Đầm Lầy)",
       "description": "Lão già sống trên chiếc thuyền nan mục nát, răng sún, người tanh nồng mùi bùn. Bậc thầy bẫy lươn, bẫy trê và chế tạo ngư cụ tự động bằng tre nứa.",
       "favorite_items": [
-        "food_ruou_trai_cay_len_men",
-        "food_thit_nuong_lua_dia_nguc",
+        "food_craft_hops_lichen_pear_brew",
+        "food_fiery_chili_ginger_grilled_beef",
         "item_wood_pine"
       ],
       "quote": "Con lươn nó khôn hơn con người nhiều. Muốn bắt được nó, lòng mày phải kiên nhẫn như đống bùn dưới đáy.",
       "birthday": "Ngày 11 Mùa Hạ",
       "schedule": "Ban ngày: Đan đó tre và cắm cọc bẫy lươn ven đầm lầy; Tối: Chèo thuyền nan ra hồ giăng lưới",
       "real_world_wound": "Quê nhà ở đồng bằng bị ngập mặn sau khi đập nước thời chiến bị phá hủy; lão phiêu bạt về đầm lầy sống đời cô độc không gia đình.",
-      "comfort_dish": "thit_nuong_lua_dia_nguc",
+      "comfort_dish": "fiery_chili_ginger_grilled_beef",
       "heart_event_summary": "Tặng Đó Tre Bắt Cá Tự Động (2 Tim); dạy công thức Mồi Bột Ngô Dụ Cá Nước Lợ (4 Tim); chỉ điểm đầm lầy săn Lươn Vàng Hoàng Kim (6 Tim); tặng Cần Câu Trúc Ngàn Năm tăng 25% tốc độ giật cá (8 Tim).",
       "gift_preferences": {
         "loved": [
-          "thit_nuong_lua_dia_nguc",
-          "ruou_trai_cay_len_men",
-          "ca_suoi_nuong_muoi_ot"
+          "fiery_chili_ginger_grilled_beef",
+          "craft_hops_lichen_pear_brew",
+          "chili_lime_grilled_stream_carp"
         ],
         "liked": [
-          "com_nam_muoi_rung",
+          "sea_salted_rice_ball",
           "item_wood_pine",
           "ore_iron",
-          "mat_ong"
+          "wild_honey"
         ],
         "disliked": [
-          "item_tea_sen_an_than",
-          "dau_rung"
+          "item_tea_calming_lotus",
+          "wild_berry"
         ],
         "hated": [
           "drop_prism_jelly",
-          "banh_tart_viet_quat_dai_ngan"
+          "blackberry_gold_kiwi_tart"
         ]
       },
       "schedules": {
@@ -4754,9 +4754,9 @@
       "species": "Human (Đứa Trẻ Nghịch Ngợm)",
       "description": "Cậu bé quậy phá nhất thung lũng, chuyên trèo rào rình trộm dâu tây và táo của điền trang. Nếu được đối xử tốt, cậu bé sẽ trở thành trinh sát chỉ điểm kho báu rừng sâu cho Rowan.",
       "favorite_items": [
-        "dau_rung",
+        "wild_berry",
         "item_bread_brioche",
-        "mat_ong"
+        "wild_honey"
       ],
       "quote": "Em thề là em chỉ trèo lên cây táo để cứu con bướm thôi! Cho em một mẩu bánh nướng kia rồi em chỉ chỗ hái nấm cục cho!",
       "birthday": "Ngày 5 Mùa Xuân",
@@ -4767,21 +4767,21 @@
       "gift_preferences": {
         "loved": [
           "item_pastry_scone_berry",
-          "dau_rung",
-          "mat_ong"
+          "wild_berry",
+          "wild_honey"
         ],
         "liked": [
           "item_pastry_scone_berry",
-          "banh_cau_vong_4_mua",
+          "four_season_turban_orchard_cake",
           "item_wood_pine",
           "drop_moon_berry"
         ],
         "disliked": [
-          "item_tea_sen_an_than",
-          "canh_thao_moc_bup_sen"
+          "item_tea_calming_lotus",
+          "artichoke_lotus_cleansing_broth"
         ],
         "hated": [
-          "ruou_trai_cay_len_men",
+          "craft_hops_lichen_pear_brew",
           "ore_coal"
         ]
       },
@@ -4851,34 +4851,34 @@
       "species": "Human (Bé Gái Biên Viễn)",
       "description": "Cô bé nhút nhát có cha là người lính chưa trở về sau chiến tranh. Hay đi lang thang nhặt sỏi cuội nhiều màu xâu vòng tay, biết cách nghiền khoáng thạch làm bột màu nhuộm rực rỡ.",
       "favorite_items": [
-        "da_tinh_the",
+        "crystal_shard",
         "gem_amethyst",
-        "food_canh_thao_moc_bup_sen"
+        "food_artichoke_lotus_cleansing_broth"
       ],
       "quote": "Mỗi viên sỏi dưới suối đều có một màu riêng. Em để dành những viên đá đẹp nhất này để ngày cha về làm quà cho cha...",
       "birthday": "Ngày 16 Mùa Hạ",
       "schedule": "Sáng: Đi dọc bờ suối nhặt đá cuội ngũ sắc; Chiều: Ngồi hiên thư viện xâu vòng; Tối: Về căn nhà nhỏ cùng mẹ",
       "real_world_wound": "Nỗi nhớ thương người cha bặt vô âm tín nơi tiền tuyến; cô bé tin rằng nếu xâu đủ một nghìn viên sỏi đẹp thì cha sẽ bình an trở về.",
-      "comfort_dish": "canh_thao_moc_bup_sen",
+      "comfort_dish": "artichoke_lotus_cleansing_broth",
       "heart_event_summary": "Tặng Vòng Tay Đá Cuội may mắn tăng 5% né đòn (2 Tim); chỉ điểm các hốc cá bống và bụi dâu dại bí mật ven suối (4 Tim); phụ Rowan nhặt quả rụng bờ suối (6 Tim); tin báo người cha bình an trở về đoàn tụ tại The Hearth (8 Tim).",
       "gift_preferences": {
         "loved": [
-          "canh_thao_moc_bup_sen",
+          "artichoke_lotus_cleansing_broth",
           "item_pastry_scone_berry",
           "gem_amethyst"
         ],
         "liked": [
-          "dau_rung",
-          "mat_ong",
+          "wild_berry",
+          "wild_honey",
           "drop_moon_berry",
-          "banh_cau_vong_4_mua"
+          "four_season_turban_orchard_cake"
         ],
         "disliked": [
           "ore_coal",
-          "thit_nuong_lua_dia_nguc"
+          "fiery_chili_ginger_grilled_beef"
         ],
         "hated": [
-          "ruou_trai_cay_len_men",
+          "craft_hops_lichen_pear_brew",
           "drop_prism_jelly"
         ]
       },
@@ -4949,7 +4949,7 @@
     "species": "Human (Thợ Thủ Công Khai Hoang)",
     "description": "Thợ thủ công khai hoang kiên cường và chủ Quán Ăn & Nhà Trọ Oakhaven. Tự tay cuốc đất, xuống hầm mỏ 150 tầng săn quặng, tối về nhóm lò đỏ lửa phục vụ những bữa ăn no bụng cho cư dân thị trấn biên viễn.",
     "favorite_items": [
-      "item_tea_sen_an_than",
+      "item_tea_calming_lotus",
       "item_bread_brioche",
       "item_dish_moonlight_creamy_risotto"
     ],
@@ -4961,23 +4961,23 @@
     "heart_event_summary": "Tự tay cuốc đất, xuống hầm mỏ 150 tầng săn quặng và nhóm bếp nấu 55 món ăn ấm lòng; tìm lại bản lĩnh và ý nghĩa cuộc sống qua từng bữa cơm phục vụ dân làng thung lũng.",
     "gift_preferences": {
       "loved": [
-        "tra_sen_bach_diep",
+        "sun_daisy_lotus_herbal_tea",
         "item_bread_brioche",
-        "sup_cu_den_do_dai_ngan"
+        "highland_ruby_beet_borscht"
       ],
       "liked": [
-        "dau_rung",
-        "mat_ong",
+        "wild_berry",
+        "wild_honey",
         "item_flour",
-        "com_nam_muoi_rung"
+        "sea_salted_rice_ball"
       ],
       "disliked": [
         "ore_coal",
-        "thit_nuong_lua_dia_nguc"
+        "fiery_chili_ginger_grilled_beef"
       ],
       "hated": [
         "drop_prism_jelly",
-        "ruou_trai_cay_len_men"
+        "craft_hops_lichen_pear_brew"
       ]
     },
     "heart_events": []

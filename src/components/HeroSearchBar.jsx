@@ -16,7 +16,7 @@ export default function HeroSearchBar({ lang = DEFAULT_LOCALE }) {
   const quickLinks = [
     {
       label: isEn ? 'Calming Lotus Tea' : 'Trà Sen An Thần',
-      href: `/${lang}/database/recipes#tra_sen_an_than`,
+      href: `/${lang}/database/recipes#calming_lotus_tea`,
     },
     {
       label: isEn ? 'Honey Brioche' : 'Bánh Mì Brioche',

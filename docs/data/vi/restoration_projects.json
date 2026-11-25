@@ -61,7 +61,7 @@
         "Rút ngắn 60% thời gian chạy bộ sang Bến Thuyền Đoàn Buôn Garrick",
         "Mở lối vào bãi rái cá suối ven sông thu nhặt vỏ ốc và ngọc trai"
       ],
-      "celebration_dish": "food_ca_suoi_nuong_muoi_ot",
+      "celebration_dish": "food_chili_lime_grilled_stream_carp",
       "celebration_dish_name": "Cá Suối Nướng Chanh Ớt"
     },
     {
@@ -100,7 +100,7 @@
         "Tự động xay lúa mì thành bột mì tươi qua đêm với tỷ lệ 1 hạt ra 2 bột",
         "Tăng +30 Cozy Rating cho nông trang, tiếng quạt gió xua tan u ám"
       ],
-      "celebration_dish": "food_banh_mi_lua_mi_gion",
+      "celebration_dish": "food_crusty_hearth_sourdough",
       "celebration_dish_name": "Bánh Mì Lúa Mì Giòn"
     },
     {
@@ -139,7 +139,7 @@
         "Hồi đầy bình tưới nước tức thì không tốn Thể Lực",
         "Rau củ trồng trong bán kính 5 ô quanh giếng tăng +15% tốc độ lớn"
       ],
-      "celebration_dish": "food_tra_sen_bach_diep",
+      "celebration_dish": "food_sun_daisy_lotus_herbal_tea",
       "celebration_dish_name": "Trà Cúc Sen Tuyết Bách Diệp"
     },
     {
@@ -183,7 +183,7 @@
         "Mở tính năng Phái Cú Viễn Chinh tìm kiếm hạt giống quý từ các vương quốc xa",
         "Pip giao thư và bưu phẩm sớm hơn 1 giờ mỗi sáng"
       ],
-      "celebration_dish": "food_tart_dau_tuyet_lanh",
+      "celebration_dish": "food_berry_cherry_vanilla_tart",
       "celebration_dish_name": "Tart Dâu Rừng Anh Đào Vani"
     },
     {
@@ -227,7 +227,7 @@
         "Xe gòng tự động chuyển toàn bộ quặng mỏ sâu về rương Lò Rèn Boris",
         "Giảm 100% tình trạng đầy túi đồ khoáng sản khi đào mỏ"
       ],
-      "celebration_dish": "food_bo_ham_ruou_vang_mo",
+      "celebration_dish": "food_night_wine_beef_bourguignon",
       "celebration_dish_name": "Bò Hầm Rượu Vang (Boeuf Bourguignon)"
     },
     {
@@ -271,7 +271,7 @@
         "Trạm ngả lưng an toàn không bị ngất xỉu khi làm việc quá nửa đêm trong rừng",
         "Bàn chế tác dã chiến sửa chữa công cụ ngay giữa rừng"
       ],
-      "celebration_dish": "food_ga_ham_sam_rung_da",
+      "celebration_dish": "food_mandrake_snow_maca_poultry_broth",
       "celebration_dish_name": "Gà Hầm Sâm Mandrake Maca"
     },
     {
@@ -310,7 +310,7 @@
         "Hệ thống dự báo thời tiết chính xác tuyệt đối trước 3 ngày (72 giờ)",
         "Biết trước ngày bão tuyết để nhóm củi nhà trọ đón Khách Bí Ẩn"
       ],
-      "celebration_dish": "food_bit_tet_nuong_than_soi",
+      "celebration_dish": "food_garlic_rosemary_seared_steak",
       "celebration_dish_name": "Bít Tết Nướng Than Tỏi Hương Thảo"
     },
     {
@@ -354,7 +354,7 @@
         "Tự động ươm giống Nấm Phát Quang và Sâm Đáy Mỏ ngay trên mặt đất",
         "Sylvan bán thuốc giải độc và dược thiện với giá trợ giá 50%"
       ],
-      "celebration_dish": "food_sup_nam_sao_am_bung",
+      "celebration_dish": "food_creamy_mushroom_turnip_soup",
       "celebration_dish_name": "Súp Kem Nấm Củ Cải"
     },
     {
@@ -398,7 +398,7 @@
         "Đoàn buôn Garrick mang caravel 3 cột buồm cập bến mỗi sáng Chủ Nhật",
         "Mở rộng gấp đôi kho gia vị phương nam và vải vóc ngoại lai"
       ],
-      "celebration_dish": "food_xoi_hat_sen_nuoc_cot_dua",
+      "celebration_dish": "food_grand_saffron_seafood_paella",
       "celebration_dish_name": "Cơm Chảo Paella Hải Sản Nghệ Tây"
     },
     {
@@ -442,7 +442,7 @@
         "Mở tính năng Giải Mã Bản Vẽ Cổ chế tạo vũ khí cấp Hoàng Gia",
         "Clara mở lại lớp dạy học cho trẻ em Oakhaven, tinh thần làng tăng cao"
       ],
-      "celebration_dish": "food_banh_tart_viet_quat_dai_ngan",
+      "celebration_dish": "food_blackberry_gold_kiwi_tart",
       "celebration_dish_name": "Bánh Tart Phúc Bồn Tử Kiwi Vàng"
     },
     {
@@ -481,7 +481,7 @@
         "Hoàn nguyên 40 ô đất nông nghiệp phía đông thành Thửa Đất Thần Thoại",
         "Cây trồng không bao giờ héo úa và luôn đạt chất lượng 3 Sao 100%"
       ],
-      "celebration_dish": "food_yen_tiec_cau_sieu_anh_hon",
+      "celebration_dish": "food_grand_solaria_memorial_feast",
       "celebration_dish_name": "Đại Yến Bàn Thờ Cổ Solaria"
     },
     {
@@ -521,7 +521,7 @@
         "Mở khóa Đại Lễ Hội Đêm Đông Thắp Lửa (28 Mùa Đông)",
         "Đạt danh hiệu tối thượng: Người Hồi Sinh Oakhaven"
       ],
-      "celebration_dish": "food_banh_cau_vong_4_mua",
+      "celebration_dish": "food_four_season_turban_orchard_cake",
       "celebration_dish_name": "Bánh Trái Cây 4 Mùa Turban"
     }
   ]

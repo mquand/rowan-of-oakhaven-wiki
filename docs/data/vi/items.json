@@ -202,7 +202,7 @@
       "buff": null
     },
     {
-      "id": "la_tra_sen",
+      "id": "lotus_tea_leaves",
       "name": "Lá Trà Sen",
       "description": "Nguyên liệu nền (Base) của mọi món trà — lá trà sen xanh ngọc hái đọt non.",
       "category": "ingredient",
@@ -218,7 +218,7 @@
       "buff": "Xoa dịu mệt mỏi nhẹ"
     },
     {
-      "id": "dau_rung",
+      "id": "wild_berry",
       "name": "Dâu Rừng",
       "description": "Dâu rừng mọng đỏ hồng, vị chua ngọt thanh khiết — nguyên liệu vị (Flavor) cho trà.",
       "category": "ingredient",
@@ -235,7 +235,7 @@
       "buff": "Thanh mát cơ thể"
     },
     {
-      "id": "da_tinh_the",
+      "id": "crystal_shard",
       "name": "Đá Tinh Thể",
       "description": "Đá pha lê lạnh lẽo tỏa khí mát — nguyên liệu phép (Crystal) tạo hiệu ứng băng tuyết.",
       "category": "ingredient",
@@ -252,7 +252,7 @@
       "buff": null
     },
     {
-      "id": "mat_ong",
+      "id": "wild_honey",
       "name": "Mật Ong",
       "description": "Mật ong vàng hổ phách ngọt dịu — nguyên liệu vị (Flavor) làm dịu vị đắng của trà.",
       "category": "ingredient",
@@ -269,7 +269,7 @@
       "buff": "Ngọt ấm, hồi sức nhanh"
     },
     {
-      "id": "oai_huong",
+      "id": "starlight_lavender",
       "name": "Oải Hương",
       "description": "Thảo mộc tím nhạt tỏa hương ngát dưới ánh sao — có công dụng an thần, ướp hương trà.",
       "category": "ingredient",
@@ -285,7 +285,7 @@
       "buff": "An thần sâu lắng"
     },
     {
-      "id": "bot_sao",
+      "id": "star_flour",
       "name": "Bột Mì Tươi Oakhaven",
       "description": "Bột mì xay mịn từ lúa mì bạc thung lũng, nguyên liệu cốt lõi nhào bột nướng bánh.",
       "category": "ingredient",
@@ -524,7 +524,7 @@
       "buff": "Ngọt bùi ấm bụng"
     },
     {
-      "id": "item_tea_sen_an_than",
+      "id": "item_tea_calming_lotus",
       "name": "Trà Sen An Thần",
       "description": "Tách trà sen ngậm sương thơm thanh khiết ướp mật ong rừng — thức uống biểu tượng của Quán Ăn & Nhà Trọ Oakhaven, làm dịu tâm can và xua tan muộn phiền.",
       "category": "tea",
@@ -533,7 +533,7 @@
       "sell_price": 65,
       "energy": 35,
       "buff": "Xoa dịu muộn phiền, hồi phục 35 Thể Lực",
-      "recipe_id": "tra_sen_an_than",
+      "recipe_id": "calming_lotus_tea",
       "tags": [
         "tea",
         "calming",
@@ -541,7 +541,7 @@
       ]
     },
     {
-      "id": "item_tea_dau_bang_tuyet",
+      "id": "item_tea_glacial_berry",
       "name": "Trà Dâu Băng Tuyết",
       "description": "Vị chua ngọt mọng nước từ dâu rừng kết hợp đá tinh thể hang mỏ mát lạnh sảng khoái — tăng tốc độ di chuyển và tinh thần minh mẫn.",
       "category": "tea",
@@ -550,7 +550,7 @@
       "sell_price": 75,
       "energy": 40,
       "buff": "+15% Tốc độ di chuyển trong 3 phút",
-      "recipe_id": "tra_dau_bang_tuyet",
+      "recipe_id": "glacial_berry_tea",
       "tags": [
         "tea",
         "speed",
@@ -558,7 +558,7 @@
       ]
     },
     {
-      "id": "item_tea_oai_huong_ngan_sao",
+      "id": "item_tea_thousand_stars_lavender",
       "name": "Trà Oải Hương Ngàn Sao",
       "description": "Hoa oải hương sao tím biếc hòa quyện cùng bột sao lấp lánh. Khi uống tỏa ra làn khói tím mộng mơ giúp ngủ sâu và phục hồi trọn vẹn sinh lực.",
       "category": "tea",
@@ -567,7 +567,7 @@
       "sell_price": 110,
       "energy": 100,
       "buff": "Hồi phục 100% Thể Lực khi ngủ, giảm 20% tiêu hao thể lực đêm",
-      "recipe_id": "tra_oai_huong_ngan_sao",
+      "recipe_id": "thousand_stars_lavender_tea",
       "tags": [
         "tea",
         "starlight",
@@ -576,7 +576,7 @@
       ]
     },
     {
-      "id": "item_tea_anh_duong",
+      "id": "item_tea_solar_dawn",
       "name": "Trà Ánh Dương",
       "description": "Tách trà vàng hổ phách hấp thụ ánh bình minh đầu tiên, mang hào quang ấm áp truyền sức mạnh cho những chuyến thám hiểm hang mỏ sâu.",
       "category": "tea",
@@ -585,7 +585,7 @@
       "sell_price": 125,
       "energy": 50,
       "buff": "+25% Tốc độ đập đá mỏ trong 3 phút, phát sáng quang thân",
-      "recipe_id": "tra_anh_duong",
+      "recipe_id": "solar_dawn_tea",
       "tags": [
         "tea",
         "mining",
@@ -5566,7 +5566,7 @@
       ]
     },
     {
-      "id": "food_com_nam_muoi_rung",
+      "id": "food_sea_salted_rice_ball",
       "name": "Cơm Nắm Muối Biển (Onigiri)",
       "description": "Món ăn nấu tại Nồi Ninh Hầm của Quán The Hearth từ Gạo Lúa Nước ×1, Muối Biển Sấy ×1. Hồi +30 HP / +50 Stamina.",
       "category": "meal",
@@ -5575,7 +5575,7 @@
       "sell_price": 50,
       "energy": 50,
       "buff": "Không có buff (Món cơ bản)",
-      "recipe_id": "com_nam_muoi_rung",
+      "recipe_id": "sea_salted_rice_ball",
       "tags": [
         "meal",
         "craftable",
@@ -5583,7 +5583,7 @@
       ]
     },
     {
-      "id": "food_trung_op_la_thao_moc",
+      "id": "food_scallion_herb_omelet",
       "name": "Trứng Ốp La Hành Lá",
       "description": "Món ăn nấu tại Chảo Rán & Xào của Quán The Hearth từ Trứng Gà Trang Trại ×1, Hành Lá Thung Lũng ×1. Hồi +40 HP / +70 Stamina.",
       "category": "meal",
@@ -5592,7 +5592,7 @@
       "sell_price": 68,
       "energy": 70,
       "buff": "+1 Tốc độ di chuyển",
-      "recipe_id": "trung_op_la_thao_moc",
+      "recipe_id": "scallion_herb_omelet",
       "tags": [
         "meal",
         "craftable",
@@ -5600,7 +5600,7 @@
       ]
     },
     {
-      "id": "food_khoai_tay_nuong_bo_toi",
+      "id": "food_garlic_buttered_roasted_potato",
       "name": "Khoai Tây Nướng Bơ Tỏi",
       "description": "Món ăn nấu tại Lò Nướng Đá của Quán The Hearth từ Khoai Tây Núi Cao ×1, Bơ Tươi ×1, Tỏi Tím Biên Viễn ×1. Hồi +60 HP / +90 Stamina.",
       "category": "bakery",
@@ -5609,7 +5609,7 @@
       "sell_price": 98,
       "energy": 90,
       "buff": "+1 Phòng ngự",
-      "recipe_id": "khoai_tay_nuong_bo_toi",
+      "recipe_id": "garlic_buttered_roasted_potato",
       "tags": [
         "bakery",
         "craftable",
@@ -5617,7 +5617,7 @@
       ]
     },
     {
-      "id": "food_banh_mi_lua_mi_gion",
+      "id": "food_crusty_hearth_sourdough",
       "name": "Bánh Mì Lúa Mì Giòn",
       "description": "Món ăn nấu tại Lò Nướng Đá của Quán The Hearth từ Bột Mì Tươi ×2, Men Ủ Tự Nhiên ×1. Hồi +50 HP / +80 Stamina.",
       "category": "bakery",
@@ -5626,7 +5626,7 @@
       "sell_price": 83,
       "energy": 80,
       "buff": "+10% Giảm hao thể lực khi cuốc đất",
-      "recipe_id": "banh_mi_lua_mi_gion",
+      "recipe_id": "crusty_hearth_sourdough",
       "tags": [
         "bakery",
         "craftable",
@@ -5634,7 +5634,7 @@
       ]
     },
     {
-      "id": "food_sup_nam_sao_am_bung",
+      "id": "food_creamy_mushroom_turnip_soup",
       "name": "Súp Kem Nấm Củ Cải",
       "description": "Món ăn nấu tại Nồi Ninh Hầm của Quán The Hearth từ Nấm Hương Rừng Già ×1, Bạch Ngọc Củ Cải ×1, Hành Lá Thung Lũng ×1. Hồi +70 HP / +110 Stamina.",
       "category": "meal",
@@ -5643,7 +5643,7 @@
       "sell_price": 116,
       "energy": 110,
       "buff": "+2 Đào mỏ (Đập đá nhanh hơn)",
-      "recipe_id": "sup_nam_sao_am_bung",
+      "recipe_id": "creamy_mushroom_turnip_soup",
       "tags": [
         "meal",
         "craftable",
@@ -5651,7 +5651,7 @@
       ]
     },
     {
-      "id": "food_ca_suoi_nuong_muoi_ot",
+      "id": "food_chili_lime_grilled_stream_carp",
       "name": "Cá Suối Nướng Chanh Ớt",
       "description": "Món ăn nấu tại Bếp Nướng & Hun Khói của Quán The Hearth từ Cá Chép Suối ×1, Ớt Đỏ Lửa Bếp ×1, Chanh Sét Tê Lưỡi ×1. Hồi +80 HP / +100 Stamina.",
       "category": "meal",
@@ -5660,7 +5660,7 @@
       "sell_price": 123,
       "energy": 100,
       "buff": "+1 Sức tấn công cận chiến",
-      "recipe_id": "ca_suoi_nuong_muoi_ot",
+      "recipe_id": "chili_lime_grilled_stream_carp",
       "tags": [
         "meal",
         "craftable",
@@ -5668,7 +5668,7 @@
       ]
     },
     {
-      "id": "food_bap_xao_bo_cay",
+      "id": "food_avocado_jicama_corn_taco",
       "name": "Taco Bắp Bơ Sắn Nước",
       "description": "Món ăn nấu tại Chảo Rán & Xào của Quán The Hearth từ Bắp Ngô Ánh Dương ×1, Cây Bơ Béo ×1, Củ Sắn Nước Jícama ×1, Ớt Đỏ Lửa Bếp ×1. Hồi +85 HP / +110 Stamina.",
       "category": "meal",
@@ -5677,7 +5677,7 @@
       "sell_price": 132,
       "energy": 110,
       "buff": "+1 Tốc độ, +1 Tấn công",
-      "recipe_id": "bap_xao_bo_cay",
+      "recipe_id": "avocado_jicama_corn_taco",
       "tags": [
         "meal",
         "craftable",
@@ -5685,7 +5685,7 @@
       ]
     },
     {
-      "id": "food_chao_yen_mach_mat_ong",
+      "id": "food_honeyed_shadow_rye_porridge",
       "name": "Cháo Hắc Mạch Mật Ong",
       "description": "Món ăn nấu tại Nồi Ninh Hầm của Quán The Hearth từ Bó Hắc Mạch Đêm Rừng ×1, Mật Ong ×1. Hồi +85 HP / +140 Stamina.",
       "category": "meal",
@@ -5694,7 +5694,7 @@
       "sell_price": 142,
       "energy": 140,
       "buff": "Tự động hồi phục Stamina +2/giây",
-      "recipe_id": "chao_yen_mach_mat_ong",
+      "recipe_id": "honeyed_shadow_rye_porridge",
       "tags": [
         "meal",
         "craftable",
@@ -5702,7 +5702,7 @@
       ]
     },
     {
-      "id": "food_rau_cu_ham_thap_cam",
+      "id": "food_jicama_cabbage_harvest_stew",
       "name": "Rau Củ Hầm Sắn Nước Bắp Cải",
       "description": "Món ăn nấu tại Nồi Ninh Hầm của Quán The Hearth từ Củ Sắn Nước Jícama ×1, Hắc Cà Rốt Mắt Mèo ×1, Bắp Cải Băng Cuộn Chặt ×1. Hồi +90 HP / +130 Stamina.",
       "category": "meal",
@@ -5711,7 +5711,7 @@
       "sell_price": 144,
       "energy": 130,
       "buff": "+2 Phòng ngự",
-      "recipe_id": "rau_cu_ham_thap_cam",
+      "recipe_id": "jicama_cabbage_harvest_stew",
       "tags": [
         "meal",
         "craftable",
@@ -5719,7 +5719,7 @@
       ]
     },
     {
-      "id": "food_banh_xeo_hanh_hoa_gion",
+      "id": "food_crispy_valley_savory_crepe",
       "name": "Bánh Xèo Giòn Thung Lũng",
       "description": "Món ăn nấu tại Chảo Rán & Xào của Quán The Hearth từ Gạo Lúa Nước ×1, Củ Nghệ Vàng ×1, Hành Lá Thung Lũng ×1, Tôm Hồ Nước Ngọt ×1. Hồi +95 HP / +125 Stamina.",
       "category": "meal",
@@ -5728,7 +5728,7 @@
       "sell_price": 148,
       "energy": 125,
       "buff": "+15% Tốc độ vung vũ khí",
-      "recipe_id": "banh_xeo_hanh_hoa_gion",
+      "recipe_id": "crispy_valley_savory_crepe",
       "tags": [
         "meal",
         "craftable",
@@ -5736,7 +5736,7 @@
       ]
     },
     {
-      "id": "food_bo_ham_ruou_vang_mo",
+      "id": "food_night_wine_beef_bourguignon",
       "name": "Bò Hầm Rượu Vang (Boeuf Bourguignon)",
       "description": "Món ăn nấu tại Nồi Ninh Hầm của Quán The Hearth từ Thịt Bò Trang Trại ×1, Rượu Vang Nho Đêm ×1, Hành Tây Vỏ Vàng ×1. Hồi +135 HP / +180 Stamina.",
       "category": "meal",
@@ -5745,7 +5745,7 @@
       "sell_price": 212,
       "energy": 180,
       "buff": "+3 Sức tấn công, +20 Max HP (tạm thời)",
-      "recipe_id": "bo_ham_ruou_vang_mo",
+      "recipe_id": "night_wine_beef_bourguignon",
       "tags": [
         "meal",
         "craftable",
@@ -5753,7 +5753,7 @@
       ]
     },
     {
-      "id": "food_bit_tet_nuong_than_soi",
+      "id": "food_garlic_rosemary_seared_steak",
       "name": "Bít Tết Nướng Than Tỏi Hương Thảo",
       "description": "Món ăn nấu tại Bếp Nướng & Hun Khói của Quán The Hearth từ Thịt Bò Trang Trại ×1, Tỏi Tím Biên Viễn ×1, Cỏ Hương Thảo ×1. Hồi +140 HP / +170 Stamina.",
       "category": "meal",
@@ -5762,7 +5762,7 @@
       "sell_price": 214,
       "energy": 170,
       "buff": "+4 Sức tấn công",
-      "recipe_id": "bit_tet_nuong_than_soi",
+      "recipe_id": "garlic_rosemary_seared_steak",
       "tags": [
         "meal",
         "craftable",
@@ -5770,7 +5770,7 @@
       ]
     },
     {
-      "id": "food_ga_quay_mat_ong_hoa_rung",
+      "id": "food_fire_orange_honey_roast_chicken",
       "name": "Gà Quay Cam Lửa Mật Ong",
       "description": "Món ăn nấu tại Lò Nướng Đá của Quán The Hearth từ Thịt Gà Vườn ×1, Cam Lửa Nắng Hạ ×1, Mật Ong ×1. Hồi +125 HP / +170 Stamina.",
       "category": "bakery",
@@ -5779,7 +5779,7 @@
       "sell_price": 197,
       "energy": 170,
       "buff": "+2 Tấn công, +1 Tốc độ",
-      "recipe_id": "ga_quay_mat_ong_hoa_rung",
+      "recipe_id": "fire_orange_honey_roast_chicken",
       "tags": [
         "bakery",
         "craftable",
@@ -5787,7 +5787,7 @@
       ]
     },
     {
-      "id": "food_suon_nuong_xot_man_ngot",
+      "id": "food_plum_cranberry_glazed_ribs",
       "name": "Sườn Nướng Xốt Mận Nam Việt Quất",
       "description": "Món ăn nấu tại Bếp Nướng & Hun Khói của Quán The Hearth từ Thịt & Sườn Heo ×1, Mận Băng Tuyết Đậm Vị ×1, Bụi Nam Việt Quất Đầm Lầy ×1. Hồi +135 HP / +180 Stamina.",
       "category": "meal",
@@ -5796,7 +5796,7 @@
       "sell_price": 212,
       "energy": 180,
       "buff": "+2 Tấn công, +2 Phòng ngự",
-      "recipe_id": "suon_nuong_xot_man_ngot",
+      "recipe_id": "plum_cranberry_glazed_ribs",
       "tags": [
         "meal",
         "craftable",
@@ -5804,7 +5804,7 @@
       ]
     },
     {
-      "id": "food_banh_mi_thit_ham_pho_mai",
+      "id": "food_melted_cheese_beef_gratin",
       "name": "Bánh Mì Nướng Phô Mai Bò Hầm",
       "description": "Món ăn nấu tại Lò Nướng Đá của Quán The Hearth từ Bột Mì Tươi ×1, Thịt Bò Trang Trại ×1, Phô Mai Ủ Sồi ×1. Hồi +120 HP / +155 Stamina.",
       "category": "bakery",
@@ -5813,7 +5813,7 @@
       "sell_price": 186,
       "energy": 155,
       "buff": "+3 Phòng ngự, -50% Thời gian Choáng",
-      "recipe_id": "banh_mi_thit_ham_pho_mai",
+      "recipe_id": "melted_cheese_beef_gratin",
       "tags": [
         "bakery",
         "craftable",
@@ -5821,7 +5821,7 @@
       ]
     },
     {
-      "id": "food_canh_chua_ca_suoi_cay",
+      "id": "food_solaria_saffron_fish_bouillabaisse",
       "name": "Súp Hải Sản Nghệ Tây (Bouillabaisse)",
       "description": "Món ăn nấu tại Nồi Ninh Hầm của Quán The Hearth từ Cá Chép Suối ×1, Cà Chua Lửa Mọng Nước ×1, Nghệ Tây Saffron ×1. Hồi +115 HP / +155 Stamina.",
       "category": "meal",
@@ -5830,7 +5830,7 @@
       "sell_price": 181,
       "energy": 155,
       "buff": "-25% Sát thương Nhiệt & Độc",
-      "recipe_id": "canh_chua_ca_suoi_cay",
+      "recipe_id": "solaria_saffron_fish_bouillabaisse",
       "tags": [
         "meal",
         "craftable",
@@ -5838,7 +5838,7 @@
       ]
     },
     {
-      "id": "food_muc_ham_hanh_toi",
+      "id": "food_mediterranean_garlic_olive_squid",
       "name": "Mực Xào Tỏi Ô-liu Địa Trung Hải",
       "description": "Món ăn nấu tại Chảo Rán & Xào của Quán The Hearth từ Mực Biển Đêm ×1, Tỏi Tím Biên Viễn ×1, Cây Ô-liu Cổ ×1. Hồi +110 HP / +150 Stamina.",
       "category": "meal",
@@ -5847,7 +5847,7 @@
       "sell_price": 174,
       "energy": 150,
       "buff": "+2 May mắn (Tăng tỉ lệ rơi quặng hiếm)",
-      "recipe_id": "muc_ham_hanh_toi",
+      "recipe_id": "mediterranean_garlic_olive_squid",
       "tags": [
         "meal",
         "craftable",
@@ -5855,7 +5855,7 @@
       ]
     },
     {
-      "id": "food_com_chien_hai_san_dam_vi",
+      "id": "food_valley_harvest_bibimbap_bowl",
       "name": "Cơm Trộn Bibimbap Thung Lũng",
       "description": "Món ăn nấu tại Chảo Rán & Xào của Quán The Hearth từ Gạo Lúa Nước ×1, Rau Chân Vịt Đồi Sương ×1, Trứng Gà Trang Trại ×1, Ớt Đỏ Lửa Bếp ×1. Hồi +130 HP / +170 Stamina.",
       "category": "meal",
@@ -5864,7 +5864,7 @@
       "sell_price": 202,
       "energy": 170,
       "buff": "+2 Đào mỏ, +1 Tấn công",
-      "recipe_id": "com_chien_hai_san_dam_vi",
+      "recipe_id": "valley_harvest_bibimbap_bowl",
       "tags": [
         "meal",
         "craftable",
@@ -5872,7 +5872,7 @@
       ]
     },
     {
-      "id": "food_sup_tom_hum_sua_beo",
+      "id": "food_velvet_freshwater_shrimp_bisque",
       "name": "Súp Kem Tôm Hồ (Bisque)",
       "description": "Món ăn nấu tại Nồi Ninh Hầm của Quán The Hearth từ Tôm Hồ Nước Ngọt ×1, Sữa Bò Tươi ×1, Bơ Tươi ×1. Hồi +140 HP / +185 Stamina.",
       "category": "meal",
@@ -5881,7 +5881,7 @@
       "sell_price": 219,
       "energy": 185,
       "buff": "+3 Phòng ngự, +2 May mắn",
-      "recipe_id": "sup_tom_hum_sua_beo",
+      "recipe_id": "velvet_freshwater_shrimp_bisque",
       "tags": [
         "meal",
         "craftable",
@@ -5889,7 +5889,7 @@
       ]
     },
     {
-      "id": "food_lau_ca_cay_ham_nguc",
+      "id": "food_khaz_drakor_fiery_fish_hotpot",
       "name": "Lẩu Cá Cay Hầm Mỏ Khaz-Drakor",
       "description": "Món ăn nấu tại Nồi Ninh Hầm của Quán The Hearth từ Cá Chép Suối ×1, Nấm Hương Rừng Già ×1, Ớt Đỏ Lửa Bếp ×1. Hồi +145 HP / +190 Stamina.",
       "category": "meal",
@@ -5898,7 +5898,7 @@
       "sell_price": 226,
       "energy": 190,
       "buff": "+3 Sức tấn công, +2 Đào mỏ",
-      "recipe_id": "lau_ca_cay_ham_nguc",
+      "recipe_id": "khaz_drakor_fiery_fish_hotpot",
       "tags": [
         "meal",
         "craftable",
@@ -5906,7 +5906,7 @@
       ]
     },
     {
-      "id": "food_tart_dau_tuyet_lanh",
+      "id": "food_berry_cherry_vanilla_tart",
       "name": "Tart Dâu Rừng Anh Đào Vani",
       "description": "Món ăn nấu tại Lò Nướng Đá của Quán The Hearth từ Dâu Rừng Mùa Xuân ×1, Anh Đào Đỏ Thắm ×1, Dây Vani Rừng Sâu ×1. Hồi +75 HP / +110 Stamina.",
       "category": "bakery",
@@ -5915,7 +5915,7 @@
       "sell_price": 121,
       "energy": 110,
       "buff": "+1 Tốc độ di chuyển, +15% Tốc độ hồi Stamina khi nghỉ",
-      "recipe_id": "tart_dau_tuyet_lanh",
+      "recipe_id": "berry_cherry_vanilla_tart",
       "tags": [
         "bakery",
         "craftable",
@@ -5923,7 +5923,7 @@
       ]
     },
     {
-      "id": "food_pho_bo_thung_lung",
+      "id": "food_oakhaven_herbal_beef_pho",
       "name": "Phở Bò Thảo Mộc Thung Lũng",
       "description": "Món ăn nấu tại Nồi Ninh Hầm của Quán The Hearth từ Gạo Lúa Nước ×1, Thịt Bò Trang Trại ×1, Hành Tây Vỏ Vàng ×1, Hỏa Khương Rừng Thầm Thì ×1, Vỏ Quế Rừng ×1. Hồi +155 HP / +205 Stamina.",
       "category": "meal",
@@ -5932,7 +5932,7 @@
       "sell_price": 242,
       "energy": 205,
       "buff": "+3 Sức tấn công, +2 Tốc độ, -30% Sát thương Lạnh",
-      "recipe_id": "pho_bo_thung_lung",
+      "recipe_id": "oakhaven_herbal_beef_pho",
       "tags": [
         "meal",
         "craftable",
@@ -5940,7 +5940,7 @@
       ]
     },
     {
-      "id": "food_salad_trai_cay_mua_ha",
+      "id": "food_summer_melon_kiwano_mint_salad",
       "name": "Salad Dưa Hấu Kiwano Bạc Hà",
       "description": "Món ăn nấu tại Nồi Ninh Hầm của Quán The Hearth từ Dưa Hấu Lửa Dung Nham ×1, Dưa Gai Vỏ Cam Kiwano ×1, Bạc Hà Sương Mai ×1. Hồi +65 HP / +135 Stamina.",
       "category": "meal",
@@ -5949,7 +5949,7 @@
       "sell_price": 119,
       "energy": 135,
       "buff": "+1 Tốc độ di chuyển, -25% Sát thương Nhiệt & Lửa",
-      "recipe_id": "salad_trai_cay_mua_ha",
+      "recipe_id": "summer_melon_kiwano_mint_salad",
       "tags": [
         "meal",
         "craftable",
@@ -5957,7 +5957,7 @@
       ]
     },
     {
-      "id": "food_bi_do_nuong_pho_mai_deo",
+      "id": "food_cheesy_baked_sweet_pumpkin",
       "name": "Bí Đỏ Nướng Phô Mai Dẻo",
       "description": "Món ăn nấu tại Lò Nướng Đá của Quán The Hearth từ Bí Ngô Mật Ong ×1, Phô Mai Ủ Sồi ×1. Hồi +110 HP / +160 Stamina.",
       "category": "bakery",
@@ -5966,7 +5966,7 @@
       "sell_price": 177,
       "energy": 160,
       "buff": "+3 Phòng ngự",
-      "recipe_id": "bi_do_nuong_pho_mai_deo",
+      "recipe_id": "cheesy_baked_sweet_pumpkin",
       "tags": [
         "bakery",
         "craftable",
@@ -5974,7 +5974,7 @@
       ]
     },
     {
-      "id": "food_banh_quy_gung_giu_am",
+      "id": "food_walnut_chufa_trail_cookies",
       "name": "Bánh Quy Óc Chó Hạnh Nhân Đất",
       "description": "Món ăn nấu tại Lò Nướng Đá của Quán The Hearth từ Quả Óc Chó Rừng Oakhaven ×1, Bột Mì Tươi ×1, Củ Hạnh Nhân Đất Chufa ×1. Hồi +70 HP / +100 Stamina.",
       "category": "bakery",
@@ -5983,7 +5983,7 @@
       "sell_price": 112,
       "energy": 100,
       "buff": "-40% Hiệu ứng làm chậm do băng tuyết",
-      "recipe_id": "banh_quy_gung_giu_am",
+      "recipe_id": "walnut_chufa_trail_cookies",
       "tags": [
         "bakery",
         "craftable",
@@ -5991,7 +5991,7 @@
       ]
     },
     {
-      "id": "food_thit_xong_khoi_cui_go_soi",
+      "id": "food_baked_pork_cheese_eggplant",
       "name": "Cà Tím Đút Lò Phô Mai Thịt Băm",
       "description": "Món ăn nấu tại Lò Nướng Đá của Quán The Hearth từ Cà Tím Tím Than ×1, Thịt & Sườn Heo ×1, Phô Mai Ủ Sồi ×1. Hồi +120 HP / +160 Stamina.",
       "category": "bakery",
@@ -6000,7 +6000,7 @@
       "sell_price": 188,
       "energy": 160,
       "buff": "+2 Tấn công, +25 Max Stamina (tạm thời)",
-      "recipe_id": "thit_xong_khoi_cui_go_soi",
+      "recipe_id": "baked_pork_cheese_eggplant",
       "tags": [
         "bakery",
         "craftable",
@@ -6008,7 +6008,7 @@
       ]
     },
     {
-      "id": "food_lap_xuong_tieu_den_mo_da",
+      "id": "food_black_pepper_smoked_sausage",
       "name": "Xúc Xích Hun Khói Tiêu Đen Hành Tây",
       "description": "Món ăn nấu tại Bếp Nướng & Hun Khói của Quán The Hearth từ Thịt & Sườn Heo ×1, Tiêu Đen Phương Xa ×1, Hành Tây Vỏ Vàng ×1. Hồi +120 HP / +150 Stamina.",
       "category": "meal",
@@ -6017,7 +6017,7 @@
       "sell_price": 184,
       "energy": 150,
       "buff": "+15% Tỉ lệ đòn đánh chí mạng",
-      "recipe_id": "lap_xuong_tieu_den_mo_da",
+      "recipe_id": "black_pepper_smoked_sausage",
       "tags": [
         "meal",
         "craftable",
@@ -6025,7 +6025,7 @@
       ]
     },
     {
-      "id": "food_mi_soi_tuoi_xao_nam_cay",
+      "id": "food_truffle_miso_egg_ramen",
       "name": "Mì Ramen Tương Đậu Nấm Cục Đá",
       "description": "Món ăn nấu tại Nồi Ninh Hầm của Quán The Hearth từ Bột Mì Tươi ×1, Đậu Tương Vàng ×1, Nấm Cục Đá Hang Sâu ×1, Trứng Gà Trang Trại ×1. Hồi +135 HP / +180 Stamina.",
       "category": "meal",
@@ -6034,7 +6034,7 @@
       "sell_price": 212,
       "energy": 180,
       "buff": "+2 Tốc độ, +2 Đào mỏ",
-      "recipe_id": "mi_soi_tuoi_xao_nam_cay",
+      "recipe_id": "truffle_miso_egg_ramen",
       "tags": [
         "meal",
         "craftable",
@@ -6042,7 +6042,7 @@
       ]
     },
     {
-      "id": "food_banh_kep_trung_xuc_xich",
+      "id": "food_avocado_egg_hearth_toast",
       "name": "Bánh Mì Nướng Bơ Trứng",
       "description": "Món ăn nấu tại Chảo Rán & Xào của Quán The Hearth từ Bột Mì Tươi ×1, Cây Bơ Béo ×1, Trứng Gà Trang Trại ×1. Hồi +110 HP / +150 Stamina.",
       "category": "meal",
@@ -6051,7 +6051,7 @@
       "sell_price": 174,
       "energy": 150,
       "buff": "+2 Tốc độ đào bới nông trại",
-      "recipe_id": "banh_kep_trung_xuc_xich",
+      "recipe_id": "avocado_egg_hearth_toast",
       "tags": [
         "meal",
         "craftable",
@@ -6059,7 +6059,7 @@
       ]
     },
     {
-      "id": "food_sup_cu_den_do_dai_ngan",
+      "id": "food_highland_ruby_beet_borscht",
       "name": "Súp Củ Dền Borscht Đại Ngàn",
       "description": "Món ăn nấu tại Nồi Ninh Hầm của Quán The Hearth từ Củ Dền Ruby ×1, Khoai Tây Núi Cao ×1, Sữa Bò Tươi ×1. Hồi +95 HP / +135 Stamina.",
       "category": "meal",
@@ -6068,7 +6068,7 @@
       "sell_price": 152,
       "energy": 135,
       "buff": "+20 Max HP (tạm thời), Hồi 1 HP mỗi 5 giây",
-      "recipe_id": "sup_cu_den_do_dai_ngan",
+      "recipe_id": "highland_ruby_beet_borscht",
       "tags": [
         "meal",
         "craftable",
@@ -6076,7 +6076,7 @@
       ]
     },
     {
-      "id": "food_banh_khoai_mon_tro_trau",
+      "id": "food_hearth_steamed_ash_taro_cake",
       "name": "Bánh Khoai Môn Tro Trấu",
       "description": "Món ăn nấu tại Nồi Hấp của Quán The Hearth từ Củ Khoai Môn Tím ×1, Men Ủ Tự Nhiên ×1, Gạo Lúa Nước ×1. Hồi +90 HP / +140 Stamina.",
       "category": "meal",
@@ -6085,7 +6085,7 @@
       "sell_price": 148,
       "energy": 140,
       "buff": "+1 Phòng ngự, -20% Tích tụ Miasma [Lễ Vật Bàn Thờ Cấp 1]",
-      "recipe_id": "banh_khoai_mon_tro_trau",
+      "recipe_id": "hearth_steamed_ash_taro_cake",
       "tags": [
         "meal",
         "craftable",
@@ -6093,7 +6093,7 @@
       ]
     },
     {
-      "id": "food_xoi_hat_sen_nuoc_cot_dua",
+      "id": "food_grand_saffron_seafood_paella",
       "name": "Cơm Chảo Paella Hải Sản Nghệ Tây",
       "description": "Món ăn nấu tại Chảo Rán & Xào của Quán The Hearth từ Gạo Lúa Nước ×1, Tôm Hồ Nước Ngọt ×1, Vỏ Đậu Hà Lan Ngọt Bùi ×1, Nghệ Tây Saffron ×1. Hồi +130 HP / +175 Stamina.",
       "category": "meal",
@@ -6102,7 +6102,7 @@
       "sell_price": 204,
       "energy": 175,
       "buff": "+2 May mắn, +1 Tốc độ [Lễ Vật Bàn Thờ Cấp 2]",
-      "recipe_id": "xoi_hat_sen_nuoc_cot_dua",
+      "recipe_id": "grand_saffron_seafood_paella",
       "tags": [
         "meal",
         "craftable",
@@ -6110,7 +6110,7 @@
       ]
     },
     {
-      "id": "food_banh_chung_lua_rung",
+      "id": "food_baked_andean_oca_beef_empanada",
       "name": "Bánh Hầm Empanada Bò Củ Oca",
       "description": "Món ăn nấu tại Lò Nướng Đá của Quán The Hearth từ Bột Mì Tươi ×1, Thịt Bò Trang Trại ×1, Củ Oca Đá Quý ×1, Ớt Đỏ Lửa Bếp ×1. Hồi +150 HP / +195 Stamina.",
       "category": "bakery",
@@ -6119,7 +6119,7 @@
       "sell_price": 233,
       "energy": 195,
       "buff": "+3 Phòng ngự, +3 Tấn công, +25 Max HP (tạm thời)",
-      "recipe_id": "banh_chung_lua_rung",
+      "recipe_id": "baked_andean_oca_beef_empanada",
       "tags": [
         "bakery",
         "craftable",
@@ -6127,7 +6127,7 @@
       ]
     },
     {
-      "id": "food_canh_thao_moc_bup_sen",
+      "id": "food_artichoke_lotus_cleansing_broth",
       "name": "Canh Atisô Ngó Sen Giải Độc",
       "description": "Món ăn nấu tại Nồi Ninh Hầm của Quán The Hearth từ Bông Atisô Tím ×1, Ngó Sen Bùn Ruộng Bậc Thang ×1. Hồi +100 HP / +150 Stamina.",
       "category": "meal",
@@ -6136,7 +6136,7 @@
       "sell_price": 162,
       "energy": 150,
       "buff": "-30% Sát thương Độc & Tốc độ tích tụ Miasma",
-      "recipe_id": "canh_thao_moc_bup_sen",
+      "recipe_id": "artichoke_lotus_cleansing_broth",
       "tags": [
         "meal",
         "craftable",
@@ -6144,7 +6144,7 @@
       ]
     },
     {
-      "id": "food_banh_deo_trang_ram_hoa_buoi",
+      "id": "food_apricot_honey_fig_poultry_tagine",
       "name": "Gà Hầm Tagine Mơ Vàng Sung Mật",
       "description": "Món ăn nấu tại Nồi Ninh Hầm của Quán The Hearth từ Thịt Gà Vườn ×1, Cây Mơ Vàng Nắng ×1, Cây Sung Ngọt Mật ×1, Củ Nghệ Vàng ×1. Hồi +125 HP / +170 Stamina.",
       "category": "meal",
@@ -6153,7 +6153,7 @@
       "sell_price": 197,
       "energy": 170,
       "buff": "+2 May mắn, +10% Cơ hội thu hoạch thêm nông sản",
-      "recipe_id": "banh_deo_trang_ram_hoa_buoi",
+      "recipe_id": "apricot_honey_fig_poultry_tagine",
       "tags": [
         "meal",
         "craftable",
@@ -6161,7 +6161,7 @@
       ]
     },
     {
-      "id": "food_tra_sen_bach_diep",
+      "id": "food_sun_daisy_lotus_herbal_tea",
       "name": "Trà Cúc Sen Tuyết Bách Diệp",
       "description": "Món ăn nấu tại Nồi Ninh Hầm của Quán The Hearth từ Lá Trà Sen ×1, Cánh Cúc Mặt Trời ×1, Hoa Băng Tuyết Ngàn Năm ×1. Hồi +40 HP / +150 Stamina.",
       "category": "meal",
@@ -6170,7 +6170,7 @@
       "sell_price": 96,
       "energy": 150,
       "buff": "-20% Tiêu hao Stamina khi lao động",
-      "recipe_id": "tra_sen_bach_diep",
+      "recipe_id": "sun_daisy_lotus_herbal_tea",
       "tags": [
         "meal",
         "craftable",
@@ -6178,7 +6178,7 @@
       ]
     },
     {
-      "id": "food_nuoc_mia_ep_gung_am",
+      "id": "food_hot_highland_milk_coffee",
       "name": "Cà Phê Sữa Nóng Cao Nguyên",
       "description": "Món ăn nấu tại Nồi Ninh Hầm của Quán The Hearth từ Cà Phê Cao Nguyên ×1, Sữa Bò Tươi ×1, Đường Mía Thô ×1. Hồi +50 HP / +120 Stamina.",
       "category": "meal",
@@ -6187,7 +6187,7 @@
       "sell_price": 97,
       "energy": 120,
       "buff": "+2 Tốc độ di chuyển",
-      "recipe_id": "nuoc_mia_ep_gung_am",
+      "recipe_id": "hot_highland_milk_coffee",
       "tags": [
         "meal",
         "craftable",
@@ -6195,7 +6195,7 @@
       ]
     },
     {
-      "id": "food_sua_bo_nong_mat_ong",
+      "id": "food_winter_chestnut_hot_chocolate",
       "name": "Sô-cô-la Nóng Hạt Dẻ Đêm Đông",
       "description": "Món ăn nấu tại Nồi Ninh Hầm của Quán The Hearth từ Cây Cacao Đắng ×1, Sữa Bò Tươi ×1, Cây Hạt Dẻ Nâu ×1. Hồi +60 HP / +125 Stamina.",
       "category": "meal",
@@ -6204,7 +6204,7 @@
       "sell_price": 110,
       "energy": 125,
       "buff": "+30 Max Stamina (tạm thời), -25% Sát thương Lạnh",
-      "recipe_id": "sua_bo_nong_mat_ong",
+      "recipe_id": "winter_chestnut_hot_chocolate",
       "tags": [
         "meal",
         "craftable",
@@ -6212,7 +6212,7 @@
       ]
     },
     {
-      "id": "food_ruou_trai_cay_len_men",
+      "id": "food_craft_hops_lichen_pear_brew",
       "name": "Bia Hoa Bia & Rượu Lê Địa Y",
       "description": "Món ăn nấu tại Nồi Ninh Hầm của Quán The Hearth từ Quả Lê Sương Muối ×1, Hoa Bia Ủ Men ×1, Rễ Địa Y Băng Giá ×1. Hồi +95 HP / +100 Stamina.",
       "category": "meal",
@@ -6221,7 +6221,7 @@
       "sell_price": 140,
       "energy": 100,
       "buff": "+4 Sức tấn công (Tầm nhìn mỏ -10%)",
-      "recipe_id": "ruou_trai_cay_len_men",
+      "recipe_id": "craft_hops_lichen_pear_brew",
       "tags": [
         "meal",
         "craftable",
@@ -6229,7 +6229,7 @@
       ]
     },
     {
-      "id": "food_nuoc_ep_dua_luoi_bang_gia",
+      "id": "food_chilled_pomegranate_mint_juice",
       "name": "Nước Ép Lựu Bạc Hà Sương Mai",
       "description": "Món ăn nấu tại Nồi Ninh Hầm của Quán The Hearth từ Cây Lựu Đỏ Solaria ×1, Bạc Hà Sương Mai ×1. Hồi +70 HP / +130 Stamina.",
       "category": "meal",
@@ -6238,7 +6238,7 @@
       "sell_price": 122,
       "energy": 130,
       "buff": "-35% Sát thương Lửa & Dung nham, -50% Thời gian Bỏng",
-      "recipe_id": "nuoc_ep_dua_luoi_bang_gia",
+      "recipe_id": "chilled_pomegranate_mint_juice",
       "tags": [
         "meal",
         "craftable",
@@ -6246,7 +6246,7 @@
       ]
     },
     {
-      "id": "food_phi_le_ca_ngu_nuong_rom",
+      "id": "food_garlic_asparagus_seared_tuna",
       "name": "Phi-lê Cá Ngừ Nướng Tỏi Măng Tây",
       "description": "Món ăn nấu tại Bếp Nướng & Hun Khói của Quán The Hearth từ Cá Ngừ Biển Sâu ×1, Tỏi Tím Biên Viễn ×1, Măng Tây Xanh ×1. Hồi +130 HP / +170 Stamina.",
       "category": "meal",
@@ -6255,7 +6255,7 @@
       "sell_price": 202,
       "energy": 170,
       "buff": "+3 Đào mỏ, +2 Tấn công",
-      "recipe_id": "phi_le_ca_ngu_nuong_rom",
+      "recipe_id": "garlic_asparagus_seared_tuna",
       "tags": [
         "meal",
         "craftable",
@@ -6263,7 +6263,7 @@
       ]
     },
     {
-      "id": "food_oc_nuong_bo_tieu_den",
+      "id": "food_pepper_butter_lake_escargot",
       "name": "Ốc Hồ Nướng Bơ Tiêu Đen (Escargot)",
       "description": "Món ăn nấu tại Bếp Nướng & Hun Khói của Quán The Hearth từ Ốc & Cua Hồ ×1, Bơ Tươi ×1, Tiêu Đen Phương Xa ×1. Hồi +85 HP / +120 Stamina.",
       "category": "meal",
@@ -6272,7 +6272,7 @@
       "sell_price": 136,
       "energy": 120,
       "buff": "+10% Tỉ lệ né đòn, +1 Kỹ năng Câu cá",
-      "recipe_id": "oc_nuong_bo_tieu_den",
+      "recipe_id": "pepper_butter_lake_escargot",
       "tags": [
         "meal",
         "craftable",
@@ -6280,7 +6280,7 @@
       ]
     },
     {
-      "id": "food_com_tho_suon_hap_nam",
+      "id": "food_sylva_fae_ube_vanilla_tart",
       "name": "Bánh Tart Khoai Tím Ube & Vani Rừng",
       "description": "Món ăn nấu tại Lò Nướng Đá của Quán The Hearth từ Củ Khoai Tím Cổ Thụ ×1, Dây Vani Rừng Sâu ×1, Bột Mì Tươi ×1, Bơ Tươi ×1. Hồi +125 HP / +170 Stamina.",
       "category": "bakery",
@@ -6289,7 +6289,7 @@
       "sell_price": 197,
       "energy": 170,
       "buff": "+2 Tốc độ, +2 May mắn",
-      "recipe_id": "com_tho_suon_hap_nam",
+      "recipe_id": "sylva_fae_ube_vanilla_tart",
       "tags": [
         "bakery",
         "craftable",
@@ -6297,7 +6297,7 @@
       ]
     },
     {
-      "id": "food_banh_pie_tao_que_lo_dat",
+      "id": "food_hearth_baked_apple_fig_pie",
       "name": "Bánh Pie Táo Sung Quế Lò Đất",
       "description": "Món ăn nấu tại Lò Nướng Đá của Quán The Hearth từ Táo Sồi Mật Ngọt ×1, Cây Sung Ngọt Mật ×1, Bột Mì Tươi ×1. Hồi +110 HP / +160 Stamina.",
       "category": "bakery",
@@ -6306,7 +6306,7 @@
       "sell_price": 177,
       "energy": 160,
       "buff": "+2 May mắn, +1 Tốc độ",
-      "recipe_id": "banh_pie_tao_que_lo_dat",
+      "recipe_id": "hearth_baked_apple_fig_pie",
       "tags": [
         "bakery",
         "craftable",
@@ -6314,7 +6314,7 @@
       ]
     },
     {
-      "id": "food_banh_tart_viet_quat_dai_ngan",
+      "id": "food_blackberry_gold_kiwi_tart",
       "name": "Bánh Tart Phúc Bồn Tử Kiwi Vàng",
       "description": "Món ăn nấu tại Lò Nướng Đá của Quán The Hearth từ Bụi Phúc Bồn Tử Đen ×1, Kiwi Vàng Giàn Leo ×1, Bột Mì Tươi ×1. Hồi +110 HP / +155 Stamina.",
       "category": "bakery",
@@ -6323,7 +6323,7 @@
       "sell_price": 175,
       "energy": 155,
       "buff": "+10% Tỉ lệ Chí mạng, +1 Tốc độ di chuyển",
-      "recipe_id": "banh_tart_viet_quat_dai_ngan",
+      "recipe_id": "blackberry_gold_kiwi_tart",
       "tags": [
         "bakery",
         "craftable",
@@ -6331,7 +6331,7 @@
       ]
     },
     {
-      "id": "food_dui_rung_hun_khoi_da_chien",
+      "id": "food_bay_laurel_smoked_pork_haunch",
       "name": "Đùi Heo Hun Khói Nguyệt Quế",
       "description": "Món ăn nấu tại Bếp Nướng & Hun Khói của Quán The Hearth từ Thịt & Sườn Heo ×1, Cây Nguyệt Quế Địa Trung Hải ×1, Tiêu Đen Phương Xa ×1. Hồi +145 HP / +185 Stamina.",
       "category": "meal",
@@ -6340,7 +6340,7 @@
       "sell_price": 224,
       "energy": 185,
       "buff": "+4 Sức tấn công, +1 Phòng ngự",
-      "recipe_id": "dui_rung_hun_khoi_da_chien",
+      "recipe_id": "bay_laurel_smoked_pork_haunch",
       "tags": [
         "meal",
         "craftable",
@@ -6348,7 +6348,7 @@
       ]
     },
     {
-      "id": "food_lau_thap_cam_bach_vi",
+      "id": "food_oakhaven_salsify_yam_grand_hotpot",
       "name": "Lẩu Thập Cẩm Salsify Đỉnh Núi",
       "description": "Món ăn nấu tại Nồi Ninh Hầm của Quán The Hearth từ Thịt Bò Trang Trại ×1, Khoai Lang Nguyệt Quang ×1, Củ Salsify Hương Hàu ×1. Hồi +165 HP / +210 Stamina.",
       "category": "meal",
@@ -6357,7 +6357,7 @@
       "sell_price": 255,
       "energy": 210,
       "buff": "+3 Tấn công, +3 Phòng ngự, -30% Sát thương Lạnh",
-      "recipe_id": "lau_thap_cam_bach_vi",
+      "recipe_id": "oakhaven_salsify_yam_grand_hotpot",
       "tags": [
         "meal",
         "craftable",
@@ -6365,7 +6365,7 @@
       ]
     },
     {
-      "id": "food_banh_mi_kep_thap_cam",
+      "id": "food_oakhaven_roast_pork_banh_mi",
       "name": "Bánh Mì Kẹp Thịt Nướng Oakhaven",
       "description": "Món ăn nấu tại Lò Nướng Đá của Quán The Hearth từ Bột Mì Tươi ×1, Thịt & Sườn Heo ×1, Hắc Cà Rốt Mắt Mèo ×1, Rau Chân Vịt Đồi Sương ×1, Ớt Đỏ Lửa Bếp ×1. Hồi +140 HP / +190 Stamina.",
       "category": "bakery",
@@ -6374,7 +6374,7 @@
       "sell_price": 220,
       "energy": 190,
       "buff": "+2 Tốc độ, +2 Phòng ngự, +1 May mắn",
-      "recipe_id": "banh_mi_kep_thap_cam",
+      "recipe_id": "oakhaven_roast_pork_banh_mi",
       "tags": [
         "bakery",
         "craftable",
@@ -6382,7 +6382,7 @@
       ]
     },
     {
-      "id": "food_com_lam_ong_tre_muoi_me",
+      "id": "food_bamboo_roasted_rice_shoots",
       "name": "Cơm Lam Ống Tre Măng Ngọt",
       "description": "Món ăn nấu tại Bếp Nướng & Hun Khói của Quán The Hearth từ Gạo Lúa Nước ×1, Bụi Măng Tre Ngọt ×1, Muối Biển Sấy ×1. Hồi +100 HP / +150 Stamina.",
       "category": "meal",
@@ -6391,7 +6391,7 @@
       "sell_price": 162,
       "energy": 150,
       "buff": "+1 Đào mỏ, +1 Phòng thủ",
-      "recipe_id": "com_lam_ong_tre_muoi_me",
+      "recipe_id": "bamboo_roasted_rice_shoots",
       "tags": [
         "meal",
         "craftable",
@@ -6399,7 +6399,7 @@
       ]
     },
     {
-      "id": "food_ga_ham_sam_rung_da",
+      "id": "food_mandrake_snow_maca_poultry_broth",
       "name": "Gà Hầm Sâm Mandrake Maca",
       "description": "Món ăn nấu tại Nồi Ninh Hầm của Quán The Hearth từ Thịt Gà Vườn ×1, Củ Mandrake Nhân Sâm ×1, Củ Maca Núi Tuyết ×1. Hồi +150 HP / +200 Stamina.",
       "category": "meal",
@@ -6408,7 +6408,7 @@
       "sell_price": 235,
       "energy": 200,
       "buff": "+45 Max Stamina (tạm thời), +2 Phòng ngự",
-      "recipe_id": "ga_ham_sam_rung_da",
+      "recipe_id": "mandrake_snow_maca_poultry_broth",
       "tags": [
         "meal",
         "craftable",
@@ -6416,7 +6416,7 @@
       ]
     },
     {
-      "id": "food_thit_nuong_lua_dia_nguc",
+      "id": "food_fiery_chili_ginger_grilled_beef",
       "name": "Thịt Nướng Tiêu Cay Hỏa Khương",
       "description": "Món ăn nấu tại Bếp Nướng & Hun Khói của Quán The Hearth từ Thịt Bò Trang Trại ×1, Ớt Đỏ Lửa Bếp ×1, Hỏa Khương Rừng Thầm Thì ×1. Hồi +150 HP / +195 Stamina.",
       "category": "meal",
@@ -6425,7 +6425,7 @@
       "sell_price": 233,
       "energy": 195,
       "buff": "+4 Sức tấn công, +10% Tốc độ vung vũ khí",
-      "recipe_id": "thit_nuong_lua_dia_nguc",
+      "recipe_id": "fiery_chili_ginger_grilled_beef",
       "tags": [
         "meal",
         "craftable",
@@ -6433,7 +6433,7 @@
       ]
     },
     {
-      "id": "food_sup_yen_pha_le_thung_lung",
+      "id": "food_snow_lotus_glow_fern_soup",
       "name": "Súp Tuyết Liên & Dương Xỉ Đom Đóm",
       "description": "Món ăn nấu tại Nồi Ninh Hầm của Quán The Hearth từ Hoa Tuyết Liên ×1, Củ Dương Xỉ Đom Đóm ×1, Mật Ong ×1. Hồi +170 HP / +220 Stamina.",
       "category": "meal",
@@ -6442,7 +6442,7 @@
       "sell_price": 264,
       "energy": 220,
       "buff": "+3 Phòng ngự, +30 Max HP (tạm thời), -30% Sát thương Lạnh & Choáng",
-      "recipe_id": "sup_yen_pha_le_thung_lung",
+      "recipe_id": "snow_lotus_glow_fern_soup",
       "tags": [
         "meal",
         "craftable",
@@ -6450,7 +6450,7 @@
       ]
     },
     {
-      "id": "food_banh_ngu_coc_dai_luc",
+      "id": "food_cassava_dark_rye_hearth_loaf",
       "name": "Bánh Ngũ Cốc Sắn Dây Hắc Mạch",
       "description": "Món ăn nấu tại Lò Nướng Đá của Quán The Hearth từ Bột Mì Tươi ×1, Bó Hắc Mạch Đêm Rừng ×1, Củ Sắn Dây ×1. Hồi +130 HP / +180 Stamina.",
       "category": "bakery",
@@ -6459,7 +6459,7 @@
       "sell_price": 206,
       "energy": 180,
       "buff": "-15% Tiêu hao Stamina toàn diện, +1 Đào mỏ",
-      "recipe_id": "banh_ngu_coc_dai_luc",
+      "recipe_id": "cassava_dark_rye_hearth_loaf",
       "tags": [
         "bakery",
         "craftable",
@@ -6467,7 +6467,7 @@
       ]
     },
     {
-      "id": "food_banh_cau_vong_4_mua",
+      "id": "food_four_season_turban_orchard_cake",
       "name": "Bánh Trái Cây 4 Mùa Turban",
       "description": "Món ăn nấu tại Lò Nướng Đá của Quán The Hearth từ Đào Anh Thảo Mọng Nước ×1, Bí Turban Ngũ Sắc ×1, Táo Sồi Mật Ngọt ×1, Mận Băng Tuyết Đậm Vị ×1. Hồi +160 HP / +200 Stamina.",
       "category": "bakery",
@@ -6476,7 +6476,7 @@
       "sell_price": 246,
       "energy": 200,
       "buff": "+2 Tốc độ, +2 May mắn, -15% Hao Stamina thao tác",
-      "recipe_id": "banh_cau_vong_4_mua",
+      "recipe_id": "four_season_turban_orchard_cake",
       "tags": [
         "bakery",
         "craftable",
@@ -6484,7 +6484,7 @@
       ]
     },
     {
-      "id": "food_yen_tiec_cau_sieu_anh_hon",
+      "id": "food_grand_solaria_memorial_feast",
       "name": "Đại Yến Bàn Thờ Cổ Solaria",
       "description": "Món ăn nấu tại Nồi Ninh Hầm của Quán The Hearth từ Hoa Băng Tuyết Ngàn Năm ×1, Gạo Lúa Nước ×1, Nghệ Tây Saffron ×1, Nấm Cục Đá Hang Sâu ×1. Hồi +180 HP / +240 Stamina.",
       "category": "meal",
@@ -6493,7 +6493,7 @@
       "sell_price": 282,
       "energy": 240,
       "buff": "+4 Tấn công, +4 Phòng ngự, -35% Tích tụ Miasma [Đại Lễ Vật Bàn Thờ Cổ]",
-      "recipe_id": "yen_tiec_cau_sieu_anh_hon",
+      "recipe_id": "grand_solaria_memorial_feast",
       "tags": [
         "meal",
         "craftable",

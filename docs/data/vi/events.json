@@ -27,7 +27,7 @@
         "Buff độ ẩm đất mùa Xuân & +50 đến +90 Tem Phiếu Hội Chợ",
         "Hạt giống xuân hiếm"
       ],
-      "special_food": "food_canh_thao_moc_bup_sen"
+      "special_food": "food_artichoke_lotus_cleansing_broth"
     },
     {
       "id": "fest_terrace_skiff",
@@ -47,7 +47,7 @@
         "Hạt giống lúa nước & sen tuyết chất lượng cao",
         "Tem Phiếu Hội Chợ & Cúp Đua Thuyền"
       ],
-      "special_food": "food_com_lam_ong_tre_muoi_me"
+      "special_food": "food_bamboo_roasted_rice_shoots"
     },
     {
       "id": "fest_arcane_eclipse",
@@ -68,7 +68,7 @@
         "Thuốc Giả Kim & Công thức bí ẩn",
         "Buff Vận May mùa mới"
       ],
-      "special_food": "food_tra_sen_bach_diep"
+      "special_food": "food_sun_daisy_lotus_herbal_tea"
     },
     {
       "id": "fest_summer_fireworks",
@@ -89,7 +89,7 @@
         "Nhặt Mảnh Pháo Hoa / Đá Đom Đóm quanh bờ hồ vào sáng hôm sau",
         "+80 điểm thân mật với NPC cùng ngắm pháo hoa"
       ],
-      "special_food": "food_dui_rung_hun_khoi_da_chien"
+      "special_food": "food_bay_laurel_smoked_pork_haunch"
     },
     {
       "id": "fest_autumn_masquerade",
@@ -110,7 +110,7 @@
         "Tăng tim cực nhanh với trẻ nhỏ & nhận bùa may mắn",
         "Hiệu ứng biến hình vui 24h & vật phẩm trang trí bí ngô"
       ],
-      "special_food": "food_bi_do_nuong_pho_mai_deo"
+      "special_food": "food_cheesy_baked_sweet_pumpkin"
     },
     {
       "id": "fest_solaria_royal_fair",
@@ -131,7 +131,7 @@
         "Cúp Vàng Hoàng Gia (+15% giá bán món ăn vĩnh viễn)",
         "Cúp Vô Địch Lôi Đài, Vũ khí hoặc Đá Khảm hiếm"
       ],
-      "special_food": "food_xoi_hat_sen_nuoc_cot_dua"
+      "special_food": "food_grand_saffron_seafood_paella"
     },
     {
       "id": "fest_wolf_tooth_mist",
@@ -151,7 +151,7 @@
         "Phúc Lợi Mùa Đông (+15 Max Stamina & -25% ST Lạnh suốt Mùa Đông, không chiếm 5 Ô Buff)",
         "Quặng hiếm & Tem Phiếu"
       ],
-      "special_food": "food_ga_ham_sam_rung_da"
+      "special_food": "food_mandrake_snow_maca_poultry_broth"
     },
     {
       "id": "fest_winter_hotpot",
@@ -172,7 +172,7 @@
         "Sổ Tay Công Thức Bà Amalia Tập 2 (Năm 1) hoặc Gia Vị Hoàng Kim (Năm 2+)",
         "+20 đến +80 điểm thân mật toàn làng (+50 riêng cho NPC trùng khẩu vị)"
       ],
-      "special_food": "food_lau_thap_cam_bach_vi"
+      "special_food": "food_oakhaven_salsify_yam_grand_hotpot"
     }
   ],
   "recurring_events": [
