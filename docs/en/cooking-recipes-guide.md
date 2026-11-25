@@ -9,19 +9,9 @@ spoiler: false
 
 # 🍳 Oakhaven Culinary Compendium: 55 Recipes & Combat Buffs
 
-At **The Hearth Eatery & Tavern**, cooking stands at the center of both Oakhaven’s homestead economy and 150-floor mine survival. Using **Grandmother Amalia’s Ledger**, Rowan masters **55 culinary recipes** across **5 Kitchen Stations**, crafted exclusively from Oakhaven's 92 botanical species, livestock, and surface fishing.
+At **The Hearth Eatery & Tavern**, Rowan masters **55 culinary recipes** across **5 Kitchen Stations** (including **Herbal Beef Pho** and **Oakhaven Roast Pork Banh Mi**), directly utilizing Oakhaven's **92 botanical species**, livestock, and surface fishing.
 
 ---
-
-## 1. Three Pillars of Oakhaven Cuisine
-
-1. **Tavern & Passive Sales:** Sold via the Honor Pantry / Shipping Bin, or served optionally during evening hours (+20% Tip, stacking up to +40% when Fresh).
-2. **Mine Expedition Rations:** Instant HP/Stamina recovery and combat buffs (ATK, DEF, Speed, Mining, Cold/Burn Resistance).
-3. **Purification Offerings:** Offered at Ancient Memorial Altars to cleanse war-blighted land.
-
----
-
-## 2. Complete 55-Recipe Table (Synced with 92 Botanical Species)
 
 | # | Dish Name | Station | Canonical Ingredients | HP / Stamina | Buff / Effect |
 |:---:|:---|:---|:---|:---:|:---|
@@ -29,15 +19,15 @@ At **The Hearth Eatery & Tavern**, cooking stands at the center of both Oakhaven
 | 2 | **Scallion Herb Omelet** | Frying Pan | Farmstead Egg ×1, Valley Scallion ×1 | +40 HP / +70 Stamina | +1 Move Speed |
 | 3 | **Garlic-Buttered Roasted Potato** | Stone Oven | Highland Potato ×1, Fresh Butter ×1, Frontier Purple Garlic ×1 | +60 HP / +90 Stamina | +1 Defense |
 | 4 | **Crusty Wheat Loaf** | Stone Oven | Fresh Flour ×2, Natural Yeast Starter ×1 | +50 HP / +80 Stamina | -10% Farming Stamina Cost |
-| 5 | **Warm Mushroom & Scallion Soup** | Boiling Pot | Wild Forest Mushroom ×1, Valley Scallion ×1 | +70 HP / +110 Stamina | +2 Mining Efficiency |
-| 6 | **Chili-Salted Grilled Stream Carp** | Smoker & Grill | Stream Carp ×1, Hearth Red Chili ×1, Dried Sea Salt ×1 | +80 HP / +100 Stamina | +1 Melee Attack |
+| 5 | **Warm Mushroom & Turnip Soup** | Boiling Pot | Wild Forest Mushroom ×1, Frost Turnip ×1, Valley Scallion ×1 | +70 HP / +110 Stamina | +2 Mining Efficiency |
+| 6 | **Chili-Lime Grilled Stream Carp** | Smoker & Grill | Stream Carp ×1, Hearth Red Chili ×1, Spark-Lemon ×1 | +80 HP / +100 Stamina | +1 Melee Attack |
 | 7 | **Chili-Buttered Sun Corn** | Frying Pan | Sun-Corn Ear ×1, Fresh Butter ×1, Hearth Red Chili ×1 | +75 HP / +100 Stamina | +1 Speed, +1 Attack |
 | 8 | **Honeyed Shadow Rye Porridge** | Boiling Pot | Shadow Rye Sheaf ×1, Wild Honey ×1 | +85 HP / +140 Stamina | +2 Stamina/sec Regen |
-| 9 | **Hearty Harvest Vegetable Stew** | Boiling Pot | Honey Pumpkin ×1, Shadow Cat-Eye Carrot ×1, Crisp Ice Cabbage ×1 | +90 HP / +130 Stamina | +2 Defense |
+| 9 | **Jícama & Cabbage Harvest Stew** | Boiling Pot | Crispy Jícama ×1, Shadow Cat-Eye Carrot ×1, Crisp Ice Cabbage ×1 | +90 HP / +130 Stamina | +2 Defense |
 | 10 | **Crispy Scallion Skillet Cake** | Frying Pan | Fresh Flour ×1, Valley Scallion ×1, Farmstead Egg ×1 | +70 HP / +95 Stamina | +15% Attack Speed |
 | 11 | **Night-Wine Onion Braised Beef** | Boiling Pot | Pasture Beef ×1, Aged Night Grape Wine ×1, Golden Valley Onion ×1 | +150 HP / +200 Stamina | +3 Attack, +20 Max HP |
 | 12 | **Garlic-Rosemary Seared Steak** | Smoker & Grill | Pasture Beef ×1, Frontier Purple Garlic ×1, Hearth Rosemary ×1 | +160 HP / +180 Stamina | +4 Attack |
-| 13 | **Honey Rosemary Roast Chicken** | Stone Oven | Free-Range Poultry ×1, Wild Honey ×1, Hearth Rosemary ×1 | +140 HP / +190 Stamina | +2 Attack, +1 Speed |
+| 13 | **Fire-Orange Honey Roast Chicken** | Stone Oven | Free-Range Poultry ×1, Ember Orange ×1, Wild Honey ×1 | +140 HP / +190 Stamina | +2 Attack, +1 Speed |
 | 14 | **Plum & Cranberry Glazed Ribs** | Smoker & Grill | Homestead Pork & Ribs ×1, Frost Plum ×1, Bog Cranberry Bush ×1 | +150 HP / +210 Stamina | +2 Attack, +2 Defense |
 | 15 | **Melted Cheese Beef Sandwich** | Stone Oven | Fresh Flour ×1, Pasture Beef ×1, Oak-Aged Cheese ×1 | +130 HP / +170 Stamina | +3 Defense, Stun Immunity |
 | 16 | **Spicy Fire-Tomato Fish Broth** | Boiling Pot | Stream Carp ×1, Juicy Fire Tomato ×1, Hearth Red Chili ×1 | +100 HP / +140 Stamina | +2 Cold & Poison Resist |
@@ -45,12 +35,12 @@ At **The Hearth Eatery & Tavern**, cooking stands at the center of both Oakhaven
 | 18 | **Saffron Seafood Fried Rice** | Frying Pan | Milled Valley Rice ×1, Stream Carp ×1, Saffron Crocus ×1 | +120 HP / +160 Stamina | +2 Mining, +1 Attack |
 | 19 | **Creamy Freshwater Shrimp Bisque** | Boiling Pot | Freshwater Shrimp ×1, Fresh Cow Milk ×1, Fresh Butter ×1 | +180 HP / +250 Stamina | +3 Defense, +3 Luck |
 | 20 | **Chili Carp & Mushroom Hotpot** | Boiling Pot | Stream Carp ×1, Wild Forest Mushroom ×1, Hearth Red Chili ×1 | +200 HP / +250 Stamina | +4 Attack, Cave Light Aura |
-| 21 | **Chilled Berry Vanilla Tart** | Stone Oven | Spring Wildberry ×1, Fresh Flour ×1, Deepwood Vanilla Orchid ×1 | +80 HP / +120 Stamina | Full Cold & Frost Immunity |
-| 22 | **Double-Baked Garlic Butter Bread** | Stone Oven | Fresh Flour ×1, Frontier Purple Garlic ×1, Fresh Butter ×1 | +90 HP / +110 Stamina | +2 Mining Efficiency |
-| 23 | **Summer Kiwano & Olive Salad** | Boiling Pot | Horned Kiwano Melon ×1, Oakhaven Honey Apple ×1, Ancient Olive Tree ×1 | +60 HP / +150 Stamina | +2 Move Speed |
+| 21 | **Berry, Cherry & Vanilla Tart** | Stone Oven | Spring Wildberry ×1, Crimson Cherry ×1, Deepwood Vanilla Orchid ×1 | +80 HP / +120 Stamina | Full Cold & Frost Immunity |
+| 22 | **Oakhaven Herbal Beef Pho** | Boiling Pot | Milled Valley Rice ×1, Pasture Beef ×1, Golden Valley Onion ×1, Whisper Ginger Root ×1, Wild Cinnamon ×1 | +190 HP / +260 Stamina | +3 Speed, +3 Attack, Cold-Proof Warmth |
+| 23 | **Summer Melon, Kiwano & Olive Salad** | Boiling Pot | Magma Melon ×1, Horned Kiwano Melon ×1, Ancient Olive Tree ×1 | +60 HP / +150 Stamina | +2 Move Speed |
 | 24 | **Cheesy Baked Sweet Pumpkin** | Stone Oven | Honey Pumpkin ×1, Oak-Aged Cheese ×1 | +110 HP / +160 Stamina | +3 Defense |
-| 25 | **Ginger & Chufa Trail Cookies** | Stone Oven | Whisper Ginger Root ×1, Fresh Flour ×1, Earth-Almond Chufa ×1 | +70 HP / +100 Stamina | Immunity to Frost Slow |
-| 26 | **Oak-Smoked Homestead Bacon** | Smoker & Grill | Homestead Pork & Ribs ×1, Dried Sea Salt ×1 | +130 HP / +170 Stamina | +2 Attack, +30 Max Stamina |
+| 25 | **Walnut & Chufa Trail Cookies** | Stone Oven | Oakhaven Walnut ×1, Fresh Flour ×1, Earth-Almond Chufa ×1 | +70 HP / +100 Stamina | Immunity to Frost Slow |
+| 26 | **Scallion Pork-Stuffed Roasted Eggplant** | Smoker & Grill | Dusk Eggplant ×1, Homestead Pork & Ribs ×1, Valley Scallion ×1 | +130 HP / +170 Stamina | +2 Attack, +30 Max Stamina |
 | 27 | **Black-Pepper Onion Smoked Sausage** | Smoker & Grill | Homestead Pork & Ribs ×1, Traded Black Pepper ×1, Golden Valley Onion ×1 | +120 HP / +150 Stamina | +15% Critical Hit Rate |
 | 28 | **Spicy Chili Mushroom Noodles** | Frying Pan | Fresh Flour ×1, Wild Forest Mushroom ×1, Hearth Red Chili ×1 | +100 HP / +140 Stamina | +2 Speed, +1 Attack |
 | 29 | **Avocado & Egg Hearth Toast** | Frying Pan | Fresh Flour ×1, Creamy Avocado Tree ×1, Farmstead Egg ×1 | +110 HP / +150 Stamina | +2 Farming Tool Speed |
@@ -60,10 +50,10 @@ At **The Hearth Eatery & Tavern**, cooking stands at the center of both Oakhaven
 | 33 | **Hearth-Steamed Sticky Rice Cake** | Boiling Pot | Milled Valley Rice ×1, Sweet Pea Pod ×1, Homestead Pork & Ribs ×1 | +220 HP / +300 Stamina | +3 Defense, +3 Attack, +50 Max HP |
 | 34 | **Artichoke & Lotus Cleansing Broth** | Boiling Pot | Globe Artichoke ×1, Terrace Mud Lotus Root ×1 | +110 HP / +170 Stamina | Cures All Poison & Curse Debuffs |
 | 35 | **Purple Ube & Apricot Mooncake** | Steamer | Milled Valley Rice ×1, Ancient Forest Ube ×1, Golden Apricot Tree ×1 | +90 HP / +140 Stamina | +3 Luck, +30% Tavern Guest Tips |
-| 36 | **Hundred-Petal Lotus Tea** | Boiling Pot | Lotus Tea Leaves ×1, Frost-Lotus Bloom ×1 | +40 HP / +180 Stamina | -50% Stamina Drain for All Actions |
+| 36 | **Sun-Daisy & Lotus Herbal Tea** | Boiling Pot | Lotus Tea Leaves ×1, Sun Daisy Petals ×1, Frost-Lotus Bloom ×1 | +40 HP / +180 Stamina | -50% Stamina Drain for All Actions |
 | 37 | **Hot Highland Milk Coffee** | Boiling Pot | Highland Coffee ×1, Fresh Cow Milk ×1, Raw Cane Sugar ×1 | +50 HP / +120 Stamina | +2 Move Speed |
 | 38 | **Winter Chestnut Hot Chocolate** | Boiling Pot | Valley Cacao Tree ×1, Fresh Cow Milk ×1, Roasted Chestnut Tree ×1 | +60 HP / +130 Stamina | +50 Bonus Stamina Next Morning |
-| 39 | **Craft Hops & Night-Grape Brew** | Boiling Pot | Midnight Grapes ×1, Tavern Hops ×1, Natural Yeast Starter ×1 | +100 HP / +100 Stamina | +4 Attack, -10% Mine Light Radius |
+| 39 | **Craft Hops & Lichen-Pear Brew** | Boiling Pot | Misty Pear ×1, Tavern Hops ×1, Glacial Lichen Root ×1 | +100 HP / +100 Stamina | +4 Attack, -10% Mine Light Radius |
 | 40 | **Chilled Pomegranate Mint Juice** | Boiling Pot | Solaria Pomegranate Tree ×1, Dewdrop Mint ×1 | +70 HP / +140 Stamina | Lava Damage Immunity (3 min) |
 | 41 | **Garlic-Asparagus Seared Tuna** | Smoker & Grill | Deep-Sea Tuna ×1, Frontier Purple Garlic ×1, Spring Asparagus ×1 | +140 HP / +180 Stamina | +3 Mining, +2 Attack |
 | 42 | **Pepper-Butter Grilled Lake Snails** | Smoker & Grill | Lake Snail & Crab ×1, Fresh Butter ×1, Traded Black Pepper ×1 | +85 HP / +120 Stamina | +20% Item Magnet Pickup Radius |
@@ -71,8 +61,8 @@ At **The Hearth Eatery & Tavern**, cooking stands at the center of both Oakhaven
 | 44 | **Hearth-Baked Apple Fig Pie** | Stone Oven | Oakhaven Honey Apple ×1, Honey Fig Tree ×1, Fresh Flour ×1 | +110 HP / +160 Stamina | +2 Luck, +1 Speed |
 | 45 | **Blackberry & Gold Kiwi Tart** | Stone Oven | Blackberry Bush ×1, Gold Kiwifruit ×1, Fresh Flour ×1 | +120 HP / +170 Stamina | Emits Soft Personal Light in Caves |
 | 46 | **Bay-Laurel Smoked Pork Haunch** | Smoker & Grill | Homestead Pork & Ribs ×1, Bay Laurel ×1, Traded Black Pepper ×1 | +170 HP / +220 Stamina | +4 Combat Attack in Mines |
-| 47 | **Oakhaven Grand Communal Hotpot** | Boiling Pot | Pasture Beef ×1, Oyster Salsify ×1, Wild Forest Mushroom ×1 | +250 HP / +350 Stamina | +3 All Stats (ATK, DEF, SPD, Mine) |
-| 48 | **Dark-Rye Spinach Survival Loaf** | Stone Oven | Shadow Rye Sheaf ×2, Valley Spinach ×1, Natural Yeast Starter ×1 | +130 HP / +190 Stamina | 2x Defense when HP < 30% |
+| 47 | **Moonlight Yam & Salsify Grand Hotpot** | Boiling Pot | Pasture Beef ×1, Moonlight Sweet Yam ×1, Oyster Salsify ×1 | +250 HP / +350 Stamina | +3 All Stats (ATK, DEF, SPD, Mine) |
+| 48 | **Oakhaven Roast Pork Banh Mi** | Stone Oven | Fresh Flour ×1, Homestead Pork & Ribs ×1, Shadow Cat-Eye Carrot ×1, Valley Spinach ×1, Hearth Red Chili ×1 | +145 HP / +210 Stamina | +2 Speed, +2 Defense, +15% Luck |
 | 49 | **Bamboo-Roasted Rice & Shoots** | Smoker & Grill | Milled Valley Rice ×1, Sweet Bamboo Shoot ×1, Dried Sea Salt ×1 | +100 HP / +150 Stamina | +1 Mining, +1 Defense |
 | 50 | **Mandrake & Snow-Maca Poultry Broth** | Boiling Pot | Free-Range Poultry ×1, Mandrake Root ×1, Wolf-Tooth Snow Maca ×1 | +220 HP / +300 Stamina | Permanent +5 Max Stamina (up to 5x) |
 | 51 | **Fiery Chili-Ginger Grilled Beef** | Smoker & Grill | Pasture Beef ×1, Hearth Red Chili ×1, Whisper Ginger Root ×1 | +200 HP / +240 Stamina | Attacks Inflict Burn on Enemies |
