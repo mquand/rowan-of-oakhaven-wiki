@@ -78,7 +78,7 @@ spoiler: false
   - *2 Hearts:* Heated argument at the anvil; Boris confiscates Bram's custom pickaxe, prompting Bram to storm off to the riverside in bitter silence.
   - *4 Hearts:* Rowan discovers Bram massaging his throbbing leg in the cold shadows of Floor 20, confessing that hearing Boris frantically hammer away rocks for 3 days was the only thing that kept him breathing under the rubble; unlocks **Deep-Vein Mineral Scouting**.
   - *6 Hearts:* Penny tasks Rowan with uncovering an old tin box containing their mother's original goulash recipe and a letter pleading for them to support one another.
-  - *8 Hearts (Reconciliation Feast):* Rowan hosts a family dinner serving piping-hot Goulash. The hardened dwarven brothers weep openly, shattering a decade of estrangement and unlocking the **Advanced Refining Forge**.
+  - *8 Hearts (Reconciliation Feast):* Rowan hosts a family dinner serving piping-hot Goulash. The two weather-beaten dwarven brothers quietly finish the pot of their mother's stew, putting ten years of bitterness to rest and unlocking the **Advanced Refining Forge**.
 
 ---
 
@@ -250,7 +250,7 @@ spoiler: false
 ### 🧳 The Hearth Attic Bunkhouse Boarders
 * **Silas (Donkey Peddler):** Wiry itinerant trader accompanied by his stubborn old pack-donkey, boarding Thursday through Saturday.
   - *Real-world Wound:* Lost his entire caravan during the war; scrapes by in his elderly years accompanied only by his faithful beast.
-  - *Comfort Dish:* **Brioche Bread & Spiced Cider**. 15% discount on exotic wares at 2 Hearts; signs weekly wholesale supply contract at 8 Hearts.
+  - *Comfort Dish:* **Crusty Hearth Sourdough & Lichen-Pear Brew**. 15% discount on exotic wares at 2 Hearts; signs weekly wholesale supply contract at 8 Hearts.
 * **Hester (Exiled Former Knight):** Deserter hiding beneath a tattered cowl in the corner attic loft; former subordinate of Valerius at Solaria.
   - *Real-world Wound:* Crushing survivor's guilt over battlefield civilian massacres; lives in fear of military bounty hunters.
   - *Comfort Dish:* **Charcoal Oak Steak**. Teaches armor reinforcement (+10 DEF) at 2 Hearts; restores weapon and armor durability against cracking at 4 Hearts; reconciles with Valerius at 6 Hearts; bequeaths legendary Forsaken Knight's Blade at 8 Hearts.

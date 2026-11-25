@@ -1,15 +1,15 @@
 ---
-title: "Artisan Workbench & 20 Craftable Objects"
+title: "Artisan Workbench & 21 Craftable Objects"
 status: public
 audience: public
-updated: 2026-11-15
+updated: 2026-11-25
 tags: [crafting, workbench, automation, mining, tavern, survival]
 spoiler: false
 ---
 
-# 🔨 Artisan Workbench & 20 Craftable Objects
+# 🔨 Artisan Workbench & 21 Craftable Objects
 
-As a self-reliant frontier artisan at the crossroads of Oakhaven, Rowan cannot rely solely on blacksmith Boris or tailor Elora for everyday survival gear. Set up right beside your rustic homestead porch, the **Artisan Workbench** is where you hand-saw timbers, weave vines, forge brackets, and concoct 20 essential survival fixtures.
+As a self-reliant frontier artisan at the crossroads of Oakhaven, Rowan cannot rely solely on blacksmith Boris or tailor Elora for everyday survival gear. Set up right beside your rustic homestead porch, the **Artisan Workbench** is where you hand-saw timbers, weave vines, forge brackets, and concoct 21 essential survival fixtures.
 
 ---
 
@@ -49,8 +49,8 @@ flowchart LR
    - Cultivates frost-yeast into sourdough starters; ferments spiced winter apple cider.
 4. **Compost Bin (`craft_compost_bin`):** *(25 Oak Timber + 10 Dried Straw)*
    - Recycles pulled weeds and chaff into **Organic Fertilizer** (+20% crop growth speed).
-5. **Fae Apiary (`craft_fae_apiary`):** *(35 Oak Timber + 1 Fae Dust + 10 Lotus Tea Leaves)*
-   - Installed near tea flower beds to yield pure **Wildflower Honey** every 3 days.
+5. **Wildwood Apiary (`craft_fae_apiary`):** *(35 Oak Timber + 1 Oak Resin + 10 Wild Blossoms)*
+   - Installed near flower beds to yield pure **Wildflower Honey** every 3 days.
 
 ---
 
@@ -59,7 +59,7 @@ flowchart LR
 
 6. **Wall Torch (`craft_wall_torch` — Pack of 5):** *(2 Oak Timber + 1 Black Coal)*
    - Permanently anchored to cavern rock walls; never burns out, marking maze crossroads.
-7. **Miner's Blast Powder (`craft_blast_powder`):** *(2 Coal + 2 Starlight Dust + 1 Terracotta Clay)*
+7. **Miner's Blast Powder (`craft_blast_powder`):** *(2 Coal + 1 Quartz Crystal + 1 Terracotta Clay)*
    - Shatters stubborn boulders and compact vein clusters across a $3 \times 3$ tile blast zone.
 8. **Escape Rope (`craft_escape_rope`):** *(12 Forest Vines)*
    - Emergency escape cord pulling you back to the nearest elevator shaft checkpoint when overwhelmed.
@@ -95,10 +95,10 @@ flowchart LR
     - Adds 1 dining table welcoming 2 extra evening patrons, directly boosting nightly gold intake.
 17. **Padded Leather Armchair (`craft_leather_armchair`):** *(15 Oak Timber + 2 Tanned Leather)*
     - Deeply cushioned armchair extending patron patience by $+30\%$ and adding $+10$ Cozy Rating.
-18. **Starlight Showcase Counter (`craft_showcase_counter`):** *(40 Oak Timber + 4 Quartz + 2 Copper Bars)*
-    - Preserves up to 12 baked pastries overnight at $100\%$ bakery freshness.
+18. **Oak Showcase Counter (`craft_showcase_counter`):** *(40 Oak Timber + 4 Quartz + 2 Copper Bars)*
+    - Preserves up to 12 prepared dishes overnight at $100\%$ hearth freshness.
 19. **Corner Cobblestone Hearth (`craft_corner_hearth`):** *(60 Rough Stone + 10 Clay + 5 Coal)*
-    - The roaring heart of your shop: Adds $+50$ Cozy Rating and inspires generous customer tips.
+    - The roaring heart of your tavern: Adds $+50$ Cozy Rating and inspires generous customer tips.
 
 ---
 
@@ -115,6 +115,6 @@ flowchart LR
 > [!TIP]
 > **Rowan's Dawn Routine:**
 > 1. At 06:00: Sprinklers have already watered all garden plots automatically.
-> 2. Run down to the stream to empty 2 **Willow Fish Traps**, collecting fat chub and river crayfish.
-> 3. Press the chub for oil to refuel your Hip Lantern; load salmon into the **Oak Smoker** for rations.
+> 2. Run down to the stream to empty 2 **Willow Fish Traps**, collecting stream fish and crayfish.
+> 3. Load fish into the **Oak Smoker** for pocket **Expedition Rations**, and grab fresh **Wall Torches** from the workbench.
 > 4. Pack 3 **Escape Ropes** and 5 bundles of **Blast Powder** into your satchel, and delve fearlessly into the 150-floor mines!

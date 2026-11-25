@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "version": "1.0.0",
-  "updated": "2026-11-18",
+  "updated": "2026-11-25",
   "phases": [
     {
       "phase_id": "phase_1_homestead",
@@ -30,23 +30,39 @@
       "phase": "phase_1_homestead",
       "map_zone": "riverside",
       "title": "Whisperwood Brook Bridge",
-      "narrative_lead": "npc_cedric",
-      "narrative_lead_name": "Cedric",
+      "narrative_lead": "npc_cedar",
+      "narrative_lead_name": "Cedar",
       "emotional_hook": "Rebinds the severed brook crossing blasted during wartime floodings, reuniting young Finn with his grandpa Garrick.",
       "visual_scale": "major_landmark",
       "size": "64x48",
       "materials": [
-        { "item_id": "item_wood_oak", "item_name": "Mature Oak Timber", "amount": 120 },
-        { "item_id": "item_stone", "item_name": "River Cobblestone", "amount": 60 },
-        { "item_id": "item_iron_nail", "item_name": "Boris's Forged Nails", "amount": 25 },
-        { "item_id": "gold", "item_name": "Gold Coins", "amount": 2500 }
+        {
+          "item_id": "item_wood_oak",
+          "item_name": "Mature Oak Timber",
+          "amount": 120
+        },
+        {
+          "item_id": "item_stone",
+          "item_name": "River Cobblestone",
+          "amount": 60
+        },
+        {
+          "item_id": "item_iron_nail",
+          "item_name": "Boris's Forged Nails",
+          "amount": 25
+        },
+        {
+          "item_id": "gold",
+          "item_name": "Gold Coins",
+          "amount": 2500
+        }
       ],
       "unlock_benefits": [
         "Cuts foot travel time to Garrick's caravel wharf by 60%",
         "Unlocks riverside otter shoals for freshwater pearl foraging"
       ],
-      "celebration_dish": "dish_smoked_fish_platter",
-      "celebration_dish_name": "Hearthside Smoked Brookfish Platter"
+      "celebration_dish": "food_ca_suoi_nuong_muoi_ot",
+      "celebration_dish_name": "Chili-Lime Grilled Stream Carp"
     },
     {
       "id": "p_windmill",
@@ -59,64 +75,116 @@
       "visual_scale": "major_landmark",
       "size": "64x64",
       "materials": [
-        { "item_id": "item_wood_oak", "item_name": "Mature Oak Timber", "amount": 100 },
-        { "item_id": "bar_copper", "item_name": "Smelted Copper Bar", "amount": 35 },
-        { "item_id": "item_dwarven_cog", "item_name": "Dwarven Mechanical Cog", "amount": 15 },
-        { "item_id": "gold", "item_name": "Gold Coins", "amount": 3200 }
+        {
+          "item_id": "item_wood_oak",
+          "item_name": "Mature Oak Timber",
+          "amount": 100
+        },
+        {
+          "item_id": "bar_copper",
+          "item_name": "Smelted Copper Bar",
+          "amount": 35
+        },
+        {
+          "item_id": "item_dwarven_cog",
+          "item_name": "Dwarven Mechanical Cog",
+          "amount": 15
+        },
+        {
+          "item_id": "gold",
+          "item_name": "Gold Coins",
+          "amount": 3200
+        }
       ],
       "unlock_benefits": [
         "Automatically mills grain overnight at a 1:2 grain-to-flour ratio",
         "Confers +30 Cozy Rating across farmsteads as the vanes spin again"
       ],
-      "celebration_dish": "bread_brioche",
-      "celebration_dish_name": "Golden Crust Brioche Loaf"
+      "celebration_dish": "food_banh_mi_lua_mi_gion",
+      "celebration_dish_name": "Crusty Hearth Sourdough"
     },
     {
       "id": "p_ancient_well",
       "phase": "phase_1_homestead",
       "map_zone": "village",
       "title": "Ancient Village Wellspring",
-      "narrative_lead": "npc_cedric",
-      "narrative_lead_name": "Cedric",
+      "narrative_lead": "npc_cedar",
+      "narrative_lead_name": "Cedar",
       "emotional_hook": "Excavates wartime rubble choking the sacred mountain aquifer, restoring crystal spring water to village homes.",
       "visual_scale": "minor_prop",
       "size": "32x32",
       "materials": [
-        { "item_id": "item_stone_brick", "item_name": "Dressed Stone Block", "amount": 100 },
-        { "item_id": "item_clay", "item_name": "Malleable Stream Clay", "amount": 40 },
-        { "item_id": "stone_quartz", "item_name": "Clear Quartz Crystal", "amount": 5 },
-        { "item_id": "gold", "item_name": "Gold Coins", "amount": 2000 }
+        {
+          "item_id": "item_stone_brick",
+          "item_name": "Dressed Stone Block",
+          "amount": 100
+        },
+        {
+          "item_id": "item_clay",
+          "item_name": "Malleable Stream Clay",
+          "amount": 40
+        },
+        {
+          "item_id": "stone_quartz",
+          "item_name": "Clear Quartz Crystal",
+          "amount": 5
+        },
+        {
+          "item_id": "gold",
+          "item_name": "Gold Coins",
+          "amount": 2000
+        }
       ],
       "unlock_benefits": [
         "Instantly refills watering cans with zero stamina expenditure",
         "Crops planted within a 5-tile radius grow 15% faster"
       ],
-      "celebration_dish": "tra_sen_bach_diep",
-      "celebration_dish_name": "Spring-Purified Hundred-Leaf Lotus Tea"
+      "celebration_dish": "food_tra_sen_bach_diep",
+      "celebration_dish_name": "Sun-Daisy & Lotus Herbal Tea"
     },
     {
       "id": "p_pip_roost",
       "phase": "phase_2_logistics",
       "map_zone": "farm",
       "title": "Pip's Avian Roost & Dispatch",
-      "narrative_lead": "npc_pip",
-      "narrative_lead_name": "Pip the Pygmy Owl",
+      "narrative_lead": "pet_pip",
+      "narrative_lead_name": "Pip",
       "emotional_hook": "Constructs a cozy insulated roost shielding loyal Pip from winter gales, with seed bins for exotic botanicals.",
       "visual_scale": "minor_prop",
       "size": "32x32",
       "materials": [
-        { "item_id": "item_wood_pine", "item_name": "Resilient Pine Lumber", "amount": 80 },
-        { "item_id": "item_willow_branch", "item_name": "Pliant Willow Branch", "amount": 40 },
-        { "item_id": "stone_quartz", "item_name": "Clear Quartz Crystal", "amount": 15 },
-        { "item_id": "stone_lumina_glow", "item_name": "Lumina Glowstone", "amount": 2 },
-        { "item_id": "gold", "item_name": "Gold Coins", "amount": 2800 }
+        {
+          "item_id": "item_wood_pine",
+          "item_name": "Resilient Pine Lumber",
+          "amount": 80
+        },
+        {
+          "item_id": "item_willow_branch",
+          "item_name": "Pliant Willow Branch",
+          "amount": 40
+        },
+        {
+          "item_id": "stone_quartz",
+          "item_name": "Clear Quartz Crystal",
+          "amount": 15
+        },
+        {
+          "item_id": "stone_lumina_glow",
+          "item_name": "Lumina Glowstone",
+          "amount": 2
+        },
+        {
+          "item_id": "gold",
+          "item_name": "Gold Coins",
+          "amount": 2800
+        }
       ],
       "unlock_benefits": [
         "Enables Avian Expeditions to forage rare foreign seeds across distant realms",
         "Pip delivers correspondence and trade manifests one hour earlier each dawn"
       ],
-      "celebration_dish": "pastry_berry_shortcake",
-      "celebration_dish_name": "Berry Shortcake Treat for Pip"
+      "celebration_dish": "food_tart_dau_tuyet_lanh",
+      "celebration_dish_name": "Berry, Cherry & Vanilla Tart"
     },
     {
       "id": "p_ore_cart_track",
@@ -129,18 +197,38 @@
       "visual_scale": "minor_prop",
       "size": "48x32",
       "materials": [
-        { "item_id": "bar_iron", "item_name": "Smelted Iron Bar", "amount": 60 },
-        { "item_id": "item_wood_oak", "item_name": "Mature Oak Timber", "amount": 50 },
-        { "item_id": "stone_gravity_float", "item_name": "Gravity Floatstone", "amount": 3 },
-        { "item_id": "ore_coal", "item_name": "Anthracite Coal", "amount": 30 },
-        { "item_id": "gold", "item_name": "Gold Coins", "amount": 4500 }
+        {
+          "item_id": "bar_iron",
+          "item_name": "Smelted Iron Bar",
+          "amount": 60
+        },
+        {
+          "item_id": "item_wood_oak",
+          "item_name": "Mature Oak Timber",
+          "amount": 50
+        },
+        {
+          "item_id": "stone_gravity_float",
+          "item_name": "Gravity Floatstone",
+          "amount": 3
+        },
+        {
+          "item_id": "ore_coal",
+          "item_name": "Anthracite Coal",
+          "amount": 30
+        },
+        {
+          "item_id": "gold",
+          "item_name": "Gold Coins",
+          "amount": 4500
+        }
       ],
       "unlock_benefits": [
         "Automated magnetic carts ferry excavated cavern ores directly to Boris's forge bin",
         "Completely eliminates mineral inventory clogging during deep descents"
       ],
-      "celebration_dish": "dish_dwarf_ironforge_goulash",
-      "celebration_dish_name": "Dwarven Ironforge Stout Goulash"
+      "celebration_dish": "food_bo_ham_ruou_vang_mo",
+      "celebration_dish_name": "Night-Wine Beef Bourguignon"
     },
     {
       "id": "p_ranger_outpost",
@@ -153,18 +241,38 @@
       "visual_scale": "major_landmark",
       "size": "64x48",
       "materials": [
-        { "item_id": "item_wood_oak", "item_name": "Mature Oak Timber", "amount": 120 },
-        { "item_id": "item_canvas_wool", "item_name": "Waterproof Wool Canvas", "amount": 20 },
-        { "item_id": "stone_quartz", "item_name": "Clear Quartz Crystal", "amount": 25 },
-        { "item_id": "item_craft_corner_hearth", "item_name": "Stone Corner Hearth", "amount": 1 },
-        { "item_id": "gold", "item_name": "Gold Coins", "amount": 3500 }
+        {
+          "item_id": "item_wood_oak",
+          "item_name": "Mature Oak Timber",
+          "amount": 120
+        },
+        {
+          "item_id": "item_canvas_wool",
+          "item_name": "Waterproof Wool Canvas",
+          "amount": 20
+        },
+        {
+          "item_id": "stone_quartz",
+          "item_name": "Clear Quartz Crystal",
+          "amount": 25
+        },
+        {
+          "item_id": "item_craft_corner_hearth",
+          "item_name": "Stone Corner Hearth",
+          "amount": 1
+        },
+        {
+          "item_id": "gold",
+          "item_name": "Gold Coins",
+          "amount": 3500
+        }
       ],
       "unlock_benefits": [
         "Safe haven bunk preventing exhaustion penalties when foraging past midnight",
         "Field workbench to repair axes and tools on site"
       ],
-      "celebration_dish": "dish_herbal_chicken_stew",
-      "celebration_dish_name": "Simmering Wildwood Chicken Broth"
+      "celebration_dish": "food_ga_ham_sam_rung_da",
+      "celebration_dish_name": "Mandrake & Snow-Maca Poultry Broth"
     },
     {
       "id": "p_watchtower_hill",
@@ -177,17 +285,33 @@
       "visual_scale": "major_landmark",
       "size": "64x96",
       "materials": [
-        { "item_id": "item_stone_brick", "item_name": "Dressed Stone Block", "amount": 150 },
-        { "item_id": "bar_iron", "item_name": "Smelted Iron Bar", "amount": 50 },
-        { "item_id": "item_optical_lens", "item_name": "Precision Optical Lens", "amount": 15 },
-        { "item_id": "gold", "item_name": "Gold Coins", "amount": 6000 }
+        {
+          "item_id": "item_stone_brick",
+          "item_name": "Dressed Stone Block",
+          "amount": 150
+        },
+        {
+          "item_id": "bar_iron",
+          "item_name": "Smelted Iron Bar",
+          "amount": 50
+        },
+        {
+          "item_id": "item_optical_lens",
+          "item_name": "Precision Optical Lens",
+          "amount": 15
+        },
+        {
+          "item_id": "gold",
+          "item_name": "Gold Coins",
+          "amount": 6000
+        }
       ],
       "unlock_benefits": [
         "Provides 100% accurate 3-day weather forecasts on morning bulletin posts",
         "Advance storm warning allows stoking tavern hearths for Stormbound Strangers"
       ],
-      "celebration_dish": "dish_iron_steak",
-      "celebration_dish_name": "Red Wine Searing Iron Steak"
+      "celebration_dish": "food_bit_tet_nuong_than_soi",
+      "celebration_dish_name": "Garlic-Rosemary Seared Steak"
     },
     {
       "id": "p_apothecary_nursery",
@@ -200,18 +324,38 @@
       "visual_scale": "minor_prop",
       "size": "48x48",
       "materials": [
-        { "item_id": "item_humus_wood", "item_name": "Decayed Humus Log", "amount": 80 },
-        { "item_id": "item_rich_compost", "item_name": "Rich Forest Compost", "amount": 50 },
-        { "item_id": "herb_lumina_shroom", "item_name": "Luminous Cavern Shroom", "amount": 25 },
-        { "item_id": "drop_prism_jelly", "item_name": "Prism Jelly Drop", "amount": 10 },
-        { "item_id": "gold", "item_name": "Gold Coins", "amount": 5000 }
+        {
+          "item_id": "item_humus_wood",
+          "item_name": "Decayed Humus Log",
+          "amount": 80
+        },
+        {
+          "item_id": "item_rich_compost",
+          "item_name": "Rich Forest Compost",
+          "amount": 50
+        },
+        {
+          "item_id": "herb_lumina_shroom",
+          "item_name": "Luminous Cavern Shroom",
+          "amount": 25
+        },
+        {
+          "item_id": "drop_prism_jelly",
+          "item_name": "Prism Jelly Drop",
+          "amount": 10
+        },
+        {
+          "item_id": "gold",
+          "item_name": "Gold Coins",
+          "amount": 5000
+        }
       ],
       "unlock_benefits": [
         "Clones deep cavern lumina mushrooms and magma ginseng on the surface",
         "Sylvan offers remedies and invigorating broths at a 50% community discount"
       ],
-      "celebration_dish": "dish_mushroom_risotto",
-      "celebration_dish_name": "Wild Cavern Pearl Mushroom Risotto"
+      "celebration_dish": "food_sup_nam_sao_am_bung",
+      "celebration_dish_name": "Creamy Mushroom & Turnip Soup"
     },
     {
       "id": "p_garrick_wharf",
@@ -224,18 +368,38 @@
       "visual_scale": "major_landmark",
       "size": "96x64",
       "materials": [
-        { "item_id": "item_wood_oak", "item_name": "Mature Oak Timber", "amount": 160 },
-        { "item_id": "bar_copper", "item_name": "Smelted Copper Bar", "amount": 50 },
-        { "item_id": "item_hemp_rope", "item_name": "Braided Hemp Rope", "amount": 30 },
-        { "item_id": "bar_iron", "item_name": "Smelted Iron Bar", "amount": 20 },
-        { "item_id": "gold", "item_name": "Gold Coins", "amount": 7500 }
+        {
+          "item_id": "item_wood_oak",
+          "item_name": "Mature Oak Timber",
+          "amount": 160
+        },
+        {
+          "item_id": "bar_copper",
+          "item_name": "Smelted Copper Bar",
+          "amount": 50
+        },
+        {
+          "item_id": "item_hemp_rope",
+          "item_name": "Braided Hemp Rope",
+          "amount": 30
+        },
+        {
+          "item_id": "bar_iron",
+          "item_name": "Smelted Iron Bar",
+          "amount": 20
+        },
+        {
+          "item_id": "gold",
+          "item_name": "Gold Coins",
+          "amount": 7500
+        }
       ],
       "unlock_benefits": [
         "Garrick docks a magnificent 3-masted flagship every Sunday dawn",
         "Doubles available southern spices and foreign tailoring textiles"
       ],
-      "celebration_dish": "dish_seafood_paella",
-      "celebration_dish_name": "Saffron Sizzling Seafood Paella"
+      "celebration_dish": "food_xoi_hat_sen_nuoc_cot_dua",
+      "celebration_dish_name": "Grand Saffron Seafood Paella"
     },
     {
       "id": "p_clara_library",
@@ -248,41 +412,77 @@
       "visual_scale": "major_landmark",
       "size": "64x64",
       "materials": [
-        { "item_id": "item_wood_oak", "item_name": "Mature Oak Timber", "amount": 140 },
-        { "item_id": "item_heavy_leather", "item_name": "Treated Heavy Leather", "amount": 30 },
-        { "item_id": "item_lumina_ink", "item_name": "Luminous Glow Ink", "amount": 15 },
-        { "item_id": "stone_quartz", "item_name": "Clear Quartz Crystal", "amount": 20 },
-        { "item_id": "gold", "item_name": "Gold Coins", "amount": 8000 }
+        {
+          "item_id": "item_wood_oak",
+          "item_name": "Mature Oak Timber",
+          "amount": 140
+        },
+        {
+          "item_id": "item_heavy_leather",
+          "item_name": "Treated Heavy Leather",
+          "amount": 30
+        },
+        {
+          "item_id": "item_lumina_ink",
+          "item_name": "Luminous Glow Ink",
+          "amount": 15
+        },
+        {
+          "item_id": "stone_quartz",
+          "item_name": "Clear Quartz Crystal",
+          "amount": 20
+        },
+        {
+          "item_id": "gold",
+          "item_name": "Gold Coins",
+          "amount": 8000
+        }
       ],
       "unlock_benefits": [
         "Unlocks Ancient Blueprint Decryption for Royal-tier weapon forging",
         "Clara teaches village youngsters each morning, elevating town morale"
       ],
-      "celebration_dish": "tart_dau_tuyet_lanh",
-      "celebration_dish_name": "Frosted Snowberry Glaze Tart"
+      "celebration_dish": "food_banh_tart_viet_quat_dai_ngan",
+      "celebration_dish_name": "Blackberry & Gold Kiwi Tart"
     },
     {
       "id": "p_sacred_altar",
       "phase": "phase_4_heritage_heart",
       "map_zone": "farm",
       "title": "Sacred Soil Cleansing Altar",
-      "narrative_lead": "npc_rowan",
-      "narrative_lead_name": "The Entire Valley",
+      "narrative_lead": "npc_rosemary",
+      "narrative_lead_name": "Rosemary",
       "emotional_hook": "Liberates a 40-tile eastern expanse poisoned by subterranean Blight roots for 15 years, restoring sacred arable land.",
       "visual_scale": "major_landmark",
       "size": "64x64",
       "materials": [
-        { "item_id": "item_purification_salt", "item_name": "Blight Purification Salt", "amount": 100 },
-        { "item_id": "stone_mana_pure", "item_name": "Pure Mana Stone", "amount": 25 },
-        { "item_id": "item_ancient_altar_dust", "item_name": "Ancient Altar Dust", "amount": 10 },
-        { "item_id": "gold", "item_name": "Gold Coins", "amount": 12000 }
+        {
+          "item_id": "item_purification_salt",
+          "item_name": "Blight Purification Salt",
+          "amount": 100
+        },
+        {
+          "item_id": "stone_mana_pure",
+          "item_name": "Pure Mana Stone",
+          "amount": 25
+        },
+        {
+          "item_id": "item_ancient_altar_dust",
+          "item_name": "Ancient Altar Dust",
+          "amount": 10
+        },
+        {
+          "item_id": "gold",
+          "item_name": "Gold Coins",
+          "amount": 12000
+        }
       ],
       "unlock_benefits": [
         "Restores 40 eastern farm plots into Sacred Arable Land",
         "Crops sown here never wither and boast a guaranteed 100% 3-Star harvest rate"
       ],
-      "celebration_dish": "dish_moonlight_creamy_risotto",
-      "celebration_dish_name": "Moonlight Creamy Truffle Risotto"
+      "celebration_dish": "food_yen_tiec_cau_sieu_anh_hon",
+      "celebration_dish_name": "Grand Solaria Memorial Feast"
     },
     {
       "id": "p_eternal_hearth",
@@ -295,18 +495,34 @@
       "visual_scale": "major_landmark",
       "size": "64x64",
       "materials": [
-        { "item_id": "ore_coal", "item_name": "Anthracite Coal", "amount": 200 },
-        { "item_id": "bar_gold", "item_name": "Smelted Gold Bar", "amount": 60 },
-        { "item_id": "item_eternal_flame_core", "item_name": "Eternal Flame Core", "amount": 1 },
-        { "item_id": "gold", "item_name": "Gold Coins", "amount": 15000 }
+        {
+          "item_id": "ore_coal",
+          "item_name": "Anthracite Coal",
+          "amount": 200
+        },
+        {
+          "item_id": "bar_gold",
+          "item_name": "Smelted Gold Bar",
+          "amount": 60
+        },
+        {
+          "item_id": "item_eternal_flame_core",
+          "item_name": "Eternal Flame Core",
+          "amount": 1
+        },
+        {
+          "item_id": "gold",
+          "item_name": "Gold Coins",
+          "amount": 15000
+        }
       ],
       "unlock_benefits": [
         "All 12 NPCs gain permanent Heart-warmed buff (+25% friendship gain)",
         "Unlocks the grand Winter Hearth Gala Festival (Winter 28)",
         "Bestows the crowning title: Restorer of Oakhaven"
       ],
-      "celebration_dish": "dish_autumn_pumpkin_cinnamon_pie",
-      "celebration_dish_name": "Grand Autumn Cinnamon Pumpkin Feast Pie"
+      "celebration_dish": "food_banh_cau_vong_4_mua",
+      "celebration_dish_name": "Four-Season Turban Orchard Cake"
     }
   ]
 }

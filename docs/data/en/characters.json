@@ -400,7 +400,13 @@
           "event_type": "cutscene"
         }
       ],
-      "avatar": "/images/characters/npc_boris.png"
+      "avatar": "/images/characters/npc_boris.png",
+      "shop_items": [
+        "Forged iron nails",
+        "Ironwood oil",
+        "Emergency raw ores",
+        "Tool & Weapon upgrades"
+      ]
     },
     {
       "id": "npc_maeve",
@@ -547,7 +553,12 @@
           "event_type": "cutscene"
         }
       ],
-      "avatar": "/images/characters/npc_maeve.png"
+      "avatar": "/images/characters/npc_maeve.png",
+      "shop_items": [
+        "4-Season crop seeds",
+        "Fruit saplings",
+        "Organic fertilizers"
+      ]
     },
     {
       "id": "npc_kael",
@@ -680,7 +691,11 @@
           "event_type": "cutscene"
         }
       ],
-      "avatar": "/images/characters/npc_kael.png"
+      "avatar": "/images/characters/npc_kael.png",
+      "shop_items": [
+        "Timber & fruit saplings",
+        "Off-season seeds (unlocks at 4 Hearts)"
+      ]
     },
     {
       "id": "npc_amalia",
@@ -1220,7 +1235,11 @@
           "event_type": "cutscene"
         }
       ],
-      "avatar": "/images/characters/npc_clara.png"
+      "avatar": "/images/characters/npc_clara.png",
+      "shop_items": [
+        "Decrypted antique blueprints (post-library)",
+        "Luminous quartz ink"
+      ]
     },
     {
       "id": "npc_garrick",
@@ -1338,7 +1357,11 @@
           "event_type": "cutscene"
         }
       ],
-      "avatar": "/images/characters/npc_garrick.png"
+      "avatar": "/images/characters/npc_garrick.png",
+      "shop_items": [
+        "Exotic spices (Saffron, Cinnamon, Vanilla, Soy, Olive Oil)",
+        "Port seafood (post-wharf)"
+      ]
     },
     {
       "id": "npc_finn",
@@ -1510,7 +1533,12 @@
           "event_type": "cutscene"
         }
       ],
-      "avatar": "/images/characters/npc_elora.png"
+      "avatar": "/images/characters/npc_elora.png",
+      "shop_items": [
+        "Heavy leather",
+        "Ice-strata thermal cloaks",
+        "Backpack slot expansions"
+      ]
     },
     {
       "id": "npc_sylvan",
@@ -1715,7 +1743,11 @@
           "event_type": "cutscene"
         }
       ],
-      "avatar": "/images/characters/npc_aurelia.png"
+      "avatar": "/images/characters/npc_aurelia.png",
+      "shop_items": [
+        "Aurelia's Lung Antitoxin",
+        "Aurelia's Field Trauma Salve (4H, 3/week)"
+      ]
     },
     {
       "id": "npc_valen",
@@ -1785,7 +1817,10 @@
           "event_type": "cutscene"
         }
       ],
-      "avatar": "/images/characters/npc_valen.png"
+      "avatar": "/images/characters/npc_valen.png",
+      "shop_items": [
+        "Solaria Millennium Reserve (8H, 5-Buff, 2/week)"
+      ]
     },
     {
       "id": "npc_kassandra",
@@ -1960,7 +1995,10 @@
           "event_type": "cutscene"
         }
       ],
-      "avatar": "/images/characters/npc_lapis.png"
+      "avatar": "/images/characters/npc_lapis.png",
+      "shop_items": [
+        "Barters sea minerals, pearls & kelp for hot tavern meals"
+      ]
     },
     {
       "id": "npc_thorne",
@@ -2079,7 +2117,10 @@
           "event_type": "cutscene"
         }
       ],
-      "avatar": "/images/characters/npc_thorne.png"
+      "avatar": "/images/characters/npc_thorne.png",
+      "shop_items": [
+        "Solaria Vanguard Rations (Crest barter, 5-Buff, 2/week)"
+      ]
     },
     {
       "id": "npc_valerie",
@@ -2290,7 +2331,7 @@
       "favorite_items": [
         "item_dish_sweet_pumpkin_potage",
         "mat_ong",
-        "banh_mi_lua_mi_gion"
+        "food_banh_mi_lua_mi_gion"
       ],
       "quote": "They branded me a coward for refusing tribal war... Yet raising a warm roof to endure winter blizzard gales demands far greater courage than swinging a sword.",
       "birthday": "Autumn 8",
@@ -2382,7 +2423,13 @@
           "event_type": "cutscene"
         }
       ],
-      "avatar": "/images/characters/npc_cedar.png"
+      "avatar": "/images/characters/npc_cedar.png",
+      "shop_items": [
+        "Oak & Pine timber",
+        "Dressed stone",
+        "Clay",
+        "Inn & Barn construction"
+      ]
     },
     {
       "id": "npc_wren",
@@ -2482,9 +2529,9 @@
       "species": "Human",
       "description": "Sun-bronzed rancher with an amber ponytail and practical denim overalls. Runs the sprawling dairy and sheep pastures single-handedly with rugged pride.",
       "favorite_items": [
-        "sua_bo_nong_mat_ong",
-        "banh_mi_lua_mi_gion",
-        "khoai_tay_nuong_bo_toi"
+        "food_sua_bo_nong_mat_ong",
+        "food_banh_mi_lua_mi_gion",
+        "food_khoai_tay_nuong_bo_toi"
       ],
       "quote": "The heifer herd refused their fresh clover this morning... Perhaps they miss him. I certainly do not. Truly.",
       "birthday": "Summer 3",
@@ -2576,7 +2623,13 @@
           "event_type": "cutscene"
         }
       ],
-      "avatar": "/images/characters/npc_hazel.png"
+      "avatar": "/images/characters/npc_hazel.png",
+      "shop_items": [
+        "Fresh eggs",
+        "Cow/Goat milk",
+        "Butter",
+        "Cream (~1.8x–2x barn price)"
+      ]
     },
     {
       "id": "npc_bramble",
@@ -2586,7 +2639,7 @@
       "species": "Goblin",
       "description": "Small, olive-skinned goblin in round spectacles and a tartan vest. Keeps exact abacus ledgers and hoards antique buttons, but conducts strictly honorable commerce.",
       "favorite_items": [
-        "chao_yen_mach_mat_ong",
+        "food_chao_yen_mach_mat_ong",
         "ore_gold",
         "da_tinh_the"
       ],
@@ -2680,7 +2733,12 @@
           "event_type": "cutscene"
         }
       ],
-      "avatar": "/images/characters/npc_bramble.png"
+      "avatar": "/images/characters/npc_bramble.png",
+      "shop_items": [
+        "Glowstone lanterns",
+        "Cozy wall decor",
+        "Saturday Night Market curios"
+      ]
     },
     {
       "id": "npc_rosemary",
@@ -2690,7 +2748,7 @@
       "species": "Dryad (Mother Oak Avatar)",
       "description": "A devoted shrine-keeper bound to the Mother Oak, guarding the Ancient Shrine of Oakhaven. Preserves the sacred memorial purification rites to cleanse post-war battlefield miasma.",
       "favorite_items": [
-        "tra_sen_bach_diep",
+        "food_tra_sen_bach_diep",
         "seed_star_lavender",
         "dau_rung"
       ],
@@ -2794,8 +2852,8 @@
       "species": "Beastfolk (Ovine Sheep-kin)",
       "description": "Spirited 10-year-old sheep-kin girl with curling horns (one chipped short from past trauma) and fluffy cream-white curls. Loves stargazing and often dozes in haystacks.",
       "favorite_items": [
-        "sua_bo_nong_mat_ong",
-        "banh_cau_vong_4_mua",
+        "food_sua_bo_nong_mat_ong",
+        "food_banh_cau_vong_4_mua",
         "dau_rung"
       ],
       "quote": "Kael and Finn said there are wonderful glowing fireflies in the woods at night... Tilly wants to see them too, but... it's just so scary and dark...",
@@ -2881,7 +2939,12 @@
           "event_type": "cutscene"
         }
       ],
-      "avatar": "/images/characters/npc_tilly.png"
+      "avatar": "/images/characters/npc_tilly.png",
+      "shop_items": [
+        "Raw wool fleece",
+        "Waterproof wool canvas",
+        "Hemp rope"
+      ]
     },
     {
       "id": "npc_grimhild",
@@ -2893,7 +2956,7 @@
       "favorite_items": [
         "item_dish_dwarf_ironforge_goulash",
         "ore_gold",
-        "banh_pie_tao_que_lo_dat"
+        "food_banh_pie_tao_que_lo_dat"
       ],
       "quote": "This old smith has forged tens of thousands of mastercraft blades... yet never discovered the craft to re-temper her own broken heart.",
       "birthday": "Winter 5",
@@ -2981,7 +3044,7 @@
       "species": "Dwarf",
       "description": "Slender young dwarf sporting crooked brass goggles and grease-smeared overalls. Intrigued by gears and clockwork, and the only soul capable of deciphering Chrono's cadence.",
       "favorite_items": [
-        "khoai_tay_nuong_bo_toi",
+        "food_khoai_tay_nuong_bo_toi",
         "da_tinh_the",
         "ore_iron"
       ],
@@ -3071,8 +3134,8 @@
       "species": "Beastfolk (Fire Salamander)",
       "description": "Energetic fire salamander chef with orange-black patterns and an ember-tipped tail, wearing a charred chef's apron. Roasts directly over geothermal magma; Rowan's friendly cooking rival.",
       "favorite_items": [
-        "thit_nuong_lua_dia_nguc",
-        "bap_xao_bo_cay",
+        "food_thit_nuong_lua_dia_nguc",
+        "food_bap_xao_bo_cay",
         "drop_crystal_sea_salt"
       ],
       "quote": "Surface folk cringe at my flames... Yet a hearth flame roasting wholesome meat to satisfy empty stomachs — what is fearful about that?!",
@@ -3251,7 +3314,7 @@
       "species": "Elf (800-year-old Elder)",
       "description": "Blind ancient elf with flowing silver hair braided with dried roots, sensing all life through the subterranean root network. Sylvan's esteemed former mentor.",
       "favorite_items": [
-        "canh_thao_moc_bup_sen",
+        "food_canh_thao_moc_bup_sen",
         "la_tra_sen",
         "seed_sen_tea"
       ],
@@ -3331,7 +3394,10 @@
           "event_type": "cutscene"
         }
       ],
-      "avatar": "/images/characters/npc_fern.png"
+      "avatar": "/images/characters/npc_fern.png",
+      "shop_items": [
+        "Millennium Elder Elixir (Region 3, 5-Buff, 1/week)"
+      ]
     },
     {
       "id": "npc_valerius",
@@ -3341,9 +3407,8 @@
       "species": "Human (Former Royal Guard Commander)",
       "description": "Stoic disgraced commander bearing a saber scar across his nose, battered silver armor, and an air of aristocratic dignity. Settles permanently to defend Oakhaven.",
       "favorite_items": [
-        "bit_tet_nuong_than_soi",
-        "bit_tet_nuong_than_soi",
-        "ruou_trai_cay_len_men"
+        "food_bit_tet_nuong_than_soi",
+        "food_ruou_trai_cay_len_men"
       ],
       "quote": "My fealty belongs to righteous honor, not to an ornate throne. If that be treason... then I bear the brand with head unbowed.",
       "birthday": "Winter 7",
@@ -3435,7 +3500,11 @@
           "event_type": "cutscene"
         }
       ],
-      "avatar": "/images/characters/npc_valerius.png"
+      "avatar": "/images/characters/npc_valerius.png",
+      "shop_items": [
+        "Parry combat manuals",
+        "Close-combat leather bracers"
+      ]
     },
     {
       "id": "npc_morrigan",
@@ -3539,7 +3608,11 @@
           "event_type": "cutscene"
         }
       ],
-      "avatar": "/images/characters/npc_morrigan.png"
+      "avatar": "/images/characters/npc_morrigan.png",
+      "shop_items": [
+        "Morrigan's Thornblood Brew (2/week)",
+        "Blight Purification Salt"
+      ]
     },
     {
       "id": "npc_iris",
@@ -3550,7 +3623,7 @@
       "description": "Bright, earnest scholar with a bouncy auburn bob and round spectacles, constantly balancing towering stacks of antique tomes. Passionate about authentic history.",
       "favorite_items": [
         "item_tea_earl_grey_clara",
-        "banh_quy_gung_giu_am",
+        "food_banh_quy_gung_giu_am",
         "item_tea_sen_an_than"
       ],
       "quote": "The royal court ordered me to write that Oakhaven was a barbaric frontier hamlet... Yet beneath every single paving stone here lie fragments of a primordial golden age!",
@@ -3722,9 +3795,9 @@
       "species": "Human (Former Quartermaster)",
       "description": "An aging, meticulous retired Solarian military quartermaster with wire-rimmed spectacles tied with cord, carrying a worn leather ledger. Hired by Rowan to manage the attic bunkhouse, shipping ledger, and estate finances.",
       "favorite_items": [
-        "canh_thao_moc_bup_sen",
+        "food_canh_thao_moc_bup_sen",
         "item_bread_brioche",
-        "ruou_trai_cay_len_men"
+        "food_ruou_trai_cay_len_men"
       ],
       "quote": "Master Rowan, you have dragged half the mine indoors again! Wipe your boots on the straw mat before stepping inside.",
       "birthday": "Fall 24",
@@ -3841,8 +3914,8 @@
       "species": "Human (Orphaned Quarry Hand)",
       "description": "A sturdy, hardworking orphaned youth with sawdust and soot on his arms. Rescued by Rowan from a rockfall at Floor 15 of the Mines; now loyally handles heavy estate chores: chopping firewood, milling flour, collecting dairy, and emergency rescue.",
       "favorite_items": [
-        "thit_nuong_lua_dia_nguc",
-        "bit_tet_nuong_than_soi",
+        "food_thit_nuong_lua_dia_nguc",
+        "food_bit_tet_nuong_than_soi",
         "ore_iron"
       ],
       "quote": "Ask me to cook and I'll blow up the cast-iron pot, but tell me to chop fifty logs or haul you out of the mines, and I'm your man!",
@@ -3965,15 +4038,15 @@
       "species": "Human (Traveling Merchant)",
       "description": "A wiry itinerant trader accompanied by a notoriously stubborn old donkey. Boards at The Hearth on weekends, unlatching battered wooden trunks of rare spice seeds and distant curiosities.",
       "favorite_items": [
-        "ruou_trai_cay_len_men",
-        "item_bread_brioche",
+        "food_ruou_trai_cay_len_men",
+        "food_banh_mi_lua_mi_gion",
         "ore_gold"
       ],
       "quote": "My donkey may be foul-tempered and smell of ditchwater, but the wares strapped to his pack-frame would make capital nobles weep.",
       "birthday": "Spring 14",
       "schedule": "Thursday - Saturday: Boards at The Hearth selling exotic goods; Sunday: Hits the road with his laden pack-donkey",
       "real_world_wound": "Lost his merchant caravan and fortune during the wartime border raids; now scrapes by in his elderly years accompanied solely by an old donkey.",
-      "comfort_dish": "item_bread_brioche",
+      "comfort_dish": "food_banh_mi_lua_mi_gion",
       "heart_event_summary": "15% discount on exotic wares (2H); sells rare foreign spice seeds (4H); delivers rumors and news from beyond the mountain pass (6H); signs weekly wholesale supply contract for the homestead (8H).",
       "gift_preferences": {
         "loved": [
@@ -4052,7 +4125,11 @@
           "event_type": "cutscene"
         }
       ],
-      "avatar": "/images/characters/npc_silas.png"
+      "avatar": "/images/characters/npc_silas.png",
+      "shop_items": [
+        "Rotating rare seeds",
+        "Aged cheese & rare mushrooms (Thu–Sat)"
+      ]
     },
     {
       "id": "npc_hester",
@@ -4062,8 +4139,8 @@
       "species": "Human (Former Knight)",
       "description": "A cloaked, reclusive deserter hiding beneath a tattered cowl in the corner attic loft. Avoids strangers, yet possesses peerless mastery in restoring heavy military plate armor.",
       "favorite_items": [
-        "bit_tet_nuong_than_soi",
-        "thit_nuong_lua_dia_nguc",
+        "food_bit_tet_nuong_than_soi",
+        "food_thit_nuong_lua_dia_nguc",
         "ore_iron"
       ],
       "quote": "Never ask which crest I fought for. Beneath churned mud and spilled blood, every banner looks identical.",
@@ -4156,7 +4233,11 @@
           "event_type": "cutscene"
         }
       ],
-      "avatar": "/images/characters/npc_hester.png"
+      "avatar": "/images/characters/npc_hester.png",
+      "shop_items": [
+        "Gear durability repair & armor plating (+DEF)",
+        "Field whetstones"
+      ]
     },
     {
       "id": "npc_mae",
@@ -4166,7 +4247,7 @@
       "species": "Human (Nomadic Artisan)",
       "description": "A warm-hearted nomadic weaver wrapped in hand-spun scarlet wool, visiting Oakhaven during autumn and winter. Buys homestead fleeces and goat down at premium rates.",
       "favorite_items": [
-        "canh_thao_moc_bup_sen",
+        "food_canh_thao_moc_bup_sen",
         "dau_rung",
         "mat_ong"
       ],
@@ -4253,7 +4334,11 @@
           "event_type": "cutscene"
         }
       ],
-      "avatar": "/images/characters/npc_mae.png"
+      "avatar": "/images/characters/npc_mae.png",
+      "shop_items": [
+        "Handwoven quilts",
+        "Wool rugs & Inn Cozy furniture (Aut–Win)"
+      ]
     },
     {
       "id": "npc_gomer",
@@ -4265,7 +4350,7 @@
       "favorite_items": [
         "ore_coal",
         "ore_iron",
-        "ruou_trai_cay_len_men"
+        "food_ruou_trai_cay_len_men"
       ],
       "quote": "EH?! SPEAK UP, LAD! LOST ME EARS WHEN TUNNEL EIGHT CAVED IN THIRTY YEARS BACK! YOU NEED BLASTING POWDER OR WHAT?!",
       "birthday": "Summer 18",
@@ -4350,7 +4435,12 @@
           "event_type": "cutscene"
         }
       ],
-      "avatar": "/images/characters/npc_gomer.png"
+      "avatar": "/images/characters/npc_gomer.png",
+      "shop_items": [
+        "Weekly capped Blasting Charges (2H)",
+        "Blast Powder",
+        "Wall Torches"
+      ]
     },
     {
       "id": "npc_vael",
@@ -4362,7 +4452,7 @@
       "favorite_items": [
         "da_tinh_the",
         "gem_sapphire",
-        "ruou_trai_cay_len_men"
+        "food_ruou_trai_cay_len_men"
       ],
       "quote": "A thousand fathoms below the mountain, there is no dawn. Only absolute stillness... and bioluminescent eyes staring back through the black.",
       "birthday": "Winter 7",
@@ -4447,7 +4537,11 @@
           "event_type": "cutscene"
         }
       ],
-      "avatar": "/images/characters/npc_vael.png"
+      "avatar": "/images/characters/npc_vael.png",
+      "shop_items": [
+        "Anti-Slip Deep Waders (2H)",
+        "Subterranean diving goggles"
+      ]
     },
     {
       "id": "npc_rowena",
@@ -4544,7 +4638,12 @@
           "event_type": "cutscene"
         }
       ],
-      "avatar": "/images/characters/npc_rowena.png"
+      "avatar": "/images/characters/npc_rowena.png",
+      "shop_items": [
+        "Dry firewood",
+        "3x Burn-time Heartwood Charcoal (2H)",
+        "Wood ash"
+      ]
     },
     {
       "id": "npc_tad",
@@ -4554,8 +4653,8 @@
       "species": "Human (Marsh Fisher)",
       "description": "A toothless, sun-baked marsh dweller living aboard a mossy, flat-bottomed skiff, smelling perpetually of bog-mud and catfish. Master of weaving bamboo fish-baskets and setting passive weir traps.",
       "favorite_items": [
-        "ruou_trai_cay_len_men",
-        "thit_nuong_lua_dia_nguc",
+        "food_ruou_trai_cay_len_men",
+        "food_thit_nuong_lua_dia_nguc",
         "item_wood_pine"
       ],
       "quote": "An eel possesses sharper wit than half the town. If you want him in your basket, your patience had better outlast the silt.",
@@ -4641,7 +4740,11 @@
           "event_type": "cutscene"
         }
       ],
-      "avatar": "/images/characters/npc_tad.png"
+      "avatar": "/images/characters/npc_tad.png",
+      "shop_items": [
+        "Willow Fish Traps",
+        "Specialty marsh bait"
+      ]
     },
     {
       "id": "npc_milo",
@@ -4750,7 +4853,7 @@
       "favorite_items": [
         "da_tinh_the",
         "gem_amethyst",
-        "canh_thao_moc_bup_sen"
+        "food_canh_thao_moc_bup_sen"
       ],
       "quote": "Every stone in the creek has its own quiet color. I keep the prettiest ones tucked in my basket for when Father walks up the lane...",
       "birthday": "Summer 16",

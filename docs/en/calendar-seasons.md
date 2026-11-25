@@ -15,7 +15,7 @@ A complete year in Oakhaven consists of **4 seasons × 28 days = 112 days**. Eac
 
 | Season | Environmental Hallmarks | Recommended Pursuits |
 | :--- | :--- | :--- |
-| 🌸 **Spring** | New buds emerge, snow-lotuses bloom, abundant showers (auto-irrigates plots) | Cultivate Lotus Tea, Starlight Lavender |
+| 🌸 **Spring** | New buds emerge, snow-lotuses bloom, abundant showers (auto-irrigates plots) | Cultivate Lotus Buds, Forest Lavender |
 | ☀️ **Summer** | Ripe Lumiberry harvest, catching twilight fireflies for lanterns | Brew frosty fruit teas for patrons |
 | 🍂 **Autumn** | Silver wheat turns golden amber across the valley | **Day 20: Autumn Pastry Jubilee & Lantern Festival**; grow Honey Pumpkins |
 | ❄️ **Winter** | Outdoor topsoil freezes (only greenhouse cultivation continues) | Deep frost crystal mine shafts unlock; visitors crave spiced teas and hot brioche |

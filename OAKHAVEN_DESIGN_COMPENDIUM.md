@@ -180,6 +180,17 @@ Rowan sở hữu không gian sống hoàn toàn riêng biệt nằm trên tầng
   - **Huyết Tinh (Vampiric Leech):** Hồi 3% sát thương gây ra thành máu (HP) khi đánh chí mạng.
   - **Hộ Mệnh Tinh (Aegis Core):** Tạo 1 lớp khiên chắn miễn nhiễm hoàn toàn 1 đòn chí mạng đầu tiên mỗi khi vào phòng mới.
 
+### 5.4. Cân Bằng Trang Bị 6 Bậc & Đường Cong Quái Tầng Sâu (HP 100 Baseline)
+Để giữ **Base HP = 100** (`+25..30 Temp Max HP` từ 5-Buff NPC) thực chiến suốt 150 tầng mà không bị một hit bay màu hay đánh Boss kéo dài quá lâu:
+- **6 Bậc Giáp Rèn Tại Boris / Hester:** Giáp giảm sát thương phẳng trực tiếp trước khi tính kháng nguyên tố: *Bậc 1 Gỗ/Đồng (`-4 DEF`), Bậc 2 Sắt (`-10 DEF`), Bậc 3 Vàng (`-18 DEF`), Bậc 4 Mithril (`-26 DEF`), Bậc 5 Basalt/Solaria (`-36 DEF`), Bậc 6 Hư Không (`-46 DEF`)*.
+- **23 Vũ Khí (6 Bậc Khoáng Sản — Cường hóa +1 đến +5 tăng tối đa +50% ATK / +25% Tốc độ):** Toàn bộ tên gọi và công thức Bậc 4–6 gắn với 5 bậc quặng (*Đồng $\rightarrow$ Sắt $\rightarrow$ Vàng $\rightarrow$ Mithril $\rightarrow$ Hư Không*), loại bỏ hoàn toàn nguyên liệu tàn dư cũ (*Lõi Tinh Tú*, *Phôi Bạc*).
+- **Đường Cong HP & ATK Quái Vật (`monsters.json`):**
+  - *Đới 1 (1–30):* Quái `50–120 HP / 8–18 ATK` | Boss 30 (`the_steam_colossus`): `1,600 HP / 24 ATK`.
+  - *Đới 2 (31–70):* Quái `110–190 HP / 18–26 ATK` | Boss 70 (`the_magma_forge_dragon`): `4,200 HP / 38 ATK`.
+  - *Đới 3 (71–110):* Quái `150–240 HP / 24–34 ATK` | Boss 110 (`the_blighted_hangman_oak`): `8,000 HP / 52 ATK`.
+  - *Đới 4 (111–150):* Quái `240–420 HP / 36–52 ATK` | Boss 150 (`ancient_vault_warden`): `15,000 HP / 72 ATK` (trừ Giáp Bậc 5–6 + Buff còn `~25–35 DMG/hit`, chịu được 3–4 đòn liên tiếp).
+  - *Endless Abyss (151+):* Boss Thực thể `19,000–22,000 HP / 85–92 ATK` (tăng nhẹ theo tầng vô tận).
+
 ---
 
 ## 6. Mở Rộng Bản Đồ Thế Giới: Độc Bản Oakhaven (Không Rập Khuôn Stardew)
@@ -189,8 +200,8 @@ Thế giới game mở rộng dựa trên **Khôi Phục Đại Công Trình Th�
 | Đại Công Trình Oakhaven | Tài Nguyên Tái Thiết | Cơ Chế Mở Khóa Độc Bản & Vùng Đất Mới |
 |:---|:---|:---|
 | **1. Kênh Thủy Lợi Thượng Nguồn & Bánh Xe Nước** *(Highland Aqueduct)* | 300 Gỗ Sồi, 40 Thỏi Sắt, 10 Bánh Răng Cổ, 3,000g | Khơi thông cống ngầm cổ đại, đưa nước ngọt về thung lũng. Mở khóa **Ruộng Bậc Thang Trồng Lúa Nước (Rice Paddies)** vụ Hè-Thu, hồ thả cá nước ngọt và tuyến chèo thuyền nan xuôi dòng. |
-| **2. Cây Thần Ngàn Năm & Đại Lễ Tẩy Trần** *(The Sacred Elder Grove)* | Nấu 5 Món Đại Tiệc Tẩy Trần cho Dân Làng & Bàn Thờ Cổ | Tổ chức Lễ Hội Ẩm Thực tại quảng trường, dâng 5 món đại tiệc thanh lọc khói sương chướng khí tích tụ sau chiến tranh. Xua tan sương mù tím độc, mở ra **Khu Rừng Thần Thảo Mộc** chứa cây giống vĩnh cửu và đàn ong rừng mật sao. |
-| **3. Tuyến Cáp Treo Mỏ Khai Nguyên** *(The Ancient Sky-Tram)* | 50 Cáp Thép, 4 Lõi Năng Lượng Cổ, 20 Thỏi Vàng, 8,000g | Kích hoạt buồng cáp treo hơi nước vượt qua Vực Thẳm Không Đáy. Mở khóa **Đỉnh Núi Răng Sói (Wolf-Fang Peak)** — nơi có quặng Bụi Sao lộ thiên, khu suối nước nóng ngâm mình hồi đầy Stamina và thảo mộc băng tuyết. |
+| **2. Cây Thần Ngàn Năm & Đại Lễ Tẩy Trần** *(The Sacred Elder Grove)* | Nấu 5 Món Đại Tiệc Tẩy Trần cho Dân Làng & Bàn Thờ Cổ | Tổ chức Lễ Hội Ẩm Thực tại quảng trường, dâng 5 món đại tiệc thanh lọc khói sương chướng khí tích tụ sau chiến tranh. Xua tan sương mù tím độc, mở ra **Khu Rừng Thần Thảo Mộc** chứa cây giống vĩnh cửu và đàn ong rừng mật hoa. |
+| **3. Tuyến Cáp Treo Mỏ Khai Nguyên** *(The Ancient Sky-Tram)* | 50 Cáp Thép, 4 Lõi Năng Lượng Cổ, 20 Thỏi Vàng, 8,000g | Kích hoạt buồng cáp treo hơi nước vượt qua Vực Thẳm Không Đáy. Mở khóa **Đỉnh Núi Răng Sói (Wolf-Fang Peak)** — nơi có quặng Mithril lộ thiên, khu suối nước nóng ngâm mình hồi đầy Stamina và thảo mộc băng tuyết. |
 | **4. Tuyến Đường Sắt Trung Tâm Oakhaven** *(The Central Rail Line)* | 100 Thanh Ray Thép, 50 Thỏi Vàng, Ký Hợp Đồng Cung Cấp Lương Thực | **Không phải xe dịch chuyển!** Tàu hỏa mang các **Đoàn khách du lịch, Quý tộc đại lục, Đầu bếp quốc tế và Thương gia xa** tới Oakhaven vào mỗi cuối tuần. Làm bùng nổ nhu cầu thuê phòng trọ tầng 2 và ăn uống tại quán. |
 | **5. Cổ Đô Cấm Địa Lòng Đất** *(Sunken Necropolis - Hậu Tầng 150)* | 4 Món Ăn Tinh Tế Đặt Lên 4 Bệ Thờ Tứ Nguyên Tố | Phá vỡ phong ấn cổ xưa dưới đáy mỏ. Mở ra **Hầm Ngục Vô Tận Đổi Mới Hàng Tuần**, chứa các căn bếp thất truyền của nền văn minh cổ, boss thần thoại và trang bị truyền thuyết. |
 
@@ -292,15 +303,35 @@ Chu kỳ canh tác: Cuốc đất $\rightarrow$ Gieo hạt $\rightarrow$ Tưới
 
 
 ### 9.2. Dãy Phòng Trọ Áp Mái & Nhân Sự Điền Trang (The Bunkhouse & Staff)
-- **Cơ chế Phòng Trọ Áp Mái:** Có 3 đến 5 phòng cho khách thám hiểm vãng lai, thương nhân thuê qua đêm.
+- **Cơ chế Phòng Trọ Áp Mái:** Gồm **3 hạng phòng (4 phòng vật lý / 7 suất trọ vãng lai qua đêm)**: *Phòng Dorm Thợ Mỏ* (4 giường × 40g), *Phòng Ấm Cúng Tiêu Chuẩn* (2 phòng × 150g) và *Phòng Thượng Hạng Thương Nhân* (1 Suite × 450g), tách biệt với phòng trọ dài hạn của cư dân lưu trú (*Valen* Lầu 2, *Hester*, *Silas*, *Mae*).
+- **Cân Bằng Công Suất & Phí Bảo Trì:**
+  - *Tỷ lệ lấp đầy theo Cozy Rating:* `< 80 điểm` lấp đầy ~`50%`; `80–149 điểm` lấp đầy ~`75%` + `+20% Tiền Boa`; `>= 150 điểm` đạt `100%` công suất (`910g/đêm` gộp) kèm mảnh bản đồ/hạt giống hiếm.
+  - *Phí củi sưởi & giặt giũ:* Trừ `15%` doanh thu phòng thô mỗi đêm để chi phí vận hành — và được **miễn hoàn toàn (0%)** sau khi cứu và nhận **Cậu Phụ Tá Colm** về lo hậu cần.
 - **Bác Quản Gia Barnaby:** Cựu thủ kho quân nhu Solaria giải ngũ; quản lý dãy phòng trọ áp mái, tự động thu tiền trọ (Passive Rent) mỗi sáng Thứ Hai, kê khai sổ sách lời lỗ hòm xuất khẩu, đàm phán giảm chi phí nâng cấp công trình.
-- **Cậu Phụ Tá Colm:** Chẻ củi đầy hộc bếp, xay lúa mì thành bột mịn, gom trứng sữa vào kho lạnh, vót sẵn đuốc dã ngoại. Khi Rowan kiệt sức/ngất xỉu trên mặt đất, Colm dùng cáng khiêng về giường ngủ The Hearth an toàn.
+- **Cậu Phụ Tá Colm:** Chẻ củi đầy hộc bếp, giặt ga giường xóa phí bảo trì nhà trọ, xay lúa mì thành bột mịn, gom trứng sữa vào kho lạnh, vót sẵn đuốc dã ngoại. Khi Rowan kiệt sức/ngất xỉu trên mặt đất, Colm dùng cáng khiêng về giường ngủ The Hearth an toàn.
 
 
 ### 9.3. Đầu Tư Thương Mại & Tái Thiết Thị Trấn
-- Bảng Nhiệm Vụ Hiệp Hội & Bảng Tái Thiết Thị Trấn: Đóng góp vật liệu sửa Cối Xay Gió, Đèn Đường, Trạm Xá.
-- Ký hợp đồng cung cấp lương thực số lượng lớn cho đoàn buôn đường sắt.
-- Đầu tư cổ phần tàu thám hiểm của Thuyền Trưởng Garrick để nhận hải sản và gia vị ngoại quốc độc quyền.
+- **Bảng Tái Thiết Thị Trấn (12 Công Trình — Tổng Quỹ `72,000g`):** Đóng góp vật liệu theo đợt qua Hòm Quyên Góp để phục hồi Cầu Gỗ (*Cedar*), Cối Xay Gió (*Maeve*), Đường Ray Mỏ (*Bram & Boris*), Cầu Cảng (*Garrick*), Cổ Tự Thanh Tẩy (*Rosemary*)...
+- Ký hợp đồng cung cấp lương thực số lượng lớn (*Weekly Hearth Catering*) và đầu tư cổ phần tàu thám hiểm của Thuyền Trưởng *Garrick* để mở khóa gia vị và hải sản ngoại quốc.
+
+### 9.4. Hệ Sinh Thái Cửa Hàng NPC & Gold Sink (12 Cụm Giao Dịch Chuyên Biệt)
+- **Nguyên tắc phân tách:** **Rowan giữ độc quyền nấu 55 món ăn & chế tạo máy tự động hóa nông trang**; các NPC KHÔNG bán món ăn phổ thông tự nấu để tránh biến gameplay thành "mua sẵn bằng vàng", mà chỉ bán nguyên liệu đặc thù, gia vị ngoại, vật tư rèn/xây/nổ, dịch vụ sửa/mở rộng và **6 vật phẩm tiêu hao chiến đấu độc quyền** (Mục 8.3).
+
+| Cụm NPC Thương Nhân | Địa Điểm & Điều Kiện | Mặt Hàng / Dịch Vụ Độc Quyền (Gold Sink & Hỗ Trợ) |
+| :--- | :--- | :--- |
+| **1. Bà Maeve & Cậu Kael** | Nông Trại & Vườn Ươm | Hạt giống 4 mùa, Cây giống ăn quả/gỗ, Phân bón hữu cơ (`Tro Bếp`, `Đất Rêu Giữ Ẩm`); Kael 4 Tim mở hạt trái mùa. |
+| **2. Chị Hazel & Bé Tilly** | Đồng Cỏ Phía Nam | Trứng, Sữa Bò/Dê, Bơ, Kem (giá ~1.8x–2x tự nuôi cho lối chơi ít chuồng), Lông Cừu, Vải Bạt Len, Dây Thừng Gai. |
+| **3. Thầy Rèn Boris & Bà Rowena** | Lò Rèn & Chòi Than Rừng | *Boris:* Đinh sắt, Dầu thiết mộc chống gỉ, Quặng thô giá khẩn cấp, Nâng cấp công cụ/vũ khí; *Rowena (2T):* Củi khô, Than Rừng Già cháy x3. |
+| **4. Bác Thợ Mộc Cedar & Cô Thợ Dệt Mae** | Xưởng Mộc & Sảnh The Hearth (Thu–Đông) | *Cedar:* Gỗ Sồi/Thông, Đá cắt, Đất sét, Xây nâng cấp phòng trọ & chuồng; *Cô Mae:* Chăn ga, thảm len & nội thất nâng Cozy Rating. |
+| **5. Thợ May Elora** | Rừng Thầm Thì / Tiệm Tối | Da thuộc cứng, Áo choàng & găng tay chống rét tầng băng, **Mở rộng ô Ba lô** (Gold Sink lớn giai đoạn Giữa–Cuối game). |
+| **6. Thuyền Trưởng Garrick & Lão Silas** | Bến Thuyền (sau tái thiết) & The Hearth (T5–T7) | *Garrick:* Gia vị ngoại (`Nghệ Tây`, `Quế`, `Vani`, `Xì Dầu`, `Dầu Ô-liu`, `Tôm Hồ`); *Silas:* Xoay vòng hạt giống lạ & phô mai/nấm hiếm hàng tuần. |
+| **7. Lão Gomer** | Lán Cửa Hầm Mỏ (2 Tim) | Bom mỏ tự chế (giới hạn tuần để phá tầng đá cứng), Thuốc nổ thợ mỏ, Đuốc vách đá dã chiến. |
+| **8. Lão Tad, Thợ Lặn Vael & Nàng Lapis** | Đầm Lầy, Hồ Băng & Hồ Ngầm | *Tad:* Lờ đan bẫy cá, Mồi câu; *Vael (2T):* Ủng lội nước sâu chống trượt; *Lapis:* Đổi khoáng biển/ngọc trai/tảo ngầm lấy món ăn nóng. |
+| **9. Chú Bramble ("Hũ Châu Báu")** | Chợ Đêm Thứ Bảy | Đèn Đá Phát Sáng, đồ trang trí Cozy, vật phẩm xoay vòng ngẫu nhiên cuối tuần. |
+| **10. Hiệp Sĩ Hester & Võ Sư Valerius** | Áp Mái The Hearth & Võ Đường Đèo Núi | *Hester:* Sửa độ bền & gia cố giáp tại chỗ (+DEF), Đá mài; *Valerius:* Sách kỹ năng Parry & bao tay cận chiến. |
+| **11. Clara & 5 NPC Thuốc Độc Quyền** | Thư Viện, Trạm Xá, Đầm Lầy, Hội Mạo Hiểm, Rừng Thần | *Clara:* Bản vẽ cổ, Mực dạ quang; *Aurelia, Morrigan, Valen, Thorne, Fern:* 6 món tiêu hao chiến đấu & **3 gói 5-Buff** (Mục 8.3). |
+| **12. Goblin Grib & Đoàn Khí Cầu** | Tầng 65 Mỏ & Đỉnh Tháp Thiên Văn (Đông 28) | *Grib:* Chợ Đen bán Quặng Iridium/Void (giới hạn tuần, giá rất cao), Chìa rương cổ, Hạt giống tầng sâu (**Endgame Gold Sink**); *Zephyr:* Hạt Thần Thoại & Đĩa than. |
 
 ---
 
@@ -473,8 +504,8 @@ Nhằm kiến tạo chiều sâu gameplay và triệt tiêu lối mòn "chạy v
 | **Q-LORE-02: Bóng Đêm Hoàng Tộc Solaria** | Valen de Montfort | Nấu *Súp Bổ Máu Củ Dền Thảo Mộc 3 Sao* trong Cặp lồng sơn mài; lén giao lên phòng kín lầu 2 sau 23:00; né tránh lính tuần tra. | 🏆 Thành tựu ẩn: `ACH_SOLARIA_SHADOW` *(Bóng Đêm Solaria)*<br/>📜 Công thức gia truyền: *Súp Bổ Máu Solaria* (Hồi 100 HP, +20% Kháng Vật Lý)<br/>🛋️ Trang trí: *Bộ Dao Nĩa Bạc Hoàng Triều* (+20 Cozy, hút khách sang). |
 | **Q-LORE-03: Chiếc Cúc Áo Người Lính Cũ** | Bé Cora | Lặn mò ven suối tìm chiếc Cúc Áo Bạc Quân Đội của cha Cora bị lũ cuốn; làm 1 đĩa Bánh Quy Hạt Phỉ an ủi bé. | 🏆 Thành tựu ẩn: `ACH_PROMISE_BY_STREAM` *(Lời Hứa Bờ Suối)*<br/>🧿 Kỷ vật: *Vòng Đá Cuội Bảy Màu May Mắn* (+5% Tỉ lệ Né đòn vĩnh viễn)<br/>🛋️ Trang trí: *Bức Tranh Bờ Suối Vẽ Tay Của Cora* (+10% khách tip thêm). |
 | **Q-LORE-04: Sổ Môn Không Thể Xóa** | Bác Barnaby | Đòi lại 1,200g nợ mua rượu cũ từ 3 khách trọ quịt nợ dạt ra bìa rừng; hoặc tự bù tiền nếu thương hại họ. | 🏆 Thành tựu ẩn: `ACH_DEBT_COLLECTOR` *(Tay Hòm Chìa Khóa)*<br/>🧿 Kỷ vật: *Sổ Ghi Nợ Bọc Da Của Barnaby* (xem trước biến động giá nông sản/quặng ngày mai)<br/>💰 Barnaby chia 30% tiền nợ thu hồi. |
-| **Q-HUNT-01: Bức Tường Thép Trước Warden Bọ** | Hiệp Sĩ Hester | Tiêu diệt Warden Bọ Hung Tầng 80 với điều kiện thực hiện tối thiểu 12 lần Master Parry chuẩn xác; HP không tụt dưới 80%. | 🏆 Thành tựu ẩn: `ACH_PARRY_MASTER` *(Bậc Thầy Đỡ Đòn)*<br/>🛋️ Trang trí: *Đầu Lâu Warden Bọ Hung Mạ Vàng* (treo tường The Hearth, +15% tip từ thợ mỏ)<br/>⚔️ Danh hiệu: *"Bức Tường Thép Oakhaven"*. |
-| **Q-HUNT-02: Bữa Tiệc Sinh Tồn Dung Nham** | Hội Trưởng Thorne | Quét sạch 3 tầng Đới Dung Nham (71-73) không dùng bình thuốc Aurelia; chỉ sống sót bằng buff từ Cơm hộp dã chiến mang theo. | 🏆 Thành tựu ẩn: `ACH_IRON_STOMACH` *(Sinh Tồn Ẩm Thực)*<br/>📜 Bản vẽ: *Ba Lô Cách Nhiệt Dã Ngoại* (+8 ô chứa đồ, giữ thức ăn tươi gấp đôi)<br/>🏅 15x Huy Hiệu Cứu Viện. |
+| **Q-HUNT-01: Bức Tường Thép Trước Hỏa Long** | Hiệp Sĩ Hester | Tiêu diệt Hỏa Long Hồ Đúc Tầng 70 với điều kiện thực hiện tối thiểu 12 lần Master Parry chuẩn xác; HP không tụt dưới 80%. | 🏆 Thành tựu ẩn: `ACH_PARRY_MASTER` *(Bậc Thầy Đỡ Đòn)*<br/>🛋️ Trang trí: *Giáp Vảy Hỏa Long Mạ Vàng* (treo tường The Hearth, +15% tip từ thợ mỏ)<br/>⚔️ Danh hiệu: *"Bức Tường Thép Oakhaven"*. |
+| **Q-HUNT-02: Bữa Tiệc Sinh Tồn Dung Nham** | Hội Trưởng Thorne | Quét sạch 3 tầng Hồ Luyện Kim (61-63) không dùng bình thuốc Aurelia; chỉ sống sót bằng buff từ Cơm hộp dã chiến mang theo. | 🏆 Thành tựu ẩn: `ACH_IRON_STOMACH` *(Sinh Tồn Ẩm Thực)*<br/>📜 Bản vẽ: *Ba Lô Cách Nhiệt Dã Ngoại* (+8 ô chứa đồ, giữ thức ăn tươi gấp đôi)<br/>🏅 15x Huy Hiệu Cứu Viện. |
 | **Q-ALTAR-01: Khúc Ca Cầu Siêu Tiết Xuân Phân** | Rosemary | Nấu mâm đại tiệc 5 món Xuân (Cải thìa xào nấm sao, Canh củ sen tuyết...) dâng Bàn Thờ Cổ lúc nửa đêm; trảm 3 đợt Hồn Ma Miasma. | 🏆 Thành tựu ẩn: `ACH_ASHES_TO_BLOOM` *(Hóa Giải Tro Tàn)*<br/>🌱 Mở khóa: *Vườn Thảo Dược Vĩnh Cửu Bìa Rừng* (trồng thảo mộc quanh năm)<br/>🛋️ Trang trí: *Lư Hương Đồng Bàn Thờ Cổ* (+25 Cozy Rating, max cấp). |
 
 ---

@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "version": "2.0.0",
-  "updated": "2026-11-14",
+  "updated": "2026-11-25",
   "weapons": [
     {
       "id": "wooden_training_sword",
@@ -85,12 +85,12 @@
     },
     {
       "id": "obsidian_flame_saber",
-      "name": "Obsidian Flame Saber",
-      "name_en": "Obsidian Flame Saber",
+      "name": "Khaz-Drakor Forgefire Saber",
+      "name_en": "Khaz-Drakor Forgefire Saber",
       "weapon_type": "melee",
       "tier": 5,
       "description": "Forged from razor-sharp volcanic glass and iron; strikes release bursts of magma flame searing targets for 4s.",
-      "upgrade_path": "Upgrades at Boris's Forge: Obsidian → Starlight Core",
+      "upgrade_path": "Upgrades at Boris's Forge: Mithril & Basalt → Void Ore",
       "tags": [
         "sword",
         "melee",
@@ -101,16 +101,16 @@
       "reach": "Melee (1.4 tiles)",
       "special_effect": "Slices through molten rock armor; inflicts +25% bonus damage against frost creatures.",
       "runic_skill": "Magma Eruption: Plunges blade into ground to erupt a volcanic geyser.",
-      "materials_needed": "10 Obsidian + 5 Iron Bars + 9,000 Gold at Boris's Forge"
+      "materials_needed": "8 Mithril Bars + 6 Basalt Shards + 9,000 Gold at Boris's Forge"
     },
     {
       "id": "starlight_blade",
-      "name": "Starlight Blade",
-      "name_en": "Starlight Blade",
+      "name": "Solaria Crystal Blade",
+      "name_en": "Solaria Crystal Blade",
       "weapon_type": "melee",
       "tier": 6,
-      "description": "Luminescent crystal blade with a fluid 3-hit rhythm, leaving a trail of shimmering starlight. The third strike shatters hard rocks and pierces void armor.",
-      "upgrade_path": "Pinnacle Tier: Forged at Boris's Forge with a Starlight Core",
+      "description": "Ancient crystalline sword of Solaria with a fluid 3-hit rhythm; the third strike shatters hard rocks and pierces void armor.",
+      "upgrade_path": "Pinnacle Tier: Forged at Boris's Forge with Solaria Schematics & Void Ingots",
       "tags": [
         "sword",
         "magic",
@@ -120,8 +120,8 @@
       "attack_speed": "Ultra Fast (3.8 strikes/s)",
       "reach": "Melee (1.4 tiles)",
       "special_effect": "3rd strike releases a starlight wave that shatters hard rocks and pierces void armor.",
-      "runic_skill": "Astral Cascade: Releases 5 homing starlight blade shards.",
-      "materials_needed": "1 Starlight Core + 4 Diamonds + 20,000 Gold at Boris's Forge"
+      "runic_skill": "Solaria Blade Cascade: Releases 5 homing crystalline blade shards.",
+      "materials_needed": "8 Pure Void Ingots + 1 Ancient Runic Heart Shard + 4 Diamonds + 20,000 Gold at Boris's Forge"
     },
     {
       "id": "rusty_farm_scythe",
@@ -150,7 +150,7 @@
       "weapon_type": "melee",
       "tier": 3,
       "description": "Enchanted scythe with a wide semi-circular sweep — dual-purposed for controlling swarms of pests and reaping patches of wheat and herbs in one swing.",
-      "upgrade_path": "Upgrades at Boris's Forge: Iron → Silver",
+      "upgrade_path": "Upgrades at Boris's Forge: Iron → Gold",
       "tags": [
         "scythe",
         "magic",
@@ -166,12 +166,12 @@
     },
     {
       "id": "silver_moon_scythe",
-      "name": "Silver Moon Scythe",
-      "name_en": "Silver Moon Scythe",
+      "name": "Gilded Crescent Scythe",
+      "name_en": "Gilded Crescent Scythe",
       "weapon_type": "melee",
       "tier": 4,
       "description": "Silver lunar blade glowing with cool moonbeams; razor-sharp sweep that siphons Stamina whenever clearing enemy packs.",
-      "upgrade_path": "Upgrades at Boris's Forge: Silver → Starlight Core",
+      "upgrade_path": "Upgrades at Boris's Forge: Gold → Void Ore",
       "tags": [
         "scythe",
         "magic",
@@ -182,16 +182,16 @@
       "reach": "Wide semi-circle (2.6 tiles)",
       "special_effect": "Restores 3 Stamina for every monster slain in its crescent sweep.",
       "runic_skill": "Crescent Moon Wave: Projects a glowing lunar crescent wave through all enemies.",
-      "materials_needed": "8 Silver Bars + 2 Amethysts + 6,000 Gold at Boris's Forge"
+      "materials_needed": "8 Gold Bars + 2 Amethysts + 6,000 Gold at Boris's Forge"
     },
     {
       "id": "astral_void_reaper",
-      "name": "Astral Void Reaper",
-      "name_en": "Astral Void Reaper",
+      "name": "Solaria Void Reaper",
+      "name_en": "Solaria Void Reaper",
       "weapon_type": "melee",
       "tier": 6,
       "description": "Mythic scythe cleaving the fabric of space; opens astral rifts that devour the vitality of shadow monsters.",
-      "upgrade_path": "Pinnacle Tier: Forged at Boris's Forge with a Starlight Core",
+      "upgrade_path": "Pinnacle Tier: Forged at Boris's Forge with Solaria Schematics & Void Ingots",
       "tags": [
         "scythe",
         "magic",
@@ -202,7 +202,7 @@
       "reach": "Colossal semi-circle (3.0 tiles)",
       "special_effect": "Cleaves spatial fabric; grants +30% bonus rare loot drop rate on slain monsters.",
       "runic_skill": "Soul Severance: Instantly executes regular monsters below 25% health.",
-      "materials_needed": "1 Starlight Core + 8 Obsidian + 2 Diamonds + 22,000 Gold at Boris's Forge"
+      "materials_needed": "8 Pure Void Ingots + 4 Abyssal Mirror Shards + 2 Diamonds + 22,000 Gold at Boris's Forge"
     },
     {
       "id": "miner_stone_mallet",
@@ -245,12 +245,12 @@
     },
     {
       "id": "whisk_hammer",
-      "name": "Colossal Tea Whisk Hammer",
-      "name_en": "Whisk Hammer",
+      "name": "Khaz-Drakor Cast-Iron Hammer",
+      "name_en": "Khaz-Drakor Cast-Iron Hammer",
       "weapon_type": "heavy",
       "tier": 3,
-      "description": "Heavy blunt warhammer that slams the ground to unleash shockwaves — pulverizing armored stone golems and mineral deposits simultaneously.",
-      "upgrade_path": "Upgrades at Boris's Forge: Iron → Obsidian",
+      "description": "Heavy cast-iron smithing hammer modeled after Khaz-Drakor foundry mauls; crushes skeletal shields and stubborn rocks.",
+      "upgrade_path": "Upgrades at Boris's Forge: Iron → Mithril & Basalt",
       "tags": [
         "hammer",
         "heavy",
@@ -259,9 +259,9 @@
       "base_atk": 38,
       "attack_speed": "Slow (0.8 strikes/s)",
       "reach": "Area Shockwave (2.0 tiles)",
-      "special_effect": "Slam shatters monster armor and mineral nodes simultaneously.",
-      "runic_skill": "Matcha Shockwave: Slams ground emitting powdered matcha ripples that slow foes by 50%.",
-      "materials_needed": "10 Iron Bars + 2 Crystal Gems + 2,500 Gold at Boris's Forge"
+      "special_effect": "Ground-pound shockwaves stagger foes and shatter defensive stances.",
+      "runic_skill": "Forge Shockwave: Slams ground emitting a concussive ring that slows enemies by 50%.",
+      "materials_needed": "10 Iron Bars + 2 Quartz Crystals + 2,500 Gold at Boris's Forge"
     },
     {
       "id": "magma_crag_warhammer",
@@ -270,7 +270,7 @@
       "weapon_type": "heavy",
       "tier": 5,
       "description": "Colossal warhammer cast from molten obsidian; impact generates explosive concussive booms and searing thermal waves.",
-      "upgrade_path": "Upgrades at Boris's Forge: Obsidian → Starlight Core",
+      "upgrade_path": "Upgrades at Boris's Forge: Mithril & Basalt → Void Ore",
       "tags": [
         "hammer",
         "heavy",
@@ -281,16 +281,16 @@
       "reach": "Fissure Shockwave (2.4 tiles)",
       "special_effect": "Crushes massive obsidian boulders in one blow; grants burn immunity while wielded.",
       "runic_skill": "Fissure Slam: Slams hammer creating a 4-tile magma fissure erupting beneath enemies.",
-      "materials_needed": "12 Obsidian + 6 Iron Bars + 10,500 Gold at Boris's Forge"
+      "materials_needed": "10 Mithril Bars + 8 Basalt Shards + 10,500 Gold at Boris's Forge"
     },
     {
       "id": "titan_stellar_crusher",
-      "name": "Titan Stellar Crusher",
-      "name_en": "Titan Stellar Crusher",
+      "name": "Khaz-Drakor Abyss Crusher",
+      "name_en": "Khaz-Drakor Abyss Crusher",
       "weapon_type": "heavy",
       "tier": 6,
       "description": "The ultimate blunt weapon taught by Boris — carries the mass of a miniature fallen meteor, crushing everything in its trajectory.",
-      "upgrade_path": "Pinnacle Tier: Forged at Boris's Forge with a Starlight Core",
+      "upgrade_path": "Pinnacle Tier: Forged at Boris's Forge with Solaria Schematics & Void Ingots",
       "tags": [
         "hammer",
         "heavy",
@@ -300,8 +300,8 @@
       "attack_speed": "Slow (0.75 strikes/s)",
       "reach": "Colossal Quake (2.8 tiles)",
       "special_effect": "Colossal single-hit crushing power; knocks back all foes and obliterates hardest obstacles.",
-      "runic_skill": "Meteor Impact: Leaps into the air and crashes down like a falling celestial meteor.",
-      "materials_needed": "1 Starlight Core + 4 Diamonds + 10 Gold Bars + 25,000 Gold at Boris's Forge"
+      "runic_skill": "Cragbreaker Impact: Leaps aloft and crashes down to shatter enemy armor within the blast zone.",
+      "materials_needed": "10 Pure Void Ingots + 1 Ancient Runic Heart Shard + 4 Diamonds + 25,000 Gold at Boris's Forge"
     },
     {
       "id": "hunter_shortbow",
@@ -349,7 +349,7 @@
       "weapon_type": "ranged",
       "tier": 4,
       "description": "Intricately gilded sniper arbalest with crystal optics; fires dazzling radiant bolts that blind nocturnal cave creatures for 3s.",
-      "upgrade_path": "Upgrades at Boris's Forge: Gold → Starlight Core",
+      "upgrade_path": "Upgrades at Boris's Forge: Gold → Void Ore",
       "tags": [
         "crossbow",
         "ranged",
@@ -364,12 +364,12 @@
     },
     {
       "id": "starblight_void_repeater",
-      "name": "Starblight Void Repeater",
-      "name_en": "Starblight Void Repeater",
+      "name": "Abyssal Void Repeater",
+      "name_en": "Abyssal Void Repeater",
       "weapon_type": "ranged",
       "tier": 6,
       "description": "Pinnacle ranged weapon requiring no mundane ammo; condenses void starlight into barrages of self-propelling explosive bolts.",
-      "upgrade_path": "Pinnacle Tier: Forged at Boris's Forge with a Starlight Core",
+      "upgrade_path": "Pinnacle Tier: Forged at Boris's Forge with Solaria Schematics & Void Ingots",
       "tags": [
         "crossbow",
         "ranged",
@@ -379,8 +379,8 @@
       "attack_speed": "Rapid (2.5 bolts/s)",
       "reach": "Ranged (7.0 tiles)",
       "special_effect": "Consumes no mundane bolts; manifests starlight shards that explode on impact.",
-      "runic_skill": "Starlight Barrage: Calls down a celestial rain of star arrows across a 4x4 tile area.",
-      "materials_needed": "1 Starlight Core + 6 Silver Bars + 3 Diamonds + 24,000 Gold at Boris's Forge"
+      "runic_skill": "Void Arrow Barrage: Calls down a relentless rain of crystal bolts across the chamber.",
+      "materials_needed": "8 Pure Void Ingots + 6 Mithril Bars + 3 Diamonds + 24,000 Gold at Boris's Forge"
     },
     {
       "id": "apprentice_wood_wand",
@@ -428,7 +428,7 @@
       "weapon_type": "magic",
       "tier": 5,
       "description": "Magical rod crowned with a blazing garnet atop obsidian spire; launches explosive molten spheres melting frost creatures.",
-      "upgrade_path": "Upgrades at Boris's Forge: Obsidian → Starlight Core",
+      "upgrade_path": "Upgrades at Boris's Forge: Mithril & Basalt → Void Ore",
       "tags": [
         "staff",
         "magic",
@@ -440,16 +440,16 @@
       "reach": "Ranged (6.5 tiles)",
       "special_effect": "Launches explosive molten spheres melting frost creatures and cave ice.",
       "runic_skill": "Ring of Fire: Summons circular fire barrier searing and deterring approaching foes for 6s.",
-      "materials_needed": "8 Obsidian + 2 Rubies + 8,500 Gold at Boris's Forge"
+      "materials_needed": "8 Mithril Bars + 2 Rubies + 8,500 Gold at Boris's Forge"
     },
     {
       "id": "primordial_starlight_staff",
-      "name": "Primordial Starlight Staff",
-      "name_en": "Primordial Starlight Staff",
+      "name": "Solaria Seal Staff",
+      "name_en": "Solaria Seal Staff",
       "weapon_type": "magic",
       "tier": 6,
       "description": "Mythic focus channeling pure cosmic starlight; purifies Star Blight corruption and dispels the deepest subterranean shadows.",
-      "upgrade_path": "Pinnacle Tier: Forged at Boris's Forge with a Starlight Core",
+      "upgrade_path": "Pinnacle Tier: Forged at Boris's Forge with Solaria Schematics & Void Ingots",
       "tags": [
         "staff",
         "magic"
@@ -458,8 +458,8 @@
       "attack_speed": "Continuous (2.0 casts/s)",
       "reach": "Wide Arc (7.5 tiles)",
       "special_effect": "Channels pure cosmic starlight; purifies Star Blight corruption and dispels deep shadows.",
-      "runic_skill": "Supernova: Condenses a celestial singularity detonating in a screen-clearing cosmic burst.",
-      "materials_needed": "1 Starlight Core + 3 Sapphires + 3 Diamonds + 26,000 Gold at Boris's Forge"
+      "runic_skill": "Abyssal Singularity: Condenses a Solarian rift sphere detonating in a massive blast.",
+      "materials_needed": "10 Pure Void Ingots + 3 Sapphires + 3 Diamonds + 26,000 Gold at Boris's Forge"
     }
   ]
 }

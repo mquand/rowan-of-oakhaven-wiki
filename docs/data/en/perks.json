@@ -1,14 +1,14 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "version": "1.0.0",
-  "updated": "2026-11-12",
+  "updated": "2026-11-25",
   "perks": [
     {
       "id": "star_dash",
-      "name": "Astral Dash",
+      "name": "Quartz Dash",
       "branch": "exploration",
-      "description": "Press Space to perform a rapid dash leaving a trail of starlight — dodging monster attacks and traversing mines swiftly.",
-      "unlock_hint": "Restore Chapter I of Grandma's Grimoire (Requires 3 Star Crystal Powder + 5 Crystal Gems)",
+      "description": "Press Space to perform a rapid lunge — dodging monster attacks and traversing mine shafts swiftly.",
+      "unlock_hint": "Restore Chapter I of Grandma's Grimoire (Requires 3 Quartz Shards + 5 Pure Mana Stones)",
       "tags": [
         "movement",
         "dodge",
@@ -71,7 +71,7 @@
       "name": "Customer Empathy",
       "branch": "tea",
       "description": "Displays subtle emotion icons above visitors' heads when they step in — intuiting what tea or pastry they crave.",
-      "unlock_hint": "Reach Shop Fame Level 2 & serve 20 cups of Calming Lotus Tea",
+      "unlock_hint": "Reach Shop Fame Level 2 & serve 20 cups of Sun-Daisy & Lotus Herbal Tea",
       "tags": [
         "social",
         "customers",
@@ -84,7 +84,7 @@
       "name": "Golden Kneader",
       "branch": "tea",
       "description": "Increases dough kneading speed by 30%; grants a 20% chance for baked goods to achieve 3-Star Masterpiece quality.",
-      "unlock_hint": "Bake 15 Perfect-tier Brioche Breads",
+      "unlock_hint": "Bake 15 Perfect-tier Crusty Hearth Sourdough loaves",
       "tags": [
         "bakery",
         "quality",
@@ -94,7 +94,7 @@
     },
     {
       "id": "parallel_brewing",
-      "name": "Dual Kettle Mastery",
+      "name": "Dual Hearth Mastery",
       "branch": "tea",
       "description": "Allows placing two teapots simultaneously onto the stove, doubling tea brewing capacity.",
       "unlock_hint": "Upgrade to Dual Stove Countertop at Boris's Forge (10 Iron Ore + 500 Gold)",

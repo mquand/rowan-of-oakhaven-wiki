@@ -205,9 +205,10 @@ Boris mở khóa bản vẽ mới sau khi người chơi vượt qua các mốc 
 - **Bậc 5 (Mithril & Basalt Dung Nham):** Mở sau Tầng 110–140 (Thỏi Mithril + Mảnh Basalt).
 - **Bậc 6 (Hư Không & Tinh Thể Cổ):** Mở sau Tầng 150 (Thỏi Quặng Hư Không + Trái Tim Cổ Ngữ).
 
-### 2. Cường Hóa Tôi Thép (+1 đến +5)
+### 2. Cường Hóa Tôi Thép (+1 đến +5) & 6 Bậc Giáp Phòng Hộ
 - **Tỷ lệ thành công 100% (Dark Cozy Principle):** Tuyệt đối không có cơ chế xịt trang bị, không tụt cấp và không gãy vỡ vũ khí. Thử thách nằm ở kỹ năng né đòn và đọc hành vi quái vật.
 - Mỗi cấp $+1$ tăng **$+10\%$ Sát thương cơ bản (ATK)** và **$+5\%$ Tốc độ vung đòn**. Đạt $+5$ tối đa tăng $+50\%$ ATK và $+25\%$ Tốc độ.
+- **6 Bậc Giáp Rèn (Flat DEF):** Cân bằng cho thanh **Base HP = 100** suốt 150 tầng (tránh bị one-shot ở tầng sâu): Bậc 1 Gỗ/Đồng (`-4 DEF`), Bậc 2 Sắt (`-10 DEF`), Bậc 3 Vàng (`-18 DEF`), Bậc 4 Mithril (`-26 DEF`), Bậc 5 Basalt/Solaria (`-36 DEF`), Bậc 6 Hư Không (`-46 DEF`). Kết hợp với 5 Ô Buff đồ ăn (`+3..+4 DEF / +25..30 Temp Max HP`), Rowan chịu được 3–4 đòn của Boss Tầng 150 (`72 ATK`).
 
 ### 3. 5 Loại Ngọc Tinh Linh Khảm Vĩnh Viễn (Soul Essences)
 > [!IMPORTANT]
@@ -218,6 +219,12 @@ Boris mở khóa bản vẽ mới sau khi người chơi vượt qua các mốc 
 - ⚡ **Lôi Tinh (Volt Spark):** Đòn đánh có 20% giật sét lan sang 3 quái vật lân cận.
 - 🩸 **Huyết Tinh (Vampiric Leech):** Hồi 3% sát thương gây ra thành máu (HP) khi đánh chí mạng.
 - 🛡️ **Hộ Mệnh Tinh (Aegis Core):** Tạo 1 lớp khiên chắn miễn nhiễm hoàn toàn 1 đòn đánh đầu tiên mỗi khi vào phòng mới.
+
+### 4. Đập Trứng Khoáng Thạch (Geodes — 25g/lần tại Boris)
+- **Geode Thường (Đới 1):** Thạch Anh, Quặng Đồng, Muối Khoáng, Mũi Tên Cổ.
+- **Geode Băng & Lửa (Đới 2):** Hồng Ngọc, Quặng Sắt, Hóa Thạch Cổ, Xỉ Basalt.
+- **Geode Tinh Thể (Đới 3):** Lam Ngọc, Ngọc Lục Bảo, Bào Tử Sâu, Huy Hiệu Chiến Sĩ.
+- **Geode Hư Không (Đới 4):** Kim Cương, Mảnh Cầu Vồng (`Prismatic Shard`), Mithril, Mảnh Hư Không.
 
 ---
 

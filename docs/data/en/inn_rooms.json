@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "version": "1.0.0",
-  "updated": "2026-11-18",
+  "updated": "2026-11-25",
   "room_tiers": [
     {
       "tier_id": "dorm_bunkhouse",
@@ -17,8 +17,18 @@
       "default_cozy_rating": 20,
       "max_cozy_rating": 60,
       "required_furniture": [
-        { "id": "props_inn_bunk_bed", "name": "Pine Bunk Bed", "size": "32x32", "amount": 2 },
-        { "id": "props_inn_luggage_chest", "name": "Iron Footlocker", "size": "16x16", "amount": 4 }
+        {
+          "id": "props_inn_bunk_bed",
+          "name": "Pine Bunk Bed",
+          "size": "32x32",
+          "amount": 2
+        },
+        {
+          "id": "props_inn_luggage_chest",
+          "name": "Iron Footlocker",
+          "size": "16x16",
+          "amount": 4
+        }
       ]
     },
     {
@@ -36,9 +46,24 @@
       "default_cozy_rating": 50,
       "max_cozy_rating": 120,
       "required_furniture": [
-        { "id": "props_inn_hearth_bed", "name": "Oak Hearth Bed", "size": "32x32", "amount": 1 },
-        { "id": "props_inn_corner_hearth", "name": "Compact Stone Hearth", "size": "32x32", "amount": 1 },
-        { "id": "props_inn_wash_basin", "name": "Brass Washbasin", "size": "16x16", "amount": 1 }
+        {
+          "id": "props_inn_hearth_bed",
+          "name": "Oak Hearth Bed",
+          "size": "32x32",
+          "amount": 1
+        },
+        {
+          "id": "props_inn_corner_hearth",
+          "name": "Compact Stone Hearth",
+          "size": "32x32",
+          "amount": 1
+        },
+        {
+          "id": "props_inn_wash_basin",
+          "name": "Brass Washbasin",
+          "size": "16x16",
+          "amount": 1
+        }
       ]
     },
     {
@@ -56,10 +81,34 @@
       "default_cozy_rating": 100,
       "max_cozy_rating": 250,
       "required_furniture": [
-        { "id": "props_inn_luxury_canopy_bed", "name": "Goose-Down Canopy Bed", "size": "32x48", "amount": 1 },
-        { "id": "props_inn_oak_bathtub", "name": "Hot Oak Soaking Tub", "size": "32x32", "amount": 1 },
-        { "id": "props_inn_writing_desk", "name": "Walnut Writing Desk", "size": "32x16", "amount": 1 }
+        {
+          "id": "props_inn_luxury_canopy_bed",
+          "name": "Goose-Down Canopy Bed",
+          "size": "32x48",
+          "amount": 1
+        },
+        {
+          "id": "props_inn_oak_bathtub",
+          "name": "Hot Oak Soaking Tub",
+          "size": "32x32",
+          "amount": 1
+        },
+        {
+          "id": "props_inn_writing_desk",
+          "name": "Walnut Writing Desk",
+          "size": "32x16",
+          "amount": 1
+        }
       ]
     }
-  ]
+  ],
+  "occupancy_rules": {
+    "under_80": 0.5,
+    "tier_80_to_149": 0.75,
+    "tier_150_plus": 1.0,
+    "tip_bonus_at_80": 0.2,
+    "upkeep_fee_rate": 0.15,
+    "upkeep_waived_by": "npc_colm",
+    "note": "15% nightly firewood & linen upkeep deducted automatically until Assistant Colm joins the staff."
+  }
 }

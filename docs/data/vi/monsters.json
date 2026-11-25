@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "version": "3.0.0",
-  "updated": "2026-11-20",
+  "updated": "2026-11-25",
   "monsters": [
     {
       "id": "slime_mud_acid",
@@ -20,7 +20,7 @@
         "mud",
         "trench"
       ],
-      "hp": 60,
+      "hp": 55,
       "atk": 8,
       "danger_level": 1,
       "loot_items": [
@@ -53,7 +53,7 @@
         "insect",
         "copper"
       ],
-      "hp": 90,
+      "hp": 85,
       "atk": 12,
       "danger_level": 1,
       "loot_items": [
@@ -120,7 +120,7 @@
         "heavy"
       ],
       "hp": 85,
-      "atk": 16,
+      "atk": 15,
       "danger_level": 2,
       "loot_items": [
         {
@@ -152,7 +152,7 @@
         "ambush"
       ],
       "hp": 105,
-      "atk": 18,
+      "atk": 17,
       "danger_level": 2,
       "loot_items": [
         {
@@ -184,7 +184,7 @@
         "trench"
       ],
       "hp": 95,
-      "atk": 15,
+      "atk": 14,
       "danger_level": 2,
       "loot_items": [
         {
@@ -215,8 +215,8 @@
         "mechanical",
         "spinner"
       ],
-      "hp": 130,
-      "atk": 20,
+      "hp": 125,
+      "atk": 18,
       "danger_level": 2,
       "loot_items": [
         {
@@ -248,8 +248,8 @@
         "warden",
         "steam"
       ],
-      "hp": 2400,
-      "atk": 28,
+      "hp": 1600,
+      "atk": 24,
       "danger_level": 5,
       "loot_items": [
         {
@@ -290,8 +290,8 @@
         "fire",
         "magma"
       ],
-      "hp": 130,
-      "atk": 22,
+      "hp": 120,
+      "atk": 19,
       "danger_level": 3,
       "loot_items": [
         {
@@ -322,8 +322,8 @@
         "magnetic",
         "disruptor"
       ],
-      "hp": 150,
-      "atk": 20,
+      "hp": 145,
+      "atk": 18,
       "danger_level": 3,
       "loot_items": [
         {
@@ -354,8 +354,8 @@
         "fire",
         "trapper"
       ],
-      "hp": 120,
-      "atk": 24,
+      "hp": 115,
+      "atk": 22,
       "danger_level": 3,
       "loot_items": [
         {
@@ -386,8 +386,8 @@
         "shield",
         "tank"
       ],
-      "hp": 170,
-      "atk": 26,
+      "hp": 165,
+      "atk": 24,
       "danger_level": 3,
       "loot_items": [
         {
@@ -418,8 +418,8 @@
         "mechanical",
         "steam"
       ],
-      "hp": 210,
-      "atk": 30,
+      "hp": 185,
+      "atk": 26,
       "danger_level": 4,
       "loot_items": [
         {
@@ -450,8 +450,8 @@
         "kamikaze",
         "fire"
       ],
-      "hp": 140,
-      "atk": 45,
+      "hp": 130,
+      "atk": 34,
       "danger_level": 3,
       "loot_items": [
         {
@@ -482,8 +482,8 @@
         "mechanical",
         "ambush"
       ],
-      "hp": 220,
-      "atk": 35,
+      "hp": 190,
+      "atk": 28,
       "danger_level": 4,
       "loot_items": [
         {
@@ -499,7 +499,7 @@
       ]
     },
     {
-      "id": "the_slag_fire_dragon",
+      "id": "the_magma_forge_dragon",
       "name": "Hỏa Long Hồ Đúc Khaz-Drakor",
       "name_en": "The Slag Fire Dragon",
       "realm": "khaz-drakor",
@@ -515,8 +515,8 @@
         "warden",
         "fire"
       ],
-      "hp": 6500,
-      "atk": 55,
+      "hp": 4200,
+      "atk": 38,
       "danger_level": 5,
       "loot_items": [
         {
@@ -557,8 +557,8 @@
         "poison",
         "spore"
       ],
-      "hp": 190,
-      "atk": 32,
+      "hp": 165,
+      "atk": 26,
       "danger_level": 4,
       "loot_items": [
         {
@@ -589,8 +589,8 @@
         "trapper",
         "root"
       ],
-      "hp": 220,
-      "atk": 36,
+      "hp": 190,
+      "atk": 28,
       "danger_level": 4,
       "loot_items": [
         {
@@ -621,8 +621,8 @@
         "flying",
         "disruptor"
       ],
-      "hp": 150,
-      "atk": 28,
+      "hp": 145,
+      "atk": 24,
       "danger_level": 3,
       "loot_items": [
         {
@@ -653,8 +653,8 @@
         "ranged",
         "sniper"
       ],
-      "hp": 175,
-      "atk": 38,
+      "hp": 160,
+      "atk": 30,
       "danger_level": 4,
       "loot_items": [
         {
@@ -685,8 +685,8 @@
         "ghost",
         "screamer"
       ],
-      "hp": 190,
-      "atk": 35,
+      "hp": 175,
+      "atk": 29,
       "danger_level": 4,
       "loot_items": [
         {
@@ -718,8 +718,8 @@
         "cavalry",
         "ambush"
       ],
-      "hp": 260,
-      "atk": 42,
+      "hp": 235,
+      "atk": 34,
       "danger_level": 4,
       "loot_items": [
         {
@@ -750,8 +750,8 @@
         "carapace",
         "gold"
       ],
-      "hp": 240,
-      "atk": 34,
+      "hp": 220,
+      "atk": 30,
       "danger_level": 4,
       "loot_items": [
         {
@@ -783,8 +783,8 @@
         "warden",
         "ancient"
       ],
-      "hp": 14000,
-      "atk": 85,
+      "hp": 8000,
+      "atk": 52,
       "danger_level": 5,
       "loot_items": [
         {
@@ -825,8 +825,8 @@
         "crystal",
         "void"
       ],
-      "hp": 320,
-      "atk": 45,
+      "hp": 260,
+      "atk": 36,
       "danger_level": 5,
       "loot_items": [
         {
@@ -857,8 +857,8 @@
         "magic",
         "flying"
       ],
-      "hp": 260,
-      "atk": 50,
+      "hp": 230,
+      "atk": 38,
       "danger_level": 5,
       "loot_items": [
         {
@@ -889,8 +889,8 @@
         "statue",
         "puzzle"
       ],
-      "hp": 340,
-      "atk": 52,
+      "hp": 300,
+      "atk": 42,
       "danger_level": 5,
       "loot_items": [
         {
@@ -921,8 +921,8 @@
         "magic",
         "summoner"
       ],
-      "hp": 290,
-      "atk": 48,
+      "hp": 250,
+      "atk": 40,
       "danger_level": 5,
       "loot_items": [
         {
@@ -953,8 +953,8 @@
         "knight",
         "heavy"
       ],
-      "hp": 480,
-      "atk": 65,
+      "hp": 380,
+      "atk": 48,
       "danger_level": 5,
       "loot_items": [
         {
@@ -985,8 +985,8 @@
         "knight",
         "cavalry"
       ],
-      "hp": 420,
-      "atk": 62,
+      "hp": 350,
+      "atk": 46,
       "danger_level": 5,
       "loot_items": [
         {
@@ -1017,8 +1017,8 @@
         "gold",
         "ambush"
       ],
-      "hp": 450,
-      "atk": 65,
+      "hp": 360,
+      "atk": 48,
       "danger_level": 5,
       "loot_items": [
         {
@@ -1054,8 +1054,8 @@
         "mirror",
         "nemesis"
       ],
-      "hp": 550,
-      "atk": 70,
+      "hp": 420,
+      "atk": 52,
       "danger_level": 5,
       "loot_items": [
         {
@@ -1087,8 +1087,8 @@
         "warden",
         "void"
       ],
-      "hp": 32000,
-      "atk": 140,
+      "hp": 15000,
+      "atk": 72,
       "danger_level": 5,
       "loot_items": [
         {
@@ -1125,8 +1125,8 @@
         "elemental",
         "abyss"
       ],
-      "hp": 45000,
-      "atk": 160,
+      "hp": 22000,
+      "atk": 85,
       "danger_level": 5,
       "loot_items": [
         {
@@ -1163,8 +1163,8 @@
         "void",
         "abyss"
       ],
-      "hp": 38000,
-      "atk": 180,
+      "hp": 19000,
+      "atk": 92,
       "danger_level": 5,
       "loot_items": [
         {

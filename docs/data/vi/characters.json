@@ -400,7 +400,13 @@
           "event_type": "cutscene"
         }
       ],
-      "avatar": "/images/characters/npc_boris.png"
+      "avatar": "/images/characters/npc_boris.png",
+      "shop_items": [
+        "Đinh sắt rèn",
+        "Dầu thiết mộc",
+        "Quặng cơ bản",
+        "Nâng cấp Công cụ & Vũ khí"
+      ]
     },
     {
       "id": "npc_maeve",
@@ -547,7 +553,12 @@
           "event_type": "cutscene"
         }
       ],
-      "avatar": "/images/characters/npc_maeve.png"
+      "avatar": "/images/characters/npc_maeve.png",
+      "shop_items": [
+        "Hạt giống 4 mùa",
+        "Cây giống vườn quả",
+        "Phân bón hữu cơ"
+      ]
     },
     {
       "id": "npc_kael",
@@ -680,7 +691,11 @@
           "event_type": "cutscene"
         }
       ],
-      "avatar": "/images/characters/npc_kael.png"
+      "avatar": "/images/characters/npc_kael.png",
+      "shop_items": [
+        "Cây giống ăn quả & gỗ",
+        "Hạt giống trái mùa (mở ở 4 Tim)"
+      ]
     },
     {
       "id": "npc_amalia",
@@ -1220,7 +1235,11 @@
           "event_type": "cutscene"
         }
       ],
-      "avatar": "/images/characters/npc_clara.png"
+      "avatar": "/images/characters/npc_clara.png",
+      "shop_items": [
+        "Bản vẽ cổ (sau tái thiết)",
+        "Mực dạ quang thạch anh"
+      ]
     },
     {
       "id": "npc_garrick",
@@ -1338,7 +1357,11 @@
           "event_type": "cutscene"
         }
       ],
-      "avatar": "/images/characters/npc_garrick.png"
+      "avatar": "/images/characters/npc_garrick.png",
+      "shop_items": [
+        "Gia vị ngoại (Nghệ tây, Quế, Vani, Xì dầu, Dầu ô-liu)",
+        "Hải sản cảng (sau sửa Cầu Cảng)"
+      ]
     },
     {
       "id": "npc_finn",
@@ -1510,7 +1533,12 @@
           "event_type": "cutscene"
         }
       ],
-      "avatar": "/images/characters/npc_elora.png"
+      "avatar": "/images/characters/npc_elora.png",
+      "shop_items": [
+        "Da thuộc cứng",
+        "Áo choàng chống rét tầng băng",
+        "Mở rộng ô Ba lô"
+      ]
     },
     {
       "id": "npc_sylvan",
@@ -1715,7 +1743,11 @@
           "event_type": "cutscene"
         }
       ],
-      "avatar": "/images/characters/npc_aurelia.png"
+      "avatar": "/images/characters/npc_aurelia.png",
+      "shop_items": [
+        "Thuốc Giải Độc & Lọc Phổi",
+        "Cao Dược Cứu Thương Cấp Tốc (4 Tim, 3/tuần)"
+      ]
     },
     {
       "id": "npc_valen",
@@ -1785,7 +1817,10 @@
           "event_type": "cutscene"
         }
       ],
-      "avatar": "/images/characters/npc_valen.png"
+      "avatar": "/images/characters/npc_valen.png",
+      "shop_items": [
+        "Rượu Vang Niên Kỷ Solaria (8 Tim, 5-Buff, 2/tuần)"
+      ]
     },
     {
       "id": "npc_kassandra",
@@ -1960,7 +1995,10 @@
           "event_type": "cutscene"
         }
       ],
-      "avatar": "/images/characters/npc_lapis.png"
+      "avatar": "/images/characters/npc_lapis.png",
+      "shop_items": [
+        "Đổi Khoáng biển, Ngọc trai, Tảo ngầm lấy món ăn nóng"
+      ]
     },
     {
       "id": "npc_thorne",
@@ -2079,7 +2117,10 @@
           "event_type": "cutscene"
         }
       ],
-      "avatar": "/images/characters/npc_thorne.png"
+      "avatar": "/images/characters/npc_thorne.png",
+      "shop_items": [
+        "Quân Lương Thiết Giáp Solaria (Huy Hiệu, 5-Buff, 2/tuần)"
+      ]
     },
     {
       "id": "npc_valerie",
@@ -2290,7 +2331,7 @@
       "favorite_items": [
         "item_dish_sweet_pumpkin_potage",
         "mat_ong",
-        "banh_mi_lua_mi_gion"
+        "food_banh_mi_lua_mi_gion"
       ],
       "quote": "Người ta bảo tôi hèn vì không chịu đánh nhau... Nhưng xây một mái nhà qua mùa đông bão tuyết, cần dũng khí hơn vung gươm nhiều.",
       "birthday": "Ngày 8 Mùa Thu",
@@ -2382,7 +2423,13 @@
           "event_type": "cutscene"
         }
       ],
-      "avatar": "/images/characters/npc_cedar.png"
+      "avatar": "/images/characters/npc_cedar.png",
+      "shop_items": [
+        "Gỗ Sồi/Thông",
+        "Đá cắt thô",
+        "Đất sét dẻo",
+        "Nâng cấp Phòng trọ & Chuồng"
+      ]
     },
     {
       "id": "npc_wren",
@@ -2482,9 +2529,9 @@
       "species": "Human",
       "description": "Nữ nông dân tóc hạt dẻ buộc cao, da rám nắng khỏe mạnh. Tự mình gánh vác cả trang trại gia súc với nụ cười rắn rỏi nhưng ánh mắt phảng phất nỗi buồn.",
       "favorite_items": [
-        "sua_bo_nong_mat_ong",
-        "banh_mi_lua_mi_gion",
-        "khoai_tay_nuong_bo_toi"
+        "food_sua_bo_nong_mat_ong",
+        "food_banh_mi_lua_mi_gion",
+        "food_khoai_tay_nuong_bo_toi"
       ],
       "quote": "Mấy con bò sáng nay không chịu ăn cỏ... Chắc chúng nhớ người cũ. Tôi thì không nhớ đâu. Thật đấy.",
       "birthday": "Ngày 3 Mùa Hạ",
@@ -2576,7 +2623,13 @@
           "event_type": "cutscene"
         }
       ],
-      "avatar": "/images/characters/npc_hazel.png"
+      "avatar": "/images/characters/npc_hazel.png",
+      "shop_items": [
+        "Trứng gà",
+        "Sữa bò/dê",
+        "Bơ tươi",
+        "Kem sữa (giá ~1.8x–2x tự nuôi)"
+      ]
     },
     {
       "id": "npc_bramble",
@@ -2586,7 +2639,7 @@
       "species": "Goblin (Yêu Tinh Xanh)",
       "description": "Goblin xanh da olive nhỏ thó đeo kính lão tròn và áo vest sọc đỏ. Luôn tính toán tỉ mỉ nhưng bán hàng rất trung thực, thích sưu tầm nút áo kỳ lạ.",
       "favorite_items": [
-        "chao_yen_mach_mat_ong",
+        "food_chao_yen_mach_mat_ong",
         "ore_gold",
         "da_tinh_the"
       ],
@@ -2680,7 +2733,12 @@
           "event_type": "cutscene"
         }
       ],
-      "avatar": "/images/characters/npc_bramble.png"
+      "avatar": "/images/characters/npc_bramble.png",
+      "shop_items": [
+        "Đèn Đá Phát Sáng",
+        "Đồ trang trí Cozy",
+        "Hàng xoay vòng Chợ Đêm Thứ 7"
+      ]
     },
     {
       "id": "npc_rosemary",
@@ -2690,7 +2748,7 @@
       "species": "Dryad (Tinh Linh Cây Sồi Mẹ)",
       "description": "Nữ tu sĩ gắn bó với Cây Sồi Cổ Thụ, canh giữ Đền Thờ Cổ Oakhaven. Người gìn giữ nghi lễ dâng lễ vật cầu siêu thanh tẩy khí độc miasma sau chiến tranh.",
       "favorite_items": [
-        "tra_sen_bach_diep",
+        "food_tra_sen_bach_diep",
         "seed_star_lavender",
         "dau_rung"
       ],
@@ -2794,8 +2852,8 @@
       "species": "Beastfolk (Cừu Nhân Hình)",
       "description": "Cô bé 10 tuổi với đôi sừng cừu cuộn tròn (một bên ngắn do sẹo cũ), tóc xoăn bồng bềnh trắng kem. Phụ Hazel chăn cừu, thích ngắm sao và hay ngủ gật giữa đồng cỏ.",
       "favorite_items": [
-        "sua_bo_nong_mat_ong",
-        "banh_cau_vong_4_mua",
+        "food_sua_bo_nong_mat_ong",
+        "food_banh_cau_vong_4_mua",
         "dau_rung"
       ],
       "quote": "Kael và Finn nói ban đêm trong rừng có đom đóm đẹp lắm... Tilly cũng muốn đi xem nhưng... trời tối quá...",
@@ -2881,7 +2939,12 @@
           "event_type": "cutscene"
         }
       ],
-      "avatar": "/images/characters/npc_tilly.png"
+      "avatar": "/images/characters/npc_tilly.png",
+      "shop_items": [
+        "Lông cừu thô",
+        "Vải bạt len",
+        "Dây thừng gai"
+      ]
     },
     {
       "id": "npc_grimhild",
@@ -2893,7 +2956,7 @@
       "favorite_items": [
         "item_dish_dwarf_ironforge_goulash",
         "ore_gold",
-        "banh_pie_tao_que_lo_dat"
+        "food_banh_pie_tao_que_lo_dat"
       ],
       "quote": "Lão thợ rèn già này đã đập hàng vạn thanh kiếm... nhưng chưa bao giờ biết rèn lại trái tim tan vỡ của chính mình.",
       "birthday": "Ngày 5 Mùa Đông",
@@ -2981,7 +3044,7 @@
       "species": "Dwarf (Người Lùn)",
       "description": "Dwarf trẻ tuổi gầy gò đeo kính bảo hộ lệch trán, áo dính đầy dầu máy. Say mê bánh răng và hơi nước, là người duy nhất giải mã được tiếng tích tắc của Chrono.",
       "favorite_items": [
-        "khoai_tay_nuong_bo_toi",
+        "food_khoai_tay_nuong_bo_toi",
         "da_tinh_the",
         "ore_iron"
       ],
@@ -3071,8 +3134,8 @@
       "species": "Beastfolk (Kỳ Nhông Lửa Nhân Hình)",
       "description": "Kỳ nhông lửa da cam sọc đen với chiếc đuôi luôn tỏa nhiệt, đeo tạp dề chef viền cháy. Nấu ăn trực tiếp bằng hơi nóng dung nham, đối thủ ẩm thực thân thiện của Rowan.",
       "favorite_items": [
-        "thit_nuong_lua_dia_nguc",
-        "bap_xao_bo_cay",
+        "food_thit_nuong_lua_dia_nguc",
+        "food_bap_xao_bo_cay",
         "drop_crystal_sea_salt"
       ],
       "quote": "Người trên mặt đất sợ lửa của tôi... Nhưng ngọn lửa nướng chín miếng thịt nuôi no bụng người ta — có gì đáng sợ đâu?",
@@ -3251,7 +3314,7 @@
       "species": "Elf (Tinh Linh 800 Tuổi)",
       "description": "Elf cổ xưa mù lòa với mái tóc bạc dài lẫn rễ cây khô, dùng mạng rễ dưới lòng đất làm 'đôi mắt' cảm nhận vạn vật. Thầy dạy cũ của Sylvan.",
       "favorite_items": [
-        "canh_thao_moc_bup_sen",
+        "food_canh_thao_moc_bup_sen",
         "la_tra_sen",
         "seed_sen_tea"
       ],
@@ -3331,7 +3394,10 @@
           "event_type": "cutscene"
         }
       ],
-      "avatar": "/images/characters/npc_fern.png"
+      "avatar": "/images/characters/npc_fern.png",
+      "shop_items": [
+        "Tinh Chất Cổ Thụ Ngàn Năm (Vùng 3, 5-Buff, 1/tuần)"
+      ]
     },
     {
       "id": "npc_valerius",
@@ -3341,9 +3407,8 @@
       "species": "Human (Cựu Chỉ Huy Cận Vệ Hoàng Gia)",
       "description": "Cựu hiệp sĩ hoàng gia với vết sẹo chéo sống mũi, giáp bạc cũ sờn và phong thái quý tộc lạnh lùng. Từng là khách trú bão tại Quán Ăn trước khi định cư bảo vệ Oakhaven.",
       "favorite_items": [
-        "bit_tet_nuong_than_soi",
-        "bit_tet_nuong_than_soi",
-        "ruou_trai_cay_len_men"
+        "food_bit_tet_nuong_than_soi",
+        "food_ruou_trai_cay_len_men"
       ],
       "quote": "Lòng trung thành của ta dành cho lẽ phải, không phải ngai vàng. Nếu điều đó là phản quốc... thì ta chấp nhận mang tiếng.",
       "birthday": "Ngày 7 Mùa Đông",
@@ -3435,7 +3500,11 @@
           "event_type": "cutscene"
         }
       ],
-      "avatar": "/images/characters/npc_valerius.png"
+      "avatar": "/images/characters/npc_valerius.png",
+      "shop_items": [
+        "Sách kỹ năng Parry",
+        "Bao tay cận chiến"
+      ]
     },
     {
       "id": "npc_morrigan",
@@ -3539,7 +3608,11 @@
           "event_type": "cutscene"
         }
       ],
-      "avatar": "/images/characters/npc_morrigan.png"
+      "avatar": "/images/characters/npc_morrigan.png",
+      "shop_items": [
+        "Huyết Tửu Giao Kèo Đầm Lầy (2/tuần)",
+        "Muối Thanh Tẩy Blight"
+      ]
     },
     {
       "id": "npc_iris",
@@ -3550,7 +3623,7 @@
       "description": "Sử gia trẻ trung đầy nhiệt huyết với mái tóc auburn ngắn, kính tròn và luôn ôm chồng sách cao quá đầu. Khao khát chép lại sự thật lịch sử không thiên vị quyền lực.",
       "favorite_items": [
         "item_tea_earl_grey_clara",
-        "banh_quy_gung_giu_am",
+        "food_banh_quy_gung_giu_am",
         "item_tea_sen_an_than"
       ],
       "quote": "Cung đình bảo tôi viết rằng Oakhaven chỉ là làng quê vô danh... Nhưng tôi đã thấy vết tích nền văn minh cổ đại dưới mỗi viên đá lát đường ở đây!",
@@ -3722,9 +3795,9 @@
       "species": "Human (Cựu Thủ Kho Quân Nhu)",
       "description": "Cựu thủ kho quân nhu Solaria già nua, mắt đeo kính lão buộc dây dù, tay luôn cắp cuốn sổ da sứt góc. Được Rowan thuê về quản lý dãy phòng trọ áp mái, hòm xuất khẩu và sổ sách chi tiêu của Điền trang.",
       "favorite_items": [
-        "canh_thao_moc_bup_sen",
+        "food_canh_thao_moc_bup_sen",
         "item_bread_brioche",
-        "ruou_trai_cay_len_men"
+        "food_ruou_trai_cay_len_men"
       ],
       "quote": "Cậu chủ lại mang nửa cái hầm mỏ về nhà rồi đấy! Đi chùi ủng vào cái thảm rơm ngoài cửa mau lên rồi hẵng bước vào.",
       "birthday": "Ngày 24 Mùa Thu",
@@ -3841,8 +3914,8 @@
       "species": "Human (Phu Đập Đá Mồ Côi)",
       "description": "Thanh niên to con khỏe khoắn mồ côi thời chiến, bắp tay cuồn cuộn dính mùn cưa và tro than. Được Rowan cứu mạng tại Tầng 15 Hầm Mỏ, xin về phụ việc nặng nhọc: chẻ củi đốt lò, xay bột mì, nhặt trứng sữa và cứu hộ khẩn cấp.",
       "favorite_items": [
-        "thit_nuong_lua_dia_nguc",
-        "bit_tet_nuong_than_soi",
+        "food_thit_nuong_lua_dia_nguc",
+        "food_bit_tet_nuong_than_soi",
         "ore_iron"
       ],
       "quote": "Bảo em nấu ăn thì em làm nổ nồi gang mất, nhưng bảo em chẻ 50 khúc củi hay vác anh từ đáy mỏ lên thì cứ để em lo!",
@@ -3965,15 +4038,15 @@
       "species": "Human (Thương Nhân Lưu Động)",
       "description": "Lão lái buôn gầy nhẳng với con lừa già dở chứng. Thuê phòng trọ The Hearth vào cuối tuần, mở rương bán các loại hạt giống lạ và gia vị quý từ kinh đô phương xa.",
       "favorite_items": [
-        "ruou_trai_cay_len_men",
-        "item_bread_brioche",
+        "food_ruou_trai_cay_len_men",
+        "food_banh_mi_lua_mi_gion",
         "ore_gold"
       ],
       "quote": "Con lừa của tôi tuy khó tính và hôi rình, nhưng hàng hóa trong sọt của nó thì cả kinh đô cũng phải thèm thuồng.",
       "birthday": "Ngày 14 Mùa Xuân",
       "schedule": "Thứ Năm - Thứ Bảy: Ở trọ The Hearth, bày bán hàng hiếm; Chủ Nhật: Đánh xe lừa đi buôn chuyến mới",
       "real_world_wound": "Từng phá sản mất trắng đoàn buôn thời chiến; nay chỉ còn một mình cùng con lừa già lặn lội mưu sinh tuổi xế chiều.",
-      "comfort_dish": "item_bread_brioche",
+      "comfort_dish": "food_banh_mi_lua_mi_gion",
       "heart_event_summary": "Giảm 15% giá hàng hiếm (2 Tim); bán các loại hạt giống gia vị phương xa (4 Tim); mang tin tức thời cuộc ngoài thung lũng (6 Tim); ký hợp đồng cung ứng định kỳ hàng tuần cho điền trang (8 Tim).",
       "gift_preferences": {
         "loved": [
@@ -4052,7 +4125,11 @@
           "event_type": "cutscene"
         }
       ],
-      "avatar": "/images/characters/npc_silas.png"
+      "avatar": "/images/characters/npc_silas.png",
+      "shop_items": [
+        "Hạt giống lạ xoay vòng tuần",
+        "Phô mai ủ & nấm hiếm (Thứ 5–Thứ 7)"
+      ]
     },
     {
       "id": "npc_hester",
@@ -4062,8 +4139,8 @@
       "species": "Human (Cựu Kỵ Sĩ)",
       "description": "Người lính đào ngũ mang áo choàng rách trùm kín mặt, sống lặng lẽ trong phòng trọ áp mái. Sợ người lạ gõ cửa nhưng có tay nghề phục chế giáp trụ quân dụng đỉnh cao.",
       "favorite_items": [
-        "bit_tet_nuong_than_soi",
-        "thit_nuong_lua_dia_nguc",
+        "food_bit_tet_nuong_than_soi",
+        "food_thit_nuong_lua_dia_nguc",
         "ore_iron"
       ],
       "quote": "Đừng hỏi tôi từng chiến đấu cho phe nào. Dưới lớp bùn đất và máu, mọi màu cờ đều giống nhau cả thôi.",
@@ -4156,7 +4233,11 @@
           "event_type": "cutscene"
         }
       ],
-      "avatar": "/images/characters/npc_hester.png"
+      "avatar": "/images/characters/npc_hester.png",
+      "shop_items": [
+        "Sửa độ bền & gia cố giáp tại chỗ (+DEF)",
+        "Đá mài chiến trường"
+      ]
     },
     {
       "id": "npc_mae",
@@ -4166,7 +4247,7 @@
       "species": "Human (Nghệ Nhân Dệt Du Mục)",
       "description": "Cô gái du mục quàng khăn len đỏ ấm áp, chỉ ghé thung lũng vào mùa Thu và Đông. Ngồi đan len bên lò sưởi, thu mua lông cừu lông dê của điền trang với giá cao.",
       "favorite_items": [
-        "canh_thao_moc_bup_sen",
+        "food_canh_thao_moc_bup_sen",
         "dau_rung",
         "mat_ong"
       ],
@@ -4253,7 +4334,11 @@
           "event_type": "cutscene"
         }
       ],
-      "avatar": "/images/characters/npc_mae.png"
+      "avatar": "/images/characters/npc_mae.png",
+      "shop_items": [
+        "Chăn ga dệt",
+        "Thảm len & Nội thất Cozy phòng trọ (Thu–Đông)"
+      ]
     },
     {
       "id": "npc_gomer",
@@ -4265,7 +4350,7 @@
       "favorite_items": [
         "ore_coal",
         "ore_iron",
-        "ruou_trai_cay_len_men"
+        "food_ruou_trai_cay_len_men"
       ],
       "quote": "HẢ?! NÓI TO LÊN! TAI TAO ĐIẾC TỪ NĂM NỔ SẬP CÁI HẦM SỐ TÁM RỒI! CẦN THUỐC NỔ HAY CẦN GÌ?!",
       "birthday": "Ngày 18 Mùa Hè",
@@ -4350,7 +4435,12 @@
           "event_type": "cutscene"
         }
       ],
-      "avatar": "/images/characters/npc_gomer.png"
+      "avatar": "/images/characters/npc_gomer.png",
+      "shop_items": [
+        "Bom mỏ tự chế (giới hạn tuần, 2 Tim)",
+        "Bộc phá phá đá",
+        "Đuốc vách đá"
+      ]
     },
     {
       "id": "npc_vael",
@@ -4362,7 +4452,7 @@
       "favorite_items": [
         "da_tinh_the",
         "gem_sapphire",
-        "ruou_trai_cay_len_men"
+        "food_ruou_trai_cay_len_men"
       ],
       "quote": "Dưới đáy hồ ngầm sâu nghìn mét không có ánh sáng, chỉ có sự tĩnh lặng... và những đôi mắt lấp lánh nhìn chằm chằm vào cậu.",
       "birthday": "Ngày 7 Mùa Đông",
@@ -4447,7 +4537,11 @@
           "event_type": "cutscene"
         }
       ],
-      "avatar": "/images/characters/npc_vael.png"
+      "avatar": "/images/characters/npc_vael.png",
+      "shop_items": [
+        "Ủng lội nước sâu chống trượt (2 Tim)",
+        "Kính lặn hồ ngầm"
+      ]
     },
     {
       "id": "npc_rowena",
@@ -4544,7 +4638,12 @@
           "event_type": "cutscene"
         }
       ],
-      "avatar": "/images/characters/npc_rowena.png"
+      "avatar": "/images/characters/npc_rowena.png",
+      "shop_items": [
+        "Củi khô rừng già",
+        "Than Rừng Già cháy x3 (2 Tim)",
+        "Tro bếp dưỡng thổ"
+      ]
     },
     {
       "id": "npc_tad",
@@ -4554,8 +4653,8 @@
       "species": "Human (Lão Ngư Đầm Lầy)",
       "description": "Lão già sống trên chiếc thuyền nan mục nát, răng sún, người tanh nồng mùi bùn. Bậc thầy bẫy lươn, bẫy trê và chế tạo ngư cụ tự động bằng tre nứa.",
       "favorite_items": [
-        "ruou_trai_cay_len_men",
-        "thit_nuong_lua_dia_nguc",
+        "food_ruou_trai_cay_len_men",
+        "food_thit_nuong_lua_dia_nguc",
         "item_wood_pine"
       ],
       "quote": "Con lươn nó khôn hơn con người nhiều. Muốn bắt được nó, lòng mày phải kiên nhẫn như đống bùn dưới đáy.",
@@ -4641,7 +4740,11 @@
           "event_type": "cutscene"
         }
       ],
-      "avatar": "/images/characters/npc_tad.png"
+      "avatar": "/images/characters/npc_tad.png",
+      "shop_items": [
+        "Lờ đan bẫy cá",
+        "Mồi câu đặc biệt"
+      ]
     },
     {
       "id": "npc_milo",
@@ -4750,7 +4853,7 @@
       "favorite_items": [
         "da_tinh_the",
         "gem_amethyst",
-        "canh_thao_moc_bup_sen"
+        "food_canh_thao_moc_bup_sen"
       ],
       "quote": "Mỗi viên sỏi dưới suối đều có một màu riêng. Em để dành những viên đá đẹp nhất này để ngày cha về làm quà cho cha...",
       "birthday": "Ngày 16 Mùa Hạ",

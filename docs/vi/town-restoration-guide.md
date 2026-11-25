@@ -11,9 +11,9 @@ Hành trình của Rowan không chỉ là làm giàu, mà là **cùng dân làng
 ```mermaid
 flowchart TD
     subgraph G1["Giai Đoạn 1: Dân Sinh Nông Trang Cận Kề"]
-        P1["1. Cầu Gỗ Bờ Suối Bồ Câu<br/>(Cedric)"]
+        P1["1. Cầu Gỗ Bờ Suối Bồ Câu<br/>(Cedar)"]
         P2["2. Cối Xay Gió Sau Quán<br/>(Maeve)"]
-        P3["3. Giếng Nước Cổ Làng<br/>(Cedric & Maeve)"]
+        P3["3. Giếng Nước Cổ Làng<br/>(Cedar & Maeve)"]
     end
 
     subgraph G2["Giai Đoạn 2: Hậu Cần Khai Hoang & Hầm Mỏ"]
@@ -45,9 +45,9 @@ Các định mức nguyên vật liệu đã được cân bằng ở **Mức Tr
 
 | STT | Dự Án | Khu Vực | Người Chủ Trì | Vật Liệu Yêu Cầu (Mức Trung Bình) | Đặc Quyền Mở Khóa Vĩnh Viễn |
 | :-: | :--- | :---: | :--- | :--- | :--- |
-| **1** | **Cầu Gỗ Bờ Suối Bồ Câu** | `riverside` | Cedric | • 120 Gỗ Sồi Già<br/>• 60 Đá Cuội Bờ Suối<br/>• 25 Đinh Sắt Boris<br/>• 2,500g | Rút ngắn 60% thời gian chạy sang bến thuyền; mở lối bãi rái cá nhặt ngọc trai. |
+| **1** | **Cầu Gỗ Bờ Suối Bồ Câu** | `riverside` | Cedar | • 120 Gỗ Sồi Già<br/>• 60 Đá Cuội Bờ Suối<br/>• 25 Đinh Sắt Boris<br/>• 2,500g | Rút ngắn 60% thời gian chạy sang bến thuyền; mở lối bãi rái cá nhặt ngọc trai. |
 | **2** | **Cối Xay Gió Sau Quán** | `farm` | Maeve | • 100 Gỗ Sồi Già<br/>• 35 Thỏi Đồng Đúc<br/>• 15 Bánh Răng Cơ Khí Mỏ<br/>• 3,200g | Tự động xay lúa mì qua đêm tỷ lệ $1 \rightarrow 2$ bột mì; cộng $+30$ Cozy Rating. |
-| **3** | **Giếng Nước Cổ Làng** | `village` | Cedric & Maeve | • 100 Khối Đá Cắt Thô<br/>• 40 Đất Sét Dẻo<br/>• 5 Thạch Anh Tinh Thể<br/>• 2,000g | Hồi đầy bình tưới tức thì; cây trồng trong bán kính 5 ô tăng $+15\%$ tốc độ lớn. |
+| **3** | **Giếng Nước Cổ Làng** | `village` | Cedar & Maeve | • 100 Khối Đá Cắt Thô<br/>• 40 Đất Sét Dẻo<br/>• 5 Thạch Anh Tinh Thể<br/>• 2,000g | Hồi đầy bình tưới tức thì; cây trồng trong bán kính 5 ô tăng $+15\%$ tốc độ lớn. |
 | **4** | **Trạm Chuồng Cú Pip** | `farm` | Pip | • 80 Gỗ Thông Dẻo<br/>• 40 Cành Liễu Gai<br/>• 15 Thạch Anh Tinh Thể<br/>• 2 Đèn Lumina<br/>• 2,800g | Mở tính năng Phái Cú Viễn Chinh tìm hạt giống hiếm từ các vương quốc khác. |
 | **5** | **Đường Ray Xe Gòng Mỏ** | `mine` | Bram & Boris | • 60 Thỏi Sắt Đúc<br/>• 50 Tà Vẹt Gỗ Sồi<br/>• 3 Đá Trọng Lực Floatstone<br/>• 30 Than Đá<br/>• 4,500g | Xe gòng tự chuyển toàn bộ quặng mỏ sâu về rương Boris; chấm dứt nghẽn túi đồ. |
 | **6** | **Lán Cứu Hộ Rừng Sâu** | `forest` | Marlo & Elora | • 120 Gỗ Sồi Già<br/>• 20 Vải Bạt Len Chống Thấm<br/>• 25 Thạch Anh Tinh Thể<br/>• 1 Lò Sưởi Đá<br/>• 3,500g | Trạm nghỉ an toàn không bị ngất xỉu giữa rừng sâu; có bàn chế tác dã chiến. |
@@ -71,3 +71,24 @@ Các định mức nguyên vật liệu đã được cân bằng ở **Mức Tr
 3. **Đêm Tiệc Khánh Thành Tại Quán Ăn Oakhaven:**
    * Sáng hôm sau, công trình chính thức hoàn tất rực rỡ.
    * Buổi tối lúc 19:00, toàn bộ dân làng kéo sang Quán Ăn ăn mừng, thưởng thức món ăn kỷ niệm do Rowan nấu và trao tặng những lời cảm ơn chân thành từ đáy lòng.
+
+---
+
+## 4. Hệ Sinh Thái 12 Cụm Cửa Hàng NPC & Gold Sink (Quỹ Tái Thiết `72,000g`)
+
+Bên cạnh `72,000g` đầu tư vào 12 công trình di sản, các cư dân chuyên môn tại Oakhaven vận hành mạng lưới cửa hàng riêng nhằm tránh dư thừa vàng ở giữa–cuối game. **Rowan vẫn giữ độc quyền nấu 55 món ăn & chế tạo máy tự động hóa**; NPC chỉ bán nguyên liệu chuyên ngành, vật tư nâng cấp, dịch vụ và 6 vật phẩm tiêu hao chiến đấu:
+
+| Cụm Thương Nhân | Địa Điểm & Mở Khóa | Mặt Hàng / Dịch Vụ Chính |
+| :--- | :--- | :--- |
+| **1. Maeve & Kael** | Nông Trại & Vườn Ươm | Hạt giống 4 mùa, cây giống gỗ/quả, phân bón hữu cơ; Kael 4 Tim mở hạt trái mùa. |
+| **2. Hazel & Tilly** | Đồng Cỏ Phía Nam | Trứng, Sữa, Bơ, Kem (giá ~1.8x–2x cho lối chơi ít chuồng), Lông cừu, Vải bạt Len, Dây gai. |
+| **3. Boris & Rowena** | Lò Rèn & Chòi Than | *Boris:* Đinh sắt, Dầu thiết mộc, Quặng cơ bản, Nâng cấp công cụ/vũ khí; *Rowena (2T):* Củi khô, Than rừng cháy x3. |
+| **4. Cedar & Cô Mae** | Xưởng Mộc & Sảnh Quán (Thu–Đông) | *Cedar:* Gỗ, Đá cắt, Đất sét, Xây nâng cấp phòng trọ; *Mae:* Chăn ga, thảm len & nội thất nâng Cozy Rating. |
+| **5. Thợ May Elora** | Rừng Thầm Thì / Tiệm Tối | Da thuộc cứng, Trang phục chống rét tầng băng, **Mở rộng ô Ba lô** (Gold Sink lớn). |
+| **6. Garrick & Silas** | Cầu Cảng (sau sửa) & The Hearth (T5–T7) | *Garrick:* Gia vị ngoại (`Nghệ tây`, `Quế`, `Vani`, `Xì dầu`, `Dầu ô-liu`, `Hải sản`); *Silas:* Hạt lạ & phô mai/nấm tuần. |
+| **7. Lão Gomer** | Lán Cửa Mỏ (2 Tim) | Bom mỏ tự chế (giới hạn tuần), Bộc phá phá đá, Đuốc vách đá. |
+| **8. Tad, Vael & Lapis** | Đầm Lầy, Hồ Băng & Hồ Ngầm | *Tad:* Lờ đan, Mồi câu; *Vael (2T):* Ủng lội nước chống trượt; *Lapis:* Đổi khoáng biển/ngọc trai lấy món ăn nóng. |
+| **9. Chú Bramble** | Chợ Đêm Thứ Bảy | Đèn Đá Phát Sáng, đồ trang trí Cozy, hàng xoay vòng ngẫu nhiên cuối tuần. |
+| **10. Hester & Valerius** | Áp Mái Quán & Võ Đường | *Hester:* Sửa độ bền & gia cố giáp (+DEF); *Valerius:* Sách kỹ năng Parry & bao tay cận chiến. |
+| **11. Clara & 5 NPC Thuốc** | Thư Viện, Trạm Xá, Đầm Lầy, Hội, Rừng | *Clara:* Bản vẽ cổ, Mực dạ quang; *Aurelia, Morrigan, Valen, Thorne, Fern:* 6 món tiêu hao chiến đấu & 3 gói 5-Buff. |
+| **12. Goblin Grib & Khí Cầu** | Tầng 65 Mỏ & Đỉnh Đồi (Đông 28) | *Grib:* Chợ Đen bán Quặng Iridium/Void (giới hạn tuần, giá cao), Chìa rương cổ, Hạt tầng sâu; *Zephyr:* Hạt Thần Thoại. |

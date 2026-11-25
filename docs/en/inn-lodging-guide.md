@@ -37,14 +37,15 @@ flowchart LR
 Each room features a Cozy Rating scale ranging from $0$ to $250$ points:
 
 * **Raising Cozy Rating:**
-  * Furnish oak study desks and Elora's hand-stitched leather armchairs.
-  * Illuminate corners with smokeless **Lumina Glowstone Lanterns**.
-  * Diffuse **Starlight Lavender Oils** for peaceful slumber.
+  * Furnish oak study desks and hand-stitched leather armchairs (crafted or bought from Weaver Mae / Elora).
+  * Illuminate corners with smokeless **Luminous Glowstone Lanterns** (`stone_lumina_glow`).
+  * Diffuse **Forest Lavender Oil** for peaceful slumber.
   * Stoke cedar hearth fires during harsh winter seasons.
-* **Economic Buffs:**
-  * Rating $\ge 80$: Lodgers award $+20\%$ coin tips.
-  * Rating $\ge 150$: $100\%$ overnight occupancy rate achieved.
-  * Satisfied patrons leave **Deep Cavern Treasure Map Scraps** and exotic wild seed satchels.
+* **Economic Balance & Upkeep Rules:**
+  * Rating $< 80$: Average nightly occupancy stays around $\sim 50\%$.
+  * Rating $80 - 149$: Occupancy climbs to $\sim 75\%$ and lodgers award $+20\%$ coin tips.
+  * Rating $\ge 150$: $100\%$ overnight occupancy achieved (up to **$910g$ / night** across 4 Dorm bunks + 2 Hearth rooms + 1 Suite), with patrons leaving **Deep Cavern Treasure Map Scraps** and rare seeds.
+  * **Heating & Laundry Upkeep (`15%`):** Deducts `15%` of gross lodging rent nightly for linens and firewood — **waived permanently (`0%`)** once **Assistant Colm** joins your homestead crew.
 
 ---
 

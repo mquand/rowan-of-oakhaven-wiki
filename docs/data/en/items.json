@@ -6499,6 +6499,382 @@
         "craftable",
         "kitchen_pot"
       ]
+    },
+    {
+      "id": "blueprint_royal_parry_dagger",
+      "name": "Royal Parry Dagger Blueprint",
+      "category": "crafted",
+      "description": "Close-quarters parrying dagger drafting sheet bequeathed by Exiled Knight Valerius.",
+      "buy_price": null,
+      "sell_price": 500
+    },
+    {
+      "id": "item_purification_salt_recipe",
+      "name": "Blight Purification Salt Recipe",
+      "category": "crafted",
+      "description": "Morrigan's field formula for refining subterranean salts into Blight-cleansing crystals.",
+      "buy_price": null,
+      "sell_price": 450
+    },
+    {
+      "id": "item_clara_sketchbook",
+      "name": "Clara's Antique Sketchbook",
+      "category": "material",
+      "description": "Archivist Clara's misplaced leather sketchbook holding heirloom library blueprints.",
+      "buy_price": null,
+      "sell_price": 0
+    },
+    {
+      "id": "item_craft_iron_sprinkler",
+      "name": "Oakhaven Iron Sprinkler (3x3)",
+      "category": "crafted",
+      "description": "Automatically waters 8 surrounding soil tiles (3x3) at 06:00 every dawn.",
+      "buy_price": null,
+      "sell_price": 240
+    },
+    {
+      "id": "item_craft_void_sprinkler",
+      "name": "Void Sprinkler (5x5)",
+      "category": "crafted",
+      "description": "Automatically waters 24 surrounding soil tiles (5x5) at 06:00 every dawn.",
+      "buy_price": null,
+      "sell_price": 650
+    },
+    {
+      "id": "mat_acid_gel",
+      "name": "Acid Gel",
+      "category": "monster_drop",
+      "description": "100% Non-Food drop harvested from Acid Mud Slime on Floors 1-15 of the Oakhaven Mine-Dungeon.",
+      "buy_price": null,
+      "sell_price": 18
+    },
+    {
+      "id": "mat_carapace_scrap",
+      "name": "Copper Carapace Scrap",
+      "category": "monster_drop",
+      "description": "100% Non-Food drop harvested from Copper-Carapace Beetle on Floors 1-15 of the Oakhaven Mine-Dungeon.",
+      "buy_price": null,
+      "sell_price": 18
+    },
+    {
+      "id": "mat_bat_wing",
+      "name": "Bat Wing Membrane",
+      "category": "monster_drop",
+      "description": "100% Non-Food drop harvested from Blind Echolocation Bat on Floors 1-15 of the Oakhaven Mine-Dungeon.",
+      "buy_price": null,
+      "sell_price": 18
+    },
+    {
+      "id": "mat_bone_meal",
+      "name": "White Bone Meal",
+      "category": "monster_drop",
+      "description": "100% Non-Food drop harvested from Pickaxe Skeleton Miner on Floors 16-29 of the Oakhaven Mine-Dungeon.",
+      "buy_price": null,
+      "sell_price": 18
+    },
+    {
+      "id": "mat_mole_claw",
+      "name": "Drilling Claws",
+      "category": "monster_drop",
+      "description": "100% Non-Food drop harvested from Trench-Drilling Mole on Floors 16-29 of the Oakhaven Mine-Dungeon.",
+      "buy_price": null,
+      "sell_price": 18
+    },
+    {
+      "id": "mat_canteen_scrap",
+      "name": "Vintage Copper Canteen",
+      "category": "monster_drop",
+      "description": "100% Non-Food drop harvested from Bogged Trench Walker on Floors 16-29 of the Oakhaven Mine-Dungeon.",
+      "buy_price": null,
+      "sell_price": 18
+    },
+    {
+      "id": "mat_iron_bolts",
+      "name": "Steel Bolts & Rivets",
+      "category": "monster_drop",
+      "description": "100% Non-Food drop harvested from Rusty Iron Automaton Dummy on Floors 21-29 of the Oakhaven Mine-Dungeon.",
+      "buy_price": null,
+      "sell_price": 18
+    },
+    {
+      "id": "mat_colossus_gear",
+      "name": "Ancient Colossal Gear",
+      "category": "monster_drop",
+      "description": "100% Non-Food drop harvested from The Steam Colossus on Floors 30 of the Oakhaven Mine-Dungeon.",
+      "buy_price": null,
+      "sell_price": 18
+    },
+    {
+      "id": "mat_thermal_alloy",
+      "name": "Thermal Solder Alloy",
+      "category": "monster_drop",
+      "description": "100% Non-Food drop harvested from The Steam Colossus on Floors 30 of the Oakhaven Mine-Dungeon.",
+      "buy_price": null,
+      "sell_price": 18
+    },
+    {
+      "id": "mat_magma_globule",
+      "name": "Magma Globule",
+      "category": "monster_drop",
+      "description": "100% Non-Food drop harvested from Molten Magma Slime on Floors 31-49 of the Oakhaven Mine-Dungeon.",
+      "buy_price": null,
+      "sell_price": 38
+    },
+    {
+      "id": "mat_lodestone_core",
+      "name": "Lodestone Core",
+      "category": "monster_drop",
+      "description": "100% Non-Food drop harvested from Magnet-Shell Snail on Floors 41-50 of the Oakhaven Mine-Dungeon.",
+      "buy_price": null,
+      "sell_price": 38
+    },
+    {
+      "id": "mat_fire_silk",
+      "name": "Fireproof Spider Silk",
+      "category": "monster_drop",
+      "description": "100% Non-Food drop harvested from Magma Weaver Spider on Floors 31-49 of the Oakhaven Mine-Dungeon.",
+      "buy_price": null,
+      "sell_price": 38
+    },
+    {
+      "id": "mat_iron_joint",
+      "name": "Steel-Reinforced Joint",
+      "category": "monster_drop",
+      "description": "100% Non-Food drop harvested from Iron-Shielded Skeleton Legionary on Floors 50-69 of the Oakhaven Mine-Dungeon.",
+      "buy_price": null,
+      "sell_price": 38
+    },
+    {
+      "id": "mat_alloy_gear",
+      "name": "Durable Alloy Gear",
+      "category": "monster_drop",
+      "description": "100% Non-Food drop harvested from Ancient Boiler Sentry on Floors 51-60 of the Oakhaven Mine-Dungeon.",
+      "buy_price": null,
+      "sell_price": 38
+    },
+    {
+      "id": "mat_sulfur_powder",
+      "name": "Sulfur Charcoal Dust",
+      "category": "monster_drop",
+      "description": "100% Non-Food drop harvested from Charred Pyre Revenant on Floors 50-69 of the Oakhaven Mine-Dungeon.",
+      "buy_price": null,
+      "sell_price": 38
+    },
+    {
+      "id": "mat_ancient_hinge",
+      "name": "Ancient Iron Hinge",
+      "category": "monster_drop",
+      "description": "100% Non-Food drop harvested from Clockwork Iron Mimic on Floors 50-69 of the Oakhaven Mine-Dungeon.",
+      "buy_price": null,
+      "sell_price": 38
+    },
+    {
+      "id": "mat_dragon_fat",
+      "name": "Molten Dragon Fat",
+      "category": "monster_drop",
+      "description": "100% Non-Food drop harvested from The Slag Fire Dragon on Floors 70 of the Oakhaven Mine-Dungeon.",
+      "buy_price": null,
+      "sell_price": 38
+    },
+    {
+      "id": "mat_dragon_scale",
+      "name": "Magma Dragon Scale",
+      "category": "monster_drop",
+      "description": "100% Non-Food drop harvested from The Slag Fire Dragon on Floors 70 of the Oakhaven Mine-Dungeon.",
+      "buy_price": null,
+      "sell_price": 38
+    },
+    {
+      "id": "mat_spore_sac",
+      "name": "Spore Sac",
+      "category": "monster_drop",
+      "description": "100% Non-Food drop harvested from Violet Spore Slime on Floors 71-89 of the Oakhaven Mine-Dungeon.",
+      "buy_price": null,
+      "sell_price": 70
+    },
+    {
+      "id": "mat_brier_vine",
+      "name": "Brier Vine Cord",
+      "category": "monster_drop",
+      "description": "100% Non-Food drop harvested from Brier Root Creeper on Floors 71-89 of the Oakhaven Mine-Dungeon.",
+      "buy_price": null,
+      "sell_price": 70
+    },
+    {
+      "id": "mat_luminous_dust",
+      "name": "Luminescent Wing Dust",
+      "category": "monster_drop",
+      "description": "100% Non-Food drop harvested from Luminescent Night Moth on Floors 71-89 of the Oakhaven Mine-Dungeon.",
+      "buy_price": null,
+      "sell_price": 70
+    },
+    {
+      "id": "mat_runic_bone",
+      "name": "Runic Engraved Bone",
+      "category": "monster_drop",
+      "description": "100% Non-Food drop harvested from Brier Skeleton Sniper on Floors 90-109 of the Oakhaven Mine-Dungeon.",
+      "buy_price": null,
+      "sell_price": 70
+    },
+    {
+      "id": "mat_ectoplasm",
+      "name": "Ectoplasm Globule",
+      "category": "monster_drop",
+      "description": "100% Non-Food drop harvested from Deep Cavern Banshee on Floors 90-109 of the Oakhaven Mine-Dungeon.",
+      "buy_price": null,
+      "sell_price": 70
+    },
+    {
+      "id": "mat_centipede_plate",
+      "name": "Centipede Carapace Segment",
+      "category": "monster_drop",
+      "description": "100% Non-Food drop harvested from Centipede Skeleton Cavalry on Floors 90-109 of the Oakhaven Mine-Dungeon.",
+      "buy_price": null,
+      "sell_price": 70
+    },
+    {
+      "id": "mat_gold_shell",
+      "name": "Gilded Beetle Shell",
+      "category": "monster_drop",
+      "description": "100% Non-Food drop harvested from Golden Carapace Beetle on Floors 90-109 of the Oakhaven Mine-Dungeon.",
+      "buy_price": null,
+      "sell_price": 70
+    },
+    {
+      "id": "mat_runic_heartwood",
+      "name": "Runic Sacred Heartwood",
+      "category": "monster_drop",
+      "description": "100% Non-Food drop harvested from The Blighted Hangman Oak on Floors 110 of the Oakhaven Mine-Dungeon.",
+      "buy_price": null,
+      "sell_price": 70
+    },
+    {
+      "id": "mat_ancient_golden_acorn",
+      "name": "Ancient Engraved Golden Acorn",
+      "category": "monster_drop",
+      "description": "100% Non-Food drop harvested from The Blighted Hangman Oak on Floors 110 of the Oakhaven Mine-Dungeon.",
+      "buy_price": null,
+      "sell_price": 70
+    },
+    {
+      "id": "mat_void_membrane",
+      "name": "Transparent Crystal Membrane",
+      "category": "monster_drop",
+      "description": "100% Non-Food drop harvested from Void Crystal Slime on Floors 111-129 of the Oakhaven Mine-Dungeon.",
+      "buy_price": null,
+      "sell_price": 130
+    },
+    {
+      "id": "mat_ancient_parchment",
+      "name": "Ancient Runic Parchment",
+      "category": "monster_drop",
+      "description": "100% Non-Food drop harvested from Floating Spellbound Grimoire on Floors 121-130 of the Oakhaven Mine-Dungeon.",
+      "buy_price": null,
+      "sell_price": 130
+    },
+    {
+      "id": "mat_abyssal_quartz",
+      "name": "Abyssal Quartz Shard",
+      "category": "monster_drop",
+      "description": "100% Non-Food drop harvested from Petrifying Quartz Gargoyle on Floors 111-129 of the Oakhaven Mine-Dungeon.",
+      "buy_price": null,
+      "sell_price": 130
+    },
+    {
+      "id": "mat_broken_scepter",
+      "name": "Fractured Bone Scepter",
+      "category": "monster_drop",
+      "description": "100% Non-Food drop harvested from Void Skeleton Necromancer on Floors 130-149 of the Oakhaven Mine-Dungeon.",
+      "buy_price": null,
+      "sell_price": 130
+    },
+    {
+      "id": "mat_ancient_core",
+      "name": "Ancient Power Core",
+      "category": "monster_drop",
+      "description": "100% Non-Food drop harvested from Hollow Royal Champion on Floors 141-149 of the Oakhaven Mine-Dungeon.",
+      "buy_price": null,
+      "sell_price": 130
+    },
+    {
+      "id": "mat_dark_reins",
+      "name": "Dark Spectral Reins",
+      "category": "monster_drop",
+      "description": "100% Non-Food drop harvested from Spectral Death Knight on Floors 130-149 of the Oakhaven Mine-Dungeon.",
+      "buy_price": null,
+      "sell_price": 130
+    },
+    {
+      "id": "mat_royal_seal_key",
+      "name": "Royal Sealed Key",
+      "category": "monster_drop",
+      "description": "100% Non-Food drop harvested from Royal Golden Mimic on Floors 141-149 of the Oakhaven Mine-Dungeon.",
+      "buy_price": null,
+      "sell_price": 130
+    },
+    {
+      "id": "mat_void_mirror_shard",
+      "name": "Abyssal Mirror Shard",
+      "category": "monster_drop",
+      "description": "100% Non-Food drop harvested from Abyssal Mirror Rowan on Floors 141-149 of the Oakhaven Mine-Dungeon.",
+      "buy_price": null,
+      "sell_price": 130
+    },
+    {
+      "id": "ore_void",
+      "name": "Void Ore",
+      "category": "mineral",
+      "description": "100% Non-Food drop harvested from Abyssal Mirror Rowan on Floors 141-149 of the Oakhaven Mine-Dungeon.",
+      "buy_price": null,
+      "sell_price": 120
+    },
+    {
+      "id": "mat_ancient_rune_heart",
+      "name": "Ancient Runic Heart Shard",
+      "category": "monster_drop",
+      "description": "100% Non-Food drop harvested from Ancient Vault Warden on Floors 150 of the Oakhaven Mine-Dungeon.",
+      "buy_price": null,
+      "sell_price": 130
+    },
+    {
+      "id": "mat_primordial_element_crystal",
+      "name": "Primordial Element Crystal",
+      "category": "monster_drop",
+      "description": "100% Non-Food drop harvested from Amorphous Slime King on Floors 151+ of the Oakhaven Mine-Dungeon.",
+      "buy_price": null,
+      "sell_price": 130
+    },
+    {
+      "id": "mat_undying_core",
+      "name": "Undying Core",
+      "category": "monster_drop",
+      "description": "100% Non-Food drop harvested from Amorphous Slime King on Floors 151+ of the Oakhaven Mine-Dungeon.",
+      "buy_price": null,
+      "sell_price": 130
+    },
+    {
+      "id": "gem_prismatic",
+      "name": "Prismatic Shard",
+      "category": "gem",
+      "description": "100% Non-Food drop harvested from Amorphous Slime King on Floors 151+ of the Oakhaven Mine-Dungeon.",
+      "buy_price": null,
+      "sell_price": 600
+    },
+    {
+      "id": "mat_abyssal_diamond_tooth",
+      "name": "Abyssal Diamond Tooth",
+      "category": "monster_drop",
+      "description": "100% Non-Food drop harvested from Void Rift Worm on Floors 151+ of the Oakhaven Mine-Dungeon.",
+      "buy_price": null,
+      "sell_price": 130
+    },
+    {
+      "id": "ore_void_pure",
+      "name": "Pure Void Ore x5",
+      "category": "mineral",
+      "description": "100% Non-Food drop harvested from Void Rift Worm on Floors 151+ of the Oakhaven Mine-Dungeon.",
+      "buy_price": null,
+      "sell_price": 240
     }
   ]
 }

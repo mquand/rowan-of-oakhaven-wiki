@@ -1,15 +1,15 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "version": "1.0.0",
-  "updated": "2026-11-18",
+  "updated": "2026-11-25",
   "guest_types": [
     {
       "id": "guest_miner",
       "archetype": "Deep Delver Miner",
       "preferred_room": "dorm_bunkhouse",
       "stay_days": 1,
-      "dinner_preference": "item_dish_dwarf_ironforge_goulash",
-      "breakfast_preference": "item_bread_brioche",
+      "dinner_preference": "food_bo_ham_ruou_vang_mo",
+      "breakfast_preference": "food_banh_mi_lua_mi_gion",
       "base_tip": 20,
       "rumor_pool": [
         "The coal seam on Floor 15 has started making groaning sounds; feels like an old shaft might cave soon...",
@@ -21,8 +21,8 @@
       "archetype": "Caravel Fleet Trader",
       "preferred_room": "standard_hearth",
       "stay_days": 2,
-      "dinner_preference": "sup_tom_hum_sua_beo",
-      "breakfast_preference": "item_pastry_cinnamon_roll",
+      "dinner_preference": "food_sup_tom_hum_sua_beo",
+      "breakfast_preference": "food_banh_pie_tao_que_lo_dat",
       "base_tip": 80,
       "rumor_pool": [
         "Silk and southern spice prices are skyrocketing in Solaria; Captain Garrick will be buying heavy loads of valley herbs next run.",
@@ -34,8 +34,8 @@
       "archetype": "Wandering Scholar & Chronicler",
       "preferred_room": "merchant_suite",
       "stay_days": 3,
-      "dinner_preference": "item_dish_moonlight_creamy_risotto",
-      "breakfast_preference": "item_tea_sen_an_than",
+      "dinner_preference": "food_sup_yen_pha_le_thung_lung",
+      "breakfast_preference": "food_tra_sen_bach_diep",
       "base_tip": 150,
       "rumor_pool": [
         "Ancient scrolls record that the stone altars beneath Oakhaven once cleansed celestial miasma for the entire valley.",
@@ -48,8 +48,8 @@
       "is_stormbound_vip": true,
       "preferred_room": "merchant_suite",
       "stay_days": 1,
-      "dinner_preference": "bit_tet_nuong_than_soi",
-      "breakfast_preference": "ga_ham_sam_rung_da",
+      "dinner_preference": "food_bit_tet_nuong_than_soi",
+      "breakfast_preference": "food_ga_ham_sam_rung_da",
       "base_tip": 300,
       "special_reward": "blueprint_royal_parry_dagger",
       "quote": "The howling gale freezes marrow... Bless you, hospitable tavernkeeper, for sheltering a wandering soul without prying."
@@ -60,8 +60,8 @@
       "is_stormbound_vip": true,
       "preferred_room": "standard_hearth",
       "stay_days": 1,
-      "dinner_preference": "item_dish_wild_forest_mushroom_soup",
-      "breakfast_preference": "item_tea_frostmint_breeze",
+      "dinner_preference": "food_sup_nam_sao_am_bung",
+      "breakfast_preference": "food_canh_thao_moc_bup_sen",
       "base_tip": 250,
       "special_reward": "item_purification_salt_recipe",
       "quote": "The aroma of cedar smoke and boiling stew thawed the frostbite from my bones. Such honest shelter warrants a fair boon."

@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "version": "2.0.0",
-  "updated": "2026-11-14",
+  "updated": "2026-11-25",
   "weapons": [
     {
       "id": "wooden_training_sword",
@@ -85,12 +85,12 @@
     },
     {
       "id": "obsidian_flame_saber",
-      "name": "Kiếm Lửa Hắc Diện Thạch",
-      "name_en": "Obsidian Flame Saber",
+      "name": "Kiếm Hỏa Diệm Khaz-Drakor",
+      "name_en": "Khaz-Drakor Forgefire Saber",
       "weapon_type": "melee",
       "tier": 5,
       "description": "Rèn từ thủy tinh núi lửa sắc như dao cạo kết hợp phôi sắt; mỗi nhát chém phóng thích tia lửa dung nham thiêu đốt quái 4s.",
-      "upgrade_path": "Nâng cấp tại Lò rèn Boris: Hắc Diện Thạch → Lõi Tinh Tú",
+      "upgrade_path": "Nâng cấp tại Lò rèn Boris: Mithril & Basalt → Quặng Hư Không",
       "tags": [
         "sword",
         "melee",
@@ -101,16 +101,16 @@
       "reach": "Cận chiến (1.4 ô)",
       "special_effect": "Chém xuyên lớp giáp đá dung nham; tăng 25% sát thương lên quái vật hệ Băng.",
       "runic_skill": "Dung Nham Phun Trào: Cắm kiếm xuống sàn tạo cột dung nham hất tung kẻ địch.",
-      "materials_needed": "10 Hắc Diện Thạch + 5 Phôi Sắt + 9,000 Vàng tại Lò rèn Boris"
+      "materials_needed": "8 Thỏi Mithril + 6 Mảnh Đá Basalt + 9,000 Vàng tại Lò rèn Boris"
     },
     {
       "id": "starlight_blade",
-      "name": "Kiếm Pha Lê Sao",
-      "name_en": "Starlight Blade",
+      "name": "Kiếm Pha Lê Solaria",
+      "name_en": "Solaria Crystal Blade",
       "weapon_type": "melee",
       "tier": 6,
-      "description": "Thanh kiếm pha lê phát sáng — đòn đánh nhanh 3 nhịp, chém ra vệt tinh tú lấp lánh. Nhát chém thứ 3 làm vỡ vụn các tảng đá cứng và xuyên giáp hư không.",
-      "upgrade_path": "Bậc tối thượng: Rèn tại Lò Boris với Lõi Tinh Tú",
+      "description": "Thanh kiếm pha lê cổ đại của Vương Triều Solaria với nhịp chém 3 đòn linh hoạt; nhát thứ 3 phá giáp đá và xuyên giáp hư không.",
+      "upgrade_path": "Bậc tối thượng: Rèn tại Lò Boris với Bản Vẽ Solaria & Quặng Hư Không",
       "tags": [
         "sword",
         "magic",
@@ -120,8 +120,8 @@
       "attack_speed": "Cực nhanh (3.8 nhịp/s)",
       "reach": "Cận chiến (1.4 ô)",
       "special_effect": "Nhát chém thứ 3 tạo sóng tinh tú làm vỡ vụn đá cứng và xuyên giáp quái vật hư không.",
-      "runic_skill": "Tinh Tú Thác Đổ: Phóng ra 5 phi kiếm tinh tú tự động truy tìm mục tiêu.",
-      "materials_needed": "1 Lõi Tinh Tú + 4 Kim Cương + 20,000 Vàng tại Lò rèn Boris"
+      "runic_skill": "Kiếm Vũ Solaria: Phóng ra 5 phi kiếm pha lê tự động truy tìm mục tiêu.",
+      "materials_needed": "8 Thỏi Quặng Hư Không + 1 Mảnh Trái Tim Cổ Ngữ + 4 Kim Cương + 20,000 Vàng tại Lò rèn Boris"
     },
     {
       "id": "rusty_farm_scythe",
@@ -150,7 +150,7 @@
       "weapon_type": "melee",
       "tier": 3,
       "description": "Chiếc liềm ma thuật có tầm quét hình bán nguyệt rộng — vừa đối phó đàn quái đông, vừa thu hoạch cả vạt thảo mộc và lúa mì chỉ trong 1 nhát vung.",
-      "upgrade_path": "Nâng cấp tại Lò rèn Boris: Sắt → Bạc",
+      "upgrade_path": "Nâng cấp tại Lò rèn Boris: Sắt → Hoàng Kim",
       "tags": [
         "scythe",
         "magic",
@@ -166,12 +166,12 @@
     },
     {
       "id": "silver_moon_scythe",
-      "name": "Lưỡi Hái Ngân Nguyệt",
-      "name_en": "Silver Moon Scythe",
+      "name": "Lưỡi Hái Nguyệt Quang Hoàng Kim",
+      "name_en": "Gilded Crescent Scythe",
       "weapon_type": "melee",
       "tier": 4,
       "description": "Lưỡi bạc phát quang ánh trăng dịu mát, sắc lẹm và thanh thoát; phục hồi Thể lực mỗi khi dọn sạch một cụm kẻ địch.",
-      "upgrade_path": "Nâng cấp tại Lò rèn Boris: Bạc → Lõi Tinh Tú",
+      "upgrade_path": "Nâng cấp tại Lò rèn Boris: Hoàng Kim → Quặng Hư Không",
       "tags": [
         "scythe",
         "magic",
@@ -182,16 +182,16 @@
       "reach": "Bán nguyệt rộng (2.6 ô)",
       "special_effect": "Hồi phục 3 điểm Thể lực (Stamina) cho mỗi kẻ địch bị hạ gục bởi nhát chém.",
       "runic_skill": "Sóng Ngân Nguyệt: Phóng ra lưỡi đao ánh trăng hình bán nguyệt bay xuyên qua hàng kẻ địch.",
-      "materials_needed": "8 Phôi Bạc + 2 Thạch Anh Tím + 6,000 Vàng tại Lò rèn Boris"
+      "materials_needed": "8 Phôi Vàng + 2 Thạch Anh Tím + 6,000 Vàng tại Lò rèn Boris"
     },
     {
       "id": "astral_void_reaper",
-      "name": "Lưỡi Hái Hư Không Tinh Tú",
-      "name_en": "Astral Void Reaper",
+      "name": "Lưỡi Hái Hư Không Solaria",
+      "name_en": "Solaria Void Reaper",
       "weapon_type": "melee",
       "tier": 6,
       "description": "Vũ khí huyền thoại cắt rách không gian, tạo ra những vết nứt tinh tú hút lấy sinh lực quái vật bóng đêm.",
-      "upgrade_path": "Bậc tối thượng: Rèn tại Lò Boris với Lõi Tinh Tú",
+      "upgrade_path": "Bậc tối thượng: Rèn tại Lò Boris với Bản Vẽ Solaria & Quặng Hư Không",
       "tags": [
         "scythe",
         "magic",
@@ -202,7 +202,7 @@
       "reach": "Bán nguyệt khổng lồ (3.0 ô)",
       "special_effect": "Cắt rách không gian; tăng +30% tỉ lệ rơi vật phẩm quý hiếm từ quái vật bị hạ gục.",
       "runic_skill": "Đoạt Hồn Trảm: Trảm sát tức thì quái vật thường khi lượng sinh lực tụt dưới 25%.",
-      "materials_needed": "1 Lõi Tinh Tú + 8 Hắc Diện Thạch + 2 Kim Cương + 22,000 Vàng tại Lò rèn Boris"
+      "materials_needed": "8 Thỏi Quặng Hư Không + 4 Mảnh Gương Vực Thẳm + 2 Kim Cương + 22,000 Vàng tại Lò rèn Boris"
     },
     {
       "id": "miner_stone_mallet",
@@ -245,12 +245,12 @@
     },
     {
       "id": "whisk_hammer",
-      "name": "Gậy Quấy Trà Khổng Lồ",
-      "name_en": "Colossal Tea Whisk Hammer",
+      "name": "Búa Rèn Gang Khaz-Drakor",
+      "name_en": "Khaz-Drakor Cast-Iron Hammer",
       "weapon_type": "heavy",
       "tier": 3,
-      "description": "Vũ khí hạng nặng lấy cảm hứng từ dụng cụ đánh trà truyền thống — đập đất gây chấn động phá tan quái cơ khí và khối quặng cùng lúc.",
-      "upgrade_path": "Nâng cấp tại Lò rèn Boris: Sắt → Hắc Diện Thạch",
+      "description": "Chiếc búa đe bằng gang đúc nặng trịch mô phỏng mẫu búa người lùn Khaz-Drakor; đập vỡ khiên xương và tảng đá cứng.",
+      "upgrade_path": "Nâng cấp tại Lò rèn Boris: Sắt → Mithril & Basalt",
       "tags": [
         "hammer",
         "heavy",
@@ -259,8 +259,8 @@
       "base_atk": 38,
       "attack_speed": "Chậm (0.8 nhịp/s)",
       "reach": "Chấn động diện rộng (2.0 ô)",
-      "special_effect": "Đập đất slam giải phóng sóng chấn động phá tan quái vật cơ khí và khối quặng cùng lúc.",
-      "runic_skill": "Sóng Bụi Trà: Đập búa tạo vòng sóng bụi trà xanh làm chậm tốc độ quái vật 50%.",
+      "special_effect": "Đập đất giải phóng sóng chấn động làm choáng và phá vỡ thế thủ quái vật.",
+      "runic_skill": "Sóng Chấn Động Lò Rèn: Giáng búa tạo vòng xung kích làm chậm tốc độ quái vật 50%.",
       "materials_needed": "10 Phôi Sắt + 2 Đá Tinh Thể + 2,500 Vàng tại Lò rèn Boris"
     },
     {
@@ -270,7 +270,7 @@
       "weapon_type": "heavy",
       "tier": 5,
       "description": "Búa chiến khổng lồ rèn từ quặng hắc diện thạch đun chảy; giáng xuống tạo tiếng nổ vang dội và phóng thích nhiệt lượng dung nham thiêu đốt.",
-      "upgrade_path": "Nâng cấp tại Lò rèn Boris: Hắc Diện Thạch → Lõi Tinh Tú",
+      "upgrade_path": "Nâng cấp tại Lò rèn Boris: Mithril & Basalt → Quặng Hư Không",
       "tags": [
         "hammer",
         "heavy",
@@ -281,16 +281,16 @@
       "reach": "Chấn động nứt đất (2.4 ô)",
       "special_effect": "Nghiền nát các khối đá hắc diện thạch lớn chỉ trong 1 đòn; miễn nhiễm cháy khi cầm.",
       "runic_skill": "Địa Chấn Dung Nham: Giáng búa tạo vết nứt địa chấn nổ dung nham trên đường thẳng 4 ô.",
-      "materials_needed": "12 Hắc Diện Thạch + 6 Phôi Sắt + 10,500 Vàng tại Lò rèn Boris"
+      "materials_needed": "10 Thỏi Mithril + 8 Mảnh Đá Basalt + 10,500 Vàng tại Lò rèn Boris"
     },
     {
       "id": "titan_stellar_crusher",
-      "name": "Búa Tinh Vân Thần Tượng",
-      "name_en": "Titan Stellar Crusher",
+      "name": "Búa Tạ Vực Thẳm Khaz-Drakor",
+      "name_en": "Khaz-Drakor Abyss Crusher",
       "weapon_type": "heavy",
       "tier": 6,
       "description": "Vũ khí đập đất uy lực nhất được Boris truyền dạy — mang trọng lượng của một thiên thạch thu nhỏ, nghiền nát mọi thứ chắn đường.",
-      "upgrade_path": "Bậc tối thượng: Rèn tại Lò Boris với Lõi Tinh Tú",
+      "upgrade_path": "Bậc tối thượng: Rèn tại Lò Boris với Bản Vẽ Solaria & Quặng Hư Không",
       "tags": [
         "hammer",
         "heavy",
@@ -300,8 +300,8 @@
       "attack_speed": "Chậm (0.75 nhịp/s)",
       "reach": "Địa chấn khổng lồ (2.8 ô)",
       "special_effect": "Sát thương đập đòn đơn cực đại; hất văng mọi kẻ địch và nghiền nát vật cản cứng nhất.",
-      "runic_skill": "Thiên Thạch Giáng Thế: Nhảy vọt lên không và giáng búa xuống tựa thiên thạch rơi.",
-      "materials_needed": "1 Lõi Tinh Tú + 4 Kim Cương + 10 Phôi Vàng + 25,000 Vàng tại Lò rèn Boris"
+      "runic_skill": "Địa Chấn Thần Lực: Nhảy vọt lên không và giáng búa xuống phá nát toàn bộ giáp trụ quanh tâm nổ.",
+      "materials_needed": "10 Thỏi Quặng Hư Không + 1 Mảnh Trái Tim Cổ Ngữ + 4 Kim Cương + 25,000 Vàng tại Lò rèn Boris"
     },
     {
       "id": "hunter_shortbow",
@@ -349,7 +349,7 @@
       "weapon_type": "ranged",
       "tier": 4,
       "description": "Nỏ bắn tỉa mạ vàng tinh xảo trang bị kính ngắm tinh thể; bắn ra những mũi tên ánh sáng chói lòa làm mù quái vật bóng đêm.",
-      "upgrade_path": "Nâng cấp tại Lò rèn Boris: Vàng → Lõi Tinh Tú",
+      "upgrade_path": "Nâng cấp tại Lò rèn Boris: Hoàng Kim → Quặng Hư Không",
       "tags": [
         "crossbow",
         "ranged",
@@ -365,11 +365,11 @@
     {
       "id": "starblight_void_repeater",
       "name": "Nỏ Liên Thanh Hư Không",
-      "name_en": "Starblight Void Repeater",
+      "name_en": "Abyssal Void Repeater",
       "weapon_type": "ranged",
       "tier": 6,
       "description": "Vũ khí tầm xa tối thượng không cần đạn thường; tự ngưng tụ năng lượng hư không thành chuỗi mũi tên sao bộc phá.",
-      "upgrade_path": "Bậc tối thượng: Rèn tại Lò Boris với Lõi Tinh Tú",
+      "upgrade_path": "Bậc tối thượng: Rèn tại Lò Boris với Bản Vẽ Solaria & Quặng Hư Không",
       "tags": [
         "crossbow",
         "ranged",
@@ -379,8 +379,8 @@
       "attack_speed": "Rất nhanh (2.5 phát/s)",
       "reach": "Tầm xa (7.0 ô)",
       "special_effect": "Không tốn tên thường; tự ngưng tụ tinh tú thành các mũi tiễn hư không phát nổ khi chạm mục tiêu.",
-      "runic_skill": "Mưa Tên Tinh Tú: Trút cơn mưa tên sao từ trên cao xuống quét sạch diện tích 4x4 ô.",
-      "materials_needed": "1 Lõi Tinh Tú + 6 Phôi Bạc + 3 Kim Cương + 24,000 Vàng tại Lò rèn Boris"
+      "runic_skill": "Mưa Tên Hư Không: Trút cơn mưa tiễn pha lê từ trên cao xuống quét sạch đàn quái vật.",
+      "materials_needed": "8 Thỏi Quặng Hư Không + 6 Thỏi Mithril + 3 Kim Cương + 24,000 Vàng tại Lò rèn Boris"
     },
     {
       "id": "apprentice_wood_wand",
@@ -428,7 +428,7 @@
       "weapon_type": "magic",
       "tier": 5,
       "description": "Pháp trượng nạm ngọc hồng lựu trên đỉnh tháp hắc diện thạch; bắn ra các quả cầu dung nham phát nổ thiêu đốt quái vật tầng sâu.",
-      "upgrade_path": "Nâng cấp tại Lò rèn Boris: Hắc Diện Thạch → Lõi Tinh Tú",
+      "upgrade_path": "Nâng cấp tại Lò rèn Boris: Mithril & Basalt → Quặng Hư Không",
       "tags": [
         "staff",
         "magic",
@@ -440,16 +440,16 @@
       "reach": "Tầm xa (6.5 ô)",
       "special_effect": "Bắn cầu lửa nham thạch phát nổ khi va chạm, thiêu rụi băng giá và quái vật tầng sâu.",
       "runic_skill": "Vòng Lửa Thiêu Rụi: Dựng tường lửa hình tròn thiêu đốt và ngăn chặn quái vật áp sát trong 6s.",
-      "materials_needed": "8 Hắc Diện Thạch + 2 Hồng Ngọc + 8,500 Vàng tại Lò rèn Boris"
+      "materials_needed": "8 Thỏi Mithril + 2 Hồng Ngọc + 8,500 Vàng tại Lò rèn Boris"
     },
     {
       "id": "primordial_starlight_staff",
-      "name": "Pháp Trượng Tinh Tú Khởi Nguyên",
-      "name_en": "Primordial Starlight Staff",
+      "name": "Pháp Trượng Cổ Tự Solaria",
+      "name_en": "Solaria Seal Staff",
       "weapon_type": "magic",
       "tier": 6,
       "description": "Pháp trượng thần thoại dẫn truyền năng lượng tinh vân nguyên thủy; thanh tẩy mọi sự tha hóa của Hầm ngục Star Blight.",
-      "upgrade_path": "Bậc tối thượng: Rèn tại Lò Boris với Lõi Tinh Tú",
+      "upgrade_path": "Bậc tối thượng: Rèn tại Lò Boris với Bản Vẽ Solaria & Quặng Hư Không",
       "tags": [
         "staff",
         "magic"
@@ -458,8 +458,8 @@
       "attack_speed": "Bắn liên tục (2.0 phát/s)",
       "reach": "Tầm bao quát (7.5 ô)",
       "special_effect": "Giải phóng năng lượng tinh vân thuần khiết; thanh tẩy mọi lời nguyền ô nhiễm của Hầm ngục Star Blight.",
-      "runic_skill": "Siêu Tân Tinh: Ngưng tụ một quả cầu tinh vân khổng lồ phát nổ quét sạch quái vật toàn màn hình.",
-      "materials_needed": "1 Lõi Tinh Tú + 3 Lam Ngọc + 3 Kim Cương + 26,000 Vàng tại Lò rèn Boris"
+      "runic_skill": "Bùng Nổ Hư Không: Ngưng tụ quả cầu năng lượng Solaria phát nổ diện rộng cực đại.",
+      "materials_needed": "10 Thỏi Quặng Hư Không + 3 Lam Ngọc + 3 Kim Cương + 26,000 Vàng tại Lò rèn Boris"
     }
   ]
 }

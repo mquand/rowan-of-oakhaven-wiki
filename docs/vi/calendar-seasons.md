@@ -15,7 +15,7 @@ Một năm trong Oakhaven có **4 mùa × 28 ngày = 112 ngày**. Mỗi mùa man
 
 | Mùa | Đặc trưng | Gợi ý hoạt động |
 | :--- | :--- | :--- |
-| 🌸 **Mùa Xuân (Spring)** | Cây đâm chồi, hoa sen nở rộ, mưa xuân nhiều (tự tưới cây) | Trồng Trà Sen, Oải Hương Sao |
+| 🌸 **Mùa Xuân (Spring)** | Cây đâm chồi, hoa sen nở rộ, mưa xuân nhiều (tự tưới cây) | Trồng Búp Trà Sen, Hoa Oải Hương Rừng |
 | ☀️ **Mùa Hạ (Summer)** | Thu hoạch Dâu Tuyết, bắt đom đóm đêm làm đèn | Trà đá mát cho khách |
 | 🍂 **Mùa Thu (Autumn)** | Lúa mì bạc chín vàng ruộm | **Ngày 20: Lễ Hội Bánh Mùa Thu & Lồng Đèn**; trồng Bí Ngô Mật Ong |
 | ❄️ **Mùa Đông (Winter)** | Vườn đóng băng (chỉ trồng trong nhà kính ma thuật) | Mỏ pha lê tuyết mở tầng sâu; khách chuộng trà nóng, bánh mì bơ ấm |

@@ -43,10 +43,10 @@ flowchart TD
 
 | Phân Loại | Người Giao Thường Gặp | Mục Tiêu Mẫu | Phần Thưởng |
 | :--- | :--- | :--- | :--- |
-| **Nông sản mùa** | Bà Maeve, Linnea | 3 Cà rốt mùa xuân, 5 Quả mọng rừng | 100 - 150g, **+100 Tim** |
-| **Món ăn ấm lòng** | Aurelia, Sylvan | 1 Súp gà thảo mộc nóng sốt | 200 - 300g, **+100 Tim** |
+| **Nông sản mùa** | Bà Maeve, Hazel | 3 Hắc Cà Rốt Mắt Mèo, 8 Quả Mọng Rừng | 100 - 150g, **+100 Tim** |
+| **Món ăn ấm lòng** | Aurelia, Sylvan | 1 Gà Hầm Sâm Mandrake Maca | 200 - 300g, **+100 Tim** |
 | **Tìm đồ thất lạc** | Clara, Penny, Cora | Sổ phác thảo, kính lão, con quay | 150 - 200g, **+100 Tim** |
-| **Vật tư gia cố** | Bram, Cedric | 20 Gỗ sồi, 10 Đá cuội gia cố bờ kè | 250 - 350g, **+100 Tim** |
+| **Vật tư gia cố** | Bram, Cedar | 25 Gỗ sồi, 10 Đá cuội gia cố bờ kè | 250 - 350g, **+100 Tim** |
 
 ---
 
@@ -62,7 +62,7 @@ flowchart TD
 | **⚔️ Tiễu phạt bầy quái** | Diệt 15 Nhện Đá Cổ (Tầng 20-39) hoặc 10 Quỷ Lửa (Tầng 60-79) | 400 - 600g, **3 - 5 Huy Hiệu** |
 | **⛏️ Cung ứng quặng thô** | Đào 20 Than đá hoặc 15 Quặng sắt mỏ sâu cho lò hơi | 300 - 500g, **2 - 4 Huy Hiệu**, +100 Tim Bram/Boris |
 | **🌿 Thảo dược vực sâu** | Lặn hồ ngầm hái 5 Nấm phát quang giải độc cho Sylvan | 400 - 500g, **4 Huy Hiệu**, +100 Tim Sylvan |
-| **👑 Warden Boss mốc tầng** | Trảm Warden Cổ Thụ Tầng 40, Warden Bọ Hung Tầng 80 | 1,200 - 2,500g, **10 - 20 Huy Hiệu** |
+| **👑 Warden Boss mốc tầng** | Trảm Golem Hơi Nước Tầng 30, Hỏa Long Tầng 70, Mộc Thần Tầng 110, Tướng Soái Tầng 150 | 1,200 - 2,500g, **10 - 20 Huy Hiệu** |
 
 > [!TIP]
 > **Huy Hiệu Tiền Đồn Dùng Để Làm Gì?**
@@ -133,8 +133,8 @@ Nhằm gia tăng chiều sâu thực chiến và tính nhập vai, hệ thống 
 | **Q-LORE-02: Bóng Đêm Hoàng Tộc Solaria** | Valen de Montfort | Nấu *Súp Bổ Máu Củ Dền Thảo Mộc 3 Sao* trong Cặp lồng sơn mài; lén giao lên phòng kín lầu 2 sau 23:00; né tránh lính tuần tra. | 🏆 Thành tựu ẩn: `ACH_SOLARIA_SHADOW` *(Bóng Đêm Solaria)*<br/>📜 Công thức gia truyền: *Súp Bổ Máu Solaria* (Hồi 100 HP, +20% Kháng Vật Lý)<br/>🛋️ Trang trí: *Bộ Dao Nĩa Bạc Hoàng Triều* (+20 Cozy, hút khách sang). |
 | **Q-LORE-03: Chiếc Cúc Áo Người Lính Cũ** | Bé Cora | Lặn mò ven suối tìm chiếc Cúc Áo Bạc Quân Đội của cha Cora bị lũ cuốn; làm 1 đĩa Bánh Quy Hạt Phỉ an ủi bé. | 🏆 Thành tựu ẩn: `ACH_PROMISE_BY_STREAM` *(Lời Hứa Bờ Suối)*<br/>🧿 Kỷ vật: *Vòng Đá Cuội Bảy Màu May Mắn* (+5% Tỉ lệ Né đòn vĩnh viễn)<br/>🛋️ Trang trí: *Bức Tranh Bờ Suối Vẽ Tay Của Cora* (+10% khách tip thêm). |
 | **Q-LORE-04: Sổ Môn Không Thể Xóa** | Bác Barnaby | Đòi lại 1,200g nợ mua rượu cũ từ 3 khách trọ quịt nợ dạt ra bìa rừng; hoặc tự bù tiền nếu thương hại họ. | 🏆 Thành tựu ẩn: `ACH_DEBT_COLLECTOR` *(Tay Hòm Chìa Khóa)*<br/>🧿 Kỷ vật: *Sổ Ghi Nợ Bọc Da Của Barnaby* (xem trước biến động giá nông sản/quặng ngày mai)<br/>💰 Barnaby chia 30% tiền nợ thu hồi. |
-| **Q-HUNT-01: Bức Tường Thép Trước Warden Bọ** | Hiệp Sĩ Hester | Tiêu diệt Warden Bọ Hung Tầng 80 với điều kiện thực hiện tối thiểu 12 lần Master Parry chuẩn xác; HP không tụt dưới 80%. | 🏆 Thành tựu ẩn: `ACH_PARRY_MASTER` *(Bậc Thầy Đỡ Đòn)*<br/>🛋️ Trang trí: *Đầu Lâu Warden Bọ Hung Mạ Vàng* (treo tường The Hearth, +15% tip từ thợ mỏ)<br/>⚔️ Danh hiệu: *"Bức Tường Thép Oakhaven"*. |
-| **Q-HUNT-02: Bữa Tiệc Sinh Tồn Dung Nham** | Hội Trưởng Thorne | Quét sạch 3 tầng Đới Dung Nham (71-73) không dùng bình thuốc Maeve; chỉ sống sót bằng buff từ Cơm hộp dã chiến mang theo. | 🏆 Thành tựu ẩn: `ACH_IRON_STOMACH` *(Sinh Tồn Ẩm Thực)*<br/>📜 Bản vẽ: *Ba Lô Cách Nhiệt Dã Ngoại* (+8 ô chứa đồ, giữ thức ăn tươi gấp đôi)<br/>🏅 15x Huy Hiệu Cứu Viện. |
+| **Q-HUNT-01: Bức Tường Thép Trước Hỏa Long** | Hiệp Sĩ Hester | Tiêu diệt Hỏa Long Hồ Đúc Tầng 70 với điều kiện thực hiện tối thiểu 12 lần Master Parry chuẩn xác; HP không tụt dưới 80%. | 🏆 Thành tựu ẩn: `ACH_PARRY_MASTER` *(Bậc Thầy Đỡ Đòn)*<br/>🛋️ Trang trí: *Giáp Vảy Hỏa Long Mạ Vàng* (treo tường The Hearth, +15% tip từ thợ mỏ)<br/>⚔️ Danh hiệu: *"Bức Tường Thép Oakhaven"*. |
+| **Q-HUNT-02: Bữa Tiệc Sinh Tồn Dung Nham** | Hội Trưởng Thorne | Quét sạch 3 tầng Hồ Luyện Kim (61-63) không dùng bình thuốc Aurelia; chỉ sống sót bằng buff từ Cơm hộp dã chiến mang theo. | 🏆 Thành tựu ẩn: `ACH_IRON_STOMACH` *(Sinh Tồn Ẩm Thực)*<br/>📜 Bản vẽ: *Ba Lô Cách Nhiệt Dã Ngoại* (+8 ô chứa đồ, giữ thức ăn tươi gấp đôi)<br/>🏅 15x Huy Hiệu Cứu Viện. |
 | **Q-ALTAR-01: Khúc Ca Cầu Siêu Tiết Xuân Phân** | Rosemary | Nấu mâm đại tiệc 5 món Xuân (Cải thìa xào nấm sao, Canh củ sen tuyết...) dâng Bàn Thờ Cổ lúc nửa đêm; trảm 3 đợt Hồn Ma Miasma. | 🏆 Thành tựu ẩn: `ACH_ASHES_TO_BLOOM` *(Hóa Giải Tro Tàn)*<br/>🌱 Mở khóa: *Vườn Thảo Dược Vĩnh Cửu Bìa Rừng* (trồng thảo mộc quanh năm)<br/>🛋️ Trang trí: *Lư Hương Đồng Bàn Thờ Cổ* (+25 Cozy Rating, max cấp). |
 
 ---

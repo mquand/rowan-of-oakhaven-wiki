@@ -1,132 +1,105 @@
 ---
-title: "Minerals & Magic Stones"
-status: draft
+title: "Minerals, Gemstones & Permanent Soul Essences"
+status: stable
 audience: public
-updated: 2026-11-13
-tags: [mining, minerals, gems, mana_stones, magitech]
+updated: 2026-11-25
+tags: [mining, minerals, gems, soul_essences, geodes, mithril, void_ore]
 spoiler: false
 ---
 
-# ⛏️ Minerals & Magic Stones Compendium
+# ⛏️ Minerals, Gemstones & Soul Essences Guide
 
-In the realm of *Rowan of Oakhaven*, the system of rocks, ores, and gemstones serves as one of three foundational resource pillars (alongside Herbal Farming and Starlight Foraging). From coal fueling the bakery oven and frost crystals chilling summer iced teas, to ancient mana stones powering the steam-cog automata of Khaz-Drakor—every stone beneath the soil of Oakhaven carries its own soul, weight, and craft.
+In *Rowan of Oakhaven*, ores, cut gems, and technical stones from **The Infinite Mine-Dungeon (150 Floors + Endless Abyss 151+)** power three interconnected pillars: **forging 23 weapons & 6 armor tiers at Boris's Forge**, **rebuilding 12 Town Restoration Landmarks**, and **crafting farm automation equipment**.
 
 ---
 
-## 1. Mining Mechanics & Stamina Depletion
+## 1. Mining Mechanics & Stamina Budget (`270 Stamina`)
 
-The Oakhaven Mine (Root of the Great Tree) spans **150 subterranean floors** with elevator checkpoints saved every 5 floors. Conquering Floor 150 unlocks Chief Blacksmith Barnaby's Will & Parchment Tunnel Map leading into the subterranean Dwarven Kingdom of Khaz-Drakor. Unlike pure hack-and-slash action titles, breaking rock in Oakhaven is fundamentally tied to **Stamina Management**:
+The unified Oakhaven Mine spans a **150-floor campaign across 4 geological strata** plus the **Endless Abyss (Floors 151+)**, with **Rescue Elevators automatically unlocking every 10 floors (`10, 20, 30... 150`)**.
 
-- **Pebbles / Common Cobblestone:** Depletes $-3$ Stamina per block.
-- **Metal Ores (Copper, Iron, Coal):** Depletes $-5$ Stamina per vein.
-- **Hardened Crystals & Gemstones:** Depletes $-6$ Stamina per cluster.
-- **Mythic Ores (Mithril / Core Gold):** Depletes $-8$ Stamina; requires an Iron or Gold Pickaxe.
+- **Common Pebbles & Cobblestone:** Consumes `1–2` Stamina depending on Pickaxe tier at Boris's Forge.
+- **Metal Ore Veins (Copper, Iron, Gold, Coal):** Consumes `2–3` Stamina per vein.
+- **Hardened Gems, Mithril & Void Veins:** Consumes `3–4` Stamina; requires upgraded Gold/Mithril Pickaxes or **Blasting Charges** from Old Gomer.
 
 > [!TIP]
-> **Miner's Secret:** Drink a cup of **Solar Sun Tea** before heading into the mine shafts to gain $+25\%$ pickaxe swinging speed for 3 minutes and grant Rowan an ethereal inner glow, reducing reliance on the Firefly Lantern when swarm-ambushed.
+> **Miner's Prep:** Eat mining-focused meals such as **Stone-Truffle Miso Ramen** (`+2 Speed, +2 Mining`) or **Ube & Wild Vanilla Tart** before deep shafts; always carry the **Spirit Lantern** for pitch-black rooms and **Escape Ropes** to extract safely before dropping to 0 HP.
 
 ---
 
-## 2. Traditional Gemstones & Legendary Lore
+## 2. The 5 Ore & Smelting Tiers
 
-Crystallized across millennia under the immense pressure of the World Tree’s roots and subterranean leylines, these gemstones hold profound elemental masteries:
-
-| Gemstone | Depth | Traits & Lore Meaning | In-Game Crafting Applications |
-| :--- | :---: | :--- | :--- |
-| **Diamond of Purity** *(Kim Cương Băng Tinh)* | Floors 90–100 | Absolute hardness; symbolizes divine tears and primeval purification. | Crafted into filtration discs for **Diamond Purified Tea**, purging all shadow curses. |
-| **Fire Ruby** *(Hồng Ngọc Lửa)* | Floors 76–100 | Perpetual core heat; activates fire evocation and stabilizes forge temperatures. | Tempers Fire-elemental weapons; sustains perfect oven warmth in Boris’s forge. |
-| **Frost Sapphire** *(Lam Ngọc Băng)* | Floors 51–75 | Glacial breath of eternal winter; shields the conscious mind from panic. | Forges the Star Crystal Blade (Ice); provides everlasting ice for summer berry teas. |
-| **Life Emerald** *(Ngọc Lục Bảo Sinh Mệnh)* | Floors 26–50 | Heart of the virgin forest; symbolizes sap vitality, rapid regrowth, and healing. | Placed into nursery seedbeds to double growth rates; baked into **Deepwood Emerald Tarts**. |
-| **Amethyst** *(Thạch Anh Tím)* | Floors 26–50 | Resonates with arcane violet luminescence, expanding intuition and clarity. | Ground into fillings for **Star Crystal Tarts** (grants $+25\%$ rare ore mining fortune). |
-| **Tiger's Eye** *(Mắt Hổ Trấn Ma)* | Floors 1–25 | Chatoyant predatory gaze; wards off dark illusions, hexes, and nightmare specters. | Fashioned into waist talismans: prevents shadow lurkers from executing sneak attacks. |
-| **Royal Lapis Lazuli** *(Ngọc Lưu Ly Hoàng Gia)* | Floors 51–75 | Celestial deep blue flecked with gold pyrite; holds memories of ancient dwarven dynasties. | Treasured gift for Professor Orion and Clara; ground into ink for waystone teleport scrolls. |
-| **Moonstone** *(Đá Mặt Trăng)* | Floors 51–75 | Shimmers with silvery-blue opalescence; linked to lunar tides and pacifying turmoil. | Brewed into **Moonlight Dew Tea**: lulls grief and unlocks profound villager confessions. |
+| Tier | Ore & Smelted Bar | Stratum Depth | Core Applications |
+| :-: | :--- | :---: | :--- |
+| **1** | **Copper Ore (`ore_copper`) & Bar** | Floors 1–30 | Tier-2 Weapons/Armor, Kitchen cookware, 4-tile Cross Sprinklers, Bridges. |
+| **2** | **Iron Ore (`ore_iron`) & Bar** | Floors 31–70 | Tier-3 Weapons/Armor, `3x3` Sprinklers, Hearth grills, Mine Ore Cart tracks. |
+| **3** | **Gold Ore (`ore_gold`) & Bar** | Floors 71–110 | Tier-4 Weapons/Armor, Jewelry, Eternal Square Hearth, Wharf & Watchtower builds. |
+| **4** | **Mithril Ore (`ore_mithril`) & Bar** | Floors 111–140 | Tier-5 Weapons/Armor, Mithril Pickaxe & Scythe, Magic resistance in Solaria Ruins. |
+| **5** | **Void Ore (`ore_void`) & Void Ingot** | Floors 141–150+ | Tier-6 Endgame Weapons/Armor and `5x5` Void Sprinklers (24 tiles). |
 
 ---
 
-## 3. Fictional Magic & Mana Stones
+## 3. Gemstones & The 4 Geode Tiers (`25g` Cracking at Boris)
 
-Supernatural minerals that supply power to the arcane realm, alchemical circles, and anti-darkness wards:
+Collect **Geodes** from shattered cave rocks and monster drops, then crack them open at **Boris's Forge** for **`25g` each**:
 
-### 🔮 Pure Mana Stone *(Ma Thạch Thuần Khiết)*
-- **Depth:** Floors 26–75 within water-logged geode pockets.
-- **Traits:** An azure crystal containing naturally condensed mana. Even non-mages can activate enchanted mechanisms by channeling through this stone.
-- **Applications:** Reusable arcane battery powering automated tavern kettles and recharging deep-mine lanterns.
+1. **Regular Geode (Stratum 1 · Fl. 1–30):** Quartz, Copper Ore, Mineral Salt, Ancient Arrowhead.
+2. **Magma & Frost Geode (Stratum 2 · Fl. 31–70):** Fire Ruby, Iron Ore, Ancient Fossils, Basalt Slag.
+3. **Crystal Geode (Stratum 3 · Fl. 71–110):** Frost Sapphire, Life Emerald, Deep Spores, Veteran Crest.
+4. **Abyssal Geode (Stratum 4 · Fl. 111–150+):** Diamond of Purity, Prismatic Shard, Mithril, Void Shards.
 
-### 🚫 Nullstone *(Đá Khóa Ma Thuật / Tẩy Trống)*
-- **Depth:** Floors 76–100 (adjacent to spatial abyssal rifts).
-- **Traits:** Matte ash-grey stone impervious to light reflection. Devours and snuffs out all magical currents within its perimeter.
-- **Applications:** Thrown as a throwable bomb to disrupt Warden incantations or crafted into containment crates for volatile herbs.
-
-### 🕯️ Memory Soulstone *(Đá Ký Ức Linh Hồn)*
-- **Depth:** Floors 51–100, crystallizing around ancestral memorials.
-- **Traits:** Transparent as polished glass, safeguarding lingering memories and departed voices before they dissolve into eternity.
-- **Applications:** Unlocks lost diary entries of Grandmother Amalia, unveiling the origins of The Hearth Eatery & Tavern.
-
-### 🛡️ Mythic Mithril Ore *(Quặng Hắc Thiết Thần Thoại)*
-- **Depth:** Floors 76–100, within the deepest bedrock veins.
-- **Traits:** Iridescent silvery-purple ore; lighter than thistle fluff yet stronger than tempered steel, seamlessly conducting starlight.
-- **Applications:** Handed to Boris to forge the Mithril Pickaxe (breaks standard boulders in a single strike) and the Arcane Scythe.
-
-### ☣️ Corrupted Warpstone *(Thạch Biến Dị Hắc Hóa)*
-- **Depth:** Floors 76–100, dropped by Void Abyssal fiends.
-- **Traits:** Seeps foul violet vapors that mutate subterranean critters and corrupt vegetation.
-- **Applications:** Delivered to Apothecary Aurelia to synthesize mutation antidotes; serves as a volatile alchemical reagent.
-
-### 🔴 Philosopher's Stone *(Hòn Đá Triết Gia)*
-- **Depth:** The ultimate artifact achieved after conquering all 150 mine floors.
-- **Traits:** Crimson elixir stone epitomizing ancient alchemy: transmuting baseline matter, cleansing blight, and granting perpetual vigor.
+| Gem & Technical Stone | Depth | Practical Frontier Uses |
+| :--- | :---: | :--- |
+| **Clear Quartz & Tiger's Eye** | Fl. 1–30 | Village Well, Pip's Avian Roost, Showcase Counter, Luminous Beacons. |
+| **Amethyst & Life Emerald** | Fl. 31–110 | Ground into Luminous Ink for Clara's Library; Void Sprinklers; Tier 3–4 forging. |
+| **Fire Ruby & Frost Sapphire** | Fl. 31–110 | Heat- and frost-resistant forging at Boris's Forge for deep strata. |
+| **Diamond & Prismatic Shard** | Fl. 111–150+ | Tier-6 Ultimate Solaria Weapons & Void Armor; relic appraisal with Historian Iris. |
+| **Luminous Glowstone (`stone_lumina_glow`)** | Fl. 1–70 & Market | Smokeless lanterns raising Inn Cozy Rating; miner helmet lamps. |
+| **Floatstone & Pure Mana Stone** | Fl. 31–110 | Automated Mine Ore Cart (`Bram & Boris`) and Sacred Cleansing Altar (`Rosemary`). |
 
 ---
 
-## 4. Magitech & Everyday Utility Stones
+## 4. The 5 Permanent Soul Essences (One-Way Socket Infusion)
 
-Minerals harnessed by Khaz-Drakor engineers to power steam mechanics and improve everyday village life:
+From Tier 2 onward, weapons and armor hold 1 **Soul Essence** socket at Boris's Forge. **Absolute Rule: Socketed essences are permanent and cannot be removed**—to try a different essence, forge a fresh weapon:
 
-- **Lumina Glowstone:** Radiates soothing amber luminescence without emitting heat or soot. Illuminates evening tavern patios and mounts on Rowan’s helmet.
-- **Echo Resonance Stone:** Paired sympathetic acoustic crystals. Keep one at the tavern counter while Bram carries the other into deep shafts to receive real-time hot pastry orders.
-- **Floatstone:** Defies gravity, hovering weightlessly in mid-air. Serves as the anti-grav core for frictionless ore carts and delivery skiffs.
-- **Sealing Ward-Stone:** Inscribed with ancient dwarven ward runes. Planted into the ground to project an inviolable Safe Haven, restoring Stamina amidst hazardous depths.
+- 🔴 **Pyre Ember:** Weapons inflict 5s burn DoT; Armor boosts magma/fire resistance.
+- 🔵 **Frost Shard:** Weapons slow enemies by `35%`; Boots grant immunity to ice/mud slipping.
+- ⚡ **Volt Spark:** `20%` chance on hit to arc chain lightning to 3 nearby enemies.
+- 🩸 **Vampiric Leech:** Restores `3%` of critical hit damage as HP.
+- 🛡️ **Aegis Core:** Projects a ward absorbing the first incoming hit in every new room.
 
 ---
 
-## 5. Four-Zone Mine Distribution (Floors 1–100)
+## 5. Stratum Distribution Across 150+ Floors
 
 ```
-[GROUND LEVEL & OAKHAVEN GARDEN]
- ├── Cobblestone · Lumina Glowstone · Porous Aroma-Stone
+[STRATUM 1: FLOORS 1–30 · PEAT BOG & OLD COPPER MINE]
+ ├── Minerals: Coal, Copper Ore, River Cobblestone, Quartz, Glowstone
+ └── Floor 30 Boss: The Steam Colossus
 
-[ZONE 1: FLOORS 1–25 · WHISPERING ROOTS]
- ├── Minerals: Coal Ore, Cobblestone, Tiger's Eye, Serpentine
- ├── Monsters: Steam-Mole Driller, Dark Crystal Scarab
- └── Objectives: Bakery oven fuel, ambush ward talismans, foundational farm upgrades.
+[STRATUM 2: FLOORS 31–70 · ANCIENT FORGE KHAZ-DRAKOR]
+ ├── Minerals: Iron Ore, Basalt, Fire Ruby, Floatstone, Pure Mana Stone
+ └── Floor 70 Boss: The Magma Forge Dragon
 
-[ZONE 2: FLOORS 26–50 · KHAZ-DRAKOR DWARVEN RUINS]
- ├── Minerals: Copper Ore, Amethyst, Life Emerald, Echo Stone, Raw Mana Stone
- ├── Monsters: Furnace Cog-Automaton, Magma Magnesnail
- └── Objectives: Copper tool tiers, mining fortune tarts, tavern dispatch radio.
+[STRATUM 3: FLOORS 71–110 · DEEPROOT & GLOW-MUSHROOM CAVERNS]
+ ├── Minerals: Gold Ore, Life Emerald, Frost Sapphire, Fossilized Wood
+ └── Floor 110 Boss: The Hanged Root God
 
-[ZONE 3: FLOORS 51–75 · GLACIAL RIFTS & SPIRIT DEPTHS]
- ├── Minerals: Iron Ore, Frost Sapphire, Moonstone, Lapis Lazuli, Floatstone, Memory Soulstone
- ├── Monsters: Crystal Sea Crab, Gloom-Root Strangler, Mirror-Glass Raven
- └── Objectives: Iron tools, iced tea brewing, hovercraft carts, Grandmother Amalia's memoirs.
+[STRATUM 4: FLOORS 111–150 · SUNKEN RELICS & SOLARIA RUINS]
+ ├── Minerals: Mithril Ore (111-140), Void Ore (141-150), Diamond, Nullstone
+ └── Floor 150 Boss: The Sealed Warden of Khaz-Drakor
 
-[ZONE 4: FLOORS 76–100 · MAGMA CORE & ABYSSAL VOID]
- ├── Minerals: Gold Ore, Fire Ruby, Diamond of Purity, Mithril Ore, Nullstone, Warpstone
- ├── Monsters: Abyssal Warden, Astral Hollow Knight
- └── Objectives: Ultimate tool armaments, cleansing teas, magic disruption, Philosopher's Stone synthesis.
+[ENDLESS ABYSS: FLOORS 151+ · INFINITE DEPTHS]
+ └── Resources: Pure Void Ore, Prismatic Shards, Primordial Element Crystals
 ```
 
 ---
 
-## 6. Stone-Infused Teas & Magical Confectionery
+## 6. Forge, Restoration & Homestead Mineral Applications
 
-In Rowan's delicate hands, minerals transcend industrial smelting to become the soul of mystic tea ceremonies:
+- 🪨 **Cobblestone, Clay & Quartz:** Supply masonry for all **12 Town Restoration Projects** (Cedar's Bridges, Wellspring, Watchtower, Clara's Archives).
+- 🔥 **Anthracite Coal & Luminous Glowstones:** Fuel Inn hearths, smelt metal ingots, and power smokeless tavern lanterns.
+- 🧂 **Cavern Mineral Salts & Nullstones:** Blended by **Morrigan** into *Blight Purification Salts* to reclaim poisoned farmland, while rock salts season roasted meats and broths.
+- 💎 **Cut Gems & Ancient Relics:** Appraised by **Iris** or ground into *Luminous Quartz Ink* for decrypting royal weapon schematics.
 
-- 🍵 **Moonlight Dew Tea:** Lotus Tea Leaves + Moonstone + Star Crystal Powder. Grants $+30\%$ nocturnal Stamina regeneration and unlocks intimate dialogue confessions from night patrons.
-- 🥧 **Deepwood Emerald Tart:** Fresh Flour + Life Emerald + Wild Honey. Permanently boosts $+40$ Max Stamina for 5 minutes and doubles natural vitality recuperation.
-- 💎 **Diamond Purified Tea:** Lotus Tea Leaves + Diamond of Purity + Starlight Lavender. Purges all toxins and hexes, conferring absolute immunity to shadow damage for 4 minutes.
-- 🫐 **Snowberry Frost Tea:** Wild Forest Berry + Crystal Ice Shard. Refreshing instant chill; grants $+15\%$ walking speed.
-- ⭐ **Star Crystal Tart:** Flour + Amethyst + Star Crystal Powder. Glows with ethereal purple dust; increases rare ore vein discovery chances by $+25\%$.
-
-👉 Browse full catalog entries: [Items Database](/database/items) · [Tea & Baking Recipes](/database/recipes)
+👉 Browse full catalog entries: [Items Database](/database/items) · [55 Culinary Recipes](/database/recipes) · [Crafting Workbench Guide](/guides/crafting-guide)

@@ -1,15 +1,15 @@
 ---
-title: "Bàn Chế Tác Thủ Công & 20 Đồ Vật Chế Tạo"
+title: "Bàn Chế Tác Thủ Công & 21 Đồ Vật Chế Tạo"
 status: public
 audience: public
-updated: 2026-11-15
+updated: 2026-11-25
 tags: [crafting, workbench, automation, mining, tavern, survival]
 spoiler: false
 ---
 
-# 🔨 Bàn Chế Tác Thủ Công & 20 Đồ Vật Chế Tạo
+# 🔨 Bàn Chế Tác Thủ Công & 21 Đồ Vật Chế Tạo
 
-Là một thợ thủ công khai hoang tại thị trấn biên viễn Oakhaven, Rowan không thể phụ thuộc hoàn toàn vào thợ rèn Boris hay thợ may Elora cho những nhu yếu phẩm thường nhật. Ngay bên hiên Quán Ăn & Nhà Trọ Oakhaven, chiếc **Bàn Chế Tác Thủ Công (Artisan Workbench)** chính là nơi người chơi tự tay cưa gỗ, đan lát, gõ đinh và pha chế 20 loại trang thiết bị sống còn.
+Là một thợ thủ công khai hoang tại thị trấn biên viễn Oakhaven, Rowan không thể phụ thuộc hoàn toàn vào thợ rèn Boris hay thợ may Elora cho những nhu yếu phẩm thường nhật. Ngay bên hiên Quán Ăn & Nhà Trọ Oakhaven, chiếc **Bàn Chế Tác Thủ Công (Artisan Workbench)** chính là nơi người chơi tự tay cưa gỗ, đan lát, gõ đinh và pha chế 21 loại trang thiết bị sống còn.
 
 ---
 
@@ -49,8 +49,8 @@ flowchart LR
    - Lên men bột chua Sourdough cho lò nướng bánh; ủ rượu táo sưởi ấm mùa đông.
 4. **Thùng Ủ Phân Hữu Cơ (`craft_compost_bin`):** *(25 Gỗ Thô + 10 Rơm Rạ)*
    - Tái chế cỏ dại, rơm rác thành **Phân Bón Hữu Cơ** (+20% tốc độ lớn hoa màu).
-5. **Thùng Ong Tinh Linh (`craft_fae_apiary`):** *(35 Gỗ Sồi + 1 Phấn Tinh Linh + 10 Búp Trà)*
-   - Đặt cạnh luống hoa trà để tự động thu hoạch **Mật Ong Rừng** mỗi 3 ngày.
+5. **Thùng Ong Rừng Oakhaven (`craft_fae_apiary`):** *(35 Gỗ Sồi + 1 Nhựa Sồi Đen + 10 Hoa Cỏ Ngọt)*
+   - Đặt cạnh luống hoa để tự động thu hoạch **Mật Ong Rừng** mỗi 3 ngày.
 
 ---
 
@@ -59,7 +59,7 @@ flowchart LR
 
 6. **Đuốc Cắm Vách Đá (`craft_wall_torch` — Gói 5 cây):** *(2 Gỗ Sồi + 1 Than Đá)*
    - Cắm cố định lên vách đá hang mỏ; vĩnh viễn không tắt, đánh dấu ngã ba đường mê cung.
-7. **Bộc Phá Thợ Mỏ (`craft_blast_powder`):** *(2 Than Đá + 2 Bột Sao + 1 Đất Sét)*
+7. **Bộc Phá Thợ Mỏ (`craft_blast_powder`):** *(2 Than Đá + 1 Đá Tinh Thể + 1 Đất Sét)*
    - Ném phá tan các tảng đá lớn và quặng cứng trong bán kính $3 \times 3$ ô, gom quặng nhanh chóng.
 8. **Dây Thừng Thoát Hiểm (`craft_escape_rope`):** *(12 Dây Leo Rừng)*
    - Rút lui khẩn cấp lên trạm thang máy gần nhất khi cạn kiệt thể lực hoặc bị bầy quái dồn ép.
@@ -115,6 +115,6 @@ flowchart LR
 > [!TIP]
 > **Vòng Lặp Sáng Sớm Của Rowan:**
 > 1. Lúc 06:00: Hệ thống vòi phun đã tự tưới xong toàn bộ luống đất.
-> 2. Chạy ra bờ suối nhấc 2 cái **Lờ bẫy cá** thu hoạch cá mỡ và tôm.
-> 3. Ném cá mỡ vào máy ép dầu để nạp đầy Đèn Lồng Hông, ném cá hồi vào **Lò Hun Khói Gỗ Sồi** lấy lương khô.
+> 2. Chạy ra bờ suối nhấc 2 cái **Lờ bẫy cá** thu hoạch cá suối và tôm càng.
+> 3. Đưa cá vào **Lò Hun Khói Gỗ Sồi** làm **Lương Khô Bỏ Túi**, bổ sung **Đuốc Cắm Vách Đá** từ bàn chế tác.
 > 4. Nhét 3 cuộn **Dây Thừng Thoát Hiểm** và 5 gói **Bộc Phá** vào ba lô rồi tự tin bước thẳng vào hang mỏ 150 tầng!

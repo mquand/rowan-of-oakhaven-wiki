@@ -6499,6 +6499,382 @@
         "craftable",
         "kitchen_pot"
       ]
+    },
+    {
+      "id": "blueprint_royal_parry_dagger",
+      "name": "Bản Vẽ Dao Gạt Đòn Hoàng Gia",
+      "category": "crafted",
+      "description": "Bản vẽ vũ khí cận chiến chuyên dụng để phản đòn (Parry) do Kỵ Sĩ Valerius truyền lại.",
+      "buy_price": null,
+      "sell_price": 500
+    },
+    {
+      "id": "item_purification_salt_recipe",
+      "name": "Công Thức Muối Thanh Tẩy Blight",
+      "category": "crafted",
+      "description": "Ghi chép bí truyền của Phù Thủy Morrigan giúp điều chế Muối Thanh Tẩy đất nhiễm độc.",
+      "buy_price": null,
+      "sell_price": 450
+    },
+    {
+      "id": "item_clara_sketchbook",
+      "name": "Cuốn Sổ Phác Thảo Cổ",
+      "category": "material",
+      "description": "Cuốn sổ ghi chép bản vẽ thư viện và gia huy cổ của thủ thư Clara.",
+      "buy_price": null,
+      "sell_price": 0
+    },
+    {
+      "id": "item_craft_iron_sprinkler",
+      "name": "Vòi Phun Sắt (3x3)",
+      "category": "crafted",
+      "description": "Tự động tưới nước 8 ô đất bao quanh (3x3) vào 06:00 mỗi sáng.",
+      "buy_price": null,
+      "sell_price": 240
+    },
+    {
+      "id": "item_craft_void_sprinkler",
+      "name": "Vòi Phun Hư Không (5x5)",
+      "category": "crafted",
+      "description": "Tự động tưới nước 24 ô đất bao quanh (5x5) vào 06:00 mỗi sáng.",
+      "buy_price": null,
+      "sell_price": 650
+    },
+    {
+      "id": "mat_acid_gel",
+      "name": "Chất Nhầy Axit",
+      "category": "monster_drop",
+      "description": "Chiến lợi phẩm 100% Non-Food thu từ Slime Bùn Axit tại tầng 1-15 Hầm Mỏ Oakhaven.",
+      "buy_price": null,
+      "sell_price": 18
+    },
+    {
+      "id": "mat_carapace_scrap",
+      "name": "Mảnh Vỏ Mai Đồng",
+      "category": "monster_drop",
+      "description": "Chiến lợi phẩm 100% Non-Food thu từ Bọ Mai Đồng tại tầng 1-15 Hầm Mỏ Oakhaven.",
+      "buy_price": null,
+      "sell_price": 18
+    },
+    {
+      "id": "mat_bat_wing",
+      "name": "Màng Cánh Dơi",
+      "category": "monster_drop",
+      "description": "Chiến lợi phẩm 100% Non-Food thu từ Dơi Mù Sóng Âm tại tầng 1-15 Hầm Mỏ Oakhaven.",
+      "buy_price": null,
+      "sell_price": 18
+    },
+    {
+      "id": "mat_bone_meal",
+      "name": "Bột Xương Trắng",
+      "category": "monster_drop",
+      "description": "Chiến lợi phẩm 100% Non-Food thu từ Thợ Mỏ Xương Cầm Cuốc tại tầng 16-29 Hầm Mỏ Oakhaven.",
+      "buy_price": null,
+      "sell_price": 18
+    },
+    {
+      "id": "mat_mole_claw",
+      "name": "Móng Vuốt Đào Đất",
+      "category": "monster_drop",
+      "description": "Chiến lợi phẩm 100% Non-Food thu từ Chuột Chũi Đào Hầm tại tầng 16-29 Hầm Mỏ Oakhaven.",
+      "buy_price": null,
+      "sell_price": 18
+    },
+    {
+      "id": "mat_canteen_scrap",
+      "name": "Bình Toong Đồng Cũ",
+      "category": "monster_drop",
+      "description": "Chiến lợi phẩm 100% Non-Food thu từ Xác Binh Sĩ Sa Lầy tại tầng 16-29 Hầm Mỏ Oakhaven.",
+      "buy_price": null,
+      "sell_price": 18
+    },
+    {
+      "id": "mat_iron_bolts",
+      "name": "Bu-lông & Đinh Tán Thép",
+      "category": "monster_drop",
+      "description": "Chiến lợi phẩm 100% Non-Food thu từ Bù Nhìn Thép Rỉ tại tầng 21-29 Hầm Mỏ Oakhaven.",
+      "buy_price": null,
+      "sell_price": 18
+    },
+    {
+      "id": "mat_colossus_gear",
+      "name": "Bánh Răng Khổng Lồ Cổ Đại",
+      "category": "monster_drop",
+      "description": "Chiến lợi phẩm 100% Non-Food thu từ Golem Hơi Nước Chiến Hào tại tầng 30 Hầm Mỏ Oakhaven.",
+      "buy_price": null,
+      "sell_price": 18
+    },
+    {
+      "id": "mat_thermal_alloy",
+      "name": "Hợp Kim Hàn Thiếc Kháng Nhiệt",
+      "category": "monster_drop",
+      "description": "Chiến lợi phẩm 100% Non-Food thu từ Golem Hơi Nước Chiến Hào tại tầng 30 Hầm Mỏ Oakhaven.",
+      "buy_price": null,
+      "sell_price": 18
+    },
+    {
+      "id": "mat_magma_globule",
+      "name": "Hạt Lửa Dẻo",
+      "category": "monster_drop",
+      "description": "Chiến lợi phẩm 100% Non-Food thu từ Slime Nham Thạch Nóng tại tầng 31-49 Hầm Mỏ Oakhaven.",
+      "buy_price": null,
+      "sell_price": 38
+    },
+    {
+      "id": "mat_lodestone_core",
+      "name": "Lõi Đá Nam Châm",
+      "category": "monster_drop",
+      "description": "Chiến lợi phẩm 100% Non-Food thu từ Ốc Sên Vỏ Nam Châm tại tầng 41-50 Hầm Mỏ Oakhaven.",
+      "buy_price": null,
+      "sell_price": 38
+    },
+    {
+      "id": "mat_fire_silk",
+      "name": "Tơ Nhện Chống Cháy",
+      "category": "monster_drop",
+      "description": "Chiến lợi phẩm 100% Non-Food thu từ Nhện Tơ Lửa Dung Nham tại tầng 31-49 Hầm Mỏ Oakhaven.",
+      "buy_price": null,
+      "sell_price": 38
+    },
+    {
+      "id": "mat_iron_joint",
+      "name": "Khớp Xương Thép",
+      "category": "monster_drop",
+      "description": "Chiến lợi phẩm 100% Non-Food thu từ Khiên Binh Xương Bọc Sắt tại tầng 50-69 Hầm Mỏ Oakhaven.",
+      "buy_price": null,
+      "sell_price": 38
+    },
+    {
+      "id": "mat_alloy_gear",
+      "name": "Bánh Răng Hợp Kim Bền",
+      "category": "monster_drop",
+      "description": "Chiến lợi phẩm 100% Non-Food thu từ Người Máy Lò Hơi Cổ tại tầng 51-60 Hầm Mỏ Oakhaven.",
+      "buy_price": null,
+      "sell_price": 38
+    },
+    {
+      "id": "mat_sulfur_powder",
+      "name": "Bột Than Lưu Huỳnh",
+      "category": "monster_drop",
+      "description": "Chiến lợi phẩm 100% Non-Food thu từ Lính Cháy Than Ôm Bom tại tầng 50-69 Hầm Mỏ Oakhaven.",
+      "buy_price": null,
+      "sell_price": 38
+    },
+    {
+      "id": "mat_ancient_hinge",
+      "name": "Bản Lề Sắt Cổ",
+      "category": "monster_drop",
+      "description": "Chiến lợi phẩm 100% Non-Food thu từ Rương Gỗ Mimic Cơ Khí tại tầng 50-69 Hầm Mỏ Oakhaven.",
+      "buy_price": null,
+      "sell_price": 38
+    },
+    {
+      "id": "mat_dragon_fat",
+      "name": "Mỡ Rồng Đúc Lửa",
+      "category": "monster_drop",
+      "description": "Chiến lợi phẩm 100% Non-Food thu từ Hỏa Long Hồ Đúc Khaz-Drakor tại tầng 70 Hầm Mỏ Oakhaven.",
+      "buy_price": null,
+      "sell_price": 38
+    },
+    {
+      "id": "mat_dragon_scale",
+      "name": "Vảy Rồng Nham Thạch",
+      "category": "monster_drop",
+      "description": "Chiến lợi phẩm 100% Non-Food thu từ Hỏa Long Hồ Đúc Khaz-Drakor tại tầng 70 Hầm Mỏ Oakhaven.",
+      "buy_price": null,
+      "sell_price": 38
+    },
+    {
+      "id": "mat_spore_sac",
+      "name": "Bọc Nhầy Bào Tử",
+      "category": "monster_drop",
+      "description": "Chiến lợi phẩm 100% Non-Food thu từ Slime Bào Tử Độc Tím tại tầng 71-89 Hầm Mỏ Oakhaven.",
+      "buy_price": null,
+      "sell_price": 70
+    },
+    {
+      "id": "mat_brier_vine",
+      "name": "Dây Leo Gai Bền",
+      "category": "monster_drop",
+      "description": "Chiến lợi phẩm 100% Non-Food thu từ Cây Ăn Thịt Rễ Gai tại tầng 71-89 Hầm Mỏ Oakhaven.",
+      "buy_price": null,
+      "sell_price": 70
+    },
+    {
+      "id": "mat_luminous_dust",
+      "name": "Phấn Cánh Dạ Quang",
+      "category": "monster_drop",
+      "description": "Chiến lợi phẩm 100% Non-Food thu từ Bướm Đêm Phát Quang tại tầng 71-89 Hầm Mỏ Oakhaven.",
+      "buy_price": null,
+      "sell_price": 70
+    },
+    {
+      "id": "mat_runic_bone",
+      "name": "Xương Ống Khắc Cổ Ngữ",
+      "category": "monster_drop",
+      "description": "Chiến lợi phẩm 100% Non-Food thu từ Cung Thủ Xương Brier tại tầng 90-109 Hầm Mỏ Oakhaven.",
+      "buy_price": null,
+      "sell_price": 70
+    },
+    {
+      "id": "mat_ectoplasm",
+      "name": "Giọt Khói Trầm U Uất",
+      "category": "monster_drop",
+      "description": "Chiến lợi phẩm 100% Non-Food thu từ Oán Hồn Hang Sâu (Banshee) tại tầng 90-109 Hầm Mỏ Oakhaven.",
+      "buy_price": null,
+      "sell_price": 70
+    },
+    {
+      "id": "mat_centipede_plate",
+      "name": "Đốt Giáp Rết Đá",
+      "category": "monster_drop",
+      "description": "Chiến lợi phẩm 100% Non-Food thu từ Kỵ Sĩ Xương Cưỡi Rết tại tầng 90-109 Hầm Mỏ Oakhaven.",
+      "buy_price": null,
+      "sell_price": 70
+    },
+    {
+      "id": "mat_gold_shell",
+      "name": "Vỏ Cánh Cứng Dát Vàng",
+      "category": "monster_drop",
+      "description": "Chiến lợi phẩm 100% Non-Food thu từ Bọ Giáp Tinh Thể Vàng tại tầng 90-109 Hầm Mỏ Oakhaven.",
+      "buy_price": null,
+      "sell_price": 70
+    },
+    {
+      "id": "mat_runic_heartwood",
+      "name": "Lõi Gỗ Thiêng Runic",
+      "category": "monster_drop",
+      "description": "Chiến lợi phẩm 100% Non-Food thu từ Mộc Thần Rễ Treo Cổ tại tầng 110 Hầm Mỏ Oakhaven.",
+      "buy_price": null,
+      "sell_price": 70
+    },
+    {
+      "id": "mat_ancient_golden_acorn",
+      "name": "Quả Sồi Vàng Khắc Ấn",
+      "category": "monster_drop",
+      "description": "Chiến lợi phẩm 100% Non-Food thu từ Mộc Thần Rễ Treo Cổ tại tầng 110 Hầm Mỏ Oakhaven.",
+      "buy_price": null,
+      "sell_price": 70
+    },
+    {
+      "id": "mat_void_membrane",
+      "name": "Màng Tinh Thể Trong Suốt",
+      "category": "monster_drop",
+      "description": "Chiến lợi phẩm 100% Non-Food thu từ Slime Hư Không Tinh Thể tại tầng 111-129 Hầm Mỏ Oakhaven.",
+      "buy_price": null,
+      "sell_price": 130
+    },
+    {
+      "id": "mat_ancient_parchment",
+      "name": "Trang Giấy Da Cổ Ngữ",
+      "category": "monster_drop",
+      "description": "Chiến lợi phẩm 100% Non-Food thu từ Sách Cổ Ma Thuật Phản Phệ tại tầng 121-130 Hầm Mỏ Oakhaven.",
+      "buy_price": null,
+      "sell_price": 130
+    },
+    {
+      "id": "mat_abyssal_quartz",
+      "name": "Mảnh Thạch Anh Vực Thẳm",
+      "category": "monster_drop",
+      "description": "Chiến lợi phẩm 100% Non-Food thu từ Gargoyle Xương Hóa Đá tại tầng 111-129 Hầm Mỏ Oakhaven.",
+      "buy_price": null,
+      "sell_price": 130
+    },
+    {
+      "id": "mat_broken_scepter",
+      "name": "Vương Trượng Xương Gãy",
+      "category": "monster_drop",
+      "description": "Chiến lợi phẩm 100% Non-Food thu từ Pháp Sư Xương Hư Không tại tầng 130-149 Hầm Mỏ Oakhaven.",
+      "buy_price": null,
+      "sell_price": 130
+    },
+    {
+      "id": "mat_ancient_core",
+      "name": "Lõi Năng Lượng Cổ Đại",
+      "category": "monster_drop",
+      "description": "Chiến lợi phẩm 100% Non-Food thu từ Bộ Giáp Hoàng Gia Rỗng tại tầng 141-149 Hầm Mỏ Oakhaven.",
+      "buy_price": null,
+      "sell_price": 130
+    },
+    {
+      "id": "mat_dark_reins",
+      "name": "Dây Cương Hắc Ám",
+      "category": "monster_drop",
+      "description": "Chiến lợi phẩm 100% Non-Food thu từ Kỵ Sĩ Tử Thần tại tầng 130-149 Hầm Mỏ Oakhaven.",
+      "buy_price": null,
+      "sell_price": 130
+    },
+    {
+      "id": "mat_royal_seal_key",
+      "name": "Khóa Vàng Niêm Phong",
+      "category": "monster_drop",
+      "description": "Chiến lợi phẩm 100% Non-Food thu từ Mimic Hoàng Kim Vương Giả tại tầng 141-149 Hầm Mỏ Oakhaven.",
+      "buy_price": null,
+      "sell_price": 130
+    },
+    {
+      "id": "mat_void_mirror_shard",
+      "name": "Mảnh Gương Vực Thẳm",
+      "category": "monster_drop",
+      "description": "Chiến lợi phẩm 100% Non-Food thu từ Bản Sao Hư Không (Mirror Rowan) tại tầng 141-149 Hầm Mỏ Oakhaven.",
+      "buy_price": null,
+      "sell_price": 130
+    },
+    {
+      "id": "ore_void",
+      "name": "Quặng Hư Không",
+      "category": "mineral",
+      "description": "Chiến lợi phẩm 100% Non-Food thu từ Bản Sao Hư Không (Mirror Rowan) tại tầng 141-149 Hầm Mỏ Oakhaven.",
+      "buy_price": null,
+      "sell_price": 120
+    },
+    {
+      "id": "mat_ancient_rune_heart",
+      "name": "Mảnh Trái Tim Cổ Ngữ",
+      "category": "monster_drop",
+      "description": "Chiến lợi phẩm 100% Non-Food thu từ Tướng Soái Phong Ấn Khaz-Drakor tại tầng 150 Hầm Mỏ Oakhaven.",
+      "buy_price": null,
+      "sell_price": 130
+    },
+    {
+      "id": "mat_primordial_element_crystal",
+      "name": "Tinh Thể Tứ Nguyên Tố Cổ",
+      "category": "monster_drop",
+      "description": "Chiến lợi phẩm 100% Non-Food thu từ Vua Slime Vô Định Hình tại tầng 151+ Hầm Mỏ Oakhaven.",
+      "buy_price": null,
+      "sell_price": 130
+    },
+    {
+      "id": "mat_undying_core",
+      "name": "Lõi Năng Lượng Bất Diệt",
+      "category": "monster_drop",
+      "description": "Chiến lợi phẩm 100% Non-Food thu từ Vua Slime Vô Định Hình tại tầng 151+ Hầm Mỏ Oakhaven.",
+      "buy_price": null,
+      "sell_price": 130
+    },
+    {
+      "id": "gem_prismatic",
+      "name": "Mảnh Cầu Vồng (Prismatic Shard)",
+      "category": "gem",
+      "description": "Chiến lợi phẩm 100% Non-Food thu từ Vua Slime Vô Định Hình tại tầng 151+ Hầm Mỏ Oakhaven.",
+      "buy_price": null,
+      "sell_price": 600
+    },
+    {
+      "id": "mat_abyssal_diamond_tooth",
+      "name": "Răng Kim Cương Vực Thẳm",
+      "category": "monster_drop",
+      "description": "Chiến lợi phẩm 100% Non-Food thu từ Cự Trùng Vết Nứt Hư Không tại tầng 151+ Hầm Mỏ Oakhaven.",
+      "buy_price": null,
+      "sell_price": 130
+    },
+    {
+      "id": "ore_void_pure",
+      "name": "Quặng Hư Không Tinh Khiết x5",
+      "category": "mineral",
+      "description": "Chiến lợi phẩm 100% Non-Food thu từ Cự Trùng Vết Nứt Hư Không tại tầng 151+ Hầm Mỏ Oakhaven.",
+      "buy_price": null,
+      "sell_price": 240
     }
   ]
 }

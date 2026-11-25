@@ -43,10 +43,10 @@ flowchart TD
 
 | Category | Typical Requester | Example Objective | Rewards |
 | :--- | :--- | :--- | :--- |
-| **Seasonal Produce** | Elder Maeve, Linnea | 3 Spring Carrots, 5 Wild Berries | 100 - 150g, **+100 Heart Pts** |
-| **Comfort Dishes** | Aurelia, Sylvan | 1 Piping-hot Herbal Chicken Stew | 200 - 300g, **+100 Heart Pts** |
+| **Seasonal Produce** | Elder Maeve, Hazel | 3 Night-Eye Shadow Carrots, 8 Wild Berries | 100 - 150g, **+100 Heart Pts** |
+| **Comfort Dishes** | Aurelia, Sylvan | 1 Mandrake & Snow-Maca Poultry Broth | 200 - 300g, **+100 Heart Pts** |
 | **Lost & Found** | Clara, Penny, Cora | Lost sketchbook, reading glasses, wooden top | 150 - 200g, **+100 Heart Pts** |
-| **Civic Repairs** | Bram, Cedric | 25 Oak Timber, 10 River Cobblestones | 250 - 350g, **+100 Heart Pts** |
+| **Civic Repairs** | Bram, Cedar | 25 Oak Timber, 10 River Cobblestones | 250 - 350g, **+100 Heart Pts** |
 
 ---
 
@@ -61,7 +61,7 @@ flowchart TD
 | **⚔️ Beast Culling** | Slay 15 Crag Spiders (Fl. 20-39) or 10 Magma Imps (Fl. 60-79) | 400 - 600g, **3 - 5 Crests** |
 | **⛏️ Ore Extraction** | Mine 20 Lump Coal or 15 Deep Iron Ore for hoist boilers | 300 - 500g, **2 - 4 Crests**, +100 Pts Bram/Boris |
 | **🌿 Subterranean Herbs** | Harvest 5 Luminous Cave Fungi for Sylvan's antidotes | 400 - 500g, **4 Crests**, +100 Pts Sylvan |
-| **👑 Stratum Warden** | Defeat Floor 40 Blighted Treant or Floor 80 Scarab Warden | 1,200 - 2,500g, **10 - 20 Crests** |
+| **👑 Stratum Warden** | Defeat Floor 30 Steam Colossus, Floor 70 Magma Dragon, Floor 110 Root God, or Floor 150 Sealed Warden | 1,200 - 2,500g, **10 - 20 Crests** |
 
 > [!TIP]
 > **What Are Delver's Crests For?**
@@ -132,8 +132,8 @@ To eliminate boring fetch quests and provide genuine roleplay immersion, the com
 | **Q-LORE-02: Shadow of Solaria** | Valen de Montfort | Cook 3-Star *Solarian Beetroot Stew* in a Lacquered Tiffin; sneak into 2nd-floor private suite past 23:00 avoiding guards. | 🏆 Secret Achievement: `ACH_SOLARIA_SHADOW`<br/>📜 Lost Recipe: *Solarian Restorative Broth* (+100 HP, +20% Phys Resist)<br/>🛋️ Decor: *Imperial Silver Cutlery Set* (+20 Cozy, attracts nobles). |
 | **Q-LORE-03: The Soldier's Lost Button** | Little Cora | Dredge stream bank for her late father's silver insignia button lost to spring floods; bake Hazelnut Shortbread to comfort her. | 🏆 Secret Achievement: `ACH_PROMISE_BY_STREAM`<br/>🧿 Relic: *Seven-Color River Stone Charm* (+5% permanent Dodge Rate)<br/>🛋️ Decor: *Cora's Crayon River Drawing* (+10% patron tip frequency). |
 | **Q-LORE-04: The Permanent Ledger** | Barnaby | Reclaim 1,200g in tab arrears from 3 deadbeat squatters at forest edge; or pay out-of-pocket out of pity. | 🏆 Secret Achievement: `ACH_DEBT_COLLECTOR`<br/>🧿 Relic: *Barnaby's Leatherbound Ledger* (previews tomorrow's market prices)<br/>💰 Barnaby shares 30% collected gold. |
-| **Q-HUNT-01: Iron Bulwark vs. Rhinoceros Warden** | Knight Hester | Slay Floor 80 Rhinoceros Beetle Warden performing at least 12 timed Master Parries; finish with HP above 80%. | 🏆 Secret Achievement: `ACH_PARRY_MASTER`<br/>🛋️ Decor: *Gilded Warden Beetle Skull* (+15% delver tips at tavern)<br/>⚔️ Title: *"Oakhaven's Iron Bulwark"*. |
-| **Q-HUNT-02: Volcanic Survival Feast** | Guildmaster Thorne | Clear 3 consecutive Magma Cavern floors (71-73) with zero healing potions; survive purely on packed Bento food buffs. | 🏆 Secret Achievement: `ACH_IRON_STOMACH`<br/>📜 Blueprint: *Insulated Expedition Rucksack* (+8 slots, doubles freshness)<br/>🏅 15x Delver Rescue Insignias. |
+| **Q-HUNT-01: Iron Bulwark vs. Magma Dragon** | Knight Hester | Slay Floor 70 Magma Forge Dragon performing at least 12 timed Master Parries; finish with HP above 80%. | 🏆 Secret Achievement: `ACH_PARRY_MASTER`<br/>🛋️ Decor: *Gilded Basalt Dragon Scale* (+15% delver tips at tavern)<br/>⚔️ Title: *"Oakhaven's Iron Bulwark"*. |
+| **Q-HUNT-02: Volcanic Survival Feast** | Guildmaster Thorne | Clear 3 consecutive Smelting Lake floors (61-63) with zero healing potions; survive purely on packed Bento food buffs. | 🏆 Secret Achievement: `ACH_IRON_STOMACH`<br/>📜 Blueprint: *Insulated Expedition Rucksack* (+8 slots, doubles freshness)<br/>🏅 15x Delver Rescue Insignias. |
 | **Q-ALTAR-01: Vernal Cleansing Hymn** | Rosemary | Cook 5-course Spring Cleansing Feast (Bok choy stir-fry, Lotus root soup); offer at midnight and vanquish 3 miasma spirit waves. | 🏆 Secret Achievement: `ACH_ASHES_TO_BLOOM`<br/>🌱 Unlock: *Perpetual Grove Field* (grow year-round herbs)<br/>🛋️ Decor: *Ancient Altar Bronze Censer* (+25 Cozy Rating, maximum tier). |
 
 ---

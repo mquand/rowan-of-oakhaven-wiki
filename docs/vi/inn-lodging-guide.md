@@ -37,14 +37,15 @@ flowchart LR
 Mỗi căn phòng có một thang đo mức độ ấm cúng từ $0$ đến $250$ điểm:
 
 * **Cách nâng cao Cozy Rating:**
-  * Kê thêm bàn đọc sách gỗ sồi, ghế bành da thuộc Elora.
-  * Thắp đèn lồng phát quang **Lumina Glowstone** không sinh khói.
-  * Xông tinh dầu **Hoa Oải Hương Ánh Sao (Starlight Lavender)**.
+  * Kê thêm bàn đọc sách gỗ sồi, ghế bành da thuộc (từ xưởng Elora / Cô thợ dệt Mae).
+  * Thắp đèn lồng phát quang **Đá Phát Sáng Dạ Quang** (`stone_lumina_glow`) không sinh khói.
+  * Xông tinh dầu **Hoa Oải Hương Rừng (Forest Lavender Oil)**.
   * Đốt củi đượm lửa trong lò sưởi đá cuội góc phòng vào mùa đông.
-* **Lợi ích kinh tế:**
-  * Điểm $\ge 80$: Khách tip thêm $+20\%$ tiền vàng.
-  * Điểm $\ge 150$: Tỷ lệ lấp đầy phòng đạt $100\%$ mỗi đêm.
-  * Khách để lại **Mảnh Bản Đồ Kho Báu Mỏ Sâu** và hạt giống cây trồng độc lạ.
+* **Lợi ích kinh tế & Cân bằng vận hành:**
+  * Điểm $< 80$: Tỷ lệ lấp đầy trung bình đạt $\sim 50\%$.
+  * Điểm $80 - 149$: Tỷ lệ lấp đầy đạt $\sim 75\%$ và khách tip thêm $+20\%$ tiền vàng.
+  * Điểm $\ge 150$: Tỷ lệ lấp đầy đạt $100\%$ mỗi đêm (tổng thu tối đa **$910g$ / đêm** nếu mở đủ 4 giường Dorm + 2 Phòng Ấm Cúng + 1 Suite), khách để lại **Mảnh Bản Đồ Kho Báu Mỏ Sâu** và hạt giống hiếm.
+  * **Phí củi sưởi & giặt giũ (`15%`):** Trừ tự động `15%` doanh thu phòng thô mỗi đêm để bảo trì buồng phòng — và được **miễn hoàn toàn (`0%`)** sau khi cứu và nhận **Cậu Phụ Tá Colm** về lo hậu cần.
 
 ---
 

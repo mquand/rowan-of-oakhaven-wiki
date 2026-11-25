@@ -78,7 +78,7 @@ spoiler: false
   - *2 Tim:* Tiếng cãi vã nảy lửa bên lò rèn; Boris giằng lấy cuốc chim của Bram, Bram giận dữ bỏ đi uống rượu một mình bên bờ sông.
   - *4 Tim:* Rowan bắt gặp Bram ngồi bóp chân run rẩy trong hang lạnh Tầng 20, nghe ông tâm sự về 3 ngày tuyệt vọng dưới đống đổ nát năm xưa; mở khóa **Chỉ Dẫn Mạch Quặng Tầng Sâu**.
   - *6 Tim:* Penny nhờ Rowan tìm chiếc hộp thiếc cũ chứa công thức Goulash của người mẹ và bức thư dặn dò hai anh em phải nương tựa nhau.
-  - *8 Tim (Bữa Cơm Hòa Giải):* Rowan nấu nồi Goulash gia truyền mời hai anh em đến Quán Ăn. Hai người đàn ông lùn râu ria cúi đầu khóc nấc, hóa giải mâu thuẫn 10 năm. Mở khóa **Trạm Tinh Luyện Cao Cấp**.
+  - *8 Tim (Bữa Cơm Hòa Giải):* Rowan nấu nồi Goulash gia truyền mời hai anh em đến Quán Ăn. Hai người đàn ông lùn râu ria lặng lẽ ngồi ăn hết nồi súp của mẹ, trút bỏ khúc mắc suốt 10 năm. Mở khóa **Trạm Tinh Luyện Cao Cấp**.
 
 ---
 
@@ -250,7 +250,7 @@ spoiler: false
 ### 🧳 Dãy Phòng Trọ Áp Mái The Hearth
 * **Lão Silas (Lái Buôn Xe Lừa):** Lão lái buôn gầy nhẳng cùng con lừa già hay dở chứng, thuê phòng trọ The Hearth từ Thứ Năm đến Thứ Bảy. Mở rương bán các loại hạt giống lạ và gia vị quý từ phương xa.
   - *Vết nứt:* Mất trắng đoàn buôn thời chiến, bươn chải tuổi già cùng con lừa trung thành.
-  - *Món ăn:* **Bánh Mì Brioche Men Bơ & Rượu Táo Ấm**. Giảm 15% giá hàng hiếm ở 2 Tim; ký hợp đồng cung ứng định kỳ hàng tuần cho điền trang ở 8 Tim.
+  - *Món ăn:* **Bánh Mì Lúa Mì Giòn & Bia Hoa Bia Rượu Lê**. Giảm 15% giá hàng hiếm ở 2 Tim; ký hợp đồng cung ứng định kỳ hàng tuần cho điền trang ở 8 Tim.
 * **Hiệp Sĩ Hester (Cựu Kỵ Sĩ Ẩn Danh):** Lính đào ngũ trùm áo choàng kín mít trong phòng trọ góc khuất; từng là cấp dưới của Valerius tại Solaria.
   - *Vết nứt:* Mặc cảm tội lỗi chiến tranh khi chứng kiến thảm sát; luôn sống trong nỗi sợ bị truy nã.
   - *Món ăn:* **Bít Tết Nướng Than Sồi**. Gia cố giáp trụ (+10 DEF) ở 2 Tim; phục chế độ bền vũ khí và giáp trụ ở 4 Tim; hóa giải quá khứ với Valerius ở 6 Tim; trao lại Thanh Kiếm Kỵ Sĩ Bỏ Rơi ở 8 Tim.

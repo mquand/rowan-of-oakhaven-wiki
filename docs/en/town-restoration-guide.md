@@ -11,9 +11,9 @@ Rowan's calling is not merely entrepreneurial wealth, but to **work alongside ne
 ```mermaid
 flowchart TD
     subgraph G1["Phase 1: Homestead & Riverbank Core"]
-        P1["1. Whisperwood Brook Bridge<br/>(Cedric)"]
+        P1["1. Whisperwood Brook Bridge<br/>(Cedar)"]
         P2["2. Heirloom Farmstead Windmill<br/>(Maeve)"]
-        P3["3. Ancient Village Wellspring<br/>(Cedric & Maeve)"]
+        P3["3. Ancient Village Wellspring<br/>(Cedar & Maeve)"]
     end
 
     subgraph G2["Phase 2: Frontier Logistics & Mine Hoists"]
@@ -45,9 +45,9 @@ Material requirements have been calibrated to **Solid Medium – Challenging Pro
 
 | No. | Project | Map Zone | Lead Artisan | Calibrated Materials (Medium Tier) | Permanent Unlocks |
 | :-: | :--- | :---: | :--- | :--- | :--- |
-| **1** | **Whisperwood Brook Bridge** | `riverside` | Cedric | • 120 Mature Oak Timber<br/>• 60 River Cobblestone<br/>• 25 Boris's Forged Nails<br/>• 2,500g | 60% faster transit to trade docks; unlocks otter pearl-foraging shoals. |
+| **1** | **Whisperwood Brook Bridge** | `riverside` | Cedar | • 120 Mature Oak Timber<br/>• 60 River Cobblestone<br/>• 25 Boris's Forged Nails<br/>• 2,500g | 60% faster transit to trade docks; unlocks otter pearl-foraging shoals. |
 | **2** | **Heirloom Windmill** | `farm` | Maeve | • 100 Mature Oak Timber<br/>• 35 Smelted Copper Bars<br/>• 15 Dwarven Mechanical Cogs<br/>• 3,200g | Automated overnight grain-to-flour milling at 1:2 ratio; +30 Cozy Rating. |
-| **3** | **Ancient Wellspring** | `village` | Cedric & Maeve | • 100 Dressed Stone Blocks<br/>• 40 Malleable Stream Clay<br/>• 5 Clear Quartz Crystals<br/>• 2,000g | Instant stamina-free can refills; 15% growth speed boost within 5 tiles. |
+| **3** | **Ancient Wellspring** | `village` | Cedar & Maeve | • 100 Dressed Stone Blocks<br/>• 40 Malleable Stream Clay<br/>• 5 Clear Quartz Crystals<br/>• 2,000g | Instant stamina-free can refills; 15% growth speed boost within 5 tiles. |
 | **4** | **Pip's Avian Roost** | `farm` | Pip | • 80 Resilient Pine Lumber<br/>• 40 Pliant Willow Branches<br/>• 15 Clear Quartz Crystals<br/>• 2 Lumina Glowstones<br/>• 2,800g | Unlocks Avian Expeditions to forage foreign heritage seeds across distant realms. |
 | **5** | **Automated Ore Cart** | `mine` | Bram & Boris | • 60 Smelted Iron Bars<br/>• 50 Mature Oak Timber<br/>• 3 Gravity Floatstones<br/>• 30 Anthracite Coal<br/>• 4,500g | Ferries excavated cavern ores directly to Boris's forge bin; ends pack clogging. |
 | **6** | **Ranger Outpost** | `forest` | Marlo & Elora | • 120 Mature Oak Timber<br/>• 20 Waterproof Wool Canvas<br/>• 25 Clear Quartz Crystals<br/>• 1 Stone Corner Hearth<br/>• 3,500g | Wilderness safe haven preventing collapse past midnight; field repair bench. |
@@ -70,3 +70,24 @@ Material requirements have been calibrated to **Solid Medium – Challenging Pro
 3. **Celebration Banquet at The Hearth Eatery & Tavern:**
    * Dawn unveils the gleaming restored landmark.
    * At 19:00, the entire village gathers inside Rowan's tavern for a celebratory feast featuring a bespoke dish and heartfelt cutscene dialogue.
+
+---
+
+## 4. The 12 NPC Merchant Clusters & Gold Sinks (`72,000g` Civic Fund)
+
+Alongside the `72,000g` civic reconstruction fund across 12 landmarks, Oakhaven's artisans and traders run specialized stalls to prevent late-game gold inflation. **Rowan retains an exclusive monopoly on cooking all 55 dishes & crafting farm automation machines**; NPCs sell specialized raw goods, tools, combat consumables, or spatial/gear upgrades instead:
+
+| Merchant Cluster | Location & Gate | Core Wares & Services (Gold Sinks & Support) |
+| :--- | :--- | :--- |
+| **1. Maeve & Kael** | Farmstead & Greenhouse | 4-season seeds, fruit/timber saplings, organic fertilizers; Kael (4H) unlocks off-season seeds. |
+| **2. Hazel & Tilly** | Southern Pastures | Eggs, Milk, Butter, Cream (~1.8x–2x ranch price for low-barn builds), Fleece, Waterproof Wool Canvas, Hemp Rope. |
+| **3. Boris & Rowena** | Forge & Forest Kiln | *Boris:* Forged Nails, Ironwood Oil, emergency raw ore, Tool/Weapon upgrades; *Rowena (2H):* Firewood & 3x Charcoal. |
+| **4. Cedar & Weaver Mae** | Carpentry Yard & Tavern (Aut–Win) | *Cedar:* Oak/Pine timber, Dressed Stone, Clay, Loft/Barn builds; *Mae:* Quilts, tapestries & Cozy Rating furniture. |
+| **5. Tailor Elora** | Whisperwood / Dusk Stall | Treated Heavy Leather, Ice-Strata thermal cloaks, **Backpack Slot Expansions** (major Mid–Late Gold Sink). |
+| **6. Garrick & Silas** | Wharf (Post-Repair) & Inn (Thu–Sat) | *Garrick:* Exotic spices (Saffron, Cinnamon, Vanilla, Soy Sauce, Olive Oil) & seafood; *Silas:* Weekly rare seeds & aged cheese. |
+| **7. Old Gomer** | Mine Surface Camp (2 Hearts) | Weekly capped Blasting Charges for hard strata, Blast Powder, Wall Torches. |
+| **8. Tad, Vael & Lapis** | Marsh, Glacial Lake & Cavern Pool | *Tad:* Fish Traps & bait; *Vael (2H):* Anti-Slip Deep Waders; *Lapis:* Barters sea minerals/pearls for hot tavern platters. |
+| **9. Bramble** | Saturday Night Market | Glowstone Lanterns, Cozy wall decor, rotating weekend curios. |
+| **10. Hester & Valerius** | Inn Loft & Mountain Dojo | *Hester:* Gear durability repair & armor plating (+DEF); *Valerius:* Parry combat manuals & leather bracers. |
+| **11. Clara & 5 Apothecary/VIP NPCs** | Archives, Clinic, Marsh, Guild, Grove | *Clara:* Decrypted blueprints, Glow Ink; *Aurelia, Morrigan, Valen, Thorne, Fern:* 6 exclusive combat consumables & 3 5-Buff items. |
+| **12. Goblin Grib & Zephyr** | Floor 65 & Observatory (Winter 28) | *Grib:* Weekly capped Iridium/Void ore (high gold sink), Chest Keys, Deep Seeds; *Zephyr:* Mythic All-Season Seeds & Vinyls. |
