@@ -9,8 +9,8 @@ spoiler: false
 
 # 🌾 Cây Trồng Bốn Mùa & Tự Động Hóa Nông Trại Oakhaven
 
-Nông trại Oakhaven là chuỗi cung ứng nguyên liệu thiết yếu cho gian bếp Quán Ăn The Hearth và nguồn lương thực nuôi dưỡng cả thung lũng thời hậu chiến. Hệ thống canh tác của trò chơi bao gồm **41 loài thực vật chuẩn mực**, được phân định rõ ràng thành:
-- **27 Cây Hoa Màu Theo Vụ (Seasonal Field Crops)**: Gieo hạt trên luống đất cuốc xới, chăm sóc tưới nước hàng ngày, gồm cả cây thu hoạch một lần, cây dây leo giàn và cây lưu niên tái sinh nhiều đợt.
+Nông trại Oakhaven là chuỗi cung ứng nguyên liệu thiết yếu cho gian bếp Quán Ăn The Hearth và nguồn lương thực nuôi dưỡng cả thung lũng thời hậu chiến. Hệ thống canh tác của trò chơi bao gồm **42 loài thực vật chuẩn mực**, được phân định rõ ràng thành:
+- **28 Cây Hoa Màu Theo Vụ (Seasonal Field Crops)**: Gieo hạt trên luống đất cuốc xới, chăm sóc tưới nước hàng ngày, gồm cả cây thu hoạch một lần, cây dây leo giàn, lúa nước bậc thang và cây lưu niên tái sinh nhiều đợt.
 - **14 Cây Thân Gỗ Lâu Năm (Timber & Orchard Trees)**: 6 loài đại thụ lấy gỗ xây dựng & trích nhựa + 8 loài cây ăn quả $3\times3$ cho trái ngọt vĩnh cửu.
 
 ---
@@ -37,7 +37,7 @@ Tự động tưới đất vào lúc **06:00 AM** mỗi sáng, giúp giải ph�
 
 ---
 
-## 2. Danh Mục 27 Cây Hoa Màu Theo Mùa
+## 2. Danh Mục 28 Cây Hoa Màu Theo Mùa
 
 ### 🌸 A. Mùa Xuân (7 Cây Canh Tác)
 | Cây Trồng | Ngày Lớn | Tái Sinh | Giá Hạt | Giá Bán | Lợi Nhuận/Ngày | Ứng Dụng Trong Bếp & Đời Sống |
@@ -52,9 +52,10 @@ Tự động tưới đất vào lúc **06:00 AM** mỗi sáng, giúp giải ph�
 
 ---
 
-### ☀️ B. Mùa Hạ (7 Cây Canh Tác)
+### ☀️ B. Mùa Hạ (8 Cây Canh Tác)
 | Cây Trồng | Ngày Lớn | Tái Sinh | Giá Hạt | Giá Bán | Lợi Nhuận/Ngày | Ứng Dụng Trong Bếp & Đời Sống |
 | :--- | :---: | :---: | :---: | :---: | :---: | :--- |
+| **Lúa Nước Thung Lũng** (*Valley Paddy Rice*) | 6 ngày | 1 lần | 25g | 55g | **5.00 Vàng/ngày** (Hè–Thu) | Trồng trên Ruộng Bậc Thang Vùng 2 (tự hấp thụ nước ngập); xay thành Gạo Lúa Nước nấu cơm nắm, cơm chiên, xôi và cơm lam. |
 | **Bắp Ngô Ánh Dương** (*Sun Corn*) | 12 ngày | **4 ngày** | 80g | 45g | **8.21 Vàng/ngày** (xuyên 2 mùa) | Cây thân cao sống qua cả mùa Thu (12 đợt hái); bắp luộc bơ tỏi, nấu súp ngô kem và làm thức ăn gia súc. |
 | **Cà Chua Lửa Mọng Nước** (*Fire Tomato*) | 10 ngày | **4 ngày** | 50g | 24g | **2.50 Vàng/ngày** (5 đợt/vụ) | Cà chua đỏ rực trĩu cành; xào làm sốt cà chua thịt băm, súp hải sản chua cay và ướp thịt nướng. |
 | **Dưa Hấu Dung Nham** (*Magma Melon*) | 12 ngày | 1 lần | 80g | 180g | **8.33 Vàng/ngày** | Quả khổng lồ ruột đỏ ấm nồng; giải nhiệt mùa hè, có 2% cơ hội hóa Dưa Hấu Khổng Lồ khi trồng cụm 3x3. |

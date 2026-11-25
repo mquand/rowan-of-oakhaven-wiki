@@ -3,7 +3,7 @@
 > **LUÔN ĐỌC GUIDE TRƯỚC KHI SỬA BẤT KỲ FILE NÀO (ALWAYS READ GUIDES BEFORE MODIFYING ANY FILES):**  
 > Trước khi thực hiện bất kỳ chỉnh sửa nội dung wiki, dữ liệu JSON nhân vật/địa điểm/vật phẩm, hoặc giao diện UI:
 > 1. Agent **BẮT BUỘC PHẢI ĐỌC** tài liệu **[AI_GUIDELINES.md](./AI_GUIDELINES.md)** trong thư mục gốc wiki — đây là cẩm nang quy chuẩn bắt buộc nhằm loại bỏ triệt để 3 lỗi: Sửa thiếu, Xót file và Bỏ qua kiểm chứng.
-> 2. Đọc **[OAKHAVEN_DESIGN_COMPENDIUM.md](./OAKHAVEN_DESIGN_COMPENDIUM.md)** để đối chiếu thông số chuẩn mực thiết kế (51 nhân vật (40 NPC bản địa), 55 công thức ẩm thực, 41 cây trồng (27 hoa màu + 14 thân gỗ), 150 tầng mỏ, 23 vũ khí, 5 địa danh).
+> 2. Đọc **[OAKHAVEN_DESIGN_COMPENDIUM.md](./OAKHAVEN_DESIGN_COMPENDIUM.md)** để đối chiếu thông số chuẩn mực thiết kế (51 nhân vật (40 NPC bản địa), 55 công thức ẩm thực, 42 cây trồng (28 hoa màu + 14 thân gỗ), 150 tầng mỏ, 23 vũ khí, 5 địa danh).
 > 3. Khi cần đối chiếu tài liệu game engine gốc, tra cứu sang repository game: **`../rowan-of-oakhaven/HUONG-DAN-SU-DUNG.md` (Mục 7: Bản đồ tài liệu)** và **`../rowan-of-oakhaven/design/game-brief.md`** và **`../rowan-of-oakhaven/production/asset-generation-bible.md`** (Đặc tả quy chuẩn pixel asset).
 > 4. Tuyệt đối tuân thủ định vị canon: Quán Ăn & Nhà Trọ Oakhaven (Hearth Eatery & Tavern), 40 NPC mang vết thương tâm lý đời thực, bối cảnh hậu chiến Solaria, hầm mỏ 150 tầng thuần Action RPG. Cấm sử dụng các thuật ngữ cũ đã bị loại bỏ (như dỗ dành quái bằng trà, tiệm trà bụi sao).
 > 5. **Hai quy tắc bắt buộc khi brainstorm & thiết kế (BẮT BUỘC):**

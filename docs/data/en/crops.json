@@ -1,6 +1,6 @@
 {
-  "version": "2.1.0",
-  "updated": "2026-11-18",
+  "version": "2.2.0",
+  "updated": "2026-11-25",
   "crops": [
     {
       "id": "tree_oak",
@@ -972,6 +972,30 @@
         "mushroom",
         "artisan",
         "perennial"
+      ]
+    },
+    {
+      "id": "crop_paddy_rice",
+      "name": "Valley Paddy Rice",
+      "seasons": [
+        "summer",
+        "autumn"
+      ],
+      "growth_days": 6,
+      "regrow_days": 0,
+      "seed_item_id": "seed_paddy_rice",
+      "harvest_item_id": "item_paddy_rice",
+      "seed_price": 25,
+      "sell_price": 55,
+      "profit_per_day": "5.00g/day",
+      "description": "High-yield paddy rice cultivated on Region 2 Rice Terraces (absorbs flooded terrace water automatically without daily hand-watering). Milled into Valley Rice for rice balls, fried rice, and sticky rice.",
+      "harvest_note": "Harvests in 6 days; auto-irrigated when planted on flooded Rice Terraces.",
+      "tags": [
+        "summer",
+        "autumn",
+        "grain",
+        "staple",
+        "paddy"
       ]
     }
   ]

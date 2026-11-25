@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "version": "1.0.0",
-  "updated": "2026-11-13",
+  "version": "2.2.0",
+  "updated": "2026-11-25",
   "items": [
     {
       "id": "seed_sen_tea",
@@ -365,8 +365,8 @@
     },
     {
       "id": "drop_prism_jelly",
-      "name": "Prismatic Crystal Jelly",
-      "description": "Iridescent chewy jelly dropped by Sweet Slimes, prized as bobas for starlight milk tea.",
+      "name": "Acidic Prism Gel",
+      "description": "Concentrated acidic gel from Mine Slimes, used as forge rust-solvent at Boris's Smithy (100% Non-Food).",
       "category": "monster_drop",
       "tags": [
         "monster_drop",
@@ -381,8 +381,8 @@
     },
     {
       "id": "drop_moon_berry",
-      "name": "Moonlight Berries",
-      "description": "Violet nightshade berries that emanate a serene lunar light — dropped by Night-Winged Bats.",
+      "name": "Moonspore Mineral Pod",
+      "description": "Crystallized spore pod from Sylva-Fae ruins, used for dyes and farm fertilizer (100% Non-Food).",
       "category": "monster_drop",
       "tags": [
         "monster_drop",
@@ -397,8 +397,8 @@
     },
     {
       "id": "drop_crystal_sea_salt",
-      "name": "Crystal Sea Salt",
-      "description": "Brilliant oceanic mineral salt dropped by Crystal Crabs, adding crisp savory notes to artisan bread.",
+      "name": "Bitter Mineral Crystal",
+      "description": "Hardened mineral crust from Stone Crabs, used to temper armor and whet pickaxes (100% Non-Food).",
       "category": "monster_drop",
       "tags": [
         "monster_drop",
@@ -413,8 +413,8 @@
     },
     {
       "id": "drop_golden_pollen",
-      "name": "Golden Luminous Pollen",
-      "description": "Gilded pollen grains dropped by Deepwood Moths, dusted over celebratory cakes for a luminous sparkle.",
+      "name": "Gilded Mineral Dust",
+      "description": "Fine metallic powder dropped by Khaz-Drakor constructs for gear plating and automation (100% Non-Food).",
       "category": "monster_drop",
       "tags": [
         "monster_drop",
@@ -429,8 +429,8 @@
     },
     {
       "id": "drop_incense_mist",
-      "name": "Incense Mist Droplets",
-      "description": "Condensed droplets of pure aromatic smoke dropped by Forest Phantoms, infused into smoked teas.",
+      "name": "Resin Mist Fragment",
+      "description": "Dry aromatic resin from Zone 3 roots, burned in censers to repel miasma (100% Non-Food).",
       "category": "monster_drop",
       "tags": [
         "monster_drop",
@@ -3549,6 +3549,278 @@
       "sell_price": 25,
       "energy": 35,
       "buff": null
+    },
+    {
+      "id": "seed_paddy_rice",
+      "name": "Valley Paddy Rice Seeds",
+      "description": "Summer-Autumn paddy rice seeds; auto-irrigated on flooded Rice Terraces.",
+      "category": "seed",
+      "rarity": "common",
+      "buy_price": 25,
+      "sell_price": 12,
+      "energy": null,
+      "buff": null,
+      "tags": [
+        "seed",
+        "summer",
+        "autumn",
+        "paddy"
+      ]
+    },
+    {
+      "id": "item_paddy_rice",
+      "name": "Milled Valley Rice",
+      "description": "Fragrant white rice milled from Valley Paddy Rice, staple for rice balls, fried rice, and sticky rice.",
+      "category": "ingredient",
+      "rarity": "common",
+      "buy_price": null,
+      "sell_price": 55,
+      "energy": 15,
+      "buff": null,
+      "tags": [
+        "ingredient",
+        "grain",
+        "summer",
+        "autumn"
+      ]
+    },
+    {
+      "id": "item_egg",
+      "name": "Farmstead Egg",
+      "description": "Fresh chicken egg gathered each morning from The Hearth's coop.",
+      "category": "ingredient",
+      "rarity": "common",
+      "buy_price": 45,
+      "sell_price": 30,
+      "energy": 18,
+      "buff": null,
+      "tags": [
+        "ingredient",
+        "livestock"
+      ]
+    },
+    {
+      "id": "item_milk",
+      "name": "Fresh Cow Milk",
+      "description": "Whole morning milk from Hazel's dairy pasture and The Hearth's barn.",
+      "category": "ingredient",
+      "rarity": "common",
+      "buy_price": 60,
+      "sell_price": 40,
+      "energy": 25,
+      "buff": null,
+      "tags": [
+        "ingredient",
+        "livestock",
+        "dairy"
+      ]
+    },
+    {
+      "id": "item_cheese",
+      "name": "Oak-Aged Cheese",
+      "description": "Rich golden cheese aged from Fresh Cow Milk in The Hearth's cellar casks.",
+      "category": "ingredient",
+      "rarity": "uncommon",
+      "buy_price": 130,
+      "sell_price": 90,
+      "energy": 40,
+      "buff": null,
+      "tags": [
+        "ingredient",
+        "artisan",
+        "dairy"
+      ]
+    },
+    {
+      "id": "item_yeast",
+      "name": "Natural Yeast Starter",
+      "description": "Wild fermented starter made from grain and spring water for baking and brewing.",
+      "category": "ingredient",
+      "rarity": "common",
+      "buy_price": 30,
+      "sell_price": 18,
+      "energy": null,
+      "buff": null,
+      "tags": [
+        "ingredient",
+        "pantry"
+      ]
+    },
+    {
+      "id": "item_salt",
+      "name": "Dried Sea Salt",
+      "description": "Sun-dried sea salt supplied by Captain Garrick and Nomad Merchant Silas.",
+      "category": "ingredient",
+      "rarity": "common",
+      "buy_price": 20,
+      "sell_price": 12,
+      "energy": null,
+      "buff": null,
+      "tags": [
+        "ingredient",
+        "pantry",
+        "spice"
+      ]
+    },
+    {
+      "id": "item_black_pepper",
+      "name": "Traded Black Pepper",
+      "description": "Aromatic cracked black pepper from Silas's caravan, essential for roasts and grills.",
+      "category": "ingredient",
+      "rarity": "uncommon",
+      "buy_price": 35,
+      "sell_price": 20,
+      "energy": null,
+      "buff": null,
+      "tags": [
+        "ingredient",
+        "pantry",
+        "spice"
+      ]
+    },
+    {
+      "id": "item_beef",
+      "name": "Pasture Beef",
+      "description": "Prime beef cut from surface livestock pastures for steaks and hearty stews.",
+      "category": "ingredient",
+      "rarity": "uncommon",
+      "buy_price": 140,
+      "sell_price": 95,
+      "energy": null,
+      "buff": null,
+      "tags": [
+        "ingredient",
+        "livestock",
+        "meat"
+      ]
+    },
+    {
+      "id": "item_pork",
+      "name": "Homestead Pork & Ribs",
+      "description": "Fresh surface-raised pork belly and ribs for smoking, sausages, and claypot rice.",
+      "category": "ingredient",
+      "rarity": "common",
+      "buy_price": 110,
+      "sell_price": 75,
+      "energy": null,
+      "buff": null,
+      "tags": [
+        "ingredient",
+        "livestock",
+        "meat"
+      ]
+    },
+    {
+      "id": "item_poultry",
+      "name": "Free-Range Poultry",
+      "description": "Tender pasture-raised poultry for honey roasts and Mandrake vitality soup.",
+      "category": "ingredient",
+      "rarity": "common",
+      "buy_price": 95,
+      "sell_price": 65,
+      "energy": null,
+      "buff": null,
+      "tags": [
+        "ingredient",
+        "livestock",
+        "meat"
+      ]
+    },
+    {
+      "id": "item_night_wine",
+      "name": "Aged Night Grape Wine",
+      "description": "Oak-cask fermented red wine pressed from Oakhaven Night Grapes.",
+      "category": "ingredient",
+      "rarity": "rare",
+      "buy_price": 220,
+      "sell_price": 160,
+      "energy": 30,
+      "buff": null,
+      "tags": [
+        "ingredient",
+        "artisan",
+        "wine"
+      ]
+    },
+    {
+      "id": "item_stream_fish",
+      "name": "Stream Carp",
+      "description": "Freshwater carp caught in Oakhaven Valley streams and the Lake Pier.",
+      "category": "ingredient",
+      "rarity": "common",
+      "buy_price": 70,
+      "sell_price": 48,
+      "energy": 20,
+      "buff": null,
+      "tags": [
+        "ingredient",
+        "fish",
+        "surface"
+      ]
+    },
+    {
+      "id": "item_lake_crab_snail",
+      "name": "Lake Snail & Crab",
+      "description": "Freshwater snails and crabs harvested from Old Tad's reed marsh traps.",
+      "category": "ingredient",
+      "rarity": "common",
+      "buy_price": 65,
+      "sell_price": 45,
+      "energy": 18,
+      "buff": null,
+      "tags": [
+        "ingredient",
+        "fish",
+        "surface"
+      ]
+    },
+    {
+      "id": "item_deep_tuna",
+      "name": "Deep-Sea Tuna",
+      "description": "Firm deep-water tuna caught offshore or bought from Garrick's Sunday Market.",
+      "category": "ingredient",
+      "rarity": "rare",
+      "buy_price": 160,
+      "sell_price": 115,
+      "energy": 35,
+      "buff": null,
+      "tags": [
+        "ingredient",
+        "fish",
+        "surface"
+      ]
+    },
+    {
+      "id": "item_lake_shrimp",
+      "name": "Freshwater Shrimp",
+      "description": "Sweet freshwater shrimp netted at Region 2 Skiff Dock and the Lake Pier.",
+      "category": "ingredient",
+      "rarity": "uncommon",
+      "buy_price": 115,
+      "sell_price": 80,
+      "energy": 25,
+      "buff": null,
+      "tags": [
+        "ingredient",
+        "fish",
+        "surface"
+      ]
+    },
+    {
+      "id": "item_lake_squid",
+      "name": "Night Sea Squid",
+      "description": "Fresh night-caught squid brought ashore by Captain Garrick's schooner.",
+      "category": "ingredient",
+      "rarity": "uncommon",
+      "buy_price": 120,
+      "sell_price": 85,
+      "energy": 25,
+      "buff": null,
+      "tags": [
+        "ingredient",
+        "fish",
+        "surface"
+      ]
     }
   ]
 }

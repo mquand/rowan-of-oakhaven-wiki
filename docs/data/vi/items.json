@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "version": "1.0.0",
-  "updated": "2026-11-13",
+  "version": "2.2.0",
+  "updated": "2026-11-25",
   "items": [
     {
       "id": "seed_sen_tea",
@@ -365,8 +365,8 @@
     },
     {
       "id": "drop_prism_jelly",
-      "name": "Thạch Tinh Thể Đổi Màu",
-      "description": "Thạch giòn dai đổi màu lấp lánh — rơi từ Slime Thạch Ngọt, làm topping trà sữa sao.",
+      "name": "Dịch Tinh Thể Axit",
+      "description": "Dung dịch axit cô đặc từ Slime Mỏ Đồng, dùng làm chất tẩy rỉ rèn đúc tại Lò Boris (100% Non-Food).",
       "category": "monster_drop",
       "tags": [
         "monster_drop",
@@ -381,8 +381,8 @@
     },
     {
       "id": "drop_moon_berry",
-      "name": "Quả Mọng Ánh Trăng",
-      "description": "Quả mọng tím biếc phát sáng dịu — rơi từ Dơi Quả Đêm, nấu mứt kẹp bánh sừng bò.",
+      "name": "Bào Tử Khoáng Ánh Trăng",
+      "description": "Tinh thể bào tử kết tinh ở Đới Sylva-Fae, dùng chế thuốc nhuộm và phân bón nông trại (100% Non-Food).",
       "category": "monster_drop",
       "tags": [
         "monster_drop",
@@ -397,8 +397,8 @@
     },
     {
       "id": "drop_crystal_sea_salt",
-      "name": "Muối Biển Tinh Thể",
-      "description": "Muối biển kết tinh lấp lánh — rơi từ Cua Đá Pha Lê, gia vị cho bánh mì nướng của thợ mỏ.",
+      "name": "Tinh Thể Khoáng Đắng",
+      "description": "Khoáng thạch kết tinh từ Cua Đá Mai Cứng, dùng tôi luyện giáp và mài lưỡi cuốc (100% Non-Food).",
       "category": "monster_drop",
       "tags": [
         "monster_drop",
@@ -413,8 +413,8 @@
     },
     {
       "id": "drop_golden_pollen",
-      "name": "Phấn Hoa Ánh Kim",
-      "description": "Phấn hoa vàng ánh kim — rơi từ Bướm Đêm Rừng Sâu, rắc lên bánh kem cho bừng sáng.",
+      "name": "Bột Khoáng Ánh Kim",
+      "description": "Bụi kim loại mịn rơi từ quái Khaz-Drakor, dùng mạ bánh răng và chế tạo máy tự động (100% Non-Food).",
       "category": "monster_drop",
       "tags": [
         "monster_drop",
@@ -429,8 +429,8 @@
     },
     {
       "id": "drop_incense_mist",
-      "name": "Giọt Khói Trầm Hương",
-      "description": "Giọt khói trầm hương cô đặc — rơi từ Bóng Ma Sương Mù, ngâm ủ trà xông khói cổ truyền.",
+      "name": "Nhựa Trầm Khói Mỏ",
+      "description": "Mảnh nhựa khô từ rễ quái Đới 3, dùng đốt lư hương đẩy lùi sương độc miasma (100% Non-Food).",
       "category": "monster_drop",
       "tags": [
         "monster_drop",
@@ -3549,6 +3549,278 @@
       "sell_price": 25,
       "energy": 35,
       "buff": null
+    },
+    {
+      "id": "seed_paddy_rice",
+      "name": "Hạt Lúa Nước Thung Lũng",
+      "description": "Giống lúa nước trồng vụ Hè-Thu; tự hấp thụ nước khi trồng trên Ruộng Bậc Thang.",
+      "category": "seed",
+      "rarity": "common",
+      "buy_price": 25,
+      "sell_price": 12,
+      "energy": null,
+      "buff": null,
+      "tags": [
+        "seed",
+        "summer",
+        "autumn",
+        "paddy"
+      ]
+    },
+    {
+      "id": "item_paddy_rice",
+      "name": "Gạo Lúa Nước",
+      "description": "Hạt gạo trắng dẻo thơm xay từ Lúa Nước Thung Lũng, nguyên liệu nấu cơm nắm, cơm chiên và xôi.",
+      "category": "ingredient",
+      "rarity": "common",
+      "buy_price": null,
+      "sell_price": 55,
+      "energy": 15,
+      "buff": null,
+      "tags": [
+        "ingredient",
+        "grain",
+        "summer",
+        "autumn"
+      ]
+    },
+    {
+      "id": "item_egg",
+      "name": "Trứng Gà Trang Trại",
+      "description": "Trứng gà tươi thu nhặt mỗi sáng từ chuồng gà điền trang The Hearth.",
+      "category": "ingredient",
+      "rarity": "common",
+      "buy_price": 45,
+      "sell_price": 30,
+      "energy": 18,
+      "buff": null,
+      "tags": [
+        "ingredient",
+        "livestock"
+      ]
+    },
+    {
+      "id": "item_milk",
+      "name": "Sữa Bò Tươi",
+      "description": "Sữa bò nguyên kem vắt sáng sớm tại nông trại Hazel và chuồng trại điền trang.",
+      "category": "ingredient",
+      "rarity": "common",
+      "buy_price": 60,
+      "sell_price": 40,
+      "energy": 25,
+      "buff": null,
+      "tags": [
+        "ingredient",
+        "livestock",
+        "dairy"
+      ]
+    },
+    {
+      "id": "item_cheese",
+      "name": "Phô Mai Ủ Sồi",
+      "description": "Phô mai béo ngậy ủ từ Sữa Bò Tươi trong hầm rượu gỗ sồi The Hearth.",
+      "category": "ingredient",
+      "rarity": "uncommon",
+      "buy_price": 130,
+      "sell_price": 90,
+      "energy": 40,
+      "buff": null,
+      "tags": [
+        "ingredient",
+        "artisan",
+        "dairy"
+      ]
+    },
+    {
+      "id": "item_yeast",
+      "name": "Men Ủ Tự Nhiên",
+      "description": "Hũ men cái lên men từ lúa mì và nước suối dùng ủ bột bánh mì và rượu.",
+      "category": "ingredient",
+      "rarity": "common",
+      "buy_price": 30,
+      "sell_price": 18,
+      "energy": null,
+      "buff": null,
+      "tags": [
+        "ingredient",
+        "pantry"
+      ]
+    },
+    {
+      "id": "item_salt",
+      "name": "Muối Biển Sấy",
+      "description": "Muối hạt tinh khiết phơi nắng biển do Thuyền trưởng Garrick và Lái buôn Silas cung ứng.",
+      "category": "ingredient",
+      "rarity": "common",
+      "buy_price": 20,
+      "sell_price": 12,
+      "energy": null,
+      "buff": null,
+      "tags": [
+        "ingredient",
+        "pantry",
+        "spice"
+      ]
+    },
+    {
+      "id": "item_black_pepper",
+      "name": "Tiêu Đen Phương Xa",
+      "description": "Hạt tiêu đen cay thơm từ xe hàng du mục của Lão Silas, giúp làm dậy vị các món nướng.",
+      "category": "ingredient",
+      "rarity": "uncommon",
+      "buy_price": 35,
+      "sell_price": 20,
+      "energy": null,
+      "buff": null,
+      "tags": [
+        "ingredient",
+        "pantry",
+        "spice"
+      ]
+    },
+    {
+      "id": "item_beef",
+      "name": "Thịt Bò Trang Trại",
+      "description": "Thịt bò thăn tươi từ trang trại chăn nuôi mặt đất, chuyên làm bít-tết và bò hầm.",
+      "category": "ingredient",
+      "rarity": "uncommon",
+      "buy_price": 140,
+      "sell_price": 95,
+      "energy": null,
+      "buff": null,
+      "tags": [
+        "ingredient",
+        "livestock",
+        "meat"
+      ]
+    },
+    {
+      "id": "item_pork",
+      "name": "Thịt & Sườn Heo",
+      "description": "Thịt ba rọi và sườn heo chăn nuôi mặt đất, dùng hun khói, làm lạp xưởng và cơm thố.",
+      "category": "ingredient",
+      "rarity": "common",
+      "buy_price": 110,
+      "sell_price": 75,
+      "energy": null,
+      "buff": null,
+      "tags": [
+        "ingredient",
+        "livestock",
+        "meat"
+      ]
+    },
+    {
+      "id": "item_poultry",
+      "name": "Thịt Gà Vườn",
+      "description": "Thịt gà thả vườn săn chắc dùng quay mật ong hoặc hầm sâm Mandrake.",
+      "category": "ingredient",
+      "rarity": "common",
+      "buy_price": 95,
+      "sell_price": 65,
+      "energy": null,
+      "buff": null,
+      "tags": [
+        "ingredient",
+        "livestock",
+        "meat"
+      ]
+    },
+    {
+      "id": "item_night_wine",
+      "name": "Rượu Vang Nho Đêm",
+      "description": "Rượu vang đỏ ủ trong thùng gỗ sồi từ Nho Đêm Giàn Leo của Oakhaven.",
+      "category": "ingredient",
+      "rarity": "rare",
+      "buy_price": 220,
+      "sell_price": 160,
+      "energy": 30,
+      "buff": null,
+      "tags": [
+        "ingredient",
+        "artisan",
+        "wine"
+      ]
+    },
+    {
+      "id": "item_stream_fish",
+      "name": "Cá Chép Suối",
+      "description": "Cá nước ngọt câu tại suối thung lũng Oakhaven và Bến Hồ.",
+      "category": "ingredient",
+      "rarity": "common",
+      "buy_price": 70,
+      "sell_price": 48,
+      "energy": 20,
+      "buff": null,
+      "tags": [
+        "ingredient",
+        "fish",
+        "surface"
+      ]
+    },
+    {
+      "id": "item_lake_crab_snail",
+      "name": "Ốc & Cua Hồ",
+      "description": "Ốc và cua nước ngọt bắt từ Lờ Bẫy Lão Tad ven đầm lầy và bờ hồ.",
+      "category": "ingredient",
+      "rarity": "common",
+      "buy_price": 65,
+      "sell_price": 45,
+      "energy": 18,
+      "buff": null,
+      "tags": [
+        "ingredient",
+        "fish",
+        "surface"
+      ]
+    },
+    {
+      "id": "item_deep_tuna",
+      "name": "Cá Ngừ Biển Sâu",
+      "description": "Cá ngừ thịt chắc câu ngoài khơi hoặc mua từ thuyền buôn Chủ Nhật của Garrick.",
+      "category": "ingredient",
+      "rarity": "rare",
+      "buy_price": 160,
+      "sell_price": 115,
+      "energy": 35,
+      "buff": null,
+      "tags": [
+        "ingredient",
+        "fish",
+        "surface"
+      ]
+    },
+    {
+      "id": "item_lake_shrimp",
+      "name": "Tôm Hồ Nước Ngọt",
+      "description": "Tôm càng nước ngọt câu tại Bến Thuyền Nan Vùng 2 và Bến Hồ.",
+      "category": "ingredient",
+      "rarity": "uncommon",
+      "buy_price": 115,
+      "sell_price": 80,
+      "energy": 25,
+      "buff": null,
+      "tags": [
+        "ingredient",
+        "fish",
+        "surface"
+      ]
+    },
+    {
+      "id": "item_lake_squid",
+      "name": "Mực Biển Đêm",
+      "description": "Mực tươi đánh bắt đêm từ đoàn thuyền của Thuyền trưởng Garrick.",
+      "category": "ingredient",
+      "rarity": "uncommon",
+      "buy_price": 120,
+      "sell_price": 85,
+      "energy": 25,
+      "buff": null,
+      "tags": [
+        "ingredient",
+        "fish",
+        "surface"
+      ]
     }
   ]
 }

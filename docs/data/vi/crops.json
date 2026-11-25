@@ -1,6 +1,6 @@
 {
-  "version": "2.1.0",
-  "updated": "2026-11-18",
+  "version": "2.2.0",
+  "updated": "2026-11-25",
   "crops": [
     {
       "id": "tree_oak",
@@ -972,6 +972,30 @@
         "mushroom",
         "artisan",
         "perennial"
+      ]
+    },
+    {
+      "id": "crop_paddy_rice",
+      "name": "Lúa Nước Thung Lũng",
+      "seasons": [
+        "summer",
+        "autumn"
+      ],
+      "growth_days": 6,
+      "regrow_days": 0,
+      "seed_item_id": "seed_paddy_rice",
+      "harvest_item_id": "item_paddy_rice",
+      "seed_price": 25,
+      "sell_price": 55,
+      "profit_per_day": "5.00 Vàng/ngày",
+      "description": "Giống lúa nước năng suất cao chuyên trồng trên Ruộng Bậc Thang Vùng 2 (tự hấp thụ nước ngập, không cần tưới tay). Xay thành Gạo Lúa Nước nấu cơm nắm, cơm chiên và xôi.",
+      "harvest_note": "Thu hoạch sau 6 ngày; trồng tại Ruộng Bậc Thang được tự tưới mỗi sáng.",
+      "tags": [
+        "summer",
+        "autumn",
+        "grain",
+        "staple",
+        "paddy"
       ]
     }
   ]

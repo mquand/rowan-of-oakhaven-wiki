@@ -281,7 +281,7 @@
       "steam_api_name": "ACH_HARVEST_32",
       "category": "farming",
       "name": "Green Thumb of Oakhaven",
-      "description": "Plant and harvest all 41 cultivated species (27 seasonal crops + 14 timber & orchard trees) across spring, summer, autumn, and winter.",
+      "description": "Plant and harvest all 42 cultivated species (28 seasonal crops + 14 timber & orchard trees) across spring, summer, autumn, and winter.",
       "is_secret": false,
       "reward_title": "Green Thumb",
       "reward_trophy": "Silver Wheat Wall Sheaf",

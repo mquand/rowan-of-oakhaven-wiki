@@ -9,8 +9,8 @@ spoiler: false
 
 # 🌾 Four-Season Crops & Farm Automation Compendium
 
-The farmstead of Oakhaven Valley is the essential supply line for The Hearth Eatery & Tavern kitchen, providing fresh sustenance for a post-war community in recovery. The agricultural system features **41 canonical plant species**, strictly categorized into:
-- **27 Seasonal Field Crops**: Tilled and watered daily on plowed soil, featuring single-harvest staples, wooden trellis vines, and multi-harvest regrowable perennials.
+The farmstead of Oakhaven Valley is the essential supply line for The Hearth Eatery & Tavern kitchen, providing fresh sustenance for a post-war community in recovery. The agricultural system features **42 canonical plant species**, strictly categorized into:
+- **28 Seasonal Field Crops**: Tilled and watered daily on plowed soil (plus flooded terrace rice), featuring single-harvest staples, wooden trellis vines, and multi-harvest regrowable perennials.
 - **14 Perennial Trees & Orchards**: 6 massive silviculture timber species for lumber & tapper resin + 8 fruit tree varieties adhering to a strict $3\times3$ clear-space rule for permanent daily yields.
 
 ---
@@ -37,7 +37,7 @@ Sprinklers automatically water surrounding crops at **06:00 AM** daily, freeing 
 
 ---
 
-## 2. Catalog of 27 Seasonal Field Crops
+## 2. Catalog of 28 Seasonal Field Crops
 
 ### 🌸 A. Spring (7 Field Crops)
 | Crop | Growth | Regrowth | Seed Cost | Sell Price | Daily Profit | Culinary & Valley Usage |
@@ -52,9 +52,10 @@ Sprinklers automatically water surrounding crops at **06:00 AM** daily, freeing 
 
 ---
 
-### ☀️ B. Summer (7 Field Crops)
+### ☀️ B. Summer (8 Field Crops)
 | Crop | Growth | Regrowth | Seed Cost | Sell Price | Daily Profit | Culinary & Valley Usage |
 | :--- | :---: | :---: | :---: | :---: | :---: | :--- |
+| **Valley Paddy Rice** (*Lúa Nước Thung Lũng*) | 6 days | Single | 25g | 55g | **5.00 Gold/day** (Summer–Autumn) | Grown on Region 2 Rice Terraces (auto-irrigated by flooded water); milled into Valley Rice for rice balls, fried rice, and sticky rice. |
 | **Sun Corn** (*Bắp Ngô Ánh Dương*) | 12 days | **4 days** | 80g | 45g | **8.21 Gold/day** (2 seasons) | Tall stalks persisting through Autumn (12 harvests); roasted with garlic butter and stewed in corn chowder. |
 | **Fire Tomato** (*Cà Chua Lửa Mọng Nước*) | 10 days | **4 days** | 50g | 24g | **2.50 Gold/day** (5 harvests) | Crimson vines producing juicy fruit; simmered into meat sauces, spicy seafood stews, and savory marinades. |
 | **Magma Melon** (*Dưa Hấu Dung Nham*) | 12 days | Single | 80g | 180g | **8.33 Gold/day** | Massive melons with warming reddish-orange flesh; 2% chance to fuse into a Giant Melon in $3\times3$ plots. |

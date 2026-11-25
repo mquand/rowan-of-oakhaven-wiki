@@ -10,7 +10,7 @@
 
 ```mermaid
 flowchart TD
-    Farm["🌾 NÔNG TRẠI 4 MÙA<br/>(41 loài cây canh tác: 27 hoa màu + 14 thân gỗ, Vòi tưới tự động, Bù nhìn, Ruộng lúa nước)"] --> Kitchen["🍳 BẾP NẤU 55 MÓN<br/>(Buff chiến đấu: Công/Thủ/Tốc/Hồi máu & Cầu siêu)"]
+    Farm["🌾 NÔNG TRẠI 4 MÙA<br/>(42 loài cây canh tác: 28 hoa màu + 14 thân gỗ, Vòi tưới tự động, Bù nhìn, Ruộng lúa nước)"] --> Kitchen["🍳 BẾP NẤU 55 MÓN<br/>(Buff chiến đấu: Công/Thủ/Tốc/Hồi máu & Cầu siêu)"]
     Mine["⚔️ HẦM MỎ 150 TẦNG THUẦN COMBAT<br/>(Chặt chém quái, Khai thác 5 cấp quặng, Đập geode, Trảm Boss)"] --> Kitchen
     Kitchen --> Tavern["🍻 QUÁN ĂN & PHÒNG TRỌ OAKHAVEN<br/>(Bán mang đi, Bàn ăn tại quán, Cho thuê phòng lầu)"]
     Tavern --> Invest["💰 TÁI THIẾT & ĐẦU TƯ THỊ TRẤN<br/>(Kênh thủy lợi, Cáp treo đỉnh núi, Ga đường sắt, Khế ước thương mại)"]
@@ -196,9 +196,9 @@ Thế giới game mở rộng dựa trên **Khôi Phục Đại Công Trình Th�
 
 ---
 
-## 7. Nông Trại 41 Loài Thực Vật Canh Tác (27 Hoa Màu + 14 Cây Gỗ) & Tự Động Hóa
+## 7. Nông Trại 42 Loài Thực Vật Canh Tác (28 Hoa Màu + 14 Cây Gỗ) & Tự Động Hóa
 
-### 7.1. Phân Bổ 27 Hoa Màu Theo Vụ (Seasonal Field Crops)
+### 7.1. Phân Bổ 28 Hoa Màu Theo Vụ (Seasonal Field Crops)
 Chu kỳ canh tác: Cuốc đất $\rightarrow$ Gieo hạt $\rightarrow$ Tưới nước mỗi sáng $\rightarrow$ Thu hoạch. Cây không được tưới sẽ ngừng lớn nhưng không bị khô héo.
 
 1. **Mùa Xuân (7 cây):**
@@ -210,7 +210,8 @@ Chu kỳ canh tác: Cuốc đất $\rightarrow$ Gieo hạt $\rightarrow$ Tưới
    - **Hoa Cúc Mặt Trời (`crop_sun_daisy` - 5 ngày):** Giá hạt 20g, bán 38g (**3.60 Vàng/ngày**). Hãm trà cúc mật ong hạ hỏa và làm thuốc nhuộm vải rèm.
    - **Đậu Thao Thức Cổ Sinh (`crop_sopophorous_bean` - 11 ngày, tái sinh 3 ngày):** Giá hạt 90g, bán 50g (**13.81 Vàng/ngày**, xuyên 3 mùa Xuân-Hạ-Thu, 25 đợt). Tinh dầu chống ngủ gục khi đi mỏ đêm.
 
-2. **Mùa Hạ (7 cây):**
+2. **Mùa Hạ (8 cây):**
+   - **Lúa Nước Thung Lũng (`crop_paddy_rice` - 6 ngày):** Giá hạt 25g, bán 55g (**5.00 Vàng/ngày**). Trồng vụ Hè–Thu trên **Ruộng Bậc Thang Vùng 2** (tự hấp thụ nước ngập, không cần tưới tay); xay thành Gạo Lúa Nước nấu cơm nắm, cơm chiên, xôi và cơm lam.
    - **Bắp Ngô Ánh Dương (`crop_sun_corn` - 12 ngày, tái sinh 4 ngày):** Giá hạt 80g, bán 45g (**8.21 Vàng/ngày**, xuyên 2 mùa Hạ-Thu, 12 đợt). Bắp luộc bơ tỏi, nấu súp ngô kem dã chiến.
    - **Cà Chua Lửa Mọng Nước (`crop_fire_tomato` - 10 ngày, tái sinh 4 ngày):** Giá hạt 50g, bán 24g (**2.50 Vàng/ngày**, 5 đợt/vụ). Xào làm sốt cà chua thịt băm, súp hải sản chua cay.
    - **Dưa Hấu Dung Nham (`crop_magma_melon` - 12 ngày):** Giá hạt 80g, bán 180g (**8.33 Vàng/ngày**). Ruột đỏ ấm nồng; có 2% cơ hội hợp nhất thành Dưa Hấu Khổng Lồ khi trồng cụm $3\times3$.
@@ -270,7 +271,7 @@ Chu kỳ canh tác: Cuốc đất $\rightarrow$ Gieo hạt $\rightarrow$ Tưới
   - *Tro Bếp Oakhaven (`item_wood_ash`):* Lấy từ tro lò than bếp, rút ngắn 15% thời gian sinh trưởng.
   - *Bột Xương Hang Mỏ (`item_bone_meal`):* Nghiền từ xương quái vật mỏ, tăng 30% tỷ lệ nông sản Bạc/Vàng.
   - *Mùn Rêu Giữ Ẩm (`item_retaining_moss`):* Giúp đất có 50% cơ hội giữ ẩm qua đêm, không cần tưới lại hôm sau.
-- **Nhà Kính Cổ Đại (Ancient Greenhouse):** Sau khi phục hồi, cho phép trồng toàn bộ 27 hoa màu và 8 cây ăn quả quanh năm bất chấp bão tuyết mùa đông.
+- **Nhà Kính Cổ Đại (Ancient Greenhouse):** Sau khi phục hồi, cho phép trồng toàn bộ 28 hoa màu và 8 cây ăn quả quanh năm bất chấp bão tuyết mùa đông.
 
 ---
 
@@ -287,10 +288,10 @@ Chu kỳ canh tác: Cuốc đất $\rightarrow$ Gieo hạt $\rightarrow$ Tưới
 
 *(Chi tiết đầy đủ 55 món ăn với nguyên liệu, trạm chế biến, giá bán và buff chỉ số xem chi tiết tại [cooking-recipes-guide.md](../rowan-of-oakhaven-wiki/docs/vi/cooking-recipes-guide.md))*
 
-* **Nhóm Buff Tấn Công (ATK Boost):** Bò bít tết sốt tiêu đen (+25% ATK), Cơm chiên hải sản cay (+15% ATK, +10% Crit), Thịt xiên nướng than hồng (+12% ATK).
-* **Nhóm Buff Phòng Ngự (DEF Boost):** Súp nấm rễ cây dày (+10 DEF, Kháng Choáng), Bánh mì thợ mỏ nướng giòn (+8 DEF, +20 Kháng gai nhọn), Khoai tây nghiền bơ tỏi (+5 DEF).
-* **Nhóm Buff Cơ Động & Tốc Độ (Speed Boost):** Trà xanh búp non tuyết (+20% Tốc chạy trong 5 phút), Gỏi cuốn tôm suối (+15% Tốc chạy, +10% Tốc đánh), Nước ép việt quất lên men (+15% Tốc chạy).
-* **Nhóm Buff Đào Mỏ & Thu Thập (Mining & Luck Boost):** Súp bí đỏ thợ mỏ (+1 Cấp Đào Đá, tăng 20% tỉ lệ rơi quặng), Bánh quy bơ hạt phỉ (+2 May Mắn nhặt Geode hiếm).
+* **Nhóm Buff Tấn Công (ATK Boost):** Bít Tết Nướng Than Sồi (+4 ATK), Cơm Chiên Hải Sản Đậm Vị (+1 ATK, +2 Đào mỏ), Thịt Nướng Tiêu Cay Hỏa Khương (Thiêu đốt kẻ địch).
+* **Nhóm Buff Phòng Ngự (DEF Boost):** Bí Đỏ Nướng Phô Mai Dẻo (+3 DEF), Bánh Mì Thịt Hầm Phô Mai (+3 DEF, Kháng Choáng), Khoai Tây Tuyết Nướng Bơ (+1 DEF).
+* **Nhóm Buff Cơ Động & Tốc Độ (Speed Boost):** Salad Trái Cây Mùa Hạ (+2 Tốc chạy), Nước Mía Ép Hỏa Khương (+2 Tốc chạy), Bánh Xèo Đậu Xanh Giòn (+15% Tốc đánh).
+* **Nhóm Buff Đào Mỏ & Thu Thập (Mining & Luck Boost):** Súp Nấm Rừng Ấm Bụng (+2 Đào mỏ), Bánh Mì Bơ Mật Nướng Kép (+2 Đào mỏ), Bánh Pie Táo Quế Lò Đất (+2 May mắn, +1 Tốc độ).
 * **Nhóm Thanh Tẩy Cầu Siêu (Soul Cleansing):** Dùng để dâng lên các Bàn Thờ Cổ trên mặt đất Chiến Trường Tro Tàn để giải phóng linh hồn và hóa giải đất độc thành đất đen phì nhiêu.
 
 ---
@@ -298,7 +299,7 @@ Chu kỳ canh tác: Cuốc đất $\rightarrow$ Gieo hạt $\rightarrow$ Tưới
 ## 9. Đại Bản Doanh Điền Trang Oakhaven (The Frontier Homestead), Nhà Trọ Áp Mái & Lối Chơi Tự Do
 
 ### 9.1. Tự Do Lối Chơi Tuyệt Đối & Cơ Chế Quán Kết Hợp (Hybrid Sandbox Loop)
-- **Không Gò Bó Giờ Giấc (No Mandatory Shifts):** Rowan không bị xích chân vào ca làm việc chạy bàn (không áp lực Diner Dash). Người chơi hoàn toàn tự do phân bổ thời gian: cày 150 tầng mỏ, canh tác 41 loài cây (27 hoa màu + 14 thân gỗ), câu cá ven sông hồ, hoặc chế tác máy móc.
+- **Không Gò Bó Giờ Giấc (No Mandatory Shifts):** Rowan không bị xích chân vào ca làm việc chạy bàn (không áp lực Diner Dash). Người chơi hoàn toàn tự do phân bổ thời gian: cày 150 tầng mỏ, canh tác 42 loài cây (28 hoa màu + 14 thân gỗ), câu cá ven sông hồ, hoặc chế tác máy móc.
 - **Quyền Làm Chủ Căn Bếp (Master of the Kitchen):** Rowan sở hữu và làm chủ 100% việc sáng tạo 55 món ăn. Thức ăn phục vụ 2 mục đích chính:
   1. **Lương thực dã ngoại & Buff chiến đấu:** Mang theo ba lô để hồi máu, tăng công, tăng thủ, kháng độc khi khám phá mỏ sâu.
   2. **Bán buôn thụ động (Passive Sales):** Thức ăn đặt lên **Quầy Tự Phục Vụ (Honor Pantry)** hoặc quẳng vào **Hòm Xuất Khẩu (Shipping Bin)** trước cổng. Tiền tự động cộng vào túi qua sổ sách thống kê của Bác Quản Gia Barnaby.
@@ -417,7 +418,7 @@ Không sao chép cơ chế đảo xa tách biệt; 100% sự chuyển dịch nơ
    - *Thân Thủ Phi Phàm:* Hạ gục Boss mà HP không tụt dưới 90%.
    - *Sinh Tồn Ẩm Thực:* Vượt Đới Dung Nham (71-110) không dùng thuốc hồi máu, chỉ sống sót nhờ buff đồ ăn.
    - *Chạy Đua Sương Độc:* Vét sạch quặng trên một tầng mỏ hiểm trở và thoát hiểm trước khi thanh miasma đạt 100%.
-4. **Đồng Xanh & Mùa Màng (Farming & Husbandry - 6 Thành tựu):** Thu hoạch trọn vẹn 41 loài cây canh tác 4 mùa (27 hoa màu + 14 thân gỗ), tự động hóa vòi phun và nhân giống, gia súc 5 sao, câu đủ 15 loài cá, củ khổng lồ 3x3, giữ thể lực trên 10% từ 06:00 đến 23:00.
+4. **Đồng Xanh & Mùa Màng (Farming & Husbandry - 6 Thành tựu):** Thu hoạch trọn vẹn 42 loài cây canh tác 4 mùa (28 hoa màu + 14 thân gỗ), tự động hóa vòi phun và nhân giống, gia súc 5 sao, câu đủ 15 loài cá, củ khổng lồ 3x3, giữ thể lực trên 10% từ 06:00 đến 23:00.
 5. **Tri Kỷ & Hàn Gắn (Heart Bonds - 6 Thành tựu):** 2 Tim với toàn bộ cư dân, hóa giải Boris & Bram, hóa giải Kael & Maeve, tha thứ Hester & Valerius, 8 Tim với 30 cư dân, Trọn Vẹn Ký Ức (hoàn thành đủ 51 Cảnh Diễn Khoảnh Khắc Vàng & Tường Ảnh Polaroid).
 6. **Tái Thiết & Cầu Siêu (Restoration & Altars - 5 Thành tựu):** Hoàn thành 12 công trình Town Board, Đại Tiệc Cầu Siêu thanh tẩy Bàn Thờ Cổ Đại giải phóng đất hoang, thông thương 4 tuyến liên vùng, hoàn thiện Viện Bảo Tàng 30 cổ vật của Iris, khách quen 4 tuần Chợ Đêm Thứ Bảy.
 7. **Dị Biệt & Hài Hước (Quirky & Secrets - 14 Thành tựu Ẩn):** Nồi trứng phát hỏa cùng Colm, Milo kẹt đũng quần trên hàng rào, ủng dính bùn chọc giận Barnaby, đẩy lừa Silas bất động 3 phút, ngất xỉu rớt sạch đồ ở đúng Tầng 149 cửa trùm, say rượu đầm lầy của Lão Tad, mèo Mallow ngủ phớt lờ 20 lần vuốt, ù tai cạnh bom mỏ Gomer, ăn nấm phát quang bị ảo giác tím, ăn vụng nửa đêm bị mèo và cú nhìn chằm chằm, trượt vỏ băng hồ Vael ngã dập mông 5 lần, chặt cây thông đè bẹp hàng rào bà Maeve, đòi nợ khách quịt chỉ được củ cải khô, bị đàn cừu Tilly vây kín 30 giây.
