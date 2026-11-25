@@ -17,8 +17,8 @@ spoiler: false
 ## 1. Gia Đình Điền Trang The Hearth (Homestead Crew)
 
 ### 🌸 Rowan (Chủ Điền Trang, Master Cook & Thợ Săn Mỏ Oakhaven)
-* **Vai trò:** Nhân vật chính điều khiển bởi người chơi. Tự do lựa chọn lối chơi: làm nông trang 32 cây trồng, đào bới 150 tầng mỏ, hoặc câu cá dã ngoại.
-* **Quyền làm chủ căn bếp:** Rowan là người làm chủ 100% căn bếp (55 công thức). Thức ăn dùng để lấy buff thám hiểm hầm mỏ hoặc bán buôn thụ động qua hòm xuất khẩu và quầy tự phục vụ.
+* **Vai trò:** Nhân vật chính điều khiển bởi người chơi. Tự do lựa chọn lối chơi: làm nông trang 92 loài thực vật (62 hoa màu & đặc hữu + 23 gỗ/quả + 7 hoa cảnh), đào bới 150 tầng mỏ, hoặc câu cá dã ngoại.
+* **Quyền làm chủ căn bếp:** Rowan làm chủ 100% căn bếp (55 công thức, tối đa **3 Buff/món**). Thức ăn dùng để kích hoạt tối đa **5 Ô Buff không cộng dồn** khi thám hiểm hầm mỏ hoặc bán buôn thụ động qua hòm xuất khẩu và quầy tự phục vụ.
 * **Nguồn gốc đời thực:** Người trẻ kiệt quệ (Burnout) nơi kinh đô công nghiệp Solaria. Trở về Oakhaven tiếp quản căn nhà gỗ hoang phế và mảnh đất đầy sỏi đá của bà Amalia.
 * **Xung đột nội tâm:** Hội chứng kẻ giả mạo (Imposter Syndrome) — sợ mình không đủ sức gầy dựng lại cơ nghiệp hoang tàn của gia đình.
 
@@ -110,7 +110,7 @@ spoiler: false
   - *Món ăn kết nối:* **Súp Nấm Tuyết Sườn Non**.
 * **Tuyến Sự Kiện Trái Tim:**
   - *4 Tim:* Mở khóa **Bảng Bounty Săn Quái Vật Thung Lũng & Hầm Sâu** (Thorne); mở **Quầy Mua Lại Đồ Bán Nhầm (Buyback)** trong 3 ngày (Valerie).
-  - *8 Tim (Giấy Phép Vực Thẳm):* Rowan nấu mâm cơm dã chiến; Thorne trao **Giấy Phép Mỏ Sâu (Clearance Seals)** mở khóa thang máy vượt đới và Cổng Vực Thẳm Vô Tận (151+); Valerie mở dịch vụ tìm lại dụng cụ quan trọng (cuốc, rìu, cần câu) bị rơi vãi trên mặt đất.
+  - *8 Tim (Giấy Phép Vực Thẳm):* Rowan nấu mâm cơm dã chiến; Thorne trao **Giấy Phép Mỏ Sâu (Clearance Seals)** mở khóa thang máy vượt đới và Cổng Vực Thẳm Vô Tận (151+), đồng thời mở đổi **Quân Lương Thiết Giáp Solaria (5-Buff Boss Combat)** bằng Huy Hiệu Cứu Viện (tối đa 2 suất/tuần); Valerie mở dịch vụ tìm lại dụng cụ quan trọng (cuốc, rìu, cần câu) bị rơi vãi trên mặt đất.
 
 ---
 
@@ -159,7 +159,7 @@ spoiler: false
 
 ### 🩺 Aurelia (Dược Sĩ) & ⚔️ Marlo (Hiệp Sĩ Ca Đêm)
 * **Aurelia:** Rời bỏ kinh đô vì bất mãn giới y khoa thương mại hóa; trăn trở trước nỗi đau nghèo đói của người bệnh.
-  - *Cơ chế Gameplay:* Nấu **Canh Dưỡng Sinh** giảm đau nhức cho dân làng ở 2 Tim; cung cấp thuốc bôi hồi phục thể lực và chữa lành thương tật ở 6 Tim.
+  - *Cơ chế Gameplay:* Bán **Thuốc Giải Độc & Lọc Phổi Aurelia** *(xóa sạch Độc/Bỏng/Choáng ngay lập tức, -40% Miasma)* ở 2 Tim; mở bán **Cao Dược Cứu Thương Cấp Tốc** *(hồi +80 HP tức thì bỏ qua Độ No, tối đa 3 lọ/tuần)* ở 4–6 Tim.
 * **Marlo:** Người lính gác thầm lặng trong đêm lạnh, gửi 90% lương về quê nuôi đàn em thơ; quán ăn của Rowan là điểm tựa ấm áp duy nhất của anh.
   - *Cơ chế Gameplay (Trị An Ca Đêm):* Tuần tra ca đêm, bảo vệ Quán Ăn và "Quầy Danh Dự" ngoài hiên không bị mất trộm khi Rowan đi mỏ vắng nhà (giảm 50% mất trộm ở 4 Tim, miễn nhiễm 100% ở 8 Tim).
 
@@ -207,7 +207,7 @@ spoiler: false
   - *Cơ chế Gameplay:* Huấn luyện kỹ thuật **Đỡ Đòn Phản Công (Parry)** ở 4 Tim; Master Parry và tăng 20% tốc độ hồi thể lực ở 8 Tim; mở lòng tha thứ cho cấp dưới cũ Hester.
 * **Morrigan:** Nữ phù thủy đầm lầy bị cả thế giới xua đuổi vì ngoại hình hắc ám; bề ngoài gai góc nhưng âm thầm cứu chữa thú rừng.
   - *Món ăn:* **Trà Bạc Hà Sương Giá & Quả Mọng Rừng**.
-  - *Cơ chế Gameplay:* Bào chế **Độc Dược Tẩm Vũ Khí** mỏ sâu ở 4 Tim; mở khóa công thức **Thần Dược Cường Hóa Bạo Kích** và thuốc giải độc miasma ở 8 Tim.
+  - *Cơ chế Gameplay:* Bán độc quyền **Huyết Tửu Giao Kèo Đầm Lầy** *(+5 ATK, +15% Bạo kích, +2 Tốc độ nhưng đổi lấy -25 Max HP tạm thời; tối đa 2 bình/tuần)* và hướng dẫn nấu canh kháng Miasma ở 8 Tim.
 
 ---
 
@@ -226,7 +226,7 @@ spoiler: false
 * **Thistle (Thợ Săn Moth-Folk Đêm):** Người bướm đêm có đôi mắt và cánh sợ ánh sáng mạnh; cô đơn hoạt động ngược nhịp thế giới.
   - *Món ăn:* **Trà Oải Hương Ngàn Sao**. Cung cấp **Tơ Dạ Quang** ở 4 Tim và **Tơ Hoàng Kim** ở 8 Tim cho Elora.
 * **Fern (Thầy Thuốc Cổ Đại 800 Tuổi):** Thầy dạy mù lòa của Sylvan, dùng mạng rễ ngầm cảm nhận vạn vật sau khi mất đôi mắt khi đơn độc bảo vệ rừng thiêng khỏi độc tố chiến tranh cổ đại.
-  - *Món ăn:* **Canh Thảo Mộc Búp Sen**. Truyền dạy **Dược Điển Cổ Thụ** ở 6 Tim; hướng dẫn nghi thức thanh tẩy ô uế đất đai vĩnh viễn ở 8 Tim.
+  - *Món ăn:* **Canh Thảo Mộc Búp Sen**. Truyền dạy **Dược Điển Cổ Thụ** ở 6 Tim; sau khi khai thông Vùng 3 Rừng Thần mở bán **Tinh Chất Cổ Thụ Ngàn Năm** *(vật phẩm 5-Buff Vực Thẳm 151+, 800g, tối đa 1 bình/tuần)* ở 8 Tim.
 * **Elora & Sylvan:** Thợ may mắc bệnh run tay và nhà nghiên cứu thảo mộc lặn lội tìm thuốc chữa cho bạn tri kỷ.
   - *Elora:* Dệt **Túi Hành Trang Mở Rộng (+12 ô)** ở 4 Tim; may **Áo Choàng Dạ Hội Chống Rét Vĩnh Cửu** ở 8 Tim.
   - *Sylvan:* Mở **Trạm Chiết Xuất Tinh Dầu Thảo Mộc** ở 4 Tim; thu hoạch **Rễ Cây Ngàn Năm** ở 8 Tim.
@@ -235,7 +235,7 @@ spoiler: false
 * **Iris (Sử Gia Hoàng Gia):** Nữ học giả tóc auburn ôm chồng sách cao quá đầu; đấu tranh giữa kiểm duyệt hoàng cung và khát vọng chép lại sự thật lịch sử.
   - *Món ăn:* **Trà Bá Tước Earl Grey & Bánh Quy Gừng**. Mở dịch vụ **Giám Định Cổ Vật Mỏ Sâu** ở 4 Tim; hoàn thiện **Viện Bảo Tàng Lịch Sử Thung Lũng** ở 8 Tim.
 * **Valen de Montfort (Quý Tộc Lưu Vong Bệnh Máu Hiếm):** Quý tộc Solaria lánh nạn triều đình, thuê phòng kín lầu 2 The Hearth; mắc chứng bệnh huyết khí mãn tính.
-  - *Món ăn:* **Rượu Quả Mọng Lên Men Đậm Đặc**. Đặt các mẻ rượu bổ huyết giá gấp đôi ở 4 Tim; ký khế ước ngoại giao kinh đô tại 8 Tim.
+  - *Món ăn:* **Rượu Quả Mọng Lên Men Đậm Đặc**. Đặt các mẻ rượu bổ huyết giá gấp đôi ở 4 Tim; mở Hầm Rượu Lầu 2 bán **Rượu Vang Niên Kỷ Solaria** *(vật phẩm 5-Buff săn quặng & May mắn +4, 650g, tối đa 2 chai/tuần)* và ký khế ước ngoại giao kinh đô tại 8 Tim.
 * **Kassandra (Phù Thủy Gió Lưu Vong):** Mở dịch vụ **Sky Express Chuyển Phát Hỏa Tốc** nguyên liệu liên 5 đại vực trong 2 giờ ở 4 Tim; tặng Rowan **Chổi Bay Tốc Hành** ở 8 Tim.
 
 ### ✨ Aethelgard (Thiên Giới Biển Mây)

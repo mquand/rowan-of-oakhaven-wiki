@@ -36,19 +36,19 @@ A single in-game day spans **12 to 14 real-world minutes** (standard baseline, c
 
 A full calendar year comprises **112 days** (`4 seasons × 28 days`). Each season introduces unique crops, weather phenomena, and regular patrons.
 
-- **Spring:** Tender sprouts emerge, snow-lotuses bloom, and gentle spring showers irrigate plots automatically.
-- **Summer:** Harvest lumiberries, catch fireflies for lanterns; visitors favor iced fruit teas.
-- **Autumn:** Silver wheat turns golden — **Autumn 20 hosts the Autumn Pastry Jubilee & Lantern Festival**.
-- **Winter:** Outdoor soil freezes (crops thrive inside enchanted greenhouses), deep frost crystal mines open, and patrons crave piping-hot spiced brioche.
+- **Spring:** Tender sprouts emerge and spring showers irrigate plots; **Spring 15** hosts **Spring Tomb-Tending & Canal Clearing** *(Tier 1)*, while **Spring 26** unlocks the **Terraced Rice Planting Festival** *(via Highland Aqueduct)*.
+- **Summer:** Harvest berries and flooded rice; **Summer 11** hosts the **Firefly & Berry Harvest Night** *(Tier 1)*, while **Summer 23** unlocks the **Sacred Grove Sky-Lantern Night** *(after Region 3 purification)*.
+- **Autumn:** Silver wheat and honey pumpkins ripen; **Autumn 12** hosts the **Harvest Altar & Pumpkin Bake** *(Tier 1)*, while **Autumn 25** unlocks the **Wolf-Fang Dojo Tournament & Steam Fair** *(via Sky-Tram)*.
+- **Winter:** Frozen soil limits outdoor valley farming to **3 frost-hardy crops** (*Frost Turnip, Glacial Lichen Root, Frost-Lotus Bloom* — other crops require the restored Greenhouse); **Winter 13** unlocks the **Solaria Royal Banquet** *(via Central Rail)* and **Winter 28** hosts **New Year's Hearth Hotpot & Sky Caravan Eve** *(Tier 1)*.
 
 ---
 
-## Stamina Management
+## Stamina (270 Base) & HP (100 Base)
 
-- **Maximum Base:** 100 points (expandable up to 160 with Starlight Crystal Brews).
+- **Standard Baseline:** **270 Max Stamina**, **100 Max HP** (temporarily boosted via kitchen meals up to **3 Buffs/dish** or exclusive **5-Buff** NPC items).
 - **Stamina Drain:** hoeing plot −2, watering −1/tile, breaking rocks −3, mining ores −5, crystal nodes −6, chopping timber −4.
-- **Recovery Methods:** Warm Lotus Tea +35 · Solar Dawn Infusion +50 & mining speed buff · Honey Brioche +60 · sleeping before 00:00 restores 100%, late sleeping restores 80%.
-- **Depletion:** Blacksmith Boris carries you safely back to your bed, waking at 08:00 with 70% stamina — no lost inventory items, no gold fines.
+- **Recovery & Buff Rules:** Rowan holds up to **5 Non-Stacking Active Buff Slots** (`full-slot safe`); kitchen meals restore `+30..180 HP` / `+50..240 Stamina` (with a 6s Digestion Satiety check); sleeping before 00:00 restores 100%, late sleeping restores 80%.
+- **Collapse / Defeat:** On the surface, **Colm** carries Rowan back to bed on a stretcher (10% medical fee up to 1,000g, **no lost items**). Inside the 150-floor Mine-Dungeon, collapsing causes **permanent loss of all ores and raw loot gathered on that dive**, while main tools and weapons go to the **Guild Lost & Found**.
 
 ---
 

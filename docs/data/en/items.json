@@ -4815,7 +4815,7 @@
     {
       "id": "seed_snow_lotus",
       "name": "Alpine Snow Lotus Seeds",
-      "description": "Region 4 alpine bloom thriving near hot springs; key reagent for revival and cure-all elixirs.",
+      "description": "Region 4 alpine bloom thriving near hot springs; key reagent for frost-resisting and toxin-cleansing broths.",
       "category": "seed",
       "rarity": "common",
       "buy_price": 110,
@@ -4830,7 +4830,7 @@
     {
       "id": "item_snow_lotus",
       "name": "Alpine Snow Lotus",
-      "description": "Region 4 alpine bloom thriving near hot springs; key reagent for revival and cure-all elixirs.",
+      "description": "Region 4 alpine bloom thriving near hot springs; key reagent for frost-resisting and toxin-cleansing broths.",
       "category": "ingredient",
       "rarity": "uncommon",
       "buy_price": null,

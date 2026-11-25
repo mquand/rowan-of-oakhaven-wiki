@@ -97,7 +97,7 @@ Rowan sở hữu không gian sống hoàn toàn riêng biệt nằm trên tầng
 
 ### 4.2. Danh Mục 4 Đới Địa Chất & Quái Vật Hậu Chiến (100% Non-Food Drops)
 
-> **QUY TẮC CHIẾN LỢI PHẨM (100% NON-FOOD):** Toàn bộ thực phẩm nấu 55 món tại *The Hearth* đến từ nông nghiệp mặt đất (41 loài cây canh tác, cá suối, chăn nuôi). Quái vật hầm mỏ **100% chỉ rơi vật phẩm rèn đúc (Combat 40%), công cụ khám phá mỏ (Exploration 30%), và vật tư tự động hóa/phân bón nông trại (Farming & Automation 30%)**.
+> **QUY TẮC CHIẾN LỢI PHẨM (100% NON-FOOD):** Toàn bộ thực phẩm nấu 55 món tại *The Hearth* đến từ nông nghiệp mặt đất (92 loài thực vật: 62 hoa màu & đặc hữu + 23 cây gỗ/ăn quả/bụi quả + 7 hoa cảnh, cùng cá suối & chăn nuôi). Quái vật hầm mỏ **100% chỉ rơi vật phẩm rèn đúc (Combat 40%), công cụ khám phá mỏ (Exploration 30%), và vật tư tự động hóa/phân bón nông trại (Farming & Automation 30%)**.
 
 | Đới Địa Chất & Tầng | Tên Quái Vật & ID | Ngoại Hình & Visual Tells | Khắc Chế & Lợi Thế (+25% đến +40%) | Chiến Lợi Phẩm 100% Non-Food (Combat / Explore / Farm) |
 |:---|:---|:---|:---|:---|

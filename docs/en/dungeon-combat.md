@@ -81,20 +81,20 @@ Each floor consists of **3 to 5 interconnected stone chambers** displayed on an 
 ## 4. Survival Mechanics: Escape Rope, Mimics, Chutes & Curfew
 
 1. **Chest RNG & The Mimic Ambush (75% Real / 25% Mimic):**
-   * Standard dungeon chests have a $25\%$ chance to be a **Hermit Crab Mimic**! Attentive players can notice the lid breathing slightly before opening. Slaying a Mimic yields prized **King Crab Meat**. Milestone chests at floors 10, 20, 40, etc., are **100% genuine**.
+   * Standard dungeon chests have a $25\%$ chance to be an **Iron or Gilded Mimic**! Attentive players can notice the lid breathing slightly before opening. Slaying a Mimic drops forged hinges, pure ingots, and rough gemstones (**100% Non-Food Drops**). Milestone chests at floors 10, 20, 40, etc., are **100% genuine**.
 2. **Escape Rope:** Crafted from 10 Wild Fiber or bought from Bram (150g). Standing still for 3 seconds whisks Rowan straight to the surface, **preserving 100% of ores and items in your bag**.
 3. **Ventilation Chutes:** Breaking rocks has a $1\%$ chance to collapse a chute, dropping you **3–8 floors instantly** at the cost of 15–30 HP.
-4. **02:00 AM Curfew:** Passing out inside the mine at 02:00 results in Colm wheeling you to the clinic, losing 10% gold in emergency fees and waking up at 08:00 AM.
-5. **Defeat (HP = 0):** All ores and raw monster loot gathered during that specific dive are **lost permanently** (equipped weapons and tools remain safe).
+4. **02:00 AM Curfew & Mine Defeat (`Permanent Loss on Defeat`):**
+   * Collapsing at HP = 0 or passing out deep underground triggers a rescue by Colm & Guild rangers to Aurelia's Infirmary (10% gold fee up to 1,000g). **All ores, gems, and monster parts collected during that dive are lost permanently.** Main weapons and tools are safeguarded at the **Guild Lost & Found** (redeem via gold or Expedition Bento badges).
 
 ---
 
-## 5. The 4 Strata & 4 Warden Bosses
+## 5. The 4 Strata & 4 Warden Bosses (`100% Non-Food Drops`)
 
-* **Floor 30 — The Steam Colossus (`the_steam_colossus`):** Rusted wartime trench colossus; slams the floor to cause cave-ins. Vulnerable at its rear steam exhaust after slamming. Drops **Giant Gear** (kitchen upgrades) and **Kiln Salt** (120h thermal bento cooking).
-* **Floor 70 — The Slag Fire Dragon (`the_slag_fire_dragon`):** Massive fire reptile lurking beneath slag pits; scales glow orange-red before breathing 3 fireballs. Drops **Dragon Tail Meat** (x2 attack power stew) and **Dragon Tallow** (unlocks 7-day high-radius lanterns).
-* **Floor 110 — The Blighted Hangman Oak (`the_blighted_hangman_oak`):** Ancient subterranean root rooted into old war graves; lashes roots and emits disorienting spores. Drops **Runic Sacred Wood** and **Ancient Golden Acorns**.
-* **Floor 150 — Ancient Vault Warden (`ancient_vault_warden`):** Cold, calculating ancient commander in 3 brutal phases. Drops **Ancient Heart Shard**, cleansing the valley and unlocking the **Endless Abyss (Floor 151+)**.
+* **Floor 30 — The Steam Colossus (`the_steam_colossus`):** Rusted wartime trench colossus; slams the floor to cause cave-ins. Vulnerable at its rear steam exhaust after slamming. Drops **Khaz-Drakor Giant Gear** (Tier-2 coal stove upgrade), **Perfect Pressure Valve** (automated sprinklers), and 15x Pure Copper Ore.
+* **Floor 70 — The Slag Fire Dragon (`the_slag_fire_dragon`):** Massive fire reptile lurking beneath slag pits; scales crack open under 30% HP. Drops **Basalt Dragon Scale** (lava-resistant armor), **Fossil Fire-Tallow** (x3 storm lantern), and 20x Khaz-Drakor Iron Bars.
+* **Floor 110 — The Hanged Root God (`the_hanged_root_god`):** Ancient subterranean tree devouring buried war graves; lashes roots and spores. Drops **Runic Sacred Heartwood** (mythic tool bench), **Fossilized Tree Resin** (elite aging casks), and 15x Runic Gold Bars.
+* **Floor 150 — The Sealed Warden (`the_sealed_warden`):** Legendary Khaz-Drakor marshal fused with the Solaria Seal Core across 3 brutal phases. Drops **Khaz-Drakor Rune Heart** (unseals **Endless Abyss 151+**), **Solaria Ultimate Weapon Blueprint**, 10x Pure Void Ingots, and **Prismatic Shard**.
 
 ---
 
@@ -103,38 +103,36 @@ Each floor consists of **3 to 5 interconnected stone chambers** displayed on an 
 ### 1. Weapon Tempering (+1 to +5)
 * Weapons can be tempered up to $+5$, granting $+10\%$ ATK and $+5\%$ swing speed per rank with a **guaranteed 100% success rate**.
 
-### 2. Permanent Runic Gem Infusion
+### 2. Permanent Soul Essence Infusion
 * Weapons from Tier 2 onward feature 1 gem socket. **Infusion is permanent**:
-  * 🔴 **Ruby:** Burns targets for 4 seconds.
-  * 🔵 **Sapphire:** Slows target movement and attack speed by 40%.
-  * 🟢 **Emerald:** Releases poison spore clouds on impact.
-  * 💎 **Diamond:** Grants $+20\%$ Critical Strike chance.
+  * 🔥 **Pyre Ember:** Burns targets for 5 seconds; armor boosts lava/fire resistance.
+  * ❄️ **Frost Shard:** Slows target movement by 35%; boots prevent ice/mud slip.
+  * ⚡ **Volt Spark:** 20% chance to arc chain lightning to 3 nearby foes.
+  * 🩸 **Vampiric Leech:** Restores 3% of critical strike damage as HP.
+  * 🛡️ **Aegis Core:** Grants a ward barrier absorbing the first hit in each new chamber.
 
 ### 3. Geode Cracking (25g fee at Boris):
 * **Regular Geode (Stratum 1):** Quartz, Copper Ore, Salt Crystals, Ancient Arrowhead.
-* **Magma & Frost Geode (Stratum 2):** Ruby, Iron Ore, Ancient Fossils, Lava Pepper.
-* **Crystal Geode (Stratum 3):** Sapphire, Emerald, Rare Spices, Veteran Crest.
-* **Abyssal Geode (Stratum 4):** Diamond, Prismatic Shard, Mithril, Ancient Deep Seeds.
+* **Magma & Frost Geode (Stratum 2):** Ruby, Iron Ore, Ancient Fossils, Basalt Slag.
+* **Crystal Geode (Stratum 3):** Sapphire, Emerald, Deep Spores, Veteran Crest.
+* **Abyssal Geode (Stratum 4):** Diamond, Prismatic Shard, Mithril, Void Shards.
 
 ---
 
-## 7. Practical Miner's Culinary Buffs (The Hearth)
+## 7. Grounded Culinary Buffs (Max 5 Buff Slots & NPC 5-Buff Exclusives)
 
 ```
 [ DELVING DIET RULES ]
-• Max 2 active buffs: 1 Main Dish (Stew/Bento) + 1 Beverage (Tea/Juice)
-• Duration: 8 real-time minutes or 5 complete mine floors
-• Consuming a new dish in the same category overwrites the previous buff
+• Character Limit: Max 5 Active Buff Slots simultaneously (No Stat Stacking — highest value wins)
+• Full-Slot Protection: Eating food #6 only restores HP/Stamina; it never overwrites stronger active buffs
+• Player-Cooked Cap: 55 kitchen recipes cap at Max 3 Buffs per dish (48 dishes: 0–2 buffs, 7 peak dishes: 3 buffs)
+• Digestion Satiety (6s): Spamming HP meals back-to-back halves extra HP recovery during boss fights
+• NPC-Exclusive 5-Buff Package: Only Valen (8H), Thorne/Valerius (Badges), and Fern (Region 3) sell 5-Buff consumables
 ```
 
-* 🍀 **Mining Luck (+2 Luck):** *Salt-Grilled Mimic Crab Claw* $\rightarrow$ Massive boost to rare ore and geode drops.
-* ⛏️ **Pickaxe Speed (+25% Mining Speed):** *Garlic Butter Walking Mushroom Stew* $\rightarrow$ Cuts rock-breaking time in half.
-* 👟 **Movement Speed (+20% Move Speed):** *Cliffside Peppermint Tea* $\rightarrow$ Run fast to dodge telegraphed strikes and dart across spike traps.
-* ⚔️ **Attack Power (+20 ATK):** *Crispy Fried Cockatrice Breast* $\rightarrow$ Fells subterranean beasts in fewer hits.
-* 🛡️ **Defense (+30 DEF):** *Smoked Deep-Beast Ribs Bento* $\rightarrow$ Reduces ambush damage.
-* 🔥 **Lava Resistance (+60% Lava Resist):** *Hot-Rock Roasted Scythe-Scorpion Tail*.
-* 🩸 **Emergency Recovery (+100% HP & Stamina):** *Screaming Mandrake Chicken Broth*.
-* 👑 **Apex Feast (ATK x2, Speed +15%, Luck +3):** *Royal Dragon Tail Hotpot*.
+* 🍲 **Balanced 3-Buff Pinnacle Meals:** *Oakhaven Herbal Beef Pho* (`+3 ATK, +2 Speed, -30% Cold Damage`), *Andean Oca & Beef Empanada* (`+3 DEF, +3 ATK, +25 Temp Max HP`), *Grand Solaria Memorial Feast* (`+4 ATK, +4 DEF, -35% Miasma Buildup`).
+* 🩺 **Infirmary & Swamp Support:** *Aurelia's Antitoxin Vial* instantly clears Poison/Burn/Stun; *Field Suture Salve* bypasses Digestion Satiety for emergency `+80 HP`; *Morrigan's Thornblood Brew* trades `-25 Temp Max HP` for `+5 ATK, +15% Crit, +2 Speed`.
+* 👑 **NPC 5-Buff Specialists:** *Vintage Solaria Reserve* (Valen — Luck/Mining), *Solaria Ironclad Vanguard Ration* (Thorne/Valerius — Warden Bosses), and *Elder Tree Sap Elixir* (Fern — Zone 4 & Endless Abyss 151+).
 
 ---
 

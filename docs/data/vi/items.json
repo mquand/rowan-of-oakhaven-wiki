@@ -4815,7 +4815,7 @@
     {
       "id": "seed_snow_lotus",
       "name": "Hạt Hoa Tuyết Liên",
-      "description": "Đặc hữu Vùng 4 (quanh Suối Nước Nóng Đỉnh Răng Sói); cánh hoa trắng tinh chế thuốc giải độc & hồi sinh.",
+      "description": "Đặc hữu Vùng 4 (quanh Suối Nước Nóng Đỉnh Răng Sói); cánh hoa trắng tinh nấu súp bồi bổ chống giá rét & giải độc.",
       "category": "seed",
       "rarity": "common",
       "buy_price": 110,
@@ -4830,7 +4830,7 @@
     {
       "id": "item_snow_lotus",
       "name": "Hoa Tuyết Liên",
-      "description": "Đặc hữu Vùng 4 (quanh Suối Nước Nóng Đỉnh Răng Sói); cánh hoa trắng tinh chế thuốc giải độc & hồi sinh.",
+      "description": "Đặc hữu Vùng 4 (quanh Suối Nước Nóng Đỉnh Răng Sói); cánh hoa trắng tinh nấu súp bồi bổ chống giá rét & giải độc.",
       "category": "ingredient",
       "rarity": "uncommon",
       "buy_price": null,

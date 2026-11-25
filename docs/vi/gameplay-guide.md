@@ -36,19 +36,19 @@ Một ngày trong game kéo dài **12 – 14 phút thực tế** (chuẩn, có t
 
 Một năm gồm **112 ngày** (`4 mùa × 28 ngày`). Mỗi mùa có cây trồng, thời tiết và khách quen riêng.
 
-- **Mùa Xuân:** Cây đâm chồi, hoa sen nở rộ, mưa xuân tự tưới cây.
-- **Mùa Hạ:** Thu hoạch dâu tuyết, bắt đom đóm làm đèn, khách chuộng trà đá mát.
-- **Mùa Thu:** Lúa mì bạc chín vàng — **ngày 20 Mùa Thu là Lễ Hội Bánh Mùa Thu & Đêm Hội Lồng Đèn**.
-- **Mùa Đông:** Vườn đóng băng (chỉ trồng trong nhà kính ma thuật), mỏ pha lê tuyết mở tầng sâu, khách chuộng trà nóng bánh mì bơ.
+- **Mùa Xuân:** Cây đâm chồi, mưa xuân tự tưới cây; Ngày 15 Xuân diễn ra **Lễ Tảo Mộ & Khơi Mương Đầu Năm** *(Tầng 1)*; Ngày 26 Xuân mở **Lễ Hội Cấy Lúa Ruộng Bậc Thang** *(khi thông Kênh Thủy Lợi)*.
+- **Mùa Hạ:** Thu hoạch quả mọng & lúa nước; Ngày 11 Hạ diễn ra **Đêm Hội Đom Đóm & Mùa Hái Dâu** *(Tầng 1)*; Ngày 23 Hạ mở **Đêm Hoa Đăng Rừng Thần Thảo Mộc** *(khi tẩy trần Vùng 3)*.
+- **Mùa Thu:** Lúa mì bạc & bí ngô chín vàng; Ngày 12 Thu là **Hội Cúng Mùa Gặt & Nướng Bí Ngô** *(Tầng 1)*; Ngày 25 Thu mở **Giải Đấu Võ Đường & Chợ Hơi Nước Răng Sói** *(khi thông Cáp Treo)*.
+- **Mùa Đông:** Trời đóng băng ngoài đồng nên chỉ trồng được **3 loài chịu băng cực hạn** ngoài trời (*Bạch Ngọc Củ Cải, Rễ Địa Y, Sen Băng Tuyết* — muốn trồng cây khác phải phục hồi Nhà Kính); Ngày 13 Đông mở **Đại Tiệc Hoàng Gia Vương Đô Solaria** *(khi thông Đường Sắt)* và Ngày 28 Đông là **Đêm Lẩu Bếp Lửa & Giao Thừa Biển Mây** *(Tầng 1)*.
 
 ---
 
-## Thể Lực (Stamina)
+## Thể Lực (Stamina 270) & Máu (HP 100)
 
-- **Tối đa:** 100 điểm (nâng tối đa 160 bằng Trà Tinh Thể Sao).
+- **Khởi điểm chuẩn:** **Stamina 270 điểm**, **HP 100 điểm** (tăng tạm thời trong ngày bằng món ăn bếp tối đa **3 Buff** hoặc gói **5 Buff** từ NPC).
 - **Tiêu hao:** cuốc đất −2, tưới nước −1/ô, đập đá −3, đập quặng −5, đập tinh thể −6, chặt cành −4.
-- **Hồi phục:** Trà Sen Ấm +35 · Trà Ánh Dương +50 & buff tốc độ đập đá · Bánh mì hoa cúc +60 · ngủ trước 00:00 hồi 100%, ngủ muộn 80%.
-- **Cạn thể lực:** Bác Boris dìu về giường, sáng dậy 08:00 với 70% — không mất đồ, không phạt tiền.
+- **Hồi phục & Quy chuẩn Buff:** Nhân vật giữ tối đa **5 Ô Buff không cộng dồn** (đủ 5 ô không đá mất buff cũ); thức ăn bếp hồi từ `+30..180 HP` / `+50..240 Stamina` (có Độ No 6s chống spam); ngủ trước 00:00 hồi 100%, ngủ muộn 80%.
+- **Ngất xỉu / Cạn HP:** Trên mặt đất, cậu phụ tá **Colm** khiêng cáng đưa về giường (trừ 10% viện phí tới 1,000g, **không mất đồ**). Riêng trong Hầm mỏ 150 tầng, ngất/chết sẽ **rơi mất vĩnh viễn toàn bộ quặng & chiến lợi phẩm chuyến đi** (*Mất đồ là mất đồ*); vũ khí và công cụ chính đưa về bàn **Lost & Found** tại Hiệp Hội Mạo Hiểm.
 
 ---
 

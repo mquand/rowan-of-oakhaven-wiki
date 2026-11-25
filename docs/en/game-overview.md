@@ -1,74 +1,71 @@
 ---
 title: "Game Overview"
-status: draft
+status: ready
 audience: public
-updated: 2026-11-12
-tags: [overview, pitch, core-loop, features]
+updated: 2026-11-25
+tags: [overview, pitch, core-loop, features, eatery, tavern]
 spoiler: false
 ---
 
-# 🍵 Rowan of Oakhaven — Game Overview
+# 🍲 Rowan of Oakhaven — Game Overview
 
-> **Genre:** Dark Pixel RPG · Botanical Farming, Tea Crafting & Magic Bakery · Mine Exploration · Empathetic Storytelling  
-> **Target Platforms:** PC (Steam, 16:9 Landscape) & Mobile  
-> **Art Style:** 2D Dark Pixel Art (navy and indigo night skies, warm honey-amber hearth light)  
-
----
-
-## 1. Introduction & Prologue Story
-
-### 1.1. Story Premise
-> *"Inheriting her late grandmother's rustic homestead and hearth at the Oakhaven frontier crossroads, you cultivate seasonal crops, wield pickaxes and forged steel across 150 treacherous mine floors, and set stream traps for lantern fuel — opening your doors each twilight to welcome weather-beaten miners, veteran knights, and weary wanderers to a roaring hearth, fresh crusty loaves, and restorative teas."*
-
-### 1.2. The Prologue
-**Rowan** is an independent, capable frontier artisan. Rejecting the detached, pampered politics of aristocratic court scholasticism, she returned to the rugged frontier of Oakhaven to take up the hearth and untamed plot bequeathed by her late **Grandmother Amalia**, who passed away peacefully in her sleep.
-
-Amalia leaves Rowan a moss-shingled timber homestead at the crossroads, an overgrown garden plot, a pygmy owl messenger named **Pip**, a calico hearth cat named **Mallow**, and her cherished **"Tattered Secret Grimoire"** brimming with handwritten formulas and unfinished culinary experiments.
-
-In this harsh frontier, Rowan proves that true mastery lies not in hollow court spells, but in the crackle of firewood, the crusty warmth of sourdough fresh from the brick oven, and the genuine camaraderie shared with hardworking souls around a shared hearth.
+> **Genre:** Dark Pixel Action RPG · Hearth Eatery & 92-Species Farming · 150-Floor Mine-Dungeon · Postwar Altar Purification  
+> **Target Platforms:** PC (Steam, 16:9 Landscape) & Mobile-Ready  
+> **Art Style:** 2D Dark Pixel Art (cool navy/purple frontier twilight, warm hearth ember orange, 64×64 sprites)  
 
 ---
 
-## 2. Core Daily Loop
+## 1. Story Premise & Postwar Roots
 
-A single in-game day spans approximately **10 to 15 real-time minutes**, allowing flexible saving at any point:
+### 1.1. Losing Everything & Starting Over
+Brutal continental war claimed both of Rowan's parents. Raised by her frail Grandmother Amalia, the only steady warmth Rowan knew growing up came from a smoky wood-fired hearth and a hot bowl of soup that kept cold nights at bay.
 
-1. **Dawn (06:00 – 08:00):** Check the garden mailbox for heartfelt handwritten thank-you notes and rare botanical seeds brought back by Pip.
-2. **Morning & Afternoon (08:00 – 17:00):** Freely choose your endeavor:
-   - *Botanical Farming:* Till soil, plant seeds, water crops (Lotus Tea, Lumiberries, Starlight Lavender), and grind wheat into fresh flour at the windmill.
-   - *Mine Exploration:* Venture into cavern depths guided by a firefly lantern, harvesting coal for the hearth and ores to upgrade equipment.
-3. **Twilight (17:00 – 18:00):** Brew yourself a warm cup of herbal tea for stamina buffs and prepare ingredients on the kitchen counter.
-4. **Evening (18:00 – 23:00):** Open the Hearth Eatery & Tavern to visitors, listen to their worries and confidences, and craft hearty dishes and comforting meals to soothe their ailments.
-5. **Night (23:00 – 02:00):** Reforge gear at Boris's forge, play lofi vinyl records, pin Polaroid keepsakes to the corkboard, and rest in bed.
+When peace finally settled, Amalia passed away from age and exhaustion. Burned out by Solaria's cold industrial capital, Rowan packs her grandmother's tattered recipe ledger and travels to the misty frontier valley of **Oakhaven** to rebuild a life from scratch.
 
----
+Pygmy owl **Pip** perches steadily on the front porch post to deliver morning letters and rare seeds — staying out of the way during farming and combat.
 
-## 3. Unique Selling Points (USPs)
-
-1. **Tactile Foley Audio:**
-   Physical sensory feedback: the soft squish and thud of kneading pliable dough, the dry rustle of flour dusted onto wooden boards, gentle swirling of tea in glass kettles, and the clear resonant *Ding!* of the oven bell.
-2. **"Listening" Over Industrial Order-Rushing:**
-   No frantic countdown timers; patrons do not order off a conveyor belt menu. Instead, they share heartfelt stories, leaving you to decipher their emotional needs and prepare comforting remedies.
-3. **Grandmother's Experimental Sandbox:**
-   Encourages spontaneous experimentation without rigid penalties. Freely combine harvest crops, wild flora, and crystals to uncover secret brews hidden throughout nature.
-4. **Cozy Eastern Botanical Sensibility:**
-   Delicate dew-kissed Lotus Tea, calming Artichoke decoctions, Pomelo Blossom shortbread, and lanterns glowing beneath the Autumn Harvest Moon.
+### 1.2. Role of The Hearth Kitchen & 55 Recipes
+Rowan clears out the dusty ruined homestead and kindles the kitchen stove anew. Cooking in Oakhaven serves 3 practical roles:
+1. **Survival Rations & Grounded Buffs:** Restores HP/Stamina and activates up to **5 Non-Stacking Active Buff Slots** (player-cooked dishes cap at **3 Buffs max**; **5-Buff packages** are sold exclusively by key endgame NPCs) for 150-floor mine delves.
+2. **Eatery & Bunkhouse Economy:** Sold via the porch Honor Pantry, shipping bin, evening hearthside tables, and Expedition Bento contracts to fund town restoration.
+3. **Altar Purification:** Offered at Ancient Memorial Altars across blighted wartime ruins to clear miasma and reclaim fertile land.
 
 ---
 
-## 4. Signature 12 Features
+## 2. Core Daily Loop (The 4-Pillar Loop)
 
-| # | Feature | Gameplay Experience |
-| :-: | :--- | :--- |
-| **1** | **Freeform Grimoire Experimentation** | Freely combine crops, herbs, and crystalline minerals to discover new recipes. |
-| **2** | **Mallow the Familiar & Pip the Owl** | Calico cat Mallow naps by the hearth; Pip scours the forest canopy for rare seeds. |
-| **3** | **Enchanted Pastry Effects** | Patrons who taste magical pastries glow softly, sprout rabbit ears, or exhale soft starlight. |
-| **4** | **Vintage Phonograph** | Unearth lost vinyl records in the mines to play gentle Lo-fi tunes in the tea salon. |
-| **5** | **Polaroid Keepsake Wall** | Snap milestone portraits with villagers and pin them to your shop's memory wall. |
-| **6** | **Self-Brewed Stamina Buffs** | Treat yourself to your own creations to boost movement speed and withstand mine chills. |
-| **7** | **Morning Mailbox Letters** | Receive handwritten gratitude notes and thoughtful gifts from patrons served the night before. |
-| **8** | **Birthday Cakes for Villagers** | Hand-bake signature celebration cakes for each citizen on their special calendar day. |
-| **9** | **Rainy Window Doodling** | Trace hearts and smileys on steamy shop windowpanes while gentle rain falls outside. |
-| **10**| **Firefly Cavern Lantern** | Catch summer fireflies in a glass jar to craft a portable hip-lantern for dark mines. |
-| **11**| **Stargazing Tea Porch** | Expand the outdoor terrace with low tea tables where guests gaze at starry night skies. |
-| **12**| **Autumn Pastry Jubilee** | Townwide baking competition held on Autumn 20 with glowing festival lanterns. |
+Each in-game day lasts roughly **10 to 15 real-time minutes**:
+
+```
+[DAWN (06:00 - 08:00)]
+  └── Read villager letters & collect seeds from Pip; collect 2F bunkhouse rent via Barnaby.
+[MORNING & AFTERNOON (08:00 - 17:00)]
+  ├── Farmstead: Water & harvest 92 botanical species across 4 seasons & flooded rice terraces.
+  └── Exploration: Delve the 150-floor Pure-Combat Mine-Dungeon, extract 5 ore tiers, slay Wardens, or take Guild Bounties.
+[EVENING (18:00 - 22:00)]
+  └── Optional Hearthside Service [OPEN]: Cook 55 global & fantasy dishes, sell takeaway bento boxes, and talk with regulars.
+[NIGHT (22:00 - 02:00)]
+  └── Research new recipes at the loft R&D bench, age wine/cheese in the cellar, and sleep to save.
+```
+
+---
+
+## 3. Core Systems
+
+1. **HP (100 Base) & Stamina (270 Base) + Permanent Loss on Mine Defeat:**
+   - Actions consume Stamina; monster attacks reduce HP.
+   - Collapsing in the mine triggers an emergency stretcher rescue by **Colm** or Guild rangers to **Apothecary Aurelia's Infirmary**, deducting 10% gold (up to 1,000g) and **permanently losing all ores, gems, and raw loot gathered during that dive**.
+   - Main weapons, armor, and farming tools are recovered at the **Adventurer Guild Lost & Found** (redeemed with Gold or **Rescue Badges** earned from Expedition Bento contracts).
+2. **Pure Action RPG Mine Combat (No Monster Pacification):**
+   - All 150 campaign floors and the **Endless Abyss (151+)** are hostile survival combat arenas with **100% Non-Food Drops** (smithing ores, exploration gear, farm automation parts).
+   - Food and 6 NPC-exclusive consumables (*Aurelia, Morrigan, Valen, Thorne/Valerius, Fern*) buff Rowan directly rather than pacifying monsters.
+   - Use the **Spirit Firefly Lantern** to reveal shadow-cloaked enemies in pitch-dark chambers.
+3. **92 Botanical Species Farming & Automation:**
+   - 52 valley crops across 4 seasons (**only 3 outdoor frost-hardy crops in Winter**), 10 regional & subterranean crops, 23 timber/fruit trees & berry bushes, plus 7 Cozy ornamental plants.
+   - 3 Sprinkler tiers (Copper 4-tile, Iron 8-tile, Void 24-tile), Scarecrows, and natural fertilizers (*Wood Ash, Cave Bone Meal, Retaining Moss*).
+4. **Progressive Regional Expansion (5 Major Works):**
+   - Highland Aqueduct (flooded rice paddies), Sacred Elder Grove Purification, Wolf-Fang Peak Sky-Tram, Oakhaven Central Rail Line, and Sunken Necropolis (post-Floor 150).
+5. **Equipment, Ring Fusion & Permanent Soul Essences:**
+   - Headgear, Armor, Trousers, Boots, **2 Ring Slots**, Backpack upgrades; fuse rings at **Floor 100**; permanently socket 5 Soul Essences (*Pyre, Frost, Volt, Vampiric, Aegis*).
+6. **Private Loft & 2F Bunkhouse Lodging:**
+   - Upgradeable attic quarters (Bed, R&D Lab, Wardrobe, Trophy Mantle, Aging Cellar) plus 3–5 upstairs guest rooms managed by Barnaby.

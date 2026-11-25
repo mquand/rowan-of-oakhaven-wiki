@@ -2,7 +2,7 @@
 
 Thị trấn Oakhaven từng là tiền tuyến gánh chịu nhiều mất mát nặng nề sau cuộc chiến tàn khốc. Rừng sâu vương vãi sắt vụn gỉ sét, các cây cầu huyết mạch bị giật sập, cối xay gió kẹt trục, đất đai nhiễm độc và ngọn lửa sưởi ấm quảng trường đã nguội lạnh suốt một thập kỷ.
 
-Hành trình của Rowan không chỉ là làm giàu, mà là **cùng dân làng từng bước chữa lành những vết thương chiến tranh**, hồi sinh 12 công trình di sản qua 4 giai đoạn phát triển.
+Hành trình của Rowan không chỉ là làm giàu, mà là **cùng dân làng từng bước sửa chữa nhà cửa, khơi thông thủy lợi, dựng lại 12 công trình di sản** qua 4 giai đoạn phát triển.
 
 ---
 

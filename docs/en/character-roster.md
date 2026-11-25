@@ -17,8 +17,8 @@ spoiler: false
 ## 1. The Hearth Homestead Crew
 
 ### 🌸 Rowan (Homestead Master, Master Cook & Frontier Delver)
-* **Role:** Player-controlled protagonist. Full gameplay freedom: cultivate 32 crops, explore 150 action-packed mine floors, or forage and fish wild waterways.
-* **Master of the Kitchen:** Rowan maintains 100% ownership over all 55 cooking recipes. Food functions as vital expedition buffs and passive income sold via the honor pantry and shipping bin.
+* **Role:** Player-controlled protagonist. Full gameplay freedom: cultivate 92 botanical species (62 crops/specialties + 23 trees/bushes + 7 Cozy plants), explore 150 action-packed mine floors, or forage and fish wild waterways.
+* **Master of the Kitchen:** Rowan maintains 100% ownership over all 55 cooking recipes (**max 3 Buffs/dish**). Food powers up to **5 Non-Stacking Active Buff Slots** for mine expeditions and generates passive income via the honor pantry and shipping bin.
 * **Background:** Weary survivor of burnout from the industrial capital of Solaria. Inheriting Grandmother Amalia's overgrown, stony homestead, Rowan starts from scratch to rebuild a thriving frontier life.
 * **Inner Conflict:** Imposter Syndrome — wrestling with the fear of inadequacy while restoring her ancestral homestead.
 
@@ -110,7 +110,7 @@ spoiler: false
   - *Signature Comfort Dish:* **Snow Fungus & Pork Rib Broth**.
 * **Heart Events Arc:**
   - *4 Hearts:* Unlocks the **Valley & Deep Mine Monster Bounty Board** (Thorne); opens the **Town Buyback Counter** recovering items sold by mistake within 3 days (Valerie).
-  - *8 Hearts (Abyssal Clearance):* Rowan serves a frontline campaign feast; Thorne grants **Deep Mine Clearance Seals** unlocking cross-zone elevators and the Infinite Abyss Gate (151+); Valerie provides surface recovery service for dropped essential tools (pickaxe, axe, rod).
+  - *8 Hearts (Abyssal Clearance):* Rowan serves a frontline campaign feast; Thorne grants **Deep Mine Clearance Seals** unlocking cross-zone elevators and the Infinite Abyss Gate (151+), and unlocks exchanging Rescue Badges for **Solaria Ironclad Vanguard Ration (5-Buff Boss Ration, max 2/week)**; Valerie provides surface recovery service for dropped essential tools (pickaxe, axe, rod).
 
 ---
 
@@ -159,7 +159,7 @@ spoiler: false
 
 ### 🩺 Aurelia (Town Medic) & ⚔️ Marlo (Nightwatch Sentinel)
 * **Aurelia:** Disillusioned physician who fled royal medical corruption to treat the impoverished, struggling with scarce supplies.
-  - *Gameplay Mechanic:* Brews **Vitality Healing Broth** to relieve chronic pains at 2 Hearts; supplies deep-wound salves and stamina tonics at 6 Hearts.
+  - *Gameplay Mechanic:* Sells **Aurelia's Antitoxin Vial** *(instant Poison/Burn/Stun cure & -40% Miasma)* at 2 Hearts; unlocks **Field Suture Salve** *(instant +80 HP bypassing Digestion Satiety, max 3/week)* at 4–6 Hearts.
 * **Marlo:** Self-effacing nightwatchman who sends 90% of his pay to support younger siblings back home, finding his only solace at Rowan's midnight tavern table.
   - *Gameplay Mechanic (Night Security):* Patrols the valley at night; protects the Eatery and the front-porch "Honor Stand" from nocturnal theft (50% theft reduction at 4 Hearts, 100% immunity at 8 Hearts).
 
@@ -205,9 +205,9 @@ spoiler: false
 * **Valerius:** Former royal guard commander framed for treason after exposing imperial corruption; runs the **Mountain Pass Combat Dojo** on the valley surface.
   - *Comfort Dish:* **Oak-Charred Iron Steak & Red Wine Beef Stew**.
   - *Gameplay Mechanic:* Trains Rowan in **Shield Parry** at 4 Hearts and Master Parry Counter (+20% stamina recovery) at 8 Hearts; forgives former subordinate Hester.
-* **Morrigan:** Solitary swamp witch ostracized worldwide due to superstitious dread; prickly outside, but secretly a gentle healer to wounded wildlife.
+* **Morrigan:** Solitary swamp witch ostracized worldwide due to superstitious dread; prickly outside, yet helps look after injured wildlife.
   - *Comfort Dish:* **Frostmint Breeze Tea & Wild Glade Berries**.
-  - *Gameplay Mechanic:* Concocts weapon-coating monster toxins at 4 Hearts; unlocks **Critical Strike Elixir** and permanent Miasma Antidote at 8 Hearts.
+  - *Gameplay Mechanic:* Exclusively brews **Thornblood Swamp Brew** *(+5 Attack, +15% Crit, +2 Speed at the cost of -25 Temp Max HP; max 2/week)* and teaches Miasma-mitigating broths at 8 Hearts.
 
 ---
 
@@ -226,7 +226,7 @@ spoiler: false
 * **Thistle (Nocturnal Moth Ranger):** Silver-violet winged moth-folk whose sensitive eyes sting under bright lanterns; lives isolated in twilight canopy hours.
   - *Comfort Dish:* **Thousand-Star Lavender Infusion**. Gathers **Luminescent Silk** at 4 Hearts and **Golden Silk** at 8 Hearts for Elora.
 * **Fern (Ancient Root Healer - Age 800):** Blind mentor of Sylvan who perceives all forest life through subterranean root mycorrhizae after losing his eyes to wartime miasma.
-  - *Comfort Dish:* **Lotus Blossom Root Potage**. Teaches **Primeval Herbal Codex** recipes at 6 Hearts; guides permanent soil miasma purification rites at 8 Hearts.
+  - *Comfort Dish:* **Lotus Blossom Root Potage**. Teaches **Primeval Herbal Codex** recipes at 6 Hearts; once Region 3 Sacred Elder Grove opens, sells **Elder Tree Sap Elixir** *(exclusive 5-Buff Abyss survival draught, 800g, max 1/week)* at 8 Hearts.
 * **Elora & Sylvan:** Tremor-afflicted royal dressmaker and devoted botanist seeking ancient remedies to preserve her artisan hands.
   - *Elora:* Weaves **Expanded Adventurer Pouch (+12 slots)** at 4 Hearts; tailors the **Eternal Winter Gala Robe** at 8 Hearts.
   - *Sylvan:* Opens **Herbal Essential Oil Extractor** at 4 Hearts; harvests rare **Millennial Roots** at 8 Hearts.
@@ -235,7 +235,7 @@ spoiler: false
 * **Iris (Royal Chronicler):** Auburn-haired scholar balancing precarious towers of tomes; torn between royal imperial censorship and her pledge to record authentic history.
   - *Comfort Dish:* **Earl Grey Jasmine Tea & Spiced Ginger Biscuits**. Opens **Deep Mine Relic Appraisal** at 4 Hearts; completes the **Valley Historical Museum** at 8 Hearts.
 * **Valen de Montfort (Exiled Noble with Blood Ailment):** Highborn Solarian aristocrat fleeing court purges, renting a secluded upper chamber at The Hearth; afflicted with chronic hereditary anemia.
-  - *Comfort Dish:* **Fermented Wild Berry Cordial**. Custom-orders double-priced berry tonics at 4 Hearts; signs prestigious royal court diplomatic charter at 8 Hearts.
+  - *Comfort Dish:* **Fermented Wild Berry Cordial**. Custom-orders double-priced berry tonics at 4 Hearts; opens the 2F cellar selling **Vintage Solaria Reserve** *(exclusive 5-Buff mining & +4 Luck vintage, 650g, max 2/week)* and signs the diplomatic charter at 8 Hearts.
 * **Kassandra (Wind Witch in Exile):** Opens **Sky Express 2-Hour Inter-Realm Air Delivery** at 4 Hearts; gifts Rowan the **Enchanted Flying Broom** at 8 Hearts.
 
 ### ✨ Aethelgard (The Floating Elysium)

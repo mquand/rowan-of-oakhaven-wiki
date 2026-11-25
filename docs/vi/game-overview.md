@@ -26,9 +26,9 @@ Chú chim cú lùn **Pip** chỉ đậu tĩnh trên mái nhà hoặc cành cây 
 
 ### 1.2. Ý nghĩa của Bếp Nấu & Món Ăn
 Rowan tự tay dọn dẹp căn nhà hoang đổ nát ở Oakhaven, thắp lại ngọn lửa đầu tiên trong gian bếp cũ. Thức ăn tại Oakhaven mang 3 ý nghĩa thiết thực:
-1. **Lương thực sinh tồn & Buff chiến đấu:** Hồi phục HP/Stamina và ban các buff chỉ số cực mạnh (Công, Thủ, Tốc độ, Kháng đòn, Đào mỏ) khi lao vào chém quái hầm mỏ sâu.
+1. **Lương thực sinh tồn & Buff chiến đấu:** Hồi phục HP/Stamina và kích hoạt tối đa **5 Ô Buff không cộng dồn** (món tự nấu tối đa **3 Buff**, riêng gói **5 Buff** chỉ mua/đổi từ các NPC trọng yếu) khi lao vào chém quái hầm mỏ sâu.
 2. **Kinh tế Quán Ăn & Nhà Trọ:** Bán cho dân làng và du khách ghé quán kiếm Vàng tái thiết thung lũng.
-3. **Cầu siêu thanh tẩy:** Dâng món ăn truyền thống lên các Bàn Thờ Cổ Tưởng Niệm dọc chiến trường xưa để siêu thoát linh hồn binh sĩ ngã xuống và hồi sinh đất đai chết chóc.
+3. **Cầu siêu thanh tẩy:** Dâng món ăn truyền thống lên các Bàn Thờ Cổ Tưởng Niệm dọc chiến trường xưa để siêu thoát linh hồn binh sĩ ngã xuống và giải phóng đất hoang khỏi sương độc.
 
 ---
 
@@ -40,7 +40,7 @@ Một ngày trong game kéo dài khoảng **10 – 15 phút thời gian thực**
 [BÌNH MINH (06:00 - 08:00)] 
   └── Đọc thư tay, nhận hạt giống từ cú Pip trên mái nhà; thu tiền phòng trọ tầng 2.
 [BUỔI SÁNG & TRƯA (08:00 - 15:00)]
-  ├── Nông trại: Tưới nước, thu hoạch 32 cây trồng 4 mùa & canh tác ruộng bậc thang lúa nước.
+  ├── Nông trại: Tưới nước, thu hoạch 92 loài thực vật 4 mùa & canh tác ruộng bậc thang lúa nước.
   └── Thám hiểm: Xuống Hầm Mỏ 150 tầng THUẦN COMBAT chặt chém quái, khai thác 5 cấp quặng, trảm Boss; ghé Hiệp Hội Mạo Hiểm nhận bounty và chuộc đồ Lost & Found.
 [CHIỀU TỐI & BAN ĐÊM (17:00 - 23:00)]
   └── Mở Quán Ăn Oakhaven [OPEN]: Nấu 55 món ăn phục vụ khách mang đi (Takeaway) và khách ngồi bàn (Dine-in).
@@ -52,17 +52,17 @@ Một ngày trong game kéo dài khoảng **10 – 15 phút thời gian thực**
 
 ## 3. Hệ Thống Tính Năng Chuẩn Mực
 
-1. **HP & Stamina Chuẩn Stardew + Thu Hồi Đồ Tại Hiệp Hội Mạo Hiểm:**
+1. **HP (100) & Stamina (270) + Quy Tắc Sinh Tử "Mất Đồ Là Mất Đồ":**
    - Hoạt động tiêu hao Stamina; trúng đòn quái giảm HP.
-   - Ngất xỉu $\rightarrow$ Đội tuần tra của **Hiệp Hội Mạo Hiểm** đưa về Trạm Xá, trừ tiền viện phí và ngẫu nhiên rơi mất 1-4 món đồ trong Balo.
-   - Đến **Hiệp Hội Mạo Hiểm Oakhaven** gặp Hội Trưởng Thorne để chuộc lại đồ bằng Vàng hoặc đổi bằng Cơm Hộp Viễn Chinh.
+   - Ngất xỉu trong mỏ $\rightarrow$ Cậu phụ tá **Colm** hoặc đội Hiệp Hội đưa về Trạm Xá của **Dược Sĩ Aurelia**, trừ 10% tiền viện phí (tối đa 1,000g) và **rơi mất vĩnh viễn toàn bộ quặng, đá quý, vật liệu chuyến đi**.
+   - Riêng vũ khí/nông cụ chính đưa về bàn **Lost & Found** tại **Hiệp Hội Mạo Hiểm Oakhaven** (chuộc bằng Vàng hoặc đổi **Huy Hiệu Cứu Viện** từ đơn Cơm Hộp Viễn Chinh).
 2. **Chiến Đấu Hầm Mỏ Thuần Túy (100% Pure Action RPG Combat):**
    - Hầm mỏ 150 tầng là chiến trường sinh tử: Quái vật cực kỳ hung hãn, chém giết dọn sạch phòng để mở cửa đi tiếp. **Tuyệt đối không có cơ chế xoa dịu quái.**
-   - Thức ăn (55 món) dùng để Rowan tự ăn buff chiến đấu bản thân (Công, Thủ, Tốc, Kháng đòn).
+   - Thức ăn (55 món, tối đa **3 Buff/món**) và 6 vật phẩm độc quyền NPC (gồm 3 gói **5 Buff**) dùng để Rowan tự ăn buff chiến đấu bản thân (Công, Thủ, Tốc, Kháng đòn).
    - Đèn Lồng Bão Đom Đóm soi rọi quái tàng hình trong bóng tối.
-3. **Nông Nghiệp 41 Loài Cây Canh Tác (27 Hoa Màu + 14 Thân Gỗ) & Tự Động Hóa:**
-   - 41 loài cây canh tác phân bổ đều 4 mùa (Xuân, Hạ, Thu, Đông) và cây lâu năm.
-   - Vòi phun tự động 3 cấp (Đồng 4 ô, Sắt 8 ô, Hơi Nước Khaz-Drakor 24 ô), bù nhìn rơm bảo vệ mùa màng.
+3. **Nông Nghiệp 92 Loài Thực Vật (62 Hoa Màu & Đặc Hữu + 23 Gỗ/Quả + 7 Hoa Cảnh) & Tự Động Hóa:**
+   - 52 loài theo mùa thung lũng (Mùa Đông ngoài trời chỉ trồng được **3 loài chịu băng cực hạn**), 10 loài đặc hữu vùng đất, 23 cây gỗ/ăn quả/bụi quả và 7 hoa cảnh trang trí Cozy.
+   - Vòi phun tự động 3 cấp (Đồng 4 ô, Sắt 8 ô, Hư Không 24 ô), bù nhìn rơm bảo vệ mùa màng.
 4. **Mở Rộng Bản Đồ Độc Bản Oakhaven (Không Rập Khuôn Stardew):**
    - 1. Kênh Thủy Lợi Thượng Nguồn (Ruộng Bậc Thang Lúa Nước & Bến Thuyền Nan).
    - 2. Cây Thần Ngàn Năm & Đại Lễ Tẩy Trần (Xua tan chướng khí miasma, mở Rừng Thần Thảo Mộc).

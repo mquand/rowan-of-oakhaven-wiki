@@ -2,7 +2,7 @@
 
 Oakhaven was once a vulnerable frontier outpost that bore the deepest scars of wartime devastation. Shrapnel littered the pine forests, bridges collapsed into raging floodwaters, the grain windmill seized up, farmlands were tainted with subterranean Blight, and the central public hearth lay frozen in ashes for over a decade.
 
-Rowan's calling is not merely entrepreneurial wealth, but to **stand shoulder-to-shoulder with the villagers to heal these postwar traumas**, restoring 12 landmark projects across 4 developmental phases.
+Rowan's calling is not merely entrepreneurial wealth, but to **work alongside neighbors to rebuild roofs, clear blocked waterways, and restore 12 landmark structures** across 4 developmental phases.
 
 ---
 

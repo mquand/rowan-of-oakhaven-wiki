@@ -20,7 +20,7 @@ Toàn bộ tài nguyên khai khoáng và chiến lợi phẩm quái vật đều
 ```
                 ┌────────────────────────────────────────────────────────┐
                 │                  THỊ TRẤN OAKHAVEN                     │
-                │  (Nông trại 41 cây • Bếp The Hearth • Lò rèn • Trạm y tế)│
+                │  (Nông trại 92 loài • Bếp The Hearth • Lò rèn • Trạm y tế)│
                 └───────────────┬────────────────────────┬───────────────┘
                                 │                        │
                        Thang máy cứu hộ 10 tầng   Cửa mỏ Cây Thần
@@ -226,10 +226,10 @@ Boris mở khóa bản vẽ mới sau khi người chơi vượt qua các mốc 
 ```
        [ ĐỒNG ÁNG & BẾP THE HEARTH ] 
                      │
-         Nấu 55 Món Bếp Ấm & Trà Thảo Mộc
+         Nấu 55 Món Bếp Ấm (Tối đa 3 Buff) + 6 Hàng Độc Quyền NPC (gồm 3 gói 5-Buff)
                      │
                      ▼
-         Buff HP, Thủ, Công, Tốc Độ & Kháng
+         Kích Hoạt Tối Đa 5 Ô Buff Không Cộng Dồn (Công/Thủ/Tốc/Kháng/May Mắn)
                      │
                      ▼
        [ HẦM MỎ CỔ 150 TẦNG & ABYSS ] ◄── Đọc Telegraph, Lướt Né, Parry
@@ -240,7 +240,7 @@ Boris mở khóa bản vẽ mới sau khi người chơi vượt qua các mốc 
          ┌───────────┴───────────┐
          ▼                       ▼
  [ LÒ RÈN BORIS ]        [ NÔNG TRẠI 4 MÙA ]
-Rèn 23 Vũ Khí Bậc 1-6   Tự Động Hóa Vòi Tưới
+Rèn 23 Vũ Khí Bậc 1-6   92 Loài Thực Vật & Vòi Tưới
  & Giáp Kháng Dung Nham  & Bón Phân Tăng Sao
 ```
 
