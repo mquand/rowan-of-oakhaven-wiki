@@ -75,8 +75,10 @@ flowchart LR
 
 11. **Oakhaven Copper Sprinkler (`craft_copper_sprinkler`):** *(1 Copper Bar + 1 Iron Bar)*
     - Automatically waters 4 adjacent cardinal cross tiles at 06:00 every morning.
-12. **Solar Gold Sprinkler (`craft_gold_sprinkler`):** *(1 Gold Bar + 1 Iron Bar + 1 Quartz)*
+12. **Oakhaven Iron Sprinkler (`craft_iron_sprinkler`):** *(1 Iron Bar + 1 Copper Bar)*
     - Automatically irrigates a full $3 \times 3$ grid (8 surrounding soil tiles) every dawn.
+12b. **Void Sprinkler (`craft_void_sprinkler`):** *(1 Void Ingot + 1 Amethyst)*
+    - Automatically irrigates a full $5 \times 5$ grid (24 surrounding soil tiles) every dawn.
 13. **Straw Scarecrow (`craft_straw_scarecrow`):** *(20 Straw + 1 Oak Timber + 1 Coal)*
     - Wards off forest crows and thieving birds from planted seeds within an 8-tile radius.
 14. **Picket Fence & Gate (`craft_picket_fence` — Pack of 5):** *(2 Oak Timber)*

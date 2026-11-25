@@ -75,8 +75,10 @@ flowchart LR
 
 11. **Vòi Phun Đồng Oakhaven (`craft_copper_sprinkler`):** *(1 Phôi Đồng + 1 Phôi Sắt)*
     - Tự động tưới nước cho 4 ô đất chữ thập liền kề vào 06:00 mỗi sáng.
-12. **Vòi Phun Hoàng Kim (`craft_gold_sprinkler`):** *(1 Phôi Vàng + 1 Phôi Sắt + 1 Thạch Anh)*
+12. **Vòi Phun Sắt / Vòi Hoàng Kim (`craft_iron_sprinkler`):** *(1 Phôi Sắt + 1 Phôi Đồng)*
     - Tự động tưới nước trọn vẹn khu vực $3 \times 3$ (8 ô bao quanh) mỗi sáng.
+12b. **Vòi Phun Hư Không (`craft_void_sprinkler`):** *(1 Thỏi Void + 1 Thạch Anh Tím)*
+    - Tự động tưới nước trọn vẹn khu vực $5 \times 5$ (24 ô bao quanh) mỗi sáng.
 13. **Bù Nhìn Rơm Chống Quạ (`craft_straw_scarecrow`):** *(20 Rơm + 1 Gỗ + 1 Than Đá)*
     - Bảo vệ luống hoa màu bán kính 8 ô không bị chim rừng ăn vụng hạt giống mới gieo.
 14. **Hàng Rào Gỗ & Cổng Vườn (`craft_picket_fence` — Gói 5 cọc):** *(2 Gỗ Sồi)*

@@ -298,13 +298,13 @@ Chu kỳ canh tác: Cuốc đất $\rightarrow$ Gieo hạt $\rightarrow$ Tưới
 ## 9. Đại Bản Doanh Điền Trang Oakhaven (The Frontier Homestead), Nhà Trọ Áp Mái & Lối Chơi Tự Do
 
 ### 9.1. Tự Do Lối Chơi Tuyệt Đối & Cơ Chế Quán Kết Hợp (Hybrid Sandbox Loop)
-- **Không Gò Bó Giờ Giấc (No Mandatory Shifts):** Rowan không bị xích chân vào ca làm việc chạy bàn (không áp lực Diner Dash). Người chơi hoàn toàn tự do phân bổ thời gian: cày 150 tầng mỏ, canh tác 32 giống cây, câu cá ven sông hồ, hoặc chế tác máy móc.
+- **Không Gò Bó Giờ Giấc (No Mandatory Shifts):** Rowan không bị xích chân vào ca làm việc chạy bàn (không áp lực Diner Dash). Người chơi hoàn toàn tự do phân bổ thời gian: cày 150 tầng mỏ, canh tác 41 loài cây (27 hoa màu + 14 thân gỗ), câu cá ven sông hồ, hoặc chế tác máy móc.
 - **Quyền Làm Chủ Căn Bếp (Master of the Kitchen):** Rowan sở hữu và làm chủ 100% việc sáng tạo 55 món ăn. Thức ăn phục vụ 2 mục đích chính:
   1. **Lương thực dã ngoại & Buff chiến đấu:** Mang theo ba lô để hồi máu, tăng công, tăng thủ, kháng độc khi khám phá mỏ sâu.
   2. **Bán buôn thụ động (Passive Sales):** Thức ăn đặt lên **Quầy Tự Phục Vụ (Honor Pantry)** hoặc quẳng vào **Hòm Xuất Khẩu (Shipping Bin)** trước cổng. Tiền tự động cộng vào túi qua sổ sách thống kê của Bác Quản Gia Barnaby.
 - **Dịch Vụ Ca Tối Tùy Chọn (Optional Evening Hearthside Service):**
   - Từ 18:00 đến 22:00 mỗi tối, cư dân địa phương và khách trọ ghé The Hearth ngồi vào các bàn quen thuộc.
-  - **Nếu Rowan có mặt tại quán:** Trực tiếp bưng bê món ăn "Ký ức & Đồng điệu" phục vụ khách để nhận thêm **+20% Tiền Boa (Tip)** và kích hoạt các đoạn đối thoại tâm sự sâu lắng (**Heart Events Cấp B**).
+  - **Nếu Rowan có mặt tại quán:** Trực tiếp bưng bê món ăn "Ký ức & Đồng điệu" phục vụ khách để nhận thêm **+20% Tiền Boa (Tip)** *(cộng dồn thành tối đa +40% nếu món đang Nóng Hổi ở Mục 12.3)* và kích hoạt các đoạn đối thoại tâm sự sâu lắng (**Heart Events Cấp B**).
   - **Nếu Rowan vắng mặt (bận đi mỏ, câu cá đêm):** Bác Quản Gia Barnaby và Cậu Phụ Tá Colm sẽ tự động vận hành quầy cơ bản, **người chơi hoàn toàn không bị phạt hay trừ điểm uy tín**.
 
 
@@ -445,13 +445,13 @@ Không sao chép cơ chế đảo xa tách biệt; 100% sự chuyển dịch nơ
 ### 12.2. Phân Cấp Hộp Đựng Dã Chiến & Kéo Dài Độ Tươi (Expedition Bento Packaging)
 Thức ăn dã chiến được đóng gói tại Bàn Đóng Gói (góc bếp The Hearth) thành 3 cấp. Hộp Bento có công năng đặc biệt là **kéo dài thời gian Nóng Hổi (Freshness Bonus)** trước khi thức ăn nguội thành trạng thái Tiêu Chuẩn:
 1. **Tier 1 - Hộp Gỗ Thông Thô:** Chế tạo từ *4 Gỗ mềm + 1 Dây bện*. Đựng cơm nắm, bánh mì khô, rau luộc. **Kéo dài trạng thái Nóng Hổi (Fresh Bonus) trong 48 Giờ (2 ngày)**.
-2. **Tier 2 - Hộp Thiếc Chống Gỉ:** Chế tạo từ *2 Thỏi Thiếc + 1 Đệm sáp*. Đựng súp đặc, thịt hầm, cá áp chảo. Chống va đập hầm mỏ, **kéo dài trạng thái Nóng Hổi trong 72 Giờ (3 ngày)**.
+2. **Tier 2 - Hộp Thiếc Chống Gỉ:** Chế tạo từ *1 Thỏi Sắt + 1 Thỏi Đồng + 1 Đệm sáp*. Đựng súp đặc, thịt hầm, cá áp chảo. Chống va đập hầm mỏ, **kéo dài trạng thái Nóng Hổi trong 72 Giờ (3 ngày)**.
 3. **Tier 3 - Cặp Lồng Giữ Nhiệt Sơn Mài:** Chế tạo từ *1 Hộp Thiếc + 2 Len Cừu + 1 Dầu Trẩu*. Đựng đại tiệc 3 món cho khách quý tộc và toán thám hiểm sâu. **Kéo dài trạng thái Nóng Hổi trong 120 Giờ (5 ngày)**.
 
 ### 12.3. Quy Chuẩn Độ Tươi & Nóng Hổi (The Freshness Bonus - Tuyệt Đối Không Thiu Thối)
 - **Quy tắc bất biến:** **Không áp dụng hạn sử dụng làm thối/hỏng thức ăn thành rác**. Trong bối cảnh hậu chiến khan hiếm lương thực, mọi cọng rau củ khoai đều quý giá.
 - **Trạng thái Nóng Hổi (Fresh - Trong vòng 24h nếu để ngoài, hoặc kéo dài theo cấp Hộp Bento):**
-  - Bán tại The Hearth: Thực khách khen ngợi, tip thêm **+20% tiền vàng**, tăng nhẹ điểm Cozy.
+  - Bán tại The Hearth: Thực khách khen ngợi, tip thêm **+20% tiền vàng**, tăng nhẹ điểm Cozy *(Quầy Tự Phục Vụ chỉ hưởng mức +20% này; riêng Rowan tự bưng bàn ca tối đúng tâm trạng ở Mục 9.1 sẽ cộng dồn thành +40%)*.
   - Giao đơn Bảng tin: Nhận thêm quà vặt của dân làng (vài củ hành, nắm muối hầm, quả rừng).
   - Ăn khi đi mỏ: Nhận thêm buff phụ ngắn hạn (+5% Tốc độ chạy hoặc hồi 10 Stamina ngay lập tức).
 - **Trạng thái Tiêu Chuẩn (Standard - Sau khi hết thời gian giữ nhiệt của hộp hoặc sau 24h):**
