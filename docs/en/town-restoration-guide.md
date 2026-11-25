@@ -56,7 +56,7 @@ Material requirements have been calibrated to **Solid Medium – Challenging Pro
 | **9** | **Garrick's Wharf** | `riverside` | Garrick | • 160 Mature Oak Timber<br/>• 50 Smelted Copper Bars<br/>• 30 Braided Hemp Ropes<br/>• 20 Smelted Iron Bars<br/>• 7,500g | Docks 3-masted caravel flagships every Sunday dawn; doubles exotic spices. |
 | **10** | **Archive & Map Room** | `village` | Clara & Orion | • 140 Mature Oak Timber<br/>• 30 Treated Heavy Leather<br/>• 15 Luminous Glow Inks<br/>• 20 Clear Quartz Crystals<br/>• 8,000g | Decrypts deep-cavern blueprints for Royal-tier forging; restores village school. |
 | **11** | **Consecrated Altar** | `farm` | The Valley | • 100 Blight Purification Salts<br/>• 25 Pure Mana Stones<br/>• 10 Ancient Altar Dusts<br/>• 12,000g | Restores 40 poisoned eastern plots into Sacred Arable Land (100% 3-Star crops). |
-| **12** | **Eternal Hearth** | `village` | All Citizens | • 200 Anthracite Coal<br/>• 60 Smelted Gold Bars<br/>• 1 Eternal Flame Core<br/>• 15,000g | Kindles perpetual warmth; +25% friendship gain with all 12 NPCs permanently. |
+| **12** | **Eternal Hearth** | `village` | All Citizens | • 200 Anthracite Coal<br/>• 60 Smelted Gold Bars<br/>• 1 Eternal Flame Core<br/>• 15,000g | Kindles perpetual warmth; +25% friendship gain with all Oakhaven villagers permanently. |
 
 ---
 

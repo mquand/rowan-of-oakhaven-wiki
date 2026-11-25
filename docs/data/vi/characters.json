@@ -1570,7 +1570,7 @@
           "level": 8,
           "title": "Rễ Cây Ngàn Năm Thần Bí",
           "description": "Thu hoạch thành công vị thuốc quý cứu chữa chứng run tay cho Elora; cảm kích tấm lòng Rowan.",
-          "reward_unlock": "Khai thác Rễ Cây Ngàn Năm phục chế thể lực vĩnh viễn và chữa lành thương tật.",
+          "reward_unlock": "Chiết xuất tinh dầu thảo mộc cao cấp và dầu xoa giảm nhức mỏi cho thợ mỏ.",
           "event_type": "cutscene"
         }
       ],
@@ -1711,7 +1711,7 @@
           "level": 8,
           "title": "Vườn Dược Liệu Cộng Đồng",
           "description": "Xây dựng vườn thuốc nam công cộng tại trạm xá, mang thuốc men miễn phí đến cho người nghèo.",
-          "reward_unlock": "Giảm 50% chi phí y tế và tăng gấp đôi hiệu lực các thang thuốc dưỡng sinh.",
+          "reward_unlock": "Giảm 50% viện phí & mở bán đầy đủ Thuốc Giải Độc Lọc Phổi và Cao Dược Cứu Thương Cấp Tốc (+80 HP bỏ qua Độ No).",
           "event_type": "cutscene"
         }
       ],
@@ -1781,7 +1781,7 @@
           "level": 8,
           "title": "Khế Ước Quý Tộc Lưu Vong",
           "description": "Cảm phục sự chân thành không kỳ thị của Rowan, trao lại tài liệu nghiên cứu luyện kim hoàng gia.",
-          "reward_unlock": "Bản Thảo Cổ Solaria & công thức chế tác ngọc bội kháng lạnh mùa đông.",
+          "reward_unlock": "Mở Hầm Rượu Lầu 2 bán Rượu Vang Niên Kỷ Solaria (Gói 5-Buff +4 May mắn, tối đa 2 chai/tuần) & Bản Thảo Cổ Solaria.",
           "event_type": "cutscene"
         }
       ],
@@ -2075,7 +2075,7 @@
           "level": 8,
           "title": "Ấn Triện Vực Thẳm Vô Tận",
           "description": "Trao lại thanh gươm chỉ huy cũ, tin tưởng Rowan đủ bản lĩnh chinh phục vực sâu thẳm nhất.",
-          "reward_unlock": "Cấp Giấy Phép Mỏ Sâu Vực Thẳm 151+ & Thang Máy Tốc Hành tới Cổng Trùm.",
+          "reward_unlock": "Cấp Giấy Phép Vực Thẳm 151+, Thang Máy Cổng Trùm & mở đổi Quân Lương Thiết Giáp Solaria (Gói 5-Buff đánh Boss).",
           "event_type": "cutscene"
         }
       ],
@@ -3327,7 +3327,7 @@
           "level": 8,
           "title": "Nghi Thức Thanh Tẩy Đất Tổ",
           "description": "Hướng dẫn Rowan hoàn thành nghi thức thanh lọc tàn tích ô uế của cuộc chiến tranh cổ xưa.",
-          "reward_unlock": "Đất đai thung lũng tăng vĩnh viễn 25% năng suất cây trồng toàn cõi Oakhaven.",
+          "reward_unlock": "Hỗ trợ thanh tẩy đất hoang vùng thảo mộc & mở bán Tinh Chất Cổ Thụ Ngàn Năm (Gói 5-Buff Vực Thẳm, tối đa 1 bình/tuần).",
           "event_type": "cutscene"
         }
       ],
@@ -3535,7 +3535,7 @@
           "level": 8,
           "title": "Thần Dược Bạo Kích",
           "description": "Truyền dạy công thức bí truyền chiết xuất từ độc tố quái vật chúa hầm ngục.",
-          "reward_unlock": "Mở công thức Thần Dược Cường Hóa Bạo Kích và Thuốc Giải Độc Miasma Cấp Tốc.",
+          "reward_unlock": "Mở bán độc quyền Huyết Tửu Giao Kèo Đầm Lầy (+5 ATK, +15% Crit, +2 Tốc độ đổi -25 Max HP tạm) & canh giảm Miasma.",
           "event_type": "cutscene"
         }
       ],

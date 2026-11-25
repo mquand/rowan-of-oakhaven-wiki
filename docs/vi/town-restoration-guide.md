@@ -56,7 +56,7 @@ Các định mức nguyên vật liệu đã được cân bằng ở **Mức Tr
 | **9** | **Cầu Cảng Bến Garrick** | `riverside` | Garrick | • 160 Cột Gỗ Sồi Dày<br/>• 50 Thỏi Đồng Đúc<br/>• 30 Dây Thừng Gai<br/>• 20 Thỏi Sắt<br/>• 7,500g | Đoàn buôn Garrick mang caravel 3 cột buồm cập bến Chủ Nhật; gấp đôi hàng ngoại. |
 | **10** | **Thư Viện & Phòng Bản Đồ** | `village` | Clara & Orion | • 140 Gỗ Sồi Già<br/>• 30 Da Thuộc Cứng Elora<br/>• 15 Mực Dạ Quang Thạch Anh<br/>• 20 Thạch Anh<br/>• 8,000g | Giải mã bản vẽ cổ nhặt dưới mỏ sâu để rèn vũ khí Hoàng Gia; mở lại lớp học làng. |
 | **11** | **Cổ Tự Thanh Tẩy Blight** | `farm` | Toàn Thị Trấn | • 100 Muối Thanh Tẩy Morrigan<br/>• 25 Ma Thạch Thuần Khiết<br/>• 10 Bụi Tế Đàn Cổ<br/>• 12,000g | Hoàn nguyên 40 ô đất nông trang bị nhiễm độc thành Thửa Đất Thần Thoại 3 Sao. |
-| **12** | **Lò Sưởi Đá Vĩnh Cửu** | `village` | Cư Dân Oakhaven | • 200 Than Đá Sâu Khối Đặc<br/>• 60 Thỏi Vàng Đúc<br/>• 1 Lõi Lửa Dung Nham Boss 80<br/>• 15,000g | Ngọn lửa sưởi ấm vĩnh cửu; toàn bộ 12 NPC nhận buff An Lòng (+25% thân thiết). |
+| **12** | **Lò Sưởi Đá Vĩnh Cửu** | `village` | Cư Dân Oakhaven | • 200 Than Đá Sâu Khối Đặc<br/>• 60 Thỏi Vàng Đúc<br/>• 1 Lõi Lửa Dung Nham Boss 70<br/>• 15,000g | Ngọn lửa sưởi ấm vĩnh cửu; toàn bộ cư dân Oakhaven nhận buff An Lòng (+25% thân thiết). |
 
 ---
 

@@ -1570,7 +1570,7 @@
           "level": 8,
           "title": "The Millennial Root Remedy",
           "description": "Successfully harvests ancient roots curing Elora's tremors, forever grateful to Rowan.",
-          "reward_unlock": "Harvests Millennial Taproots for permanent stamina restoration remedies.",
+          "reward_unlock": "Distills artisan essential oils and soothing liniments for weary miners.",
           "event_type": "cutscene"
         }
       ],
@@ -1711,7 +1711,7 @@
           "level": 8,
           "title": "Community Herbal Sanctuary",
           "description": "Establishes a public medicinal garden at the clinic providing free tonics to the frontier.",
-          "reward_unlock": "50% discount on clinic healing and doubles potency of restorative broths.",
+          "reward_unlock": "50% clinic fee discount & unlocks full stock of Antitoxin Vial and Field Suture Salve (instant +80 HP bypassing Digestion Satiety).",
           "event_type": "cutscene"
         }
       ],
@@ -1781,7 +1781,7 @@
           "level": 8,
           "title": "Pact of the Exiled Noble",
           "description": "Deeply touched by Rowan's lack of prejudice, he bequeaths royal metallurgical manuscripts.",
-          "reward_unlock": "Solarian Ancient Codices & crafting formulas for frost-warding talismans.",
+          "reward_unlock": "Opens 2F cellar selling Vintage Solaria Reserve (exclusive 5-Buff +4 Luck bottle, max 2/week) & Solarian Ancient Codices.",
           "event_type": "cutscene"
         }
       ],
@@ -2075,7 +2075,7 @@
           "level": 8,
           "title": "Seal of the Infinite Abyss",
           "description": "Bestows his command blade, trusting Rowan has the mettle to face the infinite deep.",
-          "reward_unlock": "Grants Infinite Abyss License (Floors 151+) & Express Boss Elevator Pass.",
+          "reward_unlock": "Grants Endless Abyss Seals (151+), Boss Elevator Pass & Badge exchange for Solaria Ironclad Vanguard Ration (5-Buff Boss Ration).",
           "event_type": "cutscene"
         }
       ],
@@ -3327,7 +3327,7 @@
           "level": 8,
           "title": "Purification Rite of Ancestral Soil",
           "description": "Directs Rowan through the final rites banishing chemical war blight forever.",
-          "reward_unlock": "Permanently boosts all Oakhaven crop yields by 25% across the valley.",
+          "reward_unlock": "Guides soil purification rites & exclusively sells Elder Tree Sap Elixir (5-Buff Abyss survival draught, max 1/week).",
           "event_type": "cutscene"
         }
       ],
@@ -3535,7 +3535,7 @@
           "level": 8,
           "title": "Elixirs of Devastation",
           "description": "Transfers secret alchemical arts distilled from apex dungeon beast venoms.",
-          "reward_unlock": "Unlocks Critical Strike Potions & Instant Miasma Antidote formulas.",
+          "reward_unlock": "Exclusively sells Thornblood Swamp Brew (+5 ATK, +15% Crit, +2 Speed for -25 Temp Max HP; max 2/week) & Miasma-slowing broths.",
           "event_type": "cutscene"
         }
       ],
