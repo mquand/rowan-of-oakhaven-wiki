@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "version": "3.0.0",
+  "version": "3.1.0",
   "updated": "2026-11-25",
   "items": [
     {
@@ -5452,6 +5452,117 @@
         "winter",
         "ornamental",
         "cozy"
+      ]
+    },
+    {
+      "id": "item_aurelia_antitoxin",
+      "name": "Thuốc Giải Độc & Lọc Phổi Aurelia",
+      "description": "Dược phẩm điều chế tại Trạm Xá Oakhaven; xóa sạch ngay lập tức trạng thái Trúng Độc, Bỏng, Choáng và làm chậm 40% tốc độ tích tụ sương độc Miasma.",
+      "category": "meal",
+      "rarity": "uncommon",
+      "buy_price": 150,
+      "sell_price": 60,
+      "energy": 40,
+      "buff": "Xóa sạch Độc/Bỏng/Choáng ngay lập tức, -40% Tích tụ Miasma (4 phút)",
+      "vendor_npc": "npc_aurelia",
+      "tags": [
+        "medical",
+        "npc_exclusive",
+        "miasma",
+        "combat"
+      ]
+    },
+    {
+      "id": "item_aurelia_field_salve",
+      "name": "Cao Dược Cứu Thương Cấp Tốc",
+      "description": "Lọ thuốc cầm máu khẩn cấp do Dược sĩ Aurelia bào chế (mở sau 4 Tim, tối đa 3 lọ/tuần); hồi nhanh 80 HP mà không bị Độ No tiêu hóa làm giảm hiệu lực.",
+      "category": "meal",
+      "rarity": "rare",
+      "buy_price": 320,
+      "sell_price": 120,
+      "energy": 80,
+      "buff": "Hồi nhanh +80 HP, bỏ qua Độ No tiêu hóa giữa Boss Fight",
+      "vendor_npc": "npc_aurelia",
+      "tags": [
+        "medical",
+        "npc_exclusive",
+        "healing",
+        "combat"
+      ]
+    },
+    {
+      "id": "item_morrigan_thornblood_brew",
+      "name": "Huyết Tửu Giao Kèo Đầm Lầy",
+      "description": "Loại rượu rễ độc của Phù thủy Morrigan (tối đa 2 bình/tuần); ép bùng nổ sát thương và tốc độ nhưng rút tạm thời 25 Max HP suốt thời gian tác dụng.",
+      "category": "tea",
+      "rarity": "rare",
+      "buy_price": 280,
+      "sell_price": 110,
+      "energy": 20,
+      "buff": "+5 Tấn công, +15% Bạo kích, +2 Tốc độ (-25 Max HP tạm thời)",
+      "vendor_npc": "npc_morrigan",
+      "tags": [
+        "brew",
+        "npc_exclusive",
+        "combat",
+        "risk_reward"
+      ]
+    },
+    {
+      "id": "item_valen_solaria_vintage",
+      "name": "Rượu Vang Niên Kỷ Solaria",
+      "description": "Rượu hầm ủ cổ của quý tộc Valen de Montfort (mở sau 8 Tim tại Lầu 2 The Hearth, tối đa 2 chai/tuần); vật phẩm 5 Buff chuyên dụng cho săn quặng hiếm và mùa màng.",
+      "category": "tea",
+      "rarity": "mythic",
+      "buy_price": 650,
+      "sell_price": 260,
+      "energy": 60,
+      "buff": "[5-Buff NPC]: +4 May mắn, +2 Tốc độ, +2 Đào mỏ, -20% Hao Stamina, +20 Max Stamina (tạm thời)",
+      "vendor_npc": "npc_valen",
+      "tags": [
+        "wine",
+        "npc_exclusive",
+        "5_buff",
+        "luck",
+        "mining"
+      ]
+    },
+    {
+      "id": "item_solaria_vanguard_ration",
+      "name": "Quân Lương Thiết Giáp Solaria",
+      "description": "Khẩu phần chiến trận đặc chế của Vệ binh Hoàng gia, chỉ đổi bằng Huy Hiệu Cứu Viện tại Hiệp Hội Mạo Hiểm Thorne & Valerius (tối đa 2 suất/tuần); cung cấp đủ 5 Buff đánh Boss Warden.",
+      "category": "meal",
+      "rarity": "mythic",
+      "buy_price": null,
+      "sell_price": 250,
+      "energy": 150,
+      "buff": "[5-Buff NPC]: +4 Tấn công, +4 Phòng ngự, +30 Max HP (tạm thời), +10% Bạo kích, -30% ST Lạnh & Choáng",
+      "vendor_npc": "npc_thorne",
+      "tags": [
+        "ration",
+        "npc_exclusive",
+        "5_buff",
+        "combat",
+        "boss"
+      ]
+    },
+    {
+      "id": "item_fern_elder_elixir",
+      "name": "Tinh Chất Cổ Thụ Ngàn Năm",
+      "description": "Nhựa sống tinh khiết do Thầy thuốc Fern chưng cất trong Rừng Thần Thảo Mộc (Vùng 3, tối đa 1 bình/tuần); vật phẩm 5 Buff sinh tồn chuyên chinh phục Đới 4 & Vực Thẳm 151+.",
+      "category": "tea",
+      "rarity": "mythic",
+      "buy_price": 800,
+      "sell_price": 320,
+      "energy": 180,
+      "buff": "[5-Buff NPC]: +3 Phòng ngự, +2 Tốc độ, +25 Max HP (tạm thời), Hồi +1 Stamina/2s, -40% Miasma & Độc",
+      "vendor_npc": "npc_fern",
+      "tags": [
+        "elixir",
+        "npc_exclusive",
+        "5_buff",
+        "abyss",
+        "survival"
       ]
     }
   ]

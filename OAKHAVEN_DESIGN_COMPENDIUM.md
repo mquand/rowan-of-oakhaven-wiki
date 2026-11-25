@@ -250,15 +250,31 @@ Chu kỳ canh tác: Cuốc đất $\rightarrow$ Gieo hạt $\rightarrow$ Tưới
 4. **Nồi Hấp Chân Không (Bamboo/Metal Steamer):** Món hấp thanh đạm, tăng Tốc Độ Di Chuyển (Speed) và Tốc Đánh.
 5. **Bếp Nướng Than & Lò Hun Khói (Smoker & Grill):** Thịt cá hun khói, thịt xiên nướng tăng Tỉ Lệ Bạo Kích (Crit Rate) và May Mắn (Luck).
 
-### 8.2. Danh Sách 55 Món Ẩm Thực & Bảng Buff Thực Chiến
+### 8.2. Danh Sách 55 Món Ẩm Thực & Bảng Buff Thực Chiến (Trần Bếp Tối Đa 3 Buff)
 
-*(Chi tiết đầy đủ 55 món ăn với nguyên liệu, trạm chế biến, giá bán và buff chỉ số xem chi tiết tại [cooking-recipes-guide.md](../rowan-of-oakhaven-wiki/docs/vi/cooking-recipes-guide.md))*
+*(Chi tiết đầy đủ 55 món ăn với nguyên liệu, trạm chế biến, HP/Stamina và buff chỉ số xem chi tiết tại [cooking-recipes-guide.md](../rowan-of-oakhaven-wiki/docs/vi/cooking-recipes-guide.md))*
 
-* **Nhóm Buff Tấn Công (ATK Boost):** Bít Tết Nướng Than Tỏi Hương Thảo (+4 ATK), Phở Bò Thảo Mộc Thung Lũng (+3 Tấn công, +3 Tốc độ, Ấm bụng vượt giá rét), Tagine Gà Mơ Vàng Sung Mật (+3 May mắn, +30% Tip).
-* **Nhóm Buff Phòng Ngự (DEF Boost):** Bí Đỏ Nướng Phô Mai Dẻo (+3 DEF), Bánh Mì Kẹp Thịt Nướng Oakhaven (+2 DEF, +2 Tốc độ, +15% May mắn), Empanada Bò Củ Oca (+3 DEF, +3 ATK).
-* **Nhóm Buff Cơ Động & Tốc Độ (Speed Boost):** Salad Dưa Hấu Kiwano Bạc Hà (+2 Tốc chạy), Cà Phê Sữa Nóng Cao Nguyên (+2 Tốc chạy), Bánh Xèo Giòn Thung Lũng (+15% Tốc đánh).
+* **Nhóm Buff Tấn Công (ATK Boost):** Bít Tết Nướng Than Tỏi Hương Thảo (+4 ATK), Phở Bò Thảo Mộc Thung Lũng (+3 Tấn công, +2 Tốc độ, -30% ST Lạnh), Thịt Nướng Tiêu Cay Hỏa Khương (+4 ATK, +10% Tốc đánh).
+* **Nhóm Buff Phòng Ngự (DEF Boost):** Bí Đỏ Nướng Phô Mai Dẻo (+3 DEF), Bánh Mì Kẹp Thịt Nướng Oakhaven (+2 Tốc độ, +2 DEF, +1 May mắn), Empanada Bò Củ Oca (+3 DEF, +3 ATK, +25 Max HP tạm).
+* **Nhóm Buff Cơ Động & Tốc Độ (Speed & Resist Boost):** Salad Dưa Hấu Kiwano Bạc Hà (+1 Tốc chạy, -25% ST Nhiệt & Lửa), Cà Phê Sữa Nóng Cao Nguyên (+2 Tốc chạy), Bánh Xèo Giòn Thung Lũng (+15% Tốc đánh).
 * **Nhóm Buff Đào Mỏ & Thu Thập (Mining & Luck Boost):** Mì Ramen Tương Đậu Nấm Cục (+2 Tốc độ, +2 Đào mỏ), Cơm Trộn Bibimbap Thung Lũng (+2 Đào mỏ, +1 Tấn công), Bánh Tart Khoai Tím Ube & Vani (+2 Tốc độ, +2 May mắn).
-* **Nhóm Thanh Tẩy Cầu Siêu (Soul Cleansing):** Dùng để dâng lên các Bàn Thờ Cổ trên mặt đất Chiến Trường Tro Tàn để giải phóng linh hồn và hóa giải đất độc thành đất đen phì nhiêu.
+* **Nhóm Lễ Vật Cầu Siêu Bàn Thờ Cổ:** *Bánh Khoai Môn Tro Trấu*, *Paella Hải Sản Nghệ Tây*, *Đại Yến Bàn Thờ Cổ Solaria* — khi ăn cho buff sinh tồn bình thường; khi dâng lên Bàn Thờ Cổ cùng Rosemary mới thực hiện nghi thức giải phóng đất hoang.
+
+### 8.3. Quy Tắc 5 Ô Buff Hoạt Động, Chống Spam & 6 Vật Phẩm Độc Quyền Từ NPC
+
+1. **Giới hạn 5 Ô Buff trên Nhân vật (`5 Active Buff Slots`):**
+   - Trên HUD của Rowan có tối đa **5 ô buff** hiển thị đồng thời.
+   - **Không cộng dồn bất kỳ chỉ số nào (`Max Value Wins`):** Mỗi loại chỉ số chỉ giữ 1 giá trị cao nhất và làm mới thời gian. Nếu đã đủ 5 ô buff khác nhau mà ăn thêm món mang buff thứ 6 $\rightarrow$ món ăn vẫn hồi HP/Stamina bình thường nhưng **không đá bay buff xịn đang hoạt động** (chỉ nạp khi có ô trống hoặc buff cũ hết giờ).
+2. **Phân Tách Trần Sức Mạnh — Tự Nấu Tối Đa 3 Buff vs NPC Bán Độc Quyền 5 Buff:**
+   - **Bếp The Hearth (55 món tự nấu):** Tối đa **3 Buff / món** (`48 món có 0–2 buff`, `7 món đỉnh cao có 3 buff`); mức hồi HP/Stamina dao động `+30..180 HP` / `+50..240 Stamina` phù hợp thanh gốc `100 HP / 270 Stamina`. Không có buff đè trang bị/ngọc khảm (không hồi sinh, không tự bốc lửa vũ khí, không tự phát sáng hang).
+   - **Cơ chế Độ No (Digestion Cooldown 6s):** Ăn liên tiếp nhiều món hồi HP trước khi tiêu hóa xong giảm 50% lượng HP hồi thêm (ngăn spam stack x99 đứng tank Boss). Riêng các món 0 buff (như *Cơm Nắm Muối Biển*) hồi sức mà không ảnh hưởng 5 ô buff.
+3. **6 Vật Phẩm Tiêu Hao Độc Quyền Mua/Đổi Từ NPC (Không Thể Nấu):**
+   - **Trạm Xá `Aurelia` (2 món y tế):** *Thuốc Giải Độc & Lọc Phổi* (xóa ngay Độc/Bỏng/Choáng, -40% Miasma 4 phút) và *Cao Dược Cứu Thương Cấp Tốc* (mở ở 4 Tim, tối đa 3 lọ/tuần — hồi nhanh +80 HP **bỏ qua Độ No** giữa Boss Fight).
+   - **Đầm Lầy `Morrigan` (1 món Risk/Reward):** *Huyết Tửu Giao Kèo Đầm Lầy* (tối đa 2 bình/tuần — `+5 ATK, +15% Crit, +2 Tốc độ` đổi lấy `-25 Max HP tạm thời`).
+   - **Gói `5-Buff Cùng Lúc` (CHỈ có ở 3 NPC Endgame, giới hạn tuần):**
+     - *Rượu Vang Niên Kỷ Solaria* (`Valen de Montfort`, Lầu 2 The Hearth 8 Tim, 650g, tối đa 2 chai/tuần): `+4 May mắn, +2 Tốc độ, +2 Đào mỏ, -20% Hao Stamina, +20 Max Stamina (tạm)`.
+     - *Quân Lương Thiết Giáp Solaria* (`Thorne & Valerius`, Hiệp Hội Mạo Hiểm, đổi Huy Hiệu Cứu Viện, tối đa 2 suất/tuần): `+4 Tấn công, +4 Phòng ngự, +30 Max HP (tạm), +10% Bạo kích, -30% ST Lạnh & Choáng`.
+     - *Tinh Chất Cổ Thụ Ngàn Năm* (`Thầy thuốc Fern`, Rừng Thần Vùng 3, 800g, tối đa 1 bình/tuần): `+3 Phòng ngự, +2 Tốc độ, +25 Max HP (tạm), Hồi +1 Stamina/2s, -40% Miasma & Độc`.
 
 ---
 

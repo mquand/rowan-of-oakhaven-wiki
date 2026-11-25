@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "version": "3.0.0",
+  "version": "3.1.0",
   "updated": "2026-11-25",
   "items": [
     {
@@ -5452,6 +5452,117 @@
         "winter",
         "ornamental",
         "cozy"
+      ]
+    },
+    {
+      "id": "item_aurelia_antitoxin",
+      "name": "Aurelia's Antitoxin Vial",
+      "description": "Clinical remedy compounded at the Oakhaven Infirmary; instantly clears Poison, Burn, and Stun effects while slowing Miasma buildup by 40%.",
+      "category": "meal",
+      "rarity": "uncommon",
+      "buy_price": 150,
+      "sell_price": 60,
+      "energy": 40,
+      "buff": "Instantly clears Poison/Burn/Stun, -40% Miasma Buildup (4 min)",
+      "vendor_npc": "npc_aurelia",
+      "tags": [
+        "medical",
+        "npc_exclusive",
+        "miasma",
+        "combat"
+      ]
+    },
+    {
+      "id": "item_aurelia_field_salve",
+      "name": "Field Suture Salve",
+      "description": "Emergency coagulant prepared by Apothecary Aurelia (unlocked at 4 Hearts, max 3/week); restores 80 HP rapidly while bypassing Digestion Satiety.",
+      "category": "meal",
+      "rarity": "rare",
+      "buy_price": 320,
+      "sell_price": 120,
+      "energy": 80,
+      "buff": "Instant +80 HP heal; bypasses Digestion Satiety during Boss Fights",
+      "vendor_npc": "npc_aurelia",
+      "tags": [
+        "medical",
+        "npc_exclusive",
+        "healing",
+        "combat"
+      ]
+    },
+    {
+      "id": "item_morrigan_thornblood_brew",
+      "name": "Thornblood Swamp Brew",
+      "description": "Bitter swamp tonic brewed by Morrigan (max 2/week); forces lethal combat surges at the cost of -25 temporary Max HP while active.",
+      "category": "tea",
+      "rarity": "rare",
+      "buy_price": 280,
+      "sell_price": 110,
+      "energy": 20,
+      "buff": "+5 Attack, +15% Crit, +2 Speed (-25 Temp Max HP)",
+      "vendor_npc": "npc_morrigan",
+      "tags": [
+        "brew",
+        "npc_exclusive",
+        "combat",
+        "risk_reward"
+      ]
+    },
+    {
+      "id": "item_valen_solaria_vintage",
+      "name": "Vintage Solaria Reserve",
+      "description": "Cellared royal vintage from Valen de Montfort (unlocked at 8 Hearts on The Hearth's 2nd floor, max 2/week); an exclusive 5-Buff bottle for rare ore hunting and harvests.",
+      "category": "tea",
+      "rarity": "mythic",
+      "buy_price": 650,
+      "sell_price": 260,
+      "energy": 60,
+      "buff": "[NPC 5-Buff]: +4 Luck, +2 Speed, +2 Mining, -20% Stamina Drain, +20 Temp Max Stamina",
+      "vendor_npc": "npc_valen",
+      "tags": [
+        "wine",
+        "npc_exclusive",
+        "5_buff",
+        "luck",
+        "mining"
+      ]
+    },
+    {
+      "id": "item_solaria_vanguard_ration",
+      "name": "Solaria Ironclad Vanguard Ration",
+      "description": "Pressed imperial vanguard ration exchanged exclusively for Guild Badges at Thorne & Valerius (max 2/week); packs a full 5-Buff combat suite for Warden Bosses.",
+      "category": "meal",
+      "rarity": "mythic",
+      "buy_price": null,
+      "sell_price": 250,
+      "energy": 150,
+      "buff": "[NPC 5-Buff]: +4 Attack, +4 Defense, +30 Temp Max HP, +10% Crit, -30% Cold & Stun",
+      "vendor_npc": "npc_thorne",
+      "tags": [
+        "ration",
+        "npc_exclusive",
+        "5_buff",
+        "combat",
+        "boss"
+      ]
+    },
+    {
+      "id": "item_fern_elder_elixir",
+      "name": "Elder Tree Sap Elixir",
+      "description": "Pure ancient-tree essence distilled by Herbalist Fern in the Sacred Elder Grove (Region 3, max 1/week); an exclusive 5-Buff survival draught built for Zone 4 & Endless Abyss 151+.",
+      "category": "tea",
+      "rarity": "mythic",
+      "buy_price": 800,
+      "sell_price": 320,
+      "energy": 180,
+      "buff": "[NPC 5-Buff]: +3 Defense, +2 Speed, +25 Temp Max HP, +1 Stamina/2s Regen, -40% Miasma & Poison",
+      "vendor_npc": "npc_fern",
+      "tags": [
+        "elixir",
+        "npc_exclusive",
+        "5_buff",
+        "abyss",
+        "survival"
       ]
     }
   ]

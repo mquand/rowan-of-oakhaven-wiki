@@ -1,5 +1,5 @@
 {
-  "version": "3.2.0",
+  "version": "3.3.0",
   "updated": "2026-11-25",
   "recipes": [
     {
@@ -274,9 +274,9 @@
         }
       ],
       "result_item_id": "food_bo_ham_ruou_vang_mo",
-      "hp": 150,
-      "stamina": 200,
-      "buff": "+3 Attack, +20 Max HP"
+      "hp": 135,
+      "stamina": 180,
+      "buff": "+3 Attack, +20 Max HP (Temp)"
     },
     {
       "id": "bit_tet_nuong_than_soi",
@@ -300,8 +300,8 @@
         }
       ],
       "result_item_id": "food_bit_tet_nuong_than_soi",
-      "hp": 160,
-      "stamina": 180,
+      "hp": 140,
+      "stamina": 170,
       "buff": "+4 Attack"
     },
     {
@@ -326,8 +326,8 @@
         }
       ],
       "result_item_id": "food_ga_quay_mat_ong_hoa_rung",
-      "hp": 140,
-      "stamina": 190,
+      "hp": 125,
+      "stamina": 170,
       "buff": "+2 Attack, +1 Speed"
     },
     {
@@ -352,8 +352,8 @@
         }
       ],
       "result_item_id": "food_suon_nuong_xot_man_ngot",
-      "hp": 150,
-      "stamina": 210,
+      "hp": 135,
+      "stamina": 180,
       "buff": "+2 Attack, +2 Defense"
     },
     {
@@ -378,9 +378,9 @@
         }
       ],
       "result_item_id": "food_banh_mi_thit_ham_pho_mai",
-      "hp": 130,
-      "stamina": 170,
-      "buff": "+3 Defense, Stun Immunity"
+      "hp": 120,
+      "stamina": 155,
+      "buff": "+3 Defense, -50% Stun Duration"
     },
     {
       "id": "canh_chua_ca_suoi_cay",
@@ -404,9 +404,9 @@
         }
       ],
       "result_item_id": "food_canh_chua_ca_suoi_cay",
-      "hp": 125,
-      "stamina": 165,
-      "buff": "+2 Cold & Poison Resist"
+      "hp": 115,
+      "stamina": 155,
+      "buff": "-25% Heat & Poison Damage"
     },
     {
       "id": "muc_ham_hanh_toi",
@@ -487,9 +487,9 @@
         }
       ],
       "result_item_id": "food_sup_tom_hum_sua_beo",
-      "hp": 180,
-      "stamina": 250,
-      "buff": "+3 Defense, +3 Luck"
+      "hp": 140,
+      "stamina": 185,
+      "buff": "+3 Defense, +2 Luck"
     },
     {
       "id": "lau_ca_cay_ham_nguc",
@@ -513,9 +513,9 @@
         }
       ],
       "result_item_id": "food_lau_ca_cay_ham_nguc",
-      "hp": 200,
-      "stamina": 250,
-      "buff": "+4 Attack, Cave Light Aura"
+      "hp": 145,
+      "stamina": 190,
+      "buff": "+3 Attack, +2 Mining"
     },
     {
       "id": "tart_dau_tuyet_lanh",
@@ -539,9 +539,9 @@
         }
       ],
       "result_item_id": "food_tart_dau_tuyet_lanh",
-      "hp": 80,
-      "stamina": 120,
-      "buff": "Full Cold & Frost Immunity"
+      "hp": 75,
+      "stamina": 110,
+      "buff": "+1 Move Speed, +15% Resting Stamina Regen"
     },
     {
       "id": "pho_bo_thung_lung",
@@ -575,9 +575,9 @@
         }
       ],
       "result_item_id": "food_pho_bo_thung_lung",
-      "hp": 190,
-      "stamina": 260,
-      "buff": "+3 Speed, +3 Attack, Cold-Proof Warmth"
+      "hp": 155,
+      "stamina": 205,
+      "buff": "+3 Attack, +2 Speed, -30% Cold Damage"
     },
     {
       "id": "salad_trai_cay_mua_ha",
@@ -601,9 +601,9 @@
         }
       ],
       "result_item_id": "food_salad_trai_cay_mua_ha",
-      "hp": 60,
-      "stamina": 150,
-      "buff": "+2 Move Speed"
+      "hp": 65,
+      "stamina": 135,
+      "buff": "+1 Move Speed, -25% Heat & Fire Damage"
     },
     {
       "id": "bi_do_nuong_pho_mai_deo",
@@ -650,7 +650,7 @@
       "result_item_id": "food_banh_quy_gung_giu_am",
       "hp": 70,
       "stamina": 100,
-      "buff": "Immunity to Frost Slow"
+      "buff": "-40% Frost Slow Effect"
     },
     {
       "id": "thit_xong_khoi_cui_go_soi",
@@ -674,9 +674,9 @@
         }
       ],
       "result_item_id": "food_thit_xong_khoi_cui_go_soi",
-      "hp": 130,
-      "stamina": 170,
-      "buff": "+2 Attack, +30 Max Stamina"
+      "hp": 120,
+      "stamina": 160,
+      "buff": "+2 Attack, +25 Max Stamina (Temp)"
     },
     {
       "id": "lap_xuong_tieu_den_mo_da",
@@ -731,8 +731,8 @@
         }
       ],
       "result_item_id": "food_mi_soi_tuoi_xao_nam_cay",
-      "hp": 150,
-      "stamina": 200,
+      "hp": 135,
+      "stamina": 180,
       "buff": "+2 Speed, +2 Mining"
     },
     {
@@ -785,7 +785,7 @@
       "result_item_id": "food_sup_cu_den_do_dai_ngan",
       "hp": 95,
       "stamina": 135,
-      "buff": "Regen 5% Max HP per 10s"
+      "buff": "+20 Max HP (Temp), Regen 1 HP per 5s"
     },
     {
       "id": "banh_khoai_mon_tro_trau",
@@ -809,9 +809,9 @@
         }
       ],
       "result_item_id": "food_banh_khoai_mon_tro_trau",
-      "hp": 100,
-      "stamina": 150,
-      "buff": "[Purification]: Cleanses Blighted Altars"
+      "hp": 90,
+      "stamina": 140,
+      "buff": "+1 Defense, -20% Miasma Buildup [Altar Offering Tier 1]"
     },
     {
       "id": "xoi_hat_sen_nuoc_cot_dua",
@@ -840,9 +840,9 @@
         }
       ],
       "result_item_id": "food_xoi_hat_sen_nuoc_cot_dua",
-      "hp": 150,
-      "stamina": 210,
-      "buff": "[Purification]: +25% Altar Cleansing Power"
+      "hp": 130,
+      "stamina": 175,
+      "buff": "+2 Luck, +1 Speed [Altar Offering Tier 2]"
     },
     {
       "id": "banh_chung_lua_rung",
@@ -871,9 +871,9 @@
         }
       ],
       "result_item_id": "food_banh_chung_lua_rung",
-      "hp": 180,
-      "stamina": 250,
-      "buff": "+3 Defense, +3 Attack, +30 Max HP"
+      "hp": 150,
+      "stamina": 195,
+      "buff": "+3 Defense, +3 Attack, +25 Max HP (Temp)"
     },
     {
       "id": "canh_thao_moc_bup_sen",
@@ -892,9 +892,9 @@
         }
       ],
       "result_item_id": "food_canh_thao_moc_bup_sen",
-      "hp": 110,
-      "stamina": 170,
-      "buff": "Cures All Poison & Curse Debuffs"
+      "hp": 100,
+      "stamina": 150,
+      "buff": "-30% Poison Damage & Miasma Buildup"
     },
     {
       "id": "banh_deo_trang_ram_hoa_buoi",
@@ -923,9 +923,9 @@
         }
       ],
       "result_item_id": "food_banh_deo_trang_ram_hoa_buoi",
-      "hp": 135,
-      "stamina": 190,
-      "buff": "+3 Luck, +30% Tavern Guest Tips"
+      "hp": 125,
+      "stamina": 170,
+      "buff": "+2 Luck, +10% Bonus Crop Yield"
     },
     {
       "id": "tra_sen_bach_diep",
@@ -950,8 +950,8 @@
       ],
       "result_item_id": "food_tra_sen_bach_diep",
       "hp": 40,
-      "stamina": 180,
-      "buff": "-50% Stamina Drain for All Actions"
+      "stamina": 150,
+      "buff": "-20% Tool Stamina Drain"
     },
     {
       "id": "nuoc_mia_ep_gung_am",
@@ -1002,8 +1002,8 @@
       ],
       "result_item_id": "food_sua_bo_nong_mat_ong",
       "hp": 60,
-      "stamina": 130,
-      "buff": "+50 Bonus Stamina Next Morning"
+      "stamina": 125,
+      "buff": "+30 Max Stamina (Temp), -25% Cold Damage"
     },
     {
       "id": "ruou_trai_cay_len_men",
@@ -1027,9 +1027,9 @@
         }
       ],
       "result_item_id": "food_ruou_trai_cay_len_men",
-      "hp": 100,
+      "hp": 95,
       "stamina": 100,
-      "buff": "+4 Attack, -10% Mine Light Radius"
+      "buff": "+4 Attack (-10% Mine Light Radius)"
     },
     {
       "id": "nuoc_ep_dua_luoi_bang_gia",
@@ -1049,8 +1049,8 @@
       ],
       "result_item_id": "food_nuoc_ep_dua_luoi_bang_gia",
       "hp": 70,
-      "stamina": 140,
-      "buff": "Lava Damage Immunity (3 min)"
+      "stamina": 130,
+      "buff": "-35% Fire & Lava Damage, -50% Burn Duration"
     },
     {
       "id": "phi_le_ca_ngu_nuong_rom",
@@ -1074,8 +1074,8 @@
         }
       ],
       "result_item_id": "food_phi_le_ca_ngu_nuong_rom",
-      "hp": 140,
-      "stamina": 180,
+      "hp": 130,
+      "stamina": 170,
       "buff": "+3 Mining, +2 Attack"
     },
     {
@@ -1102,7 +1102,7 @@
       "result_item_id": "food_oc_nuong_bo_tieu_den",
       "hp": 85,
       "stamina": 120,
-      "buff": "+20% Item Magnet Pickup Radius"
+      "buff": "+10% Dodge Chance, +1 Fishing Skill"
     },
     {
       "id": "com_tho_suon_hap_nam",
@@ -1131,8 +1131,8 @@
         }
       ],
       "result_item_id": "food_com_tho_suon_hap_nam",
-      "hp": 140,
-      "stamina": 200,
+      "hp": 125,
+      "stamina": 170,
       "buff": "+2 Speed, +2 Luck"
     },
     {
@@ -1183,9 +1183,9 @@
         }
       ],
       "result_item_id": "food_banh_tart_viet_quat_dai_ngan",
-      "hp": 120,
-      "stamina": 170,
-      "buff": "Emits Soft Personal Light in Caves"
+      "hp": 110,
+      "stamina": 155,
+      "buff": "+10% Crit Rate, +1 Move Speed"
     },
     {
       "id": "dui_rung_hun_khoi_da_chien",
@@ -1209,9 +1209,9 @@
         }
       ],
       "result_item_id": "food_dui_rung_hun_khoi_da_chien",
-      "hp": 170,
-      "stamina": 220,
-      "buff": "+4 Combat Attack in Mines"
+      "hp": 145,
+      "stamina": 185,
+      "buff": "+4 Attack, +1 Defense"
     },
     {
       "id": "lau_thap_cam_bach_vi",
@@ -1235,9 +1235,9 @@
         }
       ],
       "result_item_id": "food_lau_thap_cam_bach_vi",
-      "hp": 250,
-      "stamina": 350,
-      "buff": "+3 All Stats (ATK, DEF, SPD, Mine)"
+      "hp": 165,
+      "stamina": 210,
+      "buff": "+3 Attack, +3 Defense, -30% Cold Damage"
     },
     {
       "id": "banh_mi_kep_thap_cam",
@@ -1271,9 +1271,9 @@
         }
       ],
       "result_item_id": "food_banh_mi_kep_thap_cam",
-      "hp": 145,
-      "stamina": 210,
-      "buff": "+2 Speed, +2 Defense, +15% Luck"
+      "hp": 140,
+      "stamina": 190,
+      "buff": "+2 Speed, +2 Defense, +1 Luck"
     },
     {
       "id": "com_lam_ong_tre_muoi_me",
@@ -1323,9 +1323,9 @@
         }
       ],
       "result_item_id": "food_ga_ham_sam_rung_da",
-      "hp": 220,
-      "stamina": 300,
-      "buff": "Permanent +5 Max Stamina (up to 5x)"
+      "hp": 150,
+      "stamina": 200,
+      "buff": "+45 Max Stamina (Temp), +2 Defense"
     },
     {
       "id": "thit_nuong_lua_dia_nguc",
@@ -1349,13 +1349,13 @@
         }
       ],
       "result_item_id": "food_thit_nuong_lua_dia_nguc",
-      "hp": 200,
-      "stamina": 240,
-      "buff": "Attacks Inflict Burn on Enemies"
+      "hp": 150,
+      "stamina": 195,
+      "buff": "+4 Attack, +10% Attack Speed"
     },
     {
       "id": "sup_yen_pha_le_thung_lung",
-      "name": "Snow-Lotus & Glow-Fern Elixir",
+      "name": "Snow-Lotus & Glow-Fern Soup",
       "station": "kitchen_pot",
       "ingredients": [
         {
@@ -1375,9 +1375,9 @@
         }
       ],
       "result_item_id": "food_sup_yen_pha_le_thung_lung",
-      "hp": 300,
-      "stamina": 400,
-      "buff": "Auto-Revive Once Upon Lethal Hit"
+      "hp": 170,
+      "stamina": 220,
+      "buff": "+3 Defense, +30 Max HP (Temp), -30% Cold & Stun"
     },
     {
       "id": "banh_ngu_coc_dai_luc",
@@ -1401,9 +1401,9 @@
         }
       ],
       "result_item_id": "food_banh_ngu_coc_dai_luc",
-      "hp": 150,
-      "stamina": 220,
-      "buff": "+20% Skill XP Gain"
+      "hp": 130,
+      "stamina": 180,
+      "buff": "-15% Overall Stamina Drain, +1 Mining"
     },
     {
       "id": "banh_cau_vong_4_mua",
@@ -1432,9 +1432,9 @@
         }
       ],
       "result_item_id": "food_banh_cau_vong_4_mua",
-      "hp": 250,
-      "stamina": 300,
-      "buff": "+50% Crop Selling Price for 1 Day"
+      "hp": 160,
+      "stamina": 200,
+      "buff": "+2 Speed, +2 Luck, -15% Action Stamina Cost"
     },
     {
       "id": "yen_tiec_cau_sieu_anh_hon",
@@ -1463,9 +1463,9 @@
         }
       ],
       "result_item_id": "food_yen_tiec_cau_sieu_anh_hon",
-      "hp": 350,
-      "stamina": 500,
-      "buff": "[Ultimate Purification]: Cleanses Entire Altar Zone"
+      "hp": 180,
+      "stamina": 240,
+      "buff": "+4 Attack, +4 Defense, -35% Miasma Buildup [Grand Altar Offering]"
     }
   ]
 }
