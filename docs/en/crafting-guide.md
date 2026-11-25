@@ -3,7 +3,7 @@ title: "Artisan Workbench & 20 Craftable Objects"
 status: public
 audience: public
 updated: 2026-11-15
-tags: [crafting, workbench, automation, mining, teahouse, survival]
+tags: [crafting, workbench, automation, mining, tavern, survival]
 spoiler: false
 ---
 
@@ -23,7 +23,7 @@ flowchart LR
     Bench --> Out1["1. Crop Processing & Preservation"]
     Bench --> Out2["2. Deep Mine Survival Gear"]
     Bench --> Out3["3. Homestead & Sprinkler Automation"]
-    Bench --> Out4["4. Evening Teahouse Furnishings"]
+    Bench --> Out4["4. Evening Tavern Furnishings"]
     Bench --> Out5["5. Automated Stream Traps"]
 ```
 
@@ -86,7 +86,7 @@ flowchart LR
 
 ---
 
-### D. Evening Teahouse Furnishings & Cozy Decor
+### D. Evening Tavern Furnishings & Cozy Decor
 *Handcrafted woodwork to elevate your parlor's Cozy Rating:*
 
 16. **Rustic 2-Seat Oak Table (`craft_rustic_table`):** *(30 Oak Timber + 1 Iron Bar)*

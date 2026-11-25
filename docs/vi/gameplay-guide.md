@@ -69,7 +69,7 @@ Bốn kiểu thời tiết hạt: nắng trong, **mưa rào tự nhiên** (tự 
 - **Tổng điểm để đạt Full 8 Trái Tim (Tri Kỷ):** **3.200 điểm**.
 - **Nhịp độ trải nghiệm (Pacing):**
   - **Người chơi chăm chỉ & tinh tế** (Tặng đúng món Loved, nhớ ngày sinh nhật, trò chuyện thường xuyên): Cán mốc 8 Tim sau khoảng **2 – 3 Mùa** (tương đương Mùa Thu hoặc Mùa Đông Năm 1).
-  - **Người chơi tự nhiên / thông thường** (Tặng quà rải rác món Liked, thỉnh thoảng phục vụ quán trà): Cán mốc 8 Tim vào **Mùa Xuân hoặc Mùa Hạ Năm 2**.
+  - **Người chơi tự nhiên / thông thường** (Tặng quà rải rác món Liked, thỉnh thoảng phục vụ quán ăn): Cán mốc 8 Tim vào **Mùa Xuân hoặc Mùa Hạ Năm 2**.
   - Không quá nhanh để làm mất giá trị câu chuyện, nhưng cũng không quá cày cuốc (grindy) gây mệt mỏi.
 
 ### 💖 Các Mốc Trái Tim & Ý Nghĩa:

@@ -3,7 +3,7 @@ title: "Bàn Chế Tác Thủ Công & 20 Đồ Vật Chế Tạo"
 status: public
 audience: public
 updated: 2026-11-15
-tags: [crafting, workbench, automation, mining, teahouse, survival]
+tags: [crafting, workbench, automation, mining, tavern, survival]
 spoiler: false
 ---
 
@@ -86,7 +86,7 @@ flowchart LR
 
 ---
 
-### D. Phân Hệ Nội Thất & Đồ Gỗ Quán Trà
+### D. Phân Hệ Nội Thất & Đồ Gỗ Quán Ăn
 *Tự tay đóng bàn ghế để nâng chỉ số Cozy Rating:*
 
 16. **Bàn Gỗ Sồi Mộc 2 Chỗ (`craft_rustic_table`):** *(30 Gỗ Sồi + 1 Phôi Sắt)*

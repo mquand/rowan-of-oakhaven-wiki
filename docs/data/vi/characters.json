@@ -217,13 +217,6 @@
           "description": "Hoàn toàn tin tưởng Rowan, Lumi mở phong ấn cành gai dẫn đường vào nơi linh thiêng của rừng.",
           "reward_unlock": "Dẫn đường mở lối vào Đền Rừng Sâu thu hoạch Nấm Phát Quang và Dị Thảo Cổ Thụ.",
           "event_type": "cutscene"
-        },
-        {
-          "level": 10,
-          "title": "Lời Hẹn Ước Dưới Rừng Tuyết",
-          "description": "Lumi trao Rowan chiếc Khăn Len Đỏ đan đôi bên bờ Hồ Trăng; hẹn ước gắn bó sẻ chia mái ấm.",
-          "reward_unlock": "Đính ước tri kỷ; Lumi chuyển về ở cùng tại gian phòng áp mái The Hearth.",
-          "event_type": "cutscene"
         }
       ],
       "avatar": "/images/characters/npc_lumi.png"
@@ -421,7 +414,7 @@
         "item_tea_sun_daisy_honey",
         "item_dish_sweet_pumpkin_potage"
       ],
-      "quote": "Mấy luống bí ngô hôm nay sâu ăn dữ quá, đứng nhổ cỏ từ trưa tới giờ lưng tôi sắp gãy rồi cô bé ơi...",
+      "quote": "Mấy luống bí ngô hôm nay sâu ăn dữ quá, đứng nhổ cỏ từ trưa tới giờ lưng tôi sắp gãy rồi Rowan ơi...",
       "birthday": "Ngày 9 Mùa Xuân",
       "schedule": "06:00 - 17:00: Bán hạt giống tại Quảng trường; Tối: Dạo bờ sông",
       "real_world_wound": "Thoái hóa khớp nặng tuổi già; sợ chết đi sẽ bỏ lại đứa cháu nuôi Kael bơ vơ giữa dòng đời.",
@@ -1225,13 +1218,6 @@
           "description": "Nhìn cha ngồi đọc lại cuốn sách cũ thung lũng bên bếp lửa The Hearth.",
           "reward_unlock": "Kho Lưu Trữ Công Thức Cổ Đại (mở khóa 5 công thức bánh nướng truyền thống).",
           "event_type": "cutscene"
-        },
-        {
-          "level": 10,
-          "title": "Hẹn Ước Bên Bàn Đọc",
-          "description": "Clara tặng Rowan cuốn sổ tay bìa da do chính tay cô đóng; lời hẹn ước gắn kết bên bếp lửa.",
-          "reward_unlock": "Kết duyên tri kỷ; Clara dọn về sống chung tại phòng áp mái The Hearth.",
-          "event_type": "cutscene"
         }
       ],
       "avatar": "/images/characters/npc_clara.png"
@@ -1657,13 +1643,6 @@
           "description": "Được thị trấn tin cậy bổ nhiệm làm Đội trưởng Tuần tra Đêm, bảo vệ an bình cho từng giấc ngủ.",
           "reward_unlock": "Miễn nhiễm 100% trộm cắp tại Điền trang và Quán The Hearth.",
           "event_type": "cutscene"
-        },
-        {
-          "level": 10,
-          "title": "Bình Yên Sau Cổng Làng",
-          "description": "Marlo trao Rowan chiếc còi gác kỷ niệm; lời hẹn ước che chở cho nhau qua mọi giông bão cuộc đời.",
-          "reward_unlock": "Kết duyên tri kỷ; Marlo dọn về The Hearth và hỗ trợ canh gác trang trại.",
-          "event_type": "cutscene"
         }
       ],
       "avatar": "/images/characters/npc_marlo.png"
@@ -1674,12 +1653,12 @@
       "role": "Dược Sĩ Trạm Xá (Dưỡng Sinh & Trị Liệu)",
       "location": "Trạm Xá Oakhaven",
       "species": "Human",
-      "description": "Dược sư Oakhaven điều hành trạm xá chăm sóc cư dân. Tin rằng trà thảo mộc ấm của tiệm có thể phục hồi sinh lực và xoa dịu tâm can con người.",
+      "description": "Dược sư Oakhaven điều hành trạm xá chăm sóc cư dân. Tin rằng bữa cơm nóng và trà thảo mộc của quán The Hearth giúp bà con lấy lại sức.",
       "favorite_items": [
         "oai_huong",
         "mat_ong"
       ],
-      "quote": "Thuốc thang chỉ chữa được vết thương ngoài da... Người dân thị trấn cần những tách trà ấm của cô bé để xoa dịu nỗi muộn phiền hơn.",
+      "quote": "Thuốc thang chỉ chữa được vết thương ngoài da... Người dân thị trấn cần những bát canh nóng và ấm trà thảo mộc ở quán để ấm bụng và đỡ nhức mỏi hơn.",
       "birthday": "Ngày 22 Mùa Hạ",
       "schedule": "Sáng: Vườn ong mật Oakhaven; Chiều: Giao mật ong tươi cho tiệm",
       "real_world_wound": "Thất vọng trước sự thương mại hóa vô nhân đạo của ngành y kinh đô; trăn trở trước nghèo đói vùng biên viễn.",
@@ -1733,13 +1712,6 @@
           "title": "Vườn Dược Liệu Cộng Đồng",
           "description": "Xây dựng vườn thuốc nam công cộng tại trạm xá, mang thuốc men miễn phí đến cho người nghèo.",
           "reward_unlock": "Giảm 50% chi phí y tế và tăng gấp đôi hiệu lực các thang thuốc dưỡng sinh.",
-          "event_type": "cutscene"
-        },
-        {
-          "level": 10,
-          "title": "Hương Thảo Mộc Ấm Lòng",
-          "description": "Aurelia trao tặng chiếc túi thơm dược thảo ước hẹn; lời hứa cùng nhau san sẻ những mùa đông lạnh bên bếp lửa The Hearth.",
-          "reward_unlock": "Kết duyên tri kỷ; Aurelia dọn về sống chung tại phòng áp mái The Hearth.",
           "event_type": "cutscene"
         }
       ],
@@ -1810,13 +1782,6 @@
           "title": "Khế Ước Quý Tộc Lưu Vong",
           "description": "Cảm phục sự chân thành không kỳ thị của Rowan, trao lại tài liệu nghiên cứu luyện kim hoàng gia.",
           "reward_unlock": "Bản Thảo Cổ Solaria & công thức chế tác ngọc bội kháng lạnh mùa đông.",
-          "event_type": "cutscene"
-        },
-        {
-          "level": 10,
-          "title": "Chiếc Nhẫn Huyết Ngọc Gia Tộc",
-          "description": "Valen trao chiếc nhẫn huyết ngọc Montfort bên lò sưởi đêm khuya; lời thề tri kỷ bảo bọc nhau trọn đời.",
-          "reward_unlock": "Kết duyên tri kỷ; Valen chính thức ở lại Oakhaven xây dựng gia đình cùng Rowan.",
           "event_type": "cutscene"
         }
       ],
@@ -2220,13 +2185,6 @@
           "title": "Tìm Lại Bản Lĩnh Xạ Thủ",
           "description": "Vượt qua bóng ma hoảng loạn tiếng động thời chiến, tìm lại sự tự tin bên quầy tiếp tân.",
           "reward_unlock": "Mở dịch vụ Tìm Kiếm Dụng Cụ Rơi Vãi Trên Mặt Đất (cuốc, rìu, xẻng).",
-          "event_type": "cutscene"
-        },
-        {
-          "level": 10,
-          "title": "Nơ Tên Bạc Trao Tay",
-          "description": "Valerie trao chiếc nơ dây cung bằng bạc đính ước dưới rặng sồi già ven suối; hẹn ước trọn đời.",
-          "reward_unlock": "Kết duyên tri kỷ; Valerie dọn về sống chung tại phòng áp mái The Hearth.",
           "event_type": "cutscene"
         }
       ],
@@ -4195,13 +4153,6 @@
           "title": "Cởi Bỏ Mặt Nạ Tội Lỗi",
           "description": "Quỳ gối xin lỗi Valerius tại The Hearth và được nâng dậy tha thứ, giải thoát khỏi ám ảnh quá khứ.",
           "reward_unlock": "Trao tặng Thanh Kiếm Kỵ Sĩ Hoàng Gia Bỏ Rơi (vũ khí cận chiến hạng nặng).",
-          "event_type": "cutscene"
-        },
-        {
-          "level": 10,
-          "title": "Lời Hứa Không Còn Trốn Chạy",
-          "description": "Hester tháo bỏ áo trùm đầu trao cho Rowan kỷ vật hộ mệnh; hẹn ước đồng hành bên lò sưởi.",
-          "reward_unlock": "Kết duyên tri kỷ; Hester chính thức ở lại thung lũng bảo vệ điền trang.",
           "event_type": "cutscene"
         }
       ],

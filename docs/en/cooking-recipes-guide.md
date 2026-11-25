@@ -9,7 +9,7 @@ spoiler: false
 
 # 🍳 Oakhaven Culinary Arts: Tea Brewing, Hearth Baking & Expedition Stews
 
-Beyond the subterranean rhythm of pickaxes in the deep mine shafts and the clash of swords in the Star Blight Dungeon, the warm hearth of **Oakhaven Bakery & Cafe** stands as Rowan's truest sanctuary. Inheriting **Grandmother Amalia's Grimoire**, you will learn how to transform freshly plucked lotus leaves, four-season crops, and enchanted minerals into hearty dishes that nourish both body and soul.
+Beyond the subterranean rhythm of pickaxes in the deep mine shafts and the clash of swords in the Mine-Dungeon, the warm hearth of **The Hearth Eatery & Tavern** stands as Rowan's truest sanctuary. Inheriting **Grandmother Amalia's Grimoire**, you will learn how to transform four-season crops, pantry ingredients, and herbs into hearty dishes that nourish body and spirit.
 
 ---
 
@@ -21,7 +21,7 @@ The culinary system in *Rowan of Oakhaven* is purposefully divided into two dist
 ┌─────────────────────────────────────────────────────────────────┐
 │                    OAKHAVEN CULINARY SYSTEM                     │
 ├────────────────────────────────┬────────────────────────────────┤
-│ 1. BAKERY & CAFE ECONOMY       │ 2. EXPEDITION & COMBAT RATIONS │
+│ 1. EATERY & TAVERN ECONOMY     │ 2. EXPEDITION & COMBAT RATIONS │
 │ • Sold to villagers for Gold   │ • Consumed for vital buffs     │
 │ • Finances Boris's Forge       │ • Instant Stamina & HP restore │
 │ • Boosts Heart Affection (+25) │ • Cold, Burn & Poison Resist   │
@@ -29,8 +29,8 @@ The culinary system in *Rowan of Oakhaven* is purposefully divided into two dist
 └────────────────────────────────┴────────────────────────────────┘
 ```
 
-### 1.1. Economic Pillar — The Oakhaven Bakery & Cafe
-- **No weapons inside the cafe:** Action combat is reserved exclusively for the mines and dungeons. In town, the bakery and tea counter serve as the financial heart of Rowan's household.
+### 1.1. Economic Pillar — The Hearth Eatery & Tavern
+- **No weapons inside the tavern:** Action combat is reserved exclusively for the mines and dungeons. In town, the eatery and tavern counter serve as the financial heart of Rowan's homestead.
 - **Financing equipment upgrades:** Serving 3-star pastries and soothing teas to townsfolk earns **Gold**. This gold directly pays for:
   - Commissioning **Boris Barnaby** to forge weapon tiers, upgrade swords, battle axes, and heavy warhammers.
   - Purchasing mechanical assemblies and blueprints at **Bram's** mining shop.

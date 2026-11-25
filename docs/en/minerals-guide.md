@@ -51,7 +51,7 @@ Supernatural minerals that supply power to the arcane realm, alchemical circles,
 ### 🔮 Pure Mana Stone *(Ma Thạch Thuần Khiết)*
 - **Depth:** Floors 26–75 within water-logged geode pockets.
 - **Traits:** An azure crystal containing naturally condensed mana. Even non-mages can activate enchanted mechanisms by channeling through this stone.
-- **Applications:** Reusable arcane battery powering automated teahouse kettles and recharging deep-mine lanterns.
+- **Applications:** Reusable arcane battery powering automated tavern kettles and recharging deep-mine lanterns.
 
 ### 🚫 Nullstone *(Đá Khóa Ma Thuật / Tẩy Trống)*
 - **Depth:** Floors 76–100 (adjacent to spatial abyssal rifts).
@@ -61,7 +61,7 @@ Supernatural minerals that supply power to the arcane realm, alchemical circles,
 ### 🕯️ Memory Soulstone *(Đá Ký Ức Linh Hồn)*
 - **Depth:** Floors 51–100, crystallizing around ancestral memorials.
 - **Traits:** Transparent as polished glass, safeguarding lingering memories and departed voices before they dissolve into eternity.
-- **Applications:** Unlocks lost diary entries of Grandmother Amalia, unveiling the origins of the Oakhaven Bakery & Cafe.
+- **Applications:** Unlocks lost diary entries of Grandmother Amalia, unveiling the origins of The Hearth Eatery & Tavern.
 
 ### 🛡️ Mythic Mithril Ore *(Quặng Hắc Thiết Thần Thoại)*
 - **Depth:** Floors 76–100, within the deepest bedrock veins.
@@ -83,8 +83,8 @@ Supernatural minerals that supply power to the arcane realm, alchemical circles,
 
 Minerals harnessed by Khaz-Drakor engineers to power steam mechanics and improve everyday village life:
 
-- **Lumina Glowstone:** Radiates soothing amber luminescence without emitting heat or soot. Illuminates evening teahouse patios and mounts on Rowan’s helmet.
-- **Echo Resonance Stone:** Paired sympathetic acoustic crystals. Keep one at the teahouse counter while Bram carries the other into deep shafts to receive real-time hot pastry orders.
+- **Lumina Glowstone:** Radiates soothing amber luminescence without emitting heat or soot. Illuminates evening tavern patios and mounts on Rowan’s helmet.
+- **Echo Resonance Stone:** Paired sympathetic acoustic crystals. Keep one at the tavern counter while Bram carries the other into deep shafts to receive real-time hot pastry orders.
 - **Floatstone:** Defies gravity, hovering weightlessly in mid-air. Serves as the anti-grav core for frictionless ore carts and delivery skiffs.
 - **Sealing Ward-Stone:** Inscribed with ancient dwarven ward runes. Planted into the ground to project an inviolable Safe Haven, restoring Stamina amidst hazardous depths.
 
@@ -104,7 +104,7 @@ Minerals harnessed by Khaz-Drakor engineers to power steam mechanics and improve
 [ZONE 2: FLOORS 26–50 · KHAZ-DRAKOR DWARVEN RUINS]
  ├── Minerals: Copper Ore, Amethyst, Life Emerald, Echo Stone, Raw Mana Stone
  ├── Monsters: Furnace Cog-Automaton, Magma Magnesnail
- └── Objectives: Copper tool tiers, mining fortune tarts, teahouse dispatch radio.
+ └── Objectives: Copper tool tiers, mining fortune tarts, tavern dispatch radio.
 
 [ZONE 3: FLOORS 51–75 · GLACIAL RIFTS & SPIRIT DEPTHS]
  ├── Minerals: Iron Ore, Frost Sapphire, Moonstone, Lapis Lazuli, Floatstone, Memory Soulstone

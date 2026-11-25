@@ -217,13 +217,6 @@
           "description": "Trusting Rowan completely, Lumi unbinds the thorn ward leading into the deep sanctum.",
           "reward_unlock": "Guides Rowan into Deep Forest Shrine to gather Luminescent Mushrooms and Ancient Herbs.",
           "event_type": "cutscene"
-        },
-        {
-          "level": 10,
-          "title": "Snowy Forest Vow",
-          "description": "Lumi gifts Rowan a twin-woven Red Wool Scarf by Moonlit Lake; pledging lifelong companionship.",
-          "reward_unlock": "Romantic Bond unlocked; Lumi moves into the attic chamber of The Hearth.",
-          "event_type": "cutscene"
         }
       ],
       "avatar": "/images/characters/npc_lumi.png"
@@ -421,7 +414,7 @@
         "item_tea_sun_daisy_honey",
         "item_dish_sweet_pumpkin_potage"
       ],
-      "quote": "The caterpillars were harsh on my pumpkins today. Weeding since midday has my old back aching, little witch...",
+      "quote": "The caterpillars were harsh on my pumpkins today. Weeding since midday has my old back aching, Rowan...",
       "birthday": "Spring 9",
       "schedule": "06:00 - 17:00: Selling seeds in Town Square; Evening: Strolling riverside",
       "real_world_wound": "Debilitating joint degeneration; fears dying and leaving orphaned Kael alone in a harsh world.",
@@ -1225,13 +1218,6 @@
           "description": "Finding peace seeing her father serene, she embraces her calling by the tavern hearth.",
           "reward_unlock": "Ancient Recipe Archive unlocked (grants 5 heritage bakery formulas).",
           "event_type": "cutscene"
-        },
-        {
-          "level": 10,
-          "title": "Promise by the Reading Desk",
-          "description": "Clara gifts a handcrafted leather journal, pledging lifelong devotion by the fireside.",
-          "reward_unlock": "Romantic Bond unlocked; Clara moves into The Hearth's attic suite.",
-          "event_type": "cutscene"
         }
       ],
       "avatar": "/images/characters/npc_clara.png"
@@ -1657,13 +1643,6 @@
           "description": "Appointed Night Patrol Captain, securing peace for every hearth in Oakhaven.",
           "reward_unlock": "100% immunity to theft across The Hearth and honor produce stands.",
           "event_type": "cutscene"
-        },
-        {
-          "level": 10,
-          "title": "Peace Behind the Village Gate",
-          "description": "Hands Rowan his brass sentry whistle, promising lifelong protection by the fireside.",
-          "reward_unlock": "Romantic Bond unlocked; Marlo moves in to protect the homestead.",
-          "event_type": "cutscene"
         }
       ],
       "avatar": "/images/characters/npc_marlo.png"
@@ -1674,12 +1653,12 @@
       "role": "Town Apothecary (Vitality Broths & Therapy)",
       "location": "Oakhaven Clinic",
       "species": "Human",
-      "description": "Caring town healer running the dispensary clinic. Believes wholesome teas heal spirits far deeper than bitter salves alone.",
+      "description": "Caring town healer running the dispensary clinic. Believes hot meals and herbal teas from The Hearth restore strength far better than bitter salves alone.",
       "favorite_items": [
         "oai_huong",
         "mat_ong"
       ],
-      "quote": "Potions only close surface wounds... Townspeople need your warm herbal teas to soothe their deeper quiet sorrows.",
+      "quote": "Potions only close surface wounds... Townspeople need hot stews and warm herbal teas from The Hearth to regain their strength.",
       "birthday": "Summer 22",
       "schedule": "Morning: Honeybee apiary; Afternoon: Delivering fresh honey to shop",
       "real_world_wound": "Disgusted by commercial medicine prioritizing nobles; struggles with poverty-driven medical shortages.",
@@ -1733,13 +1712,6 @@
           "title": "Community Herbal Sanctuary",
           "description": "Establishes a public medicinal garden at the clinic providing free tonics to the frontier.",
           "reward_unlock": "50% discount on clinic healing and doubles potency of restorative broths.",
-          "event_type": "cutscene"
-        },
-        {
-          "level": 10,
-          "title": "Warmth of Fragrant Herbs",
-          "description": "Exchanges a blessed herbal sachet by the hearth, pledging lifelong devotion and healing.",
-          "reward_unlock": "Romantic Bond unlocked; Aurelia moves into The Hearth's attic suite.",
           "event_type": "cutscene"
         }
       ],
@@ -1810,13 +1782,6 @@
           "title": "Pact of the Exiled Noble",
           "description": "Deeply touched by Rowan's lack of prejudice, he bequeaths royal metallurgical manuscripts.",
           "reward_unlock": "Solarian Ancient Codices & crafting formulas for frost-warding talismans.",
-          "event_type": "cutscene"
-        },
-        {
-          "level": 10,
-          "title": "Montfort Bloodstone Signet",
-          "description": "Bestows the ancestral Montfort Bloodstone signet ring by the hearth, pledging eternal companionship.",
-          "reward_unlock": "Romantic Bond unlocked; Valen permanently joins Rowan's household.",
           "event_type": "cutscene"
         }
       ],
@@ -2220,13 +2185,6 @@
           "title": "Reclaiming Archer's Composure",
           "description": "Overcomes noise trauma from artillery concussions, finding purpose at her station.",
           "reward_unlock": "Unlocks Surface Lost Tool Recovery Service (for dropped pickaxes, axes, hoes).",
-          "event_type": "cutscene"
-        },
-        {
-          "level": 10,
-          "title": "Silver Bowstring Ribbon",
-          "description": "Ties a silver bowstring ribbon onto Rowan's wrist by the stream, pledging lifelong fidelity.",
-          "reward_unlock": "Romantic Bond unlocked; Valerie moves into The Hearth's attic suite.",
           "event_type": "cutscene"
         }
       ],
@@ -4195,13 +4153,6 @@
           "title": "Casting Aside the Mask of Guilt",
           "description": "Bows before Valerius seeking atonement, embraced and forgiven by her old captain.",
           "reward_unlock": "Bestows Forsaken Royal Knight Broadsword (heavy combat weapon).",
-          "event_type": "cutscene"
-        },
-        {
-          "level": 10,
-          "title": "No More Running",
-          "description": "Hester pulls down her travel cowl, offering a knightly amulet and pledging life beside Rowan.",
-          "reward_unlock": "Romantic Bond unlocked; Hester permanently pledges her blade to the estate.",
           "event_type": "cutscene"
         }
       ],

@@ -873,7 +873,7 @@
     {
       "id": "stone_lumina_glow",
       "name": "Lumina Glowstone",
-      "description": "A phosphorescent amber mineral radiating cool perpetual warmth and gentle luminescence, ideal for mine exploration and cozy teahouse lanterns.",
+      "description": "A phosphorescent amber mineral radiating cool perpetual warmth and gentle luminescence, ideal for mine exploration and cozy tavern lanterns.",
       "category": "mineral",
       "tags": [
         "mining",
@@ -2179,7 +2179,7 @@
     {
       "id": "item_craft_rustic_table",
       "name": "Rustic 2-Seat Oak Table",
-      "description": "Hand-joined sturdy oak table accommodating 2 additional evening teahouse patrons, growing nightly revenue.",
+      "description": "Hand-joined sturdy oak table accommodating 2 additional evening tavern patrons, growing nightly revenue.",
       "category": "crafted",
       "rarity": "uncommon",
       "buy_price": null,
@@ -2188,7 +2188,7 @@
       "buff": "Accommodates 2 extra evening patrons per night, expanding revenue",
       "tags": [
         "craftable",
-        "teahouse",
+        "tavern",
         "furniture",
         "table"
       ]
@@ -2205,7 +2205,7 @@
       "buff": "Increases patron waiting patience by +30% and adds +10 Cozy Rating",
       "tags": [
         "craftable",
-        "teahouse",
+        "tavern",
         "furniture",
         "chair"
       ]
@@ -2222,7 +2222,7 @@
       "buff": "Preserves 12 baked pastries overnight at maximum oven freshness",
       "tags": [
         "craftable",
-        "teahouse",
+        "tavern",
         "furniture",
         "showcase"
       ]
@@ -2230,16 +2230,16 @@
     {
       "id": "item_craft_corner_hearth",
       "name": "Corner Cobblestone Hearth",
-      "description": "The radiant heart of your teahouse, filling the parlor with warmth, firelight, and the crackle of dry logs.",
+      "description": "The radiant heart of your tavern, filling the parlor with warmth, firelight, and the crackle of dry logs.",
       "category": "crafted",
       "rarity": "rare",
       "buy_price": null,
       "sell_price": 500,
       "energy": null,
-      "buff": "Adds +50 Cozy Rating to your teahouse, triggering generous tips",
+      "buff": "Adds +50 Cozy Rating to your tavern, triggering generous tips",
       "tags": [
         "craftable",
-        "teahouse",
+        "tavern",
         "hearth",
         "cozy"
       ]
