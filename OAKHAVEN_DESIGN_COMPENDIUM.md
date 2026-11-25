@@ -390,7 +390,7 @@ Tách biệt khỏi 47 NPC thường trú, thế giới vận hành thêm 4 th�
 1. **👑 Bá Tước Thẩm Định Lord Julian (Royal Culinary Critic):** Xuất hiện tại **Đại Tiệc Hoàng Gia Vương Đô Solaria (Ngày 25 Mùa Thu — mở khóa khi thông Tuyến Đường Sắt)** làm giám khảo Cuộc Thi Vua Đầu Bếp; món đạt 3–5 sao trao Cúp Vàng (**+15% giá bán món ăn vĩnh viễn**) và Sắc phong Quán Ăn Hoàng Gia.
 2. **🐢 Linh Quy Rêu Phong Cụ Mỏ (Old Moss Tortoise):** Đầm nước ngầm Tầng 35 Hầm Mỏ; thả 3 củ quả thanh đạm đánh thức cụ rùa làm Trạm Dịch Chuyển Tức Thời Tầng 1–35 và nhả Mai Rùa Hóa Thạch (chế Khiên chống đẩy lùi).
 3. **🕯️ Yêu Tinh Chợ Đen Grib (Smuggler Goblin Grib):** Góc hầm sụp tối đen Tầng 65 Hầm Mỏ; sợ ánh sáng; đổi bánh mì nướng lấy Quặng Iridium, Chìa Khóa Rương Cổ và Hạt Giống Hư Không.
-4. **🎈 Đoàn Buôn Khí Cầu Biển Mây (Sky Caravan of Zephyr):** Đỉnh đồi Tháp Thiên Văn đúng Đêm 28 Mùa Đông (Giao Thừa Bếp Lửa); bán Hạt Giống Thần Thoại 4 Mùa, Đĩa Than Lo-fi hiếm và Ngọc Bội May Mắn Đào Mỏ (+50% tỷ lệ quặng).
+4. **🎈 Đoàn Buôn Khí Cầu Biển Mây (Sky Caravan of Zephyr):** Đỉnh đồi Tháp Thiên Văn từ **16:00–22:00 Đêm 28 Mùa Đông** (trước giờ Nồi Lẩu & Cụng ly Giao Thừa 23:00 tại The Hearth); bán Hạt Giống Thần Thoại 4 Mùa, Đĩa Than Lo-fi hiếm và Ngọc Bội May Mắn Đào Mỏ (+50% tỷ lệ quặng).
 
 ### 10.6. Cơ Chế Di Cư Nội Vùng Oakhaven (Strict Anti-Island Policy)
 Không sao chép cơ chế đảo xa tách biệt; 100% sự chuyển dịch nơi cư trú diễn ra trong thung lũng khi Quán Ăn The Hearth phát triển và tình cảm nhân vật thăng hoa:
@@ -502,45 +502,46 @@ Nhằm kiến tạo chiều sâu gameplay và triệt tiêu lối mòn "chạy v
 Không giới hạn cứng 4 lễ hội/năm. Hệ thống lễ hội mở rộng tự nhiên theo tiến độ tái thiết thế giới của người chơi:
 - **Tầng 1 — 4 Lễ Hội Bản Địa Oakhaven (Có sẵn từ Năm 1):** Diễn ra 100% tại các khu vực sẵn có ở thung lũng, không phụ thuộc công trình mở rộng.
 - **Tầng 2 — 4 Lễ Hội Mở Khóa Theo Vùng Đất (Unlockable Regional Festivals):** Mỗi khi Rowan hoàn thành một đại công trình mở bản đồ (Kênh Thủy Lợi, Đại Lễ Tẩy Trần Rừng, Cáp Treo Đỉnh Răng Sói, Tuyến Đường Sắt tới Vương Đô Solaria), sáng hôm sau Cú Pip gửi thiệp mời mở khóa thêm ngày lễ mới trên Lịch Năm (tổng tối đa **8 lễ hội/năm**).
-- **Nhịp thời gian ngày lễ (Không gò bó Vé Hoạt Động):**
+- **Nhịp thời gian ngày lễ & Quy tắc ưu tiên Lịch:**
   - **Sáng – Chiều (10:00–19:00):** Tự do dạo chợ, trò chuyện dân làng, tham gia hoạt động/minigame, hoặc tự đứng **Sạp Ẩm Thực Lưu Động** (hoặc thuê trẻ nhỏ trông sạp để rảnh tay đi chơi).
   - **Tối (20:00–23:00):** Khoảnh khắc cộng đồng (ngắm pháo hoa mặt hồ, thả đèn trời, phát bánh mặt nạ, cụng ly giao thừa).
+  - **Ưu tiên Lịch (8 Lễ / Năm — đúng 2 lễ mỗi mùa, cách nhau 11–16 ngày):** Các lễ hội được xếp tránh Thứ Tư (Ngày Xả Lò Boris) và Chủ Nhật (Chợ Garrick); riêng **Đông 28 (Giao Thừa)** giữ nguyên cuối năm và **ghi đè Sự Kiện Tuần**. Nghi thức **Đại Lễ Cầu Siêu Bàn Thờ Cổ** kích hoạt chủ động từ **22:00** bất kỳ đêm nào không trùng ngày lễ hội.
 
 ### 13.2. Tầng 1: 4 Lễ Hội Bản Địa Oakhaven (Mở Sẵn Từ Năm 1)
 
-1. **Mùa Xuân (Ngày 15) — Lễ Tảo Mộ & Khơi Mương Đầu Năm *(Bìa Rừng Bàn Thờ Cổ)*:**
-   - *Không khí:* Tưởng niệm người ngã xuống sau chiến tranh, dọn cỏ khơi mương đón nước xuân cho ruộng đồng.
+1. **Mùa Xuân (Ngày 15 — Thứ Hai) — Lễ Tảo Mộ & Khơi Mương Đầu Năm *(Bìa Rừng Bàn Thờ Cổ)*:**
+   - *Không khí:* Tưởng niệm người ngã xuống sau chiến tranh, dọn cỏ khơi mương đón nước xuân cho ruộng nhà Rowan.
    - *Hoạt động:*
-     1. **Phụ Boris & Colm Khơi Mương Đá:** Năm 1 dùng cuốc/bom đập sạch 5 tảng đá nghẽn để mở vĩnh viễn dòng nước ngọt (+50 Tem). Từ Năm 2+ chuyển thành **Hội Thi Đập Đá Nhanh** lấy thưởng quặng và Tem. *(Đường lùi: Nếu lỡ lễ Năm 1, nộp 30 Gỗ + 20 Đá mỏ ở Bảng Tái Thiết để Boris nạo sau 3 ngày).*
+     1. **Phụ Boris & Colm Khơi Mương Đá:** Năm 1 dùng cuốc/bom đập sạch 5 tảng đá nghẽn để **khơi thông mương dẫn nước đầu mùa cho ruộng nhà Rowan** (tăng độ ẩm đất mùa Xuân + 50 Tem; *không thay thế Đại Công Trình Kênh Thủy Lợi Vùng 2 ở Mục 6*). Từ Năm 2+ chuyển thành **Hội Thi Đập Đá Nhanh** lấy thưởng quặng và Tem. *(Đường lùi: Nếu lỡ lễ Năm 1, nộp 30 Gỗ + 20 Đá mỏ ở Bảng Tái Thiết để Boris nạo sau 3 ngày).*
      2. **Dâng Cỗ Bàn Thờ Cổ:** Dâng mâm cỗ 3 món thanh đạm (Canh củ sen, Cơm lam, Nấm rừng) nhận +40 Tem & hạt giống xuân hiếm.
 
-2. **Mùa Hạ (Ngày 18) — Đêm Pháo Hoa Bờ Hồ & Chợ Đêm Mùa Hạ *(Bến Hồ & Tháp Thiên Văn)*:**
+2. **Mùa Hạ (Ngày 19 — Thứ Sáu) — Đêm Pháo Hoa Bờ Hồ & Chợ Đêm Mùa Hạ *(Bến Hồ & Tháp Thiên Văn)*:**
    - *Không khí:* Lễ hội *Hanabi* rực rỡ giữa thung lũng — Lão **Gomer** (thợ mìn) và **Orion** (nhà thiên văn) phối hợp chế pháo hoa từ bột khoáng thạch hầm mỏ.
    - *Hoạt động:*
      1. **Chợ Đêm & Tùy Chỉnh Pháo Hoa:** Ban ngày dạo sạp đồ nướng xiên que, vớt cá vàng/đom đóm, rút quẻ đầu mùa. Trước 19:00 có thể đưa cho Gomer **quặng hiếm** (Vàng, Mithril, Pha Lê Tím, Bụi Sao) để đổi màu sắc và hình dạng pháo hoa (bông hoa, sao băng, rồng lửa).
      2. **20:00 Ngắm Pháo Hoa Mặt Hồ:** Rowan chọn 1 NPC thân thiết (hoặc ngồi cùng nhóm bạn) trên cầu gỗ bờ hồ xem màn pháo hoa phản chiếu xuống mặt nước. Sáng hôm sau quanh bờ hồ rơi rải rác **Mảnh Pháo Hoa / Bụi Sao** để nhặt.
 
-3. **Mùa Thu (Ngày 20) — Đêm Hội Mặt Nạ & Đèn Bí Ngô *(Quảng Trường Oakhaven)*:**
+3. **Mùa Thu (Ngày 12 — Thứ Sáu) — Đêm Hội Mặt Nạ & Đèn Bí Ngô *(Quảng Trường Oakhaven)*:**
    - *Không khí:* Đêm *Harvest Masquerade* đậm chất Dark Cozy — thị trấn tắt bớt đèn thường, thắp đèn bí ngô cam ấm dọc ngõ, bà con đeo mặt nạ gỗ/vải kể chuyện ma bên đống lửa.
    - *Hoạt động:*
      1. **Phát Bánh Cho Trẻ Nhỏ (Trick-or-Treat):** Chiều tối đám trẻ (`Kael`, `Cora`, `Milo`, `Finn`, `Tilly`) hóa trang chạy tới trước The Hearth/sạp hàng; Rowan phát bánh bí ngô, kẹo hoặc bánh quy tự nấu để tăng tim mạnh và nhận lại Tem/bùa nhỏ.
      2. **Chợ Đêm Bóng Tối & Săn Đèn Bí Ngô:** Bà đồng **Morrigan** cùng thương nhân đeo mặt nạ mở sạp bán **Mặt Nạ Vui**, **Thuốc Biến Hình 24h** (đổi màu tóc, hiện tai mèo, đi đường để lại vệt đom đóm suốt ngày hôm sau) và **Hộp Quà Bí Ẩn**; kèm tìm 5–7 đèn bí ngô giấu quanh làng.
 
-4. **Mùa Đông (Ngày 28) — Đêm Lửa Trại & Nồi Lẩu Cuối Năm *(Đại Sảnh The Hearth)*:**
-   - *Không khí:* Tuyết rơi dày, cả làng quây quần bên bếp sưởi The Hearth tránh rét, mỗi nhà góp một ít nguyên liệu vào nồi lẩu chung.
+4. **Mùa Đông (Ngày 28 — Chủ Nhật, Giao Thừa) — Đêm Lửa Trại & Nồi Lẩu Cuối Năm *(Đại Sảnh The Hearth)*:**
+   - *Không khí:* Tuyết rơi dày, cả làng quây quần bên bếp sưởi The Hearth tránh rét, mỗi nhà góp một ít nguyên liệu vào nồi lẩu chung *(ghi đè Chợ Chủ Nhật Garrick; Đoàn Buôn Khí Cầu mở 16:00–22:00 tại Tháp Thiên Văn)*.
    - *Hoạt động:*
      1. **Nồi Lẩu Bách Vị (3 Ô Nguyên Liệu):** Đóng góp đủ 3 nhóm (Ô 1 Tinh bột + Ô 2 Protein + Ô 3 Thảo mộc/Men ủ). Năm 1 nhận **Sổ Tay Công Thức Bà Amalia Tập 2** (nếu bỏ lỡ, sáng hôm sau Clara gửi qua hòm thư với phí chuộc 300g); Năm 2+ nhận **Gia Vị Hoàng Kim & Tem thưởng**. Điểm thân mật cộng nền +20 đến +80 cả làng, và **+50 điểm riêng cho NPC có món ưa thích trùng nguyên liệu trong nồi**.
      2. **Tâm Sự Bên Lò Sưởi (23:00):** Cụng ly rượu táo nóng, chốt sổ năm cũ (+40 Tem).
 
 ### 13.3. Tầng 2: 4 Lễ Hội Mở Khóa Theo Vùng Đất (Unlockable Regional Festivals)
 
-1. **Mở Kênh Thủy Lợi (Vùng 2 — Ruộng Bậc Thang) → Hội Xuống Đồng & Đua Thuyền Nan *(Ngày 08 Mùa Hạ)*:**
-   - Kỷ niệm ngày nước ngọt về ruộng bậc thang; thi bắt cá đồng, chèo thuyền nan hái sen tuyết và nướng cá tại bờ ruộng.
-2. **Mở Rừng Thảo Mộc (Vùng 3 — Rừng Vĩnh Cửu) → Đêm Nguyệt Thực & Chợ Giả Kim Rừng Sâu *(Ngày 12 Mùa Thu)*:**
+1. **Mở Kênh Thủy Lợi (Vùng 2 — Ruộng Bậc Thang) → Hội Xuống Đồng & Đua Thuyền Nan *(Ngày 26 Mùa Xuân — Thứ Năm)*:**
+   - Kỷ niệm ngày nước ngọt về ruộng bậc thang chuẩn bị cấy lúa vụ Hè; thi bắt cá đồng, chèo thuyền nan hái sen tuyết và nướng cá tại bờ ruộng.
+2. **Mở Rừng Thảo Mộc (Vùng 3 — Rừng Vĩnh Cửu) → Đêm Nguyệt Thực & Chợ Giả Kim Rừng Sâu *(Ngày 06 Mùa Hạ — Thứ Bảy)*:**
    - Khi sương mù độc đã tan, các thầy thuốc, nhà giả kim và người xem bói dựng lều dưới tán cây phát sáng: bán thuốc buff dị biệt đi mỏ, xem bói Tarot dự đoán vận may rơi đồ cả mùa, đổi nguyên liệu quái lấy công thức bí ẩn; tối cùng **Thả Đèn Trời (Sky Lanterns)**.
-3. **Mở Cáp Treo (Vùng 4 — Đỉnh Răng Sói) → Chợ Sương Mù & Suối Nước Nóng *(Ngày 14 Mùa Đông)*:**
-   - Đón thợ mỏ vùng cao và lính gác đèo xuống trao đổi quặng hiếm, rượu gừng cay; ngâm suối nước nóng nhận buff Stamina & Kháng lạnh dài hạn.
-4. **Mở Tuyến Đường Sắt (Vùng 5 — Vương Đô Solaria) → Đại Tiệc Hoàng Gia & Lôi Đài Vương Đô *(Ngày 25 Mùa Thu)*:**
+3. **Mở Cáp Treo (Vùng 4 — Đỉnh Răng Sói) → Chợ Sương Mù & Suối Nước Nóng *(Ngày 12 Mùa Đông — Thứ Sáu)*:**
+   - Đón thợ mỏ vùng cao và lính gác đèo xuống trao đổi quặng hiếm, rượu gừng cay; ngâm **Suối Nước Nóng Pha Thảo Dược & Gừng** nhận buff **+Max Stamina & Kháng lạnh suốt phần còn lại của Mùa Đông** (khác biệt với suối nóng hồi thể lực tức thời ngày thường).
+4. **Mở Tuyến Đường Sắt (Vùng 5 — Vương Đô Solaria) → Đại Tiệc Hoàng Gia & Lôi Đài Vương Đô *(Ngày 25 Mùa Thu — Thứ Năm)*:**
    - Rowan cùng một số dân làng (`Barnaby`, `Clara`, `Lumi`...) bắt chuyến tàu sáng lên **Quảng Trường Cổng Thành Solaria** *(1 khu chợ cổng thành gọn nhẹ, không dựng cả kinh đô)*.
    - **Cuộc Thi Vua Đầu Bếp Hoàng Gia:** Rowan nấu món 5 sao từ nông sản + nguyên liệu hầm mỏ cho **Lord Julian** chấm điểm; đạt 3–5 sao nhận Cúp Vàng và **+15% giá bán món ăn vĩnh viễn** (đồng bộ Mục 10.5).
    - **Đại Hội Lôi Đài Quái Vật (Guild Trial Arena):** Hester & Valerius làm trọng tài, thả **3 đợt quái vật / Hình Nhân Giáp Sắt** từ Hầm Mỏ vào sân đấu sáng đèn *(tái sử dụng 100% sprite & AI quái vật có sẵn, không vẽ animation đánh nhau cho NPC)*. Rowan mang vũ khí, nhẫn, ngọc khảm và món buff ra đấu tính điểm tốc độ & né đòn, thắng nhận Cúp, Vũ khí hoặc Đá Khảm hiếm.

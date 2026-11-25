@@ -1,7 +1,12 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "updated": "2026-11-25",
+  "calendar_rules": {
+    "days_per_season": 28,
+    "festivals_per_season": 2,
+    "festival_overrides_weekly": true
+  },
   "seasonal_festivals": [
     {
       "id": "fest_spring_memorial",
@@ -12,17 +17,58 @@
       "day": 15,
       "time": "10:00 - 22:00",
       "location": "Bìa Rừng Thầm Thì & Bàn Thờ Cổ Đại",
-      "summary": "Tưởng niệm người ngã xuống sau chiến tranh, dọn cỏ khơi mương đón nước xuân cho ruộng đồng.",
+      "summary": "Tưởng niệm người ngã xuống sau chiến tranh, dọn cỏ khơi mương đón nước xuân cho ruộng nhà Rowan.",
       "activities": [
-        "Phụ Boris & Colm đập 5 tảng đá nghẽn mương (Năm 1 mở dòng nước ngọt; Năm 2+ thi đập đá nhanh)",
+        "Phụ Boris & Colm đập 5 tảng đá nghẽn mương dẫn nước cho ruộng nhà Rowan (Năm 2+ thi đập đá nhanh)",
         "Dâng mâm cỗ 3 món thanh đạm lên Bàn Thờ Cổ",
         "Đứng bán hoặc thuê trẻ nhỏ trông Sạp Ẩm Thực Lưu Động"
       ],
       "rewards": [
-        "Mở vĩnh viễn dòng nước ngọt tưới tiêu (Năm 1)",
-        "+40 đến +90 Tem Phiếu Hội Chợ & Hạt giống xuân hiếm"
+        "Buff độ ẩm đất mùa Xuân & +50 đến +90 Tem Phiếu Hội Chợ",
+        "Hạt giống xuân hiếm"
       ],
       "special_food": "canh_cu_sen_tuyet"
+    },
+    {
+      "id": "fest_terrace_skiff",
+      "tier": 2,
+      "unlock_condition": "unlock_region_2_canal",
+      "name": "Hội Xuống Đồng & Đua Thuyền Nan",
+      "season": "spring",
+      "day": 26,
+      "time": "10:00 - 20:00",
+      "location": "Ruộng Bậc Thang & Bến Thuyền Nan",
+      "summary": "Mở khóa khi thông Kênh Thủy Lợi. Kỷ niệm nước ngọt về đồng chuẩn bị cấy lúa vụ Hè với hội bắt cá đồng và đua thuyền nan.",
+      "activities": [
+        "Thi bắt cá đồng và chèo thuyền nan hái sen tuyết",
+        "Nướng cá tươi tập thể tại bờ ruộng"
+      ],
+      "rewards": [
+        "Hạt giống lúa nước & sen tuyết chất lượng cao",
+        "Tem Phiếu Hội Chợ & Cúp Đua Thuyền"
+      ],
+      "special_food": "ca_dong_nuong_ong_tre"
+    },
+    {
+      "id": "fest_arcane_eclipse",
+      "tier": 2,
+      "unlock_condition": "unlock_region_3_forest",
+      "name": "Đêm Nguyệt Thực & Chợ Giả Kim Rừng Sâu",
+      "season": "summer",
+      "day": 6,
+      "time": "18:00 - 24:00",
+      "location": "Khu Rừng Thần Thảo Mộc Vĩnh Cửu",
+      "summary": "Mở khóa khi tẩy trần Rừng Thảo Mộc. Phiên chợ đêm phép thuật với thuốc buff đi mỏ, xem bói Tarot và thả đèn trời.",
+      "activities": [
+        "Mua thuốc buff dị biệt, đổi nguyên liệu quái lấy công thức bí ẩn",
+        "Xem bói bài Tarot dự đoán vận may rơi đồ cả mùa",
+        "Thả Đèn Trời (Sky Lanterns) dưới tán rừng phát sáng"
+      ],
+      "rewards": [
+        "Thuốc Giả Kim & Công thức bí ẩn",
+        "Buff Vận May mùa mới"
+      ],
+      "special_food": "tra_thao_moc_phat_quang"
     },
     {
       "id": "fest_summer_fireworks",
@@ -30,7 +76,7 @@
       "unlock_condition": "available_year_1",
       "name": "Đêm Pháo Hoa Bờ Hồ & Chợ Đêm Mùa Hạ",
       "season": "summer",
-      "day": 18,
+      "day": 19,
       "time": "10:00 - 23:00",
       "location": "Bến Hồ Oakhaven & Tháp Thiên Văn",
       "summary": "Lễ hội Hanabi rực rỡ do Lão Gomer và Orion chế pháo hoa từ bột khoáng thạch hầm mỏ.",
@@ -51,7 +97,7 @@
       "unlock_condition": "available_year_1",
       "name": "Đêm Hội Mặt Nạ & Đèn Bí Ngô",
       "season": "autumn",
-      "day": 20,
+      "day": 12,
       "time": "12:00 - 24:00",
       "location": "Quảng Trường Oakhaven & Sân The Hearth",
       "summary": "Đêm Harvest Masquerade đậm chất Dark Cozy với đèn bí ngô cam ấm, mặt nạ hóa trang và chợ đêm kỳ bí.",
@@ -65,87 +111,6 @@
         "Hiệu ứng biến hình vui 24h & vật phẩm trang trí bí ngô"
       ],
       "special_food": "banh_bi_ngo_nuong"
-    },
-    {
-      "id": "fest_winter_hotpot",
-      "tier": 1,
-      "unlock_condition": "available_year_1",
-      "name": "Đêm Lửa Trại & Nồi Lẩu Cuối Năm",
-      "season": "winter",
-      "day": 28,
-      "time": "16:00 - 02:00",
-      "location": "Đại Sảnh Quán The Hearth",
-      "summary": "Đêm đông giá rét, cả thung lũng quây quần bên bếp sưởi The Hearth góp nguyên liệu vào nồi lẩu chung.",
-      "activities": [
-        "Đóng góp đủ 3 ô nguyên liệu (Tinh bột + Protein + Thảo mộc/Men ủ) vào Nồi Lẩu Bách Vị",
-        "23:00 nâng ly rượu táo nóng tâm sự bên lò sưởi đón năm mới"
-      ],
-      "rewards": [
-        "Sổ Tay Công Thức Bà Amalia Tập 2 (Năm 1) hoặc Gia Vị Hoàng Kim (Năm 2+)",
-        "+20 đến +80 điểm thân mật toàn làng (+50 riêng cho NPC trùng khẩu vị)"
-      ],
-      "special_food": "lau_thap_cam_bach_vi"
-    },
-    {
-      "id": "fest_terrace_skiff",
-      "tier": 2,
-      "unlock_condition": "unlock_region_2_canal",
-      "name": "Hội Xuống Đồng & Đua Thuyền Nan",
-      "season": "summer",
-      "day": 8,
-      "time": "10:00 - 20:00",
-      "location": "Ruộng Bậc Thang & Bến Thuyền Nan",
-      "summary": "Mở khóa khi thông Kênh Thủy Lợi. Kỷ niệm nước ngọt về đồng với hội bắt cá đồng và đua thuyền nan.",
-      "activities": [
-        "Thi bắt cá đồng và chèo thuyền nan hái sen tuyết",
-        "Nướng cá tươi tập thể tại bờ ruộng"
-      ],
-      "rewards": [
-        "Hạt giống lúa nước & sen tuyết chất lượng cao",
-        "Tem Phiếu Hội Chợ & Cúp Đua Thuyền"
-      ],
-      "special_food": "ca_dong_nuong_ong_tre"
-    },
-    {
-      "id": "fest_arcane_eclipse",
-      "tier": 2,
-      "unlock_condition": "unlock_region_3_forest",
-      "name": "Đêm Nguyệt Thực & Chợ Giả Kim Rừng Sâu",
-      "season": "autumn",
-      "day": 12,
-      "time": "18:00 - 24:00",
-      "location": "Khu Rừng Thần Thảo Mộc Vĩnh Cửu",
-      "summary": "Mở khóa khi tẩy trần Rừng Thảo Mộc. Phiên chợ đêm phép thuật với thuốc buff đi mỏ, xem bói Tarot và thả đèn trời.",
-      "activities": [
-        "Mua thuốc buff dị biệt, đổi nguyên liệu quái lấy công thức bí ẩn",
-        "Xem bói bài Tarot dự đoán vận may rơi đồ cả mùa",
-        "Thả Đèn Trời (Sky Lanterns) dưới tán rừng phát sáng"
-      ],
-      "rewards": [
-        "Thuốc Giả Kim & Công thức bí ẩn",
-        "Buff Vận May mùa mới"
-      ],
-      "special_food": "tra_thao_moc_phat_quang"
-    },
-    {
-      "id": "fest_wolf_tooth_mist",
-      "tier": 2,
-      "unlock_condition": "unlock_region_4_cableway",
-      "name": "Chợ Sương Mù & Suối Nước Nóng",
-      "season": "winter",
-      "day": 14,
-      "time": "10:00 - 21:00",
-      "location": "Đỉnh Núi Răng Sói & Suối Nước Nóng",
-      "summary": "Mở khóa khi sửa xong Tuyến Cáp Treo. Trao đổi quặng hiếm với thợ mỏ vùng cao và ngâm suối nước nóng.",
-      "activities": [
-        "Trao đổi quặng hiếm, rượu gừng cay cùng thợ mỏ & lính gác đèo",
-        "Ngâm mình tại Suối Nước Nóng đỉnh núi"
-      ],
-      "rewards": [
-        "Buff Stamina & Kháng lạnh dài hạn",
-        "Quặng hiếm & Tem Phiếu"
-      ],
-      "special_food": "ruou_gung_ham_nong"
     },
     {
       "id": "fest_solaria_royal_fair",
@@ -167,6 +132,47 @@
         "Cúp Vô Địch Lôi Đài, Vũ khí hoặc Đá Khảm hiếm"
       ],
       "special_food": "mon_an_hoang_gia_5_sao"
+    },
+    {
+      "id": "fest_wolf_tooth_mist",
+      "tier": 2,
+      "unlock_condition": "unlock_region_4_cableway",
+      "name": "Chợ Sương Mù & Suối Nước Nóng",
+      "season": "winter",
+      "day": 12,
+      "time": "10:00 - 21:00",
+      "location": "Đỉnh Núi Răng Sói & Suối Nước Nóng",
+      "summary": "Mở khóa khi sửa xong Tuyến Cáp Treo. Trao đổi quặng hiếm với thợ mỏ vùng cao và ngâm suối nước nóng pha thảo dược.",
+      "activities": [
+        "Trao đổi quặng hiếm, rượu gừng cay cùng thợ mỏ & lính gác đèo",
+        "Ngâm mình tại Suối Nước Nóng Pha Thảo Dược & Gừng"
+      ],
+      "rewards": [
+        "Buff +Max Stamina & Kháng lạnh suốt phần còn lại của Mùa Đông",
+        "Quặng hiếm & Tem Phiếu"
+      ],
+      "special_food": "ruou_gung_ham_nong"
+    },
+    {
+      "id": "fest_winter_hotpot",
+      "tier": 1,
+      "unlock_condition": "available_year_1",
+      "name": "Đêm Lửa Trại & Nồi Lẩu Cuối Năm",
+      "season": "winter",
+      "day": 28,
+      "time": "16:00 - 02:00",
+      "location": "Đại Sảnh Quán The Hearth",
+      "summary": "Đêm đông giá rét, cả thung lũng quây quần bên bếp sưởi The Hearth góp nguyên liệu vào nồi lẩu chung (ghi đè Chợ Chủ Nhật Garrick).",
+      "activities": [
+        "Đóng góp đủ 3 ô nguyên liệu (Tinh bột + Protein + Thảo mộc/Men ủ) vào Nồi Lẩu Bách Vị",
+        "16:00 - 22:00 ghé Đoàn Buôn Khí Cầu tại Tháp Thiên Văn",
+        "23:00 nâng ly rượu táo nóng tâm sự bên lò sưởi đón năm mới"
+      ],
+      "rewards": [
+        "Sổ Tay Công Thức Bà Amalia Tập 2 (Năm 1) hoặc Gia Vị Hoàng Kim (Năm 2+)",
+        "+20 đến +80 điểm thân mật toàn làng (+50 riêng cho NPC trùng khẩu vị)"
+      ],
+      "special_food": "lau_thap_cam_bach_vi"
     }
   ],
   "recurring_events": [

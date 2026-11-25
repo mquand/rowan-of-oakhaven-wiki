@@ -1,7 +1,12 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "updated": "2026-11-25",
+  "calendar_rules": {
+    "days_per_season": 28,
+    "festivals_per_season": 2,
+    "festival_overrides_weekly": true
+  },
   "seasonal_festivals": [
     {
       "id": "fest_spring_memorial",
@@ -12,17 +17,58 @@
       "day": 15,
       "time": "10:00 - 22:00",
       "location": "Whispering Woods Edge & Ancient Altar",
-      "summary": "Honoring post-war fallen comrades while clearing winter boulders from the spring irrigation channels.",
+      "summary": "Honoring post-war fallen comrades while clearing winter boulders from Rowan's homestead irrigation ditches.",
       "activities": [
-        "Help Boris & Colm break 5 canal boulders (Year 1 restores water; Year 2+ speed stone-breaking contest)",
+        "Help Boris & Colm break 5 ditch boulders for Rowan's farm (Year 2+ speed stone-breaking contest)",
         "Offer a 3-dish humble feast at the Ancient Altar",
         "Run or staff the Pop-up Street Food Stall"
       ],
       "rewards": [
-        "Permanently restores freshwater irrigation (Year 1)",
-        "+40 to +90 Fair Tokens & Rare spring seeds"
+        "Spring soil moisture buff & +50 to +90 Fair Tokens",
+        "Rare spring seeds"
       ],
       "special_food": "canh_cu_sen_tuyet"
+    },
+    {
+      "id": "fest_terrace_skiff",
+      "tier": 2,
+      "unlock_condition": "unlock_region_2_canal",
+      "name": "Paddy Planting & Skiff Race",
+      "season": "spring",
+      "day": 26,
+      "time": "10:00 - 20:00",
+      "location": "Rice Terraces & Skiff Dock",
+      "summary": "Unlocked upon completing the Irrigation Canal. Celebrates fresh water reaching the terraces ahead of Summer rice planting.",
+      "activities": [
+        "Compete in paddy fish catching and skiff rowing for snow lotuses",
+        "Grill fresh catch together along the terrace banks"
+      ],
+      "rewards": [
+        "High-grade paddy rice & snow lotus seeds",
+        "Fair Tokens & Skiff Race Trophy"
+      ],
+      "special_food": "ca_dong_nuong_ong_tre"
+    },
+    {
+      "id": "fest_arcane_eclipse",
+      "tier": 2,
+      "unlock_condition": "unlock_region_3_forest",
+      "name": "Eclipse Night & Arcane Alchemy Market",
+      "season": "summer",
+      "day": 6,
+      "time": "18:00 - 24:00",
+      "location": "Eternal Herb Forest",
+      "summary": "Unlocked upon purifying the Herb Forest. A magical night market featuring mine buff potions, Tarot readings, and Sky Lanterns.",
+      "activities": [
+        "Purchase unusual mine buff potions and trade monster drops for hidden recipes",
+        "Draw Tarot cards to predict seasonal drop luck",
+        "Release Sky Lanterns beneath the glowing canopy"
+      ],
+      "rewards": [
+        "Alchemy Elixirs & Hidden Recipes",
+        "Seasonal Luck Buff"
+      ],
+      "special_food": "tra_thao_moc_phat_quang"
     },
     {
       "id": "fest_summer_fireworks",
@@ -30,7 +76,7 @@
       "unlock_condition": "available_year_1",
       "name": "Lakeside Fireworks & Summer Night Market",
       "season": "summer",
-      "day": 18,
+      "day": 19,
       "time": "10:00 - 23:00",
       "location": "Oakhaven Lake Pier & Observatory Hill",
       "summary": "A radiant Hanabi celebration where Miner Gomer and Astronomer Orion craft fireworks from mine crystal powder.",
@@ -51,7 +97,7 @@
       "unlock_condition": "available_year_1",
       "name": "Harvest Masquerade & Pumpkin Lantern Night",
       "season": "autumn",
-      "day": 20,
+      "day": 12,
       "time": "12:00 - 24:00",
       "location": "Oakhaven Town Square & The Hearth Courtyard",
       "summary": "A Dark Cozy Harvest Masquerade lit by warm pumpkin lanterns, playful masks, and a mysterious shadow market.",
@@ -65,87 +111,6 @@
         "24h playful transformation effects & pumpkin decor"
       ],
       "special_food": "banh_bi_ngo_nuong"
-    },
-    {
-      "id": "fest_winter_hotpot",
-      "tier": 1,
-      "unlock_condition": "available_year_1",
-      "name": "Solstice Bonfire & Communal Hotpot Night",
-      "season": "winter",
-      "day": 28,
-      "time": "16:00 - 02:00",
-      "location": "The Hearth Main Hall",
-      "summary": "On the coldest night of the year, the valley gathers around The Hearth's fire to contribute ingredients to one giant hotpot.",
-      "activities": [
-        "Contribute 3 ingredient slots (Starch + Protein + Herb/Ferment) to the Communal Pot",
-        "23:00 share warm apple cider around the hearthfire to close the year"
-      ],
-      "rewards": [
-        "Grandma Amalia's Recipe Book Vol. 2 (Year 1) or Golden Spices (Year 2+)",
-        "+20 to +80 town-wide friendship (+50 bonus for matching NPC favorites)"
-      ],
-      "special_food": "lau_thap_cam_bach_vi"
-    },
-    {
-      "id": "fest_terrace_skiff",
-      "tier": 2,
-      "unlock_condition": "unlock_region_2_canal",
-      "name": "Paddy Planting & Skiff Race",
-      "season": "summer",
-      "day": 8,
-      "time": "10:00 - 20:00",
-      "location": "Rice Terraces & Skiff Dock",
-      "summary": "Unlocked upon completing the Irrigation Canal. Celebrates fresh water returning with paddy fishing and skiff races.",
-      "activities": [
-        "Compete in paddy fish catching and skiff rowing for snow lotuses",
-        "Grill fresh catch together along the terrace banks"
-      ],
-      "rewards": [
-        "High-grade paddy rice & snow lotus seeds",
-        "Fair Tokens & Skiff Race Trophy"
-      ],
-      "special_food": "ca_dong_nuong_ong_tre"
-    },
-    {
-      "id": "fest_arcane_eclipse",
-      "tier": 2,
-      "unlock_condition": "unlock_region_3_forest",
-      "name": "Eclipse Night & Arcane Alchemy Market",
-      "season": "autumn",
-      "day": 12,
-      "time": "18:00 - 24:00",
-      "location": "Eternal Herb Forest",
-      "summary": "Unlocked upon purifying the Herb Forest. A magical night market featuring mine buff potions, Tarot readings, and Sky Lanterns.",
-      "activities": [
-        "Purchase unusual mine buff potions and trade monster drops for hidden recipes",
-        "Draw Tarot cards to predict seasonal drop luck",
-        "Release Sky Lanterns beneath the glowing canopy"
-      ],
-      "rewards": [
-        "Alchemy Elixirs & Hidden Recipes",
-        "Seasonal Luck Buff"
-      ],
-      "special_food": "tra_thao_moc_phat_quang"
-    },
-    {
-      "id": "fest_wolf_tooth_mist",
-      "tier": 2,
-      "unlock_condition": "unlock_region_4_cableway",
-      "name": "Mist Market & Hot Springs",
-      "season": "winter",
-      "day": 14,
-      "time": "10:00 - 21:00",
-      "location": "Wolf-Tooth Peak & Hot Springs",
-      "summary": "Unlocked upon repairing the Cableway. Trade rare ores with highland miners and soak in steaming mountain springs.",
-      "activities": [
-        "Trade rare ores and spiced ginger wine with highland miners and border scouts",
-        "Soak in the mountain Hot Springs"
-      ],
-      "rewards": [
-        "Lasting Stamina & Cold-Resistance Buffs",
-        "Rare Ores & Fair Tokens"
-      ],
-      "special_food": "ruou_gung_ham_nong"
     },
     {
       "id": "fest_solaria_royal_fair",
@@ -167,6 +132,47 @@
         "Arena Champion Trophy, Rare Weapons or Soul Gems"
       ],
       "special_food": "mon_an_hoang_gia_5_sao"
+    },
+    {
+      "id": "fest_wolf_tooth_mist",
+      "tier": 2,
+      "unlock_condition": "unlock_region_4_cableway",
+      "name": "Mist Market & Hot Springs",
+      "season": "winter",
+      "day": 12,
+      "time": "10:00 - 21:00",
+      "location": "Wolf-Tooth Peak & Hot Springs",
+      "summary": "Unlocked upon repairing the Cableway. Trade rare ores with highland miners and soak in herbal ginger hot springs.",
+      "activities": [
+        "Trade rare ores and spiced ginger wine with highland miners and border scouts",
+        "Soak in the Herbal & Ginger Hot Springs"
+      ],
+      "rewards": [
+        "+Max Stamina & Cold-Resistance Buffs lasting the rest of Winter",
+        "Rare Ores & Fair Tokens"
+      ],
+      "special_food": "ruou_gung_ham_nong"
+    },
+    {
+      "id": "fest_winter_hotpot",
+      "tier": 1,
+      "unlock_condition": "available_year_1",
+      "name": "Solstice Bonfire & Communal Hotpot Night",
+      "season": "winter",
+      "day": 28,
+      "time": "16:00 - 02:00",
+      "location": "The Hearth Main Hall",
+      "summary": "On the coldest night of the year, the valley gathers around The Hearth's fire to contribute ingredients to one giant hotpot (overrides Garrick's Sunday Market).",
+      "activities": [
+        "Contribute 3 ingredient slots (Starch + Protein + Herb/Ferment) to the Communal Pot",
+        "16:00 - 22:00 visit the Zephyr Sky Caravan at Observatory Hill",
+        "23:00 share warm apple cider around the hearthfire to close the year"
+      ],
+      "rewards": [
+        "Grandma Amalia's Recipe Book Vol. 2 (Year 1) or Golden Spices (Year 2+)",
+        "+20 to +80 town-wide friendship (+50 bonus for matching NPC favorites)"
+      ],
+      "special_food": "lau_thap_cam_bach_vi"
     }
   ],
   "recurring_events": [
