@@ -1,10 +1,10 @@
 {
-  "version": "3.1.0",
+  "version": "3.2.0",
   "updated": "2026-11-25",
   "recipes": [
     {
       "id": "com_nam_muoi_rung",
-      "name": "Cơm Nắm Muối Biển",
+      "name": "Cơm Nắm Muối Biển (Onigiri)",
       "station": "kitchen_pot",
       "ingredients": [
         {
@@ -93,7 +93,7 @@
     },
     {
       "id": "sup_nam_sao_am_bung",
-      "name": "Súp Nấm Rừng Củ Cải",
+      "name": "Súp Kem Nấm Củ Cải",
       "station": "kitchen_pot",
       "ingredients": [
         {
@@ -119,7 +119,7 @@
     },
     {
       "id": "ca_suoi_nuong_muoi_ot",
-      "name": "Cá Suối Nướng Muối Ớt Chanh",
+      "name": "Cá Suối Nướng Chanh Ớt",
       "station": "kitchen_grill",
       "ingredients": [
         {
@@ -145,7 +145,7 @@
     },
     {
       "id": "bap_xao_bo_cay",
-      "name": "Bắp Xào Bơ Ớt",
+      "name": "Taco Bắp Bơ Sắn Nước",
       "station": "kitchen_pan",
       "ingredients": [
         {
@@ -154,8 +154,13 @@
           "quantity": 1
         },
         {
-          "id": "item_butter",
-          "name": "Bơ Tươi",
+          "id": "item_avocado",
+          "name": "Cây Bơ Béo",
+          "quantity": 1
+        },
+        {
+          "id": "item_jicama_root",
+          "name": "Củ Sắn Nước Jícama",
           "quantity": 1
         },
         {
@@ -165,8 +170,8 @@
         }
       ],
       "result_item_id": "food_bap_xao_bo_cay",
-      "hp": 75,
-      "stamina": 100,
+      "hp": 85,
+      "stamina": 110,
       "buff": "+1 Tốc độ, +1 Tấn công"
     },
     {
@@ -218,12 +223,17 @@
     },
     {
       "id": "banh_xeo_hanh_hoa_gion",
-      "name": "Bánh Xèo Hành Lá Giòn",
+      "name": "Bánh Xèo Giòn Thung Lũng",
       "station": "kitchen_pan",
       "ingredients": [
         {
-          "id": "item_flour",
-          "name": "Bột Mì Tươi",
+          "id": "item_paddy_rice",
+          "name": "Gạo Lúa Nước",
+          "quantity": 1
+        },
+        {
+          "id": "item_golden_turmeric",
+          "name": "Củ Nghệ Vàng",
           "quantity": 1
         },
         {
@@ -232,19 +242,19 @@
           "quantity": 1
         },
         {
-          "id": "item_egg",
-          "name": "Trứng Gà Trang Trại",
+          "id": "item_lake_shrimp",
+          "name": "Tôm Hồ Nước Ngọt",
           "quantity": 1
         }
       ],
       "result_item_id": "food_banh_xeo_hanh_hoa_gion",
-      "hp": 70,
-      "stamina": 95,
+      "hp": 95,
+      "stamina": 125,
       "buff": "+15% Tốc độ vung vũ khí"
     },
     {
       "id": "bo_ham_ruou_vang_mo",
-      "name": "Bò Hầm Rượu Vang Hành Tây",
+      "name": "Bò Hầm Rượu Vang (Boeuf Bourguignon)",
       "station": "kitchen_pot",
       "ingredients": [
         {
@@ -348,7 +358,7 @@
     },
     {
       "id": "banh_mi_thit_ham_pho_mai",
-      "name": "Bánh Mì Thịt Hầm Phô Mai",
+      "name": "Bánh Mì Nướng Phô Mai Bò Hầm",
       "station": "kitchen_oven",
       "ingredients": [
         {
@@ -374,7 +384,7 @@
     },
     {
       "id": "canh_chua_ca_suoi_cay",
-      "name": "Canh Chua Cá Suối Cay",
+      "name": "Súp Hải Sản Nghệ Tây (Bouillabaisse)",
       "station": "kitchen_pot",
       "ingredients": [
         {
@@ -388,20 +398,20 @@
           "quantity": 1
         },
         {
-          "id": "item_hearth_chili",
-          "name": "Ớt Đỏ Lửa Bếp",
+          "id": "item_saffron_crocus",
+          "name": "Nghệ Tây Saffron",
           "quantity": 1
         }
       ],
       "result_item_id": "food_canh_chua_ca_suoi_cay",
-      "hp": 100,
-      "stamina": 140,
+      "hp": 125,
+      "stamina": 165,
       "buff": "+2 Kháng nhiệt độ / Kháng độc"
     },
     {
       "id": "muc_ham_hanh_toi",
-      "name": "Mực Hầm Hành Tỏi",
-      "station": "kitchen_pot",
+      "name": "Mực Xào Tỏi Ô-liu Địa Trung Hải",
+      "station": "kitchen_pan",
       "ingredients": [
         {
           "id": "item_lake_squid",
@@ -414,8 +424,8 @@
           "quantity": 1
         },
         {
-          "id": "item_spring_scallion",
-          "name": "Hành Lá Thung Lũng",
+          "id": "item_olive_oil",
+          "name": "Cây Ô-liu Cổ",
           "quantity": 1
         }
       ],
@@ -426,7 +436,7 @@
     },
     {
       "id": "com_chien_hai_san_dam_vi",
-      "name": "Cơm Chiên Hải Sản Nghệ Tây",
+      "name": "Cơm Trộn Bibimbap Thung Lũng",
       "station": "kitchen_pan",
       "ingredients": [
         {
@@ -435,24 +445,29 @@
           "quantity": 1
         },
         {
-          "id": "item_stream_fish",
-          "name": "Cá Chép Suối",
+          "id": "item_valley_spinach",
+          "name": "Rau Chân Vịt Đồi Sương",
           "quantity": 1
         },
         {
-          "id": "item_saffron_crocus",
-          "name": "Nghệ Tây Saffron",
+          "id": "item_egg",
+          "name": "Trứng Gà Trang Trại",
+          "quantity": 1
+        },
+        {
+          "id": "item_hearth_chili",
+          "name": "Ớt Đỏ Lửa Bếp",
           "quantity": 1
         }
       ],
       "result_item_id": "food_com_chien_hai_san_dam_vi",
-      "hp": 120,
-      "stamina": 160,
+      "hp": 130,
+      "stamina": 170,
       "buff": "+2 Đào mỏ, +1 Tấn công"
     },
     {
       "id": "sup_tom_hum_sua_beo",
-      "name": "Súp Tôm Hồ Sữa Béo",
+      "name": "Súp Kem Tôm Hồ (Bisque)",
       "station": "kitchen_pot",
       "ingredients": [
         {
@@ -478,7 +493,7 @@
     },
     {
       "id": "lau_ca_cay_ham_nguc",
-      "name": "Lẩu Cá Cay Nấm Rừng",
+      "name": "Lẩu Cá Cay Hầm Mỏ Khaz-Drakor",
       "station": "kitchen_pot",
       "ingredients": [
         {
@@ -566,7 +581,7 @@
     },
     {
       "id": "salad_trai_cay_mua_ha",
-      "name": "Salad Dưa Hấu Kiwano Ô-liu",
+      "name": "Salad Dưa Hấu Kiwano Bạc Hà",
       "station": "kitchen_pot",
       "ingredients": [
         {
@@ -580,8 +595,8 @@
           "quantity": 1
         },
         {
-          "id": "item_olive_oil",
-          "name": "Cây Ô-liu Cổ",
+          "id": "item_frostmint",
+          "name": "Bạc Hà Sương Mai",
           "quantity": 1
         }
       ],
@@ -639,8 +654,8 @@
     },
     {
       "id": "thit_xong_khoi_cui_go_soi",
-      "name": "Cà Tím Nướng Mỡ Hành Thịt Băm",
-      "station": "kitchen_grill",
+      "name": "Cà Tím Đút Lò Phô Mai Thịt Băm",
+      "station": "kitchen_oven",
       "ingredients": [
         {
           "id": "item_night_eggplant",
@@ -653,8 +668,8 @@
           "quantity": 1
         },
         {
-          "id": "item_spring_scallion",
-          "name": "Hành Lá Thung Lũng",
+          "id": "item_cheese",
+          "name": "Phô Mai Ủ Sồi",
           "quantity": 1
         }
       ],
@@ -665,7 +680,7 @@
     },
     {
       "id": "lap_xuong_tieu_den_mo_da",
-      "name": "Lạp Xưởng Tiêu Đen Hành Tây",
+      "name": "Xúc Xích Hun Khói Tiêu Đen Hành Tây",
       "station": "kitchen_grill",
       "ingredients": [
         {
@@ -691,8 +706,8 @@
     },
     {
       "id": "mi_soi_tuoi_xao_nam_cay",
-      "name": "Mì Sợi Tươi Xào Nấm Ớt",
-      "station": "kitchen_pan",
+      "name": "Mì Ramen Tương Đậu Nấm Cục Đá",
+      "station": "kitchen_pot",
       "ingredients": [
         {
           "id": "item_flour",
@@ -700,20 +715,25 @@
           "quantity": 1
         },
         {
-          "id": "item_wild_mushroom",
-          "name": "Nấm Hương Rừng Già",
+          "id": "item_golden_soybean",
+          "name": "Đậu Tương Vàng",
           "quantity": 1
         },
         {
-          "id": "item_hearth_chili",
-          "name": "Ớt Đỏ Lửa Bếp",
+          "id": "item_cave_truffle",
+          "name": "Nấm Cục Đá Hang Sâu",
+          "quantity": 1
+        },
+        {
+          "id": "item_egg",
+          "name": "Trứng Gà Trang Trại",
           "quantity": 1
         }
       ],
       "result_item_id": "food_mi_soi_tuoi_xao_nam_cay",
-      "hp": 100,
-      "stamina": 140,
-      "buff": "+2 Tốc độ, +1 Tấn công"
+      "hp": 150,
+      "stamina": 200,
+      "buff": "+2 Tốc độ, +2 Đào mỏ"
     },
     {
       "id": "banh_kep_trung_xuc_xich",
@@ -743,7 +763,7 @@
     },
     {
       "id": "sup_cu_den_do_dai_ngan",
-      "name": "Súp Củ Dền Ruby Đại Ngàn",
+      "name": "Súp Củ Dền Borscht Đại Ngàn",
       "station": "kitchen_pot",
       "ingredients": [
         {
@@ -795,8 +815,8 @@
     },
     {
       "id": "xoi_hat_sen_nuoc_cot_dua",
-      "name": "Xôi Ngó Sen Nghệ Vàng",
-      "station": "kitchen_steamer",
+      "name": "Cơm Chảo Paella Hải Sản Nghệ Tây",
+      "station": "kitchen_pan",
       "ingredients": [
         {
           "id": "item_paddy_rice",
@@ -804,29 +824,8 @@
           "quantity": 1
         },
         {
-          "id": "item_terrace_lotus_root",
-          "name": "Ngó Sen Bùn Ruộng Bậc Thang",
-          "quantity": 1
-        },
-        {
-          "id": "item_golden_turmeric",
-          "name": "Củ Nghệ Vàng",
-          "quantity": 1
-        }
-      ],
-      "result_item_id": "food_xoi_hat_sen_nuoc_cot_dua",
-      "hp": 120,
-      "stamina": 180,
-      "buff": "[Món Thanh Tẩy]: Tăng 25% điểm hòa giải linh hồn"
-    },
-    {
-      "id": "banh_chung_lua_rung",
-      "name": "Bánh Chưng Đậu Xanh Thịt Heo",
-      "station": "kitchen_pot",
-      "ingredients": [
-        {
-          "id": "item_paddy_rice",
-          "name": "Gạo Lúa Nước",
+          "id": "item_lake_shrimp",
+          "name": "Tôm Hồ Nước Ngọt",
           "quantity": 1
         },
         {
@@ -835,15 +834,46 @@
           "quantity": 1
         },
         {
-          "id": "item_pork",
-          "name": "Thịt & Sườn Heo",
+          "id": "item_saffron_crocus",
+          "name": "Nghệ Tây Saffron",
+          "quantity": 1
+        }
+      ],
+      "result_item_id": "food_xoi_hat_sen_nuoc_cot_dua",
+      "hp": 150,
+      "stamina": 210,
+      "buff": "[Món Thanh Tẩy]: Tăng 25% điểm hòa giải linh hồn"
+    },
+    {
+      "id": "banh_chung_lua_rung",
+      "name": "Bánh Hầm Empanada Bò Củ Oca",
+      "station": "kitchen_oven",
+      "ingredients": [
+        {
+          "id": "item_flour",
+          "name": "Bột Mì Tươi",
+          "quantity": 1
+        },
+        {
+          "id": "item_beef",
+          "name": "Thịt Bò Trang Trại",
+          "quantity": 1
+        },
+        {
+          "id": "item_andean_oca",
+          "name": "Củ Oca Đá Quý",
+          "quantity": 1
+        },
+        {
+          "id": "item_hearth_chili",
+          "name": "Ớt Đỏ Lửa Bếp",
           "quantity": 1
         }
       ],
       "result_item_id": "food_banh_chung_lua_rung",
-      "hp": 220,
-      "stamina": 300,
-      "buff": "+3 Phòng ngự, +3 Tấn công, +50 Max HP"
+      "hp": 180,
+      "stamina": 250,
+      "buff": "+3 Phòng ngự, +3 Tấn công, +30 Max HP"
     },
     {
       "id": "canh_thao_moc_bup_sen",
@@ -868,28 +898,33 @@
     },
     {
       "id": "banh_deo_trang_ram_hoa_buoi",
-      "name": "Bánh Dẻo Khoai Tím Mơ Vàng",
-      "station": "kitchen_steamer",
+      "name": "Gà Hầm Tagine Mơ Vàng Sung Mật",
+      "station": "kitchen_pot",
       "ingredients": [
         {
-          "id": "item_paddy_rice",
-          "name": "Gạo Lúa Nước",
-          "quantity": 1
-        },
-        {
-          "id": "item_purple_ube",
-          "name": "Củ Khoai Tím Cổ Thụ",
+          "id": "item_poultry",
+          "name": "Thịt Gà Vườn",
           "quantity": 1
         },
         {
           "id": "item_apricot",
           "name": "Cây Mơ Vàng Nắng",
           "quantity": 1
+        },
+        {
+          "id": "item_honey_fig",
+          "name": "Cây Sung Ngọt Mật",
+          "quantity": 1
+        },
+        {
+          "id": "item_golden_turmeric",
+          "name": "Củ Nghệ Vàng",
+          "quantity": 1
         }
       ],
       "result_item_id": "food_banh_deo_trang_ram_hoa_buoi",
-      "hp": 90,
-      "stamina": 140,
+      "hp": 135,
+      "stamina": 190,
       "buff": "+3 May mắn, Khách mua hàng hào phóng +30%"
     },
     {
@@ -1045,7 +1080,7 @@
     },
     {
       "id": "oc_nuong_bo_tieu_den",
-      "name": "Ốc Hồ Nướng Bơ Tiêu Đen",
+      "name": "Ốc Hồ Nướng Bơ Tiêu Đen (Escargot)",
       "station": "kitchen_grill",
       "ingredients": [
         {
@@ -1071,34 +1106,34 @@
     },
     {
       "id": "com_tho_suon_hap_nam",
-      "name": "Cơm Thố Sườn Đậu Tương Nấm Cục",
-      "station": "kitchen_steamer",
+      "name": "Bánh Tart Khoai Tím Ube & Vani Rừng",
+      "station": "kitchen_oven",
       "ingredients": [
         {
-          "id": "item_paddy_rice",
-          "name": "Gạo Lúa Nước",
+          "id": "item_purple_ube",
+          "name": "Củ Khoai Tím Cổ Thụ",
           "quantity": 1
         },
         {
-          "id": "item_pork",
-          "name": "Thịt & Sườn Heo",
+          "id": "item_vanilla_orchid",
+          "name": "Dây Vani Rừng Sâu",
           "quantity": 1
         },
         {
-          "id": "item_golden_soybean",
-          "name": "Đậu Tương Vàng",
+          "id": "item_flour",
+          "name": "Bột Mì Tươi",
           "quantity": 1
         },
         {
-          "id": "item_cave_truffle",
-          "name": "Nấm Cục Đá Hang Sâu",
+          "id": "item_butter",
+          "name": "Bơ Tươi",
           "quantity": 1
         }
       ],
       "result_item_id": "food_com_tho_suon_hap_nam",
-      "hp": 160,
-      "stamina": 210,
-      "buff": "+2 Tấn công, +2 Đào mỏ, +1 Tốc độ"
+      "hp": 140,
+      "stamina": 200,
+      "buff": "+2 Tốc độ, +2 May mắn"
     },
     {
       "id": "banh_pie_tao_que_lo_dat",
@@ -1180,7 +1215,7 @@
     },
     {
       "id": "lau_thap_cam_bach_vi",
-      "name": "Lẩu Thập Cẩm Khoai Lang Bách Vị",
+      "name": "Lẩu Thập Cẩm Salsify Đỉnh Núi",
       "station": "kitchen_pot",
       "ingredients": [
         {
@@ -1320,7 +1355,7 @@
     },
     {
       "id": "sup_yen_pha_le_thung_lung",
-      "name": "Súp Tuyết Liên Đom Đóm Mật Ong",
+      "name": "Linh Dược Tuyết Liên & Dương Xỉ Đom Đóm",
       "station": "kitchen_pot",
       "ingredients": [
         {
@@ -1346,7 +1381,7 @@
     },
     {
       "id": "banh_ngu_coc_dai_luc",
-      "name": "Bánh Ngũ Cốc Hạt Oca Sắn Dây",
+      "name": "Bánh Ngũ Cốc Sắn Dây Hắc Mạch",
       "station": "kitchen_oven",
       "ingredients": [
         {
@@ -1355,8 +1390,8 @@
           "quantity": 1
         },
         {
-          "id": "item_andean_oca",
-          "name": "Củ Oca Đá Quý",
+          "id": "item_shadow_rye",
+          "name": "Bó Hắc Mạch Đêm Rừng",
           "quantity": 1
         },
         {
@@ -1403,7 +1438,7 @@
     },
     {
       "id": "yen_tiec_cau_sieu_anh_hon",
-      "name": "Yến Tiệc Cầu Siêu Anh Hồn",
+      "name": "Đại Yến Bàn Thờ Cổ Solaria",
       "station": "kitchen_pot",
       "ingredients": [
         {

@@ -1,10 +1,10 @@
 {
-  "version": "3.1.0",
+  "version": "3.2.0",
   "updated": "2026-11-25",
   "recipes": [
     {
       "id": "com_nam_muoi_rung",
-      "name": "Sea-Salted Rice Ball",
+      "name": "Sea-Salted Rice Ball (Onigiri)",
       "station": "kitchen_pot",
       "ingredients": [
         {
@@ -72,7 +72,7 @@
     },
     {
       "id": "banh_mi_lua_mi_gion",
-      "name": "Crusty Wheat Loaf",
+      "name": "Crusty Hearth Sourdough",
       "station": "kitchen_oven",
       "ingredients": [
         {
@@ -93,7 +93,7 @@
     },
     {
       "id": "sup_nam_sao_am_bung",
-      "name": "Warm Mushroom & Turnip Soup",
+      "name": "Creamy Mushroom & Turnip Soup",
       "station": "kitchen_pot",
       "ingredients": [
         {
@@ -145,7 +145,7 @@
     },
     {
       "id": "bap_xao_bo_cay",
-      "name": "Chili-Buttered Sun Corn",
+      "name": "Avocado & Jícama Corn Taco",
       "station": "kitchen_pan",
       "ingredients": [
         {
@@ -154,8 +154,13 @@
           "quantity": 1
         },
         {
-          "id": "item_butter",
-          "name": "Fresh Butter",
+          "id": "item_avocado",
+          "name": "Creamy Avocado Tree",
+          "quantity": 1
+        },
+        {
+          "id": "item_jicama_root",
+          "name": "Crispy Jícama",
           "quantity": 1
         },
         {
@@ -165,8 +170,8 @@
         }
       ],
       "result_item_id": "food_bap_xao_bo_cay",
-      "hp": 75,
-      "stamina": 100,
+      "hp": 85,
+      "stamina": 110,
       "buff": "+1 Speed, +1 Attack"
     },
     {
@@ -218,12 +223,17 @@
     },
     {
       "id": "banh_xeo_hanh_hoa_gion",
-      "name": "Crispy Scallion Skillet Cake",
+      "name": "Crispy Valley Savory Crepe (Banh Xeo)",
       "station": "kitchen_pan",
       "ingredients": [
         {
-          "id": "item_flour",
-          "name": "Fresh Flour",
+          "id": "item_paddy_rice",
+          "name": "Milled Valley Rice",
+          "quantity": 1
+        },
+        {
+          "id": "item_golden_turmeric",
+          "name": "Golden Turmeric",
           "quantity": 1
         },
         {
@@ -232,19 +242,19 @@
           "quantity": 1
         },
         {
-          "id": "item_egg",
-          "name": "Farmstead Egg",
+          "id": "item_lake_shrimp",
+          "name": "Freshwater Shrimp",
           "quantity": 1
         }
       ],
       "result_item_id": "food_banh_xeo_hanh_hoa_gion",
-      "hp": 70,
-      "stamina": 95,
+      "hp": 95,
+      "stamina": 125,
       "buff": "+15% Attack Speed"
     },
     {
       "id": "bo_ham_ruou_vang_mo",
-      "name": "Night-Wine Onion Braised Beef",
+      "name": "Night-Wine Beef Bourguignon",
       "station": "kitchen_pot",
       "ingredients": [
         {
@@ -348,7 +358,7 @@
     },
     {
       "id": "banh_mi_thit_ham_pho_mai",
-      "name": "Melted Cheese Beef Sandwich",
+      "name": "Melted Cheese & Beef Gratin Melt",
       "station": "kitchen_oven",
       "ingredients": [
         {
@@ -374,7 +384,7 @@
     },
     {
       "id": "canh_chua_ca_suoi_cay",
-      "name": "Spicy Fire-Tomato Fish Broth",
+      "name": "Solaria Saffron Fish Bouillabaisse",
       "station": "kitchen_pot",
       "ingredients": [
         {
@@ -388,20 +398,20 @@
           "quantity": 1
         },
         {
-          "id": "item_hearth_chili",
-          "name": "Hearth Red Chili",
+          "id": "item_saffron_crocus",
+          "name": "Saffron Crocus",
           "quantity": 1
         }
       ],
       "result_item_id": "food_canh_chua_ca_suoi_cay",
-      "hp": 100,
-      "stamina": 140,
+      "hp": 125,
+      "stamina": 165,
       "buff": "+2 Cold & Poison Resist"
     },
     {
       "id": "muc_ham_hanh_toi",
-      "name": "Garlic-Scallion Braised Squid",
-      "station": "kitchen_pot",
+      "name": "Mediterranean Garlic-Olive Squid",
+      "station": "kitchen_pan",
       "ingredients": [
         {
           "id": "item_lake_squid",
@@ -414,8 +424,8 @@
           "quantity": 1
         },
         {
-          "id": "item_spring_scallion",
-          "name": "Valley Scallion",
+          "id": "item_olive_oil",
+          "name": "Ancient Olive Tree",
           "quantity": 1
         }
       ],
@@ -426,7 +436,7 @@
     },
     {
       "id": "com_chien_hai_san_dam_vi",
-      "name": "Saffron Seafood Fried Rice",
+      "name": "Valley Harvest Bibimbap Bowl",
       "station": "kitchen_pan",
       "ingredients": [
         {
@@ -435,24 +445,29 @@
           "quantity": 1
         },
         {
-          "id": "item_stream_fish",
-          "name": "Stream Carp",
+          "id": "item_valley_spinach",
+          "name": "Valley Spinach",
           "quantity": 1
         },
         {
-          "id": "item_saffron_crocus",
-          "name": "Saffron Crocus",
+          "id": "item_egg",
+          "name": "Farmstead Egg",
+          "quantity": 1
+        },
+        {
+          "id": "item_hearth_chili",
+          "name": "Hearth Red Chili",
           "quantity": 1
         }
       ],
       "result_item_id": "food_com_chien_hai_san_dam_vi",
-      "hp": 120,
-      "stamina": 160,
+      "hp": 130,
+      "stamina": 170,
       "buff": "+2 Mining, +1 Attack"
     },
     {
       "id": "sup_tom_hum_sua_beo",
-      "name": "Creamy Freshwater Shrimp Bisque",
+      "name": "Velvet Freshwater Shrimp Bisque",
       "station": "kitchen_pot",
       "ingredients": [
         {
@@ -478,7 +493,7 @@
     },
     {
       "id": "lau_ca_cay_ham_nguc",
-      "name": "Chili Carp & Mushroom Hotpot",
+      "name": "Khaz-Drakor Fiery Fish Hotpot",
       "station": "kitchen_pot",
       "ingredients": [
         {
@@ -566,7 +581,7 @@
     },
     {
       "id": "salad_trai_cay_mua_ha",
-      "name": "Summer Melon, Kiwano & Olive Salad",
+      "name": "Summer Melon, Kiwano & Mint Salad",
       "station": "kitchen_pot",
       "ingredients": [
         {
@@ -580,8 +595,8 @@
           "quantity": 1
         },
         {
-          "id": "item_olive_oil",
-          "name": "Ancient Olive Tree",
+          "id": "item_frostmint",
+          "name": "Dewdrop Mint",
           "quantity": 1
         }
       ],
@@ -639,8 +654,8 @@
     },
     {
       "id": "thit_xong_khoi_cui_go_soi",
-      "name": "Scallion Pork-Stuffed Roasted Eggplant",
-      "station": "kitchen_grill",
+      "name": "Baked Pork & Cheese Eggplant",
+      "station": "kitchen_oven",
       "ingredients": [
         {
           "id": "item_night_eggplant",
@@ -653,8 +668,8 @@
           "quantity": 1
         },
         {
-          "id": "item_spring_scallion",
-          "name": "Valley Scallion",
+          "id": "item_cheese",
+          "name": "Oak-Aged Cheese",
           "quantity": 1
         }
       ],
@@ -691,8 +706,8 @@
     },
     {
       "id": "mi_soi_tuoi_xao_nam_cay",
-      "name": "Spicy Chili Mushroom Noodles",
-      "station": "kitchen_pan",
+      "name": "Truffle Miso & Egg Ramen",
+      "station": "kitchen_pot",
       "ingredients": [
         {
           "id": "item_flour",
@@ -700,20 +715,25 @@
           "quantity": 1
         },
         {
-          "id": "item_wild_mushroom",
-          "name": "Wild Forest Mushroom",
+          "id": "item_golden_soybean",
+          "name": "Golden Soybean",
           "quantity": 1
         },
         {
-          "id": "item_hearth_chili",
-          "name": "Hearth Red Chili",
+          "id": "item_cave_truffle",
+          "name": "Cavern Black Truffle",
+          "quantity": 1
+        },
+        {
+          "id": "item_egg",
+          "name": "Farmstead Egg",
           "quantity": 1
         }
       ],
       "result_item_id": "food_mi_soi_tuoi_xao_nam_cay",
-      "hp": 100,
-      "stamina": 140,
-      "buff": "+2 Speed, +1 Attack"
+      "hp": 150,
+      "stamina": 200,
+      "buff": "+2 Speed, +2 Mining"
     },
     {
       "id": "banh_kep_trung_xuc_xich",
@@ -743,7 +763,7 @@
     },
     {
       "id": "sup_cu_den_do_dai_ngan",
-      "name": "Ruby Beet & Potato Chowder",
+      "name": "Highland Ruby Beet Borscht",
       "station": "kitchen_pot",
       "ingredients": [
         {
@@ -795,8 +815,8 @@
     },
     {
       "id": "xoi_hat_sen_nuoc_cot_dua",
-      "name": "Turmeric Lotus Sticky Rice",
-      "station": "kitchen_steamer",
+      "name": "Grand Saffron Seafood Paella",
+      "station": "kitchen_pan",
       "ingredients": [
         {
           "id": "item_paddy_rice",
@@ -804,29 +824,8 @@
           "quantity": 1
         },
         {
-          "id": "item_terrace_lotus_root",
-          "name": "Terrace Mud Lotus Root",
-          "quantity": 1
-        },
-        {
-          "id": "item_golden_turmeric",
-          "name": "Golden Turmeric",
-          "quantity": 1
-        }
-      ],
-      "result_item_id": "food_xoi_hat_sen_nuoc_cot_dua",
-      "hp": 120,
-      "stamina": 180,
-      "buff": "[Purification]: +25% Altar Cleansing Power"
-    },
-    {
-      "id": "banh_chung_lua_rung",
-      "name": "Hearth-Steamed Sticky Rice Cake",
-      "station": "kitchen_pot",
-      "ingredients": [
-        {
-          "id": "item_paddy_rice",
-          "name": "Milled Valley Rice",
+          "id": "item_lake_shrimp",
+          "name": "Freshwater Shrimp",
           "quantity": 1
         },
         {
@@ -835,15 +834,46 @@
           "quantity": 1
         },
         {
-          "id": "item_pork",
-          "name": "Homestead Pork & Ribs",
+          "id": "item_saffron_crocus",
+          "name": "Saffron Crocus",
+          "quantity": 1
+        }
+      ],
+      "result_item_id": "food_xoi_hat_sen_nuoc_cot_dua",
+      "hp": 150,
+      "stamina": 210,
+      "buff": "[Purification]: +25% Altar Cleansing Power"
+    },
+    {
+      "id": "banh_chung_lua_rung",
+      "name": "Baked Andean Oca & Beef Empanada",
+      "station": "kitchen_oven",
+      "ingredients": [
+        {
+          "id": "item_flour",
+          "name": "Fresh Flour",
+          "quantity": 1
+        },
+        {
+          "id": "item_beef",
+          "name": "Pasture Beef",
+          "quantity": 1
+        },
+        {
+          "id": "item_andean_oca",
+          "name": "Andean Jewel Oca",
+          "quantity": 1
+        },
+        {
+          "id": "item_hearth_chili",
+          "name": "Hearth Red Chili",
           "quantity": 1
         }
       ],
       "result_item_id": "food_banh_chung_lua_rung",
-      "hp": 220,
-      "stamina": 300,
-      "buff": "+3 Defense, +3 Attack, +50 Max HP"
+      "hp": 180,
+      "stamina": 250,
+      "buff": "+3 Defense, +3 Attack, +30 Max HP"
     },
     {
       "id": "canh_thao_moc_bup_sen",
@@ -868,28 +898,33 @@
     },
     {
       "id": "banh_deo_trang_ram_hoa_buoi",
-      "name": "Purple Ube & Apricot Mooncake",
-      "station": "kitchen_steamer",
+      "name": "Apricot & Honey-Fig Poultry Tagine",
+      "station": "kitchen_pot",
       "ingredients": [
         {
-          "id": "item_paddy_rice",
-          "name": "Milled Valley Rice",
-          "quantity": 1
-        },
-        {
-          "id": "item_purple_ube",
-          "name": "Ancient Forest Ube",
+          "id": "item_poultry",
+          "name": "Free-Range Poultry",
           "quantity": 1
         },
         {
           "id": "item_apricot",
           "name": "Golden Apricot Tree",
           "quantity": 1
+        },
+        {
+          "id": "item_honey_fig",
+          "name": "Honey Fig Tree",
+          "quantity": 1
+        },
+        {
+          "id": "item_golden_turmeric",
+          "name": "Golden Turmeric",
+          "quantity": 1
         }
       ],
       "result_item_id": "food_banh_deo_trang_ram_hoa_buoi",
-      "hp": 90,
-      "stamina": 140,
+      "hp": 135,
+      "stamina": 190,
       "buff": "+3 Luck, +30% Tavern Guest Tips"
     },
     {
@@ -1045,7 +1080,7 @@
     },
     {
       "id": "oc_nuong_bo_tieu_den",
-      "name": "Pepper-Butter Grilled Lake Snails",
+      "name": "Pepper-Butter Lake Escargot",
       "station": "kitchen_grill",
       "ingredients": [
         {
@@ -1071,34 +1106,34 @@
     },
     {
       "id": "com_tho_suon_hap_nam",
-      "name": "Truffle Soy-Glazed Pork Claypot",
-      "station": "kitchen_steamer",
+      "name": "Sylva-Fae Ube & Vanilla Tart",
+      "station": "kitchen_oven",
       "ingredients": [
         {
-          "id": "item_paddy_rice",
-          "name": "Milled Valley Rice",
+          "id": "item_purple_ube",
+          "name": "Ancient Forest Ube",
           "quantity": 1
         },
         {
-          "id": "item_pork",
-          "name": "Homestead Pork & Ribs",
+          "id": "item_vanilla_orchid",
+          "name": "Deepwood Vanilla Orchid",
           "quantity": 1
         },
         {
-          "id": "item_golden_soybean",
-          "name": "Golden Soybean",
+          "id": "item_flour",
+          "name": "Fresh Flour",
           "quantity": 1
         },
         {
-          "id": "item_cave_truffle",
-          "name": "Cavern Black Truffle",
+          "id": "item_butter",
+          "name": "Fresh Butter",
           "quantity": 1
         }
       ],
       "result_item_id": "food_com_tho_suon_hap_nam",
-      "hp": 160,
-      "stamina": 210,
-      "buff": "+2 Attack, +2 Mining, +1 Speed"
+      "hp": 140,
+      "stamina": 200,
+      "buff": "+2 Speed, +2 Luck"
     },
     {
       "id": "banh_pie_tao_que_lo_dat",
@@ -1180,7 +1215,7 @@
     },
     {
       "id": "lau_thap_cam_bach_vi",
-      "name": "Moonlight Yam & Salsify Grand Hotpot",
+      "name": "Oakhaven Salsify & Yam Grand Hotpot",
       "station": "kitchen_pot",
       "ingredients": [
         {
@@ -1346,7 +1381,7 @@
     },
     {
       "id": "banh_ngu_coc_dai_luc",
-      "name": "Oca & Cassava Multi-Grain Loaf",
+      "name": "Cassava & Dark-Rye Hearth Loaf",
       "station": "kitchen_oven",
       "ingredients": [
         {
@@ -1355,8 +1390,8 @@
           "quantity": 1
         },
         {
-          "id": "item_andean_oca",
-          "name": "Andean Jewel Oca",
+          "id": "item_shadow_rye",
+          "name": "Shadow Rye Sheaf",
           "quantity": 1
         },
         {
@@ -1403,7 +1438,7 @@
     },
     {
       "id": "yen_tiec_cau_sieu_anh_hon",
-      "name": "Grand Memorial Purification Feast",
+      "name": "Grand Solaria Memorial Feast",
       "station": "kitchen_pot",
       "ingredients": [
         {

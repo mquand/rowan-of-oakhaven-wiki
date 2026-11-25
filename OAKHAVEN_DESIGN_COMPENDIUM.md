@@ -254,10 +254,10 @@ Chu kỳ canh tác: Cuốc đất $\rightarrow$ Gieo hạt $\rightarrow$ Tưới
 
 *(Chi tiết đầy đủ 55 món ăn với nguyên liệu, trạm chế biến, giá bán và buff chỉ số xem chi tiết tại [cooking-recipes-guide.md](../rowan-of-oakhaven-wiki/docs/vi/cooking-recipes-guide.md))*
 
-* **Nhóm Buff Tấn Công (ATK Boost):** Bít Tết Nướng Than Tỏi Hương Thảo (+4 ATK), Phở Bò Thảo Mộc Thung Lũng (+3 Tấn công, +3 Tốc độ, Ấm bụng vượt giá rét), Cơm Chiên Hải Sản Nghệ Tây (+1 ATK, +2 Đào mỏ).
-* **Nhóm Buff Phòng Ngự (DEF Boost):** Bí Đỏ Nướng Phô Mai Dẻo (+3 DEF), Bánh Mì Kẹp Thịt Nướng Oakhaven (+2 DEF, +2 Tốc độ, +15% May mắn), Bánh Mì Thịt Hầm Phô Mai (+3 DEF, Kháng Choáng).
-* **Nhóm Buff Cơ Động & Tốc Độ (Speed Boost):** Salad Dưa Gai Ô-liu Mùa Hạ (+2 Tốc chạy), Cà Phê Sữa Nóng Cao Nguyên (+2 Tốc chạy), Bánh Xèo Hành Lá Giòn (+15% Tốc đánh).
-* **Nhóm Buff Đào Mỏ & Thu Thập (Mining & Luck Boost):** Súp Nấm Rừng Hành Lá (+2 Đào mỏ), Bánh Mì Bơ Tỏi Nướng Kép (+2 Đào mỏ), Bánh Pie Táo Sung Quế Lò Đất (+2 May mắn, +1 Tốc độ).
+* **Nhóm Buff Tấn Công (ATK Boost):** Bít Tết Nướng Than Tỏi Hương Thảo (+4 ATK), Phở Bò Thảo Mộc Thung Lũng (+3 Tấn công, +3 Tốc độ, Ấm bụng vượt giá rét), Tagine Gà Mơ Vàng Sung Mật (+3 May mắn, +30% Tip).
+* **Nhóm Buff Phòng Ngự (DEF Boost):** Bí Đỏ Nướng Phô Mai Dẻo (+3 DEF), Bánh Mì Kẹp Thịt Nướng Oakhaven (+2 DEF, +2 Tốc độ, +15% May mắn), Empanada Bò Củ Oca (+3 DEF, +3 ATK).
+* **Nhóm Buff Cơ Động & Tốc Độ (Speed Boost):** Salad Dưa Hấu Kiwano Bạc Hà (+2 Tốc chạy), Cà Phê Sữa Nóng Cao Nguyên (+2 Tốc chạy), Bánh Xèo Giòn Thung Lũng (+15% Tốc đánh).
+* **Nhóm Buff Đào Mỏ & Thu Thập (Mining & Luck Boost):** Mì Ramen Tương Đậu Nấm Cục (+2 Tốc độ, +2 Đào mỏ), Cơm Trộn Bibimbap Thung Lũng (+2 Đào mỏ, +1 Tấn công), Bánh Tart Khoai Tím Ube & Vani (+2 Tốc độ, +2 May mắn).
 * **Nhóm Thanh Tẩy Cầu Siêu (Soul Cleansing):** Dùng để dâng lên các Bàn Thờ Cổ trên mặt đất Chiến Trường Tro Tàn để giải phóng linh hồn và hóa giải đất độc thành đất đen phì nhiêu.
 
 ---
