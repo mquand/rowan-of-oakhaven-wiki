@@ -1,5 +1,5 @@
 {
-  "version": "2.2.0",
+  "version": "3.0.0",
   "updated": "2026-11-25",
   "crops": [
     {
@@ -381,13 +381,12 @@
       "seed_price": 35,
       "sell_price": 55,
       "profit_per_day": "3.33 Gold/day",
-      "description": "Crisp dense cabbage head that thrives in cool early spring mists, delivering refreshing crunch.",
+      "description": "Crisp, tightly wrapped heads thriving in morning chill; 2% chance to fuse into a Giant Ice Cabbage in 3x3 plots.",
       "harvest_note": "Single harvest. Excellent for light tavern broths and crisp slaws.",
       "tags": [
-        "field",
+        "spring",
         "vegetable",
-        "farming",
-        "spring"
+        "giant"
       ]
     },
     {
@@ -776,20 +775,20 @@
       "seed_price": 25,
       "sell_price": 50,
       "profit_per_day": "5.00 Gold/day",
-      "description": "Translucent icy turnip that thrives beneath thick winter blankets. Crisp, peppery, and hydrating.",
+      "description": "Frost-hardy white turnip (1 of 3 outdoor Winter crops); 2% chance to fuse into a Giant Snow Turnip in 3x3 plots.",
       "harvest_note": "Single harvest. Fastest winter cash crop (5-day growth cycle).",
       "tags": [
-        "field",
-        "vegetable",
-        "farming",
-        "winter"
+        "winter",
+        "root",
+        "giant"
       ]
     },
     {
       "id": "crop_frostmint",
-      "name": "Frostmint Herb",
+      "name": "Dewdrop Mint",
       "seasons": [
-        "winter"
+        "spring",
+        "summer"
       ],
       "growth_days": 6,
       "regrow_days": 0,
@@ -798,7 +797,7 @@
       "seed_price": 30,
       "sell_price": 65,
       "profit_per_day": "5.83 Gold/day",
-      "description": "Mint leaves rimmed with glacial frost. Refreshing menthol aroma that revitalizes mind and body.",
+      "description": "Crisp, cooling aromatic mint grown across Spring & Summer for refreshing teas and pastilles.",
       "harvest_note": "Single harvest. Brewed into steam-inhalation remedies for winter colds.",
       "tags": [
         "field",
@@ -809,9 +808,9 @@
     },
     {
       "id": "crop_frost_potato",
-      "name": "High-Mountain Frost Potato",
+      "name": "Highland Potato",
       "seasons": [
-        "winter"
+        "spring"
       ],
       "growth_days": 7,
       "regrow_days": 0,
@@ -820,7 +819,7 @@
       "seed_price": 45,
       "sell_price": 90,
       "profit_per_day": "~8.04 Gold/day (includes 25% extra yield)",
-      "description": "Hearty starchy potato dug from frozen soil. 25% chance to yield an extra potato upon harvest.",
+      "description": "Hearty spring-grown mountain potatoes; mashed with garlic butter for blacksmith Boris's favorite side dish.",
       "harvest_note": "Single harvest. Often yields multiple tubers per harvest.",
       "tags": [
         "field",
@@ -831,9 +830,9 @@
     },
     {
       "id": "crop_frost_beet",
-      "name": "Frost Ruby Beet",
+      "name": "Ruby Beet",
       "seasons": [
-        "winter"
+        "autumn"
       ],
       "growth_days": 6,
       "regrow_days": 0,
@@ -842,7 +841,7 @@
       "seed_price": 40,
       "sell_price": 80,
       "profit_per_day": "6.67 Gold/day",
-      "description": "Glistening ruby beet concentrating rich sugars in subzero loam. Makes deep red nourishing borscht.",
+      "description": "Autumn-harvested crimson roots rich in natural sugars for hearty borscht and festive bakes.",
       "harvest_note": "Single harvest. Natural deep red dye for bakery icing and tavern stews.",
       "tags": [
         "field",
@@ -928,8 +927,7 @@
       "id": "crop_mandrake",
       "name": "Mandrake Root",
       "seasons": [
-        "autumn",
-        "winter"
+        "autumn"
       ],
       "growth_days": 14,
       "regrow_days": 0,
@@ -938,7 +936,7 @@
       "seed_price": 100,
       "sell_price": 280,
       "profit_per_day": "12.86 Gold/day",
-      "description": "Bizarre anthropomorphic root murmuring beneath damp loam. Concentrates primal restorative essence.",
+      "description": "Prized humanoid root grown in Autumn (or year-round in the Greenhouse); stewed into boss combat vitality broths.",
       "harvest_note": "Single harvest. Thrives in both Autumn and harsh Winter soil.",
       "tags": [
         "field",
@@ -996,6 +994,1106 @@
         "grain",
         "staple",
         "paddy"
+      ]
+    },
+    {
+      "id": "crop_spring_scallion",
+      "name": "Valley Scallion",
+      "seasons": [
+        "spring"
+      ],
+      "growth_days": 3,
+      "regrow_days": 2,
+      "seed_item_id": "seed_spring_scallion",
+      "harvest_item_id": "item_spring_scallion",
+      "seed_price": 15,
+      "sell_price": 22,
+      "profit_per_day": "4.50g/day",
+      "description": "Fastest-growing valley herb; regrows crisp green stalks for stir-fries, omelets, and broths.",
+      "harvest_note": "Regrows every 2 days throughout Spring.",
+      "tags": [
+        "spring",
+        "herb",
+        "regrow"
+      ]
+    },
+    {
+      "id": "crop_valley_spinach",
+      "name": "Valley Spinach",
+      "seasons": [
+        "spring"
+      ],
+      "growth_days": 4,
+      "regrow_days": 0,
+      "seed_item_id": "seed_valley_spinach",
+      "harvest_item_id": "item_valley_spinach",
+      "seed_price": 20,
+      "sell_price": 42,
+      "profit_per_day": "5.50g/day",
+      "description": "Tender iron-rich leafy greens great for garlic sautés and savory pastry fillings.",
+      "harvest_note": "Single harvest after 4 days.",
+      "tags": [
+        "spring",
+        "vegetable"
+      ]
+    },
+    {
+      "id": "crop_silver_flax",
+      "name": "Silver Flax",
+      "seasons": [
+        "spring"
+      ],
+      "growth_days": 6,
+      "regrow_days": 0,
+      "seed_item_id": "seed_silver_flax",
+      "harvest_item_id": "item_silver_flax",
+      "seed_price": 30,
+      "sell_price": 65,
+      "profit_per_day": "5.83g/day",
+      "description": "Industrial fiber crop supplying Elora & Mae's looms with tough linen thread for ropes and canvas.",
+      "harvest_note": "Harvests flax fibers and oilseeds.",
+      "tags": [
+        "spring",
+        "fiber",
+        "craft"
+      ]
+    },
+    {
+      "id": "crop_jicama_root",
+      "name": "Crispy Jícama",
+      "seasons": [
+        "spring"
+      ],
+      "growth_days": 7,
+      "regrow_days": 0,
+      "seed_item_id": "seed_jicama_root",
+      "harvest_item_id": "item_jicama_root",
+      "seed_price": 40,
+      "sell_price": 95,
+      "profit_per_day": "7.86g/day",
+      "description": "Crisp, juicy Mexican turnip-root with sweet apple-like crunch; 2% chance to fuse into a Giant 3x3 Jícama.",
+      "harvest_note": "Plant in 3x3 clusters for Giant Spring Jícama.",
+      "tags": [
+        "spring",
+        "root",
+        "giant"
+      ]
+    },
+    {
+      "id": "crop_spring_asparagus",
+      "name": "Spring Asparagus",
+      "seasons": [
+        "spring"
+      ],
+      "growth_days": 7,
+      "regrow_days": 3,
+      "seed_item_id": "seed_spring_asparagus",
+      "harvest_item_id": "item_spring_asparagus",
+      "seed_price": 55,
+      "sell_price": 45,
+      "profit_per_day": "6.40g/day",
+      "description": "Slender emerald spears harvested repeatedly; butter-seared alongside steaks.",
+      "harvest_note": "Regrows every 3 days after first cut.",
+      "tags": [
+        "spring",
+        "vegetable",
+        "regrow"
+      ]
+    },
+    {
+      "id": "crop_bamboo_shoot",
+      "name": "Sweet Bamboo Shoot",
+      "seasons": [
+        "spring"
+      ],
+      "growth_days": 8,
+      "regrow_days": 4,
+      "seed_item_id": "seed_bamboo_shoot",
+      "harvest_item_id": "item_bamboo_shoot",
+      "seed_price": 50,
+      "sell_price": 50,
+      "profit_per_day": "5.80g/day",
+      "description": "Grown near streams; yields tender edible shoots and hollow bamboo tubes for Bamboo-Roasted Rice.",
+      "harvest_note": "Regrows every 4 days across Spring.",
+      "tags": [
+        "spring",
+        "vegetable",
+        "regrow"
+      ]
+    },
+    {
+      "id": "crop_globe_artichoke",
+      "name": "Globe Artichoke",
+      "seasons": [
+        "spring",
+        "summer"
+      ],
+      "growth_days": 8,
+      "regrow_days": 0,
+      "seed_item_id": "seed_globe_artichoke",
+      "harvest_item_id": "item_globe_artichoke",
+      "seed_price": 45,
+      "sell_price": 95,
+      "profit_per_day": "6.25g/day",
+      "description": "Ornamental purple-green thistle bud simmered into poison-cleansing broths.",
+      "harvest_note": "Plantable in both Spring & Summer.",
+      "tags": [
+        "spring",
+        "summer",
+        "vegetable"
+      ]
+    },
+    {
+      "id": "crop_highland_coffee",
+      "name": "Highland Coffee",
+      "seasons": [
+        "spring",
+        "summer"
+      ],
+      "growth_days": 10,
+      "regrow_days": 2,
+      "seed_item_id": "seed_highland_coffee",
+      "harvest_item_id": "item_highland_coffee",
+      "seed_price": 120,
+      "sell_price": 48,
+      "profit_per_day": "12.50g/day",
+      "description": "Highland coffee shrub yielding berries across Spring & Summer; roasted into speed-boosting hot coffee.",
+      "harvest_note": "Regrows berries every 2 days across Spring & Summer.",
+      "tags": [
+        "spring",
+        "summer",
+        "shrub",
+        "regrow"
+      ]
+    },
+    {
+      "id": "crop_hearth_chili",
+      "name": "Hearth Red Chili",
+      "seasons": [
+        "summer"
+      ],
+      "growth_days": 7,
+      "regrow_days": 3,
+      "seed_item_id": "seed_hearth_chili",
+      "harvest_item_id": "item_hearth_chili",
+      "seed_price": 45,
+      "sell_price": 34,
+      "profit_per_day": "5.50g/day",
+      "description": "Fiery red chili pods powering spicy hotpots, stir-fries, and grilled meats.",
+      "harvest_note": "Regrows every 3 days across Summer.",
+      "tags": [
+        "summer",
+        "spice",
+        "regrow"
+      ]
+    },
+    {
+      "id": "crop_night_eggplant",
+      "name": "Dusk Eggplant",
+      "seasons": [
+        "summer"
+      ],
+      "growth_days": 8,
+      "regrow_days": 4,
+      "seed_item_id": "seed_night_eggplant",
+      "harvest_item_id": "item_night_eggplant",
+      "seed_price": 50,
+      "sell_price": 45,
+      "profit_per_day": "6.20g/day",
+      "description": "Glossy deep-violet eggplants delicious grilled with scallions or braised with rice.",
+      "harvest_note": "Regrows every 4 days.",
+      "tags": [
+        "summer",
+        "vegetable",
+        "regrow"
+      ]
+    },
+    {
+      "id": "crop_kiwano_melon",
+      "name": "Horned Kiwano Melon",
+      "seasons": [
+        "summer"
+      ],
+      "growth_days": 9,
+      "regrow_days": 3,
+      "seed_item_id": "seed_kiwano_melon",
+      "harvest_item_id": "item_kiwano_melon",
+      "seed_price": 70,
+      "sell_price": 58,
+      "profit_per_day": "7.80g/day",
+      "description": "Striking trellised orange horned melon with emerald jelly flesh; refreshing citrus-melon tang.",
+      "harvest_note": "Trellis vine (blocks walking).",
+      "tags": [
+        "summer",
+        "melon",
+        "trellis",
+        "regrow"
+      ]
+    },
+    {
+      "id": "crop_chufa_nut",
+      "name": "Earth-Almond Chufa",
+      "seasons": [
+        "summer"
+      ],
+      "growth_days": 7,
+      "regrow_days": 0,
+      "seed_item_id": "seed_chufa_nut",
+      "harvest_item_id": "item_chufa_nut",
+      "seed_price": 35,
+      "sell_price": 78,
+      "profit_per_day": "6.14g/day",
+      "description": "Ancient sedge tubers tasting of sweet roasted almonds; pressed for plant milk and trail cookies.",
+      "harvest_note": "Single harvest after 7 days.",
+      "tags": [
+        "summer",
+        "root",
+        "nut"
+      ]
+    },
+    {
+      "id": "crop_golden_turmeric",
+      "name": "Golden Turmeric",
+      "seasons": [
+        "summer"
+      ],
+      "growth_days": 7,
+      "regrow_days": 0,
+      "seed_item_id": "seed_golden_turmeric",
+      "harvest_item_id": "item_golden_turmeric",
+      "seed_price": 35,
+      "sell_price": 80,
+      "profit_per_day": "6.43g/day",
+      "description": "Vibrant orange spice root coloring festival rice and Aurelia's recovery salves.",
+      "harvest_note": "Single harvest after 7 days.",
+      "tags": [
+        "summer",
+        "spice",
+        "root"
+      ]
+    },
+    {
+      "id": "crop_kudzu_cassava",
+      "name": "Valley Cassava",
+      "seasons": [
+        "summer",
+        "autumn"
+      ],
+      "growth_days": 8,
+      "regrow_days": 0,
+      "seed_item_id": "seed_kudzu_cassava",
+      "harvest_item_id": "item_kudzu_cassava",
+      "seed_price": 40,
+      "sell_price": 88,
+      "profit_per_day": "6.00g/day",
+      "description": "Drought-resilient starchy root refined into cooling summer drinks and chewy dumplings.",
+      "harvest_note": "Plantable in Summer & Autumn.",
+      "tags": [
+        "summer",
+        "autumn",
+        "root"
+      ]
+    },
+    {
+      "id": "crop_black_pepper",
+      "name": "Black Pepper Vine",
+      "seasons": [
+        "summer"
+      ],
+      "growth_days": 8,
+      "regrow_days": 3,
+      "seed_item_id": "seed_black_pepper",
+      "harvest_item_id": "item_black_pepper",
+      "seed_price": 60,
+      "sell_price": 42,
+      "profit_per_day": "7.10g/day",
+      "description": "Trellised peppercorn vine letting Rowan farm aromatic black pepper for steaks and sausages.",
+      "harvest_note": "Trellis vine, harvests peppercorns every 3 days.",
+      "tags": [
+        "summer",
+        "spice",
+        "trellis",
+        "regrow"
+      ]
+    },
+    {
+      "id": "crop_frontier_garlic",
+      "name": "Frontier Purple Garlic",
+      "seasons": [
+        "autumn"
+      ],
+      "growth_days": 5,
+      "regrow_days": 0,
+      "seed_item_id": "seed_frontier_garlic",
+      "harvest_item_id": "item_frontier_garlic",
+      "seed_price": 25,
+      "sell_price": 55,
+      "profit_per_day": "6.00g/day",
+      "description": "Pungent purple-skinned garlic essential for steaks, buttered potatoes, and braised squid.",
+      "harvest_note": "Quick 5-day Autumn harvest.",
+      "tags": [
+        "autumn",
+        "spice",
+        "root"
+      ]
+    },
+    {
+      "id": "crop_valley_onion",
+      "name": "Golden Valley Onion",
+      "seasons": [
+        "autumn"
+      ],
+      "growth_days": 6,
+      "regrow_days": 0,
+      "seed_item_id": "seed_valley_onion",
+      "harvest_item_id": "item_valley_onion",
+      "seed_price": 30,
+      "sell_price": 68,
+      "profit_per_day": "6.33g/day",
+      "description": "Sweet golden-skinned onions storing well through Winter for stews and sausages.",
+      "harvest_note": "Harvests after 6 days.",
+      "tags": [
+        "autumn",
+        "vegetable",
+        "root"
+      ]
+    },
+    {
+      "id": "crop_tavern_hops",
+      "name": "Tavern Hops",
+      "seasons": [
+        "autumn"
+      ],
+      "growth_days": 10,
+      "regrow_days": 2,
+      "seed_item_id": "seed_tavern_hops",
+      "harvest_item_id": "item_tavern_hops",
+      "seed_price": 75,
+      "sell_price": 42,
+      "profit_per_day": "8.90g/day",
+      "description": "Tall aromatic hops trellis brewed into craft tavern ales in oak casks.",
+      "harvest_note": "Trellis vine, regrows every 2 days.",
+      "tags": [
+        "autumn",
+        "trellis",
+        "brew",
+        "regrow"
+      ]
+    },
+    {
+      "id": "crop_golden_soybean",
+      "name": "Golden Soybean",
+      "seasons": [
+        "autumn"
+      ],
+      "growth_days": 8,
+      "regrow_days": 3,
+      "seed_item_id": "seed_golden_soybean",
+      "harvest_item_id": "item_golden_soybean",
+      "seed_price": 50,
+      "sell_price": 38,
+      "profit_per_day": "6.50g/day",
+      "description": "Versatile golden beans milled into soy milk, tofu, and fermented tavern bean paste.",
+      "harvest_note": "Regrows every 3 days.",
+      "tags": [
+        "autumn",
+        "bean",
+        "regrow"
+      ]
+    },
+    {
+      "id": "crop_hearth_rosemary",
+      "name": "Hearth Rosemary",
+      "seasons": [
+        "autumn"
+      ],
+      "growth_days": 7,
+      "regrow_days": 3,
+      "seed_item_id": "seed_hearth_rosemary",
+      "harvest_item_id": "item_hearth_rosemary",
+      "seed_price": 45,
+      "sell_price": 36,
+      "profit_per_day": "5.80g/day",
+      "description": "Aromatic evergreen herb sprigs for roasting poultry, steaks, and perfuming inn rooms.",
+      "harvest_note": "Regrows every 3 days.",
+      "tags": [
+        "autumn",
+        "herb",
+        "regrow"
+      ]
+    },
+    {
+      "id": "crop_turban_squash",
+      "name": "Turban Squash",
+      "seasons": [
+        "summer",
+        "autumn"
+      ],
+      "growth_days": 10,
+      "regrow_days": 0,
+      "seed_item_id": "seed_turban_squash",
+      "harvest_item_id": "item_turban_squash",
+      "seed_price": 65,
+      "sell_price": 165,
+      "profit_per_day": "10.00g/day",
+      "description": "Colorful heirloom squash shaped like a bumpy turban; great for creamy soups and Masquerade decor.",
+      "harvest_note": "Plantable in Summer & Autumn.",
+      "tags": [
+        "summer",
+        "autumn",
+        "squash"
+      ]
+    },
+    {
+      "id": "crop_andean_oca",
+      "name": "Andean Jewel Oca",
+      "seasons": [
+        "autumn"
+      ],
+      "growth_days": 7,
+      "regrow_days": 0,
+      "seed_item_id": "seed_andean_oca",
+      "harvest_item_id": "item_andean_oca",
+      "seed_price": 55,
+      "sell_price": 130,
+      "profit_per_day": "10.71g/day",
+      "description": "Glossy jewel-toned Andean tubers with bright citrus-potato flavor; loved by Cora and Bram.",
+      "harvest_note": "Harvests after 7 days.",
+      "tags": [
+        "autumn",
+        "root"
+      ]
+    },
+    {
+      "id": "crop_oyster_salsify",
+      "name": "Oyster Salsify",
+      "seasons": [
+        "autumn"
+      ],
+      "growth_days": 8,
+      "regrow_days": 0,
+      "seed_item_id": "seed_oyster_salsify",
+      "harvest_item_id": "item_oyster_salsify",
+      "seed_price": 50,
+      "sell_price": 125,
+      "profit_per_day": "9.38g/day",
+      "description": "Heirloom root tasting delicately of oysters when simmered in creamy chowders.",
+      "harvest_note": "Harvests after 8 days.",
+      "tags": [
+        "autumn",
+        "root"
+      ]
+    },
+    {
+      "id": "crop_saffron_crocus",
+      "name": "Saffron Crocus",
+      "seasons": [
+        "autumn"
+      ],
+      "growth_days": 9,
+      "regrow_days": 0,
+      "seed_item_id": "seed_saffron_crocus",
+      "harvest_item_id": "item_saffron_crocus",
+      "seed_price": 140,
+      "sell_price": 340,
+      "profit_per_day": "22.22g/day",
+      "description": "Precious crimson stigmas from autumn crocus blooms, elevating dishes to Royal Contest 5-star quality.",
+      "harvest_note": "High seed cost with premier Autumn profit.",
+      "tags": [
+        "autumn",
+        "spice",
+        "flower"
+      ]
+    },
+    {
+      "id": "crop_gold_kiwi",
+      "name": "Gold Kiwifruit",
+      "seasons": [
+        "autumn"
+      ],
+      "growth_days": 9,
+      "regrow_days": 3,
+      "seed_item_id": "seed_gold_kiwi",
+      "harvest_item_id": "item_gold_kiwi",
+      "seed_price": 70,
+      "sell_price": 56,
+      "profit_per_day": "7.90g/day",
+      "description": "Trellised golden-fleshed kiwifruit packed with stamina-restoring tang.",
+      "harvest_note": "Trellis vine, harvests every 3 days.",
+      "tags": [
+        "autumn",
+        "fruit",
+        "trellis",
+        "regrow"
+      ]
+    },
+    {
+      "id": "crop_bay_laurel",
+      "name": "Bay Laurel",
+      "seasons": [
+        "spring",
+        "autumn"
+      ],
+      "growth_days": 8,
+      "regrow_days": 4,
+      "seed_item_id": "seed_bay_laurel",
+      "harvest_item_id": "item_bay_laurel",
+      "seed_price": 50,
+      "sell_price": 40,
+      "profit_per_day": "5.20g/day",
+      "description": "Fragrant Mediterranean laurel leaves for wine stews and woven champion wreaths.",
+      "harvest_note": "Grows in Spring & Autumn; regrows every 4 days.",
+      "tags": [
+        "spring",
+        "autumn",
+        "herb",
+        "shrub",
+        "regrow"
+      ]
+    },
+    {
+      "id": "crop_terrace_lotus_root",
+      "name": "Terrace Mud Lotus Root",
+      "seasons": [
+        "summer"
+      ],
+      "growth_days": 7,
+      "regrow_days": 0,
+      "seed_item_id": "seed_terrace_lotus_root",
+      "harvest_item_id": "item_terrace_lotus_root",
+      "seed_price": 45,
+      "sell_price": 110,
+      "profit_per_day": "9.29g/day",
+      "description": "Region 2 flooded terrace crop (auto-irrigated); crisp perforated roots for Altar purification feasts.",
+      "harvest_note": "Grow on Region 2 flooded Rice Terraces.",
+      "tags": [
+        "summer",
+        "aquatic",
+        "region_2",
+        "root"
+      ]
+    },
+    {
+      "id": "crop_terrace_taro",
+      "name": "Terrace Purple Taro",
+      "seasons": [
+        "summer"
+      ],
+      "growth_days": 8,
+      "regrow_days": 0,
+      "seed_item_id": "seed_terrace_taro",
+      "harvest_item_id": "item_terrace_taro",
+      "seed_price": 50,
+      "sell_price": 125,
+      "profit_per_day": "9.38g/day",
+      "description": "Region 2 terrace taro root; authentic base for Hearth-Steamed Ash Taro Cakes.",
+      "harvest_note": "Grow on Region 2 flooded Rice Terraces.",
+      "tags": [
+        "summer",
+        "aquatic",
+        "region_2",
+        "root"
+      ]
+    },
+    {
+      "id": "crop_purple_ube",
+      "name": "Ancient Forest Ube",
+      "seasons": [
+        "summer",
+        "autumn"
+      ],
+      "growth_days": 9,
+      "regrow_days": 0,
+      "seed_item_id": "seed_purple_ube",
+      "harvest_item_id": "item_purple_ube",
+      "seed_price": 60,
+      "sell_price": 145,
+      "profit_per_day": "9.44g/day",
+      "description": "Region 3 Eternal Forest vine yam with vanilla-nutty purple flesh for specialty desserts.",
+      "harvest_note": "Unlocked upon purifying Region 3 Herb Forest.",
+      "tags": [
+        "summer",
+        "autumn",
+        "region_3",
+        "root"
+      ]
+    },
+    {
+      "id": "crop_vanilla_orchid",
+      "name": "Deepwood Vanilla Orchid",
+      "seasons": [
+        "autumn"
+      ],
+      "growth_days": 10,
+      "regrow_days": 4,
+      "seed_item_id": "seed_vanilla_orchid",
+      "harvest_item_id": "item_vanilla_orchid",
+      "seed_price": 90,
+      "sell_price": 85,
+      "profit_per_day": "11.20g/day",
+      "description": "Region 3 climbing orchid yielding fragrant vanilla pods for high-tier bakery recipes.",
+      "harvest_note": "Regrows every 4 days in Region 3 Forest.",
+      "tags": [
+        "autumn",
+        "region_3",
+        "spice",
+        "trellis",
+        "regrow"
+      ]
+    },
+    {
+      "id": "crop_andean_maca",
+      "name": "Wolf-Tooth Snow Maca",
+      "seasons": [
+        "winter"
+      ],
+      "growth_days": 8,
+      "regrow_days": 0,
+      "seed_item_id": "seed_andean_maca",
+      "harvest_item_id": "item_andean_maca",
+      "seed_price": 85,
+      "sell_price": 195,
+      "profit_per_day": "13.75g/day",
+      "description": "Region 4 Wolf-Tooth Peak highland tuber thriving in sub-zero cliffs; boosts Stamina & Cold Resistance.",
+      "harvest_note": "Plantable only on Region 4 Wolf-Tooth Peak.",
+      "tags": [
+        "winter",
+        "region_4",
+        "mountain",
+        "root"
+      ]
+    },
+    {
+      "id": "crop_snow_lotus",
+      "name": "Alpine Snow Lotus",
+      "seasons": [
+        "winter"
+      ],
+      "growth_days": 10,
+      "regrow_days": 0,
+      "seed_item_id": "seed_snow_lotus",
+      "harvest_item_id": "item_snow_lotus",
+      "seed_price": 110,
+      "sell_price": 260,
+      "profit_per_day": "15.00g/day",
+      "description": "Region 4 alpine bloom thriving near hot springs; key reagent for revival and cure-all elixirs.",
+      "harvest_note": "Grown beside Region 4 Mountain Hot Springs.",
+      "tags": [
+        "winter",
+        "region_4",
+        "mountain",
+        "flower"
+      ]
+    },
+    {
+      "id": "crop_glow_fern",
+      "name": "Glow-Fern Cave Tuber",
+      "seasons": [
+        "spring",
+        "summer",
+        "autumn",
+        "winter"
+      ],
+      "growth_days": 7,
+      "regrow_days": 0,
+      "seed_item_id": "seed_glow_fern",
+      "harvest_item_id": "item_glow_fern",
+      "seed_price": 65,
+      "sell_price": 145,
+      "profit_per_day": "11.43g/day",
+      "description": "Subterranean dark-cave tuber needing zero sunlight; eating grants a soft cave illumination aura.",
+      "harvest_note": "Plantable in dark cellar / cave beds.",
+      "tags": [
+        "cave",
+        "subterranean",
+        "root"
+      ]
+    },
+    {
+      "id": "crop_cave_truffle",
+      "name": "Cavern Black Truffle",
+      "seasons": [
+        "spring",
+        "summer",
+        "autumn",
+        "winter"
+      ],
+      "growth_days": 10,
+      "regrow_days": 0,
+      "seed_item_id": "seed_cave_truffle",
+      "harvest_item_id": "item_cave_truffle",
+      "seed_price": 120,
+      "sell_price": 290,
+      "profit_per_day": "17.00g/day",
+      "description": "Rare subterranean black truffle cultivated in damp cave soil; prized 5-star Royal Banquet ingredient.",
+      "harvest_note": "Cultivated in dark damp cave soil without watering.",
+      "tags": [
+        "cave",
+        "subterranean",
+        "mushroom"
+      ]
+    },
+    {
+      "id": "fruit_chestnut",
+      "name": "Roasted Chestnut Tree",
+      "seasons": [
+        "autumn",
+        "winter"
+      ],
+      "growth_days": 28,
+      "regrow_days": 1,
+      "seed_item_id": "seed_chestnut_sapling",
+      "harvest_item_id": "item_chestnut",
+      "seed_price": 1100,
+      "sell_price": 40,
+      "profit_per_day": "40g/day (Autumn-Winter)",
+      "description": "Hardy deep-rooted tree dropping sweet chestnuts roasted beside The Hearth's winter fire.",
+      "harvest_note": "Requires 3x3 clear space; fruits in Autumn & Winter.",
+      "tags": [
+        "tree",
+        "fruit_tree",
+        "autumn",
+        "winter"
+      ]
+    },
+    {
+      "id": "fruit_olive",
+      "name": "Ancient Olive Tree",
+      "seasons": [
+        "summer",
+        "autumn"
+      ],
+      "growth_days": 28,
+      "regrow_days": 1,
+      "seed_item_id": "seed_olive_sapling",
+      "harvest_item_id": "item_olive_oil",
+      "seed_price": 1150,
+      "sell_price": 38,
+      "profit_per_day": "38g/day (Summer-Autumn)",
+      "description": "Pressed into Virgin Olive Oil for cooking sautés and salads without relying on dairy butter.",
+      "harvest_note": "Requires 3x3 clear space; fruits in Summer & Autumn.",
+      "tags": [
+        "tree",
+        "fruit_tree",
+        "summer",
+        "autumn"
+      ]
+    },
+    {
+      "id": "fruit_cacao",
+      "name": "Valley Cacao Tree",
+      "seasons": [
+        "summer"
+      ],
+      "growth_days": 28,
+      "regrow_days": 1,
+      "seed_item_id": "seed_cacao_sapling",
+      "harvest_item_id": "item_cacao_pod",
+      "seed_price": 1250,
+      "sell_price": 46,
+      "profit_per_day": "46g/day (Summer)",
+      "description": "Ground into rich cocoa for cozy winter Hot Chocolate and gourmet patisserie.",
+      "harvest_note": "Requires 3x3 clear space; fruits in Summer or Greenhouse.",
+      "tags": [
+        "tree",
+        "fruit_tree",
+        "summer"
+      ]
+    },
+    {
+      "id": "fruit_pomegranate",
+      "name": "Solaria Pomegranate Tree",
+      "seasons": [
+        "autumn"
+      ],
+      "growth_days": 28,
+      "regrow_days": 1,
+      "seed_item_id": "seed_pomegranate_sapling",
+      "harvest_item_id": "item_pomegranate",
+      "seed_price": 1200,
+      "sell_price": 44,
+      "profit_per_day": "44g/day (Autumn)",
+      "description": "Ruby-seeded fruit pressed into vitality elixirs boosting Max HP and Critical Hit Rate.",
+      "harvest_note": "Requires 3x3 clear space; fruits in Autumn.",
+      "tags": [
+        "tree",
+        "fruit_tree",
+        "autumn"
+      ]
+    },
+    {
+      "id": "fruit_fig",
+      "name": "Honey Fig Tree",
+      "seasons": [
+        "autumn"
+      ],
+      "growth_days": 28,
+      "regrow_days": 1,
+      "seed_item_id": "seed_fig_sapling",
+      "harvest_item_id": "item_honey_fig",
+      "seed_price": 1050,
+      "sell_price": 36,
+      "profit_per_day": "36g/day (Autumn)",
+      "description": "Sweet purple figs simmered into preserves served with oak-aged cheese.",
+      "harvest_note": "Requires 3x3 clear space; fruits in Autumn.",
+      "tags": [
+        "tree",
+        "fruit_tree",
+        "autumn"
+      ]
+    },
+    {
+      "id": "fruit_apricot",
+      "name": "Golden Apricot Tree",
+      "seasons": [
+        "spring",
+        "summer"
+      ],
+      "growth_days": 28,
+      "regrow_days": 1,
+      "seed_item_id": "seed_apricot_sapling",
+      "harvest_item_id": "item_apricot",
+      "seed_price": 1000,
+      "sell_price": 34,
+      "profit_per_day": "34g/day (Spring-Summer)",
+      "description": "Sun-gold apricots dried into non-perishable trail rations for 150-floor mine delves.",
+      "harvest_note": "Requires 3x3 clear space; fruits in Spring & Summer.",
+      "tags": [
+        "tree",
+        "fruit_tree",
+        "spring",
+        "summer"
+      ]
+    },
+    {
+      "id": "fruit_avocado",
+      "name": "Creamy Avocado Tree",
+      "seasons": [
+        "summer"
+      ],
+      "growth_days": 28,
+      "regrow_days": 1,
+      "seed_item_id": "seed_avocado_sapling",
+      "harvest_item_id": "item_avocado",
+      "seed_price": 1150,
+      "sell_price": 42,
+      "profit_per_day": "42g/day (Summer)",
+      "description": "Velvety Mesoamerican fruit mashed onto hearth toast with farmstead eggs.",
+      "harvest_note": "Requires 3x3 clear space; fruits in Summer.",
+      "tags": [
+        "tree",
+        "fruit_tree",
+        "summer"
+      ]
+    },
+    {
+      "id": "bush_blackberry",
+      "name": "Blackberry Bush",
+      "seasons": [
+        "summer"
+      ],
+      "growth_days": 10,
+      "regrow_days": 3,
+      "seed_item_id": "seed_blackberry_bush",
+      "harvest_item_id": "item_blackberry",
+      "seed_price": 75,
+      "sell_price": 42,
+      "profit_per_day": "8.20g/day",
+      "description": "Compact 1x1 berry bush yielding dark bramble fruit for tarts and syrups.",
+      "harvest_note": "Regrows berries every 3 days across Summer.",
+      "tags": [
+        "summer",
+        "bush",
+        "fruit",
+        "regrow"
+      ]
+    },
+    {
+      "id": "bush_cranberry",
+      "name": "Bog Cranberry Bush",
+      "seasons": [
+        "autumn"
+      ],
+      "growth_days": 10,
+      "regrow_days": 3,
+      "seed_item_id": "seed_cranberry_bush",
+      "harvest_item_id": "item_cranberry",
+      "seed_price": 80,
+      "sell_price": 45,
+      "profit_per_day": "8.50g/day",
+      "description": "Moisture-loving marsh bush yielding tart cranberries for roast meat glazes.",
+      "harvest_note": "Regrows berries every 3 days across Autumn.",
+      "tags": [
+        "autumn",
+        "bush",
+        "fruit",
+        "regrow"
+      ]
+    },
+    {
+      "id": "decor_climbing_rose",
+      "name": "Hearth Climbing Rose",
+      "seasons": [
+        "spring",
+        "summer"
+      ],
+      "growth_days": 6,
+      "regrow_days": 3,
+      "seed_item_id": "seed_climbing_rose",
+      "harvest_item_id": "item_rose_petals",
+      "seed_price": 40,
+      "sell_price": 35,
+      "profit_per_day": "+Cozy & Petals",
+      "description": "Climbs wooden fences outside The Hearth, boosting Cozy Rating and yielding fragrant tea petals.",
+      "harvest_note": "Blooms along trellises in Spring & Summer.",
+      "tags": [
+        "spring",
+        "summer",
+        "ornamental",
+        "cozy",
+        "flower"
+      ]
+    },
+    {
+      "id": "decor_rain_hydrangea",
+      "name": "Rain-Shift Hydrangea",
+      "seasons": [
+        "summer"
+      ],
+      "growth_days": 6,
+      "regrow_days": 4,
+      "seed_item_id": "seed_rain_hydrangea",
+      "harvest_item_id": "item_hydrangea_bloom",
+      "seed_price": 45,
+      "sell_price": 42,
+      "profit_per_day": "+Cozy Color-Shift",
+      "description": "Weather-reactive blooms shifting from rose-violet in sunshine to sapphire blue on rainy days.",
+      "harvest_note": "Cut blooms decorate tavern dining tables.",
+      "tags": [
+        "summer",
+        "ornamental",
+        "cozy",
+        "flower"
+      ]
+    },
+    {
+      "id": "decor_lantern_lily",
+      "name": "Autumn Lantern Lily",
+      "seasons": [
+        "autumn"
+      ],
+      "growth_days": 7,
+      "regrow_days": 0,
+      "seed_item_id": "seed_lantern_lily",
+      "harvest_item_id": "item_lantern_lily",
+      "seed_price": 55,
+      "sell_price": 70,
+      "profit_per_day": "+Cozy Night-Glow",
+      "description": "Drooping lantern-shaped blooms emitting warm amber light along autumn evening paths.",
+      "harvest_note": "Emits soft warm PointLight2D glow at night.",
+      "tags": [
+        "autumn",
+        "ornamental",
+        "cozy",
+        "flower"
+      ]
+    },
+    {
+      "id": "decor_winter_snowdrop",
+      "name": "Winter Snowdrop",
+      "seasons": [
+        "winter"
+      ],
+      "growth_days": 5,
+      "regrow_days": 0,
+      "seed_item_id": "seed_winter_snowdrop",
+      "harvest_item_id": "item_snowdrop_bloom",
+      "seed_price": 35,
+      "sell_price": 55,
+      "profit_per_day": "+Cozy Winter",
+      "description": "Delicate white ornamental bells blooming through Winter snow; tavern table vases boost guest tips.",
+      "harvest_note": "Frost-hardy Winter ornamental bloom.",
+      "tags": [
+        "winter",
+        "ornamental",
+        "cozy",
+        "flower"
+      ]
+    },
+    {
+      "id": "decor_starry_tulip",
+      "name": "Starry Tulip",
+      "seasons": [
+        "spring"
+      ],
+      "growth_days": 5,
+      "regrow_days": 0,
+      "seed_item_id": "seed_starry_tulip",
+      "harvest_item_id": "item_starry_tulip",
+      "seed_price": 30,
+      "sell_price": 50,
+      "profit_per_day": "+Cozy & Birthday Gift",
+      "description": "Blooms in 4 random hues; bundled into birthday bouquets for 2x Heart Affection.",
+      "harvest_note": "Blooms after 5 days in Spring.",
+      "tags": [
+        "spring",
+        "ornamental",
+        "cozy",
+        "flower"
+      ]
+    },
+    {
+      "id": "decor_maple_bonsai",
+      "name": "Crimson Maple Bonsai",
+      "seasons": [
+        "spring",
+        "summer",
+        "autumn",
+        "winter"
+      ],
+      "growth_days": 12,
+      "regrow_days": 0,
+      "seed_item_id": "seed_maple_bonsai",
+      "harvest_item_id": "item_maple_bonsai",
+      "seed_price": 250,
+      "sell_price": 120,
+      "profit_per_day": "+12 Permanent Cozy",
+      "description": "Potted dwarf crimson maple placed on porches or inn rooms for permanent +12 Cozy Rating.",
+      "harvest_note": "Year-round potted ornamental bonsai.",
+      "tags": [
+        "spring",
+        "summer",
+        "autumn",
+        "winter",
+        "ornamental",
+        "cozy"
+      ]
+    },
+    {
+      "id": "decor_boxwood_hedge",
+      "name": "Sculpted Boxwood Hedge",
+      "seasons": [
+        "spring",
+        "summer",
+        "autumn",
+        "winter"
+      ],
+      "growth_days": 8,
+      "regrow_days": 0,
+      "seed_item_id": "seed_boxwood_hedge",
+      "harvest_item_id": "item_boxwood_hedge",
+      "seed_price": 90,
+      "sell_price": 45,
+      "profit_per_day": "+4 Cozy / Bush",
+      "description": "Evergreen trimmed hedge lining stone paths from Village Gate to The Hearth.",
+      "harvest_note": "Year-round evergreen path hedge.",
+      "tags": [
+        "spring",
+        "summer",
+        "autumn",
+        "winter",
+        "ornamental",
+        "cozy"
       ]
     }
   ]

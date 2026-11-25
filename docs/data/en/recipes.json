@@ -1,5 +1,5 @@
 {
-  "version": "2.2.0",
+  "version": "3.0.0",
   "updated": "2026-11-25",
   "recipes": [
     {
@@ -25,7 +25,7 @@
     },
     {
       "id": "trung_op_la_thao_moc",
-      "name": "Herbed Pea Omelet",
+      "name": "Scallion Herb Omelet",
       "station": "kitchen_pan",
       "ingredients": [
         {
@@ -34,8 +34,8 @@
           "quantity": 1
         },
         {
-          "id": "item_pea_pod",
-          "name": "Sweet Pea Pod",
+          "id": "item_spring_scallion",
+          "name": "Valley Scallion",
           "quantity": 1
         }
       ],
@@ -46,12 +46,12 @@
     },
     {
       "id": "khoai_tay_nuong_bo_toi",
-      "name": "Buttered Frost Potato",
+      "name": "Garlic-Buttered Roasted Potato",
       "station": "kitchen_oven",
       "ingredients": [
         {
           "id": "item_frost_potato",
-          "name": "High-Mountain Frost Potato",
+          "name": "Highland Potato",
           "quantity": 1
         },
         {
@@ -60,8 +60,8 @@
           "quantity": 1
         },
         {
-          "id": "item_salt",
-          "name": "Dried Sea Salt",
+          "id": "item_frontier_garlic",
+          "name": "Frontier Purple Garlic",
           "quantity": 1
         }
       ],
@@ -93,7 +93,7 @@
     },
     {
       "id": "sup_nam_sao_am_bung",
-      "name": "Warm Forest Mushroom Soup",
+      "name": "Warm Mushroom & Scallion Soup",
       "station": "kitchen_pot",
       "ingredients": [
         {
@@ -102,8 +102,8 @@
           "quantity": 1
         },
         {
-          "id": "item_frost_turnip",
-          "name": "Frost Turnip",
+          "id": "item_spring_scallion",
+          "name": "Valley Scallion",
           "quantity": 1
         }
       ],
@@ -114,7 +114,7 @@
     },
     {
       "id": "ca_suoi_nuong_muoi_ot",
-      "name": "Peppered Grilled Stream Carp",
+      "name": "Chili-Salted Grilled Stream Carp",
       "station": "kitchen_grill",
       "ingredients": [
         {
@@ -123,8 +123,8 @@
           "quantity": 1
         },
         {
-          "id": "item_black_pepper",
-          "name": "Traded Black Pepper",
+          "id": "item_hearth_chili",
+          "name": "Hearth Red Chili",
           "quantity": 1
         },
         {
@@ -140,7 +140,7 @@
     },
     {
       "id": "bap_xao_bo_cay",
-      "name": "Spicy Buttered Sun Corn",
+      "name": "Chili-Buttered Sun Corn",
       "station": "kitchen_pan",
       "ingredients": [
         {
@@ -154,8 +154,8 @@
           "quantity": 1
         },
         {
-          "id": "item_whisper_ginger",
-          "name": "Whisper Ginger Root",
+          "id": "item_hearth_chili",
+          "name": "Hearth Red Chili",
           "quantity": 1
         }
       ],
@@ -213,7 +213,7 @@
     },
     {
       "id": "banh_xeo_hanh_hoa_gion",
-      "name": "Crispy Pea-Pod Skillet Cake",
+      "name": "Crispy Scallion Skillet Cake",
       "station": "kitchen_pan",
       "ingredients": [
         {
@@ -222,8 +222,8 @@
           "quantity": 1
         },
         {
-          "id": "item_pea_pod",
-          "name": "Sweet Pea Pod",
+          "id": "item_spring_scallion",
+          "name": "Valley Scallion",
           "quantity": 1
         },
         {
@@ -239,7 +239,7 @@
     },
     {
       "id": "bo_ham_ruou_vang_mo",
-      "name": "Night-Wine Braised Beef",
+      "name": "Night-Wine Onion Braised Beef",
       "station": "kitchen_pot",
       "ingredients": [
         {
@@ -253,8 +253,8 @@
           "quantity": 1
         },
         {
-          "id": "item_shadow_carrot",
-          "name": "Shadow Cat-Eye Carrot",
+          "id": "item_valley_onion",
+          "name": "Golden Valley Onion",
           "quantity": 1
         }
       ],
@@ -265,7 +265,7 @@
     },
     {
       "id": "bit_tet_nuong_than_soi",
-      "name": "Oak-Charcoal Seared Steak",
+      "name": "Garlic-Rosemary Seared Steak",
       "station": "kitchen_grill",
       "ingredients": [
         {
@@ -274,13 +274,13 @@
           "quantity": 1
         },
         {
-          "id": "item_black_pepper",
-          "name": "Traded Black Pepper",
+          "id": "item_frontier_garlic",
+          "name": "Frontier Purple Garlic",
           "quantity": 1
         },
         {
-          "id": "item_butter",
-          "name": "Fresh Butter",
+          "id": "item_hearth_rosemary",
+          "name": "Hearth Rosemary",
           "quantity": 1
         }
       ],
@@ -291,7 +291,7 @@
     },
     {
       "id": "ga_quay_mat_ong_hoa_rung",
-      "name": "Wildflower Honey Roast Chicken",
+      "name": "Honey Rosemary Roast Chicken",
       "station": "kitchen_oven",
       "ingredients": [
         {
@@ -305,8 +305,8 @@
           "quantity": 1
         },
         {
-          "id": "item_butter",
-          "name": "Fresh Butter",
+          "id": "item_hearth_rosemary",
+          "name": "Hearth Rosemary",
           "quantity": 1
         }
       ],
@@ -317,7 +317,7 @@
     },
     {
       "id": "suon_nuong_xot_man_ngot",
-      "name": "Frost-Plum Glazed Ribs",
+      "name": "Plum & Cranberry Glazed Ribs",
       "station": "kitchen_grill",
       "ingredients": [
         {
@@ -331,8 +331,8 @@
           "quantity": 1
         },
         {
-          "id": "item_sugar",
-          "name": "Raw Cane Sugar",
+          "id": "item_cranberry",
+          "name": "Bog Cranberry Bush",
           "quantity": 1
         }
       ],
@@ -383,8 +383,8 @@
           "quantity": 1
         },
         {
-          "id": "item_whisper_ginger",
-          "name": "Whisper Ginger Root",
+          "id": "item_hearth_chili",
+          "name": "Hearth Red Chili",
           "quantity": 1
         }
       ],
@@ -395,7 +395,7 @@
     },
     {
       "id": "muc_ham_hanh_toi",
-      "name": "Ginger-Braised Night Squid",
+      "name": "Garlic-Scallion Braised Squid",
       "station": "kitchen_pot",
       "ingredients": [
         {
@@ -404,8 +404,13 @@
           "quantity": 1
         },
         {
-          "id": "item_whisper_ginger",
-          "name": "Whisper Ginger Root",
+          "id": "item_frontier_garlic",
+          "name": "Frontier Purple Garlic",
+          "quantity": 1
+        },
+        {
+          "id": "item_spring_scallion",
+          "name": "Valley Scallion",
           "quantity": 1
         }
       ],
@@ -416,7 +421,7 @@
     },
     {
       "id": "com_chien_hai_san_dam_vi",
-      "name": "Savory Seafood Fried Rice",
+      "name": "Saffron Seafood Fried Rice",
       "station": "kitchen_pan",
       "ingredients": [
         {
@@ -430,8 +435,8 @@
           "quantity": 1
         },
         {
-          "id": "item_egg",
-          "name": "Farmstead Egg",
+          "id": "item_saffron_crocus",
+          "name": "Saffron Crocus",
           "quantity": 1
         }
       ],
@@ -468,7 +473,7 @@
     },
     {
       "id": "lau_ca_cay_ham_nguc",
-      "name": "Spicy Carp & Mushroom Hotpot",
+      "name": "Chili Carp & Mushroom Hotpot",
       "station": "kitchen_pot",
       "ingredients": [
         {
@@ -482,8 +487,8 @@
           "quantity": 1
         },
         {
-          "id": "item_black_pepper",
-          "name": "Traded Black Pepper",
+          "id": "item_hearth_chili",
+          "name": "Hearth Red Chili",
           "quantity": 1
         }
       ],
@@ -494,7 +499,7 @@
     },
     {
       "id": "tart_dau_tuyet_lanh",
-      "name": "Chilled Wildberry Tart",
+      "name": "Chilled Berry Vanilla Tart",
       "station": "kitchen_oven",
       "ingredients": [
         {
@@ -508,8 +513,8 @@
           "quantity": 1
         },
         {
-          "id": "item_sugar",
-          "name": "Raw Cane Sugar",
+          "id": "item_vanilla_orchid",
+          "name": "Deepwood Vanilla Orchid",
           "quantity": 1
         }
       ],
@@ -520,7 +525,7 @@
     },
     {
       "id": "banh_mi_bo_toi_nuong_kep",
-      "name": "Double-Baked Honey Butter Bread",
+      "name": "Double-Baked Garlic Butter Bread",
       "station": "kitchen_oven",
       "ingredients": [
         {
@@ -529,8 +534,8 @@
           "quantity": 1
         },
         {
-          "id": "mat_ong",
-          "name": "Wild Honey",
+          "id": "item_frontier_garlic",
+          "name": "Frontier Purple Garlic",
           "quantity": 1
         },
         {
@@ -546,12 +551,12 @@
     },
     {
       "id": "salad_trai_cay_mua_ha",
-      "name": "Summer Orchard Fruit Salad",
+      "name": "Summer Kiwano & Olive Salad",
       "station": "kitchen_pot",
       "ingredients": [
         {
-          "id": "item_magma_melon",
-          "name": "Magma Melon",
+          "id": "item_kiwano_melon",
+          "name": "Horned Kiwano Melon",
           "quantity": 1
         },
         {
@@ -560,8 +565,8 @@
           "quantity": 1
         },
         {
-          "id": "mat_ong",
-          "name": "Wild Honey",
+          "id": "item_olive_oil",
+          "name": "Ancient Olive Tree",
           "quantity": 1
         }
       ],
@@ -593,7 +598,7 @@
     },
     {
       "id": "banh_quy_gung_giu_am",
-      "name": "Spiced Whisper-Ginger Cookies",
+      "name": "Ginger & Chufa Trail Cookies",
       "station": "kitchen_oven",
       "ingredients": [
         {
@@ -607,8 +612,8 @@
           "quantity": 1
         },
         {
-          "id": "item_sugar",
-          "name": "Raw Cane Sugar",
+          "id": "item_chufa_nut",
+          "name": "Earth-Almond Chufa",
           "quantity": 1
         }
       ],
@@ -640,7 +645,7 @@
     },
     {
       "id": "lap_xuong_tieu_den_mo_da",
-      "name": "Black-Pepper Smoked Sausage",
+      "name": "Black-Pepper Onion Smoked Sausage",
       "station": "kitchen_grill",
       "ingredients": [
         {
@@ -654,8 +659,8 @@
           "quantity": 1
         },
         {
-          "id": "item_salt",
-          "name": "Dried Sea Salt",
+          "id": "item_valley_onion",
+          "name": "Golden Valley Onion",
           "quantity": 1
         }
       ],
@@ -666,7 +671,7 @@
     },
     {
       "id": "mi_soi_tuoi_xao_nam_cay",
-      "name": "Spicy Mushroom Stir-Fry Noodles",
+      "name": "Spicy Chili Mushroom Noodles",
       "station": "kitchen_pan",
       "ingredients": [
         {
@@ -680,8 +685,8 @@
           "quantity": 1
         },
         {
-          "id": "item_black_pepper",
-          "name": "Traded Black Pepper",
+          "id": "item_hearth_chili",
+          "name": "Hearth Red Chili",
           "quantity": 1
         }
       ],
@@ -692,7 +697,7 @@
     },
     {
       "id": "banh_kep_trung_xuc_xich",
-      "name": "Egg & Pork Griddle Wrap",
+      "name": "Avocado & Egg Hearth Toast",
       "station": "kitchen_pan",
       "ingredients": [
         {
@@ -701,13 +706,13 @@
           "quantity": 1
         },
         {
-          "id": "item_egg",
-          "name": "Farmstead Egg",
+          "id": "item_avocado",
+          "name": "Creamy Avocado Tree",
           "quantity": 1
         },
         {
-          "id": "item_pork",
-          "name": "Homestead Pork & Ribs",
+          "id": "item_egg",
+          "name": "Farmstead Egg",
           "quantity": 1
         }
       ],
@@ -723,12 +728,12 @@
       "ingredients": [
         {
           "id": "item_frost_beet",
-          "name": "Frost Ruby Beet",
+          "name": "Ruby Beet",
           "quantity": 1
         },
         {
           "id": "item_frost_potato",
-          "name": "High-Mountain Frost Potato",
+          "name": "Highland Potato",
           "quantity": 1
         },
         {
@@ -744,12 +749,12 @@
     },
     {
       "id": "banh_khoai_mon_tro_trau",
-      "name": "Hearth-Steamed Moonlight Yam Cake",
+      "name": "Hearth-Steamed Ash Taro Cake",
       "station": "kitchen_steamer",
       "ingredients": [
         {
-          "id": "item_moonlight_yam",
-          "name": "Moonlight Sweet Yam",
+          "id": "item_terrace_taro",
+          "name": "Terrace Purple Taro",
           "quantity": 1
         },
         {
@@ -770,7 +775,7 @@
     },
     {
       "id": "xoi_hat_sen_nuoc_cot_dua",
-      "name": "Snow-Lotus Sweet Sticky Rice",
+      "name": "Turmeric Lotus Sticky Rice",
       "station": "kitchen_steamer",
       "ingredients": [
         {
@@ -779,13 +784,13 @@
           "quantity": 1
         },
         {
-          "id": "item_frost_lotus",
-          "name": "Frost-Lotus Bloom",
+          "id": "item_terrace_lotus_root",
+          "name": "Terrace Mud Lotus Root",
           "quantity": 1
         },
         {
-          "id": "item_sugar",
-          "name": "Raw Cane Sugar",
+          "id": "item_golden_turmeric",
+          "name": "Golden Turmeric",
           "quantity": 1
         }
       ],
@@ -796,7 +801,7 @@
     },
     {
       "id": "banh_chung_lua_rung",
-      "name": "Forest Hearth Rice Cake",
+      "name": "Hearth-Steamed Sticky Rice Cake",
       "station": "kitchen_pot",
       "ingredients": [
         {
@@ -822,17 +827,17 @@
     },
     {
       "id": "canh_thao_moc_bup_sen",
-      "name": "Lotus & Ice-Cabbage Herbal Broth",
+      "name": "Artichoke & Lotus Cleansing Broth",
       "station": "kitchen_pot",
       "ingredients": [
         {
-          "id": "item_frost_lotus",
-          "name": "Frost-Lotus Bloom",
+          "id": "item_globe_artichoke",
+          "name": "Globe Artichoke",
           "quantity": 1
         },
         {
-          "id": "item_ice_cabbage",
-          "name": "Crisp Ice Cabbage",
+          "id": "item_terrace_lotus_root",
+          "name": "Terrace Mud Lotus Root",
           "quantity": 1
         }
       ],
@@ -843,7 +848,7 @@
     },
     {
       "id": "banh_deo_trang_ram_hoa_buoi",
-      "name": "Ember-Orange Harvest Rice Cake",
+      "name": "Purple Ube & Apricot Mooncake",
       "station": "kitchen_steamer",
       "ingredients": [
         {
@@ -852,13 +857,13 @@
           "quantity": 1
         },
         {
-          "id": "item_sugar",
-          "name": "Raw Cane Sugar",
+          "id": "item_purple_ube",
+          "name": "Ancient Forest Ube",
           "quantity": 1
         },
         {
-          "id": "item_ember_orange",
-          "name": "Ember Orange",
+          "id": "item_apricot",
+          "name": "Golden Apricot Tree",
           "quantity": 1
         }
       ],
@@ -890,17 +895,22 @@
     },
     {
       "id": "nuoc_mia_ep_gung_am",
-      "name": "Warm Spiced Honey-Cane Juice",
+      "name": "Hot Highland Milk Coffee",
       "station": "kitchen_pot",
       "ingredients": [
         {
-          "id": "item_honey_cane",
-          "name": "Amber Honey-Cane",
+          "id": "item_highland_coffee",
+          "name": "Highland Coffee",
           "quantity": 1
         },
         {
-          "id": "item_whisper_ginger",
-          "name": "Whisper Ginger Root",
+          "id": "item_milk",
+          "name": "Fresh Cow Milk",
+          "quantity": 1
+        },
+        {
+          "id": "item_sugar",
+          "name": "Raw Cane Sugar",
           "quantity": 1
         }
       ],
@@ -911,17 +921,22 @@
     },
     {
       "id": "sua_bo_nong_mat_ong",
-      "name": "Warm Honeyed Whole Milk",
+      "name": "Winter Chestnut Hot Chocolate",
       "station": "kitchen_pot",
       "ingredients": [
+        {
+          "id": "item_cacao_pod",
+          "name": "Valley Cacao Tree",
+          "quantity": 1
+        },
         {
           "id": "item_milk",
           "name": "Fresh Cow Milk",
           "quantity": 1
         },
         {
-          "id": "mat_ong",
-          "name": "Wild Honey",
+          "id": "item_chestnut",
+          "name": "Roasted Chestnut Tree",
           "quantity": 1
         }
       ],
@@ -932,7 +947,7 @@
     },
     {
       "id": "ruou_trai_cay_len_men",
-      "name": "Spiced Night-Grape & Plum Wine",
+      "name": "Craft Hops & Night-Grape Brew",
       "station": "kitchen_pot",
       "ingredients": [
         {
@@ -941,8 +956,8 @@
           "quantity": 1
         },
         {
-          "id": "item_frost_plum",
-          "name": "Frost Plum",
+          "id": "item_tavern_hops",
+          "name": "Tavern Hops",
           "quantity": 1
         },
         {
@@ -958,17 +973,17 @@
     },
     {
       "id": "nuoc_ep_dua_luoi_bang_gia",
-      "name": "Frosted Magma-Melon Cooler",
+      "name": "Chilled Pomegranate Mint Juice",
       "station": "kitchen_pot",
       "ingredients": [
         {
-          "id": "item_magma_melon",
-          "name": "Magma Melon",
+          "id": "item_pomegranate",
+          "name": "Solaria Pomegranate Tree",
           "quantity": 1
         },
         {
           "id": "item_frostmint",
-          "name": "Frostmint Leaf",
+          "name": "Dewdrop Mint",
           "quantity": 1
         }
       ],
@@ -979,7 +994,7 @@
     },
     {
       "id": "phi_le_ca_ngu_nuong_rom",
-      "name": "Straw-Seared Deep-Sea Tuna",
+      "name": "Garlic-Asparagus Seared Tuna",
       "station": "kitchen_grill",
       "ingredients": [
         {
@@ -988,13 +1003,13 @@
           "quantity": 1
         },
         {
-          "id": "item_whisper_ginger",
-          "name": "Whisper Ginger Root",
+          "id": "item_frontier_garlic",
+          "name": "Frontier Purple Garlic",
           "quantity": 1
         },
         {
-          "id": "item_salt",
-          "name": "Dried Sea Salt",
+          "id": "item_spring_asparagus",
+          "name": "Spring Asparagus",
           "quantity": 1
         }
       ],
@@ -1031,7 +1046,7 @@
     },
     {
       "id": "com_tho_suon_hap_nam",
-      "name": "Steamed Pork-Rib & Mushroom Claypot",
+      "name": "Truffle Soy-Glazed Pork Claypot",
       "station": "kitchen_steamer",
       "ingredients": [
         {
@@ -1045,8 +1060,13 @@
           "quantity": 1
         },
         {
-          "id": "item_wild_mushroom",
-          "name": "Wild Forest Mushroom",
+          "id": "item_golden_soybean",
+          "name": "Golden Soybean",
+          "quantity": 1
+        },
+        {
+          "id": "item_cave_truffle",
+          "name": "Cavern Black Truffle",
           "quantity": 1
         }
       ],
@@ -1057,7 +1077,7 @@
     },
     {
       "id": "banh_pie_tao_que_lo_dat",
-      "name": "Hearth-Baked Apple Cinnamon Pie",
+      "name": "Hearth-Baked Apple Fig Pie",
       "station": "kitchen_oven",
       "ingredients": [
         {
@@ -1066,13 +1086,13 @@
           "quantity": 1
         },
         {
-          "id": "item_flour",
-          "name": "Fresh Flour",
+          "id": "item_honey_fig",
+          "name": "Honey Fig Tree",
           "quantity": 1
         },
         {
-          "id": "item_cinnamon",
-          "name": "Wild Cinnamon",
+          "id": "item_flour",
+          "name": "Fresh Flour",
           "quantity": 1
         }
       ],
@@ -1083,22 +1103,22 @@
     },
     {
       "id": "banh_tart_viet_quat_dai_ngan",
-      "name": "Highland Frost-Plum Tart",
+      "name": "Blackberry & Gold Kiwi Tart",
       "station": "kitchen_oven",
       "ingredients": [
         {
-          "id": "item_frost_plum",
-          "name": "Frost Plum",
+          "id": "item_blackberry",
+          "name": "Blackberry Bush",
+          "quantity": 1
+        },
+        {
+          "id": "item_gold_kiwi",
+          "name": "Gold Kiwifruit",
           "quantity": 1
         },
         {
           "id": "item_flour",
           "name": "Fresh Flour",
-          "quantity": 1
-        },
-        {
-          "id": "item_sugar",
-          "name": "Raw Cane Sugar",
           "quantity": 1
         }
       ],
@@ -1109,7 +1129,7 @@
     },
     {
       "id": "dui_rung_hun_khoi_da_chien",
-      "name": "Trail-Smoked Pork Haunch",
+      "name": "Bay-Laurel Smoked Pork Haunch",
       "station": "kitchen_grill",
       "ingredients": [
         {
@@ -1118,8 +1138,8 @@
           "quantity": 1
         },
         {
-          "id": "item_salt",
-          "name": "Dried Sea Salt",
+          "id": "item_bay_laurel",
+          "name": "Bay Laurel",
           "quantity": 1
         },
         {
@@ -1144,8 +1164,8 @@
           "quantity": 1
         },
         {
-          "id": "item_stream_fish",
-          "name": "Stream Carp",
+          "id": "item_oyster_salsify",
+          "name": "Oyster Salsify",
           "quantity": 1
         },
         {
@@ -1161,13 +1181,18 @@
     },
     {
       "id": "banh_mi_den_dai_han",
-      "name": "Dark-Rye Winter Survival Loaf",
+      "name": "Dark-Rye Spinach Survival Loaf",
       "station": "kitchen_oven",
       "ingredients": [
         {
           "id": "item_shadow_rye",
           "name": "Shadow Rye Sheaf",
           "quantity": 2
+        },
+        {
+          "id": "item_valley_spinach",
+          "name": "Valley Spinach",
+          "quantity": 1
         },
         {
           "id": "item_yeast",
@@ -1182,12 +1207,17 @@
     },
     {
       "id": "com_lam_ong_tre_muoi_me",
-      "name": "Bamboo-Roasted Salted Rice",
+      "name": "Bamboo-Roasted Rice & Shoots",
       "station": "kitchen_grill",
       "ingredients": [
         {
           "id": "item_paddy_rice",
           "name": "Milled Valley Rice",
+          "quantity": 1
+        },
+        {
+          "id": "item_bamboo_shoot",
+          "name": "Sweet Bamboo Shoot",
           "quantity": 1
         },
         {
@@ -1203,7 +1233,7 @@
     },
     {
       "id": "ga_ham_sam_rung_da",
-      "name": "Mandrake-Simmered Poultry Broth",
+      "name": "Mandrake & Snow-Maca Poultry Broth",
       "station": "kitchen_pot",
       "ingredients": [
         {
@@ -1215,6 +1245,11 @@
           "id": "item_mandrake",
           "name": "Mandrake Root",
           "quantity": 1
+        },
+        {
+          "id": "item_andean_maca",
+          "name": "Wolf-Tooth Snow Maca",
+          "quantity": 1
         }
       ],
       "result_item_id": "food_ga_ham_sam_rung_da",
@@ -1224,7 +1259,7 @@
     },
     {
       "id": "thit_nuong_lua_dia_nguc",
-      "name": "Fiery Pepper-Ginger Grilled Beef",
+      "name": "Fiery Chili-Ginger Grilled Beef",
       "station": "kitchen_grill",
       "ingredients": [
         {
@@ -1233,8 +1268,8 @@
           "quantity": 1
         },
         {
-          "id": "item_black_pepper",
-          "name": "Traded Black Pepper",
+          "id": "item_hearth_chili",
+          "name": "Hearth Red Chili",
           "quantity": 1
         },
         {
@@ -1250,22 +1285,22 @@
     },
     {
       "id": "sup_yen_pha_le_thung_lung",
-      "name": "Crystal Snow-Lotus Honey Elixir",
+      "name": "Snow-Lotus & Glow-Fern Elixir",
       "station": "kitchen_pot",
       "ingredients": [
         {
-          "id": "item_frost_lotus",
-          "name": "Frost-Lotus Bloom",
+          "id": "item_snow_lotus",
+          "name": "Alpine Snow Lotus",
+          "quantity": 1
+        },
+        {
+          "id": "item_glow_fern",
+          "name": "Glow-Fern Cave Tuber",
           "quantity": 1
         },
         {
           "id": "mat_ong",
           "name": "Wild Honey",
-          "quantity": 1
-        },
-        {
-          "id": "item_mandrake",
-          "name": "Mandrake Root",
           "quantity": 1
         }
       ],
@@ -1276,7 +1311,7 @@
     },
     {
       "id": "banh_ngu_coc_dai_luc",
-      "name": "Valley Multi-Grain Hearth Bread",
+      "name": "Oca & Cassava Multi-Grain Loaf",
       "station": "kitchen_oven",
       "ingredients": [
         {
@@ -1285,13 +1320,13 @@
           "quantity": 1
         },
         {
-          "id": "item_shadow_rye",
-          "name": "Shadow Rye Sheaf",
+          "id": "item_andean_oca",
+          "name": "Andean Jewel Oca",
           "quantity": 1
         },
         {
-          "id": "item_sun_corn",
-          "name": "Sun-Corn Ear",
+          "id": "item_kudzu_cassava",
+          "name": "Valley Cassava",
           "quantity": 1
         }
       ],
@@ -1302,7 +1337,7 @@
     },
     {
       "id": "banh_cau_vong_4_mua",
-      "name": "Four-Season Orchard Cake",
+      "name": "Four-Season Turban Orchard Cake",
       "station": "kitchen_oven",
       "ingredients": [
         {
@@ -1311,8 +1346,8 @@
           "quantity": 1
         },
         {
-          "id": "item_magma_melon",
-          "name": "Magma Melon",
+          "id": "item_turban_squash",
+          "name": "Turban Squash",
           "quantity": 1
         },
         {
@@ -1347,13 +1382,13 @@
           "quantity": 1
         },
         {
-          "id": "mat_ong",
-          "name": "Wild Honey",
+          "id": "item_saffron_crocus",
+          "name": "Saffron Crocus",
           "quantity": 1
         },
         {
-          "id": "item_mandrake",
-          "name": "Mandrake Root",
+          "id": "item_cave_truffle",
+          "name": "Cavern Black Truffle",
           "quantity": 1
         }
       ],

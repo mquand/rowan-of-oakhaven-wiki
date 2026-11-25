@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "version": "2.2.0",
+  "version": "3.0.0",
   "updated": "2026-11-25",
   "items": [
     {
@@ -1326,8 +1326,8 @@
     },
     {
       "id": "item_frostmint",
-      "name": "Frostmint Leaf",
-      "description": "Intensely cooling mint leaves chilling summer drinks instantly.",
+      "name": "Dewdrop Mint",
+      "description": "Refreshing aromatic mint harvested in Spring & Summer.",
       "category": "ingredient",
       "tags": [
         "herb",
@@ -3501,8 +3501,8 @@
     },
     {
       "id": "item_frost_potato",
-      "name": "High-Mountain Frost Potato",
-      "description": "Creamy dense potato unearthed from cold mountain loam. Mashed with golden butter for comforting winter meals.",
+      "name": "Highland Potato",
+      "description": "Hearty spring-grown mountain potato.",
       "category": "ingredient",
       "tags": [
         "vegetable",
@@ -3535,8 +3535,8 @@
     },
     {
       "id": "item_frost_beet",
-      "name": "Frost Ruby Beet",
-      "description": "Earthy gem-like ruby beet harvested from snowy fields. Simmered into restorative winter stews for weary wayfarers.",
+      "name": "Ruby Beet",
+      "description": "Crimson-red autumn beet rich in natural sugar.",
       "category": "ingredient",
       "tags": [
         "vegetable",
@@ -3820,6 +3820,1638 @@
         "ingredient",
         "fish",
         "surface"
+      ]
+    },
+    {
+      "id": "seed_spring_scallion",
+      "name": "Valley Scallion Seeds",
+      "description": "Fastest-growing valley herb; regrows crisp green stalks for stir-fries, omelets, and broths.",
+      "category": "seed",
+      "rarity": "common",
+      "buy_price": 15,
+      "sell_price": 7,
+      "energy": null,
+      "buff": null,
+      "tags": [
+        "seed",
+        "spring"
+      ]
+    },
+    {
+      "id": "item_spring_scallion",
+      "name": "Valley Scallion",
+      "description": "Fastest-growing valley herb; regrows crisp green stalks for stir-fries, omelets, and broths.",
+      "category": "ingredient",
+      "rarity": "common",
+      "buy_price": null,
+      "sell_price": 22,
+      "energy": 20,
+      "buff": null,
+      "tags": [
+        "ingredient",
+        "spring",
+        "herb",
+        "regrow"
+      ]
+    },
+    {
+      "id": "seed_valley_spinach",
+      "name": "Valley Spinach Seeds",
+      "description": "Tender iron-rich leafy greens great for garlic sautés and savory pastry fillings.",
+      "category": "seed",
+      "rarity": "common",
+      "buy_price": 20,
+      "sell_price": 10,
+      "energy": null,
+      "buff": null,
+      "tags": [
+        "seed",
+        "spring"
+      ]
+    },
+    {
+      "id": "item_valley_spinach",
+      "name": "Valley Spinach",
+      "description": "Tender iron-rich leafy greens great for garlic sautés and savory pastry fillings.",
+      "category": "ingredient",
+      "rarity": "common",
+      "buy_price": null,
+      "sell_price": 42,
+      "energy": 20,
+      "buff": null,
+      "tags": [
+        "ingredient",
+        "spring",
+        "vegetable"
+      ]
+    },
+    {
+      "id": "seed_silver_flax",
+      "name": "Silver Flax Seeds",
+      "description": "Industrial fiber crop supplying Elora & Mae's looms with tough linen thread for ropes and canvas.",
+      "category": "seed",
+      "rarity": "common",
+      "buy_price": 30,
+      "sell_price": 15,
+      "energy": null,
+      "buff": null,
+      "tags": [
+        "seed",
+        "spring"
+      ]
+    },
+    {
+      "id": "item_silver_flax",
+      "name": "Silver Flax",
+      "description": "Industrial fiber crop supplying Elora & Mae's looms with tough linen thread for ropes and canvas.",
+      "category": "ingredient",
+      "rarity": "common",
+      "buy_price": null,
+      "sell_price": 65,
+      "energy": 20,
+      "buff": null,
+      "tags": [
+        "ingredient",
+        "spring",
+        "fiber",
+        "craft"
+      ]
+    },
+    {
+      "id": "seed_jicama_root",
+      "name": "Crispy Jícama Seeds",
+      "description": "Crisp, juicy Mexican turnip-root with sweet apple-like crunch; 2% chance to fuse into a Giant 3x3 Jícama.",
+      "category": "seed",
+      "rarity": "common",
+      "buy_price": 40,
+      "sell_price": 20,
+      "energy": null,
+      "buff": null,
+      "tags": [
+        "seed",
+        "spring"
+      ]
+    },
+    {
+      "id": "item_jicama_root",
+      "name": "Crispy Jícama",
+      "description": "Crisp, juicy Mexican turnip-root with sweet apple-like crunch; 2% chance to fuse into a Giant 3x3 Jícama.",
+      "category": "ingredient",
+      "rarity": "common",
+      "buy_price": null,
+      "sell_price": 95,
+      "energy": 20,
+      "buff": null,
+      "tags": [
+        "ingredient",
+        "spring",
+        "root",
+        "giant"
+      ]
+    },
+    {
+      "id": "seed_spring_asparagus",
+      "name": "Spring Asparagus Seeds",
+      "description": "Slender emerald spears harvested repeatedly; butter-seared alongside steaks.",
+      "category": "seed",
+      "rarity": "common",
+      "buy_price": 55,
+      "sell_price": 27,
+      "energy": null,
+      "buff": null,
+      "tags": [
+        "seed",
+        "spring"
+      ]
+    },
+    {
+      "id": "item_spring_asparagus",
+      "name": "Spring Asparagus",
+      "description": "Slender emerald spears harvested repeatedly; butter-seared alongside steaks.",
+      "category": "ingredient",
+      "rarity": "common",
+      "buy_price": null,
+      "sell_price": 45,
+      "energy": 20,
+      "buff": null,
+      "tags": [
+        "ingredient",
+        "spring",
+        "vegetable",
+        "regrow"
+      ]
+    },
+    {
+      "id": "seed_bamboo_shoot",
+      "name": "Sweet Bamboo Shoot Seeds",
+      "description": "Grown near streams; yields tender edible shoots and hollow bamboo tubes for Bamboo-Roasted Rice.",
+      "category": "seed",
+      "rarity": "common",
+      "buy_price": 50,
+      "sell_price": 25,
+      "energy": null,
+      "buff": null,
+      "tags": [
+        "seed",
+        "spring"
+      ]
+    },
+    {
+      "id": "item_bamboo_shoot",
+      "name": "Sweet Bamboo Shoot",
+      "description": "Grown near streams; yields tender edible shoots and hollow bamboo tubes for Bamboo-Roasted Rice.",
+      "category": "ingredient",
+      "rarity": "common",
+      "buy_price": null,
+      "sell_price": 50,
+      "energy": 20,
+      "buff": null,
+      "tags": [
+        "ingredient",
+        "spring",
+        "vegetable",
+        "regrow"
+      ]
+    },
+    {
+      "id": "seed_globe_artichoke",
+      "name": "Globe Artichoke Seeds",
+      "description": "Ornamental purple-green thistle bud simmered into poison-cleansing broths.",
+      "category": "seed",
+      "rarity": "common",
+      "buy_price": 45,
+      "sell_price": 22,
+      "energy": null,
+      "buff": null,
+      "tags": [
+        "seed",
+        "spring",
+        "summer"
+      ]
+    },
+    {
+      "id": "item_globe_artichoke",
+      "name": "Globe Artichoke",
+      "description": "Ornamental purple-green thistle bud simmered into poison-cleansing broths.",
+      "category": "ingredient",
+      "rarity": "common",
+      "buy_price": null,
+      "sell_price": 95,
+      "energy": 20,
+      "buff": null,
+      "tags": [
+        "ingredient",
+        "spring",
+        "summer",
+        "vegetable"
+      ]
+    },
+    {
+      "id": "seed_highland_coffee",
+      "name": "Highland Coffee Seeds",
+      "description": "Highland coffee shrub yielding berries across Spring & Summer; roasted into speed-boosting hot coffee.",
+      "category": "seed",
+      "rarity": "common",
+      "buy_price": 120,
+      "sell_price": 60,
+      "energy": null,
+      "buff": null,
+      "tags": [
+        "seed",
+        "spring",
+        "summer"
+      ]
+    },
+    {
+      "id": "item_highland_coffee",
+      "name": "Highland Coffee",
+      "description": "Highland coffee shrub yielding berries across Spring & Summer; roasted into speed-boosting hot coffee.",
+      "category": "ingredient",
+      "rarity": "common",
+      "buy_price": null,
+      "sell_price": 48,
+      "energy": 20,
+      "buff": null,
+      "tags": [
+        "ingredient",
+        "spring",
+        "summer",
+        "shrub",
+        "regrow"
+      ]
+    },
+    {
+      "id": "seed_hearth_chili",
+      "name": "Hearth Red Chili Seeds",
+      "description": "Fiery red chili pods powering spicy hotpots, stir-fries, and grilled meats.",
+      "category": "seed",
+      "rarity": "common",
+      "buy_price": 45,
+      "sell_price": 22,
+      "energy": null,
+      "buff": null,
+      "tags": [
+        "seed",
+        "summer"
+      ]
+    },
+    {
+      "id": "item_hearth_chili",
+      "name": "Hearth Red Chili",
+      "description": "Fiery red chili pods powering spicy hotpots, stir-fries, and grilled meats.",
+      "category": "ingredient",
+      "rarity": "common",
+      "buy_price": null,
+      "sell_price": 34,
+      "energy": 20,
+      "buff": null,
+      "tags": [
+        "ingredient",
+        "summer",
+        "spice",
+        "regrow"
+      ]
+    },
+    {
+      "id": "seed_night_eggplant",
+      "name": "Dusk Eggplant Seeds",
+      "description": "Glossy deep-violet eggplants delicious grilled with scallions or braised with rice.",
+      "category": "seed",
+      "rarity": "common",
+      "buy_price": 50,
+      "sell_price": 25,
+      "energy": null,
+      "buff": null,
+      "tags": [
+        "seed",
+        "summer"
+      ]
+    },
+    {
+      "id": "item_night_eggplant",
+      "name": "Dusk Eggplant",
+      "description": "Glossy deep-violet eggplants delicious grilled with scallions or braised with rice.",
+      "category": "ingredient",
+      "rarity": "common",
+      "buy_price": null,
+      "sell_price": 45,
+      "energy": 20,
+      "buff": null,
+      "tags": [
+        "ingredient",
+        "summer",
+        "vegetable",
+        "regrow"
+      ]
+    },
+    {
+      "id": "seed_kiwano_melon",
+      "name": "Horned Kiwano Melon Seeds",
+      "description": "Striking trellised orange horned melon with emerald jelly flesh; refreshing citrus-melon tang.",
+      "category": "seed",
+      "rarity": "common",
+      "buy_price": 70,
+      "sell_price": 35,
+      "energy": null,
+      "buff": null,
+      "tags": [
+        "seed",
+        "summer"
+      ]
+    },
+    {
+      "id": "item_kiwano_melon",
+      "name": "Horned Kiwano Melon",
+      "description": "Striking trellised orange horned melon with emerald jelly flesh; refreshing citrus-melon tang.",
+      "category": "ingredient",
+      "rarity": "common",
+      "buy_price": null,
+      "sell_price": 58,
+      "energy": 20,
+      "buff": null,
+      "tags": [
+        "ingredient",
+        "summer",
+        "melon",
+        "trellis",
+        "regrow"
+      ]
+    },
+    {
+      "id": "seed_chufa_nut",
+      "name": "Earth-Almond Chufa Seeds",
+      "description": "Ancient sedge tubers tasting of sweet roasted almonds; pressed for plant milk and trail cookies.",
+      "category": "seed",
+      "rarity": "common",
+      "buy_price": 35,
+      "sell_price": 17,
+      "energy": null,
+      "buff": null,
+      "tags": [
+        "seed",
+        "summer"
+      ]
+    },
+    {
+      "id": "item_chufa_nut",
+      "name": "Earth-Almond Chufa",
+      "description": "Ancient sedge tubers tasting of sweet roasted almonds; pressed for plant milk and trail cookies.",
+      "category": "ingredient",
+      "rarity": "common",
+      "buy_price": null,
+      "sell_price": 78,
+      "energy": 20,
+      "buff": null,
+      "tags": [
+        "ingredient",
+        "summer",
+        "root",
+        "nut"
+      ]
+    },
+    {
+      "id": "seed_golden_turmeric",
+      "name": "Golden Turmeric Seeds",
+      "description": "Vibrant orange spice root coloring festival rice and Aurelia's recovery salves.",
+      "category": "seed",
+      "rarity": "common",
+      "buy_price": 35,
+      "sell_price": 17,
+      "energy": null,
+      "buff": null,
+      "tags": [
+        "seed",
+        "summer"
+      ]
+    },
+    {
+      "id": "item_golden_turmeric",
+      "name": "Golden Turmeric",
+      "description": "Vibrant orange spice root coloring festival rice and Aurelia's recovery salves.",
+      "category": "ingredient",
+      "rarity": "common",
+      "buy_price": null,
+      "sell_price": 80,
+      "energy": 20,
+      "buff": null,
+      "tags": [
+        "ingredient",
+        "summer",
+        "spice",
+        "root"
+      ]
+    },
+    {
+      "id": "seed_kudzu_cassava",
+      "name": "Valley Cassava Seeds",
+      "description": "Drought-resilient starchy root refined into cooling summer drinks and chewy dumplings.",
+      "category": "seed",
+      "rarity": "common",
+      "buy_price": 40,
+      "sell_price": 20,
+      "energy": null,
+      "buff": null,
+      "tags": [
+        "seed",
+        "summer",
+        "autumn"
+      ]
+    },
+    {
+      "id": "item_kudzu_cassava",
+      "name": "Valley Cassava",
+      "description": "Drought-resilient starchy root refined into cooling summer drinks and chewy dumplings.",
+      "category": "ingredient",
+      "rarity": "common",
+      "buy_price": null,
+      "sell_price": 88,
+      "energy": 20,
+      "buff": null,
+      "tags": [
+        "ingredient",
+        "summer",
+        "autumn",
+        "root"
+      ]
+    },
+    {
+      "id": "seed_black_pepper",
+      "name": "Black Pepper Vine Seeds",
+      "description": "Trellised peppercorn vine letting Rowan farm aromatic black pepper for steaks and sausages.",
+      "category": "seed",
+      "rarity": "common",
+      "buy_price": 60,
+      "sell_price": 30,
+      "energy": null,
+      "buff": null,
+      "tags": [
+        "seed",
+        "summer"
+      ]
+    },
+    {
+      "id": "seed_frontier_garlic",
+      "name": "Frontier Purple Garlic Seeds",
+      "description": "Pungent purple-skinned garlic essential for steaks, buttered potatoes, and braised squid.",
+      "category": "seed",
+      "rarity": "common",
+      "buy_price": 25,
+      "sell_price": 12,
+      "energy": null,
+      "buff": null,
+      "tags": [
+        "seed",
+        "autumn"
+      ]
+    },
+    {
+      "id": "item_frontier_garlic",
+      "name": "Frontier Purple Garlic",
+      "description": "Pungent purple-skinned garlic essential for steaks, buttered potatoes, and braised squid.",
+      "category": "ingredient",
+      "rarity": "common",
+      "buy_price": null,
+      "sell_price": 55,
+      "energy": 20,
+      "buff": null,
+      "tags": [
+        "ingredient",
+        "autumn",
+        "spice",
+        "root"
+      ]
+    },
+    {
+      "id": "seed_valley_onion",
+      "name": "Golden Valley Onion Seeds",
+      "description": "Sweet golden-skinned onions storing well through Winter for stews and sausages.",
+      "category": "seed",
+      "rarity": "common",
+      "buy_price": 30,
+      "sell_price": 15,
+      "energy": null,
+      "buff": null,
+      "tags": [
+        "seed",
+        "autumn"
+      ]
+    },
+    {
+      "id": "item_valley_onion",
+      "name": "Golden Valley Onion",
+      "description": "Sweet golden-skinned onions storing well through Winter for stews and sausages.",
+      "category": "ingredient",
+      "rarity": "common",
+      "buy_price": null,
+      "sell_price": 68,
+      "energy": 20,
+      "buff": null,
+      "tags": [
+        "ingredient",
+        "autumn",
+        "vegetable",
+        "root"
+      ]
+    },
+    {
+      "id": "seed_tavern_hops",
+      "name": "Tavern Hops Seeds",
+      "description": "Tall aromatic hops trellis brewed into craft tavern ales in oak casks.",
+      "category": "seed",
+      "rarity": "common",
+      "buy_price": 75,
+      "sell_price": 37,
+      "energy": null,
+      "buff": null,
+      "tags": [
+        "seed",
+        "autumn"
+      ]
+    },
+    {
+      "id": "item_tavern_hops",
+      "name": "Tavern Hops",
+      "description": "Tall aromatic hops trellis brewed into craft tavern ales in oak casks.",
+      "category": "ingredient",
+      "rarity": "common",
+      "buy_price": null,
+      "sell_price": 42,
+      "energy": 20,
+      "buff": null,
+      "tags": [
+        "ingredient",
+        "autumn",
+        "trellis",
+        "brew",
+        "regrow"
+      ]
+    },
+    {
+      "id": "seed_golden_soybean",
+      "name": "Golden Soybean Seeds",
+      "description": "Versatile golden beans milled into soy milk, tofu, and fermented tavern bean paste.",
+      "category": "seed",
+      "rarity": "common",
+      "buy_price": 50,
+      "sell_price": 25,
+      "energy": null,
+      "buff": null,
+      "tags": [
+        "seed",
+        "autumn"
+      ]
+    },
+    {
+      "id": "item_golden_soybean",
+      "name": "Golden Soybean",
+      "description": "Versatile golden beans milled into soy milk, tofu, and fermented tavern bean paste.",
+      "category": "ingredient",
+      "rarity": "common",
+      "buy_price": null,
+      "sell_price": 38,
+      "energy": 20,
+      "buff": null,
+      "tags": [
+        "ingredient",
+        "autumn",
+        "bean",
+        "regrow"
+      ]
+    },
+    {
+      "id": "seed_hearth_rosemary",
+      "name": "Hearth Rosemary Seeds",
+      "description": "Aromatic evergreen herb sprigs for roasting poultry, steaks, and perfuming inn rooms.",
+      "category": "seed",
+      "rarity": "common",
+      "buy_price": 45,
+      "sell_price": 22,
+      "energy": null,
+      "buff": null,
+      "tags": [
+        "seed",
+        "autumn"
+      ]
+    },
+    {
+      "id": "item_hearth_rosemary",
+      "name": "Hearth Rosemary",
+      "description": "Aromatic evergreen herb sprigs for roasting poultry, steaks, and perfuming inn rooms.",
+      "category": "ingredient",
+      "rarity": "common",
+      "buy_price": null,
+      "sell_price": 36,
+      "energy": 20,
+      "buff": null,
+      "tags": [
+        "ingredient",
+        "autumn",
+        "herb",
+        "regrow"
+      ]
+    },
+    {
+      "id": "seed_turban_squash",
+      "name": "Turban Squash Seeds",
+      "description": "Colorful heirloom squash shaped like a bumpy turban; great for creamy soups and Masquerade decor.",
+      "category": "seed",
+      "rarity": "common",
+      "buy_price": 65,
+      "sell_price": 32,
+      "energy": null,
+      "buff": null,
+      "tags": [
+        "seed",
+        "summer",
+        "autumn"
+      ]
+    },
+    {
+      "id": "item_turban_squash",
+      "name": "Turban Squash",
+      "description": "Colorful heirloom squash shaped like a bumpy turban; great for creamy soups and Masquerade decor.",
+      "category": "ingredient",
+      "rarity": "uncommon",
+      "buy_price": null,
+      "sell_price": 165,
+      "energy": 20,
+      "buff": null,
+      "tags": [
+        "ingredient",
+        "summer",
+        "autumn",
+        "squash"
+      ]
+    },
+    {
+      "id": "seed_andean_oca",
+      "name": "Andean Jewel Oca Seeds",
+      "description": "Glossy jewel-toned Andean tubers with bright citrus-potato flavor; loved by Cora and Bram.",
+      "category": "seed",
+      "rarity": "common",
+      "buy_price": 55,
+      "sell_price": 27,
+      "energy": null,
+      "buff": null,
+      "tags": [
+        "seed",
+        "autumn"
+      ]
+    },
+    {
+      "id": "item_andean_oca",
+      "name": "Andean Jewel Oca",
+      "description": "Glossy jewel-toned Andean tubers with bright citrus-potato flavor; loved by Cora and Bram.",
+      "category": "ingredient",
+      "rarity": "uncommon",
+      "buy_price": null,
+      "sell_price": 130,
+      "energy": 20,
+      "buff": null,
+      "tags": [
+        "ingredient",
+        "autumn",
+        "root"
+      ]
+    },
+    {
+      "id": "seed_oyster_salsify",
+      "name": "Oyster Salsify Seeds",
+      "description": "Heirloom root tasting delicately of oysters when simmered in creamy chowders.",
+      "category": "seed",
+      "rarity": "common",
+      "buy_price": 50,
+      "sell_price": 25,
+      "energy": null,
+      "buff": null,
+      "tags": [
+        "seed",
+        "autumn"
+      ]
+    },
+    {
+      "id": "item_oyster_salsify",
+      "name": "Oyster Salsify",
+      "description": "Heirloom root tasting delicately of oysters when simmered in creamy chowders.",
+      "category": "ingredient",
+      "rarity": "uncommon",
+      "buy_price": null,
+      "sell_price": 125,
+      "energy": 20,
+      "buff": null,
+      "tags": [
+        "ingredient",
+        "autumn",
+        "root"
+      ]
+    },
+    {
+      "id": "seed_saffron_crocus",
+      "name": "Saffron Crocus Seeds",
+      "description": "Precious crimson stigmas from autumn crocus blooms, elevating dishes to Royal Contest 5-star quality.",
+      "category": "seed",
+      "rarity": "common",
+      "buy_price": 140,
+      "sell_price": 70,
+      "energy": null,
+      "buff": null,
+      "tags": [
+        "seed",
+        "autumn"
+      ]
+    },
+    {
+      "id": "item_saffron_crocus",
+      "name": "Saffron Crocus",
+      "description": "Precious crimson stigmas from autumn crocus blooms, elevating dishes to Royal Contest 5-star quality.",
+      "category": "ingredient",
+      "rarity": "uncommon",
+      "buy_price": null,
+      "sell_price": 340,
+      "energy": 20,
+      "buff": null,
+      "tags": [
+        "ingredient",
+        "autumn",
+        "spice",
+        "flower"
+      ]
+    },
+    {
+      "id": "seed_gold_kiwi",
+      "name": "Gold Kiwifruit Seeds",
+      "description": "Trellised golden-fleshed kiwifruit packed with stamina-restoring tang.",
+      "category": "seed",
+      "rarity": "common",
+      "buy_price": 70,
+      "sell_price": 35,
+      "energy": null,
+      "buff": null,
+      "tags": [
+        "seed",
+        "autumn"
+      ]
+    },
+    {
+      "id": "item_gold_kiwi",
+      "name": "Gold Kiwifruit",
+      "description": "Trellised golden-fleshed kiwifruit packed with stamina-restoring tang.",
+      "category": "ingredient",
+      "rarity": "common",
+      "buy_price": null,
+      "sell_price": 56,
+      "energy": 20,
+      "buff": null,
+      "tags": [
+        "ingredient",
+        "autumn",
+        "fruit",
+        "trellis",
+        "regrow"
+      ]
+    },
+    {
+      "id": "seed_bay_laurel",
+      "name": "Bay Laurel Seeds",
+      "description": "Fragrant Mediterranean laurel leaves for wine stews and woven champion wreaths.",
+      "category": "seed",
+      "rarity": "common",
+      "buy_price": 50,
+      "sell_price": 25,
+      "energy": null,
+      "buff": null,
+      "tags": [
+        "seed",
+        "spring",
+        "autumn"
+      ]
+    },
+    {
+      "id": "item_bay_laurel",
+      "name": "Bay Laurel",
+      "description": "Fragrant Mediterranean laurel leaves for wine stews and woven champion wreaths.",
+      "category": "ingredient",
+      "rarity": "common",
+      "buy_price": null,
+      "sell_price": 40,
+      "energy": 20,
+      "buff": null,
+      "tags": [
+        "ingredient",
+        "spring",
+        "autumn",
+        "herb",
+        "shrub",
+        "regrow"
+      ]
+    },
+    {
+      "id": "seed_terrace_lotus_root",
+      "name": "Terrace Mud Lotus Root Seeds",
+      "description": "Region 2 flooded terrace crop (auto-irrigated); crisp perforated roots for Altar purification feasts.",
+      "category": "seed",
+      "rarity": "common",
+      "buy_price": 45,
+      "sell_price": 22,
+      "energy": null,
+      "buff": null,
+      "tags": [
+        "seed",
+        "summer"
+      ]
+    },
+    {
+      "id": "item_terrace_lotus_root",
+      "name": "Terrace Mud Lotus Root",
+      "description": "Region 2 flooded terrace crop (auto-irrigated); crisp perforated roots for Altar purification feasts.",
+      "category": "ingredient",
+      "rarity": "uncommon",
+      "buy_price": null,
+      "sell_price": 110,
+      "energy": 20,
+      "buff": null,
+      "tags": [
+        "ingredient",
+        "summer",
+        "aquatic",
+        "region_2",
+        "root"
+      ]
+    },
+    {
+      "id": "seed_terrace_taro",
+      "name": "Terrace Purple Taro Seeds",
+      "description": "Region 2 terrace taro root; authentic base for Hearth-Steamed Ash Taro Cakes.",
+      "category": "seed",
+      "rarity": "common",
+      "buy_price": 50,
+      "sell_price": 25,
+      "energy": null,
+      "buff": null,
+      "tags": [
+        "seed",
+        "summer"
+      ]
+    },
+    {
+      "id": "item_terrace_taro",
+      "name": "Terrace Purple Taro",
+      "description": "Region 2 terrace taro root; authentic base for Hearth-Steamed Ash Taro Cakes.",
+      "category": "ingredient",
+      "rarity": "uncommon",
+      "buy_price": null,
+      "sell_price": 125,
+      "energy": 20,
+      "buff": null,
+      "tags": [
+        "ingredient",
+        "summer",
+        "aquatic",
+        "region_2",
+        "root"
+      ]
+    },
+    {
+      "id": "seed_purple_ube",
+      "name": "Ancient Forest Ube Seeds",
+      "description": "Region 3 Eternal Forest vine yam with vanilla-nutty purple flesh for specialty desserts.",
+      "category": "seed",
+      "rarity": "common",
+      "buy_price": 60,
+      "sell_price": 30,
+      "energy": null,
+      "buff": null,
+      "tags": [
+        "seed",
+        "summer",
+        "autumn"
+      ]
+    },
+    {
+      "id": "item_purple_ube",
+      "name": "Ancient Forest Ube",
+      "description": "Region 3 Eternal Forest vine yam with vanilla-nutty purple flesh for specialty desserts.",
+      "category": "ingredient",
+      "rarity": "uncommon",
+      "buy_price": null,
+      "sell_price": 145,
+      "energy": 20,
+      "buff": null,
+      "tags": [
+        "ingredient",
+        "summer",
+        "autumn",
+        "region_3",
+        "root"
+      ]
+    },
+    {
+      "id": "seed_vanilla_orchid",
+      "name": "Deepwood Vanilla Orchid Seeds",
+      "description": "Region 3 climbing orchid yielding fragrant vanilla pods for high-tier bakery recipes.",
+      "category": "seed",
+      "rarity": "common",
+      "buy_price": 90,
+      "sell_price": 45,
+      "energy": null,
+      "buff": null,
+      "tags": [
+        "seed",
+        "autumn"
+      ]
+    },
+    {
+      "id": "item_vanilla_orchid",
+      "name": "Deepwood Vanilla Orchid",
+      "description": "Region 3 climbing orchid yielding fragrant vanilla pods for high-tier bakery recipes.",
+      "category": "ingredient",
+      "rarity": "common",
+      "buy_price": null,
+      "sell_price": 85,
+      "energy": 20,
+      "buff": null,
+      "tags": [
+        "ingredient",
+        "autumn",
+        "region_3",
+        "spice",
+        "trellis",
+        "regrow"
+      ]
+    },
+    {
+      "id": "seed_andean_maca",
+      "name": "Wolf-Tooth Snow Maca Seeds",
+      "description": "Region 4 Wolf-Tooth Peak highland tuber thriving in sub-zero cliffs; boosts Stamina & Cold Resistance.",
+      "category": "seed",
+      "rarity": "common",
+      "buy_price": 85,
+      "sell_price": 42,
+      "energy": null,
+      "buff": null,
+      "tags": [
+        "seed",
+        "winter"
+      ]
+    },
+    {
+      "id": "item_andean_maca",
+      "name": "Wolf-Tooth Snow Maca",
+      "description": "Region 4 Wolf-Tooth Peak highland tuber thriving in sub-zero cliffs; boosts Stamina & Cold Resistance.",
+      "category": "ingredient",
+      "rarity": "uncommon",
+      "buy_price": null,
+      "sell_price": 195,
+      "energy": 20,
+      "buff": null,
+      "tags": [
+        "ingredient",
+        "winter",
+        "region_4",
+        "mountain",
+        "root"
+      ]
+    },
+    {
+      "id": "seed_snow_lotus",
+      "name": "Alpine Snow Lotus Seeds",
+      "description": "Region 4 alpine bloom thriving near hot springs; key reagent for revival and cure-all elixirs.",
+      "category": "seed",
+      "rarity": "common",
+      "buy_price": 110,
+      "sell_price": 55,
+      "energy": null,
+      "buff": null,
+      "tags": [
+        "seed",
+        "winter"
+      ]
+    },
+    {
+      "id": "item_snow_lotus",
+      "name": "Alpine Snow Lotus",
+      "description": "Region 4 alpine bloom thriving near hot springs; key reagent for revival and cure-all elixirs.",
+      "category": "ingredient",
+      "rarity": "uncommon",
+      "buy_price": null,
+      "sell_price": 260,
+      "energy": 20,
+      "buff": null,
+      "tags": [
+        "ingredient",
+        "winter",
+        "region_4",
+        "mountain",
+        "flower"
+      ]
+    },
+    {
+      "id": "seed_glow_fern",
+      "name": "Glow-Fern Cave Tuber Seeds",
+      "description": "Subterranean dark-cave tuber needing zero sunlight; eating grants a soft cave illumination aura.",
+      "category": "seed",
+      "rarity": "common",
+      "buy_price": 65,
+      "sell_price": 32,
+      "energy": null,
+      "buff": null,
+      "tags": [
+        "seed",
+        "spring",
+        "summer",
+        "autumn",
+        "winter"
+      ]
+    },
+    {
+      "id": "item_glow_fern",
+      "name": "Glow-Fern Cave Tuber",
+      "description": "Subterranean dark-cave tuber needing zero sunlight; eating grants a soft cave illumination aura.",
+      "category": "ingredient",
+      "rarity": "uncommon",
+      "buy_price": null,
+      "sell_price": 145,
+      "energy": 20,
+      "buff": null,
+      "tags": [
+        "ingredient",
+        "cave",
+        "subterranean",
+        "root"
+      ]
+    },
+    {
+      "id": "seed_cave_truffle",
+      "name": "Cavern Black Truffle Seeds",
+      "description": "Rare subterranean black truffle cultivated in damp cave soil; prized 5-star Royal Banquet ingredient.",
+      "category": "seed",
+      "rarity": "common",
+      "buy_price": 120,
+      "sell_price": 60,
+      "energy": null,
+      "buff": null,
+      "tags": [
+        "seed",
+        "spring",
+        "summer",
+        "autumn",
+        "winter"
+      ]
+    },
+    {
+      "id": "item_cave_truffle",
+      "name": "Cavern Black Truffle",
+      "description": "Rare subterranean black truffle cultivated in damp cave soil; prized 5-star Royal Banquet ingredient.",
+      "category": "ingredient",
+      "rarity": "uncommon",
+      "buy_price": null,
+      "sell_price": 290,
+      "energy": 20,
+      "buff": null,
+      "tags": [
+        "ingredient",
+        "cave",
+        "subterranean",
+        "mushroom"
+      ]
+    },
+    {
+      "id": "seed_chestnut_sapling",
+      "name": "Roasted Chestnut Tree Seeds",
+      "description": "Hardy deep-rooted tree dropping sweet chestnuts roasted beside The Hearth's winter fire.",
+      "category": "seed",
+      "rarity": "common",
+      "buy_price": 1100,
+      "sell_price": 550,
+      "energy": null,
+      "buff": null,
+      "tags": [
+        "seed",
+        "autumn",
+        "winter"
+      ]
+    },
+    {
+      "id": "item_chestnut",
+      "name": "Roasted Chestnut Tree",
+      "description": "Hardy deep-rooted tree dropping sweet chestnuts roasted beside The Hearth's winter fire.",
+      "category": "ingredient",
+      "rarity": "common",
+      "buy_price": null,
+      "sell_price": 40,
+      "energy": 20,
+      "buff": null,
+      "tags": [
+        "ingredient",
+        "tree",
+        "fruit_tree",
+        "autumn",
+        "winter"
+      ]
+    },
+    {
+      "id": "seed_olive_sapling",
+      "name": "Ancient Olive Tree Seeds",
+      "description": "Pressed into Virgin Olive Oil for cooking sautés and salads without relying on dairy butter.",
+      "category": "seed",
+      "rarity": "common",
+      "buy_price": 1150,
+      "sell_price": 575,
+      "energy": null,
+      "buff": null,
+      "tags": [
+        "seed",
+        "summer",
+        "autumn"
+      ]
+    },
+    {
+      "id": "item_olive_oil",
+      "name": "Ancient Olive Tree",
+      "description": "Pressed into Virgin Olive Oil for cooking sautés and salads without relying on dairy butter.",
+      "category": "ingredient",
+      "rarity": "common",
+      "buy_price": null,
+      "sell_price": 38,
+      "energy": 20,
+      "buff": null,
+      "tags": [
+        "ingredient",
+        "tree",
+        "fruit_tree",
+        "summer",
+        "autumn"
+      ]
+    },
+    {
+      "id": "seed_cacao_sapling",
+      "name": "Valley Cacao Tree Seeds",
+      "description": "Ground into rich cocoa for cozy winter Hot Chocolate and gourmet patisserie.",
+      "category": "seed",
+      "rarity": "common",
+      "buy_price": 1250,
+      "sell_price": 625,
+      "energy": null,
+      "buff": null,
+      "tags": [
+        "seed",
+        "summer"
+      ]
+    },
+    {
+      "id": "item_cacao_pod",
+      "name": "Valley Cacao Tree",
+      "description": "Ground into rich cocoa for cozy winter Hot Chocolate and gourmet patisserie.",
+      "category": "ingredient",
+      "rarity": "common",
+      "buy_price": null,
+      "sell_price": 46,
+      "energy": 20,
+      "buff": null,
+      "tags": [
+        "ingredient",
+        "tree",
+        "fruit_tree",
+        "summer"
+      ]
+    },
+    {
+      "id": "seed_pomegranate_sapling",
+      "name": "Solaria Pomegranate Tree Seeds",
+      "description": "Ruby-seeded fruit pressed into vitality elixirs boosting Max HP and Critical Hit Rate.",
+      "category": "seed",
+      "rarity": "common",
+      "buy_price": 1200,
+      "sell_price": 600,
+      "energy": null,
+      "buff": null,
+      "tags": [
+        "seed",
+        "autumn"
+      ]
+    },
+    {
+      "id": "item_pomegranate",
+      "name": "Solaria Pomegranate Tree",
+      "description": "Ruby-seeded fruit pressed into vitality elixirs boosting Max HP and Critical Hit Rate.",
+      "category": "ingredient",
+      "rarity": "common",
+      "buy_price": null,
+      "sell_price": 44,
+      "energy": 20,
+      "buff": null,
+      "tags": [
+        "ingredient",
+        "tree",
+        "fruit_tree",
+        "autumn"
+      ]
+    },
+    {
+      "id": "seed_fig_sapling",
+      "name": "Honey Fig Tree Seeds",
+      "description": "Sweet purple figs simmered into preserves served with oak-aged cheese.",
+      "category": "seed",
+      "rarity": "common",
+      "buy_price": 1050,
+      "sell_price": 525,
+      "energy": null,
+      "buff": null,
+      "tags": [
+        "seed",
+        "autumn"
+      ]
+    },
+    {
+      "id": "item_honey_fig",
+      "name": "Honey Fig Tree",
+      "description": "Sweet purple figs simmered into preserves served with oak-aged cheese.",
+      "category": "ingredient",
+      "rarity": "common",
+      "buy_price": null,
+      "sell_price": 36,
+      "energy": 20,
+      "buff": null,
+      "tags": [
+        "ingredient",
+        "tree",
+        "fruit_tree",
+        "autumn"
+      ]
+    },
+    {
+      "id": "seed_apricot_sapling",
+      "name": "Golden Apricot Tree Seeds",
+      "description": "Sun-gold apricots dried into non-perishable trail rations for 150-floor mine delves.",
+      "category": "seed",
+      "rarity": "common",
+      "buy_price": 1000,
+      "sell_price": 500,
+      "energy": null,
+      "buff": null,
+      "tags": [
+        "seed",
+        "spring",
+        "summer"
+      ]
+    },
+    {
+      "id": "item_apricot",
+      "name": "Golden Apricot Tree",
+      "description": "Sun-gold apricots dried into non-perishable trail rations for 150-floor mine delves.",
+      "category": "ingredient",
+      "rarity": "common",
+      "buy_price": null,
+      "sell_price": 34,
+      "energy": 20,
+      "buff": null,
+      "tags": [
+        "ingredient",
+        "tree",
+        "fruit_tree",
+        "spring",
+        "summer"
+      ]
+    },
+    {
+      "id": "seed_avocado_sapling",
+      "name": "Creamy Avocado Tree Seeds",
+      "description": "Velvety Mesoamerican fruit mashed onto hearth toast with farmstead eggs.",
+      "category": "seed",
+      "rarity": "common",
+      "buy_price": 1150,
+      "sell_price": 575,
+      "energy": null,
+      "buff": null,
+      "tags": [
+        "seed",
+        "summer"
+      ]
+    },
+    {
+      "id": "item_avocado",
+      "name": "Creamy Avocado Tree",
+      "description": "Velvety Mesoamerican fruit mashed onto hearth toast with farmstead eggs.",
+      "category": "ingredient",
+      "rarity": "common",
+      "buy_price": null,
+      "sell_price": 42,
+      "energy": 20,
+      "buff": null,
+      "tags": [
+        "ingredient",
+        "tree",
+        "fruit_tree",
+        "summer"
+      ]
+    },
+    {
+      "id": "seed_blackberry_bush",
+      "name": "Blackberry Bush Seeds",
+      "description": "Compact 1x1 berry bush yielding dark bramble fruit for tarts and syrups.",
+      "category": "seed",
+      "rarity": "common",
+      "buy_price": 75,
+      "sell_price": 37,
+      "energy": null,
+      "buff": null,
+      "tags": [
+        "seed",
+        "summer"
+      ]
+    },
+    {
+      "id": "item_blackberry",
+      "name": "Blackberry Bush",
+      "description": "Compact 1x1 berry bush yielding dark bramble fruit for tarts and syrups.",
+      "category": "ingredient",
+      "rarity": "common",
+      "buy_price": null,
+      "sell_price": 42,
+      "energy": 20,
+      "buff": null,
+      "tags": [
+        "ingredient",
+        "summer",
+        "bush",
+        "fruit",
+        "regrow"
+      ]
+    },
+    {
+      "id": "seed_cranberry_bush",
+      "name": "Bog Cranberry Bush Seeds",
+      "description": "Moisture-loving marsh bush yielding tart cranberries for roast meat glazes.",
+      "category": "seed",
+      "rarity": "common",
+      "buy_price": 80,
+      "sell_price": 40,
+      "energy": null,
+      "buff": null,
+      "tags": [
+        "seed",
+        "autumn"
+      ]
+    },
+    {
+      "id": "item_cranberry",
+      "name": "Bog Cranberry Bush",
+      "description": "Moisture-loving marsh bush yielding tart cranberries for roast meat glazes.",
+      "category": "ingredient",
+      "rarity": "common",
+      "buy_price": null,
+      "sell_price": 45,
+      "energy": 20,
+      "buff": null,
+      "tags": [
+        "ingredient",
+        "autumn",
+        "bush",
+        "fruit",
+        "regrow"
+      ]
+    },
+    {
+      "id": "seed_climbing_rose",
+      "name": "Hearth Climbing Rose Seeds",
+      "description": "Climbs wooden fences outside The Hearth, boosting Cozy Rating and yielding fragrant tea petals.",
+      "category": "seed",
+      "rarity": "common",
+      "buy_price": 40,
+      "sell_price": 20,
+      "energy": null,
+      "buff": null,
+      "tags": [
+        "seed",
+        "spring",
+        "summer"
+      ]
+    },
+    {
+      "id": "item_rose_petals",
+      "name": "Hearth Climbing Rose",
+      "description": "Climbs wooden fences outside The Hearth, boosting Cozy Rating and yielding fragrant tea petals.",
+      "category": "decor",
+      "rarity": "common",
+      "buy_price": null,
+      "sell_price": 35,
+      "energy": null,
+      "buff": null,
+      "tags": [
+        "decor",
+        "spring",
+        "summer",
+        "ornamental",
+        "cozy",
+        "flower"
+      ]
+    },
+    {
+      "id": "seed_rain_hydrangea",
+      "name": "Rain-Shift Hydrangea Seeds",
+      "description": "Weather-reactive blooms shifting from rose-violet in sunshine to sapphire blue on rainy days.",
+      "category": "seed",
+      "rarity": "common",
+      "buy_price": 45,
+      "sell_price": 22,
+      "energy": null,
+      "buff": null,
+      "tags": [
+        "seed",
+        "summer"
+      ]
+    },
+    {
+      "id": "item_hydrangea_bloom",
+      "name": "Rain-Shift Hydrangea",
+      "description": "Weather-reactive blooms shifting from rose-violet in sunshine to sapphire blue on rainy days.",
+      "category": "decor",
+      "rarity": "common",
+      "buy_price": null,
+      "sell_price": 42,
+      "energy": null,
+      "buff": null,
+      "tags": [
+        "decor",
+        "summer",
+        "ornamental",
+        "cozy",
+        "flower"
+      ]
+    },
+    {
+      "id": "seed_lantern_lily",
+      "name": "Autumn Lantern Lily Seeds",
+      "description": "Drooping lantern-shaped blooms emitting warm amber light along autumn evening paths.",
+      "category": "seed",
+      "rarity": "common",
+      "buy_price": 55,
+      "sell_price": 27,
+      "energy": null,
+      "buff": null,
+      "tags": [
+        "seed",
+        "autumn"
+      ]
+    },
+    {
+      "id": "item_lantern_lily",
+      "name": "Autumn Lantern Lily",
+      "description": "Drooping lantern-shaped blooms emitting warm amber light along autumn evening paths.",
+      "category": "decor",
+      "rarity": "common",
+      "buy_price": null,
+      "sell_price": 70,
+      "energy": null,
+      "buff": null,
+      "tags": [
+        "decor",
+        "autumn",
+        "ornamental",
+        "cozy",
+        "flower"
+      ]
+    },
+    {
+      "id": "seed_winter_snowdrop",
+      "name": "Winter Snowdrop Seeds",
+      "description": "Delicate white ornamental bells blooming through Winter snow; tavern table vases boost guest tips.",
+      "category": "seed",
+      "rarity": "common",
+      "buy_price": 35,
+      "sell_price": 17,
+      "energy": null,
+      "buff": null,
+      "tags": [
+        "seed",
+        "winter"
+      ]
+    },
+    {
+      "id": "item_snowdrop_bloom",
+      "name": "Winter Snowdrop",
+      "description": "Delicate white ornamental bells blooming through Winter snow; tavern table vases boost guest tips.",
+      "category": "decor",
+      "rarity": "common",
+      "buy_price": null,
+      "sell_price": 55,
+      "energy": null,
+      "buff": null,
+      "tags": [
+        "decor",
+        "winter",
+        "ornamental",
+        "cozy",
+        "flower"
+      ]
+    },
+    {
+      "id": "seed_starry_tulip",
+      "name": "Starry Tulip Seeds",
+      "description": "Blooms in 4 random hues; bundled into birthday bouquets for 2x Heart Affection.",
+      "category": "seed",
+      "rarity": "common",
+      "buy_price": 30,
+      "sell_price": 15,
+      "energy": null,
+      "buff": null,
+      "tags": [
+        "seed",
+        "spring"
+      ]
+    },
+    {
+      "id": "item_starry_tulip",
+      "name": "Starry Tulip",
+      "description": "Blooms in 4 random hues; bundled into birthday bouquets for 2x Heart Affection.",
+      "category": "decor",
+      "rarity": "common",
+      "buy_price": null,
+      "sell_price": 50,
+      "energy": null,
+      "buff": null,
+      "tags": [
+        "decor",
+        "spring",
+        "ornamental",
+        "cozy",
+        "flower"
+      ]
+    },
+    {
+      "id": "seed_maple_bonsai",
+      "name": "Crimson Maple Bonsai Seeds",
+      "description": "Potted dwarf crimson maple placed on porches or inn rooms for permanent +12 Cozy Rating.",
+      "category": "seed",
+      "rarity": "common",
+      "buy_price": 250,
+      "sell_price": 125,
+      "energy": null,
+      "buff": null,
+      "tags": [
+        "seed",
+        "spring",
+        "summer",
+        "autumn",
+        "winter"
+      ]
+    },
+    {
+      "id": "item_maple_bonsai",
+      "name": "Crimson Maple Bonsai",
+      "description": "Potted dwarf crimson maple placed on porches or inn rooms for permanent +12 Cozy Rating.",
+      "category": "decor",
+      "rarity": "uncommon",
+      "buy_price": null,
+      "sell_price": 120,
+      "energy": null,
+      "buff": null,
+      "tags": [
+        "decor",
+        "spring",
+        "summer",
+        "autumn",
+        "winter",
+        "ornamental",
+        "cozy"
+      ]
+    },
+    {
+      "id": "seed_boxwood_hedge",
+      "name": "Sculpted Boxwood Hedge Seeds",
+      "description": "Evergreen trimmed hedge lining stone paths from Village Gate to The Hearth.",
+      "category": "seed",
+      "rarity": "common",
+      "buy_price": 90,
+      "sell_price": 45,
+      "energy": null,
+      "buff": null,
+      "tags": [
+        "seed",
+        "spring",
+        "summer",
+        "autumn",
+        "winter"
+      ]
+    },
+    {
+      "id": "item_boxwood_hedge",
+      "name": "Sculpted Boxwood Hedge",
+      "description": "Evergreen trimmed hedge lining stone paths from Village Gate to The Hearth.",
+      "category": "decor",
+      "rarity": "common",
+      "buy_price": null,
+      "sell_price": 45,
+      "energy": null,
+      "buff": null,
+      "tags": [
+        "decor",
+        "spring",
+        "summer",
+        "autumn",
+        "winter",
+        "ornamental",
+        "cozy"
       ]
     }
   ]

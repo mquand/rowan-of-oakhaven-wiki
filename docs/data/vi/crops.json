@@ -1,5 +1,5 @@
 {
-  "version": "2.2.0",
+  "version": "3.0.0",
   "updated": "2026-11-25",
   "crops": [
     {
@@ -381,13 +381,12 @@
       "seed_price": 35,
       "sell_price": 55,
       "profit_per_day": "3.33 Vàng/ngày",
-      "description": "Bắp cải lá giòn cuộn chặt phát triển mạnh trong sương sớm đầu xuân mát lạnh, tạo vị ngọt thanh giòn rụm.",
+      "description": "Bắp cải cuộn chắc, lá giòn ngọt; có 2% cơ hội hợp nhất thành Bắp Cải Băng Khổng Lồ khi trồng cụm 3x3.",
       "harvest_note": "Thu hoạch 1 lần. Thích hợp nấu súp thanh vị và món salad khai vị.",
       "tags": [
-        "field",
+        "spring",
         "vegetable",
-        "farming",
-        "spring"
+        "giant"
       ]
     },
     {
@@ -776,20 +775,20 @@
       "seed_price": 25,
       "sell_price": 50,
       "profit_per_day": "5.00 Vàng/ngày",
-      "description": "Củ cải trắng muốt giòn tan như băng ngọc, sinh trưởng tốt ngay cả dưới lớp tuyết phủ dày của mùa đông.",
+      "description": "Củ cải trắng giòn ngọt chịu băng tuyết (1 trong 3 loài sống được ngoài trời Mùa Đông); có 2% hóa Củ Cải Tuyết Khổng Lồ 3x3 lấy cảm hứng Sakurajima.",
       "harvest_note": "Thu hoạch 1 lần. Cây lương thực mùa đông nhanh thu hoạch nhất (chỉ 5 ngày).",
       "tags": [
-        "field",
-        "vegetable",
-        "farming",
-        "winter"
+        "winter",
+        "root",
+        "giant"
       ]
     },
     {
       "id": "crop_frostmint",
-      "name": "Bạc Hà Băng Giá",
+      "name": "Bạc Hà Sương Mai",
       "seasons": [
-        "winter"
+        "spring",
+        "summer"
       ],
       "growth_days": 6,
       "regrow_days": 0,
@@ -798,7 +797,7 @@
       "seed_price": 30,
       "sell_price": 65,
       "profit_per_day": "5.83 Vàng/ngày",
-      "description": "Lá bạc hà viền tinh thể sương băng, vị cay the mát lạnh thanh lọc vòm họng và giữ tinh thần luôn tỉnh táo.",
+      "description": "Lá bạc hà the mát mọc suốt Xuân-Hạ; pha trà giải nhiệt và chế kẹo mát họng.",
       "harvest_note": "Thu hoạch 1 lần. Dùng pha trà bạc hà xông hơi giải cảm mùa đông.",
       "tags": [
         "field",
@@ -809,9 +808,9 @@
     },
     {
       "id": "crop_frost_potato",
-      "name": "Khoai Tây Tuyết Núi Cao",
+      "name": "Khoai Tây Núi Cao",
       "seasons": [
-        "winter"
+        "spring"
       ],
       "growth_days": 7,
       "regrow_days": 0,
@@ -820,7 +819,7 @@
       "seed_price": 45,
       "sell_price": 90,
       "profit_per_day": "~8.04 Vàng/ngày (kèm 25% củ phụ)",
-      "description": "Củ khoai dẻo bùi đào sâu dưới lớp đất tuyết, có tỉ lệ 25% rớt thêm củ con khi thu hoạch.",
+      "description": "Giống khoai dẻo ngọt trồng vụ Xuân ở thung lũng; nghiền tỏi bơ cho đĩa bít-tết thợ rèn Boris.",
       "harvest_note": "Thu hoạch 1 lần. Thường rớt thêm củ phụ khi đào.",
       "tags": [
         "field",
@@ -831,9 +830,9 @@
     },
     {
       "id": "crop_frost_beet",
-      "name": "Củ Dền Băng Ruby",
+      "name": "Củ Dền Ruby",
       "seasons": [
-        "winter"
+        "autumn"
       ],
       "growth_days": 6,
       "regrow_days": 0,
@@ -842,7 +841,7 @@
       "seed_price": 40,
       "sell_price": 80,
       "profit_per_day": "6.67 Vàng/ngày",
-      "description": "Củ dền tròn đỏ thẫm như ngọc ruby, cô đọng lượng đường tự nhiên cao giữa cái lạnh giá rét.",
+      "description": "Củ dền đỏ thắm thu hoạch vụ Thu; cô đặc đường tự nhiên, tạo màu đỏ cho súp và bánh nướng.",
       "harvest_note": "Thu hoạch 1 lần. Tạo màu tự nhiên đẹp mắt cho bánh nướng và súp hầm.",
       "tags": [
         "field",
@@ -928,8 +927,7 @@
       "id": "crop_mandrake",
       "name": "Củ Mandrake Nhân Sâm",
       "seasons": [
-        "autumn",
-        "winter"
+        "autumn"
       ],
       "growth_days": 14,
       "regrow_days": 0,
@@ -938,7 +936,7 @@
       "seed_price": 100,
       "sell_price": 280,
       "profit_per_day": "12.86 Vàng/ngày",
-      "description": "Rễ cây hình nhân kì bí phát ra tiếng thì thầm trong đất tối. Chứa tinh hoa hồi sinh nguyên khí mạnh mẽ nhất thế giới ngầm.",
+      "description": "Rễ củ quý hiếm trồng vụ Thu (hoặc quanh năm trong Nhà Kính); hầm gà sâm tăng tối đa sinh mệnh.",
       "harvest_note": "Thu hoạch 1 lần. Trồng được trong cả mùa Thu và Đông rét mướt.",
       "tags": [
         "field",
@@ -996,6 +994,1106 @@
         "grain",
         "staple",
         "paddy"
+      ]
+    },
+    {
+      "id": "crop_spring_scallion",
+      "name": "Hành Lá Thung Lũng",
+      "seasons": [
+        "spring"
+      ],
+      "growth_days": 3,
+      "regrow_days": 2,
+      "seed_item_id": "seed_spring_scallion",
+      "harvest_item_id": "item_spring_scallion",
+      "seed_price": 15,
+      "sell_price": 22,
+      "profit_per_day": "4.50 Vàng/ngày",
+      "description": "Cây gia vị lớn nhanh nhất game, cắt lá tái sinh liên tục; dùng cho món xào, súp và trứng ốp la.",
+      "harvest_note": "Thu hoạch mỗi 2 ngày suốt mùa Xuân.",
+      "tags": [
+        "spring",
+        "herb",
+        "regrow"
+      ]
+    },
+    {
+      "id": "crop_valley_spinach",
+      "name": "Rau Chân Vịt Đồi Sương",
+      "seasons": [
+        "spring"
+      ],
+      "growth_days": 4,
+      "regrow_days": 0,
+      "seed_item_id": "seed_valley_spinach",
+      "harvest_item_id": "item_valley_spinach",
+      "seed_price": 20,
+      "sell_price": 42,
+      "profit_per_day": "5.50 Vàng/ngày",
+      "description": "Rau lá xanh non giàu sắt giúp hồi phục máu nhẹ; xào tỏi và làm nhân bánh nướng.",
+      "harvest_note": "Thu hoạch 1 lần sau 4 ngày.",
+      "tags": [
+        "spring",
+        "vegetable"
+      ]
+    },
+    {
+      "id": "crop_silver_flax",
+      "name": "Cây Lanh Sợi Bạc",
+      "seasons": [
+        "spring"
+      ],
+      "growth_days": 6,
+      "regrow_days": 0,
+      "seed_item_id": "seed_silver_flax",
+      "harvest_item_id": "item_silver_flax",
+      "seed_price": 30,
+      "sell_price": 65,
+      "profit_per_day": "5.83 Vàng/ngày",
+      "description": "Cây công nghiệp cho sợi lanh bền chắc cung ứng xưởng dệt Elora & Mae (may dây thừng, vải bạt, balo).",
+      "harvest_note": "Gặt sợi lanh và hạt ép dầu.",
+      "tags": [
+        "spring",
+        "fiber",
+        "craft"
+      ]
+    },
+    {
+      "id": "crop_jicama_root",
+      "name": "Củ Sắn Nước Jícama",
+      "seasons": [
+        "spring"
+      ],
+      "growth_days": 7,
+      "regrow_days": 0,
+      "seed_item_id": "seed_jicama_root",
+      "harvest_item_id": "item_jicama_root",
+      "seed_price": 40,
+      "sell_price": 95,
+      "profit_per_day": "7.86 Vàng/ngày",
+      "description": "Củ tròn vỏ nâu ruột trắng giòn ngọt mát như lê (Mexico); có 2% hóa Củ Sắn Nước Khổng Lồ 3x3.",
+      "harvest_note": "Trồng cụm 3x3 để săn củ khổng lồ Mùa Xuân.",
+      "tags": [
+        "spring",
+        "root",
+        "giant"
+      ]
+    },
+    {
+      "id": "crop_spring_asparagus",
+      "name": "Măng Tây Xanh",
+      "seasons": [
+        "spring"
+      ],
+      "growth_days": 7,
+      "regrow_days": 3,
+      "seed_item_id": "seed_spring_asparagus",
+      "harvest_item_id": "item_spring_asparagus",
+      "seed_price": 55,
+      "sell_price": 45,
+      "profit_per_day": "6.40 Vàng/ngày",
+      "description": "Thân non xanh mướt thu nhiều đợt; áp chảo bơ tỏi ăn kèm bít-tết.",
+      "harvest_note": "Tái sinh mỗi 3 ngày sau lần cắt đầu.",
+      "tags": [
+        "spring",
+        "vegetable",
+        "regrow"
+      ]
+    },
+    {
+      "id": "crop_bamboo_shoot",
+      "name": "Bụi Măng Tre Ngọt",
+      "seasons": [
+        "spring"
+      ],
+      "growth_days": 8,
+      "regrow_days": 4,
+      "seed_item_id": "seed_bamboo_shoot",
+      "harvest_item_id": "item_bamboo_shoot",
+      "seed_price": 50,
+      "sell_price": 50,
+      "profit_per_day": "5.80 Vàng/ngày",
+      "description": "Mọc ven suối/bìa rừng; thu măng non nấu canh và ống tre già làm Cơm Lam Ống Tre.",
+      "harvest_note": "Tái sinh mỗi 4 ngày suốt Mùa Xuân.",
+      "tags": [
+        "spring",
+        "vegetable",
+        "regrow"
+      ]
+    },
+    {
+      "id": "crop_globe_artichoke",
+      "name": "Bông Atisô Tím",
+      "seasons": [
+        "spring",
+        "summer"
+      ],
+      "growth_days": 8,
+      "regrow_days": 0,
+      "seed_item_id": "seed_globe_artichoke",
+      "harvest_item_id": "item_globe_artichoke",
+      "seed_price": 45,
+      "sell_price": 95,
+      "profit_per_day": "6.25 Vàng/ngày",
+      "description": "Nụ hoa tím xanh vừa đẹp vườn vừa hầm canh giải độc và tăng kháng nguyên tố.",
+      "harvest_note": "Trồng được cả Xuân và Hạ.",
+      "tags": [
+        "spring",
+        "summer",
+        "vegetable"
+      ]
+    },
+    {
+      "id": "crop_highland_coffee",
+      "name": "Cà Phê Cao Nguyên",
+      "seasons": [
+        "spring",
+        "summer"
+      ],
+      "growth_days": 10,
+      "regrow_days": 2,
+      "seed_item_id": "seed_highland_coffee",
+      "harvest_item_id": "item_highland_coffee",
+      "seed_price": 120,
+      "sell_price": 48,
+      "profit_per_day": "12.50 Vàng/ngày",
+      "description": "Bụi cà phê vùng cao thu nhiều đợt xuyên Xuân-Hạ; rang xay pha Cà Phê Nóng tăng tốc chạy.",
+      "harvest_note": "Thu hoạch mỗi 2 ngày xuyên Xuân-Hạ.",
+      "tags": [
+        "spring",
+        "summer",
+        "shrub",
+        "regrow"
+      ]
+    },
+    {
+      "id": "crop_hearth_chili",
+      "name": "Ớt Đỏ Lửa Bếp",
+      "seasons": [
+        "summer"
+      ],
+      "growth_days": 7,
+      "regrow_days": 3,
+      "seed_item_id": "seed_hearth_chili",
+      "harvest_item_id": "item_hearth_chili",
+      "seed_price": 45,
+      "sell_price": 34,
+      "profit_per_day": "5.50 Vàng/ngày",
+      "description": "Ớt đỏ cay nồng trồng ngoài đồng; nguyên liệu chuẩn cho Lẩu cá cay, Bắp xào cay và Thịt nướng cay.",
+      "harvest_note": "Tái sinh mỗi 3 ngày suốt Mùa Hạ.",
+      "tags": [
+        "summer",
+        "spice",
+        "regrow"
+      ]
+    },
+    {
+      "id": "crop_night_eggplant",
+      "name": "Cà Tím Tím Than",
+      "seasons": [
+        "summer"
+      ],
+      "growth_days": 8,
+      "regrow_days": 4,
+      "seed_item_id": "seed_night_eggplant",
+      "harvest_item_id": "item_night_eggplant",
+      "seed_price": 50,
+      "sell_price": 45,
+      "profit_per_day": "6.20 Vàng/ngày",
+      "description": "Quả tím bóng bẩy nướng mỡ hành hoặc kho tộ ăn cùng Cơm Lúa Nước.",
+      "harvest_note": "Tái sinh mỗi 4 ngày.",
+      "tags": [
+        "summer",
+        "vegetable",
+        "regrow"
+      ]
+    },
+    {
+      "id": "crop_kiwano_melon",
+      "name": "Dưa Gai Vỏ Cam Kiwano",
+      "seasons": [
+        "summer"
+      ],
+      "growth_days": 9,
+      "regrow_days": 3,
+      "seed_item_id": "seed_kiwano_melon",
+      "harvest_item_id": "item_kiwano_melon",
+      "seed_price": 70,
+      "sell_price": 58,
+      "profit_per_day": "7.80 Vàng/ngày",
+      "description": "Giàn leo độc đáo vỏ cam gai nhọn, ruột xanh ngọc lấp lánh; vị thanh pha chanh dây giải nhiệt.",
+      "harvest_note": "Cây giàn leo (không đi xuyên qua được).",
+      "tags": [
+        "summer",
+        "melon",
+        "trellis",
+        "regrow"
+      ]
+    },
+    {
+      "id": "crop_chufa_nut",
+      "name": "Củ Hạnh Nhân Đất Chufa",
+      "seasons": [
+        "summer"
+      ],
+      "growth_days": 7,
+      "regrow_days": 0,
+      "seed_item_id": "seed_chufa_nut",
+      "harvest_item_id": "item_chufa_nut",
+      "seed_price": 35,
+      "sell_price": 78,
+      "profit_per_day": "6.14 Vàng/ngày",
+      "description": "Loài củ cổ đại vị béo bùi như hạnh nhân (Ai Cập/Tây Ban Nha); ép Sữa Hạt và nướng bánh quy.",
+      "harvest_note": "Thu hoạch 1 lần sau 7 ngày.",
+      "tags": [
+        "summer",
+        "root",
+        "nut"
+      ]
+    },
+    {
+      "id": "crop_golden_turmeric",
+      "name": "Củ Nghệ Vàng",
+      "seasons": [
+        "summer"
+      ],
+      "growth_days": 7,
+      "regrow_days": 0,
+      "seed_item_id": "seed_golden_turmeric",
+      "harvest_item_id": "item_golden_turmeric",
+      "seed_price": 35,
+      "sell_price": 80,
+      "profit_per_day": "6.43 Vàng/ngày",
+      "description": "Củ gia vị vàng cam rực rỡ; tạo màu cơm vàng và chế thuốc hồi phục chấn thương của Aurelia.",
+      "harvest_note": "Thu hoạch 1 lần sau 7 ngày.",
+      "tags": [
+        "summer",
+        "spice",
+        "root"
+      ]
+    },
+    {
+      "id": "crop_kudzu_cassava",
+      "name": "Củ Sắn Dây",
+      "seasons": [
+        "summer",
+        "autumn"
+      ],
+      "growth_days": 8,
+      "regrow_days": 0,
+      "seed_item_id": "seed_kudzu_cassava",
+      "harvest_item_id": "item_kudzu_cassava",
+      "seed_price": 40,
+      "sell_price": 88,
+      "profit_per_day": "6.00 Vàng/ngày",
+      "description": "Củ tinh bột chịu nắng tốt; lọc bột sắn giải nhiệt mùa hè và làm vỏ bánh dẻo.",
+      "harvest_note": "Trồng được cả Hạ và Thu.",
+      "tags": [
+        "summer",
+        "autumn",
+        "root"
+      ]
+    },
+    {
+      "id": "crop_black_pepper",
+      "name": "Tiêu Đen Leo Trụ",
+      "seasons": [
+        "summer"
+      ],
+      "growth_days": 8,
+      "regrow_days": 3,
+      "seed_item_id": "seed_black_pepper",
+      "harvest_item_id": "item_black_pepper",
+      "seed_price": 60,
+      "sell_price": 42,
+      "profit_per_day": "7.10 Vàng/ngày",
+      "description": "Giàn trụ tiêu đen cho hạt cay thơm tự chủ nguồn gia vị cho Bít-tết, Lạp xưởng và Ốc nướng.",
+      "harvest_note": "Cây giàn leo, thu hạt mỗi 3 ngày.",
+      "tags": [
+        "summer",
+        "spice",
+        "trellis",
+        "regrow"
+      ]
+    },
+    {
+      "id": "crop_frontier_garlic",
+      "name": "Tỏi Tím Biên Viễn",
+      "seasons": [
+        "autumn"
+      ],
+      "growth_days": 5,
+      "regrow_days": 0,
+      "seed_item_id": "seed_frontier_garlic",
+      "harvest_item_id": "item_frontier_garlic",
+      "seed_price": 25,
+      "sell_price": 55,
+      "profit_per_day": "6.00 Vàng/ngày",
+      "description": "Củ tỏi tím thơm nồng; gia vị nền cho Bít-tết, Khoai tây nướng bơ tỏi và Mực hầm.",
+      "harvest_note": "Thu hoạch nhanh sau 5 ngày.",
+      "tags": [
+        "autumn",
+        "spice",
+        "root"
+      ]
+    },
+    {
+      "id": "crop_valley_onion",
+      "name": "Hành Tây Vỏ Vàng",
+      "seasons": [
+        "autumn"
+      ],
+      "growth_days": 6,
+      "regrow_days": 0,
+      "seed_item_id": "seed_valley_onion",
+      "harvest_item_id": "item_valley_onion",
+      "seed_price": 30,
+      "sell_price": 68,
+      "profit_per_day": "6.33 Vàng/ngày",
+      "description": "Củ hành tây ngọt bùi dễ bảo quản qua mùa Đông lạnh; dùng cho bò hầm, súp và lạp xưởng.",
+      "harvest_note": "Thu hoạch sau 6 ngày.",
+      "tags": [
+        "autumn",
+        "vegetable",
+        "root"
+      ]
+    },
+    {
+      "id": "crop_tavern_hops",
+      "name": "Hoa Bia Ủ Men",
+      "seasons": [
+        "autumn"
+      ],
+      "growth_days": 10,
+      "regrow_days": 2,
+      "seed_item_id": "seed_tavern_hops",
+      "harvest_item_id": "item_tavern_hops",
+      "seed_price": 75,
+      "sell_price": 42,
+      "profit_per_day": "8.90 Vàng/ngày",
+      "description": "Giàn leo thu nón hoa bia liên tục để ủ bia thủ công bán giá cao tại Quán The Hearth.",
+      "harvest_note": "Giàn leo, thu hoạch mỗi 2 ngày.",
+      "tags": [
+        "autumn",
+        "trellis",
+        "brew",
+        "regrow"
+      ]
+    },
+    {
+      "id": "crop_golden_soybean",
+      "name": "Đậu Tương Vàng",
+      "seasons": [
+        "autumn"
+      ],
+      "growth_days": 8,
+      "regrow_days": 3,
+      "seed_item_id": "seed_golden_soybean",
+      "harvest_item_id": "item_golden_soybean",
+      "seed_price": 50,
+      "sell_price": 38,
+      "profit_per_day": "6.50 Vàng/ngày",
+      "description": "Xay Sữa Đậu Nành, làm Đậu Phụ và ủ Tương Đậu lâu năm trong hầm quán ăn.",
+      "harvest_note": "Tái sinh mỗi 3 ngày.",
+      "tags": [
+        "autumn",
+        "bean",
+        "regrow"
+      ]
+    },
+    {
+      "id": "crop_hearth_rosemary",
+      "name": "Cỏ Hương Thảo",
+      "seasons": [
+        "autumn"
+      ],
+      "growth_days": 7,
+      "regrow_days": 3,
+      "seed_item_id": "seed_hearth_rosemary",
+      "harvest_item_id": "item_hearth_rosemary",
+      "seed_price": 45,
+      "sell_price": 36,
+      "profit_per_day": "5.80 Vàng/ngày",
+      "description": "Bụi thảo mộc thơm nồng ướp thịt quay, gà nướng và làm túi thơm treo phòng trọ.",
+      "harvest_note": "Tái sinh mỗi 3 ngày.",
+      "tags": [
+        "autumn",
+        "herb",
+        "regrow"
+      ]
+    },
+    {
+      "id": "crop_turban_squash",
+      "name": "Bí Turban Ngũ Sắc",
+      "seasons": [
+        "summer",
+        "autumn"
+      ],
+      "growth_days": 10,
+      "regrow_days": 0,
+      "seed_item_id": "seed_turban_squash",
+      "harvest_item_id": "item_turban_squash",
+      "seed_price": 65,
+      "sell_price": 165,
+      "profit_per_day": "10.00 Vàng/ngày",
+      "description": "Quả bí cổ truyền hình chiếc mũ sặc sỡ; vừa nấu súp béo vừa làm đèn trang trí Đêm Hội Mặt Nạ.",
+      "harvest_note": "Trồng được cả Hạ và Thu.",
+      "tags": [
+        "summer",
+        "autumn",
+        "squash"
+      ]
+    },
+    {
+      "id": "crop_andean_oca",
+      "name": "Củ Oca Đá Quý",
+      "seasons": [
+        "autumn"
+      ],
+      "growth_days": 7,
+      "regrow_days": 0,
+      "seed_item_id": "seed_andean_oca",
+      "harvest_item_id": "item_andean_oca",
+      "seed_price": 55,
+      "sell_price": 130,
+      "profit_per_day": "10.71 Vàng/ngày",
+      "description": "Củ vùng cao Nam Mỹ bóng loáng nhiều màu như đá quý, vị chua thanh kiểu cam trộn khoai.",
+      "harvest_note": "Thu hoạch sau 7 ngày.",
+      "tags": [
+        "autumn",
+        "root"
+      ]
+    },
+    {
+      "id": "crop_oyster_salsify",
+      "name": "Củ Salsify Hương Hàu",
+      "seasons": [
+        "autumn"
+      ],
+      "growth_days": 8,
+      "regrow_days": 0,
+      "seed_item_id": "seed_oyster_salsify",
+      "harvest_item_id": "item_oyster_salsify",
+      "seed_price": 50,
+      "sell_price": 125,
+      "profit_per_day": "9.38 Vàng/ngày",
+      "description": "Rễ trắng cổ điển Địa Trung Hải nấu lên có vị ngọt béo giống hàu biển, nấu súp kem không cần câu cá.",
+      "harvest_note": "Thu hoạch sau 8 ngày.",
+      "tags": [
+        "autumn",
+        "root"
+      ]
+    },
+    {
+      "id": "crop_saffron_crocus",
+      "name": "Nghệ Tây Saffron",
+      "seasons": [
+        "autumn"
+      ],
+      "growth_days": 9,
+      "regrow_days": 0,
+      "seed_item_id": "seed_saffron_crocus",
+      "harvest_item_id": "item_saffron_crocus",
+      "seed_price": 140,
+      "sell_price": 340,
+      "profit_per_day": "22.22 Vàng/ngày",
+      "description": "\"Vàng đỏ\" Trung Đông — hoa tím nhụy đỏ rực dùng nấu cơm hải sản 5 sao dự thi Vua Đầu Bếp Vương Đô.",
+      "harvest_note": "Hạt đắt nhưng lợi nhuận cao nhất vụ Thu.",
+      "tags": [
+        "autumn",
+        "spice",
+        "flower"
+      ]
+    },
+    {
+      "id": "crop_gold_kiwi",
+      "name": "Kiwi Vàng Giàn Leo",
+      "seasons": [
+        "autumn"
+      ],
+      "growth_days": 9,
+      "regrow_days": 3,
+      "seed_item_id": "seed_gold_kiwi",
+      "harvest_item_id": "item_gold_kiwi",
+      "seed_price": 70,
+      "sell_price": 56,
+      "profit_per_day": "7.90 Vàng/ngày",
+      "description": "Giàn leo quả ruột vàng óng giàu vitamin; làm mứt, sinh tố và bánh tart trái cây.",
+      "harvest_note": "Cây giàn leo, thu mỗi 3 ngày.",
+      "tags": [
+        "autumn",
+        "fruit",
+        "trellis",
+        "regrow"
+      ]
+    },
+    {
+      "id": "crop_bay_laurel",
+      "name": "Cây Nguyệt Quế Địa Trung Hải",
+      "seasons": [
+        "spring",
+        "autumn"
+      ],
+      "growth_days": 8,
+      "regrow_days": 4,
+      "seed_item_id": "seed_bay_laurel",
+      "harvest_item_id": "item_bay_laurel",
+      "seed_price": 50,
+      "sell_price": 40,
+      "profit_per_day": "5.20 Vàng/ngày",
+      "description": "Bụi lá thơm hầm Bò Rượu Vang, Bít-tết và tết Vòng Nguyệt Quế treo tường quán ăn.",
+      "harvest_note": "Trồng Xuân & Thu, hái lá mỗi 4 ngày.",
+      "tags": [
+        "spring",
+        "autumn",
+        "herb",
+        "shrub",
+        "regrow"
+      ]
+    },
+    {
+      "id": "crop_terrace_lotus_root",
+      "name": "Ngó Sen Bùn Ruộng Bậc Thang",
+      "seasons": [
+        "summer"
+      ],
+      "growth_days": 7,
+      "regrow_days": 0,
+      "seed_item_id": "seed_terrace_lotus_root",
+      "harvest_item_id": "item_terrace_lotus_root",
+      "seed_price": 45,
+      "sell_price": 110,
+      "profit_per_day": "9.29 Vàng/ngày",
+      "description": "Cây ngập nước Vùng 2 (Ruộng Bậc Thang, tự tưới); củ sen giòn ngọt nấu Canh Búp Sen & Mâm Cỗ Cổ.",
+      "harvest_note": "Trồng trên Ruộng Bậc Thang Vùng 2.",
+      "tags": [
+        "summer",
+        "aquatic",
+        "region_2",
+        "root"
+      ]
+    },
+    {
+      "id": "crop_terrace_taro",
+      "name": "Củ Khoai Môn Tím",
+      "seasons": [
+        "summer"
+      ],
+      "growth_days": 8,
+      "regrow_days": 0,
+      "seed_item_id": "seed_terrace_taro",
+      "harvest_item_id": "item_terrace_taro",
+      "seed_price": 50,
+      "sell_price": 125,
+      "profit_per_day": "9.38 Vàng/ngày",
+      "description": "Cây ngập nước Vùng 2 (Ruộng Bậc Thang); nguyên liệu chuẩn làm Bánh Khoai Môn Tro Trấu thanh tẩy.",
+      "harvest_note": "Trồng trên Ruộng Bậc Thang Vùng 2.",
+      "tags": [
+        "summer",
+        "aquatic",
+        "region_2",
+        "root"
+      ]
+    },
+    {
+      "id": "crop_purple_ube",
+      "name": "Củ Khoai Tím Cổ Thụ",
+      "seasons": [
+        "summer",
+        "autumn"
+      ],
+      "growth_days": 9,
+      "regrow_days": 0,
+      "seed_item_id": "seed_purple_ube",
+      "harvest_item_id": "item_purple_ube",
+      "seed_price": 60,
+      "sell_price": 145,
+      "profit_per_day": "9.44 Vàng/ngày",
+      "description": "Đặc hữu Vùng 3 (Rừng Thảo Mộc); leo thân cây cổ thụ, củ tím vị béo thơm như vani làm bánh ngọt.",
+      "harvest_note": "Mở khóa khi tẩy trần Rừng Thảo Mộc Vùng 3.",
+      "tags": [
+        "summer",
+        "autumn",
+        "region_3",
+        "root"
+      ]
+    },
+    {
+      "id": "crop_vanilla_orchid",
+      "name": "Dây Vani Rừng Sâu",
+      "seasons": [
+        "autumn"
+      ],
+      "growth_days": 10,
+      "regrow_days": 4,
+      "seed_item_id": "seed_vanilla_orchid",
+      "harvest_item_id": "item_vanilla_orchid",
+      "seed_price": 90,
+      "sell_price": 85,
+      "profit_per_day": "11.20 Vàng/ngày",
+      "description": "Đặc hữu Vùng 3 (Rừng Thảo Mộc); lấy quả vani thơm nức nâng tầm toàn bộ bánh ngọt & kem.",
+      "harvest_note": "Tái sinh mỗi 4 ngày dưới tán Rừng Vùng 3.",
+      "tags": [
+        "autumn",
+        "region_3",
+        "spice",
+        "trellis",
+        "regrow"
+      ]
+    },
+    {
+      "id": "crop_andean_maca",
+      "name": "Củ Maca Núi Tuyết",
+      "seasons": [
+        "winter"
+      ],
+      "growth_days": 8,
+      "regrow_days": 0,
+      "seed_item_id": "seed_andean_maca",
+      "harvest_item_id": "item_andean_maca",
+      "seed_price": 85,
+      "sell_price": 195,
+      "profit_per_day": "13.75 Vàng/ngày",
+      "description": "Đặc hữu Vùng 4 (Đỉnh Núi Răng Sói); củ siêu chịu lạnh vùng cao nấu canh tăng mạnh Stamina & Kháng rét.",
+      "harvest_note": "Chỉ trồng được trên đất núi cao Vùng 4.",
+      "tags": [
+        "winter",
+        "region_4",
+        "mountain",
+        "root"
+      ]
+    },
+    {
+      "id": "crop_snow_lotus",
+      "name": "Hoa Tuyết Liên",
+      "seasons": [
+        "winter"
+      ],
+      "growth_days": 10,
+      "regrow_days": 0,
+      "seed_item_id": "seed_snow_lotus",
+      "harvest_item_id": "item_snow_lotus",
+      "seed_price": 110,
+      "sell_price": 260,
+      "profit_per_day": "15.00 Vàng/ngày",
+      "description": "Đặc hữu Vùng 4 (quanh Suối Nước Nóng Đỉnh Răng Sói); cánh hoa trắng tinh chế thuốc giải độc & hồi sinh.",
+      "harvest_note": "Chỉ trồng quanh Suối Nước Nóng Vùng 4.",
+      "tags": [
+        "winter",
+        "region_4",
+        "mountain",
+        "flower"
+      ]
+    },
+    {
+      "id": "crop_glow_fern",
+      "name": "Củ Dương Xỉ Đom Đóm",
+      "seasons": [
+        "spring",
+        "summer",
+        "autumn",
+        "winter"
+      ],
+      "growth_days": 7,
+      "regrow_days": 0,
+      "seed_item_id": "seed_glow_fern",
+      "harvest_item_id": "item_glow_fern",
+      "seed_price": 65,
+      "sell_price": 145,
+      "profit_per_day": "11.43 Vàng/ngày",
+      "description": "Đặc hữu Đất Hang Tối / Hầm Ngầm (không cần nắng); ăn vào tạo quầng sáng lục nhạt soi hang sâu.",
+      "harvest_note": "Trồng trong góc hang ẩm tối tại điền trang.",
+      "tags": [
+        "cave",
+        "subterranean",
+        "root"
+      ]
+    },
+    {
+      "id": "crop_cave_truffle",
+      "name": "Nấm Cục Đá Hang Sâu",
+      "seasons": [
+        "spring",
+        "summer",
+        "autumn",
+        "winter"
+      ],
+      "growth_days": 10,
+      "regrow_days": 0,
+      "seed_item_id": "seed_cave_truffle",
+      "harvest_item_id": "item_cave_truffle",
+      "seed_price": 120,
+      "sell_price": 290,
+      "profit_per_day": "17.00 Vàng/ngày",
+      "description": "Đặc hữu Đất Hang Tối / Hầm Ngầm; nấm củ đen thượng hạng chuyên nấu món 5 sao thi Vua Đầu Bếp.",
+      "harvest_note": "Trồng trong đất hang tối không cần tưới.",
+      "tags": [
+        "cave",
+        "subterranean",
+        "mushroom"
+      ]
+    },
+    {
+      "id": "fruit_chestnut",
+      "name": "Cây Hạt Dẻ Nâu",
+      "seasons": [
+        "autumn",
+        "winter"
+      ],
+      "growth_days": 28,
+      "regrow_days": 1,
+      "seed_item_id": "seed_chestnut_sapling",
+      "harvest_item_id": "item_chestnut",
+      "seed_price": 1100,
+      "sell_price": 40,
+      "profit_per_day": "40 Vàng/ngày (Thu-Đông)",
+      "description": "Cây thân gỗ rễ sâu chịu lạnh; cho hạt dẻ nướng than hồng bên lò sưởi The Hearth mùa Đông.",
+      "harvest_note": "Không gian 3x3 trống thoáng; ra quả Thu-Đông.",
+      "tags": [
+        "tree",
+        "fruit_tree",
+        "autumn",
+        "winter"
+      ]
+    },
+    {
+      "id": "fruit_olive",
+      "name": "Cây Ô-liu Cổ",
+      "seasons": [
+        "summer",
+        "autumn"
+      ],
+      "growth_days": 28,
+      "regrow_days": 1,
+      "seed_item_id": "seed_olive_sapling",
+      "harvest_item_id": "item_olive_oil",
+      "seed_price": 1150,
+      "sell_price": 38,
+      "profit_per_day": "38 Vàng/ngày (Hạ-Thu)",
+      "description": "Ép lấy Dầu Ô-liu Nguyên Chất dùng xào nấu và trộn salad không cần phụ thuộc bơ sữa bò.",
+      "harvest_note": "Không gian 3x3 trống thoáng; ra quả Hạ-Thu.",
+      "tags": [
+        "tree",
+        "fruit_tree",
+        "summer",
+        "autumn"
+      ]
+    },
+    {
+      "id": "fruit_cacao",
+      "name": "Cây Cacao Đắng",
+      "seasons": [
+        "summer"
+      ],
+      "growth_days": 28,
+      "regrow_days": 1,
+      "seed_item_id": "seed_cacao_sapling",
+      "harvest_item_id": "item_cacao_pod",
+      "seed_price": 1250,
+      "sell_price": 46,
+      "profit_per_day": "46 Vàng/ngày (vụ Hạ)",
+      "description": "Xay bột cacao pha Sô-cô-la Nóng Đêm Đông bên lò sưởi và làm bánh ngọt cao cấp.",
+      "harvest_note": "Không gian 3x3 trống thoáng; ra quả Hạ (hoặc Nhà Kính).",
+      "tags": [
+        "tree",
+        "fruit_tree",
+        "summer"
+      ]
+    },
+    {
+      "id": "fruit_pomegranate",
+      "name": "Cây Lựu Đỏ Solaria",
+      "seasons": [
+        "autumn"
+      ],
+      "growth_days": 28,
+      "regrow_days": 1,
+      "seed_item_id": "seed_pomegranate_sapling",
+      "harvest_item_id": "item_pomegranate",
+      "seed_price": 1200,
+      "sell_price": 44,
+      "profit_per_day": "44 Vàng/ngày (vụ Thu)",
+      "description": "Quả đỏ mọng như ngọc lựu; ép nước uống tăng Máu tối đa và tỉ lệ đòn chí mạng.",
+      "harvest_note": "Không gian 3x3 trống thoáng; ra quả Thu.",
+      "tags": [
+        "tree",
+        "fruit_tree",
+        "autumn"
+      ]
+    },
+    {
+      "id": "fruit_fig",
+      "name": "Cây Sung Ngọt Mật",
+      "seasons": [
+        "autumn"
+      ],
+      "growth_days": 28,
+      "regrow_days": 1,
+      "seed_item_id": "seed_fig_sapling",
+      "harvest_item_id": "item_honey_fig",
+      "seed_price": 1050,
+      "sell_price": 36,
+      "profit_per_day": "36 Vàng/ngày (vụ Thu)",
+      "description": "Quả tím ruột đỏ mật ngọt; làm mứt sung ăn kèm bánh mì phô mai ủ.",
+      "harvest_note": "Không gian 3x3 trống thoáng; ra quả Thu.",
+      "tags": [
+        "tree",
+        "fruit_tree",
+        "autumn"
+      ]
+    },
+    {
+      "id": "fruit_apricot",
+      "name": "Cây Mơ Vàng Nắng",
+      "seasons": [
+        "spring",
+        "summer"
+      ],
+      "growth_days": 28,
+      "regrow_days": 1,
+      "seed_item_id": "seed_apricot_sapling",
+      "harvest_item_id": "item_apricot",
+      "seed_price": 1000,
+      "sell_price": 34,
+      "profit_per_day": "34 Vàng/ngày (Xuân-Hạ)",
+      "description": "Quả vàng óng phơi khô làm Mơ Khô Dã Ngoại mang đi mỏ 150 tầng không bao giờ hỏng.",
+      "harvest_note": "Không gian 3x3 trống thoáng; ra quả Xuân-Hạ.",
+      "tags": [
+        "tree",
+        "fruit_tree",
+        "spring",
+        "summer"
+      ]
+    },
+    {
+      "id": "fruit_avocado",
+      "name": "Cây Bơ Béo",
+      "seasons": [
+        "summer"
+      ],
+      "growth_days": 28,
+      "regrow_days": 1,
+      "seed_item_id": "seed_avocado_sapling",
+      "harvest_item_id": "item_avocado",
+      "seed_price": 1150,
+      "sell_price": 42,
+      "profit_per_day": "42 Vàng/ngày (vụ Hạ)",
+      "description": "Quả bơ xanh ruột béo ngậy (Trung Mỹ); làm bánh mì nướng bơ trứng và salad.",
+      "harvest_note": "Không gian 3x3 trống thoáng; ra quả Hạ.",
+      "tags": [
+        "tree",
+        "fruit_tree",
+        "summer"
+      ]
+    },
+    {
+      "id": "bush_blackberry",
+      "name": "Bụi Phúc Bồn Tử Đen",
+      "seasons": [
+        "summer"
+      ],
+      "growth_days": 10,
+      "regrow_days": 3,
+      "seed_item_id": "seed_blackberry_bush",
+      "harvest_item_id": "item_blackberry",
+      "seed_price": 75,
+      "sell_price": 42,
+      "profit_per_day": "8.20 Vàng/ngày",
+      "description": "Cây bụi thấp 1x1 thu nhiều đợt mùa Hạ; làm nhân bánh tart và siro quả mọng.",
+      "harvest_note": "Tái sinh mỗi 3 ngày suốt Mùa Hạ.",
+      "tags": [
+        "summer",
+        "bush",
+        "fruit",
+        "regrow"
+      ]
+    },
+    {
+      "id": "bush_cranberry",
+      "name": "Bụi Nam Việt Quất Đầm Lầy",
+      "seasons": [
+        "autumn"
+      ],
+      "growth_days": 10,
+      "regrow_days": 3,
+      "seed_item_id": "seed_cranberry_bush",
+      "harvest_item_id": "item_cranberry",
+      "seed_price": 80,
+      "sell_price": 45,
+      "profit_per_day": "8.50 Vàng/ngày",
+      "description": "Trồng đất ẩm ven đầm lầy Lão Tad; quả đỏ chua thanh nấu sốt ăn kèm gà quay & sườn nướng.",
+      "harvest_note": "Tái sinh mỗi 3 ngày suốt Mùa Thu.",
+      "tags": [
+        "autumn",
+        "bush",
+        "fruit",
+        "regrow"
+      ]
+    },
+    {
+      "id": "decor_climbing_rose",
+      "name": "Hoa Hồng Leo Bờ Rào",
+      "seasons": [
+        "spring",
+        "summer"
+      ],
+      "growth_days": 6,
+      "regrow_days": 3,
+      "seed_item_id": "seed_climbing_rose",
+      "harvest_item_id": "item_rose_petals",
+      "seed_price": 40,
+      "sell_price": 35,
+      "profit_per_day": "+Cozy & Cánh hoa",
+      "description": "Hoa hồng leo hàng rào gỗ trước quán; tự động tăng +Cozy Rating và thu cánh hoa ướp trà.",
+      "harvest_note": "Hàng rào nở hoa suốt Xuân-Hạ.",
+      "tags": [
+        "spring",
+        "summer",
+        "ornamental",
+        "cozy",
+        "flower"
+      ]
+    },
+    {
+      "id": "decor_rain_hydrangea",
+      "name": "Hoa Cẩm Tú Cầu Đổi Màu",
+      "seasons": [
+        "summer"
+      ],
+      "growth_days": 6,
+      "regrow_days": 4,
+      "seed_item_id": "seed_rain_hydrangea",
+      "harvest_item_id": "item_hydrangea_bloom",
+      "seed_price": 45,
+      "sell_price": 42,
+      "profit_per_day": "+Cozy Đổi Màu",
+      "description": "Đổi màu theo thời tiết: trời nắng nở hồng tím, ngày mưa tự chuyển xanh lam ngọc cực đẹp.",
+      "harvest_note": "Cắt hoa cắm bình bàn ăn The Hearth.",
+      "tags": [
+        "summer",
+        "ornamental",
+        "cozy",
+        "flower"
+      ]
+    },
+    {
+      "id": "decor_lantern_lily",
+      "name": "Hoa Đèn Lồng Bỉ Ngạn",
+      "seasons": [
+        "autumn"
+      ],
+      "growth_days": 7,
+      "regrow_days": 0,
+      "seed_item_id": "seed_lantern_lily",
+      "harvest_item_id": "item_lantern_lily",
+      "seed_price": 55,
+      "sell_price": 70,
+      "profit_per_day": "+Cozy Phát Sáng",
+      "description": "Bông hoa hình đèn lồng rủ xuống tỏa ánh sáng cam dịu ban đêm dọc lối vào quán.",
+      "harvest_note": "Tự phát sáng nhẹ ban đêm (PointLight2D).",
+      "tags": [
+        "autumn",
+        "ornamental",
+        "cozy",
+        "flower"
+      ]
+    },
+    {
+      "id": "decor_winter_snowdrop",
+      "name": "Hoa Chuông Tuyết",
+      "seasons": [
+        "winter"
+      ],
+      "growth_days": 5,
+      "regrow_days": 0,
+      "seed_item_id": "seed_winter_snowdrop",
+      "harvest_item_id": "item_snowdrop_bloom",
+      "seed_price": 35,
+      "sell_price": 55,
+      "profit_per_day": "+Cozy Mùa Đông",
+      "description": "Cụm hoa trắng nhỏ xuyên qua tuyết mùa Đông (cây trang trí, không phải lương thực); cắm bình bàn ăn tăng Tip.",
+      "harvest_note": "Cây hoa cảnh chịu tuyết Mùa Đông.",
+      "tags": [
+        "winter",
+        "ornamental",
+        "cozy",
+        "flower"
+      ]
+    },
+    {
+      "id": "decor_starry_tulip",
+      "name": "Hoa Tulip Đốm Sao",
+      "seasons": [
+        "spring"
+      ],
+      "growth_days": 5,
+      "regrow_days": 0,
+      "seed_item_id": "seed_starry_tulip",
+      "harvest_item_id": "item_starry_tulip",
+      "seed_price": 30,
+      "sell_price": 50,
+      "profit_per_day": "+Cozy & Quà Sinh Nhật",
+      "description": "Nở ra 4 màu ngẫu nhiên; bó thành Bó Hoa Kỷ Niệm tặng tăng gấp đôi điểm Tim dịp sinh nhật NPC.",
+      "harvest_note": "Thu hoạch sau 5 ngày Mùa Xuân.",
+      "tags": [
+        "spring",
+        "ornamental",
+        "cozy",
+        "flower"
+      ]
+    },
+    {
+      "id": "decor_maple_bonsai",
+      "name": "Cây Phong Đỏ Bonsai",
+      "seasons": [
+        "spring",
+        "summer",
+        "autumn",
+        "winter"
+      ],
+      "growth_days": 12,
+      "regrow_days": 0,
+      "seed_item_id": "seed_maple_bonsai",
+      "harvest_item_id": "item_maple_bonsai",
+      "seed_price": 250,
+      "sell_price": 120,
+      "profit_per_day": "+12 Cozy Vĩnh Viễn",
+      "description": "Đặt chậu gốm trước cửa quán hoặc phòng trọ lầu 2, tăng trực tiếp +12 Cozy Rating quanh năm.",
+      "harvest_note": "Cây cảnh chậu gốm 4 mùa.",
+      "tags": [
+        "spring",
+        "summer",
+        "autumn",
+        "winter",
+        "ornamental",
+        "cozy"
+      ]
+    },
+    {
+      "id": "decor_boxwood_hedge",
+      "name": "Bụi Hoàng Dương Cắt Tỉa",
+      "seasons": [
+        "spring",
+        "summer",
+        "autumn",
+        "winter"
+      ],
+      "growth_days": 8,
+      "regrow_days": 0,
+      "seed_item_id": "seed_boxwood_hedge",
+      "harvest_item_id": "item_boxwood_hedge",
+      "seed_price": 90,
+      "sell_price": 45,
+      "profit_per_day": "+4 Cozy / Bụi",
+      "description": "Hàng rào cây xanh cắt tỉa gọn gàng quanh năm làm viền lối đi từ Cổng Làng vào The Hearth.",
+      "harvest_note": "Cây hàng rào 4 mùa không cần tưới.",
+      "tags": [
+        "spring",
+        "summer",
+        "autumn",
+        "winter",
+        "ornamental",
+        "cozy"
       ]
     }
   ]

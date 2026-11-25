@@ -1,137 +1,109 @@
 ---
-title: "Four-Season Crops & Farm Automation"
+title: "92 Botanical Species & Farm Automation Compendium"
 status: public
 audience: public
-updated: 2026-11-20
-tags: [farming, crops, trees, seasons, automation, eatery]
+updated: 2026-11-25
+tags: [farming, crops, trees, seasons, automation, eatery, ornamental]
 spoiler: false
 ---
 
-# 🌾 Four-Season Crops & Farm Automation Compendium
+# 🌾 Oakhaven 92 Botanical Species Compendium
 
-The farmstead of Oakhaven Valley is the essential supply line for The Hearth Eatery & Tavern kitchen, providing fresh sustenance for a post-war community in recovery. The agricultural system features **42 canonical plant species**, strictly categorized into:
-- **28 Seasonal Field Crops**: Tilled and watered daily on plowed soil (plus flooded terrace rice), featuring single-harvest staples, wooden trellis vines, and multi-harvest regrowable perennials.
-- **14 Perennial Trees & Orchards**: 6 massive silviculture timber species for lumber & tapper resin + 8 fruit tree varieties adhering to a strict $3\times3$ clear-space rule for permanent daily yields.
+Oakhaven agriculture features **92 canonical species**: **62 seasonal & special-region crops** (with only **3 frost-hardy outdoor Winter crops**), **23 timber/fruit trees & berry bushes**, and **7 Cozy ornamental plants**.
 
 ---
 
-## 1. Soil Management, Water Systems & Automation
-
-### Basic Cultivation Loop
-1. **Soil Preparation:** Till soil plots using the Pickaxe/Hoe (`is_tilled = true`).
-2. **Sowing Seeds:** Plant seeds purchased from Maeve's Nursery or harvested from wild groves.
-3. **Daily Irrigation:** Water every morning via Watering Can or automated sprinklers. Crops left unwatered halt growth for that day without withering.
-4. **Harvesting:** Harvest by hand, or chop giant crop clusters with an axe.
-
-### Automated Sprinkler Irrigation Systems
-Sprinklers automatically water surrounding crops at **06:00 AM** daily, freeing up Stamina and hours for deep dungeon delves:
-- **Copper Sprinkler:** Waters 4 adjacent cross tiles (North, South, East, West). Forged from 1 Copper Bar + 1 Iron Ore.
-- **Iron Sprinkler:** Waters 8 surrounding tiles ($3\times3$ grid). Forged from 1 Iron Bar + 1 Copper Bar.
-- **Void Sprinkler:** Waters 24 surrounding tiles ($5\times5$ area minus center). Forged from 1 Void Bar (Deep Mine Floors 141+) + 1 Amethyst Shard.
-
-### Crop Protection & Natural Fertilizers
-- **Straw Scarecrow:** Shields an 8-tile radius against forest crows stealing planted seeds.
-- **Oakhaven Wood Ash (`item_wood_ash`):** Recovered from kitchen hearth embers; speeds crop maturation by 15%.
-- **Dungeon Bone Meal (`item_bone_meal`):** Ground beast bones from mine depths; increases Silver/Gold harvest quality rates by 30%.
-- **Retaining Moss Mulch (`item_retaining_moss`):** Blended wetland moss giving a 50% chance for soil to remain watered overnight.
-
----
-
-## 2. Catalog of 28 Seasonal Field Crops
-
-### 🌸 A. Spring (7 Field Crops)
-| Crop | Growth | Regrowth | Seed Cost | Sell Price | Daily Profit | Culinary & Valley Usage |
-| :--- | :---: | :---: | :---: | :---: | :---: | :--- |
-| **Silver Wheat** (*Lúa Mì Bạc*) | 4 days | Single | 15g | 30g | **3.75 Gold/day** | Milled at the Windmill into Fresh Flour for hearth loaves and rations. Plantable in Spring, Summer, Autumn. |
-| **Ice Cabbage** (*Bắp Cải Băng*) | 6 days | Single | 35g | 55g | **3.33 Gold/day** | Crisp, tightly wrapped heads thriving in morning frost; essential for clear broths and pickled reserves. |
-| **Wild Strawberry** (*Dâu Rừng Mùa Xuân*) | 7 days | **3 days** | 60g | 35g | **7.86 Gold/day** (8 harvests) | Juicy berries yielding 8 harvest waves across Spring; cooked into preserves for flaky croissants. |
-| **Pea Pod** (*Đậu Hà Lan Giàn Leo*) | 10 days | **3 days** | 60g | 30g | **5.36 Gold/day** (7 harvests) | Wooden trellis vine (impassable); sweet pods for vegetable fried rice and beet broth. |
-| **Oakhaven Lotus Tea** (*Búp Trà Sen Oakhaven*) | 12 days | **4 days** | 40g | 25g | **3.04 Gold/day** (5 harvests) | Perennial tea shrub sprouting in Spring & Summer; delicate tips dried for restorative calming tea blends. |
-| **Sun Daisy** (*Hoa Cúc Mặt Trời*) | 5 days | Single | 20g | 38g | **3.60 Gold/day** | Bright golden blossoms brewed into soothing herbal infusions and boiled into natural yellow fabric dye. |
-| **Sopophorous Bean** (*Đậu Thao Thức Cổ Sinh*) | 11 days | **3 days** | 90g | 50g | **13.81 Gold/day** (3 seasons) | Ancient perennial vine yielding across Spring, Summer, and Autumn (25 harvests); bean oil wards off drowsiness. |
-
----
-
-### ☀️ B. Summer (8 Field Crops)
-| Crop | Growth | Regrowth | Seed Cost | Sell Price | Daily Profit | Culinary & Valley Usage |
-| :--- | :---: | :---: | :---: | :---: | :---: | :--- |
-| **Valley Paddy Rice** (*Lúa Nước Thung Lũng*) | 6 days | Single | 25g | 55g | **5.00 Gold/day** (Summer–Autumn) | Grown on Region 2 Rice Terraces (auto-irrigated by flooded water); milled into Valley Rice for rice balls, fried rice, and sticky rice. |
-| **Sun Corn** (*Bắp Ngô Ánh Dương*) | 12 days | **4 days** | 80g | 45g | **8.21 Gold/day** (2 seasons) | Tall stalks persisting through Autumn (12 harvests); roasted with garlic butter and stewed in corn chowder. |
-| **Fire Tomato** (*Cà Chua Lửa Mọng Nước*) | 10 days | **4 days** | 50g | 24g | **2.50 Gold/day** (5 harvests) | Crimson vines producing juicy fruit; simmered into meat sauces, spicy seafood stews, and savory marinades. |
-| **Magma Melon** (*Dưa Hấu Dung Nham*) | 12 days | Single | 80g | 180g | **8.33 Gold/day** | Massive melons with warming reddish-orange flesh; 2% chance to fuse into a Giant Melon in $3\times3$ plots. |
-| **Honey Cane** (*Mía Mật Ong Hổ Phách*) | 7 days | Single | 30g | 55g | **3.57 Gold/day** | Deep-purple sugar stalks pressed into Raw Cane Sugar for tavern baking. |
-| **Shadow Carrot** (*Hắc Cà Rốt Mắt Mèo*) | 6 days | Single | 35g | 65g | **5.00 Gold/day** | Dark purple skin with bioluminescent orange core; enhances night vision in deep mines. Grows in Summer & Autumn. |
-| **Whisper Ginger** (*Hỏa Khương Rừng Thầm Thì*) | 8 days | Single | 45g | 85g | **5.00 Gold/day** | Pungent warm root; removes fishiness from trout skewers and warms cold guests during storms. |
-| **Sunflower** (*Hoa Hướng Dương Vàng*) | 8 days | Single | 40g | 50g | **~6.25 Gold/day** (with seeds) | Harvest drops 1–2 bonus seed packets (saving 40–80g); pressed for culinary cooking oil. |
-
----
-
-### 🍂 C. Autumn (6 Field Crops)
-| Crop | Growth | Regrowth | Seed Cost | Sell Price | Daily Profit | Culinary & Valley Usage |
-| :--- | :---: | :---: | :---: | :---: | :---: | :--- |
-| **Sweet Pumpkin** (*Bí Ngô Mật Khổng Lồ*) | 13 days | Single | 100g | 260g | **12.31 Gold/day** | Autumn cash king; baked into honey pumpkin pies and cream soups; 2% chance to become a Giant Pumpkin. |
-| **Shadow Rye** (*Hắc Mạch Đêm Rừng*) | 5 days | Single | 30g | 60g | **6.00 Gold/day** | Fast-growing dark grain; milled into coarse flour for dense miner bread loaves. |
-| **Night Grape** (*Nho Đêm Giàn Leo*) | 10 days | **3 days** | 80g | 44g | **8.14 Gold/day** (7 harvests) | Heavy dark clusters requiring trellises; fermented in oak casks into rich Oakhaven Vintage Red Wine. |
-| **Moonlight Yam** (*Khoai Lang Nguyệt Quang*) | 9 days | Single | 45g | 95g | **5.56 Gold/day** | Silver-skinned tubers with sweet violet flesh; coal-roasted on tavern hearth stones. |
-| **Misty Lavender** (*Oải Hương Đồi Sương*) | 7 days | Single | 35g | 75g | **5.71 Gold/day** | Fragrant purple stalks from misty ridges; sewn into tavern pillows to boost lodging comfort scores. |
-| **Mandrake Root** (*Củ Mandrake Nhân Sâm*) | 14 days | Single | 100g | 280g | **12.86 Gold/day** | Prized humanoid root plantable in Autumn & Winter; stewed into vigor-restoring boss combat broths. |
-
----
-
-### ❄️ D. Winter (6 Field Crops)
-| Crop | Growth | Regrowth | Seed Cost | Sell Price | Daily Profit | Culinary & Valley Usage |
-| :--- | :---: | :---: | :---: | :---: | :---: | :--- |
-| **Frost Turnip** (*Bạch Ngọc Củ Cải*) | 5 days | Single | 25g | 50g | **5.00 Gold/day** | Fast-growing snowy tubers; simmered with wild boar bone broth during bitter cold snaps. |
-| **Frostmint** (*Bạc Hà Băng Giá*) | 6 days | Single | 30g | 65g | **5.83 Gold/day** | Ice-rimmed aromatic leaves; brewed into herbal decongestants and invigorating mint pastilles. |
-| **Frost Potato** (*Khoai Tây Tuyết Núi Cao*) | 7 days | Single | 45g | 90g | **~8.04 Gold/day** (with 25% extra) | Hearty mountain potatoes; mashed with butter and garlic for blacksmith Boris's favorite side dish. |
-| **Frost Beet** (*Củ Dền Băng Ruby*) | 6 days | Single | 40g | 80g | **6.67 Gold/day** | Ruby-red roots rich in concentrated sugars; gives deep crimson coloring to holiday stews and pastries. |
-| **Lichen Root** (*Rễ Địa Y Băng Giá*) | 8 days | Single | 55g | 120g | **8.12 Gold/day** | Ancient subterranean lichen roots; refined into immune-boosting cold resistance tonics. |
-| **Frost Lotus** (*Sen Băng Tuyết Ngàn Năm*) | 12 days | Single | 120g | 320g | **16.67 Gold/day** | Rare crystalline water lilies growing on semi-frozen shorelines; winter economic record yield. |
-
----
-
-### 🪵 E. Four-Season Specialty Cultivation (1 Model)
-- **Mushroom Cultivation Log (`crop_mushroom_log`):**
-  - One-time crafting investment (180g cost: Dead Wood + Spores).
-  - Harvests wild mushrooms every **4 days year-round across all 4 seasons** with zero watering required.
-  - Generates steady revenue: **11.25 Gold/day** (28 harvests/year = 1,260 Gold net annual revenue).
-  - 10% chance to mutate into rare Lumina Cave Shrooms when placed in damp cellar spots.
-
----
-
-## 3. Catalog of 14 Perennial Trees & Orchards
-
-### 🌲 A. 6 Silviculture Timber Species
-Saplings mature in 20–30 days on any clear unplowed tile with no daily watering required:
-1. **Oakhaven Great Oak (`tree_oak` - 24d):** Yields 12–16 Aged Oak Logs + Firewood. Tapper produces **Dark Oak Resin** every 7 days (fermentation casks, bridge repairs).
-2. **Alpine Pine (`tree_pine` - 22d):** Yields 12–16 Alpine Pine Logs. Tapper produces **Pine Tar** every 5 days (boat hull waterproofing, mine torches).
-3. **Ember Maple (`tree_maple` - 24d):** Yields 10–14 Ember Maple Lumber. Tapper produces **Amber Maple Syrup** every 9 days (inn pancakes, VIP tables).
-4. **Silver Birch (`tree_birch` - 20d):** Yields 10–14 Silver Birch Logs + Bark Strips. Tapper produces **Birch Sap** every 6 days (storage chests).
-5. **River Willow (`tree_willow` - 22d):** Yields 14–18 Flexible Willow Branches. Tapper produces **Willow Sap** every 6 days (fish traps, fever tea).
-6. **Abyssal Ironwood (`tree_ironwood` - 30d):** Requires Iron Axe or better (16 chops). Yields 8–12 Dense Ironwood. Tapper produces **Anti-Rust Ironwood Oil** every 10 days (deep mine timbers).
-
-### 🍎 B. 8 Perennial Fruit Orchards ($3\times3$ Clear Footprint)
-Requires 28 days to mature from saplings, needing the 8 surrounding tiles completely clear of debris. Once mature, produces 1 fruit daily throughout their active season (28 fruit per season):
-1. **Honey Oak Apple Tree (`fruit_apple`):** Autumn — Crisp honeyed apples (**28 Gold/day**); baked into tavern pies and apple cider.
-2. **Volt Lemon Tree (`fruit_lemon`):** Summer — Zesty citrus (**35 Gold/day**); mixed into thirst-quenching lemonades and fish sauces.
-3. **Frost Plum Tree (`fruit_plum`):** Winter — Cold-hardy sweet plums (**38 Gold/day**); distilled into spiced plum brandy.
-4. **Primrose Peach Tree (`fruit_peach`):** Spring — Tender pink peaches (**42 Gold/day**); whipped into delicate fruit mousses.
-5. **Crimson Cherry Tree (`fruit_cherry`):** Spring — Juicy tart cherries (**32 Gold/day**); baked into tarts and glazes.
-6. **Wild Walnut Tree (`fruit_walnut`):** Autumn — Rich savory nuts (**35 Gold/day**); crushed into nutrient bars for miners.
-7. **Frost Pear Tree (`fruit_pear`):** Autumn — Sweet crisp pears (**30 Gold/day**); poached in mulled wine to soothe winter coughs.
-8. **Fire Orange Tree (`fruit_orange`):** Summer — Vibrant sweet oranges (**32 Gold/day**); freshly squeezed breakfast juices.
-
----
-
-## 4. Strategic Crop Planning & Economic Guidelines
-
-1. **Year 1 Spring:**
-   - Devote 60% of tilled land to **Silver Wheat** to maintain steady flour for bakery bread orders.
-   - Plant 1 row of **Wild Strawberry** (8 harvests) and 1 row of **Pea Pods** for dependable passive income every 3 days.
-2. **Year 1 Summer:**
-   - Plant **Sun Corn** on Summer Day 1: it survives continuously through Autumn (56 days), minimizing re-planting costs.
-   - Cultivate a $3\times3$ grid of **Magma Melons** to fish for Giant Melons.
-3. **Year 1 Autumn:**
-   - Reinvest savings into **Sweet Pumpkins** (leading profit at 12.31 Gold/day) to fund high-tier tool upgrades before winter freezes.
-4. **Year 1 Winter:**
-   - Do not leave fields idle! Rapidly rotate **Frost Turnips** (5-day turnaround) and plant shoreline **Frost Lotus** for substantial year-end profits.
+| # | ID | Name | Seasons | Growth / Regrow | Seed $ightarrow$ Sell | Usage & Notes |
+|:---:|:---|:---|:---|:---:|:---:|:---|
+| 1 | `tree_oak` | **Oakhaven Great Oak** | Spring, Summer, Autumn, Winter | 24d / - | 30g $ightarrow$ 25g | The iconic ancient oak of Oakhaven valley. Sturdy hardwood canopy providing essential construction lumber. |
+| 2 | `tree_pine` | **Alpine Pine** | Spring, Summer, Autumn, Winter | 22d / - | 30g $ightarrow$ 22g | Evergreen conifer standing tall against alpine blizzards. Yields flexible timber and aromatic protective pitch. |
+| 3 | `tree_maple` | **Ember Maple** | Spring, Summer, Autumn, Winter | 24d / - | 35g $ightarrow$ 35g | Magnificent maple whose foliage bursts into glowing crimson and amber in autumn. Source of prized tavern pancake syrup. |
+| 4 | `tree_birch` | **Silver Birch** | Spring, Summer, Autumn, Winter | 20d / - | 30g $ightarrow$ 25g | Slender silvery-barked tree that grows rapidly. Silky waterproof bark is harvested for crafting and scrolls. |
+| 5 | `tree_willow` | **River Willow** | Spring, Summer, Autumn, Winter | 22d / - | 45g $ightarrow$ 20g | Graceful weeping willow flanking Oakhaven's riverbanks. Flexible boughs weave sturdy baskets; bitter sap eases fever. |
+| 6 | `tree_ironwood` | **Abyssal Ironwood** | Spring, Summer, Autumn, Winter | 30d / - | 150g $ightarrow$ 120g | Legendary black timber tree with fibers denser than raw iron. Requires an Iron Axe or superior tool to chop down. |
+| 7 | `fruit_apple` | **Oakhaven Honey Apple Tree** | Autumn | 28d / 1d | 900g $ightarrow$ 28g | Famous heirloom orchard tree. Takes 28 days to mature from sapling with a 3x3 clear radius. Lives permanently without watering. |
+| 8 | `fruit_lemon` | **Spark Lemon Tree** | Summer | 28d / 1d | 1000g $ightarrow$ 35g | Vibrant citrus tree basking in intense summer sunlight. Yields tangy electrifying lemons that awaken the senses. |
+| 9 | `fruit_plum` | **Frost Plum Tree** | Winter | 28d / 1d | 1000g $ightarrow$ 38g | Miraculous orchard tree that blossoms and fruits through biting winter blizzards. Yields frosty violet plums with wine-red flesh. |
+| 10 | `fruit_peach` | **Blossom Peach Tree** | Spring | 28d / 1d | 1100g $ightarrow$ 42g | Fragrant pink-blossomed tree announcing Spring's arrival. Produces velvety sweet peaches bursting with floral nectar. |
+| 11 | `fruit_cherry` | **Crimson Cherry Tree** | Spring | 28d / 1d | 950g $ightarrow$ 32g | Radiant cherry tree with shimmering crimson fruit clusters. Spring blooms draw wild honeybees across the valley. |
+| 12 | `fruit_walnut` | **Oakhaven Walnut Tree** | Autumn | 28d / 1d | 1200g $ightarrow$ 35g | Spreading walnut tree yielding nutrient-dense, buttery nuts that sustain townsfolk through autumn and winter. |
+| 13 | `fruit_pear` | **Misty Pear Tree** | Autumn | 28d / 1d | 1050g $ightarrow$ 30g | Golden pear tree that flourishes in the crisp misty mornings of late autumn. Yields refreshingly crisp fruit. |
+| 14 | `fruit_orange` | **Ember Orange Tree** | Summer | 28d / 1d | 1000g $ightarrow$ 32g | Citrus tree laden with glowing amber-orange fruit. Soaks in summer heat to produce rich revitalizing juice. |
+| 15 | `crop_silver_wheat` | **Silver Wheat** | Spring, Summer, Autumn | 4d / - | 15g $ightarrow$ 30g | Hardy versatile grain spanning three seasons. Ground at the windmill into Fresh Flour for bakery recipes. |
+| 16 | `crop_ice_cabbage` | **Crisp Ice Cabbage** | Spring | 6d / - | 35g $ightarrow$ 55g | Crisp, tightly wrapped heads thriving in morning chill; 2% chance to fuse into a Giant Ice Cabbage in 3x3 plots. |
+| 17 | `crop_spring_wildberry` | **Spring Wildberry** | Spring | 7d / 3d | 60g $ightarrow$ 35g | Sweet-tart red berry bush that continues to fruit every 3 days throughout Spring. |
+| 18 | `crop_pea_trellis` | **Trellis Sweet Pea** | Spring | 10d / 3d | 60g $ightarrow$ 30g | Climbing pea vine requiring a wood trellis. Bears plump emerald pods packed with tender sweet peas. |
+| 19 | `crop_sen_tea` | **Sen Tea Blossom Bush** | Spring, Summer | 12d / 4d | 40g $ightarrow$ 25g | Precious perennial tea bush soaked in dawn mist. Produces fragrant lotus-scented tea leaves. |
+| 20 | `crop_sun_daisy` | **Sun Daisy** | Spring, Summer | 5d / - | 20g $ightarrow$ 38g | Bright golden daisy petals that absorb radiant warmth. Brewed into calming tea and fine fabric dyes. |
+| 21 | `crop_sun_corn` | **Sun Corn** | Summer, Autumn | 12d / 4d | 80g $ightarrow$ 45g | Towering corn stalks with sweet golden kernels. Highly profitable crop spanning Summer and Autumn. |
+| 22 | `crop_fire_tomato` | **Juicy Fire Tomato** | Summer | 10d / 4d | 50g $ightarrow$ 24g | Summer tomato vine bearing deep red savory fruits. Crucial base for savory stews and sauces. |
+| 23 | `crop_magma_melon` | **Magma Melon** | Summer | 12d / - | 80g $ightarrow$ 180g | Giant melon with glowing red-amber flesh. Packed with refreshing sweetness and intense vitality. |
+| 24 | `crop_honey_cane` | **Amber Honey Cane** | Summer | 7d / - | 30g $ightarrow$ 55g | Sweet purple sugar cane infused with wild honey flavor. Processed into raw sugar for bakery delicacies. |
+| 25 | `crop_shadow_carrot` | **Shadow Carrot** | Summer, Autumn | 6d / - | 35g $ightarrow$ 65g | Dark purple carrot with luminous orange core. Sharpens nocturnal vision inside gloomy mine shafts. |
+| 26 | `crop_whisper_ginger` | **Whisper Ginger** | Summer | 8d / - | 45g $ightarrow$ 85g | Fiery spicy ginger root that brings comforting heat to cold-weather braises and broths. |
+| 27 | `crop_sunflower` | **Golden Sunflower** | Summer, Autumn | 8d / - | 40g $ightarrow$ 50g | Tall cheerful sunflower that drops 1-2 bonus seeds upon harvest for effortless sustained replanting. |
+| 28 | `crop_sweet_pumpkin` | **Sweet Honey Pumpkin** | Autumn | 13d / - | 100g $ightarrow$ 260g | Massive honey-sweet pumpkin with dense golden flesh. High-value crop celebrating the autumn harvest. |
+| 29 | `crop_shadow_rye` | **Shadow Rye** | Autumn | 5d / - | 30g $ightarrow$ 60g | Fast-growing dark purple rye adapted to crisp autumn winds. Baked into artisanal rustic rye loaves. |
+| 30 | `crop_night_grape` | **Trellis Night Grape** | Autumn | 10d / 3d | 80g $ightarrow$ 44g | Moonlit purple grapevines trained onto sturdy trellises. Vintage fruit fermented into tavern reserve wines. |
+| 31 | `crop_moonlight_yam` | **Moonlight Yam** | Autumn | 9d / - | 45g $ightarrow$ 95g | Silvery-skinned violet sweet potato. Hearth-roasted on open embers for irresistible tavern snacks. |
+| 32 | `crop_star_lavender` | **Misty Lavender** | Autumn | 7d / - | 35g $ightarrow$ 75g | Fragrant purple lavender blooms from misty hillsides, dried for soothing herbal tea and refreshing inn pillows. |
+| 33 | `crop_frost_turnip` | **Frost Turnip** | Winter | 5d / - | 25g $ightarrow$ 50g | Frost-hardy white turnip (1 of 3 outdoor Winter crops); 2% chance to fuse into a Giant Snow Turnip in 3x3 plots. |
+| 34 | `crop_frostmint` | **Dewdrop Mint** | Spring, Summer | 6d / - | 30g $ightarrow$ 65g | Crisp, cooling aromatic mint grown across Spring & Summer for refreshing teas and pastilles. |
+| 35 | `crop_frost_potato` | **Highland Potato** | Spring | 7d / - | 45g $ightarrow$ 90g | Hearty spring-grown mountain potatoes; mashed with garlic butter for blacksmith Boris's favorite side dish. |
+| 36 | `crop_frost_beet` | **Ruby Beet** | Autumn | 6d / - | 40g $ightarrow$ 80g | Autumn-harvested crimson roots rich in natural sugars for hearty borscht and festive bakes. |
+| 37 | `crop_lichen_root` | **Glacial Lichen Root** | Winter | 8d / - | 55g $ightarrow$ 120g | Ancient glacial lichen root harvested beneath hard ice sheets. Prized medicinal herb for resilience draughts. |
+| 38 | `crop_frost_lotus` | **Millennial Frost Lotus** | Winter | 12d / - | 120g $ightarrow$ 320g | Crystalline lotus blooming atop thin frozen marsh waters. Legendary winter botanic treasure. |
+| 39 | `crop_sopophorous_bean` | **Sopophorous Bean Vine** | Spring, Summer, Autumn | 11d / 3d | 90g $ightarrow$ 50g | Mystical silver-podded bean vine yielding luminous seeds that banish weariness through the night. |
+| 40 | `crop_mandrake` | **Mandrake Root** | Autumn | 14d / - | 100g $ightarrow$ 280g | Prized humanoid root grown in Autumn (or year-round in the Greenhouse); stewed into boss combat vitality broths. |
+| 41 | `crop_mushroom_log` | **Inoculated Mushroom Log** | Spring, Summer, Autumn, Winter | 4d / 4d | 180g $ightarrow$ 45g | Shaded timber log inoculated with mushroom spores. Produces fresh woodland mushrooms year-round without watering. |
+| 42 | `crop_paddy_rice` | **Valley Paddy Rice** | Summer, Autumn | 6d / - | 25g $ightarrow$ 55g | High-yield paddy rice cultivated on Region 2 Rice Terraces (absorbs flooded terrace water automatically without daily hand-watering). Milled into Valley Rice for rice balls, fried rice, and sticky rice. |
+| 43 | `crop_spring_scallion` | **Valley Scallion** | Spring | 3d / 2d | 15g $ightarrow$ 22g | Fastest-growing valley herb; regrows crisp green stalks for stir-fries, omelets, and broths. |
+| 44 | `crop_valley_spinach` | **Valley Spinach** | Spring | 4d / - | 20g $ightarrow$ 42g | Tender iron-rich leafy greens great for garlic sautés and savory pastry fillings. |
+| 45 | `crop_silver_flax` | **Silver Flax** | Spring | 6d / - | 30g $ightarrow$ 65g | Industrial fiber crop supplying Elora & Mae's looms with tough linen thread for ropes and canvas. |
+| 46 | `crop_jicama_root` | **Crispy Jícama** | Spring | 7d / - | 40g $ightarrow$ 95g | Crisp, juicy Mexican turnip-root with sweet apple-like crunch; 2% chance to fuse into a Giant 3x3 Jícama. |
+| 47 | `crop_spring_asparagus` | **Spring Asparagus** | Spring | 7d / 3d | 55g $ightarrow$ 45g | Slender emerald spears harvested repeatedly; butter-seared alongside steaks. |
+| 48 | `crop_bamboo_shoot` | **Sweet Bamboo Shoot** | Spring | 8d / 4d | 50g $ightarrow$ 50g | Grown near streams; yields tender edible shoots and hollow bamboo tubes for Bamboo-Roasted Rice. |
+| 49 | `crop_globe_artichoke` | **Globe Artichoke** | Spring, Summer | 8d / - | 45g $ightarrow$ 95g | Ornamental purple-green thistle bud simmered into poison-cleansing broths. |
+| 50 | `crop_highland_coffee` | **Highland Coffee** | Spring, Summer | 10d / 2d | 120g $ightarrow$ 48g | Highland coffee shrub yielding berries across Spring & Summer; roasted into speed-boosting hot coffee. |
+| 51 | `crop_hearth_chili` | **Hearth Red Chili** | Summer | 7d / 3d | 45g $ightarrow$ 34g | Fiery red chili pods powering spicy hotpots, stir-fries, and grilled meats. |
+| 52 | `crop_night_eggplant` | **Dusk Eggplant** | Summer | 8d / 4d | 50g $ightarrow$ 45g | Glossy deep-violet eggplants delicious grilled with scallions or braised with rice. |
+| 53 | `crop_kiwano_melon` | **Horned Kiwano Melon** | Summer | 9d / 3d | 70g $ightarrow$ 58g | Striking trellised orange horned melon with emerald jelly flesh; refreshing citrus-melon tang. |
+| 54 | `crop_chufa_nut` | **Earth-Almond Chufa** | Summer | 7d / - | 35g $ightarrow$ 78g | Ancient sedge tubers tasting of sweet roasted almonds; pressed for plant milk and trail cookies. |
+| 55 | `crop_golden_turmeric` | **Golden Turmeric** | Summer | 7d / - | 35g $ightarrow$ 80g | Vibrant orange spice root coloring festival rice and Aurelia's recovery salves. |
+| 56 | `crop_kudzu_cassava` | **Valley Cassava** | Summer, Autumn | 8d / - | 40g $ightarrow$ 88g | Drought-resilient starchy root refined into cooling summer drinks and chewy dumplings. |
+| 57 | `crop_black_pepper` | **Black Pepper Vine** | Summer | 8d / 3d | 60g $ightarrow$ 42g | Trellised peppercorn vine letting Rowan farm aromatic black pepper for steaks and sausages. |
+| 58 | `crop_frontier_garlic` | **Frontier Purple Garlic** | Autumn | 5d / - | 25g $ightarrow$ 55g | Pungent purple-skinned garlic essential for steaks, buttered potatoes, and braised squid. |
+| 59 | `crop_valley_onion` | **Golden Valley Onion** | Autumn | 6d / - | 30g $ightarrow$ 68g | Sweet golden-skinned onions storing well through Winter for stews and sausages. |
+| 60 | `crop_tavern_hops` | **Tavern Hops** | Autumn | 10d / 2d | 75g $ightarrow$ 42g | Tall aromatic hops trellis brewed into craft tavern ales in oak casks. |
+| 61 | `crop_golden_soybean` | **Golden Soybean** | Autumn | 8d / 3d | 50g $ightarrow$ 38g | Versatile golden beans milled into soy milk, tofu, and fermented tavern bean paste. |
+| 62 | `crop_hearth_rosemary` | **Hearth Rosemary** | Autumn | 7d / 3d | 45g $ightarrow$ 36g | Aromatic evergreen herb sprigs for roasting poultry, steaks, and perfuming inn rooms. |
+| 63 | `crop_turban_squash` | **Turban Squash** | Summer, Autumn | 10d / - | 65g $ightarrow$ 165g | Colorful heirloom squash shaped like a bumpy turban; great for creamy soups and Masquerade decor. |
+| 64 | `crop_andean_oca` | **Andean Jewel Oca** | Autumn | 7d / - | 55g $ightarrow$ 130g | Glossy jewel-toned Andean tubers with bright citrus-potato flavor; loved by Cora and Bram. |
+| 65 | `crop_oyster_salsify` | **Oyster Salsify** | Autumn | 8d / - | 50g $ightarrow$ 125g | Heirloom root tasting delicately of oysters when simmered in creamy chowders. |
+| 66 | `crop_saffron_crocus` | **Saffron Crocus** | Autumn | 9d / - | 140g $ightarrow$ 340g | Precious crimson stigmas from autumn crocus blooms, elevating dishes to Royal Contest 5-star quality. |
+| 67 | `crop_gold_kiwi` | **Gold Kiwifruit** | Autumn | 9d / 3d | 70g $ightarrow$ 56g | Trellised golden-fleshed kiwifruit packed with stamina-restoring tang. |
+| 68 | `crop_bay_laurel` | **Bay Laurel** | Spring, Autumn | 8d / 4d | 50g $ightarrow$ 40g | Fragrant Mediterranean laurel leaves for wine stews and woven champion wreaths. |
+| 69 | `crop_terrace_lotus_root` | **Terrace Mud Lotus Root** | Summer | 7d / - | 45g $ightarrow$ 110g | Region 2 flooded terrace crop (auto-irrigated); crisp perforated roots for Altar purification feasts. |
+| 70 | `crop_terrace_taro` | **Terrace Purple Taro** | Summer | 8d / - | 50g $ightarrow$ 125g | Region 2 terrace taro root; authentic base for Hearth-Steamed Ash Taro Cakes. |
+| 71 | `crop_purple_ube` | **Ancient Forest Ube** | Summer, Autumn | 9d / - | 60g $ightarrow$ 145g | Region 3 Eternal Forest vine yam with vanilla-nutty purple flesh for specialty desserts. |
+| 72 | `crop_vanilla_orchid` | **Deepwood Vanilla Orchid** | Autumn | 10d / 4d | 90g $ightarrow$ 85g | Region 3 climbing orchid yielding fragrant vanilla pods for high-tier bakery recipes. |
+| 73 | `crop_andean_maca` | **Wolf-Tooth Snow Maca** | Winter | 8d / - | 85g $ightarrow$ 195g | Region 4 Wolf-Tooth Peak highland tuber thriving in sub-zero cliffs; boosts Stamina & Cold Resistance. |
+| 74 | `crop_snow_lotus` | **Alpine Snow Lotus** | Winter | 10d / - | 110g $ightarrow$ 260g | Region 4 alpine bloom thriving near hot springs; key reagent for revival and cure-all elixirs. |
+| 75 | `crop_glow_fern` | **Glow-Fern Cave Tuber** | Spring, Summer, Autumn, Winter | 7d / - | 65g $ightarrow$ 145g | Subterranean dark-cave tuber needing zero sunlight; eating grants a soft cave illumination aura. |
+| 76 | `crop_cave_truffle` | **Cavern Black Truffle** | Spring, Summer, Autumn, Winter | 10d / - | 120g $ightarrow$ 290g | Rare subterranean black truffle cultivated in damp cave soil; prized 5-star Royal Banquet ingredient. |
+| 77 | `fruit_chestnut` | **Roasted Chestnut Tree** | Autumn, Winter | 28d / 1d | 1100g $ightarrow$ 40g | Hardy deep-rooted tree dropping sweet chestnuts roasted beside The Hearth's winter fire. |
+| 78 | `fruit_olive` | **Ancient Olive Tree** | Summer, Autumn | 28d / 1d | 1150g $ightarrow$ 38g | Pressed into Virgin Olive Oil for cooking sautés and salads without relying on dairy butter. |
+| 79 | `fruit_cacao` | **Valley Cacao Tree** | Summer | 28d / 1d | 1250g $ightarrow$ 46g | Ground into rich cocoa for cozy winter Hot Chocolate and gourmet patisserie. |
+| 80 | `fruit_pomegranate` | **Solaria Pomegranate Tree** | Autumn | 28d / 1d | 1200g $ightarrow$ 44g | Ruby-seeded fruit pressed into vitality elixirs boosting Max HP and Critical Hit Rate. |
+| 81 | `fruit_fig` | **Honey Fig Tree** | Autumn | 28d / 1d | 1050g $ightarrow$ 36g | Sweet purple figs simmered into preserves served with oak-aged cheese. |
+| 82 | `fruit_apricot` | **Golden Apricot Tree** | Spring, Summer | 28d / 1d | 1000g $ightarrow$ 34g | Sun-gold apricots dried into non-perishable trail rations for 150-floor mine delves. |
+| 83 | `fruit_avocado` | **Creamy Avocado Tree** | Summer | 28d / 1d | 1150g $ightarrow$ 42g | Velvety Mesoamerican fruit mashed onto hearth toast with farmstead eggs. |
+| 84 | `bush_blackberry` | **Blackberry Bush** | Summer | 10d / 3d | 75g $ightarrow$ 42g | Compact 1x1 berry bush yielding dark bramble fruit for tarts and syrups. |
+| 85 | `bush_cranberry` | **Bog Cranberry Bush** | Autumn | 10d / 3d | 80g $ightarrow$ 45g | Moisture-loving marsh bush yielding tart cranberries for roast meat glazes. |
+| 86 | `decor_climbing_rose` | **Hearth Climbing Rose** | Spring, Summer | 6d / 3d | 40g $ightarrow$ 35g | Climbs wooden fences outside The Hearth, boosting Cozy Rating and yielding fragrant tea petals. |
+| 87 | `decor_rain_hydrangea` | **Rain-Shift Hydrangea** | Summer | 6d / 4d | 45g $ightarrow$ 42g | Weather-reactive blooms shifting from rose-violet in sunshine to sapphire blue on rainy days. |
+| 88 | `decor_lantern_lily` | **Autumn Lantern Lily** | Autumn | 7d / - | 55g $ightarrow$ 70g | Drooping lantern-shaped blooms emitting warm amber light along autumn evening paths. |
+| 89 | `decor_winter_snowdrop` | **Winter Snowdrop** | Winter | 5d / - | 35g $ightarrow$ 55g | Delicate white ornamental bells blooming through Winter snow; tavern table vases boost guest tips. |
+| 90 | `decor_starry_tulip` | **Starry Tulip** | Spring | 5d / - | 30g $ightarrow$ 50g | Blooms in 4 random hues; bundled into birthday bouquets for 2x Heart Affection. |
+| 91 | `decor_maple_bonsai` | **Crimson Maple Bonsai** | Spring, Summer, Autumn, Winter | 12d / - | 250g $ightarrow$ 120g | Potted dwarf crimson maple placed on porches or inn rooms for permanent +12 Cozy Rating. |
+| 92 | `decor_boxwood_hedge` | **Sculpted Boxwood Hedge** | Spring, Summer, Autumn, Winter | 8d / - | 90g $ightarrow$ 45g | Evergreen trimmed hedge lining stone paths from Village Gate to The Hearth. |

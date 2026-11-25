@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "version": "2.2.0",
+  "version": "3.0.0",
   "updated": "2026-11-25",
   "items": [
     {
@@ -1326,8 +1326,8 @@
     },
     {
       "id": "item_frostmint",
-      "name": "Bạc Hà Băng Giá",
-      "description": "Lá bạc hà the buốt sương tuyết, giải nhiệt cấp tốc.",
+      "name": "Bạc Hà Sương Mai",
+      "description": "Lá bạc hà the mát thu hoạch suốt Xuân-Hạ.",
       "category": "ingredient",
       "tags": [
         "herb",
@@ -3501,8 +3501,8 @@
     },
     {
       "id": "item_frost_potato",
-      "name": "Khoai Tây Tuyết Núi Cao",
-      "description": "Củ khoai dẻo bùi đào từ đất lạnh mùa đông. Nghiền nhuyễn với bơ tươi làm khoai tây nghiền sốt kem cho bữa tối nhà trọ ấm áp.",
+      "name": "Khoai Tây Núi Cao",
+      "description": "Củ khoai dẻo ngọt trồng vụ Xuân ở thung lũng.",
       "category": "ingredient",
       "tags": [
         "vegetable",
@@ -3535,8 +3535,8 @@
     },
     {
       "id": "item_frost_beet",
-      "name": "Củ Dền Băng Ruby",
-      "description": "Củ dền tròn màu đỏ ngọc ruby thu hoạch vào Mùa Đông. Vị ngọt đậm, dùng nấu súp hầm củ dền ấm bụng cho những lữ khách dầm sương.",
+      "name": "Củ Dền Ruby",
+      "description": "Củ dền đỏ thắm thu hoạch vụ Thu.",
       "category": "ingredient",
       "tags": [
         "vegetable",
@@ -3820,6 +3820,1638 @@
         "ingredient",
         "fish",
         "surface"
+      ]
+    },
+    {
+      "id": "seed_spring_scallion",
+      "name": "Hạt Hành Lá Thung Lũng",
+      "description": "Cây gia vị lớn nhanh nhất game, cắt lá tái sinh liên tục; dùng cho món xào, súp và trứng ốp la.",
+      "category": "seed",
+      "rarity": "common",
+      "buy_price": 15,
+      "sell_price": 7,
+      "energy": null,
+      "buff": null,
+      "tags": [
+        "seed",
+        "spring"
+      ]
+    },
+    {
+      "id": "item_spring_scallion",
+      "name": "Hành Lá Thung Lũng",
+      "description": "Cây gia vị lớn nhanh nhất game, cắt lá tái sinh liên tục; dùng cho món xào, súp và trứng ốp la.",
+      "category": "ingredient",
+      "rarity": "common",
+      "buy_price": null,
+      "sell_price": 22,
+      "energy": 20,
+      "buff": null,
+      "tags": [
+        "ingredient",
+        "spring",
+        "herb",
+        "regrow"
+      ]
+    },
+    {
+      "id": "seed_valley_spinach",
+      "name": "Hạt Rau Chân Vịt Đồi Sương",
+      "description": "Rau lá xanh non giàu sắt giúp hồi phục máu nhẹ; xào tỏi và làm nhân bánh nướng.",
+      "category": "seed",
+      "rarity": "common",
+      "buy_price": 20,
+      "sell_price": 10,
+      "energy": null,
+      "buff": null,
+      "tags": [
+        "seed",
+        "spring"
+      ]
+    },
+    {
+      "id": "item_valley_spinach",
+      "name": "Rau Chân Vịt Đồi Sương",
+      "description": "Rau lá xanh non giàu sắt giúp hồi phục máu nhẹ; xào tỏi và làm nhân bánh nướng.",
+      "category": "ingredient",
+      "rarity": "common",
+      "buy_price": null,
+      "sell_price": 42,
+      "energy": 20,
+      "buff": null,
+      "tags": [
+        "ingredient",
+        "spring",
+        "vegetable"
+      ]
+    },
+    {
+      "id": "seed_silver_flax",
+      "name": "Hạt Cây Lanh Sợi Bạc",
+      "description": "Cây công nghiệp cho sợi lanh bền chắc cung ứng xưởng dệt Elora & Mae (may dây thừng, vải bạt, balo).",
+      "category": "seed",
+      "rarity": "common",
+      "buy_price": 30,
+      "sell_price": 15,
+      "energy": null,
+      "buff": null,
+      "tags": [
+        "seed",
+        "spring"
+      ]
+    },
+    {
+      "id": "item_silver_flax",
+      "name": "Cây Lanh Sợi Bạc",
+      "description": "Cây công nghiệp cho sợi lanh bền chắc cung ứng xưởng dệt Elora & Mae (may dây thừng, vải bạt, balo).",
+      "category": "ingredient",
+      "rarity": "common",
+      "buy_price": null,
+      "sell_price": 65,
+      "energy": 20,
+      "buff": null,
+      "tags": [
+        "ingredient",
+        "spring",
+        "fiber",
+        "craft"
+      ]
+    },
+    {
+      "id": "seed_jicama_root",
+      "name": "Hạt Củ Sắn Nước Jícama",
+      "description": "Củ tròn vỏ nâu ruột trắng giòn ngọt mát như lê (Mexico); có 2% hóa Củ Sắn Nước Khổng Lồ 3x3.",
+      "category": "seed",
+      "rarity": "common",
+      "buy_price": 40,
+      "sell_price": 20,
+      "energy": null,
+      "buff": null,
+      "tags": [
+        "seed",
+        "spring"
+      ]
+    },
+    {
+      "id": "item_jicama_root",
+      "name": "Củ Sắn Nước Jícama",
+      "description": "Củ tròn vỏ nâu ruột trắng giòn ngọt mát như lê (Mexico); có 2% hóa Củ Sắn Nước Khổng Lồ 3x3.",
+      "category": "ingredient",
+      "rarity": "common",
+      "buy_price": null,
+      "sell_price": 95,
+      "energy": 20,
+      "buff": null,
+      "tags": [
+        "ingredient",
+        "spring",
+        "root",
+        "giant"
+      ]
+    },
+    {
+      "id": "seed_spring_asparagus",
+      "name": "Hạt Măng Tây Xanh",
+      "description": "Thân non xanh mướt thu nhiều đợt; áp chảo bơ tỏi ăn kèm bít-tết.",
+      "category": "seed",
+      "rarity": "common",
+      "buy_price": 55,
+      "sell_price": 27,
+      "energy": null,
+      "buff": null,
+      "tags": [
+        "seed",
+        "spring"
+      ]
+    },
+    {
+      "id": "item_spring_asparagus",
+      "name": "Măng Tây Xanh",
+      "description": "Thân non xanh mướt thu nhiều đợt; áp chảo bơ tỏi ăn kèm bít-tết.",
+      "category": "ingredient",
+      "rarity": "common",
+      "buy_price": null,
+      "sell_price": 45,
+      "energy": 20,
+      "buff": null,
+      "tags": [
+        "ingredient",
+        "spring",
+        "vegetable",
+        "regrow"
+      ]
+    },
+    {
+      "id": "seed_bamboo_shoot",
+      "name": "Hạt Bụi Măng Tre Ngọt",
+      "description": "Mọc ven suối/bìa rừng; thu măng non nấu canh và ống tre già làm Cơm Lam Ống Tre.",
+      "category": "seed",
+      "rarity": "common",
+      "buy_price": 50,
+      "sell_price": 25,
+      "energy": null,
+      "buff": null,
+      "tags": [
+        "seed",
+        "spring"
+      ]
+    },
+    {
+      "id": "item_bamboo_shoot",
+      "name": "Bụi Măng Tre Ngọt",
+      "description": "Mọc ven suối/bìa rừng; thu măng non nấu canh và ống tre già làm Cơm Lam Ống Tre.",
+      "category": "ingredient",
+      "rarity": "common",
+      "buy_price": null,
+      "sell_price": 50,
+      "energy": 20,
+      "buff": null,
+      "tags": [
+        "ingredient",
+        "spring",
+        "vegetable",
+        "regrow"
+      ]
+    },
+    {
+      "id": "seed_globe_artichoke",
+      "name": "Hạt Bông Atisô Tím",
+      "description": "Nụ hoa tím xanh vừa đẹp vườn vừa hầm canh giải độc và tăng kháng nguyên tố.",
+      "category": "seed",
+      "rarity": "common",
+      "buy_price": 45,
+      "sell_price": 22,
+      "energy": null,
+      "buff": null,
+      "tags": [
+        "seed",
+        "spring",
+        "summer"
+      ]
+    },
+    {
+      "id": "item_globe_artichoke",
+      "name": "Bông Atisô Tím",
+      "description": "Nụ hoa tím xanh vừa đẹp vườn vừa hầm canh giải độc và tăng kháng nguyên tố.",
+      "category": "ingredient",
+      "rarity": "common",
+      "buy_price": null,
+      "sell_price": 95,
+      "energy": 20,
+      "buff": null,
+      "tags": [
+        "ingredient",
+        "spring",
+        "summer",
+        "vegetable"
+      ]
+    },
+    {
+      "id": "seed_highland_coffee",
+      "name": "Hạt Cà Phê Cao Nguyên",
+      "description": "Bụi cà phê vùng cao thu nhiều đợt xuyên Xuân-Hạ; rang xay pha Cà Phê Nóng tăng tốc chạy.",
+      "category": "seed",
+      "rarity": "common",
+      "buy_price": 120,
+      "sell_price": 60,
+      "energy": null,
+      "buff": null,
+      "tags": [
+        "seed",
+        "spring",
+        "summer"
+      ]
+    },
+    {
+      "id": "item_highland_coffee",
+      "name": "Cà Phê Cao Nguyên",
+      "description": "Bụi cà phê vùng cao thu nhiều đợt xuyên Xuân-Hạ; rang xay pha Cà Phê Nóng tăng tốc chạy.",
+      "category": "ingredient",
+      "rarity": "common",
+      "buy_price": null,
+      "sell_price": 48,
+      "energy": 20,
+      "buff": null,
+      "tags": [
+        "ingredient",
+        "spring",
+        "summer",
+        "shrub",
+        "regrow"
+      ]
+    },
+    {
+      "id": "seed_hearth_chili",
+      "name": "Hạt Ớt Đỏ Lửa Bếp",
+      "description": "Ớt đỏ cay nồng trồng ngoài đồng; nguyên liệu chuẩn cho Lẩu cá cay, Bắp xào cay và Thịt nướng cay.",
+      "category": "seed",
+      "rarity": "common",
+      "buy_price": 45,
+      "sell_price": 22,
+      "energy": null,
+      "buff": null,
+      "tags": [
+        "seed",
+        "summer"
+      ]
+    },
+    {
+      "id": "item_hearth_chili",
+      "name": "Ớt Đỏ Lửa Bếp",
+      "description": "Ớt đỏ cay nồng trồng ngoài đồng; nguyên liệu chuẩn cho Lẩu cá cay, Bắp xào cay và Thịt nướng cay.",
+      "category": "ingredient",
+      "rarity": "common",
+      "buy_price": null,
+      "sell_price": 34,
+      "energy": 20,
+      "buff": null,
+      "tags": [
+        "ingredient",
+        "summer",
+        "spice",
+        "regrow"
+      ]
+    },
+    {
+      "id": "seed_night_eggplant",
+      "name": "Hạt Cà Tím Tím Than",
+      "description": "Quả tím bóng bẩy nướng mỡ hành hoặc kho tộ ăn cùng Cơm Lúa Nước.",
+      "category": "seed",
+      "rarity": "common",
+      "buy_price": 50,
+      "sell_price": 25,
+      "energy": null,
+      "buff": null,
+      "tags": [
+        "seed",
+        "summer"
+      ]
+    },
+    {
+      "id": "item_night_eggplant",
+      "name": "Cà Tím Tím Than",
+      "description": "Quả tím bóng bẩy nướng mỡ hành hoặc kho tộ ăn cùng Cơm Lúa Nước.",
+      "category": "ingredient",
+      "rarity": "common",
+      "buy_price": null,
+      "sell_price": 45,
+      "energy": 20,
+      "buff": null,
+      "tags": [
+        "ingredient",
+        "summer",
+        "vegetable",
+        "regrow"
+      ]
+    },
+    {
+      "id": "seed_kiwano_melon",
+      "name": "Hạt Dưa Gai Vỏ Cam Kiwano",
+      "description": "Giàn leo độc đáo vỏ cam gai nhọn, ruột xanh ngọc lấp lánh; vị thanh pha chanh dây giải nhiệt.",
+      "category": "seed",
+      "rarity": "common",
+      "buy_price": 70,
+      "sell_price": 35,
+      "energy": null,
+      "buff": null,
+      "tags": [
+        "seed",
+        "summer"
+      ]
+    },
+    {
+      "id": "item_kiwano_melon",
+      "name": "Dưa Gai Vỏ Cam Kiwano",
+      "description": "Giàn leo độc đáo vỏ cam gai nhọn, ruột xanh ngọc lấp lánh; vị thanh pha chanh dây giải nhiệt.",
+      "category": "ingredient",
+      "rarity": "common",
+      "buy_price": null,
+      "sell_price": 58,
+      "energy": 20,
+      "buff": null,
+      "tags": [
+        "ingredient",
+        "summer",
+        "melon",
+        "trellis",
+        "regrow"
+      ]
+    },
+    {
+      "id": "seed_chufa_nut",
+      "name": "Hạt Củ Hạnh Nhân Đất Chufa",
+      "description": "Loài củ cổ đại vị béo bùi như hạnh nhân (Ai Cập/Tây Ban Nha); ép Sữa Hạt và nướng bánh quy.",
+      "category": "seed",
+      "rarity": "common",
+      "buy_price": 35,
+      "sell_price": 17,
+      "energy": null,
+      "buff": null,
+      "tags": [
+        "seed",
+        "summer"
+      ]
+    },
+    {
+      "id": "item_chufa_nut",
+      "name": "Củ Hạnh Nhân Đất Chufa",
+      "description": "Loài củ cổ đại vị béo bùi như hạnh nhân (Ai Cập/Tây Ban Nha); ép Sữa Hạt và nướng bánh quy.",
+      "category": "ingredient",
+      "rarity": "common",
+      "buy_price": null,
+      "sell_price": 78,
+      "energy": 20,
+      "buff": null,
+      "tags": [
+        "ingredient",
+        "summer",
+        "root",
+        "nut"
+      ]
+    },
+    {
+      "id": "seed_golden_turmeric",
+      "name": "Hạt Củ Nghệ Vàng",
+      "description": "Củ gia vị vàng cam rực rỡ; tạo màu cơm vàng và chế thuốc hồi phục chấn thương của Aurelia.",
+      "category": "seed",
+      "rarity": "common",
+      "buy_price": 35,
+      "sell_price": 17,
+      "energy": null,
+      "buff": null,
+      "tags": [
+        "seed",
+        "summer"
+      ]
+    },
+    {
+      "id": "item_golden_turmeric",
+      "name": "Củ Nghệ Vàng",
+      "description": "Củ gia vị vàng cam rực rỡ; tạo màu cơm vàng và chế thuốc hồi phục chấn thương của Aurelia.",
+      "category": "ingredient",
+      "rarity": "common",
+      "buy_price": null,
+      "sell_price": 80,
+      "energy": 20,
+      "buff": null,
+      "tags": [
+        "ingredient",
+        "summer",
+        "spice",
+        "root"
+      ]
+    },
+    {
+      "id": "seed_kudzu_cassava",
+      "name": "Hạt Củ Sắn Dây",
+      "description": "Củ tinh bột chịu nắng tốt; lọc bột sắn giải nhiệt mùa hè và làm vỏ bánh dẻo.",
+      "category": "seed",
+      "rarity": "common",
+      "buy_price": 40,
+      "sell_price": 20,
+      "energy": null,
+      "buff": null,
+      "tags": [
+        "seed",
+        "summer",
+        "autumn"
+      ]
+    },
+    {
+      "id": "item_kudzu_cassava",
+      "name": "Củ Sắn Dây",
+      "description": "Củ tinh bột chịu nắng tốt; lọc bột sắn giải nhiệt mùa hè và làm vỏ bánh dẻo.",
+      "category": "ingredient",
+      "rarity": "common",
+      "buy_price": null,
+      "sell_price": 88,
+      "energy": 20,
+      "buff": null,
+      "tags": [
+        "ingredient",
+        "summer",
+        "autumn",
+        "root"
+      ]
+    },
+    {
+      "id": "seed_black_pepper",
+      "name": "Hạt Tiêu Đen Leo Trụ",
+      "description": "Giàn trụ tiêu đen cho hạt cay thơm tự chủ nguồn gia vị cho Bít-tết, Lạp xưởng và Ốc nướng.",
+      "category": "seed",
+      "rarity": "common",
+      "buy_price": 60,
+      "sell_price": 30,
+      "energy": null,
+      "buff": null,
+      "tags": [
+        "seed",
+        "summer"
+      ]
+    },
+    {
+      "id": "seed_frontier_garlic",
+      "name": "Hạt Tỏi Tím Biên Viễn",
+      "description": "Củ tỏi tím thơm nồng; gia vị nền cho Bít-tết, Khoai tây nướng bơ tỏi và Mực hầm.",
+      "category": "seed",
+      "rarity": "common",
+      "buy_price": 25,
+      "sell_price": 12,
+      "energy": null,
+      "buff": null,
+      "tags": [
+        "seed",
+        "autumn"
+      ]
+    },
+    {
+      "id": "item_frontier_garlic",
+      "name": "Tỏi Tím Biên Viễn",
+      "description": "Củ tỏi tím thơm nồng; gia vị nền cho Bít-tết, Khoai tây nướng bơ tỏi và Mực hầm.",
+      "category": "ingredient",
+      "rarity": "common",
+      "buy_price": null,
+      "sell_price": 55,
+      "energy": 20,
+      "buff": null,
+      "tags": [
+        "ingredient",
+        "autumn",
+        "spice",
+        "root"
+      ]
+    },
+    {
+      "id": "seed_valley_onion",
+      "name": "Hạt Hành Tây Vỏ Vàng",
+      "description": "Củ hành tây ngọt bùi dễ bảo quản qua mùa Đông lạnh; dùng cho bò hầm, súp và lạp xưởng.",
+      "category": "seed",
+      "rarity": "common",
+      "buy_price": 30,
+      "sell_price": 15,
+      "energy": null,
+      "buff": null,
+      "tags": [
+        "seed",
+        "autumn"
+      ]
+    },
+    {
+      "id": "item_valley_onion",
+      "name": "Hành Tây Vỏ Vàng",
+      "description": "Củ hành tây ngọt bùi dễ bảo quản qua mùa Đông lạnh; dùng cho bò hầm, súp và lạp xưởng.",
+      "category": "ingredient",
+      "rarity": "common",
+      "buy_price": null,
+      "sell_price": 68,
+      "energy": 20,
+      "buff": null,
+      "tags": [
+        "ingredient",
+        "autumn",
+        "vegetable",
+        "root"
+      ]
+    },
+    {
+      "id": "seed_tavern_hops",
+      "name": "Hạt Hoa Bia Ủ Men",
+      "description": "Giàn leo thu nón hoa bia liên tục để ủ bia thủ công bán giá cao tại Quán The Hearth.",
+      "category": "seed",
+      "rarity": "common",
+      "buy_price": 75,
+      "sell_price": 37,
+      "energy": null,
+      "buff": null,
+      "tags": [
+        "seed",
+        "autumn"
+      ]
+    },
+    {
+      "id": "item_tavern_hops",
+      "name": "Hoa Bia Ủ Men",
+      "description": "Giàn leo thu nón hoa bia liên tục để ủ bia thủ công bán giá cao tại Quán The Hearth.",
+      "category": "ingredient",
+      "rarity": "common",
+      "buy_price": null,
+      "sell_price": 42,
+      "energy": 20,
+      "buff": null,
+      "tags": [
+        "ingredient",
+        "autumn",
+        "trellis",
+        "brew",
+        "regrow"
+      ]
+    },
+    {
+      "id": "seed_golden_soybean",
+      "name": "Hạt Đậu Tương Vàng",
+      "description": "Xay Sữa Đậu Nành, làm Đậu Phụ và ủ Tương Đậu lâu năm trong hầm quán ăn.",
+      "category": "seed",
+      "rarity": "common",
+      "buy_price": 50,
+      "sell_price": 25,
+      "energy": null,
+      "buff": null,
+      "tags": [
+        "seed",
+        "autumn"
+      ]
+    },
+    {
+      "id": "item_golden_soybean",
+      "name": "Đậu Tương Vàng",
+      "description": "Xay Sữa Đậu Nành, làm Đậu Phụ và ủ Tương Đậu lâu năm trong hầm quán ăn.",
+      "category": "ingredient",
+      "rarity": "common",
+      "buy_price": null,
+      "sell_price": 38,
+      "energy": 20,
+      "buff": null,
+      "tags": [
+        "ingredient",
+        "autumn",
+        "bean",
+        "regrow"
+      ]
+    },
+    {
+      "id": "seed_hearth_rosemary",
+      "name": "Hạt Cỏ Hương Thảo",
+      "description": "Bụi thảo mộc thơm nồng ướp thịt quay, gà nướng và làm túi thơm treo phòng trọ.",
+      "category": "seed",
+      "rarity": "common",
+      "buy_price": 45,
+      "sell_price": 22,
+      "energy": null,
+      "buff": null,
+      "tags": [
+        "seed",
+        "autumn"
+      ]
+    },
+    {
+      "id": "item_hearth_rosemary",
+      "name": "Cỏ Hương Thảo",
+      "description": "Bụi thảo mộc thơm nồng ướp thịt quay, gà nướng và làm túi thơm treo phòng trọ.",
+      "category": "ingredient",
+      "rarity": "common",
+      "buy_price": null,
+      "sell_price": 36,
+      "energy": 20,
+      "buff": null,
+      "tags": [
+        "ingredient",
+        "autumn",
+        "herb",
+        "regrow"
+      ]
+    },
+    {
+      "id": "seed_turban_squash",
+      "name": "Hạt Bí Turban Ngũ Sắc",
+      "description": "Quả bí cổ truyền hình chiếc mũ sặc sỡ; vừa nấu súp béo vừa làm đèn trang trí Đêm Hội Mặt Nạ.",
+      "category": "seed",
+      "rarity": "common",
+      "buy_price": 65,
+      "sell_price": 32,
+      "energy": null,
+      "buff": null,
+      "tags": [
+        "seed",
+        "summer",
+        "autumn"
+      ]
+    },
+    {
+      "id": "item_turban_squash",
+      "name": "Bí Turban Ngũ Sắc",
+      "description": "Quả bí cổ truyền hình chiếc mũ sặc sỡ; vừa nấu súp béo vừa làm đèn trang trí Đêm Hội Mặt Nạ.",
+      "category": "ingredient",
+      "rarity": "uncommon",
+      "buy_price": null,
+      "sell_price": 165,
+      "energy": 20,
+      "buff": null,
+      "tags": [
+        "ingredient",
+        "summer",
+        "autumn",
+        "squash"
+      ]
+    },
+    {
+      "id": "seed_andean_oca",
+      "name": "Hạt Củ Oca Đá Quý",
+      "description": "Củ vùng cao Nam Mỹ bóng loáng nhiều màu như đá quý, vị chua thanh kiểu cam trộn khoai.",
+      "category": "seed",
+      "rarity": "common",
+      "buy_price": 55,
+      "sell_price": 27,
+      "energy": null,
+      "buff": null,
+      "tags": [
+        "seed",
+        "autumn"
+      ]
+    },
+    {
+      "id": "item_andean_oca",
+      "name": "Củ Oca Đá Quý",
+      "description": "Củ vùng cao Nam Mỹ bóng loáng nhiều màu như đá quý, vị chua thanh kiểu cam trộn khoai.",
+      "category": "ingredient",
+      "rarity": "uncommon",
+      "buy_price": null,
+      "sell_price": 130,
+      "energy": 20,
+      "buff": null,
+      "tags": [
+        "ingredient",
+        "autumn",
+        "root"
+      ]
+    },
+    {
+      "id": "seed_oyster_salsify",
+      "name": "Hạt Củ Salsify Hương Hàu",
+      "description": "Rễ trắng cổ điển Địa Trung Hải nấu lên có vị ngọt béo giống hàu biển, nấu súp kem không cần câu cá.",
+      "category": "seed",
+      "rarity": "common",
+      "buy_price": 50,
+      "sell_price": 25,
+      "energy": null,
+      "buff": null,
+      "tags": [
+        "seed",
+        "autumn"
+      ]
+    },
+    {
+      "id": "item_oyster_salsify",
+      "name": "Củ Salsify Hương Hàu",
+      "description": "Rễ trắng cổ điển Địa Trung Hải nấu lên có vị ngọt béo giống hàu biển, nấu súp kem không cần câu cá.",
+      "category": "ingredient",
+      "rarity": "uncommon",
+      "buy_price": null,
+      "sell_price": 125,
+      "energy": 20,
+      "buff": null,
+      "tags": [
+        "ingredient",
+        "autumn",
+        "root"
+      ]
+    },
+    {
+      "id": "seed_saffron_crocus",
+      "name": "Hạt Nghệ Tây Saffron",
+      "description": "\"Vàng đỏ\" Trung Đông — hoa tím nhụy đỏ rực dùng nấu cơm hải sản 5 sao dự thi Vua Đầu Bếp Vương Đô.",
+      "category": "seed",
+      "rarity": "common",
+      "buy_price": 140,
+      "sell_price": 70,
+      "energy": null,
+      "buff": null,
+      "tags": [
+        "seed",
+        "autumn"
+      ]
+    },
+    {
+      "id": "item_saffron_crocus",
+      "name": "Nghệ Tây Saffron",
+      "description": "\"Vàng đỏ\" Trung Đông — hoa tím nhụy đỏ rực dùng nấu cơm hải sản 5 sao dự thi Vua Đầu Bếp Vương Đô.",
+      "category": "ingredient",
+      "rarity": "uncommon",
+      "buy_price": null,
+      "sell_price": 340,
+      "energy": 20,
+      "buff": null,
+      "tags": [
+        "ingredient",
+        "autumn",
+        "spice",
+        "flower"
+      ]
+    },
+    {
+      "id": "seed_gold_kiwi",
+      "name": "Hạt Kiwi Vàng Giàn Leo",
+      "description": "Giàn leo quả ruột vàng óng giàu vitamin; làm mứt, sinh tố và bánh tart trái cây.",
+      "category": "seed",
+      "rarity": "common",
+      "buy_price": 70,
+      "sell_price": 35,
+      "energy": null,
+      "buff": null,
+      "tags": [
+        "seed",
+        "autumn"
+      ]
+    },
+    {
+      "id": "item_gold_kiwi",
+      "name": "Kiwi Vàng Giàn Leo",
+      "description": "Giàn leo quả ruột vàng óng giàu vitamin; làm mứt, sinh tố và bánh tart trái cây.",
+      "category": "ingredient",
+      "rarity": "common",
+      "buy_price": null,
+      "sell_price": 56,
+      "energy": 20,
+      "buff": null,
+      "tags": [
+        "ingredient",
+        "autumn",
+        "fruit",
+        "trellis",
+        "regrow"
+      ]
+    },
+    {
+      "id": "seed_bay_laurel",
+      "name": "Hạt Cây Nguyệt Quế Địa Trung Hải",
+      "description": "Bụi lá thơm hầm Bò Rượu Vang, Bít-tết và tết Vòng Nguyệt Quế treo tường quán ăn.",
+      "category": "seed",
+      "rarity": "common",
+      "buy_price": 50,
+      "sell_price": 25,
+      "energy": null,
+      "buff": null,
+      "tags": [
+        "seed",
+        "spring",
+        "autumn"
+      ]
+    },
+    {
+      "id": "item_bay_laurel",
+      "name": "Cây Nguyệt Quế Địa Trung Hải",
+      "description": "Bụi lá thơm hầm Bò Rượu Vang, Bít-tết và tết Vòng Nguyệt Quế treo tường quán ăn.",
+      "category": "ingredient",
+      "rarity": "common",
+      "buy_price": null,
+      "sell_price": 40,
+      "energy": 20,
+      "buff": null,
+      "tags": [
+        "ingredient",
+        "spring",
+        "autumn",
+        "herb",
+        "shrub",
+        "regrow"
+      ]
+    },
+    {
+      "id": "seed_terrace_lotus_root",
+      "name": "Hạt Ngó Sen Bùn Ruộng Bậc Thang",
+      "description": "Cây ngập nước Vùng 2 (Ruộng Bậc Thang, tự tưới); củ sen giòn ngọt nấu Canh Búp Sen & Mâm Cỗ Cổ.",
+      "category": "seed",
+      "rarity": "common",
+      "buy_price": 45,
+      "sell_price": 22,
+      "energy": null,
+      "buff": null,
+      "tags": [
+        "seed",
+        "summer"
+      ]
+    },
+    {
+      "id": "item_terrace_lotus_root",
+      "name": "Ngó Sen Bùn Ruộng Bậc Thang",
+      "description": "Cây ngập nước Vùng 2 (Ruộng Bậc Thang, tự tưới); củ sen giòn ngọt nấu Canh Búp Sen & Mâm Cỗ Cổ.",
+      "category": "ingredient",
+      "rarity": "uncommon",
+      "buy_price": null,
+      "sell_price": 110,
+      "energy": 20,
+      "buff": null,
+      "tags": [
+        "ingredient",
+        "summer",
+        "aquatic",
+        "region_2",
+        "root"
+      ]
+    },
+    {
+      "id": "seed_terrace_taro",
+      "name": "Hạt Củ Khoai Môn Tím",
+      "description": "Cây ngập nước Vùng 2 (Ruộng Bậc Thang); nguyên liệu chuẩn làm Bánh Khoai Môn Tro Trấu thanh tẩy.",
+      "category": "seed",
+      "rarity": "common",
+      "buy_price": 50,
+      "sell_price": 25,
+      "energy": null,
+      "buff": null,
+      "tags": [
+        "seed",
+        "summer"
+      ]
+    },
+    {
+      "id": "item_terrace_taro",
+      "name": "Củ Khoai Môn Tím",
+      "description": "Cây ngập nước Vùng 2 (Ruộng Bậc Thang); nguyên liệu chuẩn làm Bánh Khoai Môn Tro Trấu thanh tẩy.",
+      "category": "ingredient",
+      "rarity": "uncommon",
+      "buy_price": null,
+      "sell_price": 125,
+      "energy": 20,
+      "buff": null,
+      "tags": [
+        "ingredient",
+        "summer",
+        "aquatic",
+        "region_2",
+        "root"
+      ]
+    },
+    {
+      "id": "seed_purple_ube",
+      "name": "Hạt Củ Khoai Tím Cổ Thụ",
+      "description": "Đặc hữu Vùng 3 (Rừng Thảo Mộc); leo thân cây cổ thụ, củ tím vị béo thơm như vani làm bánh ngọt.",
+      "category": "seed",
+      "rarity": "common",
+      "buy_price": 60,
+      "sell_price": 30,
+      "energy": null,
+      "buff": null,
+      "tags": [
+        "seed",
+        "summer",
+        "autumn"
+      ]
+    },
+    {
+      "id": "item_purple_ube",
+      "name": "Củ Khoai Tím Cổ Thụ",
+      "description": "Đặc hữu Vùng 3 (Rừng Thảo Mộc); leo thân cây cổ thụ, củ tím vị béo thơm như vani làm bánh ngọt.",
+      "category": "ingredient",
+      "rarity": "uncommon",
+      "buy_price": null,
+      "sell_price": 145,
+      "energy": 20,
+      "buff": null,
+      "tags": [
+        "ingredient",
+        "summer",
+        "autumn",
+        "region_3",
+        "root"
+      ]
+    },
+    {
+      "id": "seed_vanilla_orchid",
+      "name": "Hạt Dây Vani Rừng Sâu",
+      "description": "Đặc hữu Vùng 3 (Rừng Thảo Mộc); lấy quả vani thơm nức nâng tầm toàn bộ bánh ngọt & kem.",
+      "category": "seed",
+      "rarity": "common",
+      "buy_price": 90,
+      "sell_price": 45,
+      "energy": null,
+      "buff": null,
+      "tags": [
+        "seed",
+        "autumn"
+      ]
+    },
+    {
+      "id": "item_vanilla_orchid",
+      "name": "Dây Vani Rừng Sâu",
+      "description": "Đặc hữu Vùng 3 (Rừng Thảo Mộc); lấy quả vani thơm nức nâng tầm toàn bộ bánh ngọt & kem.",
+      "category": "ingredient",
+      "rarity": "common",
+      "buy_price": null,
+      "sell_price": 85,
+      "energy": 20,
+      "buff": null,
+      "tags": [
+        "ingredient",
+        "autumn",
+        "region_3",
+        "spice",
+        "trellis",
+        "regrow"
+      ]
+    },
+    {
+      "id": "seed_andean_maca",
+      "name": "Hạt Củ Maca Núi Tuyết",
+      "description": "Đặc hữu Vùng 4 (Đỉnh Núi Răng Sói); củ siêu chịu lạnh vùng cao nấu canh tăng mạnh Stamina & Kháng rét.",
+      "category": "seed",
+      "rarity": "common",
+      "buy_price": 85,
+      "sell_price": 42,
+      "energy": null,
+      "buff": null,
+      "tags": [
+        "seed",
+        "winter"
+      ]
+    },
+    {
+      "id": "item_andean_maca",
+      "name": "Củ Maca Núi Tuyết",
+      "description": "Đặc hữu Vùng 4 (Đỉnh Núi Răng Sói); củ siêu chịu lạnh vùng cao nấu canh tăng mạnh Stamina & Kháng rét.",
+      "category": "ingredient",
+      "rarity": "uncommon",
+      "buy_price": null,
+      "sell_price": 195,
+      "energy": 20,
+      "buff": null,
+      "tags": [
+        "ingredient",
+        "winter",
+        "region_4",
+        "mountain",
+        "root"
+      ]
+    },
+    {
+      "id": "seed_snow_lotus",
+      "name": "Hạt Hoa Tuyết Liên",
+      "description": "Đặc hữu Vùng 4 (quanh Suối Nước Nóng Đỉnh Răng Sói); cánh hoa trắng tinh chế thuốc giải độc & hồi sinh.",
+      "category": "seed",
+      "rarity": "common",
+      "buy_price": 110,
+      "sell_price": 55,
+      "energy": null,
+      "buff": null,
+      "tags": [
+        "seed",
+        "winter"
+      ]
+    },
+    {
+      "id": "item_snow_lotus",
+      "name": "Hoa Tuyết Liên",
+      "description": "Đặc hữu Vùng 4 (quanh Suối Nước Nóng Đỉnh Răng Sói); cánh hoa trắng tinh chế thuốc giải độc & hồi sinh.",
+      "category": "ingredient",
+      "rarity": "uncommon",
+      "buy_price": null,
+      "sell_price": 260,
+      "energy": 20,
+      "buff": null,
+      "tags": [
+        "ingredient",
+        "winter",
+        "region_4",
+        "mountain",
+        "flower"
+      ]
+    },
+    {
+      "id": "seed_glow_fern",
+      "name": "Hạt Củ Dương Xỉ Đom Đóm",
+      "description": "Đặc hữu Đất Hang Tối / Hầm Ngầm (không cần nắng); ăn vào tạo quầng sáng lục nhạt soi hang sâu.",
+      "category": "seed",
+      "rarity": "common",
+      "buy_price": 65,
+      "sell_price": 32,
+      "energy": null,
+      "buff": null,
+      "tags": [
+        "seed",
+        "spring",
+        "summer",
+        "autumn",
+        "winter"
+      ]
+    },
+    {
+      "id": "item_glow_fern",
+      "name": "Củ Dương Xỉ Đom Đóm",
+      "description": "Đặc hữu Đất Hang Tối / Hầm Ngầm (không cần nắng); ăn vào tạo quầng sáng lục nhạt soi hang sâu.",
+      "category": "ingredient",
+      "rarity": "uncommon",
+      "buy_price": null,
+      "sell_price": 145,
+      "energy": 20,
+      "buff": null,
+      "tags": [
+        "ingredient",
+        "cave",
+        "subterranean",
+        "root"
+      ]
+    },
+    {
+      "id": "seed_cave_truffle",
+      "name": "Hạt Nấm Cục Đá Hang Sâu",
+      "description": "Đặc hữu Đất Hang Tối / Hầm Ngầm; nấm củ đen thượng hạng chuyên nấu món 5 sao thi Vua Đầu Bếp.",
+      "category": "seed",
+      "rarity": "common",
+      "buy_price": 120,
+      "sell_price": 60,
+      "energy": null,
+      "buff": null,
+      "tags": [
+        "seed",
+        "spring",
+        "summer",
+        "autumn",
+        "winter"
+      ]
+    },
+    {
+      "id": "item_cave_truffle",
+      "name": "Nấm Cục Đá Hang Sâu",
+      "description": "Đặc hữu Đất Hang Tối / Hầm Ngầm; nấm củ đen thượng hạng chuyên nấu món 5 sao thi Vua Đầu Bếp.",
+      "category": "ingredient",
+      "rarity": "uncommon",
+      "buy_price": null,
+      "sell_price": 290,
+      "energy": 20,
+      "buff": null,
+      "tags": [
+        "ingredient",
+        "cave",
+        "subterranean",
+        "mushroom"
+      ]
+    },
+    {
+      "id": "seed_chestnut_sapling",
+      "name": "Hạt Cây Hạt Dẻ Nâu",
+      "description": "Cây thân gỗ rễ sâu chịu lạnh; cho hạt dẻ nướng than hồng bên lò sưởi The Hearth mùa Đông.",
+      "category": "seed",
+      "rarity": "common",
+      "buy_price": 1100,
+      "sell_price": 550,
+      "energy": null,
+      "buff": null,
+      "tags": [
+        "seed",
+        "autumn",
+        "winter"
+      ]
+    },
+    {
+      "id": "item_chestnut",
+      "name": "Cây Hạt Dẻ Nâu",
+      "description": "Cây thân gỗ rễ sâu chịu lạnh; cho hạt dẻ nướng than hồng bên lò sưởi The Hearth mùa Đông.",
+      "category": "ingredient",
+      "rarity": "common",
+      "buy_price": null,
+      "sell_price": 40,
+      "energy": 20,
+      "buff": null,
+      "tags": [
+        "ingredient",
+        "tree",
+        "fruit_tree",
+        "autumn",
+        "winter"
+      ]
+    },
+    {
+      "id": "seed_olive_sapling",
+      "name": "Hạt Cây Ô-liu Cổ",
+      "description": "Ép lấy Dầu Ô-liu Nguyên Chất dùng xào nấu và trộn salad không cần phụ thuộc bơ sữa bò.",
+      "category": "seed",
+      "rarity": "common",
+      "buy_price": 1150,
+      "sell_price": 575,
+      "energy": null,
+      "buff": null,
+      "tags": [
+        "seed",
+        "summer",
+        "autumn"
+      ]
+    },
+    {
+      "id": "item_olive_oil",
+      "name": "Cây Ô-liu Cổ",
+      "description": "Ép lấy Dầu Ô-liu Nguyên Chất dùng xào nấu và trộn salad không cần phụ thuộc bơ sữa bò.",
+      "category": "ingredient",
+      "rarity": "common",
+      "buy_price": null,
+      "sell_price": 38,
+      "energy": 20,
+      "buff": null,
+      "tags": [
+        "ingredient",
+        "tree",
+        "fruit_tree",
+        "summer",
+        "autumn"
+      ]
+    },
+    {
+      "id": "seed_cacao_sapling",
+      "name": "Hạt Cây Cacao Đắng",
+      "description": "Xay bột cacao pha Sô-cô-la Nóng Đêm Đông bên lò sưởi và làm bánh ngọt cao cấp.",
+      "category": "seed",
+      "rarity": "common",
+      "buy_price": 1250,
+      "sell_price": 625,
+      "energy": null,
+      "buff": null,
+      "tags": [
+        "seed",
+        "summer"
+      ]
+    },
+    {
+      "id": "item_cacao_pod",
+      "name": "Cây Cacao Đắng",
+      "description": "Xay bột cacao pha Sô-cô-la Nóng Đêm Đông bên lò sưởi và làm bánh ngọt cao cấp.",
+      "category": "ingredient",
+      "rarity": "common",
+      "buy_price": null,
+      "sell_price": 46,
+      "energy": 20,
+      "buff": null,
+      "tags": [
+        "ingredient",
+        "tree",
+        "fruit_tree",
+        "summer"
+      ]
+    },
+    {
+      "id": "seed_pomegranate_sapling",
+      "name": "Hạt Cây Lựu Đỏ Solaria",
+      "description": "Quả đỏ mọng như ngọc lựu; ép nước uống tăng Máu tối đa và tỉ lệ đòn chí mạng.",
+      "category": "seed",
+      "rarity": "common",
+      "buy_price": 1200,
+      "sell_price": 600,
+      "energy": null,
+      "buff": null,
+      "tags": [
+        "seed",
+        "autumn"
+      ]
+    },
+    {
+      "id": "item_pomegranate",
+      "name": "Cây Lựu Đỏ Solaria",
+      "description": "Quả đỏ mọng như ngọc lựu; ép nước uống tăng Máu tối đa và tỉ lệ đòn chí mạng.",
+      "category": "ingredient",
+      "rarity": "common",
+      "buy_price": null,
+      "sell_price": 44,
+      "energy": 20,
+      "buff": null,
+      "tags": [
+        "ingredient",
+        "tree",
+        "fruit_tree",
+        "autumn"
+      ]
+    },
+    {
+      "id": "seed_fig_sapling",
+      "name": "Hạt Cây Sung Ngọt Mật",
+      "description": "Quả tím ruột đỏ mật ngọt; làm mứt sung ăn kèm bánh mì phô mai ủ.",
+      "category": "seed",
+      "rarity": "common",
+      "buy_price": 1050,
+      "sell_price": 525,
+      "energy": null,
+      "buff": null,
+      "tags": [
+        "seed",
+        "autumn"
+      ]
+    },
+    {
+      "id": "item_honey_fig",
+      "name": "Cây Sung Ngọt Mật",
+      "description": "Quả tím ruột đỏ mật ngọt; làm mứt sung ăn kèm bánh mì phô mai ủ.",
+      "category": "ingredient",
+      "rarity": "common",
+      "buy_price": null,
+      "sell_price": 36,
+      "energy": 20,
+      "buff": null,
+      "tags": [
+        "ingredient",
+        "tree",
+        "fruit_tree",
+        "autumn"
+      ]
+    },
+    {
+      "id": "seed_apricot_sapling",
+      "name": "Hạt Cây Mơ Vàng Nắng",
+      "description": "Quả vàng óng phơi khô làm Mơ Khô Dã Ngoại mang đi mỏ 150 tầng không bao giờ hỏng.",
+      "category": "seed",
+      "rarity": "common",
+      "buy_price": 1000,
+      "sell_price": 500,
+      "energy": null,
+      "buff": null,
+      "tags": [
+        "seed",
+        "spring",
+        "summer"
+      ]
+    },
+    {
+      "id": "item_apricot",
+      "name": "Cây Mơ Vàng Nắng",
+      "description": "Quả vàng óng phơi khô làm Mơ Khô Dã Ngoại mang đi mỏ 150 tầng không bao giờ hỏng.",
+      "category": "ingredient",
+      "rarity": "common",
+      "buy_price": null,
+      "sell_price": 34,
+      "energy": 20,
+      "buff": null,
+      "tags": [
+        "ingredient",
+        "tree",
+        "fruit_tree",
+        "spring",
+        "summer"
+      ]
+    },
+    {
+      "id": "seed_avocado_sapling",
+      "name": "Hạt Cây Bơ Béo",
+      "description": "Quả bơ xanh ruột béo ngậy (Trung Mỹ); làm bánh mì nướng bơ trứng và salad.",
+      "category": "seed",
+      "rarity": "common",
+      "buy_price": 1150,
+      "sell_price": 575,
+      "energy": null,
+      "buff": null,
+      "tags": [
+        "seed",
+        "summer"
+      ]
+    },
+    {
+      "id": "item_avocado",
+      "name": "Cây Bơ Béo",
+      "description": "Quả bơ xanh ruột béo ngậy (Trung Mỹ); làm bánh mì nướng bơ trứng và salad.",
+      "category": "ingredient",
+      "rarity": "common",
+      "buy_price": null,
+      "sell_price": 42,
+      "energy": 20,
+      "buff": null,
+      "tags": [
+        "ingredient",
+        "tree",
+        "fruit_tree",
+        "summer"
+      ]
+    },
+    {
+      "id": "seed_blackberry_bush",
+      "name": "Hạt Bụi Phúc Bồn Tử Đen",
+      "description": "Cây bụi thấp 1x1 thu nhiều đợt mùa Hạ; làm nhân bánh tart và siro quả mọng.",
+      "category": "seed",
+      "rarity": "common",
+      "buy_price": 75,
+      "sell_price": 37,
+      "energy": null,
+      "buff": null,
+      "tags": [
+        "seed",
+        "summer"
+      ]
+    },
+    {
+      "id": "item_blackberry",
+      "name": "Bụi Phúc Bồn Tử Đen",
+      "description": "Cây bụi thấp 1x1 thu nhiều đợt mùa Hạ; làm nhân bánh tart và siro quả mọng.",
+      "category": "ingredient",
+      "rarity": "common",
+      "buy_price": null,
+      "sell_price": 42,
+      "energy": 20,
+      "buff": null,
+      "tags": [
+        "ingredient",
+        "summer",
+        "bush",
+        "fruit",
+        "regrow"
+      ]
+    },
+    {
+      "id": "seed_cranberry_bush",
+      "name": "Hạt Bụi Nam Việt Quất Đầm Lầy",
+      "description": "Trồng đất ẩm ven đầm lầy Lão Tad; quả đỏ chua thanh nấu sốt ăn kèm gà quay & sườn nướng.",
+      "category": "seed",
+      "rarity": "common",
+      "buy_price": 80,
+      "sell_price": 40,
+      "energy": null,
+      "buff": null,
+      "tags": [
+        "seed",
+        "autumn"
+      ]
+    },
+    {
+      "id": "item_cranberry",
+      "name": "Bụi Nam Việt Quất Đầm Lầy",
+      "description": "Trồng đất ẩm ven đầm lầy Lão Tad; quả đỏ chua thanh nấu sốt ăn kèm gà quay & sườn nướng.",
+      "category": "ingredient",
+      "rarity": "common",
+      "buy_price": null,
+      "sell_price": 45,
+      "energy": 20,
+      "buff": null,
+      "tags": [
+        "ingredient",
+        "autumn",
+        "bush",
+        "fruit",
+        "regrow"
+      ]
+    },
+    {
+      "id": "seed_climbing_rose",
+      "name": "Hạt Hoa Hồng Leo Bờ Rào",
+      "description": "Hoa hồng leo hàng rào gỗ trước quán; tự động tăng +Cozy Rating và thu cánh hoa ướp trà.",
+      "category": "seed",
+      "rarity": "common",
+      "buy_price": 40,
+      "sell_price": 20,
+      "energy": null,
+      "buff": null,
+      "tags": [
+        "seed",
+        "spring",
+        "summer"
+      ]
+    },
+    {
+      "id": "item_rose_petals",
+      "name": "Hoa Hồng Leo Bờ Rào",
+      "description": "Hoa hồng leo hàng rào gỗ trước quán; tự động tăng +Cozy Rating và thu cánh hoa ướp trà.",
+      "category": "decor",
+      "rarity": "common",
+      "buy_price": null,
+      "sell_price": 35,
+      "energy": null,
+      "buff": null,
+      "tags": [
+        "decor",
+        "spring",
+        "summer",
+        "ornamental",
+        "cozy",
+        "flower"
+      ]
+    },
+    {
+      "id": "seed_rain_hydrangea",
+      "name": "Hạt Hoa Cẩm Tú Cầu Đổi Màu",
+      "description": "Đổi màu theo thời tiết: trời nắng nở hồng tím, ngày mưa tự chuyển xanh lam ngọc cực đẹp.",
+      "category": "seed",
+      "rarity": "common",
+      "buy_price": 45,
+      "sell_price": 22,
+      "energy": null,
+      "buff": null,
+      "tags": [
+        "seed",
+        "summer"
+      ]
+    },
+    {
+      "id": "item_hydrangea_bloom",
+      "name": "Hoa Cẩm Tú Cầu Đổi Màu",
+      "description": "Đổi màu theo thời tiết: trời nắng nở hồng tím, ngày mưa tự chuyển xanh lam ngọc cực đẹp.",
+      "category": "decor",
+      "rarity": "common",
+      "buy_price": null,
+      "sell_price": 42,
+      "energy": null,
+      "buff": null,
+      "tags": [
+        "decor",
+        "summer",
+        "ornamental",
+        "cozy",
+        "flower"
+      ]
+    },
+    {
+      "id": "seed_lantern_lily",
+      "name": "Hạt Hoa Đèn Lồng Bỉ Ngạn",
+      "description": "Bông hoa hình đèn lồng rủ xuống tỏa ánh sáng cam dịu ban đêm dọc lối vào quán.",
+      "category": "seed",
+      "rarity": "common",
+      "buy_price": 55,
+      "sell_price": 27,
+      "energy": null,
+      "buff": null,
+      "tags": [
+        "seed",
+        "autumn"
+      ]
+    },
+    {
+      "id": "item_lantern_lily",
+      "name": "Hoa Đèn Lồng Bỉ Ngạn",
+      "description": "Bông hoa hình đèn lồng rủ xuống tỏa ánh sáng cam dịu ban đêm dọc lối vào quán.",
+      "category": "decor",
+      "rarity": "common",
+      "buy_price": null,
+      "sell_price": 70,
+      "energy": null,
+      "buff": null,
+      "tags": [
+        "decor",
+        "autumn",
+        "ornamental",
+        "cozy",
+        "flower"
+      ]
+    },
+    {
+      "id": "seed_winter_snowdrop",
+      "name": "Hạt Hoa Chuông Tuyết",
+      "description": "Cụm hoa trắng nhỏ xuyên qua tuyết mùa Đông (cây trang trí, không phải lương thực); cắm bình bàn ăn tăng Tip.",
+      "category": "seed",
+      "rarity": "common",
+      "buy_price": 35,
+      "sell_price": 17,
+      "energy": null,
+      "buff": null,
+      "tags": [
+        "seed",
+        "winter"
+      ]
+    },
+    {
+      "id": "item_snowdrop_bloom",
+      "name": "Hoa Chuông Tuyết",
+      "description": "Cụm hoa trắng nhỏ xuyên qua tuyết mùa Đông (cây trang trí, không phải lương thực); cắm bình bàn ăn tăng Tip.",
+      "category": "decor",
+      "rarity": "common",
+      "buy_price": null,
+      "sell_price": 55,
+      "energy": null,
+      "buff": null,
+      "tags": [
+        "decor",
+        "winter",
+        "ornamental",
+        "cozy",
+        "flower"
+      ]
+    },
+    {
+      "id": "seed_starry_tulip",
+      "name": "Hạt Hoa Tulip Đốm Sao",
+      "description": "Nở ra 4 màu ngẫu nhiên; bó thành Bó Hoa Kỷ Niệm tặng tăng gấp đôi điểm Tim dịp sinh nhật NPC.",
+      "category": "seed",
+      "rarity": "common",
+      "buy_price": 30,
+      "sell_price": 15,
+      "energy": null,
+      "buff": null,
+      "tags": [
+        "seed",
+        "spring"
+      ]
+    },
+    {
+      "id": "item_starry_tulip",
+      "name": "Hoa Tulip Đốm Sao",
+      "description": "Nở ra 4 màu ngẫu nhiên; bó thành Bó Hoa Kỷ Niệm tặng tăng gấp đôi điểm Tim dịp sinh nhật NPC.",
+      "category": "decor",
+      "rarity": "common",
+      "buy_price": null,
+      "sell_price": 50,
+      "energy": null,
+      "buff": null,
+      "tags": [
+        "decor",
+        "spring",
+        "ornamental",
+        "cozy",
+        "flower"
+      ]
+    },
+    {
+      "id": "seed_maple_bonsai",
+      "name": "Hạt Cây Phong Đỏ Bonsai",
+      "description": "Đặt chậu gốm trước cửa quán hoặc phòng trọ lầu 2, tăng trực tiếp +12 Cozy Rating quanh năm.",
+      "category": "seed",
+      "rarity": "common",
+      "buy_price": 250,
+      "sell_price": 125,
+      "energy": null,
+      "buff": null,
+      "tags": [
+        "seed",
+        "spring",
+        "summer",
+        "autumn",
+        "winter"
+      ]
+    },
+    {
+      "id": "item_maple_bonsai",
+      "name": "Cây Phong Đỏ Bonsai",
+      "description": "Đặt chậu gốm trước cửa quán hoặc phòng trọ lầu 2, tăng trực tiếp +12 Cozy Rating quanh năm.",
+      "category": "decor",
+      "rarity": "uncommon",
+      "buy_price": null,
+      "sell_price": 120,
+      "energy": null,
+      "buff": null,
+      "tags": [
+        "decor",
+        "spring",
+        "summer",
+        "autumn",
+        "winter",
+        "ornamental",
+        "cozy"
+      ]
+    },
+    {
+      "id": "seed_boxwood_hedge",
+      "name": "Hạt Bụi Hoàng Dương Cắt Tỉa",
+      "description": "Hàng rào cây xanh cắt tỉa gọn gàng quanh năm làm viền lối đi từ Cổng Làng vào The Hearth.",
+      "category": "seed",
+      "rarity": "common",
+      "buy_price": 90,
+      "sell_price": 45,
+      "energy": null,
+      "buff": null,
+      "tags": [
+        "seed",
+        "spring",
+        "summer",
+        "autumn",
+        "winter"
+      ]
+    },
+    {
+      "id": "item_boxwood_hedge",
+      "name": "Bụi Hoàng Dương Cắt Tỉa",
+      "description": "Hàng rào cây xanh cắt tỉa gọn gàng quanh năm làm viền lối đi từ Cổng Làng vào The Hearth.",
+      "category": "decor",
+      "rarity": "common",
+      "buy_price": null,
+      "sell_price": 45,
+      "energy": null,
+      "buff": null,
+      "tags": [
+        "decor",
+        "spring",
+        "summer",
+        "autumn",
+        "winter",
+        "ornamental",
+        "cozy"
       ]
     }
   ]

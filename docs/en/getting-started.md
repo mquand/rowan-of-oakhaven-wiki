@@ -29,7 +29,7 @@ By your side are **Pip** the pygmy owl (bringing dawn letters and seeds) and **M
 
 | Time of Day | Recommended Activities |
 | :--- | :--- |
-| **Morning (06:00 - 12:00)** | Receive Pip's mail, tend crops (42 seasonal crop & tree species across 4 seasons), harvest produce, care for livestock. |
+| **Morning (06:00 - 12:00)** | Receive Pip's mail, tend crops (92 seasonal, special-region & ornamental species), harvest produce, care for livestock. |
 | **Afternoon (12:00 - 18:00)** | Delve into the 150-floor Mine (hack-and-slash combat, ore quarrying), fish along misty streams, or forage herbs. |
 | **Evening (18:00 - 23:00)** | Open the Eatery for Takeaway and Dine-in guests, serving combo meals and unlocking character Heart Events. |
 | **Night (23:00 - 02:00)** | Manage upstairs Inn room lodgers, test new recipes at the Loft R&D Station, and sleep to save progress. |
