@@ -32,7 +32,7 @@
       "id": "bonds",
       "name": "Heart Bonds & Healing",
       "icon": "heart",
-      "description": "Resolving psychological scars, romance vows, and communal ties."
+      "description": "Resolving psychological scars, community bonds, and heartfelt ties."
     },
     {
       "id": "restoration",
@@ -412,13 +412,13 @@
       "id": "ach_romance_vow",
       "steam_api_name": "ACH_ROMANCE_VOW",
       "category": "bonds",
-      "name": "Vow by the Hearth",
-      "description": "Present the Oak Garland and pledge a 10-Heart romantic union with a bachelor or bachelorette.",
+      "name": "Full Memory Wall",
+      "description": "Complete all 51 Signature Milestone Scenes and fill the Polaroid Memory Wall at The Hearth.",
       "is_secret": false,
-      "reward_title": "Devoted Partner",
-      "reward_trophy": "Valley Engagement Rings",
+      "reward_title": "Memory Keeper",
+      "reward_trophy": "Oakhaven Polaroid Frame",
       "reward_cozy": 30,
-      "hint": "Reach 10 Hearts with your beloved and exchange vows by the fire."
+      "hint": "Reach the peak heart milestone (8/6/4 Hearts by tier) across all valley residents and world entities."
     },
     {
       "id": "ach_rebuild_town",

@@ -32,7 +32,7 @@
       "id": "bonds",
       "name": "Tri Kỷ & Hàn Gắn",
       "icon": "heart",
-      "description": "Hóa giải vết thương tâm lý, kết duyên và mở lòng cùng dân làng."
+      "description": "Hóa giải vết thương tâm lý, gắn kết cộng đồng và mở lòng cùng dân làng."
     },
     {
       "id": "restoration",
@@ -412,13 +412,13 @@
       "id": "ach_romance_vow",
       "steam_api_name": "ACH_ROMANCE_VOW",
       "category": "bonds",
-      "name": "Lời Thề Bếp Lửa",
-      "description": "Trao tặng Vòng Hoa Gỗ Sồi kết duyên 10 Tim thành công với một nhân vật độc thân.",
+      "name": "Trọn Vẹn Ký Ức",
+      "description": "Hoàn thành toàn bộ 51 Cảnh Diễn Khoảnh Khắc Vàng và lấp đầy Bức Tường Kỷ Niệm Polaroid tại The Hearth.",
       "is_secret": false,
-      "reward_title": "Người Tri Kỷ",
-      "reward_trophy": "Cặp Nhẫn Đính Ước Thung Lũng",
+      "reward_title": "Người Giữ Ký Ức",
+      "reward_trophy": "Khung Ảnh Kỷ Niệm Oakhaven",
       "reward_cozy": 30,
-      "hint": "Đạt 10 Tim với tri kỷ và trao tín vật ước hẹn."
+      "hint": "Đạt mốc tim đỉnh điểm (8/6/4 Tim theo tầng) với toàn bộ cư dân và các thực thể thung lũng."
     },
     {
       "id": "ach_rebuild_town",

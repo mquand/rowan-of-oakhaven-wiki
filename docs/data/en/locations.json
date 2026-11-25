@@ -8,7 +8,7 @@
       "name": "Oakhaven Town (Oak Valley)",
       "name_en": "Oakhaven / The Oak Valley",
       "location_type": "starting_town",
-      "description": "Small town where Rowan inherits The Hearth Eatery & Tavern from grandmother Amalia — mossy timber house by Whispering Woods, herb farm by Lumina River, Boris's forge, and the Sacred Tree mine vein.",
+      "description": "Small town where Rowan inherits The Hearth Eatery & Tavern from grandmother Amalia — mossy timber house by Whispering Woods, herb farm by Oakhaven River, Boris's forge, and the Sacred Tree mine vein.",
       "unlock_condition": "Available from game prologue",
       "notable_npcs": [
         "npc_rowan",

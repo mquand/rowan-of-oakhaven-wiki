@@ -8,7 +8,7 @@
       "name": "Thị Trấn Oakhaven (Thung Lũng Sồi)",
       "name_en": "Oakhaven / The Oak Valley",
       "location_type": "starting_town",
-      "description": "Thị trấn nhỏ nơi Rowan tiếp quản Quán Ăn & Nhà Trọ Oakhaven của bà Amalia — căn nhà gỗ rêu phong bên ngã ba Rừng Thầm Thì, nông trại thảo mộc ven sông Lumina, cối xay gió sau quán, lò rèn Boris và vỉa mỏ Cây Thần.",
+      "description": "Thị trấn nhỏ nơi Rowan tiếp quản Quán Ăn & Nhà Trọ Oakhaven của bà Amalia — căn nhà gỗ rêu phong bên ngã ba Rừng Thầm Thì, nông trại thảo mộc ven sông Oakhaven, cối xay gió sau quán, lò rèn Boris và vỉa mỏ Cây Thần.",
       "unlock_condition": "Mở đầu game",
       "notable_npcs": [
         "npc_rowan",

@@ -42,7 +42,7 @@ Phân định rõ rệt giữa hai trường hợp kiệt sức trên mặt đ�
 2. **Gục Ngã Trong Hầm Ngục Mỏ Cổ 150 Tầng (Cạn HP do quái vật hoặc bẫy):**
    - Đội cứu nạn của **Hiệp Hội Mạo Hiểm (dưới quyền Hội Trưởng Thorne)** khẩn cấp kéo Rowan về Trạm Y Tế của **Dược Sĩ Aurelia**.
    - Bị trừ 10% tiền mặt (tối đa 1,000g phí cứu hộ và điều trị).
-   - **Mất mát chiến lợi phẩm (Permanent Loss - Mất đồ là mất đồ):** Rơi mất vĩnh viễn toàn bộ quặng thô, đá quý, thịt quái và vật liệu nhặt được trong chuyến đi mỏ hôm đó.
+   - **Mất mát chiến lợi phẩm (Permanent Loss - Mất đồ là mất đồ):** Rơi mất vĩnh viễn toàn bộ quặng thô, đá quý, linh kiện quái và vật liệu nhặt được trong chuyến đi mỏ hôm đó *(tuân thủ quy tắc 100% Non-Food Drops)*.
    - **Bảo vệ Trang bị & Công cụ chính (Tools & Weapons Guard):** Vũ khí chính, giáp trụ và nông cụ không bao giờ bị xóa vĩnh viễn, nhưng sẽ bị rơi lại tại hiện trường. Đội tuần tra đưa về bàn **Đồ Thất Lạc (Lost & Found)** của Hiệp Hội Mạo Hiểm do Thorne và Valerie quản lý:
      - Cách 1: **Trả Vàng chuộc đồ:** Chi trả khoản tiền tương ứng với giá trị món đồ.
      - Cách 2: **Đổi Bằng Cơm Hộp Tiếp Tế (Expedition Bento):** Nấu các phần thức ăn dã chiến theo đơn uỷ thác của Hiệp Hội để nhận **Huy Hiệu Cứu Viện** đổi lại vũ khí/công cụ miễn phí.
@@ -86,7 +86,7 @@ Rowan sở hữu không gian sống hoàn toàn riêng biệt nằm trên tầng
   - **Tuyệt đối không có cơ chế cứu hộ miễn phí 100%, không giảm giá chuộc đồ, không giữ an toàn hành trang.** Người chơi phải luôn tính toán lượng máu và chủ động dùng Dây Thừng Thoát Hiểm (Escape Rope) hoặc Cửa Dịch Chuyển để rút lui an toàn.
 - **Quy Tắc Cư Dân Mặt Đất & Chạm Trán Ngẫu Nhiên Trong Mỏ (Surface-Only NPCs & Mine Encounters):**
   - **100% NPC đều sinh sống cố định tại thị trấn, điền trang hoặc các lán trại trên MẶT ĐẤT.** Không có NPC nào dựng lều định cư lâu dài trong hầm ngục.
-  - **Chạm trán ngẫu nhiên:** Trong quá trình đào mỏ, Rowan thỉnh thoảng có thể bắt gặp một số NPC đang làm công việc dã ngoại ngắn hạn (Bram đang gõ mạch quặng sâu, Lão Gomer thử nghiệm mìn phá đá, Thợ lặn Vael khảo sát hồ nước ngầm, Hiệp sĩ Hester tìm nhặt mảnh thép vụn, Hội trưởng Thorne thị sát phong ấn). Đây là các sự kiện chạm trán gia tăng chiều sâu thế giới (flavor encounters), không biến hầm mỏ thành khu dân cư.
+  - **Chạm trán ngẫu nhiên:** Trong quá trình đào mỏ, Rowan thỉnh thoảng có thể bắt gặp một số NPC đang làm công việc dã ngoại ngắn hạn (`Bram` gõ mạch quặng sâu, `Lão Gomer` thử mìn phá đá, `Thợ lặn Vael` khảo sát hồ ngầm, `Hiệp sĩ Hester` tìm mảnh thép vụn, `Hội trưởng Thorne` kiểm tra phong ấn). **Quy tắc chống cản trở combat:** Chỉ xuất hiện tại **phòng nghỉ / tầng thường** (tuyệt đối không spawn ở tầng Boss 30, 70, 110, 150); tương tác nhanh 1 chạm (chia sẻ 1 món ăn dã ngoại nhận lại quặng, bộc phá mở lối hoặc buff ngắn hạn), không biến hầm mỏ thành khu dân cư.
 - **Chiến Đấu Nhịp Độ Nhanh (Hack & Slash):**
   - Kết hợp vung vũ khí cận chiến (Kiếm chém nhanh 3 nhịp, Liềm quét hình bán nguyệt rộng AoE, Búa tạ đập chấn động vỡ giáp).
   - Tấn công tầm xa bằng Pháp trượng ma thuật hoặc ném Bom lửa.
@@ -338,55 +338,55 @@ Mỗi cư dân Oakhaven không phải NPC rập khuôn vô hồn, mà mang một
 6. **Bà Cụ Maeve & Cậu Bé Bán Diêm Kael (Tình Thân Không Cùng Máu Mủ):**
    - *Bà Maeve:* Người làm vườn già thoái hóa khớp nặng, nén đau chắt chiu từng đồng tiền thuốc để dành cho tương lai của Kael.
    - *Kael:* Trẻ mồ côi từng bán diêm co ro trong bão tuyết, sợ bị bỏ rơi lần nữa nên làm việc kiệt sức để chứng minh bản thân hữu ích.
-   - *Hàn gắn (8 Tim):* *Súp Bí Đỏ Hạt Sen* và bánh sinh nhật bảy màu; Kael tiếp quản và mở khóa **Vườn Ươm Cây Giống Bốn Mùa**.
+   - *Hàn gắn (4 Tim — Tier 3):* *Súp Bí Đỏ Hạt Sen* và bánh nướng ấm; Kael chuyển về phụ việc và mở khóa **Vườn Ươm Cây Giống Bốn Mùa**.
 7. **Hiệp Hội Mạo Hiểm: Hội Trưởng Thorne & Điều Phối Viên Valerie:**
    - *Thorne:* Cựu chỉ huy cấm vệ quân mang chân giả, mất 18 đồng đội dưới hầm sâu; quản lý Bảng Treo Thưởng Săn Quái (Bounties) & Giấy Phép/Ấn Triện Thông Hành Đới Mỏ (Clearance Seals).
-   - *Valerie:* Cung thủ bắn tỉa giải ngũ vì mất thính lực một bên tai và chứng sợ tiếng nổ lớn (PTSD); quản lý Quầy Tiếp Tân và Quầy Mua Lại (Buyback Shop) cho đồ đạc người chơi lỡ tay bán nhầm trong ngày (không phải chuộc đồ mất trong mỏ).
-   - *Hàn gắn (8 Tim):* Cơm hộp dã chiến tiếp tế và *Súp Nấm Tuyết Sườn Non*; mở khóa **Bảng Săn Boss Tinh Anh & Hợp Đồng Thưởng Quặng Quý Hiệp Hội**.
+   - *Valerie (Tier 2 — 6 Tim):* Cung thủ bắn tỉa giải ngũ vì mất thính lực một bên tai và chứng sợ tiếng nổ lớn (PTSD); quản lý Quầy Tiếp Tân và Quầy Mua Lại (Buyback Shop) cho đồ đạc người chơi lỡ tay bán nhầm trong ngày (không phải chuộc đồ mất trong mỏ); tặng *Nơ Cung Bạc Valerie* ở 6 Tim.
+   - *Hàn gắn Thorne (8 Tim — Tier 1):* Cơm hộp dã chiến tiếp tế và *Súp Nấm Tuyết Sườn Non*; mở khóa **Bảng Săn Boss Tinh Anh & Hợp Đồng Thưởng Quặng Quý Hiệp Hội**.
 8. **Cha Con Đài Thiên Văn: Giáo Sư Orion & Thủ Thư Clara (Chăm Sóc Cha Già Sa Sút Trí Nhớ):**
-   - *Giáo sư Orion:* Mắc chứng sa sút trí tuệ (Alzheimer), tuyệt vọng thức trắng đêm tìm vì sao mang tên người vợ quá cố Elise trước khi trí nhớ tan biến.
-   - *Clara:* Kiệt sức vì chăm cha già (Caregiver Burnout), xé nát thư trúng tuyển đại học danh giá kinh đô để ở lại Oakhaven phụng dưỡng cha.
-   - *Hàn gắn (8 Tim):* *Bánh Tart Việt Quất Tinh Cầu* và Trà Bá Tước Hoa Nhài; Thư viện mở khóa **Kho Lưu Trữ Công Thức Cổ Đại**.
-9. **Thuyền Trưởng Garrick & Cậu Bé Finn (Vùng Bến Cảng Ven Biển):** Lão hoa tiêu già mù màu mặc cảm "khúc gỗ mục mắc cạn" và đứa cháu trai ngày đêm câu cá sao gom tiền chuộc lại chiếc la bàn báu vật cho ông.
-10. **Lumi (Tinh Linh Cáo Tuyết Kemomimi-Elf):** Sinh linh lai bị cả người thú và tinh linh xa lánh; tìm thấy sự an toàn tuyệt đối bên tách *Trà Sen An Thần* và chiếc bánh bột gạo hấp của Rowan.
-11. **Aurelia (Dược Sĩ) & Marlo (Cảnh Vệ Ca Đêm):**
+   - *Giáo sư Orion (Tier 2 — 6 Tim):* Mắc chứng sa sút trí tuệ (Alzheimer), thức trắng đêm tìm vì sao mang tên người vợ quá cố Elise trước khi trí nhớ tan biến.
+   - *Clara (Tier 1 — 8 Tim):* Kiệt sức vì chăm cha già (Caregiver Burnout), xé nát thư trúng tuyển đại học danh giá kinh đô để ở lại Oakhaven phụng dưỡng cha.
+   - *Hàn gắn (6–8 Tim):* *Bánh Tart Việt Quất Tinh Cầu* và Trà Bá Tước Hoa Nhài; Thư viện mở khóa **Kho Lưu Trữ Công Thức Cổ Đại**.
+9. **Thuyền Trưởng Garrick & Cậu Bé Finn (Vùng Bến Cảng Ven Biển — Tier 3, 4 Tim):** Lão hoa tiêu già mù màu mặc cảm "khúc gỗ mục mắc cạn" và đứa cháu trai ngày đêm câu cá sao gom tiền chuộc lại chiếc la bàn báu vật cho ông.
+10. **Lumi (Tinh Linh Cáo Tuyết Kemomimi-Elf — Tier 1, 8 Tim):** Sinh linh lai bị cả người thú và tinh linh xa lánh; tìm thấy sự an toàn bên tách *Trà Sen An Thần* và chiếc bánh bột gạo hấp của Rowan.
+11. **Aurelia (Dược Sĩ — Tier 1, 8 Tim) & Marlo (Cảnh Vệ Ca Đêm — Tier 2, 6 Tim):**
    - *Aurelia:* Dược sĩ trạm xá, gánh nặng y đức trước cảnh bệnh nhân nghèo không đủ tiền mua thuốc giảm đau.
    - *Marlo:* Cảnh vệ ca đêm bảo vệ cổng làng Oakhaven, trung thực và kiệt sức vì thức trắng tuần tra xua đuổi dã thú; chắt chiu 90% lương gửi về quê nuôi đàn em.
-12. **Lão Silas & Con Lừa Già (Thương Nhân Du Mục - Khách Trọ The Hearth):** Lái buôn xe lừa bán hạt giống và gia vị hiếm phương xa; ký hợp đồng cung ứng hàng tuần ở 8 Tim.
-13. **Võ Sư Valerius (Võ Đường Đèo Núi Mặt Đất):** Cựu Đội trưởng Huấn luyện Vệ binh Hoàng gia bị lưu đày; mở võ đường trên đèo núi mặt đất dạy kỹ thuật Đỡ Đòn Phản Công (Parry) và thế thủ cận chiến; truyền dạy tuyệt kỹ phản đòn ở 8 Tim.
-14. **Hiệp Sĩ Hester (Khách Trọ Áp Mái The Hearth):** Cựu kỵ sĩ thuộc cấp của Valerius lưu lạc tha hương; tá túc tại phòng áp mái, làm thợ mài giáp/rèn dã chiến giúp sửa chữa độ bền trang bị và gia cố giáp thô (+DEF).
-15. **Valen de Montfort (Quý Tộc Lưu Vong Bệnh Máu Hiếm - Phòng Trọ Lầu 2 The Hearth):** Quý tộc lưu vong từ Solaria mắc chứng bệnh thiếu máu bẩm sinh và sợ ánh nắng mặt trời gay gắt; tá túc tại phòng kín The Hearth; cảm kích các món canh súp bổ máu và thuốc hãm thảo dược của Rowan; tặng bản thảo cổ và công thức chế tác trang sức gia truyền Solaria ở 8 Tim.
-16. **Cô Thợ Dệt Mae (Khách Trọ The Hearth):** Nghệ nhân dệt du mục và thợ mộc nội thất; cung cấp giường nệm ấm áp, đồ gỗ thô và nhận hoàn thiện sơn màu nội thất gia dụng trọn gói; tặng Khung Dệt Len Điền Trang tự động ở 8 Tim.
-17. **Lão Gomer (Khai Thác Đá & Kho Thuốc Nổ Cửa Hầm Mỏ - Mặt Đất):** Chuyên gia thuốc nổ người lùn điếc đặc; bán thuốc nổ mỏ đá và tặng Máy Khoan Hơi Nước cầm tay ở 8 Tim (thỉnh thoảng Rowan bắt gặp lão tại các tầng đá cứng hầm mỏ để bộc phá).
-18. **Thợ Lặn Vael (Trại Lặn Hồ Băng Chân Núi - Mặt Đất):** Thợ lặn khoáng thể và thợ săn thủy quái mỏ; trại lặn ở hồ băng chân núi lộ thiên (Mặt Đất); thỉnh thoảng khảo sát các hồ ngầm trong mỏ; tặng Bộ Đồ Lặn Hơi Nước ở 8 Tim.
-19. **Bà Rowena "Tro Than" (Chòi Than Rừng Sâu):** Cung cấp Than Rừng Già cháy x3 thời gian; mở khóa Lò Nung Than Tro Trấu cao cấp ở 8 Tim.
-20. **Lão Tad "Bẫy Lươn" (Ngư Dân Đầm Lầy Lau Sậy):** Tặng Đó Tre Bắt Cá Tự Động; tặng Cần Câu Trúc Ngàn Năm tăng 25% tốc độ câu ở 8 Tim.
-21. **Cậu Bé Milo (Quậy Phá & Trinh Sát Bìa Rừng):** Hái quả rụng và chỉ điểm bụi dâu rừng bí mật; lập Đội Thám Tử Nhí canh chừng thú hoang phá hoại mùa màng ở 8 Tim.
-22. **Bé Hạt Dẻ Cora (Nhặt Sỏi Cuội & Hái Dâu Bờ Suối Đợi Cha):** Bé gái mồ côi mẹ, ngày ngày nhặt sỏi đá cuội ven suối và hái dâu dại ngóng tin cha là người lính viễn chinh; tặng Rowan Vòng Đá Cuội May Mắn (+5% né đòn); ở 8 Tim nhận thư cha bình an xuất ngũ trở về.
-23. **Rosemary (Người Giữ Đền Cổ Oakhaven - Bìa Rừng Thầm Thì):** Người phụ nữ trầm mặc chăm sóc Bàn Thờ Cổ Đại; hướng dẫn Rowan nghi thức nấu các món đại tiệc thanh lọc khói độc miasma và tro tàn chiến tranh để giải phóng đất hoang.
+12. **Lão Silas & Con Lừa Già (Thương Nhân Du Mục - Khách Trọ The Hearth — Tier 3, 4 Tim):** Lái buôn xe lừa bán hạt giống và gia vị hiếm phương xa; ký hợp đồng cung ứng hàng tuần ở 4 Tim.
+13. **Võ Sư Valerius (Võ Đường Đèo Núi Mặt Đất — Tier 1, 8 Tim):** Cựu Đội trưởng Huấn luyện Vệ binh Hoàng gia bị lưu đày; mở võ đường trên đèo núi mặt đất dạy kỹ thuật Đỡ Đòn Phản Công (Parry) và thế thủ cận chiến; truyền dạy tuyệt kỹ phản đòn cùng Hester ở 8 Tim.
+14. **Hiệp Sĩ Hester (Khách Trọ Áp Mái The Hearth — Tier 1, 8 Tim):** Cựu kỵ sĩ thuộc cấp của Valerius lưu lạc tha hương; tá túc tại phòng áp mái, làm thợ mài giáp/rèn dã chiến giúp sửa chữa độ bền trang bị và gia cố giáp thô (+DEF).
+15. **Valen de Montfort (Quý Tộc Lưu Vong Bệnh Máu Hiếm - Phòng Trọ Lầu 2 The Hearth — Tier 1, 8 Tim):** Quý tộc lưu vong từ Solaria mắc chứng bệnh thiếu máu bẩm sinh và sợ ánh nắng mặt trời gay gắt; tá túc tại phòng kín The Hearth; cảm kích các món canh súp bổ máu và thuốc hãm thảo dược của Rowan; tặng bản thảo cổ và công thức chế tác trang sức gia truyền Solaria ở 8 Tim.
+16. **Cô Thợ Dệt Mae (Khách Trọ The Hearth — Tier 3, 4 Tim):** Nghệ nhân dệt du mục và thợ mộc nội thất; cung cấp giường nệm ấm áp, đồ gỗ thô và nhận hoàn thiện sơn màu nội thất gia dụng trọn gói; tặng Thoi Dệt Gỗ Mun ở 4 Tim.
+17. **Lão Gomer (Khai Thác Đá & Kho Thuốc Nổ Cửa Hầm Mỏ - Mặt Đất — Tier 3, 4 Tim):** Chuyên gia thuốc nổ người lùn điếc đặc; bán thuốc nổ mỏ đá và tặng Kíp Nổ Cải Tiến ở 4 Tim (thỉnh thoảng Rowan bắt gặp lão tại các phòng nghỉ/tầng đá cứng hầm mỏ để bộc phá).
+18. **Thợ Lặn Vael (Trại Lặn Hồ Băng Chân Núi - Mặt Đất — Tier 3, 4 Tim):** Thợ lặn khoáng thể và thợ săn thủy quái mỏ; trại lặn ở hồ băng chân núi lộ thiên (Mặt Đất); thỉnh thoảng khảo sát các hồ ngầm trong mỏ; tặng Ủng Da Cá Chống Trượt ở 4 Tim.
+19. **Bà Rowena "Tro Than" (Chòi Than Rừng Sâu — Tier 3, 4 Tim):** Cung cấp Than Rừng Già cháy x3 thời gian; tặng Quặng Than Củi Đượm ở 4 Tim.
+20. **Lão Tad "Bẫy Lươn" (Ngư Dân Đầm Lầy Lau Sậy — Tier 3, 4 Tim):** Tặng Đó Tre Bắt Lươn Tự Động ở 4 Tim giúp tự thu hoạch lươn ven đầm.
+21. **Cậu Bé Milo (Quậy Phá & Trinh Sát Bìa Rừng — Tier 3, 4 Tim):** Hái quả rụng và chỉ điểm bụi dâu rừng bí mật; tặng Ná Cao Su Gỗ Sồi giúp tự nhặt quả rụng quanh vườn ở 4 Tim.
+22. **Bé Hạt Dẻ Cora (Nhặt Sỏi Cuội & Hái Dâu Bờ Suối Đợi Cha — Tier 3, 4 Tim):** Bé gái mồ côi mẹ, ngày ngày nhặt sỏi đá cuội ven suối và hái dâu dại ngóng tin cha là người lính viễn chinh; ở 4 Tim cha bé xuất ngũ trở về bình an và bé tặng Rowan Vòng Đá Cuội Bảy Màu (+5% né đòn).
+23. **Rosemary (Người Giữ Đền Cổ Oakhaven - Bìa Rừng Thầm Thì — Tier 2, 6 Tim):** Người phụ nữ trầm mặc chăm sóc Bàn Thờ Cổ Đại; hướng dẫn Rowan nghi thức nấu các món đại tiệc thanh lọc khói độc miasma và tro tàn chiến tranh để giải phóng đất hoang; tặng Lư Hương Đồng Cổ ở 6 Tim.
 
-### 10.3. Cơ Chế Bữa Ăn Kết Nối Tối (The Nightly Hearthside Service)
-- Mỗi tối cư dân ghé Điền trang mang theo tâm trạng và khúc mắc đời thường.
-- Nếu Rowan phục vụ đúng món ăn "Ký ức & Đồng điệu" phù hợp tâm trạng của họ:
+### 10.3. Cơ Chế Bữa Ăn Kết Nối Tối (The Nightly Hearthside Service — Tự Nguyện)
+- Mỗi tối một số cư dân ghé sảnh The Hearth ngồi nghỉ ngơi mang theo tâm trạng và khúc mắc đời thường.
+- **Tương tác tự nguyện (Không ép buộc trực ca):** Rowan hoàn toàn tự do đi mỏ/nông trại; nhưng nếu buổi tối có mặt tại sảnh và chủ động mang đúng món ăn "Ký ức & Đồng điệu" hợp tâm trạng cho khách quen:
   - Điểm thân mật tăng gấp 3 lần.
-  - Kích hoạt các đoạn độc thoại mộc mạc, giải tỏa gánh nặng tâm lý.
-  - Sau sự kiện 8 Tim, nhân vật sẽ tặng Rowan công thức gia truyền hoặc mở khóa tiện ích dịch vụ vĩnh viễn cho thị trấn.
+  - Kích hoạt các đoạn độc thoại mộc mạc, giải tỏa gánh nặng đời thường.
+  - Khi đạt mốc Cảnh Diễn Khoảnh Khắc Vàng theo phân tầng (**8 Tim Tier 1 / 6 Tim Tier 2 / 4 Tim Tier 3**), nhân vật sẽ tặng Rowan **Ảnh Polaroid**, **Kỷ Vật Đời Người** hoặc mở khóa tiện ích dịch vụ vĩnh viễn cho thị trấn.
 
 ### 10.4. Kiến Trúc 51 Cảnh Diễn Khoảnh Khắc Vàng & Bộ Sưu Tập Ảnh Polaroid (51 Signature Milestone Scenes)
 Để giải quyết bài toán khả thi sản xuất (Asset Feasibility) và đảm bảo sự công bằng, trọn vẹn cho toàn bộ cư dân thung lũng, hệ thống tình cảm vận hành trên nguyên tắc:
-* **Giao diện đồng nhất 8 Tim (8 Hearts Cap):** Toàn bộ 51 nhân vật đều có thanh tiến trình 8 Tim trên UI Sổ Dân Làng để người chơi tự do kết bạn, tặng quà và đạt thành tựu toàn diện.
-* **Tạm gác cơ chế Kết Hôn (Romance Postponed):** Loại bỏ áp lực hẹn hò/kết hôn phức tạp, dồn 100% nguồn lực vào **Tình Thân Cộng Đồng, Sự Gắn Kết & Chữa Lành Hậu Chiến (Community Bonds & Healing)**.
-* **Mỗi nhân vật đều có ĐÚNG 1 CẢNH DIỄN KHOẢNH KHẮC VÀNG (1 Signature Milestone Scene):**
-  - Không có "NPC rác" hay NPC bị bỏ rơi; bất kỳ ai khi đạt tới mốc đỉnh cao của họ đều kích hoạt 1 hoạt cảnh In-Engine giàu cảm xúc.
+* **Giao diện đồng nhất 8 Tim (8 Hearts Cap):** Toàn bộ cư dân & thú cưng đều có thanh tiến trình tối đa 8 Tim trên UI Sổ Dân Làng để người chơi tự do kết bạn, tặng quà và đạt thành tựu toàn diện.
+* **Tạm gác cơ chế Kết Hôn (Romance Postponed):** Loại bỏ áp lực hẹn hò/kết hôn phức tạp, dồn 100% nguồn lực vào **Tình Thân Cộng Đồng & Gắn Kết Hậu Chiến (Community Bonds)**.
+* **51 Cảnh Diễn Khoảnh Khắc Vàng (1 Signature Milestone Scene / Mục):**
+  - Bao phủ trọn vẹn toàn bộ **50 cư dân & thú cưng trong Sổ Dân Làng** (`Boris & Bram` chung 1 cảnh anh em, `Hester & Valerius` chung 1 cảnh đồng đội = 48 cảnh) + **3 Thực thể Thế giới độc lập** (`Linh Quy`, `Goblin Grib`, `Lord Julian`; riêng `Đoàn Buôn Zephyr` gắn liền với Đêm Giao Thừa 28 Đông ở Mục 13) = **51 Cảnh Diễn & 51 Bức Ảnh Polaroid**.
   - Sau khi hoàn thành cảnh diễn, người chơi mở khóa **1 Bức Ảnh Kỷ Niệm Polaroid 16-bit** để treo lên **Bức Tường Kỷ Niệm (Memory Wall)** tại phòng áp mái The Hearth cùng **1 Kỷ Vật Đời Người (Passive Relic)**.
 * **3 Tầng Phân Bổ Mốc Xuất Hiện Cảnh Diễn (In-Engine Scenes):**
-  1. **Tầng 1 (Tier 1 - 14 NPC Nòng Cốt Cốt Truyện):** Cảnh diễn diễn ra ở **Mốc 8 Tim** (Thời lượng 45 – 60s, hóa giải bi kịch quá khứ sâu lắng nhất).
-  2. **Tầng 2 (Tier 2 - 16 NPC Trụ Cột Đời Sống & Dịch Vụ):** Cảnh diễn diễn ra ở **Mốc 6 Tim** (Thời lượng 30 – 40s, đồng lòng mở công trình/tiện ích lớn).
-  3. **Tầng 3 (Tier 3 - 21 NPC Khách Trọ, Dân Rìa Làng & Trẻ Em):** Cảnh diễn diễn ra ở **Mốc 4 Tim** (Thời lượng 20 – 30s, khoảnh khắc đời thường mộc mạc, một nụ cười ấm áp hay bát canh nóng).
+  1. **Tầng 1 (Tier 1 - 14 Cảnh Nòng Cốt Cốt Truyện):** Cảnh diễn diễn ra ở **Mốc 8 Tim** (Thời lượng 45 – 60s, hóa giải bi kịch quá khứ sâu lắng nhất).
+  2. **Tầng 2 (Tier 2 - 17 Cảnh Trụ Cột Đời Sống & Dịch Vụ, gồm cả Valerie):** Cảnh diễn diễn ra ở **Mốc 6 Tim** (Thời lượng 30 – 40s, đồng lòng mở công trình/tiện ích lớn).
+  3. **Tầng 3 (Tier 3 - 20 Cảnh Khách Trọ, Dân Rìa Làng, Trẻ Em & Thực Thể):** Cảnh diễn diễn ra ở **Mốc 4 Tim** (hoặc mốc tương tác đặc thù đối với 3 Thực thể; Thời lượng 20 – 30s, khoảnh khắc đời thường mộc mạc, một nụ cười ấm áp hay bát canh nóng).
 * *(Xem danh mục chi tiết 51 Cảnh Diễn và 51 Tấm Ảnh Polaroid tại `docs/ideas/brainstorm-expansion-notes.md`).*
 
 ### 10.5. 4 Thực Thể Thế Giới & Khách Niên Kỷ (World & Event Entities)
-Tách biệt khỏi 47 NPC thường trú, thế giới vận hành thêm 4 thực thể đặc thù cho các dịp lễ hội và khám phá hầm mỏ:
+Tách biệt khỏi các cư dân thường trú, thế giới vận hành thêm 4 thực thể đặc thù cho các dịp lễ hội và khám phá hầm mỏ:
 1. **👑 Bá Tước Thẩm Định Lord Julian (Royal Culinary Critic):** Xuất hiện tại **Đại Tiệc Hoàng Gia Vương Đô Solaria (Ngày 25 Mùa Thu — mở khóa khi thông Tuyến Đường Sắt)** làm giám khảo Cuộc Thi Vua Đầu Bếp; món đạt 3–5 sao trao Cúp Vàng (**+15% giá bán món ăn vĩnh viễn**) và Sắc phong Quán Ăn Hoàng Gia.
 2. **🐢 Linh Quy Rêu Phong Cụ Mỏ (Old Moss Tortoise):** Đầm nước ngầm Tầng 35 Hầm Mỏ; thả 3 củ quả thanh đạm đánh thức cụ rùa làm Trạm Dịch Chuyển Tức Thời Tầng 1–35 và nhả Mai Rùa Hóa Thạch (chế Khiên chống đẩy lùi).
 3. **🕯️ Yêu Tinh Chợ Đen Grib (Smuggler Goblin Grib):** Góc hầm sụp tối đen Tầng 65 Hầm Mỏ; sợ ánh sáng; đổi bánh mì nướng lấy Quặng Iridium, Chìa Khóa Rương Cổ và Hạt Giống Hư Không.
@@ -394,10 +394,10 @@ Tách biệt khỏi 47 NPC thường trú, thế giới vận hành thêm 4 th�
 
 ### 10.6. Cơ Chế Di Cư Nội Vùng Oakhaven (Strict Anti-Island Policy)
 Không sao chép cơ chế đảo xa tách biệt; 100% sự chuyển dịch nơi cư trú diễn ra trong thung lũng khi Quán Ăn The Hearth phát triển và tình cảm nhân vật thăng hoa:
-- **Kael (`npc_kael`):** Mốc 6 Tim & nhiệm vụ *"Mái Ấm Cho Hạt Mầm"*, dọn từ túp lều rách ven sông buốt giá về căn gác xép gỗ ấm áp cạnh Vườn Ươm của Bà Maeve; phụ trách Trạm Nhân Giống Cây Bốn Mùa.
-- **Valen (`npc_valen`):** Mốc 8 Tim & chữa khỏi bệnh thiếu máu, mua đứt phòng lầu 2 The Hearth, mở rộng Hầm Rượu Vang và bảo trợ tài chính lâu dài.
-- **Lumi (`npc_lumi`):** Mốc 6 Tim, vượt qua nỗi sợ dị chủng lai, dọn về căn nhà nhỏ đầu làng và phụ việc bên lò sưởi The Hearth mỗi tối.
-- **Hester & Valerius (`npc_hester`, `npc_valerius`):** Mốc 8 Tim qua Dự Án Tái Thiết của Trưởng Lão Oakwood, cùng mở Trạm Bảo An & Võ Đường ngay trung tâm thị trấn.
+- **Kael (`npc_kael`):** Mốc **4 Tim** (hoàn thành Cảnh Diễn Tier 3 & nhiệm vụ *"Mái Ấm Cho Hạt Mầm"*), dọn từ túp lều rách ven sông buốt giá về căn gác xép gỗ ấm áp cạnh Vườn Ươm của Bà Maeve; phụ trách Trạm Nhân Giống Cây Bốn Mùa.
+- **Valen (`npc_valen`):** Mốc **8 Tim** (Tier 1) & chữa khỏi bệnh thiếu máu, mua đứt phòng lầu 2 The Hearth, mở rộng Hầm Rượu Vang và bảo trợ tài chính lâu dài.
+- **Lumi (`npc_lumi`):** Mốc **8 Tim** (Tier 1), vượt qua nỗi sợ bị xa lánh, dọn về căn nhà nhỏ đầu làng và phụ việc bên lò sưởi The Hearth mỗi tối.
+- **Hester & Valerius (`npc_hester`, `npc_valerius`):** Mốc **8 Tim** (Tier 1) qua Dự Án Tái Thiết của Trưởng Lão Oakwood, cùng mở Trạm Bảo An & Võ Đường ngay trung tâm thị trấn.
 
 ---
 
@@ -418,7 +418,7 @@ Không sao chép cơ chế đảo xa tách biệt; 100% sự chuyển dịch nơ
    - *Sinh Tồn Ẩm Thực:* Vượt Đới Dung Nham (71-110) không dùng thuốc hồi máu, chỉ sống sót nhờ buff đồ ăn.
    - *Chạy Đua Sương Độc:* Vét sạch quặng trên một tầng mỏ hiểm trở và thoát hiểm trước khi thanh miasma đạt 100%.
 4. **Đồng Xanh & Mùa Màng (Farming & Husbandry - 6 Thành tựu):** Thu hoạch trọn vẹn 41 loài cây canh tác 4 mùa (27 hoa màu + 14 thân gỗ), tự động hóa vòi phun và nhân giống, gia súc 5 sao, câu đủ 15 loài cá, củ khổng lồ 3x3, giữ thể lực trên 10% từ 06:00 đến 23:00.
-5. **Tri Kỷ & Hàn Gắn (Heart Bonds - 6 Thành tựu):** 2 Tim với toàn bộ 51 nhân vật, hóa giải Boris & Bram, hóa giải Kael & Maeve, tha thứ Hester & Valerius, 8 Tim với 30 cư dân, Lời Thề Bếp Lửa 10 Tim kết duyên.
+5. **Tri Kỷ & Hàn Gắn (Heart Bonds - 6 Thành tựu):** 2 Tim với toàn bộ cư dân, hóa giải Boris & Bram, hóa giải Kael & Maeve, tha thứ Hester & Valerius, 8 Tim với 30 cư dân, Trọn Vẹn Ký Ức (hoàn thành đủ 51 Cảnh Diễn Khoảnh Khắc Vàng & Tường Ảnh Polaroid).
 6. **Tái Thiết & Cầu Siêu (Restoration & Altars - 5 Thành tựu):** Hoàn thành 12 công trình Town Board, Đại Tiệc Cầu Siêu thanh tẩy Bàn Thờ Cổ Đại giải phóng đất hoang, thông thương 4 tuyến liên vùng, hoàn thiện Viện Bảo Tàng 30 cổ vật của Iris, khách quen 4 tuần Chợ Đêm Thứ Bảy.
 7. **Dị Biệt & Hài Hước (Quirky & Secrets - 14 Thành tựu Ẩn):** Nồi trứng phát hỏa cùng Colm, Milo kẹt đũng quần trên hàng rào, ủng dính bùn chọc giận Barnaby, đẩy lừa Silas bất động 3 phút, ngất xỉu rớt sạch đồ ở đúng Tầng 149 cửa trùm, say rượu đầm lầy của Lão Tad, mèo Mallow ngủ phớt lờ 20 lần vuốt, ù tai cạnh bom mỏ Gomer, ăn nấm phát quang bị ảo giác tím, ăn vụng nửa đêm bị mèo và cú nhìn chằm chằm, trượt vỏ băng hồ Vael ngã dập mông 5 lần, chặt cây thông đè bẹp hàng rào bà Maeve, đòi nợ khách quịt chỉ được củ cải khô, bị đàn cừu Tilly vây kín 30 giây.
 
@@ -530,7 +530,7 @@ Không giới hạn cứng 4 lễ hội/năm. Hệ thống lễ hội mở rộn
 4. **Mùa Đông (Ngày 28 — Chủ Nhật, Giao Thừa) — Đêm Lửa Trại & Nồi Lẩu Cuối Năm *(Đại Sảnh The Hearth)*:**
    - *Không khí:* Tuyết rơi dày, cả làng quây quần bên bếp sưởi The Hearth tránh rét, mỗi nhà góp một ít nguyên liệu vào nồi lẩu chung *(ghi đè Chợ Chủ Nhật Garrick; Đoàn Buôn Khí Cầu mở 16:00–22:00 tại Tháp Thiên Văn)*.
    - *Hoạt động:*
-     1. **Nồi Lẩu Bách Vị (3 Ô Nguyên Liệu):** Đóng góp đủ 3 nhóm (Ô 1 Tinh bột + Ô 2 Protein + Ô 3 Thảo mộc/Men ủ). Năm 1 nhận **Sổ Tay Công Thức Bà Amalia Tập 2** (nếu bỏ lỡ, sáng hôm sau Clara gửi qua hòm thư với phí chuộc 300g); Năm 2+ nhận **Gia Vị Hoàng Kim & Tem thưởng**. Điểm thân mật cộng nền +20 đến +80 cả làng, và **+50 điểm riêng cho NPC có món ưa thích trùng nguyên liệu trong nồi**.
+     1. **Nồi Lẩu Bách Vị (3 Ô Nguyên Liệu):** Đóng góp đủ 3 nhóm (Ô 1 Tinh bột + Ô 2 Protein từ nông trại/hồ cá: Thịt gia cầm/chăn nuôi, Cá hồ băng, Nấm thịt + Ô 3 Thảo mộc/Men ủ). Năm 1 nhận **Sổ Tay Công Thức Bà Amalia Tập 2** (nếu bỏ lỡ, sáng hôm sau Clara gửi qua hòm thư với phí chuộc 300g); Năm 2+ nhận **Gia Vị Hoàng Kim & Tem thưởng**. Điểm thân mật cộng nền +20 đến +80 cả làng, và **+50 điểm riêng cho NPC có món ưa thích trùng nguyên liệu trong nồi**.
      2. **Tâm Sự Bên Lò Sưởi (23:00):** Cụng ly rượu táo nóng, chốt sổ năm cũ (+40 Tem).
 
 ### 13.3. Tầng 2: 4 Lễ Hội Mở Khóa Theo Vùng Đất (Unlockable Regional Festivals)

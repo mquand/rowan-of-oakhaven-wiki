@@ -142,7 +142,7 @@ Bấm phím `J` hoặc `Tab` để mở **Sổ Tay Điền Trang (Farmstead Ledg
    - *Hầm Mỏ & Chiến Đấu (6):* Chinh phục 4 Trùm Giám Ngục, khai mỏ quy mô lớn.
    - *Thử Thách Kỹ Năng - Độ Hard Vừa (6):* 15 lần Master Parry hoàn hảo, vượt 30 tầng hầm mỏ với 2 hộp cơm, tầng 180 Vực Thẳm Vô Tận, hạ trùm HP > 90%, vượt đới dung nham không dùng bình máu.
    - *Đồng Xanh & Mùa Màng (6):* 32 loại cây trồng, cơ khí hóa vòi phun, gia súc 5 sao, 15 loài cá.
-   - *Tri Kỷ & Hàn Gắn (6):* Mốc 2 Tim toàn bộ 51 NPC, hóa giải mâu thuẫn gia đình và cựu binh, kết duyên 10 Tim.
+   - *Tri Kỷ & Hàn Gắn (6):* Mốc 2 Tim toàn bộ cư dân, hóa giải mâu thuẫn gia đình và cựu binh, hoàn thành đủ 51 Cảnh Diễn & Tường Ảnh Polaroid.
    - *Tái Thiết & Cầu Siêu (5):* 12 công trình Town Board, Đại Tiệc Cầu Siêu Bàn Thờ Cổ Đại, khai thông 5 đại vực.
    - *Dị Biệt & Hài Hước (14 thành tựu ẩn):* Nồi trứng phát hỏa cùng Colm, Milo mắc kẹt hàng rào dâu tây, Barnaby cằn nhằn vì ủng bùn, đẩy lừa Silas 3 phút không nhúc nhích, ngất xỉu rớt sạch đồ ở Tầng 149 sát phòng trùm, say rượu đầm lầy của Lão Tad, Mallow ngủ phớt lờ vuốt ve, ù tai cạnh bom mỏ Gomer, ăn nấm phát quang bị ảo giác tím...
 3. **Tính Năng Tương Tác Trong Game:**
