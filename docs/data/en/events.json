@@ -1,87 +1,172 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "version": "1.0.0",
-  "updated": "2026-11-18",
+  "version": "2.0.0",
+  "updated": "2026-11-25",
   "seasonal_festivals": [
     {
-      "id": "fest_spring_cleansing",
-      "name": "Spring Cleansing & The Sacred Grove",
+      "id": "fest_spring_memorial",
+      "tier": 1,
+      "unlock_condition": "available_year_1",
+      "name": "Spring Memorial & Canal Clearing Day",
       "season": "spring",
       "day": 15,
-      "time": "09:00 - 22:00",
-      "location": "Ancient Memorial Altar & Sacred Grove",
-      "summary": "Early spring ritual honoring post-war fallen comrades, purifying lingering miasma, and liberating blighted soil.",
+      "time": "10:00 - 22:00",
+      "location": "Whispering Woods Edge & Ancient Altar",
+      "summary": "Honoring post-war fallen comrades while clearing winter boulders from the spring irrigation channels.",
       "activities": [
-        "Cook 5 feast offerings at the Ancient Memorial Altar to cleanse toxic haze",
-        "Brew First-Harvest Lotus Tea for town elders",
-        "Light memorial candles for fallen Guild vanguards"
+        "Help Boris & Colm break 5 canal boulders (Year 1 restores water; Year 2+ speed stone-breaking contest)",
+        "Offer a 3-dish humble feast at the Ancient Altar",
+        "Run or staff the Pop-up Street Food Stall"
       ],
       "rewards": [
-        "Permanently unlocks the Sacred Elder Herb Grove",
-        "+100 friendship points with all town residents",
-        "Title: 'Keeper of Cleansing Flames'"
+        "Permanently restores freshwater irrigation (Year 1)",
+        "+40 to +90 Fair Tokens & Rare spring seeds"
       ],
-      "special_food": "canh_thao_moc_bup_sen"
+      "special_food": "canh_cu_sen_tuyet"
     },
     {
-      "id": "fest_summer_gala",
-      "name": "Adventurer Games & Firefly Night",
+      "id": "fest_summer_fireworks",
+      "tier": 1,
+      "unlock_condition": "available_year_1",
+      "name": "Lakeside Fireworks & Summer Night Market",
       "season": "summer",
       "day": 18,
       "time": "10:00 - 23:00",
-      "location": "Oakhaven Town Square & Lake Pier",
-      "summary": "Honoring frontier knights and miners, capped by a tranquil evening boat ride floating lanterns beneath starry fireflies.",
+      "location": "Oakhaven Lake Pier & Observatory Hill",
+      "summary": "A radiant Hanabi celebration where Miner Gomer and Astronomer Orion craft fireworks from mine crystal powder.",
       "activities": [
-        "Friendly sparring exhibition match with Guildmaster Thorne",
-        "Speed-cooking tactical field rations with combat buffs",
-        "Float firefly lanterns on the midnight lake with your closest confidant"
+        "Browse night market stalls: charcoal skewers, goldfish/firefly scooping, fortune slips",
+        "Give Gomer rare ores to customize firework colors and patterns",
+        "20:00 watch fireworks reflect across the lake with a close NPC"
       ],
       "rewards": [
-        "Honorary Vanguard Badge (15% discount on weapon repair at Boris's Forge)",
-        "+200 friendship points with companion",
-        "Exclusive Recipe: Hellfire Roast"
+        "Collect washed-up Firework Shards / Stardust along the shore next morning",
+        "+80 friendship points with your fireworks companion"
       ],
-      "special_food": "dui_rung_hun_khoi_da_chien"
+      "special_food": "xien_nuong_than_hoa"
     },
     {
-      "id": "fest_autumn_harvest",
-      "name": "Autumn Harvest Feast & Lantern Gala",
+      "id": "fest_autumn_masquerade",
+      "tier": 1,
+      "unlock_condition": "available_year_1",
+      "name": "Harvest Masquerade & Pumpkin Lantern Night",
       "season": "autumn",
       "day": 20,
       "time": "12:00 - 24:00",
-      "location": "Town Square & Hearth Eatery",
-      "summary": "The largest annual festival celebrating abundant golden wheat harvests and mid-autumn candlelit paper lanterns.",
+      "location": "Oakhaven Town Square & The Hearth Courtyard",
+      "summary": "A Dark Cozy Harvest Masquerade lit by warm pumpkin lanterns, playful masks, and a mysterious shadow market.",
       "activities": [
-        "Autumn Master Chef Contest (Judges Boris, Maeve, Clara rate 3 pastries)",
-        "Hang paper lanterns and lotus candles across town avenues",
-        "Serve free pastry banquets at the Hearth Eatery tavern counter"
+        "Hand out pumpkin pies, candies, and cookies to costumed village kids (Trick-or-Treat)",
+        "Buy Playful Masks, 24h Transformation Potions, and Mystery Bags from Morrigan's stall",
+        "Hunt 5–7 hidden pumpkin lanterns around town"
       ],
       "rewards": [
-        "Golden Harvest Trophy (permanently increases dish selling prices by 15%)",
-        "Unlocks 'Harvest Moon Chef' festive outfit",
-        "Traditional Heritage Recipe: Mid-Autumn Blossom Mooncake"
+        "Major friendship boost with village kids & lucky charms",
+        "24h playful transformation effects & pumpkin decor"
       ],
-      "special_food": "banh_deo_trang_ram_hoa_buoi"
+      "special_food": "banh_bi_ngo_nuong"
     },
     {
-      "id": "fest_winter_vigil",
-      "name": "New Year Hearthfire Vigil",
+      "id": "fest_winter_hotpot",
+      "tier": 1,
+      "unlock_condition": "available_year_1",
+      "name": "Solstice Bonfire & Communal Hotpot Night",
       "season": "winter",
       "day": 28,
-      "time": "18:00 - 02:00",
-      "location": "The Hearth Eatery & Tavern",
-      "summary": "On the coldest New Year's Eve, the entire township gathers around Rowan's crackling hearthfire to share life stories and welcome spring.",
+      "time": "16:00 - 02:00",
+      "location": "The Hearth Main Hall",
+      "summary": "On the coldest night of the year, the valley gathers around The Hearth's fire to contribute ingredients to one giant hotpot.",
       "activities": [
-        "Cook a communal grand hotpot feast for the entire village",
-        "Listen to intimate New Year Eve reflections from healed residents",
-        "Pip's New Year lucky seed lottery raffle"
+        "Contribute 3 ingredient slots (Starch + Protein + Herb/Ferment) to the Communal Pot",
+        "23:00 share warm apple cider around the hearthfire to close the year"
       ],
       "rewards": [
-        "Unlocks Grandmother Amalia's Secret Tome Volume 2",
-        "+20% growth rate for all winter greenhouse crops in the following year",
-        "+150 deep-bond points with all attendees"
+        "Grandma Amalia's Recipe Book Vol. 2 (Year 1) or Golden Spices (Year 2+)",
+        "+20 to +80 town-wide friendship (+50 bonus for matching NPC favorites)"
       ],
       "special_food": "lau_thap_cam_bach_vi"
+    },
+    {
+      "id": "fest_terrace_skiff",
+      "tier": 2,
+      "unlock_condition": "unlock_region_2_canal",
+      "name": "Paddy Planting & Skiff Race",
+      "season": "summer",
+      "day": 8,
+      "time": "10:00 - 20:00",
+      "location": "Rice Terraces & Skiff Dock",
+      "summary": "Unlocked upon completing the Irrigation Canal. Celebrates fresh water returning with paddy fishing and skiff races.",
+      "activities": [
+        "Compete in paddy fish catching and skiff rowing for snow lotuses",
+        "Grill fresh catch together along the terrace banks"
+      ],
+      "rewards": [
+        "High-grade paddy rice & snow lotus seeds",
+        "Fair Tokens & Skiff Race Trophy"
+      ],
+      "special_food": "ca_dong_nuong_ong_tre"
+    },
+    {
+      "id": "fest_arcane_eclipse",
+      "tier": 2,
+      "unlock_condition": "unlock_region_3_forest",
+      "name": "Eclipse Night & Arcane Alchemy Market",
+      "season": "autumn",
+      "day": 12,
+      "time": "18:00 - 24:00",
+      "location": "Eternal Herb Forest",
+      "summary": "Unlocked upon purifying the Herb Forest. A magical night market featuring mine buff potions, Tarot readings, and Sky Lanterns.",
+      "activities": [
+        "Purchase unusual mine buff potions and trade monster drops for hidden recipes",
+        "Draw Tarot cards to predict seasonal drop luck",
+        "Release Sky Lanterns beneath the glowing canopy"
+      ],
+      "rewards": [
+        "Alchemy Elixirs & Hidden Recipes",
+        "Seasonal Luck Buff"
+      ],
+      "special_food": "tra_thao_moc_phat_quang"
+    },
+    {
+      "id": "fest_wolf_tooth_mist",
+      "tier": 2,
+      "unlock_condition": "unlock_region_4_cableway",
+      "name": "Mist Market & Hot Springs",
+      "season": "winter",
+      "day": 14,
+      "time": "10:00 - 21:00",
+      "location": "Wolf-Tooth Peak & Hot Springs",
+      "summary": "Unlocked upon repairing the Cableway. Trade rare ores with highland miners and soak in steaming mountain springs.",
+      "activities": [
+        "Trade rare ores and spiced ginger wine with highland miners and border scouts",
+        "Soak in the mountain Hot Springs"
+      ],
+      "rewards": [
+        "Lasting Stamina & Cold-Resistance Buffs",
+        "Rare Ores & Fair Tokens"
+      ],
+      "special_food": "ruou_gung_ham_nong"
+    },
+    {
+      "id": "fest_solaria_royal_fair",
+      "tier": 2,
+      "unlock_condition": "unlock_region_5_railway",
+      "name": "Royal Banquet & Capital Arena",
+      "season": "autumn",
+      "day": 25,
+      "time": "09:00 - 23:00",
+      "location": "Solaria Gate Square",
+      "summary": "Unlocked upon restoring the Railway. Ride the train to Solaria Capital for the Royal Master Chef Contest and Monster Trial Arena.",
+      "activities": [
+        "Compete in the Royal Master Chef Contest judged by Lord Julian",
+        "Battle 3 waves of Mine Monsters / Clockwork Knights in the Guild Trial Arena",
+        "Shop royal spices, rare seeds, and luxury decor at the gate market"
+      ],
+      "rewards": [
+        "Royal Golden Trophy (permanent +15% dish selling price)",
+        "Arena Champion Trophy, Rare Weapons or Soul Gems"
+      ],
+      "special_food": "mon_an_hoang_gia_5_sao"
     }
   ],
   "recurring_events": [
@@ -92,7 +177,7 @@
       "day_of_week": "sunday",
       "time": "07:00 - 17:00",
       "location": "Oakhaven Lakeshore Wharf",
-      "summary": "Captain Garrick's wooden schooner docks weekly, laden with exotic ocean fish, foreign spices, and vintage Lo-fi vinyl records."
+      "summary": "Captain Garrick's wooden schooner docks weekly with deep-sea fish, foreign spices, Lo-fi vinyls, and past festival items from Year 2."
     },
     {
       "id": "rec_wednesday_hearth",
@@ -101,7 +186,7 @@
       "day_of_week": "wednesday",
       "time": "All Day",
       "location": "Throughout Town",
-      "summary": "Boris cools forge fires for scheduled maintenance, Clara's library opens free archives, and Maeve offers 10% off seeds."
+      "summary": "Boris cools forge fires for maintenance, Clara's library opens free archives, and Maeve offers 10% off seeds."
     }
   ]
 }

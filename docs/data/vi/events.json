@@ -1,87 +1,172 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "version": "1.0.0",
-  "updated": "2026-11-18",
+  "version": "2.0.0",
+  "updated": "2026-11-25",
   "seasonal_festivals": [
     {
-      "id": "fest_spring_cleansing",
-      "name": "Đại Lễ Tẩy Trần & Cây Thần Ngàn Năm",
+      "id": "fest_spring_memorial",
+      "tier": 1,
+      "unlock_condition": "available_year_1",
+      "name": "Lễ Tảo Mộ & Khơi Mương Đầu Năm",
       "season": "spring",
       "day": 15,
-      "time": "09:00 - 22:00",
-      "location": "Bàn Thờ Cổ Tưởng Niệm & Khu Rừng Thần",
-      "summary": "Lễ hội tâm linh đầu xuân nhằm tưởng niệm các nạn nhân chiến tranh, xua tan chướng khí tàn dư và giải phóng đất hoang hóa.",
+      "time": "10:00 - 22:00",
+      "location": "Bìa Rừng Thầm Thì & Bàn Thờ Cổ Đại",
+      "summary": "Tưởng niệm người ngã xuống sau chiến tranh, dọn cỏ khơi mương đón nước xuân cho ruộng đồng.",
       "activities": [
-        "Nấu 5 món đại tiệc dâng Bàn Thờ Cổ Tưởng Niệm giải trừ khí độc",
-        "Pha ấm Trà Sen Đầu Mùa mời hội bô lão Oakhaven",
-        "Thắp nến tưởng nhớ các đồng đội đã khuất của Hiệp Hội Mạo Hiểm"
+        "Phụ Boris & Colm đập 5 tảng đá nghẽn mương (Năm 1 mở dòng nước ngọt; Năm 2+ thi đập đá nhanh)",
+        "Dâng mâm cỗ 3 món thanh đạm lên Bàn Thờ Cổ",
+        "Đứng bán hoặc thuê trẻ nhỏ trông Sạp Ẩm Thực Lưu Động"
       ],
       "rewards": [
-        "Mở khóa vĩnh viễn Khu Rừng Thần Thảo Mộc (cây giống quý & đàn ong mật sao)",
-        "+100 điểm thiện cảm với toàn bộ cư dân thị trấn",
-        "Danh hiệu 'Người Thắp Lửa Tẩy Trần'"
+        "Mở vĩnh viễn dòng nước ngọt tưới tiêu (Năm 1)",
+        "+40 đến +90 Tem Phiếu Hội Chợ & Hạt giống xuân hiếm"
       ],
-      "special_food": "canh_thao_moc_bup_sen"
+      "special_food": "canh_cu_sen_tuyet"
     },
     {
-      "id": "fest_summer_gala",
-      "name": "Hội Thao Mạo Hiểm & Đêm Bắt Đom Đóm",
+      "id": "fest_summer_fireworks",
+      "tier": 1,
+      "unlock_condition": "available_year_1",
+      "name": "Đêm Pháo Hoa Bờ Hồ & Chợ Đêm Mùa Hạ",
       "season": "summer",
       "day": 18,
       "time": "10:00 - 23:00",
-      "location": "Quảng Trường Oakhaven & Bến Hồ Đom Đóm",
-      "summary": "Ngày hội tôn vinh tinh thần quả cảm của những thợ mỏ và hiệp sĩ biên viễn, kết thúc bằng đêm du thuyền thả đèn đom đóm.",
+      "location": "Bến Hồ Oakhaven & Tháp Thiên Văn",
+      "summary": "Lễ hội Hanabi rực rỡ do Lão Gomer và Orion chế pháo hoa từ bột khoáng thạch hầm mỏ.",
       "activities": [
-        "Hội thi đấu trường giao hữu cùng Hội Trưởng Thorne",
-        "Thử thách nấu cơm hộp dã chiến cấp buff chiến đấu trong thời gian giới hạn",
-        "Chèo thuyền đêm ra giữa lòng hồ thả đèn đom đóm cùng NPC tri kỷ"
+        "Dạo chợ đêm: đồ nướng xiên que, vớt cá vàng/đom đóm, rút quẻ đầu mùa",
+        "Đưa quặng hiếm cho Gomer để tùy chỉnh màu sắc và hình dạng pháo hoa",
+        "20:00 ngồi cầu gỗ cùng NPC thân thiết ngắm pháo hoa phản chiếu mặt hồ"
       ],
       "rewards": [
-        "Huy Hiệu Mạo Hiểm Giả Danh Dự (giảm 15% phí sửa chữa vũ khí tại Lò Rèn Boris)",
-        "+200 điểm tình cảm với NPC đồng hành thả đèn",
-        "Công thức món ăn độc quyền: Thịt Nướng Lửa Địa Ngục"
+        "Nhặt Mảnh Pháo Hoa / Bụi Sao quanh bờ hồ vào sáng hôm sau",
+        "+80 điểm thân mật với NPC cùng ngắm pháo hoa"
       ],
-      "special_food": "dui_rung_hun_khoi_da_chien"
+      "special_food": "xien_nuong_than_hoa"
     },
     {
-      "id": "fest_autumn_harvest",
-      "name": "Lễ Hội Ẩm Thực Mùa Gặt & Đêm Hội Lồng Đèn",
+      "id": "fest_autumn_masquerade",
+      "tier": 1,
+      "unlock_condition": "available_year_1",
+      "name": "Đêm Hội Mặt Nạ & Đèn Bí Ngô",
       "season": "autumn",
       "day": 20,
       "time": "12:00 - 24:00",
-      "location": "Quảng Trường Thị Trấn & Quán Ăn Oakhaven",
-      "summary": "Đại lễ lớn nhất trong năm để tạ ơn vụ mùa lúa mì vàng óng và nông sản bội thu, kết hợp rước đèn lồng hoa sen Trung Thu.",
+      "location": "Quảng Trường Oakhaven & Sân The Hearth",
+      "summary": "Đêm Harvest Masquerade đậm chất Dark Cozy với đèn bí ngô cam ấm, mặt nạ hóa trang và chợ đêm kỳ bí.",
       "activities": [
-        "Cuộc thi Vua Đầu Bếp Mùa Thu (Ban giám khảo Boris, Maeve, Clara nếm 3 món bánh dự thi)",
-        "Treo đèn lồng giấy kiếng và thắp nến hoa sen dọc khắp dãy phố thị trấn",
-        "Phục vụ đại tiệc bánh nướng miễn phí tại quầy Quán Ăn Oakhaven"
+        "Phát bánh bí ngô, kẹo và bánh quy cho đám trẻ hóa trang (Trick-or-Treat)",
+        "Mua Mặt Nạ Vui, Thuốc Biến Hình 24h và Hộp Quà Bí Ẩn tại sạp Morrigan",
+        "Tìm 5–7 đèn bí ngô giấu quanh làng"
       ],
       "rewards": [
-        "Cúp Vàng Đầu Bếp Mùa Thu (tăng vĩnh viễn 15% giá bán mọi món ăn tại Quán)",
-        "Mở khóa Bộ Trang Phục 'Đầu Bếp Trăng Rằm'",
-        "Công thức bánh cổ truyền: Bánh Dẻo Trăng Rằm Hoa Bưởi"
+        "Tăng tim cực nhanh với trẻ nhỏ & nhận bùa may mắn",
+        "Hiệu ứng biến hình vui 24h & vật phẩm trang trí bí ngô"
       ],
-      "special_food": "banh_deo_trang_ram_hoa_buoi"
+      "special_food": "banh_bi_ngo_nuong"
     },
     {
-      "id": "fest_winter_vigil",
-      "name": "Đêm Bếp Lửa Đón Năm Mới",
+      "id": "fest_winter_hotpot",
+      "tier": 1,
+      "unlock_condition": "available_year_1",
+      "name": "Đêm Lửa Trại & Nồi Lẩu Cuối Năm",
       "season": "winter",
       "day": 28,
-      "time": "18:00 - 02:00",
-      "location": "Quán Ăn & Nhà Trọ Oakhaven",
-      "summary": "Đêm giao thừa giá rét, toàn thị trấn tụ họp bên lò sưởi ấm của Quán Ăn Rowan để sẻ chia chuyện đời và đón mừng mùa xuân mới.",
+      "time": "16:00 - 02:00",
+      "location": "Đại Sảnh Quán The Hearth",
+      "summary": "Đêm đông giá rét, cả thung lũng quây quần bên bếp sưởi The Hearth góp nguyên liệu vào nồi lẩu chung.",
       "activities": [
-        "Nấu nồi lẩu nóng khổng lồ 'Bách Vị Đại Ngàn' chiêu đãi cả làng",
-        "Lắng nghe tâm sự giao thừa của từng cư dân sau một năm hàn gắn vết thương",
-        "Cùng chú cú Pip bốc thăm phong bao hạt giống may mắn đầu năm"
+        "Đóng góp đủ 3 ô nguyên liệu (Tinh bột + Protein + Thảo mộc/Men ủ) vào Nồi Lẩu Bách Vị",
+        "23:00 nâng ly rượu táo nóng tâm sự bên lò sưởi đón năm mới"
       ],
       "rewards": [
-        "Mở khóa Sách Công Thức Bí Truyền Phần 2 của Bà Ngoại Amalia",
-        "Tăng 20% tốc độ sinh trưởng của toàn bộ cây trồng trong nhà kính mùa sau",
-        "+150 điểm gắn kết tri kỷ với tất cả cư dân tham dự"
+        "Sổ Tay Công Thức Bà Amalia Tập 2 (Năm 1) hoặc Gia Vị Hoàng Kim (Năm 2+)",
+        "+20 đến +80 điểm thân mật toàn làng (+50 riêng cho NPC trùng khẩu vị)"
       ],
       "special_food": "lau_thap_cam_bach_vi"
+    },
+    {
+      "id": "fest_terrace_skiff",
+      "tier": 2,
+      "unlock_condition": "unlock_region_2_canal",
+      "name": "Hội Xuống Đồng & Đua Thuyền Nan",
+      "season": "summer",
+      "day": 8,
+      "time": "10:00 - 20:00",
+      "location": "Ruộng Bậc Thang & Bến Thuyền Nan",
+      "summary": "Mở khóa khi thông Kênh Thủy Lợi. Kỷ niệm nước ngọt về đồng với hội bắt cá đồng và đua thuyền nan.",
+      "activities": [
+        "Thi bắt cá đồng và chèo thuyền nan hái sen tuyết",
+        "Nướng cá tươi tập thể tại bờ ruộng"
+      ],
+      "rewards": [
+        "Hạt giống lúa nước & sen tuyết chất lượng cao",
+        "Tem Phiếu Hội Chợ & Cúp Đua Thuyền"
+      ],
+      "special_food": "ca_dong_nuong_ong_tre"
+    },
+    {
+      "id": "fest_arcane_eclipse",
+      "tier": 2,
+      "unlock_condition": "unlock_region_3_forest",
+      "name": "Đêm Nguyệt Thực & Chợ Giả Kim Rừng Sâu",
+      "season": "autumn",
+      "day": 12,
+      "time": "18:00 - 24:00",
+      "location": "Khu Rừng Thần Thảo Mộc Vĩnh Cửu",
+      "summary": "Mở khóa khi tẩy trần Rừng Thảo Mộc. Phiên chợ đêm phép thuật với thuốc buff đi mỏ, xem bói Tarot và thả đèn trời.",
+      "activities": [
+        "Mua thuốc buff dị biệt, đổi nguyên liệu quái lấy công thức bí ẩn",
+        "Xem bói bài Tarot dự đoán vận may rơi đồ cả mùa",
+        "Thả Đèn Trời (Sky Lanterns) dưới tán rừng phát sáng"
+      ],
+      "rewards": [
+        "Thuốc Giả Kim & Công thức bí ẩn",
+        "Buff Vận May mùa mới"
+      ],
+      "special_food": "tra_thao_moc_phat_quang"
+    },
+    {
+      "id": "fest_wolf_tooth_mist",
+      "tier": 2,
+      "unlock_condition": "unlock_region_4_cableway",
+      "name": "Chợ Sương Mù & Suối Nước Nóng",
+      "season": "winter",
+      "day": 14,
+      "time": "10:00 - 21:00",
+      "location": "Đỉnh Núi Răng Sói & Suối Nước Nóng",
+      "summary": "Mở khóa khi sửa xong Tuyến Cáp Treo. Trao đổi quặng hiếm với thợ mỏ vùng cao và ngâm suối nước nóng.",
+      "activities": [
+        "Trao đổi quặng hiếm, rượu gừng cay cùng thợ mỏ & lính gác đèo",
+        "Ngâm mình tại Suối Nước Nóng đỉnh núi"
+      ],
+      "rewards": [
+        "Buff Stamina & Kháng lạnh dài hạn",
+        "Quặng hiếm & Tem Phiếu"
+      ],
+      "special_food": "ruou_gung_ham_nong"
+    },
+    {
+      "id": "fest_solaria_royal_fair",
+      "tier": 2,
+      "unlock_condition": "unlock_region_5_railway",
+      "name": "Đại Tiệc Hoàng Gia & Lôi Đài Vương Đô",
+      "season": "autumn",
+      "day": 25,
+      "time": "09:00 - 23:00",
+      "location": "Quảng Trường Cổng Thành Solaria",
+      "summary": "Mở khóa khi thông Tuyến Đường Sắt. Bắt tàu lên Vương Đô dự thi Vua Đầu Bếp và Lôi Đài Quái Vật.",
+      "activities": [
+        "Thi Vua Đầu Bếp Hoàng Gia do Bá tước Lord Julian chấm điểm",
+        "Tham gia Lôi Đài Quái Vật 3 đợt cùng trọng tài Hester & Valerius",
+        "Mua đặc sản, gia vị hoàng gia và giống cây quý tại chợ cổng thành"
+      ],
+      "rewards": [
+        "Cúp Vàng Hoàng Gia (+15% giá bán món ăn vĩnh viễn)",
+        "Cúp Vô Địch Lôi Đài, Vũ khí hoặc Đá Khảm hiếm"
+      ],
+      "special_food": "mon_an_hoang_gia_5_sao"
     }
   ],
   "recurring_events": [
@@ -92,7 +177,7 @@
       "day_of_week": "sunday",
       "time": "07:00 - 17:00",
       "location": "Bến Cảng Bờ Hồ Oakhaven",
-      "summary": "Chiếc thuyền gỗ viễn chinh của Thuyền Trưởng Garrick cập bến hàng tuần, đem theo nông sản biển lạ, gia vị ngoại quốc và đĩa than Lo-fi hiếm."
+      "summary": "Chiếc thuyền gỗ của Thuyền Trưởng Garrick cập bến hàng tuần, bán hải sản biển sâu, gia vị ngoại quốc, đĩa than Lo-fi và đồ lễ hội cũ từ Năm 2."
     },
     {
       "id": "rec_wednesday_hearth",
