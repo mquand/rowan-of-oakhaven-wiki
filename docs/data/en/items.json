@@ -5564,6 +5564,941 @@
         "abyss",
         "survival"
       ]
+    },
+    {
+      "id": "food_com_nam_muoi_rung",
+      "name": "Sea-Salted Rice Ball (Onigiri)",
+      "description": "Prepared at The Hearth's Boiling Pot using Milled Valley Rice ×1, Dried Sea Salt ×1. Restores +30 HP / +50 Stamina.",
+      "category": "meal",
+      "rarity": "common",
+      "buy_price": null,
+      "sell_price": 50,
+      "energy": 50,
+      "buff": "No buff (Starter Ration)",
+      "recipe_id": "com_nam_muoi_rung",
+      "tags": [
+        "meal",
+        "craftable",
+        "kitchen_pot"
+      ]
+    },
+    {
+      "id": "food_trung_op_la_thao_moc",
+      "name": "Scallion Herb Omelet",
+      "description": "Prepared at The Hearth's Frying Pan using Farmstead Egg ×1, Valley Scallion ×1. Restores +40 HP / +70 Stamina.",
+      "category": "meal",
+      "rarity": "common",
+      "buy_price": null,
+      "sell_price": 68,
+      "energy": 70,
+      "buff": "+1 Move Speed",
+      "recipe_id": "trung_op_la_thao_moc",
+      "tags": [
+        "meal",
+        "craftable",
+        "kitchen_pan"
+      ]
+    },
+    {
+      "id": "food_khoai_tay_nuong_bo_toi",
+      "name": "Garlic-Buttered Roasted Potato",
+      "description": "Prepared at The Hearth's Stone Oven using Highland Potato ×1, Fresh Butter ×1, Frontier Purple Garlic ×1. Restores +60 HP / +90 Stamina.",
+      "category": "bakery",
+      "rarity": "common",
+      "buy_price": null,
+      "sell_price": 98,
+      "energy": 90,
+      "buff": "+1 Defense",
+      "recipe_id": "khoai_tay_nuong_bo_toi",
+      "tags": [
+        "bakery",
+        "craftable",
+        "kitchen_oven"
+      ]
+    },
+    {
+      "id": "food_banh_mi_lua_mi_gion",
+      "name": "Crusty Hearth Sourdough",
+      "description": "Prepared at The Hearth's Stone Oven using Fresh Flour ×2, Natural Yeast Starter ×1. Restores +50 HP / +80 Stamina.",
+      "category": "bakery",
+      "rarity": "common",
+      "buy_price": null,
+      "sell_price": 83,
+      "energy": 80,
+      "buff": "-10% Farming Stamina Cost",
+      "recipe_id": "banh_mi_lua_mi_gion",
+      "tags": [
+        "bakery",
+        "craftable",
+        "kitchen_oven"
+      ]
+    },
+    {
+      "id": "food_sup_nam_sao_am_bung",
+      "name": "Creamy Mushroom & Turnip Soup",
+      "description": "Prepared at The Hearth's Boiling Pot using Wild Forest Mushroom ×1, Frost Turnip ×1, Valley Scallion ×1. Restores +70 HP / +110 Stamina.",
+      "category": "meal",
+      "rarity": "common",
+      "buy_price": null,
+      "sell_price": 116,
+      "energy": 110,
+      "buff": "+2 Mining Efficiency",
+      "recipe_id": "sup_nam_sao_am_bung",
+      "tags": [
+        "meal",
+        "craftable",
+        "kitchen_pot"
+      ]
+    },
+    {
+      "id": "food_ca_suoi_nuong_muoi_ot",
+      "name": "Chili-Lime Grilled Stream Carp",
+      "description": "Prepared at The Hearth's Smoker & Grill using Stream Carp ×1, Hearth Red Chili ×1, Spark-Lemon ×1. Restores +80 HP / +100 Stamina.",
+      "category": "meal",
+      "rarity": "uncommon",
+      "buy_price": null,
+      "sell_price": 123,
+      "energy": 100,
+      "buff": "+1 Melee Attack",
+      "recipe_id": "ca_suoi_nuong_muoi_ot",
+      "tags": [
+        "meal",
+        "craftable",
+        "kitchen_grill"
+      ]
+    },
+    {
+      "id": "food_bap_xao_bo_cay",
+      "name": "Avocado & Jícama Corn Taco",
+      "description": "Prepared at The Hearth's Frying Pan using Sun-Corn Ear ×1, Creamy Avocado Tree ×1, Crispy Jícama ×1, Hearth Red Chili ×1. Restores +85 HP / +110 Stamina.",
+      "category": "meal",
+      "rarity": "uncommon",
+      "buy_price": null,
+      "sell_price": 132,
+      "energy": 110,
+      "buff": "+1 Speed, +1 Attack",
+      "recipe_id": "bap_xao_bo_cay",
+      "tags": [
+        "meal",
+        "craftable",
+        "kitchen_pan"
+      ]
+    },
+    {
+      "id": "food_chao_yen_mach_mat_ong",
+      "name": "Honeyed Shadow Rye Porridge",
+      "description": "Prepared at The Hearth's Boiling Pot using Shadow Rye Sheaf ×1, Wild Honey ×1. Restores +85 HP / +140 Stamina.",
+      "category": "meal",
+      "rarity": "uncommon",
+      "buy_price": null,
+      "sell_price": 142,
+      "energy": 140,
+      "buff": "+2 Stamina/sec Regen",
+      "recipe_id": "chao_yen_mach_mat_ong",
+      "tags": [
+        "meal",
+        "craftable",
+        "kitchen_pot"
+      ]
+    },
+    {
+      "id": "food_rau_cu_ham_thap_cam",
+      "name": "Jícama & Cabbage Harvest Stew",
+      "description": "Prepared at The Hearth's Boiling Pot using Crispy Jícama ×1, Shadow Cat-Eye Carrot ×1, Crisp Ice Cabbage ×1. Restores +90 HP / +130 Stamina.",
+      "category": "meal",
+      "rarity": "uncommon",
+      "buy_price": null,
+      "sell_price": 144,
+      "energy": 130,
+      "buff": "+2 Defense",
+      "recipe_id": "rau_cu_ham_thap_cam",
+      "tags": [
+        "meal",
+        "craftable",
+        "kitchen_pot"
+      ]
+    },
+    {
+      "id": "food_banh_xeo_hanh_hoa_gion",
+      "name": "Crispy Valley Savory Crepe (Banh Xeo)",
+      "description": "Prepared at The Hearth's Frying Pan using Milled Valley Rice ×1, Golden Turmeric ×1, Valley Scallion ×1, Freshwater Shrimp ×1. Restores +95 HP / +125 Stamina.",
+      "category": "meal",
+      "rarity": "uncommon",
+      "buy_price": null,
+      "sell_price": 148,
+      "energy": 125,
+      "buff": "+15% Attack Speed",
+      "recipe_id": "banh_xeo_hanh_hoa_gion",
+      "tags": [
+        "meal",
+        "craftable",
+        "kitchen_pan"
+      ]
+    },
+    {
+      "id": "food_bo_ham_ruou_vang_mo",
+      "name": "Night-Wine Beef Bourguignon",
+      "description": "Prepared at The Hearth's Boiling Pot using Pasture Beef ×1, Aged Night Grape Wine ×1, Golden Valley Onion ×1. Restores +135 HP / +180 Stamina.",
+      "category": "meal",
+      "rarity": "rare",
+      "buy_price": null,
+      "sell_price": 212,
+      "energy": 180,
+      "buff": "+3 Attack, +20 Max HP (Temp)",
+      "recipe_id": "bo_ham_ruou_vang_mo",
+      "tags": [
+        "meal",
+        "craftable",
+        "kitchen_pot"
+      ]
+    },
+    {
+      "id": "food_bit_tet_nuong_than_soi",
+      "name": "Garlic-Rosemary Seared Steak",
+      "description": "Prepared at The Hearth's Smoker & Grill using Pasture Beef ×1, Frontier Purple Garlic ×1, Hearth Rosemary ×1. Restores +140 HP / +170 Stamina.",
+      "category": "meal",
+      "rarity": "rare",
+      "buy_price": null,
+      "sell_price": 214,
+      "energy": 170,
+      "buff": "+4 Attack",
+      "recipe_id": "bit_tet_nuong_than_soi",
+      "tags": [
+        "meal",
+        "craftable",
+        "kitchen_grill"
+      ]
+    },
+    {
+      "id": "food_ga_quay_mat_ong_hoa_rung",
+      "name": "Fire-Orange Honey Roast Chicken",
+      "description": "Prepared at The Hearth's Stone Oven using Free-Range Poultry ×1, Ember Orange ×1, Wild Honey ×1. Restores +125 HP / +170 Stamina.",
+      "category": "bakery",
+      "rarity": "uncommon",
+      "buy_price": null,
+      "sell_price": 197,
+      "energy": 170,
+      "buff": "+2 Attack, +1 Speed",
+      "recipe_id": "ga_quay_mat_ong_hoa_rung",
+      "tags": [
+        "bakery",
+        "craftable",
+        "kitchen_oven"
+      ]
+    },
+    {
+      "id": "food_suon_nuong_xot_man_ngot",
+      "name": "Plum & Cranberry Glazed Ribs",
+      "description": "Prepared at The Hearth's Smoker & Grill using Homestead Pork & Ribs ×1, Frost Plum ×1, Bog Cranberry Bush ×1. Restores +135 HP / +180 Stamina.",
+      "category": "meal",
+      "rarity": "rare",
+      "buy_price": null,
+      "sell_price": 212,
+      "energy": 180,
+      "buff": "+2 Attack, +2 Defense",
+      "recipe_id": "suon_nuong_xot_man_ngot",
+      "tags": [
+        "meal",
+        "craftable",
+        "kitchen_grill"
+      ]
+    },
+    {
+      "id": "food_banh_mi_thit_ham_pho_mai",
+      "name": "Melted Cheese & Beef Gratin Melt",
+      "description": "Prepared at The Hearth's Stone Oven using Fresh Flour ×1, Pasture Beef ×1, Oak-Aged Cheese ×1. Restores +120 HP / +155 Stamina.",
+      "category": "bakery",
+      "rarity": "uncommon",
+      "buy_price": null,
+      "sell_price": 186,
+      "energy": 155,
+      "buff": "+3 Defense, -50% Stun Duration",
+      "recipe_id": "banh_mi_thit_ham_pho_mai",
+      "tags": [
+        "bakery",
+        "craftable",
+        "kitchen_oven"
+      ]
+    },
+    {
+      "id": "food_canh_chua_ca_suoi_cay",
+      "name": "Solaria Saffron Fish Bouillabaisse",
+      "description": "Prepared at The Hearth's Boiling Pot using Stream Carp ×1, Juicy Fire Tomato ×1, Saffron Crocus ×1. Restores +115 HP / +155 Stamina.",
+      "category": "meal",
+      "rarity": "uncommon",
+      "buy_price": null,
+      "sell_price": 181,
+      "energy": 155,
+      "buff": "-25% Heat & Poison Damage",
+      "recipe_id": "canh_chua_ca_suoi_cay",
+      "tags": [
+        "meal",
+        "craftable",
+        "kitchen_pot"
+      ]
+    },
+    {
+      "id": "food_muc_ham_hanh_toi",
+      "name": "Mediterranean Garlic-Olive Squid",
+      "description": "Prepared at The Hearth's Frying Pan using Night Sea Squid ×1, Frontier Purple Garlic ×1, Ancient Olive Tree ×1. Restores +110 HP / +150 Stamina.",
+      "category": "meal",
+      "rarity": "uncommon",
+      "buy_price": null,
+      "sell_price": 174,
+      "energy": 150,
+      "buff": "+2 Mining Luck",
+      "recipe_id": "muc_ham_hanh_toi",
+      "tags": [
+        "meal",
+        "craftable",
+        "kitchen_pan"
+      ]
+    },
+    {
+      "id": "food_com_chien_hai_san_dam_vi",
+      "name": "Valley Harvest Bibimbap Bowl",
+      "description": "Prepared at The Hearth's Frying Pan using Milled Valley Rice ×1, Valley Spinach ×1, Farmstead Egg ×1, Hearth Red Chili ×1. Restores +130 HP / +170 Stamina.",
+      "category": "meal",
+      "rarity": "rare",
+      "buy_price": null,
+      "sell_price": 202,
+      "energy": 170,
+      "buff": "+2 Mining, +1 Attack",
+      "recipe_id": "com_chien_hai_san_dam_vi",
+      "tags": [
+        "meal",
+        "craftable",
+        "kitchen_pan"
+      ]
+    },
+    {
+      "id": "food_sup_tom_hum_sua_beo",
+      "name": "Velvet Freshwater Shrimp Bisque",
+      "description": "Prepared at The Hearth's Boiling Pot using Freshwater Shrimp ×1, Fresh Cow Milk ×1, Fresh Butter ×1. Restores +140 HP / +185 Stamina.",
+      "category": "meal",
+      "rarity": "rare",
+      "buy_price": null,
+      "sell_price": 219,
+      "energy": 185,
+      "buff": "+3 Defense, +2 Luck",
+      "recipe_id": "sup_tom_hum_sua_beo",
+      "tags": [
+        "meal",
+        "craftable",
+        "kitchen_pot"
+      ]
+    },
+    {
+      "id": "food_lau_ca_cay_ham_nguc",
+      "name": "Khaz-Drakor Fiery Fish Hotpot",
+      "description": "Prepared at The Hearth's Boiling Pot using Stream Carp ×1, Wild Forest Mushroom ×1, Hearth Red Chili ×1. Restores +145 HP / +190 Stamina.",
+      "category": "meal",
+      "rarity": "rare",
+      "buy_price": null,
+      "sell_price": 226,
+      "energy": 190,
+      "buff": "+3 Attack, +2 Mining",
+      "recipe_id": "lau_ca_cay_ham_nguc",
+      "tags": [
+        "meal",
+        "craftable",
+        "kitchen_pot"
+      ]
+    },
+    {
+      "id": "food_tart_dau_tuyet_lanh",
+      "name": "Berry, Cherry & Vanilla Tart",
+      "description": "Prepared at The Hearth's Stone Oven using Spring Wildberry ×1, Crimson Cherry ×1, Deepwood Vanilla Orchid ×1. Restores +75 HP / +110 Stamina.",
+      "category": "bakery",
+      "rarity": "common",
+      "buy_price": null,
+      "sell_price": 121,
+      "energy": 110,
+      "buff": "+1 Move Speed, +15% Resting Stamina Regen",
+      "recipe_id": "tart_dau_tuyet_lanh",
+      "tags": [
+        "bakery",
+        "craftable",
+        "kitchen_oven"
+      ]
+    },
+    {
+      "id": "food_pho_bo_thung_lung",
+      "name": "Oakhaven Herbal Beef Pho",
+      "description": "Prepared at The Hearth's Boiling Pot using Milled Valley Rice ×1, Pasture Beef ×1, Golden Valley Onion ×1, Whisper Ginger Root ×1, Wild Cinnamon ×1. Restores +155 HP / +205 Stamina.",
+      "category": "meal",
+      "rarity": "mythic",
+      "buy_price": null,
+      "sell_price": 242,
+      "energy": 205,
+      "buff": "+3 Attack, +2 Speed, -30% Cold Damage",
+      "recipe_id": "pho_bo_thung_lung",
+      "tags": [
+        "meal",
+        "craftable",
+        "kitchen_pot"
+      ]
+    },
+    {
+      "id": "food_salad_trai_cay_mua_ha",
+      "name": "Summer Melon, Kiwano & Mint Salad",
+      "description": "Prepared at The Hearth's Boiling Pot using Magma Melon ×1, Horned Kiwano Melon ×1, Dewdrop Mint ×1. Restores +65 HP / +135 Stamina.",
+      "category": "meal",
+      "rarity": "common",
+      "buy_price": null,
+      "sell_price": 119,
+      "energy": 135,
+      "buff": "+1 Move Speed, -25% Heat & Fire Damage",
+      "recipe_id": "salad_trai_cay_mua_ha",
+      "tags": [
+        "meal",
+        "craftable",
+        "kitchen_pot"
+      ]
+    },
+    {
+      "id": "food_bi_do_nuong_pho_mai_deo",
+      "name": "Cheesy Baked Sweet Pumpkin",
+      "description": "Prepared at The Hearth's Stone Oven using Honey Pumpkin ×1, Oak-Aged Cheese ×1. Restores +110 HP / +160 Stamina.",
+      "category": "bakery",
+      "rarity": "uncommon",
+      "buy_price": null,
+      "sell_price": 177,
+      "energy": 160,
+      "buff": "+3 Defense",
+      "recipe_id": "bi_do_nuong_pho_mai_deo",
+      "tags": [
+        "bakery",
+        "craftable",
+        "kitchen_oven"
+      ]
+    },
+    {
+      "id": "food_banh_quy_gung_giu_am",
+      "name": "Walnut & Chufa Trail Cookies",
+      "description": "Prepared at The Hearth's Stone Oven using Oakhaven Walnut ×1, Fresh Flour ×1, Earth-Almond Chufa ×1. Restores +70 HP / +100 Stamina.",
+      "category": "bakery",
+      "rarity": "common",
+      "buy_price": null,
+      "sell_price": 112,
+      "energy": 100,
+      "buff": "-40% Frost Slow Effect",
+      "recipe_id": "banh_quy_gung_giu_am",
+      "tags": [
+        "bakery",
+        "craftable",
+        "kitchen_oven"
+      ]
+    },
+    {
+      "id": "food_thit_xong_khoi_cui_go_soi",
+      "name": "Baked Pork & Cheese Eggplant",
+      "description": "Prepared at The Hearth's Stone Oven using Dusk Eggplant ×1, Homestead Pork & Ribs ×1, Oak-Aged Cheese ×1. Restores +120 HP / +160 Stamina.",
+      "category": "bakery",
+      "rarity": "uncommon",
+      "buy_price": null,
+      "sell_price": 188,
+      "energy": 160,
+      "buff": "+2 Attack, +25 Max Stamina (Temp)",
+      "recipe_id": "thit_xong_khoi_cui_go_soi",
+      "tags": [
+        "bakery",
+        "craftable",
+        "kitchen_oven"
+      ]
+    },
+    {
+      "id": "food_lap_xuong_tieu_den_mo_da",
+      "name": "Black-Pepper Onion Smoked Sausage",
+      "description": "Prepared at The Hearth's Smoker & Grill using Homestead Pork & Ribs ×1, Traded Black Pepper ×1, Golden Valley Onion ×1. Restores +120 HP / +150 Stamina.",
+      "category": "meal",
+      "rarity": "uncommon",
+      "buy_price": null,
+      "sell_price": 184,
+      "energy": 150,
+      "buff": "+15% Critical Hit Rate",
+      "recipe_id": "lap_xuong_tieu_den_mo_da",
+      "tags": [
+        "meal",
+        "craftable",
+        "kitchen_grill"
+      ]
+    },
+    {
+      "id": "food_mi_soi_tuoi_xao_nam_cay",
+      "name": "Truffle Miso & Egg Ramen",
+      "description": "Prepared at The Hearth's Boiling Pot using Fresh Flour ×1, Golden Soybean ×1, Cavern Black Truffle ×1, Farmstead Egg ×1. Restores +135 HP / +180 Stamina.",
+      "category": "meal",
+      "rarity": "rare",
+      "buy_price": null,
+      "sell_price": 212,
+      "energy": 180,
+      "buff": "+2 Speed, +2 Mining",
+      "recipe_id": "mi_soi_tuoi_xao_nam_cay",
+      "tags": [
+        "meal",
+        "craftable",
+        "kitchen_pot"
+      ]
+    },
+    {
+      "id": "food_banh_kep_trung_xuc_xich",
+      "name": "Avocado & Egg Hearth Toast",
+      "description": "Prepared at The Hearth's Frying Pan using Fresh Flour ×1, Creamy Avocado Tree ×1, Farmstead Egg ×1. Restores +110 HP / +150 Stamina.",
+      "category": "meal",
+      "rarity": "uncommon",
+      "buy_price": null,
+      "sell_price": 174,
+      "energy": 150,
+      "buff": "+2 Farming Tool Speed",
+      "recipe_id": "banh_kep_trung_xuc_xich",
+      "tags": [
+        "meal",
+        "craftable",
+        "kitchen_pan"
+      ]
+    },
+    {
+      "id": "food_sup_cu_den_do_dai_ngan",
+      "name": "Highland Ruby Beet Borscht",
+      "description": "Prepared at The Hearth's Boiling Pot using Ruby Beet ×1, Highland Potato ×1, Fresh Cow Milk ×1. Restores +95 HP / +135 Stamina.",
+      "category": "meal",
+      "rarity": "uncommon",
+      "buy_price": null,
+      "sell_price": 152,
+      "energy": 135,
+      "buff": "+20 Max HP (Temp), Regen 1 HP per 5s",
+      "recipe_id": "sup_cu_den_do_dai_ngan",
+      "tags": [
+        "meal",
+        "craftable",
+        "kitchen_pot"
+      ]
+    },
+    {
+      "id": "food_banh_khoai_mon_tro_trau",
+      "name": "Hearth-Steamed Ash Taro Cake",
+      "description": "Prepared at The Hearth's Steamer using Terrace Purple Taro ×1, Natural Yeast Starter ×1, Milled Valley Rice ×1. Restores +90 HP / +140 Stamina.",
+      "category": "meal",
+      "rarity": "uncommon",
+      "buy_price": null,
+      "sell_price": 148,
+      "energy": 140,
+      "buff": "+1 Defense, -20% Miasma Buildup [Altar Offering Tier 1]",
+      "recipe_id": "banh_khoai_mon_tro_trau",
+      "tags": [
+        "meal",
+        "craftable",
+        "kitchen_steamer"
+      ]
+    },
+    {
+      "id": "food_xoi_hat_sen_nuoc_cot_dua",
+      "name": "Grand Saffron Seafood Paella",
+      "description": "Prepared at The Hearth's Frying Pan using Milled Valley Rice ×1, Freshwater Shrimp ×1, Sweet Pea Pod ×1, Saffron Crocus ×1. Restores +130 HP / +175 Stamina.",
+      "category": "meal",
+      "rarity": "rare",
+      "buy_price": null,
+      "sell_price": 204,
+      "energy": 175,
+      "buff": "+2 Luck, +1 Speed [Altar Offering Tier 2]",
+      "recipe_id": "xoi_hat_sen_nuoc_cot_dua",
+      "tags": [
+        "meal",
+        "craftable",
+        "kitchen_pan"
+      ]
+    },
+    {
+      "id": "food_banh_chung_lua_rung",
+      "name": "Baked Andean Oca & Beef Empanada",
+      "description": "Prepared at The Hearth's Stone Oven using Fresh Flour ×1, Pasture Beef ×1, Andean Jewel Oca ×1, Hearth Red Chili ×1. Restores +150 HP / +195 Stamina.",
+      "category": "bakery",
+      "rarity": "mythic",
+      "buy_price": null,
+      "sell_price": 233,
+      "energy": 195,
+      "buff": "+3 Defense, +3 Attack, +25 Max HP (Temp)",
+      "recipe_id": "banh_chung_lua_rung",
+      "tags": [
+        "bakery",
+        "craftable",
+        "kitchen_oven"
+      ]
+    },
+    {
+      "id": "food_canh_thao_moc_bup_sen",
+      "name": "Artichoke & Lotus Cleansing Broth",
+      "description": "Prepared at The Hearth's Boiling Pot using Globe Artichoke ×1, Terrace Mud Lotus Root ×1. Restores +100 HP / +150 Stamina.",
+      "category": "meal",
+      "rarity": "uncommon",
+      "buy_price": null,
+      "sell_price": 162,
+      "energy": 150,
+      "buff": "-30% Poison Damage & Miasma Buildup",
+      "recipe_id": "canh_thao_moc_bup_sen",
+      "tags": [
+        "meal",
+        "craftable",
+        "kitchen_pot"
+      ]
+    },
+    {
+      "id": "food_banh_deo_trang_ram_hoa_buoi",
+      "name": "Apricot & Honey-Fig Poultry Tagine",
+      "description": "Prepared at The Hearth's Boiling Pot using Free-Range Poultry ×1, Golden Apricot Tree ×1, Honey Fig Tree ×1, Golden Turmeric ×1. Restores +125 HP / +170 Stamina.",
+      "category": "meal",
+      "rarity": "uncommon",
+      "buy_price": null,
+      "sell_price": 197,
+      "energy": 170,
+      "buff": "+2 Luck, +10% Bonus Crop Yield",
+      "recipe_id": "banh_deo_trang_ram_hoa_buoi",
+      "tags": [
+        "meal",
+        "craftable",
+        "kitchen_pot"
+      ]
+    },
+    {
+      "id": "food_tra_sen_bach_diep",
+      "name": "Sun-Daisy & Lotus Herbal Tea",
+      "description": "Prepared at The Hearth's Boiling Pot using Lotus Tea Leaves ×1, Sun Daisy Petals ×1, Frost-Lotus Bloom ×1. Restores +40 HP / +150 Stamina.",
+      "category": "meal",
+      "rarity": "common",
+      "buy_price": null,
+      "sell_price": 96,
+      "energy": 150,
+      "buff": "-20% Tool Stamina Drain",
+      "recipe_id": "tra_sen_bach_diep",
+      "tags": [
+        "meal",
+        "craftable",
+        "kitchen_pot"
+      ]
+    },
+    {
+      "id": "food_nuoc_mia_ep_gung_am",
+      "name": "Hot Highland Milk Coffee",
+      "description": "Prepared at The Hearth's Boiling Pot using Highland Coffee ×1, Fresh Cow Milk ×1, Raw Cane Sugar ×1. Restores +50 HP / +120 Stamina.",
+      "category": "meal",
+      "rarity": "common",
+      "buy_price": null,
+      "sell_price": 97,
+      "energy": 120,
+      "buff": "+2 Move Speed",
+      "recipe_id": "nuoc_mia_ep_gung_am",
+      "tags": [
+        "meal",
+        "craftable",
+        "kitchen_pot"
+      ]
+    },
+    {
+      "id": "food_sua_bo_nong_mat_ong",
+      "name": "Winter Chestnut Hot Chocolate",
+      "description": "Prepared at The Hearth's Boiling Pot using Valley Cacao Tree ×1, Fresh Cow Milk ×1, Roasted Chestnut Tree ×1. Restores +60 HP / +125 Stamina.",
+      "category": "meal",
+      "rarity": "common",
+      "buy_price": null,
+      "sell_price": 110,
+      "energy": 125,
+      "buff": "+30 Max Stamina (Temp), -25% Cold Damage",
+      "recipe_id": "sua_bo_nong_mat_ong",
+      "tags": [
+        "meal",
+        "craftable",
+        "kitchen_pot"
+      ]
+    },
+    {
+      "id": "food_ruou_trai_cay_len_men",
+      "name": "Craft Hops & Lichen-Pear Brew",
+      "description": "Prepared at The Hearth's Boiling Pot using Misty Pear ×1, Tavern Hops ×1, Glacial Lichen Root ×1. Restores +95 HP / +100 Stamina.",
+      "category": "meal",
+      "rarity": "uncommon",
+      "buy_price": null,
+      "sell_price": 140,
+      "energy": 100,
+      "buff": "+4 Attack (-10% Mine Light Radius)",
+      "recipe_id": "ruou_trai_cay_len_men",
+      "tags": [
+        "meal",
+        "craftable",
+        "kitchen_pot"
+      ]
+    },
+    {
+      "id": "food_nuoc_ep_dua_luoi_bang_gia",
+      "name": "Chilled Pomegranate Mint Juice",
+      "description": "Prepared at The Hearth's Boiling Pot using Solaria Pomegranate Tree ×1, Dewdrop Mint ×1. Restores +70 HP / +130 Stamina.",
+      "category": "meal",
+      "rarity": "common",
+      "buy_price": null,
+      "sell_price": 122,
+      "energy": 130,
+      "buff": "-35% Fire & Lava Damage, -50% Burn Duration",
+      "recipe_id": "nuoc_ep_dua_luoi_bang_gia",
+      "tags": [
+        "meal",
+        "craftable",
+        "kitchen_pot"
+      ]
+    },
+    {
+      "id": "food_phi_le_ca_ngu_nuong_rom",
+      "name": "Garlic-Asparagus Seared Tuna",
+      "description": "Prepared at The Hearth's Smoker & Grill using Deep-Sea Tuna ×1, Frontier Purple Garlic ×1, Spring Asparagus ×1. Restores +130 HP / +170 Stamina.",
+      "category": "meal",
+      "rarity": "rare",
+      "buy_price": null,
+      "sell_price": 202,
+      "energy": 170,
+      "buff": "+3 Mining, +2 Attack",
+      "recipe_id": "phi_le_ca_ngu_nuong_rom",
+      "tags": [
+        "meal",
+        "craftable",
+        "kitchen_grill"
+      ]
+    },
+    {
+      "id": "food_oc_nuong_bo_tieu_den",
+      "name": "Pepper-Butter Lake Escargot",
+      "description": "Prepared at The Hearth's Smoker & Grill using Lake Snail & Crab ×1, Fresh Butter ×1, Traded Black Pepper ×1. Restores +85 HP / +120 Stamina.",
+      "category": "meal",
+      "rarity": "uncommon",
+      "buy_price": null,
+      "sell_price": 136,
+      "energy": 120,
+      "buff": "+10% Dodge Chance, +1 Fishing Skill",
+      "recipe_id": "oc_nuong_bo_tieu_den",
+      "tags": [
+        "meal",
+        "craftable",
+        "kitchen_grill"
+      ]
+    },
+    {
+      "id": "food_com_tho_suon_hap_nam",
+      "name": "Sylva-Fae Ube & Vanilla Tart",
+      "description": "Prepared at The Hearth's Stone Oven using Ancient Forest Ube ×1, Deepwood Vanilla Orchid ×1, Fresh Flour ×1, Fresh Butter ×1. Restores +125 HP / +170 Stamina.",
+      "category": "bakery",
+      "rarity": "uncommon",
+      "buy_price": null,
+      "sell_price": 197,
+      "energy": 170,
+      "buff": "+2 Speed, +2 Luck",
+      "recipe_id": "com_tho_suon_hap_nam",
+      "tags": [
+        "bakery",
+        "craftable",
+        "kitchen_oven"
+      ]
+    },
+    {
+      "id": "food_banh_pie_tao_que_lo_dat",
+      "name": "Hearth-Baked Apple Fig Pie",
+      "description": "Prepared at The Hearth's Stone Oven using Oakhaven Honey Apple ×1, Honey Fig Tree ×1, Fresh Flour ×1. Restores +110 HP / +160 Stamina.",
+      "category": "bakery",
+      "rarity": "uncommon",
+      "buy_price": null,
+      "sell_price": 177,
+      "energy": 160,
+      "buff": "+2 Luck, +1 Speed",
+      "recipe_id": "banh_pie_tao_que_lo_dat",
+      "tags": [
+        "bakery",
+        "craftable",
+        "kitchen_oven"
+      ]
+    },
+    {
+      "id": "food_banh_tart_viet_quat_dai_ngan",
+      "name": "Blackberry & Gold Kiwi Tart",
+      "description": "Prepared at The Hearth's Stone Oven using Blackberry Bush ×1, Gold Kiwifruit ×1, Fresh Flour ×1. Restores +110 HP / +155 Stamina.",
+      "category": "bakery",
+      "rarity": "uncommon",
+      "buy_price": null,
+      "sell_price": 175,
+      "energy": 155,
+      "buff": "+10% Crit Rate, +1 Move Speed",
+      "recipe_id": "banh_tart_viet_quat_dai_ngan",
+      "tags": [
+        "bakery",
+        "craftable",
+        "kitchen_oven"
+      ]
+    },
+    {
+      "id": "food_dui_rung_hun_khoi_da_chien",
+      "name": "Bay-Laurel Smoked Pork Haunch",
+      "description": "Prepared at The Hearth's Smoker & Grill using Homestead Pork & Ribs ×1, Bay Laurel ×1, Traded Black Pepper ×1. Restores +145 HP / +185 Stamina.",
+      "category": "meal",
+      "rarity": "rare",
+      "buy_price": null,
+      "sell_price": 224,
+      "energy": 185,
+      "buff": "+4 Attack, +1 Defense",
+      "recipe_id": "dui_rung_hun_khoi_da_chien",
+      "tags": [
+        "meal",
+        "craftable",
+        "kitchen_grill"
+      ]
+    },
+    {
+      "id": "food_lau_thap_cam_bach_vi",
+      "name": "Oakhaven Salsify & Yam Grand Hotpot",
+      "description": "Prepared at The Hearth's Boiling Pot using Pasture Beef ×1, Moonlight Sweet Yam ×1, Oyster Salsify ×1. Restores +165 HP / +210 Stamina.",
+      "category": "meal",
+      "rarity": "mythic",
+      "buy_price": null,
+      "sell_price": 255,
+      "energy": 210,
+      "buff": "+3 Attack, +3 Defense, -30% Cold Damage",
+      "recipe_id": "lau_thap_cam_bach_vi",
+      "tags": [
+        "meal",
+        "craftable",
+        "kitchen_pot"
+      ]
+    },
+    {
+      "id": "food_banh_mi_kep_thap_cam",
+      "name": "Oakhaven Roast Pork Banh Mi",
+      "description": "Prepared at The Hearth's Stone Oven using Fresh Flour ×1, Homestead Pork & Ribs ×1, Shadow Cat-Eye Carrot ×1, Valley Spinach ×1, Hearth Red Chili ×1. Restores +140 HP / +190 Stamina.",
+      "category": "bakery",
+      "rarity": "mythic",
+      "buy_price": null,
+      "sell_price": 220,
+      "energy": 190,
+      "buff": "+2 Speed, +2 Defense, +1 Luck",
+      "recipe_id": "banh_mi_kep_thap_cam",
+      "tags": [
+        "bakery",
+        "craftable",
+        "kitchen_oven"
+      ]
+    },
+    {
+      "id": "food_com_lam_ong_tre_muoi_me",
+      "name": "Bamboo-Roasted Rice & Shoots",
+      "description": "Prepared at The Hearth's Smoker & Grill using Milled Valley Rice ×1, Sweet Bamboo Shoot ×1, Dried Sea Salt ×1. Restores +100 HP / +150 Stamina.",
+      "category": "meal",
+      "rarity": "uncommon",
+      "buy_price": null,
+      "sell_price": 162,
+      "energy": 150,
+      "buff": "+1 Mining, +1 Defense",
+      "recipe_id": "com_lam_ong_tre_muoi_me",
+      "tags": [
+        "meal",
+        "craftable",
+        "kitchen_grill"
+      ]
+    },
+    {
+      "id": "food_ga_ham_sam_rung_da",
+      "name": "Mandrake & Snow-Maca Poultry Broth",
+      "description": "Prepared at The Hearth's Boiling Pot using Free-Range Poultry ×1, Mandrake Root ×1, Wolf-Tooth Snow Maca ×1. Restores +150 HP / +200 Stamina.",
+      "category": "meal",
+      "rarity": "rare",
+      "buy_price": null,
+      "sell_price": 235,
+      "energy": 200,
+      "buff": "+45 Max Stamina (Temp), +2 Defense",
+      "recipe_id": "ga_ham_sam_rung_da",
+      "tags": [
+        "meal",
+        "craftable",
+        "kitchen_pot"
+      ]
+    },
+    {
+      "id": "food_thit_nuong_lua_dia_nguc",
+      "name": "Fiery Chili-Ginger Grilled Beef",
+      "description": "Prepared at The Hearth's Smoker & Grill using Pasture Beef ×1, Hearth Red Chili ×1, Whisper Ginger Root ×1. Restores +150 HP / +195 Stamina.",
+      "category": "meal",
+      "rarity": "rare",
+      "buy_price": null,
+      "sell_price": 233,
+      "energy": 195,
+      "buff": "+4 Attack, +10% Attack Speed",
+      "recipe_id": "thit_nuong_lua_dia_nguc",
+      "tags": [
+        "meal",
+        "craftable",
+        "kitchen_grill"
+      ]
+    },
+    {
+      "id": "food_sup_yen_pha_le_thung_lung",
+      "name": "Snow-Lotus & Glow-Fern Soup",
+      "description": "Prepared at The Hearth's Boiling Pot using Alpine Snow Lotus ×1, Glow-Fern Cave Tuber ×1, Wild Honey ×1. Restores +170 HP / +220 Stamina.",
+      "category": "meal",
+      "rarity": "mythic",
+      "buy_price": null,
+      "sell_price": 264,
+      "energy": 220,
+      "buff": "+3 Defense, +30 Max HP (Temp), -30% Cold & Stun",
+      "recipe_id": "sup_yen_pha_le_thung_lung",
+      "tags": [
+        "meal",
+        "craftable",
+        "kitchen_pot"
+      ]
+    },
+    {
+      "id": "food_banh_ngu_coc_dai_luc",
+      "name": "Cassava & Dark-Rye Hearth Loaf",
+      "description": "Prepared at The Hearth's Stone Oven using Fresh Flour ×1, Shadow Rye Sheaf ×1, Valley Cassava ×1. Restores +130 HP / +180 Stamina.",
+      "category": "bakery",
+      "rarity": "rare",
+      "buy_price": null,
+      "sell_price": 206,
+      "energy": 180,
+      "buff": "-15% Overall Stamina Drain, +1 Mining",
+      "recipe_id": "banh_ngu_coc_dai_luc",
+      "tags": [
+        "bakery",
+        "craftable",
+        "kitchen_oven"
+      ]
+    },
+    {
+      "id": "food_banh_cau_vong_4_mua",
+      "name": "Four-Season Turban Orchard Cake",
+      "description": "Prepared at The Hearth's Stone Oven using Blossom Peach ×1, Turban Squash ×1, Oakhaven Honey Apple ×1, Frost Plum ×1. Restores +160 HP / +200 Stamina.",
+      "category": "bakery",
+      "rarity": "mythic",
+      "buy_price": null,
+      "sell_price": 246,
+      "energy": 200,
+      "buff": "+2 Speed, +2 Luck, -15% Action Stamina Cost",
+      "recipe_id": "banh_cau_vong_4_mua",
+      "tags": [
+        "bakery",
+        "craftable",
+        "kitchen_oven"
+      ]
+    },
+    {
+      "id": "food_yen_tiec_cau_sieu_anh_hon",
+      "name": "Grand Solaria Memorial Feast",
+      "description": "Prepared at The Hearth's Boiling Pot using Frost-Lotus Bloom ×1, Milled Valley Rice ×1, Saffron Crocus ×1, Cavern Black Truffle ×1. Restores +180 HP / +240 Stamina.",
+      "category": "meal",
+      "rarity": "mythic",
+      "buy_price": null,
+      "sell_price": 282,
+      "energy": 240,
+      "buff": "+4 Attack, +4 Defense, -35% Miasma Buildup [Grand Altar Offering]",
+      "recipe_id": "yen_tiec_cau_sieu_anh_hon",
+      "tags": [
+        "meal",
+        "craftable",
+        "kitchen_pot"
+      ]
     }
   ]
 }
