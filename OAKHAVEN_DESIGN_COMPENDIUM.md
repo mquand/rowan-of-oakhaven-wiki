@@ -69,6 +69,9 @@ Rowan sở hữu không gian sống hoàn toàn riêng biệt nằm trên tầng
    - Nơi cắm các cúp vàng Lễ hội ẩm thực Oakhaven, đầu lâu quái vật tinh anh và cổ vật khai quật từ phế tích.
 5. **Hầm Ủ Men & Lên Men Riêng (Private Aging Cellar):**
    - Mở khóa khi nâng cấp nhà cấp 2. Chứa các thùng gỗ sồi ủ phô mai, tương đậu, dấm hoa quả và rượu vang mật ong hảo hạng.
+6. **Rương Chứa Đồ & Chế Tạo Từ Kho (Storage Chests & Craft from Chests - 0 asset mới):**
+   - **Rương Gỗ / Rương Sắt (`36 ô/rương`):** Đặt tự do tại sân vườn, cửa hầm mỏ hoặc trong bếp để cất quặng, gỗ, nông sản (`Stack x99` / `x999`).
+   - **Craft from Chests:** Khi đứng tại Bếp The Hearth hoặc Bàn Chế Tạo, hệ thống tự động quét và rút nguyên liệu từ Tủ Bếp / Rương liên kết mà không cần rút ra ba lô thủ công.
 
 ---
 
