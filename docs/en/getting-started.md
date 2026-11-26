@@ -43,8 +43,8 @@ By your side are **Pip** the pygmy owl (bringing dawn letters and seeds) and **M
 - **Storage Chests & Craft from Chests:**
   - Place Wooden or Iron Chests (`36 slots/chest`, `x99/x999` stacking) in the yard, mine entrance, or kitchen. Cooking and crafting automatically pull ingredients from linked chests.
 - **Rescue Service & Lost & Found:**
-  - Upon collapsing, you are rescued by the Adventurer's Guild emergency squad (led by **Guildmaster Thorne**) and taken to Apothecary Aurelia's clinic. You pay a medical fee and drop random inventory items.
-  - Visit **Valerie** at the Adventurer's Guild Lost & Found counter to reclaim dropped belongings using Gold or Expedition Lunchboxes!
+  - **Passing out above ground / past `02:00 AM`:** **Colm** carries you back to bed, charging 10% Gold (max `1,000g`) for Aurelia's clinic with **zero item loss**.
+  - **Collapsing in the 150-floor Mine:** **Guildmaster Thorne's** rescue squad pulls you to Aurelia's clinic, charging 10% Gold (max `1,000g`). Raw ores and monster loot from that run are **permanently lost**, while **weapons, armor, and tools** are sent to **Valerie's Lost & Found** counter to reclaim with Gold or **Rescue Badges** (from Expedition Lunchbox orders).
 - **Eat to Gain Combat Buffs:** Cook and consume your own meals for immediate HP/Stamina recovery and combat buffs (Attack, Defense, Move Speed, Mining Luck).
 - **Purification Feasts at Ancient Altars:** Offer traditional meals at battleground memorial altars across the valley to lay lingering spirits to rest and liberate blighted lands.
 

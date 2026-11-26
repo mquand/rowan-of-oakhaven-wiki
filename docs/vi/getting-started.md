@@ -43,8 +43,8 @@ Bạn vào vai **Rowan**, người trẻ dũng cảm rời bỏ guồng quay cô
 - **Rương Chứa Đồ & Chế Tạo Từ Kho (Storage Chests & Craft from Chests):**
   - Đặt Rương Gỗ / Rương Sắt (`36 ô/rương`, xếp chồng `x99/x999`) ở sân vườn, cửa mỏ hoặc trong bếp. Khi nấu ăn hay chế tạo, hệ thống tự động rút nguyên liệu từ Tủ Bếp và các rương liên kết.
 - **Dịch vụ Cứu nạn & Tìm đồ thất lạc (Lost & Found):**
-  - Khi ngất xỉu, bạn được đội cứu hộ của Hiệp Hội Mạo Hiểm (đứng đầu bởi **Hội Trưởng Thorne**) đưa về Trạm Xá của Dược sĩ Aurelia. Bạn sẽ bị trừ tiền viện phí và rơi ngẫu nhiên một số món đồ trong Balo.
-  - Hãy ghé bàn trực của **Valerie** tại Hiệp Hội Mạo Hiểm để chuộc lại đồ thất lạc bằng Vàng hoặc đổi bằng Cơm hộp tiếp tế!
+  - **Ngất trên mặt đất / quá `02:00 AM`:** Cậu phụ tá **Colm** khiêng về giường, trừ 10% vàng (tối đa `1,000g`) cho Trạm Xá của Aurelia và **không mất đồ**.
+  - **Gục ngã trong Hầm Mỏ 150 tầng:** Đội cứu hộ của **Hội Trưởng Thorne** kéo về Trạm Xá, trừ 10% vàng (tối đa `1,000g`), **mất vĩnh viễn** quặng/chiến lợi phẩm thô nhặt trong chuyến đi, còn **vũ khí/giáp/nông cụ** được đưa về quầy **Lost & Found** của **Valerie** để chuộc bằng Vàng hoặc **Huy Hiệu Cứu Viện** (từ đơn Cơm Hộp Tiếp Tế).
 - **Ăn uống để Buff chiến đấu:** Tự tay nấu và ăn các món ăn tại quán để hồi phục HP/Stamina tức thì, đồng thời nhận buff tăng Lực công, Giáp thủ, Tốc độ chạy và May mắn đào mỏ.
 - **Thanh tẩy Bàn Thờ Cổ (Purification Feast):** Dâng các món ăn truyền thống lên các bàn thờ liệt sĩ quanh thung lũng để siêu thoát linh hồn vất vưởng hậu chiến và giải phóng đất đai hoang hóa.
 
