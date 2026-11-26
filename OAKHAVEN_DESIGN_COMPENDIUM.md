@@ -198,15 +198,17 @@ Rowan sở hữu không gian sống hoàn toàn riêng biệt nằm trên tầng
 
 ## 6. Mở Rộng Bản Đồ Thế Giới: Độc Bản Oakhaven (Không Rập Khuôn Stardew)
 
-Thế giới game mở rộng dựa trên **Khôi Phục Đại Công Trình Thủy Lợi, Giao Thương Xuyên Lục Địa & Đại Lễ Hội Ẩm Thực**:
+Thế giới game mở rộng dựa trên **Khôi Phục Đại Công Trình Thủy Lợi, Giao Thương Đường Sắt & Lễ Hội Mùa**:
 
 | Đại Công Trình Oakhaven | Tài Nguyên Tái Thiết | Cơ Chế Mở Khóa Độc Bản & Vùng Đất Mới |
 |:---|:---|:---|
 | **1. Kênh Thủy Lợi Thượng Nguồn & Bánh Xe Nước** *(Highland Aqueduct)* | 300 Gỗ Sồi, 40 Thỏi Sắt, 10 Bánh Răng Cổ, 3,000g | Khơi thông cống ngầm cổ đại, đưa nước ngọt về thung lũng. Mở khóa **Ruộng Bậc Thang Trồng Lúa Nước (Rice Paddies)** vụ Hè-Thu, hồ thả cá nước ngọt và tuyến chèo thuyền nan xuôi dòng. |
-| **2. Cây Thần Ngàn Năm & Đại Lễ Tẩy Trần** *(The Sacred Elder Grove)* | Nấu 5 Món Đại Tiệc Tẩy Trần cho Dân Làng & Bàn Thờ Cổ | Tổ chức Lễ Hội Ẩm Thực tại quảng trường, dâng 5 món đại tiệc thanh lọc khói sương chướng khí tích tụ sau chiến tranh. Xua tan sương mù tím độc, mở ra **Khu Rừng Thần Thảo Mộc** chứa cây giống vĩnh cửu và đàn ong rừng mật hoa. |
+| **2. Cây Thần Ngàn Năm & Nghi Thức Cầu Siêu** *(The Sacred Elder Grove)* | Nấu các món Lễ Vật Cầu Siêu dâng Dân Làng & Bàn Thờ Cổ | Tổ chức lễ hội ẩm thực tại quảng trường, dâng lễ vật thanh lọc khói sương chướng khí tích tụ sau chiến tranh. Xua tan sương mù tím độc, mở ra **Khu Rừng Thần Thảo Mộc** chứa cây giống vĩnh cửu và đàn ong rừng mật hoa. |
 | **3. Tuyến Cáp Treo Mỏ Khai Nguyên** *(The Ancient Sky-Tram)* | 50 Cáp Thép, 4 Lõi Năng Lượng Cổ, 20 Thỏi Vàng, 8,000g | Kích hoạt buồng cáp treo hơi nước vượt qua Vực Thẳm Không Đáy. Mở khóa **Đỉnh Núi Răng Sói (Wolf-Fang Peak)** — nơi có quặng Mithril lộ thiên, khu suối nước nóng ngâm mình hồi đầy Stamina và thảo mộc băng tuyết. |
-| **4. Tuyến Đường Sắt Trung Tâm Oakhaven** *(The Central Rail Line)* | 100 Thanh Ray Thép, 50 Thỏi Vàng, Ký Hợp Đồng Cung Cấp Lương Thực | **Không phải xe dịch chuyển!** Tàu hỏa mang các **Đoàn khách du lịch, Quý tộc đại lục, Đầu bếp quốc tế và Thương gia xa** tới Oakhaven vào mỗi cuối tuần. Làm bùng nổ nhu cầu thuê phòng trọ tầng 2 và ăn uống tại quán. |
+| **4. Tuyến Đường Sắt Trung Tâm Oakhaven** *(The Central Rail Line)* | 100 Thanh Ray Thép, 50 Thỏi Vàng, Ký Hợp Đồng Cung Cấp Lương Thực | **Không phải xe dịch chuyển!** Tàu hỏa mang các **Đoàn khách du lịch, Quý tộc, Thương nhân viễn xứ và Khách thập phương** tới Oakhaven vào mỗi cuối tuần. Làm bùng nổ nhu cầu thuê phòng trọ tầng 2 và ăn uống tại quán. |
 | **5. Cổ Đô Cấm Địa Lòng Đất** *(Sunken Necropolis - Hậu Tầng 150)* | 4 Món Ăn Tinh Tế Đặt Lên 4 Bệ Thờ Tứ Nguyên Tố | Phá vỡ phong ấn cổ xưa dưới đáy mỏ. Mở ra **Hầm Ngục Vô Tận Đổi Mới Hàng Tuần**, chứa các căn bếp thất truyền của nền văn minh cổ, boss thần thoại và trang bị truyền thuyết. |
+
+- **Di chuyển nhanh nội bộ (Fast Travel - 0 asset mới):** Sau khi mở **Kênh Thủy Lợi** và **Cáp Treo**, người chơi có thể tương tác với **Bến Thuyền / Trạm Cáp Treo** để di chuyển nhanh giữa Thung lũng $\leftrightarrow$ Ruộng Bậc Thang $\leftrightarrow$ Đỉnh Núi Răng Sói.
 
 ---
 
