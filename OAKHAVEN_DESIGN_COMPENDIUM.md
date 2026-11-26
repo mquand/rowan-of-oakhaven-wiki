@@ -25,12 +25,14 @@ flowchart TD
 ## 2. Hệ Thống HP, Stamina & Cơ Chế Phạt Ngất Xỉu
 
 ### 2.1. Thanh Chỉ Số Sinh Mệnh
-- **Thanh Thể Lực (Stamina Bar - Khởi điểm 270):** 
+- **Thanh Thể Lực (Stamina Bar - Khởi điểm 270, Trần 450):** 
   - Mọi thao tác cuốc đất, gieo hạt, tưới nước, đập đá, chặt cây, câu cá tiêu hao Stamina (từ 1 đến 4 điểm tùy cấp công cụ).
+  - **Tăng trần Stamina (+30/mốc, tối đa +180):** 3 bình Thuốc Bồi Bổ mua tại Trạm Y Tế của **Dược Sĩ Aurelia** + 3 mốc giải phóng vùng đất tại **Bàn Thờ Cổ Đại**.
   - Khi Stamina chạm 0: Kích hoạt trạng thái **Kiệt Sức (Exhausted)** — tốc độ di chuyển giảm 50%, nhân vật thở dốc, màn hình tối góc.
   - Tiếp tục dùng công cụ khi đang kiệt sức $\rightarrow$ Ngất xỉu ngay lập tức.
-- **Thanh Máu (HP Bar - Khởi điểm 100):**
+- **Thanh Máu (HP Bar - Khởi điểm 100, Trần 250):**
   - Máu giảm khi trúng đòn tấn công của quái vật hoặc bẫy hầm ngục. Chạm 0 $\rightarrow$ Gục ngã tại trận.
+  - **Tăng trần HP (+30/mốc, tối đa +150):** Phần thưởng hạ Boss Hầm Mỏ lần đầu tại các tầng mốc `30, 60, 90, 120, 150`.
 
 ### 2.2. Cơ Chế Phạt Ngất Xỉu & Dịch Vụ Thu Hồi Tại Hiệp Hội Mạo Hiểm (Rescue & Lost & Found)
 Phân định rõ rệt giữa hai trường hợp kiệt sức trên mặt đất và gục ngã dưới hầm mỏ:
@@ -39,6 +41,7 @@ Phân định rõ rệt giữa hai trường hợp kiệt sức trên mặt đ�
    - **Cậu phụ tá Colm** phát hiện và vác cáng khiêng Rowan về giường ngủ tại The Hearth.
    - Bị trừ 10% tiền mặt hiện có (tối đa 1,000g viện phí chi trả cho Trạm Y Tế của **Dược Sĩ Aurelia**).
    - **Bảo toàn trang bị & túi đồ:** Hoàn toàn **KHÔNG mất bất kỳ món đồ nào** trong ba lô hay nông sản vừa thu hoạch.
+   - **Hồi phục sáng hôm sau:** Tỉnh dậy với **50% HP & 50% Stamina**.
 2. **Gục Ngã Trong Hầm Ngục Mỏ Cổ 150 Tầng (Cạn HP do quái vật hoặc bẫy):**
    - Đội cứu nạn của **Hiệp Hội Mạo Hiểm (dưới quyền Hội Trưởng Thorne)** khẩn cấp kéo Rowan về Trạm Y Tế của **Dược Sĩ Aurelia**.
    - Bị trừ 10% tiền mặt (tối đa 1,000g phí cứu hộ và điều trị).
