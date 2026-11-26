@@ -36,9 +36,12 @@ By your side are **Pip** the pygmy owl (bringing dawn letters and seeds) and **M
 
 ## Survival Tips & Core Mechanics
 
-- **Stamina (270) & Health (HP 100):**
-  - Tilling, chopping, and mining consume Stamina. Reaching 0 causes exhaustion (50% movement speed penalty).
-  - Monster attacks deplete HP. Reaching 0 in HP or Stamina causes you to pass out on the spot.
+- **Stamina (270, Cap 450) & Health (HP 100, Cap 250):**
+  - Tilling, chopping, and mining consume Stamina. Reaching 0 causes exhaustion (50% movement speed penalty). Increase your Stamina cap (+30/milestone) via 3 Aurelia tonics and 3 Ancient Altar milestones.
+  - Monster attacks deplete HP. Increase your HP cap (+30/milestone) by defeating Mine Bosses for the first time at floors `30, 60, 90, 120, 150`.
+  - Reaching 0 in HP or Stamina (or passing `02:00 AM`) causes you to pass out and wake up the next morning with **50% HP & 50% Stamina**.
+- **Storage Chests & Craft from Chests:**
+  - Place Wooden or Iron Chests (`36 slots/chest`, `x99/x999` stacking) in the yard, mine entrance, or kitchen. Cooking and crafting automatically pull ingredients from linked chests.
 - **Rescue Service & Lost & Found:**
   - Upon collapsing, you are rescued by the Adventurer's Guild emergency squad (led by **Guildmaster Thorne**) and taken to Apothecary Aurelia's clinic. You pay a medical fee and drop random inventory items.
   - Visit **Valerie** at the Adventurer's Guild Lost & Found counter to reclaim dropped belongings using Gold or Expedition Lunchboxes!

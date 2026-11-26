@@ -36,9 +36,12 @@ Bạn vào vai **Rowan**, người trẻ dũng cảm rời bỏ guồng quay cô
 
 ## Mẹo sống sót & Cơ chế cốt lõi đầu game
 
-- **Thể Lực (Stamina 270) & Máu (HP 100):** 
-  - Cuốc đất, chặt cây, đào mỏ tiêu hao Thể lực. Hết Stamina bạn sẽ bị kiệt sức (chạy chậm 50%).
-  - Bị quái vật trong mỏ đánh trúng sẽ trừ HP. Khi HP hoặc Stamina chạm 0, bạn sẽ ngất xỉu.
+- **Thể Lực (Stamina 270, Trần 450) & Máu (HP 100, Trần 250):** 
+  - Cuốc đất, chặt cây, đào mỏ tiêu hao Thể lực. Hết Stamina bạn sẽ bị kiệt sức (chạy chậm 50%). Tăng trần Stamina (+30/mốc) qua 3 bình Thuốc Bồi Bổ của Aurelia và 3 mốc Bàn Thờ Cổ Đại.
+  - Bị quái vật trong mỏ đánh trúng sẽ trừ HP. Tăng trần HP (+30/mốc) khi hạ Boss Hầm Mỏ lần đầu tại tầng `30, 60, 90, 120, 150`.
+  - Khi HP hoặc Stamina chạm 0 (hoặc quá `02:00 AM`), bạn sẽ ngất xỉu và tỉnh dậy sáng hôm sau với **50% HP & 50% Stamina**.
+- **Rương Chứa Đồ & Chế Tạo Từ Kho (Storage Chests & Craft from Chests):**
+  - Đặt Rương Gỗ / Rương Sắt (`36 ô/rương`, xếp chồng `x99/x999`) ở sân vườn, cửa mỏ hoặc trong bếp. Khi nấu ăn hay chế tạo, hệ thống tự động rút nguyên liệu từ Tủ Bếp và các rương liên kết.
 - **Dịch vụ Cứu nạn & Tìm đồ thất lạc (Lost & Found):**
   - Khi ngất xỉu, bạn được đội cứu hộ của Hiệp Hội Mạo Hiểm (đứng đầu bởi **Hội Trưởng Thorne**) đưa về Trạm Xá của Dược sĩ Aurelia. Bạn sẽ bị trừ tiền viện phí và rơi ngẫu nhiên một số món đồ trong Balo.
   - Hãy ghé bàn trực của **Valerie** tại Hiệp Hội Mạo Hiểm để chuộc lại đồ thất lạc bằng Vàng hoặc đổi bằng Cơm hộp tiếp tế!
