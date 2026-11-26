@@ -1,3 +1,12 @@
+---
+title: "Game Localization & i18n Architecture Guide"
+status: published
+audience: public
+updated: 2026-11-26
+tags: [localization, i18n, gettext, godot, wiki]
+spoiler: false
+---
+
 # Game Localization & i18n Architecture Guide
 
 This document outlines the localization and internationalization standards synchronized between **Rowan of Oakhaven Wiki** and the **Godot project (Indie-game-001)**.

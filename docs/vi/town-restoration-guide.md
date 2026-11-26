@@ -1,3 +1,12 @@
+---
+title: "Cẩm Nang Đại Kế Hoạch Tái Thiết Thị Trấn Oakhaven"
+status: published
+audience: public
+updated: 2026-11-26
+tags: [restoration, town, infrastructure, progression, oakhaven]
+spoiler: false
+---
+
 # 🏛️ Cẩm Nang Đại Kế Hoạch Tái Thiết Thị Trấn Oakhaven (Town Restoration Guide)
 
 Thị trấn Oakhaven từng là tiền tuyến gánh chịu nhiều mất mát nặng nề sau cuộc chiến tàn khốc. Rừng sâu vương vãi sắt vụn gỉ sét, các cây cầu huyết mạch bị giật sập, cối xay gió kẹt trục, đất đai nhiễm độc và ngọn lửa sưởi ấm quảng trường đã nguội lạnh suốt một thập kỷ.

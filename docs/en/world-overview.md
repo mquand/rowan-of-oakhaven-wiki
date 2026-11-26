@@ -10,7 +10,7 @@ spoiler: false
 # 🌍 World Overview — The Five Realms
 
 > **Game:** Rowan of Oakhaven  
-> **Genre:** Dark Pixel RPG — Herbal Teas & Magic Bakery · Botanical Farming · Deep Caverns · Empathy & Cleansing  
+> **Genre:** Dark Pixel Action RPG — Hearth Eatery & Tavern · Botanical Farming · 150-Floor Mine-Dungeon · Post-War Restoration  
 
 ---
 
@@ -47,8 +47,8 @@ The world of Rowan of Oakhaven unfolds across **Five Great Realms**, each posses
 ## The Five Realms
 
 ### 🌿 Realm 1 — Oakhaven (Central Valley)
-**Overview:** The tranquil village where Rowan reopens her grandmother Amalia's tea salon. The Whisperwood borders the north, and the crystal mines descend to the east.  
-**Key Locations:** Oakhaven Cafe & Bakery, Boris's Forge, Sunday Nautilus Pier, Professor Orion's Observatory, Finn's Shallows  
+**Overview:** The tranquil frontier valley where Rowan reopens her grandmother Amalia's Hearth Eatery & Tavern. The Whisperwood borders the north, and the crystal mines descend to the east.  
+**Key Locations:** The Hearth Eatery & Tavern, Boris's Forge, Sunday Nautilus Pier, Professor Orion's Observatory, Finn's Shallows  
 **Inhabitants:** Townsfolk, forest glade spirits, dwarven blacksmiths, familiar creatures  
 
 ### ⚒️ Realm 2 — Khaz-Drakor (Dwarven Megalopolis)
@@ -63,12 +63,12 @@ The world of Rowan of Oakhaven unfolds across **Five Great Realms**, each posses
 
 ### 🏯 Realm 4 — Solaria (The Capital of Light)
 **Overview:** The magnificent white-marble metropolis of high politics and opulent commerce, where Rowan once walked the marble halls before turning her back on court scholasticism to embrace the frontier of Oakhaven. Boundless commerce, deep archives, and intense intrigue.  
-**Features:** Spire academies, wizard bazaars, underground archives, Grand Tea Guild arenas  
+**Features:** Spire academies, wizard bazaars, underground archives, Royal Culinary Guild arenas  
 **Inhabitants:** Aristocratic spellcasters, royal scholars, international merchants  
 
 ### ✨ Realm 5 — Aethelgard (The Floating Elysium)
 **Overview:** Legendary floating islands drifting above clouds where the boundary between mortals and cosmic starlight gently blurs. Unlocked near the story's climax.  
-**Features:** Floating stardust crystals, celestial meadows, shrines of antiquity  
+**Features:** Floating astral crystals, celestial meadows, shrines of antiquity  
 **Inhabitants:** Ancestral spirits, cloud guardians, radiant astral fauna  
 
 ---

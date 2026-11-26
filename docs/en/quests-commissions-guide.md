@@ -1,3 +1,12 @@
+---
+title: "Help Wanted & Bounty Commission Guide"
+status: published
+audience: public
+updated: 2026-11-26
+tags: [quests, commissions, bounties, progression, tavern]
+spoiler: false
+---
+
 # 📜 Help Wanted & Bounty Commission Guide
 
 The **Help Wanted & Commission System** in *Rowan of Oakhaven* anchors the game's core progression loop, tying together **Village Social Bonds**, **150-Floor Subterranean Delving**, and the culinary economy of **The Hearth Eatery & Tavern**.

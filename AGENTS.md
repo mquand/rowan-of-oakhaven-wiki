@@ -44,8 +44,8 @@ Mọi thay đổi UI của wiki này PHẢI theo phong cách **Dark Cozy Pixel A
 
 Repository này hoạt động ở chế độ đa ngôn ngữ (`vi` và `en`). Mọi cập nhật dữ liệu hoặc tài liệu PHẢI đồng bộ đầy đủ:
 
-- **Dữ liệu JSON:** Sửa `docs/data/vi/<file>.json` $\rightarrow$ **BẮT BUỘC** cập nhật tương ứng vào `docs/data/en/<file>.json` và file fallback `docs/data/<file>.json`.
-- **Tài liệu Markdown:** Thêm/sửa `docs/vi/<doc>.md` $\rightarrow$ **BẮT BUỘC** cập nhật tại `docs/en/<doc>.md` và file fallback `docs/<doc>.md`.
+- **Dữ liệu JSON:** Sửa `docs/data/vi/<file>.json` $\rightarrow$ **BẮT BUỘC** cập nhật tương ứng vào `docs/data/en/<file>.json` (nếu thiếu bản dịch, hệ thống tự fallback về `docs/data/vi/<file>.json`).
+- **Tài liệu Markdown:** Thêm/sửa `docs/vi/<doc>.md` $\rightarrow$ **BẮT BUỘC** cập nhật tại `docs/en/<doc>.md` (nếu thiếu bản dịch, hệ thống tự fallback về `docs/vi/<doc>.md`).
 - **Từ điển giao diện:** Thêm nhãn mới tại `src/lib/i18n/dictionaries/vi.js` $\rightarrow$ **BẮT BUỘC** thêm nhãn đó vào `src/lib/i18n/dictionaries/en.js`.
 - **Hằng số & nhãn:** Thêm enum/label mới phải đăng ký vào `src/lib/constants.js`.
 - **Frontmatter Markdown:** Giữ đúng các trường chuẩn: `title`, `status`, `audience`, `updated`, `tags`, `spoiler`.

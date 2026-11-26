@@ -1,3 +1,12 @@
+---
+title: "The Oakhaven Inn & Lodging Management Guide"
+status: published
+audience: public
+updated: 2026-11-26
+tags: [inn, lodging, tavern, hospitality, economy]
+spoiler: false
+---
+
 # 🛌 The Oakhaven Inn & Lodging Management Guide
 
 Inside The Hearth Eatery & Tavern, the ground floor hums with crackling kitchen fires and hearty platters, while the **Second-Story Loft** serves as a tranquil sanctuary for bone-weary delvers, far-traveled merchants, and mysterious strangers seeking refuge from midnight blizzards.

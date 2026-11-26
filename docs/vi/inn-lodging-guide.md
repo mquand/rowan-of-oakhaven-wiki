@@ -1,3 +1,12 @@
+---
+title: "Cẩm Nang Quản Lý Nhà Trọ Oakhaven (The Hearth Inn & Lodging)"
+status: published
+audience: public
+updated: 2026-11-26
+tags: [inn, lodging, tavern, hospitality, economy]
+spoiler: false
+---
+
 # 🛌 Cẩm Nang Quản Lý Nhà Trọ Oakhaven (The Hearth Inn & Lodging)
 
 Tại Quán Ăn & Nhà Trọ Oakhaven, tầng trệt là nơi bếp lửa rực cháy phục vụ những món ăn ấm lòng, còn **Tầng Gác 2** chính là điểm dừng chân yên bình cho thợ mỏ kiệt sức, thương nhân viễn xứ và những vị khách bí ẩn trú bão tuyết.

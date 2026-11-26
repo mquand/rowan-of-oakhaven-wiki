@@ -93,7 +93,7 @@
           "winter_chestnut_hot_chocolate"
         ],
         "disliked": [
-          "item_tea_calming_lotus",
+          "sun_daisy_lotus_herbal_tea",
           "ore_coal"
         ],
         "hated": [
@@ -127,13 +127,13 @@
       "species": "Kemomimi-Elf (Snow Fox & Glade Fae)",
       "description": "Unique Kemomimi-Elf spirit featuring fluffy white fox ears atop jade twin-tails, pointed elven ears, and a soft crimson knitted scarf.",
       "favorite_items": [
-        "item_tea_calming_lotus"
+        "food_sun_daisy_lotus_herbal_tea"
       ],
       "quote": "The howling forest winds tonight make my ears ring... could I have something cool and gentle to soothe my heart?",
       "birthday": "Spring 7",
       "schedule": "Afternoon: Strolls through Whisperwood; Evening: Quiet corner at the eatery",
       "real_world_wound": "Hybrid outcast shunned by both fae and beastfolk; yearns for warmth yet dreads hostility.",
-      "comfort_dish": "item_tea_calming_lotus",
+      "comfort_dish": "food_sun_daisy_lotus_herbal_tea",
       "heart_event_summary": "Forecasts rare botanical herbs by weather at 4 Hearts; unlocks the hidden path to the Deep Forest Shrine to gather luminescent fungi at 8 Hearts.",
       "gift_preferences": {
         "loved": [
@@ -142,7 +142,7 @@
           "wild_berry"
         ],
         "liked": [
-          "item_tea_calming_lotus",
+          "artichoke_lotus_cleansing_broth",
           "wild_honey",
           "drop_moon_berry",
           "apricot_honey_fig_poultry_tagine"
@@ -229,19 +229,19 @@
       "species": "Dwarf",
       "description": "Stout, hardy dwarven smith with twin-braided russet beard and an ash-stained leather apron from years at the anvil.",
       "favorite_items": [
-        "item_pastry_cinnamon_roll",
-        "item_dish_dwarf_ironforge_goulash",
-        "item_tea_whisper_hearth"
+        "food_hearth_baked_apple_fig_pie",
+        "food_khaz_drakor_fiery_fish_hotpot",
+        "food_hearth_steamed_ash_taro_cake"
       ],
       "quote": "Hammering steel all day leaves me bone-weary. The furnace is hot, but my heart feels cold... got anything sweet and fragrant with wild cinnamon?",
       "birthday": "Winter 18",
       "schedule": "07:00 - 18:00: At the forge anvil; 19:00: Cinnamon rolls at the eatery",
       "real_world_wound": "Tormented by a 10-year-old mine collapse that crippled Bram; overprotective to a fault out of terror.",
-      "comfort_dish": "item_dish_dwarf_ironforge_goulash",
+      "comfort_dish": "food_khaz_drakor_fiery_fish_hotpot",
       "heart_event_summary": "Unlocks iron farm tool smithing at 4 Hearts; reconciles 10-year feud with brother Bram and unlocks the Advanced Refining Forge at 8 Hearts.",
       "gift_preferences": {
         "loved": [
-          "item_pastry_cinnamon_roll",
+          "hearth_baked_apple_fig_pie",
           "night_wine_beef_bourguignon",
           "ore_gold"
         ],
@@ -416,19 +416,19 @@
       "species": "Human",
       "description": "Gentle elder herbalist with silver hair pinned in a low bun and a spring-embroidered kerchief; foster grandmother to Kael.",
       "favorite_items": [
-        "item_pastry_scone_berry",
-        "item_tea_sun_daisy_honey",
-        "item_dish_sweet_pumpkin_potage"
+        "food_blackberry_gold_kiwi_tart",
+        "food_sun_daisy_lotus_herbal_tea",
+        "food_cheesy_baked_sweet_pumpkin"
       ],
       "quote": "The caterpillars were harsh on my pumpkins today. Weeding since midday has my old back aching, Rowan...",
       "birthday": "Spring 9",
       "schedule": "06:00 - 17:00: Selling seeds in Town Square; Evening: Strolling riverside",
       "real_world_wound": "Debilitating joint degeneration; fears dying and leaving orphaned Kael alone in a harsh world.",
-      "comfort_dish": "item_dish_sweet_pumpkin_potage",
+      "comfort_dish": "food_cheesy_baked_sweet_pumpkin",
       "heart_event_summary": "Unlocks the Four-Seasons Nursery (basic greenhouse) at 4 Hearts; rests easy seeing Kael blossom and passes down master gardening wisdom at 8 Hearts.",
       "gift_preferences": {
         "loved": [
-          "item_dish_sweet_pumpkin_potage",
+          "cheesy_baked_sweet_pumpkin",
           "seed_sen_tea",
           "sun_daisy_lotus_herbal_tea"
         ],
@@ -568,24 +568,24 @@
       "species": "Human",
       "description": "An orphaned boy with a pointed wool cap, patchworked winter coat, and bright curious eyes; Maeve's beloved ward.",
       "favorite_items": [
-        "item_cake_fairy_birthday",
-        "item_dish_sweet_pumpkin_potage",
+        "food_four_season_turban_orchard_cake",
+        "food_cheesy_baked_sweet_pumpkin",
         "wild_berry"
       ],
       "quote": "Grandma Maeve's knees have been aching in the damp air... Can I trade my matchboxes for some ginger tea for her?",
       "birthday": "Summer 22",
       "schedule": "Morning: Practice yard; Evening: Sipping cold berry tea",
       "real_world_wound": "Acute abandonment trauma; overworks himself in freezing gales out of terror of being discarded.",
-      "comfort_dish": "item_cake_fairy_birthday",
+      "comfort_dish": "food_four_season_turban_orchard_cake",
       "heart_event_summary": "Receives rare heirloom seeds at 4 Hearts; upgrades the Automated Plant Propagation Station at 8 Hearts after healing the fear of abandonment.",
       "gift_preferences": {
         "loved": [
           "four_season_turban_orchard_cake",
           "wild_honey",
-          "item_pastry_scone_berry"
+          "blackberry_gold_kiwi_tart"
         ],
         "liked": [
-          "item_pastry_cinnamon_roll",
+          "hearth_baked_apple_fig_pie",
           "item_wood_pine",
           "wild_berry",
           "sea_salted_rice_ball"
@@ -712,13 +712,13 @@
       "birthday": "Winter 28",
       "schedule": "Present in grimoire margins, cherished memories, and dreams",
       "real_world_wound": "Sacrificed her own health during famine years to keep the frontier settlement fed and alive.",
-      "comfort_dish": "item_tea_calming_lotus",
+      "comfort_dish": "food_sun_daisy_lotus_herbal_tea",
       "heart_event_summary": "Guides Rowan through 55 heirloom recipes and the healing philosophy: \"Cooking is to make others feel worthy of living and being loved.\"",
       "gift_preferences": {
         "loved": [
           "sun_daisy_lotus_herbal_tea",
           "grand_saffron_seafood_paella",
-          "item_bread_brioche"
+          "crusty_hearth_sourdough"
         ],
         "liked": [
           "wild_honey",
@@ -765,19 +765,19 @@
       "species": "Dwarf",
       "description": "Veteran miner prospecting the deepest mine levels; Boris's younger brother. Gruff and argumentative, but fiercely devoted to family.",
       "favorite_items": [
-        "item_bread_miner_sourdough",
-        "item_dish_miner_potato_stew",
+        "food_cassava_dark_rye_hearth_loaf",
+        "food_creamy_mushroom_turnip_soup",
         "ore_iron"
       ],
       "quote": "My brother Boris is lecturing me about brittle iron ore again... Brew me something deeply bitter so I can swallow my temper!",
       "birthday": "Winter 15",
       "schedule": "08:00 - 17:00: Mine shafts entrance; Evening: Arguing at Boris's forge",
       "real_world_wound": "Pride wounded by brotherly pity; dives into lethal depths to prove he is still a whole, capable man.",
-      "comfort_dish": "item_bread_miner_sourdough",
+      "comfort_dish": "food_cassava_dark_rye_hearth_loaf",
       "heart_event_summary": "Points out deep subterranean mineral veins at 4 Hearts; partners with brother Boris to unlock the Advanced Refining Forge at 8 Hearts.",
       "gift_preferences": {
         "loved": [
-          "item_dish_miner_potato_stew",
+          "creamy_mushroom_turnip_soup",
           "crusty_hearth_sourdough",
           "ore_iron"
         ],
@@ -903,27 +903,27 @@
       "species": "Human",
       "description": "Energetic, nimble pastry seller; niece of Boris and Bram. Quick-witted, cheerful, and always inventing eccentric new baked goods.",
       "favorite_items": [
-        "item_pastry_berry_shortcake",
-        "item_pastry_scone_berry",
-        "item_tea_frostmint_breeze"
+        "food_berry_cherry_vanilla_tart",
+        "food_blackberry_gold_kiwi_tart",
+        "food_chilled_pomegranate_mint_juice"
       ],
       "quote": "Uncle Boris just tapped out a star-shaped cookie cutter for me! Let me try that tart berry tea to inspire my next batch!",
       "birthday": "Autumn 11",
       "schedule": "08:00 - 16:00: Postal run; 18:00: Dropping letters off at the eatery",
       "real_world_wound": "Orphaned niece raised by bachelor dwarven uncles; dreams of running an independent mobile bakery cart.",
-      "comfort_dish": "item_pastry_berry_shortcake",
+      "comfort_dish": "food_berry_cherry_vanilla_tart",
       "heart_event_summary": "Opens Plaza Pastry Rolling Cart at 4 Hearts; operates the Town Hot Meal Delivery service to courier meals to miners and villagers at 8 Hearts.",
       "gift_preferences": {
         "loved": [
-          "item_pastry_scone_berry",
-          "item_tea_glacial_berry",
+          "blackberry_gold_kiwi_tart",
+          "summer_melon_kiwano_mint_salad",
           "item_flour"
         ],
         "liked": [
           "item_butter",
           "wild_honey",
           "wild_berry",
-          "item_pastry_scone_berry"
+          "walnut_chufa_trail_cookies"
         ],
         "disliked": [
           "solaria_saffron_fish_bouillabaisse",
@@ -1012,7 +1012,7 @@
       "species": "Human",
       "description": "Astronomer stationed atop the hill observatory; Clara's father. Absentminded and so captivated by constellations that he forgets meals.",
       "favorite_items": [
-        "item_tea_sun_daisy_honey",
+        "food_sun_daisy_lotus_herbal_tea",
         "star_flour",
         "gem_amethyst"
       ],
@@ -1020,18 +1020,18 @@
       "birthday": "Autumn 25",
       "schedule": "Night: Stargazing at Observatory; Morning: Napping in library",
       "real_world_wound": "Progressive dementia (Alzheimer's); desperately stays awake to spot his late wife's star before memory fades.",
-      "comfort_dish": "item_pastry_berry_shortcake",
+      "comfort_dish": "food_berry_cherry_vanilla_tart",
       "heart_event_summary": "Provides 2-day advance forecasts of anomalous weather (blizzards, miasma acid rain) at 4 Hearts; triggers the Meteor Shower Event yielding surface crystals at 8 Hearts.",
       "gift_preferences": {
         "loved": [
           "blackberry_gold_kiwi_tart",
-          "item_tea_calming_lotus",
+          "sun_daisy_lotus_herbal_tea",
           "gem_sapphire"
         ],
         "liked": [
           "drop_moon_berry",
           "wild_honey",
-          "item_pastry_scone_berry",
+          "walnut_chufa_trail_cookies",
           "gem_amethyst"
         ],
         "disliked": [
@@ -1126,21 +1126,21 @@
       "species": "Human",
       "description": "Meticulous curator of Oakhaven's archives; Orion's daughter. Organized, caring, and constantly reminding her father to take care of himself.",
       "favorite_items": [
-        "item_tea_earl_grey_clara",
-        "item_tea_thousand_stars_lavender",
+        "food_hot_highland_milk_coffee",
+        "food_sylva_fae_ube_vanilla_tart",
         "lotus_tea_leaves"
       ],
       "quote": "Father stayed up in the observatory tower for two days without food again... Could you brew a big pot of chamomile tea so I can make him drink it?",
       "birthday": "Spring 16",
       "schedule": "08:00 - 17:00: Library and dispensary; Evening: Calming lavender tea",
       "real_world_wound": "Caregiver burnout; tore up a royal scholarship to care for her ailing father, mourning lost youth.",
-      "comfort_dish": "item_tea_earl_grey_clara",
+      "comfort_dish": "food_hot_highland_milk_coffee",
       "heart_event_summary": "Deciphers ancient texts at 4 Hearts; bequeaths the heirloom valley classic dessert recipe codex at 8 Hearts.",
       "gift_preferences": {
         "loved": [
-          "item_pastry_scone_berry",
+          "blackberry_gold_kiwi_tart",
           "sun_daisy_lotus_herbal_tea",
-          "item_bread_brioche"
+          "crusty_hearth_sourdough"
         ],
         "liked": [
           "wild_berry",
@@ -1249,8 +1249,8 @@
       "species": "Human",
       "description": "Weathered sea captain who has hung up his oars; Finn's grandfather. Delights in recounting tales of uncharted celestial islands.",
       "favorite_items": [
-        "item_tea_magma_spiced_chai",
-        "item_tea_solar_dawn",
+        "food_winter_chestnut_hot_chocolate",
+        "food_sun_daisy_lotus_herbal_tea",
         "drop_crystal_sea_salt"
       ],
       "quote": "The valley wind smells of the great outer seas of my youth... Give an old sailor a robust spiced cup and listen to my stories of the floating isles.",
@@ -1277,7 +1277,7 @@
         ],
         "hated": [
           "item_flour",
-          "item_pastry_scone_berry"
+          "walnut_chufa_trail_cookies"
         ]
       },
       "schedules": {
@@ -1371,7 +1371,7 @@
       "species": "Human",
       "description": "Spirited boy who fishes along mountain streams and misty lakes; Garrick's grandson. Fascinated by luminous aquatic fauna.",
       "favorite_items": [
-        "item_tea_frostmint_breeze",
+        "food_chilled_pomegranate_mint_juice",
         "wild_berry",
         "drop_prism_jelly"
       ],
@@ -1379,12 +1379,12 @@
       "birthday": "Summer 19",
       "schedule": "06:00 - 18:00: Angling by the starlight brook; Evening: Warming by tavern hearth",
       "real_world_wound": "Fishes tirelessly to buy back the ancestral Silver Compass Garrick pawned for family medicine.",
-      "comfort_dish": "item_tea_frostmint_breeze",
+      "comfort_dish": "food_chilled_pomegranate_mint_juice",
       "heart_event_summary": "Unlocks Fishing Rod & Lake Minigame at 4 Hearts; supplies bioluminescent fish for night-vision recipes in deep mines at 8 Hearts.",
       "gift_preferences": {
         "loved": [
           "chili_lime_grilled_stream_carp",
-          "item_pastry_scone_berry",
+          "blackberry_gold_kiwi_tart",
           "drop_moon_berry"
         ],
         "liked": [
@@ -1394,7 +1394,7 @@
           "sea_salted_rice_ball"
         ],
         "disliked": [
-          "item_tea_calming_lotus",
+          "sun_daisy_lotus_herbal_tea",
           "artichoke_lotus_cleansing_broth"
         ],
         "hated": [
@@ -1487,12 +1487,12 @@
       "birthday": "Spring 5",
       "schedule": "All day: Tending Sylva-Fae canopy silk greenhouse",
       "real_world_wound": "Joint tremor syndrome in her fingers after decades of nonstop needlework; fears losing her craft and disappointing beloved companions.",
-      "comfort_dish": "item_tea_thousand_stars_lavender",
+      "comfort_dish": "food_sylva_fae_ube_vanilla_tart",
       "heart_event_summary": "Weaves Expanded Adventurer Pouch (+12 slots) at 4 Hearts; tailors the Eternal Winter Gala Robe for Rowan using Thistle's silk at 8 Hearts.",
       "gift_preferences": {
         "loved": [
-          "item_tea_thousand_stars_lavender",
-          "item_pastry_scone_berry",
+          "sylva_fae_ube_vanilla_tart",
+          "blackberry_gold_kiwi_tart",
           "gem_sapphire"
         ],
         "liked": [
@@ -1548,7 +1548,7 @@
       "species": "Human",
       "description": "Monocled botanical researcher from the elven woods; Elora's confidant. Frequently trades ancient roots for grounding, hearty teas.",
       "favorite_items": [
-        "item_tea_sylvan_night_infusion",
+        "food_snow_lotus_glow_fern_soup",
         "seed_star_lavender",
         "lotus_tea_leaves"
       ],
@@ -1556,7 +1556,7 @@
       "birthday": "Spring 24",
       "schedule": "Afternoon & Evening: Patrolling Sylva-Fae ancient boughs",
       "real_world_wound": "Haunted by his inability to heal Mentor Fern blind eyes; constantly torments himself for lacking deeper botanical knowledge.",
-      "comfort_dish": "item_tea_sylvan_night_infusion",
+      "comfort_dish": "food_snow_lotus_glow_fern_soup",
       "heart_event_summary": "Opens Herbal Essential Oil Extractor to enhance dish buff stats at 4 Hearts; harvests rare Millennial Roots at 8 Hearts.",
       "gift_preferences": {
         "loved": [
@@ -1565,7 +1565,7 @@
           "seed_sen_tea"
         ],
         "liked": [
-          "item_tea_calming_lotus",
+          "snow_lotus_glow_fern_soup",
           "wild_honey",
           "drop_moon_berry",
           "wild_berry"
@@ -1612,15 +1612,15 @@
       "species": "Human",
       "description": "A dependable local militia watchman patrolling Oakhaven's boundary gates by night. Drives off raiding wild boars, catches stray thieves, and keeps the peace around late-night tavern patrons.",
       "favorite_items": [
-        "item_dish_spicy_ginger_stew",
-        "item_bread_miner_sourdough",
+        "food_fiery_chili_ginger_grilled_beef",
+        "food_cassava_dark_rye_hearth_loaf",
         "ore_iron"
       ],
       "quote": "Wind howls right through the gaps in my armor... On long night patrols, only your spicy tea keeps my eyes from snapping shut.",
       "birthday": "Autumn 13",
       "schedule": "07:00 - 17:00: Operating Oakhaven windmill grinding flour",
       "real_world_wound": "Supports 4 impoverished siblings back home; endures frozen nocturnal vigils in solitude.",
-      "comfort_dish": "item_dish_spicy_ginger_stew",
+      "comfort_dish": "food_fiery_chili_ginger_grilled_beef",
       "heart_event_summary": "Reduces wild beast fence breaches by 50% at 4 Hearts; guarantees absolute nighttime security for town and homestead at 8 Hearts.",
       "gift_preferences": {
         "loved": [
@@ -1635,7 +1635,7 @@
           "bay_laurel_smoked_pork_haunch"
         ],
         "disliked": [
-          "item_tea_calming_lotus",
+          "sun_daisy_lotus_herbal_tea",
           "summer_melon_kiwano_mint_salad"
         ],
         "hated": [
@@ -1690,7 +1690,7 @@
       "birthday": "Summer 22",
       "schedule": "Morning: Honeybee apiary; Afternoon: Delivering fresh honey to shop",
       "real_world_wound": "Disgusted by commercial medicine prioritizing nobles; struggles with poverty-driven medical shortages.",
-      "comfort_dish": "item_tea_thousand_stars_lavender",
+      "comfort_dish": "food_sylva_fae_ube_vanilla_tart",
       "heart_event_summary": "Brews Vitality Healing Broth to relieve chronic pain at 2 Hearts; supplies deep-wound salves and stamina tonics at 6 Hearts.",
       "gift_preferences": {
         "loved": [
@@ -1699,7 +1699,7 @@
           "gem_amethyst"
         ],
         "liked": [
-          "item_tea_calming_lotus",
+          "snow_lotus_glow_fern_soup",
           "wild_honey",
           "item_flour",
           "wild_berry"
@@ -1757,7 +1757,7 @@
       "species": "Human (Exiled Solarian Aristocrat)",
       "description": "A highborn Solarian aristocrat suffering from a chronic hereditary blood ailment, pale and sensitive to harsh sunlight. Fleeing court purges, he rents a secluded chamber on the upper floor of The Hearth, relying on Rowan's rich berry cordials and herbal broths to sustain his failing health.",
       "favorite_items": [
-        "item_tea_glacial_berry",
+        "food_summer_melon_kiwano_mint_salad",
         "wild_berry"
       ],
       "quote": "Do not mistake my pallor for frailty. The blood in my veins may falter, but Montfort honor has never bowed to circumstance.",
@@ -1776,7 +1776,7 @@
           "drop_moon_berry",
           "gem_amethyst",
           "night_wine_beef_bourguignon",
-          "item_bread_brioche"
+          "crusty_hearth_sourdough"
         ],
         "disliked": [
           "garlic_buttered_roasted_potato",
@@ -1837,19 +1837,19 @@
       "birthday": "Autumn 9",
       "schedule": "Wandering through cloud layers and gathering starlight dew",
       "real_world_wound": "Exiled by the Solarian Mages Council for researching commoner folk magic; wanders across cloud realms with a broom running out of mana.",
-      "comfort_dish": "item_tea_calming_lotus",
+      "comfort_dish": "food_sun_daisy_lotus_herbal_tea",
       "heart_event_summary": "Opens Sky Express 2-hour inter-realm ingredient air delivery at 4 Hearts; gifts Rowan the Enchanted Flying Broom at 8 Hearts.",
       "gift_preferences": {
         "loved": [
           "blackberry_gold_kiwi_tart",
-          "item_tea_glacial_berry",
+          "summer_melon_kiwano_mint_salad",
           "gem_ruby"
         ],
         "liked": [
           "wild_berry",
           "drop_moon_berry",
           "wild_honey",
-          "item_bread_brioche"
+          "crusty_hearth_sourdough"
         ],
         "disliked": [
           "ore_coal",
@@ -1956,7 +1956,7 @@
       "birthday": "Summer 17",
       "schedule": "Swimming through misty highland springs and underground lakes",
       "real_world_wound": "Profound isolation in silent sea trenches and deep curiosity about terrestrial warmth; fears rejection as a sea-dweller.",
-      "comfort_dish": "item_pastry_berry_shortcake",
+      "comfort_dish": "food_berry_cherry_vanilla_tart",
       "heart_event_summary": "Trades cloud lake crystal sea salts at 4 Hearts; supplies glowing pearls to craft poison-resistant jewelry at 8 Hearts.",
       "gift_preferences": {
         "loved": [
@@ -2008,15 +2008,15 @@
       "species": "Human (Veteran Vanguard Commander)",
       "description": "Decorated royal guard captain bearing an iron leg prosthesis. Having lost 18 comrades in deep subterranean vaults, he established the Rescue Outpost with a binding oath: 'No one is left behind in the dark.'",
       "favorite_items": [
-        "item_dish_spicy_ginger_stew",
+        "food_fiery_chili_ginger_grilled_beef",
         "ore_iron",
-        "item_bread_miner_sourdough"
+        "food_cassava_dark_rye_hearth_loaf"
       ],
       "quote": "Carelessness in deep shafts is paid in blood. If you collapse down there, my squad will pull you back into the light.",
       "birthday": "Winter 14",
       "schedule": "08:00 - 22:00: Commanding guild hall operations; Night: Inspecting mine barricades",
       "real_world_wound": "Haunted by severe Survivor's Guilt after his 18-soldier platoon perished in the Sunken Necropolis.",
-      "comfort_dish": "item_dish_spicy_ginger_stew",
+      "comfort_dish": "food_fiery_chili_ginger_grilled_beef",
       "heart_event_summary": "Opens Deep Mine Monster Bounty Board with generous gold rewards at 4 Hearts; issues Deep Mine Clearance Seals unlocking cross-zone elevators and the Infinite Abyss Gate at 8 Hearts.",
       "gift_preferences": {
         "loved": [
@@ -2035,7 +2035,7 @@
           "wild_berry"
         ],
         "hated": [
-          "item_pastry_scone_berry",
+          "walnut_chufa_trail_cookies",
           "drop_prism_jelly"
         ]
       },
@@ -2130,21 +2130,21 @@
       "species": "Human (Retired Marksman)",
       "description": "Former sharpshooter who suffered unilateral hearing damage and acoustic blast PTSD. Meticulously logs rescue reports and coordinates gear retrieval for injured miners.",
       "favorite_items": [
-        "item_dish_sweet_pumpkin_potage",
-        "item_tea_sun_daisy_honey",
+        "food_cheesy_baked_sweet_pumpkin",
+        "food_sun_daisy_lotus_herbal_tea",
         "gem_sapphire"
       ],
       "quote": "Your belongings have been secured by our scouts. Value your life over raw ore; tools can be re-forged, lives cannot.",
       "birthday": "Autumn 20",
       "schedule": "08:00 - 20:00: Managing lost items desk; 20:30: Dining at Rowan's Hearth Eatery",
       "real_world_wound": "Suffers from acoustic blast PTSD and partial deafness, finding solace in quiet administrative paperwork.",
-      "comfort_dish": "item_dish_sweet_pumpkin_potage",
+      "comfort_dish": "food_cheesy_baked_sweet_pumpkin",
       "heart_event_summary": "Opens the Town Buyback Counter for items accidentally sold to merchants within 3 days at 4 Hearts; recovers misplaced essential tools dropped on the surface at 8 Hearts.",
       "gift_preferences": {
         "loved": [
-          "item_dish_wild_forest_mushroom_soup",
+          "creamy_mushroom_turnip_soup",
           "gem_amethyst",
-          "item_tea_calming_lotus"
+          "sun_daisy_lotus_herbal_tea"
         ],
         "liked": [
           "item_flour",
@@ -2239,24 +2239,24 @@
       "species": "Human (Veteran Adventurer)",
       "description": "Silver-haired elder with a resonant voice, leaning upon an antique runic oak staff. Steadfastly sheltered the town through the Great Blight 20 years ago.",
       "favorite_items": [
-        "item_tea_whisper_hearth",
-        "item_bread_brioche",
+        "food_hearth_steamed_ash_taro_cake",
+        "food_crusty_hearth_sourdough",
         "wild_honey"
       ],
       "quote": "I have borne this town for thirty years upon aching shoulders and trembling knees... I am weary, yet who shall shoulder it if I falter?",
       "birthday": "Winter 20",
       "schedule": "08:00 - 16:00: Town Hall; Evening: Resting at the Hearth Eatery",
       "real_world_wound": "Tired Hero syndrome; bore the crushing mantle of sole communal leadership for three decades, terrified of catastrophic failure if he lets go.",
-      "comfort_dish": "item_tea_whisper_hearth",
+      "comfort_dish": "food_hearth_steamed_ash_taro_cake",
       "heart_event_summary": "Oversees the 12-Project Town Board restoration; honors Rowan with the Valley Pioneer Monument at 8 Hearts.",
       "gift_preferences": {
         "loved": [
-          "item_bread_brioche",
-          "item_tea_calming_lotus",
+          "avocado_egg_hearth_toast",
+          "sun_daisy_lotus_herbal_tea",
           "item_wood_oak"
         ],
         "liked": [
-          "item_dish_sweet_pumpkin_potage",
+          "cheesy_baked_sweet_pumpkin",
           "wild_honey",
           "crusty_hearth_sourdough",
           "sea_salted_rice_ball"
@@ -2329,7 +2329,7 @@
       "species": "Beastfolk (Ursine Bear-kin)",
       "description": "Burly, kindhearted brown bear-kin carpenter whose weathered paws craft breathtaking timber joinery. A quiet artisan whose deep laughter rattles the shop rafters.",
       "favorite_items": [
-        "item_dish_sweet_pumpkin_potage",
+        "food_cheesy_baked_sweet_pumpkin",
         "wild_honey",
         "food_crusty_hearth_sourdough"
       ],
@@ -2337,7 +2337,7 @@
       "birthday": "Autumn 8",
       "schedule": "07:00 - 17:00: Carpenter Workshop; 18:30: Hearth Eatery",
       "real_world_wound": "Exiled from his native mountain clan for pacifism; branded a coward yet steadfast in his conviction that creation triumphs over ruin.",
-      "comfort_dish": "item_dish_sweet_pumpkin_potage",
+      "comfort_dish": "food_cheesy_baked_sweet_pumpkin",
       "heart_event_summary": "Expands Eatery dining floor at 2 Hearts; rebuilds the Ancient Wooden Bridge connecting to the deep forest at 6 Hearts.",
       "gift_preferences": {
         "loved": [
@@ -2439,26 +2439,26 @@
       "species": "Halfling",
       "description": "Nimble halfling clad in a forest-green feathered beret, carrying a cherished antique mandolin. Sings like a dawn thrush yet turns crimson with stage fright offstage.",
       "favorite_items": [
-        "item_pastry_scone_berry",
-        "item_tea_glacial_berry",
+        "food_blackberry_gold_kiwi_tart",
+        "food_summer_melon_kiwano_mint_salad",
         "wild_berry"
       ],
       "quote": "I-I can sing well enough, really... but the moment people look directly at me without my music, my throat locks tight...",
       "birthday": "Spring 14",
       "schedule": "Afternoon: Riverside rehearsal; Evening: Performing at the Hearth Eatery",
       "real_world_wound": "Suffered acute aphonia for three years following the destruction of his homeland; afflicted by severe social anxiety and performance dread.",
-      "comfort_dish": "item_pastry_scone_berry",
+      "comfort_dish": "food_blackberry_gold_kiwi_tart",
       "heart_event_summary": "Performs acoustic mandolin at the eatery; unlocks Tavern Music Box at 4 Hearts and Grand Concert boosting patron joy at 8 Hearts.",
       "gift_preferences": {
         "loved": [
-          "item_pastry_scone_berry",
-          "item_tea_glacial_berry",
+          "blackberry_gold_kiwi_tart",
+          "summer_melon_kiwano_mint_salad",
           "wild_honey"
         ],
         "liked": [
           "wild_berry",
-          "item_bread_brioche",
-          "item_pastry_scone_berry",
+          "crusty_hearth_sourdough",
+          "walnut_chufa_trail_cookies",
           "drop_moon_berry"
         ],
         "disliked": [
@@ -2663,7 +2663,7 @@
         ],
         "disliked": [
           "wild_berry",
-          "item_tea_calming_lotus"
+          "sun_daisy_lotus_herbal_tea"
         ],
         "hated": [
           "drop_prism_jelly",
@@ -2765,7 +2765,7 @@
           "gem_amethyst"
         ],
         "liked": [
-          "item_tea_calming_lotus",
+          "artichoke_lotus_cleansing_broth",
           "wild_honey",
           "wild_berry",
           "item_wood_oak"
@@ -2870,8 +2870,8 @@
         ],
         "liked": [
           "wild_honey",
-          "item_pastry_scone_berry",
-          "item_pastry_scone_berry",
+          "blackberry_gold_kiwi_tart",
+          "walnut_chufa_trail_cookies",
           "drop_moon_berry"
         ],
         "disliked": [
@@ -2954,7 +2954,7 @@
       "species": "Dwarf",
       "description": "Legendary dwarven matriarch boasting four thick platinum braids and sinewy arms that have hammered out ancient relics. Foster mother of Boris and Bram.",
       "favorite_items": [
-        "item_dish_dwarf_ironforge_goulash",
+        "food_khaz_drakor_fiery_fish_hotpot",
         "ore_gold",
         "food_hearth_baked_apple_fig_pie"
       ],
@@ -2962,7 +2962,7 @@
       "birthday": "Winter 5",
       "schedule": "All day: Pounding enchanted metal at the Royal Forge of Khaz-Drakor",
       "real_world_wound": "Haunted by the memory of driving Boris and Bram away with unrelenting severity; maternal remorse buried deep behind deafening anvil strikes.",
-      "comfort_dish": "item_dish_dwarf_ironforge_goulash",
+      "comfort_dish": "food_khaz_drakor_fiery_fish_hotpot",
       "heart_event_summary": "Teaches heavy alloy casting at 6 Hearts; unlocks legendary Mithril weapons and armor smithing at 8 Hearts.",
       "gift_preferences": {
         "loved": [
@@ -2981,7 +2981,7 @@
           "wild_berry"
         ],
         "hated": [
-          "item_tea_calming_lotus",
+          "sun_daisy_lotus_herbal_tea",
           "drop_prism_jelly"
         ]
       },
@@ -3157,7 +3157,7 @@
           "sea_salted_rice_ball"
         ],
         "disliked": [
-          "item_tea_calming_lotus",
+          "sun_daisy_lotus_herbal_tea",
           "summer_melon_kiwano_mint_salad"
         ],
         "hated": [
@@ -3224,7 +3224,7 @@
       "species": "Moth-Folk",
       "description": "Lithe moth-folk with silver-violet wings dusted with bioluminescent scales, feathery antennae, and a snowy down collar. Patrols canopy treetops and harvests star-dew.",
       "favorite_items": [
-        "item_tea_thousand_stars_lavender",
+        "food_sylva_fae_ube_vanilla_tart",
         "drop_golden_pollen",
         "starlight_lavender"
       ],
@@ -3232,19 +3232,19 @@
       "birthday": "Autumn 28",
       "schedule": "20:00 - 05:00: Patrolling Sylva-Fae canopy; Day: Slumbering in silk cocoon",
       "real_world_wound": "Suffers photic hypersensitivity from blinding glare; isolated by living entirely inverted nocturnal hours from the rest of the world.",
-      "comfort_dish": "item_tea_thousand_stars_lavender",
+      "comfort_dish": "food_sylva_fae_ube_vanilla_tart",
       "heart_event_summary": "Patrols canopy boughs at night; gathers Luminescent Silk at 4 Hearts and Golden Silks for seamstress Elora at 8 Hearts.",
       "gift_preferences": {
         "loved": [
-          "item_tea_thousand_stars_lavender",
+          "sylva_fae_ube_vanilla_tart",
           "drop_moon_berry",
           "gem_amethyst"
         ],
         "liked": [
           "wild_berry",
           "wild_honey",
-          "item_pastry_scone_berry",
-          "item_pastry_scone_berry"
+          "blackberry_gold_kiwi_tart",
+          "walnut_chufa_trail_cookies"
         ],
         "disliked": [
           "ore_coal",
@@ -3331,7 +3331,7 @@
           "gem_amethyst"
         ],
         "liked": [
-          "item_tea_calming_lotus",
+          "snow_lotus_glow_fern_soup",
           "seed_sen_tea",
           "wild_honey",
           "item_wood_oak"
@@ -3514,7 +3514,7 @@
       "species": "Human (Ancient Hedge Witch)",
       "description": "Enigmatic marsh witch with raven-black tresses, violet gaze, and a pet crow perched on her shoulder. Gruff and spooky on the surface, but secretly nurse to wounded forest beasts.",
       "favorite_items": [
-        "item_tea_frostmint_breeze",
+        "food_chilled_pomegranate_mint_juice",
         "wild_berry",
         "crystal_shard"
       ],
@@ -3522,11 +3522,11 @@
       "birthday": "Autumn 27",
       "schedule": "All day: Marshland Hermitage; Blizzard nights: Lodging at the Hearth Eatery",
       "real_world_wound": "Shunned and vilified throughout civilized realms due to superstitious fear of her appearance; isolates herself to preemptively ward off rejection.",
-      "comfort_dish": "item_tea_frostmint_breeze",
+      "comfort_dish": "food_chilled_pomegranate_mint_juice",
       "heart_event_summary": "Concocts weapon-coating monster toxins at 4 Hearts; unlocks Critical Strike Elixir and Miasma Antidote at 8 Hearts.",
       "gift_preferences": {
         "loved": [
-          "item_tea_frostmint_breeze",
+          "chilled_pomegranate_mint_juice",
           "gem_amethyst",
           "drop_prism_jelly"
         ],
@@ -3537,7 +3537,7 @@
           "gem_ruby"
         ],
         "disliked": [
-          "item_bread_brioche",
+          "crusty_hearth_sourdough",
           "blackberry_gold_kiwi_tart"
         ],
         "hated": [
@@ -3622,20 +3622,20 @@
       "species": "Human",
       "description": "Bright, earnest scholar with a bouncy auburn bob and round spectacles, constantly balancing towering stacks of antique tomes. Passionate about authentic history.",
       "favorite_items": [
-        "item_tea_earl_grey_clara",
+        "food_hot_highland_milk_coffee",
         "food_walnut_chufa_trail_cookies",
-        "item_tea_calming_lotus"
+        "food_sun_daisy_lotus_herbal_tea"
       ],
       "quote": "The royal court ordered me to write that Oakhaven was a barbaric frontier hamlet... Yet beneath every single paving stone here lie fragments of a primordial golden age!",
       "birthday": "Spring 10",
       "schedule": "08:00 - 17:00: Archival research at the Oakhaven Library with Clara",
       "real_world_wound": "Grew up stifled beneath rigid imperial censorship; torn between court loyalty and an unquenchable devotion to truthful historical documentation.",
-      "comfort_dish": "item_tea_earl_grey_clara",
+      "comfort_dish": "food_hot_highland_milk_coffee",
       "heart_event_summary": "Opens Deep Mine Relic Appraisal service at 4 Hearts; completes the Valley Historical Museum at 8 Hearts.",
       "gift_preferences": {
         "loved": [
           "sun_daisy_lotus_herbal_tea",
-          "item_bread_brioche",
+          "crusty_hearth_sourdough",
           "gem_amethyst"
         ],
         "liked": [
@@ -3712,7 +3712,7 @@
       "species": "Celestial Spirit",
       "description": "Luminous astral being hovering softly above the sea of clouds in Aethelgard. Ancient guardian who surrendered mortal identity to watch over the oakhaven threshold.",
       "favorite_items": [
-        "item_tea_calming_lotus",
+        "food_sun_daisy_lotus_herbal_tea",
         "crystal_shard",
         "gem_sapphire"
       ],
@@ -3720,7 +3720,7 @@
       "birthday": "Endless (Unknown)",
       "schedule": "All day: Guarding the celestial threshold of Aethelgard",
       "real_world_wound": "Millennia of solitary celestial duty; the quiet tragedy of forgotten mortality and yearning for restful peace.",
-      "comfort_dish": "item_tea_calming_lotus",
+      "comfort_dish": "food_sun_daisy_lotus_herbal_tea",
       "heart_event_summary": "Recovers ancient primordial memories; permanently unseals the Aethelgard Skygate linking all 5 realms at 8 Hearts.",
       "gift_preferences": {
         "loved": [
@@ -3731,7 +3731,7 @@
         "liked": [
           "drop_moon_berry",
           "gem_sapphire",
-          "item_tea_calming_lotus",
+          "artichoke_lotus_cleansing_broth",
           "wild_honey"
         ],
         "disliked": [
@@ -3796,7 +3796,7 @@
       "description": "An aging, meticulous retired Solarian military quartermaster with wire-rimmed spectacles tied with cord, carrying a worn leather ledger. Hired by Rowan to manage the attic bunkhouse, shipping ledger, and estate finances.",
       "favorite_items": [
         "food_artichoke_lotus_cleansing_broth",
-        "item_bread_brioche",
+        "food_crusty_hearth_sourdough",
         "food_craft_hops_lichen_pear_brew"
       ],
       "quote": "Master Rowan, you have dragged half the mine indoors again! Wipe your boots on the straw mat before stepping inside.",
@@ -3807,8 +3807,8 @@
       "heart_event_summary": "Automates lodging rent collection; -10% building upgrade costs (2H); unlocks 2 new attic guest rooms (4H); market price forecast ledger (6H); homestead vault yielding 3% weekly interest (8H).",
       "gift_preferences": {
         "loved": [
-          "item_bread_brioche",
-          "item_tea_calming_lotus",
+          "avocado_egg_hearth_toast",
+          "sun_daisy_lotus_herbal_tea",
           "ore_gold"
         ],
         "liked": [
@@ -3926,7 +3926,7 @@
       "heart_event_summary": "Gifts sturdy adventurer backpack (+6 slots) (2H); automates flour milling and dairy collection (4H); when Rowan faints in the mine, hauls her safely to bed (dropped items remain lost) (6H); stashes dry firewood and delve torches at the homestead (8H).",
       "gift_preferences": {
         "loved": [
-          "item_dish_miner_potato_stew",
+          "creamy_mushroom_turnip_soup",
           "sea_salted_rice_ball",
           "item_wood_pine"
         ],
@@ -3937,7 +3937,7 @@
           "garlic_buttered_roasted_potato"
         ],
         "disliked": [
-          "item_pastry_scone_berry",
+          "blackberry_gold_kiwi_tart",
           "wild_berry"
         ],
         "hated": [
@@ -4050,7 +4050,7 @@
       "heart_event_summary": "15% discount on exotic wares (2H); sells rare foreign spice seeds (4H); delivers rumors and news from beyond the mountain pass (6H); signs weekly wholesale supply contract for the homestead (8H).",
       "gift_preferences": {
         "loved": [
-          "item_bread_brioche",
+          "avocado_egg_hearth_toast",
           "craft_hops_lichen_pear_brew",
           "ore_gold"
         ],
@@ -4376,7 +4376,7 @@
         ],
         "hated": [
           "drop_prism_jelly",
-          "item_tea_calming_lotus"
+          "sun_daisy_lotus_herbal_tea"
         ]
       },
       "schedules": {
@@ -4473,12 +4473,12 @@
           "item_wood_pine"
         ],
         "disliked": [
-          "item_pastry_scone_berry",
+          "blackberry_gold_kiwi_tart",
           "wild_berry"
         ],
         "hated": [
           "drop_prism_jelly",
-          "item_tea_calming_lotus"
+          "sun_daisy_lotus_herbal_tea"
         ]
       },
       "schedules": {
@@ -4553,13 +4553,13 @@
       "favorite_items": [
         "item_wood_pine",
         "item_wood_ironwood",
-        "item_bread_brioche"
+        "food_crusty_hearth_sourdough"
       ],
       "quote": "Town brats call me a soot-hag, but without my kilns their fingers would turn blue before the first hard freeze.",
       "birthday": "Fall 29",
       "schedule": "Daytime: Stacks timber mounds and tends slow-smoldering clay kilns; Evening: Roasts roots beside her kiln shanty",
       "real_world_wound": "Lost her husband and son in the frontier garrison defense; retreated into dense woods to find solace in hearth-smoke away from painful memories.",
-      "comfort_dish": "item_bread_brioche",
+      "comfort_dish": "food_crusty_hearth_sourdough",
       "heart_event_summary": "Supplies x3 Duration Heartwood Charcoal (2H); teaches Smokeless Earthen Kiln design (4H); -20% coal required for smelting ingots (6H); unlocks Master Ash-Retort Smelting Furnace (8H).",
       "gift_preferences": {
         "loved": [
@@ -4676,7 +4676,7 @@
           "wild_honey"
         ],
         "disliked": [
-          "item_tea_calming_lotus",
+          "sun_daisy_lotus_herbal_tea",
           "wild_berry"
         ],
         "hated": [
@@ -4755,29 +4755,29 @@
       "description": "The rowdiest scamp in Oakhaven, constantly spotted balancing atop orchard stone walls eyeing Rowan's ripe apples and strawberries. If befriended with warm treats, he becomes a nimble woodland scout for hidden forage.",
       "favorite_items": [
         "wild_berry",
-        "item_bread_brioche",
+        "food_crusty_hearth_sourdough",
         "wild_honey"
       ],
       "quote": "I swear on my slingshot I only climbed that apple branch to rescue a lost moth! Give me a chunk of that hot crusty loaf and I'll show you where the truffles grow!",
       "birthday": "Spring 5",
       "schedule": "Morning: Escapes Clara's lessons at the library; Afternoon: Scopes out fruit orchard fence lines; Evening: Slingshot pebble contests with friends",
       "real_world_wound": "His parents are exhausted struggling to rebuild their livelihoods after the war, leaving him largely unattended; acts out to feel seen and valued by adults.",
-      "comfort_dish": "item_bread_brioche",
+      "comfort_dish": "food_crusty_hearth_sourdough",
       "heart_event_summary": "Stops stealing fruit and gathers windfalls for Rowan (2H); marks secret forest berry groves on your map (4H); delivers rare wild honeycomb (6H); organizes the Junior Scout Watch warning of wild boars (8H).",
       "gift_preferences": {
         "loved": [
-          "item_pastry_scone_berry",
+          "blackberry_gold_kiwi_tart",
           "wild_berry",
           "wild_honey"
         ],
         "liked": [
-          "item_pastry_scone_berry",
+          "walnut_chufa_trail_cookies",
           "four_season_turban_orchard_cake",
           "item_wood_pine",
           "drop_moon_berry"
         ],
         "disliked": [
-          "item_tea_calming_lotus",
+          "sun_daisy_lotus_herbal_tea",
           "artichoke_lotus_cleansing_broth"
         ],
         "hated": [
@@ -4864,7 +4864,7 @@
       "gift_preferences": {
         "loved": [
           "artichoke_lotus_cleansing_broth",
-          "item_pastry_scone_berry",
+          "blackberry_gold_kiwi_tart",
           "gem_amethyst"
         ],
         "liked": [

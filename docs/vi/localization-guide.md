@@ -1,3 +1,12 @@
+---
+title: "Hướng Dẫn Hệ Thống Đa Ngôn Ngữ Game (Game Localization / i18n Guide)"
+status: published
+audience: public
+updated: 2026-11-26
+tags: [localization, i18n, gettext, godot, wiki]
+spoiler: false
+---
+
 # Hướng Dẫn Hệ Thống Đa Ngôn Ngữ Game (Game Localization / i18n Guide)
 
 Tài liệu này ghi chú quy chuẩn đồng bộ dữ liệu đa ngôn ngữ giữa **Rowan of Oakhaven Wiki** và dự án game **Godot (Indie-game-001)**.

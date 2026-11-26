@@ -168,14 +168,14 @@
       "name_en": "Solaria — The Royal Capital",
       "location_type": "realm",
       "description": "Thành phố lát đá cẩm thạch trắng nguy nga, đài phun nước phát quang, tháp chuông ngân vang và quảng trường Vương Cung hoa lệ. Rowan mở chi nhánh Quán Ăn thứ 2 tại góc phố hoàng gia.",
-      "unlock_condition": "Đạt Danh Tiếng Cấp 5 & mở khóa tuyến xe ngựa sao",
+      "unlock_condition": "Đạt Danh Tiếng Cấp 5 & mở khóa tuyến xe thồ thương hội",
       "notable_npcs": [
         "npc_valen",
         "npc_iris"
       ],
       "features": [
         "Chi nhánh Quán Ăn hoàng gia",
-        "Đại Hội Trà Đạo",
+        "Đại Hội Ẩm Thực Hoàng Gia",
         "Kỵ sĩ trưởng Valerius",
         "Công chúa Althea",
         "Ký giả Iris"

@@ -1,3 +1,12 @@
+---
+title: "Forestry, Orchard & Botanical Farming Compendium"
+status: published
+audience: public
+updated: 2026-11-26
+tags: [farming, forestry, trees, orchards, crops]
+spoiler: false
+---
+
 # Forestry, Orchard & Botanical Farming Compendium
 
 > *"When war swept through, the gods returned neither gold nor gems to our soil, but slumbering seeds buried beneath cold ash. To plant an oak today is to build a hearth for the generations of tomorrow."*  

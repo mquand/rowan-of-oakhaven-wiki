@@ -1,3 +1,12 @@
+---
+title: "Cẩm Nang Hệ Thống Nhiệm Vụ Uỷ Thác & Săn Thưởng"
+status: published
+audience: public
+updated: 2026-11-26
+tags: [quests, commissions, bounties, progression, tavern]
+spoiler: false
+---
+
 # 📜 Cẩm Nang Hệ Thống Nhiệm Vụ Uỷ Thác & Săn Thưởng (Help Wanted & Bounty Commissions)
 
 Hệ thống **Nhiệm Vụ Uỷ Thác** trong *Rowan of Oakhaven* kết nối 3 trụ cột gameplay chính: **Gắn kết tình cảm thị trấn**, **Chiến đấu hầm mỏ 150 tầng**, và **Kinh tế Quán Ăn & Nhà Trọ Oakhaven**.

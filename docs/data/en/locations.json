@@ -167,15 +167,15 @@
       "name": "Solaria — Capital of Light & Royal Palace",
       "name_en": "Solaria — The Royal Capital",
       "location_type": "realm",
-      "description": "Grand city of glistening white marble, luminous celestial fountains, chiming cathedral spires, and magnificent palace promenades. Rowan establishes a prestigious second tea branch here.",
-      "unlock_condition": "Reach Shop Fame Level 5 & unlock the Stardust Carriage line",
+      "description": "Grand city of glistening white marble, luminous fountains, chiming cathedral spires, and magnificent palace promenades. Rowan opens a second Hearth Eatery & Tavern branch here.",
+      "unlock_condition": "Reach Hearth Fame Level 5 & unlock the Guild Trade Caravan line",
       "notable_npcs": [
         "npc_valen",
         "npc_iris"
       ],
       "features": [
-        "Royal Tea Salon Branch",
-        "Grand Tea Guild Tournaments",
+        "Royal Hearth Eatery Branch",
+        "Royal Culinary Guild Tournaments",
         "High Knight Commander Valerius",
         "Princess Althea",
         "Chronicler Iris"

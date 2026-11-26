@@ -16,7 +16,7 @@ Tài liệu này là quy chuẩn **BẮT BUỘC** đối với mọi AI Agent (A
 3. **Phạm vi hoàn chỉnh (Full-Scope Completeness):**
    - Khi chỉnh sửa một tính năng, không được dừng lại ở một nửa giải pháp. Phải sửa xuyên suốt từ tầng Dữ liệu (JSON / Markdown) $\rightarrow$ Tầng Thư viện logic (Helper / Lib) $\rightarrow$ Tầng Giao diện (Component / SCSS) $\rightarrow$ Định tuyến (Route / Proxy).
 4. **Đối chiếu Design Compendium gốc (Single Source of Truth — BẮT BUỘC):**
-   - Khi chỉnh sửa, đối chiếu hoặc bổ sung bất kỳ thành phần nào (22 nhân vật, 20 cây trồng, 17 quặng kim loại, 11 đá quý, 33 công thức ẩm thực, 23 vũ khí, 5 địa danh), **BẮT BUỘC PHẢI MỞ VÀ CHECK TÀI LIỆU [OAKHAVEN_DESIGN_COMPENDIUM.md](./OAKHAVEN_DESIGN_COMPENDIUM.md)**.
+   - Khi chỉnh sửa, đối chiếu hoặc bổ sung bất kỳ thành phần nào (51 nhân vật [40 NPC bản địa], 92 loài thực vật [62 hoa màu & đặc hữu + 23 gỗ/quả + 7 hoa cảnh], 17 quặng kim loại, 11 đá quý, 55 công thức ẩm thực, 23 vũ khí, 5 địa danh), **BẮT BUỘC PHẢI MỞ VÀ CHECK TÀI LIỆU [OAKHAVEN_DESIGN_COMPENDIUM.md](./OAKHAVEN_DESIGN_COMPENDIUM.md)**.
    - Tuyệt đối không tự ý bịa đặt thông số, tên gọi, công thức hoặc hiệu ứng sai lệch so với Compendium chuẩn. Khi mở rộng hoặc thay đổi thiết kế hệ thống, BẮT BUỘC phải cập nhật đồng bộ ngược lại vào Compendium.
 
 ---

@@ -1,3 +1,12 @@
+---
+title: "Cẩm Nang Lâm Nghiệp, Cây Ăn Quả & Nông Nghiệp Oakhaven"
+status: published
+audience: public
+updated: 2026-11-26
+tags: [farming, forestry, trees, orchards, crops]
+spoiler: false
+---
+
 # Cẩm Nang Lâm Nghiệp, Cây Ăn Quả & Nông Nghiệp Oakhaven
 
 > *"Khi chiến tranh đi qua, thứ đầu tiên mà thần linh gửi lại cho thung lũng không phải là vàng bạc, mà là những hạt mầm ngủ vùi dưới tro tàn. Trồng xuống một cây sồi hôm nay là dựng nên mái nhà cho thế hệ mai sau."*  

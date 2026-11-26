@@ -10,7 +10,7 @@ spoiler: false
 # 🌍 Bản đồ thế giới — Năm vương quốc
 
 > **Game:** Rowan of Oakhaven  
-> **Thể loại:** Dark Pixel RPG — Trà Thảo Mộc & Bánh Ma Thuật · Nông Trại · Hang Mỏ · Đồng Cảm & Thanh Tẩy
+> **Thể loại:** Dark Pixel Action RPG — Quán Ăn & Nhà Trọ · Nông Trại · Hầm Mỏ 150 Tầng · Tái Thiết Hậu Chiến
 
 ---
 
@@ -63,12 +63,12 @@ Thế giới của Rowan of Oakhaven trải dài qua **5 Vương Quốc** (Realm
 
 ### 🏯 Realm 4 — Imperial City (Kinh Đô Hoàng Gia Solaria)
 **Mô tả:** Kinh đô tráng lệ lát đá cẩm thạch trắng, trung tâm quyền lực và thương mại xa hoa nơi Rowan từng từ chối cuộc sống học giả cung đình để trở về biên viễn Oakhaven. Chính trị phức tạp, cơ hội giao thương lớn.  
-**Đặc trưng:** Tháp phép thuật, chợ phù thủy, thư viện bí mật, đấu trường pha chế  
+**Đặc trưng:** Tháp phép thuật, chợ phù thủy, thư viện bí mật, đấu trường ẩm thực  
 **Cư dân:** Phù thủy quý tộc, học giả, thương nhân đặc sản  
 
 ### ✨ Realm 5 — Aethelgard / Elysium (Địa Đàng)
 **Mô tả:** Vùng đất huyền thoại trên mây, nơi ranh giới giữa thế giới người và thần linh mờ dần. Chỉ mở sau khi Rowan xây dựng đủ mối quan hệ.  
-**Đặc trưng:** Tinh thể sao bay lơ lửng, thảo nguyên mây, đền thờ cổ đại  
+**Đặc trưng:** Tinh thể ánh sao bay lơ lửng, thảo nguyên mây, đền thờ cổ đại  
 **Cư dân:** Linh hồn tổ tiên, thiên sứ, sinh vật ánh sáng  
 
 ---
