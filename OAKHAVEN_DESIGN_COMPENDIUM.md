@@ -64,7 +64,7 @@ Rowan sở hữu không gian sống hoàn toàn riêng biệt nằm trên tầng
 2. **Bàn Thử Nghiệm Ẩm Thực R&D (Rowan's Secret Lab Counter):**
    - Nơi Rowan tự do ghép 2 đến 4 nguyên liệu bất kỳ để tự mò ra công thức nấu ăn mới mà không lo làm hỏng nguyên liệu trước mặt khách.
 3. **Tủ Đồ Thời Trang & Gương Soi (Wardrobe & Mirror):**
-   - Quản lý và thay đổi trang phục: Nón, Áo giáp/Trang phục, Quần, Giày với hiệu ứng thị giác hiển thị trực tiếp lên nhân vật.
+   - Quản lý và thay đổi trang phục: Nón, Áo giáp/Trang phục, Quần, Giày. Để tối ưu sản xuất pixel art 8 hướng, **Nón/Phụ kiện đầu & Palette Swap màu áo** hiển thị trực tiếp lên nhân vật, còn Giáp/Giày thể hiện qua **icon & chỉ số UI**.
 4. **Kệ Trưng Bày Chiến Tích & Cổ Vật (Trophy & Relic Showcase):**
    - Nơi cắm các cúp vàng Lễ hội ẩm thực Oakhaven, đầu lâu quái vật tinh anh và cổ vật khai quật từ phế tích.
 5. **Hầm Ủ Men & Lên Men Riêng (Private Aging Cellar):**
